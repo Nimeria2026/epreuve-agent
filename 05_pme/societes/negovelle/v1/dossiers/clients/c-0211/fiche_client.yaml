@@ -1,0 +1,25 @@
+# Fiche du client c-0211 de Négovelle. Données FICTIVES.
+code: c-0211
+nom: Électricité Lacour
+type: artisan
+adresse: 5 place du Marché, 36999 Laubrissac (FICTIF)
+telephone: 02 61 91 88 34
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Gilles Boisson
+  fonction: gérant
+  courriel: gilles.boisson@electricite-lacour.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 5 place du Marché, 36999 Laubrissac (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2015-07-01'
+limite_encours_euros: 1500.0
+livraisons_partielles: false
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

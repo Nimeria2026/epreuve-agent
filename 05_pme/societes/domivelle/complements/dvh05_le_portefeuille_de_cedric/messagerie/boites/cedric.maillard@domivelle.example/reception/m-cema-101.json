@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cema-101",
+  "de": {
+    "nom": "Valérie Royer",
+    "adresse": "valerie.royer@courriel.example"
+  },
+  "a": [
+    "cedric.maillard@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Mon préavis",
+  "date": "2026-06-05T08:45:00+02:00",
+  "corps": "Bonjour Monsieur Maillard,\n\nJe vous donne mon préavis pour le logement du 25 rue Saint-Martin, lot c13-03 : je pars fin août.\n\nValérie Royer",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

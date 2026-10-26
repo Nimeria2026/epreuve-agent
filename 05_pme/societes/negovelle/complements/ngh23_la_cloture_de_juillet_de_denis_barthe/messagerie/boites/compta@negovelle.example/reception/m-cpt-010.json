@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-010",
+  "de": {
+    "nom": "Quincaillerie des Brandes",
+    "adresse": "facturation@quincaillerie-des-brandes.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture F42430",
+  "date": "2026-07-29T16:40:00+02:00",
+  "corps": "Bonjour,\n\nSauf erreur, notre facture F42430 du 8 juin, 1 989,00 € TTC, ne vous est pas parvenue : nous vous la renvoyons en pièce jointe.\n\nService facturation\nQuincaillerie des Brandes",
+  "pieces_jointes": [
+    {
+      "nom": "F42430.pdf",
+      "fichier": "pieces/m-cpt-010/F42430.pdf",
+      "taille_octets": 885
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

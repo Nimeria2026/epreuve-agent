@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-isro-019",
+  "de": {
+    "nom": "Gilles Boisson",
+    "adresse": "gilles.boisson@electricite-lacour.example"
+  },
+  "a": [
+    "isabelle.royer@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Notre règlement",
+  "date": "2026-08-29T09:20:00+02:00",
+  "corps": "Bonjour,\n\nNous vous avons envoyé un chèque le 25 août pour notre achat au comptoir du 4 juillet. Merci de ne plus nous relancer.\n\nGilles Boisson\nÉlectricité Lacour",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

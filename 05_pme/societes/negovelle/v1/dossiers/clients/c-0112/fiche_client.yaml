@@ -1,0 +1,31 @@
+# Fiche du client c-0112 de Négovelle. Données FICTIVES.
+code: c-0112
+nom: Menuiserie industrielle Gay
+type: pme
+adresse: 32 zone d'activités des Grands Prés, 36999 Laubrissac (FICTIF)
+telephone: 02 61 91 85 31
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Vincent Mabille
+  fonction: responsable des achats
+  courriel: vincent.mabille@menuiserie-industrielle-gay.example
+- nom: Louis Morel
+  fonction: responsable de maintenance
+  courriel: louis.morel@menuiserie-industrielle-gay.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 32 zone d'activités des Grands Prés, 36999 Laubrissac (FICTIF)
+- code: L2
+  libelle: dépôt
+  adresse: 29 zone industrielle des Brandes, 36999 Corvalet (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2013-03-01'
+limite_encours_euros: 8000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

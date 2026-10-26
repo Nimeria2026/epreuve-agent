@@ -1,0 +1,28 @@
+# Fiche du client c-0123 de Négovelle. Données FICTIVES.
+code: c-0123
+nom: Paysage Chevrier
+type: artisan
+adresse: 13 avenue de la Gare, 36999 Ardillac (FICTIF)
+telephone: 02 61 91 74 93
+secteur: est
+commercial: fabrice.mercier
+administration_des_ventes: benoit.faure
+contacts:
+- nom: Paul Barre
+  fonction: gérant
+  courriel: paul.barre@paysage-chevrier.example
+- nom: Patrice Lelièvre
+  fonction: conjoint collaborateur
+  courriel: patrice.lelievre@paysage-chevrier.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 13 avenue de la Gare, 36999 Ardillac (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2014-06-01'
+limite_encours_euros: 2000.0
+livraisons_partielles: false
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

@@ -1,0 +1,28 @@
+# Fiche du client c-0022 de Négovelle. Données FICTIVES.
+code: c-0022
+nom: Garage Péron
+type: pme
+adresse: 30 parc d'activités de la Gare, 36999 Saulvenne (FICTIF)
+telephone: 02 61 91 99 60
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Delphine Grondin
+  fonction: responsable des achats
+  courriel: delphine.grondin@garage-peron.example
+- nom: Hugo Péron
+  fonction: responsable de maintenance
+  courriel: hugo.peron@garage-peron.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 30 parc d'activités de la Gare, 36999 Saulvenne (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2009-07-01'
+limite_encours_euros: 6000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

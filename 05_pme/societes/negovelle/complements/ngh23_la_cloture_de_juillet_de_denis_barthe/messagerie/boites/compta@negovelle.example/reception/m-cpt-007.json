@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-007",
+  "de": {
+    "nom": "Visserie des Tilleuls",
+    "adresse": "facturation@visserie-des-tilleuls.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture F80372",
+  "date": "2026-07-29T11:50:00+02:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-jointe notre facture F80372 du 22 juillet 2026, pour votre commande CA-2026-0306 :\n- VIS-10751, Vis à bois tête fraisée 3,5x25, bichromatée, boîte de 200 : 30 x 9,77 € HT = 293,10 €\n- VIS-12760, Vis à bois tête fraisée 5x25, inox A2, boîte de 100 : 160 x 13,36 € HT = 2 137,60 €\n- VIS-13960, Vis à tôle tête cylindrique 4,8x13, inox A2, boîte de 100 : 300 x 6,77 € HT = 2 031,00 €\n\nTotal HT : 4 461,70 € ; TVA 20 % : 892,34 € ; total TTC : 5 354,04 €. Paiement à 45 jours fin de mois.\n\nService facturation\nVisserie des Tilleuls",
+  "pieces_jointes": [
+    {
+      "nom": "F80372.pdf",
+      "fichier": "pieces/m-cpt-007/F80372.pdf",
+      "taille_octets": 924
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01713",
+  "commande": "CO-2026-01864",
+  "client": "c-0269",
+  "date_expedition": "2026-06-25",
+  "date_livraison": "2026-06-25",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "22 rue des Forges, 36999 Ardillac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "CON-10816",
+      "libelle": "Disque abrasif fibre 125 mm, grain 240, boîte de 50",
+      "quantite": 4
+    },
+    {
+      "reference": "VIS-11290",
+      "libelle": "Vis à bois tête fraisée 3x30, bichromatée, boîte de 200",
+      "quantite": 4
+    }
+  ],
+  "reserves": null,
+  "signataire": "Philippe Durieux",
+  "statut": "livre"
+}

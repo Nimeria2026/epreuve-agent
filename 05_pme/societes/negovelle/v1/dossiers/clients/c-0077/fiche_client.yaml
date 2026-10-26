@@ -1,0 +1,28 @@
+# Fiche du client c-0077 de Négovelle. Données FICTIVES.
+code: c-0077
+nom: Quéré Bâtiment
+type: entreprise
+adresse: 23 parc d'activités de la Gare, 36999 Ardillac (FICTIF)
+telephone: 02 61 91 78 13
+secteur: est
+commercial: fabrice.mercier
+administration_des_ventes: benoit.faure
+contacts:
+- nom: Christine Maurin
+  fonction: conductrice de travaux
+  courriel: christine.maurin@quere-batiment.example
+- nom: Henri Sauvage
+  fonction: responsable des achats
+  courriel: henri.sauvage@quere-batiment.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 23 parc d'activités de la Gare, 36999 Ardillac (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2016-02-01'
+limite_encours_euros: 9500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

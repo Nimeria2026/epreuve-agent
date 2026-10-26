@@ -1,0 +1,28 @@
+# Fiche du client c-0164 de Négovelle. Données FICTIVES.
+code: c-0164
+nom: Cadiou Maintenance
+type: entreprise
+adresse: 11 parc d'activités de la Gare, 36999 Vaumoreau-sur-Indre (FICTIF)
+telephone: 02 61 91 78 04
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Hugo Maurin
+  fonction: conducteur de travaux
+  courriel: hugo.maurin@cadiou-maintenance.example
+- nom: Hélène Ducros
+  fonction: responsable des achats
+  courriel: helene.ducros@cadiou-maintenance.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 11 parc d'activités de la Gare, 36999 Vaumoreau-sur-Indre (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2008-09-01'
+limite_encours_euros: 9500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

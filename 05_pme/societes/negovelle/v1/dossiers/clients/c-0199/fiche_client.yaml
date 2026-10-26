@@ -1,0 +1,28 @@
+# Fiche du client c-0199 de Négovelle. Données FICTIVES.
+code: c-0199
+nom: Ateliers Gabriel
+type: pme
+adresse: 7 parc d'activités de la Gare, 36999 Fontclavier (FICTIF)
+telephone: 02 61 91 83 19
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Sylvain Lacour
+  fonction: responsable des achats
+  courriel: sylvain.lacour@ateliers-gabriel.example
+- nom: Florence Mahé
+  fonction: responsable de maintenance
+  courriel: florence.mahe@ateliers-gabriel.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 7 parc d'activités de la Gare, 36999 Fontclavier (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2015-01-01'
+limite_encours_euros: 5000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

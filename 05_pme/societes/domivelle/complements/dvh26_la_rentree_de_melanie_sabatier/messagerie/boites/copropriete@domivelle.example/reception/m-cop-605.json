@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cop-605",
+  "de": {
+    "nom": "Portes et Automatismes du Val-Brévalle",
+    "adresse": "commercial@portes-automatismes-val-brevalle.example"
+  },
+  "a": [
+    "copropriete@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Votre contrat d'entretien des portes de garage",
+  "date": "2026-08-20T09:00:00+02:00",
+  "corps": "Madame, Monsieur,\n\nSyndics de copropriété, réduisez de 20 % le coût de l'entretien de vos portes de garage avec notre contrat Sérénité. Un devis gratuit sur simple demande.\n\nL'équipe commerciale",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

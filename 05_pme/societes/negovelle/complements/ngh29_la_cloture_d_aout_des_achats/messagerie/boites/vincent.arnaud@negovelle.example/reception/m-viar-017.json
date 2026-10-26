@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-viar-017",
+  "de": {
+    "nom": "Samir Ouali",
+    "adresse": "samir.ouali@negovelle.example"
+  },
+  "a": [
+    "vincent.arnaud@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Seuil de QUI-10155",
+  "date": "2026-08-28T15:50:00+02:00",
+  "corps": "Vincent,\n\nUn client me demande 20 pièces de QUI-10155 (Boîte aux lettres normalisée, gris anthracite) à 36,00 € HT pièce, au lieu de 53,10 € HT au tarif. Avant d'en parler à Bruno : est-ce au-dessus du seuil de revente à perte ? Tu as les prix d'achat.\n\nSamir",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

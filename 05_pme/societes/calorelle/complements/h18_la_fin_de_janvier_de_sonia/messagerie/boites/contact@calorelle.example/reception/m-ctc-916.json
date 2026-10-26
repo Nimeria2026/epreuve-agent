@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-916",
+  "de": {
+    "nom": "Valérie Perrot",
+    "adresse": "valerie.perrot@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "RE: Devis climatisation",
+  "date": "2027-02-01T07:45:00+01:00",
+  "corps": "Bonjour,\n\nPour le devis de la climatisation, j'aimerais aussi une unité dans la chambre de l'étage.\n\nValérie Perrot, 65 rue de la Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,14 @@
+{
+  "numero": "INT-2026-0042",
+  "client": "c-0238",
+  "techniciens": [
+    "mathieu.picard",
+    "thomas.girard"
+  ],
+  "debut": "2026-11-13T08:00:00+01:00",
+  "fin": "2026-11-13T12:00:00+01:00",
+  "nature": "installation",
+  "objet": "Pose d'une pompe à chaleur air-eau",
+  "statut": "planifiee",
+  "cree_par": "marc.duval"
+}

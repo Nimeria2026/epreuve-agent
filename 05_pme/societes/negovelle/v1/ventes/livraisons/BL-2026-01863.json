@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01863",
+  "commande": "CO-2026-02024",
+  "client": "c-0062",
+  "date_expedition": "2026-07-03",
+  "date_livraison": null,
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "44 rue du Pont, 36999 Mérolles-en-Brenne (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "FIX-11535",
+      "libelle": "Goujon d'ancrage M12x100, boîte de 25",
+      "quantite": 12
+    },
+    {
+      "reference": "QUI-10016",
+      "libelle": "Arrêt de volet automatique, galvanisé",
+      "quantite": 6
+    }
+  ],
+  "reserves": null,
+  "signataire": null,
+  "statut": "en_cours"
+}

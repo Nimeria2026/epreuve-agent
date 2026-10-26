@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-elch-602",
+  "de": {
+    "nom": "Nadège Lebrun",
+    "adresse": "nadege.lebrun@domivelle.example"
+  },
+  "a": [
+    "elodie.chauvin@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Recommandé pour le lot c15-10",
+  "date": "2026-10-12T08:35:00+02:00",
+  "corps": "Élodie,\n\nCédric étant en congé, je te signale le recommandé de M. Gilles Boulanger, lot c15-10, dont j'ai signé l'avis de réception le vendredi 9 octobre. Il est numérisé dans courrier/2026-10/2026-10-09_conge_c15-10.pdf, avec la décision d'attribution de son logement social.\n\nNadège",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

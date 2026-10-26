@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-rejo-006",
+  "de": {
+    "nom": "Nathalie Brunet",
+    "adresse": "nathalie.brunet@negovelle.example"
+  },
+  "a": [
+    "remi.joly@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Disques écrasés",
+  "date": "2026-08-07T16:36:00+02:00",
+  "corps": "Rémi, un de mes dossiers ouverts, à reprendre.\n\nNathalie\n\n----- Message transféré -----\nDe : Camille Delaunay <camille.delaunay@menuiserie-blanchet.example>\nDate : 2026-07-20T11:20:00+02:00\nObjet : Disques écrasés\n\nBonjour,\n\nDeux boîtes de disques CON-10538 de la livraison du mercredi 15 juillet, BL-2026-01884, sont écrasées. Nous avons écrit au transporteur en recommandé ce matin (copie jointe).\n\nCamille Delaunay\nMenuiserie Blanchet",
+  "pieces_jointes": [
+    {
+      "nom": "lettre_recommandee_transporteur.pdf",
+      "fichier": "pieces/m-rejo-006/lettre_recommandee_transporteur.pdf",
+      "taille_octets": 942
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

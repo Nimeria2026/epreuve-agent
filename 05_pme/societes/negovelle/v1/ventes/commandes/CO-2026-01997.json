@@ -1,0 +1,117 @@
+{
+  "numero": "CO-2026-01997",
+  "client": "c-0270",
+  "reference_client": null,
+  "cree_le": "2026-07-02T09:10:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "8 zone d'activités des Grands Prés, 36999 Vaumoreau-sur-Indre (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-11135",
+      "libelle": "Câble R2V 5G 10 mm², couronne de 25 m",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 226.95,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 217.87,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 435.74
+    },
+    {
+      "reference": "ELE-12352",
+      "libelle": "Interrupteur différentiel 25 A 30 mA, type AC",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 71.45,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 68.59,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 411.54
+    },
+    {
+      "reference": "ELP-11698",
+      "libelle": "Ponceuse à bande 600 W",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 88.5,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 84.96,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 424.8
+    },
+    {
+      "reference": "PRO-10351",
+      "libelle": "Cartouche filtrante P3, la paire",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 27.45,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 27.45,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 109.8
+    },
+    {
+      "reference": "PRO-11910",
+      "libelle": "Tee-shirt de travail noir, taille L",
+      "quantite": 50,
+      "prix_tarif_ht_euros": 7.9,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 7.58,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 379.0
+    },
+    {
+      "reference": "QUI-11110",
+      "libelle": "Charnière à lames 30 mm, laiton",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 11.7,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 11.23,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 112.3
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 1873.18,
+  "total_tva_euros": 374.64,
+  "total_ttc_euros": 2247.82,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01846"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-02T09:10:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-02T09:12:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01846"
+    },
+    {
+      "date": "2026-07-03T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01846"
+    }
+  ]
+}

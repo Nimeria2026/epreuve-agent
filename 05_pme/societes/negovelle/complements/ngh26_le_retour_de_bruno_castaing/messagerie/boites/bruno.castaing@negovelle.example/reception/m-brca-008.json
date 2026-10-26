@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-brca-008",
+  "de": {
+    "nom": "Nathalie Brunet",
+    "adresse": "nathalie.brunet@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Arrêt de travail",
+  "date": "2026-08-10T08:05:00+02:00",
+  "corps": "Bonjour Bruno,\n\nVoici mon avis d'arrêt de travail, du 10 août 2026 au 28 août 2026 : fracture du poignet droit.\n\nNathalie",
+  "pieces_jointes": [
+    {
+      "nom": "avis_arret_de_travail.pdf",
+      "fichier": "pieces/m-brca-008/avis_arret_de_travail.pdf",
+      "taille_octets": 849
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

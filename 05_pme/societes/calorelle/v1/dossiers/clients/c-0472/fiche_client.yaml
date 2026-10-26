@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0472"
+nom: "Olivier Fontaine"
+type: "particulier"
+adresse: "89 rue de la Loire, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "olivier.fontaine@courriel.example"
+telephone: "06 39 98 51 12"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité Plus"
+  depuis: "2019-02-08"
+  mois_anniversaire: "février"
+  derniere_visite: "2026-02-20"

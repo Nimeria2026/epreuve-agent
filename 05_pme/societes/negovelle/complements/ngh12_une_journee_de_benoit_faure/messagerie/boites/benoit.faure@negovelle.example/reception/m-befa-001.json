@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-befa-001",
+  "de": {
+    "nom": "Xavier Genet",
+    "adresse": "xavier.genet@couverture-rocher.example"
+  },
+  "a": [
+    "benoit.faure@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-03T15:40:00+02:00",
+  "corps": "Bonjour Benoît,\n\nMerci de nous livrer au siège :\n- 10 x VIS-13674, Vis à tôle tête cylindrique 3,5x19, zinguée, boîte de 100\n- 6 x VIS-13683, Vis à tôle tête cylindrique 3,5x25, inox A2, boîte de 100\n\nCordialement,\nXavier Genet\nCouverture Rocher",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

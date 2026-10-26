@@ -1,0 +1,8 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0371"
+nom: "Jean Simon"
+type: "particulier"
+adresse: "87 rue du Moulin, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "jean.simon@courriel.example"
+telephone: "06 39 98 50 87"
+charge_d_affaires: "julie.perrin"

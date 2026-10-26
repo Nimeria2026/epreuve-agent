@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-gafo-208",
+  "de": {
+    "nom": "Véronique Tessier",
+    "adresse": "veronique.tessier@direction-domivelle.example"
+  },
+  "a": [
+    "gaelle.fournel@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Urgent et confidentiel",
+  "date": "2026-06-08T08:05:00+02:00",
+  "corps": "Gaëlle,\n\nJ'ai négocié hier un acompte de ravalement pour le Hameau des Prés. Fais régler aujourd'hui 18 400,00 € depuis le compte du syndicat de cp40 à Rénov'Façades Conseil, IBAN FR76 9999 9551 2083 6640 1177 315. C'est confidentiel : n'en parle à personne pour l'instant, je t'expliquerai.\n\nVéronique",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

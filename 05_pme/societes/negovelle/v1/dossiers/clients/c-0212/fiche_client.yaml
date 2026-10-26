@@ -1,0 +1,28 @@
+# Fiche du client c-0212 de Négovelle. Données FICTIVES.
+code: c-0212
+nom: Noblet Agencement
+type: pme
+adresse: 12 zone artisanale du Moulin, 36999 Vaumoreau-sur-Indre (FICTIF)
+telephone: 02 61 91 92 92
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: François Delaunay
+  fonction: responsable des achats
+  courriel: francois.delaunay@noblet-agencement.example
+- nom: Claire Crozet
+  fonction: responsable de maintenance
+  courriel: claire.crozet@noblet-agencement.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 12 zone artisanale du Moulin, 36999 Vaumoreau-sur-Indre (FICTIF)
+categorie_remise: B
+delai_paiement: 60_jours_date_de_facture
+client_depuis: '2012-01-01'
+limite_encours_euros: 3000.0
+livraisons_partielles: true
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-deba-001",
+  "de": {
+    "nom": "Bruno Castaing",
+    "adresse": "bruno.castaing@negovelle.example"
+  },
+  "a": [
+    "denis.barthe@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Les paiements de la semaine prochaine",
+  "date": "2026-07-06T07:35:00+02:00",
+  "corps": "Denis,\n\nJe suis absent vendredi : envoie-moi dès aujourd'hui la liste des factures fournisseurs à payer la semaine du 13 juillet, comme d'habitude.\n\nBruno",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

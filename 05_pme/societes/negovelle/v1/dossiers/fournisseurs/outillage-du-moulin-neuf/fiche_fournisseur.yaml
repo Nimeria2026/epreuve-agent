@@ -1,0 +1,10 @@
+# Fiche d'un fournisseur de Négovelle. Données FICTIVES.
+nom: Outillage du Moulin-Neuf
+activite: fabricant d'outillage à main
+adresse: 13 parc d'activités de la Gare, 36999 Brissonne (FICTIF)
+telephone: 02 61 91 82 09
+courriel_commandes: commandes@outillage-du-moulin-neuf.example
+courriel_facturation: facturation@outillage-du-moulin-neuf.example
+iban: FR76 9999 9314 1395 7636 4908 951 (FICTIF)
+conditions: paiement à 45 jours fin de mois
+minimum_de_commande: 500,00 € HT

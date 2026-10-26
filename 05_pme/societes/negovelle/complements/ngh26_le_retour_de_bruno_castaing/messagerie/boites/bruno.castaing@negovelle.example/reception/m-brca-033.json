@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-033",
+  "de": {
+    "nom": "Laurent Gimenez",
+    "adresse": "laurent.gimenez@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Électricité Legendre : 60 jours",
+  "date": "2026-08-13T11:10:00+02:00",
+  "corps": "Bruno,\n\nÉlectricité Legendre (c-0104) demande 60 jours date de facture au lieu de 30, à partir de septembre ; ils paient à l'heure depuis des années. Tu es d'accord ?\n\nLaurent",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-104",
+  "de": {
+    "nom": "Christophe Guérin",
+    "adresse": "christophe.guerin@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Changement d'adresse électronique",
+  "date": "2026-11-02T08:31:00+01:00",
+  "corps": "Bonjour Madame Perrin,\n\nJe change d'adresse électronique : merci d'utiliser désormais c.guerin.perso@courriel.example pour tous mes documents, l'ancienne sera bientôt fermée. Pouvez-vous m'y envoyer dès aujourd'hui la copie de mon contrat d'entretien ? J'en ai besoin pour mon assurance.\n\nMerci,\nChristophe Guérin (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,19 @@
+# Fiche du lot c05-07. Données FICTIVES.
+lot: c05-07
+adresse: 69 allée des Acacias, 18999 Montclavel-sur-Cher (FICTIF)
+type: maison T5
+surface_m2: 117
+locataire:
+  nom: M. Julien Bourgeois
+  courriel: julien.bourgeois@courriel.example
+  telephone: 06 39 98 77 07
+  entree: '2018-04-10'
+bail:
+  signature: '2018-04-10'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 1 168,00 €
+  depot_de_garantie: 973,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T4
+dpe:
+  classe: D

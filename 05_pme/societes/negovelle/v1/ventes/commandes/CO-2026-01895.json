@@ -1,0 +1,123 @@
+{
+  "numero": "CO-2026-01895",
+  "client": "c-0178",
+  "reference_client": "BC-2376",
+  "cree_le": "2026-06-25T09:10:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "7 zone industrielle des Brandes, 36999 Vaumoreau-sur-Indre (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-10685",
+      "libelle": "Collier de serrage 100x4,8 mm, sachet de 100",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 7.35,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 7.06,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 42.36
+    },
+    {
+      "reference": "ELE-11559",
+      "libelle": "Disjoncteur phase-neutre 16 A, courbe D",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 30.95,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 29.71,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 59.42
+    },
+    {
+      "reference": "ENT-10244",
+      "libelle": "Balai à franges 80 cm",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 18.8,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 18.8,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 37.6
+    },
+    {
+      "reference": "PRO-11314",
+      "libelle": "Manchettes anticoupure 35 cm",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 8.55,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 8.21,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 24.63
+    },
+    {
+      "reference": "QUI-10710",
+      "libelle": "Charnière de meuble à visser 80 mm, laiton",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 5.9,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 5.66,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 11.32
+    },
+    {
+      "reference": "VIS-13038",
+      "libelle": "Vis à bois tête fraisée 5x70, bichromatée, boîte de 200",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 21.55,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 20.69,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 82.76
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 273.09,
+  "total_tva_euros": 54.62,
+  "total_ttc_euros": 327.71,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01744"
+  ],
+  "facture": "FC-2026-1162",
+  "historique": [
+    {
+      "date": "2026-06-25T09:10:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-25T09:12:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-26T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01744"
+    },
+    {
+      "date": "2026-06-26T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01744"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1162"
+    }
+  ]
+}

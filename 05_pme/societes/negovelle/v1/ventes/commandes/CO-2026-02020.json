@@ -1,0 +1,133 @@
+{
+  "numero": "CO-2026-02020",
+  "client": "c-0112",
+  "reference_client": "BC-6227",
+  "cree_le": "2026-07-03T09:10:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "express",
+  "livraison": {
+    "code": "L1",
+    "adresse": "32 zone d'activités des Grands Prés, 36999 Laubrissac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-12302",
+      "libelle": "Ruban adhésif double face 48 mm, rouleau de 50 m",
+      "quantite": 18,
+      "prix_tarif_ht_euros": 11.0,
+      "remise_pourcent": 3.0,
+      "prix_net_ht_euros": 10.67,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 192.06
+    },
+    {
+      "reference": "CON-12368",
+      "libelle": "Ruban adhésif toilé gris 25 mm, rouleau de 33 m",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 10.2,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 10.2,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 20.4
+    },
+    {
+      "reference": "FIX-11706",
+      "libelle": "Goujon d'ancrage M8x140, boîte de 25",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 39.75,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 39.75,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 198.75
+    },
+    {
+      "reference": "PRO-10685",
+      "libelle": "Chaussures de sécurité légères composite S3, pointure 43",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 52.4,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 52.4,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 104.8
+    },
+    {
+      "reference": "QUI-12466",
+      "libelle": "Poignée de porte carrée sur plaque, noir mat",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 15.55,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 15.55,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 186.6
+    },
+    {
+      "reference": "VIS-12499",
+      "libelle": "Vis à bois tête fraisée 4x50, zinguée, boîte de 200",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 4.75,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 4.75,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 47.5
+    },
+    {
+      "reference": "VIS-12654",
+      "libelle": "Vis à bois tête fraisée 5x16, bichromatée, boîte de 500",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 12.75,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 12.75,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 12.75
+    },
+    {
+      "reference": "VIS-13013",
+      "libelle": "Vis à bois tête fraisée 5x60, inox A2, boîte de 500",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 3.5,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 3.5,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 21.0
+    }
+  ],
+  "port_ht_euros": 25.0,
+  "total_ht_euros": 808.86,
+  "total_tva_euros": 161.77,
+  "total_ttc_euros": 970.63,
+  "statut": "expediee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01862"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T09:10:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T09:12:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T16:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01862"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-b03",
+  "de": {
+    "nom": "Pierre Simonet",
+    "adresse": "pierre.simonet@chauffage-grondin.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Disponibilité",
+  "date": "2026-06-30T11:50:00+02:00",
+  "corps": "Bonjour,\n\nAvez-vous en stock la référence OUT-12433 ? Il m'en faudrait 20 pour la fin de semaine.\n\nMerci,\nPierre Simonet",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

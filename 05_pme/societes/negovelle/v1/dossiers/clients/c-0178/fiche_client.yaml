@@ -1,0 +1,28 @@
+# Fiche du client c-0178 de Négovelle. Données FICTIVES.
+code: c-0178
+nom: Brault et Fils
+type: entreprise
+adresse: 7 zone industrielle des Brandes, 36999 Vaumoreau-sur-Indre (FICTIF)
+telephone: 02 61 91 73 14
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Aurélie Valentin
+  fonction: conductrice de travaux
+  courriel: aurelie.valentin@brault-et-fils.example
+- nom: Jacques Cosson
+  fonction: responsable des achats
+  courriel: jacques.cosson@brault-et-fils.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 7 zone industrielle des Brandes, 36999 Vaumoreau-sur-Indre (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2022-12-01'
+limite_encours_euros: 3500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

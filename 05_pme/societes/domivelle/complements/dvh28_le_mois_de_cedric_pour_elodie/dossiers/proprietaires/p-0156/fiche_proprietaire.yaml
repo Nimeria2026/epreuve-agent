@@ -1,0 +1,11 @@
+# Fiche du propriétaire p-0156, mandant de Domivelle. Données FICTIVES.
+code: p-0156
+nom: M. Arnaud Noël
+adresse: 29 rue des Jardins, 18999 Montclavel-sur-Cher (FICTIF)
+courriel: arnaud.noel@messagerie.example
+telephone: 06 39 98 77 36
+iban: FR76 9999 9427 6681 3305 2219 864 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- c15-01
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

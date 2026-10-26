@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-415",
+  "de": {
+    "nom": "Établissements Bernard",
+    "adresse": "contact@etablissements-bernard-17.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Notre devis de climatisation",
+  "date": "2026-11-02T07:55:00+01:00",
+  "corps": "Bonjour Madame Perrin,\n\nAprès la visite de votre technicien début septembre, vous deviez nous envoyer le devis de climatisation de l'atelier. Nous ne l'avons toujours pas reçu : pouvez-vous nous l'envoyer cette semaine ?\n\nCordialement,\nÉtablissements Bernard (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

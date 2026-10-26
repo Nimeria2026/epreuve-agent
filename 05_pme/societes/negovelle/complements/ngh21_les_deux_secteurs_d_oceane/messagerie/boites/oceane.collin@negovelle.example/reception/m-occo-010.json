@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-occo-010",
+  "de": {
+    "nom": "Gérard Navarre",
+    "adresse": "gerard.navarre@charpente-guillon.example"
+  },
+  "a": [
+    "oceane.collin@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-06T08:00:00+02:00",
+  "corps": "Bonjour,\n\nVoici notre commande, à livrer au siège :\n- 8 x QUI-11274, Coulisse de tiroir à fermeture amortie 300 mm, la paire\n- 4 x VIS-11813, Vis à bois tête fraisée 4,5x30, inox A2, boîte de 200\n\nMerci,\nGérard Navarre\nCharpente Guillon",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

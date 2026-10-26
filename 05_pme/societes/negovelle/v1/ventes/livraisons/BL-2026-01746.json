@@ -1,0 +1,34 @@
+{
+  "numero": "BL-2026-01746",
+  "commande": "CO-2026-01897",
+  "client": "c-0109",
+  "date_expedition": "2026-06-29",
+  "date_livraison": "2026-06-29",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "14 zone artisanale du Moulin, 36999 Ardillac (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "ELE-12417",
+      "libelle": "Interrupteur différentiel 63 A 30 mA, type Hpi",
+      "quantite": 2
+    },
+    {
+      "reference": "QUI-12768",
+      "libelle": "Serrure à larder bec-de-cane, axe 40 mm",
+      "quantite": 5
+    },
+    {
+      "reference": "VIS-13495",
+      "libelle": "Vis à bois tête fraisée 6x60, bichromatée, boîte de 100",
+      "quantite": 10
+    }
+  ],
+  "reserves": null,
+  "signataire": "Valérie Gervais",
+  "statut": "livre"
+}

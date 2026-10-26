@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-sl-201",
+  "de": {
+    "nom": "Banque Fictive du Val, service des crédits",
+    "adresse": "credits@banque-fictive-du-val.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Attestation d'employeur : M. David Roussel",
+  "date": "2026-11-02T08:20:00+01:00",
+  "corps": "Madame,\n\nDans le cadre d'une demande de prêt immobilier, M. David Roussel nous indique être salarié de votre entreprise. Il nous a donné son accord pour que vous nous le confirmiez. Merci de nous retourner l'attestation ci-jointe, complétée : poste, date d'entrée, type de contrat et salaire brut mensuel.\n\nService des crédits, Banque Fictive du Val (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "attestation_employeur.pdf",
+      "fichier": "pieces/m-sl-201/attestation_employeur.pdf",
+      "taille_octets": 778
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

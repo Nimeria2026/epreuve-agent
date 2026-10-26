@@ -1,0 +1,11 @@
+# Fiche du propriétaire p-0594, mandant de Domivelle. Données FICTIVES.
+code: p-0594
+nom: Mme Hélène Thibault
+adresse: 88 rue du Lavoir, 18999 Chantebrune (FICTIF)
+courriel: helene.thibault@boite-postale.example
+telephone: 06 39 98 76 23
+iban: FR76 9999 9367 1180 2259 7713 405 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- s14-04
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

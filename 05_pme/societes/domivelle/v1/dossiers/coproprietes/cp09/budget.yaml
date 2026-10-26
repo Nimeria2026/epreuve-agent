@@ -1,0 +1,17 @@
+# Budget prévisionnel de l'exercice en cours, voté, copropriété cp09. Données FICTIVES.
+copropriete: cp09
+exercice: '2026'
+total: 23 400,00 €
+postes:
+  nettoyage des parties communes: 5 148,00 €
+  espaces verts: 1 872,00 €
+  électricité des parties communes: 2 106,00 €
+  eau: 3 276,00 €
+  assurance de l'immeuble: 2 574,00 €
+  honoraires du syndic: 4 212,00 €
+  entretien et petites réparations: 2 340,00 €
+  ascenseur, contrat et électricité: 1 872,00 €
+repartition:
+  charges générales, aux tantièmes généraux: 21 528,00 €
+  ascenseur, aux tantièmes d'ascenseur: 1 872,00 €
+appel: un quart du budget, exigible le premier jour de chaque trimestre

@@ -1,0 +1,103 @@
+{
+  "numero": "CO-2026-02015",
+  "client": "c-0254",
+  "reference_client": "BC-1625",
+  "cree_le": "2026-07-03T09:10:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "108 rue des Remparts, 36999 Fontclavier (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-10147",
+      "libelle": "Ampoule LED E27 6 W, 4000 K",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 8.9,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 8.54,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 8.54
+    },
+    {
+      "reference": "OUT-11421",
+      "libelle": "Niveau à bulle de maçon 120 cm",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 63.85,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 61.3,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 61.3
+    },
+    {
+      "reference": "OUT-12417",
+      "libelle": "Spatule de peintre 250 mm",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 9.55,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 9.17,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 27.51
+    },
+    {
+      "reference": "PLB-12229",
+      "libelle": "Raccord à sertir coude 90° 26 mm",
+      "quantite": 30,
+      "prix_tarif_ht_euros": 3.35,
+      "remise_pourcent": 6.88,
+      "prix_net_ht_euros": 3.12,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 93.6
+    },
+    {
+      "reference": "PLB-13160",
+      "libelle": "Tube cuivre écroui 18 mm, barre de 4 m",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 37.5,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 36.0,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 216.0
+    },
+    {
+      "reference": "PRO-11592",
+      "libelle": "Pantalon de travail multipoches gris, taille 50",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 33.8,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 32.45,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 32.45
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 439.4,
+  "total_tva_euros": 87.88,
+  "total_ttc_euros": 527.28,
+  "statut": "validee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T09:10:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T09:12:00+02:00",
+      "par": "oceane.collin",
+      "action": "validee",
+      "detail": ""
+    }
+  ]
+}

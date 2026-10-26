@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-ctc-826",
+  "de": {
+    "nom": "Inès Vidal",
+    "adresse": "ines.vidal@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Candidature en apprentissage, à l'attention de M. Thomas Girard",
+  "date": "2026-10-31T18:30:00+01:00",
+  "corps": "Bonjour Monsieur Girard,\n\nComme convenu au salon de l'apprentissage, je vous adresse ma candidature pour un apprentissage de monteur en installations thermiques. Mon CV est joint.\n\nInès Vidal (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "CV_Ines_Vidal.pdf",
+      "fichier": "pieces/m-ctc-826/CV_Ines_Vidal.pdf",
+      "taille_octets": 797
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

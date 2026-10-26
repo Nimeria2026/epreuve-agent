@@ -1,0 +1,108 @@
+{
+  "numero": "CO-2026-02042",
+  "client": "c-0130",
+  "reference_client": null,
+  "cree_le": "2026-07-03T15:00:00+02:00",
+  "cree_par": "laurent.gimenez",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "23 rue du Château, 36999 Vaumoreau-sur-Indre (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-11657",
+      "libelle": "Disjoncteur tétrapolaire 20 A, courbe C",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 58.8,
+      "remise_pourcent": 6.88,
+      "prix_net_ht_euros": 54.75,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 547.5
+    },
+    {
+      "reference": "QUI-11690",
+      "libelle": "Cylindre européen 45x50 mm, 5 clés",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 59.65,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 57.26,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 343.56
+    },
+    {
+      "reference": "PLB-11812",
+      "libelle": "Mitigeur thermostatique de douche, inox brossé",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 77.35,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 74.26,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 297.04
+    },
+    {
+      "reference": "PLB-12409",
+      "libelle": "Robinet d'arrêt de machine à laver 15x21",
+      "quantite": 24,
+      "prix_tarif_ht_euros": 23.1,
+      "remise_pourcent": 6.88,
+      "prix_net_ht_euros": 21.51,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 516.24
+    },
+    {
+      "reference": "ELE-11412",
+      "libelle": "Câble téléphonique 4 paire(s), couronne de 25 m",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 52.5,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 50.4,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 302.4
+    },
+    {
+      "reference": "ELE-12384",
+      "libelle": "Interrupteur différentiel 40 A 30 mA, type AC",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 80.5,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 77.28,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 309.12
+    },
+    {
+      "reference": "ELE-11029",
+      "libelle": "Câble R2V 3G 1,5 mm², couronne de 25 m",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 159.75,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 153.36,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 613.44
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 2929.3,
+  "total_tva_euros": 585.86,
+  "total_ttc_euros": 3515.16,
+  "statut": "brouillon",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T15:00:00+02:00",
+      "par": "laurent.gimenez",
+      "action": "creee",
+      "detail": "prix demandés au président"
+    }
+  ]
+}

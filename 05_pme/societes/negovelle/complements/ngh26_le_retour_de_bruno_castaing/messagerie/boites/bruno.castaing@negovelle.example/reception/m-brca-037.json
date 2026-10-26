@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-037",
+  "de": {
+    "nom": "Isabelle Royer",
+    "adresse": "isabelle.royer@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Carrelage Grondin",
+  "date": "2026-08-21T11:40:00+02:00",
+  "corps": "Bruno,\n\nCarrelage Grondin (c-0290) est bloqué depuis la mise en demeure du 17 juillet, rien n'est réglé. Fabrice me demande de laisser passer une commande de 30 boîtes de vis, en disant que tu étais d'accord, au téléphone, fin juillet. Je ne fais rien sans ton écrit : que décides-tu ?\n\nIsabelle",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

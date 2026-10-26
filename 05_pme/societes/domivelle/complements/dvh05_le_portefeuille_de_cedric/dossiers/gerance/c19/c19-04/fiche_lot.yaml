@@ -1,0 +1,19 @@
+# Fiche du lot c19-04. Données FICTIVES.
+lot: c19-04
+adresse: 24 rue du Pont, 18999 Montclavel-sur-Cher (FICTIF)
+type: T3
+surface_m2: 55
+locataire:
+  nom: Mme Josiane Lesage
+  courriel: josiane.lesage@boite-postale.example
+  telephone: 06 39 98 74 77
+  entree: '2016-03-20'
+bail:
+  signature: '2016-03-20'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 520,00 €
+  depot_de_garantie: 416,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T4
+dpe:
+  classe: C

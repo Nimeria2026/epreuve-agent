@@ -1,0 +1,13 @@
+{
+  "numero": "INT-2026-0025",
+  "client": "c-0312",
+  "techniciens": [
+    "florian.masson"
+  ],
+  "debut": "2026-11-06T10:00:00+01:00",
+  "fin": "2026-11-06T12:00:00+01:00",
+  "nature": "depannage",
+  "objet": "Dépannage : VMC double flux en défaut",
+  "statut": "planifiee",
+  "cree_par": "donnees_initiales"
+}

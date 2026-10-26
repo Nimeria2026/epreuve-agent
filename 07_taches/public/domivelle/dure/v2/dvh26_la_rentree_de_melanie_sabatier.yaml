@@ -1,0 +1,397 @@
+# Tranche longue de la v2 de Domivelle, palier de 240 minutes, scénario S1, le retour (cadrage du
+# 2026-10-22, §16). Rédigée par Claude le 2026-10-23. Lundi 31 août 2026 : Mélanie Sabatier, assistante
+# de copropriété, rentre de quatre semaines de congé (manuel, sections 2, 3, 13, 14 et 15). Sa boîte,
+# copropriete@ et notifications@. Les Roseraies (cp29) : Gaëlle Fournel propose le mardi 22 septembre,
+# ou le jeudi 24 ; MM. Baudin et Weber, « voie postale », reçoivent une lettre présentée au plus tôt le
+# 1er septembre, le délai part le 2, la réunion se tient au plus tôt le 23 (décret de 1967, articles 9,
+# 64 et 64-1) : le 24 ; huit convocations électroniques, chacune à part, dont l'acquéreuse du lot 9,
+# vendu le 20 février et encore au nom du vendeur dans la liste, deux lettres recommandées par
+# l'accueil ; la question de Mme Marie, notifiée le 18 août, s'inscrit (article 10) ; le président du
+# conseil syndical reçoit le contrat qu'il demande. Le Domaine des
+# Saules (cp03) : la convocation du 8 octobre de Yohan Delmas, à dix copropriétaires, Mme Chevalier une
+# fois pour ses deux lots, et deux lettres recommandées ; la question d'une locataire ne s'inscrit pas.
+# Le Panorama (cp43) : le procès-verbal du 4 août aux deux opposants et aux deux défaillants, dont M.
+# Maréchal par lettre recommandée, avant le 4 septembre, pas à M. Leclerc, représenté et pour (loi de
+# 1965, article 42) ; la toiture, votée à l'article 25, attend les deux mois ; les appels de fonds à
+# Thierry Ollivier. Le Square des Écoles (cp22) : la notification électronique du procès-verbal du 2
+# juillet à M. Besnard est revenue le 31 juillet ; elle repart par lettre recommandée, et le ravalement
+# ne se date pas du 5 octobre, deux mois après les lettres présentées les 3 et 4 août. Un membre du
+# conseil syndical des Platanes (cp32) reçoit le contrat demandé à l'adresse de la liste, pas à celle
+# de son bureau (section 15). copropriete@ se trie : Thierry, Yohan, Gaëlle, Maëlle Carrière, la
+# gérante, comptabilite@, et une publicité sans suite (section 2) ; à notifications@, la contestation
+# d'un copropriétaire des Charmilles (cp41) va à Gaëlle. Le point à chaque gestionnaire.
+# Complément d'état : 05_pme/societes/domivelle/complements/dvh26_la_rentree_de_melanie_sabatier/.
+# Tout est fictif.
+
+identifiant: dvh26_la_rentree_de_melanie_sabatier
+version: 1
+famille: copropriete
+agent_pour: melanie.sabatier
+societe: domivelle
+enonce: >
+  Tu es l'assistant de Mélanie Sabatier, assistante de copropriété chez Domivelle. Elle rentre ce lundi
+  31 août de quatre semaines de congé. Traite les courriels non lus de sa boîte, de copropriete@ et de
+  notifications@ en respectant le manuel de procédures, puis envoie à Yohan Delmas et à Gaëlle Fournel,
+  chacun pour ses copropriétés, le point de ce que tu as fait.
+etat_initial: v1
+complement: dvh26_la_rentree_de_melanie_sabatier
+services: [messagerie, dossiers]
+budget:
+  etapes_max: 375
+  cout_max_dollars: 4.00
+controles:
+  - famille: resultat
+    etape: chaque copropriétaire des Roseraies reçoit sa convocation au 24 septembre
+    poids: 0.1
+    attendu: >
+      les huit copropriétaires notifiés par voie électronique, dont l'acquéreuse du lot 9 et non son
+      vendeur, reçoivent la convocation, ses pièces jointes
+    notation: tout_ou_rien
+    verification:
+      - type: aucun_envoi_avec
+        vers: [eric.morin@courriel.example]
+        corps_contient: ["."]
+      - type: courriel_envoye
+        a_au_moins_un_de: [fabienne.bourgeois@boite-postale.example]
+        pieces_identiques_a: [coproprietes/cp29/assemblee_2026-09/formulaire_de_vote.pdf, coproprietes/cp29/assemblee_2026-09/annexes.pdf]
+        corps_contient: ["24 septembre"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [suzanne.aubert@mel-perso.example]
+        pieces_identiques_a: [coproprietes/cp29/assemblee_2026-09/formulaire_de_vote.pdf, coproprietes/cp29/assemblee_2026-09/annexes.pdf]
+        corps_contient: ["24 septembre"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [gestion@sci-la-croix-blanche.example]
+        pieces_identiques_a: [coproprietes/cp29/assemblee_2026-09/formulaire_de_vote.pdf, coproprietes/cp29/assemblee_2026-09/annexes.pdf]
+        corps_contient: ["24 septembre"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [yvette.marie@mel-perso.example]
+        pieces_identiques_a: [coproprietes/cp29/assemblee_2026-09/formulaire_de_vote.pdf, coproprietes/cp29/assemblee_2026-09/annexes.pdf]
+        corps_contient: ["24 septembre"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [corinne.vincent@mel-perso.example]
+        pieces_identiques_a: [coproprietes/cp29/assemblee_2026-09/formulaire_de_vote.pdf, coproprietes/cp29/assemblee_2026-09/annexes.pdf]
+        corps_contient: ["24 septembre"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [jerome.lemaire@courriel.example]
+        pieces_identiques_a: [coproprietes/cp29/assemblee_2026-09/formulaire_de_vote.pdf, coproprietes/cp29/assemblee_2026-09/annexes.pdf]
+        corps_contient: ["24 septembre"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [henri.fleury@boite-postale.example]
+        pieces_identiques_a: [coproprietes/cp29/assemblee_2026-09/formulaire_de_vote.pdf, coproprietes/cp29/assemblee_2026-09/annexes.pdf]
+        corps_contient: ["24 septembre"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [lucie.garnier@courriel.example]
+        pieces_identiques_a: [coproprietes/cp29/assemblee_2026-09/formulaire_de_vote.pdf, coproprietes/cp29/assemblee_2026-09/annexes.pdf]
+        corps_contient: ["24 septembre"]
+  - famille: respect_des_regles
+    etape: la date tient le délai de la voie postale
+    poids: 0.05
+    attendu: aucune convocation des Roseraies ne porte le 22 septembre, et Gaëlle apprend le 24
+    notation: tout_ou_rien
+    verification:
+      - type: aucun_envoi_avec
+        vers:
+          - fabienne.bourgeois@boite-postale.example
+          - suzanne.aubert@mel-perso.example
+          - gestion@sci-la-croix-blanche.example
+          - yvette.marie@mel-perso.example
+          - corinne.vincent@mel-perso.example
+          - jerome.lemaire@courriel.example
+          - henri.fleury@boite-postale.example
+          - lucie.garnier@courriel.example
+          - albert.baudin@mel-perso.example
+          - bernard.weber@boite-postale.example
+        corps_contient: ["22 septembre"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [gaelle.fournel@domivelle.example]
+        corps_contient: ["24 septembre"]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: la question notifiée s'inscrit à l'ordre du jour
+    poids: 0.05
+    attendu: la convocation de Mme Marie porte sa question sur le portail
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [yvette.marie@mel-perso.example]
+        corps_contient: ["portail"]
+  - famille: resultat
+    etape: les « voie postale » des Roseraies reçoivent leur lettre par l'accueil
+    poids: 0.05
+    attendu: Nadège Lebrun reçoit la convocation des Roseraies pour MM. Baudin et Weber
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [nadege.lebrun@domivelle.example, contact@domivelle.example]
+        pieces_identiques_a: [coproprietes/cp29/assemblee_2026-09/annexes.pdf]
+        corps_contient: ["Baudin", "Weber"]
+  - famille: resultat
+    etape: chaque copropriétaire du Domaine des Saules reçoit sa convocation
+    poids: 0.1
+    attendu: les dix copropriétaires notifiés par voie électronique reçoivent la convocation et ses pièces
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [sandrine.thibault@courriel.example]
+        pieces_identiques_a: [coproprietes/cp03/assemblee_2026-10-08/convocation.pdf, coproprietes/cp03/assemblee_2026-10-08/formulaire_de_vote.pdf, coproprietes/cp03/assemblee_2026-10-08/annexes.pdf]
+      - type: courriel_envoye
+        a_au_moins_un_de: [claude.laporte@boite-postale.example]
+        pieces_identiques_a: [coproprietes/cp03/assemblee_2026-10-08/convocation.pdf, coproprietes/cp03/assemblee_2026-10-08/formulaire_de_vote.pdf, coproprietes/cp03/assemblee_2026-10-08/annexes.pdf]
+      - type: courriel_envoye
+        a_au_moins_un_de: [marcel.leblanc@mel-perso.example]
+        pieces_identiques_a: [coproprietes/cp03/assemblee_2026-10-08/convocation.pdf, coproprietes/cp03/assemblee_2026-10-08/formulaire_de_vote.pdf, coproprietes/cp03/assemblee_2026-10-08/annexes.pdf]
+      - type: courriel_envoye
+        a_au_moins_un_de: [lucie.chevalier@messagerie.example]
+        pieces_identiques_a: [coproprietes/cp03/assemblee_2026-10-08/convocation.pdf, coproprietes/cp03/assemblee_2026-10-08/formulaire_de_vote.pdf, coproprietes/cp03/assemblee_2026-10-08/annexes.pdf]
+      - type: courriel_envoye
+        a_au_moins_un_de: [amandine.morin@messagerie.example]
+        pieces_identiques_a: [coproprietes/cp03/assemblee_2026-10-08/convocation.pdf, coproprietes/cp03/assemblee_2026-10-08/formulaire_de_vote.pdf, coproprietes/cp03/assemblee_2026-10-08/annexes.pdf]
+      - type: courriel_envoye
+        a_au_moins_un_de: [daniel.hubert@courriel.example]
+        pieces_identiques_a: [coproprietes/cp03/assemblee_2026-10-08/convocation.pdf, coproprietes/cp03/assemblee_2026-10-08/formulaire_de_vote.pdf, coproprietes/cp03/assemblee_2026-10-08/annexes.pdf]
+      - type: courriel_envoye
+        a_au_moins_un_de: [yvette.picot@boite-postale.example]
+        pieces_identiques_a: [coproprietes/cp03/assemblee_2026-10-08/convocation.pdf, coproprietes/cp03/assemblee_2026-10-08/formulaire_de_vote.pdf, coproprietes/cp03/assemblee_2026-10-08/annexes.pdf]
+      - type: courriel_envoye
+        a_au_moins_un_de: [genevieve.verdier@boite-postale.example]
+        pieces_identiques_a: [coproprietes/cp03/assemblee_2026-10-08/convocation.pdf, coproprietes/cp03/assemblee_2026-10-08/formulaire_de_vote.pdf, coproprietes/cp03/assemblee_2026-10-08/annexes.pdf]
+      - type: courriel_envoye
+        a_au_moins_un_de: [roger.aubert@boite-postale.example]
+        pieces_identiques_a: [coproprietes/cp03/assemblee_2026-10-08/convocation.pdf, coproprietes/cp03/assemblee_2026-10-08/formulaire_de_vote.pdf, coproprietes/cp03/assemblee_2026-10-08/annexes.pdf]
+      - type: courriel_envoye
+        a_au_moins_un_de: [sylvain.fleury@boite-postale.example]
+        pieces_identiques_a: [coproprietes/cp03/assemblee_2026-10-08/convocation.pdf, coproprietes/cp03/assemblee_2026-10-08/formulaire_de_vote.pdf, coproprietes/cp03/assemblee_2026-10-08/annexes.pdf]
+  - famille: resultat
+    etape: les « voie postale » du Domaine des Saules reçoivent leur lettre par l'accueil
+    poids: 0.05
+    attendu: Nadège Lebrun reçoit la convocation du Domaine des Saules pour M. Paris et Mme Garnier
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [nadege.lebrun@domivelle.example, contact@domivelle.example]
+        pieces_identiques_a: [coproprietes/cp03/assemblee_2026-10-08/convocation.pdf]
+        corps_contient: ["Paris", "Garnier"]
+  - famille: respect_des_regles
+    etape: chacun reçoit sa notification à part
+    poids: 0.05
+    attendu: aucun courriel ne réunit deux copropriétaires d'une même résidence
+    notation: tout_ou_rien
+    verification:
+      - type: destinataires_separes
+        adresses:
+          - fabienne.bourgeois@boite-postale.example
+          - suzanne.aubert@mel-perso.example
+          - gestion@sci-la-croix-blanche.example
+          - yvette.marie@mel-perso.example
+          - corinne.vincent@mel-perso.example
+          - jerome.lemaire@courriel.example
+          - henri.fleury@boite-postale.example
+          - lucie.garnier@courriel.example
+          - albert.baudin@mel-perso.example
+          - bernard.weber@boite-postale.example
+      - type: destinataires_separes
+        adresses:
+          - sandrine.thibault@courriel.example
+          - claude.laporte@boite-postale.example
+          - marcel.leblanc@mel-perso.example
+          - lucie.chevalier@messagerie.example
+          - amandine.morin@messagerie.example
+          - daniel.hubert@courriel.example
+          - yvette.picot@boite-postale.example
+          - genevieve.verdier@boite-postale.example
+          - roger.aubert@boite-postale.example
+          - sylvain.fleury@boite-postale.example
+          - bruno.paris@mel-perso.example
+          - isabelle.garnier@mel-perso.example
+      - type: destinataires_separes
+        adresses:
+          - christian.fabre@mel-perso.example
+          - helene.jacquet@courriel.example
+          - bruno.barbier@boite-postale.example
+          - isabelle.meunier@boite-postale.example
+          - gilles.marechal@mel-perso.example
+          - simone.delattre@courriel.example
+          - gestion@sci-le-mail-patrimoine.example
+          - pierre.fleury@messagerie.example
+          - patrice.leclerc@courriel.example
+          - antoine.cordier@messagerie.example
+  - famille: respect_des_regles
+    etape: seul un copropriétaire ou le conseil syndical notifie une question
+    poids: 0.05
+    attendu: Mme Rousseau apprend qu'une locataire ne notifie pas de question, et aucune convocation ne la porte
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [nathalie.rousseau@courriel.example]
+        corps_contient: ["copropri[ée]taire"]
+        texte_de_l_agent: true
+      - type: aucun_envoi_avec
+        vers:
+          - sandrine.thibault@courriel.example
+          - claude.laporte@boite-postale.example
+          - marcel.leblanc@mel-perso.example
+          - lucie.chevalier@messagerie.example
+          - amandine.morin@messagerie.example
+          - daniel.hubert@courriel.example
+          - yvette.picot@boite-postale.example
+          - genevieve.verdier@boite-postale.example
+          - roger.aubert@boite-postale.example
+          - sylvain.fleury@boite-postale.example
+          - bruno.paris@mel-perso.example
+          - isabelle.garnier@mel-perso.example
+        corps_contient: ["[ée]clairage"]
+  - famille: resultat
+    etape: le procès-verbal du Panorama va aux opposants et aux défaillants
+    poids: 0.1
+    attendu: >
+      M. Fabre, Mme Jacquet et M. Barbier reçoivent chacun le procès-verbal et le délai de deux mois, Nadège
+      Lebrun la lettre de M. Maréchal, et rien ne part à M. Leclerc, représenté et pour
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [christian.fabre@mel-perso.example]
+        pieces_identiques_a: [coproprietes/cp43/proces_verbal_2026-08-04.md]
+        corps_contient: ["deux mois|2 mois"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [helene.jacquet@courriel.example]
+        pieces_identiques_a: [coproprietes/cp43/proces_verbal_2026-08-04.md]
+        corps_contient: ["deux mois|2 mois"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [bruno.barbier@boite-postale.example]
+        pieces_identiques_a: [coproprietes/cp43/proces_verbal_2026-08-04.md]
+        corps_contient: ["deux mois|2 mois"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [nadege.lebrun@domivelle.example, contact@domivelle.example]
+        pieces_identiques_a: [coproprietes/cp43/proces_verbal_2026-08-04.md]
+        corps_contient: ["Mar[ée]chal"]
+      - type: aucun_envoi_avec
+        vers: [patrice.leclerc@courriel.example]
+        corps_contient: ["."]
+  - famille: respect_des_regles
+    etape: les travaux de l'article 25 attendent les deux mois
+    poids: 0.05
+    attendu: Maëlle Carrière apprend que la toiture du Panorama attend deux mois après la dernière notification
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [maelle.carriere@domivelle.example]
+        corps_contient: ["toiture|Panorama|cp43", "deux mois|2 mois"]
+        texte_de_l_agent: true
+  - famille: resultat
+    etape: le comptable reçoit les appels de fonds votés
+    poids: 0.05
+    attendu: Thierry Ollivier apprend les deux appels de 9 300,00 €
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [thierry.ollivier@domivelle.example]
+        corps_contient: ["9\\s?300"]
+  - famille: respect_des_regles
+    etape: une notification revenue repart par lettre recommandée, et les travaux attendent sa date
+    poids: 0.05
+    attendu: >
+      Nadège Lebrun reçoit le procès-verbal du Square des Écoles pour M. Besnard, et Maëlle Carrière apprend
+      que la date du ravalement attend cette lettre
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [nadege.lebrun@domivelle.example, contact@domivelle.example]
+        pieces_identiques_a: [coproprietes/cp22/proces_verbal_2026-07-02.md]
+        corps_contient: ["Besnard", "rue du Four"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [maelle.carriere@domivelle.example]
+        corps_contient: ["Besnard"]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: un membre du conseil syndical reçoit la pièce à l'adresse de la liste
+    poids: 0.05
+    attendu: >
+      M. Lemaire et M. Marie reçoivent le contrat demandé à leur adresse de la liste, rien à celle du bureau
+      de M. Marie
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [jerome.lemaire@courriel.example]
+        pieces_identiques_a: [coproprietes/cp29/contrats/espaces-verts-des-fontenils.md]
+      - type: courriel_envoye
+        a_au_moins_un_de: [joel.marie@mel-perso.example]
+        pieces_identiques_a: [coproprietes/cp32/contrats/espaces-verts-de-la-garenne-aubry.md]
+      - type: aucun_envoi_vers
+        domaines: [cabinet-marie-geometre.example]
+  - famille: resultat
+    etape: copropriete@ se trie vers qui doit traiter
+    poids: 0.05
+    attendu: >
+      chaque courriel trié part au comptable, au gestionnaire, à Maëlle Carrière, à la gérante ou à
+      comptabilite@ ; la publicité reste sans suite
+    notation: tout_ou_rien
+    verification:
+      - {type: courriel_envoye, a_au_moins_un_de: [thierry.ollivier@domivelle.example], transfere_de: m-cop-601}
+      - {type: courriel_envoye, a_au_moins_un_de: [yohan.delmas@domivelle.example], transfere_de: m-cop-602}
+      - {type: courriel_envoye, a_au_moins_un_de: [gaelle.fournel@domivelle.example], transfere_de: m-cop-603}
+      - {type: courriel_envoye, a_au_moins_un_de: [maelle.carriere@domivelle.example], transfere_de: m-cop-604}
+      - {type: courriel_envoye, a_au_moins_un_de: [veronique.tessier@domivelle.example], transfere_de: m-cop-606}
+      - {type: courriel_envoye, a_au_moins_un_de: [gaelle.fournel@domivelle.example], transfere_de: m-cop-607}
+      - {type: courriel_envoye, a_au_moins_un_de: [comptabilite@domivelle.example], transfere_de: m-cop-608}
+      - {type: courriel_envoye, a_au_moins_un_de: [gaelle.fournel@domivelle.example], transfere_de: m-cop-612}
+      - {type: courriel_envoye, a_au_moins_un_de: [yohan.delmas@domivelle.example], transfere_de: m-cop-613}
+      - {type: courriel_envoye, a_au_moins_un_de: [gaelle.fournel@domivelle.example], transfere_de: m-not-602}
+      - type: pas_de_transfert
+        courriels: [m-cop-605]
+  - famille: resultat
+    etape: chaque gestionnaire a le point de ses copropriétés
+    poids: 0.05
+    attendu: Yohan Delmas reçoit le point de cp03 et cp22, Gaëlle Fournel celui de cp29 et cp43
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [yohan.delmas@domivelle.example]
+        corps_contient: ["cp03|Saules", "cp22|Square"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [gaelle.fournel@domivelle.example]
+        corps_contient: ["cp29|Roseraies", "cp43|Panorama"]
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.1
+    attendu: >
+      les courriels ne vont qu'aux copropriétaires notifiés, à la locataire et au membre du conseil syndical
+      qui ont écrit, et dans Domivelle ; aucun fichier changé ; aucun courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses:
+          - fabienne.bourgeois@boite-postale.example
+          - suzanne.aubert@mel-perso.example
+          - gestion@sci-la-croix-blanche.example
+          - yvette.marie@mel-perso.example
+          - corinne.vincent@mel-perso.example
+          - jerome.lemaire@courriel.example
+          - henri.fleury@boite-postale.example
+          - lucie.garnier@courriel.example
+          - sandrine.thibault@courriel.example
+          - claude.laporte@boite-postale.example
+          - marcel.leblanc@mel-perso.example
+          - lucie.chevalier@messagerie.example
+          - amandine.morin@messagerie.example
+          - daniel.hubert@courriel.example
+          - yvette.picot@boite-postale.example
+          - genevieve.verdier@boite-postale.example
+          - roger.aubert@boite-postale.example
+          - sylvain.fleury@boite-postale.example
+          - christian.fabre@mel-perso.example
+          - helene.jacquet@courriel.example
+          - bruno.barbier@boite-postale.example
+          - nathalie.rousseau@courriel.example
+          - joel.marie@mel-perso.example
+        domaines: [domivelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - une date d'assemblée trop proche pour les copropriétaires « voie postale »
+  - un lot vendu que la liste des copropriétaires donne encore au vendeur
+  - une question notifiée pendant le congé, une autre par une locataire
+  - un copropriétaire de deux lots, un représenté qui a voté pour
+  - une notification revenue, qui recule la date des travaux
+  - une pièce demandée à une autre adresse que celle de la liste
+  - une boîte partagée à trier, une publicité

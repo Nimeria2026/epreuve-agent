@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cema-b05",
+  "de": {
+    "nom": "SCI Le Parc des Ormes Famille",
+    "adresse": "gestion@sci-le-parc-des-ormes-famille.example"
+  },
+  "a": [
+    "cedric.maillard@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Attestation pour ma déclaration de revenus",
+  "date": "2026-06-02T08:47:00+02:00",
+  "corps": "Bonjour,\n\nJe n'ai pas reçu l'attestation annuelle pour ma déclaration des revenus fonciers. Pouvez-vous me la renvoyer ?\n\nCordialement,\nSCI Le Parc des Ormes Famille",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

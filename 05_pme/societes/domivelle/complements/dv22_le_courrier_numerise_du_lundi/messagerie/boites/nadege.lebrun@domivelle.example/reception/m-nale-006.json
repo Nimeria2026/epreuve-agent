@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-nale-006",
+  "de": {
+    "nom": "Copieur de l'accueil",
+    "adresse": "copieur@domivelle.example"
+  },
+  "a": [
+    "nadege.lebrun@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Numérisation",
+  "date": "2026-06-08T08:45:00+02:00",
+  "corps": "Lettre de Mme Jeanne Bénard, propriétaire, compte p-0259 sur sa lettre, reçue au courrier de ce matin : elle demande le détail de son reversement de mai.",
+  "pieces_jointes": [
+    {
+      "nom": "scan.pdf",
+      "fichier": "pieces/m-nale-006/scan.pdf",
+      "taille_octets": 763
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

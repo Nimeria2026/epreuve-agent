@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-isro-b04",
+  "de": {
+    "nom": "Marion Cordonnier",
+    "adresse": "marion.cordonnier@chauffage-chevrier.example"
+  },
+  "a": [
+    "isabelle.royer@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Disponibilité",
+  "date": "2026-06-22T13:41:00+02:00",
+  "corps": "Bonjour,\n\nAvez-vous en stock la référence PRO-11633 ? Il m'en faudrait 5 pour la fin de semaine.\n\nMerci,\nMarion Cordonnier",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-sl-631",
+  "de": {
+    "nom": "Florian Masson",
+    "adresse": "florian.masson@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Arrêt de travail",
+  "date": "2026-11-09T07:20:00+01:00",
+  "corps": "Bonjour Sonia,\n\nJe t'envoie mon arrêt de travail, du lundi 9 au vendredi 13 novembre.\n\nFlorian (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "arret_de_travail_Masson.pdf",
+      "fichier": "pieces/m-sl-631/arret_de_travail_Masson.pdf",
+      "taille_octets": 802
+    }
+  ],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-413",
+  "de": {
+    "nom": "Catherine Dupont",
+    "adresse": "catherine.dupont@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "RE: Votre devis DV-2026-013",
+  "date": "2026-11-01T11:12:00+01:00",
+  "corps": "Bonjour Madame Perrin,\n\nMerci pour votre devis. Après réflexion, nous gardons notre chaudière encore cet hiver : nous ne donnerons pas suite.\n\nCordialement,\nCatherine Dupont (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

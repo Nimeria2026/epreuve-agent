@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-312",
+  "de": {
+    "nom": "PlanifPro",
+    "adresse": "offres@planifpro.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Votre planning d'interventions en un clic",
+  "date": "2026-11-02T08:07:00+01:00",
+  "corps": "Découvrez PlanifPro, le logiciel de planning des artisans : un mois d'essai offert. Publicité (FICTIF).",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

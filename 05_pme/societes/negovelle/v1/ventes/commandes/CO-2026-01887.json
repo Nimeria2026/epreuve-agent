@@ -1,0 +1,112 @@
+{
+  "numero": "CO-2026-01887",
+  "client": "c-0099",
+  "reference_client": null,
+  "cree_le": "2026-06-25T09:10:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "3 zone d'activités des Grands Prés, 36999 Mérolles-en-Brenne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-12866",
+      "libelle": "Projecteur LED 20 W, à détecteur",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 27.45,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 27.45,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 27.45
+    },
+    {
+      "reference": "ELE-13258",
+      "libelle": "Réglette LED 600 mm, 18 W",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 11.4,
+      "remise_pourcent": 2.0,
+      "prix_net_ht_euros": 11.17,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 55.85
+    },
+    {
+      "reference": "FIX-10024",
+      "libelle": "Cheville métallique à expansion M4x45, boîte de 25",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 16.4,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 16.4,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 32.8
+    },
+    {
+      "reference": "OUT-11690",
+      "libelle": "Pince universelle 250 mm",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 33.3,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 33.3,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 399.6
+    },
+    {
+      "reference": "VIS-13683",
+      "libelle": "Vis à tôle tête cylindrique 3,5x25, inox A2, boîte de 100",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 11.0,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 11.0,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 22.0
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 537.7,
+  "total_tva_euros": 107.54,
+  "total_ttc_euros": 645.24,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01736"
+  ],
+  "facture": "FC-2026-1089",
+  "historique": [
+    {
+      "date": "2026-06-25T09:10:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-25T09:12:00+02:00",
+      "par": "oceane.collin",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-26T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01736"
+    },
+    {
+      "date": "2026-06-26T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01736"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1089"
+    }
+  ]
+}

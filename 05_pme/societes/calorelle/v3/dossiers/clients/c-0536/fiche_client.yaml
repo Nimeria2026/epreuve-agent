@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0536"
+nom: "Commune de Brenneval"
+type: "collectivite"
+adresse: "55 chemin des Vignes, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "contact@commune-de-brenneval-536.example"
+telephone: "02 61 91 36 26"
+charge_d_affaires: "karim.benali"
+contrat:
+  formule: "Sérénité Plus"
+  depuis: "2018-11-17"
+  mois_anniversaire: "novembre"
+  derniere_visite: "2025-11-13"

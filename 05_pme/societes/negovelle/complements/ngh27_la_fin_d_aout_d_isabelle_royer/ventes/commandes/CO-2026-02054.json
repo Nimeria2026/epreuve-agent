@@ -1,0 +1,48 @@
+{
+  "numero": "CO-2026-02054",
+  "client": "c-0290",
+  "reference_client": null,
+  "cree_le": "2026-08-21T10:00:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "79 rue de l'Église, 36999 Ardillac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "VIS-13715",
+      "libelle": "Vis à tôle tête cylindrique 3,5x9,5, inox A2, boîte de 250",
+      "quantite": 30,
+      "prix_tarif_ht_euros": 11.1,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 10.21,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 306.3
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 306.3,
+  "total_tva_euros": 61.26,
+  "total_ttc_euros": 367.56,
+  "statut": "en_attente_deblocage",
+  "motif_attente": "client bloqué : impayé : mise en demeure du 17 juillet 2026",
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-08-21T10:00:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": "commande du client"
+    },
+    {
+      "date": "2026-08-21T10:01:00+02:00",
+      "par": "benoit.faure",
+      "action": "mise_en_attente",
+      "detail": "client bloqué"
+    }
+  ]
+}

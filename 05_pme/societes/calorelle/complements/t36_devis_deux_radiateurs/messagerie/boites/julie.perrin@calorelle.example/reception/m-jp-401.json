@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-401",
+  "de": {
+    "nom": "Valérie Perrot",
+    "adresse": "valerie.perrot@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis pour deux radiateurs",
+  "date": "2026-11-02T07:52:00+01:00",
+  "corps": "Bonjour Madame Perrin,\n\nM. Girard est passé jeudi voir mon installation pour les deux radiateurs que je voudrais ajouter. Pouvez-vous m'envoyer le devis ? Ma maison date de 1978 ; je signerai l'attestation sur le devis.\n\nCordialement,\nValérie Perrot (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

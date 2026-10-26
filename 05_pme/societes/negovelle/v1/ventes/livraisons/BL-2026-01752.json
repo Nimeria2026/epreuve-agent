@@ -1,0 +1,39 @@
+{
+  "numero": "BL-2026-01752",
+  "commande": "CO-2026-01903",
+  "client": "c-0114",
+  "date_expedition": "2026-06-29",
+  "date_livraison": "2026-06-29",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "10 zone industrielle des Brandes, 36999 Vendrigny (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ELE-11674",
+      "libelle": "Disjoncteur tétrapolaire 25 A, courbe D",
+      "quantite": 2
+    },
+    {
+      "reference": "ELP-10587",
+      "libelle": "Foret béton SDS-plus 12x160 mm",
+      "quantite": 4
+    },
+    {
+      "reference": "PLB-13478",
+      "libelle": "Étanchéité filasse de chanvre, écheveau de 250 g",
+      "quantite": 1
+    },
+    {
+      "reference": "PRO-11363",
+      "libelle": "Masque FFP2, boîte de 10",
+      "quantite": 2
+    }
+  ],
+  "reserves": null,
+  "signataire": "François Pasquet",
+  "statut": "livre"
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-rejo-002",
+  "de": {
+    "nom": "Fabrice Mercier",
+    "adresse": "fabrice.mercier@negovelle.example"
+  },
+  "a": [
+    "remi.joly@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Avoir pour Électricité Daniel",
+  "date": "2026-07-06T07:58:00+02:00",
+  "corps": "Rémi,\n\nFais un avoir de 50 € à Électricité Daniel (c-0048) sur sa facture de juin : je le lui ai promis pour le retard de sa livraison de la semaine dernière. C'est un bon client, je ne veux pas le perdre.\n\nFabrice",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

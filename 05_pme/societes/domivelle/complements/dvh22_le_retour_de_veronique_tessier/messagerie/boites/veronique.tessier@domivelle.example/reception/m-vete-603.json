@@ -1,0 +1,34 @@
+{
+  "identifiant": "m-vete-603",
+  "de": {
+    "nom": "Solène Audoin",
+    "adresse": "solene.audoin@domivelle.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Note de frais de juillet",
+  "date": "2026-07-31T18:30:00+02:00",
+  "corps": "Véronique,\n\nVoici ma note de frais de juillet, avec ma voiture :\n\n| Date | Objet | Immeuble | Kilomètres | Stationnement, péage ou repas |\n|---|---|---|---|---|\n| 30 juin 2026 | visite | s05 | 26 | 0,00 € |\n| 7 juillet 2026 | état des lieux | s01 | 36 | péage 2,40 € |\n| 21 juillet 2026 | visite | s25 | 46 | 0,00 € |\n| 28 juillet 2026 | visite | s18 | 18 | stationnement 3,00 € |\n\nSoit 126 km à 0,40 €, 50,40 €, et 5,40 € de péage et de stationnement : 55,80 €. J'ajoute la visite du 30 juin, que j'avais oubliée. Les deux tickets sont joints.\n\nSolène",
+  "pieces_jointes": [
+    {
+      "nom": "note_de_frais_solene_audoin_2026-07.pdf",
+      "fichier": "pieces/m-vete-603/note_de_frais_solene_audoin_2026-07.pdf",
+      "taille_octets": 757
+    },
+    {
+      "nom": "ticket_peage_2026-07-07.pdf",
+      "fichier": "pieces/m-vete-603/ticket_peage_2026-07-07.pdf",
+      "taille_octets": 745
+    },
+    {
+      "nom": "ticket_stationnement_2026-07-28.pdf",
+      "fichier": "pieces/m-vete-603/ticket_stationnement_2026-07-28.pdf",
+      "taille_octets": 767
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

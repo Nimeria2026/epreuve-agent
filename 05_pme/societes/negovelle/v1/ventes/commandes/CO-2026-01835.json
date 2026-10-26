@@ -1,0 +1,123 @@
+{
+  "numero": "CO-2026-01835",
+  "client": "c-0270",
+  "reference_client": null,
+  "cree_le": "2026-06-23T09:10:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "8 zone d'activités des Grands Prés, 36999 Vaumoreau-sur-Indre (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-10449",
+      "libelle": "Disque abrasif auto-agrippant 115 mm, grain 40, boîte de 25",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 7.75,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 7.44,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 37.2
+    },
+    {
+      "reference": "FIX-12009",
+      "libelle": "Équerre de fixation 100x60x40 mm, zinguée",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 2.5,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 2.4,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 2.4
+    },
+    {
+      "reference": "OUT-11845",
+      "libelle": "Pince étau 300 mm",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 27.8,
+      "remise_pourcent": 6.88,
+      "prix_net_ht_euros": 25.89,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 310.68
+    },
+    {
+      "reference": "PRO-10155",
+      "libelle": "Bottes de sécurité caoutchouc S5, pointure 46",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 32.8,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 31.49,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 62.98
+    },
+    {
+      "reference": "PRO-10824",
+      "libelle": "Combinaison jetable type 5/6 blanche, taille M",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 9.9,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 9.9,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 49.5
+    },
+    {
+      "reference": "QUI-13389",
+      "libelle": "Équerre d'assemblage 40 mm, laiton, sachet de 20",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 3.65,
+      "remise_pourcent": 5.92,
+      "prix_net_ht_euros": 3.43,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 41.16
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 503.92,
+  "total_tva_euros": 100.78,
+  "total_ttc_euros": 604.7,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01684"
+  ],
+  "facture": "FC-2026-1249",
+  "historique": [
+    {
+      "date": "2026-06-23T09:10:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-23T09:12:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-24T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01684"
+    },
+    {
+      "date": "2026-06-24T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01684"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1249"
+    }
+  ]
+}

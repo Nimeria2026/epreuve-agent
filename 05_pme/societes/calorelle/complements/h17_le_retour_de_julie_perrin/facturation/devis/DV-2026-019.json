@@ -1,0 +1,48 @@
+{
+  "numero": "DV-2026-019",
+  "client": "c-0491",
+  "objet": "Remplacement de quatre radiateurs et désembouage",
+  "lignes": [
+    {
+      "code": "RAD-01",
+      "libelle": "Radiateur à eau chaude",
+      "quantite": 4,
+      "prix_unitaire_ht_euros": 380,
+      "taux_tva": 10,
+      "montant_ht_euros": 1520
+    },
+    {
+      "code": "DES-01",
+      "libelle": "Désembouage de l'installation de chauffage",
+      "quantite": 1,
+      "prix_unitaire_ht_euros": 420,
+      "taux_tva": 10,
+      "montant_ht_euros": 420
+    },
+    {
+      "code": "TUB-01",
+      "libelle": "Tuyauterie cuivre posée",
+      "quantite": 8,
+      "prix_unitaire_ht_euros": 42,
+      "taux_tva": 10,
+      "montant_ht_euros": 336
+    },
+    {
+      "code": "MO-01",
+      "libelle": "Main-d'œuvre de technicien",
+      "quantite": 8,
+      "prix_unitaire_ht_euros": 58,
+      "taux_tva": 10,
+      "montant_ht_euros": 464
+    }
+  ],
+  "remise_pourcent": 0,
+  "total_ht_euros": 2740,
+  "total_tva_euros": 274,
+  "total_ttc_euros": 3014,
+  "statut": "envoye",
+  "cree_le": "2026-11-26T10:30:00+01:00",
+  "cree_par": "julie.perrin",
+  "envoye_le": "2026-11-26T11:00:00+01:00",
+  "reponse_le": null
+}

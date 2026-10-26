@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-922",
+  "de": {
+    "nom": "Syndic de la Résidence des Tilleuls",
+    "adresse": "syndic@residence-des-tilleuls.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Copie de notre contrat",
+  "date": "2026-12-23T11:00:00+01:00",
+  "corps": "Bonjour,\n\nPouvez-vous envoyer la copie de notre contrat d'entretien directement à notre cabinet comptable, compta@cabinet-tilleuls-gestion.example ? Il en a besoin pour la clôture.\n\nLe syndic de la Résidence des Tilleuls (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

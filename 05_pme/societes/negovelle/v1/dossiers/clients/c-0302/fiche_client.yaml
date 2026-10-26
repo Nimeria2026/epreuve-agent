@@ -1,0 +1,25 @@
+# Fiche du client c-0302 de Négovelle. Données FICTIVES.
+code: c-0302
+nom: Maçonnerie Baudouin
+type: artisan
+adresse: 72 avenue de la Gare, 36999 Saulvenne (FICTIF)
+telephone: 02 61 91 86 55
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Pierre Ducros
+  fonction: gérant
+  courriel: pierre.ducros@maconnerie-baudouin.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 72 avenue de la Gare, 36999 Saulvenne (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2012-06-01'
+limite_encours_euros: 3000.0
+livraisons_partielles: true
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

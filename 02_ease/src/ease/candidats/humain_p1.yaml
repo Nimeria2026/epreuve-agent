@@ -1,0 +1,40 @@
+# Le poste humain (05_pme/interface_web, ADR 0005) : une personne fait la tâche dans une page web
+# locale, chronométrée de « Commencer » à « J'ai fini » ; EASE remet la PME à zéro et contrôle
+# l'état final comme pour un agent (00_docs/sources/2026-10-13_conception_poste_humain.md).
+# Les personnes sont notées par un code, jamais par leur nom (JOURNAL, entrée 121). p1 : le
+# concepteur des tâches, qui les connaît ; ses durées sont donc plus courtes que celles d'un
+# nouvel employé (conception, §6).
+fiche:
+  identifiant: humain_p1
+  nom: Poste humain, personne p1
+  version: "0.1.0"
+  origine: humain
+  division: null
+  # mcp : chaque action passe par le relais d'EASE et entre au journal, comme celles d'un agent.
+  branchement: mcp
+  editeur: Épreuve d'agent
+  url: null
+  modeles: []
+  cout_mesurable: false
+  conditions_utilisation: null
+configuration:
+  modeles: []
+machine: null
+lancement:
+  module: null
+  commande: [node, 05_pme/interface_web/src/principal.ts]
+  arguments: []
+  # Quatre heures par essai : une personne n'a pas le rythme d'un agent.
+  delai_secondes: 14400
+  empreinte_de:
+    - 05_pme/interface_web/src/principal.ts
+    - 05_pme/interface_web/src/serveur.ts
+    - 05_pme/interface_web/src/pme.ts
+    - 05_pme/interface_web/src/formulaires.ts
+    - 05_pme/interface_web/src/vues.ts
+    - 05_pme/interface_web/src/html.ts
+  sonde: null
+  creneau: null
+  energie: null
+  # L'affichage passe par l'accès en lecture seule, hors budget ; les actions comptent des étapes.
+  acces_lecture: true

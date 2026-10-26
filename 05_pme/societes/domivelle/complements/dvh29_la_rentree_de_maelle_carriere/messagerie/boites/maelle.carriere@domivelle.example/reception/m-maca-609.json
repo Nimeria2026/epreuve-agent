@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-maca-609",
+  "de": {
+    "nom": "Nettoyage du Pré-Carré",
+    "adresse": "facturation@nettoyage-du-pre-carre.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Contrat de nettoyage, Résidence Les Mimosas",
+  "date": "2026-08-24T11:30:00+02:00",
+  "corps": "Madame,\n\nÀ compter du 1er janvier 2027, le nettoyage des parties communes de la Résidence Les Mimosas passera de 784,00 € à 820,00 € TTC par an. Merci de nous dire si ce prix vous convient.\n\nNettoyage du Pré-Carré",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

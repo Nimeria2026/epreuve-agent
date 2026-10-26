@@ -1,0 +1,98 @@
+# Registre des lots en gestion, c03. Données FICTIVES.
+immeuble: c03
+nature: immeuble collectif
+adresse: 111 rue de la Fontaine, 18999 Montclavel-sur-Cher (FICTIF)
+secteur: centre
+gestionnaire: Cédric Maillard
+distance_agence_km: 3
+annee_construction: 2007
+gardien: false
+copropriete_du_syndic: null
+lots:
+- lot: c03-01
+  type: T2
+  surface_m2: 50
+  etage: 0
+  proprietaire: p-0020
+  locataire: M. Philippe Delattre
+  entree: '2018-04-30'
+  loyer_hors_charges: 480,00 €
+  provision_sur_charges: 83,00 €
+  depot_de_garantie: 400,00 €
+  revision: chaque 30 avril
+  trimestre_irl: T4
+  dpe: A
+- lot: c03-02
+  type: T3
+  surface_m2: 60
+  etage: 0
+  proprietaire: p-0051
+  locataire: M. Jérôme Laporte
+  entree: '2019-04-08'
+  loyer_hors_charges: 639,00 €
+  provision_sur_charges: 120,00 €
+  depot_de_garantie: 544,00 €
+  revision: chaque 8 avril
+  trimestre_irl: T4
+  dpe: E
+- lot: c03-03
+  type: T2
+  surface_m2: 50
+  etage: 0
+  proprietaire: p-0051
+  locataire: Mme Pauline Barbier
+  entree: '2012-10-01'
+  loyer_hors_charges: 483,00 €
+  provision_sur_charges: 78,00 €
+  depot_de_garantie: 365,00 €
+  revision: chaque 1er octobre
+  trimestre_irl: T2
+  dpe: C
+- lot: c03-04
+  type: T3
+  surface_m2: 68
+  etage: 0
+  proprietaire: p-0037
+  locataire: Mme Camille Germain
+  entree: '2024-09-27'
+  loyer_hors_charges: 641,00 €
+  provision_sur_charges: 94,00 €
+  depot_de_garantie: 625,00 €
+  revision: chaque 27 septembre
+  trimestre_irl: T2
+  dpe: D
+- lot: c03-05
+  type: T2
+  surface_m2: 47
+  etage: 1
+  proprietaire: p-0052
+  locataire: M. René Carpentier
+  entree: '2025-05-07'
+  loyer_hors_charges: 476,00 €
+  provision_sur_charges: 32,00 €
+  depot_de_garantie: 464,00 €
+  revision: chaque 7 mai
+  trimestre_irl: T1
+  dpe: C
+- lot: c03-06
+  type: T3
+  surface_m2: 58
+  etage: 1
+  proprietaire: p-0053
+  locataire: M. René Rivière
+  entree: '2016-09-14'
+  loyer_hors_charges: 612,00 €
+  provision_sur_charges: 71,00 €
+  depot_de_garantie: 500,00 €
+  revision: chaque 14 septembre
+  trimestre_irl: T2
+  dpe: F
+- lot: c03-07
+  type: T2
+  surface_m2: 42
+  etage: 1
+  proprietaire: p-0054
+  locataire: vacant
+  loyer_hors_charges: 426,00 €
+  provision_sur_charges: 38,00 €
+  dpe: C

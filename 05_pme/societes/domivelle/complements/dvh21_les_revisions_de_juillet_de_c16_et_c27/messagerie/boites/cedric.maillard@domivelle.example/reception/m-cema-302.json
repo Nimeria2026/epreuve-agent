@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cema-302",
+  "de": {
+    "nom": "Laurent Huet",
+    "adresse": "laurent.huet@courriel.example"
+  },
+  "a": [
+    "cedric.maillard@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Mon loyer en juillet",
+  "date": "2026-06-06T09:30:00+02:00",
+  "corps": "Bonjour,\n\nMon bail se révise le 12 juillet : de combien mon loyer va-t-il augmenter ?\n\nLaurent Huet, lot c27-17",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

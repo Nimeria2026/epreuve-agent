@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-011",
+  "de": {
+    "nom": "Mme Marion Labbé",
+    "adresse": "marion.labbe@mel-perso.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Mon bail",
+  "date": "2026-06-08T08:33:00+02:00",
+  "corps": "Bonjour,\n\nMon bail arrive bientôt à son terme : sera-t-il renouvelé, et mon loyer va-t-il augmenter ?\n\nMarion Labbé, lot c04-03, 112 place du Marché",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

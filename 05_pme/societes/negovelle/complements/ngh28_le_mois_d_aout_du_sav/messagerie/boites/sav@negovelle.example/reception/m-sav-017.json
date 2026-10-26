@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-017",
+  "de": {
+    "nom": "Paul Barre",
+    "adresse": "paul.barre@paysage-chevrier.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Cadenas cassés et port",
+  "date": "2026-07-24T09:15:00+02:00",
+  "corps": "Bonjour,\n\nLa livraison d'hier, BL-2026-01909, est arrivée avec un carton écrasé : 3 cadenas QUI-10334 cassés, nous l'avons écrit sur le récépissé du transporteur. Nous vous demandons un avoir pour les cadenas, et aussi le remboursement des 15 € de port que nous avons payés pour une livraison abîmée.\n\nPaul Barre\nPaysage Chevrier",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

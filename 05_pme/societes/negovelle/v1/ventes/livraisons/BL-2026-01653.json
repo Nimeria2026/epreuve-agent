@@ -1,0 +1,44 @@
+{
+  "numero": "BL-2026-01653",
+  "commande": "CO-2026-01804",
+  "client": "c-0302",
+  "date_expedition": "2026-06-23",
+  "date_livraison": "2026-06-23",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "72 avenue de la Gare, 36999 Saulvenne (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "CON-11486",
+      "libelle": "Mousse polyuréthane coupe-feu, 750 ml",
+      "quantite": 3
+    },
+    {
+      "reference": "ELP-10563",
+      "libelle": "Foret béton SDS-plus 10x310 mm",
+      "quantite": 2
+    },
+    {
+      "reference": "ELP-11265",
+      "libelle": "Foret à bois trois pointes 18 mm",
+      "quantite": 12
+    },
+    {
+      "reference": "ENT-10147",
+      "libelle": "Balai d'atelier 40 cm",
+      "quantite": 6
+    },
+    {
+      "reference": "VIS-13626",
+      "libelle": "Vis à tôle tête cylindrique 3,5x16, inox A2, boîte de 100",
+      "quantite": 1
+    }
+  ],
+  "reserves": null,
+  "signataire": "Pierre Ducros",
+  "statut": "livre"
+}

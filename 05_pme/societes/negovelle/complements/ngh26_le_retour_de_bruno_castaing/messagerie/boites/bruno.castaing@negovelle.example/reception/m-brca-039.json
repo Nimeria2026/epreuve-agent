@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-brca-039",
+  "de": {
+    "nom": "Nathalie Brunet",
+    "adresse": "nathalie.brunet@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Prolongation de mon arrêt",
+  "date": "2026-08-22T10:00:00+02:00",
+  "corps": "Bonjour Bruno,\n\nVoici mon avis de prolongation, du 29 août 2026 au 4 septembre 2026 : fracture du poignet droit, prolongation.\n\nNathalie",
+  "pieces_jointes": [
+    {
+      "nom": "avis_arret_de_travail.pdf",
+      "fichier": "pieces/m-brca-039/avis_arret_de_travail.pdf",
+      "taille_octets": 867
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

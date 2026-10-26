@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-001",
+  "de": {
+    "nom": "Jean Dupont",
+    "adresse": "jean.dupont@courriel.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Entretien annuel de ma chaudière",
+  "date": "2026-11-02T08:41:00+01:00",
+  "corps": "Bonjour Monsieur Duval,\n\nVous m'avez laissé un message vendredi pour fixer la visite d'entretien annuel de ma chaudière gaz, prévue par mon contrat. Je suis en déplacement jusqu'au vendredi 13 novembre inclus ; ensuite, n'importe quel jour me convient.\n\nPouvez-vous me confirmer le jour et l'heure par courriel ?\n\nCordialement,\nJean Dupont\n31 chemin des Vignes, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01820",
+  "commande": "CO-2026-01971",
+  "client": "c-0203",
+  "date_expedition": "2026-07-02",
+  "date_livraison": "2026-07-02",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "14 rue du Château, 36999 Mérolles-en-Brenne (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ELE-12752",
+      "libelle": "Prise de courant étanche double en saillie IP55, gris",
+      "quantite": 2
+    }
+  ],
+  "reserves": null,
+  "signataire": "Albert Cazenave",
+  "statut": "livre"
+}

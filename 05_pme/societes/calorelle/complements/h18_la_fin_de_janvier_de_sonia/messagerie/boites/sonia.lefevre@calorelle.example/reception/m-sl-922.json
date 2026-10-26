@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-922",
+  "de": {
+    "nom": "Distri-Clim Centre, service commercial",
+    "adresse": "commercial@distri-clim-centre.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Rendez-vous avec Mme Marchal",
+  "date": "2027-01-29T12:10:00+01:00",
+  "corps": "Madame,\n\nNotre responsable régional voudrait présenter à Mme Marchal nos tarifs 2027, en une heure, un mardi ou un jeudi matin de la semaine du 8 février. Quel créneau pouvez-vous nous proposer ?\n\nDistri-Clim Centre (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

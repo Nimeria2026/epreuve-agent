@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-823",
+  "de": {
+    "nom": "Planning Pro, service client",
+    "adresse": "facturation@planning-pro.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Avis de prélèvement",
+  "date": "2026-11-21T07:00:00+01:00",
+  "corps": "Bonjour,\n\nVotre abonnement annuel au logiciel Planning Pro sera prélevé le 25 novembre 2026 : 1 068,00 € TTC, selon le mandat signé l'an dernier.\n\nPlanning Pro (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

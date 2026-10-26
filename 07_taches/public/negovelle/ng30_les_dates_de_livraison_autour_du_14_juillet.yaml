@@ -1,0 +1,79 @@
+# Socle de Négovelle, tâche ng30, du métier (cadrage du 2026-10-17, section 8 ; benchmark par branche,
+# cadrage du 2026-10-20). Rédigée par Claude le 2026-10-20 (JOURNAL, entrée 217), sur l'état v1 et son
+# complément, qui avance l'horloge au vendredi 10 juillet 2026, 8 h : trois clients du nord demandent à
+# Manon Rey quand arrivera leur commande ; le mardi 14 juillet est férié, l'entrepôt fermé (courriel
+# lu de Gilles Poirier). Manuel, section 5. Électricité Chauveau (c-0004) : express validée ce matin
+# avant 15 h, livrée le jour ouvré suivant, le lundi 13. Plâtrerie Desjardins (c-0024) : standard
+# validée ce matin, sous trois jours ouvrés, au plus tard le mercredi 15 ou le jeudi 16 selon que l'on
+# compte ou non ce vendredi, jamais le mardi 14 qu'elle demande. Paysage Dumont (c-0031) : son
+# reliquat de VIS-11453 attend le réassort du jeudi 16 juillet. Tout est fictif.
+
+identifiant: ng30_les_dates_de_livraison_autour_du_14_juillet
+version: 1
+famille: planning
+agent_pour: manon.rey
+societe: negovelle
+enonce: >
+  Tu es l'assistant de Manon Rey, à l'administration des ventes de Négovelle. Trois clients demandent
+  quand ils seront livrés : réponds-leur en respectant le manuel de procédures.
+etat_initial: v1
+complement: ng30_les_dates_de_livraison_autour_du_14_juillet
+services: [messagerie, dossiers, ventes]
+budget:
+  etapes_max: 55
+  cout_max_dollars: 0.40
+controles:
+  - famille: resultat
+    etape: l'express de ce matin arrive le lundi 13 juillet
+    poids: 0.3
+    attendu: un courriel à un contact d'Électricité Chauveau donne le lundi 13 juillet
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [nathalie.ernault@electricite-chauveau.example, simone.salmon@electricite-chauveau.example]
+        corps_contient: ["13 juillet|lundi 13|13/0?7"]
+        texte_de_l_agent: true
+  - famille: resultat
+    etape: la commande standard arrive après le jour férié
+    poids: 0.3
+    attendu: un courriel à un contact de Plâtrerie Desjardins donne le 15 ou le 16 juillet
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [alain.mignot@platrerie-desjardins.example, sylvain.belin@platrerie-desjardins.example]
+        corps_contient: ["1[56] juillet|(?:mercredi|jeudi) 1[56]|1[56]/0?7"]
+        texte_de_l_agent: true
+  - famille: resultat
+    etape: le reliquat attend le réassort du 16 juillet
+    poids: 0.25
+    attendu: un courriel à sandrine.clerc@paysage-dumont.example donne le réassort du 16 juillet
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [sandrine.clerc@paysage-dumont.example]
+        corps_contient: ["16 juillet|jeudi 16|16/0?7"]
+        texte_de_l_agent: true
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.15
+    attendu: >
+      les courriels ne vont qu'aux contacts des trois clients et dans Négovelle ; aucune commande ni
+      aucun fichier touché ; aucun courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses:
+          - nathalie.ernault@electricite-chauveau.example
+          - simone.salmon@electricite-chauveau.example
+          - alain.mignot@platrerie-desjardins.example
+          - sylvain.belin@platrerie-desjardins.example
+          - sandrine.clerc@paysage-dumont.example
+        domaines: [negovelle.example]
+      - type: commandes_inchangees
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - le mardi 14 juillet est férié, l'entrepôt fermé
+  - un client demande une livraison ce jour-là
+  - l'express et le standard ne se comptent pas de la même façon

@@ -1,0 +1,59 @@
+{
+  "numero": "CO-2026-02052",
+  "client": "c-0315",
+  "reference_client": null,
+  "cree_le": "2026-08-21T09:30:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "79 rue des Remparts, 36999 Laubrissac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "FIX-11706",
+      "libelle": "Goujon d'ancrage M8x140, boîte de 25",
+      "quantite": 20,
+      "prix_tarif_ht_euros": 39.75,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 39.75,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 795.0
+    },
+    {
+      "reference": "ENT-11273",
+      "libelle": "Savon d'atelier en crème, pot de 3 l",
+      "quantite": 8,
+      "prix_tarif_ht_euros": 21.55,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 21.55,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 172.4
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 967.4,
+  "total_tva_euros": 193.48,
+  "total_ttc_euros": 1160.88,
+  "statut": "en_attente_deblocage",
+  "motif_attente": "encours dépassé : encours 452,55 € et commande 1 160,88 € TTC pour une limite de 1 500,00 €",
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-08-21T09:30:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": "commande du client"
+    },
+    {
+      "date": "2026-08-21T09:31:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "mise_en_attente",
+      "detail": "encours dépassé"
+    }
+  ]
+}

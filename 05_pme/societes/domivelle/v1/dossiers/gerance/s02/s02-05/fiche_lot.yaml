@@ -1,0 +1,24 @@
+# Fiche du lot s02-05. Données FICTIVES.
+lot: s02-05
+adresse: 130 rue Émile-Zola, 18999 Chantebrune (FICTIF)
+type: T4
+surface_m2: 76
+locataire:
+  nom: M. Henri Schmitt
+  courriel: henri.schmitt@messagerie.example
+  telephone: 06 39 98 93 59
+  entree: '2025-08-09'
+bail:
+  signature: '2025-08-09'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 684,00 €
+  depot_de_garantie: 684,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T2
+dpe:
+  classe: D
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

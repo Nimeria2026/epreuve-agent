@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-001",
+  "de": {
+    "nom": "Arnaud Maurin",
+    "adresse": "arnaud.maurin@electricite-ruel.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Reprise de 2 cylindres",
+  "date": "2026-07-02T09:14:00+02:00",
+  "corps": "Bonjour,\n\nSur la livraison BL-2026-01755 du 29 juin, 2 cylindres européens 30x30 (QUI-11420) sont en trop pour le chantier. Je les ai rapportés jeudi au comptoir, jamais montés, dans leur emballage. Pouvez-vous nous les reprendre ?\n\nArnaud Maurin\nÉlectricité Ruel",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

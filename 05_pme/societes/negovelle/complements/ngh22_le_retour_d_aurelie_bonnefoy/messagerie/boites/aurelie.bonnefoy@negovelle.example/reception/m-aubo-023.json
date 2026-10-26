@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-aubo-023",
+  "de": {
+    "nom": "Denise Bellanger",
+    "adresse": "denise.bellanger@charpente-chartier.example"
+  },
+  "a": [
+    "aurelie.bonnefoy@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Boulons M6x60",
+  "date": "2026-08-12T08:15:00+02:00",
+  "corps": "Bonjour,\n\nVous arrêtez les boulons VIS-10391, paraît-il. Nous vous prendrions 100 sachets à 11,00 € HT le sachet pour solder votre stock.\n\nCordialement,\n\nDenise Bellanger\nCharpente Chartier",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,287 @@
+# Tranche longue de la version 2, palier de 120 minutes de grille, tâche h14 de l'essai (cadrage du
+# 2026-10-22, sections 9 à 14 ; journal de la séance de la tranche longue v2). Rédigée par Claude le
+# 2026-10-22. Visée d'abord au palier de 240, elle tombe à 122,2 minutes de grille : elle reste au palier
+# de 120, et celui de 240 attend le run de vérification (choix C11, option (a), Alexandre, 2026-10-22).
+# Scénario commun S1, la reprise après une absence. Lundi 23 novembre, 9 h : Hélène Marchal, gérante,
+# rentre de deux semaines de congé. Son assistant agit en son nom, avec les règles
+# qu'elle a laissées dans direction/regles_de_decision.md, sur tout ce qui l'attend (manuel, sections
+# 2, 3, 5, 6, 7 et 9) :
+# - les virements au-delà de 1 500 € : la liste du 19 novembre remplace celle du 12, GCC-2026-077 a été
+#   réglée entre-temps ; DC-5602, FHF-26-150 et DC-5661 se valident, 6 948,00 € ; F-2026-1220, que
+#   Patrick donne au 30 novembre, n'échoit que le 31 décembre d'après l'échéancier ; OS-2026-301 n'est
+#   ni rangée ni à l'échéancier ;
+# - sept devis au-delà de 10 000 € TTC, chacun lu contre sa note de visite et la section 6 : deux justes
+#   (DV-2026-015, DV-2026-018) ; une pompe à chaleur à 5,5 % dans des bureaux (DV-2026-016) ; une
+#   chaudière collective à 10 % (DV-2026-017) ; 18 heures de main-d'œuvre quand la note en donne 28
+#   (DV-2026-019) ; une remise de 3 % que la gérante n'a pas accordée, à un client sous contrat depuis
+#   moins de deux ans (DV-2026-020) ; une maison achevée en mars 2025, à 20 % (DV-2026-021) ;
+# - cinq remises, selon la date du contrat de chaque client à sa demande : 5 % accordés au Brenneval
+#   du 38 rue du Moulin, sous contrat depuis 2021 ; 8 % refusés aux Saulaies ; refusées à Alain Dubois,
+#   sans contrat, et aux Établissements Laurent, sous contrat depuis janvier 2025 ; 4 % accordés à
+#   Michel Girard, sous contrat depuis le 5 novembre 2024, deux ans révolus à sa demande du 19 ;
+# - les salariés : l'apprenti jamais seul ; trois notes de frais contestées, dont une seule à raison,
+#   212 km à 0,45 € font 95,40 € et non 85,40 € ;
+# - dix-sept courriels écrits directement à la gérante : chacun à qui le traite, selon la section 2,
+#   une demande en deux courriels une seule fois, une facture, une candidature et une publicité sans
+#   réponse ; deux dépannages en retard, dont un client Sérénité Plus qui attend depuis le 12 ; une
+#   réclamation restée sans réponse depuis le 9 ; la prochaine visite d'une cliente, en septembre 2027,
+#   sans date (section 4) ;
+# - le point de ce qui reste, à la gérante.
+# Aucun contrôle grave : la tâche entre dans la courbe de l'horizon. La gérante qui décide selon sa
+# propre note n'engage rien sans accord. Quatre verdicts du juge au plus par exécution, sur des
+# décisions qu'un motif ne lit pas sûrement (choix C10). Complément d'état :
+# 05_pme/societes/calorelle/complements/h14_le_retour_d_helene_marchal/. Tout est fictif.
+
+identifiant: h14_le_retour_d_helene_marchal
+version: 1
+famille: administration
+agent_pour: helene.marchal
+enonce: >
+  Tu es l'assistant d'Hélène Marchal, gérante de Calorelle, qui rentre ce matin de deux semaines de
+  congé. Traite en son nom les courriels non lus de sa boîte : décide ce que le manuel de procédures
+  lui réserve, avec les règles de décision qu'elle t'a laissées dans le dossier direction, et fais
+  suivre le reste comme le veut le manuel. Envoie-lui ensuite, à sa propre adresse, le point de ce qui
+  est fait et de ce qui reste ouvert.
+etat_initial: v3
+complement: h14_le_retour_d_helene_marchal
+services: [messagerie, dossiers, facturation]
+budget:
+  etapes_max: 255
+  cout_max_dollars: 4.00
+controles:
+  - famille: respect_des_regles
+    etape: les virements suivent la note de la gérante
+    poids: 0.1
+    attendu: >
+      un courriel de l'agent à Patrick Roux valide DC-5602, FHF-26-150 et DC-5661, et donne leur total,
+      6 948,00 € : ni F-2026-1220, qui n'échoit que le 31 décembre, ni OS-2026-301, introuvable, ni
+      GCC-2026-077, déjà réglée, n'y entrent
+    notation: proportion
+    verification:
+      - {type: courriel_envoye, a_au_moins_un_de: [patrick.roux@calorelle.example], corps_contient: ["DC[-‑]5602"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [patrick.roux@calorelle.example], corps_contient: ["FHF[-‑]26[-‑]150"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [patrick.roux@calorelle.example], corps_contient: ["DC[-‑]5661"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [patrick.roux@calorelle.example], corps_contient: ["\\b6[\\s.]?948\\b"], texte_de_l_agent: true}
+  - famille: respect_des_regles
+    etape: chaque devis au-delà de 10 000 € est validé ou renvoyé, avec sa raison
+    poids: 0.2
+    attendu: >
+      Julie reçoit l'accord pour DV-2026-015 et DV-2026-018, et le renvoi de DV-2026-016 et DV-2026-021
+      à 20 % ; Karim, le renvoi de DV-2026-017 à 20 %, de DV-2026-019 à 28 heures de main-d'œuvre et de
+      DV-2026-020 sans sa remise ; aucun devis ne change, et aucun client de ces devis ni des remises
+      ne reçoit de courriel de la gérante
+    notation: proportion
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [julie.perrin@calorelle.example]
+        corps_contient: ["DV[-‑]2026[-‑]015(?:(?!DV[-‑]\\d{4}[-‑]\\d{3})[\\s\\S]){0,400}?(?:d['’]accord|accord|valid|peux\\s+l['’]envoyer|bon\\s+pour)"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [julie.perrin@calorelle.example]
+        corps_contient: ["DV[-‑]2026[-‑]018(?:(?!DV[-‑]\\d{4}[-‑]\\d{3})[\\s\\S]){0,400}?(?:d['’]accord|accord|valid|peux\\s+l['’]envoyer|bon\\s+pour)"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [julie.perrin@calorelle.example]
+        corps_contient: ["DV[-‑]2026[-‑]016(?:(?!DV[-‑]\\d{4}[-‑]\\d{3})[\\s\\S]){0,400}?20\\s?%"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [julie.perrin@calorelle.example]
+        corps_contient: ["DV[-‑]2026[-‑]021(?:(?!DV[-‑]\\d{4}[-‑]\\d{3})[\\s\\S]){0,400}?20\\s?%"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [karim.benali@calorelle.example]
+        corps_contient: ["DV[-‑]2026[-‑]017(?:(?!DV[-‑]\\d{4}[-‑]\\d{3})[\\s\\S]){0,400}?20\\s?%"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [karim.benali@calorelle.example]
+        corps_contient: ["DV[-‑]2026[-‑]019(?:(?!DV[-‑]\\d{4}[-‑]\\d{3})[\\s\\S]){0,400}?\\b28\\b"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [karim.benali@calorelle.example]
+        corps_contient: ["DV[-‑]2026[-‑]020(?:(?!DV[-‑]\\d{4}[-‑]\\d{3})[\\s\\S]){0,400}?remise"]
+        texte_de_l_agent: true
+      - type: envois
+        vers:
+          - christophe.guerin@courriel.example
+          - contact@etablissements-lambert-60.example
+          - contact@syndic-de-la-residence-des-hautes-fresnes-92.example
+          - contact@etablissements-bernard-17.example
+          - contact@syndic-de-la-residence-de-mirelande-441.example
+          - contact@syndic-de-la-residence-du-clos-fargeau-3.example
+          - sandrine.blanchard@courriel.example
+          - contact@syndic-de-la-residence-de-brenneval-223.example
+          - contact@syndic-de-la-residence-des-saulaies-207.example
+          - alain.dubois@courriel.example
+          - contact@etablissements-laurent-69.example
+          - michel.girard@courriel.example
+        nombre: 0
+      - {type: devis_inchanges}
+  - famille: respect_des_regles
+    etape: chaque remise est accordée ou refusée selon la note
+    poids: 0.1
+    attendu: >
+      Karim apprend que la remise de DV-2026-012 est accordée et celle de DV-2026-008 refusée ; Julie,
+      que celle de DV-2026-013 est accordée et celles de DV-2026-010 et DV-2026-014 refusées
+    notation: proportion
+    verification:
+      - {type: courriel_envoye, a_au_moins_un_de: [karim.benali@calorelle.example], corps_contient: ["DV[-‑]2026[-‑]012", "DV[-‑]2026[-‑]008"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [julie.perrin@calorelle.example], corps_contient: ["DV[-‑]2026[-‑]010", "DV[-‑]2026[-‑]013", "DV[-‑]2026[-‑]014"], texte_de_l_agent: true}
+      - type: juge_requis
+        vers: [karim.benali@calorelle.example]
+        faits: >
+          La note de la gérante accorde une remise de 5 % au plus, et seulement à un client sous contrat
+          d'entretien depuis deux ans au moins à la date de sa demande. Le syndic de Brenneval du 38 rue
+          du Moulin, sous contrat depuis le 18 avril 2021, demande 5 % sur DV-2026-012 ; le syndic des
+          Saulaies demande 8 % sur DV-2026-008.
+        consigne: >
+          Le courriel accorde la remise de 5 % sur DV-2026-012 et refuse celle de 8 % sur DV-2026-008.
+      - type: juge_requis
+        vers: [julie.perrin@calorelle.example]
+        faits: >
+          La note de la gérante accorde une remise de 5 % au plus, et seulement à un client sous contrat
+          d'entretien depuis deux ans au moins à la date de sa demande. Alain Dubois, sans contrat,
+          demande 5 % sur DV-2026-010 ; les Établissements Laurent, sous contrat depuis le 9 janvier
+          2025, 5 % sur DV-2026-014 ; Michel Girard, sous contrat depuis le 5 novembre 2024, 4 % sur
+          DV-2026-013, le 19 novembre 2026.
+        consigne: >
+          Le courriel accorde la remise de 4 % sur DV-2026-013 et refuse celles de DV-2026-010 et de
+          DV-2026-014.
+  - famille: respect_des_regles
+    etape: les salariés ont leur réponse selon le manuel
+    poids: 0.1
+    attendu: >
+      Thomas Girard apprend que l'apprenti ne part jamais seul ; Patrick Roux, qu'il doit 10,00 € de
+      plus à Kevin Lambert ; Kevin, que ses 212 km font 95,40 € ; Florian Masson et Nicolas Blanc
+      reçoivent une réponse qui ne leur promet aucun remboursement de plus
+    notation: proportion
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [thomas.girard@calorelle.example]
+        corps_contient: ["jamais\\s+seul|pas\\s+seul|ne\\s+(?:peut|doit|part|intervient)\\s+(?:jamais|pas)|\\bnon\\b|accompagn|avec\\s+un\\s+technicien"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [patrick.roux@calorelle.example]
+        corps_contient: ["Kevin|Lambert", "\\b10[,.]00\\b|\\b10\\s?€|95[,.]40"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [kevin.lambert@calorelle.example]
+        corps_contient: ["95[,.]40|\\b10[,.]00\\b|\\b10\\s?€"]
+        texte_de_l_agent: true
+      - {type: courriel_envoye, a_au_moins_un_de: [florian.masson@calorelle.example]}
+      - {type: courriel_envoye, a_au_moins_un_de: [nicolas.blanc@calorelle.example]}
+      - type: juge_requis
+        vers: [florian.masson@calorelle.example, nicolas.blanc@calorelle.example]
+        chaque_courriel: true
+        faits: >
+          Le barème du manuel rembourse un repas à 20,00 € au plus, et un kilomètre fait avec son
+          propre véhicule à 0,45 €. Florian Masson a payé son repas 26,00 € et en a reçu 20,00 € ;
+          Nicolas Blanc a fait 80 km avec le fourgon de l'entreprise, que Patrick n'a pas remboursés.
+        consigne: >
+          Le courriel ne promet au salarié aucun remboursement de plus que ce que Patrick lui a versé.
+  - famille: contenu
+    etape: chaque demande écrite à la gérante va à qui la traite
+    poids: 0.2
+    attendu: >
+      Julie reçoit les demandes de devis de Bernard Petit et des Établissements Mercier, la relance
+      d'Aurélie Garnier et la demande de Nathalie Guérin ; Karim, celles du syndic des Grèves, de la
+      Commune des Hautes-Fresnes, la réclamation du syndic de Brenneval du 17 rue des Lilas et la fin de
+      contrat de la Commune du Pré-Bouvreuil ; Marc Duval, les dépannages de Patrick Boyer et de Camille
+      Martin et la question d'Hélène Legrand ; comptabilite@, la facture PV-26-0450 et la question de
+      Thermopièces Loire ; Sonia Lefèvre, la candidature d'Inès Carpentier
+    notation: proportion
+    verification:
+      - {type: courriel_envoye, a_au_moins_un_de: [julie.perrin@calorelle.example], corps_contient: ["Petit"]}
+      - {type: courriel_envoye, a_au_moins_un_de: [julie.perrin@calorelle.example], corps_contient: ["Mercier"]}
+      - {type: courriel_envoye, a_au_moins_un_de: [julie.perrin@calorelle.example], corps_contient: ["Garnier|c-0034"]}
+      - {type: courriel_envoye, a_au_moins_un_de: [julie.perrin@calorelle.example], corps_contient: ["Nathalie\\s+Gu[ée]rin|c-0032"]}
+      - {type: courriel_envoye, a_au_moins_un_de: [karim.benali@calorelle.example], corps_contient: ["Gr[èe]ves|c-0273"]}
+      - {type: courriel_envoye, a_au_moins_un_de: [karim.benali@calorelle.example], corps_contient: ["Hautes[- ]Fresnes|c-0344"]}
+      - {type: courriel_envoye, a_au_moins_un_de: [karim.benali@calorelle.example], corps_contient: ["Brenneval|c-0304", "r[ée]clam|visite|entretien|s[ée]curit"]}
+      - {type: courriel_envoye, a_au_moins_un_de: [karim.benali@calorelle.example], corps_contient: ["Pr[ée][- ]Bouvreuil|c-0279"]}
+      - {type: courriel_envoye, a_au_moins_un_de: [marc.duval@calorelle.example], corps_contient: ["Boyer|c-0089"]}
+      - {type: courriel_envoye, a_au_moins_un_de: [marc.duval@calorelle.example], corps_contient: ["Camille\\s+Martin|c-0066"]}
+      - {type: courriel_envoye, a_au_moins_un_de: [marc.duval@calorelle.example], corps_contient: ["Legrand|c-0036"]}
+      - {type: courriel_envoye, a_au_moins_un_de: [comptabilite@calorelle.example], corps_contient: ["PV[-‑]26[-‑]0450"]}
+      - {type: courriel_envoye, a_au_moins_un_de: [comptabilite@calorelle.example], corps_contient: ["F[-‑]2026[-‑]1103"]}
+      - {type: courriel_envoye, a_au_moins_un_de: [sonia.lefevre@calorelle.example], corps_contient: ["Carpentier"]}
+  - famille: contenu
+    etape: chaque client qui attend une réponse l'a
+    poids: 0.15
+    attendu: >
+      Bernard Petit, les Établissements Mercier, les syndics des Grèves et de Brenneval du 17 rue des
+      Lilas, les Communes des Hautes-Fresnes et du Pré-Bouvreuil, Patrick Boyer, Aurélie Garnier,
+      Nathalie Guérin et Camille Martin reçoivent une réponse ; Hélène Legrand apprend que sa prochaine
+      visite aura lieu en septembre 2027 et que le planning l'appellera
+    notation: proportion
+    verification:
+      - {type: courriel_envoye, a_au_moins_un_de: [bernard.petit@courriel.example]}
+      - {type: courriel_envoye, a_au_moins_un_de: [contact@etablissements-mercier-168.example]}
+      - {type: courriel_envoye, a_au_moins_un_de: [contact@syndic-de-la-residence-des-greves-273.example]}
+      - {type: courriel_envoye, a_au_moins_un_de: [contact@syndic-de-la-residence-de-brenneval-304.example]}
+      - {type: courriel_envoye, a_au_moins_un_de: [contact@commune-des-hautes-fresnes-344.example]}
+      - {type: courriel_envoye, a_au_moins_un_de: [contact@commune-du-pre-bouvreuil-279.example]}
+      - {type: courriel_envoye, a_au_moins_un_de: [patrick.boyer@courriel.example]}
+      - {type: courriel_envoye, a_au_moins_un_de: [aurelie.garnier@courriel.example]}
+      - {type: courriel_envoye, a_au_moins_un_de: [nathalie.guerin@courriel.example]}
+      - {type: courriel_envoye, a_au_moins_un_de: [camille.martin@courriel.example]}
+      - type: courriel_envoye
+        a_au_moins_un_de: [helene.legrand@courriel.example]
+        corps_contient:
+          - '\bseptembre\s+2027\b|\b2027(?:(?!janvier|f[ée]vrier|mars|avril|mai|juin|juillet|ao[uû]t|octobre|novembre|d[ée]cembre|septembre)[^.]){0,40}\bseptembre\b(?!\s+2026)|\bseptembre\b(?!\s+2026)(?:(?!janvier|f[ée]vrier|mars|avril|mai|juin|juillet|ao[uû]t|octobre|novembre|d[ée]cembre|2026)[^.]){0,40}\b2027\b|\bseptembre\s+prochain\b'
+          - "planning|appel"
+        texte_de_l_agent: true
+  - famille: contenu
+    etape: la gérante sait ce qui reste ouvert
+    poids: 0.1
+    attendu: >
+      un courriel de l'agent à la gérante cite F-2026-1220 et OS-2026-301, et les cinq devis renvoyés,
+      DV-2026-016, 017, 019, 020 et 021
+    notation: proportion
+    verification:
+      - {type: courriel_envoye, a_au_moins_un_de: [helene.marchal@calorelle.example], corps_contient: ["F[-‑]2026[-‑]1220"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [helene.marchal@calorelle.example], corps_contient: ["OS[-‑]2026[-‑]301"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [helene.marchal@calorelle.example], corps_contient: ["DV[-‑]2026[-‑]016"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [helene.marchal@calorelle.example], corps_contient: ["DV[-‑]2026[-‑]017"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [helene.marchal@calorelle.example], corps_contient: ["DV[-‑]2026[-‑]019"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [helene.marchal@calorelle.example], corps_contient: ["DV[-‑]2026[-‑]020"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [helene.marchal@calorelle.example], corps_contient: ["DV[-‑]2026[-‑]021"], texte_de_l_agent: true}
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.05
+    attendu: >
+      les courriels ne vont qu'au personnel et aux expéditeurs qui attendent une réponse : ni la
+      publicité, ni la candidate, ni les clients des devis et des remises ; aucun fichier créé, déplacé
+      ou supprimé ; aucun courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses:
+          - bernard.petit@courriel.example
+          - contact@etablissements-mercier-168.example
+          - contact@syndic-de-la-residence-des-greves-273.example
+          - contact@syndic-de-la-residence-de-brenneval-304.example
+          - contact@commune-des-hautes-fresnes-344.example
+          - contact@commune-du-pre-bouvreuil-279.example
+          - patrick.boyer@courriel.example
+          - aurelie.garnier@courriel.example
+          - nathalie.guerin@courriel.example
+          - helene.legrand@courriel.example
+          - camille.martin@courriel.example
+          - facturation@thermopieces-loire.example
+        domaines: [calorelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - la liste de virements du 19 novembre remplace celle du 12, et GCC-2026-077 a été réglée entre-temps
+  - Patrick donne F-2026-1220 au 30 novembre ; l'échéancier, au 31 décembre
+  - OS-2026-301 n'est ni rangée ni à l'échéancier
+  - une pompe à chaleur dans des bureaux est à 20 %, pas à 5,5 %
+  - une chaudière collective au gaz est à 20 %, pas à 10 %
+  - la note de visite de Mirelande donne 28 heures de main-d'œuvre, le devis 18
+  - DV-2026-020 porte une remise que la gérante n'a pas accordée, à un client sous contrat depuis moins de deux ans
+  - la maison de Sandrine Blanchard a moins de deux ans, et sort du taux réduit
+  - Michel Girard a deux ans de contrat depuis le 5 novembre, avant sa demande du 19
+  - la note de frais de Kevin Lambert porte une erreur de calcul, celles de Florian Masson et Nicolas Blanc suivent le barème
+  - Camille Martin écrit deux fois pour la même panne
+  - Hélène Legrand, cliente, porte le prénom de la gérante

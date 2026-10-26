@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-maca-622",
+  "de": {
+    "nom": "Couverture du Gué-Morin",
+    "adresse": "facturation@couverture-du-gue-morin.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Toiture-terrasse du Panorama",
+  "date": "2026-09-04T09:40:00+02:00",
+  "corps": "Madame,\n\nPour l'étanchéité de la toiture-terrasse de la Résidence Le Panorama, votée en août, nous pourrions commencer le lundi 28 septembre. Pouvez-vous nous confirmer cette date, que nous commandions les matériaux ?\n\nCouverture du Gué-Morin",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

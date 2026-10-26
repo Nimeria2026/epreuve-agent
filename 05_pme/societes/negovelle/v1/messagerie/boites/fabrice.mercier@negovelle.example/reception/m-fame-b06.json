@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-fame-b06",
+  "de": {
+    "nom": "Claude Barre",
+    "adresse": "claude.barre@electricite-daniel.example"
+  },
+  "a": [
+    "fabrice.mercier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande reçue, merci",
+  "date": "2026-06-15T10:08:00+02:00",
+  "corps": "Bonjour,\n\nLa livraison de ce matin est complète. Merci.\n\nClaude Barre",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

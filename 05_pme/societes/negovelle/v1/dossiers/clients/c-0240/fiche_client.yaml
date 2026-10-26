@@ -1,0 +1,25 @@
+# Fiche du client c-0240 de Négovelle. Données FICTIVES.
+code: c-0240
+nom: Charpente Quéré
+type: artisan
+adresse: 87 chemin des Prés, 36999 Fontclavier (FICTIF)
+telephone: 02 61 91 66 20
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Serge Morel
+  fonction: gérant
+  courriel: serge.morel@charpente-quere.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 87 chemin des Prés, 36999 Fontclavier (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2022-07-01'
+limite_encours_euros: 4500.0
+livraisons_partielles: true
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

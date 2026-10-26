@@ -1,0 +1,22 @@
+[project]
+name = "eke"
+version = "0.1.0"
+description = "Outil documentaire de la PME fictive, servi en MCP : chaque valeur avec sa page et sa zone (projet Épreuve d'agent)"
+requires-python = ">=3.12"
+dependencies = [
+  "anyio>=4.9",
+  # Licence MIT, déjà dans l'espace uv par EASE : validation de la sortie contre le contrat.
+  "jsonschema>=4.23",
+  "mcp>=2.3",
+  # Licence BSD-3-Clause ou Apache-2.0, PDFium sous BSD-3-Clause ; lue sur PyPI le 2026-10-08
+  # (00_docs/sources/2026-10-08_journal_eke.md, deuxième entrée).
+  "pypdfium2>=5.14,<6",
+  "pyyaml>=6.0",
+]
+
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/eke"]

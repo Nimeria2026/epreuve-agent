@@ -1,0 +1,115 @@
+# Registre des lots en gestion, n18. Données FICTIVES.
+immeuble: n18
+nature: groupe de maisons
+adresse: 48 rue de la Poste, 18999 Vernillac (FICTIF)
+secteur: nord
+gestionnaire: Élodie Chauvin
+distance_agence_km: 11
+annee_construction: 1985
+gardien: false
+copropriete_du_syndic: null
+lots:
+- lot: n18-01
+  type: maison T4
+  surface_m2: 96
+  proprietaire: p-0369
+  locataire: Mme Camille Lecomte
+  entree: '2016-07-20'
+  loyer_hors_charges: 770,00 €
+  provision_sur_charges: 1,00 €
+  depot_de_garantie: 629,00 €
+  revision: chaque 20 juillet
+  trimestre_irl: T1
+  dpe: G
+- lot: n18-02
+  type: maison T4
+  surface_m2: 103
+  proprietaire: p-0316
+  locataire: Mme Lucie Laporte
+  entree: '2022-10-11'
+  loyer_hors_charges: 942,00 €
+  provision_sur_charges: 18,00 €
+  depot_de_garantie: 876,00 €
+  revision: chaque 11 octobre
+  trimestre_irl: T2
+  dpe: C
+- lot: n18-03
+  type: maison T3
+  surface_m2: 85
+  proprietaire: p-0370
+  locataire: Mme Manon Rivière
+  entree: '2013-08-03'
+  loyer_hors_charges: 681,00 €
+  provision_sur_charges: 4,00 €
+  depot_de_garantie: 524,00 €
+  revision: chaque 3 août
+  trimestre_irl: T2
+  dpe: D
+- lot: n18-04
+  type: maison T3
+  surface_m2: 77
+  proprietaire: p-0361
+  locataire: vacant
+  loyer_hors_charges: 678,00 €
+  provision_sur_charges: 18,00 €
+  dpe: E
+- lot: n18-05
+  type: maison T4
+  surface_m2: 88
+  proprietaire: p-0349
+  locataire: M. Laurent Julien
+  entree: '2016-07-29'
+  loyer_hors_charges: 832,00 €
+  provision_sur_charges: 20,00 €
+  depot_de_garantie: 679,00 €
+  revision: chaque 29 juillet
+  trimestre_irl: T1
+  dpe: C
+- lot: n18-06
+  type: maison T3
+  surface_m2: 84
+  proprietaire: p-0371
+  locataire: Mme Yvette Lesage
+  entree: '2024-01-22'
+  loyer_hors_charges: 780,00 €
+  provision_sur_charges: 17,00 €
+  depot_de_garantie: 743,00 €
+  revision: chaque 22 janvier
+  trimestre_irl: T3
+  dpe: D
+- lot: n18-07
+  type: maison T5
+  surface_m2: 124
+  proprietaire: p-0358
+  locataire: M. Hervé Leblanc
+  entree: '2018-01-25'
+  loyer_hors_charges: 1 188,00 €
+  provision_sur_charges: 10,00 €
+  depot_de_garantie: 990,00 €
+  revision: chaque 25 janvier
+  trimestre_irl: T3
+  dpe: C
+- lot: n18-08
+  type: maison T3
+  surface_m2: 85
+  proprietaire: p-0326
+  locataire: M. Dominique Morin
+  entree: '2012-11-08'
+  loyer_hors_charges: 724,00 €
+  provision_sur_charges: 8,00 €
+  depot_de_garantie: 546,00 €
+  revision: chaque 8 novembre
+  trimestre_irl: T3
+  dpe: D
+- lot: n18-09
+  type: maison T5
+  surface_m2: 109
+  proprietaire: p-0372
+  locataire: Mme Anne Hébert
+  entree: '2016-07-27'
+  loyer_hors_charges: 1 023,00 €
+  provision_sur_charges: 14,00 €
+  depot_de_garantie: 835,00 €
+  revision: chaque 27 juillet
+  trimestre_irl: T1
+  dpe: D

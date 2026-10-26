@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-quma-104",
+  "de": {
+    "nom": "Arnaud Leclerc, SCI Les Terrasses du Cher Invest",
+    "adresse": "gestion@sci-les-terrasses-du-cher-invest.example"
+  },
+  "a": [
+    "quentin.mallet@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Visites du n27-06",
+  "date": "2026-06-06T09:20:00+02:00",
+  "corps": "Bonjour,\n\nNotre locataire du n27-06 part le 4 juillet. Pour ne pas perdre de temps, organisez les visites le dimanche 21 juin de 10 h à 12 h et le mardi 23 juin de 14 h à 18 h : les candidats sont plus disponibles.\n\nArnaud Leclerc, gérant de la SCI Les Terrasses du Cher Invest",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

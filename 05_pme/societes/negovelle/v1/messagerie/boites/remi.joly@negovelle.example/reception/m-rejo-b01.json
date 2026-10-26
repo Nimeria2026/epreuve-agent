@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-rejo-b01",
+  "de": {
+    "nom": "Sylvain Bouvier",
+    "adresse": "sylvain.bouvier@couverture-monnier.example"
+  },
+  "a": [
+    "remi.joly@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Horaires du comptoir cet été",
+  "date": "2026-07-03T12:45:00+02:00",
+  "corps": "Bonjour,\n\nLe comptoir reste-t-il ouvert en août ?\n\nSylvain Bouvier",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

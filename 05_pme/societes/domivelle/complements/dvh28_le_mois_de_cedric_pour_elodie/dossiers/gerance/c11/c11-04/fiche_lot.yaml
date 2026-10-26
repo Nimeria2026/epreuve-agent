@@ -1,0 +1,19 @@
+# Fiche du lot c11-04. Données FICTIVES.
+lot: c11-04
+adresse: 24 rue de la Halle, 18999 Montclavel-sur-Cher (FICTIF)
+type: maison T4
+surface_m2: 93
+locataire:
+  nom: M. Claude Blondel
+  courriel: claude.blondel@messagerie.example
+  telephone: 06 39 98 77 08
+  entree: '2019-04-27'
+bail:
+  signature: '2019-04-27'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 962,00 €
+  depot_de_garantie: 819,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T4
+dpe:
+  classe: C

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-040",
+  "de": {
+    "nom": "Isabelle Royer",
+    "adresse": "isabelle.royer@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Lycée professionnel de Vendrigny : CO-2026-02050",
+  "date": "2026-08-19T09:30:00+02:00",
+  "corps": "Bruno,\n\nCO-2026-02050 du Lycée professionnel de Vendrigny (c-0201), 50 détecteurs de chaleur, 699,00 € TTC, dépasse sa limite d'encours. Le lycée paie par mandat administratif, toujours tard mais toujours. Rien n'est arrivé sur le relevé : ton accord écrit pour débloquer ?\n\nIsabelle",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

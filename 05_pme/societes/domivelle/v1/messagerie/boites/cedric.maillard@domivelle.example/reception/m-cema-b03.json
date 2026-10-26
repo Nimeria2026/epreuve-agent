@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cema-b03",
+  "de": {
+    "nom": "Mme Catherine Bourdon",
+    "adresse": "catherine.bourdon@boite-postale.example"
+  },
+  "a": [
+    "cedric.maillard@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Attestation pour ma déclaration de revenus",
+  "date": "2026-05-24T10:23:00+02:00",
+  "corps": "Bonjour,\n\nJe n'ai pas reçu l'attestation annuelle pour ma déclaration des revenus fonciers. Pouvez-vous me la renvoyer ?\n\nCordialement,\nMme Catherine Bourdon",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

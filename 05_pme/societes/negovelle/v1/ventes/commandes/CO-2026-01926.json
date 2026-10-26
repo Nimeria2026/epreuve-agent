@@ -1,0 +1,90 @@
+{
+  "numero": "CO-2026-01926",
+  "client": "c-0044",
+  "reference_client": "BC-7152",
+  "cree_le": "2026-06-29T09:10:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "express",
+  "livraison": {
+    "code": "L2",
+    "adresse": "29 parc d'activités de la Gare, 36999 Ardillac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "OUT-10538",
+      "libelle": "Clé à molette 375 mm",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 15.9,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 15.26,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 61.04
+    },
+    {
+      "reference": "PRO-10008",
+      "libelle": "Bonnet de travail gris",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 4.55,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 4.37,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 52.44
+    },
+    {
+      "reference": "PRO-10563",
+      "libelle": "Chaussettes de travail d'hiver, pointures 43-46",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 5.35,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 5.35,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 64.2
+    }
+  ],
+  "port_ht_euros": 25.0,
+  "total_ht_euros": 202.68,
+  "total_tva_euros": 40.54,
+  "total_ttc_euros": 243.22,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01775"
+  ],
+  "facture": "FC-2026-1038",
+  "historique": [
+    {
+      "date": "2026-06-29T09:10:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-29T09:12:00+02:00",
+      "par": "oceane.collin",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-29T16:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01775"
+    },
+    {
+      "date": "2026-06-30T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01775"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1038"
+    }
+  ]
+}

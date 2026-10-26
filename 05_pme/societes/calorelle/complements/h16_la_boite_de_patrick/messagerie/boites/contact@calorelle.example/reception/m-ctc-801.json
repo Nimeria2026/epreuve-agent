@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-801",
+  "de": {
+    "nom": "Claire Bonnet",
+    "adresse": "claire.bonnet@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis pompe à chaleur",
+  "date": "2026-11-20T17:00:00+01:00",
+  "corps": "Bonjour,\n\nJe voudrais un devis pour remplacer ma vieille chaudière fioul par une pompe à chaleur, dans ma maison de 1978.\n\nClaire Bonnet, 18 rue Haute, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

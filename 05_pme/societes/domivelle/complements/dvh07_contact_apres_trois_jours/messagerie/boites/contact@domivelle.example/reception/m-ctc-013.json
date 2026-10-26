@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-013",
+  "de": {
+    "nom": "Henri Fleury",
+    "adresse": "henri.fleury@boite-postale.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Reversement de mai",
+  "date": "2026-06-04T10:25:00+02:00",
+  "corps": "Bonjour,\n\nLe reversement de mai de mes quatre lots me paraît faible : quels frais ont été déduits ?\n\nHenri Fleury",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

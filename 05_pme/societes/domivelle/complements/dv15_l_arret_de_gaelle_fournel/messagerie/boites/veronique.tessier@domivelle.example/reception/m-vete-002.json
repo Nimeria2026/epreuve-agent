@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-vete-002",
+  "de": {
+    "nom": "Yohan Delmas",
+    "adresse": "yohan.delmas@domivelle.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Gaëlle ?",
+  "date": "2026-06-08T08:47:00+02:00",
+  "corps": "Véronique,\n\nGaëlle ne répond pas ce matin et son assemblée de jeudi approche. Tu sais ce qui se passe ? Elle a quoi ?\n\nYohan",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

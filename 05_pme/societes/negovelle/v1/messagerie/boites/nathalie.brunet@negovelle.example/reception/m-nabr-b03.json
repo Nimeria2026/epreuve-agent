@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-nabr-b03",
+  "de": {
+    "nom": "Julien Moulin",
+    "adresse": "julien.moulin@charpente-dumont.example"
+  },
+  "a": [
+    "nathalie.brunet@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande reçue, merci",
+  "date": "2026-06-25T16:42:00+02:00",
+  "corps": "Bonjour,\n\nLa livraison de ce matin est complète. Merci.\n\nJulien Moulin",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

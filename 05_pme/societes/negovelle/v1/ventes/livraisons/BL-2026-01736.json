@@ -1,0 +1,44 @@
+{
+  "numero": "BL-2026-01736",
+  "commande": "CO-2026-01887",
+  "client": "c-0099",
+  "date_expedition": "2026-06-26",
+  "date_livraison": "2026-06-26",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "3 zone d'activités des Grands Prés, 36999 Mérolles-en-Brenne (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ELE-12866",
+      "libelle": "Projecteur LED 20 W, à détecteur",
+      "quantite": 1
+    },
+    {
+      "reference": "ELE-13258",
+      "libelle": "Réglette LED 600 mm, 18 W",
+      "quantite": 5
+    },
+    {
+      "reference": "FIX-10024",
+      "libelle": "Cheville métallique à expansion M4x45, boîte de 25",
+      "quantite": 2
+    },
+    {
+      "reference": "OUT-11690",
+      "libelle": "Pince universelle 250 mm",
+      "quantite": 12
+    },
+    {
+      "reference": "VIS-13683",
+      "libelle": "Vis à tôle tête cylindrique 3,5x25, inox A2, boîte de 100",
+      "quantite": 2
+    }
+  ],
+  "reserves": null,
+  "signataire": "Geneviève Toussaint",
+  "statut": "livre"
+}

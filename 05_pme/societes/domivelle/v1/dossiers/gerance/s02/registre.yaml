@@ -1,0 +1,111 @@
+# Registre des lots en gestion, s02. Données FICTIVES.
+immeuble: s02
+nature: immeuble collectif
+adresse: 130 rue Émile-Zola, 18999 Chantebrune (FICTIF)
+secteur: sud
+gestionnaire: Solène Audoin
+distance_agence_km: 15
+annee_construction: 1988
+gardien: false
+copropriete_du_syndic: null
+lots:
+- lot: s02-01
+  type: T2
+  surface_m2: 50
+  etage: 0
+  proprietaire: p-0032
+  locataire: M. Daniel Étienne
+  entree: '2020-03-05'
+  loyer_hors_charges: 447,00 €
+  provision_sur_charges: 60,00 €
+  depot_de_garantie: 389,00 €
+  revision: chaque 5 mars
+  trimestre_irl: T4
+  dpe: D
+- lot: s02-02
+  type: T4
+  surface_m2: 79
+  etage: 0
+  proprietaire: p-0032
+  locataire: Mme Hélène Aubert
+  entree: '2018-05-24'
+  loyer_hors_charges: 649,00 €
+  provision_sur_charges: 63,00 €
+  depot_de_garantie: 541,00 €
+  revision: chaque 24 mai
+  trimestre_irl: T1
+  dpe: E
+- lot: s02-03
+  type: T3
+  surface_m2: 56
+  etage: 0
+  proprietaire: p-0032
+  locataire: Mme Hélène Gomez
+  entree: '2023-08-12'
+  loyer_hors_charges: 497,00 €
+  provision_sur_charges: 84,00 €
+  depot_de_garantie: 473,00 €
+  revision: chaque 12 août
+  trimestre_irl: T2
+  dpe: E
+- lot: s02-04
+  type: T3
+  surface_m2: 60
+  etage: 0
+  proprietaire: p-0031
+  locataire: vacant
+  loyer_hors_charges: 528,00 €
+  provision_sur_charges: 82,00 €
+  dpe: A
+- lot: s02-05
+  type: T4
+  surface_m2: 76
+  etage: 1
+  proprietaire: p-0033
+  locataire: M. Henri Schmitt
+  entree: '2025-08-09'
+  loyer_hors_charges: 684,00 €
+  provision_sur_charges: 64,00 €
+  depot_de_garantie: 684,00 €
+  revision: chaque 9 août
+  trimestre_irl: T2
+  dpe: D
+- lot: s02-06
+  type: T3
+  surface_m2: 60
+  etage: 1
+  proprietaire: p-0034
+  locataire: M. Fabrice Bonnet
+  entree: '2018-03-18'
+  loyer_hors_charges: 536,00 €
+  provision_sur_charges: 97,00 €
+  depot_de_garantie: 447,00 €
+  revision: chaque 18 mars
+  trimestre_irl: T4
+  dpe: E
+- lot: s02-07
+  type: T2
+  surface_m2: 38
+  etage: 1
+  proprietaire: p-0031
+  locataire: Mme Nathalie Maréchal
+  entree: '2019-01-31'
+  loyer_hors_charges: 326,00 €
+  provision_sur_charges: 80,00 €
+  depot_de_garantie: 277,00 €
+  revision: chaque 31 janvier
+  trimestre_irl: T3
+  dpe: F
+- lot: s02-08
+  type: T1
+  surface_m2: 33
+  etage: 1
+  proprietaire: p-0033
+  locataire: M. Arnaud Royer
+  entree: '2016-08-25'
+  loyer_hors_charges: 293,00 €
+  provision_sur_charges: 90,00 €
+  depot_de_garantie: 239,00 €
+  revision: chaque 25 août
+  trimestre_irl: T2
+  dpe: D

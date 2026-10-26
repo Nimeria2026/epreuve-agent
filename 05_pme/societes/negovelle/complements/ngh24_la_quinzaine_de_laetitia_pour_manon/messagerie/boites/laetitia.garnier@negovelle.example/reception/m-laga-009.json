@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-laga-009",
+  "de": {
+    "nom": "Corinne Vidal",
+    "adresse": "corinne.vidal@negovelle.example"
+  },
+  "a": [
+    "laetitia.garnier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Commande pour le chantier",
+  "date": "2026-08-10T07:39:00+02:00",
+  "corps": "Lætitia,\n\nManon étant absente jusqu'au 21, je te transfère sa commande du nord, arrivée dans commandes@.\n\nCorinne\n\n----- Message transféré -----\nDe : Hugo Desjardins <hugo.desjardins@charpente-dore.example>\nDate : 7 août 2026, 12 h 40\nObjet : Commande pour le chantier\n\nBonjour Manon,\n\nPour notre chantier déclaré :\n\n- 15 x VIS-11086, Vis à bois tête fraisée 3,5x70, zinguée, boîte de 100\n- 30 x FIX-11184, Collier de fixation 28 mm, sachet de 10\n\nEn standard, merci.\n\nHugo Desjardins\nCharpente Doré",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

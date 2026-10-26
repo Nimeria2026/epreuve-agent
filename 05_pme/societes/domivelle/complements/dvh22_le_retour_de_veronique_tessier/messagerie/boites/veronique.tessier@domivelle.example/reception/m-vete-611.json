@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-vete-611",
+  "de": {
+    "nom": "M. Éric Lemaire",
+    "adresse": "eric.lemaire@boite-postale.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "c01-09 : le prochain loyer",
+  "date": "2026-08-12T18:20:00+02:00",
+  "corps": "Madame Tessier,\n\nMme Émilie Morin m'a dit en juillet qu'elle partirait sans doute à la fin d'octobre. Pour le prochain locataire du lot c01-09, je veux un loyer de 620,00 € hors charges : les loyers ont monté dans la rue. Pouvez-vous le prévoir ?\n\nM. Éric Lemaire",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

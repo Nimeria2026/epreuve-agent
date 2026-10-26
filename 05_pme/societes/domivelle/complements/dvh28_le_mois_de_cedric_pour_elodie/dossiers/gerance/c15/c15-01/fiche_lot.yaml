@@ -1,0 +1,19 @@
+# Fiche du lot c15-01. Données FICTIVES.
+lot: c15-01
+adresse: 41 rue de la Croix-Blanche, 18999 Montclavel-sur-Cher (FICTIF)
+type: T3
+surface_m2: 69
+locataire:
+  nom: Mme Léa Camus
+  courriel: lea.camus@messagerie.example
+  telephone: 06 39 98 77 29
+  entree: '2015-01-02'
+bail:
+  signature: '2015-01-02'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 679,00 €
+  depot_de_garantie: 533,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T3
+dpe:
+  classe: E

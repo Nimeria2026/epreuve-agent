@@ -1,0 +1,28 @@
+# Fiche du client c-0208 de Négovelle. Données FICTIVES.
+code: c-0208
+nom: Charpente Auger
+type: artisan
+adresse: 35 rue du Château, 36999 Vendrigny (FICTIF)
+telephone: 02 61 91 79 29
+secteur: est
+commercial: fabrice.mercier
+administration_des_ventes: benoit.faure
+contacts:
+- nom: Laurent Gautier
+  fonction: gérant
+  courriel: laurent.gautier@charpente-auger.example
+- nom: André Gervais
+  fonction: conjoint collaborateur
+  courriel: andre.gervais@charpente-auger.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 35 rue du Château, 36999 Vendrigny (FICTIF)
+categorie_remise: C
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2025-10-01'
+limite_encours_euros: 6500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

@@ -1,0 +1,24 @@
+# Fiche du lot n38-03. Données FICTIVES.
+lot: n38-03
+adresse: 41 rue Jean-Jaurès, 18999 Saint-Aubrin-des-Bois (FICTIF)
+type: T1
+surface_m2: 34
+locataire:
+  nom: M. Roger Godard
+  courriel: roger.godard@mel-perso.example
+  telephone: 06 39 98 85 60
+  entree: '2025-07-01'
+bail:
+  signature: '2025-07-01'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 274,00 €
+  depot_de_garantie: 274,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T1
+dpe:
+  classe: E
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

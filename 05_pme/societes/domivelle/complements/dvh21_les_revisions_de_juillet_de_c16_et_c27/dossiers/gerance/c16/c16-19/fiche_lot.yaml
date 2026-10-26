@@ -1,0 +1,19 @@
+# Fiche du lot c16-19. Données FICTIVES.
+lot: c16-19
+adresse: 122 avenue de la Gare, 18999 Montclavel-sur-Cher (FICTIF)
+type: T2
+surface_m2: 44
+locataire:
+  nom: M. Louis Tissier
+  courriel: louis.tissier@mel-perso.example
+  telephone: 06 39 98 73 07
+  entree: '2013-07-28'
+bail:
+  signature: '2013-07-28'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 482,00 €
+  depot_de_garantie: 371,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T1
+dpe:
+  classe: D

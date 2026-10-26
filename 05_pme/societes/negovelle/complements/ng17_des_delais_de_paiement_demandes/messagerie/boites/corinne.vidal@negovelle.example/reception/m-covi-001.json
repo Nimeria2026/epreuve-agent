@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-covi-001",
+  "de": {
+    "nom": "Didier Boutin",
+    "adresse": "didier.boutin@menuiserie-industrielle-delaunay.example"
+  },
+  "a": [
+    "corinne.vidal@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Nos délais de paiement",
+  "date": "2026-07-03T14:05:00+02:00",
+  "corps": "Madame Vidal,\n\nÀ compter du 1er juillet, notre groupe règle tous ses fournisseurs à 90 jours fin de mois. Merci d'appliquer ce délai à vos factures dès celle de juillet.\n\nCordialement,\nDidier Boutin\nMenuiserie industrielle Delaunay",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

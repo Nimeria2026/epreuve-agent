@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-001",
+  "de": {
+    "nom": "Suzanne Belin",
+    "adresse": "suzanne.belin@boutin-renovation.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-02T08:12:00+02:00",
+  "corps": "Bonjour,\n\nVoici notre commande, à livrer sur notre chantier déclaré :\n\n- 10 x FIX-10106, Cheville métallique à expansion M6x32, boîte de 25\n- 6 x VIS-10179, Boulon tête hexagonale M12x30, inox A2, sachet de 10\n- 4 x CON-10277, Colle de montage, pot de 1 l\n\nMerci de nous confirmer la livraison.\n\nCordialement,\nSuzanne Belin\nBoutin Rénovation",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

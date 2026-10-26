@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-024",
+  "de": {
+    "nom": "Chantal Péron",
+    "adresse": "chantal.peron@tixier-renovation.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Prix pour une grosse quantité",
+  "date": "2026-07-03T09:50:00+02:00",
+  "corps": "Bonjour,\n\nQuel prix pourriez-vous nous faire pour 500 boîtes de chevilles FIX-10106, pour un chantier de la rentrée ?\n\nCordialement,\nChantal Péron\nTixier Rénovation",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

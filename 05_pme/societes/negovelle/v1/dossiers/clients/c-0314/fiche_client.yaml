@@ -1,0 +1,31 @@
+# Fiche du client c-0314 de Négovelle. Données FICTIVES.
+code: c-0314
+nom: Bodin Bâtiment
+type: entreprise
+adresse: 33 zone artisanale du Moulin, 36999 Mérolles-en-Brenne (FICTIF)
+telephone: 02 61 91 79 12
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Béatrice Bouchard
+  fonction: conductrice de travaux
+  courriel: beatrice.bouchard@bodin-batiment.example
+- nom: Dominique Hamel
+  fonction: responsable des achats
+  courriel: dominique.hamel@bodin-batiment.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 33 zone artisanale du Moulin, 36999 Mérolles-en-Brenne (FICTIF)
+- code: L2
+  libelle: dépôt
+  adresse: 24 zone industrielle des Brandes, 36999 Corvalet (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2011-06-01'
+limite_encours_euros: 10500.0
+livraisons_partielles: false
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

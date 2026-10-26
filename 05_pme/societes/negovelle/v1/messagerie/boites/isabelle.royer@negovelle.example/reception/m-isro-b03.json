@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-isro-b03",
+  "de": {
+    "nom": "Antoine Cazenave",
+    "adresse": "antoine.cazenave@pasquet-batiment.example"
+  },
+  "a": [
+    "isabelle.royer@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Horaires du comptoir cet été",
+  "date": "2026-06-25T08:33:00+02:00",
+  "corps": "Bonjour,\n\nLe comptoir reste-t-il ouvert en août ?\n\nAntoine Cazenave",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

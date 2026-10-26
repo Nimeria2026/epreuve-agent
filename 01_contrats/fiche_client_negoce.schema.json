@@ -1,0 +1,178 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FicheClientNegoce",
+  "description": "La fiche d'un client de Négovelle, rangée dans dossiers/clients/<code>/fiche_client.yaml : ses contacts et ses adresses déclarés, ses conditions, son statut ; lue par le service de ventes, qui n'y écrit que le statut. Données fictives.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "code",
+    "nom",
+    "type",
+    "adresse",
+    "telephone",
+    "secteur",
+    "commercial",
+    "administration_des_ventes",
+    "contacts",
+    "adresses_livraison",
+    "categorie_remise",
+    "delai_paiement",
+    "client_depuis",
+    "limite_encours_euros",
+    "livraisons_partielles",
+    "substitution_acceptee",
+    "statut",
+    "motif_blocage"
+  ],
+  "properties": {
+    "code": {
+      "type": "string",
+      "pattern": "^c-[0-9]{4}$",
+      "description": "Code du client, celui de sa fiche."
+    },
+    "nom": {
+      "type": "string",
+      "minLength": 1
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "artisan",
+        "entreprise",
+        "pme",
+        "collectivite"
+      ]
+    },
+    "adresse": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Le siège ; le service de facturation la lit aussi."
+    },
+    "telephone": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Le numéro à rappeler pour vérifier une demande."
+    },
+    "secteur": {
+      "type": "string",
+      "enum": [
+        "nord",
+        "sud",
+        "est",
+        "ouest"
+      ]
+    },
+    "commercial": {
+      "type": "string",
+      "pattern": "^[a-z]+(?:[.-][a-z]+)*$",
+      "description": "Identifiant d'une personne de l'organigramme."
+    },
+    "administration_des_ventes": {
+      "type": "string",
+      "pattern": "^[a-z]+(?:[.-][a-z]+)*$",
+      "description": "Identifiant d'une personne de l'organigramme."
+    },
+    "contacts": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Les contacts déclarés : les seuls dont une commande ou une demande se reçoit.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "nom",
+          "fonction",
+          "courriel"
+        ],
+        "properties": {
+          "nom": {
+            "type": "string",
+            "minLength": 1
+          },
+          "fonction": {
+            "type": "string",
+            "minLength": 1
+          },
+          "courriel": {
+            "type": "string",
+            "pattern": "^[^@\\s]+@[^@\\s]+\\.example$"
+          }
+        }
+      }
+    },
+    "adresses_livraison": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "code",
+          "libelle",
+          "adresse"
+        ],
+        "properties": {
+          "code": {
+            "type": "string",
+            "pattern": "^L[0-9]+$"
+          },
+          "libelle": {
+            "type": "string",
+            "minLength": 1
+          },
+          "adresse": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "categorie_remise": {
+      "type": "string",
+      "enum": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    "delai_paiement": {
+      "type": "string",
+      "enum": [
+        "comptant",
+        "30_jours_date_de_facture",
+        "60_jours_date_de_facture"
+      ]
+    },
+    "client_depuis": {
+      "type": "string",
+      "format": "date"
+    },
+    "limite_encours_euros": {
+      "type": "number",
+      "minimum": 0
+    },
+    "livraisons_partielles": {
+      "type": "boolean"
+    },
+    "substitution_acceptee": {
+      "type": "boolean"
+    },
+    "statut": {
+      "type": "string",
+      "enum": [
+        "ouvert",
+        "bloque"
+      ]
+    },
+    "motif_blocage": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    }
+  }
+}

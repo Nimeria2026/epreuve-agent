@@ -1,0 +1,123 @@
+{
+  "numero": "CO-2026-01875",
+  "client": "c-0174",
+  "reference_client": "BC-5332",
+  "cree_le": "2026-06-25T09:10:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "9 zone artisanale du Moulin, 36999 Brissonne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "FIX-10212",
+      "libelle": "Cheville nylon 10x25, boîte de 200",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 12.65,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 12.14,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 12.14
+    },
+    {
+      "reference": "OUT-10146",
+      "libelle": "Caisse à outils plastique 500 mm",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 36.25,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 34.8,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 34.8
+    },
+    {
+      "reference": "OUT-10686",
+      "libelle": "Cutter à lame sécable 9 mm",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 6.8,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 6.53,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 6.53
+    },
+    {
+      "reference": "PRO-10571",
+      "libelle": "Chaussettes de travail d'été, pointures 39-42",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 5.85,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 5.62,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 28.1
+    },
+    {
+      "reference": "QUI-11241",
+      "libelle": "Coulisse de tiroir à billes 400 mm, la paire",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 12.45,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 11.95,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 23.9
+    },
+    {
+      "reference": "VIS-13429",
+      "libelle": "Vis à bois tête fraisée 6x45, inox A2, boîte de 200",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 19.6,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 18.82,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 112.92
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 233.39,
+  "total_tva_euros": 46.68,
+  "total_ttc_euros": 280.07,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01724"
+  ],
+  "facture": "FC-2026-1158",
+  "historique": [
+    {
+      "date": "2026-06-25T09:10:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-25T09:12:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-26T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01724"
+    },
+    {
+      "date": "2026-06-26T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01724"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1158"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-isro-001",
+  "de": {
+    "nom": "Bruno Castaing",
+    "adresse": "bruno.castaing@negovelle.example"
+  },
+  "a": [
+    "isabelle.royer@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "RE: Imprimerie Gay : CO-2026-02045",
+  "date": "2026-08-24T15:10:00+02:00",
+  "corps": "Isabelle,\n\nTu as mon accord écrit pour débloquer la commande CO-2026-02045 de Imprimerie Gay, 218,40 € TTC.\n\nAutres décisions pour toi : Paysage Noblet (c-0304) et Paysage Parmentier (c-0156) passent à 60 jours date de facture, à partir des factures d'août, Électricité Legendre (c-0104) et Plâtrerie Lecoq (c-0194) à partir de septembre. Gestes sur les factures d'août : 10 % pour Plâtrerie Martineau, 15 % pour Électricité Legendre, 30,00 € HT pour Couverture Grenier.\n\nBruno",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

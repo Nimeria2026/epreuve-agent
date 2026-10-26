@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0381"
+nom: "Manon Vincent"
+type: "particulier"
+adresse: "113 avenue des Tilleuls, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "manon.vincent@courriel.example"
+telephone: "06 39 98 50 90"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité Plus"
+  depuis: "2018-12-20"
+  mois_anniversaire: "décembre"
+  derniere_visite: "2025-12-15"

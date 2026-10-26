@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-001",
+  "de": {
+    "nom": "Paul Gay",
+    "adresse": "paul.gay@transports-ducros.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-24T15:10:00+02:00",
+  "corps": "Bonjour,\n\nNotre commande :\n\n- 40 x ELE-13479, Tube LED T8 900 mm, 14 W\n- 12 x CON-11968, Ruban adhésif PVC 48 mm, rouleau de 10 m\n\nLivraison standard au siège.\n\nPaul Gay\nTransports Ducros",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

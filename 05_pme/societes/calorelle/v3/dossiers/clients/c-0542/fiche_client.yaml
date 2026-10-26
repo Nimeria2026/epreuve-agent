@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0542"
+nom: "Sandrine Fontaine"
+type: "particulier"
+adresse: "38 avenue des Tilleuls, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "sandrine.fontaine@courriel.example"
+telephone: "06 39 98 51 27"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2023-04-15"
+  mois_anniversaire: "avril"
+  derniere_visite: "2026-04-13"

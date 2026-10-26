@@ -1,0 +1,28 @@
+# Fiche du client c-0195 de Négovelle. Données FICTIVES.
+code: c-0195
+nom: Couverture Pasquet
+type: artisan
+adresse: 8 boulevard de l'Indre, 36999 Fontclavier (FICTIF)
+telephone: 02 61 91 92 23
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Fabrice Granger
+  fonction: gérant
+  courriel: fabrice.granger@couverture-pasquet.example
+- nom: Alice Genet
+  fonction: conjointe collaboratrice
+  courriel: alice.genet@couverture-pasquet.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 8 boulevard de l'Indre, 36999 Fontclavier (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2015-08-01'
+limite_encours_euros: 2000.0
+livraisons_partielles: true
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

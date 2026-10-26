@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-nabr-b05",
+  "de": {
+    "nom": "Vincent Cosson",
+    "adresse": "vincent.cosson@menuiserie-industrielle-hoarau.example"
+  },
+  "a": [
+    "nathalie.brunet@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande reçue, merci",
+  "date": "2026-06-15T09:19:00+02:00",
+  "corps": "Bonjour,\n\nLa livraison de ce matin est complète. Merci.\n\nVincent Cosson",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

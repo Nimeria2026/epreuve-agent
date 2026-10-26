@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-isro-002",
+  "de": {
+    "nom": "Guy Brochard",
+    "adresse": "guy.brochard@paysage-hoarau.example"
+  },
+  "a": [
+    "isabelle.royer@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Échéance de FC-2026-0828",
+  "date": "2026-07-04T10:15:00+02:00",
+  "corps": "Bonjour,\n\nPouvez-vous me rappeler l'échéance de votre facture FC-2026-0828 de mai ? Je prépare nos virements.\n\nGuy Brochard\nPaysage Hoarau",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

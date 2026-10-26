@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-915",
+  "de": {
+    "nom": "Sonia Lefèvre",
+    "adresse": "sonia.lefevre@calorelle.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Pression trop basse",
+  "date": "2026-11-10T08:15:00+01:00",
+  "corps": "Marc, un dépannage arrivé sur contact@.\nSonia\n\n----- Message transféré -----\nIdentifiant : m-ctc-915\nDe : Nathalie Guérin <nathalie.guerin@courriel.example>\nÀ : contact@calorelle.example\nCc : (aucun)\nDate : 2026-11-10T07:45:00+01:00\nObjet : Pression trop basse\nPièces jointes : (aucune)\n\nBonjour,\n\nLa pression de notre chaudière gaz retombe sans cesse et elle se coupe.\n\nNathalie Guérin, 29 rue Haute (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

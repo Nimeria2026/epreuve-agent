@@ -1,0 +1,49 @@
+{
+  "numero": "BL-2026-01859",
+  "commande": "CO-2026-02010",
+  "client": "c-0194",
+  "date_expedition": "2026-07-03",
+  "date_livraison": null,
+  "transport": {
+    "mode": "transporteur",
+    "transporteur": "transports-delorme",
+    "recepisse": "TD-404097"
+  },
+  "adresse": "135 place du Marché, 36999 Ardillac (FICTIF)",
+  "colis": 3,
+  "lignes": [
+    {
+      "reference": "ELP-10114",
+      "libelle": "Disque diamant carrelage 230 mm",
+      "quantite": 1
+    },
+    {
+      "reference": "ENT-10367",
+      "libelle": "Distributeur de savon, blanc",
+      "quantite": 1
+    },
+    {
+      "reference": "OUT-10057",
+      "libelle": "Burin pointu 250 mm",
+      "quantite": 2
+    },
+    {
+      "reference": "VIS-10441",
+      "libelle": "Boulon tête hexagonale M8x20, inox A2, sachet de 25",
+      "quantite": 12
+    },
+    {
+      "reference": "VIS-11347",
+      "libelle": "Vis à bois tête fraisée 3x35, bichromatée, boîte de 500",
+      "quantite": 10
+    },
+    {
+      "reference": "VIS-13723",
+      "libelle": "Vis à tôle tête cylindrique 3,5x9,5, zinguée, boîte de 100",
+      "quantite": 10
+    }
+  ],
+  "reserves": null,
+  "signataire": null,
+  "statut": "en_cours"
+}

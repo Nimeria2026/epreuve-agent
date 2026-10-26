@@ -1,0 +1,34 @@
+{
+  "numero": "BL-2026-01708",
+  "commande": "CO-2026-01859",
+  "client": "c-0127",
+  "date_expedition": "2026-06-25",
+  "date_livraison": "2026-06-25",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "82 rue des Chênes, 36999 Fontclavier (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "ENT-10457",
+      "libelle": "Essuie-mains à dévidage central, carton de 6",
+      "quantite": 1
+    },
+    {
+      "reference": "PLB-12670",
+      "libelle": "Siphon d'évier 32 mm",
+      "quantite": 4
+    },
+    {
+      "reference": "PRO-11812",
+      "libelle": "Protection écran facial relevable",
+      "quantite": 1
+    }
+  ],
+  "reserves": null,
+  "signataire": "Denise Gonnet",
+  "statut": "livre"
+}

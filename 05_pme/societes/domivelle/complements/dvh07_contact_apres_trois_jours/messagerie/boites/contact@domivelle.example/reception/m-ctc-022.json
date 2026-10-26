@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-022",
+  "de": {
+    "nom": "Assurances Brévalle, sinistres",
+    "adresse": "sinistres@assurances-brevalle.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Sinistre du 12 mai, Résidence Le Moulin Neuf",
+  "date": "2026-06-05T11:45:00+02:00",
+  "corps": "Madame, Monsieur,\n\nPour le dégât des eaux du 12 mai déclaré pour la Résidence Le Moulin Neuf, merci de nous adresser le constat amiable et la facture de recherche de fuite.\n\nAssurances Brévalle",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

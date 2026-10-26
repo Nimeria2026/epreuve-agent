@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0531"
+nom: "Établissements Lambert"
+type: "entreprise"
+adresse: "52 rue de la Loire, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "contact@etablissements-lambert-531.example"
+telephone: "02 61 91 36 24"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2024-10-19"
+  mois_anniversaire: "octobre"
+  derniere_visite: "2026-10-14"

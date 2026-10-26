@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0413"
+nom: "Gilles Bonnet"
+type: "particulier"
+adresse: "70 chemin des Vignes, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "gilles.bonnet@courriel.example"
+telephone: "06 39 98 50 99"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité Plus"
+  depuis: "2019-12-13"
+  mois_anniversaire: "décembre"
+  derniere_visite: "2025-12-15"

@@ -1,0 +1,19 @@
+# Fiche du lot c13-03. Données FICTIVES.
+lot: c13-03
+adresse: 25 rue Saint-Martin, 18999 Montclavel-sur-Cher (FICTIF)
+type: T3
+surface_m2: 65
+locataire:
+  nom: Mme Valérie Royer
+  courriel: valerie.royer@courriel.example
+  telephone: 06 39 98 74 71
+  entree: '2016-07-10'
+bail:
+  signature: '2016-07-10'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 636,00 €
+  depot_de_garantie: 519,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T1
+dpe:
+  classe: D

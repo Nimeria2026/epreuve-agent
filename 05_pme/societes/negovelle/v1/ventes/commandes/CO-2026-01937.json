@@ -1,0 +1,79 @@
+{
+  "numero": "CO-2026-01937",
+  "client": "c-0080",
+  "reference_client": null,
+  "cree_le": "2026-06-29T09:10:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "55 rue de la Poste, 36999 Mérolles-en-Brenne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "PLB-12098",
+      "libelle": "Raccord laiton té égal 12x17",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 2.2,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 2.11,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 21.1
+    },
+    {
+      "reference": "QUI-11371",
+      "libelle": "Coulisse de tiroir à sortie totale 250 mm, la paire",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 15.35,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 14.74,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 14.74
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 50.84,
+  "total_tva_euros": 10.17,
+  "total_ttc_euros": 61.01,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01786"
+  ],
+  "facture": "FC-2026-1072",
+  "historique": [
+    {
+      "date": "2026-06-29T09:10:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-29T09:12:00+02:00",
+      "par": "oceane.collin",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-30T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01786"
+    },
+    {
+      "date": "2026-06-30T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01786"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1072"
+    }
+  ]
+}

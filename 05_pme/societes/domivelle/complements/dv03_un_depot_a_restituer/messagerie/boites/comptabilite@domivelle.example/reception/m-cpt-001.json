@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-001",
+  "de": {
+    "nom": "Menuiserie des Fontenils",
+    "adresse": "facturation@menuiserie-des-fontenils.example"
+  },
+  "a": [
+    "comptabilite@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture 2026-0912, lot n01-06",
+  "date": "2026-06-02T15:12:00+02:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-jointe notre facture n° 2026-0912 du 2 juin 2026 : remplacement de la porte du placard de la chambre, lot n01-06, 7 rue de la Halle à Vernillac. Montant : 145,00 € TTC.\n\nMenuiserie des Fontenils",
+  "pieces_jointes": [
+    {
+      "nom": "facture_2026-0912.pdf",
+      "fichier": "pieces/m-cpt-001/facture_2026-0912.pdf",
+      "taille_octets": 902
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

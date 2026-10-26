@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-thol-003",
+  "de": {
+    "nom": "Office notarial du Pont-Neuf",
+    "adresse": "accueil@notaires-du-pont-neuf.example"
+  },
+  "a": [
+    "thierry.ollivier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Avis de mutation, lot 6, Résidence Le Grand Pré",
+  "date": "2026-06-03T09:05:00+02:00",
+  "corps": "Madame, Monsieur,\n\nNous vous informons, en application de l'article 20 de la loi du 10 juillet 1965, de la vente du lot 6 de la Résidence Le Grand Pré par Mme Marion Gaillard à M. Bruno Lemoine, signée le vendredi 29 mai 2026.\n\nCoordonnées de l'acquéreur : 9 rue des Tilleuls, 18999 Montclavel-sur-Cher (FICTIF), bruno.lemoine@courriel.example, notifications par voie électronique.\n\nOffice notarial du Pont-Neuf (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

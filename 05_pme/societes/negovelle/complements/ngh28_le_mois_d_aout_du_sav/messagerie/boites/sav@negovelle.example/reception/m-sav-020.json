@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-020",
+  "de": {
+    "nom": "René Valentin",
+    "adresse": "rene.valentin@electricite-morel.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Retour de réglettes",
+  "date": "2026-07-31T15:30:00+02:00",
+  "corps": "Bonjour,\n\nNous vous rapportons 4 réglettes LED ELE-13233 de la livraison du 24 juillet, BL-2026-01913, en trop sur notre chantier. Notre chauffeur passe les déposer mercredi.\n\nRené Valentin\nÉlectricité Morel",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

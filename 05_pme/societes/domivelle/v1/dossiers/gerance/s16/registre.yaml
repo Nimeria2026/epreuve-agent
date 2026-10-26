@@ -1,0 +1,107 @@
+# Registre des lots en gestion, s16. Données FICTIVES.
+immeuble: s16
+nature: groupe de maisons
+adresse: 130 allée des Acacias, 18999 Chantebrune (FICTIF)
+secteur: sud
+gestionnaire: Solène Audoin
+distance_agence_km: 9
+annee_construction: 1980
+gardien: false
+copropriete_du_syndic: null
+lots:
+- lot: s16-01
+  type: maison T4
+  surface_m2: 101
+  proprietaire: p-0598
+  locataire: M. Pascal Leblanc
+  entree: '2012-10-16'
+  loyer_hors_charges: 816,00 €
+  provision_sur_charges: 20,00 €
+  depot_de_garantie: 616,00 €
+  revision: chaque 16 octobre
+  trimestre_irl: T2
+  dpe: D
+- lot: s16-02
+  type: maison T5
+  surface_m2: 118
+  proprietaire: p-0599
+  locataire: Mme Alice Couturier
+  entree: '2020-07-26'
+  loyer_hors_charges: 1 082,00 €
+  provision_sur_charges: 15,00 €
+  depot_de_garantie: 962,00 €
+  revision: chaque 26 juillet
+  trimestre_irl: T1
+  dpe: F
+- lot: s16-03
+  type: maison T4
+  surface_m2: 88
+  proprietaire: p-0600
+  locataire: M. Xavier Paris
+  entree: '2015-10-21'
+  loyer_hors_charges: 719,00 €
+  provision_sur_charges: 19,00 €
+  depot_de_garantie: 575,00 €
+  revision: chaque 21 octobre
+  trimestre_irl: T2
+  dpe: E
+- lot: s16-04
+  type: maison T5
+  surface_m2: 114
+  proprietaire: p-0601
+  locataire: Mme Josiane Rolland
+  entree: '2025-03-14'
+  loyer_hors_charges: 1 003,00 €
+  provision_sur_charges: 18,00 €
+  depot_de_garantie: 979,00 €
+  revision: chaque 14 mars
+  trimestre_irl: T4
+  dpe: D
+- lot: s16-05
+  type: maison T5
+  surface_m2: 112
+  proprietaire: p-0602
+  locataire: Mme Sophie Labbé
+  entree: '2024-03-05'
+  loyer_hors_charges: 986,00 €
+  provision_sur_charges: 0,00 €
+  depot_de_garantie: 939,00 €
+  revision: chaque 5 mars
+  trimestre_irl: T4
+  dpe: C
+- lot: s16-06
+  type: maison T4
+  surface_m2: 85
+  proprietaire: p-0578
+  locataire: M. Claude Pagès
+  entree: '2022-08-30'
+  loyer_hors_charges: 666,00 €
+  provision_sur_charges: 18,00 €
+  depot_de_garantie: 620,00 €
+  revision: chaque 30 août
+  trimestre_irl: T2
+  dpe: E
+- lot: s16-07
+  type: maison T3
+  surface_m2: 82
+  proprietaire: p-0603
+  locataire: M. Éric Hamon
+  entree: '2014-04-20'
+  loyer_hors_charges: 727,00 €
+  provision_sur_charges: 4,00 €
+  depot_de_garantie: 559,00 €
+  revision: chaque 20 avril
+  trimestre_irl: T4
+  dpe: C
+- lot: s16-08
+  type: maison T3
+  surface_m2: 71
+  proprietaire: p-0586
+  locataire: M. Arnaud Fabre
+  entree: '2014-08-04'
+  loyer_hors_charges: 584,00 €
+  provision_sur_charges: 1,00 €
+  depot_de_garantie: 458,00 €
+  revision: chaque 4 août
+  trimestre_irl: T2
+  dpe: D

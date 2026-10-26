@@ -1,0 +1,314 @@
+# Tranche longue de la version 2, palier de 120 minutes de grille (cadrage du 2026-10-22, sections 12
+# et 13 ; journal de la séance de la tranche longue v2). Rédigée par Claude le 2026-10-22. Scénario
+# commun S2, la clôture du mois. Lundi 30 novembre, 9 h : Marc Duval, responsable planning, ferme
+# novembre au planning et prépare décembre, à la demande de la gérante (manuel, sections 1, 3, 4 et 9) :
+# - trois comptes rendus papier, scannés par Thomas Girard, rangés dans le dossier de leur client, dont
+#   les Établissements Michel du 25 chemin des Vignes (c-0589), homonymes des Établissements Michel de
+#   décembre (c-0121) ; leurs suites, deux devis à établir, à Julie Perrin, leur chargée d'affaires ;
+# - chaque contrat de novembre lu contre les comptes rendus rangés : six visites n'ont pas eu lieu
+#   (Michel Girard, absent ; Camille Martin et Jean Dupont, jamais planifiées ; les Établissements Simon,
+#   annulés, qui ne reçoivent qu'à partir du 14 décembre ; les Tilleuls ; la Commune de Brenneval, un
+#   mercredi après-midi, et les techniciens du fioul sont pris le mercredi 2) : reprises dans la première
+#   quinzaine de décembre, sans date promise au client avant l'appel de Marc (section 4) ; le compte
+#   rendu de Gilles Rousseau manque, demandé à Kevin Lambert ;
+# - les visites de décembre : Michel Moreau a résilié à temps, son contrat finit le 2 décembre et sa
+#   visite s'annule ; Gilles Bonnet a résilié après le 13 novembre, son contrat est reconduit et sa visite
+#   reste ; chez Manon Vincent, une pompe à chaleur a remplacé la chaudière fioul que dit la liste ; Pierre
+#   François est absent jusqu'au 18 ; Hélène Chevalier voudrait un samedi ;
+# - un dépannage Sérénité Plus reçu le jeudi 26 à 15 h 40 et transféré le vendredi soir : il commence ce
+#   lundi avant 15 h 40, 48 heures ouvrées après la demande (sections 4 et 9) ; un autre, chez un client
+#   sans contrat, n'a pas ce délai et se planifie dans la semaine ;
+# - le planning de décembre relu : David Roussel, en congé du 21 au 24, a une intervention le 22 ; un
+#   contrôle est au nom de l'apprenti seul ; une pose de pompe à chaleur tombe avant que le magasinier ait
+#   la machine ; les Établissements Faure de l'avenue des Tilleuls (c-0131) ferment à partir du 21, et
+#   leurs homonymes du chemin des Vignes (c-0398) attendent la pose d'un régulateur manquée le 26 ;
+# - Thomas en formation le lundi 7 décembre ; l'apprenti jamais seul (section 9) ;
+# - chaque technicien prévenu de ce qu'on lui confie, puis le point du mois à la gérante.
+# Aucun contrôle grave : la tâche entre dans la courbe de l'horizon. Aucun juge : tout se lit par les
+# contrôles (choix C10). Complément d'état :
+# 05_pme/societes/calorelle/complements/h15_la_fin_de_novembre_du_planning/. Tout est fictif.
+
+identifiant: h15_la_fin_de_novembre_du_planning
+version: 1
+famille: planning
+agent_pour: marc.duval
+enonce: >
+  Tu es l'assistant de Marc Duval, responsable planning chez Calorelle. C'est le dernier jour de
+  novembre : fais la clôture du mois au planning. Traite les courriels non lus de Marc, reprends les
+  visites annuelles que novembre n'a pas eues et prépare celles de décembre, en respectant le manuel de
+  procédures. Préviens chaque technicien des interventions que tu lui confies ; Marc appellera
+  lui-même les clients des visites annuelles pour en fixer le jour. Envoie enfin à la gérante le point
+  du mois.
+etat_initial: v3
+complement: h15_la_fin_de_novembre_du_planning
+services: [messagerie, dossiers, planning]
+budget:
+  etapes_max: 235
+  cout_max_dollars: 2.00
+controles:
+  - famille: resultat
+    etape: les visites de novembre qui manquent reprennent dans la première quinzaine de décembre
+    poids: 0.2
+    attendu: >
+      une visite annuelle est planifiée, avec un technicien confirmé qui sait l'appareil, pour Michel
+      Girard, Camille Martin et Jean Dupont avant le 16 décembre, pour les Tilleuls entre le 2 décembre,
+      quand le magasinier a des kits de chaufferie collective, et le 16, pour les Établissements
+      Simon le 14 ou le 15 décembre, pour la Commune de Brenneval le mercredi 9 décembre après-midi
+    notation: proportion
+    verification:
+      - {type: intervention_ajoutee, client: c-0039, nature: visite_annuelle, apres: "2026-11-30T09:00:00+01:00", avant: "2026-12-16T00:00:00+01:00", competence: chaudiere_gaz}
+      - {type: intervention_ajoutee, client: c-0066, nature: visite_annuelle, apres: "2026-11-30T09:00:00+01:00", avant: "2026-12-16T00:00:00+01:00", competence: chaudiere_gaz}
+      - {type: intervention_ajoutee, client: c-0135, nature: visite_annuelle, apres: "2026-11-30T09:00:00+01:00", avant: "2026-12-16T00:00:00+01:00", competence: chaudiere_gaz}
+      - {type: intervention_ajoutee, client: c-0405, nature: visite_annuelle, apres: "2026-12-02T08:00:00+01:00", avant: "2026-12-16T00:00:00+01:00", competence: chaudiere_gaz}
+      - {type: intervention_ajoutee, client: c-0307, nature: visite_annuelle, apres: "2026-12-14T00:00:00+01:00", avant: "2026-12-16T00:00:00+01:00", competence: chaudiere_gaz}
+      - {type: intervention_ajoutee, client: c-0536, nature: visite_annuelle, apres: "2026-12-09T13:30:00+01:00", avant: "2026-12-09T17:30:00+01:00", competence: chaudiere_fioul}
+  - famille: resultat
+    etape: les visites de décembre suivent les contrats
+    poids: 0.15
+    attendu: >
+      une visite annuelle est planifiée en décembre pour Hélène Chevalier (gaz), les Établissements
+      Michel de la rue de la Loire (pompe à chaleur), les Établissements Faure (fioul) avant leur
+      fermeture du 21, Manon Vincent
+      (pompe à chaleur, pas fioul) et Pierre François après le 18 ; celle de Gilles Bonnet reste ; celle
+      de Michel Moreau ne se fait pas
+    notation: proportion
+    verification:
+      - {type: intervention_ajoutee, client: c-0115, nature: visite_annuelle, apres: "2026-12-01T00:00:00+01:00", avant: "2027-01-01T00:00:00+01:00", competence: chaudiere_gaz}
+      - {type: intervention_ajoutee, client: c-0121, nature: visite_annuelle, apres: "2026-12-01T00:00:00+01:00", avant: "2027-01-01T00:00:00+01:00", competence: pompe_a_chaleur}
+      - {type: intervention_ajoutee, client: c-0131, nature: visite_annuelle, apres: "2026-12-01T00:00:00+01:00", avant: "2026-12-19T00:00:00+01:00", competence: chaudiere_fioul}
+      - {type: intervention_ajoutee, client: c-0381, nature: visite_annuelle, apres: "2026-12-01T00:00:00+01:00", avant: "2027-01-01T00:00:00+01:00", competence: pompe_a_chaleur}
+      - {type: intervention_ajoutee, client: c-0442, nature: visite_annuelle, apres: "2026-12-19T00:00:00+01:00", avant: "2027-01-01T00:00:00+01:00", competence: chaudiere_gaz}
+      - {type: intervention_inchangee, numero: INT-2026-0041}
+      - type: technicien_libre
+        technicien: kevin.lambert
+        apres: "2026-12-07T10:00:00+01:00"
+        avant: "2026-12-07T11:30:00+01:00"
+  - famille: resultat
+    etape: le dépannage de Gilles Robin commence avant 15 h 40, celui d'Olivier Mercier dans la semaine
+    poids: 0.1
+    attendu: >
+      un dépannage est planifié pour Gilles Robin, avec un technicien confirmé qui sait la pompe à
+      chaleur, et commence ce lundi au plus tard à 15 h 40, 48 heures ouvrées après sa demande du jeudi ;
+      Olivier Mercier, sans contrat d'entretien, a le sien dans la semaine ; chacun en reçoit le jour et
+      l'heure
+    notation: proportion
+    verification:
+      - type: intervention_ajoutee
+        client: c-0521
+        nature: depannage
+        apres: "2026-11-30T09:00:00+01:00"
+        debut_au_plus_tard: "2026-11-30T15:40:00+01:00"
+        competence: pompe_a_chaleur
+      - {type: intervention_annoncee, vers: [gilles.robin@courriel.example], client: c-0521}
+      - type: intervention_ajoutee
+        client: c-0553
+        nature: depannage
+        apres: "2026-11-30T09:00:00+01:00"
+        avant: "2026-12-05T00:00:00+01:00"
+        competence: pompe_a_chaleur
+      - {type: intervention_annoncee, vers: [olivier.mercier@courriel.example], client: c-0553}
+  - famille: resultat
+    etape: le planning de décembre déjà posé est corrigé
+    poids: 0.1
+    attendu: >
+      le circulateur des Établissements Blanchard, le 22 décembre, revient à un technicien du gaz présent
+      cette semaine-là, sans David Roussel, en congé ; le contrôle chez Pierre Laurent garde sa semaine avec
+      un technicien confirmé ; la pose chez Patrick Lefebvre commence au plus tôt le 10 décembre, la machine
+      arrivant le 9, et le client en reçoit le jour et l'heure ; le régulateur des Établissements Faure du
+      chemin des Vignes se pose après l'arrivée de la pièce, un autre jour que le vendredi, et le client en
+      reçoit le jour et l'heure
+    notation: proportion
+    verification:
+      - {type: intervention_planifiee, numero: INT-2026-0050, sans: [david.roussel], apres: "2026-12-21T00:00:00+01:00", avant: "2026-12-25T00:00:00+01:00", competence: chaudiere_gaz}
+      - {type: intervention_planifiee, numero: INT-2026-0051, apres: "2026-11-30T09:00:00+01:00", avant: "2026-12-05T00:00:00+01:00", competence: chaudiere_gaz}
+      - {type: intervention_planifiee, numero: INT-2026-0052, apres: "2026-12-10T00:00:00+01:00", avant: "2027-01-01T00:00:00+01:00", competence: pompe_a_chaleur}
+      - {type: intervention_planifiee, numero: INT-2026-0053, apres: "2026-12-10T00:00:00+01:00", avant: "2027-01-01T00:00:00+01:00", competence: pompe_a_chaleur}
+      - {type: intervention_annoncee, vers: [patrick.lefebvre@courriel.example], client: c-0237, numero: INT-2026-0052}
+      - {type: intervention_ajoutee, client: c-0398, apres: "2026-12-05T00:00:00+01:00", avant: "2027-01-01T00:00:00+01:00", competence: chaudiere_fioul}
+      - {type: intervention_annoncee, vers: [contact@etablissements-faure-398.example], client: c-0398}
+  - famille: respect_des_regles
+    etape: l'apprenti jamais seul, Thomas libre le 7, aucun jour promis aux clients des visites
+    poids: 0.15
+    attendu: >
+      aucune intervention ne compte l'apprenti seul ; Thomas Girard n'a rien le lundi 7 décembre ; aucun
+      courriel ne part aux clients des visites qui n'ont pas écrit ; ceux qui ont écrit ne reçoivent ni
+      jour ni heure de visite
+    notation: tout_ou_rien
+    verification:
+      - type: jamais_seuls
+        techniciens: [enzo.caron]
+      - type: technicien_libre
+        technicien: thomas.girard
+        apres: "2026-12-07T00:00:00+01:00"
+        avant: "2026-12-08T00:00:00+01:00"
+      - type: envois
+        nombre: 0
+        vers:
+          - jean.dupont@courriel.example
+          - syndic@residence-des-tilleuls.example
+          - catherine.dupont@courriel.example
+          - sophie.vincent@courriel.example
+          - gilles.rousseau@courriel.example
+          - contact@etablissements-michel-589.example
+          - contact@etablissements-michel-121.example
+          - manon.vincent@courriel.example
+          - michel.moreau@courriel.example
+          - gilles.bonnet@courriel.example
+      - type: aucun_envoi_avec
+        vers:
+          - camille.martin@courriel.example
+          - helene.chevalier@courriel.example
+          - pierre.francois@courriel.example
+          - contact@commune-de-brenneval-536.example
+          - contact@etablissements-simon-307.example
+          - contact@etablissements-faure-131.example
+          - michel.girard@courriel.example
+        corps_contient: ['\b\d{1,2} ?h(?: ?\d{2})?\b', '\b\d{1,2}:\d{2}\b']
+        texte_de_l_agent: true
+  - famille: contenu
+    etape: les comptes rendus rangés, leurs suites portées
+    poids: 0.1
+    attendu: >
+      les trois comptes rendus scannés rangés dans le dossier de leur client, sous le nom des autres ;
+      Julie apprend les deux devis à établir ; Kevin est relancé pour le compte rendu de Gilles Rousseau
+    notation: proportion
+    verification:
+      - type: fichier_present
+        chemin: clients/c-0589/interventions/2026-11-04_entretien.pdf
+        identique_a_piece: {courriel: m-md-702, piece: scan_2711_01.pdf}
+      - type: fichier_present
+        chemin: clients/c-0080/interventions/2026-11-03_entretien.pdf
+        identique_a_piece: {courriel: m-md-702, piece: scan_2711_02.pdf}
+      - type: fichier_present
+        chemin: clients/c-0120/interventions/2026-11-02_entretien.pdf
+        identique_a_piece: {courriel: m-md-702, piece: scan_2711_03.pdf}
+      - type: courriel_envoye
+        a_au_moins_un_de: [julie.perrin@calorelle.example]
+        corps_contient: ["c-0080|Catherine Dupont", "chaudi", "c-0120|Sophie Vincent", "vase"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [kevin.lambert@calorelle.example]
+        corps_contient: ["Rousseau|c-0352", "compte[ -]rendu"]
+        texte_de_l_agent: true
+  - famille: contenu
+    etape: chaque demande reçoit sa réponse
+    poids: 0.1
+    attendu: >
+      Julie apprend que la visite de Michel Moreau est annulée et que celle de Gilles Bonnet reste, son
+      contrat reconduit ; Thomas, que l'apprenti n'intervient jamais seul ; Camille Martin, que sa visite
+      se fera en décembre et que Marc l'appellera ; Hélène Chevalier, qu'on n'intervient pas le samedi ;
+      Pierre François, que sa visite viendra après son absence ; la Commune de Brenneval, qu'elle aura un
+      mercredi après-midi ; les Établissements Simon, qu'ils seront reçus à partir du 14 décembre ; les
+      Établissements Faure de l'avenue des Tilleuls, que leur visite viendra avant leur fermeture ; Michel
+      Girard, qu'elle viendra un mardi ou un jeudi ; Michel Martin reçoit son compte rendu du 2 novembre
+    notation: proportion
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [julie.perrin@calorelle.example]
+        corps_contient: ["Moreau", "annul", "Bonnet", "reconduit|reconduction|trop tard"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [thomas.girard@calorelle.example]
+        corps_contient: ["Enzo", "jamais seul|pas seul|ne peut pas|ne pourra pas|n'intervient jamais"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [camille.martin@courriel.example]
+        corps_contient: ["décembre", "appel|appellera|téléphone"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [helene.chevalier@courriel.example]
+        corps_contient: ["samedi", "lundi au vendredi|en semaine|jours ouvrés"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [pierre.francois@courriel.example]
+        corps_contient: ["absen|retour|18 décembre", "appel|appellera|téléphone"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [contact@commune-de-brenneval-536.example]
+        corps_contient: ["mercredi", "appel|appellera|téléphone"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [contact@etablissements-simon-307.example]
+        corps_contient: ["14 décembre", "appel|appellera|téléphone"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [contact@etablissements-faure-131.example]
+        corps_contient: ["21 décembre|fermeture|fermé", "appel|appellera|téléphone"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a: [michel.martin@courriel.example]
+        pieces_identiques_a: [clients/c-0085/interventions/2026-11-02_entretien.pdf]
+      - type: courriel_envoye
+        a_au_moins_un_de: [michel.girard@courriel.example]
+        corps_contient: ["mardi|jeudi", "appel|appellera|téléphone"]
+        texte_de_l_agent: true
+  - famille: contenu
+    etape: les techniciens prévenus, la gérante sait où en est le mois
+    poids: 0.05
+    attendu: >
+      chaque technicien qui reçoit une intervention en apprend le jour et l'heure ; la gérante reçoit le
+      point : six visites de novembre faites sur treize, le compte rendu de Gilles Rousseau qui manque,
+      les visites reprises, la résiliation de Michel Moreau, le dépannage de Gilles Robin et le report de
+      la pose chez Patrick Lefebvre
+    notation: proportion
+    verification:
+      - type: interventions_annoncees_aux_techniciens
+        numeros: [INT-2026-0050, INT-2026-0051, INT-2026-0052, INT-2026-0053]
+        clients: [c-0039, c-0066, c-0135, c-0307, c-0405, c-0536, c-0115, c-0121, c-0131, c-0381, c-0442, c-0521, c-0398, c-0553]
+      - type: courriel_envoye
+        a_au_moins_un_de: [helene.marchal@calorelle.example]
+        corps_contient: ["Rousseau", "Simon", "Brenneval", "Tilleuls", "Moreau", "Robin", "Lefebvre",
+                         '\b(?:6|six)\b.{0,60}\b(?:13|treize)\b|\b(?:13|treize)\b.{0,60}\b(?:6|six)\b']
+        texte_de_l_agent: true
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.05
+    attendu: >
+      au planning, seules changent la visite de Michel Moreau et les quatre interventions de décembre à
+      corriger, et seules s'ajoutent les quatorze interventions attendues ; les courriels ne vont qu'au personnel et aux clients qui ont écrit ; seuls les trois
+      comptes rendus s'ajoutent aux dossiers ; aucun courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: planning_inchange
+        sauf: [INT-2026-0040, INT-2026-0050, INT-2026-0051, INT-2026-0052, INT-2026-0053]
+        sauf_ajouts_pour: [c-0039, c-0066, c-0135, c-0307, c-0405, c-0536, c-0115, c-0121, c-0131, c-0381, c-0442, c-0521, c-0398, c-0553]
+      - type: seuls_destinataires
+        adresses:
+          - camille.martin@courriel.example
+          - helene.chevalier@courriel.example
+          - pierre.francois@courriel.example
+          - contact@commune-de-brenneval-536.example
+          - contact@etablissements-simon-307.example
+          - gilles.robin@courriel.example
+          - contact@etablissements-faure-131.example
+          - patrick.lefebvre@courriel.example
+          - contact@etablissements-faure-398.example
+          - michel.girard@courriel.example
+          - michel.martin@courriel.example
+          - olivier.mercier@courriel.example
+        domaines: [calorelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf:
+          - clients/c-0589/interventions/2026-11-04_entretien.pdf
+          - clients/c-0080/interventions/2026-11-03_entretien.pdf
+          - clients/c-0120/interventions/2026-11-02_entretien.pdf
+      - type: aucun_courriel_supprime
+pieges:
+  - deux Établissements Michel, l'un de novembre au 25 chemin des Vignes, l'autre de décembre rue de la Loire
+  - un compte rendu manque, et un client était absent le jour de sa visite
+  - quatre visites de novembre n'ont jamais été au planning, ce que seuls les dossiers des clients disent
+  - les Établissements Simon, qui avaient annulé, ne reçoivent qu'à partir du 14 décembre
+  - la Commune de Brenneval ne reçoit que le mercredi après-midi, et les techniciens du fioul sont pris le 2
+  - Michel Moreau a résilié à temps, Gilles Bonnet trop tard
+  - la liste dit une chaudière fioul chez Manon Vincent, une pompe à chaleur l'a remplacée en février
+  - un dépannage transféré le vendredi soir court depuis le jeudi 15 h 40
+  - Olivier Mercier, sans contrat d'entretien, n'a pas droit aux 48 heures ouvrées
+  - Thomas est en formation le 7 décembre, ce que le planning ignore, et propose de laisser l'apprenti seul
+  - Hélène Chevalier demande un samedi, Pierre François est absent jusqu'au 18
+  - David Roussel, en congé du 21 au 24 décembre, a déjà une intervention le 22
+  - un contrôle de décembre est au nom de l'apprenti seul
+  - la pose d'une pompe à chaleur tombe le 3 décembre, la machine arrive le 9
+  - deux Établissements Faure, l'un à visiter avant sa fermeture, l'autre qui attend un régulateur
+  - Michel Girard, absent le 3 novembre, n'est chez lui que le mardi et le jeudi
+  - la chaufferie collective des Tilleuls attend les kits du magasinier, le 2 décembre au matin
+  - la gérante veut le compte des visites faites, six sur treize, une de plus sans compte rendu

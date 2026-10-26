@@ -1,0 +1,8 @@
+# Fiche fournisseur Calorelle. Données FICTIVES.
+nom: "Transports de Sablonnet"
+activite: "transports"
+adresse: "62 zone d'activité du Pré-Bouvreuil, 45999 Valmont-sur-Loire (FICTIF)"
+telephone: "02 61 91 20 15"
+courriel_facturation: "compta@transports-de-sablonnet.example"
+iban: "FR76 9999 9232 2522 7605 5248 684 (FICTIF)"
+conditions: "paiement à 30 jours"

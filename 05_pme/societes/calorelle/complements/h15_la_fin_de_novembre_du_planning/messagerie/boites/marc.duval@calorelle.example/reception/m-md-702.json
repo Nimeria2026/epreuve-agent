@@ -1,0 +1,34 @@
+{
+  "identifiant": "m-md-702",
+  "de": {
+    "nom": "Thomas Girard",
+    "adresse": "thomas.girard@calorelle.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Comptes rendus papier de novembre",
+  "date": "2026-11-27T16:50:00+01:00",
+  "corps": "Marc,\n\nVoici les trois comptes rendus de visite que les gars m'ont rendus sur papier ce mois-ci, scannés :\n- scan_2711_01 : Établissements Michel, 25 chemin des Vignes, visite du 4 novembre par Antoine, rien à signaler ;\n- scan_2711_02 : Catherine Dupont, visite du 3 novembre par Romain : chaudière de 1998 en fin de vie, un remplacement est à proposer à la cliente, devis à établir ;\n- scan_2711_03 : Sophie Vincent, visite du 2 novembre par Kevin : vase d'expansion hors service, son remplacement est à chiffrer, devis à établir.\nKevin ne m'a pas rendu celui de M. Rousseau, du 18 novembre. Et David me dit que M. Girard n'était pas chez lui le 3 novembre : il a laissé un avis de passage, la visite n'est pas faite.\n\nThomas (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "scan_2711_01.pdf",
+      "fichier": "pieces/m-md-702/scan_2711_01.pdf",
+      "taille_octets": 969
+    },
+    {
+      "nom": "scan_2711_02.pdf",
+      "fichier": "pieces/m-md-702/scan_2711_02.pdf",
+      "taille_octets": 1057
+    },
+    {
+      "nom": "scan_2711_03.pdf",
+      "fichier": "pieces/m-md-702/scan_2711_03.pdf",
+      "taille_octets": 1028
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

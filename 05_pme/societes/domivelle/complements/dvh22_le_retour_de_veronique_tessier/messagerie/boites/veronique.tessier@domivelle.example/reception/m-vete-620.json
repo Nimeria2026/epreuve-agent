@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-vete-620",
+  "de": {
+    "nom": "Mme Alice Besnard",
+    "adresse": "alice.besnard@mel-perso.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Le loyer de n02-09",
+  "date": "2026-08-20T11:45:00+02:00",
+  "corps": "Madame Tessier,\n\nEn relisant mes comptes, je vois que le loyer de mon locataire du lot n02-09 n'a pas été révisé le 9 mai, à la date de son bail. Je vous demande de le faire.\n\nMme Alice Besnard",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

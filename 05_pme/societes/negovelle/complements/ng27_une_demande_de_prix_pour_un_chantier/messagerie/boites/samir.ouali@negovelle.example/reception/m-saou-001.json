@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-saou-001",
+  "de": {
+    "nom": "Béatrice Vallet",
+    "adresse": "beatrice.vallet@menuiserie-bocquet.example"
+  },
+  "a": [
+    "samir.ouali@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Prix pour le chantier de la médiathèque",
+  "date": "2026-07-06T07:25:00+02:00",
+  "corps": "Bonjour Monsieur Ouali,\n\nPour le chantier de la médiathèque de Mérolles, pouvez-vous me donner vos prix, à l'unité, pour :\n\n- 20 x QUI-11192, Charnière à lames 70 mm, laiton\n- 60 x VIS-11853, Vis à bois tête fraisée 4,5x35, inox A2, boîte de 100\n- 12 x CON-10269, Colle de montage, cartouche de 310 ml\n- 2 x OUT-12008, Scie à dos 500 mm\n- 10 x FIX-10579, Cheville nylon 6x50, boîte de 50\n\nEt me dire si la livraison au siège sera franco de port ? Je passerai commande cette semaine.\n\nCordialement,\nBéatrice Vallet\nMenuiserie Bocquet",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

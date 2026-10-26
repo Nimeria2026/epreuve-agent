@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-723",
+  "de": {
+    "nom": "Manon Faure",
+    "adresse": "manon.faure@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Copie de mon contrat",
+  "date": "2026-12-26T15:00:00+01:00",
+  "corps": "Bonjour,\n\nPouvez-vous envoyer une copie de mon contrat d'entretien à mon adresse professionnelle, manon.faure@bureau-faure.example ? Je n'ai plus l'original.\n\nManon Faure, 105 rue des Lilas, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

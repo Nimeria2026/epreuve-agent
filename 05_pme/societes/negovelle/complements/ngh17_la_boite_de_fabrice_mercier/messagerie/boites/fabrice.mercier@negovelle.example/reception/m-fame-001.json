@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-fame-001",
+  "de": {
+    "nom": "Michel Clerc",
+    "adresse": "michel.clerc@chauffage-baillet.example"
+  },
+  "a": [
+    "fabrice.mercier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Prix des boulons",
+  "date": "2026-07-03T16:40:00+02:00",
+  "corps": "Bonjour Fabrice,\n\nPouvez-vous me donner votre prix pour 60 sachets de boulons VIS-10048 et 20 sachets de VIS-10196 ?\n\nMerci,\n\nMichel Clerc\nChauffage Baillet",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

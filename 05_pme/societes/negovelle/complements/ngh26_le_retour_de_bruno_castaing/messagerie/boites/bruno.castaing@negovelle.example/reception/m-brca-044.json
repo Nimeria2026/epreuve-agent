@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-044",
+  "de": {
+    "nom": "Fabrice Mercier",
+    "adresse": "fabrice.mercier@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Plâtrerie Lecoq : 60 jours",
+  "date": "2026-08-21T09:00:00+02:00",
+  "corps": "Bruno,\n\nPlâtrerie Lecoq (c-0194), cliente depuis 2014, demande 60 jours date de facture pour ses commandes de la rentrée. Tu me dis ?\n\nFabrice",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

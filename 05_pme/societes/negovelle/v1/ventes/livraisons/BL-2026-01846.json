@@ -1,0 +1,49 @@
+{
+  "numero": "BL-2026-01846",
+  "commande": "CO-2026-01997",
+  "client": "c-0270",
+  "date_expedition": "2026-07-03",
+  "date_livraison": "2026-07-03",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "8 zone d'activités des Grands Prés, 36999 Vaumoreau-sur-Indre (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "ELE-11135",
+      "libelle": "Câble R2V 5G 10 mm², couronne de 25 m",
+      "quantite": 2
+    },
+    {
+      "reference": "ELE-12352",
+      "libelle": "Interrupteur différentiel 25 A 30 mA, type AC",
+      "quantite": 6
+    },
+    {
+      "reference": "ELP-11698",
+      "libelle": "Ponceuse à bande 600 W",
+      "quantite": 5
+    },
+    {
+      "reference": "PRO-10351",
+      "libelle": "Cartouche filtrante P3, la paire",
+      "quantite": 4
+    },
+    {
+      "reference": "PRO-11910",
+      "libelle": "Tee-shirt de travail noir, taille L",
+      "quantite": 50
+    },
+    {
+      "reference": "QUI-11110",
+      "libelle": "Charnière à lames 30 mm, laiton",
+      "quantite": 10
+    }
+  ],
+  "reserves": null,
+  "signataire": "Robert Martineau",
+  "statut": "livre"
+}

@@ -1,0 +1,4 @@
+# Paquets TypeScript du dépôt : un par service de la PME, plus le gardien à l'étape 4.
+packages:
+  - "05_pme/*"
+  - "06_gardien"

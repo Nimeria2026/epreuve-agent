@@ -1,0 +1,42 @@
+{
+  "numero": "CO-2026-02036",
+  "client": "c-0240",
+  "reference_client": null,
+  "cree_le": "2026-07-01T09:10:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "87 chemin des Prés, 36999 Fontclavier (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-10792",
+      "libelle": "Collier de serrage 370x7,6 mm, sachet de 100",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 2.85,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 2.74,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 5.48
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 5.48,
+  "total_tva_euros": 1.1,
+  "total_ttc_euros": 6.58,
+  "statut": "en_attente_reassort",
+  "motif_attente": null,
+  "reliquat_de": "CO-2026-01979",
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-01T09:10:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": "reliquat de CO-2026-01979"
+    }
+  ]
+}

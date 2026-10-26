@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01659",
+  "commande": "CO-2026-01810",
+  "client": "c-0091",
+  "date_expedition": "2026-06-23",
+  "date_livraison": "2026-06-23",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "56 rue des Jardins, 36999 Laubrissac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "PRO-11061",
+      "libelle": "Gants de soudeur cuir croûte, taille 11",
+      "quantite": 10
+    }
+  ],
+  "reserves": null,
+  "signataire": "Serge Barre",
+  "statut": "livre"
+}

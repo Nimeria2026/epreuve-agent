@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0505"
+nom: "Nathalie André"
+type: "particulier"
+adresse: "14 allée des Peupliers, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "nathalie.andre@courriel.example"
+telephone: "06 39 98 51 20"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité Plus"
+  depuis: "2018-10-18"
+  mois_anniversaire: "octobre"
+  derniere_visite: "2026-10-06"

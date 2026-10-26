@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-717",
+  "de": {
+    "nom": "Olivier Mercier",
+    "adresse": "olivier.mercier@courriel.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Pompe à chaleur en défaut",
+  "date": "2026-11-28T10:30:00+01:00",
+  "corps": "Bonjour Monsieur Duval,\n\nLa pompe à chaleur que vous avez posée chez moi le 16 novembre se met en défaut tous les matins ; il faut la relancer à la main. Pouvez-vous passer la voir ?\n\nOlivier Mercier\n94 chemin des Vignes, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

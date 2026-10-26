@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-b16",
+  "de": {
+    "nom": "Olivier Gauthier",
+    "adresse": "olivier.gauthier@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Félicitations",
+  "date": "2026-10-19T16:31:00+02:00",
+  "corps": "Bonjour,\n\nBravo pour la qualité de votre accueil téléphonique.\n\nOlivier Gauthier (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

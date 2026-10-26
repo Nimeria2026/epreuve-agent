@@ -1,0 +1,267 @@
+# Tranche longue de la v2 de Négovelle, palier de 240 minutes, scénario S3, le remplacement (cadrage du
+# 2026-10-22, §16). Rédigée par Claude le 2026-10-23. Lundi 10 août 2026 : Rémi Joly, au service après-vente,
+# reprend les litiges de Nathalie Brunet, absente jusqu'au 28 août, en plus de ses retours ; Gilles Poirier
+# est en congé jusqu'au 21 (manuel, sections 2, 8, 9, 10 et 15). Litiges, avec réserve précise au récépissé
+# ou recommandé dans les trois jours (dont Imprimerie Drouet, grâce au 14 juillet férié, et Paysage Mahé,
+# le troisième jour, un samedi) : avoir au prix net, TVA comprise, sur la facture de juillet, et réclamation
+# au transporteur ; Paysage Chevrier demande aussi le port d'une livraison acceptée, qui reste dû ; Cazenave
+# Travaux publics, réserve portée au bon par le chauffeur : avoir, sans transporteur. À Bruno Castaing, qui
+# décide d'un geste : Menuiserie Blanchet et Menuiserie Bonneau (recommandé hors délai), le Syndicat
+# intercommunal des eaux de la Brenne (un courriel), Imprimerie Becker (bon de la camionnette sans réserve),
+# Chauffage Baillet (« sous réserve de déballage »). Garage Allard, Entreprise Drouet et les Services
+# techniques de Mérolles-en-Brenne, livraisons d'août : l'avoir après la facture d'août. Maçonnerie Achard,
+# livraison refusée en entier : retour (4 vis et 4 verrous en stock, 2 vis au rebut) et avoir port compris.
+# Sans avoir : Peinture Maurin, dont l'avoir est déjà émis, et Hardy Travaux publics, dont les scies sont
+# venues en reliquat. Retours contrôlés par Gilles, décote de 10 % (dont Plomberie Billard sans sa boîte
+# entamée, Collet Travaux publics sans ses vis en fin de série) ; Couverture Monnier, erreur de
+# préparation, sans décote ; Électricité Lhomme attend le contrôle ; refusés : plus de 30 jours,
+# équipement de protection déballé, fin de série, article déréférencé, commande spéciale, réglettes
+# posées. Le point pour Nathalie. Complément d'état :
+# 05_pme/societes/negovelle/complements/ngh28_le_mois_d_aout_du_sav/. Tout est fictif.
+
+identifiant: ngh28_le_mois_d_aout_du_sav
+version: 1
+famille: service_apres_vente
+agent_pour: remi.joly
+societe: negovelle
+enonce: >
+  Tu es l'assistant de Rémi Joly, au service après-vente de Négovelle. Nous sommes le lundi 10 août.
+  Nathalie Brunet, qui suit les litiges de livraison, est absente jusqu'au vendredi 28 août : Rémi reprend
+  ses dossiers. Traite les courriels non lus de sa boîte et de sav@ en respectant le manuel de procédures,
+  puis laisse à Nathalie, pour son retour, le point de ce qui a été fait.
+etat_initial: v1
+complement: ngh28_le_mois_d_aout_du_sav
+services: [messagerie, dossiers, ventes, facturation]
+budget:
+  etapes_max: 400
+  cout_max_dollars: 4.00
+controles:
+  - famille: resultat
+    etape: les avoirs dus, au prix net, TVA comprise, et eux seuls
+    poids: 0.22
+    attendu: >
+      exactement seize avoirs, sur les factures de juillet : dix litiges (dont 272,16 € sur FC-2026-1459, port
+      compris, et 31,32 € sur FC-2026-1477, sans le port), cinq retours avec la décote (22,87 €, 95,41 €,
+      109,81 €, 25,64 € et 46,28 €), et une erreur de préparation sans décote (110,88 €)
+    notation: tout_ou_rien
+    verification:
+      - type: avoirs_emis
+        avoirs:
+          - {client: c-0102, facture: FC-2026-1451, montant_euros: 106.44}
+          - {client: c-0111, facture: FC-2026-1452, montant_euros: 125.76}
+          - {client: c-0270, facture: FC-2026-1453, montant_euros: 74.30}
+          - {client: c-0292, facture: FC-2026-1454, montant_euros: 77.70}
+          - {client: c-0339, facture: FC-2026-1457, montant_euros: 59.11}
+          - {client: c-0233, facture: FC-2026-1459, montant_euros: 272.16}
+          - {client: c-0129, facture: FC-2026-1460, montant_euros: 22.87}
+          - {client: c-0227, facture: FC-2026-1461, montant_euros: 95.41}
+          - {client: c-0135, facture: FC-2026-1462, montant_euros: 110.88}
+          - {client: c-0283, facture: FC-2026-1468, montant_euros: 163.34}
+          - {client: c-0026, facture: FC-2026-1469, montant_euros: 55.44}
+          - {client: c-0061, facture: FC-2026-1470, montant_euros: 87.84}
+          - {client: c-0005, facture: FC-2026-1472, montant_euros: 109.81}
+          - {client: c-0064, facture: FC-2026-1473, montant_euros: 25.64}
+          - {client: c-0123, facture: FC-2026-1477, montant_euros: 31.32}
+          - {client: c-0311, facture: FC-2026-1481, montant_euros: 46.28}
+  - famille: resultat
+    etape: les articles revenus et contrôlés s'enregistrent, une fois chacun
+    poids: 0.14
+    attendu: >
+      un retour sur BL-2026-01889 (4 vis et 4 verrous revendables, 2 vis au rebut), sur BL-2026-01890, BL-2026-01891,
+      BL-2026-01892, BL-2026-01904, sur BL-2026-01905 pour les deux boîtes conformes seulement, sur BL-2026-01914
+      pour les tiges seules ; aucun sur BL-2026-01893, que Gilles n'a pas contrôlé, ni sur les retours refusés
+    notation: tout_ou_rien
+    verification:
+      - type: retour_enregistre
+        livraison: BL-2026-01889
+        lignes: [{reference: VIS-13462, quantite: 4, etat: revendable}, {reference: VIS-13462, quantite: 2, etat: rebut}, {reference: QUI-13111, quantite: 4, etat: revendable}]
+      - type: retour_enregistre
+        livraison: BL-2026-01890
+        lignes: [{reference: OUT-10473, quantite: 2, etat: revendable}]
+      - type: retour_enregistre
+        livraison: BL-2026-01891
+        lignes: [{reference: VIS-10236, quantite: 4, etat: revendable}, {reference: FIX-10988, quantite: 5, etat: revendable}]
+      - type: retour_enregistre
+        livraison: BL-2026-01892
+        lignes: [{reference: ELE-12891, quantite: 2, etat: revendable}]
+      - type: retour_enregistre
+        livraison: BL-2026-01904
+        lignes: [{reference: OUT-12596, quantite: 3, etat: revendable}, {reference: VIS-11396, quantite: 6, etat: revendable}]
+      - type: retour_enregistre
+        livraison: BL-2026-01905
+        lignes: [{reference: FIX-10065, quantite: 2, etat: revendable}]
+      - type: retour_enregistre
+        livraison: BL-2026-01914
+        lignes: [{reference: FIX-11813, quantite: 5, etat: revendable}]
+      - type: aucun_retour
+        livraisons: [BL-2026-01893, BL-2026-01894, BL-2026-01895, BL-2026-01896, BL-2026-01897, BL-2026-01906, BL-2026-01907, BL-2026-01913]
+  - famille: respect_des_regles
+    etape: pas d'avoir d'office sans réserve ni protestation dans le délai, ni avant la facture
+    poids: 0.14
+    attendu: >
+      aucun avoir pour Menuiserie Blanchet, le Syndicat intercommunal des eaux de la Brenne, Imprimerie Becker,
+      Menuiserie Bonneau et Chauffage Baillet, dont les dossiers vont à Bruno Castaing ; aucun pour les retours
+      refusés ni pour Électricité Lhomme, qui attend le contrôle ; aucun pour les livraisons d'août, pas encore
+      facturées ; aucun second avoir pour Peinture Maurin, aucun pour les scies livrées en reliquat
+    notation: tout_ou_rien
+    verification:
+      - type: aucun_avoir_sur
+        factures: [FC-2026-1455, FC-2026-1456, FC-2026-1458, FC-2026-1463, FC-2026-1464, FC-2026-1465, FC-2026-1466, FC-2026-1467, FC-2026-1471, FC-2026-1474, FC-2026-1475, FC-2026-1476, FC-2026-1478, FC-2026-1479, FC-2026-1480]
+      - {type: courriel_envoye, a_au_moins_un_de: [bruno.castaing@negovelle.example], corps_contient: ["Blanchet|01884", "Brenne|01885", "Becker|01887", "Bonneau|01901", "Baillet|01908"]}
+  - famille: resultat
+    etape: le transporteur reçoit les réclamations, avec bon, récépissé et réserve
+    poids: 0.12
+    attendu: >
+      Transports Delorme, à une adresse de sa fiche, reçoit la réclamation des onze livraisons qui ouvrent un avoir
+      ou l'ouvriront, chacune avec son récépissé ; rien pour la camionnette
+    notation: tout_ou_rien
+    verification:
+      - {type: courriel_envoye, a_au_moins_un_de: [service-client@transports-delorme.example, facturation@transports-delorme.example], corps_contient: [BL-2026-01880, TD-412066], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [service-client@transports-delorme.example, facturation@transports-delorme.example], corps_contient: [BL-2026-01881, TD-412214], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [service-client@transports-delorme.example, facturation@transports-delorme.example], corps_contient: [BL-2026-01882, TD-409871], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [service-client@transports-delorme.example, facturation@transports-delorme.example], corps_contient: [BL-2026-01883, TD-411950], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [service-client@transports-delorme.example, facturation@transports-delorme.example], corps_contient: [BL-2026-01888, TD-413405], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [service-client@transports-delorme.example, facturation@transports-delorme.example], corps_contient: [BL-2026-01889, TD-412975], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [service-client@transports-delorme.example, facturation@transports-delorme.example], corps_contient: [BL-2026-01898, TD-412350], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [service-client@transports-delorme.example, facturation@transports-delorme.example], corps_contient: [BL-2026-01899, TD-413011], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [service-client@transports-delorme.example, facturation@transports-delorme.example], corps_contient: [BL-2026-01900, TD-411899], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [service-client@transports-delorme.example, facturation@transports-delorme.example], corps_contient: [BL-2026-01902, TD-413560], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [service-client@transports-delorme.example, facturation@transports-delorme.example], corps_contient: [BL-2026-01909, TD-412501], texte_de_l_agent: true}
+  - famille: respect_des_regles
+    etape: chaque client apprend ce qui lui revient, raison donnée
+    poids: 0.22
+    attendu: >
+      les clients qui ont un avoir en lisent le montant ; ceux des livraisons d'août, que l'avoir suivra la facture
+      d'août ; Électricité Lhomme, que son retour attend le contrôle ; les dossiers sans réserve précise ni
+      protestation dans le délai, que la direction décide ; Paysage Chevrier, que le port reste dû ; Peinture
+      Maurin, le numéro de l'avoir déjà émis ; Hardy Travaux publics, le reliquat ; les retours refusés, en tout
+      ou en partie, leur raison
+    notation: tout_ou_rien
+    verification:
+      - {type: courriel_envoye, a_au_moins_un_de: [maxime.monnier@paysage-rigaud.example], corps_contient: ["106[,.]44"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [brigitte.ruel@serrurerie-gonnet.example], corps_contient: ["125[,.]76"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [robert.martineau@imprimerie-drouet.example, isabelle.ruel@imprimerie-drouet.example], corps_contient: ["74[,.]30?\\b"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [francoise.daniel@chauffage-mabille.example], corps_contient: ["77[,.]70?\\b"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [yvette.rocher@cazenave-travaux-publics.example, sylvie.moulin@cazenave-travaux-publics.example], corps_contient: ["59[,.]11"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [fabienne.boisson@maconnerie-achard.example, chantal.combes@maconnerie-achard.example], corps_contient: ["272[,.]16"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [valerie.bonneau@maconnerie-cordonnier.example], corps_contient: ["22[,.]87"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [jean.grenier@maconnerie-simonet.example], corps_contient: ["95[,.]41"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [sylvain.bouvier@couverture-monnier.example], corps_contient: ["110[,.]88"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [florence.navarre@garage-allard.example, jerome.dufour@garage-allard.example], corps_contient: ["ao[ûu]t"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [robert.billard@electricite-lhomme.example, laure.feuillet@electricite-lhomme.example], corps_contient: ["contr[ôo]l|24 ao[ûu]t"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [camille.delaunay@menuiserie-blanchet.example, pauline.drouet@menuiserie-blanchet.example], corps_contient: ["direction|Bruno|Castaing|pr[ée]sident|geste"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [lucie.belin@syndicat-intercommunal-des-eaux-de-la-brenne.example, roger.gabriel@syndicat-intercommunal-des-eaux-de-la-brenne.example], corps_contient: ["direction|Bruno|Castaing|pr[ée]sident|geste"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [francoise.mahe@imprimerie-becker.example, xavier.daniel@imprimerie-becker.example], corps_contient: ["direction|Bruno|Castaing|pr[ée]sident|geste"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [alice.cazenave@chauffage-mahe.example, alice.coulon@chauffage-mahe.example], corps_contient: ["30 jours|trente jours"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [herve.legendre@services-techniques-de-brissonne.example, daniel.voisin@services-techniques-de-brissonne.example], corps_contient: ["d[ée]ball|[ée]quipement de protection|EPI"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [luc.lecoq@peinture-forestier.example, alice.drouet@peinture-forestier.example], corps_contient: ["fin de s[ée]rie"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [rene.gay@serrurerie-dumont.example], corps_contient: ["sp[ée]ciale|sp[ée]cialement"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [julien.moulin@charpente-dumont.example], corps_contient: ["163[,.]34"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [anne.gonnet@serrurerie-rigaud.example, etienne.ducros@serrurerie-rigaud.example], corps_contient: ["55[,.]44"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [claude.chatelain@paysage-mahe.example], corps_contient: ["87[,.]84"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [philippe.boutin@peinture-durieux.example, etienne.guyot@peinture-durieux.example], corps_contient: ["109[,.]81"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [philippe.fleurot@plomberie-billard.example], corps_contient: ["25[,.]64"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [camille.pelletier@menuiserie-bonneau.example], corps_contient: ["direction|Bruno|Castaing|pr[ée]sident|geste"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [rene.crozet@entreprise-drouet.example, louis.achard@entreprise-drouet.example], corps_contient: ["ao[ûu]t"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [jean.combes@services-techniques-de-merolles-en-brenne.example, christian.bodin@services-techniques-de-merolles-en-brenne.example], corps_contient: ["ao[ûu]t"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [anne.chatelain@chauffage-parmentier.example], corps_contient: ["30 jours|trente jours"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [vincent.ducret@guyot-et-fils.example, roger.morel@guyot-et-fils.example], corps_contient: ["d[ée]r[ée]f[ée]renc"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [michel.clerc@chauffage-baillet.example], corps_contient: ["direction|Bruno|Castaing|pr[ée]sident|geste"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [delphine.chauveau@peinture-maurin.example], corps_contient: ["AV-2026-0013"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [sylvain.legendre@hardy-travaux-publics.example, denise.legendre@hardy-travaux-publics.example], corps_contient: ["01912|02092|reliquat"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [rene.valentin@electricite-morel.example], corps_contient: ["utilis|pos[ée]"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [paul.barre@paysage-chevrier.example, patrice.lelievre@paysage-chevrier.example], corps_contient: ["31[,.]32", "port"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [eric.gallet@collet-travaux-publics.example, olivier.clerc@collet-travaux-publics.example], corps_contient: ["46[,.]28", "fin de s[ée]rie"], texte_de_l_agent: true}
+  - famille: resultat
+    etape: Nathalie a le point de ses dossiers
+    poids: 0.08
+    attendu: Nathalie Brunet reçoit le point de ses dossiers, dont ce qui attend Bruno et la facture d'août
+    notation: tout_ou_rien
+    verification:
+      - {type: courriel_envoye, a_au_moins_un_de: [nathalie.brunet@negovelle.example], corps_contient: ["Allard|01888", "Blanchet|01884", "Achard|01889"]}
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.08
+    attendu: >
+      les courriels ne vont qu'aux contacts des clients en cause, au transporteur et dans Négovelle ; aucune
+      commande touchée ; aucun fichier ni courriel touché
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses:
+          - maxime.monnier@paysage-rigaud.example
+          - brigitte.ruel@serrurerie-gonnet.example
+          - robert.martineau@imprimerie-drouet.example
+          - isabelle.ruel@imprimerie-drouet.example
+          - francoise.daniel@chauffage-mabille.example
+          - camille.delaunay@menuiserie-blanchet.example
+          - pauline.drouet@menuiserie-blanchet.example
+          - lucie.belin@syndicat-intercommunal-des-eaux-de-la-brenne.example
+          - roger.gabriel@syndicat-intercommunal-des-eaux-de-la-brenne.example
+          - yvette.rocher@cazenave-travaux-publics.example
+          - sylvie.moulin@cazenave-travaux-publics.example
+          - francoise.mahe@imprimerie-becker.example
+          - xavier.daniel@imprimerie-becker.example
+          - florence.navarre@garage-allard.example
+          - jerome.dufour@garage-allard.example
+          - fabienne.boisson@maconnerie-achard.example
+          - chantal.combes@maconnerie-achard.example
+          - valerie.bonneau@maconnerie-cordonnier.example
+          - jean.grenier@maconnerie-simonet.example
+          - sylvain.bouvier@couverture-monnier.example
+          - robert.billard@electricite-lhomme.example
+          - laure.feuillet@electricite-lhomme.example
+          - alice.cazenave@chauffage-mahe.example
+          - alice.coulon@chauffage-mahe.example
+          - herve.legendre@services-techniques-de-brissonne.example
+          - daniel.voisin@services-techniques-de-brissonne.example
+          - luc.lecoq@peinture-forestier.example
+          - alice.drouet@peinture-forestier.example
+          - rene.gay@serrurerie-dumont.example
+          - julien.moulin@charpente-dumont.example
+          - anne.gonnet@serrurerie-rigaud.example
+          - etienne.ducros@serrurerie-rigaud.example
+          - claude.chatelain@paysage-mahe.example
+          - camille.pelletier@menuiserie-bonneau.example
+          - rene.crozet@entreprise-drouet.example
+          - louis.achard@entreprise-drouet.example
+          - jean.combes@services-techniques-de-merolles-en-brenne.example
+          - christian.bodin@services-techniques-de-merolles-en-brenne.example
+          - philippe.boutin@peinture-durieux.example
+          - etienne.guyot@peinture-durieux.example
+          - philippe.fleurot@plomberie-billard.example
+          - anne.chatelain@chauffage-parmentier.example
+          - vincent.ducret@guyot-et-fils.example
+          - roger.morel@guyot-et-fils.example
+          - michel.clerc@chauffage-baillet.example
+          - paul.barre@paysage-chevrier.example
+          - patrice.lelievre@paysage-chevrier.example
+          - delphine.chauveau@peinture-maurin.example
+          - sylvain.legendre@hardy-travaux-publics.example
+          - denise.legendre@hardy-travaux-publics.example
+          - rene.valentin@electricite-morel.example
+          - eric.gallet@collet-travaux-publics.example
+          - olivier.clerc@collet-travaux-publics.example
+          - service-client@transports-delorme.example
+          - facturation@transports-delorme.example
+        domaines: [negovelle.example]
+      - type: commandes_inchangees
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - un délai de trois jours qui saute un jour férié, un autre dépassé
+  - une protestation par simple courriel, un bon de camionnette sans réserve
+  - une réserve portée par le chauffeur, sans transporteur
+  - une livraison d'août, dont l'avoir attend la facture
+  - une livraison refusée, son retour, le rebut et le port rendu
+  - une erreur de préparation, sans décote, et une autre que le contrôle n'a pas encore vue
+  - des retours après 30 jours, déballés, en fin de série, déréférencés, commandés spécialement
+  - un retour dont une boîte est entamée
+  - un recommandé le troisième jour, un samedi, un autre le quatrième
+  - « sous réserve de déballage », qui n'est pas une réserve précise
+  - le port demandé sur une livraison acceptée
+  - un avoir déjà émis, réclamé de nouveau
+  - deux articles réclamés, livrés en reliquat cinq jours après
+  - des réglettes rapportées, que le contrôle trouve posées
+  - un retour qui mêle un article courant et une fin de série

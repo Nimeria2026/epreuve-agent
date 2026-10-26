@@ -1,0 +1,17 @@
+# Budget prévisionnel de l'exercice en cours, voté, copropriété cp17. Données FICTIVES.
+copropriete: cp17
+exercice: '2026'
+total: 54 400,00 €
+postes:
+  nettoyage des parties communes: 11 968,00 €
+  espaces verts: 4 352,00 €
+  électricité des parties communes: 4 896,00 €
+  eau: 7 616,00 €
+  assurance de l'immeuble: 5 984,00 €
+  honoraires du syndic: 9 792,00 €
+  entretien et petites réparations: 5 440,00 €
+  ascenseur, contrat et électricité: 4 352,00 €
+repartition:
+  charges générales, aux tantièmes généraux: 50 048,00 €
+  ascenseur, aux tantièmes d'ascenseur: 4 352,00 €
+appel: un quart du budget, exigible le premier jour de chaque trimestre

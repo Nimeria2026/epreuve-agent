@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-905",
+  "de": {
+    "nom": "Sonia Lefèvre",
+    "adresse": "sonia.lefevre@calorelle.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Radiateurs froids",
+  "date": "2026-11-09T12:20:00+01:00",
+  "corps": "Marc, un dépannage arrivé sur contact@.\nSonia\n\n----- Message transféré -----\nIdentifiant : m-ctc-905\nDe : Camille Guérin <camille.guerin@courriel.example>\nÀ : contact@calorelle.example\nCc : (aucun)\nDate : 2026-11-09T12:05:00+01:00\nObjet : Radiateurs froids\nPièces jointes : (aucune)\n\nBonjour,\n\nTous nos radiateurs sont froids ; la chaudière gaz tourne mais ne chauffe pas.\n\nCamille Guérin, 19 rue des Lilas (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

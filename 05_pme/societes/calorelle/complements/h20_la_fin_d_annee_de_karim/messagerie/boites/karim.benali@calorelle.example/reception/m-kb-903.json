@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-903",
+  "de": {
+    "nom": "Syndic de la Résidence des Saulaies",
+    "adresse": "contact@syndic-de-la-residence-des-saulaies-450.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Vote de l'assemblée générale",
+  "date": "2026-12-21T09:30:00+01:00",
+  "corps": "Bonjour,\n\nL'assemblée générale du 18 décembre a voté votre devis DV-2026-020, le désembouage et les radiateurs des parties communes. Quand pouvez-vous intervenir ?\n\nLe syndic de la Résidence des Saulaies, 30 chemin des Vignes (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

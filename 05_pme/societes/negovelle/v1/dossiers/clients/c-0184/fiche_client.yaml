@@ -1,0 +1,28 @@
+# Fiche du client c-0184 de Négovelle. Données FICTIVES.
+code: c-0184
+nom: Couverture Forestier
+type: artisan
+adresse: 27 rue des Lilas, 36999 Corvalet (FICTIF)
+telephone: 02 61 91 69 10
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Jacques Besson
+  fonction: gérant
+  courriel: jacques.besson@couverture-forestier.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 27 rue des Lilas, 36999 Corvalet (FICTIF)
+- code: L2
+  libelle: chantier déclaré
+  adresse: 40 rue de l'Église, 36999 Mérolles-en-Brenne (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2025-12-01'
+limite_encours_euros: 2000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

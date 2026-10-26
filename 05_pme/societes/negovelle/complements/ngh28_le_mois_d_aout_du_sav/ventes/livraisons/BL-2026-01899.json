@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01899",
+  "commande": "CO-2026-02079",
+  "client": "c-0026",
+  "date_expedition": "2026-07-29",
+  "date_livraison": "2026-07-30",
+  "transport": {
+    "mode": "transporteur",
+    "transporteur": "transports-delorme",
+    "recepisse": "TD-413011"
+  },
+  "adresse": "136 place du Marché, 36999 Vaumoreau-sur-Indre (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "OUT-12645",
+      "libelle": "Tournevis Phillips n° 4",
+      "quantite": 12
+    },
+    {
+      "reference": "PLB-12401",
+      "libelle": "Robinet d'arrêt de machine à laver 12x17",
+      "quantite": 10
+    }
+  ],
+  "reserves": "carton mouillé : 4 robinets PLB-12401 rouillés",
+  "signataire": "Anne Gonnet",
+  "statut": "livre"
+}

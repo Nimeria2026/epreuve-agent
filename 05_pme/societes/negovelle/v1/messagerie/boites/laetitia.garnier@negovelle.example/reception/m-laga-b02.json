@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-laga-b02",
+  "de": {
+    "nom": "Vincent Tixier",
+    "adresse": "vincent.tixier@serrurerie-foucault.example"
+  },
+  "a": [
+    "laetitia.garnier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande reçue, merci",
+  "date": "2026-07-02T12:26:00+02:00",
+  "corps": "Bonjour,\n\nLa livraison de ce matin est complète. Merci.\n\nVincent Tixier",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

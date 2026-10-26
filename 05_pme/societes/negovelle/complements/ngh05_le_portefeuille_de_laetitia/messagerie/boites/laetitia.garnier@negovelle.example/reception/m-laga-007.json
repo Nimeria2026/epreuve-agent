@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-laga-007",
+  "de": {
+    "nom": "Dominique Gabriel",
+    "adresse": "dominique.gabriel@serrurerie-chartier.example"
+  },
+  "a": [
+    "laetitia.garnier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture FC-2026-1425",
+  "date": "2026-07-06T07:10:00+02:00",
+  "corps": "Bonjour,\n\nNous avons reçu la facture FC-2026-1425 de notre passage au comptoir du 17 juin, à payer. Nous pensions l'avoir réglée par carte ce jour-là : pouvez-vous vérifier ?\n\nDominique Gabriel\nSerrurerie Chartier",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

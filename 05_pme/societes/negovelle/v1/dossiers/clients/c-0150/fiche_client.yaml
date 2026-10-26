@@ -1,0 +1,31 @@
+# Fiche du client c-0150 de Négovelle. Données FICTIVES.
+code: c-0150
+nom: Imprimerie Barbe
+type: pme
+adresse: 2 zone industrielle des Brandes, 36999 Saulvenne (FICTIF)
+telephone: 02 61 91 72 06
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Michel Doré
+  fonction: responsable des achats
+  courriel: michel.dore@imprimerie-barbe.example
+- nom: Sandrine Collet
+  fonction: responsable de maintenance
+  courriel: sandrine.collet@imprimerie-barbe.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 2 zone industrielle des Brandes, 36999 Saulvenne (FICTIF)
+- code: L2
+  libelle: dépôt
+  adresse: 37 zone industrielle des Brandes, 36999 Vaumoreau-sur-Indre (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2013-07-01'
+limite_encours_euros: 4000.0
+livraisons_partielles: true
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

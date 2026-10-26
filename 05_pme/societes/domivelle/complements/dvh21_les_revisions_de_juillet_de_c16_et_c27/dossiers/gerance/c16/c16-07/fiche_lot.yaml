@@ -1,0 +1,19 @@
+# Fiche du lot c16-07. Données FICTIVES.
+lot: c16-07
+adresse: 122 avenue de la Gare, 18999 Montclavel-sur-Cher (FICTIF)
+type: T3
+surface_m2: 62
+locataire:
+  nom: Mme Martine Moreau
+  courriel: martine.moreau@courriel.example
+  telephone: 06 39 98 73 02
+  entree: '2016-04-13'
+bail:
+  signature: '2016-04-13'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 677,00 €
+  depot_de_garantie: 542,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T4
+dpe:
+  classe: D

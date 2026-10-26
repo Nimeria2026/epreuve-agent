@@ -1,0 +1,79 @@
+{
+  "numero": "CO-2026-01834",
+  "client": "c-0007",
+  "reference_client": null,
+  "cree_le": "2026-06-23T09:10:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "60 avenue de la Gare, 36999 Vaumoreau-sur-Indre (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "PLB-13495",
+      "libelle": "Étanchéité ruban PTFE de 15 m",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 7.65,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 7.34,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 44.04
+    },
+    {
+      "reference": "QUI-10506",
+      "libelle": "Cadenas à combinaison 40 mm, 2 clés",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 6.5,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 6.24,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 74.88
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 133.92,
+  "total_tva_euros": 26.78,
+  "total_ttc_euros": 160.7,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01683"
+  ],
+  "facture": "FC-2026-1007",
+  "historique": [
+    {
+      "date": "2026-06-23T09:10:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-23T09:12:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-24T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01683"
+    },
+    {
+      "date": "2026-06-24T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01683"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1007"
+    }
+  ]
+}

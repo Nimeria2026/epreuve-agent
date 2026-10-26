@@ -1,0 +1,28 @@
+# Fiche du client c-0254 de Négovelle. Données FICTIVES.
+code: c-0254
+nom: Centre aquatique intercommunal de Fontclavier
+type: collectivite
+adresse: 108 rue des Remparts, 36999 Fontclavier (FICTIF)
+telephone: 02 61 91 72 01
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Valérie Lacour
+  fonction: responsable des services techniques
+  courriel: valerie.lacour@centre-aquatique-intercommunal-de-fontclavier.example
+- nom: Henri Delaunay
+  fonction: secrétaire de mairie
+  courriel: henri.delaunay@centre-aquatique-intercommunal-de-fontclavier.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 108 rue des Remparts, 36999 Fontclavier (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2025-10-01'
+limite_encours_euros: 3500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

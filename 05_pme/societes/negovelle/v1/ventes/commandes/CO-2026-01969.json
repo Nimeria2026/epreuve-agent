@@ -1,0 +1,106 @@
+{
+  "numero": "CO-2026-01969",
+  "client": "c-0087",
+  "reference_client": "BC-8231",
+  "cree_le": "2026-07-01T09:10:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "28 parc d'activités de la Gare, 36999 Ardillac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-10685",
+      "libelle": "Disque abrasif auto-agrippant 150 mm, grain 80, boîte de 50",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 15.65,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 15.02,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 60.08
+    },
+    {
+      "reference": "OUT-10138",
+      "libelle": "Caisse à outils plastique 400 mm",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 86.35,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 82.9,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 497.4
+    },
+    {
+      "reference": "QUI-12539",
+      "libelle": "Poignée de porte droite sur rosace, laiton",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 15.9,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 15.26,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 76.3
+    },
+    {
+      "reference": "VIS-13748",
+      "libelle": "Vis à tôle tête cylindrique 3,9x13, zinguée, boîte de 100",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 4.95,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 4.75,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 57.0
+    },
+    {
+      "reference": "VIS-13846",
+      "libelle": "Vis à tôle tête cylindrique 3,9x9,5, zinguée, boîte de 250",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 11.45,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 10.99,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 10.99
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 701.77,
+  "total_tva_euros": 140.35,
+  "total_ttc_euros": 842.12,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01818"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-01T09:10:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-01T09:12:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-02T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01818"
+    },
+    {
+      "date": "2026-07-02T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01818"
+    }
+  ]
+}

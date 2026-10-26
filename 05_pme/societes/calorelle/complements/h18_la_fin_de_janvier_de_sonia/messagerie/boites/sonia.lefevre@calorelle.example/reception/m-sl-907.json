@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-907",
+  "de": {
+    "nom": "Hélène Marchal",
+    "adresse": "helene.marchal@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Congés, et le point de fin de mois",
+  "date": "2027-01-29T10:15:00+01:00",
+  "corps": "Sonia,\n\nPour les deux demandes que tu m'as transmises mercredi : je valide celle de Romain, du lundi 1er au mercredi 3 mars ; je refuse celle de Florian, le mercredi 17 février, il y aurait trois techniciens absents ce jour-là. Préviens-les, et donne au planning ce qui doit l'être.\n\nComme chaque fin de mois, envoie-moi lundi le point RH : les jours ouvrés d'absence de janvier, salarié par salarié, et leur total ; les arrivées et les départs à venir, et l'état de leurs dossiers ; les demandes de congé en attente, avec ce qui les bloque. Vérifie aussi que le planning de Marc porte bien toutes les absences validées de février et de mars.\n\nHélène (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

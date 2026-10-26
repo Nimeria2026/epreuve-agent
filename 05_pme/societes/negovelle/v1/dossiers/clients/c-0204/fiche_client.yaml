@@ -1,0 +1,28 @@
+# Fiche du client c-0204 de Négovelle. Données FICTIVES.
+code: c-0204
+nom: Transports Ducros
+type: pme
+adresse: 30 zone industrielle des Brandes, 36999 Vendrigny (FICTIF)
+telephone: 02 61 91 97 94
+secteur: est
+commercial: fabrice.mercier
+administration_des_ventes: benoit.faure
+contacts:
+- nom: Paul Gay
+  fonction: responsable des achats
+  courriel: paul.gay@transports-ducros.example
+- nom: Suzanne Ernault
+  fonction: responsable de maintenance
+  courriel: suzanne.ernault@transports-ducros.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 30 zone industrielle des Brandes, 36999 Vendrigny (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2009-10-01'
+limite_encours_euros: 6000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

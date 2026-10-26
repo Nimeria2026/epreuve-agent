@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-901",
+  "de": {
+    "nom": "Sonia Lefèvre",
+    "adresse": "sonia.lefevre@calorelle.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Plus de chauffage",
+  "date": "2026-11-09T08:55:00+01:00",
+  "corps": "Marc, un dépannage arrivé sur contact@.\nSonia\n\n----- Message transféré -----\nIdentifiant : m-ctc-901\nDe : Jean Leroux <jean.leroux@courriel.example>\nÀ : contact@calorelle.example\nCc : (aucun)\nDate : 2026-11-09T08:40:00+01:00\nObjet : Plus de chauffage\nPièces jointes : (aucune)\n\nBonjour,\n\nNotre chaudière gaz ne s'allume plus depuis ce matin : plus de chauffage. Je suis chez moi toute la semaine.\n\nJean Leroux, 3 rue du Moulin, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

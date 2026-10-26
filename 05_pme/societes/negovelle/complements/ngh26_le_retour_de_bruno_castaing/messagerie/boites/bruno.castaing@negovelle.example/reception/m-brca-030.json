@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-030",
+  "de": {
+    "nom": "Aurélie Bonnefoy",
+    "adresse": "aurelie.bonnefoy@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Ce qui attend ta décision",
+  "date": "2026-08-24T11:50:00+02:00",
+  "corps": "Bruno,\n\nÀ mon retour, ce qui attend ta décision dans mes clients du sud :\n\n- Monnier Bâtiment (c-0189) : pour le gymnase de Saulvenne, 20 perforateurs ELP-11608 à 12 % sous son prix, soit 142,14 € HT au lieu de 161,52 € ; c'est au-dessus du seuil de revente à perte (93,13 €). Seul ton accord écrit le permet ; je leur ai dit que tu décidais.\n- Paysage Parmentier (c-0156), client depuis 2009, demande 60 jours de paiement au lieu de 30 : à toi de décider.\n- Plâtrerie Martineau (c-0288) demande un geste, 10 % sur la facture d'août, pour une livraison arrivée le 14 août au lieu du 12, chantier arrêté deux jours : à toi de décider.\n- Charpente Chartier (c-0322) voudrait 100 sachets de boulons VIS-10391 à 11,00 € HT pour solder le stock. L'article est en fin de série ; 11,00 € est sous le seuil de revente à perte, 11,52 €, ce que seule ta décision écrite, qui nomme l'exception de fin de série, permet.\n\nAurélie",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

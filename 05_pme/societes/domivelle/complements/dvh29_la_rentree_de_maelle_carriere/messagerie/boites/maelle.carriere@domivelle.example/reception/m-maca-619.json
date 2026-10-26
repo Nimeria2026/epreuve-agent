@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-maca-619",
+  "de": {
+    "nom": "Bruno Millet",
+    "adresse": "bruno.millet@boite-postale.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Porte du parking des Glycines",
+  "date": "2026-08-26T20:05:00+02:00",
+  "corps": "Madame,\n\nLe moteur de la porte du parking des Glycines a lâché le 24 août : la porte ne s'ouvre plus qu'à la main, et nous la fermons à clé le soir. Serrurerie des Quatre-Vents propose de remplacer le moteur pour 1 380,00 € TTC, devis joint. Pouvez-vous le commander ?\n\nBruno Millet, membre du conseil syndical",
+  "pieces_jointes": [
+    {
+      "nom": "devis_porte_parking_glycines.pdf",
+      "fichier": "pieces/m-maca-619/devis_porte_parking_glycines.pdf",
+      "taille_octets": 900
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

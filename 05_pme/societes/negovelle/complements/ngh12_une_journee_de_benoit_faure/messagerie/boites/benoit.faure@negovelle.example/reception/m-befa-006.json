@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-befa-006",
+  "de": {
+    "nom": "Imprim'Express",
+    "adresse": "contact@imprim-express.example"
+  },
+  "a": [
+    "benoit.faure@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Vos catalogues imprimés à prix réduit",
+  "date": "2026-07-05T18:20:00+02:00",
+  "corps": "Bonjour,\n\nNous imprimons vos catalogues et vos tarifs en 48 heures, à prix réduit tout l'été. Puis-je vous envoyer un devis ?\n\nBien à vous,\nSophie Lenoir, Imprim'Express",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

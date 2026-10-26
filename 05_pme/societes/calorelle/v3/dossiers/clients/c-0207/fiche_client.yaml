@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0207"
+nom: "Syndic de la Résidence des Saulaies"
+type: "syndic"
+adresse: "96 place du Marché, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "contact@syndic-de-la-residence-des-saulaies-207.example"
+telephone: "02 61 91 35 53"
+charge_d_affaires: "karim.benali"
+contrat:
+  formule: "Sérénité"
+  depuis: "2022-01-23"
+  mois_anniversaire: "janvier"
+  derniere_visite: "2026-01-10"

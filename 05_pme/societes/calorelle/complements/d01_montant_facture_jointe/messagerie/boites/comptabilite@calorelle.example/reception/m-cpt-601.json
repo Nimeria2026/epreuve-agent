@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-601",
+  "de": {
+    "nom": "Robinetterie des Saulaies",
+    "adresse": "compta@robinetterie-des-saulaies.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture RS-2026-0612",
+  "date": "2026-11-02T07:40:00+01:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-jointe notre facture RS-2026-0612.\n\nCordialement,\nService comptabilité, Robinetterie des Saulaies (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "Facture_RS-2026-0612.pdf",
+      "fichier": "pieces/m-cpt-601/Facture_RS-2026-0612.pdf",
+      "taille_octets": 1161
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

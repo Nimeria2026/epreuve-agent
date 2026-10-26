@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-048",
+  "de": {
+    "nom": "Laurent Gimenez",
+    "adresse": "laurent.gimenez@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Peinture Feuillet : un prix",
+  "date": "2026-08-21T16:00:00+02:00",
+  "corps": "Bruno,\n\nPeinture Feuillet (c-0082) prendrait 25 pinces multiprises OUT-11649 à 9,00 € HT au lieu de 10,07 €. C'est une fin de série : faut-il une exception ? Je saisis la commande avec ta réponse.\n\nLaurent",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

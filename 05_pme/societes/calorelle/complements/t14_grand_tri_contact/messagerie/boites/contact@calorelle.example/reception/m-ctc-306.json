@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-306",
+  "de": {
+    "nom": "Établissements Lambert",
+    "adresse": "contact@etablissements-lambert-531.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Vérification de la ventilation",
+  "date": "2026-11-02T07:33:00+01:00",
+  "corps": "Bonjour,\n\nPouvez-vous faire passer un technicien pour vérifier la ventilation de nos bureaux avant l'hiver ? Plusieurs bouches ne soufflent plus.\n\nÉtablissements Lambert, 52 rue de la Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

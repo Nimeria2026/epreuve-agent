@@ -1,0 +1,99 @@
+/* Habillage des images de publication, à l'image de Nimeria (cadrage de la publication, §4, gardé
+   sur maquette le 2026-10-19). Charte : site/src/styles/global.css du dépôt Nimeria. __POLICES__ est
+   remplacé par le dossier des polices du dépôt Nimeria (choix G2 du cadrage du générateur). */
+@font-face { font-family: 'Newsreader'; font-style: normal; font-weight: 200 800; src: url('__POLICES__/newsreader-n-400.woff2') format('woff2'); }
+@font-face { font-family: 'Newsreader'; font-style: italic; font-weight: 200 800; src: url('__POLICES__/newsreader-i-400.woff2') format('woff2'); }
+@font-face { font-family: 'InterMarque'; font-style: normal; font-weight: 100 900; src: url('__POLICES__/inter-n-400.woff2') format('woff2'); }
+@font-face { font-family: 'PlexMarque'; font-style: normal; font-weight: 500; src: url('__POLICES__/ibmplexmono-n-500.woff2') format('woff2'); }
+:root {
+  --nuit: #0f1e30; --papier: #faf8f4; --sur-nuit: #e9eef3; --sur-sombre: #c3cdd7; --sur-sombre-2: #9fb0c0;
+  --sur-sombre-4: #7f91a3; --ambre-vif: #f6a623; --vert-vif: #8fd3b1; --brique-vif: #f08a6a;
+  --filet: rgba(255,255,255,.10); --carte: rgba(255,255,255,.035); --s1: #3987e5; --s2: #c98500;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 1080px; height: 1350px; background: var(--nuit); }
+body { font-family: InterMarque, Inter, sans-serif; color: var(--sur-nuit); padding: 80px 80px 58px;
+  display: flex; flex-direction: column; -webkit-font-smoothing: antialiased; }
+.serif { font-family: Newsreader, Georgia, serif; }
+.mono { font-family: PlexMarque, 'DejaVu Sans Mono', monospace; font-weight: 500; }
+.etiquette { font-size: 21px; letter-spacing: .14em; text-transform: uppercase; color: var(--ambre-vif); font-weight: 600; }
+h1, h2 { font-family: Newsreader, Georgia, serif; font-weight: 500; color: var(--papier); letter-spacing: -.03em; }
+h1 { font-size: 66px; line-height: 1.04; margin-top: 24px; }
+h2 { font-size: 56px; line-height: 1.06; margin-top: 22px; }
+h1 em, h2 em { font-style: italic; color: var(--ambre-vif); font-weight: 400; }
+.sous { font-size: 26px; line-height: 1.5; color: var(--sur-sombre); margin-top: 24px; }
+/* le logo « la citation » (global.css, .marque.clair) */
+.marque { position: relative; display: inline-block; padding: .18em .39em; font-family: Newsreader, Georgia, serif;
+  font-weight: 500; color: var(--papier); letter-spacing: -.035em; white-space: nowrap; line-height: 1; }
+.coin { position: absolute; width: .32em; height: .32em; border: 0 solid var(--ambre-vif); }
+.coin.h { left: 0; top: 0; border-left-width: .075em; border-top-width: .075em; }
+.coin.b { right: 0; bottom: 0; border-right-width: .075em; border-bottom-width: .075em; }
+/* les mêmes coins autour d'un chiffre relevé à la source, plus fins */
+.cite { position: relative; display: inline-block; padding: 0 .2em; }
+.cite .coin { width: .2em; height: .2em; }
+.cite .coin.h { top: .04em; border-left-width: .04em; border-top-width: .04em; }
+.cite .coin.b { bottom: .1em; border-right-width: .04em; border-bottom-width: .04em; }
+.pied { margin-top: auto; display: flex; align-items: center; gap: 26px; border-top: 1px solid var(--filet); padding-top: 26px; }
+.pied .marque { font-size: 34px; }
+.pied .credit { flex: 1; font-size: 18px; line-height: 1.5; color: var(--sur-sombre-2); }
+.pied .credit b { color: var(--sur-nuit); font-weight: 600; }
+.pied .droite { text-align: right; font-size: 18px; line-height: 1.5; color: var(--sur-sombre-2); }
+.cartes { display: flex; flex-direction: column; gap: 24px; margin-top: 46px; }
+.carte { border: 1px solid var(--filet); border-radius: 16px; padding: 28px 34px 26px; background: var(--carte); }
+.nom { display: flex; align-items: center; gap: 14px; font-size: 27px; font-weight: 600; color: var(--sur-nuit); }
+.nom small { font-weight: 400; color: var(--sur-sombre-2); font-size: 21px; }
+.pastille { width: 16px; height: 16px; border-radius: 50%; flex: none; display: inline-block; }
+.chiffres { display: flex; gap: 30px; margin-top: 14px; align-items: flex-start; }
+.chiffre { flex: 1; }
+.valeur { font-family: Newsreader, Georgia, serif; font-size: 100px; font-weight: 400; letter-spacing: -.02em; line-height: 1; color: var(--papier); }
+.valeur.premier { color: var(--sur-sombre-4); }
+.leg { font-size: 21px; color: var(--sur-sombre); margin-top: 10px; line-height: 1.3; }
+.ic { font-size: 16px; color: var(--sur-sombre-2); margin-top: 8px; }
+.fleche { padding-top: 46px; }
+.message { margin-top: 44px; font-family: Newsreader, Georgia, serif; font-size: 42px; font-weight: 500; line-height: 1.16;
+  letter-spacing: -.015em; color: var(--papier); }
+.message em { font-style: italic; font-weight: 400; color: var(--ambre-vif); }
+.note { font-size: 19px; color: var(--sur-sombre-2); line-height: 1.5; margin-top: 18px; }
+.legende { display: flex; gap: 34px; font-size: 22px; color: var(--sur-sombre); margin-top: 30px; }
+.legende div { display: flex; align-items: center; gap: 12px; }
+.etapes { margin-top: 48px; display: flex; flex-direction: column; }
+.etape { display: flex; gap: 24px; position: relative; padding-bottom: 32px; }
+.etape:not(:last-child)::before { content: ""; position: absolute; left: 21px; top: 50px; bottom: 6px; width: 2px; background: var(--filet); }
+.jalon { width: 44px; height: 44px; border-radius: 50%; flex: none; display: flex; align-items: center; justify-content: center;
+  border: 2px solid rgba(255,255,255,.22); }
+.jalon.bon { background: var(--vert-vif); border-color: var(--vert-vif); }
+.jalon.faute { background: var(--brique-vif); border-color: var(--brique-vif); }
+.texte { font-size: 25px; line-height: 1.42; padding-top: 5px; color: var(--sur-nuit); }
+.etat { font-size: 16px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; display: block; margin-bottom: 3px; }
+.etat.bon { color: var(--vert-vif); } .etat.faute { color: var(--brique-vif); }
+.citation { font-family: Newsreader, Georgia, serif; font-style: italic; font-size: 29px; color: var(--sur-sombre); }
+.verdict { margin-top: 10px; border-left: 4px solid var(--brique-vif); padding: 18px 24px; background: rgba(240,138,106,.08);
+  font-size: 24px; line-height: 1.42; border-radius: 0 12px 12px 0; color: var(--sur-nuit); }
+.verdict b { color: var(--papier); font-weight: 600; }
+.liste { margin-top: 34px; display: flex; flex-direction: column; gap: 18px; }
+.liste div { display: flex; gap: 20px; font-size: 24px; line-height: 1.4; color: var(--sur-sombre); }
+.liste b { font-weight: 600; color: var(--papier); }
+.num { width: 34px; flex: none; color: var(--ambre-vif); font-size: 19px; padding-top: 4px; }
+.sous-titre { font-family: Newsreader, Georgia, serif; font-size: 30px; font-weight: 500; color: var(--papier); letter-spacing: -.01em; }
+.signature { margin-top: auto; margin-bottom: 46px; font-family: Newsreader, Georgia, serif; font-style: italic; font-size: 44px; color: var(--sur-sombre); letter-spacing: -.01em; }
+.signature em { color: var(--ambre-vif); }
+.signature + .pied { margin-top: 0; }
+svg text { font-family: InterMarque, Inter, sans-serif; }
+svg text.mono { font-family: PlexMarque, 'DejaVu Sans Mono', monospace; font-weight: 500; }
+.hors-donnees { font: inherit; color: inherit; }
+
+/* Le constat : un tableau de deux colonnes, une par modèle, une ligne par question. */
+.constat { margin-top: 34px; display: flex; flex-direction: column; }
+.constat .entete, .constat .rang { display: grid; grid-template-columns: 300px 1fr 40px 1fr; align-items: center; column-gap: 14px; }
+.constat .entete { padding-bottom: 14px; border-bottom: 1px solid var(--filet); align-items: start; }
+.constat .entete .nom { font-size: 23px; }
+.constat .entete small { display: block; font-size: 15px; font-weight: 400; color: var(--sur-sombre-2); margin-top: 4px; line-height: 1.35; }
+.constat .rang { padding: 18px 0 16px; border-bottom: 1px solid var(--filet); }
+.constat .quoi { font-size: 23px; font-weight: 600; color: var(--sur-nuit); line-height: 1.25; }
+.constat .quoi small { display: block; font-size: 17px; font-weight: 400; color: var(--sur-sombre-2); margin-top: 4px; line-height: 1.35; }
+.constat .v { font-family: Newsreader, Georgia, serif; font-size: 48px; line-height: 1; color: var(--papier); letter-spacing: -.01em; }
+.constat .v.long { font-size: 30px; line-height: 1.1; }
+.constat .f { font-size: 15px; color: var(--sur-sombre-2); margin-top: 7px; }
+.constat .egal { font-family: Newsreader, Georgia, serif; font-size: 42px; color: var(--ambre-vif); text-align: center; }
+.preuve { margin-top: 40px; display: flex; flex-direction: column; gap: 26px; }
+.preuve .carte .chiffres { gap: 40px; }

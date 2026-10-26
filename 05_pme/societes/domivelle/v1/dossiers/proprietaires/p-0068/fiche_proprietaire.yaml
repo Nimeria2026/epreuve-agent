@@ -1,0 +1,11 @@
+# Fiche du propriétaire p-0068, mandant de Domivelle. Données FICTIVES.
+code: p-0068
+nom: M. Gérard Bazin
+adresse: 135 rue Victor-Hugo, 18999 Montclavel-sur-Cher (FICTIF)
+courriel: gerard.bazin@boite-postale.example
+telephone: 06 39 98 62 31
+iban: FR76 9999 9028 8868 1007 0542 070 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- c06-06
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

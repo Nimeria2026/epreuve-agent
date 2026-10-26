@@ -1,0 +1,183 @@
+# Tranche longue de Domivelle, palier de 120 minutes, tâche dvh08 du premier lot de la suite (cadrage
+# du 2026-10-15, section 8 ; JOURNAL, cent-soixantième entrée). Rédigée par Claude le 2026-10-15.
+# Lundi 8 juin 2026 : la colonne d'eaux usées commune de la Résidence Le Clos des Forges (cp28, 22
+# lots, Gaëlle Fournel), qui est aussi l'immeuble c07, fuit dans la gaine technique au cinquième
+# étage ; l'eau descend dans les lots 18 et 14, en gestion chez Cédric Maillard (c07-18, c07-14).
+# Maëlle Carrière mène le sinistre (manuel, section 15 ; loi de 1965, article 18, I ; décret de 1967,
+# article 37). Devis de 3 980,00 € TTC, dont 290,00 € pour le siphon de la baignoire du lot 22,
+# partie privative de Mme Sophie Muller : la part du syndicat, 3 690,00 €, se commande en urgence ;
+# la provision, après avis du conseil syndical, au plus le tiers, 1 230,00 € (1 326,67 € serait le
+# tiers du tout). Le sinistre venu des parties communes se déclare à l'assureur de l'immeuble, à
+# l'adresse de la fiche de la copropriété ; Gaëlle convoque aussitôt une assemblée ; Cédric prévient
+# les occupants des lots en gestion ; la locataire de c07-14 n'obtient pas du syndicat la réfection
+# de son plafond ; la présidente du conseil syndical, qui veut attendre, apprend l'urgence. Les
+# pièges : le siphon commandé ; la provision sans avis ou au-delà du tiers ; la réparation repoussée ;
+# les dommages des logements pris par le syndicat. Calculs :
+# 99_local/chantier/2026-10-15_domivelle_calculs_longues.py. Complément d'état :
+# 05_pme/societes/domivelle/complements/dvh08_une_fuite_sur_une_colonne_commune/. Tout est fictif.
+# Version 2, le 2026-10-15 (JOURNAL, cent-soixante-cinquième entrée), après le run de vérification de
+# DeepSeek : le manuel disait que le syndic « peut » demander la provision ; il la demande désormais
+# (section 15), ce que le contrôle attendait. Mme Texier, locataire d'un lot en gestion, peut être
+# confiée à son gestionnaire avec l'assureur de l'immeuble (section 2) ; le siphon peut être laissé
+# hors de la commande dans le courriel au plombier aussi bien que dans un courriel à Mme Muller.
+# Version 3, le 2026-10-16 (JOURNAL, cent-soixante-dixième entrée), après le run de contrôle : le
+# siphon qui « ne relève pas du syndicat et ne fait pas partie de cette commande » est bien laissé
+# hors de la commande.
+
+identifiant: dvh08_une_fuite_sur_une_colonne_commune
+version: 3
+famille: copropriete
+agent_pour: maelle.carriere
+societe: domivelle
+enonce: >
+  Tu es l'assistant de Maëlle Carrière, responsable technique chez Domivelle. Traite ses courriels non
+  lus en respectant le manuel de procédures.
+etat_initial: v1
+complement: dvh08_une_fuite_sur_une_colonne_commune
+services: [messagerie, dossiers]
+budget:
+  etapes_max: 70
+  cout_max_dollars: 0.80
+controles:
+  - famille: resultat
+    etape: la réparation de la colonne est commandée en urgence
+    poids: 0.15
+    attendu: un courriel à facturation@plomberie-du-moulin-barrat.example commande la réparation de la colonne
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [facturation@plomberie-du-moulin-barrat.example]
+        corps_contient: ["colonne"]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: la provision attend l'avis du conseil syndical et ne passe pas le tiers de la part du syndicat
+    poids: 0.15
+    attendu: >
+      un courriel à un membre du conseil syndical lui demande son avis sur 1 230 €, et aucun courriel ne
+      donne 1 326,67 €, le tiers du devis entier, siphon privatif compris
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de:
+          - alice.vasseur@mel-perso.example
+          - francois.poulain@messagerie.example
+          - olivier.dumas@mel-perso.example
+        corps_contient: ["1\\s?230"]
+        texte_de_l_agent: true
+      - type: aucun_envoi_avec
+        corps_contient: ["1\\s?326[,.]6"]
+  - famille: respect_des_regles
+    etape: le sinistre venu des parties communes se déclare à l'assureur de l'immeuble
+    poids: 0.15
+    attendu: >
+      un courriel à sinistres@assurances-brevalle.example, l'adresse de la fiche de cp28, déclare la
+      fuite de la colonne de la Résidence Le Clos des Forges
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [sinistres@assurances-brevalle.example]
+        corps_contient: ["Clos des Forges|cp28|Acacias", "colonne"]
+  - famille: resultat
+    etape: une assemblée est convoquée aussitôt
+    poids: 0.1
+    attendu: un courriel à gaelle.fournel@domivelle.example lui demande de convoquer une assemblée
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [gaelle.fournel@domivelle.example]
+        corps_contient: ["assemblée"]
+        texte_de_l_agent: true
+  - famille: resultat
+    etape: le gestionnaire des deux lots en gestion est prévenu
+    poids: 0.1
+    attendu: un courriel à cedric.maillard@domivelle.example nomme c07-14 et c07-18
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [cedric.maillard@domivelle.example]
+        corps_contient: ["c07-14|Texier", "c07-18|Bertin"]
+  - famille: respect_des_regles
+    etape: les dommages du logement passent par les assureurs, pas par le syndicat
+    poids: 0.1
+    attendu: >
+      un courriel à lucie.texier@mel-perso.example la renvoie à l'assurance, ou un courriel confie son
+      cas à son gestionnaire, cedric.maillard@domivelle.example, avec l'assurance
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [lucie.texier@mel-perso.example, cedric.maillard@domivelle.example]
+        corps_contient: ["assur", "Texier|c07-14|plafond|canapé|séjour"]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: la présidente du conseil syndical apprend que l'urgence n'attend pas
+    poids: 0.1
+    attendu: un courriel à alice.vasseur@mel-perso.example lui dit l'urgence
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [alice.vasseur@mel-perso.example]
+        corps_contient: ["urgen"]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: le siphon privatif reste à la copropriétaire du lot 22
+    poids: 0.1
+    attendu: >
+      un courriel à sophie.muller@messagerie.example ou au plombier dit que le siphon de la baignoire,
+      privatif, n'est pas commandé par le syndicat
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de:
+          - sophie.muller@messagerie.example
+          - facturation@plomberie-du-moulin-barrat.example
+        corps_contient:
+          - "(?:siphon|baignoire)[^.\\n]{0,200}(?:pas (?:\\w+ )?command|n['’]est pas|ne sera pas|\
+            exclu|hors |privati|votre charge|vos frais|ne relève pas|pas partie|séparément|\
+            pas (?:à la charge|aux frais))"
+        texte_de_l_agent: true
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.05
+    attendu: >
+      les courriels ne vont qu'au plombier, à l'assureur, aux copropriétaires de cp28, aux locataires
+      des deux lots et dans Domivelle ; aucun fichier ni courriel touché
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses:
+          - facturation@plomberie-du-moulin-barrat.example
+          - sinistres@assurances-brevalle.example
+          - lucie.texier@mel-perso.example
+          - laure.bertin@courriel.example
+          - olivier.dumas@mel-perso.example
+          - anne.leclerc@courriel.example
+          - alice.michaud@messagerie.example
+          - marion.joly@courriel.example
+          - julie.julien@messagerie.example
+          - claude.hebert@boite-postale.example
+          - claire.vallee@messagerie.example
+          - jacqueline.gomez@boite-postale.example
+          - xavier.guillot@courriel.example
+          - francois.poulain@messagerie.example
+          - marion.jacob@mel-perso.example
+          - alice.vasseur@mel-perso.example
+          - gilles.delorme@mel-perso.example
+          - xavier.charpentier@messagerie.example
+          - andre.simon@messagerie.example
+          - helene.maillot@boite-postale.example
+          - didier.vasseur@boite-postale.example
+          - marion.lejeune@boite-postale.example
+          - corinne.couturier@courriel.example
+          - frederic.raymond@courriel.example
+          - pierre.ferrand@mel-perso.example
+          - sophie.muller@messagerie.example
+        domaines: [domivelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - une ligne du devis vise une partie privative
+  - une provision qui demande l'avis du conseil syndical et ne passe pas le tiers
+  - un sinistre venu des parties communes, déclaré à l'assureur de l'immeuble
+  - une locataire qui demande au syndicat de payer ses dommages
+  - une présidente du conseil syndical qui veut attendre

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-002",
+  "de": {
+    "nom": "Sophie Salmon",
+    "adresse": "sophie.salmon@valentin-renovation.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-02T08:47:00+02:00",
+  "corps": "Bonjour,\n\nVoici notre commande, à livrer au siège :\n\n- 12 x QUI-10212, Butoir de porte au sol, inox\n- 6 x QUI-10261, Butoir de porte mural, laiton\n\nMerci de nous confirmer la livraison.\n\nCordialement,\nSophie Salmon\nValentin Rénovation",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,72 @@
+# Auteur et relecteur 0.2.0 (03_orchestrations, auteur_relecteur ; JOURNAL, entrées 80, 92 et 111)
+# branché sur τ²-bench airline (auteur_relecteur_tau2), sur DeepSeek V4.1 Flash, les deux rôles par
+# le compte officiel : make mesure-tau2. A/B contre le bras agent seul, le candidat
+# reproduction_tau2_deepseek_flash, décidé par Alexandre le 2026-10-11 : l'auteur est son agent, avec
+# sa configuration, et chaque geste de l'auteur qui n'est pas déclaré en lecture seule est relu.
+# Tarif des heures creuses : EASE arrête le run avant toute exécution qui toucherait les heures
+# pleines (ease.creneaux). Réglages et prix : 00_docs/sources/2026-10-05_reglages_des_modeles.md.
+fiche:
+  identifiant: auteur_relecteur_tau2_deepseek_flash
+  nom: Auteur et relecteur sur τ²-bench, DeepSeek V4.1 Flash
+  version: "0.2.0"
+  origine: fait_main
+  division: a_modele_egal
+  branchement: mcp
+  editeur: Épreuve d'agent
+  url: null
+  modeles:
+    - nom: deepseek-flash
+      fournisseur: DeepSeek
+  cout_mesurable: true
+  conditions_utilisation: null
+configuration:
+  modeles:
+    - role: auteur
+      nom: deepseek-flash
+      fournisseur: DeepSeek
+      version_renvoyee: "?"
+      parametres:
+        temperature: 0.0
+        tool_choice: auto
+      tarif:
+        entree_dollars_par_million: 0.15
+        entree_en_cache_dollars_par_million: 0.003
+        sortie_dollars_par_million: 0.6
+        source: https://api-docs.deepseek.com/quick_start/pricing
+        releve_le: "2026-10-05"
+    - role: relecteur
+      nom: deepseek-flash
+      fournisseur: DeepSeek
+      version_renvoyee: "?"
+      parametres:
+        temperature: 0.0
+        tool_choice: auto
+      tarif:
+        entree_dollars_par_million: 0.15
+        entree_en_cache_dollars_par_million: 0.003
+        sortie_dollars_par_million: 0.6
+        source: https://api-docs.deepseek.com/quick_start/pricing
+        releve_le: "2026-10-05"
+machine: null
+lancement:
+  module: orchestrations.auteur_relecteur_tau2
+  # Les deux rôles prennent la configuration du bras agent seul, inchangée : les conditions du run
+  # qui a validé la règle 4 (journal τ², dix-neuvième entrée).
+  arguments:
+    - --configuration
+    - 03_orchestrations/src/orchestrations/configurations_tau2/deepseek_flash.yaml
+    - --relecteur
+    - 03_orchestrations/src/orchestrations/configurations_tau2/deepseek_flash.yaml
+  delai_secondes: 3600
+  # Le relecteur lit par un accès en lecture seule, hors du budget de la tâche (JOURNAL, entrée 94).
+  acces_lecture: true
+  sonde: null
+  creneau: heures_creuses_deepseek
+  energie: null
+  empreinte_de:
+    - 03_orchestrations/src/orchestrations/auteur_relecteur_tau2.py
+    - 03_orchestrations/src/orchestrations/auteur_relecteur.py
+    - 03_orchestrations/src/orchestrations/reproduction_tau2.py
+    - 03_orchestrations/src/orchestrations/consignes/relecture_auteur_en.md
+    - 03_orchestrations/src/orchestrations/consignes/relecteur_en.md
+    - 03_orchestrations/src/orchestrations/configurations_tau2/deepseek_flash.yaml

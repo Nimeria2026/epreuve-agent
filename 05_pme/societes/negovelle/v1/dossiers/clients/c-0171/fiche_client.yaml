@@ -1,0 +1,25 @@
+# Fiche du client c-0171 de Négovelle. Données FICTIVES.
+code: c-0171
+nom: Couverture Lecoq
+type: artisan
+adresse: 74 chemin du Bois, 36999 Fontclavier (FICTIF)
+telephone: 02 61 91 65 77
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Alice Pinson
+  fonction: gérante
+  courriel: alice.pinson@couverture-lecoq.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 74 chemin du Bois, 36999 Fontclavier (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2025-01-01'
+limite_encours_euros: 1500.0
+livraisons_partielles: false
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

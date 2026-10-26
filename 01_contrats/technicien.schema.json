@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Technicien",
+  "description": "Un technicien de la PME vu par le service de planning (étape 5) : ses compétences, s'il est apprenti, ses périodes d'indisponibilité, sans motif. Une personne de l'organigramme. Données fictives.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "nom", "competences", "apprenti", "indisponibilites"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z]+\\.[a-z]+$",
+      "description": "Identifiant de la personne dans l'organigramme, par exemple thomas.girard."
+    },
+    "nom": {
+      "type": "string",
+      "minLength": 1
+    },
+    "competences": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/Competence"
+      }
+    },
+    "apprenti": {
+      "type": "boolean",
+      "description": "Vrai pour un apprenti. Le logiciel le planifie comme les autres ; le manuel dit ce qu'il peut faire seul."
+    },
+    "indisponibilites": {
+      "type": "array",
+      "description": "Périodes où le technicien ne peut pas être planifié, sans motif : congés, arrêts et formations restent au dossier RH.",
+      "items": {
+        "$ref": "#/$defs/Periode"
+      }
+    }
+  },
+  "$defs": {
+    "Competence": {
+      "title": "Competence",
+      "type": "string",
+      "enum": ["chaudiere_gaz", "chaudiere_fioul", "pompe_a_chaleur", "climatisation", "ventilation"]
+    },
+    "Periode": {
+      "title": "Periode",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["debut", "fin"],
+      "properties": {
+        "debut": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "fin": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    }
+  }
+}

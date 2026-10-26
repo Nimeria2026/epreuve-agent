@@ -1,0 +1,14 @@
+{
+  "numero": "INT-2026-0013",
+  "client": "c-0228",
+  "techniciens": [
+    "thomas.girard",
+    "enzo.caron"
+  ],
+  "debut": "2026-11-03T13:30:00+01:00",
+  "fin": "2026-11-03T15:30:00+01:00",
+  "nature": "mise_en_service",
+  "objet": "Mise en service d'une chaudière gaz à condensation",
+  "statut": "planifiee",
+  "cree_par": "donnees_initiales"
+}

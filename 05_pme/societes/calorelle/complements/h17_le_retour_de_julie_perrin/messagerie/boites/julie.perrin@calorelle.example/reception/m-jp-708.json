@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-708",
+  "de": {
+    "nom": "Céline Faure",
+    "adresse": "celine.faure@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Bon pour accord",
+  "date": "2026-12-15T11:30:00+01:00",
+  "corps": "Bonjour Madame Perrin,\n\nBon pour accord pour le remplacement de ma chaudière, selon votre devis d'octobre. Merci de me dire quand vos techniciens pourront venir.\n\nCéline Faure, 24 rue de la Loire, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,90 @@
+{
+  "numero": "CO-2026-01924",
+  "client": "c-0091",
+  "reference_client": null,
+  "cree_le": "2026-06-29T09:10:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "56 rue des Jardins, 36999 Laubrissac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "PRO-10694",
+      "libelle": "Chaussures de sécurité légères composite S3, pointure 45",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 69.55,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 69.55,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 834.6
+    },
+    {
+      "reference": "QUI-10873",
+      "libelle": "Charnière invisible 80 mm, inox",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 6.8,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 6.53,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 6.53
+    },
+    {
+      "reference": "QUI-11478",
+      "libelle": "Cylindre européen 30x50 mm, 5 clés",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 45.3,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 43.49,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 86.98
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 928.11,
+  "total_tva_euros": 185.62,
+  "total_ttc_euros": 1113.73,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01773"
+  ],
+  "facture": "FC-2026-1082",
+  "historique": [
+    {
+      "date": "2026-06-29T09:10:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-29T09:12:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-30T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01773"
+    },
+    {
+      "date": "2026-06-30T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01773"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1082"
+    }
+  ]
+}

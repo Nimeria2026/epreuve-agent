@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-hm-525",
+  "de": {
+    "nom": "Aurélie Garnier",
+    "adresse": "aurelie.garnier@courriel.example"
+  },
+  "a": [
+    "helene.marchal@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Toujours sans réponse",
+  "date": "2026-11-20T17:50:00+01:00",
+  "corps": "Madame Marchal,\n\nJ'ai écrit le 9 novembre à votre accueil : ma chaudière, dépannée le 6, est retombée en défaut. Personne ne m'a répondu ni n'est revenu. Je vous écris donc directement.\n\nAurélie Garnier (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

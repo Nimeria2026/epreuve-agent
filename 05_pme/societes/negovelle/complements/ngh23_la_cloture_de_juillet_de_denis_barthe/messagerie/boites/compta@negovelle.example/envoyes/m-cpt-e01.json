@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cpt-e01",
+  "de": {
+    "nom": "Denis Barthe",
+    "adresse": "denis.barthe@negovelle.example"
+  },
+  "a": [
+    "facturation@protection-de-la-croisette.example"
+  ],
+  "cc": [],
+  "objet": "Votre facture F42708 : quantité facturée",
+  "date": "2026-07-03T15:20:00+02:00",
+  "corps": "Bonjour,\n\nVotre facture F42708 du 3 juin compte 60 casques de chantier PRO-10230 ; notre bon de réception n'en compte que 50. Merci de nous adresser un avoir pour les 10 casques facturés en trop, 100,00 € HT, soit 120,00 € TTC : la facture attend d'ici là.\n\nBien cordialement,\nDenis Barthe, comptabilité fournisseurs, Négovelle",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

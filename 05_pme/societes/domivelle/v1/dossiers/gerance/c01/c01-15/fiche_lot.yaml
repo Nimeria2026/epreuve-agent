@@ -1,0 +1,24 @@
+# Fiche du lot c01-15. Données FICTIVES.
+lot: c01-15
+adresse: 139 rue des Écoles, 18999 Montclavel-sur-Cher (FICTIF)
+type: T3
+surface_m2: 67
+locataire:
+  nom: Mme Aurélie Brunet
+  courriel: aurelie.brunet@courriel.example
+  telephone: 06 39 98 73 62
+  entree: '2013-01-10'
+bail:
+  signature: '2013-01-10'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 647,00 €
+  depot_de_garantie: 488,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T3
+dpe:
+  classe: C
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

@@ -1,0 +1,13 @@
+{
+  "numero": "INT-2026-0040",
+  "client": "c-0115",
+  "techniciens": [
+    "kevin.lambert"
+  ],
+  "debut": "2026-12-15T08:00:00+01:00",
+  "fin": "2026-12-15T09:30:00+01:00",
+  "nature": "visite_annuelle",
+  "objet": "Visite annuelle du contrat Sérénité",
+  "statut": "planifiee",
+  "cree_par": "marc.duval"
+}

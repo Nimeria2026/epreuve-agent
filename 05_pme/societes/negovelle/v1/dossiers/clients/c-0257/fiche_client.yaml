@@ -1,0 +1,31 @@
+# Fiche du client c-0257 de Négovelle. Données FICTIVES.
+code: c-0257
+nom: Cazenave Maintenance
+type: entreprise
+adresse: 6 zone industrielle des Brandes, 36999 Laubrissac (FICTIF)
+telephone: 02 61 91 90 31
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Christian Voisin
+  fonction: conducteur de travaux
+  courriel: christian.voisin@cazenave-maintenance.example
+- nom: Christine Becker
+  fonction: responsable des achats
+  courriel: christine.becker@cazenave-maintenance.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 6 zone industrielle des Brandes, 36999 Laubrissac (FICTIF)
+- code: L2
+  libelle: chantier déclaré
+  adresse: 35 rue des Forges, 36999 Mérolles-en-Brenne (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2018-11-01'
+limite_encours_euros: 4500.0
+livraisons_partielles: true
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

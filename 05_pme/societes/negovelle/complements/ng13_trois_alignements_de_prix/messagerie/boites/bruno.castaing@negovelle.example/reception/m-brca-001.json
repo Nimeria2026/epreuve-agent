@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-001",
+  "de": {
+    "nom": "Fabrice Mercier",
+    "adresse": "fabrice.mercier@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Prix pour Chevrier Rénovation, CO-2026-02042",
+  "date": "2026-07-03T16:52:00+02:00",
+  "corps": "Bruno,\n\nChevrier Rénovation (c-0109) aligne nos prix sur un concurrent pour le chantier de la gendarmerie de Vendrigny. Sur la commande CO-2026-02042, que j'ai saisie en brouillon, il demande :\n- VIS-10024, boulon M10x100 zingué : 6,90 € HT le sachet, au lieu de 8,97 € ;\n- VIS-10245, boulon M12x60 zingué : 6,95 € HT, au lieu de 9,66 € ;\n- VIS-11273, vis à bois 3x25, que nous avons déréférencée : 5,90 € HT, au lieu de 8,46 €.\n\nTu me donnes ton accord ? Je confirmerai au client.\n\nFabrice",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

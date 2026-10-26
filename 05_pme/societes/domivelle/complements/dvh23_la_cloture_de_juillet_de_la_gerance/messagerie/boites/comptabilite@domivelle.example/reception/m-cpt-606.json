@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-606",
+  "de": {
+    "nom": "Peinture du Gué-Morin",
+    "adresse": "facturation@peinture-du-gue-morin.example"
+  },
+  "a": [
+    "comptabilite@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture 2026-0911, lot n22-10",
+  "date": "2026-07-28T11:00:00+02:00",
+  "corps": "Bonjour,\n\nNous vous adressons à nouveau notre facture n° 2026-0911 pour le lot n22-10, que notre logiciel n'avait pas marquée comme envoyée. Merci de ne pas tenir compte de ce second envoi si elle est déjà enregistrée.\n\nPeinture du Gué-Morin",
+  "pieces_jointes": [
+    {
+      "nom": "facture_2026-0911.pdf",
+      "fichier": "pieces/m-cpt-606/facture_2026-0911.pdf",
+      "taille_octets": 856
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

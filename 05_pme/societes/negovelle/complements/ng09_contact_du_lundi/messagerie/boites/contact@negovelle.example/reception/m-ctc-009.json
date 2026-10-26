@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-009",
+  "de": {
+    "nom": "Henri Auger",
+    "adresse": "henri.auger@lhomme-travaux-publics.example"
+  },
+  "a": [
+    "contact@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Virement du 2 juillet",
+  "date": "2026-07-06T06:40:00+02:00",
+  "corps": "Bonjour,\n\nNous avons réglé par virement le 2 juillet notre facture de mai. Pouvez-vous nous confirmer sa bonne réception ?\n\nHenri Auger\nLhomme Travaux publics",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

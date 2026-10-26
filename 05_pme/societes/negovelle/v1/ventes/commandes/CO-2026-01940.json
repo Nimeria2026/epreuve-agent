@@ -1,0 +1,79 @@
+{
+  "numero": "CO-2026-01940",
+  "client": "c-0078",
+  "reference_client": null,
+  "cree_le": "2026-06-29T09:10:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "34 rue Saint-Martin, 36999 Laubrissac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "PLB-11323",
+      "libelle": "Joint caoutchouc 12x17, sachet de 10",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 1.8,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 1.66,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 8.3
+    },
+    {
+      "reference": "VIS-10302",
+      "libelle": "Boulon tête hexagonale M6x20, inox A2, sachet de 10",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 16.8,
+      "remise_pourcent": 10.76,
+      "prix_net_ht_euros": 14.99,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 179.88
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 203.18,
+  "total_tva_euros": 40.64,
+  "total_ttc_euros": 243.82,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01789"
+  ],
+  "facture": "FC-2026-1070",
+  "historique": [
+    {
+      "date": "2026-06-29T09:10:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-29T09:12:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-30T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01789"
+    },
+    {
+      "date": "2026-06-30T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01789"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1070"
+    }
+  ]
+}

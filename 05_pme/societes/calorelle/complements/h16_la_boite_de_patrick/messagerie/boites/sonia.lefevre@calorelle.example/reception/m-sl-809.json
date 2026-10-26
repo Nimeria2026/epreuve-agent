@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-sl-809",
+  "de": {
+    "nom": "Romain Guérin",
+    "adresse": "romain.guerin@calorelle.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Note de frais de novembre",
+  "date": "2026-11-23T07:30:00+01:00",
+  "corps": "Bonjour Patrick,\n\nMa note de frais de novembre :\n- 6 novembre, repas : 19,00 € ;\n- 6 novembre, 80 km avec le fourgon de l'entreprise : 36,00 €.\nLes justificatifs sont joints.\n\nRomain (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "note_de_frais_romain_novembre.pdf",
+      "fichier": "pieces/m-sl-809/note_de_frais_romain_novembre.pdf",
+      "taille_octets": 766
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

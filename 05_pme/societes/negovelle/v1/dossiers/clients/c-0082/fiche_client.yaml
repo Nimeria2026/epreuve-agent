@@ -1,0 +1,25 @@
+# Fiche du client c-0082 de Négovelle. Données FICTIVES.
+code: c-0082
+nom: Peinture Feuillet
+type: artisan
+adresse: 104 rue Saint-Martin, 36999 Brissonne (FICTIF)
+telephone: 02 61 91 82 92
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Léa Quéré
+  fonction: gérante
+  courriel: lea.quere@peinture-feuillet.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 104 rue Saint-Martin, 36999 Brissonne (FICTIF)
+categorie_remise: C
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2011-05-01'
+limite_encours_euros: 1500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

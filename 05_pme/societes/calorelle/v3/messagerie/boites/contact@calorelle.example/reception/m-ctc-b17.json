@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-b17",
+  "de": {
+    "nom": "Anne Leroux",
+    "adresse": "anne.leroux@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Thermostat connecté",
+  "date": "2026-10-26T17:38:00+01:00",
+  "corps": "Bonjour,\n\nInstallez-vous des thermostats connectés ?\n\nAnne Leroux (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

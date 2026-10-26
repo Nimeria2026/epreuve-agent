@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-918",
+  "de": {
+    "nom": "Hélène Marchal",
+    "adresse": "helene.marchal@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Trois choses pour lundi",
+  "date": "2027-01-29T17:30:00+01:00",
+  "corps": "Sonia,\n\nTrois choses de plus pour lundi.\n\nLa paie de janvier : prépare-m'en les éléments variables, pour chaque salarié ses jours d'absence et leur motif, et ses heures supplémentaires d'après le relevé de Thomas, semaine par semaine, majorées de 25 % de la 36e à la 43e heure de la semaine et de 50 % au-delà (Code du travail, article L3121-36). Signale-moi ce qui ne colle pas entre son relevé et les absences.\n\nLes recyclages : j'ai deux places à la session d'habilitation électrique du mardi 16 mars, deux à celle du mardi 23 mars, et deux à la session fluides frigorigènes du jeudi 25 mars. Inscris-y, par ordre d'échéance, ceux dont l'habilitation ou l'attestation échoit avant le 30 juin 2027, d'après le tableau des habilitations ; préviens chacun de sa date, donne les dates à Marc, et envoie-moi la liste pour que je règle les inscriptions. Dis-moi qui ne serait pas habilité à temps.\n\nLa réunion d'équipe de février : le premier jeudi à partir du lundi 15 février, pour que Bastien y soit, où aucun salarié n'a d'absence validée, à 8 h au dépôt. Convoque tout le personnel, Bastien compris, et demande à Marc de ne rien planifier avant 10 h ce matin-là. Envoie aussi aux deux arrivants le mot d'accueil habituel : rendez-vous à 8 h au dépôt le jour de leur arrivée, avec leurs chaussures de sécurité ; Thomas les accueille et leur remet leur tenue.\n\nHélène (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-714",
+  "de": {
+    "nom": "Michel Girard",
+    "adresse": "michel.girard@courriel.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Visite du 3 novembre",
+  "date": "2026-11-29T20:05:00+01:00",
+  "corps": "Bonjour,\n\nJe suis désolé pour le 3 novembre, je n'avais pas noté le rendez-vous. Je ne suis chez moi que le mardi et le jeudi.\n\nMichel Girard\n50 rue des Lilas, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

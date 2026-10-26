@@ -1,0 +1,22 @@
+{
+  "name": "poa",
+  "private": true,
+  "description": "Épreuve d'agent (POA) : espace de travail TypeScript de la PME fictive et du gardien",
+  "type": "module",
+  "packageManager": "pnpm@12.9.1",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "pnpm --recursive --workspace-concurrency=1 test",
+    "types": "pnpm --recursive types",
+    "style": "biome check",
+    "style:corriger": "biome check --write"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.15",
+    "@types/node": "^24",
+    "json-schema-to-typescript": "16.0.0",
+    "typescript": "7.0.2"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "numero": "BL-2026-01803",
+  "commande": "CO-2026-01954",
+  "client": "c-0177",
+  "date_expedition": "2026-07-01",
+  "date_livraison": "2026-07-01",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "32 zone artisanale du Moulin, 36999 Corvalet (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "ELE-12017",
+      "libelle": "Goulotte 12x20 mm, barre de 2 m",
+      "quantite": 20
+    },
+    {
+      "reference": "ELE-13160",
+      "libelle": "Ruban isolant noir, rouleau de 20 m",
+      "quantite": 2
+    },
+    {
+      "reference": "PRO-10857",
+      "libelle": "Gants de manutention anticoupure niveau D, taille 7",
+      "quantite": 120
+    },
+    {
+      "reference": "PRO-11600",
+      "libelle": "Pantalon de travail multipoches gris, taille 52",
+      "quantite": 12
+    },
+    {
+      "reference": "QUI-10849",
+      "libelle": "Charnière invisible 70 mm, inox",
+      "quantite": 6
+    },
+    {
+      "reference": "VIS-12997",
+      "libelle": "Vis à bois tête fraisée 5x60, inox A2, boîte de 100",
+      "quantite": 6
+    }
+  ],
+  "reserves": null,
+  "signataire": "Émilie Bouchard",
+  "statut": "livre"
+}

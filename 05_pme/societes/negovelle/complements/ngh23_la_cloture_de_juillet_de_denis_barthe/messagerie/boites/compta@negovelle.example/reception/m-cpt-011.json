@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-011",
+  "de": {
+    "nom": "Transports Delorme",
+    "adresse": "facturation@transports-delorme.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture TD-2026-0731",
+  "date": "2026-07-31T06:30:00+02:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-jointe notre facture TD-2026-0731 du 31 juillet 2026, pour vos expéditions de juillet : 2 134,80 € TTC. Paiement à 30 jours date de facture.\n\nService facturation\nTransports Delorme",
+  "pieces_jointes": [
+    {
+      "nom": "TD-2026-0731.pdf",
+      "fichier": "pieces/m-cpt-011/TD-2026-0731.pdf",
+      "taille_octets": 825
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

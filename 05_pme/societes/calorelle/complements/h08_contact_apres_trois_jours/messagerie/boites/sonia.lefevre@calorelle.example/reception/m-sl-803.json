@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-803",
+  "de": {
+    "nom": "Aurélie Garnier",
+    "adresse": "aurelie.garnier@courriel.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Julie Perrin ne répond pas",
+  "date": "2026-10-31T10:40:00+01:00",
+  "corps": "Bonjour Madame,\n\nJ'écris à Julie Perrin depuis jeudi, sans réponse. Est-elle absente, et jusqu'à quand ? Votre facture de l'intervention du 20 octobre compte deux heures de main-d'œuvre, alors que votre technicien est resté quarante minutes. Je la conteste.\n\nAurélie Garnier (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

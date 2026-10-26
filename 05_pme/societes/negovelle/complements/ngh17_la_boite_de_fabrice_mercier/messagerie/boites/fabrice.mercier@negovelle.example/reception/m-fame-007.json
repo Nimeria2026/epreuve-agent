@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-fame-007",
+  "de": {
+    "nom": "Patrice Chevrier",
+    "adresse": "patrice.chevrier@rouxel-et-fils.example"
+  },
+  "a": [
+    "fabrice.mercier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Livraison du 25 juin",
+  "date": "2026-07-06T07:20:00+02:00",
+  "corps": "Bonjour Fabrice,\n\nLa livraison BL-2026-01712 du jeudi 25 juin est arrivée en fin d'après-midi, alors qu'elle nous était promise pour le matin ; l'équipe a attendu une demi-journée sur le chantier. Nous demandons un geste sur la facture de juin.\n\nCordialement,\n\nPatrice Chevrier\nRouxel et Fils",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

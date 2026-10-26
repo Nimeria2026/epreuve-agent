@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-aubo-015",
+  "de": {
+    "nom": "Julie Pelletier",
+    "adresse": "julie.pelletier@chauffage-toussaint.example"
+  },
+  "a": [
+    "aurelie.bonnefoy@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Retour de vannes",
+  "date": "2026-08-20T08:30:00+02:00",
+  "corps": "Bonjour Aurélie,\n\nNous avons commandé en trop : six articles livrés le 28 juillet sont restés dans leurs cartons, jamais utilisés. Pouvez-vous les reprendre ?\n\nMerci,\n\nJulie Pelletier\nChauffage Toussaint",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

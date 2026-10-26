@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01855",
+  "commande": "CO-2026-02006",
+  "client": "c-0281",
+  "date_expedition": "2026-07-03",
+  "date_livraison": "2026-07-03",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "96 rue des Forges, 36999 Laubrissac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "PLB-10563",
+      "libelle": "Collier de fixation tube 25 mm, sachet de 25",
+      "quantite": 12
+    }
+  ],
+  "reserves": null,
+  "signataire": "Alice Daniel",
+  "statut": "livre"
+}

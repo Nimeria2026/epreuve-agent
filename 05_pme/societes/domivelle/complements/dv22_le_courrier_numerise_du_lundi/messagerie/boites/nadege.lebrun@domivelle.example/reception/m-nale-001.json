@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-nale-001",
+  "de": {
+    "nom": "Copieur de l'accueil",
+    "adresse": "copieur@domivelle.example"
+  },
+  "a": [
+    "nadege.lebrun@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Numérisation",
+  "date": "2026-06-08T08:40:00+02:00",
+  "corps": "Lettre recommandée avec avis de réception de Mme Alice Huet, locataire du lot n13-06, 2 rue Jean-Jaurès à Vernillac, datée du lundi 1er juin : elle donne congé de son logement. Avis de passage du facteur jeudi ; lettre retirée ce matin à la poste, avis de réception signé ce lundi 8 juin.",
+  "pieces_jointes": [
+    {
+      "nom": "scan.pdf",
+      "fichier": "pieces/m-nale-001/scan.pdf",
+      "taille_octets": 836
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

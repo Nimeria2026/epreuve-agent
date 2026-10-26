@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-laga-003",
+  "de": {
+    "nom": "Alain Dufour",
+    "adresse": "alain.dufour@charpente-coulon.example"
+  },
+  "a": [
+    "laetitia.garnier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-08-07T11:05:00+02:00",
+  "corps": "Bonjour,\n\nPouvez-vous nous livrer :\n\n- 12 x PRO-10114, Bottes de sécurité caoutchouc S5, pointure 40\n- 6 x OUT-12229, Serre-joint à pompe 400 mm\n\nLivraison standard à notre siège.\n\nCordialement,\n\nAlain Dufour\nCharpente Coulon",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

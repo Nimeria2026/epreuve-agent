@@ -1,0 +1,19 @@
+# Fiche du lot c09-02. Données FICTIVES.
+lot: c09-02
+adresse: 50 rue des Forges, 18999 Montclavel-sur-Cher (FICTIF)
+type: maison T4
+surface_m2: 85
+locataire:
+  nom: Mme Jacqueline Boisseau
+  courriel: jacqueline.boisseau@messagerie.example
+  telephone: 06 39 98 77 12
+  entree: '2015-05-20'
+bail:
+  signature: '2015-05-20'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 827,00 €
+  depot_de_garantie: 649,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T1
+dpe:
+  classe: D

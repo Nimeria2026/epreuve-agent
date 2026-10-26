@@ -1,0 +1,8 @@
+# Fiche fournisseur Calorelle. Données FICTIVES.
+nom: "Fumisterie du Clos-Fargeau"
+activite: "fumisterie"
+adresse: "8 zone d'activité du Val-Mauvoir, 45999 Valmont-sur-Loire (FICTIF)"
+telephone: "02 61 91 20 47"
+courriel_facturation: "compta@fumisterie-du-clos-fargeau.example"
+iban: "FR76 9999 9251 0387 8032 1501 561 (FICTIF)"
+conditions: "paiement à 30 jours fin de mois"

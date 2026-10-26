@@ -1,0 +1,49 @@
+{
+  "numero": "BL-2026-01676",
+  "commande": "CO-2026-01827",
+  "client": "c-0040",
+  "date_expedition": "2026-06-24",
+  "date_livraison": "2026-06-24",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "34 zone industrielle des Brandes, 36999 Laubrissac (FICTIF)",
+  "colis": 3,
+  "lignes": [
+    {
+      "reference": "CON-10106",
+      "libelle": "Bombe de peinture haute température, noir, aérosol de 500 ml",
+      "quantite": 24
+    },
+    {
+      "reference": "FIX-10645",
+      "libelle": "Cheville nylon 8x40, boîte de 200",
+      "quantite": 2
+    },
+    {
+      "reference": "FIX-11951",
+      "libelle": "Équerre de fixation 100x100x20 mm, zinguée",
+      "quantite": 5
+    },
+    {
+      "reference": "PRO-10285",
+      "libelle": "Bouchons d'oreille réutilisables, boîte de 200",
+      "quantite": 6
+    },
+    {
+      "reference": "PRO-10808",
+      "libelle": "Combinaison jetable type 5/6 blanche, taille 3XL",
+      "quantite": 50
+    },
+    {
+      "reference": "QUI-10620",
+      "libelle": "Charnière de meuble à visser 40 mm, inox",
+      "quantite": 2
+    }
+  ],
+  "reserves": null,
+  "signataire": "Roger Auger",
+  "statut": "livre"
+}

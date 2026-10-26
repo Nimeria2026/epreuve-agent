@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-quma-106",
+  "de": {
+    "nom": "Sophie Bigot",
+    "adresse": "sophie.bigot@courriel.example"
+  },
+  "a": [
+    "quentin.mallet@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Mon T2 de Chantebrune",
+  "date": "2026-06-07T18:40:00+02:00",
+  "corps": "Bonjour,\n\nMon locataire du s13-09 part fin juillet. Pouvez-vous commencer les visites dès cette semaine ? Je ne veux pas que le logement reste vide.\n\nSophie Bigot",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

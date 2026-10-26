@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-isro-006",
+  "de": {
+    "nom": "Robert Durieux",
+    "adresse": "robert.durieux@platrerie-chatelain.example"
+  },
+  "a": [
+    "isabelle.royer@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Notre délai de paiement",
+  "date": "2026-08-27T09:00:00+02:00",
+  "corps": "Bonjour,\n\nClients depuis le 8 janvier, nous réglons au comptant. Où en est notre délai de paiement ?\n\nRobert Durieux\nPlâtrerie Chatelain",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

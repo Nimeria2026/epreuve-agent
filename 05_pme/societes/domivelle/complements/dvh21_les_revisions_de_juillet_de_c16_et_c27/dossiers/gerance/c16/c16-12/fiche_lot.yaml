@@ -1,0 +1,19 @@
+# Fiche du lot c16-12. Données FICTIVES.
+lot: c16-12
+adresse: 122 avenue de la Gare, 18999 Montclavel-sur-Cher (FICTIF)
+type: T3
+surface_m2: 66
+locataire:
+  nom: Mme Florence Lainé
+  courriel: florence.laine@boite-postale.example
+  telephone: 06 39 98 73 04
+  entree: '2018-07-17'
+bail:
+  signature: '2018-07-17'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 679,00 €
+  depot_de_garantie: 578,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T1
+dpe:
+  classe: D

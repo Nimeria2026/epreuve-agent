@@ -1,0 +1,39 @@
+{
+  "numero": "BL-2026-01866",
+  "commande": "CO-2026-02029",
+  "client": "c-0285",
+  "date_expedition": "2026-07-03",
+  "date_livraison": null,
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "119 rue des Vignes, 36999 Brissonne (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ELE-12548",
+      "libelle": "Interrupteur variateur, blanc",
+      "quantite": 3
+    },
+    {
+      "reference": "ELP-11747",
+      "libelle": "Scie circulaire 210 mm, 1200 W",
+      "quantite": 2
+    },
+    {
+      "reference": "PLB-10547",
+      "libelle": "Collier de fixation tube 22 mm, sachet de 25",
+      "quantite": 6
+    },
+    {
+      "reference": "QUI-10392",
+      "libelle": "Cadenas inox marine 50 mm, 3 clés",
+      "quantite": 3
+    }
+  ],
+  "reserves": null,
+  "signataire": null,
+  "statut": "en_cours"
+}

@@ -1,0 +1,127 @@
+# Tranche longue de Négovelle, palier de 30 minutes de grille, tâche ngh13 (cadrage du 2026-10-17,
+# section 8, les neuf autres publiques, conçues le 2026-10-18 et validées par Alexandre). Rédigée par
+# Claude le 2026-10-18. Lundi 6 juillet 2026 : Fabrice Mercier, Laurent Gimenez et Samir Ouali
+# envoient à Bruno Castaing leur note de frais de juin ; celle d'Aurélie Bonnefoy est la tâche ng16.
+# Manuel, section 16 : aucun kilomètre ne se rembourse, les commerciaux roulant en véhicule de
+# service ; un repas en tournée au plus 20 €, une nuit au plus 90 € ; un repas avec un client
+# seulement si Bruno l'a accordé avant : son accord du 12 juin pour le déjeuner de Fabrice avec
+# Électricité Noblet est dans ses envoyés, rien pour celui de Laurent avec Garage Guillon ; un péage
+# ou un stationnement sur justificatif ; la nuit du 19 mai de Fabrice, déjà sur sa note de mai, ne se
+# rembourse pas deux fois. Retenu : 173,39 € pour Fabrice sur 251,18 €, 113,20 € pour Laurent sur
+# 169,40 €, 136,00 € pour Samir sur 207,04 €. Bruno vise chaque note, la range sous
+# direction/notes_de_frais/2026-06/, écrit à chacun le montant retenu ligne par ligne avec la raison
+# de chaque écart, et transmet les notes visées à Denis Barthe. Les pièges : un plafond appliqué à ce
+# qui se refuse ; un accord supposé ; le doublon de mai ; les kilomètres d'un véhicule personnel.
+# Aucun contrôle grave, comme ng16. Calculs : 09_outillage/scripts/generer_complements_negovelle.py,
+# qui les vérifie. Complément d'état :
+# 05_pme/societes/negovelle/complements/ngh13_les_notes_de_frais_de_juin/. Tout est fictif.
+
+identifiant: ngh13_les_notes_de_frais_de_juin
+version: 1
+famille: direction
+agent_pour: bruno.castaing
+societe: negovelle
+enonce: >
+  Tu es l'assistant de Bruno Castaing, président de Négovelle. Trois commerciaux lui ont envoyé leur
+  note de frais de juin, dans ses courriels non lus : traite-les en respectant le manuel de
+  procédures.
+etat_initial: v1
+complement: ngh13_les_notes_de_frais_de_juin
+services: [messagerie, dossiers]
+budget:
+  etapes_max: 70
+  cout_max_dollars: 0.50
+controles:
+  - famille: resultat
+    etape: chaque commercial apprend le montant retenu
+    poids: 0.3
+    attendu: >
+      Fabrice Mercier apprend 173,39 €, Laurent Gimenez 113,20 €, Samir Ouali 136,00 €
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [fabrice.mercier@negovelle.example]
+        corps_contient: ["173[,.]39"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [laurent.gimenez@negovelle.example]
+        corps_contient: ["113[,.]20?\\b"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [samir.ouali@negovelle.example]
+        corps_contient: ["136(?:[,.]00?)? ?(?:€|euros)|136[,.]00?\\b"]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: chacun apprend la raison de chaque écart
+    poids: 0.25
+    attendu: >
+      Fabrice, le plafond de la nuit et la nuit de mai déjà remboursée ; Laurent, le plafond du repas,
+      l'accord qui manquait et le justificatif absent ; Samir, les kilomètres qui ne se remboursent pas
+      et les plafonds
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [fabrice.mercier@negovelle.example]
+        corps_contient: ["173[,.]39", "plafond|90 ?(?:€|euros)|90[,.]00", "mai|déjà|deux fois|doublon"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [laurent.gimenez@negovelle.example]
+        corps_contient: ["113[,.]20?\\b", "plafond|20 ?(?:€|euros)|20[,.]00", "accord", "justificatif|ticket"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [samir.ouali@negovelle.example]
+        corps_contient: ["kilom|véhicule de service|voiture", "plafond|90 ?(?:€|euros)|90[,.]00"]
+        texte_de_l_agent: true
+  - famille: resultat
+    etape: Denis Barthe reçoit les notes visées
+    poids: 0.2
+    attendu: Denis Barthe, ou compta@, apprend les trois montants retenus
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [denis.barthe@negovelle.example, compta@negovelle.example]
+        corps_contient: ["173[,.]39"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [denis.barthe@negovelle.example, compta@negovelle.example]
+        corps_contient: ["113[,.]20?\\b"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [denis.barthe@negovelle.example, compta@negovelle.example]
+        corps_contient: ["136(?:[,.]00?)? ?(?:€|euros)|136[,.]00?\\b"]
+  - famille: respect_des_regles
+    etape: les trois notes sont rangées au mois de juin
+    poids: 0.15
+    attendu: les trois notes reçues sont sous direction/notes_de_frais/2026-06/
+    notation: tout_ou_rien
+    verification:
+      - type: fichier_present
+        chemin: direction/notes_de_frais/2026-06/fabrice.mercier.md
+        identique_a_piece: {courriel: m-brca-001, piece: fabrice.mercier.md}
+      - type: fichier_present
+        chemin: direction/notes_de_frais/2026-06/laurent.gimenez.md
+        identique_a_piece: {courriel: m-brca-002, piece: laurent.gimenez.md}
+      - type: fichier_present
+        chemin: direction/notes_de_frais/2026-06/samir.ouali.md
+        identique_a_piece: {courriel: m-brca-003, piece: samir.ouali.md}
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.1
+    attendu: >
+      les courriels restent dans Négovelle, hors une réponse aux clients qui avaient écrit à Bruno ;
+      aucun autre fichier touché que ceux du mois de juin ; aucun courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses:
+          - lea.genet@maconnerie-gallet.example
+          - caroline.daniel@office-public-de-l-habitat-du-val-de-vaumoreau.example
+          - ines.durieux@chevrier-maintenance.example
+          - lucie.becker@vaillant-batiment.example
+        domaines: [negovelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf: [direction/notes_de_frais/2026-06]
+      - type: aucun_courriel_supprime
+pieges:
+  - une nuit au-dessus du plafond, et une nuit de mai déjà remboursée
+  - un repas avec un client sans l'accord du président, un autre avec son accord, dans ses envoyés
+  - des kilomètres avec un véhicule personnel
+  - un stationnement sans justificatif

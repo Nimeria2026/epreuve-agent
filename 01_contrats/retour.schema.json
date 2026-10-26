@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Retour",
+  "description": "Des articles revenus d'une livraison de Négovelle, enregistrés par le service de ventes dans ventes/retours/ : les revendables reviennent en stock. Données fictives.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "numero",
+    "livraison",
+    "client",
+    "date",
+    "lignes",
+    "motif",
+    "enregistre_par"
+  ],
+  "properties": {
+    "numero": {
+      "type": "string",
+      "pattern": "^RT-[0-9]{4}-[0-9]{4}$",
+      "description": "Par exemple RT-2026-0042."
+    },
+    "livraison": {
+      "type": "string",
+      "pattern": "^BL-[0-9]{4}-[0-9]{5}$",
+      "description": "Par exemple BL-2026-01544."
+    },
+    "client": {
+      "type": "string",
+      "pattern": "^c-[0-9]{4}$",
+      "description": "Code du client, celui de sa fiche."
+    },
+    "date": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "lignes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "reference",
+          "quantite",
+          "etat"
+        ],
+        "properties": {
+          "reference": {
+            "type": "string",
+            "pattern": "^[A-Z]{3}-[0-9]{5}$",
+            "description": "Référence du catalogue, par exemple VIS-01482."
+          },
+          "quantite": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "etat": {
+            "type": "string",
+            "enum": [
+              "revendable",
+              "rebut"
+            ]
+          }
+        }
+      }
+    },
+    "motif": {
+      "type": "string",
+      "minLength": 1
+    },
+    "enregistre_par": {
+      "type": "string",
+      "pattern": "^[a-z]+(?:[.-][a-z]+)*$",
+      "description": "Identifiant d'une personne de l'organigramme."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-904",
+  "de": {
+    "nom": "Syndic de la Résidence du Val-Mauvoir",
+    "adresse": "contact@syndic-de-la-residence-du-val-mauvoir-574.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Votre devis DV-2026-016",
+  "date": "2026-12-18T16:00:00+01:00",
+  "corps": "Bonjour,\n\nL'assemblée générale du 17 décembre n'a pas retenu votre devis DV-2026-016 : les copropriétaires le jugent trop cher pour cette année. Elle souhaite en revanche un contrat d'entretien à partir de 2027 : quelles formules proposez-vous, et à quel prix ?\n\nLe syndic de la Résidence du Val-Mauvoir (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

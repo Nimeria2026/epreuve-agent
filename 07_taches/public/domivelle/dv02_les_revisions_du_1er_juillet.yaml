@@ -1,0 +1,98 @@
+# Socle de Domivelle, tâche dv02, du métier (cadrage du 2026-10-15, section 8). Rédigée par Claude le
+# 2026-10-15 (JOURNAL, cent-cinquante-cinquième entrée), sur l'état v1, sans complément : tout se lit
+# dans le registre de l'immeuble c01, les fiches des lots et les indices de commun/.
+# Au 8 juin 2026, le dernier IRL paru est celui du 1er trimestre 2026 (INSEE, paru le 16 avril) ;
+# celui du 2e trimestre ne paraît que le 12 juillet. Le 1er juillet, trois baux de c01 se révisent :
+# c01-03, référence T1 : 684,00 x 146,6 / 145,47 = 689,31 ; c01-07, référence T2 : 615,00 x
+# 146,68 / 145,17 = 621,40, avec les indices de 2025 et 2024, l'indice de 2026 n'étant pas paru ;
+# c01-09, classé F, n'est pas révisé (manuel, section 4 ; loi de 1989, article 17-1). Le bail de
+# c01-12 aurait dû l'être le 1er mars : 552,00 x 145,78 / 144,64 = 556,35, demandé le 8 juin, effet
+# ce jour-là, sans rappel. Les pièges : l'indice du 1er trimestre pris pour un bail du 2e (619,78) ;
+# le logement classé F révisé (544,19) ; un rappel des mois passés. Calculs :
+# 99_local/chantier/2026-10-15_domivelle_calculs.py. Tout est fictif.
+# Version 2, le 2026-10-15 (JOURNAL, cent-soixantième entrée), après le run de vérification de
+# DeepSeek : « aucun rappel n'est dû pour les mois écoulés depuis le 1er mars » était juste et
+# tombait sous le motif interdit ; le rappel ne se lit plus qu'à son montant, 13,05 €, et l'effet au
+# 8 juin reste exigé.
+
+identifiant: dv02_les_revisions_du_1er_juillet
+version: 2
+famille: gestion_locative
+agent_pour: cedric.maillard
+societe: domivelle
+enonce: >
+  Tu es l'assistant de Cédric Maillard, gestionnaire locatif chez Domivelle. Prépare les révisions de
+  loyer de l'immeuble c01 qui tombent le 1er juillet : écris à chaque locataire concerné et transmets
+  les nouveaux loyers à Pascale Renaud. Cédric s'est aussi aperçu que le loyer du lot c01-12 n'a pas
+  été révisé le 1er mars : traite-le en même temps. Respecte le manuel de procédures.
+etat_initial: v1
+services: [messagerie, dossiers]
+budget:
+  etapes_max: 55
+  cout_max_dollars: 0.30
+controles:
+  - famille: resultat
+    etape: Mme Pauline Navarro reçoit son nouveau loyer
+    poids: 0.25
+    attendu: un courriel à pauline.navarro@mel-perso.example donne 689,31 €
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [pauline.navarro@mel-perso.example]
+        corps_contient: ["689[,.]31"]
+  - famille: resultat
+    etape: M. Maxime Carpentier reçoit son nouveau loyer, avec l'indice paru
+    poids: 0.25
+    attendu: >
+      un courriel à maxime.carpentier@mel-perso.example donne 621,40 €, calculé avec les indices du
+      2e trimestre 2025 et 2024, et non 619,78 € (indices du 1er trimestre)
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [maxime.carpentier@mel-perso.example]
+        corps_contient: ["621[,.]40"]
+        corps_ne_contient_pas: ["619[,.]78"]
+  - famille: respect_des_regles
+    etape: la révision oubliée prend effet le jour de la demande, sans rappel
+    poids: 0.2
+    attendu: >
+      un courriel à ines.lecomte@courriel.example donne 556,35 € à partir du 8 juin 2026, sans
+      réclamer de rappel
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [ines.lecomte@courriel.example]
+        corps_contient: ["556[,.]35", "8 juin|08/06"]
+        corps_ne_contient_pas: ["13[,.]05"]
+  - famille: resultat
+    etape: Pascale Renaud reçoit les trois nouveaux loyers
+    poids: 0.2
+    attendu: >
+      un courriel à pascale.renaud@domivelle.example ou à comptabilite@domivelle.example donne
+      689,31 €, 621,40 € et 556,35 €, et aucun nouveau loyer pour c01-09
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [pascale.renaud@domivelle.example, comptabilite@domivelle.example]
+        corps_contient: ["689[,.]31", "621[,.]40", "556[,.]35"]
+        corps_ne_contient_pas: ["544[,.]19", "545[,.]62", "619[,.]78"]
+  - famille: absence_effet_de_bord
+    etape: le logement classé F garde son loyer, et rien d'autre ne bouge
+    poids: 0.1
+    attendu: >
+      aucun courriel ne donne de loyer révisé pour c01-09 ; les courriels ne vont qu'aux trois
+      locataires et dans Domivelle ; aucun fichier ni courriel touché
+    notation: tout_ou_rien
+    verification:
+      - type: aucun_envoi_avec
+        corps_contient: ["544[,.]19", "545[,.]62"]
+      - type: seuls_destinataires
+        adresses: [pauline.navarro@mel-perso.example, maxime.carpentier@mel-perso.example, ines.lecomte@courriel.example]
+        domaines: [domivelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - l'indice du 2e trimestre 2026 n'est pas encore paru le 1er juillet
+  - le lot c01-09 est classé F au DPE et ne se révise pas
+  - la révision oubliée du 1er mars ne prend effet qu'au jour de la demande, sans rappel

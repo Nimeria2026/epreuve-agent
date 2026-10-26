@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0003"
+nom: "Syndic de la Résidence du Clos-Fargeau"
+type: "syndic"
+adresse: "35 rue des Lilas, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "contact@syndic-de-la-residence-du-clos-fargeau-3.example"
+telephone: "02 61 91 35 00"
+charge_d_affaires: "karim.benali"
+contrat:
+  formule: "Sérénité"
+  depuis: "2025-05-25"
+  mois_anniversaire: "mai"
+  derniere_visite: "2026-05-03"

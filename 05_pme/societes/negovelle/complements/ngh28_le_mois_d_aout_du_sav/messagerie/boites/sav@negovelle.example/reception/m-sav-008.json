@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-008",
+  "de": {
+    "nom": "Luc Lecoq",
+    "adresse": "luc.lecoq@peinture-forestier.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Retour de câble",
+  "date": "2026-08-07T10:30:00+02:00",
+  "corps": "Bonjour,\n\nNous voudrions rendre 2 couronnes de câble ELE-11396 de la livraison du 23 juillet, BL-2026-01896, non entamées.\n\nLuc Lecoq\nPeinture Forestier",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

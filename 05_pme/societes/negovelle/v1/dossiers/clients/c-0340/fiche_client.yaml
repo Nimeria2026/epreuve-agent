@@ -1,0 +1,28 @@
+# Fiche du client c-0340 de Négovelle. Données FICTIVES.
+code: c-0340
+nom: Serrurerie Besson
+type: artisan
+adresse: 108 rue des Chênes, 36999 Fontclavier (FICTIF)
+telephone: 02 61 91 93 71
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Sandrine Sauvage
+  fonction: gérante
+  courriel: sandrine.sauvage@serrurerie-besson.example
+- nom: Nathalie Coulon
+  fonction: conjointe collaboratrice
+  courriel: nathalie.coulon@serrurerie-besson.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 108 rue des Chênes, 36999 Fontclavier (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2022-02-01'
+limite_encours_euros: 18000.0
+livraisons_partielles: true
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

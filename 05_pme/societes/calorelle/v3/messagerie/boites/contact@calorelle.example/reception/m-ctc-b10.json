@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-b10",
+  "de": {
+    "nom": "Camille Boyer",
+    "adresse": "camille.boyer@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Résiliation de contrat",
+  "date": "2026-09-20T11:28:00+02:00",
+  "corps": "Bonjour,\n\nJe vends ma maison et souhaite résilier mon contrat en fin d'année.\n\nCamille Boyer (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

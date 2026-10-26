@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-maca-630",
+  "de": {
+    "nom": "Corinne Ferrand",
+    "adresse": "corinne.ferrand@messagerie.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Le contrôle de l'ascenseur",
+  "date": "2026-09-02T18:10:00+02:00",
+  "corps": "Madame,\n\nLe technicien de l'ascenseur nous a dit qu'un contrôle a eu lieu fin août. Le conseil syndical voudrait avoir le rapport.\n\nCorinne Ferrand, présidente du conseil syndical",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

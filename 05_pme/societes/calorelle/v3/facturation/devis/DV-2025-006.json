@@ -1,0 +1,56 @@
+{
+  "numero": "DV-2025-006",
+  "client": "c-0092",
+  "objet": "Rénovation de chaufferie collective",
+  "lignes": [
+    {
+      "code": "CHC-01",
+      "libelle": "Chaudière collective gaz à condensation 150 kW",
+      "quantite": 1,
+      "prix_unitaire_ht_euros": 14500,
+      "taux_tva": 20,
+      "montant_ht_euros": 14500
+    },
+    {
+      "code": "DEP-01",
+      "libelle": "Dépose et évacuation de l'ancien appareil",
+      "quantite": 1,
+      "prix_unitaire_ht_euros": 180,
+      "taux_tva": 20,
+      "montant_ht_euros": 180
+    },
+    {
+      "code": "TUB-01",
+      "libelle": "Tuyauterie cuivre posée",
+      "quantite": 20,
+      "prix_unitaire_ht_euros": 42,
+      "taux_tva": 20,
+      "montant_ht_euros": 840
+    },
+    {
+      "code": "MES-01",
+      "libelle": "Mise en service",
+      "quantite": 1,
+      "prix_unitaire_ht_euros": 150,
+      "taux_tva": 20,
+      "montant_ht_euros": 150
+    },
+    {
+      "code": "MO-01",
+      "libelle": "Main-d'œuvre de technicien",
+      "quantite": 36,
+      "prix_unitaire_ht_euros": 58,
+      "taux_tva": 20,
+      "montant_ht_euros": 2088
+    }
+  ],
+  "remise_pourcent": 0,
+  "total_ht_euros": 17758,
+  "total_tva_euros": 3551.6,
+  "total_ttc_euros": 21309.6,
+  "statut": "refuse",
+  "cree_le": "2025-09-01T10:00:00+02:00",
+  "cree_par": "karim.benali",
+  "envoye_le": "2025-09-02T11:00:00+02:00",
+  "reponse_le": "2025-10-20T15:00:00+02:00"
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-thol-b02",
+  "de": {
+    "nom": "M. Jacques Étienne",
+    "adresse": "jacques.etienne@boite-postale.example"
+  },
+  "a": [
+    "thierry.ollivier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Éclairage de l'entrée",
+  "date": "2026-05-29T09:46:00+02:00",
+  "corps": "Bonjour,\n\nL'éclairage du hall ne fonctionne plus depuis deux jours.\n\nM. Jacques Étienne",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

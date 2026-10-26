@@ -1,0 +1,139 @@
+{
+  "numero": "CO-2026-01985",
+  "client": "c-0273",
+  "reference_client": "BC-4237",
+  "cree_le": "2026-07-01T09:10:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L2",
+    "adresse": "33 zone industrielle des Brandes, 36999 Brissonne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-13307",
+      "libelle": "Spot encastrable LED 5 W, 4000 K, noir",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 7.7,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 7.7,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 15.4
+    },
+    {
+      "reference": "ELP-10310",
+      "libelle": "Disque à tronçonner pierre 125 mm, boîte de 25",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 57.3,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 52.72,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 316.32
+    },
+    {
+      "reference": "ELP-11600",
+      "libelle": "Perforateur SDS-plus 1,7 J, sans fil 18 V, nu",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 202.9,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 186.67,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 373.34
+    },
+    {
+      "reference": "ENT-11224",
+      "libelle": "Sacs à gravats 120 l, paquet de 25",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 7.95,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 7.95,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 95.4
+    },
+    {
+      "reference": "OUT-12940",
+      "libelle": "Truelle ronde 180 mm",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 15.3,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 14.08,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 28.16
+    },
+    {
+      "reference": "PRO-10898",
+      "libelle": "Gants de manutention anticoupure niveau F, taille 8",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 2.85,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 2.62,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 31.44
+    },
+    {
+      "reference": "PRO-11445",
+      "libelle": "Pantalon de travail coupe droite bleu marine, taille 44",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 47.25,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 43.47,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 43.47
+    },
+    {
+      "reference": "VIS-13528",
+      "libelle": "Vis à bois tête fraisée 6x60, zinguée, boîte de 200",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 12.45,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 11.45,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 68.7
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 972.23,
+  "total_tva_euros": 194.45,
+  "total_ttc_euros": 1166.68,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01834"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-01T09:10:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-01T09:12:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-02T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01834"
+    },
+    {
+      "date": "2026-07-02T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01834"
+    }
+  ]
+}

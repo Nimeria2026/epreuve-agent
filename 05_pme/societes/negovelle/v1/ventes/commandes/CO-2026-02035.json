@@ -1,0 +1,56 @@
+{
+  "numero": "CO-2026-02035",
+  "client": "c-0101",
+  "reference_client": "BC-2327",
+  "cree_le": "2026-07-03T09:10:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "26 parc d'activités de la Gare, 36999 Vaumoreau-sur-Indre (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-13454",
+      "libelle": "Tube LED T8 600 mm, 14 W",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 5.85,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 5.62,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 5.62
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 20.62,
+  "total_tva_euros": 4.12,
+  "total_ttc_euros": 24.74,
+  "statut": "expediee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01868"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T09:10:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T09:12:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T16:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01868"
+    }
+  ]
+}

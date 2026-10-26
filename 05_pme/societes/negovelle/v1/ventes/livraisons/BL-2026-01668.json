@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01668",
+  "commande": "CO-2026-01819",
+  "client": "c-0073",
+  "date_expedition": "2026-06-23",
+  "date_livraison": "2026-06-23",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "100 rue du Four, 36999 Laubrissac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ELE-11576",
+      "libelle": "Disjoncteur phase-neutre 20 A, courbe D",
+      "quantite": 10
+    },
+    {
+      "reference": "PRO-10490",
+      "libelle": "Casque de chantier ventilé, bleu",
+      "quantite": 3
+    }
+  ],
+  "reserves": null,
+  "signataire": "Aurélie Combes",
+  "statut": "livre"
+}

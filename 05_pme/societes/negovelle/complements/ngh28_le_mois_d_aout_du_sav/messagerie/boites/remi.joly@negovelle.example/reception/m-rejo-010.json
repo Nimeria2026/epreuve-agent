@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-rejo-010",
+  "de": {
+    "nom": "Nathalie Brunet",
+    "adresse": "nathalie.brunet@negovelle.example"
+  },
+  "a": [
+    "remi.joly@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Livraison refusée",
+  "date": "2026-08-07T16:40:00+02:00",
+  "corps": "Rémi, un de mes dossiers ouverts, à reprendre.\n\nNathalie\n\n----- Message transféré -----\nDe : Fabienne Boisson <fabienne.boisson@maconnerie-achard.example>\nDate : 2026-07-28T12:15:00+02:00\nObjet : Livraison refusée\n\nBonjour,\n\nNous avons refusé ce matin la livraison BL-2026-01889 : un des deux colis était écrasé. Le refus est noté sur le récépissé du transporteur, qui a tout repris.\n\nFabienne Boisson\nMaçonnerie Achard",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,57 @@
+# Tranche 4 (étape 5), tâche 20, n° 7 de la carte du banc. Rédigée par Claude le 2026-10-08
+# (JOURNAL, quatre-vingt-huitième entrée), sur l'état v2. Denis Vincent (c-0355), contrat
+# Sérénité depuis le 12 octobre 2024, demande à passer en Sérénité Plus à partir du 1er décembre.
+# Le manuel (section 4) fixe le complément : 100 € multipliés par les mois entiers restant avant
+# la date anniversaire, divisés par 12, au centime. La date anniversaire est le 12 octobre (jour et
+# mois de la prise d'effet, dans la fiche) ; du 1er décembre 2026 au 12 octobre 2027, dix mois
+# entiers, que l'on compte des durées d'un mois ou des mois du calendrier : 83,33 €. Le manuel
+# compte les mois de date à date depuis le 2026-10-08 (entrée 89, choix d'Alexandre : écrire la
+# règle exacte) ; partir du 1er du mois rend en plus les deux décomptes égaux. Complément d'état :
+# 05_pme/societes/calorelle/complements/t20_passage_serenite_plus/. Tout est fictif.
+# Version 2, le 2026-10-08 (JOURNAL, quatre-vingt-dix-septième entrée) : la tâche part de l'état
+# v3, comme tout le banc ; budget de 35 étapes au lieu de 20, par la règle du témoin (25, plus
+# deux fois ses 4 étapes) ; l'énoncé nomme le client : trois clients avaient écrit à Julie Perrin
+# au sujet de leur contrat.
+# Version 3, le 2026-10-08 (JOURNAL, centième entrée) : budget de 40 étapes au lieu de 35, par la
+# règle du témoin, qui lit désormais tout ce qu'il utilise hors l'orientation.
+
+identifiant: t20_passage_serenite_plus
+version: 3
+famille: relation_client
+agent_pour: julie.perrin
+enonce: >
+  Tu es l'assistant de Julie Perrin, chargée d'affaires chez Calorelle. Denis Vincent, client, lui
+  a écrit ce matin au sujet de son contrat. Réponds-lui en respectant le manuel de procédures.
+etat_initial: v3
+complement: t20_passage_serenite_plus
+services: [messagerie, dossiers]
+budget:
+  etapes_max: 40
+  cout_max_dollars: 0.30
+controles:
+  - famille: contenu
+    etape: le client reçoit le bon montant
+    poids: 0.7
+    attendu: >
+      un courriel à denis.vincent@courriel.example donne le complément de 83,33 €
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [denis.vincent@courriel.example]
+        corps_contient: ["\\b83[,.]33\\b"]
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.3
+    attendu: >
+      les courriels ne vont qu'au client ou au personnel ; aucun fichier créé, déplacé ou supprimé ;
+      aucun courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses: [denis.vincent@courriel.example]
+        domaines: [calorelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - compter les mois depuis aujourd'hui donne onze mois au lieu de dix

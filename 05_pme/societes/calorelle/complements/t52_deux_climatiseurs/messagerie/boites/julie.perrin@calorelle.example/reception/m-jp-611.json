@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-611",
+  "de": {
+    "nom": "Émilie Simon",
+    "adresse": "emilie.simon@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis du climatiseur",
+  "date": "2026-11-02T07:45:00+01:00",
+  "corps": "Bonjour Madame Perrin,\n\nM. Noël est venu mercredi pour le climatiseur du séjour. Pouvez-vous m'envoyer le devis ? On m'a dit que la TVA était à 20 % sur l'appareil et à 10 % sur la pose. Ma maison date de 1972.\n\nÉmilie Simon (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

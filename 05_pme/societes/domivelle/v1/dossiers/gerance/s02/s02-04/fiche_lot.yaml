@@ -1,0 +1,10 @@
+# Fiche du lot s02-04. Données FICTIVES.
+lot: s02-04
+adresse: 130 rue Émile-Zola, 18999 Chantebrune (FICTIF)
+type: T3
+surface_m2: 60
+dpe:
+  classe: A
+  etabli_le: '2022-05-12'
+documents:
+- dpe.pdf

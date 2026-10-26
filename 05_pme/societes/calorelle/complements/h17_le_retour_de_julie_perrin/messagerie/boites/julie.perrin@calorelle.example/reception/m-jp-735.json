@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-735",
+  "de": {
+    "nom": "Établissements Perrot",
+    "adresse": "contact@etablissements-perrot-62.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Factures à régler",
+  "date": "2026-12-30T11:00:00+01:00",
+  "corps": "Madame Perrin,\n\nNotre expert-comptable clôture notre exercice : pouvez-vous nous dire quelles factures de Calorelle nous restent à payer, et pour quel total ?\n\nÉtablissements Perrot, 12 rue du Moulin, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

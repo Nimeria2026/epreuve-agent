@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-laga-014",
+  "de": {
+    "nom": "Corinne Vidal",
+    "adresse": "corinne.vidal@negovelle.example"
+  },
+  "a": [
+    "laetitia.garnier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Livraison au gymnase",
+  "date": "2026-08-10T07:44:00+02:00",
+  "corps": "Lætitia,\n\nManon étant absente jusqu'au 21, je te transfère sa commande du nord, arrivée dans commandes@.\n\nCorinne\n\n----- Message transféré -----\nDe : Laurent Pelletier <laurent.pelletier@college-des-grands-pres-vaumoreau-sur-indre.example>\nDate : 7 août 2026, 8 h 50\nObjet : Livraison au gymnase\n\nBonjour,\n\nPour la rentrée, merci de livrer au gymnase du collège, 9 allée des Sports à Vaumoreau-sur-Indre, qui n'est pas dans nos adresses :\n\n- 10 x ENT-10571, Nettoyant détartrant sanitaire, bidon de 1 l\n\nEn standard.\n\nCordialement,\n\nLaurent Pelletier\nCollège des Grands Prés, Vaumoreau-sur-Indre",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

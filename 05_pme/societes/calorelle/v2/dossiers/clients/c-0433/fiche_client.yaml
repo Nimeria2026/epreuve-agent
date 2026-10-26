@@ -1,0 +1,8 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0433"
+nom: "Céline Michel"
+type: "particulier"
+adresse: "87 rue de la Loire, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "celine.michel@courriel.example"
+telephone: "06 39 98 51 04"
+charge_d_affaires: "julie.perrin"

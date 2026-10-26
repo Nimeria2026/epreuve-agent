@@ -1,0 +1,13 @@
+{
+  "numero": "INT-2026-0015",
+  "client": "c-0581",
+  "techniciens": [
+    "antoine.leroy"
+  ],
+  "debut": "2026-11-03T15:30:00+01:00",
+  "fin": "2026-11-03T17:30:00+01:00",
+  "nature": "depannage",
+  "objet": "Dépannage : chaudière fioul, brûleur en panne",
+  "statut": "planifiee",
+  "cree_par": "donnees_initiales"
+}

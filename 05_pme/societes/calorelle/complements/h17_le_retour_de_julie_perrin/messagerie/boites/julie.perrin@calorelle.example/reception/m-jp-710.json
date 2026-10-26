@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-710",
+  "de": {
+    "nom": "Établissements François",
+    "adresse": "contact@etablissements-francois-573.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Ballon d'eau chaude de l'atelier",
+  "date": "2026-12-16T09:25:00+01:00",
+  "corps": "Bonjour,\n\nVotre technicien a vu hier le chauffe-eau de notre atelier. Merci de nous adresser le devis du ballon thermodynamique.\n\nÉtablissements François, 39 chemin des Vignes, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

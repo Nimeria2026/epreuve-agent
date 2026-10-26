@@ -1,0 +1,111 @@
+# Registre des lots en gestion, c04. Données FICTIVES.
+immeuble: c04
+nature: immeuble collectif
+adresse: 112 place du Marché, 18999 Montclavel-sur-Cher (FICTIF)
+secteur: centre
+gestionnaire: Cédric Maillard
+distance_agence_km: 3
+annee_construction: 1970
+gardien: false
+copropriete_du_syndic: cp29
+lots:
+- lot: c04-01
+  type: T3
+  surface_m2: 69
+  etage: 0
+  proprietaire: p-0055
+  locataire: M. Laurent Rolland
+  entree: '2023-10-29'
+  loyer_hors_charges: 728,00 €
+  provision_sur_charges: 99,00 €
+  depot_de_garantie: 693,00 €
+  revision: chaque 29 octobre
+  trimestre_irl: T2
+  dpe: F
+- lot: c04-02
+  type: T2
+  surface_m2: 47
+  etage: 0
+  proprietaire: p-0045
+  locataire: vacant
+  loyer_hors_charges: 502,00 €
+  provision_sur_charges: 72,00 €
+  dpe: E
+- lot: c04-03
+  type: T3
+  surface_m2: 59
+  etage: 0
+  proprietaire: p-0017
+  locataire: Mme Marion Labbé
+  entree: '2016-04-11'
+  loyer_hors_charges: 621,00 €
+  provision_sur_charges: 46,00 €
+  depot_de_garantie: 497,00 €
+  revision: chaque 11 avril
+  trimestre_irl: T4
+  dpe: D
+- lot: c04-04
+  type: T4
+  surface_m2: 81
+  etage: 0
+  proprietaire: p-0056
+  locataire: Mme Manon Meunier
+  entree: '2016-03-08'
+  loyer_hors_charges: 753,00 €
+  provision_sur_charges: 36,00 €
+  depot_de_garantie: 602,00 €
+  revision: chaque 8 mars
+  trimestre_irl: T4
+  dpe: E
+- lot: c04-05
+  type: T2
+  surface_m2: 43
+  etage: 1
+  proprietaire: p-0057
+  locataire: M. René Gilbert
+  entree: '2022-07-09'
+  loyer_hors_charges: 436,00 €
+  provision_sur_charges: 42,00 €
+  depot_de_garantie: 406,00 €
+  revision: chaque 9 juillet
+  trimestre_irl: T1
+  dpe: D
+- lot: c04-06
+  type: T2
+  surface_m2: 47
+  etage: 1
+  proprietaire: p-0018
+  locataire: Mme Alice Carpentier
+  entree: '2024-07-22'
+  loyer_hors_charges: 442,00 €
+  provision_sur_charges: 39,00 €
+  depot_de_garantie: 431,00 €
+  revision: chaque 22 juillet
+  trimestre_irl: T1
+  dpe: C
+- lot: c04-07
+  type: T2
+  surface_m2: 46
+  etage: 1
+  proprietaire: p-0058
+  locataire: M. Henri Maréchal
+  entree: '2013-03-31'
+  loyer_hors_charges: 449,00 €
+  provision_sur_charges: 53,00 €
+  depot_de_garantie: 339,00 €
+  revision: chaque 31 mars
+  trimestre_irl: T4
+  dpe: D
+- lot: c04-08
+  type: T4
+  surface_m2: 75
+  etage: 1
+  proprietaire: p-0024
+  locataire: Mme Odile Cordier
+  entree: '2024-02-09'
+  loyer_hors_charges: 804,00 €
+  provision_sur_charges: 73,00 €
+  depot_de_garantie: 766,00 €
+  revision: chaque 9 février
+  trimestre_irl: T4
+  dpe: D

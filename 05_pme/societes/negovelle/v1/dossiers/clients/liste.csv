@@ -1,0 +1,351 @@
+code;nom;type;secteur
+c-0001;Mairie de Vaumoreau-sur-Indre;collectivite;nord
+c-0002;Peinture Forestier;artisan;ouest
+c-0003;Imprimerie Grondin;pme;ouest
+c-0004;Électricité Chauveau;artisan;nord
+c-0005;Peinture Durieux;artisan;ouest
+c-0006;Chauffage Collet;artisan;ouest
+c-0007;Plâtrerie Clerc;artisan;nord
+c-0008;Garage Guillon;pme;nord
+c-0009;Mairie de Corvalet;collectivite;nord
+c-0010;Électricité Noblet;artisan;est
+c-0011;Peinture Lecoq;artisan;nord
+c-0012;Peinture Daniel;artisan;est
+c-0013;Électricité Gay;artisan;est
+c-0014;Gay Maintenance;entreprise;est
+c-0015;Menuiserie Boisson;artisan;est
+c-0016;Charpente Becker;artisan;nord
+c-0017;Plomberie Feuillet;artisan;ouest
+c-0018;Chevrier Maintenance;entreprise;sud
+c-0019;Monnier Industrie;pme;ouest
+c-0020;Mairie de Brissonne;collectivite;nord
+c-0021;Plomberie Besson;artisan;nord
+c-0022;Garage Péron;pme;sud
+c-0023;Chauffage Bunel;artisan;est
+c-0024;Plâtrerie Desjardins;artisan;nord
+c-0025;Carrelage Ancelin;artisan;ouest
+c-0026;Serrurerie Rigaud;artisan;nord
+c-0027;Serrurerie Maurin;artisan;sud
+c-0028;Paysage Crozet;artisan;nord
+c-0029;Imprimerie Quéré;pme;ouest
+c-0030;Chauffage Allard;artisan;nord
+c-0031;Paysage Dumont;artisan;nord
+c-0032;Serrurerie Monnier;artisan;ouest
+c-0033;Carrelage Rigaud;artisan;nord
+c-0034;Peinture Hervé;artisan;nord
+c-0035;Plomberie Simonet;artisan;est
+c-0036;Mairie de Vendrigny;collectivite;est
+c-0037;Serrurerie Lecoq;artisan;sud
+c-0038;Plâtrerie Maurin;artisan;sud
+c-0039;Chauffage Pelletier;artisan;nord
+c-0040;Fleurot Bâtiment;entreprise;sud
+c-0041;Couverture Ancelin;artisan;sud
+c-0042;Serrurerie Baillet;artisan;est
+c-0043;Charpente Forestier;artisan;nord
+c-0044;Dufour Maintenance;entreprise;ouest
+c-0045;Peinture Legendre;artisan;ouest
+c-0046;Cosson Rénovation;entreprise;sud
+c-0047;Maçonnerie Auger;artisan;sud
+c-0048;Électricité Daniel;artisan;est
+c-0049;Menuiserie Parmentier;artisan;est
+c-0050;Menuiserie industrielle Delaunay;pme;ouest
+c-0051;Lhomme Travaux publics;entreprise;ouest
+c-0052;Menuiserie industrielle Hamel;pme;ouest
+c-0053;Rouxel Travaux publics;entreprise;sud
+c-0054;Entreprise Rouxel;entreprise;ouest
+c-0055;Mairie de Ardillac;collectivite;est
+c-0056;Couverture Rocher;artisan;est
+c-0057;Mairie de Laubrissac;collectivite;sud
+c-0058;Péron Rénovation;entreprise;sud
+c-0059;Électricité Billard;artisan;nord
+c-0060;Maçonnerie Martineau;artisan;est
+c-0061;Paysage Mahé;artisan;ouest
+c-0062;Chauffage Combes;artisan;ouest
+c-0063;Plomberie Lagarde;artisan;sud
+c-0064;Plomberie Billard;artisan;nord
+c-0065;Mairie de Saulvenne;collectivite;sud
+c-0066;Carrelage Pelletier;artisan;est
+c-0067;Entreprise Bodin;entreprise;est
+c-0068;Carrelage Navarre;artisan;est
+c-0069;Durieux Rénovation;entreprise;sud
+c-0070;Carrelage Chevrier;artisan;sud
+c-0071;Menuiserie Gabriel;artisan;nord
+c-0072;Morel Travaux publics;entreprise;nord
+c-0073;Peinture Bodin;artisan;sud
+c-0074;Mairie de Mérolles-en-Brenne;collectivite;ouest
+c-0075;Électricité Rouxel;artisan;ouest
+c-0076;Hardy Travaux publics;entreprise;nord
+c-0077;Quéré Bâtiment;entreprise;est
+c-0078;Électricité Chatelain;artisan;sud
+c-0079;Entreprise Clerc;entreprise;ouest
+c-0080;Chauffage Hervé;artisan;ouest
+c-0081;Mairie de Fontclavier;collectivite;ouest
+c-0082;Peinture Feuillet;artisan;nord
+c-0083;Services techniques de Vaumoreau-sur-Indre;collectivite;nord
+c-0084;Chauffage Genet;artisan;ouest
+c-0085;Chauffage Parmentier;artisan;nord
+c-0086;Paysage Ducret;artisan;sud
+c-0087;Menuiserie industrielle Cosson;pme;est
+c-0088;Imprimerie Voisin;pme;est
+c-0089;Services techniques de Corvalet;collectivite;nord
+c-0090;Services techniques de Brissonne;collectivite;nord
+c-0091;Maçonnerie Gabriel;artisan;sud
+c-0092;Plâtrerie Salmon;artisan;sud
+c-0093;Couverture Hervé;artisan;sud
+c-0094;Ducros Travaux publics;entreprise;est
+c-0095;Électricité Ruel;artisan;nord
+c-0096;Maçonnerie Rocher;artisan;ouest
+c-0097;Menuiserie industrielle Chatelain;pme;est
+c-0098;Chauffage Ducret;artisan;est
+c-0099;Transports Hamel;pme;ouest
+c-0100;Plomberie Desjardins;artisan;sud
+c-0101;Garage Ernault;pme;nord
+c-0102;Paysage Rigaud;artisan;nord
+c-0103;Charpente Ruel;artisan;sud
+c-0104;Électricité Legendre;artisan;nord
+c-0105;Chauffage Thiery;artisan;ouest
+c-0106;Charpente Vaillant;artisan;sud
+c-0107;Ernault Travaux publics;entreprise;sud
+c-0108;Charpente Humbert;artisan;sud
+c-0109;Chevrier Rénovation;entreprise;est
+c-0110;Menuiserie Bocquet;artisan;ouest
+c-0111;Serrurerie Gonnet;artisan;nord
+c-0112;Menuiserie industrielle Gay;pme;sud
+c-0113;Charpente Péron;artisan;ouest
+c-0114;Legendre Rénovation;entreprise;est
+c-0115;Maçonnerie Lhomme;artisan;est
+c-0116;Plâtrerie Chatelain;artisan;nord
+c-0117;Imprimerie Gay;pme;est
+c-0118;Rouxel Industrie;pme;sud
+c-0119;Peinture Chevrier;artisan;est
+c-0120;Services techniques de Vendrigny;collectivite;est
+c-0121;Électricité Bouchard;artisan;nord
+c-0122;Services techniques de Ardillac;collectivite;est
+c-0123;Paysage Chevrier;artisan;est
+c-0124;Becker Industrie;pme;nord
+c-0125;Menuiserie Barbe;artisan;est
+c-0126;Imprimerie Mignot;pme;sud
+c-0127;Plâtrerie Gabriel;artisan;ouest
+c-0128;Électricité Chartier;artisan;ouest
+c-0129;Maçonnerie Cordonnier;artisan;nord
+c-0130;Électricité Morel;artisan;nord
+c-0131;Maurin Travaux publics;entreprise;ouest
+c-0132;Bellanger Industrie;pme;sud
+c-0133;Plâtrerie Boisson;artisan;ouest
+c-0134;Services techniques de Laubrissac;collectivite;sud
+c-0135;Couverture Monnier;artisan;sud
+c-0136;Services techniques de Saulvenne;collectivite;sud
+c-0137;Menuiserie Blanchet;artisan;ouest
+c-0138;Chauffage Mahé;artisan;nord
+c-0139;Moulin Rénovation;entreprise;sud
+c-0140;Serrurerie Rouxel;artisan;est
+c-0141;Services techniques de Mérolles-en-Brenne;collectivite;ouest
+c-0142;Maçonnerie Lelièvre;artisan;ouest
+c-0143;Paysage Guyot;artisan;nord
+c-0144;Peinture Vallet;artisan;sud
+c-0145;Services techniques de Fontclavier;collectivite;ouest
+c-0146;Électricité Fleurot;artisan;nord
+c-0147;Communauté de communes du Val de Vaumoreau;collectivite;nord
+c-0148;Syndicat intercommunal des eaux de la Brenne;collectivite;nord
+c-0149;Maçonnerie Maurin;artisan;ouest
+c-0150;Imprimerie Barbe;pme;sud
+c-0151;Chauffage Grondin;artisan;ouest
+c-0152;Guyot et Fils;entreprise;nord
+c-0153;Charpente Rocher;artisan;nord
+c-0154;Syndicat d'électrification du canton de Laubrissac;collectivite;sud
+c-0155;Valentin Rénovation;entreprise;nord
+c-0156;Paysage Parmentier;artisan;sud
+c-0157;Ruel Industrie;pme;sud
+c-0158;Serrurerie Durieux;artisan;nord
+c-0159;Serrurerie Cadiou;artisan;nord
+c-0160;Parmentier Industrie;pme;est
+c-0161;Dufour Bâtiment;entreprise;sud
+c-0162;Plomberie Chatelain;artisan;sud
+c-0163;Chauffage Toussaint;artisan;sud
+c-0164;Cadiou Maintenance;entreprise;nord
+c-0165;Rouxel et Fils;entreprise;est
+c-0166;Plomberie Bouchard;artisan;est
+c-0167;Voisin et Fils;entreprise;ouest
+c-0168;Peinture Hardy;artisan;est
+c-0169;Paysage Monnier;artisan;est
+c-0170;Plâtrerie Hoarau;artisan;est
+c-0171;Couverture Lecoq;artisan;ouest
+c-0172;Ateliers Lagarde;pme;nord
+c-0173;Plâtrerie Simonet;artisan;ouest
+c-0174;Bruneau Rénovation;entreprise;nord
+c-0175;Chauffage Lemarchand;artisan;est
+c-0176;Plâtrerie Lagarde;artisan;est
+c-0177;Transports Drouet;pme;nord
+c-0178;Brault et Fils;entreprise;nord
+c-0179;Guyot Travaux publics;entreprise;est
+c-0180;Chauffage Simonet;artisan;ouest
+c-0181;Collège des Grands Prés, Vaumoreau-sur-Indre;collectivite;nord
+c-0182;Serrurerie Chartier;artisan;sud
+c-0183;Plomberie Hervé;artisan;nord
+c-0184;Couverture Forestier;artisan;nord
+c-0185;Ateliers Billard;pme;nord
+c-0186;Charpente Doré;artisan;nord
+c-0187;Boutin Rénovation;entreprise;nord
+c-0188;Plomberie Pasquet;artisan;sud
+c-0189;Monnier Bâtiment;entreprise;sud
+c-0190;Électricité Grondin;artisan;ouest
+c-0191;Paysage Achard;artisan;nord
+c-0192;Cazenave Rénovation;entreprise;ouest
+c-0193;Rigaud Agencement;pme;est
+c-0194;Plâtrerie Lecoq;artisan;est
+c-0195;Couverture Pasquet;artisan;ouest
+c-0196;Menuiserie Delaunay;artisan;sud
+c-0197;Électricité Salmon;artisan;sud
+c-0198;Plâtrerie Humbert;artisan;nord
+c-0199;Ateliers Gabriel;pme;ouest
+c-0200;Chauffage Lelièvre;artisan;sud
+c-0201;Lycée professionnel de Vendrigny;collectivite;est
+c-0202;Plâtrerie Boutin;artisan;sud
+c-0203;Couverture Gallet;artisan;ouest
+c-0204;Transports Ducros;pme;est
+c-0205;Menuiserie Péron;artisan;ouest
+c-0206;Charpente Ducret;artisan;est
+c-0207;Carrelage Ducret;artisan;ouest
+c-0208;Charpente Auger;artisan;est
+c-0209;Chauffage Gonnet;artisan;nord
+c-0210;Gautier Bâtiment;entreprise;nord
+c-0211;Électricité Lacour;artisan;sud
+c-0212;Noblet Agencement;pme;nord
+c-0213;Peinture Bocquet;artisan;sud
+c-0214;Lhomme Bâtiment;entreprise;ouest
+c-0215;Menuiserie Besson;artisan;sud
+c-0216;Serrurerie Barre;artisan;est
+c-0217;Guillon Bâtiment;entreprise;sud
+c-0218;Menuiserie Mahé;artisan;sud
+c-0219;Charpente Langlais;artisan;sud
+c-0220;Chauveau et Fils;entreprise;nord
+c-0221;Couverture Granger;artisan;est
+c-0222;Thiery Maintenance;entreprise;nord
+c-0223;Pasquet Bâtiment;entreprise;ouest
+c-0224;Fleurot et Fils;entreprise;est
+c-0225;Legendre Maintenance;entreprise;nord
+c-0226;Chauffage Monnier;artisan;ouest
+c-0227;Maçonnerie Simonet;artisan;ouest
+c-0228;Durieux Bâtiment;entreprise;est
+c-0229;Chauffage Quéré;artisan;est
+c-0230;Tixier Rénovation;entreprise;ouest
+c-0231;Résidence autonomie de Corvalet;collectivite;nord
+c-0232;Couverture Bonneau;artisan;est
+c-0233;Maçonnerie Achard;artisan;ouest
+c-0234;Rouxel Rénovation;entreprise;nord
+c-0235;Serrurerie Dufour;artisan;est
+c-0236;Menuiserie Bonneau;artisan;ouest
+c-0237;Chauffage Baillet;artisan;est
+c-0238;Serrurerie Langlais;artisan;sud
+c-0239;Peinture Doré;artisan;nord
+c-0240;Charpente Quéré;artisan;ouest
+c-0241;Couverture Besson;artisan;nord
+c-0242;Imprimerie Cazenave;pme;nord
+c-0243;Garage Allard;pme;nord
+c-0244;Couverture Gautier;artisan;est
+c-0245;Vallet Bâtiment;entreprise;ouest
+c-0246;Paysage Hamel;artisan;nord
+c-0247;Serrurerie Grenier;artisan;sud
+c-0248;Serrurerie Foucault;artisan;est
+c-0249;Boulay Travaux publics;entreprise;est
+c-0250;Électricité Simonet;artisan;ouest
+c-0251;Navarre Bâtiment;entreprise;nord
+c-0252;Plomberie Lelièvre;artisan;nord
+c-0253;Voisin Agencement;pme;ouest
+c-0254;Centre aquatique intercommunal de Fontclavier;collectivite;ouest
+c-0255;Chauffage Sauvage;artisan;ouest
+c-0256;Office de tourisme du Val de Vaumoreau;collectivite;nord
+c-0257;Cazenave Maintenance;entreprise;sud
+c-0258;Paysage Feuillet;artisan;est
+c-0259;Peinture Tixier;artisan;ouest
+c-0260;Navarre Maintenance;entreprise;nord
+c-0261;Maçonnerie Allard;artisan;ouest
+c-0262;Chauffage Clerc;artisan;est
+c-0263;Peinture Péron;artisan;est
+c-0264;Chauffage Chevrier;artisan;est
+c-0265;Paysage Hoarau;artisan;est
+c-0266;Serrurerie Thiery;artisan;est
+c-0267;Entreprise Tixier;entreprise;sud
+c-0268;Peinture Simonet;artisan;sud
+c-0269;Peinture Bruneau;artisan;est
+c-0270;Imprimerie Drouet;pme;nord
+c-0271;Serrurerie Salmon;artisan;est
+c-0272;Charpente Coulon;artisan;sud
+c-0273;Sauvage Bâtiment;entreprise;sud
+c-0274;Chauffage Feuillet;artisan;nord
+c-0275;Entreprise Drouet;entreprise;nord
+c-0276;Charpente Rouxel;artisan;est
+c-0277;Charpente Allard;artisan;ouest
+c-0278;Charpente Guillon;artisan;ouest
+c-0279;Menuiserie Coulon;artisan;est
+c-0280;Maçonnerie Boutin;artisan;ouest
+c-0281;Serrurerie Hervé;artisan;sud
+c-0282;Bunel et Fils;entreprise;sud
+c-0283;Charpente Dumont;artisan;sud
+c-0284;Maçonnerie Langlais;artisan;sud
+c-0285;Paysage Combes;artisan;nord
+c-0286;Serrurerie Fleurot;artisan;sud
+c-0287;Chatelain Maintenance;entreprise;est
+c-0288;Plâtrerie Martineau;artisan;sud
+c-0289;Rocher Industrie;pme;sud
+c-0290;Carrelage Grondin;artisan;est
+c-0291;Maçonnerie Daniel;artisan;est
+c-0292;Chauffage Mabille;artisan;ouest
+c-0293;Menuiserie Navarre;artisan;ouest
+c-0294;Chauffage Salmon;artisan;nord
+c-0295;Maçonnerie Gallet;artisan;sud
+c-0296;Charpente Vallet;artisan;sud
+c-0297;Cazenave Bâtiment;entreprise;sud
+c-0298;Pelletier Bâtiment;entreprise;sud
+c-0299;Boulay Maintenance;entreprise;sud
+c-0300;Menuiserie industrielle Morel;pme;ouest
+c-0301;Auger Maintenance;entreprise;nord
+c-0302;Maçonnerie Baudouin;artisan;sud
+c-0303;Entreprise Hardy;entreprise;nord
+c-0304;Paysage Noblet;artisan;est
+c-0305;Imprimerie Becker;pme;sud
+c-0306;Charpente Hoarau;artisan;ouest
+c-0307;Électricité Lhomme;artisan;ouest
+c-0308;Plâtrerie Foucault;artisan;nord
+c-0309;Entreprise Foucault;entreprise;ouest
+c-0310;Chauffage Chauveau;artisan;sud
+c-0311;Collet Travaux publics;entreprise;est
+c-0312;Maçonnerie Bocquet;artisan;sud
+c-0313;Couverture Cosson;artisan;ouest
+c-0314;Bodin Bâtiment;entreprise;ouest
+c-0315;Électricité Lagarde;artisan;sud
+c-0316;Plâtrerie Toussaint;artisan;nord
+c-0317;Hamel et Fils;entreprise;nord
+c-0318;Couverture Boutin;artisan;nord
+c-0319;Garage Quéré;pme;nord
+c-0320;Plâtrerie Bellanger;artisan;ouest
+c-0321;Navarre Rénovation;entreprise;nord
+c-0322;Charpente Chartier;artisan;sud
+c-0323;Gay Industrie;pme;nord
+c-0324;Maçonnerie Jolivet;artisan;ouest
+c-0325;Gonnet Maintenance;entreprise;nord
+c-0326;Office public de l'habitat du Val de Vaumoreau;collectivite;nord
+c-0327;Couverture Grenier;artisan;ouest
+c-0328;Quéré Rénovation;entreprise;nord
+c-0329;Plâtrerie Belin;artisan;ouest
+c-0330;Besson Rénovation;entreprise;sud
+c-0331;Maçonnerie Parmentier;artisan;sud
+c-0332;Base de loisirs de Saulvenne;collectivite;sud
+c-0333;Couverture Bellanger;artisan;ouest
+c-0334;Plâtrerie Blanchet;artisan;sud
+c-0335;Doré et Fils;entreprise;est
+c-0336;Garage Noblet;pme;sud
+c-0337;Mignot Agencement;pme;est
+c-0338;Vaillant Bâtiment;entreprise;nord
+c-0339;Cazenave Travaux publics;entreprise;nord
+c-0340;Serrurerie Besson;artisan;ouest
+c-0341;Serrurerie Dumont;artisan;nord
+c-0342;Carrelage Péron;artisan;est
+c-0343;Menuiserie industrielle Hoarau;pme;est
+c-0344;Peinture Maurin;artisan;est
+c-0345;Menuiserie Hervé;artisan;ouest
+c-0346;Transports Ducret;pme;sud
+c-0347;Legendre Industrie;pme;est
+c-0348;Plâtrerie Mabille;artisan;nord
+c-0349;Menuiserie Pelletier;artisan;ouest
+c-0350;Maçonnerie Delaunay;artisan;est

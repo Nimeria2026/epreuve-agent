@@ -1,0 +1,10 @@
+# Fiche d'un fournisseur de Négovelle. Données FICTIVES.
+nom: Abrasifs et colles des Hautes-Bornes
+activite: fabricant de consommables d'atelier
+adresse: 12 zone d'activités des Grands Prés, 36999 Vendrigny (FICTIF)
+telephone: 02 61 91 94 38
+courriel_commandes: commandes@abrasifs-et-colles-des-hautes-bornes.example
+courriel_facturation: facturation@abrasifs-et-colles-des-hautes-bornes.example
+iban: FR76 9999 9437 8445 5252 0322 110 (FICTIF)
+conditions: paiement à 30 jours date de facture
+minimum_de_commande: 500,00 € HT

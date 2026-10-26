@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-vete-612",
+  "de": {
+    "nom": "Mme Léa Fleury",
+    "adresse": "lea.fleury@boite-postale.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Je quitte mon appartement",
+  "date": "2026-08-13T08:45:00+02:00",
+  "corps": "Madame,\n\nJe vous informe par ce courriel que je quitte mon appartement du lot c01-02 : je donne mon congé à compter d'aujourd'hui. Pouvez-vous me confirmer la date de fin de mon bail ?\n\nMme Léa Fleury",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

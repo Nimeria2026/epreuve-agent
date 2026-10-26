@@ -1,0 +1,23 @@
+[project]
+name = "bancs_publics"
+version = "0.1.0"
+description = "Bancs publics d'agents construits par d'autres, servis à EASE en MCP (projet Épreuve d'agent, ADR 0004)"
+requires-python = ">=3.12"
+dependencies = [
+  "anyio>=4.9",
+  "mcp>=2.3",
+  # τ²-bench de Sierra, version 1.0.1 : licence MIT, lue le 2026-10-08 ; ses 79 paquets entraînés,
+  # sous licences permissives (00_docs/sources/2026-10-08_faits_tau2_bench.md et
+  # 2026-10-08_journal_tau2.md, troisième entrée). L'option gym apporte gymnasium (MIT).
+  "tau2[gym]",
+]
+
+[tool.uv.sources]
+tau2 = { git = "https://github.com/sierra-research/tau2-bench", rev = "fc0055dc4e0a316c3f83133267fbd6faaa770992" }
+
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/bancs_publics"]

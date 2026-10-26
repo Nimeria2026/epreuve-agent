@@ -1,0 +1,59 @@
+{
+  "numero": "CO-2026-02014",
+  "client": "c-0053",
+  "reference_client": "BC-3889",
+  "cree_le": "2026-07-03T09:10:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "32 zone d'activités des Grands Prés, 36999 Laubrissac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-11274",
+      "libelle": "Dégrippant à la graisse blanche, aérosol de 400 ml",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 6.55,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 6.29,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 6.29
+    },
+    {
+      "reference": "ENT-10334",
+      "libelle": "Distributeur d'essuie-mains, inox",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 66.85,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 66.85,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 267.4
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 288.69,
+  "total_tva_euros": 57.74,
+  "total_ttc_euros": 346.43,
+  "statut": "validee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T09:10:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T09:12:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "validee",
+      "detail": ""
+    }
+  ]
+}

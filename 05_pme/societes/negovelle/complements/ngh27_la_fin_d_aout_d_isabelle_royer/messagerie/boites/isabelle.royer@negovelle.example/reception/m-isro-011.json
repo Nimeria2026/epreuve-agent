@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-isro-011",
+  "de": {
+    "nom": "Océane Collin",
+    "adresse": "oceane.collin@negovelle.example"
+  },
+  "a": [
+    "isabelle.royer@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Couverture Bellanger : CO-2026-02053",
+  "date": "2026-08-28T17:05:00+02:00",
+  "corps": "Isabelle,\n\nCouverture Bellanger m'a dit avoir versé un acompte de 400 € hier sur sa facture de juin. Tu peux débloquer CO-2026-02053 ?\n\nOcéane",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

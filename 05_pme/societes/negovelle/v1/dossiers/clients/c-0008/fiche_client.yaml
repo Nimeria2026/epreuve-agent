@@ -1,0 +1,28 @@
+# Fiche du client c-0008 de Négovelle. Données FICTIVES.
+code: c-0008
+nom: Garage Guillon
+type: pme
+adresse: 37 parc d'activités de la Gare, 36999 Vaumoreau-sur-Indre (FICTIF)
+telephone: 02 61 91 73 02
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Alain Coulon
+  fonction: responsable des achats
+  courriel: alain.coulon@garage-guillon.example
+- nom: Françoise Jolivet
+  fonction: responsable de maintenance
+  courriel: francoise.jolivet@garage-guillon.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 37 parc d'activités de la Gare, 36999 Vaumoreau-sur-Indre (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2015-11-01'
+limite_encours_euros: 5500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

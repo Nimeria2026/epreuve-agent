@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-isro-020",
+  "de": {
+    "nom": "Fabrice Mercier",
+    "adresse": "fabrice.mercier@negovelle.example"
+  },
+  "a": [
+    "isabelle.royer@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Imprimerie Gay",
+  "date": "2026-08-31T07:50:00+02:00",
+  "corps": "Isabelle,\n\nImprimerie Gay a payé sa facture de mai. Leur commande de détecteurs, CO-2026-02045, part aujourd'hui ?\n\nFabrice",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

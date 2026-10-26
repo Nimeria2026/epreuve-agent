@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-603",
+  "de": {
+    "nom": "Syndic de la Résidence de Brenneval",
+    "adresse": "contact@syndic-de-la-residence-de-brenneval-304.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "À l'attention de Madame Perrin : réclamation",
+  "date": "2026-11-02T08:05:00+01:00",
+  "corps": "Madame Perrin,\n\nVous nous aviez reçus au salon de l'habitat, c'est pourquoi nous vous écrivons. La visite annuelle de la chaufferie, le 5 octobre, a été bâclée : la chaudière collective s'est mise en sécurité deux fois depuis, et les résidents ont eu froid ce week-end. Nous attendons une réponse de Calorelle.\n\nLe syndic de la Résidence de Brenneval, 17 rue des Lilas, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

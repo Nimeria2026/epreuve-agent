@@ -1,0 +1,40 @@
+{
+  "numero": "DV-2026-013",
+  "client": "c-0076",
+  "objet": "Remplacement de six radiateurs des parties communes",
+  "lignes": [
+    {
+      "code": "RAD-01",
+      "libelle": "Radiateur à eau chaude",
+      "quantite": 6,
+      "prix_unitaire_ht_euros": 380,
+      "taux_tva": 10,
+      "montant_ht_euros": 2280
+    },
+    {
+      "code": "TUB-01",
+      "libelle": "Tuyauterie cuivre posée",
+      "quantite": 12,
+      "prix_unitaire_ht_euros": 42,
+      "taux_tva": 10,
+      "montant_ht_euros": 504
+    },
+    {
+      "code": "MO-01",
+      "libelle": "Main-d'œuvre de technicien",
+      "quantite": 6,
+      "prix_unitaire_ht_euros": 58,
+      "taux_tva": 10,
+      "montant_ht_euros": 348
+    }
+  ],
+  "remise_pourcent": 0,
+  "total_ht_euros": 3132,
+  "total_tva_euros": 313.2,
+  "total_ttc_euros": 3445.2,
+  "statut": "envoye",
+  "cree_le": "2026-10-19T10:00:00+02:00",
+  "cree_par": "karim.benali",
+  "envoye_le": "2026-10-20T11:00:00+02:00",
+  "reponse_le": null
+}

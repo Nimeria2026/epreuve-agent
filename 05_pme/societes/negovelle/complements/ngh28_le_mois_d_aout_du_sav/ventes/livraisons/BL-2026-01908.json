@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01908",
+  "commande": "CO-2026-02088",
+  "client": "c-0237",
+  "date_expedition": "2026-07-27",
+  "date_livraison": "2026-07-28",
+  "transport": {
+    "mode": "transporteur",
+    "transporteur": "transports-delorme",
+    "recepisse": "TD-412988"
+  },
+  "adresse": "111 rue du Four, 36999 Vendrigny (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "PLB-11608",
+      "libelle": "Mamelon laiton 12x17",
+      "quantite": 30
+    },
+    {
+      "reference": "ELE-11486",
+      "libelle": "Disjoncteur bipolaire 20 A, courbe C",
+      "quantite": 6
+    }
+  ],
+  "reserves": "sous réserve de déballage",
+  "signataire": "Michel Clerc",
+  "statut": "livre"
+}

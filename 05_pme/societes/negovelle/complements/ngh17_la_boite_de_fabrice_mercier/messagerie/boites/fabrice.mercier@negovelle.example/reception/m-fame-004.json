@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-fame-004",
+  "de": {
+    "nom": "Nathalie Sauvage",
+    "adresse": "nathalie.sauvage@serrurerie-barre.example"
+  },
+  "a": [
+    "fabrice.mercier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Vos prix",
+  "date": "2026-07-05T18:10:00+02:00",
+  "corps": "Bonjour Fabrice,\n\nOn me dit que Menuiserie Boisson paie vos boulons VIS-10179 moins cher que nous. À quel prix les leur vendez-vous ? Et quel serait le nôtre pour 30 sachets ?\n\nMerci,\n\nNathalie Sauvage\nSerrurerie Barre",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

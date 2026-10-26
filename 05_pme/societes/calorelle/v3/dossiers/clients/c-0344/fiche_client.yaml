@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0344"
+nom: "Commune des Hautes-Fresnes"
+type: "collectivite"
+adresse: "107 rue de la Loire, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "contact@commune-des-hautes-fresnes-344.example"
+telephone: "02 61 91 35 81"
+charge_d_affaires: "karim.benali"
+contrat:
+  formule: "Sérénité Plus"
+  depuis: "2021-04-20"
+  mois_anniversaire: "avril"
+  derniere_visite: "2026-04-10"

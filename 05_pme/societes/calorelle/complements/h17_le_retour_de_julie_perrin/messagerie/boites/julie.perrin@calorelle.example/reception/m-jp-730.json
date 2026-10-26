@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-730",
+  "de": {
+    "nom": "Pierre Mercier",
+    "adresse": "pierre.mercier@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Votre devis DV-2026-019",
+  "date": "2026-12-30T17:45:00+01:00",
+  "corps": "Bonjour Madame Perrin,\n\nMme Marchal nous a répondu au sujet de la remise. Nous acceptons tout de même votre devis DV-2026-019, au prix indiqué.\n\nPierre Mercier, 59 rue du Moulin, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

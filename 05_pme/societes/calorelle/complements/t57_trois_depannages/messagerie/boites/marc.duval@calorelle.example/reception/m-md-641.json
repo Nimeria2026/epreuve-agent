@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-641",
+  "de": {
+    "nom": "Sonia Lefèvre",
+    "adresse": "sonia.lefevre@calorelle.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Pompe à chaleur en défaut",
+  "date": "2026-11-09T08:40:00+01:00",
+  "corps": "Marc, une demande de dépannage arrivée ce matin sur contact@.\nSonia\n\n----- Message transféré -----\nIdentifiant : m-ctc-641\nDe : Rémi Fontaine <remi.fontaine@courriel.example>\nÀ : contact@calorelle.example\nCc : (aucun)\nDate : 2026-11-09T08:10:00+01:00\nObjet : Pompe à chaleur en défaut\nPièces jointes : (aucune)\n\nBonjour,\n\nNotre pompe à chaleur est en défaut depuis ce matin : plus de chauffage. Nous avons le contrat Sérénité Plus. Nous sommes à la maison toute la semaine.\n\nRémi Fontaine, 113 rue Haute, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": "m-ctc-641"
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-hm-509",
+  "de": {
+    "nom": "Inès Carpentier",
+    "adresse": "ines.carpentier@courriel.example"
+  },
+  "a": [
+    "helene.marchal@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Candidature : technicienne",
+  "date": "2026-11-11T16:00:00+01:00",
+  "corps": "Madame,\n\nTitulaire d'un BTS fluides, énergies, domotique, je vous propose ma candidature à un poste de technicienne. Mon CV est à votre disposition.\n\nInès Carpentier (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

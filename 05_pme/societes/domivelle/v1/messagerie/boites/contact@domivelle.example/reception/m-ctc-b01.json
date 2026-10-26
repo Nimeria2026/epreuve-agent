@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-b01",
+  "de": {
+    "nom": "Mme Martine Vallée",
+    "adresse": "martine.vallee@mel-perso.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Question sur mon compte rendu de gérance",
+  "date": "2026-05-18T12:08:00+02:00",
+  "corps": "Bonjour,\n\nPouvez-vous me confirmer le montant reversé le 10 mai ?\n\nMerci,\nMme Martine Vallée",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

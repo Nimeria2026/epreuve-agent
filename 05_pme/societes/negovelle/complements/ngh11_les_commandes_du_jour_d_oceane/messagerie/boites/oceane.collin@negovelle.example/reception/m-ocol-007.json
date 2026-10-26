@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ocol-007",
+  "de": {
+    "nom": "Geneviève Toussaint",
+    "adresse": "genevieve.toussaint@transports-hamel.example"
+  },
+  "a": [
+    "oceane.collin@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-06T07:10:00+02:00",
+  "corps": "Bonjour Océane,\n\nMerci de nous livrer au siège :\n- 10 x ENT-11143, Sacs poubelle 30 l, transparents, rouleau de 25\n- 10 x CON-10767, Disque abrasif fibre 115 mm, grain 80, boîte de 25\n\nCordialement,\nGeneviève Toussaint\nTransports Hamel",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

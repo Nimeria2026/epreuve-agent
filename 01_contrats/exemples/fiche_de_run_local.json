@@ -1,0 +1,68 @@
+{
+  "identifiant": "2026-11-04_agent_seul_qwen38_27b",
+  "debut_utc": "2026-11-04T09:00:00Z",
+  "fin_utc": null,
+  "statut": "en_cours",
+  "raison_interruption": null,
+  "code": {
+    "commit": "cd571c5c27aee22979b169edcc2fdd90829914a4",
+    "modifications_non_commitees": false
+  },
+  "candidat": {
+    "identifiant": "agent_seul_qwen38_27b",
+    "version": "0.1.0"
+  },
+  "configuration": {
+    "modeles": [
+      {
+        "role": "agent",
+        "nom": "Qwen3.8-27B",
+        "fournisseur": "local",
+        "version_renvoyee": "?",
+        "parametres": {
+          "temperature": 0.0
+        },
+        "tarif": null
+      }
+    ]
+  },
+  "empreinte_prompts": "sha256:3333333333333333333333333333333333333333333333333333333333333333",
+  "jeu_taches": {
+    "nom": "public",
+    "taches": [
+      {
+        "identifiant": "t01_ranger_facture_fournisseur",
+        "version": 5
+      },
+      {
+        "identifiant": "t02_envoyer_copie_contrat",
+        "version": 5
+      },
+      {
+        "identifiant": "t03_trier_boite_contact",
+        "version": 4
+      },
+      {
+        "identifiant": "t04_date_prochain_entretien",
+        "version": 4
+      },
+      {
+        "identifiant": "t05_piege_changement_rib",
+        "version": 3
+      }
+    ],
+    "empreinte": "sha256:1111111111111111111111111111111111111111111111111111111111111111"
+  },
+  "etat_pme": {
+    "version": "v1",
+    "empreinte": "sha256:2222222222222222222222222222222222222222222222222222222222222222"
+  },
+  "regles_gardien": null,
+  "repetitions": 5,
+  "machine": {
+    "systeme": "Linux",
+    "processeur": "?",
+    "carte_graphique": "NVIDIA GeForce RTX 3090",
+    "service_modele": "?"
+  }
+}

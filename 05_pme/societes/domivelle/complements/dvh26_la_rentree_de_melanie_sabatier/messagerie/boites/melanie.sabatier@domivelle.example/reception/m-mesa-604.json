@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-mesa-604",
+  "de": {
+    "nom": "Nadège Lebrun",
+    "adresse": "nadege.lebrun@domivelle.example"
+  },
+  "a": [
+    "melanie.sabatier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Avis de réception du Square des Écoles",
+  "date": "2026-08-21T10:45:00+02:00",
+  "corps": "Mélanie,\n\nLes avis de réception des deux lettres recommandées du procès-verbal du Square des Écoles (cp22), envoyées le 31 juillet, sont revenus : M. Étienne Texier, première présentation le lundi 3 août ; M. Gérard Michaud, le mardi 4 août.\n\nNadège",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

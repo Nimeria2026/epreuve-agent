@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-821",
+  "de": {
+    "nom": "Syndic de la Résidence du Clos-Fargeau",
+    "adresse": "contact@syndic-de-la-residence-du-clos-fargeau-3.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Réclamation : facture d'entretien",
+  "date": "2026-10-31T08:30:00+01:00",
+  "corps": "Bonjour,\n\nVotre facture d'entretien d'octobre compte deux visites ; une seule a eu lieu. Nous contestons cette facture.\n\nLe syndic de la Résidence du Clos-Fargeau, 35 rue des Lilas (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

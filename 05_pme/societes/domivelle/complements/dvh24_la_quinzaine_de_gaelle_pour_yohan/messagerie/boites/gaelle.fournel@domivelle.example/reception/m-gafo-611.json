@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-gafo-611",
+  "de": {
+    "nom": "Anne Millet",
+    "adresse": "anne.millet@mel-perso.example"
+  },
+  "a": [
+    "gaelle.fournel@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Mes charges des Peupliers",
+  "date": "2026-09-12T09:00:00+02:00",
+  "corps": "Madame,\n\nJ'ai reçu la mise en demeure pour mes charges des Peupliers. Je traverse une période difficile : je vous propose de régler ma dette en six mensualités à partir d'octobre. M. Delmas étant absent, pouvez-vous me donner votre accord ?\n\nAnne Millet, lot 12",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

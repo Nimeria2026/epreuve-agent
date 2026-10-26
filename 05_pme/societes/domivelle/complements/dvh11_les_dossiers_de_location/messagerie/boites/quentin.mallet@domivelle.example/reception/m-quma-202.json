@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-quma-202",
+  "de": {
+    "nom": "Julien Meunier",
+    "adresse": "julien.meunier@mel-perso.example"
+  },
+  "a": [
+    "quentin.mallet@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Candidats pour le c03-07",
+  "date": "2026-06-06T09:40:00+02:00",
+  "corps": "Bonjour,\n\nAvant de choisir, je veux pour chaque candidat ses trois derniers relevés de compte bancaire et une photo d'identité. Merci de les leur demander.\n\nJulien Meunier",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cpt-b01",
+  "de": {
+    "nom": "Outillage du Moulin-Neuf",
+    "adresse": "commandes@outillage-du-moulin-neuf.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Fermeture estivale",
+  "date": "2026-07-02T10:03:00+02:00",
+  "corps": "Bonjour,\n\nNos bureaux seront fermés du 10 au 21 août.\n\nOutillage du Moulin-Neuf",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

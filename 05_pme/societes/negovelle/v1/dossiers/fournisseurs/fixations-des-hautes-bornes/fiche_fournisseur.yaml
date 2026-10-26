@@ -1,0 +1,10 @@
+# Fiche d'un fournisseur de Négovelle. Données FICTIVES.
+nom: Fixations des Hautes-Bornes
+activite: fabricant de chevilles et de systèmes d'ancrage
+adresse: 22 zone industrielle des Brandes, 36999 Saulvenne (FICTIF)
+telephone: 02 61 91 93 29
+courriel_commandes: commandes@fixations-des-hautes-bornes.example
+courriel_facturation: facturation@fixations-des-hautes-bornes.example
+iban: FR76 9999 9411 8885 2302 7215 405 (FICTIF)
+conditions: paiement à 30 jours date de facture
+minimum_de_commande: 300,00 € HT

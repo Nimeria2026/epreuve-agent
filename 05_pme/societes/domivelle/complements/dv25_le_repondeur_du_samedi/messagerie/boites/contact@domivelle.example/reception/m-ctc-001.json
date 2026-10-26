@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-001",
+  "de": {
+    "nom": "Répondeur de l'agence",
+    "adresse": "repondeur@domivelle.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Messages du samedi 6 juin",
+  "date": "2026-06-08T07:30:00+02:00",
+  "corps": "Quatre messages laissés samedi sur le répondeur de l'agence, transcrits automatiquement :\n\n1. Samedi 6 juin, 9 h 12, numéro affiché 06 39 98 41 27 : « Bonjour, Bernard Martin, je suis locataire au 58 rue de la Halle, à Chantebrune. L'eau coule du plafond de la cuisine depuis ce matin, j'ai coupé l'électricité de la pièce. »\n2. Samedi 6 juin, 10 h 47, numéro affiché 06 39 98 65 63 : « Laurent Gomez, 4 rue du Château à Montclavel. Ma chaudière ne démarre plus depuis jeudi, je n'ai plus de chauffage. »\n3. Samedi 6 juin, 14 h 05 : « Odile Masse, copropriétaire à la Résidence Le Bocage. Je n'ai pas reçu l'appel de fonds du troisième trimestre. »\n4. Samedi 6 juin, 16 h 38, numéro affiché 06 39 98 27 64 : « Bonjour, Julien Faure. J'appelle pour le T3 à louer rue Émile-Zola à Chantebrune : est-il encore libre, et puis-je le visiter ? »",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

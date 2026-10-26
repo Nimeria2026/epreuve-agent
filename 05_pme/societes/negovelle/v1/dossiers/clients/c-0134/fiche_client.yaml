@@ -1,0 +1,31 @@
+# Fiche du client c-0134 de Négovelle. Données FICTIVES.
+code: c-0134
+nom: Services techniques de Laubrissac
+type: collectivite
+adresse: 119 allée des Acacias, 36999 Laubrissac (FICTIF)
+telephone: 02 61 91 97 70
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Guy Grondin
+  fonction: responsable des services techniques
+  courriel: guy.grondin@services-techniques-de-laubrissac.example
+- nom: Caroline Delaunay
+  fonction: secrétaire de mairie
+  courriel: caroline.delaunay@services-techniques-de-laubrissac.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 119 allée des Acacias, 36999 Laubrissac (FICTIF)
+- code: L2
+  libelle: dépôt
+  adresse: 25 zone artisanale du Moulin, 36999 Vendrigny (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2018-04-01'
+limite_encours_euros: 1000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

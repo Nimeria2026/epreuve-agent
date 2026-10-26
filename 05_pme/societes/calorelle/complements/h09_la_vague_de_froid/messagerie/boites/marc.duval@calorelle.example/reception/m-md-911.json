@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-911",
+  "de": {
+    "nom": "Sonia Lefèvre",
+    "adresse": "sonia.lefevre@calorelle.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Radiateurs de l'étage",
+  "date": "2026-11-09T18:30:00+01:00",
+  "corps": "Marc, un dépannage arrivé sur contact@.\nSonia\n\n----- Message transféré -----\nIdentifiant : m-ctc-911\nDe : Christophe Guérin <christophe.guerin@courriel.example>\nÀ : contact@calorelle.example\nCc : (aucun)\nDate : 2026-11-09T18:20:00+01:00\nObjet : Radiateurs de l'étage\nPièces jointes : (aucune)\n\nBonjour,\n\nLes radiateurs de l'étage restent froids ; la chaudière gaz fonctionne en bas. Je ne suis disponible qu'à partir de jeudi après-midi.\n\nChristophe Guérin, 116 rue du Moulin (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

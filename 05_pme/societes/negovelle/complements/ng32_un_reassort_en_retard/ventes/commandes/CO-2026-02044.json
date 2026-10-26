@@ -1,0 +1,42 @@
+{
+  "numero": "CO-2026-02044",
+  "client": "c-0023",
+  "reference_client": null,
+  "cree_le": "2026-07-03T09:12:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "48 rue du Four, 36999 Vendrigny (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "FIX-11192",
+      "libelle": "Collier de fixation 28 mm, sachet de 25",
+      "quantite": 30,
+      "prix_tarif_ht_euros": 5.8,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 5.34,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 160.2
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 160.2,
+  "total_tva_euros": 32.04,
+  "total_ttc_euros": 192.24,
+  "statut": "en_attente_reassort",
+  "motif_attente": null,
+  "reliquat_de": "CO-2026-02018",
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T09:12:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": "reliquat de CO-2026-02018"
+    }
+  ]
+}

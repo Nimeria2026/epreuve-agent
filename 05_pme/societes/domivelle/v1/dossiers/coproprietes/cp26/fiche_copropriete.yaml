@@ -1,0 +1,20 @@
+# Fiche de la copropriété cp26. Données FICTIVES.
+copropriete: cp26
+nom: Résidence Le Belvédère
+adresse: 78 rue de la Poste, 18999 Montclavel-sur-Cher (FICTIF)
+lots_principaux: 20
+annee_construction: 1966
+ascenseur: true
+exercice: du lendemain du 31 décembre au 31 décembre
+gestionnaire: Gaëlle Fournel
+conseil_syndical:
+  president: M. Paul Michaud
+  membres:
+  - Mme Camille Jourdan
+  - Mme Josiane Clément
+seuil_mise_en_concurrence: 7 000,00 €
+seuil_consultation_du_conseil_syndical: 500,00 €
+assureur_de_l_immeuble: Assurances Brévalle (FICTIF)
+declaration_des_sinistres: sinistres@assurances-brevalle.example
+immeuble_en_gestion_locative: null
+fonds_de_travaux: 5 % du budget prévisionnel, aux tantièmes généraux, appelé avec chaque provision

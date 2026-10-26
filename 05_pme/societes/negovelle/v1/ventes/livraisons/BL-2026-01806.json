@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01806",
+  "commande": "CO-2026-01957",
+  "client": "c-0108",
+  "date_expedition": "2026-07-01",
+  "date_livraison": "2026-07-01",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "87 rue de la Halle, 36999 Laubrissac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "CON-11176",
+      "libelle": "Disque abrasif à lamelles 150 mm, grain 180, boîte de 50",
+      "quantite": 4
+    },
+    {
+      "reference": "PLB-10506",
+      "libelle": "Collier de fixation tube 16 mm, sachet de 25",
+      "quantite": 3
+    }
+  ],
+  "reserves": null,
+  "signataire": "Éric Mignot",
+  "statut": "livre"
+}

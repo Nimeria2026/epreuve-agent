@@ -1,0 +1,28 @@
+# Fiche du client c-0131 de Négovelle. Données FICTIVES.
+code: c-0131
+nom: Maurin Travaux publics
+type: entreprise
+adresse: 21 zone d'activités des Grands Prés, 36999 Fontclavier (FICTIF)
+telephone: 02 61 91 95 64
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Hervé Mignot
+  fonction: conducteur de travaux
+  courriel: herve.mignot@maurin-travaux-publics.example
+- nom: Isabelle Barbe
+  fonction: responsable des achats
+  courriel: isabelle.barbe@maurin-travaux-publics.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 21 zone d'activités des Grands Prés, 36999 Fontclavier (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2011-05-01'
+limite_encours_euros: 13500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

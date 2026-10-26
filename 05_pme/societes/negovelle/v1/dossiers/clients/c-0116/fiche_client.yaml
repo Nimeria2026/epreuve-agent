@@ -1,0 +1,28 @@
+# Fiche du client c-0116 de Négovelle. Données FICTIVES.
+code: c-0116
+nom: Plâtrerie Chatelain
+type: artisan
+adresse: 1 allée des Acacias, 36999 Vaumoreau-sur-Indre (FICTIF)
+telephone: 02 61 91 76 60
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Robert Durieux
+  fonction: gérant
+  courriel: robert.durieux@platrerie-chatelain.example
+- nom: Brigitte Cazenave
+  fonction: conjointe collaboratrice
+  courriel: brigitte.cazenave@platrerie-chatelain.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 1 allée des Acacias, 36999 Vaumoreau-sur-Indre (FICTIF)
+categorie_remise: A
+delai_paiement: comptant
+client_depuis: '2026-01-08'
+limite_encours_euros: 2000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

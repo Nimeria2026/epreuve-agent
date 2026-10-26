@@ -1,0 +1,79 @@
+{
+  "numero": "CO-2026-01833",
+  "client": "c-0275",
+  "reference_client": "BC-6954",
+  "cree_le": "2026-06-23T09:10:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "4 zone d'activités des Grands Prés, 36999 Vaumoreau-sur-Indre (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-11069",
+      "libelle": "Câble R2V 3G 2,5 mm², couronne de 100 m",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 102.5,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 94.3,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 471.5
+    },
+    {
+      "reference": "ELE-12858",
+      "libelle": "Projecteur LED 20 W, sans détecteur",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 101.25,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 93.15,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 93.15
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 564.65,
+  "total_tva_euros": 112.93,
+  "total_ttc_euros": 677.58,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01682"
+  ],
+  "facture": "FC-2026-1254",
+  "historique": [
+    {
+      "date": "2026-06-23T09:10:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-23T09:12:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-24T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01682"
+    },
+    {
+      "date": "2026-06-24T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01682"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1254"
+    }
+  ]
+}

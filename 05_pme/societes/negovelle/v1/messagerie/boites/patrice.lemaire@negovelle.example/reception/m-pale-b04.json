@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-pale-b04",
+  "de": {
+    "nom": "Corinne Vidal",
+    "adresse": "corinne.vidal@negovelle.example"
+  },
+  "a": [
+    "patrice.lemaire@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commandes express",
+  "date": "2026-06-22T16:22:00+02:00",
+  "corps": "Bonjour,\n\nRappel : une commande express se valide avant 15 h.\n\nCorinne",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

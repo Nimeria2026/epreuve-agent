@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-isro-006",
+  "de": {
+    "nom": "Océane Collin",
+    "adresse": "oceane.collin@negovelle.example"
+  },
+  "a": [
+    "isabelle.royer@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Électricité Chartier en attente",
+  "date": "2026-07-03T10:35:00+02:00",
+  "corps": "Isabelle,\n\nCO-2026-02043 d'Électricité Chartier est en attente de déblocage : encours dépassé. J'ai proposé au client de régler sa facture de mai ou une livraison partielle.\n\nOcéane",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

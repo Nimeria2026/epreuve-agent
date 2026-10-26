@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-isro-002",
+  "de": {
+    "nom": "Bruno Castaing",
+    "adresse": "bruno.castaing@negovelle.example"
+  },
+  "a": [
+    "isabelle.royer@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "RE: Charpente Coulon : CO-2026-02048",
+  "date": "2026-08-24T15:12:00+02:00",
+  "corps": "Isabelle,\n\nTu as mon accord écrit pour débloquer la commande CO-2026-02048 de Charpente Coulon, 1 096,06 € TTC.\n\nBruno",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,12 @@
+# Fiche du propriétaire p-0236, mandant de Domivelle. Données FICTIVES.
+code: p-0236
+nom: Mme Caroline Mathieu
+adresse: 18 rue du Lavoir, 18999 Montclavel-sur-Cher (FICTIF)
+courriel: caroline.mathieu@messagerie.example
+telephone: 06 39 98 92 50
+iban: FR76 9999 9639 2687 4932 3513 007 (FICTIF)
+comptes_rendus: par courrier
+lots:
+- c24-04
+- c28-11
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

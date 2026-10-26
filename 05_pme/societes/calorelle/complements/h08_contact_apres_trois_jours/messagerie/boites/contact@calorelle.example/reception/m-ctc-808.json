@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-808",
+  "de": {
+    "nom": "Hélène Legrand",
+    "adresse": "helene.legrand@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Réclamation",
+  "date": "2026-10-30T10:55:00+01:00",
+  "corps": "Bonjour,\n\nLors de l'entretien du 22 octobre, votre technicien a laissé des traces de suie sur la moquette de mon couloir. Je demande qu'elle soit nettoyée à vos frais, et j'attends qu'on me rappelle.\n\nHélène Legrand (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

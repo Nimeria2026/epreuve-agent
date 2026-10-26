@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-soau-b02",
+  "de": {
+    "nom": "M. Daniel Moreau",
+    "adresse": "daniel.moreau@messagerie.example"
+  },
+  "a": [
+    "solene.audoin@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Question sur mon compte rendu de gérance",
+  "date": "2026-05-27T10:48:00+02:00",
+  "corps": "Bonjour,\n\nPouvez-vous me confirmer le montant reversé le 10 mai ?\n\nMerci,\nM. Daniel Moreau",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

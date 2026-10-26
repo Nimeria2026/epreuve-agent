@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-005",
+  "de": {
+    "nom": "Roger Valentin",
+    "adresse": "roger.valentin@menuiserie-besson.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-06T06:45:00+02:00",
+  "corps": "Bonjour Aurélie,\n\nVoici notre commande, à livrer au siège :\n- 20 x CON-10302, Colle néoprène, tube de 125 ml\n- 6 x OUT-12507, Spatule à enduire 150 mm\n\nMerci,\nRoger Valentin\nMenuiserie Besson",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

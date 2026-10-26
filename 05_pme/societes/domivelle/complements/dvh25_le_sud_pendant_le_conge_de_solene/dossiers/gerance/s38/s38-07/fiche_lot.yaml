@@ -1,0 +1,19 @@
+# Fiche du lot s38-07. Données FICTIVES.
+lot: s38-07
+adresse: 44 rue du Moulin, 18999 Sorlay-le-Haut (FICTIF)
+type: T2
+surface_m2: 50
+locataire:
+  nom: Mme Laure Rey
+  courriel: laure.rey@mel-perso.example
+  telephone: 06 39 98 76 09
+  entree: '2014-09-04'
+bail:
+  signature: '2014-09-04'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 430,00 €
+  depot_de_garantie: 337,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T2
+dpe:
+  classe: E

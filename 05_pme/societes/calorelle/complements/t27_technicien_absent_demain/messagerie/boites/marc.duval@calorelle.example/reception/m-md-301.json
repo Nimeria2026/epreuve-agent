@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-301",
+  "de": {
+    "nom": "Thomas Girard",
+    "adresse": "thomas.girard@calorelle.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Absent demain",
+  "date": "2026-11-02T07:48:00+01:00",
+  "corps": "Salut Marc,\n\nJe sors de chez le médecin : arrêt maladie jusqu'à mardi soir, je ne pourrai pas assurer mes interventions de demain. Je reprends mercredi.\n\nThomas (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

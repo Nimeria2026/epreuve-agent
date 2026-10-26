@@ -1,0 +1,24 @@
+# Fiche du lot n01-03. Données FICTIVES.
+lot: n01-03
+adresse: 41 rue des Vignes, 18999 Vernillac (FICTIF)
+type: T3
+surface_m2: 69
+locataire:
+  nom: Mme Agnès Fournier
+  courriel: agnes.fournier@boite-postale.example
+  telephone: 06 39 98 99 57
+  entree: '2015-09-22'
+bail:
+  signature: '2015-09-22'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 553,00 €
+  depot_de_garantie: 442,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T2
+dpe:
+  classe: C
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

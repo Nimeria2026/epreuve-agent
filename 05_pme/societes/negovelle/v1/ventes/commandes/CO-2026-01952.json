@@ -1,0 +1,62 @@
+{
+  "numero": "CO-2026-01952",
+  "client": "c-0018",
+  "reference_client": "BC-2472",
+  "cree_le": "2026-06-30T09:10:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "37 parc d'activités de la Gare, 36999 Saulvenne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "PRO-11894",
+      "libelle": "Tee-shirt de travail gris, taille XXL",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 13.4,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 12.86,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 64.3
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 79.3,
+  "total_tva_euros": 15.86,
+  "total_ttc_euros": 95.16,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01801"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-06-30T09:10:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-30T09:12:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-01T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01801"
+    },
+    {
+      "date": "2026-07-01T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01801"
+    }
+  ]
+}

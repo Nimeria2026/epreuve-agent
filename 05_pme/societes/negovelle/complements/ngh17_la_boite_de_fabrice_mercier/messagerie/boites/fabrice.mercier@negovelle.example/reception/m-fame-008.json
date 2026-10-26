@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-fame-008",
+  "de": {
+    "nom": "Vincent Mignot",
+    "adresse": "vincent.mignot@entreprise-bodin.example"
+  },
+  "a": [
+    "fabrice.mercier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture FC-2026-1443",
+  "date": "2026-07-06T07:35:00+02:00",
+  "corps": "Bonjour Fabrice,\n\nNous avons reçu la facture FC-2026-1443, vente au comptoir du 30 juin, 259,14 € : personne chez nous n'est passé au comptoir ce jour-là. Pouvez-vous vérifier ?\n\nMerci,\n\nVincent Mignot\nEntreprise Bodin",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

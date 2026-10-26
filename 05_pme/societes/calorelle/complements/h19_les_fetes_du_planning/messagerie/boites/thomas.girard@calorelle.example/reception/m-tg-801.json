@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-tg-801",
+  "de": {
+    "nom": "Julien Girard",
+    "adresse": "julien.girard@courriel.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Plus de chauffage",
+  "date": "2026-12-17T19:30:00+01:00",
+  "corps": "Bonjour,\n\nNotre chaudière gaz s'est arrêtée ce soir, plus de chauffage. Nous avons le contrat Sérénité Plus.\n\nJulien Girard, 46 chemin des Vignes (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

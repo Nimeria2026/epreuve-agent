@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-mare-b05",
+  "de": {
+    "nom": "René Crozet",
+    "adresse": "rene.crozet@entreprise-drouet.example"
+  },
+  "a": [
+    "manon.rey@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Horaires du comptoir cet été",
+  "date": "2026-06-22T08:28:00+02:00",
+  "corps": "Bonjour,\n\nLe comptoir reste-t-il ouvert en août ?\n\nRené Crozet",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

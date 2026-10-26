@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0217"
+nom: "Bernadette Lemoine"
+type: "particulier"
+adresse: "21 rue du Moulin, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "bernadette.lemoine@courriel.example"
+telephone: "06 39 98 42 17"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité Plus"
+  depuis: "2022-01-10"
+  mois_anniversaire: "janvier"
+  derniere_visite: "2026-01-19"

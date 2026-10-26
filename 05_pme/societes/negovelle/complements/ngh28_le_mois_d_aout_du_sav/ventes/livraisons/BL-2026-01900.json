@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01900",
+  "commande": "CO-2026-02080",
+  "client": "c-0061",
+  "date_expedition": "2026-07-21",
+  "date_livraison": "2026-07-22",
+  "transport": {
+    "mode": "transporteur",
+    "transporteur": "transports-delorme",
+    "recepisse": "TD-411899"
+  },
+  "adresse": "105 rue du Pont, 36999 Mérolles-en-Brenne (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "VIS-12637",
+      "libelle": "Vis à bois tête fraisée 4x80, zinguée, boîte de 500",
+      "quantite": 20
+    },
+    {
+      "reference": "ENT-11347",
+      "libelle": "Seau rectangulaire 20 l",
+      "quantite": 10
+    }
+  ],
+  "reserves": null,
+  "signataire": "Claude Chatelain",
+  "statut": "livre"
+}

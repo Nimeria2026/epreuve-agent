@@ -1,0 +1,59 @@
+{
+  "numero": "BL-2026-01835",
+  "commande": "CO-2026-01986",
+  "client": "c-0301",
+  "date_expedition": "2026-07-02",
+  "date_livraison": "2026-07-02",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "13 zone d'activités des Grands Prés, 36999 Corvalet (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "ELE-11388",
+      "libelle": "Câble téléphonique 2 paire(s), couronne de 100 m",
+      "quantite": 12
+    },
+    {
+      "reference": "ELE-13438",
+      "libelle": "Tube LED T8 1500 mm, 22 W",
+      "quantite": 3
+    },
+    {
+      "reference": "OUT-11118",
+      "libelle": "Marteau de maçon 600 g",
+      "quantite": 3
+    },
+    {
+      "reference": "PLB-12253",
+      "libelle": "Raccord à sertir droit 14 mm",
+      "quantite": 1
+    },
+    {
+      "reference": "PLB-12891",
+      "libelle": "Tube PER 20 mm, gainé rouge, couronne de 25 m",
+      "quantite": 5
+    },
+    {
+      "reference": "PRO-10220",
+      "libelle": "Bottes de sécurité fourrées S5, pointure 45",
+      "quantite": 4
+    },
+    {
+      "reference": "PRO-11502",
+      "libelle": "Pantalon de travail haute visibilité orange, taille 42",
+      "quantite": 3
+    },
+    {
+      "reference": "VIS-10138",
+      "libelle": "Boulon tête hexagonale M10x80, inox A2, sachet de 25",
+      "quantite": 3
+    }
+  ],
+  "reserves": null,
+  "signataire": "Maxime Combes",
+  "statut": "livre"
+}

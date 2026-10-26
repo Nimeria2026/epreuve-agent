@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0039"
+nom: "Michel Girard"
+type: "particulier"
+adresse: "50 rue des Lilas, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "michel.girard@courriel.example"
+telephone: "06 39 98 50 08"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2024-11-05"
+  mois_anniversaire: "novembre"
+  derniere_visite: "2025-11-21"

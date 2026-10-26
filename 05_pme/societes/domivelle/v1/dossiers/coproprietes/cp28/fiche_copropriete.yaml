@@ -1,0 +1,20 @@
+# Fiche de la copropriété cp28. Données FICTIVES.
+copropriete: cp28
+nom: Résidence Le Clos des Forges
+adresse: 53 allée des Acacias, 18999 Montclavel-sur-Cher (FICTIF)
+lots_principaux: 22
+annee_construction: 1961
+ascenseur: true
+exercice: du lendemain du 31 décembre au 31 décembre
+gestionnaire: Gaëlle Fournel
+conseil_syndical:
+  president: Mme Alice Vasseur
+  membres:
+  - M. François Poulain
+  - M. Olivier Dumas
+seuil_mise_en_concurrence: 5 000,00 €
+seuil_consultation_du_conseil_syndical: 1 000,00 €
+assureur_de_l_immeuble: Assurances Brévalle (FICTIF)
+declaration_des_sinistres: sinistres@assurances-brevalle.example
+immeuble_en_gestion_locative: c07
+fonds_de_travaux: 5 % du budget prévisionnel, aux tantièmes généraux, appelé avec chaque provision

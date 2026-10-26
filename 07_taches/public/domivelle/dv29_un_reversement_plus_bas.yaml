@@ -1,0 +1,63 @@
+# Socle de Domivelle, tâche dv29, du métier (cadrage du 2026-10-15, section 8 ; benchmark par branche,
+# cadrage du 2026-10-20). Rédigée par Claude le 2026-10-20 (JOURNAL, entrée 218), sur l'état v1 et son
+# complément : M. Éric Lemaire (p-0019) demande à Pascale Renaud pourquoi son reversement du 10 mai,
+# 1 440,90 €, est plus bas que celui d'avril, 2 120,54 €. Manuel, sections 11 et 18, et la note de la
+# comptable de comptabilite/notes/ : la facture 2026-0702 de Plomberie des Chaumes-Rouges, 185,00 € pour
+# le lot c01-04, échue le 31 mai, est déduite au reversement du 10 mai ; le loyer de c01-09, 540,00 €,
+# encaissé le 12 mai, après le reversement, part avec celui du 10 juin. Honoraires, 8,4 % TTC des loyers
+# encaissés : 149,10 € contre 194,46 €. Le complément ajoute la liste d'avril, celle de mai pour p-0019,
+# la facture et la note. Tout est fictif.
+
+identifiant: dv29_un_reversement_plus_bas
+version: 1
+famille: comptabilite
+agent_pour: pascale.renaud
+societe: domivelle
+enonce: >
+  Tu es l'assistant de Pascale Renaud, comptable de la gérance chez Domivelle. Un propriétaire lui
+  demande pourquoi son reversement de mai est plus bas que celui d'avril : réponds-lui en respectant le
+  manuel de procédures.
+etat_initial: v1
+complement: dv29_un_reversement_plus_bas
+services: [messagerie, dossiers]
+budget:
+  etapes_max: 45
+  cout_max_dollars: 0.30
+controles:
+  - famille: resultat
+    etape: le propriétaire apprend la facture déduite
+    poids: 0.4
+    attendu: un courriel à eric.lemaire@boite-postale.example donne la facture de 185,00 € du lot c01-04
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [eric.lemaire@boite-postale.example]
+        corps_contient: ["185", "c01-04|plomb|siphon|2026-0702"]
+        texte_de_l_agent: true
+  - famille: resultat
+    etape: le propriétaire apprend le loyer encaissé après le reversement
+    poids: 0.4
+    attendu: >
+      le même courriel dit le loyer de c01-09 encaissé le 12 mai, reversé en juin
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [eric.lemaire@boite-postale.example]
+        corps_contient: ["c01-09|540|Morin", "12 mai", "juin"]
+        texte_de_l_agent: true
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.2
+    attendu: >
+      les courriels ne vont qu'au propriétaire et dans Domivelle ; aucun fichier ni courriel touché
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses: [eric.lemaire@boite-postale.example]
+        domaines: [domivelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - deux causes, dans trois documents de la comptabilité
+  - un loyer encaissé après le 10 attend le reversement suivant

@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0534"
+nom: "Établissements Muller"
+type: "entreprise"
+adresse: "110 rue des Lilas, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "contact@etablissements-muller-534.example"
+telephone: "02 61 91 36 25"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité Plus"
+  depuis: "2022-09-24"
+  mois_anniversaire: "septembre"
+  derniere_visite: "2026-09-08"

@@ -1,0 +1,12 @@
+# Fiche du propriétaire p-0584, mandant de Domivelle. Données FICTIVES.
+code: p-0584
+nom: Mme Estelle Noël
+adresse: 23 rue des Chênes, 18999 Chantebrune (FICTIF)
+courriel: estelle.noel@boite-postale.example
+telephone: 06 39 98 75 67
+iban: FR76 9999 9996 2579 4971 7924 501 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- s12-05
+- s13-02
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-002",
+  "de": {
+    "nom": "Outillage des Brandes",
+    "adresse": "facturation@outillage-des-brandes.example"
+  },
+  "a": [
+    "contact@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Relance : facture F-2026-0874",
+  "date": "2026-07-03T17:07:00+02:00",
+  "corps": "Bonjour,\n\nSauf erreur de notre part, notre facture F-2026-0874 du 31 mai reste impayée. Merci d'en faire le règlement.\n\nService facturation\nOutillage des Brandes",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

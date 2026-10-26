@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-010",
+  "de": {
+    "nom": "Étiquettes Pro Express",
+    "adresse": "offres@etiquettes-pro-express.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Vos étiquettes d'expédition à prix cassés",
+  "date": "2026-07-06T07:50:00+02:00",
+  "corps": "Bonjour,\n\nNos étiquettes thermiques sont 30 % moins chères que celles de votre fournisseur actuel. Répondez à ce courriel pour recevoir un échantillon.\n\nL'équipe Étiquettes Pro Express",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

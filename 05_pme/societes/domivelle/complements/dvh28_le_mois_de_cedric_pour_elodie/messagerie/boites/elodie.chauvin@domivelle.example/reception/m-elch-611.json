@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-elch-611",
+  "de": {
+    "nom": "Quentin Mallet",
+    "adresse": "quentin.mallet@domivelle.example"
+  },
+  "a": [
+    "elodie.chauvin@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "État des lieux de sortie, c09-02",
+  "date": "2026-10-07T16:40:00+02:00",
+  "corps": "Élodie,\n\nL'état des lieux de sortie de Mme Jacqueline Boisseau, lot c09-02, s'est fait le lundi 5 octobre : une brûlure de la moquette de la chambre 1, qui n'était pas à l'entrée. Le devis de Peinture des Rouches, 260,00 €, est rangé dans le dossier du lot avec les états des lieux.\n\nQuentin",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

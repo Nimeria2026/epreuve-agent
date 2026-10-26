@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-713",
+  "de": {
+    "nom": "Christophe Guérin",
+    "adresse": "christophe.guerin@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Résiliation de mon contrat",
+  "date": "2026-12-18T09:15:00+01:00",
+  "corps": "Bonjour,\n\nJe vends ma maison au printemps. Par ce courriel, je résilie mon contrat d'entretien Sérénité. Pouvez-vous me confirmer sa date de fin ?\n\nChristophe Guérin, 116 rue du Moulin, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

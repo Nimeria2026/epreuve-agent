@@ -1,0 +1,153 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Devis",
+  "description": "Un devis de Calorelle à un client, tel que le service facturation de la PME le garde (étape 5, tranche 5) : ses lignes prises au tarif, sa remise, ses totaux calculés par le service, son statut. Données fictives.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "numero",
+    "client",
+    "objet",
+    "lignes",
+    "remise_pourcent",
+    "total_ht_euros",
+    "total_tva_euros",
+    "total_ttc_euros",
+    "statut",
+    "cree_le",
+    "cree_par",
+    "envoye_le",
+    "reponse_le"
+  ],
+  "properties": {
+    "numero": {
+      "type": "string",
+      "pattern": "^DV-[0-9]{4}-[0-9]{3}$",
+      "description": "Par exemple DV-2026-013."
+    },
+    "client": {
+      "type": "string",
+      "pattern": "^c-[0-9]{4}$",
+      "description": "Code du client, celui de sa fiche."
+    },
+    "objet": {
+      "type": "string",
+      "minLength": 1
+    },
+    "lignes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "code",
+          "libelle",
+          "quantite",
+          "prix_unitaire_ht_euros",
+          "taux_tva",
+          "montant_ht_euros"
+        ],
+        "properties": {
+          "code": {
+            "type": "string",
+            "pattern": "^[A-Z]{2,4}-[0-9]{2,3}$",
+            "description": "Code de la ligne du tarif."
+          },
+          "libelle": {
+            "type": "string",
+            "minLength": 1
+          },
+          "quantite": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "description": "Au centième près."
+          },
+          "prix_unitaire_ht_euros": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "description": "Pris au tarif par le service."
+          },
+          "taux_tva": {
+            "type": "number",
+            "enum": [
+              5.5,
+              10,
+              20
+            ],
+            "description": "En pour cent, choisi par la personne qui chiffre le devis."
+          },
+          "montant_ht_euros": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "description": "Quantité fois prix unitaire, arrondi au centime, avant remise."
+          }
+        }
+      }
+    },
+    "remise_pourcent": {
+      "type": "number",
+      "minimum": 0,
+      "exclusiveMaximum": 100,
+      "description": "Remise sur chaque ligne, en pour cent ; 0 sans remise."
+    },
+    "total_ht_euros": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "description": "Après remise."
+    },
+    "total_tva_euros": {
+      "type": "number",
+      "minimum": 0
+    },
+    "total_ttc_euros": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "statut": {
+      "type": "string",
+      "enum": [
+        "brouillon",
+        "envoye",
+        "accepte",
+        "refuse",
+        "abandonne"
+      ],
+      "description": "Un brouillon abandonné reste gardé : on ne supprime aucun document."
+    },
+    "cree_le": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Heure de la PME, au format RFC 3339 avec le décalage horaire."
+    },
+    "cree_par": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Identifiant de la personne servie quand le devis a été créé."
+    },
+    "envoye_le": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date-time"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Quand l'envoi a été enregistré ; null pour un brouillon."
+    },
+    "reponse_le": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date-time"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Quand l'acceptation ou le refus a été enregistré ; null sinon."
+    }
+  }
+}

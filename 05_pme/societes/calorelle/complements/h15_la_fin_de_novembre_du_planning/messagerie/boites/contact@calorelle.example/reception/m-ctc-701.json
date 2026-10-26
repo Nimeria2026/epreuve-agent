@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-701",
+  "de": {
+    "nom": "Gilles Robin",
+    "adresse": "gilles.robin@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Pompe à chaleur en panne",
+  "date": "2026-11-26T15:40:00+01:00",
+  "corps": "Bonjour,\n\nNotre pompe à chaleur s'est mise en défaut cet après-midi et ne redémarre plus ; la maison refroidit. Nous avons le contrat Sérénité Plus. Je suis chez moi tous les jours.\n\nGilles Robin\n76 allée des Peupliers, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

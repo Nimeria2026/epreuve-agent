@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-nabr-004",
+  "de": {
+    "nom": "Sophie Salmon",
+    "adresse": "sophie.salmon@valentin-renovation.example"
+  },
+  "a": [
+    "nathalie.brunet@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande CO-2026-01989 incomplète",
+  "date": "2026-07-03T16:20:00+02:00",
+  "corps": "Bonjour,\n\nNous avons reçu ce vendredi notre commande CO-2026-01989 : les vis sont là, mais il manque les 2 ciseaux à bois de 24 mm. Pouvez-vous vérifier ?\n\nSophie Salmon\nValentin Rénovation",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-tg-806",
+  "de": {
+    "nom": "Julien Girard",
+    "adresse": "julien.girard@courriel.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "RE: Plus de chauffage",
+  "date": "2026-12-21T08:10:00+01:00",
+  "corps": "Bonjour,\n\nToujours pas de chauffage, et personne ne nous a répondu. Quand venez-vous ?\n\nJulien Girard, 46 chemin des Vignes (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

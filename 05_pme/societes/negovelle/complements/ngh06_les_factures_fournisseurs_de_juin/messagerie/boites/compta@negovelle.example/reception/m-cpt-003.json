@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-003",
+  "de": {
+    "nom": "Protection de la Garenne",
+    "adresse": "facturation@protection-de-la-garenne.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture F41106",
+  "date": "2026-06-26T10:15:00+02:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-jointe notre facture F41106 du 26 juin 2026, pour votre commande CA-2026-0316 :\n- PRO-10049, Bottes de sécurité PVC S5, pointure 41 : 24 x 25,49 € HT = 611,76 €\n- PRO-11029, Gants de manutention hiver, taille 7 : 300 x 1,35 € HT = 405,00 €\n- PRO-11412, Masque FFP3, boîte de 20 : 40 x 13,89 € HT = 555,60 €\n- PRO-11535, Pantalon de travail haute visibilité orange, taille 52 : 60 x 15,70 € HT = 942,00 €\n- PRO-12090, Veste de travail softshell noire, taille S : 2 x 46,67 € HT = 93,34 €\n\nTotal HT : 2 607,70 € ; TVA 20 % : 521,54 € ; total TTC : 3 129,24 €. Paiement à 60 jours date de facture.\n\nService facturation\nProtection de la Garenne",
+  "pieces_jointes": [
+    {
+      "nom": "F41106.pdf",
+      "fichier": "pieces/m-cpt-003/F41106.pdf",
+      "taille_octets": 800
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

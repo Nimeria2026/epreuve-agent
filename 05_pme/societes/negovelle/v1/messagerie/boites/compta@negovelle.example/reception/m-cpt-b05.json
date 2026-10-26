@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cpt-b05",
+  "de": {
+    "nom": "Électroportatif des Brandes",
+    "adresse": "commandes@electroportatif-des-brandes.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Nouveau tarif au 1er septembre",
+  "date": "2026-06-18T12:57:00+02:00",
+  "corps": "Bonjour,\n\nVous trouverez notre tarif de rentrée dans notre prochain envoi.\n\nÉlectroportatif des Brandes",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

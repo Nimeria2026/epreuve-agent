@@ -1,0 +1,10 @@
+# Fiche d'un fournisseur de Négovelle. Données FICTIVES.
+nom: Sanitaire des Grands Champs
+activite: fabricant de raccords et de robinetterie
+adresse: 31 parc d'activités de la Gare, 36999 Corvalet (FICTIF)
+telephone: 02 61 91 95 33
+courriel_commandes: commandes@sanitaire-des-grands-champs.example
+courriel_facturation: facturation@sanitaire-des-grands-champs.example
+iban: FR76 9999 9495 9926 0296 5572 449 (FICTIF)
+conditions: paiement à 45 jours fin de mois
+minimum_de_commande: 500,00 € HT

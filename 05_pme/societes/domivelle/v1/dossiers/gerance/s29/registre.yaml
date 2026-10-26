@@ -1,0 +1,95 @@
+# Registre des lots en gestion, s29. Données FICTIVES.
+immeuble: s29
+nature: groupe de maisons
+adresse: 10 rue de l'Église, 18999 Sorlay-le-Haut (FICTIF)
+secteur: sud
+gestionnaire: Solène Audoin
+distance_agence_km: 21
+annee_construction: 2001
+gardien: false
+copropriete_du_syndic: null
+lots:
+- lot: s29-01
+  type: maison T3
+  surface_m2: 70
+  proprietaire: p-0682
+  locataire: Mme Julie Robin
+  entree: '2014-10-27'
+  loyer_hors_charges: 593,00 €
+  provision_sur_charges: 6,00 €
+  depot_de_garantie: 465,00 €
+  revision: chaque 27 octobre
+  trimestre_irl: T2
+  dpe: D
+- lot: s29-02
+  type: maison T4
+  surface_m2: 87
+  proprietaire: p-0683
+  locataire: Mme Alice Rey
+  entree: '2018-12-06'
+  loyer_hors_charges: 762,00 €
+  provision_sur_charges: 16,00 €
+  depot_de_garantie: 649,00 €
+  revision: chaque 6 décembre
+  trimestre_irl: T3
+  dpe: D
+- lot: s29-03
+  type: maison T3
+  surface_m2: 80
+  proprietaire: p-0683
+  locataire: Mme Pauline Lainé
+  entree: '2012-09-12'
+  loyer_hors_charges: 758,00 €
+  provision_sur_charges: 0,00 €
+  depot_de_garantie: 572,00 €
+  revision: chaque 12 septembre
+  trimestre_irl: T2
+  dpe: D
+- lot: s29-04
+  type: maison T5
+  surface_m2: 121
+  proprietaire: p-0684
+  locataire: M. Paul Charpentier
+  entree: '2025-06-23'
+  loyer_hors_charges: 1 128,00 €
+  provision_sur_charges: 15,00 €
+  depot_de_garantie: 1 128,00 €
+  revision: chaque 23 juin
+  trimestre_irl: T1
+  dpe: E
+- lot: s29-05
+  type: maison T4
+  surface_m2: 102
+  proprietaire: p-0685
+  locataire: Mme Aurélie Huet
+  entree: '2018-07-24'
+  loyer_hors_charges: 903,00 €
+  provision_sur_charges: 5,00 €
+  depot_de_garantie: 769,00 €
+  revision: chaque 24 juillet
+  trimestre_irl: T1
+  dpe: D
+- lot: s29-06
+  type: maison T5
+  surface_m2: 120
+  proprietaire: p-0656
+  locataire: M. Marcel Mouton
+  entree: '2015-12-29'
+  loyer_hors_charges: 975,00 €
+  provision_sur_charges: 2,00 €
+  depot_de_garantie: 780,00 €
+  revision: chaque 29 décembre
+  trimestre_irl: T3
+  dpe: D
+- lot: s29-07
+  type: maison T5
+  surface_m2: 116
+  proprietaire: p-0649
+  locataire: Mme Denise Leclerc
+  entree: '2018-09-24'
+  loyer_hors_charges: 1 050,00 €
+  provision_sur_charges: 11,00 €
+  depot_de_garantie: 894,00 €
+  revision: chaque 24 septembre
+  trimestre_irl: T2
+  dpe: D

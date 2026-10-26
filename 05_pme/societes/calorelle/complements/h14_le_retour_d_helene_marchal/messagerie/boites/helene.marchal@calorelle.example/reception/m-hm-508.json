@@ -1,0 +1,20 @@
+{
+  "identifiant": "m-hm-508",
+  "de": {
+    "nom": "Sonia Lefèvre",
+    "adresse": "sonia.lefevre@calorelle.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [
+    "helene.marchal@calorelle.example"
+  ],
+  "objet": "TR: Réclamation après le dépannage du 6 novembre",
+  "date": "2026-11-10T09:20:00+01:00",
+  "corps": "Julie, une réclamation pour toi ; Hélène en copie, comme le veut le manuel.\nSonia\n\n----- Message transféré -----\nDe : Aurélie Garnier <aurelie.garnier@courriel.example>\nÀ : contact@calorelle.example\nDate : 2026-11-09T18:30:00+01:00\nObjet : Réclamation après le dépannage du 6 novembre\n\nBonjour,\n\nVotre technicien est venu le 6 novembre pour ma chaudière, qui s'est remise en défaut le lendemain. J'attends qu'on revienne la réparer.\n\nAurélie Garnier (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

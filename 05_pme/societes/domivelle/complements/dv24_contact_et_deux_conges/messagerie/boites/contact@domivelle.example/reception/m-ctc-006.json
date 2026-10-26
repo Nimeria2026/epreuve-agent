@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-006",
+  "de": {
+    "nom": "Diag Express",
+    "adresse": "offres@diag-express.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Vos diagnostics à prix réduit",
+  "date": "2026-06-08T08:12:00+02:00",
+  "corps": "Bonjour,\n\nDiagnostics immobiliers en 48 heures, -20 % pour les administrateurs de biens jusqu'au 30 juin.\n\nL'équipe Diag Express",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-quma-002",
+  "de": {
+    "nom": "Cédric Maillard",
+    "adresse": "cedric.maillard@domivelle.example"
+  },
+  "a": [
+    "quentin.mallet@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Fin de préavis, lot c01-11",
+  "date": "2026-06-05T15:10:00+02:00",
+  "corps": "Quentin,\n\nM. André Roy, locataire du lot c01-11, a donné congé par lettre recommandée reçue le samedi 23 mai : préavis de trois mois, qui finit le dimanche 23 août. Je lui ai écrit la date de fin, ainsi qu'au propriétaire. À toi pour l'état des lieux de sortie.\n\nCédric",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

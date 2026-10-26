@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-009",
+  "de": {
+    "nom": "Fabienne Tissier",
+    "adresse": "fabienne.tissier@boite-postale.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Cave inondée, Résidence Les Jardins de la Halle",
+  "date": "2026-06-04T07:30:00+02:00",
+  "corps": "Bonjour,\n\nLa cave commune de la Résidence Les Jardins de la Halle est inondée : l'eau arrive d'un tuyau au plafond et le niveau monte.\n\nFabienne Tissier, lot 1",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,62 @@
+{
+  "numero": "CO-2026-01951",
+  "client": "c-0299",
+  "reference_client": "BC-6280",
+  "cree_le": "2026-06-30T09:10:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "37 zone industrielle des Brandes, 36999 Saulvenne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "PLB-10996",
+      "libelle": "Coude cuivre à souder 90° 14 mm, sachet de 10",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 7.1,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 6.53,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 65.3
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 80.3,
+  "total_tva_euros": 16.06,
+  "total_ttc_euros": 96.36,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01800"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-06-30T09:10:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-30T09:12:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-01T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01800"
+    },
+    {
+      "date": "2026-07-01T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01800"
+    }
+  ]
+}

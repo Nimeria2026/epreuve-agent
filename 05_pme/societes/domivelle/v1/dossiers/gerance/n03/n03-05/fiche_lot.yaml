@@ -1,0 +1,24 @@
+# Fiche du lot n03-05. Données FICTIVES.
+lot: n03-05
+adresse: 107 rue des Jardins, 18999 Saint-Aubrin-des-Bois (FICTIF)
+type: maison T4
+surface_m2: 86
+locataire:
+  nom: Mme Anne Gauthier
+  courriel: anne.gauthier@messagerie.example
+  telephone: 06 39 98 74 77
+  entree: '2017-06-13'
+bail:
+  signature: '2017-06-13'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 675,00 €
+  depot_de_garantie: 562,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T1
+dpe:
+  classe: E
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

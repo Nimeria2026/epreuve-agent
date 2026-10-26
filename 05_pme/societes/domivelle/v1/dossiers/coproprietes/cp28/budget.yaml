@@ -1,0 +1,17 @@
+# Budget prévisionnel de l'exercice en cours, voté, copropriété cp28. Données FICTIVES.
+copropriete: cp28
+exercice: '2026'
+total: 33 000,00 €
+postes:
+  nettoyage des parties communes: 7 260,00 €
+  espaces verts: 2 640,00 €
+  électricité des parties communes: 2 970,00 €
+  eau: 4 620,00 €
+  assurance de l'immeuble: 3 630,00 €
+  honoraires du syndic: 5 940,00 €
+  entretien et petites réparations: 3 300,00 €
+  ascenseur, contrat et électricité: 2 640,00 €
+repartition:
+  charges générales, aux tantièmes généraux: 30 360,00 €
+  ascenseur, aux tantièmes d'ascenseur: 2 640,00 €
+appel: un quart du budget, exigible le premier jour de chaque trimestre

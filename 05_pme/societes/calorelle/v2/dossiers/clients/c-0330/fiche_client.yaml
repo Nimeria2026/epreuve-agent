@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0330"
+nom: "Sandrine Blanchard"
+type: "particulier"
+adresse: "26 rue des Écoles, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "sandrine.blanchard2@courriel.example"
+telephone: "06 39 98 50 78"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2022-09-21"
+  mois_anniversaire: "septembre"
+  derniere_visite: "2026-09-09"

@@ -1,0 +1,79 @@
+{
+  "numero": "CO-2026-01920",
+  "client": "c-0257",
+  "reference_client": "BC-5679",
+  "cree_le": "2026-06-29T09:10:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "6 zone industrielle des Brandes, 36999 Laubrissac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "PLB-12409",
+      "libelle": "Robinet d'arrêt de machine à laver 15x21",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 23.1,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 22.18,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 22.18
+    },
+    {
+      "reference": "VIS-13299",
+      "libelle": "Vis à bois tête fraisée 6x35, bichromatée, boîte de 200",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 3.35,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 3.22,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 3.22
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 40.4,
+  "total_tva_euros": 8.08,
+  "total_ttc_euros": 48.48,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01769"
+  ],
+  "facture": "FC-2026-1236",
+  "historique": [
+    {
+      "date": "2026-06-29T09:10:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-29T09:12:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-30T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01769"
+    },
+    {
+      "date": "2026-06-30T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01769"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1236"
+    }
+  ]
+}

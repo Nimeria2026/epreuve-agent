@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-010",
+  "de": {
+    "nom": "Henri Martel",
+    "adresse": "henri.martel@mel-perso.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Re: Plus d'eau chaude",
+  "date": "2026-06-04T08:14:00+02:00",
+  "corps": "J'oubliais : je suis au lot s01-07, 25 rue du Lavoir à Sorlay-le-Haut.\n\nHenri Martel",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cema-003",
+  "de": {
+    "nom": "Étienne Deschamps",
+    "adresse": "etienne.deschamps@mel-perso.example"
+  },
+  "a": [
+    "cedric.maillard@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Prise qui sent le brûlé",
+  "date": "2026-06-08T08:05:00+02:00",
+  "corps": "Bonjour,\n\nLa prise du séjour sent le brûlé depuis hier soir et le plastique a noirci autour. Je ne l'utilise plus.\n\nÉtienne Deschamps, lot c01-10",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

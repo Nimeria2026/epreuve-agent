@@ -1,0 +1,8 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0117"
+nom: "Alain Bonnet"
+type: "particulier"
+adresse: "8 rue Haute, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "alain.bonnet@courriel.example"
+telephone: "06 39 98 50 30"
+charge_d_affaires: "julie.perrin"

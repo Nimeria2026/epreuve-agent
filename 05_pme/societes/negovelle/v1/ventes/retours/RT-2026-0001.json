@@ -1,0 +1,15 @@
+{
+  "numero": "RT-2026-0001",
+  "livraison": "BL-2026-01702",
+  "client": "c-0273",
+  "date": "2026-06-29T14:11:00+02:00",
+  "lignes": [
+    {
+      "reference": "PLB-12139",
+      "quantite": 1,
+      "etat": "rebut"
+    }
+  ],
+  "motif": "retour accepté, article conforme",
+  "enregistre_par": "remi.joly"
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-832",
+  "de": {
+    "nom": "Syndic de la Résidence du Clos-Fargeau",
+    "adresse": "contact@syndic-de-la-residence-du-clos-fargeau-25.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Panne de chauffage, bâtiment B",
+  "date": "2026-11-01T20:10:00+01:00",
+  "corps": "Bonjour,\n\nLa chaudière collective du bâtiment B est en panne depuis ce soir : plus de chauffage dans seize logements.\n\nLe syndic de la Résidence du Clos-Fargeau, 48 rue du Moulin (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

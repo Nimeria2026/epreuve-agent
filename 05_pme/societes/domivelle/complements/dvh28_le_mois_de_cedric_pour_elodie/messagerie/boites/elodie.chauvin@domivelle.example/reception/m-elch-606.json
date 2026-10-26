@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-elch-606",
+  "de": {
+    "nom": "Estelle Rolland",
+    "adresse": "estelle.rolland@mel-perso.example"
+  },
+  "a": [
+    "elodie.chauvin@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "La fenêtre de la chambre",
+  "date": "2026-10-11T17:30:00+02:00",
+  "corps": "Bonjour,\n\nLa fenêtre de la grande chambre de la maison c05-02 ne ferme plus : la crémone est cassée et le bois a joué. Menuiserie du Gué-Morin propose de la réparer pour 520,00 € TTC, devis joint.\n\nEstelle Rolland",
+  "pieces_jointes": [
+    {
+      "nom": "devis_fenetre_c05-02.pdf",
+      "fichier": "pieces/m-elch-606/devis_fenetre_c05-02.pdf",
+      "taille_octets": 862
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-912",
+  "de": {
+    "nom": "Sonia Lefèvre",
+    "adresse": "sonia.lefevre@calorelle.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Chaudière bruyante",
+  "date": "2026-11-10T08:00:00+01:00",
+  "corps": "Marc, un dépannage arrivé sur contact@.\nSonia\n\n----- Message transféré -----\nIdentifiant : m-ctc-912\nDe : Sandrine Gauthier <sandrine.gauthier@courriel.example>\nÀ : contact@calorelle.example\nCc : (aucun)\nDate : 2026-11-09T19:40:00+01:00\nObjet : Chaudière bruyante\nPièces jointes : (aucune)\n\nBonjour,\n\nNotre chaudière gaz claque au démarrage et la maison peine à chauffer.\n\nSandrine Gauthier, 55 rue Haute (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

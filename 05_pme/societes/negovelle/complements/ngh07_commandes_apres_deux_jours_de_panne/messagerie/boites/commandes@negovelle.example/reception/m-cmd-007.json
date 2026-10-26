@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-007",
+  "de": {
+    "nom": "Louis Lagarde",
+    "adresse": "louis.lagarde@dufour-maintenance.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-02T15:41:00+02:00",
+  "corps": "Bonjour,\n\nVoici notre commande, à livrer au siège :\n\n- 3 x ELE-10318, Appareil modulaire parafoudre type 2\n- 30 x ELE-10138, Ampoule LED E27 4 W, 4000 K\n\nMerci de nous confirmer la livraison.\n\nCordialement,\nLouis Lagarde\nDufour Maintenance",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

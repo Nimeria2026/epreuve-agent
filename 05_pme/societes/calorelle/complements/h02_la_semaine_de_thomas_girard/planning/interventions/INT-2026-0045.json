@@ -1,0 +1,13 @@
+{
+  "numero": "INT-2026-0045",
+  "client": "c-0063",
+  "techniciens": [
+    "romain.guerin"
+  ],
+  "debut": "2026-11-10T08:00:00+01:00",
+  "fin": "2026-11-10T12:00:00+01:00",
+  "nature": "installation",
+  "objet": "Remplacement du brûleur de la chaudière fioul",
+  "statut": "planifiee",
+  "cree_par": "marc.duval"
+}

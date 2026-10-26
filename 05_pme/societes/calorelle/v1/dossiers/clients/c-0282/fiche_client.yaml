@@ -1,0 +1,8 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0282"
+nom: "Laurent Dubois"
+type: "particulier"
+adresse: "35 rue de la Loire, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "laurent.dubois@courriel.example"
+telephone: "06 39 98 50 72"
+charge_d_affaires: "julie.perrin"

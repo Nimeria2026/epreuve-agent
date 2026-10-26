@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-743",
+  "de": {
+    "nom": "Établissements Dubois",
+    "adresse": "contact@etablissements-dubois-20.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "RE: Votre devis DV-2026-009",
+  "date": "2026-12-17T09:45:00+01:00",
+  "corps": "Madame Perrin,\n\nMerci pour la relance de Mme Marchal. Avant de décider : votre devis de climatisation de nos bureaux est à 20 % de TVA, alors qu'on nous dit que la climatisation réversible est à 5,5 % depuis juillet. Pouvez-vous le revoir ?\n\nÉtablissements Dubois, 50 rue de la Loire, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

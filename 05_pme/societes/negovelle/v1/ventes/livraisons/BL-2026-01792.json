@@ -1,0 +1,49 @@
+{
+  "numero": "BL-2026-01792",
+  "commande": "CO-2026-01943",
+  "client": "c-0340",
+  "date_expedition": "2026-06-30",
+  "date_livraison": "2026-07-01",
+  "transport": {
+    "mode": "transporteur",
+    "transporteur": "transports-delorme",
+    "recepisse": "TD-405630"
+  },
+  "adresse": "108 rue des Chênes, 36999 Fontclavier (FICTIF)",
+  "colis": 3,
+  "lignes": [
+    {
+      "reference": "CON-12376",
+      "libelle": "Ruban adhésif toilé gris 25 mm, rouleau de 50 m",
+      "quantite": 18
+    },
+    {
+      "reference": "ELE-11339",
+      "libelle": "Câble souple H07RN-F 3G 1,5 mm², couronne de 25 m",
+      "quantite": 12
+    },
+    {
+      "reference": "ENT-10489",
+      "libelle": "Lavette microfibre jaune, paquet de 10",
+      "quantite": 2
+    },
+    {
+      "reference": "FIX-11437",
+      "libelle": "Crochet en S à visser 60 mm, sachet de 10",
+      "quantite": 12
+    },
+    {
+      "reference": "PLB-11763",
+      "libelle": "Mitigeur de douche, chromé",
+      "quantite": 1
+    },
+    {
+      "reference": "PRO-11061",
+      "libelle": "Gants de soudeur cuir croûte, taille 11",
+      "quantite": 6
+    }
+  ],
+  "reserves": null,
+  "signataire": "Sandrine Sauvage",
+  "statut": "livre"
+}

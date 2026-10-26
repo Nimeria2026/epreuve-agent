@@ -1,0 +1,90 @@
+{
+  "numero": "CO-2026-01808",
+  "client": "c-0273",
+  "reference_client": "BC-3010",
+  "cree_le": "2026-06-22T09:10:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "9 parc d'activités de la Gare, 36999 Saulvenne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-12523",
+      "libelle": "Interrupteur va-et-vient, blanc",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 33.45,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 30.77,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 184.62
+    },
+    {
+      "reference": "ELE-12939",
+      "libelle": "Rallonge électrique 2P+T 25 m",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 44.2,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 40.66,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 203.3
+    },
+    {
+      "reference": "OUT-11257",
+      "libelle": "Mètre ruban 10 m, ruban de 19 mm",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 16.9,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 15.55,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 155.5
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 543.42,
+  "total_tva_euros": 108.68,
+  "total_ttc_euros": 652.1,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01657"
+  ],
+  "facture": "FC-2026-1252",
+  "historique": [
+    {
+      "date": "2026-06-22T09:10:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-22T09:12:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-23T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01657"
+    },
+    {
+      "date": "2026-06-23T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01657"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1252"
+    }
+  ]
+}

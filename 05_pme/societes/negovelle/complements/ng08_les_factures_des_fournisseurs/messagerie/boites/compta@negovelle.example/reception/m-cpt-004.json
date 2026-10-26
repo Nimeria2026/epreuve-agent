@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-004",
+  "de": {
+    "nom": "Visserie de la Garenne",
+    "adresse": "facturation@visserie-de-la-garenne.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture F16240",
+  "date": "2026-07-03T12:15:00+02:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-jointe notre facture F16240 du 3 juillet 2026, pour votre commande CA-2026-0310 :\n- VIS-13846, Vis à tôle tête cylindrique 3,9x9,5, zinguée, boîte de 250 : 100 x 6,67 € HT = 667,00 €\n- VIS-14189, Écrou hexagonal M6, zingué, sachet de 50 : 300 x 1,45 € HT = 435,00 €\n\nTotal HT : 1 102,00 € ; TVA 20 % : 220,40 € ; total TTC : 1 322,40 €. Paiement à 60 jours date de facture.\n\nService facturation\nVisserie de la Garenne",
+  "pieces_jointes": [
+    {
+      "nom": "F16240.pdf",
+      "fichier": "pieces/m-cpt-004/F16240.pdf",
+      "taille_octets": 798
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,14 @@
+# Fiche du propriétaire p-0018, mandant de Domivelle. Données FICTIVES.
+code: p-0018
+nom: Mme Corinne Vincent
+adresse: 52 allée des Acacias, 18999 Montclavel-sur-Cher (FICTIF)
+courriel: corinne.vincent@mel-perso.example
+telephone: 06 39 98 52 48
+iban: FR76 9999 9577 1971 7992 3927 786 (FICTIF)
+comptes_rendus: par courrier
+lots:
+- c01-02
+- c01-03
+- c01-10
+- c04-06
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

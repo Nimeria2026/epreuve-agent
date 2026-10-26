@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-hm-521",
+  "de": {
+    "nom": "Julie Perrin",
+    "adresse": "julie.perrin@calorelle.example"
+  },
+  "a": [
+    "helene.marchal@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Trois demandes de remise",
+  "date": "2026-11-20T10:15:00+01:00",
+  "corps": "Hélène,\n\nTrois clients demandent une remise :\n- Alain Dubois (c-0094), 5 % sur DV-2026-010, demandé le 13 novembre ;\n- les Établissements Laurent (c-0069), 5 % sur DV-2026-014, demandé le 18 novembre ;\n- Michel Girard (c-0039), 4 % sur DV-2026-013, demandé le 19 novembre.\n\nJe ne leur ai rien promis.\n\nJulie (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

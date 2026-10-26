@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01815",
+  "commande": "CO-2026-01966",
+  "client": "c-0244",
+  "date_expedition": "2026-07-02",
+  "date_livraison": "2026-07-02",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "17 rue de la Fontaine, 36999 Ardillac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "VIS-11943",
+      "libelle": "Vis à bois tête fraisée 4,5x45, inox A2, boîte de 200",
+      "quantite": 1
+    },
+    {
+      "reference": "VIS-13724",
+      "libelle": "Vis à tôle tête cylindrique 3,5x9,5, zinguée, boîte de 250",
+      "quantite": 4
+    }
+  ],
+  "reserves": null,
+  "signataire": "Louis Quéré",
+  "statut": "livre"
+}

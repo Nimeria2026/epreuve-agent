@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-002",
+  "de": {
+    "nom": "Antoine Guyot",
+    "adresse": "antoine.guyot@gautier-batiment.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Disponibilité",
+  "date": "2026-07-06T06:36:00+02:00",
+  "corps": "Bonjour Laurent,\n\nAvez-vous en stock 40 boîtes de chevilles FIX-10816 ? Il nous les faudrait pour jeudi.\n\nMerci,\nAntoine Guyot\nGautier Bâtiment",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

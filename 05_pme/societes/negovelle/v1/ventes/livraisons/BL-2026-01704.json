@@ -1,0 +1,39 @@
+{
+  "numero": "BL-2026-01704",
+  "commande": "CO-2026-01855",
+  "client": "c-0314",
+  "date_expedition": "2026-06-25",
+  "date_livraison": "2026-06-25",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "33 zone artisanale du Moulin, 36999 Mérolles-en-Brenne (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "ENT-11355",
+      "libelle": "Seau rond 10 l",
+      "quantite": 10
+    },
+    {
+      "reference": "PLB-10089",
+      "libelle": "Bonde de douche 60 mm",
+      "quantite": 2
+    },
+    {
+      "reference": "PLB-11208",
+      "libelle": "Flexible inox femelle-femelle 15x21 50 cm",
+      "quantite": 12
+    },
+    {
+      "reference": "VIS-10220",
+      "libelle": "Boulon tête hexagonale M12x40, zingué, sachet de 10",
+      "quantite": 6
+    }
+  ],
+  "reserves": null,
+  "signataire": "Béatrice Bouchard",
+  "statut": "livre"
+}

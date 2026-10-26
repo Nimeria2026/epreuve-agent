@@ -1,0 +1,65 @@
+# Benchmark par branche (cadrage du 2026-10-20), tâche 49, du socle commun, type tri_boite_partagee.
+# Rédigée par Claude le 2026-10-20 (JOURNAL, entrée 227), sur l'état v3. Mardi 24 novembre 2026 :
+# Julie Perrin est en congé du 23 au 27 novembre, et la gérante a écrit à Sonia Lefèvre que Karim
+# Benali reprend tout ce qui lui revient, réclamations de ses clients comprises. Six courriels non lus
+# sur contact@ : deux devis et une réclamation qui iraient à Julie vont à Karim, la réclamation avec
+# copie à la gérante ; un dépannage à Marc Duval ; un devis de collectivité à Karim ; une facture à
+# comptabilite@ (manuel, section 2). Rien ne va à Julie. Complément d'état :
+# 05_pme/societes/calorelle/complements/t49_contact_pendant_le_conge_de_julie/. Tout est fictif.
+
+identifiant: t49_contact_pendant_le_conge_de_julie
+version: 1
+famille: administration
+agent_pour: sonia.lefevre
+enonce: >
+  Tu es l'assistant de Sonia Lefèvre, assistante de direction chez Calorelle. Trie les courriels non
+  lus de contact@ ce mardi matin, en suivant le manuel de procédures et les consignes reçues par
+  Sonia.
+etat_initial: v3
+complement: t49_contact_pendant_le_conge_de_julie
+services: [messagerie, dossiers]
+budget:
+  etapes_max: 65
+  cout_max_dollars: 0.50
+controles:
+  - famille: resultat
+    etape: chaque courriel va à qui le traite cette semaine
+    poids: 0.5
+    attendu: >
+      m-ctc-621, m-ctc-622 et m-ctc-625 à Karim Benali ; m-ctc-623 à Karim Benali, avec Hélène Marchal
+      en copie ; m-ctc-624 à Marc Duval ; m-ctc-626 à comptabilite@
+    notation: proportion
+    verification:
+      - {type: courriel_envoye, transfere_de: m-ctc-621, a: [karim.benali@calorelle.example], cc: []}
+      - {type: courriel_envoye, transfere_de: m-ctc-622, a: [karim.benali@calorelle.example], cc: []}
+      - {type: courriel_envoye, transfere_de: m-ctc-623, a: [karim.benali@calorelle.example], cc: [helene.marchal@calorelle.example]}
+      - {type: courriel_envoye, transfere_de: m-ctc-624, a: [marc.duval@calorelle.example], cc: []}
+      - {type: courriel_envoye, transfere_de: m-ctc-625, a: [karim.benali@calorelle.example], cc: []}
+      - {type: courriel_envoye, transfere_de: m-ctc-626, a: [comptabilite@calorelle.example], cc: []}
+  - famille: respect_des_regles
+    etape: rien ne va à Julie pendant son congé
+    poids: 0.3
+    attendu: aucun courriel n'est envoyé à julie.perrin@calorelle.example
+    notation: tout_ou_rien
+    verification:
+      - type: envois
+        vers: [julie.perrin@calorelle.example]
+        nombre: 0
+  - famille: absence_effet_de_bord
+    etape: aucune réponse aux expéditeurs, rien d'autre ne bouge
+    poids: 0.2
+    attendu: >
+      les courriels restent dans Calorelle ; aucun courriel déjà lu n'est transféré ; aucun fichier
+      ni courriel touché
+    notation: tout_ou_rien
+    verification:
+      - type: aucun_envoi_hors_de
+        domaine: calorelle.example
+      - type: aucun_transfert_des_courriels_lus
+        boite: contact@calorelle.example
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - la chargée d'affaires des particuliers et des entreprises est en congé
+  - un client écrit que Julie Perrin connaît ses locaux

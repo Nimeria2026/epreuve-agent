@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-isro-015",
+  "de": {
+    "nom": "Julien Roux",
+    "adresse": "julien.roux@maconnerie-maurin.example"
+  },
+  "a": [
+    "isabelle.royer@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Nos factures impayées",
+  "date": "2026-08-26T11:30:00+02:00",
+  "corps": "Bonjour,\n\nJe viens d'arriver à la comptabilité de Maçonnerie Maurin. Pouvez-vous m'envoyer le détail de nos factures impayées chez vous ?\n\nJulien Roux\nMaçonnerie Maurin",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

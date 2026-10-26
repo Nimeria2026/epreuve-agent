@@ -1,0 +1,28 @@
+# Fiche du client c-0087 de Négovelle. Données FICTIVES.
+code: c-0087
+nom: Menuiserie industrielle Cosson
+type: pme
+adresse: 28 parc d'activités de la Gare, 36999 Ardillac (FICTIF)
+telephone: 02 61 91 63 01
+secteur: est
+commercial: fabrice.mercier
+administration_des_ventes: benoit.faure
+contacts:
+- nom: Bernard Drouet
+  fonction: responsable des achats
+  courriel: bernard.drouet@menuiserie-industrielle-cosson.example
+- nom: Estelle Parmentier
+  fonction: responsable de maintenance
+  courriel: estelle.parmentier@menuiserie-industrielle-cosson.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 28 parc d'activités de la Gare, 36999 Ardillac (FICTIF)
+categorie_remise: B
+delai_paiement: comptant
+client_depuis: '2026-03-21'
+limite_encours_euros: 4000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

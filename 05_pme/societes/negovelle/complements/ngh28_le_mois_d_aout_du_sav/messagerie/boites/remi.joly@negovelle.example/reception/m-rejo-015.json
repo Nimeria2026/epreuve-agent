@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-rejo-015",
+  "de": {
+    "nom": "Gilles Poirier",
+    "adresse": "gilles.poirier@negovelle.example"
+  },
+  "a": [
+    "remi.joly@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Contrôles de la semaine",
+  "date": "2026-08-07T16:00:00+02:00",
+  "corps": "Rémi,\n\nContrôlé aujourd'hui, avant mon congé :\n\n- BL-2026-01889, la livraison refusée de Maçonnerie Achard, revenue le 29 juillet : 4 vis VIS-13462 intactes, 2 abîmées ; les 4 verrous QUI-13111 intacts.\n- BL-2026-01890, Maçonnerie Cordonnier : 2 clés OUT-10473, non utilisées, dans leur emballage.\n- BL-2026-01891, Maçonnerie Simonet : 4 boulons VIS-10236 et 5 boîtes de chevilles FIX-10988, non utilisés, emballage d'origine.\n- BL-2026-01892, Couverture Monnier : les 2 projecteurs ELE-12891 repris par la camionnette, intacts ; ils avaient commandé des ELE-12841, l'erreur est à la préparation.\n- BL-2026-01904, Peinture Durieux : 3 spatules OUT-12596 et 6 boîtes de vis VIS-11396, non utilisées, emballage d'origine.\n- BL-2026-01905, Plomberie Billard : 2 boîtes de chevilles FIX-10065 conformes ; la 3e est entamée, il en manque la moitié : je l'ai mise de côté, elle ne rentre pas en stock.\n- BL-2026-01913, Électricité Morel : 4 réglettes ELE-13233 rapportées le 5 août. Elles ont été posées puis déposées : traces de vis et de plâtre, emballages rouverts. Elles ne se revendent pas, je les ai mises de côté.\n- BL-2026-01914, Collet Travaux publics : 4 boîtes de vis VIS-12400 et 5 tiges filetées FIX-11813, non utilisées, emballage d'origine.\n\nJe suis en congé du lundi 10 au vendredi 21 août : rien ne sera contrôlé avant le lundi 24.\n\nGilles",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

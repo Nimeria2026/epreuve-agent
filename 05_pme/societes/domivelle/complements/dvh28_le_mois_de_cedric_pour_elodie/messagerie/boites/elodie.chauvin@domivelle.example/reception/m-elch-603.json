@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-elch-603",
+  "de": {
+    "nom": "Nadège Lebrun",
+    "adresse": "nadege.lebrun@domivelle.example"
+  },
+  "a": [
+    "elodie.chauvin@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Les appels du centre",
+  "date": "2026-10-12T08:50:00+02:00",
+  "corps": "Élodie,\n\nUne locataire du centre vient d'appeler pour son chauffage et Cédric n'est pas là. Véronique ne m'a rien dit : à qui je passe les appels du centre, et jusqu'à quand ?\n\nNadège",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

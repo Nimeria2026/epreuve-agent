@@ -1,0 +1,49 @@
+{
+  "numero": "BL-2026-01697",
+  "commande": "CO-2026-01848",
+  "client": "c-0303",
+  "date_expedition": "2026-06-24",
+  "date_livraison": "2026-06-25",
+  "transport": {
+    "mode": "transporteur",
+    "transporteur": "transports-delorme",
+    "recepisse": "TD-285989"
+  },
+  "adresse": "21 zone artisanale du Moulin, 36999 Brissonne (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "ELE-13250",
+      "libelle": "Réglette LED 1500 mm, 36 W",
+      "quantite": 2
+    },
+    {
+      "reference": "ELP-10849",
+      "libelle": "Foret béton SDS-plus 8x450 mm",
+      "quantite": 6
+    },
+    {
+      "reference": "ELP-11666",
+      "libelle": "Ponceuse orbitale 800 W",
+      "quantite": 3
+    },
+    {
+      "reference": "OUT-11274",
+      "libelle": "Mètre ruban 3 m, ruban de 19 mm",
+      "quantite": 2
+    },
+    {
+      "reference": "PRO-10914",
+      "libelle": "Gants de manutention cuir fleur, taille 10",
+      "quantite": 48
+    },
+    {
+      "reference": "VIS-13250",
+      "libelle": "Vis à bois tête fraisée 6x30, bichromatée, boîte de 100",
+      "quantite": 1
+    }
+  ],
+  "reserves": null,
+  "signataire": "Philippe Becker",
+  "statut": "livre"
+}

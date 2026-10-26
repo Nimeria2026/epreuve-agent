@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-838",
+  "de": {
+    "nom": "Établissements Dubois",
+    "adresse": "contact@etablissements-dubois-20.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Chaudière de l'atelier",
+  "date": "2026-11-02T08:05:00+01:00",
+  "corps": "Bonjour,\n\nAutre sujet que notre demande de devis d'hier : la chaudière de notre atelier ne démarre plus ce matin. Pouvez-vous envoyer un technicien ?\n\nÉtablissements Dubois (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

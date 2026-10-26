@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-nabr-002",
+  "de": {
+    "nom": "Chantal Hamel",
+    "adresse": "chantal.hamel@carrelage-pelletier.example"
+  },
+  "a": [
+    "nathalie.brunet@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Cylindres abîmés, livraison BL-2026-01771",
+  "date": "2026-07-03T16:40:00+02:00",
+  "corps": "Bonjour,\n\nNous avons ouvert hier les cartons de la livraison BL-2026-01771 du 30 juin : deux des six cylindres QUI-11649 ont le panneton tordu. Nous n'avions rien noté à la livraison, les cartons étaient fermés. Pouvez-vous nous faire un avoir ?\n\nChantal Hamel\nCarrelage Pelletier",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

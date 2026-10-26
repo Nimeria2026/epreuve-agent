@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-305",
+  "de": {
+    "nom": "Nathalie André",
+    "adresse": "nathalie.andre@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Plus d'eau chaude",
+  "date": "2026-11-02T07:28:00+01:00",
+  "corps": "Bonjour,\n\nDepuis hier soir, plus d'eau chaude au robinet ; le chauffage marche. J'ai le contrat Sérénité Plus.\n\nNathalie André, 14 allée des Peupliers (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

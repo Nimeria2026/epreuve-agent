@@ -1,0 +1,48 @@
+{
+  "numero": "CO-2026-02044",
+  "client": "c-0260",
+  "reference_client": null,
+  "cree_le": "2026-08-12T15:00:00+02:00",
+  "cree_par": "laurent.gimenez",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "18 zone industrielle des Brandes, 36999 Corvalet (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "QUI-12817",
+      "libelle": "Serrure à larder à clé L, axe 60 mm",
+      "quantite": 60,
+      "prix_tarif_ht_euros": 34.5,
+      "remise_pourcent": 9.76,
+      "prix_net_ht_euros": 31.13,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 1867.8
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 1867.8,
+  "total_tva_euros": 373.56,
+  "total_ttc_euros": 2241.36,
+  "statut": "brouillon",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-08-12T15:00:00+02:00",
+      "par": "laurent.gimenez",
+      "action": "creee",
+      "detail": "40 serrures QUI-12817, prix demandé au président"
+    },
+    {
+      "date": "2026-08-19T16:00:00+02:00",
+      "par": "laurent.gimenez",
+      "action": "modifiee",
+      "detail": "60 serrures au lieu de 40"
+    }
+  ]
+}

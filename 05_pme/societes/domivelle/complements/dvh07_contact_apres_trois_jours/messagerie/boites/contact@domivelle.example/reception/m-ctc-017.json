@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-017",
+  "de": {
+    "nom": "Gestimmo Pro",
+    "adresse": "offres@gestimmo-pro.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Votre logiciel de syndic à -30 %",
+  "date": "2026-06-04T17:20:00+02:00",
+  "corps": "Découvrez Gestimmo Pro, le logiciel des syndics : -30 % jusqu'au 30 juin !",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

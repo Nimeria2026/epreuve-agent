@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-402",
+  "de": {
+    "nom": "Sonia Lefèvre",
+    "adresse": "sonia.lefevre@calorelle.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Plus de chauffage",
+  "date": "2026-11-02T08:40:00+01:00",
+  "corps": "Marc, une demande de dépannage arrivée ce matin sur contact@.\nSonia\n\n----- Message transféré -----\nIdentifiant : m-ctc-401\nDe : Christophe Gauthier <christophe.gauthier@courriel.example>\nÀ : contact@calorelle.example\nCc : (aucun)\nDate : 2026-11-02T08:12:00+01:00\nObjet : Plus de chauffage\nPièces jointes : (aucune)\n\nBonjour,\n\nNotre chaudière gaz s'est arrêtée cette nuit et ne redémarre plus. Nous avons le contrat Sérénité Plus. Je suis chez moi toute la semaine.\n\nChristophe Gauthier\n105 rue Haute, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": "m-ctc-401"
+}

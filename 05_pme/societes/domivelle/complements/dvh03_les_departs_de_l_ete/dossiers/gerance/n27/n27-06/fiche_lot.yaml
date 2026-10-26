@@ -1,0 +1,19 @@
+# Fiche du lot n27-06. Données FICTIVES.
+lot: n27-06
+adresse: 37 rue de la Croix-Blanche, 18999 Saint-Aubrin-des-Bois (FICTIF)
+type: T3
+surface_m2: 68
+locataire:
+  nom: M. Vincent Pichon
+  courriel: vincent.pichon@courriel.example
+  telephone: 06 39 98 74 61
+  entree: '2014-03-14'
+bail:
+  signature: '2014-03-14'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 609,00 €
+  depot_de_garantie: 468,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T4
+dpe:
+  classe: D

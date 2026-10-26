@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-927",
+  "de": {
+    "nom": "Thomas Girard",
+    "adresse": "thomas.girard@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Voir Hélène pour Enzo",
+  "date": "2027-01-29T16:00:00+01:00",
+  "corps": "Sonia,\n\nJ'aimerais voir Hélène une heure, un matin de la semaine qui vient, à partir de mardi, pour la fin d'apprentissage d'Enzo.\n\nThomas (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

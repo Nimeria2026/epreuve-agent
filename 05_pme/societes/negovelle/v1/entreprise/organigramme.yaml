@@ -1,0 +1,147 @@
+# Organigramme de Négovelle, état v1. Personnes, adresses et numéros fictifs.
+# Les droits servent aux services, au gardien (06_gardien) et aux tâches : un agent agit avec les
+# droits de la personne pour laquelle il travaille (champ agent_pour d'une tâche). Les services de
+# facturation et des achats vérifient des droits aux noms écrits pour Calorelle (acces_clients,
+# preparer_virement, ranger_factures, modifier_coordonnees_bancaires_apres_contre_appel,
+# acces_direction) ; celui des ventes, acces_ventes et saisir_commandes. Les autres ouvrent les
+# dossiers (acces_dossiers.yaml).
+
+boites_partagees:
+  contact@negovelle.example: {gere_par: chantal.robin}
+  commandes@negovelle.example: {gere_par: corinne.vidal}
+  compta@negovelle.example: {gere_par: denis.barthe}
+  sav@negovelle.example: {gere_par: remi.joly}
+
+personnes:
+  - id: bruno.castaing
+    nom: Bruno Castaing
+    role: "Président, directeur général ; décide des prix dérogatoires, des délais de paiement au-delà de 30 jours et des gestes commerciaux"
+    courriel: bruno.castaing@negovelle.example
+    telephone: "02 61 91 60 01"
+    droits: [acces_direction, acces_rh, acces_clients, acces_comptabilite, acces_achats, acces_courrier, saisir_commandes]
+  - id: laurent.gimenez
+    nom: Laurent Gimenez
+    role: "Commercial terrain, secteur nord"
+    courriel: laurent.gimenez@negovelle.example
+    telephone: "06 39 98 60 02"
+    droits: [acces_clients, saisir_commandes]
+  - id: aurelie.bonnefoy
+    nom: Aurélie Bonnefoy
+    role: "Commerciale terrain, secteur sud"
+    courriel: aurelie.bonnefoy@negovelle.example
+    telephone: "06 39 98 60 03"
+    droits: [acces_clients, saisir_commandes]
+  - id: fabrice.mercier
+    nom: Fabrice Mercier
+    role: "Commercial terrain, secteur est"
+    courriel: fabrice.mercier@negovelle.example
+    telephone: "06 39 98 60 04"
+    droits: [acces_clients, saisir_commandes]
+  - id: samir.ouali
+    nom: Samir Ouali
+    role: "Commercial terrain, secteur ouest"
+    courriel: samir.ouali@negovelle.example
+    telephone: "06 39 98 60 05"
+    droits: [acces_clients, saisir_commandes]
+  - id: corinne.vidal
+    nom: Corinne Vidal
+    role: "Responsable de l'administration des ventes : commandes@, adresses de livraison ponctuelles"
+    courriel: corinne.vidal@negovelle.example
+    telephone: "02 61 91 60 06"
+    droits: [gerer_boite_commandes, acces_clients, acces_courrier, saisir_commandes]
+  - id: isabelle.royer
+    nom: Isabelle Royer
+    role: "Comptable clients : factures, relances, encours, déblocages, contentieux"
+    courriel: isabelle.royer@negovelle.example
+    telephone: "02 61 91 60 07"
+    droits: [acces_clients, acces_comptabilite, acces_courrier, saisir_commandes]
+  - id: denis.barthe
+    nom: Denis Barthe
+    role: "Comptable fournisseurs et trésorerie : compta@, factures et coordonnées bancaires des fournisseurs, paie"
+    courriel: denis.barthe@negovelle.example
+    telephone: "02 61 91 60 08"
+    droits: [gerer_boite_compta, ranger_factures, preparer_virement, modifier_coordonnees_bancaires_apres_contre_appel, acces_comptabilite, acces_courrier, acces_ventes]
+  - id: chantal.robin
+    nom: Chantal Robin
+    role: "Accueil et standard, contact@"
+    courriel: chantal.robin@negovelle.example
+    telephone: "02 61 91 60 09"
+    droits: [gerer_boite_contact, acces_courrier, acces_ventes]
+  - id: manon.rey
+    nom: Manon Rey
+    role: "Administration des ventes, secteur nord"
+    courriel: manon.rey@negovelle.example
+    telephone: "02 61 91 60 10"
+    droits: [acces_clients, saisir_commandes]
+  - id: laetitia.garnier
+    nom: Lætitia Garnier
+    role: "Administration des ventes, secteur sud"
+    courriel: laetitia.garnier@negovelle.example
+    telephone: "02 61 91 60 11"
+    droits: [acces_clients, saisir_commandes]
+  - id: benoit.faure
+    nom: Benoît Faure
+    role: "Administration des ventes, secteur est"
+    courriel: benoit.faure@negovelle.example
+    telephone: "02 61 91 60 12"
+    droits: [acces_clients, saisir_commandes]
+  - id: oceane.collin
+    nom: Océane Collin
+    role: "Administration des ventes, secteur ouest"
+    courriel: oceane.collin@negovelle.example
+    telephone: "02 61 91 60 13"
+    droits: [acces_clients, saisir_commandes]
+  - id: remi.joly
+    nom: Rémi Joly
+    role: "Service après-vente : retours, sav@"
+    courriel: remi.joly@negovelle.example
+    telephone: "02 61 91 60 14"
+    droits: [gerer_boite_sav, acces_clients, acces_sav, saisir_commandes]
+  - id: nathalie.brunet
+    nom: Nathalie Brunet
+    role: "Service après-vente : litiges de livraison"
+    courriel: nathalie.brunet@negovelle.example
+    telephone: "02 61 91 60 15"
+    droits: [acces_clients, acces_sav, saisir_commandes]
+  - id: vincent.arnaud
+    nom: Vincent Arnaud
+    role: "Approvisionneur : réassort, commandes aux fournisseurs"
+    courriel: vincent.arnaud@negovelle.example
+    telephone: "02 61 91 60 16"
+    droits: [acces_achats, acces_ventes]
+  - id: gilles.poirier
+    nom: Gilles Poirier
+    role: "Chef d'entrepôt : réceptions, retours, inventaire"
+    courriel: gilles.poirier@negovelle.example
+    telephone: "02 61 91 60 17"
+    droits: [acces_entrepot, acces_ventes]
+  - id: dylan.moreau
+    nom: Dylan Moreau
+    role: "Préparateur de commandes"
+    courriel: dylan.moreau@negovelle.example
+    telephone: "02 61 91 60 18"
+    droits: [acces_ventes]
+  - id: steven.lacroix
+    nom: Steven Lacroix
+    role: "Préparateur de commandes"
+    courriel: steven.lacroix@negovelle.example
+    telephone: "02 61 91 60 19"
+    droits: [acces_ventes]
+  - id: ibrahim.diallo
+    nom: Ibrahim Diallo
+    role: "Préparateur de commandes, cariste"
+    courriel: ibrahim.diallo@negovelle.example
+    telephone: "02 61 91 60 20"
+    droits: [acces_ventes]
+  - id: patrice.lemaire
+    nom: Patrice Lemaire
+    role: "Chauffeur-livreur"
+    courriel: patrice.lemaire@negovelle.example
+    telephone: "06 39 98 60 21"
+    droits: []
+  - id: jordan.vasseur
+    nom: Jordan Vasseur
+    role: "Chauffeur-livreur"
+    courriel: jordan.vasseur@negovelle.example
+    telephone: "06 39 98 60 22"
+    droits: []

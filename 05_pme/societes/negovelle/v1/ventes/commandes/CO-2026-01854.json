@@ -1,0 +1,145 @@
+{
+  "numero": "CO-2026-01854",
+  "client": "c-0330",
+  "reference_client": "BC-3715",
+  "cree_le": "2026-06-24T09:10:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "2 zone d'activités des Grands Prés, 36999 Saulvenne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-11535",
+      "libelle": "Disjoncteur bipolaire 40 A, courbe D",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 40.9,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 37.63,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 75.26
+    },
+    {
+      "reference": "ELE-12204",
+      "libelle": "Goulotte 60x40 mm, barre de 2 m",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 4.65,
+      "remise_pourcent": 10.76,
+      "prix_net_ht_euros": 4.15,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 41.5
+    },
+    {
+      "reference": "ELP-11739",
+      "libelle": "Scie circulaire 190 mm, 1600 W",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 108.15,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 99.5,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 99.5
+    },
+    {
+      "reference": "OUT-11412",
+      "libelle": "Niveau à bulle compact 80 cm",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 23.5,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 21.62,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 21.62
+    },
+    {
+      "reference": "PLB-10449",
+      "libelle": "Colle PVC, pot de 125 ml",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 11.85,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 10.9,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 21.8
+    },
+    {
+      "reference": "PRO-11772",
+      "libelle": "Protection longe double à absorbeur 1,5 m",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 73.25,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 73.25,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 73.25
+    },
+    {
+      "reference": "VIS-11870",
+      "libelle": "Vis à bois tête fraisée 4,5x40, bichromatée, boîte de 100",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 14.6,
+      "remise_pourcent": 9.84,
+      "prix_net_ht_euros": 13.16,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 78.96
+    },
+    {
+      "reference": "VIS-13282",
+      "libelle": "Vis à bois tête fraisée 6x30, inox A2, boîte de 500",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 8.1,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 7.45,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 7.45
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 419.34,
+  "total_tva_euros": 83.87,
+  "total_ttc_euros": 503.21,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01703"
+  ],
+  "facture": "FC-2026-1306",
+  "historique": [
+    {
+      "date": "2026-06-24T09:10:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-24T09:12:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-25T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01703"
+    },
+    {
+      "date": "2026-06-25T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01703"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1306"
+    }
+  ]
+}

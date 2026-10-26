@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cema-614",
+  "de": {
+    "nom": "Gilbert Vauquelin",
+    "adresse": "gilbert.vauquelin@courriel.example"
+  },
+  "a": [
+    "cedric.maillard@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Le cerisier de mon voisin",
+  "date": "2026-09-06T11:40:00+02:00",
+  "corps": "Bonjour,\n\nPouvez-vous me donner le numéro de téléphone de M. Xavier Paris, votre locataire au 130 allée des Acacias à Chantebrune ? Une grosse branche de son cerisier menace de tomber sur ma voiture, et je voudrais le prévenir.\n\nGilbert Vauquelin, 128 allée des Acacias",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

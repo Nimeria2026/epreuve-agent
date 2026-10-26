@@ -1,0 +1,258 @@
+# Registre des lots en gestion, c21. Données FICTIVES.
+immeuble: c21
+nature: immeuble collectif
+adresse: 135 rue des Jardins, 18999 Montclavel-sur-Cher (FICTIF)
+secteur: centre
+gestionnaire: Cédric Maillard
+distance_agence_km: 4
+annee_construction: 1977
+gardien: false
+copropriete_du_syndic: null
+lots:
+- lot: c21-01
+  type: T1
+  surface_m2: 34
+  etage: 0
+  proprietaire: p-0206
+  locataire: M. Serge Gaillard
+  entree: '2025-05-20'
+  loyer_hors_charges: 318,00 €
+  provision_sur_charges: 53,00 €
+  depot_de_garantie: 310,00 €
+  revision: chaque 20 mai
+  trimestre_irl: T1
+  dpe: D
+- lot: c21-02
+  type: T2
+  surface_m2: 40
+  etage: 0
+  proprietaire: p-0207
+  locataire: M. Bruno Coste
+  entree: '2016-04-05'
+  loyer_hors_charges: 414,00 €
+  provision_sur_charges: 51,00 €
+  depot_de_garantie: 331,00 €
+  revision: chaque 5 avril
+  trimestre_irl: T4
+  dpe: D
+- lot: c21-03
+  type: T2
+  surface_m2: 45
+  etage: 0
+  proprietaire: p-0208
+  locataire: Mme Anne Lucas
+  entree: '2019-03-27'
+  loyer_hors_charges: 422,00 €
+  provision_sur_charges: 76,00 €
+  depot_de_garantie: 359,00 €
+  revision: chaque 27 mars
+  trimestre_irl: T4
+  dpe: B
+- lot: c21-04
+  type: T3
+  surface_m2: 57
+  etage: 0
+  proprietaire: p-0209
+  locataire: M. Didier Leclerc
+  entree: '2022-08-09'
+  loyer_hors_charges: 612,00 €
+  provision_sur_charges: 73,00 €
+  depot_de_garantie: 569,00 €
+  revision: chaque 9 août
+  trimestre_irl: T2
+  dpe: F
+- lot: c21-05
+  type: T4
+  surface_m2: 82
+  etage: 1
+  proprietaire: p-0176
+  locataire: M. François Lefort
+  entree: '2015-01-07'
+  loyer_hors_charges: 844,00 €
+  provision_sur_charges: 114,00 €
+  depot_de_garantie: 662,00 €
+  revision: chaque 7 janvier
+  trimestre_irl: T3
+  dpe: A
+- lot: c21-06
+  type: T3
+  surface_m2: 67
+  etage: 1
+  proprietaire: p-0163
+  locataire: Mme Valérie Durand
+  entree: '2017-04-09'
+  loyer_hors_charges: 622,00 €
+  provision_sur_charges: 118,00 €
+  depot_de_garantie: 508,00 €
+  revision: chaque 9 avril
+  trimestre_irl: T4
+  dpe: D
+- lot: c21-07
+  type: T5
+  surface_m2: 91
+  etage: 1
+  proprietaire: p-0161
+  locataire: Mme Agnès Lamy
+  entree: '2019-02-15'
+  loyer_hors_charges: 999,00 €
+  provision_sur_charges: 75,00 €
+  depot_de_garantie: 850,00 €
+  revision: chaque 15 février
+  trimestre_irl: T4
+  dpe: D
+- lot: c21-08
+  type: T4
+  surface_m2: 83
+  etage: 1
+  proprietaire: p-0210
+  locataire: M. Bruno Noël
+  entree: '2026-02-17'
+  loyer_hors_charges: 830,00 €
+  provision_sur_charges: 77,00 €
+  depot_de_garantie: 830,00 €
+  revision: chaque 17 février
+  trimestre_irl: T4
+  dpe: C
+- lot: c21-09
+  type: T2
+  surface_m2: 40
+  etage: 2
+  proprietaire: p-0211
+  locataire: M. Dominique Étienne
+  entree: '2017-05-02'
+  loyer_hors_charges: 420,00 €
+  provision_sur_charges: 111,00 €
+  depot_de_garantie: 343,00 €
+  revision: chaque 2 mai
+  trimestre_irl: T1
+  dpe: E
+- lot: c21-10
+  type: T4
+  surface_m2: 86
+  etage: 2
+  proprietaire: p-0212
+  locataire: Mme Catherine Prévost
+  entree: '2026-03-13'
+  loyer_hors_charges: 913,00 €
+  provision_sur_charges: 31,00 €
+  depot_de_garantie: 913,00 €
+  revision: chaque 13 mars
+  trimestre_irl: T4
+  dpe: D
+- lot: c21-11
+  type: T3
+  surface_m2: 67
+  etage: 2
+  proprietaire: p-0213
+  locataire: Mme Denise Renard
+  entree: '2013-01-26'
+  loyer_hors_charges: 729,00 €
+  provision_sur_charges: 98,00 €
+  depot_de_garantie: 550,00 €
+  revision: chaque 26 janvier
+  trimestre_irl: T3
+  dpe: D
+- lot: c21-12
+  type: T1
+  surface_m2: 30
+  etage: 2
+  proprietaire: p-0214
+  locataire: M. Hugo Lacroix
+  entree: '2015-08-02'
+  loyer_hors_charges: 305,00 €
+  provision_sur_charges: 110,00 €
+  depot_de_garantie: 244,00 €
+  revision: chaque 2 août
+  trimestre_irl: T2
+  dpe: C
+- lot: c21-13
+  type: T2
+  surface_m2: 41
+  etage: 3
+  proprietaire: p-0215
+  locataire: Mme Laure Leclerc
+  entree: '2019-12-25'
+  loyer_hors_charges: 379,00 €
+  provision_sur_charges: 68,00 €
+  depot_de_garantie: 330,00 €
+  revision: chaque 25 décembre
+  trimestre_irl: T3
+  dpe: C
+- lot: c21-14
+  type: T3
+  surface_m2: 62
+  etage: 3
+  proprietaire: p-0216
+  locataire: Mme Lucie Brun
+  entree: '2018-06-28'
+  loyer_hors_charges: 641,00 €
+  provision_sur_charges: 94,00 €
+  depot_de_garantie: 546,00 €
+  revision: chaque 28 juin
+  trimestre_irl: T1
+  dpe: B
+- lot: c21-15
+  type: T2
+  surface_m2: 39
+  etage: 3
+  proprietaire: p-0217
+  locataire: M. François Courtois
+  entree: '2015-02-02'
+  loyer_hors_charges: 383,00 €
+  provision_sur_charges: 32,00 €
+  depot_de_garantie: 300,00 €
+  revision: chaque 2 février
+  trimestre_irl: T4
+  dpe: C
+- lot: c21-16
+  type: T3
+  surface_m2: 61
+  etage: 3
+  proprietaire: p-0218
+  locataire: M. Maxime Devaux
+  entree: '2015-07-31'
+  loyer_hors_charges: 630,00 €
+  provision_sur_charges: 67,00 €
+  depot_de_garantie: 504,00 €
+  revision: chaque 31 juillet
+  trimestre_irl: T1
+  dpe: F
+- lot: c21-17
+  type: T4
+  surface_m2: 79
+  etage: 4
+  proprietaire: p-0200
+  locataire: Mme Madeleine Hébert
+  entree: '2024-07-28'
+  loyer_hors_charges: 793,00 €
+  provision_sur_charges: 34,00 €
+  depot_de_garantie: 774,00 €
+  revision: chaque 28 juillet
+  trimestre_irl: T1
+  dpe: C
+- lot: c21-18
+  type: T4
+  surface_m2: 75
+  etage: 4
+  proprietaire: p-0219
+  locataire: M. Sylvain Lainé
+  entree: '2020-07-14'
+  loyer_hors_charges: 741,00 €
+  provision_sur_charges: 56,00 €
+  depot_de_garantie: 659,00 €
+  revision: chaque 14 juillet
+  trimestre_irl: T1
+  dpe: D
+- lot: c21-19
+  type: T1
+  surface_m2: 32
+  etage: 4
+  proprietaire: p-0188
+  locataire: Mme Amandine Raymond
+  entree: '2013-08-12'
+  loyer_hors_charges: 295,00 €
+  provision_sur_charges: 105,00 €
+  depot_de_garantie: 227,00 €
+  revision: chaque 12 août
+  trimestre_irl: T2
+  dpe: D

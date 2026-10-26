@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-814",
+  "de": {
+    "nom": "Garage Bessière",
+    "adresse": "compta@garage-bessiere.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Relance : facture GB-1021",
+  "date": "2026-10-31T10:00:00+01:00",
+  "corps": "Bonjour,\n\nNous vous rappelons notre facture GB-1021 du 21 octobre, 614,40 € TTC, payable le 20 novembre.\n\nGarage Bessière (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

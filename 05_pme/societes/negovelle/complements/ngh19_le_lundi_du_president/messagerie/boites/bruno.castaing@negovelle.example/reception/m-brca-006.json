@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-006",
+  "de": {
+    "nom": "Nathalie Brunet",
+    "adresse": "nathalie.brunet@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Deux gestes à décider",
+  "date": "2026-07-06T07:50:00+02:00",
+  "corps": "Bruno,\n\nDeux litiges de livraison sans réserve ni protestation dans les trois jours, que le manuel me fait te soumettre :\n- Entreprise Hardy (c-0303) : une ponceuse ELP-11666 au carter fendu, BL-2026-01697 du 25 juin, protestée le 2 juillet. Je propose un geste du prix de la ponceuse, 104,83 € TTC, sur FC-2026-1280.\n- Brault et Fils (c-0178) : un casque antibruit PRO-10391 à la coque fendue, BL-2026-01705 du 25 juin, signalé le 3 juillet. Je propose 41,41 € TTC, le prix du casque, sur FC-2026-1162.\n\nDès ton accord écrit, j'émets les avoirs.\n\nNathalie",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

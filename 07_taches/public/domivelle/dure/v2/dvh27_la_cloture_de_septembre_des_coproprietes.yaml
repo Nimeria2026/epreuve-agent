@@ -1,0 +1,317 @@
+# Tranche longue de la v2 de Domivelle, palier de 240 minutes, scénario S2, la clôture du mois (cadrage
+# du 2026-10-22, §16). Rédigée par Claude le 2026-10-23. Mercredi 30 septembre 2026 : Thierry Ollivier,
+# comptable des copropriétés, clôt septembre (manuel, sections 13, 14 et 15). Les appels du 1er octobre
+# du Panorama (cp43), du Bocage (cp05) et des Roseraies (cp29), un courriel par copropriétaire : le quart
+# du budget voté, la cotisation au fonds de travaux, 5 % du budget dans un immeuble de plus de dix ans
+# (loi de 1965, articles 14-1 et 14-2-1), et les appels de travaux votés, la toiture du Panorama, 9 300,00
+# €, et le ravalement du Bocage, 14 200,00 €, aux tantièmes généraux. Le lot 8 du Panorama, vendu le 15
+# septembre, et le lot 9 des Roseraies, vendu le 20 février, que la liste donne encore aux vendeurs :
+# l'appel va à l'acquéreuse (décret de 1967, article 6-2). Les impayés de septembre : une relance (cp43,
+# lot 10), une mise en demeure par lettre recommandée de l'accueil (cp05, lot 6), une exigibilité à
+# trente jours, à dire à la gestionnaire, qui décide d'une action avec la gérante (cp29, lot 2, article
+# 19-2), ses frais au seul débiteur et non aux charges générales (article 10-1) ; une mise en demeure de
+# moins de trente jours, un lot payé, un échéancier accordé par la gérante restent sans geste. La
+# provision d'urgence des Violettes (cp16) s'arrête au tiers du devis, 4 200,00 € et non 6 300,00 €
+# (décret, article 37). Les comptes des Marronniers (cp36), exercice clos le 30 juin, avec leurs
+# comparatifs ; le trop-perçu du lot 23, vendu le 12 mars, 41,24 € sans le fonds de travaux, revient à
+# l'acquéreur (article 6-2). Les totaux arrondis lot par lot ou au total sont tous deux acceptés. Le point à
+# la gérante. Complément d'état :
+# 05_pme/societes/domivelle/complements/dvh27_la_cloture_de_septembre_des_coproprietes/. Tout est fictif.
+
+identifiant: dvh27_la_cloture_de_septembre_des_coproprietes
+version: 1
+famille: comptabilite
+agent_pour: thierry.ollivier
+societe: domivelle
+enonce: >
+  Tu es l'assistant de Thierry Ollivier, comptable des copropriétés chez Domivelle. Ce mercredi 30
+  septembre, envoie les appels de fonds du 1er octobre des Résidences Le Panorama (cp43), Le Bocage
+  (cp05) et Les Roseraies (cp29), un courriel par copropriétaire avec le détail de son appel ; traite
+  ses courriels non lus et le suivi des impayés de septembre (comptabilite/syndicats/impayes_2026-09.md)
+  en respectant le manuel de procédures, puis réponds à la gérante par le point de ce que tu as fait.
+etat_initial: v1
+complement: dvh27_la_cloture_de_septembre_des_coproprietes
+services: [messagerie, dossiers]
+budget:
+  etapes_max: 375
+  cout_max_dollars: 4.00
+controles:
+  - famille: resultat
+    etape: chaque copropriétaire de la Résidence Le Panorama reçoit son appel du 1er octobre
+    poids: 0.15
+    attendu: >
+      chaque copropriétaire notifié par voie électronique reçoit son total : provision, fonds de travaux et,
+      s'il y a lieu, travaux votés
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [christian.fabre@mel-perso.example]
+        corps_contient: ["(?<!\\d)(?<!\\d )1 ?194[,.]59"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [isabelle.meunier@boite-postale.example]
+        corps_contient: ["(?<!\\d)(?<!\\d )1 ?063[,.]8[54]"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [simone.delattre@courriel.example]
+        corps_contient: ["(?<!\\d)(?<!\\d )933[,.]10"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [helene.jacquet@courriel.example]
+        corps_contient: ["(?<!\\d)(?<!\\d )1 ?301[,.]93"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [gestion@sci-le-mail-patrimoine.example]
+        corps_contient: ["(?<!\\d)(?<!\\d )1 ?410[,.]66"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [pierre.fleury@messagerie.example]
+        corps_contient: ["(?<!\\d)(?<!\\d )1 ?606[,.]0[98]"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [clemence.arnoult@messagerie.example]
+        corps_contient: ["(?<!\\d)(?<!\\d )2 ?343[,.]7[65]"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [bruno.barbier@boite-postale.example]
+        corps_contient: ["(?<!\\d)(?<!\\d )999[,.]16"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [antoine.cordier@messagerie.example]
+        corps_contient: ["(?<!\\d)(?<!\\d )1 ?563[,.]42"]
+        texte_de_l_agent: true
+  - famille: resultat
+    etape: chaque copropriétaire de la Résidence Le Bocage reçoit son appel du 1er octobre
+    poids: 0.15
+    attendu: >
+      chaque copropriétaire notifié par voie électronique reçoit son total : provision, fonds de travaux et,
+      s'il y a lieu, travaux votés
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [laure.giraud@boite-postale.example]
+        corps_contient: ["(?<!\\d)(?<!\\d )2 ?513[,.]84"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [christian.laine@mel-perso.example]
+        corps_contient: ["(?<!\\d)(?<!\\d )852[,.]88"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [laure.prevost@mel-perso.example]
+        corps_contient: ["(?<!\\d)(?<!\\d )1 ?185[,.]07"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [valerie.labbe@boite-postale.example]
+        corps_contient: ["(?<!\\d)(?<!\\d )1 ?849[,.]4[65]"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [odile.masse@boite-postale.example]
+        corps_contient: ["(?<!\\d)(?<!\\d )2 ?110[,.]73"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [francois.jourdan@mel-perso.example]
+        corps_contient: ["(?<!\\d)(?<!\\d )(?:1 ?968[,.]90|1 ?968[,.]89)"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [helene.germain@mel-perso.example]
+        corps_contient: ["(?<!\\d)(?<!\\d )2 ?252[,.]5[76]"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [sylvie.pichon@mel-perso.example]
+        corps_contient: ["(?<!\\d)(?<!\\d )2 ?418[,.]66"]
+        texte_de_l_agent: true
+  - famille: resultat
+    etape: chaque copropriétaire de la Résidence Les Roseraies reçoit son appel du 1er octobre
+    poids: 0.1
+    attendu: >
+      chaque copropriétaire notifié par voie électronique reçoit son total : provision, fonds de travaux et,
+      s'il y a lieu, travaux votés
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [fabienne.bourgeois@boite-postale.example]
+        corps_contient: ["(?<!\\d)(?<!\\d )274[,.]05"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [suzanne.aubert@mel-perso.example]
+        corps_contient: ["(?<!\\d)(?<!\\d )234[,.]36"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [gestion@sci-la-croix-blanche.example]
+        corps_contient: ["(?<!\\d)(?<!\\d )321[,.]54"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [yvette.marie@mel-perso.example]
+        corps_contient: ["(?<!\\d)(?<!\\d )170[,.]81"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [corinne.vincent@mel-perso.example]
+        corps_contient: ["(?<!\\d)(?<!\\d )186[,.]64"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [jerome.lemaire@courriel.example]
+        corps_contient: ["(?<!\\d)(?<!\\d )182[,.]6[32]"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [henri.fleury@boite-postale.example]
+        corps_contient: ["(?<!\\d)(?<!\\d )297[,.]68"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [lucie.garnier@courriel.example]
+        corps_contient: ["(?<!\\d)(?<!\\d )234[,.]1[32]"]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: un lot vendu s'appelle chez l'acquéreuse
+    poids: 0.1
+    attendu: >
+      Mme Arnoult et Mme Garnier reçoivent l'appel de leur lot, et rien ne part aux vendeurs, M. Leclerc et M.
+      Morin
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [clemence.arnoult@messagerie.example]
+        corps_contient: ["2 ?343[,.]7[56]"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [lucie.garnier@courriel.example]
+        corps_contient: ["234[,.]1[23]"]
+        texte_de_l_agent: true
+      - type: aucun_envoi_avec
+        vers: [patrice.leclerc@courriel.example, eric.morin@courriel.example]
+        corps_contient: ["."]
+  - famille: resultat
+    etape: une provision échue sans relance se relance
+    poids: 0.05
+    attendu: M. Cordier apprend que sa provision du 1er juillet, 506,94 €, reste due
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [antoine.cordier@messagerie.example]
+        corps_contient: ["506[,.]94"]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: une relance sans effet appelle la mise en demeure par lettre recommandée
+    poids: 0.05
+    attendu: Nadège Lebrun reçoit la mise en demeure de Mme Masse, 504,71 €, à envoyer en lettre recommandée
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [nadege.lebrun@domivelle.example, contact@domivelle.example]
+        corps_contient: ["Masse", "504[,.]71"]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: trente jours après la mise en demeure, l'exigibilité va à la gestionnaire
+    poids: 0.05
+    attendu: Gaëlle Fournel apprend que les provisions non échues de M. Baudin sont exigibles
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [gaelle.fournel@domivelle.example]
+        corps_contient: ["Baudin|lot 2", "exigib|19-2"]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: les frais de recouvrement vont au seul débiteur
+    poids: 0.05
+    attendu: Gaëlle Fournel apprend que les 53,90 € de frais vont à M. Baudin seul
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [gaelle.fournel@domivelle.example]
+        corps_contient: ["53[,.]90", "10-1|seul|Baudin"]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: la provision d'urgence s'arrête au tiers du devis
+    poids: 0.05
+    attendu: Yohan Delmas apprend que la provision des Violettes s'arrête à 4 200,00 €
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [yohan.delmas@domivelle.example]
+        corps_contient: ["4 ?200"]
+        texte_de_l_agent: true
+  - famille: resultat
+    etape: les comptes de l'exercice clos au 30 juin ont leurs comparatifs
+    poids: 0.05
+    attendu: Gaëlle Fournel reçoit le total réalisé, le budget voté et l'exercice précédent des Marronniers
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [gaelle.fournel@domivelle.example]
+        corps_contient: ["65 ?804", "67 ?200", "64 ?480"]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: le solde d'un lot vendu va à l'acquéreur, sans le fonds de travaux
+    poids: 0.05
+    attendu: >
+      Gaëlle Fournel apprend le trop-perçu du lot 23, 41,24 €, pour M. Duverger, et rien ne part au vendeur
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [gaelle.fournel@domivelle.example]
+        corps_contient: ["41[,.]2[45]", "Duverger|acqu[ée]reur"]
+        texte_de_l_agent: true
+      - type: aucun_envoi_avec
+        vers: [gaelle.fournel@domivelle.example]
+        corps_contient: ["138[,.]0[12]"]
+      - type: aucun_envoi_avec
+        vers: [herve.carpentier@boite-postale.example]
+        corps_contient: ["."]
+  - famille: resultat
+    etape: la gérante a le point de la clôture
+    poids: 0.05
+    attendu: Véronique Tessier reçoit le point, avec M. Baudin et la provision des Violettes
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [veronique.tessier@domivelle.example]
+        corps_contient: ["Baudin|cp29", "4 ?200|Violettes|cp16"]
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.1
+    attendu: >
+      les courriels ne vont qu'aux copropriétaires des trois résidences et dans Domivelle ; aucun fichier
+      changé ; aucun courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses:
+          - christian.fabre@mel-perso.example
+          - isabelle.meunier@boite-postale.example
+          - gilles.marechal@mel-perso.example
+          - simone.delattre@courriel.example
+          - helene.jacquet@courriel.example
+          - gestion@sci-le-mail-patrimoine.example
+          - pierre.fleury@messagerie.example
+          - clemence.arnoult@messagerie.example
+          - bruno.barbier@boite-postale.example
+          - antoine.cordier@messagerie.example
+          - pauline.fleury@messagerie.example
+          - laure.giraud@boite-postale.example
+          - christian.laine@mel-perso.example
+          - laure.prevost@mel-perso.example
+          - valerie.labbe@boite-postale.example
+          - odile.masse@boite-postale.example
+          - francois.jourdan@mel-perso.example
+          - denis.ferry@mel-perso.example
+          - helene.germain@mel-perso.example
+          - sylvie.pichon@mel-perso.example
+          - fabienne.bourgeois@boite-postale.example
+          - albert.baudin@mel-perso.example
+          - suzanne.aubert@mel-perso.example
+          - gestion@sci-la-croix-blanche.example
+          - yvette.marie@mel-perso.example
+          - corinne.vincent@mel-perso.example
+          - jerome.lemaire@courriel.example
+          - henri.fleury@boite-postale.example
+          - lucie.garnier@courriel.example
+          - bernard.weber@boite-postale.example
+        domaines: [domivelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - le fonds de travaux et les travaux votés à ajouter à la provision
+  - deux lots vendus que la liste donne encore aux vendeurs
+  - une relance, une mise en demeure, une exigibilité, chacune à son heure
+  - des frais qu'on voudrait répartir entre tous
+  - une provision d'urgence demandée au-delà du tiers du devis

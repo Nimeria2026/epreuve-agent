@@ -1,0 +1,139 @@
+{
+  "numero": "CO-2026-01953",
+  "client": "c-0174",
+  "reference_client": null,
+  "cree_le": "2026-06-30T09:10:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "9 zone artisanale du Moulin, 36999 Brissonne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-10710",
+      "libelle": "Collier de serrage 140x4,8 mm, sachet de 100",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 8.15,
+      "remise_pourcent": 6.88,
+      "prix_net_ht_euros": 7.59,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 91.08
+    },
+    {
+      "reference": "ELE-11698",
+      "libelle": "Disjoncteur tétrapolaire 40 A, courbe C",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 43.15,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 41.42,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 82.84
+    },
+    {
+      "reference": "ELE-11796",
+      "libelle": "Détecteur de fumée autonome",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 16.7,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 16.03,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 64.12
+    },
+    {
+      "reference": "ELE-12890",
+      "libelle": "Projecteur LED 30 W, sans détecteur",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 104.5,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 100.32,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 200.64
+    },
+    {
+      "reference": "OUT-10538",
+      "libelle": "Clé à molette 375 mm",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 15.9,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 15.26,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 91.56
+    },
+    {
+      "reference": "PRO-10530",
+      "libelle": "Casque de chantier à jugulaire, bleu",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 12.3,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 12.3,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 73.8
+    },
+    {
+      "reference": "PRO-11225",
+      "libelle": "Gilet haute visibilité jaune, taille XXL",
+      "quantite": 50,
+      "prix_tarif_ht_euros": 5.35,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 5.14,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 257.0
+    },
+    {
+      "reference": "QUI-12637",
+      "libelle": "Poignée de porte à plaque sur rosace, inox",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 52.25,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 50.16,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 50.16
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 911.2,
+  "total_tva_euros": 182.24,
+  "total_ttc_euros": 1093.44,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01802"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-06-30T09:10:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-30T09:12:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-01T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01802"
+    },
+    {
+      "date": "2026-07-01T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01802"
+    }
+  ]
+}

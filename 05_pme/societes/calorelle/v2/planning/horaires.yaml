@@ -1,0 +1,29 @@
+# Heures d'intervention de Calorelle, lues par le service de planning. Données FICTIVES.
+# Jours : 1 pour lundi. Plages : heure de Paris. Jours fériés : les onze jours fériés légaux
+# (Code du travail, article L3133-1), calculés par 09_outillage/scripts/generer_donnees_v2.py ;
+# tous chômés chez Calorelle (manuel, section 9).
+jours: [1, 2, 3, 4, 5]
+plages: ["08:00-12:00", "13:30-17:30"]
+feries:
+  - "2026-01-01"
+  - "2026-04-06"
+  - "2026-05-01"
+  - "2026-05-08"
+  - "2026-05-14"
+  - "2026-05-25"
+  - "2026-07-14"
+  - "2026-08-15"
+  - "2026-11-01"
+  - "2026-11-11"
+  - "2026-12-25"
+  - "2027-01-01"
+  - "2027-03-29"
+  - "2027-05-01"
+  - "2027-05-06"
+  - "2027-05-08"
+  - "2027-05-17"
+  - "2027-07-14"
+  - "2027-08-15"
+  - "2027-11-01"
+  - "2027-11-11"
+  - "2027-12-25"

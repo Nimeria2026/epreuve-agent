@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-isro-002",
+  "de": {
+    "nom": "Océane Collin",
+    "adresse": "oceane.collin@negovelle.example"
+  },
+  "a": [
+    "isabelle.royer@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Ateliers Gabriel, CO-2026-02043",
+  "date": "2026-07-06T07:05:00+02:00",
+  "corps": "Isabelle,\n\nAteliers Gabriel (c-0199) a réglé sa facture de mai, m'assure M. Lacour. Tu peux débloquer CO-2026-02043 ?\n\nOcéane",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

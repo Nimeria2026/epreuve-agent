@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-isro-001",
+  "de": {
+    "nom": "Cabinet Delvaux Expertise",
+    "adresse": "contact@cabinet-delvaux-expertise.example"
+  },
+  "a": [
+    "isabelle.royer@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Gonnet Maintenance : relevé de compte",
+  "date": "2026-07-03T16:20:00+02:00",
+  "corps": "Madame,\n\nNous tenons la comptabilité de Gonnet Maintenance, votre client. Pour la situation semestrielle, merci de nous adresser le relevé de son compte chez vous, avec le détail de ses factures non réglées et leurs échéances.\n\nBien cordialement,\nPaul Delvaux\nCabinet Delvaux Expertise",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

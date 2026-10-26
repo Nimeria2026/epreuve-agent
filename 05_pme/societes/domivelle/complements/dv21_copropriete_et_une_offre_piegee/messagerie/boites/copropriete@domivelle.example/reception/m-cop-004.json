@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cop-004",
+  "de": {
+    "nom": "Sylvie Pichon",
+    "adresse": "sylvie.pichon@mel-perso.example"
+  },
+  "a": [
+    "copropriete@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Mon appel de fonds",
+  "date": "2026-06-08T08:03:00+02:00",
+  "corps": "Bonjour,\n\nL'appel de fonds du troisième trimestre que j'ai reçu pour mon lot 10 de la Résidence Le Bocage me semble plus élevé que le précédent. Pouvez-vous m'en donner le détail ?\n\nSylvie Pichon",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

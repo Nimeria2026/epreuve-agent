@@ -1,0 +1,25 @@
+# Fiche du client c-0064 de Négovelle. Données FICTIVES.
+code: c-0064
+nom: Plomberie Billard
+type: artisan
+adresse: 27 avenue Pasteur, 36999 Brissonne (FICTIF)
+telephone: 02 61 91 79 45
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Philippe Fleurot
+  fonction: gérant
+  courriel: philippe.fleurot@plomberie-billard.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 27 avenue Pasteur, 36999 Brissonne (FICTIF)
+categorie_remise: C
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2018-04-01'
+limite_encours_euros: 5500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

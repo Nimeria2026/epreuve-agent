@@ -1,0 +1,14 @@
+# Fiche du propriétaire p-0024, mandant de Domivelle. Données FICTIVES.
+code: p-0024
+nom: M. Henri Fleury
+adresse: 129 impasse des Noyers, 18999 Montclavel-sur-Cher (FICTIF)
+courriel: henri.fleury@boite-postale.example
+telephone: 06 39 98 62 16
+iban: FR76 9999 9683 9439 1874 1706 946 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- c01-12
+- c02-06
+- c02-12
+- c04-08
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

@@ -1,0 +1,79 @@
+{
+  "numero": "CO-2026-01879",
+  "client": "c-0041",
+  "reference_client": null,
+  "cree_le": "2026-06-25T09:10:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "62 chemin des Prés, 36999 Laubrissac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "QUI-11657",
+      "libelle": "Cylindre européen 45x40 mm, 3 clés",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 54.2,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 52.03,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 312.18
+    },
+    {
+      "reference": "VIS-12956",
+      "libelle": "Vis à bois tête fraisée 5x50, inox A2, boîte de 200",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 13.2,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 12.67,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 12.67
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 324.85,
+  "total_tva_euros": 64.97,
+  "total_ttc_euros": 389.82,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01728"
+  ],
+  "facture": "FC-2026-1035",
+  "historique": [
+    {
+      "date": "2026-06-25T09:10:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-25T09:12:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-26T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01728"
+    },
+    {
+      "date": "2026-06-26T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01728"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1035"
+    }
+  ]
+}

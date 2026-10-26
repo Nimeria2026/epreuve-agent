@@ -1,0 +1,29 @@
+{
+  "identifiant": "m-brca-001",
+  "de": {
+    "nom": "Aurélie Bonnefoy",
+    "adresse": "aurelie.bonnefoy@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Note de frais de juin",
+  "date": "2026-07-03T18:05:00+02:00",
+  "corps": "Bonjour Bruno,\n\nVoici ma note de frais de juin, 284,41 €, et mes justificatifs. J'y ai ajouté la nuit d'hôtel du 28 mai à Vendrigny, que j'avais oubliée. Je n'ai pas gardé le ticket du péage du 29 juin. Le déjeuner du 22 juin était avec le gérant de Couverture Ancelin, pour leur commande de l'été.\n\n| Date | Nature | Lieu | Montant TTC | Justificatif |\n|---|---|---|---|---|\n| 8 juin 2026 | repas en tournée | Laubrissac | 18,40 € | oui |\n| 9 juin 2026 | péage | Saulvenne | 6,80 € | oui |\n| 15 juin 2026 | repas en tournée | Saulvenne | 26,90 € | oui |\n| 16 juin 2026 | nuit d'hôtel | Laubrissac | 84,00 € | oui |\n| 22 juin 2026 | repas avec un client, Couverture Ancelin | Laubrissac | 64,50 € | oui |\n| 23 juin 2026 | péage | Laubrissac | 7,20 € | oui |\n| 29 juin 2026 | péage | Saulvenne | 5,90 € | non |\n| 28 mai 2026 | nuit d'hôtel | Vendrigny | 70,71 € | oui |\n\nMerci,\nAurélie",
+  "pieces_jointes": [
+    {
+      "nom": "aurelie.bonnefoy.md",
+      "fichier": "pieces/m-brca-001/aurelie.bonnefoy.md",
+      "taille_octets": 681
+    },
+    {
+      "nom": "justificatifs_2026-06.pdf",
+      "fichier": "pieces/m-brca-001/justificatifs_2026-06.pdf",
+      "taille_octets": 795
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

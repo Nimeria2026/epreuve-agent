@@ -1,0 +1,24 @@
+# Fiche du lot n28-03. Données FICTIVES.
+lot: n28-03
+adresse: 126 avenue Pasteur, 18999 Saint-Aubrin-des-Bois (FICTIF)
+type: maison T3
+surface_m2: 70
+locataire:
+  nom: Mme Marion Schmitt
+  courriel: marion.schmitt@mel-perso.example
+  telephone: 06 39 98 94 41
+  entree: '2023-07-30'
+bail:
+  signature: '2023-07-30'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 575,00 €
+  depot_de_garantie: 548,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T1
+dpe:
+  classe: D
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

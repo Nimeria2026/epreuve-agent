@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-deba-b04",
+  "de": {
+    "nom": "Hygiène de la Croisette",
+    "adresse": "commandes@hygiene-de-la-croisette.example"
+  },
+  "a": [
+    "denis.barthe@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Fermeture estivale",
+  "date": "2026-06-24T16:55:00+02:00",
+  "corps": "Bonjour,\n\nNos bureaux seront fermés du 10 au 21 août.\n\nHygiène de la Croisette",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-617",
+  "de": {
+    "nom": "Commune du Val-Mauvoir",
+    "adresse": "contact@commune-du-val-mauvoir-586.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Compte rendu de la visite de septembre",
+  "date": "2026-11-23T08:55:00+01:00",
+  "corps": "Bonjour Monsieur Benali,\n\nPour le dossier technique de la mairie, pourriez-vous nous renvoyer le compte rendu de votre visite d'entretien de septembre ? Nous ne le retrouvons plus.\n\nCordialement,\nLe secrétariat de la mairie du Val-Mauvoir (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-vete-b03",
+  "de": {
+    "nom": "M. Jérôme Delorme",
+    "adresse": "jerome.delorme@courriel.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Merci",
+  "date": "2026-05-22T13:58:00+02:00",
+  "corps": "Bonjour,\n\nMerci pour votre réponse rapide.\n\nM. Jérôme Delorme",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

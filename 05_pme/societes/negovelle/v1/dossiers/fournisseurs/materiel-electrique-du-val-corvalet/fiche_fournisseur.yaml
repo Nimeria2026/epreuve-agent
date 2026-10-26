@@ -1,0 +1,10 @@
+# Fiche d'un fournisseur de Négovelle. Données FICTIVES.
+nom: Matériel électrique du Val-Corvalet
+activite: fabricant d'appareillage électrique
+adresse: 20 zone d'activités des Grands Prés, 36999 Laubrissac (FICTIF)
+telephone: 02 61 91 95 01
+courriel_commandes: commandes@materiel-electrique-du-val-corvalet.example
+courriel_facturation: facturation@materiel-electrique-du-val-corvalet.example
+iban: FR76 9999 9152 4767 2541 2581 593 (FICTIF)
+conditions: paiement à 60 jours date de facture
+minimum_de_commande: 150,00 € HT

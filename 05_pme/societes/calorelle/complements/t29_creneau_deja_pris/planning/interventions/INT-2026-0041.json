@@ -1,0 +1,13 @@
+{
+  "numero": "INT-2026-0041",
+  "client": "c-0034",
+  "techniciens": [
+    "kevin.lambert"
+  ],
+  "debut": "2026-11-12T10:00:00+01:00",
+  "fin": "2026-11-12T12:00:00+01:00",
+  "nature": "installation",
+  "objet": "Remplacement d'un circulateur",
+  "statut": "planifiee",
+  "cree_par": "marc.duval"
+}

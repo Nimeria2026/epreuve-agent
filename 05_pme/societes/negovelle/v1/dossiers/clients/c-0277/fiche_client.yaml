@@ -1,0 +1,25 @@
+# Fiche du client c-0277 de Négovelle. Données FICTIVES.
+code: c-0277
+nom: Charpente Allard
+type: artisan
+adresse: 68 rue de la Halle, 36999 Fontclavier (FICTIF)
+telephone: 02 61 91 79 30
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Pierre Dumont
+  fonction: gérant
+  courriel: pierre.dumont@charpente-allard.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 68 rue de la Halle, 36999 Fontclavier (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2013-12-01'
+limite_encours_euros: 6500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

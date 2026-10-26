@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-fame-009",
+  "de": {
+    "nom": "Amandine Durieux",
+    "adresse": "amandine.durieux@legendre-industrie.example"
+  },
+  "a": [
+    "fabrice.mercier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-06T07:50:00+02:00",
+  "corps": "Bonjour Fabrice,\n\nVoici notre commande, à livrer au siège :\n- 24 x CON-10302, Colle néoprène, tube de 125 ml\n- 10 x QUI-10767, Charnière invisible 30 mm, inox\n- 12 x PLB-11143, Flexible inox femelle-femelle 12x17 30 cm\n\nMerci,\n\nAmandine Durieux\nLegendre Industrie",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

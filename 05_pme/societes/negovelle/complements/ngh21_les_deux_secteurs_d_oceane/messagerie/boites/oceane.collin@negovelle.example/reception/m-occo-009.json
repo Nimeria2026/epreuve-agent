@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-occo-009",
+  "de": {
+    "nom": "Anne Cosson",
+    "adresse": "anne.cosson@menuiserie-herve.example"
+  },
+  "a": [
+    "oceane.collin@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-06T07:55:00+02:00",
+  "corps": "Bonjour Océane,\n\nVoici notre commande, à livrer au siège :\n- 2 x ELE-10979, Câble H07V-U 10 mm², couronne de 100 m\n- 6 x PLB-12449, Robinet d'arrêt quart de tour 20x27\n\nMerci,\nAnne Cosson\nMenuiserie Hervé",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

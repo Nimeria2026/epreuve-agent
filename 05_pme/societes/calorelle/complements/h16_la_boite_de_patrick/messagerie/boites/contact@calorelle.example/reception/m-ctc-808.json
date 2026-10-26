@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-ctc-808",
+  "de": {
+    "nom": "Échafaudages de Brenneval",
+    "adresse": "compta@echafaudages-de-brenneval.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture EB-26-0512",
+  "date": "2026-11-22T10:15:00+01:00",
+  "corps": "Bonjour,\n\nVeuillez trouver notre facture EB-26-0512 du 20 novembre 2026, 540,00 € TTC, location d'échafaudage pour le chantier des Grèves.\n\nÉchafaudages de Brenneval (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "EB-26-0512.pdf",
+      "fichier": "pieces/m-ctc-808/EB-26-0512.pdf",
+      "taille_octets": 1072
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

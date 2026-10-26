@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-gafo-b03",
+  "de": {
+    "nom": "Mme Simone Fontaine",
+    "adresse": "simone.fontaine@messagerie.example"
+  },
+  "a": [
+    "gaelle.fournel@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Date de la prochaine assemblée",
+  "date": "2026-05-28T09:58:00+02:00",
+  "corps": "Bonjour,\n\nPouvez-vous me dire quand se tiendra notre prochaine assemblée ?\n\nMme Simone Fontaine",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

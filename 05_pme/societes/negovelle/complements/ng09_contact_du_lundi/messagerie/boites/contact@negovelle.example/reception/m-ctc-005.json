@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-005",
+  "de": {
+    "nom": "Léa Gonnet",
+    "adresse": "lea.gonnet@maconnerie-auger.example"
+  },
+  "a": [
+    "contact@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Retour de gants",
+  "date": "2026-07-04T08:20:00+02:00",
+  "corps": "Bonjour,\n\nNous voudrions vous retourner 5 paires de gants de manutention, taille 9, commandées par erreur et jamais déballées.\n\nLéa Gonnet\nMaçonnerie Auger",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

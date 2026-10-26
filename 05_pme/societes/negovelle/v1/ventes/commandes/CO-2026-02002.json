@@ -1,0 +1,106 @@
+{
+  "numero": "CO-2026-02002",
+  "client": "c-0259",
+  "reference_client": null,
+  "cree_le": "2026-07-02T09:10:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "135 rue des Jardins, 36999 Fontclavier (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-10122",
+      "libelle": "Ampoule LED E27 12 W, 4000 K",
+      "quantite": 50,
+      "prix_tarif_ht_euros": 3.6,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 3.46,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 173.0
+    },
+    {
+      "reference": "FIX-10449",
+      "libelle": "Cheville nylon 5x40, boîte de 200",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 13.2,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 13.2,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 39.6
+    },
+    {
+      "reference": "PLB-12376",
+      "libelle": "Raccord à sertir té 20 mm",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 5.35,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 5.35,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 26.75
+    },
+    {
+      "reference": "VIS-12507",
+      "libelle": "Vis à bois tête fraisée 4x50, zinguée, boîte de 500",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 10.85,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 10.85,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 10.85
+    },
+    {
+      "reference": "VIS-13666",
+      "libelle": "Vis à tôle tête cylindrique 3,5x19, inox A2, boîte de 250",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 15.55,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 15.55,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 77.75
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 327.95,
+  "total_tva_euros": 65.59,
+  "total_ttc_euros": 393.54,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01851"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-02T09:10:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-02T09:12:00+02:00",
+      "par": "oceane.collin",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01851"
+    },
+    {
+      "date": "2026-07-03T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01851"
+    }
+  ]
+}

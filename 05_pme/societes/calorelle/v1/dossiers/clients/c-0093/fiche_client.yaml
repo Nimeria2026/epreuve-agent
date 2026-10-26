@@ -1,0 +1,8 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0093"
+nom: "Hélène Bernard"
+type: "particulier"
+adresse: "110 impasse des Saules, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "helene.bernard@courriel.example"
+telephone: "06 39 98 50 24"
+charge_d_affaires: "julie.perrin"

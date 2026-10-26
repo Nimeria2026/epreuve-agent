@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-008",
+  "de": {
+    "nom": "Office notarial des Tilleuls",
+    "adresse": "accueil@office-des-tilleuls.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "État daté, Résidence Le Clos des Forges, lot 6",
+  "date": "2026-06-03T16:45:00+02:00",
+  "corps": "Madame, Monsieur,\n\nNous préparons la vente du lot 6 de la Résidence Le Clos des Forges, dont vous êtes syndic. Merci de nous adresser l'état daté.\n\nOffice notarial des Tilleuls",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

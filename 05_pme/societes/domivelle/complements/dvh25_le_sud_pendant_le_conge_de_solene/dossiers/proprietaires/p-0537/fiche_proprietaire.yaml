@@ -1,0 +1,11 @@
+# Fiche du propriétaire p-0537, mandant de Domivelle. Données FICTIVES.
+code: p-0537
+nom: M. Olivier Gaillard
+adresse: 14 rue des Glycines, 18999 Chantebrune (FICTIF)
+courriel: olivier.gaillard@courriel.example
+telephone: 06 39 98 76 21
+iban: FR76 9999 9415 2273 0981 6624 108 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- s05-08
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

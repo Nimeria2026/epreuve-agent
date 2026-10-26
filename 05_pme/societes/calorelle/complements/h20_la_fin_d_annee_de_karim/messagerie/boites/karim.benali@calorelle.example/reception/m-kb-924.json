@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-924",
+  "de": {
+    "nom": "Mathieu Picard",
+    "adresse": "mathieu.picard@calorelle.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Correction : mairie du Pré-Bouvreuil",
+  "date": "2026-12-29T08:30:00+01:00",
+  "corps": "Karim,\n\nJe me suis trompé dans ma note sur la mairie du Pré-Bouvreuil, rue du Moulin : il faut 18 m de tuyauterie, pas 16, et 22 h de main-d'œuvre, pas 20. Le reste ne change pas.\n\nMathieu (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

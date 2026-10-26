@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-gafo-205",
+  "de": {
+    "nom": "Jeanne Boulanger",
+    "adresse": "jeanne.boulanger@mel-perso.example"
+  },
+  "a": [
+    "gaelle.fournel@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Date de notre assemblée",
+  "date": "2026-06-05T17:45:00+02:00",
+  "corps": "Bonjour Madame Fournel,\n\nPour l'assemblée des Charmilles, le conseil syndical propose le jeudi 25 juin à 18 h, à la salle des fêtes de Chantebrune, ou, à défaut, le mardi 7 juillet à la même heure et au même endroit. Les convocations peuvent partir lundi.\n\nJeanne Boulanger, présidente du conseil syndical",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

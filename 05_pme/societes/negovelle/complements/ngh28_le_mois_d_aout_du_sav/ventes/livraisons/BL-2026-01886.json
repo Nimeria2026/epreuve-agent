@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01886",
+  "commande": "CO-2026-02066",
+  "client": "c-0339",
+  "date_expedition": "2026-07-24",
+  "date_livraison": "2026-07-24",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "20 zone artisanale du Moulin, 36999 Vaumoreau-sur-Indre (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "ELP-10710",
+      "libelle": "Foret béton SDS-plus 18x260 mm",
+      "quantite": 10
+    },
+    {
+      "reference": "VIS-11494",
+      "libelle": "Vis à bois tête fraisée 3x50, zinguée, boîte de 500",
+      "quantite": 20
+    }
+  ],
+  "reserves": "carton percé : 3 forets ELP-10710 tordus",
+  "signataire": "Yvette Rocher",
+  "statut": "livre"
+}

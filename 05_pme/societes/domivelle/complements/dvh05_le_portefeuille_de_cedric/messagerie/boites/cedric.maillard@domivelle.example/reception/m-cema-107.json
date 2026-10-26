@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cema-107",
+  "de": {
+    "nom": "Agnès Bourdon",
+    "adresse": "agnes.bourdon@mel-perso.example"
+  },
+  "a": [
+    "cedric.maillard@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Robinet",
+  "date": "2026-06-06T09:50:00+02:00",
+  "corps": "Bonjour,\n\nLe joint du robinet de la salle de bains est usé, il faudrait le changer. Pouvez-vous envoyer un plombier ?\n\nAgnès Bourdon, lot c28-11",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

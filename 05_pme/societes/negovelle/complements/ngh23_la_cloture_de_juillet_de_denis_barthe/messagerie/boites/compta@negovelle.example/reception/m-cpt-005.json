@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-005",
+  "de": {
+    "nom": "Quincaillerie des Brandes",
+    "adresse": "facturation@quincaillerie-des-brandes.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture F38846",
+  "date": "2026-07-28T16:05:00+02:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-jointe notre facture F38846 du 27 juillet 2026, pour votre commande CA-2026-0319 :\n- QUI-10718, Charnière invisible 100 mm, acier zingué : 120 x 5,69 € HT = 682,80 €\n- QUI-11029, Charnière piano 80 mm, acier zingué : 80 x 3,50 € HT = 280,00 €\n- QUI-11690, Cylindre européen 45x50 mm, 5 clés : 24 x 40,08 € HT = 961,92 €\n- QUI-11731, Cylindre européen 50x40 mm, 5 clés : 30 x 18,69 € HT = 560,70 €\n- QUI-12155, Paumelle 120 mm, acier, sachet de 4 : 60 x 7,34 € HT = 440,40 €\n- QUI-12384, Paumelle 80 mm, laiton, sachet de 4 : 80 x 9,08 € HT = 726,40 €\n\nTotal HT : 3 652,22 € ; TVA 20 % : 730,44 € ; total TTC : 4 382,66 €. Paiement à 60 jours date de facture.\n\nService facturation\nQuincaillerie des Brandes",
+  "pieces_jointes": [
+    {
+      "nom": "F38846.pdf",
+      "fichier": "pieces/m-cpt-005/F38846.pdf",
+      "taille_octets": 1033
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

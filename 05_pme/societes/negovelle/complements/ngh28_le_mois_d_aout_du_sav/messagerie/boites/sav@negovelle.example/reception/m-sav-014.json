@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-014",
+  "de": {
+    "nom": "Anne Chatelain",
+    "adresse": "anne.chatelain@chauffage-parmentier.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Retour de hublots",
+  "date": "2026-08-10T07:30:00+02:00",
+  "corps": "Bonjour,\n\nPouvons-nous vous rendre 2 hublots ELE-12213 de la livraison du 8 juillet, BL-2026-01906, jamais posés ?\n\nAnne Chatelain\nChauffage Parmentier",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

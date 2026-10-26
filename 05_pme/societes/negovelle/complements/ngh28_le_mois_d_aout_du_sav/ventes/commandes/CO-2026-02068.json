@@ -1,0 +1,73 @@
+{
+  "numero": "CO-2026-02068",
+  "client": "c-0243",
+  "reference_client": null,
+  "cree_le": "2026-08-02T10:00:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "36 zone industrielle des Brandes, 36999 Corvalet (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "VIS-10890",
+      "libelle": "Vis à bois tête fraisée 3,5x40, inox A2, boîte de 500",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 20.2,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 20.2,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 202.0
+    },
+    {
+      "reference": "VIS-10751",
+      "libelle": "Vis à bois tête fraisée 3,5x25, bichromatée, boîte de 200",
+      "quantite": 15,
+      "prix_tarif_ht_euros": 15.65,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 15.65,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 234.75
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 436.75,
+  "total_tva_euros": 87.35,
+  "total_ttc_euros": 524.1,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01888"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-08-02T10:00:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": "commande du client"
+    },
+    {
+      "date": "2026-08-02T10:05:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": "stock réservé"
+    },
+    {
+      "date": "2026-08-03T16:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01888"
+    },
+    {
+      "date": "2026-08-04T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01888"
+    }
+  ]
+}

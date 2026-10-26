@@ -1,0 +1,17 @@
+# Budget prévisionnel de l'exercice en cours, voté, copropriété cp42. Données FICTIVES.
+copropriete: cp42
+exercice: '2026'
+total: 46 400,00 €
+postes:
+  nettoyage des parties communes: 10 208,00 €
+  espaces verts: 3 712,00 €
+  électricité des parties communes: 4 176,00 €
+  eau: 6 496,00 €
+  assurance de l'immeuble: 5 104,00 €
+  honoraires du syndic: 8 352,00 €
+  entretien et petites réparations: 4 640,00 €
+  ascenseur, contrat et électricité: 3 712,00 €
+repartition:
+  charges générales, aux tantièmes généraux: 42 688,00 €
+  ascenseur, aux tantièmes d'ascenseur: 3 712,00 €
+appel: un quart du budget, exigible le premier jour de chaque trimestre

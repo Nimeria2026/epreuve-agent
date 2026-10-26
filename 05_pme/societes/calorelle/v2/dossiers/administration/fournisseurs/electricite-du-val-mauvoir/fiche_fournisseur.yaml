@@ -1,0 +1,8 @@
+# Fiche fournisseur Calorelle. Données FICTIVES.
+nom: "Électricité du Val-Mauvoir"
+activite: "électricité"
+adresse: "2 zone d'activité des Hautes-Fresnes, 45999 Valmont-sur-Loire (FICTIF)"
+telephone: "02 61 91 20 43"
+courriel_facturation: "compta@electricite-du-val-mauvoir.example"
+iban: "FR76 9999 9068 8726 0498 7523 196 (FICTIF)"
+conditions: "paiement à 30 jours"

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-hm-528",
+  "de": {
+    "nom": "Nathalie Guérin",
+    "adresse": "nathalie.guerin@courriel.example"
+  },
+  "a": [
+    "helene.marchal@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Copie de mon contrat",
+  "date": "2026-11-22T09:40:00+01:00",
+  "corps": "Madame Marchal,\n\nPourriez-vous me renvoyer une copie de mon contrat d'entretien ? Je ne le retrouve plus.\n\nNathalie Guérin (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

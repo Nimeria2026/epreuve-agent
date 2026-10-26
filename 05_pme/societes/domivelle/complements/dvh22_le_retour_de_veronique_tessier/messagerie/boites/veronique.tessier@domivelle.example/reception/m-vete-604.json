@@ -1,0 +1,29 @@
+{
+  "identifiant": "m-vete-604",
+  "de": {
+    "nom": "Quentin Mallet",
+    "adresse": "quentin.mallet@domivelle.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Note de frais, juillet",
+  "date": "2026-07-31T19:00:00+02:00",
+  "corps": "Véronique,\n\nVoici ma note de frais de juillet, avec ma voiture :\n\n| Date | Objet | Immeuble | Kilomètres | Stationnement, péage ou repas |\n|---|---|---|---|---|\n| 6 juillet 2026 | visites | n22 | 18 | 0,00 € |\n| 13 juillet 2026 | état des lieux d'entrée | s11 | 14 | 0,00 € |\n| 20 juillet 2026 | visites | n36 | 32 | 0,00 € |\n| 31 juillet 2026 | état des lieux de sortie | c01 | 6 | stationnement 1,50 € |\n\nSoit 70 km à 0,40 €, 28,00 €, et 1,50 € de stationnement : 29,50 €. Le ticket du 31 juillet est joint.\n\nQuentin",
+  "pieces_jointes": [
+    {
+      "nom": "note_de_frais_quentin_mallet_2026-07.pdf",
+      "fichier": "pieces/m-vete-604/note_de_frais_quentin_mallet_2026-07.pdf",
+      "taille_octets": 758
+    },
+    {
+      "nom": "ticket_stationnement_2026-07-31.pdf",
+      "fichier": "pieces/m-vete-604/ticket_stationnement_2026-07-31.pdf",
+      "taille_octets": 766
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,24 @@
+# Fiche du lot c01-10. Données FICTIVES.
+lot: c01-10
+adresse: 139 rue des Écoles, 18999 Montclavel-sur-Cher (FICTIF)
+type: T2
+surface_m2: 38
+locataire:
+  nom: M. Étienne Deschamps
+  courriel: etienne.deschamps@mel-perso.example
+  telephone: 06 39 98 92 65
+  entree: '2013-02-12'
+bail:
+  signature: '2013-02-12'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 360,00 €
+  depot_de_garantie: 272,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T4
+dpe:
+  classe: E
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

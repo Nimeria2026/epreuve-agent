@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-maca-616",
+  "de": {
+    "nom": "Mutuelle des Deux-Rives, service sinistres",
+    "adresse": "sinistres@mutuelle-des-deux-rives.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Sinistre DR-2026-0784, Résidence Le Clos Saint-Roch : visite de l'expert",
+  "date": "2026-09-02T14:10:00+02:00",
+  "corps": "Madame,\n\nPour le dégât des eaux du 9 juillet à la Résidence Le Clos Saint-Roch, 92 rue des Vignes, venu de la toiture, que vous nous avez déclaré le 10 juillet (sinistre DR-2026-0784), notre expert, M. Rodolphe Garnier du cabinet Arvelin Expertises, visitera les combles et les lots 9, 10 et 11, au deuxième étage, le jeudi 17 septembre à 10 heures. Merci d'en prévenir les copropriétaires de ces trois lots, et de nous confirmer que l'accès aux combles sera ouvert ce jour-là.\n\nLe service sinistres, Mutuelle des Deux-Rives",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

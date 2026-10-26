@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cop-b01",
+  "de": {
+    "nom": "Mme Françoise Devaux",
+    "adresse": "francoise.devaux@messagerie.example"
+  },
+  "a": [
+    "copropriete@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Date de la prochaine assemblée",
+  "date": "2026-05-18T15:00:00+02:00",
+  "corps": "Bonjour,\n\nPouvez-vous me dire quand se tiendra notre prochaine assemblée ?\n\nMme Françoise Devaux",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

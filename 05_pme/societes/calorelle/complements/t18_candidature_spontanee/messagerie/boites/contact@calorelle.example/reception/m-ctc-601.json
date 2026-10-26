@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-ctc-601",
+  "de": {
+    "nom": "Théo Lacombe",
+    "adresse": "theo.lacombe@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Candidature : technicien chauffagiste",
+  "date": "2026-11-02T08:12:00+01:00",
+  "corps": "Bonjour,\n\nTechnicien chauffagiste depuis huit ans, je vous adresse ma candidature. J'ai travaillé avec Thomas Girard, votre chef d'équipe, qui peut vous parler de moi : pouvez-vous lui transmettre mon CV ?\n\nThéo Lacombe (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "CV_Theo_Lacombe.pdf",
+      "fichier": "pieces/m-ctc-601/CV_Theo_Lacombe.pdf",
+      "taille_octets": 795
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

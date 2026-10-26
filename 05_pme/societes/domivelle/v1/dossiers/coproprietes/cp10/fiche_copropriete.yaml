@@ -1,0 +1,20 @@
+# Fiche de la copropriété cp10. Données FICTIVES.
+copropriete: cp10
+nom: Résidence Le Vallon
+adresse: 35 rue du Moulin, 18999 Montclavel-sur-Cher (FICTIF)
+lots_principaux: 51
+annee_construction: 2004
+ascenseur: true
+exercice: du lendemain du 31 décembre au 31 décembre
+gestionnaire: Yohan Delmas
+conseil_syndical:
+  president: M. Éric Perret
+  membres:
+  - M. Hugo Lebon
+  - M. Gilles Bourdon
+seuil_mise_en_concurrence: 6 000,00 €
+seuil_consultation_du_conseil_syndical: 500,00 €
+assureur_de_l_immeuble: Assurances Brévalle (FICTIF)
+declaration_des_sinistres: sinistres@assurances-brevalle.example
+immeuble_en_gestion_locative: null
+fonds_de_travaux: 5 % du budget prévisionnel, aux tantièmes généraux, appelé avec chaque provision

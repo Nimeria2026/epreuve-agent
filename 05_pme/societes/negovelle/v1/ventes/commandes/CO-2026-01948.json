@@ -1,0 +1,106 @@
+{
+  "numero": "CO-2026-01948",
+  "client": "c-0319",
+  "reference_client": "BC-2619",
+  "cree_le": "2026-06-30T09:10:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "20 zone d'activités des Grands Prés, 36999 Vaumoreau-sur-Indre (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-12156",
+      "libelle": "Ruban adhésif de masquage 38 mm, rouleau de 33 m",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 12.65,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 12.65,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 50.6
+    },
+    {
+      "reference": "CON-12343",
+      "libelle": "Ruban adhésif toilé gris 19 mm, rouleau de 33 m",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 13.7,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 13.7,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 27.4
+    },
+    {
+      "reference": "ELE-13127",
+      "libelle": "Ruban isolant gris, rouleau de 33 m",
+      "quantite": 50,
+      "prix_tarif_ht_euros": 3.15,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 3.15,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 157.5
+    },
+    {
+      "reference": "QUI-11886",
+      "libelle": "Gond à scellement 12 mm",
+      "quantite": 24,
+      "prix_tarif_ht_euros": 3.05,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 3.05,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 73.2
+    },
+    {
+      "reference": "VIS-11584",
+      "libelle": "Vis à bois tête fraisée 3x70, inox A2, boîte de 200",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 13.85,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 13.85,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 27.7
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 336.4,
+  "total_tva_euros": 67.28,
+  "total_ttc_euros": 403.68,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01797"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-06-30T09:10:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-30T09:12:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-01T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01797"
+    },
+    {
+      "date": "2026-07-01T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01797"
+    }
+  ]
+}

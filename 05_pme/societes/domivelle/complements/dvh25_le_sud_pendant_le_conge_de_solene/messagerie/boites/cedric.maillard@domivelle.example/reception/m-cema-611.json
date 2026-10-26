@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cema-611",
+  "de": {
+    "nom": "Service des ressources humaines, Laiterie du Val-Brévalle",
+    "adresse": "rh@laiterie-du-val-brevalle.example"
+  },
+  "a": [
+    "cedric.maillard@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Loyer de notre salarié M. Sylvain Chevalier",
+  "date": "2026-09-07T08:05:00+02:00",
+  "corps": "Bonjour,\n\nNotre salarié M. Sylvain Chevalier, votre locataire à Chantebrune, nous demande une avance sur salaire pour son logement. Pour l'instruire, pouvez-vous nous confirmer le montant de son loyer et de ses charges, et nous dire s'il les paie régulièrement ? Une copie de ses dernières quittances serait idéale.\n\nService des ressources humaines, Laiterie du Val-Brévalle",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

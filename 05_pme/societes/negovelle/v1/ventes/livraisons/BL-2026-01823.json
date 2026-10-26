@@ -1,0 +1,49 @@
+{
+  "numero": "BL-2026-01823",
+  "commande": "CO-2026-01974",
+  "client": "c-0270",
+  "date_expedition": "2026-07-02",
+  "date_livraison": "2026-07-02",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "8 zone d'activités des Grands Prés, 36999 Vaumoreau-sur-Indre (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "FIX-10228",
+      "libelle": "Cheville nylon 10x30, boîte de 100",
+      "quantite": 10
+    },
+    {
+      "reference": "OUT-12303",
+      "libelle": "Serre-joint à pression rapide 800 mm",
+      "quantite": 4
+    },
+    {
+      "reference": "QUI-10081",
+      "libelle": "Arrêt de volet à bascule, galvanisé",
+      "quantite": 3
+    },
+    {
+      "reference": "VIS-10277",
+      "libelle": "Boulon tête hexagonale M12x80, zingué, sachet de 25",
+      "quantite": 1
+    },
+    {
+      "reference": "VIS-10767",
+      "libelle": "Vis à bois tête fraisée 3,5x25, inox A2, boîte de 100",
+      "quantite": 1
+    },
+    {
+      "reference": "VIS-12106",
+      "libelle": "Vis à bois tête fraisée 4,5x70, zinguée, boîte de 500",
+      "quantite": 1
+    }
+  ],
+  "reserves": null,
+  "signataire": "Robert Martineau",
+  "statut": "livre"
+}

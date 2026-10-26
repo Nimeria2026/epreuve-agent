@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-012",
+  "de": {
+    "nom": "Visibilité Express",
+    "adresse": "contact@visibilite-express.example"
+  },
+  "a": [
+    "contact@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Boostez votre référencement",
+  "date": "2026-07-06T06:55:00+02:00",
+  "corps": "Bonjour,\n\nVotre site mérite mieux. Notre agence double votre trafic en trois mois. Répondez à ce courriel pour un audit offert.\n\nL'équipe Visibilité Express",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

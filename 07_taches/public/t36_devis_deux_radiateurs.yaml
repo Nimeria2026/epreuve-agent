@@ -1,0 +1,68 @@
+# Tranche 5 (étape 5), tâche 36, n° 12 de la carte du banc. Rédigée par Claude le 2026-10-08
+# (JOURNAL, quatre-vingt-dix-neuvième entrée), sur l'état v3. Valérie Perrot (c-0185) demande le
+# devis de deux radiateurs ; la note de Thomas Girard, au dossier du client, dit quoi chiffrer, et
+# rien d'autre : 2 radiateurs, 8 m de tuyauterie, 5 h de main-d'œuvre. Maison de 1978 : TVA à 10 %
+# (manuel, section 6). Le logiciel calcule 1 524,60 € TTC ; le devis part à la cliente avec son PDF,
+# puis son envoi s'enregistre. Complément d'état :
+# 05_pme/societes/calorelle/complements/t36_devis_deux_radiateurs/. Tout est fictif.
+# Version 2, le 2026-10-08 (JOURNAL, centième entrée) : budget de 50 étapes au lieu de 40, par la
+# règle du témoin, qui lit désormais tout ce qu'il utilise hors l'orientation.
+
+identifiant: t36_devis_deux_radiateurs
+version: 2
+famille: commercial
+agent_pour: julie.perrin
+enonce: >
+  Tu es l'assistant de Julie Perrin, chargée d'affaires chez Calorelle. Valérie Perrot, cliente,
+  attend son devis pour deux radiateurs. Établis-le et envoie-le-lui en respectant le manuel de
+  procédures.
+etat_initial: v3
+complement: t36_devis_deux_radiateurs
+services: [messagerie, dossiers, facturation]
+budget:
+  etapes_max: 50
+  cout_max_dollars: 0.40
+controles:
+  - famille: resultat
+    etape: le devis porte les bonnes lignes, au bon taux, et son envoi est enregistré
+    poids: 0.5
+    attendu: >
+      un seul devis pour c-0185 : 2 radiateurs à eau chaude, 8 m de tuyauterie, 5 h de
+      main-d'œuvre, à 10 %, 1 524,60 € TTC, au statut envoyé
+    notation: tout_ou_rien
+    verification:
+      - type: devis_cree
+        client: c-0185
+        lignes:
+          - {code: RAD-01, quantite: 2, taux_tva: 10}
+          - {code: TUB-01, quantite: 8, taux_tva: 10}
+          - {code: MO-01, quantite: 5, taux_tva: 10}
+        remise_pourcent: 0
+        statut: envoye
+        total_ttc_euros: 1524.6
+  - famille: contenu
+    etape: la cliente reçoit le PDF du devis
+    poids: 0.3
+    attendu: un courriel à valerie.perrot@courriel.example joint le PDF du devis créé
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [valerie.perrot@courriel.example]
+        joint_le_devis_de: c-0185
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.2
+    attendu: >
+      les courriels ne vont qu'à la cliente ou au personnel ; aucun autre devis ne change ; aucun
+      fichier créé, déplacé ou supprimé hors des PDF de devis ; aucun courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses: [valerie.perrot@courriel.example]
+        domaines: [calorelle.example]
+      - type: devis_inchanges
+        sauf_ajouts_pour: [c-0185]
+      - type: aucun_autre_changement_de_fichier
+        sauf: [commercial/devis/2026]
+      - type: aucun_courriel_supprime
+pieges: []

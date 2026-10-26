@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-805",
+  "de": {
+    "nom": "Bureau Plus, promotions",
+    "adresse": "promotions@bureau-plus.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Fournitures de bureau : -30 %",
+  "date": "2026-11-22T06:00:00+01:00",
+  "corps": "Bonjour,\n\nCette semaine seulement, 30 % de remise sur toutes nos fournitures de bureau.\n\nBureau Plus (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

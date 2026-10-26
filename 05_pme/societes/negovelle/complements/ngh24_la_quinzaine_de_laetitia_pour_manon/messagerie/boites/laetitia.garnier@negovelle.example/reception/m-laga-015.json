@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-laga-015",
+  "de": {
+    "nom": "Corinne Vidal",
+    "adresse": "corinne.vidal@negovelle.example"
+  },
+  "a": [
+    "laetitia.garnier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Commande",
+  "date": "2026-08-10T07:45:00+02:00",
+  "corps": "Lætitia,\n\nManon étant absente jusqu'au 21, je te transfère sa commande du nord, arrivée dans commandes@.\n\nCorinne\n\n----- Message transféré -----\nDe : Béatrice Gervais <beatrice.gervais@gay-industrie.example>\nDate : 7 août 2026, 13 h 20\nObjet : Commande\n\nBonjour,\n\nComme d'habitude :\n\n- 24 x CON-10351, Colle vinylique, cartouche de 310 ml\n\nLivraison standard au siège.\n\nCordialement,\n\nBéatrice Gervais\nGay Industrie",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

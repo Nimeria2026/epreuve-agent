@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01791",
+  "commande": "CO-2026-01942",
+  "client": "c-0074",
+  "date_expedition": "2026-07-01",
+  "date_livraison": "2026-07-01",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "87 chemin du Bois, 36999 Mérolles-en-Brenne (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "QUI-13234",
+      "libelle": "Verrou à targette 150 mm, acier",
+      "quantite": 12
+    },
+    {
+      "reference": "VIS-13454",
+      "libelle": "Vis à bois tête fraisée 6x50, bichromatée, boîte de 200",
+      "quantite": 1
+    }
+  ],
+  "reserves": null,
+  "signataire": "Albert Bellanger",
+  "statut": "livre"
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-721",
+  "de": {
+    "nom": "Sandrine Fontaine",
+    "adresse": "sandrine.fontaine@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Le prix de la pompe à chaleur",
+  "date": "2026-12-23T09:40:00+01:00",
+  "corps": "Bonjour Madame Perrin,\n\nMa voisine, Mme Gauthier, m'a dit que vous lui aviez fait un devis pour une pompe à chaleur. Quel prix lui avez-vous fait ? Nous pensons faire pareil.\n\nSandrine Fontaine, 38 avenue des Tilleuls, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-elch-304",
+  "de": {
+    "nom": "M. Gérard Lainé",
+    "adresse": "gerard.laine@mel-perso.example"
+  },
+  "a": [
+    "elodie.chauvin@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Ma maison de la rue des Écoles",
+  "date": "2026-06-07T16:40:00+02:00",
+  "corps": "Bonjour,\n\nMme Pasquier part de ma maison n16-04 fin juin. Je voudrais la relouer à 593,00 € révisés de l'IRL, puisqu'on change de locataire : le loyer n'a pas bougé depuis janvier.\n\nGérard Lainé",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

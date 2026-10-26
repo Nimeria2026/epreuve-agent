@@ -1,0 +1,20 @@
+# Fiche de la copropriété cp41. Données FICTIVES.
+copropriete: cp41
+nom: Résidence Les Charmilles
+adresse: 89 rue de la Croix-Blanche, 18999 Chantebrune (FICTIF)
+lots_principaux: 36
+annee_construction: 1970
+ascenseur: true
+exercice: du lendemain du 31 mars au 31 mars
+gestionnaire: Gaëlle Fournel
+conseil_syndical:
+  president: Mme Jeanne Boulanger
+  membres:
+  - Mme Inès Vasseur
+  - M. Bruno Maréchal
+seuil_mise_en_concurrence: 3 000,00 €
+seuil_consultation_du_conseil_syndical: 1 000,00 €
+assureur_de_l_immeuble: Mutuelle Carrelis (FICTIF)
+declaration_des_sinistres: sinistres@mutuelle-carrelis.example
+immeuble_en_gestion_locative: null
+fonds_de_travaux: 5 % du budget prévisionnel, aux tantièmes généraux, appelé avec chaque provision

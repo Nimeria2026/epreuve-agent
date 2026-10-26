@@ -1,0 +1,15 @@
+# Fiche du propriétaire p-0046, mandant de Domivelle. Données FICTIVES.
+code: p-0046
+nom: Mme Claire Vallée
+adresse: 17 rue du Moulin, 18999 Montclavel-sur-Cher (FICTIF)
+courriel: claire.vallee@messagerie.example
+telephone: 06 39 98 77 34
+iban: FR76 9999 9105 7739 2208 6631 942 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- c02-21
+- c02-26
+- c05-02
+- c06-07
+- c07-07
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

@@ -1,0 +1,39 @@
+{
+  "numero": "BL-2026-01750",
+  "commande": "CO-2026-01901",
+  "client": "c-0194",
+  "date_expedition": "2026-06-26",
+  "date_livraison": "2026-06-29",
+  "transport": {
+    "mode": "transporteur",
+    "transporteur": "transports-delorme",
+    "recepisse": "TD-609968"
+  },
+  "adresse": "135 place du Marché, 36999 Ardillac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "FIX-10816",
+      "libelle": "Cheville pour plaque de plâtre 6x45, boîte de 50",
+      "quantite": 4
+    },
+    {
+      "reference": "OUT-11176",
+      "libelle": "Marteau rivoir 300 g",
+      "quantite": 1
+    },
+    {
+      "reference": "PLB-11372",
+      "libelle": "Joint caoutchouc 26x34, sachet de 50",
+      "quantite": 2
+    },
+    {
+      "reference": "PRO-11559",
+      "libelle": "Pantalon de travail multipoches gris, taille 40",
+      "quantite": 5
+    }
+  ],
+  "reserves": null,
+  "signataire": "Olivier Gay",
+  "statut": "livre"
+}

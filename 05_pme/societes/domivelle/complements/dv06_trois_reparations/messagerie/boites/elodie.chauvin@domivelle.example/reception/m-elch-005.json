@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-elch-005",
+  "de": {
+    "nom": "Menuiserie du Gué-Morin",
+    "adresse": "facturation@menuiserie-du-gue-morin.example"
+  },
+  "a": [
+    "elodie.chauvin@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis MGM-2026-071, lot n02-07",
+  "date": "2026-06-05T10:25:00+02:00",
+  "corps": "Madame Chauvin,\n\nLe moteur du volet roulant de la chambre du lot n02-07 est hors d'usage. Notre devis pour son remplacement : 420,00 € TTC.\n\nMenuiserie du Gué-Morin",
+  "pieces_jointes": [
+    {
+      "nom": "devis_MGM-2026-071.pdf",
+      "fichier": "pieces/m-elch-005/devis_MGM-2026-071.pdf",
+      "taille_octets": 851
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

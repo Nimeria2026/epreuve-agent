@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-vete-618",
+  "de": {
+    "nom": "Solène Audoin",
+    "adresse": "solene.audoin@domivelle.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Arrêt de travail",
+  "date": "2026-08-24T07:50:00+02:00",
+  "corps": "Bonjour Véronique,\n\nJ'ai une angine depuis samedi : je suis arrêtée du lundi 24 au vendredi 28 août inclus. L'avis est joint. Bon retour parmi nous.\n\nSolène",
+  "pieces_jointes": [
+    {
+      "nom": "avis_arret_de_travail.pdf",
+      "fichier": "pieces/m-vete-618/avis_arret_de_travail.pdf",
+      "taille_octets": 777
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

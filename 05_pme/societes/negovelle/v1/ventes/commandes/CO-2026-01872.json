@@ -1,0 +1,112 @@
+{
+  "numero": "CO-2026-01872",
+  "client": "c-0311",
+  "reference_client": null,
+  "cree_le": "2026-06-25T09:10:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "2 parc d'activités de la Gare, 36999 Vendrigny (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-11241",
+      "libelle": "Câble U1000 R2V 2x 1,5 mm², couronne de 50 m",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 272.7,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 250.88,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 2508.8
+    },
+    {
+      "reference": "ELP-11568",
+      "libelle": "Perceuse-visseuse 18 V, 2 batterie(s) 2 Ah, coffret",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 210.3,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 193.48,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 386.96
+    },
+    {
+      "reference": "FIX-11412",
+      "libelle": "Crochet en S à visser 40 mm, sachet de 10",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 4.55,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 4.19,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 25.14
+    },
+    {
+      "reference": "PRO-11698",
+      "libelle": "Polo haute visibilité jaune, taille XXL",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 17.55,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 16.15,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 32.3
+    },
+    {
+      "reference": "VIS-10914",
+      "libelle": "Vis à bois tête fraisée 3,5x45, bichromatée, boîte de 100",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 13.55,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 12.47,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 12.47
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 2965.67,
+  "total_tva_euros": 593.13,
+  "total_ttc_euros": 3558.8,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01721"
+  ],
+  "facture": "FC-2026-1287",
+  "historique": [
+    {
+      "date": "2026-06-25T09:10:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-25T09:12:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-26T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01721"
+    },
+    {
+      "date": "2026-06-26T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01721"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1287"
+    }
+  ]
+}

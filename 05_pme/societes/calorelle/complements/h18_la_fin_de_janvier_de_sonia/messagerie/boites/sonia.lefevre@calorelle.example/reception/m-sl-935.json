@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-935",
+  "de": {
+    "nom": "Romain Guérin",
+    "adresse": "romain.guerin@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Mon solde de congés",
+  "date": "2027-01-30T14:00:00+01:00",
+  "corps": "Sonia,\n\nSi Hélène valide mon congé du 1er au 3 mars, combien de jours de congés payés me restera-t-il ?\n\nRomain (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

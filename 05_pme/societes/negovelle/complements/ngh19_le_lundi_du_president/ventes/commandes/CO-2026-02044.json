@@ -1,0 +1,64 @@
+{
+  "numero": "CO-2026-02044",
+  "client": "c-0192",
+  "reference_client": null,
+  "cree_le": "2026-07-03T15:00:00+02:00",
+  "cree_par": "samir.ouali",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "12 parc d'activités de la Gare, 36999 Fontclavier (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "OUT-11380",
+      "libelle": "Niveau à bulle compact 200 cm",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 72.9,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 67.07,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 335.35
+    },
+    {
+      "reference": "ELE-13381",
+      "libelle": "Tableau électrique 4 rangée(s), 13 modules",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 81.05,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 74.57,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 223.71
+    },
+    {
+      "reference": "QUI-10457",
+      "libelle": "Cadenas laiton 50 mm, 2 clés",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 31.35,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 28.84,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 173.04
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 732.1,
+  "total_tva_euros": 146.42,
+  "total_ttc_euros": 878.52,
+  "statut": "brouillon",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T15:00:00+02:00",
+      "par": "samir.ouali",
+      "action": "creee",
+      "detail": "prix demandés au président"
+    }
+  ]
+}

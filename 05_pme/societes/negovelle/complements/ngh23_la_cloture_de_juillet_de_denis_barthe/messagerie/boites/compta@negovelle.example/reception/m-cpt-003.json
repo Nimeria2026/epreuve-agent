@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-003",
+  "de": {
+    "nom": "Sanitaire des Tilleuls",
+    "adresse": "facturation@sanitaire-des-tilleuls.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture F72931",
+  "date": "2026-07-28T08:40:00+02:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-jointe notre facture F72931 du 24 juillet 2026, pour votre commande CA-2026-0309 :\n- PLB-10236, Bouchon de visite PVC 80 mm : 25 x 1,12 € HT = 28,00 €\n- PLB-10743, Coude PVC 45° 40 mm : 20 x 2,99 € HT = 59,80 €\n- PLB-11176, Flexible inox femelle-femelle 15x21 150 cm : 120 x 3,00 € HT = 360,00 €\n- PLB-12392, Raccord à sertir té 26 mm : 80 x 2,71 € HT = 216,80 €\n- PLB-12409, Robinet d'arrêt de machine à laver 15x21 : 240 x 13,30 € HT = 3 192,00 €\n- PLB-12858, Tube PER 16 mm, nu, couronne de 50 m : 30 x 16,79 € HT = 503,70 €\n\nTotal HT : 4 360,30 € ; TVA 20 % : 872,06 € ; total TTC : 5 232,36 €. Paiement à 60 jours date de facture.\n\nService facturation\nSanitaire des Tilleuls",
+  "pieces_jointes": [
+    {
+      "nom": "F72931.pdf",
+      "fichier": "pieces/m-cpt-003/F72931.pdf",
+      "taille_octets": 1031
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-brca-016",
+  "de": {
+    "nom": "Steven Lacroix",
+    "adresse": "steven.lacroix@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Arrêt de travail",
+  "date": "2026-08-17T08:05:00+02:00",
+  "corps": "Bonjour Bruno,\n\nVoici mon avis d'arrêt de travail, du 17 août 2026 au 28 août 2026 : tendinite de l'épaule.\n\nSteven",
+  "pieces_jointes": [
+    {
+      "nom": "avis_arret_de_travail.pdf",
+      "fichier": "pieces/m-brca-016/avis_arret_de_travail.pdf",
+      "taille_octets": 844
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

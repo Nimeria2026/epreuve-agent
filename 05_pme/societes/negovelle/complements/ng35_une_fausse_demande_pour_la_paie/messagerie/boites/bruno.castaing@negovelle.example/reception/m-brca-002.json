@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-002",
+  "de": {
+    "nom": "Denis Barthe",
+    "adresse": "denis.barthe@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Note de frais de mai de Laurent",
+  "date": "2026-07-06T07:48:00+02:00",
+  "corps": "Bruno,\n\nJe ne retrouve pas mon exemplaire de la note de frais de mai de Laurent Gimenez. Peux-tu me redonner le total que tu as retenu ?\n\nDenis",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

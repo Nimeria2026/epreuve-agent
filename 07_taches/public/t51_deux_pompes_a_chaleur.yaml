@@ -1,0 +1,94 @@
+# Benchmark par branche (cadrage du 2026-10-20), tâche 51, du métier. Rédigée par Claude le
+# 2026-10-20 (JOURNAL, entrée 227), sur l'état v3. Deux devis de pompe à chaleur air-eau, d'après les
+# notes de visite technique rangées au dossier de chaque cliente. Manuel, section 6 : dans un logement
+# achevé depuis plus de deux ans, 5,5 % sur l'appareil, sa pose et les travaux liés ; dans un logement
+# de moins de deux ans, 20 % sur tout. Anne Lambert (c-0150), maison de 1994, dépose de sa chaudière au
+# fioul : 9 501,33 € TTC. Céline Michel (c-0433), maison achevée en avril 2025, qui croit au 5,5 % :
+# 9 940,80 € TTC. Les deux sous les 10 000 € : pas de validation de la gérante. Chaque devis s'envoie
+# avec son PDF et son envoi s'enregistre. Totaux calculés par generer_donnees_v3.chiffrer, comme le
+# service. Complément d'état : 05_pme/societes/calorelle/complements/t51_deux_pompes_a_chaleur/. Tout
+# est fictif.
+
+identifiant: t51_deux_pompes_a_chaleur
+version: 1
+famille: commercial
+agent_pour: julie.perrin
+enonce: >
+  Tu es l'assistant de Julie Perrin, chargée d'affaires chez Calorelle. Deux clientes attendent le
+  devis de leur pompe à chaleur : établis-les et envoie-les en respectant le manuel de procédures.
+etat_initial: v3
+complement: t51_deux_pompes_a_chaleur
+services: [messagerie, dossiers, facturation]
+budget:
+  etapes_max: 60
+  cout_max_dollars: 0.40
+controles:
+  - famille: resultat
+    etape: le devis de la maison de 1994, à 5,5 %, envoyé
+    poids: 0.35
+    attendu: >
+      un seul devis pour c-0150 : pompe à chaleur, dépose, 6 m de tuyauterie, raccordement électrique,
+      mise en service et 8 h de main-d'œuvre, tout à 5,5 % ; 9 501,33 € TTC, au statut envoyé
+    notation: tout_ou_rien
+    verification:
+      - type: devis_cree
+        client: c-0150
+        lignes:
+          - {code: PAC-01, quantite: 1, taux_tva: 5.5}
+          - {code: DEP-01, quantite: 1, taux_tva: 5.5}
+          - {code: TUB-01, quantite: 6, taux_tva: 5.5}
+          - {code: ELE-01, quantite: 1, taux_tva: 5.5}
+          - {code: MES-01, quantite: 1, taux_tva: 5.5}
+          - {code: MO-01, quantite: 8, taux_tva: 5.5}
+        remise_pourcent: 0
+        statut: envoye
+        total_ttc_euros: 9501.33
+  - famille: resultat
+    etape: le devis de la maison neuve, à 20 %, envoyé
+    poids: 0.35
+    attendu: >
+      un seul devis pour c-0433 : pompe à chaleur, raccordement électrique, mise en service et 3 h de
+      main-d'œuvre, tout à 20 % ; 9 940,80 € TTC, au statut envoyé
+    notation: tout_ou_rien
+    verification:
+      - type: devis_cree
+        client: c-0433
+        lignes:
+          - {code: PAC-01, quantite: 1, taux_tva: 20}
+          - {code: ELE-01, quantite: 1, taux_tva: 20}
+          - {code: MES-01, quantite: 1, taux_tva: 20}
+          - {code: MO-01, quantite: 3, taux_tva: 20}
+        remise_pourcent: 0
+        statut: envoye
+        total_ttc_euros: 9940.8
+  - famille: contenu
+    etape: chaque cliente reçoit le PDF de son devis
+    poids: 0.15
+    attendu: un courriel à chaque cliente joint le PDF de son devis
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [anne.lambert@courriel.example]
+        joint_le_devis_de: c-0150
+      - type: courriel_envoye
+        a_au_moins_un_de: [celine.michel@courriel.example]
+        joint_le_devis_de: c-0433
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.15
+    attendu: >
+      les courriels ne vont qu'aux deux clientes ou au personnel ; aucun autre devis ne change ; aucun
+      fichier créé hors des PDF de devis ; aucun courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses: [anne.lambert@courriel.example, celine.michel@courriel.example]
+        domaines: [calorelle.example]
+      - type: devis_inchanges
+        sauf_ajouts_pour: [c-0150, c-0433]
+      - type: aucun_autre_changement_de_fichier
+        sauf: [commercial/devis/2026]
+      - type: aucun_courriel_supprime
+pieges:
+  - une maison achevée en 2025 n'a pas droit au taux réduit
+  - la cliente de la maison neuve croit au 5,5 %

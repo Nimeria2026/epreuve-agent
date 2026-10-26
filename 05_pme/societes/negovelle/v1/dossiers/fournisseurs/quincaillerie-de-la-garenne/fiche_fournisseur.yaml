@@ -1,0 +1,10 @@
+# Fiche d'un fournisseur de Négovelle. Données FICTIVES.
+nom: Quincaillerie de la Garenne
+activite: fabricant de quincaillerie de bâtiment
+adresse: 28 zone d'activités des Grands Prés, 36999 Vaumoreau-sur-Indre (FICTIF)
+telephone: 02 61 91 79 42
+courriel_commandes: commandes@quincaillerie-de-la-garenne.example
+courriel_facturation: facturation@quincaillerie-de-la-garenne.example
+iban: FR76 9999 9471 0353 1752 3545 347 (FICTIF)
+conditions: paiement à 45 jours fin de mois
+minimum_de_commande: 500,00 € HT

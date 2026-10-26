@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-926",
+  "de": {
+    "nom": "Karim Benali",
+    "adresse": "karim.benali@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Rendez-vous avec Hélène et les Grèves",
+  "date": "2027-02-01T08:40:00+01:00",
+  "corps": "Sonia,\n\nPeux-tu me caler une heure avec Hélène et le syndic des Grèves, un mardi ou un jeudi après-midi de la semaine du 8 février ? C'est pour leur réclamation.\n\nKarim (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,28 @@
+# Fiche du client c-0133 de Négovelle. Données FICTIVES.
+code: c-0133
+nom: Plâtrerie Boisson
+type: artisan
+adresse: 56 rue des Écoles, 36999 Fontclavier (FICTIF)
+telephone: 02 61 91 69 41
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Manon Delaunay
+  fonction: gérante
+  courriel: manon.delaunay@platrerie-boisson.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 56 rue des Écoles, 36999 Fontclavier (FICTIF)
+- code: L2
+  libelle: chantier déclaré
+  adresse: 91 rue des Chênes, 36999 Vendrigny (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2023-06-01'
+limite_encours_euros: 5000.0
+livraisons_partielles: false
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

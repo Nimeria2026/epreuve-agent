@@ -1,0 +1,10 @@
+# Fiche d'un fournisseur de Négovelle. Données FICTIVES.
+nom: Outillage des Brandes
+activite: fabricant d'outillage à main
+adresse: 13 zone d'activités des Grands Prés, 36999 Corvalet (FICTIF)
+telephone: 02 61 91 81 59
+courriel_commandes: commandes@outillage-des-brandes.example
+courriel_facturation: facturation@outillage-des-brandes.example
+iban: FR76 9999 9833 9908 3129 8195 582 (FICTIF)
+conditions: paiement à 45 jours fin de mois
+minimum_de_commande: 300,00 € HT

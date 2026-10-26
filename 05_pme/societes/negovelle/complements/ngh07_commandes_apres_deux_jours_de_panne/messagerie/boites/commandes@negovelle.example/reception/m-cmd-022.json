@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-022",
+  "de": {
+    "nom": "François Boisson",
+    "adresse": "francois.boisson@pelletier-batiment.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Question sur une facture",
+  "date": "2026-07-02T11:40:00+02:00",
+  "corps": "Bonjour,\n\nSur votre facture FC-2026-1275 du 30 juin, je ne retrouve pas le détail d'une livraison. Pouvez-vous me l'envoyer ?\n\nCordialement,\nFrançois Boisson\nPelletier Bâtiment",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

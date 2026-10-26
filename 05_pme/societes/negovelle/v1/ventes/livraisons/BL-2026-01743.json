@@ -1,0 +1,34 @@
+{
+  "numero": "BL-2026-01743",
+  "commande": "CO-2026-01894",
+  "client": "c-0080",
+  "date_expedition": "2026-06-26",
+  "date_livraison": "2026-06-26",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "55 rue de la Poste, 36999 Mérolles-en-Brenne (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "OUT-11127",
+      "libelle": "Marteau de menuisier 200 g",
+      "quantite": 5
+    },
+    {
+      "reference": "PLB-11772",
+      "libelle": "Mitigeur de douche, noir mat",
+      "quantite": 3
+    },
+    {
+      "reference": "QUI-11902",
+      "libelle": "Gond à scellement 16 mm",
+      "quantite": 10
+    }
+  ],
+  "reserves": null,
+  "signataire": "Serge Lacour",
+  "statut": "livre"
+}

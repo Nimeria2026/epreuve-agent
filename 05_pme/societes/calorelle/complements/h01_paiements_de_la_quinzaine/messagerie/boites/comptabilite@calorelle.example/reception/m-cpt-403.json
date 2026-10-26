@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-403",
+  "de": {
+    "nom": "Fumisterie du Clos-Fargeau",
+    "adresse": "compta@fumisterie-du-clos-fargeau.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture FCF-2026-031",
+  "date": "2026-10-31T09:40:00+01:00",
+  "corps": "Bonjour,\n\nAvec nos excuses pour ce retard d'envoi, voici notre facture FCF-2026-031 du 29 septembre 2026 : le tubage de la chaufferie de la résidence des Grèves, 1 740,00 € TTC.\n\nService comptable, Fumisterie du Clos-Fargeau (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "FCF-2026-031.pdf",
+      "fichier": "pieces/m-cpt-403/FCF-2026-031.pdf",
+      "taille_octets": 1085
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-024",
+  "de": {
+    "nom": "Christian Schmitt",
+    "adresse": "christian.schmitt@messagerie.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Question pour la prochaine assemblée, Résidence Le Carré Pasteur",
+  "date": "2026-06-05T15:30:00+02:00",
+  "corps": "Bonjour,\n\nAu nom du conseil syndical de la Résidence Le Carré Pasteur, que je préside, je vous notifie une question à inscrire à la prochaine assemblée : l'installation d'un interphone vidéo.\n\nChristian Schmitt",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

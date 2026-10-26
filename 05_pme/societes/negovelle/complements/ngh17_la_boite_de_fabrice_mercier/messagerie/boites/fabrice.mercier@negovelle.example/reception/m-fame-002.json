@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-fame-002",
+  "de": {
+    "nom": "François Pasquet",
+    "adresse": "francois.pasquet@legendre-renovation.example"
+  },
+  "a": [
+    "fabrice.mercier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Prix",
+  "date": "2026-07-03T17:05:00+02:00",
+  "corps": "Bonjour,\n\nQuel serait notre prix pour 30 sachets de VIS-10212 et 10 sachets de VIS-10187 ?\n\nCordialement,\n\nFrançois Pasquet\nLegendre Rénovation",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

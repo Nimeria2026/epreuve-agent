@@ -1,0 +1,90 @@
+{
+  "numero": "CO-2026-02078",
+  "client": "c-0283",
+  "reference_client": null,
+  "cree_le": "2026-07-22T10:00:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "97 rue de la Poste, 36999 Saulvenne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-10661",
+      "libelle": "Disque abrasif auto-agrippant 150 mm, grain 60, boîte de 25",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 41.75,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 40.08,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 400.8
+    },
+    {
+      "reference": "FIX-11576",
+      "libelle": "Goujon d'ancrage M12x75, boîte de 25",
+      "quantite": 8,
+      "prix_tarif_ht_euros": 27.0,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 25.92,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 207.36
+    },
+    {
+      "reference": "ELE-12213",
+      "libelle": "Hublot ovale LED 15 W",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 30.4,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 29.18,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 175.08
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 783.24,
+  "total_tva_euros": 156.65,
+  "total_ttc_euros": 939.89,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01898"
+  ],
+  "facture": "FC-2026-1468",
+  "historique": [
+    {
+      "date": "2026-07-22T10:00:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": "commande du client"
+    },
+    {
+      "date": "2026-07-22T10:05:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "validee",
+      "detail": "stock réservé"
+    },
+    {
+      "date": "2026-07-23T16:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01898"
+    },
+    {
+      "date": "2026-07-24T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01898"
+    },
+    {
+      "date": "2026-07-31T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1468"
+    }
+  ]
+}

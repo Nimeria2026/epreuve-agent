@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01903",
+  "commande": "CO-2026-02083",
+  "client": "c-0141",
+  "date_expedition": "2026-08-05",
+  "date_livraison": "2026-08-05",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "36 rue des Lilas, 36999 Mérolles-en-Brenne (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "PRO-10424",
+      "libelle": "Casque antibruit serre-tête SNR 30 dB",
+      "quantite": 6
+    }
+  ],
+  "reserves": "2 casques antibruit PRO-10424 cassés",
+  "signataire": "Jean Combes",
+  "statut": "livre"
+}

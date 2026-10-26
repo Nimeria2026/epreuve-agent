@@ -1,0 +1,75 @@
+{
+  "numero": "CO-2026-02042",
+  "client": "c-0123",
+  "reference_client": null,
+  "cree_le": "2026-08-03T15:00:00+02:00",
+  "cree_par": "fabrice.mercier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "13 avenue de la Gare, 36999 Ardillac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELP-10008",
+      "libelle": "Batterie 12 V 3 Ah",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 70.2,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 70.2,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 702.0
+    },
+    {
+      "reference": "QUI-12474",
+      "libelle": "Poignée de porte carrée sur rosace, aluminium",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 54.8,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 54.8,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 657.6
+    },
+    {
+      "reference": "OUT-11992",
+      "libelle": "Scie à dos 400 mm",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 39.9,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 39.9,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 239.4
+    },
+    {
+      "reference": "PLB-13021",
+      "libelle": "Tube PVC évacuation 40 mm, barre de 2 m",
+      "quantite": 20,
+      "prix_tarif_ht_euros": 24.5,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 24.5,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 490.0
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 2089.0,
+  "total_tva_euros": 417.8,
+  "total_ttc_euros": 2506.8,
+  "statut": "brouillon",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-08-03T15:00:00+02:00",
+      "par": "fabrice.mercier",
+      "action": "creee",
+      "detail": "prix demandés au président"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-quma-b03",
+  "de": {
+    "nom": "M. Jean Thibault",
+    "adresse": "jean.thibault@boite-postale.example"
+  },
+  "a": [
+    "quentin.mallet@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Merci",
+  "date": "2026-05-27T08:28:00+02:00",
+  "corps": "Bonjour,\n\nMerci pour votre réponse rapide.\n\nM. Jean Thibault",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

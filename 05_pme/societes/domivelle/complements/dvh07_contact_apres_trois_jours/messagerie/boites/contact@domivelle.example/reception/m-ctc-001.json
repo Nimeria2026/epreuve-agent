@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-001",
+  "de": {
+    "nom": "Claude Tissier",
+    "adresse": "claude.tissier@messagerie.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Fuite au radiateur",
+  "date": "2026-06-03T07:12:00+02:00",
+  "corps": "Bonjour,\n\nLe radiateur de ma chambre fuit depuis ce matin, l'eau coule sur le parquet et je ne sais pas comment l'arrêter.\n\nClaude Tissier, lot n02-10, 69 rue du Four",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

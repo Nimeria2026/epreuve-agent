@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01884",
+  "commande": "CO-2026-02064",
+  "client": "c-0137",
+  "date_expedition": "2026-07-14",
+  "date_livraison": "2026-07-15",
+  "transport": {
+    "mode": "transporteur",
+    "transporteur": "transports-delorme",
+    "recepisse": "TD-410322"
+  },
+  "adresse": "33 rue des Écoles, 36999 Mérolles-en-Brenne (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "CON-10538",
+      "libelle": "Disque abrasif auto-agrippant 125 mm, grain 40, boîte de 25",
+      "quantite": 8
+    }
+  ],
+  "reserves": null,
+  "signataire": "Camille Delaunay",
+  "statut": "livre"
+}

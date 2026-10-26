@@ -1,0 +1,74 @@
+# Benchmark par branche (cadrage du 2026-10-20), tâche 56, du métier. Rédigée par Claude le
+# 2026-10-20 (JOURNAL, entrée 227), sur l'état v3. Julie Perrin transmet à Marc Duval deux résiliations.
+# Manuel, section 4 : un contrat se résilie par écrit au plus tard un mois avant sa date anniversaire,
+# le jour et le mois de sa prise d'effet ; sinon il est reconduit un an. Gilles Bonnet (c-0413, depuis
+# le 13 décembre 2019), lettre reçue le 2 novembre : son contrat prend fin le 13 décembre 2026, et sa
+# visite du mardi 15 décembre (INT-2026-0040) s'annule. Gilles Rousseau (c-0352, depuis le 2 novembre
+# 2018), lettre reçue le 26 octobre : reconduit jusqu'au 2 novembre 2027, sa visite du 18 novembre
+# (INT-2026-0038) reste. Limite écrite : aucune vérification ne lit le statut annulé d'une
+# intervention ; le contrôle voit le technicien libre ce matin-là, donc une visite déplacée passerait.
+# Complément d'état : 05_pme/societes/calorelle/complements/t56_deux_resiliations_et_le_planning/. Tout
+# est fictif.
+
+identifiant: t56_deux_resiliations_et_le_planning
+version: 1
+famille: planning
+agent_pour: marc.duval
+enonce: >
+  Tu es l'assistant de Marc Duval, responsable planning chez Calorelle. Julie Perrin lui a transmis
+  deux résiliations de contrat : fais au planning ce qu'elles demandent, en respectant le manuel de
+  procédures, et réponds-lui.
+etat_initial: v3
+complement: t56_deux_resiliations_et_le_planning
+services: [messagerie, dossiers, planning]
+budget:
+  etapes_max: 45
+  cout_max_dollars: 0.30
+controles:
+  - famille: resultat
+    etape: la visite d'après la fin du contrat résilié à temps est retirée
+    poids: 0.4
+    attendu: David Roussel n'a plus d'intervention le mardi 15 décembre de 8 h à 9 h 30
+    notation: tout_ou_rien
+    verification:
+      - type: technicien_libre
+        technicien: david.roussel
+        apres: "2026-12-15T08:00:00+01:00"
+        avant: "2026-12-15T09:30:00+01:00"
+  - famille: respect_des_regles
+    etape: la visite du contrat reconduit reste
+    poids: 0.35
+    attendu: INT-2026-0038, la visite de Gilles Rousseau du 18 novembre, est inchangée
+    notation: tout_ou_rien
+    verification:
+      - type: intervention_inchangee
+        numero: INT-2026-0038
+  - famille: contenu
+    etape: Julie sait ce qui est fait
+    poids: 0.1
+    attendu: un courriel à Julie Perrin dit la visite de Gilles Bonnet annulée
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [julie.perrin@calorelle.example]
+        corps_contient: ["Bonnet|c-0413|INT-2026-0040", "annul|supprim|retir"]
+        texte_de_l_agent: true
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.15
+    attendu: >
+      seule INT-2026-0040 change au planning ; les courriels ne vont qu'aux deux clients et au
+      personnel ; aucun fichier ni courriel touché
+    notation: tout_ou_rien
+    verification:
+      - type: planning_inchange
+        sauf: [INT-2026-0040]
+      - type: seuls_destinataires
+        adresses: [gilles.bonnet@courriel.example, gilles.rousseau@courriel.example]
+        domaines: [calorelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - une résiliation arrivée trop tard laisse le contrat et sa visite
+  - une visite planifiée tombe après la fin du contrat résilié à temps

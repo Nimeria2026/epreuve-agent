@@ -1,0 +1,306 @@
+# Registre des lots en gestion, n36. Données FICTIVES.
+immeuble: n36
+nature: immeuble collectif
+adresse: 29 chemin du Bois, 18999 Saint-Aubrin-des-Bois (FICTIF)
+secteur: nord
+gestionnaire: Élodie Chauvin
+distance_agence_km: 16
+annee_construction: 1997
+gardien: false
+copropriete_du_syndic: null
+lots:
+- lot: n36-01
+  type: T3
+  surface_m2: 62
+  etage: 0
+  proprietaire: p-0457
+  locataire: Mme Florence Carpentier
+  entree: '2022-08-03'
+  loyer_hors_charges: 485,00 €
+  provision_sur_charges: 80,00 €
+  depot_de_garantie: 451,00 €
+  revision: chaque 3 août
+  trimestre_irl: T2
+  dpe: D
+- lot: n36-02
+  type: T1
+  surface_m2: 30
+  etage: 0
+  proprietaire: p-0486
+  locataire: Mme Noémie Robin
+  entree: '2025-02-08'
+  loyer_hors_charges: 242,00 €
+  provision_sur_charges: 35,00 €
+  depot_de_garantie: 236,00 €
+  revision: chaque 8 février
+  trimestre_irl: T4
+  dpe: D
+- lot: n36-03
+  type: T4
+  surface_m2: 86
+  etage: 0
+  proprietaire: p-0487
+  locataire: M. Gilles Michaud
+  entree: '2022-11-15'
+  loyer_hors_charges: 708,00 €
+  provision_sur_charges: 59,00 €
+  depot_de_garantie: 659,00 €
+  revision: chaque 15 novembre
+  trimestre_irl: T3
+  dpe: C
+- lot: n36-04
+  type: T2
+  surface_m2: 47
+  etage: 0
+  proprietaire: p-0488
+  locataire: vacant
+  loyer_hors_charges: 408,00 €
+  provision_sur_charges: 57,00 €
+  dpe: G
+- lot: n36-05
+  type: T4
+  surface_m2: 88
+  etage: 1
+  proprietaire: p-0489
+  locataire: Mme Sophie Durand
+  entree: '2016-01-26'
+  loyer_hors_charges: 820,00 €
+  provision_sur_charges: 90,00 €
+  depot_de_garantie: 656,00 €
+  revision: chaque 26 janvier
+  trimestre_irl: T3
+  dpe: D
+- lot: n36-06
+  type: T2
+  surface_m2: 41
+  etage: 1
+  proprietaire: p-0482
+  locataire: Mme Geneviève Carpentier
+  entree: '2019-01-13'
+  loyer_hors_charges: 372,00 €
+  provision_sur_charges: 108,00 €
+  depot_de_garantie: 317,00 €
+  revision: chaque 13 janvier
+  trimestre_irl: T3
+  dpe: A
+- lot: n36-07
+  type: T2
+  surface_m2: 39
+  etage: 1
+  proprietaire: p-0438
+  locataire: M. Claude Carpentier
+  entree: '2013-01-15'
+  loyer_hors_charges: 354,00 €
+  provision_sur_charges: 89,00 €
+  depot_de_garantie: 267,00 €
+  revision: chaque 15 janvier
+  trimestre_irl: T3
+  dpe: E
+- lot: n36-08
+  type: T3
+  surface_m2: 63
+  etage: 1
+  proprietaire: p-0449
+  locataire: Mme Laure Mouton
+  entree: '2018-05-29'
+  loyer_hors_charges: 545,00 €
+  provision_sur_charges: 54,00 €
+  depot_de_garantie: 454,00 €
+  revision: chaque 29 mai
+  trimestre_irl: T1
+  dpe: D
+- lot: n36-09
+  type: T4
+  surface_m2: 82
+  etage: 2
+  proprietaire: p-0490
+  locataire: M. Pierre Barbier
+  entree: '2025-03-24'
+  loyer_hors_charges: 782,00 €
+  provision_sur_charges: 47,00 €
+  depot_de_garantie: 763,00 €
+  revision: chaque 24 mars
+  trimestre_irl: T4
+  dpe: E
+- lot: n36-10
+  type: T2
+  surface_m2: 50
+  etage: 2
+  proprietaire: p-0486
+  locataire: M. Robert Lainé
+  entree: '2023-01-14'
+  loyer_hors_charges: 407,00 €
+  provision_sur_charges: 114,00 €
+  depot_de_garantie: 379,00 €
+  revision: chaque 14 janvier
+  trimestre_irl: T3
+  dpe: D
+- lot: n36-11
+  type: T3
+  surface_m2: 62
+  etage: 2
+  proprietaire: p-0491
+  locataire: Mme Fabienne Joly
+  entree: '2025-08-01'
+  loyer_hors_charges: 560,00 €
+  provision_sur_charges: 85,00 €
+  depot_de_garantie: 560,00 €
+  revision: chaque 1er août
+  trimestre_irl: T2
+  dpe: B
+- lot: n36-12
+  type: T4
+  surface_m2: 88
+  etage: 2
+  proprietaire: p-0492
+  locataire: M. Gérard Berthier
+  entree: '2019-10-16'
+  loyer_hors_charges: 797,00 €
+  provision_sur_charges: 58,00 €
+  depot_de_garantie: 693,00 €
+  revision: chaque 16 octobre
+  trimestre_irl: T2
+  dpe: D
+- lot: n36-13
+  type: T4
+  surface_m2: 88
+  etage: 3
+  proprietaire: p-0493
+  locataire: M. Julien Duval
+  entree: '2015-02-11'
+  loyer_hors_charges: 782,00 €
+  provision_sur_charges: 84,00 €
+  depot_de_garantie: 613,00 €
+  revision: chaque 11 février
+  trimestre_irl: T4
+  dpe: D
+- lot: n36-14
+  type: T3
+  surface_m2: 69
+  etage: 3
+  proprietaire: p-0444
+  locataire: M. Pierre Leblanc
+  entree: '2014-06-03'
+  loyer_hors_charges: 612,00 €
+  provision_sur_charges: 92,00 €
+  depot_de_garantie: 471,00 €
+  revision: chaque 3 juin
+  trimestre_irl: T1
+  dpe: C
+- lot: n36-15
+  type: T2
+  surface_m2: 45
+  etage: 3
+  proprietaire: p-0494
+  locataire: M. Jean Jacquet
+  entree: '2024-03-02'
+  loyer_hors_charges: 374,00 €
+  provision_sur_charges: 91,00 €
+  depot_de_garantie: 356,00 €
+  revision: chaque 2 mars
+  trimestre_irl: T4
+  dpe: D
+- lot: n36-16
+  type: T1
+  surface_m2: 30
+  etage: 3
+  proprietaire: p-0494
+  locataire: M. Bernard Lemaire
+  entree: '2012-07-19'
+  loyer_hors_charges: 271,00 €
+  provision_sur_charges: 48,00 €
+  depot_de_garantie: 205,00 €
+  revision: chaque 19 juillet
+  trimestre_irl: T1
+  dpe: D
+- lot: n36-17
+  type: T3
+  surface_m2: 67
+  etage: 4
+  proprietaire: p-0495
+  locataire: Mme Yvette Renard
+  entree: '2024-10-04'
+  loyer_hors_charges: 530,00 €
+  provision_sur_charges: 110,00 €
+  depot_de_garantie: 517,00 €
+  revision: chaque 4 octobre
+  trimestre_irl: T2
+  dpe: D
+- lot: n36-18
+  type: T2
+  surface_m2: 44
+  etage: 4
+  proprietaire: p-0496
+  locataire: Mme Estelle Régnier
+  entree: '2012-10-04'
+  loyer_hors_charges: 390,00 €
+  provision_sur_charges: 77,00 €
+  depot_de_garantie: 294,00 €
+  revision: chaque 4 octobre
+  trimestre_irl: T2
+  dpe: E
+- lot: n36-19
+  type: T2
+  surface_m2: 39
+  etage: 4
+  proprietaire: p-0497
+  locataire: M. Henri Michaud
+  entree: '2014-06-12'
+  loyer_hors_charges: 335,00 €
+  provision_sur_charges: 75,00 €
+  depot_de_garantie: 263,00 €
+  revision: chaque 12 juin
+  trimestre_irl: T1
+  dpe: E
+- lot: n36-20
+  type: T3
+  surface_m2: 61
+  etage: 4
+  proprietaire: p-0498
+  locataire: Mme Françoise Besnard
+  entree: '2024-06-18'
+  loyer_hors_charges: 480,00 €
+  provision_sur_charges: 40,00 €
+  depot_de_garantie: 468,00 €
+  revision: chaque 18 juin
+  trimestre_irl: T1
+  dpe: D
+- lot: n36-21
+  type: T1
+  surface_m2: 28
+  etage: 5
+  proprietaire: p-0498
+  locataire: M. Laurent Leclerc
+  entree: '2019-09-23'
+  loyer_hors_charges: 261,00 €
+  provision_sur_charges: 104,00 €
+  depot_de_garantie: 227,00 €
+  revision: chaque 23 septembre
+  trimestre_irl: T2
+  dpe: E
+- lot: n36-22
+  type: T2
+  surface_m2: 40
+  etage: 5
+  proprietaire: p-0499
+  locataire: M. Bruno Berthier
+  entree: '2024-07-15'
+  loyer_hors_charges: 365,00 €
+  provision_sur_charges: 51,00 €
+  depot_de_garantie: 356,00 €
+  revision: chaque 15 juillet
+  trimestre_irl: T1
+  dpe: C
+- lot: n36-23
+  type: T1
+  surface_m2: 34
+  etage: 5
+  proprietaire: p-0500
+  locataire: M. Daniel Couturier
+  entree: '2016-05-25'
+  loyer_hors_charges: 289,00 €
+  provision_sur_charges: 55,00 €
+  depot_de_garantie: 231,00 €
+  revision: chaque 25 mai
+  trimestre_irl: T1
+  dpe: D

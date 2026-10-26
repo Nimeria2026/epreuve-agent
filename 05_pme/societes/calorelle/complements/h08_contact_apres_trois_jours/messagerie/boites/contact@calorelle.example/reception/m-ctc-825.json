@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-825",
+  "de": {
+    "nom": "Messagerie vocale",
+    "adresse": "messagerie-vocale@calorelle.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Message vocal du 31/10/2026 à 17:52 (06 39 98 52 90)",
+  "date": "2026-10-31T17:52:00+01:00",
+  "corps": "Transcription automatique :\n« Bonjour, c'est madame Gautier, au 55 rue Haute. Le radiateur de la salle de bains ne chauffe plus du tout, et la chaudière fait un bruit de claquement. Est-ce que quelqu'un peut passer la semaine prochaine ? Merci. »\n\nDurée : 19 secondes. Message FICTIF.",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

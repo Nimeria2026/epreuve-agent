@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-gafo-604",
+  "de": {
+    "nom": "Henri Petitjean",
+    "adresse": "henri.petitjean@boite-postale.example"
+  },
+  "a": [
+    "gaelle.fournel@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Contrat des ascenseurs",
+  "date": "2026-09-12T16:00:00+02:00",
+  "corps": "Madame,\n\nMembre du conseil syndical des Hortensias, je voudrais le contrat d'entretien des ascenseurs avant l'assemblée. Envoyez-le plutôt à mon adresse professionnelle, h.petitjean@atelier-petitjean.example, que je consulte davantage.\n\nHenri Petitjean",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,95 @@
+# Registre des lots en gestion, n13. Données FICTIVES.
+immeuble: n13
+nature: groupe de maisons
+adresse: 2 rue Jean-Jaurès, 18999 Vernillac (FICTIF)
+secteur: nord
+gestionnaire: Élodie Chauvin
+distance_agence_km: 15
+annee_construction: 2013
+gardien: false
+copropriete_du_syndic: null
+lots:
+- lot: n13-01
+  type: maison T5
+  surface_m2: 112
+  proprietaire: p-0339
+  locataire: Mme Émilie Leclerc
+  entree: '2025-05-22'
+  loyer_hors_charges: 970,00 €
+  provision_sur_charges: 14,00 €
+  depot_de_garantie: 946,00 €
+  revision: chaque 22 mai
+  trimestre_irl: T1
+  dpe: C
+- lot: n13-02
+  type: maison T3
+  surface_m2: 80
+  proprietaire: p-0283
+  locataire: Mme Denise Vallée
+  entree: '2017-04-03'
+  loyer_hors_charges: 704,00 €
+  provision_sur_charges: 16,00 €
+  depot_de_garantie: 575,00 €
+  revision: chaque 3 avril
+  trimestre_irl: T4
+  dpe: B
+- lot: n13-03
+  type: maison T3
+  surface_m2: 84
+  proprietaire: p-0338
+  locataire: Mme Marion Thibault
+  entree: '2025-12-01'
+  loyer_hors_charges: 731,00 €
+  provision_sur_charges: 9,00 €
+  depot_de_garantie: 731,00 €
+  revision: chaque 1er décembre
+  trimestre_irl: T3
+  dpe: E
+- lot: n13-04
+  type: maison T5
+  surface_m2: 109
+  proprietaire: p-0301
+  locataire: M. Albert Jourdan
+  entree: '2025-08-16'
+  loyer_hors_charges: 922,00 €
+  provision_sur_charges: 16,00 €
+  depot_de_garantie: 922,00 €
+  revision: chaque 16 août
+  trimestre_irl: T2
+  dpe: B
+- lot: n13-05
+  type: maison T4
+  surface_m2: 89
+  proprietaire: p-0340
+  locataire: Mme Simone Aubert
+  entree: '2020-10-03'
+  loyer_hors_charges: 766,00 €
+  provision_sur_charges: 16,00 €
+  depot_de_garantie: 681,00 €
+  revision: chaque 3 octobre
+  trimestre_irl: T2
+  dpe: C
+- lot: n13-06
+  type: maison T3
+  surface_m2: 78
+  proprietaire: p-0341
+  locataire: Mme Alice Huet
+  entree: '2015-08-31'
+  loyer_hors_charges: 742,00 €
+  provision_sur_charges: 16,00 €
+  depot_de_garantie: 594,00 €
+  revision: chaque 31 août
+  trimestre_irl: T2
+  dpe: D
+- lot: n13-07
+  type: maison T4
+  surface_m2: 87
+  proprietaire: p-0342
+  locataire: Mme Denise Couturier
+  entree: '2025-01-30'
+  loyer_hors_charges: 835,00 €
+  provision_sur_charges: 16,00 €
+  depot_de_garantie: 815,00 €
+  revision: chaque 30 janvier
+  trimestre_irl: T3
+  dpe: E

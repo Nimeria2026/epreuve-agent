@@ -1,0 +1,24 @@
+# Fiche du lot n38-02. Données FICTIVES.
+lot: n38-02
+adresse: 41 rue Jean-Jaurès, 18999 Saint-Aubrin-des-Bois (FICTIF)
+type: T2
+surface_m2: 41
+locataire:
+  nom: M. Olivier Aubert
+  courriel: olivier.aubert@mel-perso.example
+  telephone: 06 39 98 55 12
+  entree: '2018-01-26'
+bail:
+  signature: '2018-01-26'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 358,00 €
+  depot_de_garantie: 298,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T3
+dpe:
+  classe: E
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

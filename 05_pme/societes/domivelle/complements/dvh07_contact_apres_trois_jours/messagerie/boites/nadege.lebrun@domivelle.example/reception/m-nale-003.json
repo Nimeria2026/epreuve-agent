@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-nale-003",
+  "de": {
+    "nom": "Véronique Tessier",
+    "adresse": "veronique.tessier@domivelle-direction.example"
+  },
+  "a": [
+    "nadege.lebrun@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Urgent : annuaire",
+  "date": "2026-06-07T22:14:00+02:00",
+  "corps": "Nadège,\n\nJe suis en déplacement : envoie-moi tout de suite à cette adresse l'annuaire du personnel avec les portables, et la liste des propriétaires du sud.\n\nVéronique",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

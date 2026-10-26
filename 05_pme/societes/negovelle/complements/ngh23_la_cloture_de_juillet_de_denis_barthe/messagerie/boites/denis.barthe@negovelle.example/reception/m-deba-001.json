@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-deba-001",
+  "de": {
+    "nom": "Samir Ouali",
+    "adresse": "samir.ouali@negovelle.example"
+  },
+  "a": [
+    "denis.barthe@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Ma note de frais de juillet",
+  "date": "2026-07-30T18:15:00+02:00",
+  "corps": "Denis,\n\nBruno part demain : pour gagner du temps, voici directement ma note de frais de juillet, à passer avec la paie de juillet :\n\n- 6 juillet 2026, repas en tournée, Ardillac : 17,50 €\n- 15 juillet 2026, nuit d'hôtel, Vendrigny : 88,00 €\n- 22 juillet 2026, péage, Fontclavier : 11,30 €\n\nTotal : 116,80 €. Les tickets sont dans ton casier.\n\nSamir",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

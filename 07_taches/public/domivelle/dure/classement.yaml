@@ -1,0 +1,179 @@
+# Classement des tâches publiques (contrat 01_contrats/classement.schema.json ; JOURNAL, entrées 121,
+# 125 et 154). Écrit par ease.classement : make classement VERSER=1 ou ESTIMER=1 réécrit ce fichier
+# d'un bloc, sans garder d'autres commentaires que celui-ci. Les étiquettes, le type commun d'une
+# tâche du socle commun (07_taches/public/types_communs.yaml), la fiche ROME et les sections du
+# manuel s'écrivent à la main ; les durées, jamais : les mesurées viennent des runs du poste
+# humain, l'estimée de la grille (ease.grille) sur un run du témoin parfait. Le métier, les
+# services, le contrôle grave et les étapes du témoin se calculent depuis la tâche (make classement).
+# Fiches ROME : France Travail, ROME 4.0, Licence Ouverte ; on cite le code et l'intitulé.
+version: 2
+personnes: {}
+taches:
+  dvh01_les_regularisations_de_n38:
+    version_tache: 2
+    etiquettes: [calcul, dates_et_echeances, volume, regle_peu_visible]
+    rome: {code: C1502, intitule: Gestion locative immobilière}
+    sections_manuel: [3, 6, 12]
+    durees: []
+    duree_estimee: {secondes: 2258.6, grille: '1', version_tache: 2, run: 2026-10-16_210140_temoin_parfait,
+      lire: 336.6, chercher: 25.7, ecrire: 1771.6, agir: 124.7}
+  dvh02_les_impayes_du_grand_pre:
+    version_tache: 1
+    etiquettes: [calcul, dates_et_echeances, document, regle_peu_visible]
+    rome: {code: M1608, intitule: Secrétariat comptable}
+    sections_manuel: [3, 14]
+    durees: []
+    duree_estimee: {secondes: 1715.0, grille: '1', version_tache: 1, run: 2026-10-16_150248_temoin_parfait,
+      lire: 298.0, chercher: 30.2, ecrire: 1285.3, agir: 101.5}
+  dvh03_les_departs_de_l_ete:
+    version_tache: 2
+    etiquettes: [dates_et_echeances, regle_peu_visible, piege]
+    rome: {code: C1502, intitule: Gestion locative immobilière}
+    sections_manuel: [5, 8]
+    durees: []
+    duree_estimee: {secondes: 1825.9, grille: '1', version_tache: 2, run: 2026-10-16_150248_temoin_parfait,
+      lire: 239.0, chercher: 28.7, ecrire: 1433.7, agir: 124.5}
+  dvh04_l_assemblee_du_square_des_ecoles:
+    version_tache: 3
+    etiquettes: [calcul, dates_et_echeances, regle_peu_visible]
+    rome: {code: C1501, intitule: Gérance immobilière}
+    sections_manuel: [13, 14, 15]
+    durees: []
+    duree_estimee: {secondes: 2773.1, grille: '1', version_tache: 3, run: 2026-10-16_150248_temoin_parfait,
+      lire: 576.3, chercher: 28.8, ecrire: 2040.0, agir: 128.0}
+  dvh05_le_portefeuille_de_cedric:
+    version_tache: 1
+    etiquettes: [calcul, dates_et_echeances, volume, regle_peu_visible]
+    rome: {code: C1502, intitule: Gestion locative immobilière}
+    sections_manuel: [1, 4, 5, 7, 9, 17]
+    durees: []
+    duree_estimee: {secondes: 3568.7, grille: '1', version_tache: 1, run: 2026-10-16_150248_temoin_parfait,
+      lire: 616.9, chercher: 260.0, ecrire: 2396.8, agir: 295.0}
+  dvh06_le_lendemain_d_une_assemblee:
+    version_tache: 2
+    etiquettes: [dates_et_echeances, volume, regle_peu_visible, document]
+    rome: {code: C1501, intitule: Gérance immobilière}
+    sections_manuel: [3, 13]
+    durees: []
+    duree_estimee: {secondes: 3986.7, grille: '1', version_tache: 2, run: 2026-10-16_210140_temoin_parfait,
+      lire: 319.7, chercher: 20.9, ecrire: 3382.1, agir: 264.1}
+  dvh07_contact_apres_trois_jours:
+    version_tache: 2
+    etiquettes: [volume, regle_peu_visible]
+    rome: {code: M1607, intitule: Secrétariat}
+    sections_manuel: [2, 3, 5, 7, 16, 17]
+    durees: []
+    duree_estimee: {secondes: 2885.6, grille: '1', version_tache: 2, run: 2026-10-16_150248_temoin_parfait,
+      lire: 770.4, chercher: 249.7, ecrire: 1215.8, agir: 649.7}
+  dvh08_une_fuite_sur_une_colonne_commune:
+    version_tache: 3
+    etiquettes: [calcul, document, regle_peu_visible, piege]
+    rome: {code: C1501, intitule: Gérance immobilière}
+    sections_manuel: [2, 3, 15]
+    durees: []
+    duree_estimee: {secondes: 2696.9, grille: '1', version_tache: 3, run: 2026-10-16_150248_temoin_parfait,
+      lire: 274.3, chercher: 102.0, ecrire: 2125.3, agir: 195.3}
+  dvh09_la_cloture_des_roseraies:
+    version_tache: 1
+    etiquettes: [calcul, volume, document, regle_peu_visible]
+    rome: {code: M1608, intitule: Secrétariat comptable}
+    sections_manuel: [14]
+    durees: []
+    duree_estimee: {secondes: 1983.3, grille: '1', version_tache: 1, run: 2026-10-16_150248_temoin_parfait,
+      lire: 326.5, chercher: 21.9, ecrire: 1572.6, agir: 62.2}
+  dvh10_les_reversements_du_10_juin:
+    version_tache: 1
+    etiquettes: [calcul, dates_et_echeances, volume, piege]
+    rome: {code: M1608, intitule: Secrétariat comptable}
+    sections_manuel: [11, 16, 18]
+    durees: []
+    duree_estimee: {secondes: 2019.8, grille: '1', version_tache: 1, run: 2026-10-16_150248_temoin_parfait,
+      lire: 278.3, chercher: 23.2, ecrire: 1572.6, agir: 145.7}
+  dvh11_les_dossiers_de_location:
+    version_tache: 3
+    etiquettes: [volume, document, regle_peu_visible, piege]
+    rome: {code: C1502, intitule: Gestion locative immobilière}
+    sections_manuel: [3, 10]
+    durees: []
+    duree_estimee: {secondes: 2216.8, grille: '1', version_tache: 3, run: 2026-10-17_073728_temoin_parfait,
+      lire: 422.0, chercher: 27.2, ecrire: 915.8, agir: 851.8}
+  dvh12_une_journee_de_gaelle_fournel:
+    version_tache: 2
+    etiquettes: [calcul, dates_et_echeances, volume, document, piege]
+    rome: {code: C1501, intitule: Gérance immobilière}
+    sections_manuel: [3, 13, 14, 15, 16]
+    durees: []
+    duree_estimee: {secondes: 3823.4, grille: '1', version_tache: 2, run: 2026-10-16_150248_temoin_parfait,
+      lire: 769.4, chercher: 165.9, ecrire: 2636.8, agir: 251.3}
+  dvh13_les_attestations_d_assurance_de_s04:
+    version_tache: 1
+    etiquettes: [dates_et_echeances, document, regle_peu_visible]
+    rome: {code: C1502, intitule: Gestion locative immobilière}
+    sections_manuel: [1, 9]
+    durees: []
+    duree_estimee: {secondes: 1480.9, grille: '1', version_tache: 1, run: 2026-10-16_150248_temoin_parfait,
+      lire: 225.4, chercher: 120.6, ecrire: 978.9, agir: 155.9}
+  dvh14_les_absences_de_juin:
+    version_tache: 1
+    etiquettes: [document, regle_peu_visible]
+    rome: {code: C1501, intitule: Gérance immobilière}
+    sections_manuel: [17]
+    durees: []
+    duree_estimee: {secondes: 850.6, grille: '1', version_tache: 1, run: 2026-10-16_150248_temoin_parfait,
+      lire: 106.1, chercher: 19.5, ecrire: 577.9, agir: 147.0}
+  dvh15_les_visites_d_un_logement_qui_se_libere:
+    version_tache: 1
+    etiquettes: [dates_et_echeances, regle_peu_visible]
+    rome: {code: C1502, intitule: Gestion locative immobilière}
+    sections_manuel: [5]
+    durees: []
+    duree_estimee: {secondes: 905.2, grille: '1', version_tache: 1, run: 2026-10-16_150248_temoin_parfait,
+      lire: 172.4, chercher: 26.3, ecrire: 660.0, agir: 46.5}
+  dvh16_cinq_logements_a_relouer:
+    version_tache: 1
+    etiquettes: [regle_peu_visible, document]
+    rome: {code: C1502, intitule: Gestion locative immobilière}
+    sections_manuel: [4, 6, 8, 10]
+    durees: []
+    duree_estimee: {secondes: 2034.4, grille: '1', version_tache: 1, run: 2026-10-16_150248_temoin_parfait,
+      lire: 343.6, chercher: 239.3, ecrire: 1367.4, agir: 84.1}
+  dvh17_les_contrats_d_entretien_a_renouveler:
+    version_tache: 2
+    etiquettes: [dates_et_echeances, volume, document, regle_peu_visible]
+    rome: {code: C1501, intitule: Gérance immobilière}
+    sections_manuel: [2, 15]
+    durees: []
+    duree_estimee: {secondes: 3465.7, grille: '1', version_tache: 2, run: 2026-10-16_210140_temoin_parfait,
+      lire: 686.7, chercher: 108.7, ecrire: 2428.4, agir: 241.9}
+  dvh18_les_depots_de_garantie_de_juin:
+    version_tache: 1
+    etiquettes: [calcul, dates_et_echeances, volume, document]
+    rome: {code: M1608, intitule: Secrétariat comptable}
+    sections_manuel: [5, 6]
+    durees: []
+    duree_estimee: {secondes: 3353.3, grille: '1', version_tache: 1, run: 2026-10-16_150248_temoin_parfait,
+      lire: 739.7, chercher: 167.9, ecrire: 2229.5, agir: 216.3}
+  dvh19_la_regularisation_des_charges_de_s23:
+    version_tache: 1
+    etiquettes: [calcul, volume, document, regle_peu_visible]
+    rome: {code: C1502, intitule: Gestion locative immobilière}
+    sections_manuel: [6, 12]
+    durees: []
+    duree_estimee: {secondes: 5348.7, grille: '1', version_tache: 1, run: 2026-10-16_150248_temoin_parfait,
+      lire: 363.3, chercher: 42.7, ecrire: 4721.1, agir: 221.7}
+  dvh20_une_journee_de_veronique_tessier:
+    version_tache: 2
+    etiquettes: [calcul, dates_et_echeances, volume, document, regle_peu_visible]
+    rome: {code: C1501, intitule: Gérance immobilière}
+    sections_manuel: [2, 5, 14, 16, 17, 19]
+    durees: []
+    duree_estimee: {secondes: 4277.5, grille: '1', version_tache: 2, run: 2026-10-16_150248_temoin_parfait,
+      lire: 551.3, chercher: 630.1, ecrire: 2633.7, agir: 462.4}
+  dvh21_les_revisions_de_juillet_de_c16_et_c27:
+    version_tache: 3
+    etiquettes: [calcul, dates_et_echeances, volume, regle_peu_visible]
+    rome: {code: C1502, intitule: Gestion locative immobilière}
+    sections_manuel: [4, 8]
+    durees: []
+    duree_estimee: {secondes: 4393.3, grille: '1', version_tache: 3, run: 2026-10-16_210140_temoin_parfait,
+      lire: 303.8, chercher: 186.4, ecrire: 3641.1, agir: 262.0}

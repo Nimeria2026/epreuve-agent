@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-maca-623",
+  "de": {
+    "nom": "Yohan Delmas",
+    "adresse": "yohan.delmas@domivelle.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Les contrats des Iris",
+  "date": "2026-09-01T16:25:00+02:00",
+  "corps": "Maëlle,\n\nLe conseil syndical des Iris (cp14) se réunit le jeudi 17 septembre pour préparer l'assemblée. Peux-tu me faire, à ton retour, la note des trois contrats d'entretien : pour chacun, le titulaire, le prix, l'échéance et la date jusqu'à laquelle on peut le résilier, et ce que tu en penses ?\n\nYohan",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

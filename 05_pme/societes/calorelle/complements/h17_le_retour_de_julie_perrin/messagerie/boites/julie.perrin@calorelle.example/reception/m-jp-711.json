@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-711",
+  "de": {
+    "nom": "Hélène François",
+    "adresse": "helene.francois2@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "J'accepte votre devis",
+  "date": "2026-12-17T10:40:00+01:00",
+  "corps": "Bonjour Madame Perrin,\n\nJ'accepte votre devis pour le remplacement de ma chaudière. Le chantier peut avoir lieu en janvier.\n\nHélène François, 101 avenue des Tilleuls, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

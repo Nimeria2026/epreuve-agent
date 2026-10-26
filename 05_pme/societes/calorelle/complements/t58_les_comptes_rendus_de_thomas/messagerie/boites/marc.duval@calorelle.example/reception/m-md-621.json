@@ -1,0 +1,39 @@
+{
+  "identifiant": "m-md-621",
+  "de": {
+    "nom": "Thomas Girard",
+    "adresse": "thomas.girard@calorelle.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Mes comptes rendus de lundi et mardi",
+  "date": "2026-11-04T07:50:00+01:00",
+  "corps": "Salut Marc,\n\nVoici mes quatre comptes rendus de lundi et mardi, à ranger chacun dans le dossier interventions de son client, sous leur nom :\n- 2026-11-02_depannage.pdf : le dépannage de lundi après-midi au 75 rue du Moulin, fuite réparée ;\n- 2026-11-03_depannage.pdf : INT-2026-0009, chez M. Legrand (c-0487), sonde changée ;\n- 2026-11-03_mise_en_service.pdf : INT-2026-0013, la chaudière de M. Laurent (c-0228) ;\n- 2026-11-03_entretien.pdf : la visite de la chaufferie de l'école, Commune de Brenneval (c-0536). La chaudière a 27 ans et son corps de chauffe est fissuré : je conseille de la remplacer avant l'hiver prochain. Il faudrait que le chargé d'affaires de la commune leur propose un devis.\n\nThomas (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "2026-11-02_depannage.pdf",
+      "fichier": "pieces/m-md-621/2026-11-02_depannage.pdf",
+      "taille_octets": 930
+    },
+    {
+      "nom": "2026-11-03_depannage.pdf",
+      "fichier": "pieces/m-md-621/2026-11-03_depannage.pdf",
+      "taille_octets": 922
+    },
+    {
+      "nom": "2026-11-03_mise_en_service.pdf",
+      "fichier": "pieces/m-md-621/2026-11-03_mise_en_service.pdf",
+      "taille_octets": 913
+    },
+    {
+      "nom": "2026-11-03_entretien.pdf",
+      "fichier": "pieces/m-md-621/2026-11-03_entretien.pdf",
+      "taille_octets": 965
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

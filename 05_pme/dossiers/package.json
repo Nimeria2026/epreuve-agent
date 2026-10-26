@@ -1,0 +1,20 @@
+{
+  "name": "@poa/pme-dossiers",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Serveur MCP des dossiers partagés de la PME fictive Calorelle",
+  "type": "module",
+  "bin": {
+    "pme-dossiers": "./src/principal.ts"
+  },
+  "scripts": {
+    "start": "node src/principal.ts",
+    "test": "node --test --test-reporter=spec \"tests/**/*.test.ts\"",
+    "types": "tsc --noEmit -p ."
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.0",
+    "@poa/commun": "workspace:*",
+    "zod": "^4.1.0"
+  }
+}

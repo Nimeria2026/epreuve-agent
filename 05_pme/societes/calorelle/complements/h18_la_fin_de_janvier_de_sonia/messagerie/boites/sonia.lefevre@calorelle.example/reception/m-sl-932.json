@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-932",
+  "de": {
+    "nom": "Thomas Girard",
+    "adresse": "thomas.girard@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Qui est absent la semaine prochaine ?",
+  "date": "2027-01-29T18:10:00+01:00",
+  "corps": "Sonia,\n\nPour faire mes équipes, peux-tu me donner la liste des congés de la semaine du 8 février, avec les noms ?\n\nThomas (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

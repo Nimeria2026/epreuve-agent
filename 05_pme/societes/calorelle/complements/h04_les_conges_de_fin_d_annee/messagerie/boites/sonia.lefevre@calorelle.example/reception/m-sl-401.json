@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-401",
+  "de": {
+    "nom": "Kevin Lambert",
+    "adresse": "kevin.lambert@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Congés de Noël",
+  "date": "2026-10-26T12:10:00+01:00",
+  "corps": "Bonjour Sonia,\n\nJe voudrais poser mes congés du mardi 22 au jeudi 24 décembre.\n\nMerci,\nKevin (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,59 @@
+{
+  "numero": "CO-2026-02044",
+  "client": "c-0004",
+  "reference_client": null,
+  "cree_le": "2026-07-10T07:35:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "express",
+  "livraison": {
+    "code": "L1",
+    "adresse": "25 rue de la Fontaine, 36999 Corvalet (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-10057",
+      "libelle": "Ampoule LED B22 9 W, 4000 K",
+      "quantite": 20,
+      "prix_tarif_ht_euros": 5.75,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 5.75,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 115.0
+    },
+    {
+      "reference": "ELE-13454",
+      "libelle": "Tube LED T8 600 mm, 14 W",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 5.85,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 5.85,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 70.2
+    }
+  ],
+  "port_ht_euros": 25.0,
+  "total_ht_euros": 210.2,
+  "total_tva_euros": 42.04,
+  "total_ttc_euros": 252.24,
+  "statut": "validee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-10T07:35:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-10T07:40:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": ""
+    }
+  ]
+}

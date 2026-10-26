@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-b05",
+  "de": {
+    "nom": "Christophe Chevalier",
+    "adresse": "christophe.chevalier@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Offre de partenariat",
+  "date": "2026-08-24T08:28:00+02:00",
+  "corps": "Bonjour,\n\nNous proposons nos services de référencement internet. Offre FICTIVE.\n\nChristophe Chevalier (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

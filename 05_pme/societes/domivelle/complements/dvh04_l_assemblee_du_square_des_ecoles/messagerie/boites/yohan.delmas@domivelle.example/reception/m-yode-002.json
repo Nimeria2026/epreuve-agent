@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-yode-002",
+  "de": {
+    "nom": "Pascal Lamy",
+    "adresse": "pascal.lamy@messagerie.example"
+  },
+  "a": [
+    "yohan.delmas@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Assemblée générale de la Résidence Le Square des Écoles",
+  "date": "2026-06-05T18:07:00+02:00",
+  "corps": "Monsieur Delmas,\n\nPour l'assemblée générale, le conseil syndical propose le mardi 30 juin ou le jeudi 2 juillet, à 18 h 30, à la salle polyvalente de Vernillac, plus grande que la salle de la mairie de Montclavel. Les convocations peuvent partir dès lundi.\n\nAvec le ravalement qui s'annonce, nous aimerions aussi suspendre la cotisation au fonds de travaux cette année. Vous avez reçu en mai les trois devis de ravalement : il faudrait les mettre à l'ordre du jour.\n\nPascal Lamy, président du conseil syndical",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

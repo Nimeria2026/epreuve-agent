@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-934",
+  "de": {
+    "nom": "Patrick Roux",
+    "adresse": "patrick.roux@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Solde de Lucas",
+  "date": "2027-02-01T08:20:00+01:00",
+  "corps": "Sonia,\n\nPour préparer le solde de tout compte de Lucas, peux-tu me donner ses jours de congés restants et son salaire ? Et, pour la première paie de Bastien Morel, sa date d'arrivée et son RIB.\n\nPatrick (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

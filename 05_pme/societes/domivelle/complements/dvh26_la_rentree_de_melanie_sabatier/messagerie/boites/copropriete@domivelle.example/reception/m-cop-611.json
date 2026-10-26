@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cop-611",
+  "de": {
+    "nom": "Joël Marie",
+    "adresse": "joel.marie@mel-perso.example"
+  },
+  "a": [
+    "copropriete@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Contrat des espaces verts des Platanes",
+  "date": "2026-08-24T08:50:00+02:00",
+  "corps": "Bonjour,\n\nMembre du conseil syndical des Platanes, je voudrais une copie du contrat d'entretien des espaces verts. Merci de l'envoyer à mon adresse du bureau, j.marie@cabinet-marie-geometre.example.\n\nJoël Marie",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

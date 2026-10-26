@@ -1,0 +1,34 @@
+{
+  "numero": "BL-2026-01776",
+  "commande": "CO-2026-01927",
+  "client": "c-0349",
+  "date_expedition": "2026-06-30",
+  "date_livraison": "2026-06-30",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "43 avenue de la Gare, 36999 Fontclavier (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "CON-11837",
+      "libelle": "Papier abrasif toile, grain 240, rouleau de 5 m",
+      "quantite": 2
+    },
+    {
+      "reference": "QUI-10138",
+      "libelle": "Boîte aux lettres murale, noir",
+      "quantite": 1
+    },
+    {
+      "reference": "QUI-12768",
+      "libelle": "Serrure à larder bec-de-cane, axe 40 mm",
+      "quantite": 4
+    }
+  ],
+  "reserves": null,
+  "signataire": "Christian Drouet",
+  "statut": "livre"
+}

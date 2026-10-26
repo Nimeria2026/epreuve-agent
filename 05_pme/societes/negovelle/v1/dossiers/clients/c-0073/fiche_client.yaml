@@ -1,0 +1,25 @@
+# Fiche du client c-0073 de Négovelle. Données FICTIVES.
+code: c-0073
+nom: Peinture Bodin
+type: artisan
+adresse: 100 rue du Four, 36999 Laubrissac (FICTIF)
+telephone: 02 61 91 71 00
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Aurélie Combes
+  fonction: gérante
+  courriel: aurelie.combes@peinture-bodin.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 100 rue du Four, 36999 Laubrissac (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2025-10-01'
+limite_encours_euros: 2500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

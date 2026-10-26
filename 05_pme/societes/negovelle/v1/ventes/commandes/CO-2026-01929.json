@@ -1,0 +1,112 @@
+{
+  "numero": "CO-2026-01929",
+  "client": "c-0044",
+  "reference_client": "BC-9386",
+  "cree_le": "2026-06-29T09:10:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "standard",
+  "livraison": {
+    "code": "L2",
+    "adresse": "29 parc d'activités de la Gare, 36999 Ardillac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "OUT-12498",
+      "libelle": "Spatule japonaise 80 mm",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 17.35,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 16.66,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 33.32
+    },
+    {
+      "reference": "PLB-12801",
+      "libelle": "Tube PER 16 mm, gainé bleu, couronne de 100 m",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 40.65,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 39.02,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 117.06
+    },
+    {
+      "reference": "PLB-12866",
+      "libelle": "Tube PER 20 mm, gainé bleu, couronne de 100 m",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 79.35,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 76.18,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 228.54
+    },
+    {
+      "reference": "QUI-11584",
+      "libelle": "Cylindre européen 40x40 mm, 3 clés",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 18.4,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 17.66,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 17.66
+    },
+    {
+      "reference": "VIS-12041",
+      "libelle": "Vis à bois tête fraisée 4,5x60, inox A2, boîte de 500",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 17.15,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 16.46,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 82.3
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 478.88,
+  "total_tva_euros": 95.78,
+  "total_ttc_euros": 574.66,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01778"
+  ],
+  "facture": "FC-2026-1038",
+  "historique": [
+    {
+      "date": "2026-06-29T09:10:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-29T09:12:00+02:00",
+      "par": "oceane.collin",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-30T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01778"
+    },
+    {
+      "date": "2026-06-30T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01778"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1038"
+    }
+  ]
+}

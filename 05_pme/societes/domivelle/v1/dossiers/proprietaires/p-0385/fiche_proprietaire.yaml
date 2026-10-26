@@ -1,0 +1,11 @@
+# Fiche du propriétaire p-0385, mandant de Domivelle. Données FICTIVES.
+code: p-0385
+nom: SCI Les Charmilles Famille
+adresse: 9 rue de la Fontaine, 18999 Montclavel-sur-Cher (FICTIF)
+courriel: gestion@sci-les-charmilles-famille.example
+telephone: 06 39 98 50 93
+iban: FR76 9999 9053 1814 0719 1854 984 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- n21-12
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

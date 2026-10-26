@@ -1,0 +1,62 @@
+{
+  "numero": "CO-2026-01989",
+  "client": "c-0155",
+  "reference_client": "BC-6905",
+  "cree_le": "2026-07-02T09:10:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "6 zone artisanale du Moulin, 36999 Brissonne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "VIS-10808",
+      "libelle": "Vis à bois tête fraisée 3,5x30, bichromatée, boîte de 200",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 21.1,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 20.26,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 40.52
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 55.52,
+  "total_tva_euros": 11.1,
+  "total_ttc_euros": 66.62,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01838"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-02T09:10:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-02T09:12:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01838"
+    },
+    {
+      "date": "2026-07-03T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01838"
+    }
+  ]
+}

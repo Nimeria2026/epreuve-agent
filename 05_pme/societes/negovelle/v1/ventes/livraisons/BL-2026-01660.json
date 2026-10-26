@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01660",
+  "commande": "CO-2026-01811",
+  "client": "c-0316",
+  "date_expedition": "2026-06-23",
+  "date_livraison": "2026-06-23",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "78 rue des Jardins, 36999 Corvalet (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "QUI-11698",
+      "libelle": "Cylindre européen 50x30 mm, 3 clés",
+      "quantite": 3
+    },
+    {
+      "reference": "QUI-12172",
+      "libelle": "Paumelle 120 mm, inox, sachet de 4",
+      "quantite": 2
+    }
+  ],
+  "reserves": null,
+  "signataire": "Nathalie Baudouin",
+  "statut": "livre"
+}

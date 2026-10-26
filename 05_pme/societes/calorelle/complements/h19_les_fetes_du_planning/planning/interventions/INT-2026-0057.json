@@ -1,0 +1,13 @@
+{
+  "numero": "INT-2026-0057",
+  "client": "c-0405",
+  "techniciens": [
+    "mathieu.picard"
+  ],
+  "debut": "2026-12-18T08:00:00+01:00",
+  "fin": "2026-12-18T09:30:00+01:00",
+  "nature": "depannage",
+  "objet": "Pompes de circulation de la chaufferie collective en défaut",
+  "statut": "planifiee",
+  "cree_par": "marc.duval"
+}

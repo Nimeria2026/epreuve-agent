@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0017"
+nom: "Établissements Bernard"
+type: "entreprise"
+adresse: "42 rue Haute, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "contact@etablissements-bernard-17.example"
+telephone: "02 61 91 35 02"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2021-05-03"
+  mois_anniversaire: "mai"
+  derniere_visite: "2026-05-15"

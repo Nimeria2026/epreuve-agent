@@ -1,0 +1,19 @@
+# Fiche du lot c16-15. Données FICTIVES.
+lot: c16-15
+adresse: 122 avenue de la Gare, 18999 Montclavel-sur-Cher (FICTIF)
+type: T2
+surface_m2: 46
+locataire:
+  nom: Mme Monique Aubert
+  courriel: monique.aubert@messagerie.example
+  telephone: 06 39 98 73 05
+  entree: '2018-03-18'
+bail:
+  signature: '2018-03-18'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 504,00 €
+  depot_de_garantie: 420,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T4
+dpe:
+  classe: C

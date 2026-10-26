@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-012",
+  "de": {
+    "nom": "Julien Bouvier",
+    "adresse": "julien.bouvier@maconnerie-boutin.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Vis",
+  "date": "2026-07-25T11:00:00+02:00",
+  "corps": "Bonjour,\n\nNotre commande :\n\n- 25 x VIS-11322, Vis à bois tête fraisée 3x30, zinguée, boîte de 100\n\nLivraison standard.\n\nJulien Bouvier\nMaçonnerie Boutin",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

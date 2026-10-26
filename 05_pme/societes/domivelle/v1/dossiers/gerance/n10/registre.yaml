@@ -1,0 +1,102 @@
+# Registre des lots en gestion, n10. Données FICTIVES.
+immeuble: n10
+nature: immeuble collectif
+adresse: 29 chemin du Bois, 18999 Vernillac (FICTIF)
+secteur: nord
+gestionnaire: Élodie Chauvin
+distance_agence_km: 11
+annee_construction: 1968
+gardien: false
+copropriete_du_syndic: null
+lots:
+- lot: n10-01
+  type: T5
+  surface_m2: 92
+  etage: 0
+  proprietaire: p-0321
+  locataire: Mme Delphine Rey
+  entree: '2016-02-13'
+  loyer_hors_charges: 845,00 €
+  provision_sur_charges: 102,00 €
+  depot_de_garantie: 676,00 €
+  revision: chaque 13 février
+  trimestre_irl: T4
+  dpe: C
+- lot: n10-02
+  type: T3
+  surface_m2: 67
+  etage: 0
+  proprietaire: p-0322
+  locataire: Mme Marion Langlois
+  entree: '2022-11-18'
+  loyer_hors_charges: 623,00 €
+  provision_sur_charges: 118,00 €
+  depot_de_garantie: 580,00 €
+  revision: chaque 18 novembre
+  trimestre_irl: T3
+  dpe: D
+- lot: n10-03
+  type: T2
+  surface_m2: 46
+  etage: 0
+  proprietaire: p-0323
+  locataire: Mme Suzanne Delorme
+  entree: '2021-06-25'
+  loyer_hors_charges: 426,00 €
+  provision_sur_charges: 120,00 €
+  depot_de_garantie: 387,00 €
+  revision: chaque 25 juin
+  trimestre_irl: T1
+  dpe: C
+- lot: n10-04
+  type: T3
+  surface_m2: 67
+  etage: 0
+  proprietaire: p-0324
+  locataire: Mme Josiane Mouton
+  entree: '2018-03-21'
+  loyer_hors_charges: 530,00 €
+  provision_sur_charges: 78,00 €
+  depot_de_garantie: 442,00 €
+  revision: chaque 21 mars
+  trimestre_irl: T4
+  dpe: D
+- lot: n10-05
+  type: T3
+  surface_m2: 61
+  etage: 1
+  proprietaire: p-0325
+  locataire: M. Roger Lebon
+  entree: '2016-01-14'
+  loyer_hors_charges: 547,00 €
+  provision_sur_charges: 117,00 €
+  depot_de_garantie: 438,00 €
+  revision: chaque 14 janvier
+  trimestre_irl: T3
+  dpe: E
+- lot: n10-06
+  type: T1
+  surface_m2: 29
+  etage: 1
+  proprietaire: p-0286
+  locataire: Mme Amandine Vidal
+  entree: '2021-02-04'
+  loyer_hors_charges: 234,00 €
+  provision_sur_charges: 45,00 €
+  depot_de_garantie: 208,00 €
+  revision: chaque 4 février
+  trimestre_irl: T4
+  dpe: D
+- lot: n10-07
+  type: T1
+  surface_m2: 33
+  etage: 1
+  proprietaire: p-0323
+  locataire: M. André Pagès
+  entree: '2021-06-08'
+  loyer_hors_charges: 297,00 €
+  provision_sur_charges: 92,00 €
+  depot_de_garantie: 264,00 €
+  revision: chaque 8 juin
+  trimestre_irl: T1
+  dpe: B

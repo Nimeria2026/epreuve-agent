@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01826",
+  "commande": "CO-2026-01977",
+  "client": "c-0100",
+  "date_expedition": "2026-07-02",
+  "date_livraison": "2026-07-02",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "43 impasse des Noyers, 36999 Laubrissac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "OUT-12417",
+      "libelle": "Spatule de peintre 250 mm",
+      "quantite": 1
+    }
+  ],
+  "reserves": null,
+  "signataire": "Serge Grenier",
+  "statut": "livre"
+}

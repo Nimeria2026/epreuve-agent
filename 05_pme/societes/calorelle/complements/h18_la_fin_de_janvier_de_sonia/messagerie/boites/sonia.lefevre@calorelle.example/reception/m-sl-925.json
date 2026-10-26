@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-sl-925",
+  "de": {
+    "nom": "Noah Vasseur",
+    "adresse": "noah.vasseur@courriel.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Recherche d'apprentissage",
+  "date": "2027-01-30T16:00:00+01:00",
+  "corps": "Madame,\n\nJe cherche un apprentissage de technicien en génie climatique pour la rentrée. Mon CV est joint.\n\nNoah Vasseur (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "CV_Noah_Vasseur.pdf",
+      "fichier": "pieces/m-sl-925/CV_Noah_Vasseur.pdf",
+      "taille_octets": 798
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

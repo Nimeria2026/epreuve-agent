@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01897",
+  "commande": "CO-2026-02077",
+  "client": "c-0341",
+  "date_expedition": "2026-07-16",
+  "date_livraison": "2026-07-17",
+  "transport": {
+    "mode": "transporteur",
+    "transporteur": "transports-delorme",
+    "recepisse": "TD-410655"
+  },
+  "adresse": "114 avenue de la Gare, 36999 Brissonne (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "QUI-11674",
+      "libelle": "Cylindre européen 45x45 mm, 5 clés",
+      "quantite": 10
+    }
+  ],
+  "reserves": null,
+  "signataire": "René Gay",
+  "statut": "livre"
+}

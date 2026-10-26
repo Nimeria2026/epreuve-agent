@@ -1,0 +1,79 @@
+{
+  "numero": "CO-2026-01824",
+  "client": "c-0041",
+  "reference_client": null,
+  "cree_le": "2026-06-23T09:10:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "62 chemin des Prés, 36999 Laubrissac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-10392",
+      "libelle": "Borne de connexion à levier 2 conducteurs, boîte de 50",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 18.1,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 17.38,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 52.14
+    },
+    {
+      "reference": "ELE-10947",
+      "libelle": "Câble H07V-K 6 mm², couronne de 100 m",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 59.5,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 59.5,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 297.5
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 349.64,
+  "total_tva_euros": 69.93,
+  "total_ttc_euros": 419.57,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01673"
+  ],
+  "facture": "FC-2026-1035",
+  "historique": [
+    {
+      "date": "2026-06-23T09:10:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-23T09:12:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-24T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01673"
+    },
+    {
+      "date": "2026-06-24T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01673"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1035"
+    }
+  ]
+}

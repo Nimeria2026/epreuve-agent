@@ -1,0 +1,101 @@
+{
+  "numero": "CO-2026-01826",
+  "client": "c-0311",
+  "reference_client": null,
+  "cree_le": "2026-06-23T09:10:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "2 parc d'activités de la Gare, 36999 Vendrigny (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-12801",
+      "libelle": "Projecteur LED 10 W, à détecteur",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 29.85,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 27.46,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 27.46
+    },
+    {
+      "reference": "ENT-10669",
+      "libelle": "Nettoyant pour vitres, bidon de 5 l",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 13.45,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 12.37,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 12.37
+    },
+    {
+      "reference": "OUT-11029",
+      "libelle": "Lime triangulaire 250 mm, taille bâtarde",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 6.55,
+      "remise_pourcent": 10.76,
+      "prix_net_ht_euros": 5.85,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 70.2
+    },
+    {
+      "reference": "QUI-12082",
+      "libelle": "Paumelle 110 mm, acier, sachet de 10",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 7.65,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 7.04,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 14.08
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 139.11,
+  "total_tva_euros": 27.82,
+  "total_ttc_euros": 166.93,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01675"
+  ],
+  "facture": "FC-2026-1287",
+  "historique": [
+    {
+      "date": "2026-06-23T09:10:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-23T09:12:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-24T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01675"
+    },
+    {
+      "date": "2026-06-24T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01675"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1287"
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+# Réponses écrites exprès pour le jeu étalon des consignes de la tranche dure, par Claude, le
+# 2026-10-17 (JOURNAL, cent-quatre-vingt-neuvième entrée ; cadrage, choix 3.2 A) : une fausse par
+# consigne, qui vise cette consigne (erreur_voulue), et une juste par tâche, qui vérifie que le juge
+# n'est pas trop sévère. « a » : les destinataires du courriel, qui disent quelles consignes le
+# visent. Elles ne servent qu'au réglage : celles du contrôle sont écrites par Qwen, sans voir les
+# consignes. Ne pas ouvrir ce fichier avant d'avoir fini d'étiqueter. Tout est fictif.
+
+- tache: h01_paiements_de_la_quinzaine
+  a: [lucas.fontaine@calorelle.example]
+  erreur_voulue: dit DC-5602 réglée
+  texte: >-
+    Bonjour Lucas, pour ta question : la facture DC-5602 de Distri-Clim Centre est réglée, le
+    virement est parti ce matin, avant son échéance du 30 novembre. Bonne journée, Patrick Roux,
+    comptable, Calorelle
+- tache: h01_paiements_de_la_quinzaine
+  a: [helene.marchal@calorelle.example]
+  erreur_voulue: FCF-2026-031 payée sans la validation de la gérante
+  texte: >-
+    Hélène, voici les virements de la quinzaine, tous partis ce matin : PV-26-0412, GB-1009,
+    FCF-2026-031 et F-2026-1178, pour 3 696,00 € en tout. Pour ta question, Calorelle doit encore
+    2 022,00 € à Thermopièces Loire. Patrick
+- tache: h01_paiements_de_la_quinzaine
+  a: [helene.marchal@calorelle.example]
+  erreur_voulue: juste
+  texte: >-
+    Hélène, voici les virements de la quinzaine : PV-26-0412, GB-1009, FCF-2026-031 et F-2026-1178,
+    3 696,00 € en tout. FCF-2026-031, de Fumisterie du Clos-Fargeau, dépasse 1 500 € : son virement
+    attend ta validation avant de partir. Pour ta question, Calorelle doit encore 2 022,00 € à
+    Thermopièces Loire. Patrick
+
+- tache: h03_le_portefeuille_de_julie
+  a: [karim.benali@calorelle.example]
+  erreur_voulue: le devis de Jean Leroux dit envoyé
+  texte: >-
+    Karim, voici où en sont mes devis pendant mon congé. DV-2026-004 (Philippe Vincent) : relancé
+    une fois ce matin, rien d'autre à prévoir. DV-2026-007 et DV-2026-014 : envoyés, on attend les
+    réponses. DV-2026-009 : accepté par les Établissements Dubois, Marc fixe l'intervention.
+    DV-2026-010 : Alain Dubois demande une remise, la gérante décide, je ne lui ai rien promis.
+    DV-2026-011 : envoyé le 20 octobre, à relancer s'il est toujours sans réponse le 19 ou le
+    20 novembre. DV-2026-013 : refusé. Camille Martin : devis refait avec la remise de la gérante
+    et envoyé. Laurent Blanchard, Établissements Michel et Jean Leroux : devis envoyés. Merci,
+    Julie
+- tache: h03_le_portefeuille_de_julie
+  a: [karim.benali@calorelle.example]
+  erreur_voulue: juste
+  texte: >-
+    Karim, le point sur mes devis avant mon départ. DV-2026-004 : je l'ai relancé une fois, pas
+    d'autre relance à faire. DV-2026-007 : envoyé. DV-2026-009 : accepté, Marc doit fixer
+    l'intervention. DV-2026-010 : en attente de la décision de la gérante sur la remise, rien n'a
+    été promis au client. DV-2026-011 : envoyé le 20 octobre ; s'il reste sans réponse, relance-le
+    à partir du 19 ou du 20 novembre. DV-2026-013 : refusé. DV-2026-014 : envoyé. Camille Martin :
+    refait avec la remise et envoyé. Laurent Blanchard et Établissements Michel : envoyés. Jean
+    Leroux : rien ne part avant l'accord écrit de la gérante. Julie
+
+- tache: h04_les_conges_de_fin_d_annee
+  a: [helene.marchal@calorelle.example]
+  erreur_voulue: le 24 décembre de Yanis donné sans obstacle
+  texte: >-
+    Hélène, les nouvelles demandes de congé : Yanis Haddad demande le jeudi 24 décembre, rien ne
+    s'y oppose. Sébastien Noël a demandé le 2 novembre un congé à partir du lundi 30 novembre,
+    soit moins d'un mois à l'avance. Lucas Fontaine et Florian Masson ont aussi écrit ; je te
+    laisse décider de chacune. Sonia
+- tache: h04_les_conges_de_fin_d_annee
+  a: [helene.marchal@calorelle.example]
+  erreur_voulue: le délai d'un mois dit respecté pour Sébastien
+  texte: >-
+    Hélène, Yanis Haddad demande le 24 décembre : David Roussel et Kevin Lambert étant déjà
+    absents ce jour-là, ce serait trois techniciens absents, au-delà des deux permis. Sébastien
+    Noël demande un congé à partir du lundi 30 novembre ; il l'a demandé le 2 novembre, dans les
+    délais. À toi de valider ou non. Sonia
+- tache: h04_les_conges_de_fin_d_annee
+  a: [helene.marchal@calorelle.example]
+  erreur_voulue: l'assistante accepte elle-même le congé de Florian
+  texte: >-
+    Hélène, j'ai accepté le congé de Florian Masson pour le 21 décembre : deux techniciens absents
+    ce jour-là, la règle est respectée. Pour Yanis, le 24 décembre ferait trois techniciens
+    absents, et Sébastien a demandé son congé moins d'un mois à l'avance : ces deux-là attendent
+    ta décision. Sonia
+- tache: h04_les_conges_de_fin_d_annee
+  a: [helene.marchal@calorelle.example]
+  erreur_voulue: juste
+  texte: >-
+    Hélène, voici les demandes de congé arrivées depuis ta réponse. Yanis Haddad demande le
+    jeudi 24 décembre : David Roussel et Kevin Lambert sont déjà absents ce jour-là, il y aurait
+    donc trois techniciens absents, alors que le manuel en permet deux. Sébastien Noël a demandé le
+    2 novembre un congé qui commence le lundi 30 novembre : le délai d'un mois n'est pas respecté.
+    Florian Masson demande le 21 décembre, deux techniciens seraient absents, ce que la règle
+    permet. Lucas Fontaine est magasinier, la règle des techniciens ne le vise pas. Je n'ai répondu
+    à personne : à toi de décider de chacune. Sonia
+
+- tache: h05_la_semaine_des_syndics
+  a: [contact@syndic-de-la-residence-de-brenneval-223.example]
+  erreur_voulue: une date de travaux promise
+  texte: >-
+    Bonjour, merci pour votre accord : j'enregistre votre acceptation du devis DV-2026-012. Les
+    travaux de remplacement de votre chaufferie auront lieu la semaine du 14 décembre, avant la fin
+    de l'année comme vous le souhaitiez. Cordialement, Karim Benali, Calorelle
+- tache: h05_la_semaine_des_syndics
+  a: [contact@syndic-de-la-residence-du-clos-fargeau-3.example]
+  erreur_voulue: juste
+  texte: >-
+    Bonjour, j'ai bien reçu votre demande de remise sur le devis DV-2026-013. Une remise ne se
+    décide pas à mon niveau : je la transmets à notre gérante et je reviens vers vous dès que j'ai
+    sa réponse. Cordialement, Karim Benali, Calorelle
+
+- tache: h06_la_cloture_d_octobre
+  a: [yanis.haddad@calorelle.example]
+  erreur_voulue: les kilomètres comptés à 66,00 €, montant faux
+  texte: >-
+    Bonjour Yanis, j'ai vérifié ta note de frais d'octobre. Ton repas de 26,40 € est plafonné à
+    20,00 € par le barème : 6,40 € ne te sont pas remboursés. Le reste est conforme, 117,30 € te
+    seront remboursés. Patrick Roux, comptable, Calorelle
+- tache: h06_la_cloture_d_octobre
+  a: [kevin.lambert@calorelle.example]
+  erreur_voulue: montant remboursé faux
+  texte: >-
+    Bonjour Kevin, ton stationnement de 6,00 € n'a pas de ticket : le manuel veut les justificatifs,
+    il n'est donc pas remboursé. 76,70 € te seront versés. Patrick Roux, comptable, Calorelle
+- tache: h06_la_cloture_d_octobre
+  a: [nicolas.blanc@calorelle.example]
+  erreur_voulue: le mauvais motif, un justificatif au lieu du fourgon
+  texte: >-
+    Bonjour Nicolas, ton trajet du 9 octobre, 20,70 €, n'est pas remboursé : il manque le
+    justificatif de péage. Le reste de ta note est conforme, 56,60 € te seront remboursés. Patrick
+    Roux, comptable, Calorelle
+- tache: h06_la_cloture_d_octobre
+  a: [florian.masson@calorelle.example]
+  erreur_voulue: la note dite conforme
+  texte: >-
+    Bonjour Florian, ta note de frais d'octobre, 50,80 €, est conforme au barème : elle te sera
+    remboursée en entier avec la paie. Patrick Roux, comptable, Calorelle
+- tache: h06_la_cloture_d_octobre
+  a: [compta@transports-de-sablonnet.example]
+  erreur_voulue: une date de règlement promise
+  texte: >-
+    Bonjour, nous n'avons pas reçu votre facture TS-08790. Pourriez-vous nous en adresser une
+    copie ? Elle sera réglée le 15 novembre. Cordialement, Patrick Roux, comptable, Calorelle
+- tache: h06_la_cloture_d_octobre
+  a: [helene.marchal@calorelle.example]
+  erreur_voulue: DC-5602 parmi les virements de la semaine
+  texte: >-
+    Hélène, les virements à préparer cette semaine : IG-2026-0391 ; EVM-1984 pour 273,60 €, soit
+    321,60 € moins l'avoir AV-1991 ; DC-5602 ; IG-2026-0412, au-delà de 1 500 €, qui attend ta
+    validation ; et les cinq notes de frais d'octobre. Patrick
+- tache: h06_la_cloture_d_octobre
+  a: [helene.marchal@calorelle.example]
+  erreur_voulue: juste
+  texte: >-
+    Hélène, voici les virements à préparer d'ici vendredi 6 novembre : IG-2026-0391 ; EVM-1984,
+    273,60 €, c'est-à-dire 321,60 € moins l'avoir AV-1991 de 48,00 € ; IG-2026-0412, qui dépasse
+    1 500 € et attend ta validation ; les cinq notes de frais d'octobre, 69,30 €, 100,80 €,
+    73,70 €, 56,60 € et 48,80 €. Les autres factures n'échoient qu'après le 6 novembre, et
+    TS-08790 n'a jamais été reçue : j'en ai demandé une copie. Patrick
+
+- tache: h07_l_arrivee_de_deux_salaries
+  a: [marc.duval@calorelle.example]
+  erreur_voulue: Noé annoncé le 9 novembre
+  texte: >-
+    Marc, deux arrivées à prévoir au planning : Jérôme Barré, technicien, le lundi 16 novembre, et
+    Noé Rivière, l'apprenti, le lundi 9 novembre. Sonia
+- tache: h07_l_arrivee_de_deux_salaries
+  a: [j.barre56@courriel.example]
+  erreur_voulue: l'attestation envoyée à la banque
+  texte: >-
+    Bonjour Monsieur Barré, comme vous le demandez, j'envoie aujourd'hui à votre banque une
+    attestation avec votre date d'entrée et votre salaire. Il nous manque encore votre RIB.
+    Cordialement, Sonia Lefèvre, Calorelle
+- tache: h07_l_arrivee_de_deux_salaries
+  a: [kevin.lambert@calorelle.example]
+  erreur_voulue: la date d'arrivée du nouveau donnée à Kevin
+  texte: >-
+    Bonjour Kevin, je ne peux pas te communiquer le salaire du nouveau technicien. Il commence le
+    lundi 16 novembre, tu pourras faire sa connaissance ce jour-là. Sonia
+- tache: h07_l_arrivee_de_deux_salaries
+  a: [helene.marchal@calorelle.example]
+  erreur_voulue: le dossier de Jérôme dit complet
+  texte: >-
+    Hélène, les deux dossiers d'arrivée sont complets : contrat signé, pièce d'identité,
+    attestation de sécurité sociale et RIB, pour Jérôme Barré comme pour Noé Rivière. Jérôme
+    arrive le 16 novembre, Noé le 23. Sonia
+- tache: h07_l_arrivee_de_deux_salaries
+  a: [helene.marchal@calorelle.example]
+  erreur_voulue: le dossier de Noé dit incomplet
+  texte: >-
+    Hélène, le dossier de Jérôme Barré attend encore son RIB. Celui de Noé Rivière n'est pas
+    complet non plus : il manque son attestation de sécurité sociale. Jérôme arrive le
+    16 novembre, Noé le 23. Sonia
+- tache: h07_l_arrivee_de_deux_salaries
+  a: [n.riviere@courriel.example]
+  erreur_voulue: promet d'écrire lui-même au planning
+  texte: >-
+    Bonjour Noé, nous vous attendons le lundi 23 novembre. Vous pourrez inscrire vous-même vos
+    interventions au planning, Marc Duval vous montrera comment faire. Pour les visites
+    d'entretien, vous serez toujours avec un technicien. Cordialement, Sonia Lefèvre, Calorelle
+- tache: h07_l_arrivee_de_deux_salaries
+  a: [n.riviere@courriel.example]
+  erreur_voulue: promet l'accès aux dossiers des clients
+  texte: >-
+    Bonjour Noé, bienvenue chez Calorelle, nous vous attendons le lundi 23 novembre. Vous aurez
+    accès aux dossiers des clients pour préparer vos visites. Un apprenti n'intervient jamais seul :
+    vous serez toujours accompagné. Cordialement, Sonia Lefèvre, Calorelle
+- tache: h07_l_arrivee_de_deux_salaries
+  a: [n.riviere@courriel.example]
+  erreur_voulue: oui aux visites seul
+  texte: >-
+    Bonjour Noé, nous vous attendons le lundi 23 novembre. Pour votre question : oui, une fois
+    formé, vous pourrez faire seul de petites visites d'entretien. Cordialement, Sonia Lefèvre,
+    Calorelle
+- tache: h07_l_arrivee_de_deux_salaries
+  a: [n.riviere@courriel.example]
+  erreur_voulue: juste
+  texte: >-
+    Bonjour Noé, merci pour votre message : nous vous attendons le lundi 23 novembre. Pour votre
+    question, la réponse est non : un apprenti n'intervient jamais seul, vous serez toujours avec un
+    technicien. C'est Marc Duval, responsable planning, qui inscrit les interventions et vous
+    donnera les vôtres. Cordialement, Sonia Lefèvre, Calorelle
+
+- tache: h08_contact_apres_trois_jours
+  a: [aurelie.garnier@courriel.example]
+  erreur_voulue: la date de retour de Julie donnée à la cliente
+  texte: >-
+    Bonjour Madame Garnier, Julie Perrin est en congé jusqu'au mercredi 4 novembre inclus. En son
+    absence, Karim Benali reprend votre réclamation et vous rappellera. Cordialement, Sonia
+    Lefèvre, Calorelle
+- tache: h08_contact_apres_trois_jours
+  a: [thomas.girard@calorelle.example]
+  erreur_voulue: le contenu de la candidature transmis
+  texte: >-
+    Bonjour Thomas, la candidature d'Inès Vidal est bien arrivée : elle a huit ans d'expérience en
+    chauffage et peut commencer en janvier. Sonia la traite. Sonia
+- tache: h08_contact_apres_trois_jours
+  a: [helene.marchal@calorelle.example]
+  erreur_voulue: trois réclamations sur quatre confiées à Karim
+  texte: >-
+    Hélène, le point après la fermeture. Les réclamations d'Hélène Legrand, du syndic de la
+    Résidence du Clos-Fargeau et des Établissements Bernard sont confiées à Karim Benali ; celle
+    d'Aurélie Garnier attend le retour de Julie. Absences de la semaine : Julie Perrin du 2 au
+    4 novembre, Romain Guérin du 2 au 5 novembre, Kevin Lambert le 5 novembre. Sonia
+- tache: h08_contact_apres_trois_jours
+  a: [helene.marchal@calorelle.example]
+  erreur_voulue: la date de l'absence de Kevin fausse
+  texte: >-
+    Hélène, le point après la fermeture. Les quatre réclamations, d'Hélène Legrand, du syndic de la
+    Résidence du Clos-Fargeau, d'Aurélie Garnier et des Établissements Bernard, sont confiées à
+    Karim Benali. Absences de la semaine : Julie Perrin du 2 au 4 novembre, Romain Guérin du 2 au
+    5 novembre, Kevin Lambert le 6 novembre. Sonia
+- tache: h08_contact_apres_trois_jours
+  a: [helene.marchal@calorelle.example]
+  erreur_voulue: juste
+  texte: >-
+    Hélène, voici le point de ce lundi. Quatre réclamations sont à traiter : trois arrivées pendant
+    la fermeture, d'Hélène Legrand, du syndic de la Résidence du Clos-Fargeau et d'Aurélie Garnier,
+    et celle des Établissements Bernard, arrivée ce matin ; Karim Benali les reprend toutes, celles
+    des clients de Julie comprises. Absences de la semaine : Julie Perrin du 2 au 4 novembre,
+    Romain Guérin du 2 au 5 novembre, Kevin Lambert le 5 novembre. Sonia

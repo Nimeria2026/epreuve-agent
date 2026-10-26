@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-mare-b02",
+  "de": {
+    "nom": "Catherine Gautier",
+    "adresse": "catherine.gautier@electricite-gay.example"
+  },
+  "a": [
+    "manon.rey@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Copie de facture",
+  "date": "2026-06-30T08:51:00+02:00",
+  "corps": "Bonjour,\n\nPouvez-vous me renvoyer la facture de mai ? Je ne la retrouve pas.\n\nCordialement,\nCatherine Gautier",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

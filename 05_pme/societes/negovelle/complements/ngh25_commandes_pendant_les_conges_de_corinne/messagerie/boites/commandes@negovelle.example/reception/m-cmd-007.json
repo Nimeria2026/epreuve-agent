@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-007",
+  "de": {
+    "nom": "Caroline Baudry",
+    "adresse": "caroline.baudry@legendre-maintenance.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-24T16:45:00+02:00",
+  "corps": "Bonjour,\n\nMerci de nous livrer :\n\n- 6 x ENT-10122, Balai brosse coco 50 cm\n- 10 x VIS-11151, Vis à bois tête fraisée 3,5x80, zinguée, boîte de 200\n\nEn standard, au siège.\n\nCaroline Baudry\nLegendre Maintenance",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

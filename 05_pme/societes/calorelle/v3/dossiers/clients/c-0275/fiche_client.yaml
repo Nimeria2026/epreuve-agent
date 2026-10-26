@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0275"
+nom: "Laurent Lambert"
+type: "particulier"
+adresse: "40 rue du Moulin, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "laurent.lambert@courriel.example"
+telephone: "06 39 98 50 69"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2019-10-07"
+  mois_anniversaire: "octobre"
+  derniere_visite: "2026-10-09"

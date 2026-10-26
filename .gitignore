@@ -1,0 +1,21 @@
+# Local, généré ou secret : jamais versionné
+99_local/
+07_taches/prive/
+.env
+.claude/settings.local.json
+
+# Python
+__pycache__/
+.venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# TypeScript
+node_modules/
+dist/
+coverage/
+
+# Système
+.DS_Store

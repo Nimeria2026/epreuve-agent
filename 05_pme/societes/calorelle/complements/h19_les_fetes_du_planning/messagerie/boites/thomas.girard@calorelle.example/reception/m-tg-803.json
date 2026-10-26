@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-tg-803",
+  "de": {
+    "nom": "Odile Garnier",
+    "adresse": "odile.garnier2@courriel.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Pompe à chaleur en panne",
+  "date": "2026-12-19T10:00:00+01:00",
+  "corps": "Bonjour,\n\nNotre pompe à chaleur affiche un code d'erreur et ne chauffe plus. Nous avons le contrat Sérénité Plus.\n\nOdile Garnier, 63 allée des Peupliers (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

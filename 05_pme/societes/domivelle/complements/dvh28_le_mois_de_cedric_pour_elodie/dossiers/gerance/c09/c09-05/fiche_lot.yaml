@@ -1,0 +1,19 @@
+# Fiche du lot c09-05. Données FICTIVES.
+lot: c09-05
+adresse: 50 rue des Forges, 18999 Montclavel-sur-Cher (FICTIF)
+type: maison T5
+surface_m2: 103
+locataire:
+  nom: M. Alain Maréchal
+  courriel: alain.marechal@mel-perso.example
+  telephone: 06 39 98 77 02
+  entree: '2022-10-18'
+bail:
+  signature: '2022-10-18'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 1 093,00 €
+  depot_de_garantie: 1 017,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T2
+dpe:
+  classe: E

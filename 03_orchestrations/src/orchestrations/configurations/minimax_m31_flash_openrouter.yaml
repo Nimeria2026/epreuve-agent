@@ -1,0 +1,19 @@
+# MiniMax M3.1 Flash par OpenRouter, route gratuite (minimax/minimax-m3.1-flash:free), sortie le
+# 2026-10-19 et gratuite 72 heures, jusqu'au 2026-10-22 environ (https://openrouter.ai/minimax/minimax-m3.1-flash:free,
+# consulté le 2026-10-20). Essai décidé par Alexandre le 2026-10-20 (JOURNAL, deux-cent-vingt-quatrième
+# entrée) : tâches publiques seulement, la politique de données de la route gratuite n'étant pas écrite.
+# Clé dans la variable OPENROUTER_API_KEY, ou dans le fichier .env à la racine du dépôt, hors git.
+# Réglages de l'éditeur : aucun paramètre ajouté, effort de raisonnement par défaut.
+role: agent
+modele: minimax/minimax-m3.1-flash:free
+adresse: https://openrouter.ai/api/v1
+cle_env: OPENROUTER_API_KEY
+parametres: {}
+# Avec des outils, MiniMax demande qu'on lui renvoie le raisonnement de chaque tour précédent,
+# « essential for achieving the model's best performance » (M3.1 Flash nommé ; consulté le
+# 2026-10-21 : https://platform.minimax.io/docs/guides/text-m3-function-call). OpenRouter le prend
+# en texte dans le champ reasoning du message de l'assistant (vérifié le 2026-10-21 par un appel).
+# Le premier essai ne le renvoyait pas (JOURNAL, deux-cent-vingt-huitième entrée).
+raisonnement_renvoye: reasoning
+delai_appel_secondes: 600
+tours_max: 60

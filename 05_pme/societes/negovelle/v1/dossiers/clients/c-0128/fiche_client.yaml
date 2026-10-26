@@ -1,0 +1,31 @@
+# Fiche du client c-0128 de Négovelle. Données FICTIVES.
+code: c-0128
+nom: Électricité Chartier
+type: artisan
+adresse: 119 rue du Moulin, 36999 Mérolles-en-Brenne (FICTIF)
+telephone: 02 61 91 66 62
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Guy Fleurot
+  fonction: gérant
+  courriel: guy.fleurot@electricite-chartier.example
+- nom: Amandine Boulay
+  fonction: conjointe collaboratrice
+  courriel: amandine.boulay@electricite-chartier.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 119 rue du Moulin, 36999 Mérolles-en-Brenne (FICTIF)
+- code: L2
+  libelle: chantier déclaré
+  adresse: 124 rue de la Poste, 36999 Corvalet (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2015-01-01'
+limite_encours_euros: 7500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

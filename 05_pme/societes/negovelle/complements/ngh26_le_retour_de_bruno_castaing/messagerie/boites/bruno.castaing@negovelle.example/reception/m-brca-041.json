@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-041",
+  "de": {
+    "nom": "Laurent Gimenez",
+    "adresse": "laurent.gimenez@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Prix pour Peinture Lecoq, CO-2026-02051",
+  "date": "2026-08-24T10:20:00+02:00",
+  "corps": "Bruno,\n\nPeinture Lecoq (c-0011) refait son atelier ; si tu acceptes le déjeuner, j'arrive avec ces prix. Brouillon CO-2026-02051 :\n\n- OUT-11861, Scie de carreleur 250 mm : 50 à 17,50 € HT au lieu de 18,25 €\n- VIS-10865, Vis à bois tête fraisée 3,5x35, zinguée, boîte de 200 : 50 à 14,00 € HT au lieu de 16,69 €\n- QUI-12237, Paumelle 140 mm, inox, sachet de 4 : 20 à 19,00 € HT au lieu de 24,25 €\n- OUT-12033, Scie à métaux 300 mm : 10 à 24,00 € HT au lieu de 30,25 €\n- OUT-12988, Truelle à joint 180 mm : 30 à 10,00 € HT au lieu de 13,00 €\n\nLa scie de carreleur, je l'ai prise au tarif du catalogue.\n\nLaurent",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,29 @@
+{
+  "identifiant": "m-brca-004",
+  "de": {
+    "nom": "Julien Ferrand",
+    "adresse": "julien.ferrand@messagerie-perso.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Candidature au poste de préparateur de commandes",
+  "date": "2026-07-04T10:15:00+02:00",
+  "corps": "Monsieur,\n\nJe vous adresse ma candidature au poste de préparateur de commandes que vous proposez. Vous trouverez mon CV et ma lettre en pièces jointes.\n\nCordialement,\nJulien Ferrand",
+  "pieces_jointes": [
+    {
+      "nom": "cv.pdf",
+      "fichier": "pieces/m-brca-004/cv.pdf",
+      "taille_octets": 795
+    },
+    {
+      "nom": "lettre.md",
+      "fichier": "pieces/m-brca-004/lettre.md",
+      "taille_octets": 99
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

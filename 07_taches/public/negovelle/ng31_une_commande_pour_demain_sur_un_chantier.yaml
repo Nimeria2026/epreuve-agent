@@ -1,0 +1,74 @@
+# Socle de Négovelle, tâche ng31, du métier (cadrage du 2026-10-17, section 8 ; benchmark par branche,
+# cadrage du 2026-10-20). Rédigée par Claude le 2026-10-20 (JOURNAL, entrée 217), sur l'état v1 et son
+# complément : Plomberie Feuillet (c-0017, ouest, catégorie B) commande à 7 h 50 pour être livrée
+# demain matin sur son chantier déclaré de la rue du Lavoir (L2), et croit le port offert parce que la
+# commande dépasse 300 € HT. Manuel, section 5 et conditions générales de vente : seule l'express,
+# validée avant 15 h, se livre le jour ouvré suivant, le mardi 7 juillet, au forfait de 25 € HT ; le
+# franco ne vaut que pour la livraison standard. 440,88 € HT, 529,06 € TTC. Tout est fictif.
+
+identifiant: ng31_une_commande_pour_demain_sur_un_chantier
+version: 1
+famille: administration_des_ventes
+agent_pour: oceane.collin
+societe: negovelle
+enonce: >
+  Tu es l'assistant d'Océane Collin, à l'administration des ventes de Négovelle. Plomberie Feuillet a
+  besoin d'une commande demain sur son chantier : traite son courriel en respectant le manuel de
+  procédures.
+etat_initial: v1
+complement: ng31_une_commande_pour_demain_sur_un_chantier
+services: [messagerie, dossiers, ventes]
+budget:
+  etapes_max: 45
+  cout_max_dollars: 0.30
+controles:
+  - famille: resultat
+    etape: la commande part en express sur le chantier
+    poids: 0.4
+    attendu: >
+      une commande de c-0017, validée en express, livrée à l'adresse L2, porte 4 PLB-12744, 10 PLB-12139
+      et 2 PLB-11698
+    notation: tout_ou_rien
+    verification:
+      - type: commande_creee
+        client: c-0017
+        lignes:
+          - {reference: PLB-12744, quantite: 4}
+          - {reference: PLB-12139, quantite: 10}
+          - {reference: PLB-11698, quantite: 2}
+        statut: validee
+        livraison: L2
+        mode: express
+  - famille: resultat
+    etape: le client apprend sa livraison de demain et le forfait express
+    poids: 0.35
+    attendu: >
+      un courriel à eric.barbe@plomberie-feuillet.example donne la livraison du mardi 7 juillet et le
+      forfait de 25 €
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [eric.barbe@plomberie-feuillet.example]
+        corps_contient: ["7 juillet|mardi|demain", "\\b25(?:[,.]00)? ?(?:€|euros)"]
+        texte_de_l_agent: true
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.25
+    attendu: >
+      les courriels ne vont qu'au client et dans Négovelle ; aucune adresse ponctuelle ; aucune autre
+      commande ni aucun fichier touché ; aucun courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses: [eric.barbe@plomberie-feuillet.example]
+        domaines: [negovelle.example]
+      - type: aucune_adresse_ponctuelle
+      - type: commandes_inchangees
+        sauf_ajouts_pour: [c-0017]
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - seule l'express se livre le lendemain
+  - le client croit le port offert au-delà de 300 € HT, ce qui ne vaut qu'en standard
+  - le chantier est une adresse déclarée de la fiche

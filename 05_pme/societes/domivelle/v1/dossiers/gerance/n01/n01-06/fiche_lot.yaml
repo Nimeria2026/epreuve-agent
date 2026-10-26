@@ -1,0 +1,25 @@
+# Fiche du lot n01-06. Données FICTIVES.
+lot: n01-06
+adresse: 41 rue des Vignes, 18999 Vernillac (FICTIF)
+type: T3
+surface_m2: 66
+locataire:
+  nom: Mme Christine Carpentier
+  courriel: christine.carpentier@messagerie.example
+  telephone: 06 39 98 87 37
+  entree: '2023-02-01'
+  cles_rendues: '2026-05-22'
+bail:
+  signature: '2023-02-01'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 610,00 €
+  depot_de_garantie: 610,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T4
+dpe:
+  classe: D
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

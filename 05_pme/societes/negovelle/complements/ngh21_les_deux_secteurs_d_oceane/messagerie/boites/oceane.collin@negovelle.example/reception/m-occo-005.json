@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-occo-005",
+  "de": {
+    "nom": "Denise Ruel",
+    "adresse": "denise.ruel@peinture-daniel.example"
+  },
+  "a": [
+    "oceane.collin@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-06T07:25:00+02:00",
+  "corps": "Bonjour Océane,\n\nBenoît étant absent, je vous adresse notre commande.\n\nVoici notre commande, à livrer au siège :\n- 3 x ELE-11412, Câble téléphonique 4 paire(s), couronne de 25 m\n- 12 x PLB-12409, Robinet d'arrêt de machine à laver 15x21\n\nMerci,\nDenise Ruel\nPeinture Daniel",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-viar-023",
+  "de": {
+    "nom": "Delphine Navarre",
+    "adresse": "delphine.navarre@ducros-travaux-publics.example"
+  },
+  "a": [
+    "vincent.arnaud@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Retour de tubes",
+  "date": "2026-08-29T08:50:00+02:00",
+  "corps": "Bonjour,\n\nNous voudrions vous rendre 4 couronnes de tube PER PLB-12743 de notre dernière livraison, jamais déballées.\n\nDelphine Navarre\nDucros Travaux publics",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

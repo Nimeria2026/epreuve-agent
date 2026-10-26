@@ -1,0 +1,28 @@
+# Fiche du client c-0080 de Négovelle. Données FICTIVES.
+code: c-0080
+nom: Chauffage Hervé
+type: artisan
+adresse: 55 rue de la Poste, 36999 Mérolles-en-Brenne (FICTIF)
+telephone: 02 61 91 77 47
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Serge Lacour
+  fonction: gérant
+  courriel: serge.lacour@chauffage-herve.example
+- nom: Albert Rouxel
+  fonction: conjoint collaborateur
+  courriel: albert.rouxel@chauffage-herve.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 55 rue de la Poste, 36999 Mérolles-en-Brenne (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2021-05-01'
+limite_encours_euros: 2500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

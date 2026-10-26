@@ -1,0 +1,10 @@
+# Fiche d'un fournisseur de Négovelle. Données FICTIVES.
+nom: Matériel électrique des Brandes
+activite: fabricant d'appareillage électrique
+adresse: 39 zone industrielle des Brandes, 36999 Vendrigny (FICTIF)
+telephone: 02 61 91 74 11
+courriel_commandes: commandes@materiel-electrique-des-brandes.example
+courriel_facturation: facturation@materiel-electrique-des-brandes.example
+iban: FR76 9999 9811 0076 9094 0434 765 (FICTIF)
+conditions: paiement à 60 jours date de facture
+minimum_de_commande: 500,00 € HT

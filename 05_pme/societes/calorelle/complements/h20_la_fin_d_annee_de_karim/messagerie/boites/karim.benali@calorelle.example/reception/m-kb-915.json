@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-915",
+  "de": {
+    "nom": "Commune de Brenneval",
+    "adresse": "contact@commune-de-brenneval-536.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Réclamation : chauffage de l'école",
+  "date": "2026-12-29T16:00:00+01:00",
+  "corps": "Bonjour,\n\nDepuis la mi-novembre, le chauffage de l'école se met en sécurité chaque lundi matin, et les enfants ont froid jusqu'à midi. Nous avons le contrat Sérénité Plus et nous attendons une intervention rapide avant la rentrée.\n\nLa mairie de Brenneval (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

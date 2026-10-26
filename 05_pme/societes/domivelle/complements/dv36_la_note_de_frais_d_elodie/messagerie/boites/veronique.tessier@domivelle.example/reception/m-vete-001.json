@@ -1,0 +1,29 @@
+{
+  "identifiant": "m-vete-001",
+  "de": {
+    "nom": "Élodie Chauvin",
+    "adresse": "elodie.chauvin@domivelle.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Ma note de frais de mai",
+  "date": "2026-06-05T17:35:00+02:00",
+  "corps": "Véronique,\n\nVoici ma note de frais de mai, avec ma voiture, 58,90 € en tout. Le ticket du péage du 19 mai est joint ; celui du stationnement du 26, je ne l'ai plus.\n\n| Date | Objet | Immeuble | Kilomètres | Frais | Justificatif |\n|---|---|---|---|---|---|\n| 5 mai 2026 | visite technique | n01 | 20 | - | - |\n| 12 mai 2026 | visite technique | n03 | 44 | - | - |\n| 19 mai 2026 | visite technique | n38 | 50 | péage 2,80 € | ticket joint |\n| 26 mai 2026 | visite technique | n14 | 20 | stationnement 2,50 € | ticket perdu |\n\nÉlodie",
+  "pieces_jointes": [
+    {
+      "nom": "elodie.chauvin.md",
+      "fichier": "pieces/m-vete-001/elodie.chauvin.md",
+      "taille_octets": 522
+    },
+    {
+      "nom": "ticket_peage_2026-05-19.pdf",
+      "fichier": "pieces/m-vete-001/ticket_peage_2026-05-19.pdf",
+      "taille_octets": 742
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

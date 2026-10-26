@@ -1,0 +1,103 @@
+{
+  "numero": "CO-2026-02023",
+  "client": "c-0294",
+  "reference_client": null,
+  "cree_le": "2026-07-03T09:10:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "69 rue des Chênes, 36999 Vaumoreau-sur-Indre (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-13495",
+      "libelle": "Tube LED T8 900 mm, 22 W",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 11.65,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 11.18,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 22.36
+    },
+    {
+      "reference": "ELP-11519",
+      "libelle": "Perceuse-visseuse 12 V, 1 batterie(s) 4 Ah, coffret",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 138.2,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 132.67,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 265.34
+    },
+    {
+      "reference": "ENT-10400",
+      "libelle": "Désinfectant pour surfaces, flacon de 500 ml",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 16.7,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 16.7,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 33.4
+    },
+    {
+      "reference": "FIX-10547",
+      "libelle": "Cheville nylon 6x40, boîte de 200",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 5.75,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 5.52,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 11.04
+    },
+    {
+      "reference": "PLB-13037",
+      "libelle": "Tube PVC évacuation 50 mm, barre de 1 m",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 19.5,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 18.72,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 56.16
+    },
+    {
+      "reference": "PRO-11649",
+      "libelle": "Pantalon de travail multipoches noir, taille 48",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 23.7,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 22.75,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 136.5
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 524.8,
+  "total_tva_euros": 104.96,
+  "total_ttc_euros": 629.76,
+  "statut": "validee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T09:10:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T09:12:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": ""
+    }
+  ]
+}

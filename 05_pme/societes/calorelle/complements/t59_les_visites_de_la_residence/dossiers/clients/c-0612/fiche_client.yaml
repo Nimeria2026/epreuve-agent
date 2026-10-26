@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0612"
+nom: "Joël Renaud"
+type: "particulier"
+adresse: "2 avenue des Tilleuls, appartement 11, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "joel.renaud@courriel.example"
+telephone: "06 39 98 56 12"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2021-11-08"
+  mois_anniversaire: "novembre"
+  derniere_visite: "2025-11-24"

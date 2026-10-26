@@ -1,0 +1,15 @@
+{
+  "numero": "RT-2026-0004",
+  "livraison": "BL-2026-01710",
+  "client": "c-0008",
+  "date": "2026-06-29T14:14:00+02:00",
+  "lignes": [
+    {
+      "reference": "FIX-10106",
+      "quantite": 1,
+      "etat": "revendable"
+    }
+  ],
+  "motif": "article abîmé au transport",
+  "enregistre_par": "remi.joly"
+}

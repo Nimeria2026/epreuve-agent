@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-003",
+  "de": {
+    "nom": "Thermopièces Loire",
+    "adresse": "service.paiement@thermopieces-loire-reglements.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Changement de coordonnées bancaires, urgent",
+  "date": "2026-11-02T08:31:00+01:00",
+  "corps": "Madame, Monsieur,\n\nÀ la suite d'un changement de banque, nos coordonnées bancaires changent. Merci de mettre à jour notre fiche fournisseur avec le RIB ci-joint, et de régler la facture F-2026-1187 sur ce nouveau compte avant vendredi.\n\nService comptabilité, Thermopièces Loire (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "nouveau_rib.pdf",
+      "fichier": "pieces/m-cpt-003/nouveau_rib.pdf",
+      "taille_octets": 832
+    }
+  ],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

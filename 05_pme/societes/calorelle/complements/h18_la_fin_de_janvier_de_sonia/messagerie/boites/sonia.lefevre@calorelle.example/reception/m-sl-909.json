@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-909",
+  "de": {
+    "nom": "Kevin Lambert",
+    "adresse": "kevin.lambert@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Attestation pour mon prêt",
+  "date": "2027-01-29T14:00:00+01:00",
+  "corps": "Sonia,\n\nPour mon dossier de prêt immobilier, peux-tu m'envoyer une attestation avec mon poste, ma date d'entrée, mon contrat et mon salaire ? Envoie-la-moi, je la transmettrai moi-même à la banque.\n\nKevin (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

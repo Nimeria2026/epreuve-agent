@@ -1,0 +1,9 @@
+{
+  "numero": "AV-2026-0004",
+  "client": "c-0343",
+  "facture": "FC-2026-0900",
+  "date": "2026-06-05T10:30:00+02:00",
+  "montant_ttc_euros": 47.34,
+  "motif": "retour d'un article conforme, décote de 10 %",
+  "emis_par": "remi.joly"
+}

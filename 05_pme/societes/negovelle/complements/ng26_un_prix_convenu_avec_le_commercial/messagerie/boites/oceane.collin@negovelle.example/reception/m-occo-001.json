@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-occo-001",
+  "de": {
+    "nom": "Henri Auger",
+    "adresse": "henri.auger@lhomme-travaux-publics.example"
+  },
+  "a": [
+    "oceane.collin@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande de disques et de seaux",
+  "date": "2026-07-06T07:15:00+02:00",
+  "corps": "Bonjour,\n\nMerci de nous livrer au siège :\n\n- 10 x ELP-10220, Disque à tronçonner béton 230 mm, boîte de 25\n- 10 x ENT-11314, Seau de maçon 15 l\n- 4 x OUT-10440, Clé mixte 26 mm\n\nPour les disques, Samir Ouali nous a accordé 33,00 € HT la boîte au salon de juin : merci d'appliquer ce prix.\n\nCordialement,\nHenri Auger\nLhomme Travaux publics",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

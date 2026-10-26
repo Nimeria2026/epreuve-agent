@@ -1,0 +1,64 @@
+{
+  "numero": "DV-2026-018",
+  "client": "c-0332",
+  "objet": "Remplacement de la chaudière de la salle des fêtes",
+  "lignes": [
+    {
+      "code": "CHG-02",
+      "libelle": "Chaudière gaz à condensation 35 kW, eau chaude intégrée",
+      "quantite": 1,
+      "prix_unitaire_ht_euros": 3600,
+      "taux_tva": 20,
+      "montant_ht_euros": 3600
+    },
+    {
+      "code": "DEP-01",
+      "libelle": "Dépose et évacuation de l'ancien appareil",
+      "quantite": 1,
+      "prix_unitaire_ht_euros": 180,
+      "taux_tva": 20,
+      "montant_ht_euros": 180
+    },
+    {
+      "code": "TUB-01",
+      "libelle": "Tuyauterie cuivre posée",
+      "quantite": 6,
+      "prix_unitaire_ht_euros": 42,
+      "taux_tva": 20,
+      "montant_ht_euros": 252
+    },
+    {
+      "code": "DES-01",
+      "libelle": "Désembouage de l'installation de chauffage",
+      "quantite": 1,
+      "prix_unitaire_ht_euros": 420,
+      "taux_tva": 20,
+      "montant_ht_euros": 420
+    },
+    {
+      "code": "MES-01",
+      "libelle": "Mise en service",
+      "quantite": 1,
+      "prix_unitaire_ht_euros": 150,
+      "taux_tva": 20,
+      "montant_ht_euros": 150
+    },
+    {
+      "code": "MO-01",
+      "libelle": "Main-d'œuvre de technicien",
+      "quantite": 10,
+      "prix_unitaire_ht_euros": 58,
+      "taux_tva": 20,
+      "montant_ht_euros": 580
+    }
+  ],
+  "remise_pourcent": 0,
+  "total_ht_euros": 5182,
+  "total_tva_euros": 1036.4,
+  "total_ttc_euros": 6218.4,
+  "statut": "envoye",
+  "cree_le": "2026-11-23T15:00:00+01:00",
+  "cree_par": "karim.benali",
+  "envoye_le": "2026-11-23T16:00:00+01:00",
+  "reponse_le": null
+}

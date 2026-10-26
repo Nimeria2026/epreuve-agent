@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01732",
+  "commande": "CO-2026-01883",
+  "client": "c-0340",
+  "date_expedition": "2026-06-26",
+  "date_livraison": "2026-06-26",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "108 rue des Chênes, 36999 Fontclavier (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "PLB-12572",
+      "libelle": "Robinet flotteur silencieux",
+      "quantite": 1
+    },
+    {
+      "reference": "QUI-12882",
+      "libelle": "Verrou de sûreté 100 mm, acier",
+      "quantite": 1
+    }
+  ],
+  "reserves": null,
+  "signataire": "Sandrine Sauvage",
+  "statut": "livre"
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-101",
+  "de": {
+    "nom": "Mathieu Picard",
+    "adresse": "mathieu.picard@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Congés de fin d'année",
+  "date": "2026-11-02T07:58:00+01:00",
+  "corps": "Bonjour Sonia,\n\nJe voudrais poser mes congés du lundi 28 au jeudi 31 décembre. Peux-tu me dire si c'est possible ?\n\nMerci,\nMathieu (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

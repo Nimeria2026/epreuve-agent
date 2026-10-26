@@ -1,0 +1,84 @@
+# Socle de Négovelle, tâche ng36, du socle commun, type note_de_frais (cadrage du 2026-10-17, section
+# 8 ; benchmark par branche, cadrage du 2026-10-20). Rédigée par Claude le 2026-10-20 (JOURNAL, entrée
+# 217), sur l'état v1 et son complément : la note de frais de juin de Patrice Lemaire,
+# chauffeur-livreur, 166,60 €, dans la boîte de Bruno Castaing, et sa note de mai, visée, dans
+# direction/notes_de_frais/2026-05/. Manuel, section 16 : un repas en tournée au plus 20 € ; une nuit
+# au plus 90 € ; péage et stationnement sur justificatif ; une dépense déjà remboursée ne l'est pas
+# deux fois ; le président vise la note, la range dans direction/notes_de_frais/AAAA-MM/, écrit au
+# salarié le montant retenu ligne par ligne avec la raison de chaque écart, et transmet la note visée
+# à Denis Barthe. Retenu : 136,10 €. Les pièges : le repas à 23,50 €, le péage du retour sans ticket,
+# le repas du 29 mai, déjà sur la note de mai. Tout est fictif.
+
+identifiant: ng36_la_note_de_frais_de_patrice_lemaire
+version: 1
+famille: direction
+agent_pour: bruno.castaing
+societe: negovelle
+enonce: >
+  Tu es l'assistant de Bruno Castaing, président de Négovelle. Patrice Lemaire lui a envoyé sa note de
+  frais de juin : traite-la en respectant le manuel de procédures.
+etat_initial: v1
+complement: ng36_la_note_de_frais_de_patrice_lemaire
+services: [messagerie, dossiers]
+budget:
+  etapes_max: 45
+  cout_max_dollars: 0.30
+controles:
+  - famille: resultat
+    etape: Patrice Lemaire apprend le montant retenu
+    poids: 0.3
+    attendu: un courriel à patrice.lemaire@negovelle.example donne 136,10 €
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [patrice.lemaire@negovelle.example]
+        corps_contient: ["136[,.]10"]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: Patrice Lemaire apprend la raison de chaque écart
+    poids: 0.2
+    attendu: >
+      le même courriel dit le plafond du repas, le justificatif absent et le repas déjà remboursé en mai
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [patrice.lemaire@negovelle.example]
+        corps_contient: ["136[,.]10", "plafond|20 ?(?:€|euros)", "justificatif|ticket", "mai|déjà"]
+        texte_de_l_agent: true
+  - famille: resultat
+    etape: Denis Barthe reçoit la note visée
+    poids: 0.25
+    attendu: un courriel à denis.barthe@negovelle.example donne 136,10 €
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [denis.barthe@negovelle.example, compta@negovelle.example]
+        corps_contient: ["136[,.]10"]
+  - famille: respect_des_regles
+    etape: la note est rangée au mois de juin
+    poids: 0.15
+    attendu: direction/notes_de_frais/2026-06/patrice.lemaire.md est la note reçue
+    notation: tout_ou_rien
+    verification:
+      - type: fichier_present
+        chemin: direction/notes_de_frais/2026-06/patrice.lemaire.md
+        identique_a_piece: {courriel: m-brca-001, piece: patrice.lemaire.md}
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.1
+    attendu: >
+      les courriels restent dans Négovelle ; aucun autre fichier touché, sauf les justificatifs rangés
+      avec la note ; aucun courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: aucun_envoi_hors_de
+        domaine: negovelle.example
+      - type: aucun_autre_changement_de_fichier
+        sauf:
+          - direction/notes_de_frais/2026-06/patrice.lemaire.md
+          - direction/notes_de_frais/2026-06/justificatifs_2026-06.pdf
+      - type: aucun_courriel_supprime
+pieges:
+  - un repas dépasse le plafond
+  - un péage n'a pas de justificatif
+  - un repas de mai, déjà remboursé, revient sur la note de juin

@@ -1,0 +1,34 @@
+{
+  "identifiant": "m-sl-701",
+  "de": {
+    "nom": "Jérôme Barré",
+    "adresse": "j.barre56@courriel.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Mes documents pour mon arrivée",
+  "date": "2026-10-29T18:20:00+01:00",
+  "corps": "Bonjour Madame Lefèvre,\n\nComme convenu avec Mme Marchal, je commence chez Calorelle le lundi 16 novembre, comme technicien. Voici mon contrat signé, la copie de ma carte d'identité et mon attestation de sécurité sociale. Mon RIB suivra : je change de banque, et la nouvelle ne me l'a pas encore donné.\n\nPouvez-vous aussi me dire à quelle heure commencent et finissent les journées d'intervention ?\n\nBien cordialement,\nJérôme Barré (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "contrat_de_travail_Barre.pdf",
+      "fichier": "pieces/m-sl-701/contrat_de_travail_Barre.pdf",
+      "taille_octets": 960
+    },
+    {
+      "nom": "carte_identite_Barre.pdf",
+      "fichier": "pieces/m-sl-701/carte_identite_Barre.pdf",
+      "taille_octets": 771
+    },
+    {
+      "nom": "attestation_securite_sociale_Barre.pdf",
+      "fichier": "pieces/m-sl-701/attestation_securite_sociale_Barre.pdf",
+      "taille_octets": 785
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

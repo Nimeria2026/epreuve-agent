@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01658",
+  "commande": "CO-2026-01809",
+  "client": "c-0312",
+  "date_expedition": "2026-06-23",
+  "date_livraison": "2026-06-23",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "63 rue de la Fontaine, 36999 Laubrissac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "FIX-11470",
+      "libelle": "Goujon d'ancrage M10x100, boîte de 50",
+      "quantite": 2
+    }
+  ],
+  "reserves": null,
+  "signataire": "Jean Bouchard",
+  "statut": "livre"
+}

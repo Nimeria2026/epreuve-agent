@@ -1,0 +1,34 @@
+{
+  "identifiant": "m-sl-703",
+  "de": {
+    "nom": "Noé Rivière",
+    "adresse": "n.riviere@courriel.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Mon arrivée chez Calorelle",
+  "date": "2026-10-29T20:40:00+01:00",
+  "corps": "Bonjour Madame,\n\nJe suis Noé Rivière, le nouvel apprenti technicien. Voici mon contrat d'apprentissage signé, ma pièce d'identité et mon attestation de sécurité sociale. Je commence chez vous le lundi 9 novembre.\n\nJ'ai deux questions. Pourrai-je inscrire moi-même mes interventions dans le logiciel de planning ? Et pourrai-je consulter les dossiers des clients avant d'aller chez eux ?\n\nBonne soirée,\nNoé Rivière (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "contrat_apprentissage_Riviere.pdf",
+      "fichier": "pieces/m-sl-703/contrat_apprentissage_Riviere.pdf",
+      "taille_octets": 1004
+    },
+    {
+      "nom": "piece_identite_Riviere.pdf",
+      "fichier": "pieces/m-sl-703/piece_identite_Riviere.pdf",
+      "taille_octets": 770
+    },
+    {
+      "nom": "attestation_securite_sociale_Riviere.pdf",
+      "fichier": "pieces/m-sl-703/attestation_securite_sociale_Riviere.pdf",
+      "taille_octets": 784
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

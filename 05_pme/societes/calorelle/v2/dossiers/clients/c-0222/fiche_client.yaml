@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0222"
+nom: "Jean Leroux"
+type: "particulier"
+adresse: "3 rue du Moulin, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "jean.leroux@courriel.example"
+telephone: "06 39 98 50 55"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité Plus"
+  depuis: "2021-10-20"
+  mois_anniversaire: "octobre"
+  derniere_visite: "2026-10-06"

@@ -1,0 +1,28 @@
+# Fiche du client c-0177 de Négovelle. Données FICTIVES.
+code: c-0177
+nom: Transports Drouet
+type: pme
+adresse: 32 zone artisanale du Moulin, 36999 Corvalet (FICTIF)
+telephone: 02 61 91 85 25
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Émilie Bouchard
+  fonction: responsable des achats
+  courriel: emilie.bouchard@transports-drouet.example
+- nom: Anne Pinson
+  fonction: responsable de maintenance
+  courriel: anne.pinson@transports-drouet.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 32 zone artisanale du Moulin, 36999 Corvalet (FICTIF)
+categorie_remise: A
+delai_paiement: 60_jours_date_de_facture
+client_depuis: '2022-04-01'
+limite_encours_euros: 9000.0
+livraisons_partielles: false
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

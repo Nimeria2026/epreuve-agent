@@ -1,0 +1,68 @@
+{
+  "numero": "CO-2026-02077",
+  "client": "c-0341",
+  "reference_client": null,
+  "cree_le": "2026-07-15T10:00:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "114 avenue de la Gare, 36999 Brissonne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "QUI-11674",
+      "libelle": "Cylindre européen 45x45 mm, 5 clés",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 52.4,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 52.4,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 524.0
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 524.0,
+  "total_tva_euros": 104.8,
+  "total_ttc_euros": 628.8,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01897"
+  ],
+  "facture": "FC-2026-1467",
+  "historique": [
+    {
+      "date": "2026-07-15T10:00:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": "commande spéciale : article commandé au fournisseur pour le client, non stocké"
+    },
+    {
+      "date": "2026-07-15T10:05:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": "stock réservé"
+    },
+    {
+      "date": "2026-07-16T16:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01897"
+    },
+    {
+      "date": "2026-07-17T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01897"
+    },
+    {
+      "date": "2026-07-31T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1467"
+    }
+  ]
+}

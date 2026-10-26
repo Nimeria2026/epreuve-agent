@@ -1,0 +1,15 @@
+{
+  "fin": "termine",
+  "detail": null,
+  "appels_modele": 9,
+  "consommation": {
+    "agent": {
+      "entree": 41200,
+      "entree_en_cache": "?",
+      "sortie": 3180
+    }
+  },
+  "modeles_renvoyes": {
+    "agent": "qwen3.8-27b-w4a16"
+  }
+}

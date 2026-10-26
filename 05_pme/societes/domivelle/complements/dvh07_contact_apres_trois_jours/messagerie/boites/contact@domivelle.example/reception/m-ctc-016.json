@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-ctc-016",
+  "de": {
+    "nom": "Romain Giraud",
+    "adresse": "romain.giraud@messagerie.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Candidature, poste de comptable",
+  "date": "2026-06-04T16:05:00+02:00",
+  "corps": "Madame, Monsieur,\n\nJe vous adresse ma candidature à un poste de comptable.\n\nRomain Giraud",
+  "pieces_jointes": [
+    {
+      "nom": "cv_romain_giraud.pdf",
+      "fichier": "pieces/m-ctc-016/cv_romain_giraud.pdf",
+      "taille_octets": 730
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-vete-002",
+  "de": {
+    "nom": "Cédric Maillard",
+    "adresse": "cedric.maillard@domivelle.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "La candidature de mon neveu",
+  "date": "2026-06-08T08:22:00+02:00",
+  "corps": "Véronique,\n\nMon neveu, Théo Garnier, cherche un poste d'assistant de gestion locative ; son CV est joint. Il est sérieux. Tu peux me dire ce que tu en penses, et s'il a ses chances ? Son adresse : theo.garnier@mel-perso.example.\n\nCédric",
+  "pieces_jointes": [
+    {
+      "nom": "cv.pdf",
+      "fichier": "pieces/m-vete-002/cv.pdf",
+      "taille_octets": 767
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

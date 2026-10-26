@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-b07",
+  "de": {
+    "nom": "Catherine Martin",
+    "adresse": "catherine.martin@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Question sur les aides à la rénovation",
+  "date": "2026-09-09T13:16:00+02:00",
+  "corps": "Bonjour,\n\nQuelles aides existent pour une pompe à chaleur ?\n\nCatherine Martin (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

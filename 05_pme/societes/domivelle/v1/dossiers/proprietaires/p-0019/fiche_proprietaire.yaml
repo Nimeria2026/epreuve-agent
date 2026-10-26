@@ -1,0 +1,14 @@
+# Fiche du propriétaire p-0019, mandant de Domivelle. Données FICTIVES.
+code: p-0019
+nom: M. Éric Lemaire
+adresse: 60 rue du Château, 18999 Montclavel-sur-Cher (FICTIF)
+courriel: eric.lemaire@boite-postale.example
+telephone: 06 39 98 59 54
+iban: FR76 9999 9311 7829 1938 8822 358 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- c01-04
+- c01-06
+- c01-09
+- c02-05
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

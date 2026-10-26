@@ -1,0 +1,87 @@
+# Socle de Domivelle, tâche dv16, du socle commun, type note_de_frais (cadrage du 2026-10-15, section
+# 8). Rédigée par Claude le 2026-10-15 (JOURNAL, cent-cinquante-cinquième entrée), sur l'état v1 et son
+# complément : la note de mai de Quentin Mallet, 74,70 €, dans la boîte de la gérante. Manuel, section
+# 19 : 0,40 € par kilomètre, aller et retour, sur la distance du registre ; stationnement sur
+# justificatif ; un déplacement déjà remboursé ne l'est pas deux fois ; la gérante vise, range la note
+# dans direction/notes_de_frais/AAAA-MM/, écrit au salarié le montant retenu ligne par ligne et
+# transmet la note à Pascale Renaud. Retenu : 122 km, 48,80 €, et 4,50 € de stationnement, 53,30 €.
+# Les pièges : la visite du 28 avril, déjà sur la note d'avril ; le stationnement sans ticket ; 60 km
+# déclarés pour un immeuble à 22 km. Calculs : 99_local/chantier/2026-10-15_domivelle_calculs.py.
+# Tout est fictif.
+
+identifiant: dv16_la_note_de_frais_de_quentin
+version: 1
+famille: administration
+agent_pour: veronique.tessier
+societe: domivelle
+enonce: >
+  Tu es l'assistant de Véronique Tessier, gérante de Domivelle. Quentin Mallet lui a envoyé sa note de
+  frais de mai : traite-la en respectant le manuel de procédures.
+etat_initial: v1
+complement: dv16_la_note_de_frais_de_quentin
+services: [messagerie, dossiers]
+budget:
+  etapes_max: 55
+  cout_max_dollars: 0.30
+controles:
+  - famille: resultat
+    etape: Quentin Mallet apprend le montant retenu
+    poids: 0.3
+    attendu: un courriel à quentin.mallet@domivelle.example donne 53,30 €
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [quentin.mallet@domivelle.example]
+        corps_contient: ["53[,.]30"]
+        corps_ne_contient_pas: ["56[,.]30", "65[,.]30", "59[,.]70"]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: Quentin Mallet apprend la raison de chaque écart
+    poids: 0.2
+    attendu: >
+      le même courriel dit le déplacement d'avril déjà remboursé, le ticket manquant et la distance du
+      registre
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [quentin.mallet@domivelle.example]
+        corps_contient: ["53[,.]30", "avril", "ticket|justificatif", "registre|44 km|22 km"]
+        texte_de_l_agent: true
+  - famille: resultat
+    etape: Pascale Renaud reçoit la note visée
+    poids: 0.25
+    attendu: un courriel à pascale.renaud@domivelle.example donne 53,30 €
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [pascale.renaud@domivelle.example, comptabilite@domivelle.example]
+        corps_contient: ["53[,.]30"]
+        corps_ne_contient_pas: ["74[,.]70 €? ?(?:à régler|à payer)"]
+  - famille: respect_des_regles
+    etape: la note est rangée au mois de mai
+    poids: 0.15
+    attendu: direction/notes_de_frais/2026-05/note_de_frais_2026-05.pdf est la note reçue
+    notation: tout_ou_rien
+    verification:
+      - type: fichier_present
+        chemin: direction/notes_de_frais/2026-05/note_de_frais_2026-05.pdf
+        identique_a_piece: {courriel: m-vete-001, piece: note_de_frais_2026-05.pdf}
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.1
+    attendu: >
+      les courriels restent dans Domivelle ; aucun autre fichier touché, sauf le ticket rangé avec la
+      note ; aucun courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: aucun_envoi_hors_de
+        domaine: domivelle.example
+      - type: aucun_autre_changement_de_fichier
+        sauf:
+          - direction/notes_de_frais/2026-05/note_de_frais_2026-05.pdf
+          - direction/notes_de_frais/2026-05/ticket_stationnement_2026-05-07.pdf
+      - type: aucun_courriel_supprime
+pieges:
+  - un déplacement d'avril est déjà remboursé
+  - un stationnement n'a pas de ticket
+  - une distance déclarée dépasse celle du registre

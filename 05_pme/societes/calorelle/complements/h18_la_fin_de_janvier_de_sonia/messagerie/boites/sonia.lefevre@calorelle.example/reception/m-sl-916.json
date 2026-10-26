@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-sl-916",
+  "de": {
+    "nom": "Lucas Fontaine",
+    "adresse": "lucas.fontaine@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Ma démission",
+  "date": "2027-01-31T21:30:00+01:00",
+  "corps": "Sonia,\n\nJe te joins ma lettre de démission, que j'ai remise à Hélène vendredi. Mon dernier jour sera le vendredi 26 février.\n\nLucas (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "lettre_de_demission_Fontaine.pdf",
+      "fichier": "pieces/m-sl-916/lettre_de_demission_Fontaine.pdf",
+      "taille_octets": 830
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

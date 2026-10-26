@@ -1,0 +1,49 @@
+{
+  "numero": "BL-2026-01719",
+  "commande": "CO-2026-01870",
+  "client": "c-0094",
+  "date_expedition": "2026-06-26",
+  "date_livraison": "2026-06-26",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "31 zone industrielle des Brandes, 36999 Ardillac (FICTIF)",
+  "colis": 3,
+  "lignes": [
+    {
+      "reference": "ELE-12180",
+      "libelle": "Goulotte 60x16 mm, barre de 2 m",
+      "quantite": 4
+    },
+    {
+      "reference": "ELE-12989",
+      "libelle": "Rallonge électrique de chantier IP44 5 m",
+      "quantite": 5
+    },
+    {
+      "reference": "PLB-10506",
+      "libelle": "Collier de fixation tube 16 mm, sachet de 25",
+      "quantite": 6
+    },
+    {
+      "reference": "PLB-10547",
+      "libelle": "Collier de fixation tube 22 mm, sachet de 25",
+      "quantite": 2
+    },
+    {
+      "reference": "PLB-12637",
+      "libelle": "Réduction PVC 40x32 mm",
+      "quantite": 12
+    },
+    {
+      "reference": "QUI-11568",
+      "libelle": "Cylindre européen 40x35 mm, 3 clés",
+      "quantite": 2
+    }
+  ],
+  "reserves": null,
+  "signataire": "Delphine Navarre",
+  "statut": "livre"
+}

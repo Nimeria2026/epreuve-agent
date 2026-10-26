@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cop-608",
+  "de": {
+    "nom": "M. Patrice Gaillard",
+    "adresse": "patrice.gaillard@courriel.example"
+  },
+  "a": [
+    "copropriete@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Mon reversement d'août",
+  "date": "2026-08-12T09:40:00+02:00",
+  "corps": "Bonjour,\n\nMon reversement du 10 août pour mes appartements de Chantebrune est plus bas que d'habitude. Pouvez-vous m'expliquer pourquoi ?\n\nPatrice Gaillard",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

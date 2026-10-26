@@ -1,0 +1,25 @@
+# Fiche du client c-0135 de Négovelle. Données FICTIVES.
+code: c-0135
+nom: Couverture Monnier
+type: artisan
+adresse: 37 avenue Pasteur, 36999 Saulvenne (FICTIF)
+telephone: 02 61 91 95 98
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Sylvain Bouvier
+  fonction: gérant
+  courriel: sylvain.bouvier@couverture-monnier.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 37 avenue Pasteur, 36999 Saulvenne (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2015-02-01'
+limite_encours_euros: 2000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

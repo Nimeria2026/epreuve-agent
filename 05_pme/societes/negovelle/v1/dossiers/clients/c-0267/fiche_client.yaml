@@ -1,0 +1,31 @@
+# Fiche du client c-0267 de Négovelle. Données FICTIVES.
+code: c-0267
+nom: Entreprise Tixier
+type: entreprise
+adresse: 30 zone industrielle des Brandes, 36999 Laubrissac (FICTIF)
+telephone: 02 61 91 71 27
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Étienne Morel
+  fonction: conducteur de travaux
+  courriel: etienne.morel@entreprise-tixier.example
+- nom: Henri Chauveau
+  fonction: responsable des achats
+  courriel: henri.chauveau@entreprise-tixier.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 30 zone industrielle des Brandes, 36999 Laubrissac (FICTIF)
+- code: L2
+  libelle: dépôt
+  adresse: 2 parc d'activités de la Gare, 36999 Saulvenne (FICTIF)
+categorie_remise: B
+delai_paiement: 60_jours_date_de_facture
+client_depuis: '2017-02-01'
+limite_encours_euros: 2000.0
+livraisons_partielles: true
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

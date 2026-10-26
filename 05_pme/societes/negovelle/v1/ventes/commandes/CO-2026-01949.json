@@ -1,0 +1,73 @@
+{
+  "numero": "CO-2026-01949",
+  "client": "c-0246",
+  "reference_client": null,
+  "cree_le": "2026-06-30T09:10:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "137 rue du Château, 36999 Vaumoreau-sur-Indre (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-11322",
+      "libelle": "Marqueur de chantier jaune, boîte de 12",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 8.95,
+      "remise_pourcent": 5.92,
+      "prix_net_ht_euros": 8.42,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 84.2
+    },
+    {
+      "reference": "FIX-12156",
+      "libelle": "Équerre de fixation 40x100x20 mm, zinguée",
+      "quantite": 20,
+      "prix_tarif_ht_euros": 2.6,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 2.5,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 50.0
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 149.2,
+  "total_tva_euros": 29.84,
+  "total_ttc_euros": 179.04,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01798"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-06-30T09:10:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-30T09:12:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-01T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01798"
+    },
+    {
+      "date": "2026-07-01T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01798"
+    }
+  ]
+}

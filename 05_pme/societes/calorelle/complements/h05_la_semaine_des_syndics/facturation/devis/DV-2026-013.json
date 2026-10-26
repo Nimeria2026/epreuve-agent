@@ -1,0 +1,56 @@
+{
+  "numero": "DV-2026-013",
+  "client": "c-0003",
+  "objet": "Remplacement de la chaudière collective du bâtiment B",
+  "lignes": [
+    {
+      "code": "CHC-01",
+      "libelle": "Chaudière collective gaz à condensation 150 kW",
+      "quantite": 1,
+      "prix_unitaire_ht_euros": 14500,
+      "taux_tva": 20,
+      "montant_ht_euros": 14500
+    },
+    {
+      "code": "DEP-01",
+      "libelle": "Dépose et évacuation de l'ancien appareil",
+      "quantite": 1,
+      "prix_unitaire_ht_euros": 180,
+      "taux_tva": 20,
+      "montant_ht_euros": 180
+    },
+    {
+      "code": "TUB-01",
+      "libelle": "Tuyauterie cuivre posée",
+      "quantite": 20,
+      "prix_unitaire_ht_euros": 42,
+      "taux_tva": 20,
+      "montant_ht_euros": 840
+    },
+    {
+      "code": "MES-01",
+      "libelle": "Mise en service",
+      "quantite": 1,
+      "prix_unitaire_ht_euros": 150,
+      "taux_tva": 20,
+      "montant_ht_euros": 150
+    },
+    {
+      "code": "MO-01",
+      "libelle": "Main-d'œuvre de technicien",
+      "quantite": 32,
+      "prix_unitaire_ht_euros": 58,
+      "taux_tva": 20,
+      "montant_ht_euros": 1856
+    }
+  ],
+  "remise_pourcent": 0,
+  "total_ht_euros": 17526,
+  "total_tva_euros": 3505.2,
+  "total_ttc_euros": 21031.2,
+  "statut": "envoye",
+  "cree_le": "2026-10-28T10:00:00+01:00",
+  "cree_par": "karim.benali",
+  "envoye_le": "2026-10-29T11:00:00+01:00",
+  "reponse_le": null
+}

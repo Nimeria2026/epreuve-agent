@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-824",
+  "de": {
+    "nom": "Martine Lopez",
+    "adresse": "martine.lopez@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "URGENT : chaudière en panne",
+  "date": "2026-10-31T14:30:00+01:00",
+  "corps": "Bonjour,\n\nIl fait 15 degrés dans la maison. C'est urgent : rappelez-moi au 06 39 98 52 77.\n\nMartine Lopez, 9 rue des Saules, Valmont (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-708",
+  "de": {
+    "nom": "Pierre François",
+    "adresse": "pierre.francois@courriel.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Absence en décembre",
+  "date": "2026-11-28T09:00:00+01:00",
+  "corps": "Bonjour,\n\nPour la première visite d'entretien de mon contrat, je vous signale que je serai absent du 1er au 18 décembre inclus.\n\nPierre François\n11 rue des Lilas, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

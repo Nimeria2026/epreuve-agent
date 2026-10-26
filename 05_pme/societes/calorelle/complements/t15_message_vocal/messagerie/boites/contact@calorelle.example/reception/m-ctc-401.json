@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-401",
+  "de": {
+    "nom": "Messagerie vocale",
+    "adresse": "messagerie-vocale@calorelle.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Message vocal du 02/11/2026 à 08:14 (06 39 98 51 33)",
+  "date": "2026-11-02T08:20:00+01:00",
+  "corps": "Transcription automatique :\n« Oui bonjour, c'est madame Gautier, au 116 rue des Écoles. J'ai une fuite d'eau sous la chaudière depuis ce matin, il y a une flaque par terre. Est-ce que quelqu'un peut passer ? Rappelez-moi au zéro six trente-neuf quatre-vingt-dix-huit cinquante et un trente-trois. Merci. »\n\nDurée : 24 secondes. Message FICTIF.",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

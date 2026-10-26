@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-919",
+  "de": {
+    "nom": "Syndic de la Résidence du Clos-Fargeau",
+    "adresse": "contact@syndic-de-la-residence-du-clos-fargeau-25.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Chaudière collective du bâtiment B",
+  "date": "2026-11-10T07:50:00+01:00",
+  "corps": "Bonjour Monsieur Duval,\n\nLa chaudière collective gaz du bâtiment B est de nouveau en panne ce matin : plus de chauffage dans seize logements.\n\nLe syndic de la Résidence du Clos-Fargeau, 48 rue du Moulin (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

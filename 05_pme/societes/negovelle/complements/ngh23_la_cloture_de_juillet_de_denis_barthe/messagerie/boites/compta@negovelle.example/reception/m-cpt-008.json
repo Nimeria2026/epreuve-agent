@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-008",
+  "de": {
+    "nom": "Hygiène de la Croisette",
+    "adresse": "facturation@hygiene-de-la-croisette.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture F57105",
+  "date": "2026-07-30T09:20:00+02:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-jointe notre facture F57105 du 28 juillet 2026, pour votre commande CA-2026-0320 :\n- ENT-10212, Balai à franges 30 cm : 150 x 18,71 € HT = 2 806,50 €\n- ENT-10391, Désinfectant pour les mains, flacon de 500 ml : 60 x 2,72 € HT = 163,20 €\n- ENT-10612, Nettoyant pour mains d'atelier, bidon de 1 l : 400 x 8,92 € HT = 3 568,00 €\n- ENT-11224, Sacs à gravats 120 l, paquet de 25 : 50 x 4,60 € HT = 230,00 €\n\nTotal HT : 6 767,70 € ; TVA 20 % : 1 353,54 € ; total TTC : 8 121,24 €. Paiement à 45 jours fin de mois.\n\nService facturation\nHygiène de la Croisette",
+  "pieces_jointes": [
+    {
+      "nom": "F57105.pdf",
+      "fichier": "pieces/m-cpt-008/F57105.pdf",
+      "taille_octets": 961
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

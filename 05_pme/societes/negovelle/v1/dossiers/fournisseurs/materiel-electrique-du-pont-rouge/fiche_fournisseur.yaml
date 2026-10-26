@@ -1,0 +1,10 @@
+# Fiche d'un fournisseur de Négovelle. Données FICTIVES.
+nom: Matériel électrique du Pont-Rouge
+activite: fabricant d'appareillage électrique
+adresse: 19 zone artisanale du Moulin, 36999 Corvalet (FICTIF)
+telephone: 02 61 91 76 73
+courriel_commandes: commandes@materiel-electrique-du-pont-rouge.example
+courriel_facturation: facturation@materiel-electrique-du-pont-rouge.example
+iban: FR76 9999 9019 5201 9522 7076 409 (FICTIF)
+conditions: paiement à 30 jours date de facture
+minimum_de_commande: 150,00 € HT

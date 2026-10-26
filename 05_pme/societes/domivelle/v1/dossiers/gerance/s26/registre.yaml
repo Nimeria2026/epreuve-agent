@@ -1,0 +1,103 @@
+# Registre des lots en gestion, s26. Données FICTIVES.
+immeuble: s26
+nature: groupe de maisons
+adresse: 138 rue du Four, 18999 Sorlay-le-Haut (FICTIF)
+secteur: sud
+gestionnaire: Solène Audoin
+distance_agence_km: 16
+annee_construction: 2017
+gardien: false
+copropriete_du_syndic: null
+lots:
+- lot: s26-01
+  type: maison T5
+  surface_m2: 123
+  proprietaire: p-0668
+  locataire: M. Serge Robin
+  entree: '2016-03-30'
+  loyer_hors_charges: 1 095,00 €
+  provision_sur_charges: 19,00 €
+  depot_de_garantie: 876,00 €
+  revision: chaque 30 mars
+  trimestre_irl: T4
+  dpe: E
+- lot: s26-02
+  type: maison T4
+  surface_m2: 86
+  proprietaire: p-0653
+  locataire: M. Julien Vidal
+  entree: '2026-01-26'
+  loyer_hors_charges: 726,00 €
+  provision_sur_charges: 12,00 €
+  depot_de_garantie: 726,00 €
+  revision: chaque 26 janvier
+  trimestre_irl: T3
+  dpe: A
+- lot: s26-03
+  type: maison T5
+  surface_m2: 108
+  proprietaire: p-0669
+  locataire: Mme Brigitte Lemaire
+  entree: '2025-09-24'
+  loyer_hors_charges: 948,00 €
+  provision_sur_charges: 4,00 €
+  depot_de_garantie: 948,00 €
+  revision: chaque 24 septembre
+  trimestre_irl: T2
+  dpe: E
+- lot: s26-04
+  type: maison T5
+  surface_m2: 124
+  proprietaire: p-0670
+  locataire: Mme Catherine Mouton
+  entree: '2021-01-12'
+  loyer_hors_charges: 1 163,00 €
+  provision_sur_charges: 13,00 €
+  depot_de_garantie: 1 034,00 €
+  revision: chaque 12 janvier
+  trimestre_irl: T3
+  dpe: C
+- lot: s26-05
+  type: maison T5
+  surface_m2: 109
+  proprietaire: p-0671
+  locataire: M. Gilles Morin
+  entree: '2020-01-11'
+  loyer_hors_charges: 1 033,00 €
+  provision_sur_charges: 1,00 €
+  depot_de_garantie: 898,00 €
+  revision: chaque 11 janvier
+  trimestre_irl: T3
+  dpe: E
+- lot: s26-06
+  type: maison T3
+  surface_m2: 84
+  proprietaire: p-0630
+  locataire: M. Luc Hébert
+  entree: '2024-04-01'
+  loyer_hors_charges: 755,00 €
+  provision_sur_charges: 14,00 €
+  depot_de_garantie: 719,00 €
+  revision: chaque 1er avril
+  trimestre_irl: T4
+  dpe: C
+- lot: s26-07
+  type: maison T3
+  surface_m2: 74
+  proprietaire: p-0672
+  locataire: vacant
+  loyer_hors_charges: 701,00 €
+  provision_sur_charges: 7,00 €
+  dpe: D
+- lot: s26-08
+  type: maison T3
+  surface_m2: 72
+  proprietaire: p-0673
+  locataire: Mme Odile Colas
+  entree: '2020-07-03'
+  loyer_hors_charges: 688,00 €
+  provision_sur_charges: 10,00 €
+  depot_de_garantie: 612,00 €
+  revision: chaque 3 juillet
+  trimestre_irl: T1
+  dpe: E

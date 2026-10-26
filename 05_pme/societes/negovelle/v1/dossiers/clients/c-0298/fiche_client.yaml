@@ -1,0 +1,34 @@
+# Fiche du client c-0298 de Négovelle. Données FICTIVES.
+code: c-0298
+nom: Pelletier Bâtiment
+type: entreprise
+adresse: 16 zone artisanale du Moulin, 36999 Laubrissac (FICTIF)
+telephone: 02 61 91 83 04
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: François Boisson
+  fonction: conducteur de travaux
+  courriel: francois.boisson@pelletier-batiment.example
+- nom: Luc Rouxel
+  fonction: responsable des achats
+  courriel: luc.rouxel@pelletier-batiment.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 16 zone artisanale du Moulin, 36999 Laubrissac (FICTIF)
+- code: L2
+  libelle: dépôt
+  adresse: 38 zone industrielle des Brandes, 36999 Laubrissac (FICTIF)
+- code: L3
+  libelle: chantier déclaré
+  adresse: 29 impasse des Noyers, 36999 Laubrissac (FICTIF)
+categorie_remise: C
+delai_paiement: 60_jours_date_de_facture
+client_depuis: '2013-04-01'
+limite_encours_euros: 11500.0
+livraisons_partielles: true
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

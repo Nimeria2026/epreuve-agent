@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01910",
+  "commande": "CO-2026-02090",
+  "client": "c-0344",
+  "date_expedition": "2026-07-15",
+  "date_livraison": "2026-07-16",
+  "transport": {
+    "mode": "transporteur",
+    "transporteur": "transports-delorme",
+    "recepisse": "TD-410790"
+  },
+  "adresse": "5 impasse des Noyers, 36999 Vendrigny (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "CON-12188",
+      "libelle": "Ruban adhésif de masquage 48 mm, rouleau de 50 m",
+      "quantite": 20
+    },
+    {
+      "reference": "CON-10489",
+      "libelle": "Disque abrasif auto-agrippant 125 mm, grain 120, boîte de 10",
+      "quantite": 10
+    }
+  ],
+  "reserves": "colis 2 sur 2 manquant : 10 disques CON-10489",
+  "signataire": "Delphine Chauveau",
+  "statut": "livre"
+}

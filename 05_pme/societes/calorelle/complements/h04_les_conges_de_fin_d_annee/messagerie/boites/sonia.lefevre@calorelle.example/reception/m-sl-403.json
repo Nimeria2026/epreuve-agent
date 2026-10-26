@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-403",
+  "de": {
+    "nom": "Yanis Haddad",
+    "adresse": "yanis.haddad@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Un jour de congé",
+  "date": "2026-10-31T09:20:00+01:00",
+  "corps": "Bonjour Sonia,\n\nEst-ce que je peux poser le jeudi 24 décembre ? Ce serait pour passer Noël en famille.\n\nMerci,\nYanis (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

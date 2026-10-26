@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-018",
+  "de": {
+    "nom": "Denis Chevalier",
+    "adresse": "denis.chevalier@mel-perso.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Mon studio c24-01",
+  "date": "2026-06-05T08:02:00+02:00",
+  "corps": "Bonjour,\n\nLe locataire de mon studio c24-01 me dit que la ventilation de la salle de bain fait un bruit anormal. Pouvez-vous faire vérifier ?\n\nDenis Chevalier",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

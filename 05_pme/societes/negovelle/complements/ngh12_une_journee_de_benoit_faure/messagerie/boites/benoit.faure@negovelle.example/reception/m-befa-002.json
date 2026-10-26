@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-befa-002",
+  "de": {
+    "nom": "Marcel Barbe",
+    "adresse": "marcel.barbe@plomberie-simonet.example"
+  },
+  "a": [
+    "benoit.faure@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Retour sur BL-2026-01822",
+  "date": "2026-07-03T16:05:00+02:00",
+  "corps": "Bonjour,\n\nDans notre livraison BL-2026-01822 du 2 juillet, nous avons reçu trop de sacs poubelle ENT-11118 : nous voudrions vous en retourner 10 rouleaux, qui n'ont pas été ouverts.\n\nCordialement,\nMarcel Barbe\nPlomberie Simonet",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

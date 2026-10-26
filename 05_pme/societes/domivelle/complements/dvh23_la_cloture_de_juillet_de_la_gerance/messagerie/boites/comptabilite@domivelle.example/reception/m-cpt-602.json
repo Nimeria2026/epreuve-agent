@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-602",
+  "de": {
+    "nom": "Serrurerie des Quatre-Vents",
+    "adresse": "facturation@serrurerie-des-quatre-vents.example"
+  },
+  "a": [
+    "comptabilite@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture 2026-1110, lot n27-15",
+  "date": "2026-07-10T16:10:00+02:00",
+  "corps": "Bonjour,\n\nCi-jointe notre facture n° 2026-1110 du 10 juillet 2026 pour le lot n27-15, 37 rue de la Croix-Blanche, 18999 Saint-Aubrin-des-Bois : remplacement de la serrure de la boîte aux lettres, 94,80 € TTC, échéance le 9 septembre 2026.\n\nSerrurerie des Quatre-Vents",
+  "pieces_jointes": [
+    {
+      "nom": "facture_2026-1110.pdf",
+      "fichier": "pieces/m-cpt-602/facture_2026-1110.pdf",
+      "taille_octets": 911
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

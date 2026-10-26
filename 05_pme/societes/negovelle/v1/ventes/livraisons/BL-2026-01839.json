@@ -1,0 +1,59 @@
+{
+  "numero": "BL-2026-01839",
+  "commande": "CO-2026-01990",
+  "client": "c-0240",
+  "date_expedition": "2026-07-03",
+  "date_livraison": "2026-07-03",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "87 chemin des Prés, 36999 Fontclavier (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "CON-11306",
+      "libelle": "Marqueur de chantier bleu, boîte de 12",
+      "quantite": 2
+    },
+    {
+      "reference": "CON-12205",
+      "libelle": "Ruban adhésif de masquage 50 mm, rouleau de 33 m",
+      "quantite": 1
+    },
+    {
+      "reference": "ELE-13307",
+      "libelle": "Spot encastrable LED 5 W, 4000 K, noir",
+      "quantite": 2
+    },
+    {
+      "reference": "ELP-10857",
+      "libelle": "Foret métal HSS 1 mm, étui de 10",
+      "quantite": 12
+    },
+    {
+      "reference": "ENT-11118",
+      "libelle": "Sacs poubelle 30 l, renforcés, rouleau de 20",
+      "quantite": 100
+    },
+    {
+      "reference": "PRO-11486",
+      "libelle": "Pantalon de travail haute visibilité orange, taille 38",
+      "quantite": 1
+    },
+    {
+      "reference": "QUI-10342",
+      "libelle": "Cadenas acier 60 mm, 3 clés",
+      "quantite": 4
+    },
+    {
+      "reference": "VIS-10351",
+      "libelle": "Boulon tête hexagonale M6x40, inox A2, sachet de 10",
+      "quantite": 10
+    }
+  ],
+  "reserves": null,
+  "signataire": "Serge Morel",
+  "statut": "livre"
+}

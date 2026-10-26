@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01890",
+  "commande": "CO-2026-02070",
+  "client": "c-0129",
+  "date_expedition": "2026-07-16",
+  "date_livraison": "2026-07-16",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "62 rue des Jardins, 36999 Vaumoreau-sur-Indre (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "OUT-10473",
+      "libelle": "Clé mixte 31 mm",
+      "quantite": 6
+    }
+  ],
+  "reserves": null,
+  "signataire": "Valérie Bonneau",
+  "statut": "livre"
+}

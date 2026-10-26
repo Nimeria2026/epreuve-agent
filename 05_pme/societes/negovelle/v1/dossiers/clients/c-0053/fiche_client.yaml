@@ -1,0 +1,28 @@
+# Fiche du client c-0053 de Négovelle. Données FICTIVES.
+code: c-0053
+nom: Rouxel Travaux publics
+type: entreprise
+adresse: 32 zone d'activités des Grands Prés, 36999 Laubrissac (FICTIF)
+telephone: 02 61 91 66 75
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Anne Cadiou
+  fonction: conductrice de travaux
+  courriel: anne.cadiou@rouxel-travaux-publics.example
+- nom: Christine Vaillant
+  fonction: responsable des achats
+  courriel: christine.vaillant@rouxel-travaux-publics.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 32 zone d'activités des Grands Prés, 36999 Laubrissac (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2019-04-01'
+limite_encours_euros: 7000.0
+livraisons_partielles: true
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

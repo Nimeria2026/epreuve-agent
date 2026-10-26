@@ -1,0 +1,25 @@
+# Fiche du client c-0322 de Négovelle. Données FICTIVES.
+code: c-0322
+nom: Charpente Chartier
+type: artisan
+adresse: 81 rue du Four, 36999 Saulvenne (FICTIF)
+telephone: 02 61 91 91 57
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Denise Bellanger
+  fonction: gérante
+  courriel: denise.bellanger@charpente-chartier.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 81 rue du Four, 36999 Saulvenne (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2012-06-01'
+limite_encours_euros: 5000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

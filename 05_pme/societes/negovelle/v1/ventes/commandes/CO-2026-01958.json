@@ -1,0 +1,106 @@
+{
+  "numero": "CO-2026-01958",
+  "client": "c-0196",
+  "reference_client": null,
+  "cree_le": "2026-06-30T09:10:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L2",
+    "adresse": "6 rue de la Halle, 36999 Corvalet (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "FIX-10106",
+      "libelle": "Cheville métallique à expansion M6x32, boîte de 25",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 16.9,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 16.9,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 169.0
+    },
+    {
+      "reference": "PLB-13038",
+      "libelle": "Tube PVC évacuation 50 mm, barre de 2 m",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 20.9,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 20.9,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 104.5
+    },
+    {
+      "reference": "VIS-11812",
+      "libelle": "Vis à bois tête fraisée 4,5x30, bichromatée, boîte de 500",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 23.1,
+      "remise_pourcent": 3.0,
+      "prix_net_ht_euros": 22.41,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 224.1
+    },
+    {
+      "reference": "VIS-12270",
+      "libelle": "Vis à bois tête fraisée 4x25, zinguée, boîte de 200",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 10.8,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 10.8,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 129.6
+    },
+    {
+      "reference": "VIS-12360",
+      "libelle": "Vis à bois tête fraisée 4x35, zinguée, boîte de 200",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 22.0,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 22.0,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 44.0
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 671.2,
+  "total_tva_euros": 134.24,
+  "total_ttc_euros": 805.44,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01807"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-06-30T09:10:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-30T09:12:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-01T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01807"
+    },
+    {
+      "date": "2026-07-01T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01807"
+    }
+  ]
+}

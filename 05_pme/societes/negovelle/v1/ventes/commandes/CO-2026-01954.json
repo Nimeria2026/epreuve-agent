@@ -1,0 +1,117 @@
+{
+  "numero": "CO-2026-01954",
+  "client": "c-0177",
+  "reference_client": "BC-5815",
+  "cree_le": "2026-06-30T09:10:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "32 zone artisanale du Moulin, 36999 Corvalet (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-12017",
+      "libelle": "Goulotte 12x20 mm, barre de 2 m",
+      "quantite": 20,
+      "prix_tarif_ht_euros": 7.6,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 7.6,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 152.0
+    },
+    {
+      "reference": "ELE-13160",
+      "libelle": "Ruban isolant noir, rouleau de 20 m",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 2.1,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 2.1,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 4.2
+    },
+    {
+      "reference": "PRO-10857",
+      "libelle": "Gants de manutention anticoupure niveau D, taille 7",
+      "quantite": 120,
+      "prix_tarif_ht_euros": 4.75,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 4.75,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 570.0
+    },
+    {
+      "reference": "PRO-11600",
+      "libelle": "Pantalon de travail multipoches gris, taille 52",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 19.15,
+      "remise_pourcent": 3.0,
+      "prix_net_ht_euros": 18.58,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 222.96
+    },
+    {
+      "reference": "QUI-10849",
+      "libelle": "Charnière invisible 70 mm, inox",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 6.45,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 6.45,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 38.7
+    },
+    {
+      "reference": "VIS-12997",
+      "libelle": "Vis à bois tête fraisée 5x60, inox A2, boîte de 100",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 5.0,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 5.0,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 30.0
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 1017.86,
+  "total_tva_euros": 203.57,
+  "total_ttc_euros": 1221.43,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01803"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-06-30T09:10:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-30T09:12:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-01T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01803"
+    },
+    {
+      "date": "2026-07-01T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01803"
+    }
+  ]
+}

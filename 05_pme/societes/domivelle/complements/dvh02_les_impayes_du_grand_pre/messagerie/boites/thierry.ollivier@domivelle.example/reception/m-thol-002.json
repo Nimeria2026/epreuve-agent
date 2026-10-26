@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-thol-002",
+  "de": {
+    "nom": "Martine Duval",
+    "adresse": "martine.duval@mel-perso.example"
+  },
+  "a": [
+    "thierry.ollivier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Ma provision du deuxième trimestre",
+  "date": "2026-06-06T10:15:00+02:00",
+  "corps": "Bonjour Monsieur,\n\nJ'ai bien reçu votre relance du 20 avril pour ma provision du deuxième trimestre. Je traverse une période difficile : pourriez-vous me permettre de la régler en trois fois, en juin, juillet et août ?\n\nAvec mes remerciements,\nMartine Duval, lot 2, Résidence Le Grand Pré",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

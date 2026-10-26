@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01728",
+  "commande": "CO-2026-01879",
+  "client": "c-0041",
+  "date_expedition": "2026-06-26",
+  "date_livraison": "2026-06-26",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "62 chemin des Prés, 36999 Laubrissac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "QUI-11657",
+      "libelle": "Cylindre européen 45x40 mm, 3 clés",
+      "quantite": 6
+    },
+    {
+      "reference": "VIS-12956",
+      "libelle": "Vis à bois tête fraisée 5x50, inox A2, boîte de 200",
+      "quantite": 1
+    }
+  ],
+  "reserves": null,
+  "signataire": "Inès Hervé",
+  "statut": "livre"
+}

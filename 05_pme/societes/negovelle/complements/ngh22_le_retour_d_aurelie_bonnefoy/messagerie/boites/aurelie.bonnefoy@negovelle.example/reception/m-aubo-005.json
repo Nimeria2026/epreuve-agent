@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-aubo-005",
+  "de": {
+    "nom": "Alice Grenier",
+    "adresse": "alice.grenier@monnier-batiment.example"
+  },
+  "a": [
+    "aurelie.bonnefoy@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Perforateurs pour le chantier de Saulvenne",
+  "date": "2026-08-10T08:40:00+02:00",
+  "corps": "Bonjour Aurélie,\n\nPour le chantier du gymnase de Saulvenne, il nous faut 20 perforateurs ELP-11608. Un concurrent nous les propose 12 % sous votre prix : pouvez-vous vous aligner ? Il nous faut une réponse avant la fin du mois.\n\nCordialement,\n\nAlice Grenier\nMonnier Bâtiment",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

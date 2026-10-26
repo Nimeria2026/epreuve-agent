@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-623",
+  "de": {
+    "nom": "Pierre Lambert",
+    "adresse": "pierre.lambert@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Réclamation sur ma facture",
+  "date": "2026-11-24T08:12:00+01:00",
+  "corps": "Bonjour,\n\nVous m'avez facturé un déplacement pour la visite de mai, alors que j'ai le contrat Sérénité, déplacement compris. Je conteste cette ligne et j'attends un remboursement.\n\nPierre Lambert, 108 rue des Écoles, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

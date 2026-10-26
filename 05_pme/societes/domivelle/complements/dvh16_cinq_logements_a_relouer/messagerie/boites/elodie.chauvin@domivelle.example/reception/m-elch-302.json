@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-elch-302",
+  "de": {
+    "nom": "SCI Le Panorama",
+    "adresse": "gestion@sci-le-panorama.example"
+  },
+  "a": [
+    "elodie.chauvin@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "n17-06 : nouveau loyer",
+  "date": "2026-06-05T09:45:00+02:00",
+  "corps": "Bonjour,\n\nLe logement n17-06 est libre depuis le départ de Mme Giraud. Les loyers ont monté dans le quartier : nous voulons le relouer 465,00 € hors charges, soit 60,00 € de plus. Merci de le proposer à ce prix.\n\nPour la SCI Le Panorama, Jacques Fabre, gérant",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

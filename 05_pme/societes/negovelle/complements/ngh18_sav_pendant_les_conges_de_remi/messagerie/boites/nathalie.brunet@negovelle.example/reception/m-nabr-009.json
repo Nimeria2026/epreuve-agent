@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-nabr-009",
+  "de": {
+    "nom": "Guy Simonet",
+    "adresse": "guy.simonet@boulay-maintenance.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Notre facture de juin",
+  "date": "2026-07-06T07:10:00+02:00",
+  "corps": "Bonjour,\n\nNotre facture de juin, FC-2026-1276, se monte à 2 398,58 € : pouvez-vous nous en envoyer le détail par bon de livraison ? Nous n'arrivons pas au même total.\n\nGuy Simonet\nBoulay Maintenance",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

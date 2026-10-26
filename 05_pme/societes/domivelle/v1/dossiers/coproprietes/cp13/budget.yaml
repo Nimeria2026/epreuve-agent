@@ -1,0 +1,17 @@
+# Budget prévisionnel de l'exercice en cours, voté, copropriété cp13. Données FICTIVES.
+copropriete: cp13
+exercice: '2026'
+total: 36 000,00 €
+postes:
+  nettoyage des parties communes: 7 920,00 €
+  espaces verts: 2 880,00 €
+  électricité des parties communes: 3 240,00 €
+  eau: 5 040,00 €
+  assurance de l'immeuble: 3 960,00 €
+  honoraires du syndic: 6 480,00 €
+  entretien et petites réparations: 3 600,00 €
+  ascenseur, contrat et électricité: 2 880,00 €
+repartition:
+  charges générales, aux tantièmes généraux: 33 120,00 €
+  ascenseur, aux tantièmes d'ascenseur: 2 880,00 €
+appel: un quart du budget, exigible le premier jour de chaque trimestre

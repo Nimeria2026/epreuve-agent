@@ -1,0 +1,20 @@
+{
+  "identifiant": "m-occo-008",
+  "de": {
+    "nom": "Vincent Tixier",
+    "adresse": "vincent.tixier@serrurerie-foucault.example"
+  },
+  "a": [
+    "benoit.faure@negovelle.example"
+  ],
+  "cc": [
+    "oceane.collin@negovelle.example"
+  ],
+  "objet": "Commande",
+  "date": "2026-07-06T07:05:00+02:00",
+  "corps": "Bonjour Benoît,\n\nVoici notre commande, à livrer au siège :\n- 20 x FIX-10808, Cheville pour plaque de plâtre 6x45, boîte de 100\n- 12 x VIS-10048, Boulon tête hexagonale M10x20, zingué, sachet de 25\n\nMerci,\nVincent Tixier\nSerrurerie Foucault",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

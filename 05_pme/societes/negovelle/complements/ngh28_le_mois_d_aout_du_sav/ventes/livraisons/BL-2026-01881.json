@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01881",
+  "commande": "CO-2026-02061",
+  "client": "c-0111",
+  "date_expedition": "2026-07-22",
+  "date_livraison": "2026-07-23",
+  "transport": {
+    "mode": "transporteur",
+    "transporteur": "transports-delorme",
+    "recepisse": "TD-412214"
+  },
+  "adresse": "134 place du Marché, 36999 Corvalet (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "QUI-11674",
+      "libelle": "Cylindre européen 45x45 mm, 5 clés",
+      "quantite": 6
+    },
+    {
+      "reference": "QUI-13111",
+      "libelle": "Verrou à ressort 120 mm, acier",
+      "quantite": 12
+    }
+  ],
+  "reserves": "carton éventré : 2 cylindres QUI-11674 faussés",
+  "signataire": "Brigitte Ruel",
+  "statut": "livre"
+}

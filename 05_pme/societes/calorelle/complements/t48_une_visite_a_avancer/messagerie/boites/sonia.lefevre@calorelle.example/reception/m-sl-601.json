@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-601",
+  "de": {
+    "nom": "Hélène Chevalier",
+    "adresse": "helene.chevalier@courriel.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Avancer ma visite d'entretien",
+  "date": "2026-11-02T08:05:00+01:00",
+  "corps": "Bonjour Madame Lefèvre,\n\nM. Duval m'a fixé la visite d'entretien de ma chaudière au mardi 15 décembre à 8 h. Je pars le samedi 12 décembre pour trois semaines. Pouvez-vous l'avancer au jeudi 10 décembre, à 9 h ? Merci de me le confirmer par écrit, que je puisse m'organiser.\n\nCordialement,\nHélène Chevalier, 50 rue de la Loire, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

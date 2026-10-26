@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0450"
+nom: "Syndic de la Résidence des Saulaies"
+type: "syndic"
+adresse: "30 chemin des Vignes, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "contact@syndic-de-la-residence-des-saulaies-450.example"
+telephone: "02 61 91 36 09"
+charge_d_affaires: "karim.benali"
+contrat:
+  formule: "Sérénité"
+  depuis: "2020-06-15"
+  mois_anniversaire: "juin"
+  derniere_visite: "2026-06-03"

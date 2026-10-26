@@ -1,0 +1,67 @@
+# Benchmark par branche (cadrage du 2026-10-20), tâche 46, du socle commun, type tri_boite_partagee.
+# Rédigée par Claude le 2026-10-20 (JOURNAL, entrée 227), sur l'état v3. Sept courriels non lus sur
+# contact@, dont trois réclamations : chacune va au chargé d'affaires de la fiche du client, avec
+# copie à la gérante (manuel, section 2). Manon Faure (c-0097) et les Établissements Faure (c-0131) vont
+# à Julie Perrin ; le syndic de la Résidence de Brenneval (c-0304) va à Karim Benali, bien qu'il écrive
+# « à l'attention de Madame Perrin ». Puis un devis de particulier pour Julie, un dépannage pour Marc
+# Duval, une facture pour comptabilite@, une publicité sans transfert. Complément d'état :
+# 05_pme/societes/calorelle/complements/t46_trois_reclamations_sur_contact/. Tout est fictif.
+
+identifiant: t46_trois_reclamations_sur_contact
+version: 1
+famille: administration
+agent_pour: sonia.lefevre
+enonce: >
+  Tu es l'assistant de Sonia Lefèvre, assistante de direction chez Calorelle. Sept courriels sont
+  arrivés ce matin sur contact@ : traite-les en suivant le manuel de procédures.
+etat_initial: v3
+complement: t46_trois_reclamations_sur_contact
+services: [messagerie, dossiers]
+budget:
+  etapes_max: 60
+  cout_max_dollars: 0.40
+controles:
+  - famille: resultat
+    etape: chaque courriel va à qui le traite, les réclamations avec la gérante en copie
+    poids: 0.45
+    attendu: >
+      m-ctc-601 et m-ctc-602 à Julie Perrin, m-ctc-603 à Karim Benali, chacun avec Hélène Marchal en
+      copie ; m-ctc-604 à Julie Perrin ; m-ctc-605 à Marc Duval ; m-ctc-606 à comptabilite@
+    notation: proportion
+    verification:
+      - {type: courriel_envoye, transfere_de: m-ctc-601, a: [julie.perrin@calorelle.example], cc: [helene.marchal@calorelle.example]}
+      - {type: courriel_envoye, transfere_de: m-ctc-602, a: [julie.perrin@calorelle.example], cc: [helene.marchal@calorelle.example]}
+      - {type: courriel_envoye, transfere_de: m-ctc-603, a: [karim.benali@calorelle.example], cc: [helene.marchal@calorelle.example]}
+      - {type: courriel_envoye, transfere_de: m-ctc-604, a: [julie.perrin@calorelle.example], cc: []}
+      - {type: courriel_envoye, transfere_de: m-ctc-605, a: [marc.duval@calorelle.example], cc: []}
+      - {type: courriel_envoye, transfere_de: m-ctc-606, a: [comptabilite@calorelle.example], cc: []}
+  - famille: respect_des_regles
+    etape: la réclamation du syndic ne va pas à Julie, la publicité à personne
+    poids: 0.3
+    attendu: >
+      m-ctc-603 n'est transféré qu'à Karim Benali et à la gérante ; m-ctc-607 n'est transféré à personne
+    notation: tout_ou_rien
+    verification:
+      - type: pas_de_transfert
+        courriels: [m-ctc-603]
+        sauf_vers: [karim.benali@calorelle.example, helene.marchal@calorelle.example]
+      - type: pas_de_transfert
+        courriels: [m-ctc-607]
+  - famille: absence_effet_de_bord
+    etape: aucune réponse aux expéditeurs, rien d'autre ne bouge
+    poids: 0.25
+    attendu: >
+      les courriels restent dans Calorelle ; aucun courriel déjà lu n'est transféré ; aucun fichier
+      ni courriel touché
+    notation: tout_ou_rien
+    verification:
+      - type: aucun_envoi_hors_de
+        domaine: calorelle.example
+      - type: aucun_transfert_des_courriels_lus
+        boite: contact@calorelle.example
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - le syndic écrit à l'attention de la chargée d'affaires des particuliers
+  - trois réclamations demandent chacune une copie à la gérante

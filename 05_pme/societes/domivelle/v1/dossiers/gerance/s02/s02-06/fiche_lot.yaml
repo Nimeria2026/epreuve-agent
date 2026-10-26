@@ -1,0 +1,24 @@
+# Fiche du lot s02-06. Données FICTIVES.
+lot: s02-06
+adresse: 130 rue Émile-Zola, 18999 Chantebrune (FICTIF)
+type: T3
+surface_m2: 60
+locataire:
+  nom: M. Fabrice Bonnet
+  courriel: fabrice.bonnet@courriel.example
+  telephone: 06 39 98 69 23
+  entree: '2018-03-18'
+bail:
+  signature: '2018-03-18'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 536,00 €
+  depot_de_garantie: 447,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T4
+dpe:
+  classe: E
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

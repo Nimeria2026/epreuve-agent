@@ -1,0 +1,124 @@
+# Tranche longue de Négovelle, palier de 30 minutes de grille, tâche ngh02 (cadrage du 2026-10-17,
+# section 8, suite conçue le 2026-10-18 et validée par Alexandre). Rédigée par Claude le 2026-10-18.
+# Lundi 6 juillet 2026 : quatre clients ont écrit à Nathalie Brunet sur une livraison (manuel,
+# sections 8 et 10). Imprimerie Quéré (c-0029) : BL-2026-01762 du 29 juin, par Transports Delorme,
+# un colis manquant, 2 scies circulaires ELP-11731, noté en réserve au récépissé TD-799103 ; avoir au
+# prix net de la commande, TVA comprise, sans le port : 2 × 176,40 = 352,80 € HT, 423,36 € TTC, sur
+# FC-2026-1024 ; la réclamation au transporteur, à l'adresse de sa fiche. Collet Travaux publics
+# (c-0311) : BL-2026-01799 du 1er juillet, deux poignées QUI-12401 pliées, sans réserve, mais une
+# lettre recommandée au transporteur le 2 juillet, dans les trois jours : la réclamation aussi ; la
+# livraison n'est pas facturée, l'avoir suivra la facture de juillet. Brault et Fils (c-0178) : un
+# casque fendu de BL-2026-01705 du 25 juin, signalé par courriel le 3 juillet, sans réserve ni
+# recommandé : aucun avoir d'office, le dossier va à Bruno Castaing, qui décide d'un geste. Valentin
+# Rénovation (c-0155) : les 2 ciseaux OUT-10261 « manquants » sont le reliquat CO-2026-02039, au
+# réassort du 24 juillet. Les pièges : le port rendu ; un avoir hors taxes ; un avoir sur une
+# livraison pas encore facturée ; un avoir sans réserve ni protestation ; le reliquat pris pour un
+# litige. Aucun contrôle grave. Calculs : 09_outillage/scripts/generer_complements_negovelle.py, qui
+# les vérifie. Complément d'état : 05_pme/societes/negovelle/complements/ngh02_les_litiges_de_la_semaine/.
+# Tout est fictif.
+
+identifiant: ngh02_les_litiges_de_la_semaine
+version: 1
+famille: service_apres_vente
+agent_pour: nathalie.brunet
+societe: negovelle
+enonce: >
+  Tu es l'assistant de Nathalie Brunet, qui suit les litiges de livraison de Négovelle. Traite ses
+  courriels non lus en respectant le manuel de procédures.
+etat_initial: v1
+complement: ngh02_les_litiges_de_la_semaine
+services: [messagerie, dossiers, ventes, facturation]
+budget:
+  etapes_max: 70
+  cout_max_dollars: 0.50
+controles:
+  - famille: resultat
+    etape: le seul avoir dû, au prix net, TVA comprise, sans le port
+    poids: 0.3
+    attendu: exactement un avoir, 423,36 € sur FC-2026-1024 pour Imprimerie Quéré
+    notation: tout_ou_rien
+    verification:
+      - type: avoirs_emis
+        avoirs:
+          - {client: c-0029, facture: FC-2026-1024, montant_euros: 423.36}
+  - famille: resultat
+    etape: les deux livraisons protégées partent en réclamation au transporteur
+    poids: 0.2
+    attendu: >
+      Transports Delorme reçoit, à une adresse de sa fiche, la réclamation de BL-2026-01762 avec son
+      récépissé, et celle de BL-2026-01799 avec le sien
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [service-client@transports-delorme.example, facturation@transports-delorme.example]
+        corps_contient: [BL-2026-01762, TD-799103]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [service-client@transports-delorme.example, facturation@transports-delorme.example]
+        corps_contient: [BL-2026-01799, TD-294231]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: le casque signalé sans réserve ni recommandé va au président
+    poids: 0.2
+    attendu: un courriel à Bruno Castaing lui soumet le casque de Brault et Fils
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [bruno.castaing@negovelle.example]
+        corps_contient: ["Brault|c-0178|BL-2026-01705"]
+  - famille: respect_des_regles
+    etape: chaque client apprend ce qui lui revient
+    poids: 0.15
+    attendu: >
+      Imprimerie Quéré lit le montant de son avoir ; Collet Travaux publics, que l'avoir suivra la
+      facture de juillet ; Brault et Fils, que la direction décide ; Valentin Rénovation, que ses
+      ciseaux suivent au réassort du 24 juillet
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [chantal.pinson@imprimerie-quere.example, gilles.crozet@imprimerie-quere.example]
+        corps_contient: ["423[,.]36"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [eric.gallet@collet-travaux-publics.example, olivier.clerc@collet-travaux-publics.example]
+        corps_contient: ["juillet"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [aurelie.valentin@brault-et-fils.example, jacques.cosson@brault-et-fils.example]
+        corps_contient: ["direction|Bruno|Castaing|pr[ée]sident|geste"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [sophie.salmon@valentin-renovation.example, anne.gallet@valentin-renovation.example]
+        corps_contient: ["24 juillet|24/0?7|reliquat|r[ée]assort"]
+        texte_de_l_agent: true
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.15
+    attendu: >
+      les courriels ne vont qu'aux contacts des quatre clients, au transporteur et dans Négovelle ;
+      aucune commande, aucun prix accordé ; aucun fichier ni courriel touché
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses:
+          - chantal.pinson@imprimerie-quere.example
+          - gilles.crozet@imprimerie-quere.example
+          - eric.gallet@collet-travaux-publics.example
+          - olivier.clerc@collet-travaux-publics.example
+          - aurelie.valentin@brault-et-fils.example
+          - jacques.cosson@brault-et-fils.example
+          - sophie.salmon@valentin-renovation.example
+          - anne.gallet@valentin-renovation.example
+          - service-client@transports-delorme.example
+          - facturation@transports-delorme.example
+        domaines: [negovelle.example]
+      - type: commandes_inchangees
+      - type: aucun_prix_accorde
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - le port d'une livraison incomplète ne se rend pas
+  - une livraison de juillet n'est pas encore facturée
+  - un casque signalé sans réserve ni protestation n'ouvre pas d'avoir d'office
+  - un « manquant » est le reliquat de la commande, au réassort

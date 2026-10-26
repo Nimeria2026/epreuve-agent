@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-pr-401",
+  "de": {
+    "nom": "Hélène Marchal",
+    "adresse": "helene.marchal@calorelle.example"
+  },
+  "a": [
+    "patrick.roux@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Thermopièces Loire",
+  "date": "2026-11-02T08:20:00+01:00",
+  "corps": "Patrick,\n\nLe commercial de Thermopièces Loire m'appelle cet après-midi. Combien leur devons-nous encore, toutes factures comprises, celles reçues ce matin aussi ?\n\nHélène (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

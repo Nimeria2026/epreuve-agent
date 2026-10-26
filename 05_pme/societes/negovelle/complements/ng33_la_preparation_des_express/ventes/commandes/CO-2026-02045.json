@@ -1,0 +1,59 @@
+{
+  "numero": "CO-2026-02045",
+  "client": "c-0097",
+  "reference_client": null,
+  "cree_le": "2026-07-06T07:50:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "express",
+  "livraison": {
+    "code": "L1",
+    "adresse": "21 zone industrielle des Brandes, 36999 Ardillac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "QUI-11192",
+      "libelle": "Charnière à lames 70 mm, laiton",
+      "quantite": 30,
+      "prix_tarif_ht_euros": 8.6,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 8.6,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 258.0
+    },
+    {
+      "reference": "VIS-11853",
+      "libelle": "Vis à bois tête fraisée 4,5x35, inox A2, boîte de 100",
+      "quantite": 20,
+      "prix_tarif_ht_euros": 6.35,
+      "remise_pourcent": 3.0,
+      "prix_net_ht_euros": 6.16,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 123.2
+    }
+  ],
+  "port_ht_euros": 25.0,
+  "total_ht_euros": 406.2,
+  "total_tva_euros": 81.24,
+  "total_ttc_euros": 487.44,
+  "statut": "en_attente_deblocage",
+  "motif_attente": "client bloqué : impayé : mise en demeure du 2 juin restée sans effet",
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-06T07:50:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-06T07:52:00+02:00",
+      "par": "benoit.faure",
+      "action": "mise_en_attente",
+      "detail": "client bloqué"
+    }
+  ]
+}

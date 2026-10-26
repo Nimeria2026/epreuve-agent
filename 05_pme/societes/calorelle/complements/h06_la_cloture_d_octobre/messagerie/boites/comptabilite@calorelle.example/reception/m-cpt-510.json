@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cpt-510",
+  "de": {
+    "nom": "Transports de Sablonnet",
+    "adresse": "compta@transports-de-sablonnet.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture TS-08790 impayée",
+  "date": "2026-11-02T08:50:00+01:00",
+  "corps": "Bonjour,\n\nNotre facture TS-08790 du 30 septembre, 96,00 € TTC, pour la livraison d'une chaudière sur votre chantier de Valmont, est échue depuis le 30 octobre. Merci de nous indiquer la date de son règlement.\n\nService comptable, Transports de Sablonnet (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,3 @@
+Dossiers des salariés de Calorelle. Document FICTIF, confidentiel.
+Tenus par Sonia Lefèvre. Un dossier par salarié, rh/salaries/<prénom.nom>/, en minuscules et sans accent,
+comme les adresses de l'annuaire. Une pièce reçue y garde le nom de la pièce jointe.

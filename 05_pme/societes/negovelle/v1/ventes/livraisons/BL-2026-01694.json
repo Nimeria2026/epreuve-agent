@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01694",
+  "commande": "CO-2026-01845",
+  "client": "c-0018",
+  "date_expedition": "2026-06-25",
+  "date_livraison": "2026-06-25",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "37 parc d'activités de la Gare, 36999 Saulvenne (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ELE-10800",
+      "libelle": "Conduit IRL 16 mm, barre de 2 m",
+      "quantite": 1
+    }
+  ],
+  "reserves": null,
+  "signataire": "Inès Durieux",
+  "statut": "livre"
+}

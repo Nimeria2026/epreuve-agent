@@ -1,0 +1,17 @@
+# Budget prévisionnel de l'exercice en cours, voté, copropriété cp36. Données FICTIVES.
+copropriete: cp36
+exercice: 2025-2026
+total: 67 200,00 €
+postes:
+  nettoyage des parties communes: 14 784,00 €
+  espaces verts: 5 376,00 €
+  électricité des parties communes: 6 048,00 €
+  eau: 9 408,00 €
+  assurance de l'immeuble: 7 392,00 €
+  honoraires du syndic: 12 096,00 €
+  entretien et petites réparations: 6 720,00 €
+  ascenseur, contrat et électricité: 5 376,00 €
+repartition:
+  charges générales, aux tantièmes généraux: 61 824,00 €
+  ascenseur, aux tantièmes d'ascenseur: 5 376,00 €
+appel: un quart du budget, exigible le premier jour de chaque trimestre

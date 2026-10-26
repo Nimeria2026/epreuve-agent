@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-gafo-602",
+  "de": {
+    "nom": "Noémie Hébert",
+    "adresse": "noemie.hebert@courriel.example"
+  },
+  "a": [
+    "gaelle.fournel@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Date de notre assemblée générale",
+  "date": "2026-09-12T10:20:00+02:00",
+  "corps": "Bonjour Madame Fournel,\n\nM. Delmas m'a dit que vous fixeriez la date de notre assemblée en son absence. Le conseil syndical propose le mardi 6 octobre à 18 h 30, à la mairie de Montclavel-sur-Cher, salle du conseil ; ou le jeudi 15 octobre à 18 h 30, à la salle polyvalente de Vernillac, la mairie n'étant pas libre ce soir-là. À défaut, la salle des fêtes de Montclavel-sur-Cher est libre le jeudi 22 octobre à la même heure. Nous préférons le 6 octobre.\n\nNoémie Hébert, présidente du conseil syndical des Hortensias",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

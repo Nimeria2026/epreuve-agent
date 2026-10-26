@@ -1,0 +1,11 @@
+# Fiche du propriétaire p-0396, mandant de Domivelle. Données FICTIVES.
+code: p-0396
+nom: Mme Lucie Rolland
+adresse: 122 rue des Lilas, 18999 Vernillac (FICTIF)
+courriel: lucie.rolland@mel-perso.example
+telephone: 06 39 98 50 41
+iban: FR76 9999 9191 4564 3124 1046 209 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- n22-06
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

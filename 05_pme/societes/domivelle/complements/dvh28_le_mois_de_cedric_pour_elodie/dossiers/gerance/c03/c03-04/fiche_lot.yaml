@@ -1,0 +1,19 @@
+# Fiche du lot c03-04. Données FICTIVES.
+lot: c03-04
+adresse: 111 rue de la Fontaine, 18999 Montclavel-sur-Cher (FICTIF)
+type: T3
+surface_m2: 68
+locataire:
+  nom: Mme Camille Germain
+  courriel: camille.germain@mel-perso.example
+  telephone: 06 39 98 77 18
+  entree: '2024-09-27'
+bail:
+  signature: '2024-09-27'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 641,00 €
+  depot_de_garantie: 625,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T2
+dpe:
+  classe: D

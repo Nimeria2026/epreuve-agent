@@ -1,0 +1,64 @@
+{
+  "numero": "CO-2026-02045",
+  "client": "c-0242",
+  "reference_client": null,
+  "cree_le": "2026-07-03T15:00:00+02:00",
+  "cree_par": "laurent.gimenez",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "16 zone industrielle des Brandes, 36999 Vaumoreau-sur-Indre (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "OUT-11829",
+      "libelle": "Pince étau 200 mm",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 30.1,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 28.9,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 173.4
+    },
+    {
+      "reference": "OUT-11821",
+      "libelle": "Pince étau 180 mm",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 11.35,
+      "remise_pourcent": 6.88,
+      "prix_net_ht_euros": 10.57,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 105.7
+    },
+    {
+      "reference": "OUT-11837",
+      "libelle": "Pince étau 250 mm",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 28.7,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 27.55,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 110.2
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 389.3,
+  "total_tva_euros": 77.86,
+  "total_ttc_euros": 467.16,
+  "statut": "brouillon",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T15:00:00+02:00",
+      "par": "laurent.gimenez",
+      "action": "creee",
+      "detail": "prix du déstockage attendus"
+    }
+  ]
+}

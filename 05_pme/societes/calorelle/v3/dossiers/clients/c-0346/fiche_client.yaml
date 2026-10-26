@@ -1,0 +1,8 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0346"
+nom: "Établissements Martin"
+type: "entreprise"
+adresse: "41 impasse des Saules, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "contact@etablissements-martin-346.example"
+telephone: "02 61 91 35 82"
+charge_d_affaires: "julie.perrin"

@@ -1,0 +1,79 @@
+{
+  "numero": "CO-2026-01821",
+  "client": "c-0224",
+  "reference_client": "BC-4716",
+  "cree_le": "2026-06-23T09:10:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "13 parc d'activités de la Gare, 36999 Ardillac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "PLB-11853",
+      "libelle": "Mécanisme de chasse à tirette",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 31.2,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 29.95,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 59.9
+    },
+    {
+      "reference": "VIS-10048",
+      "libelle": "Boulon tête hexagonale M10x20, zingué, sachet de 25",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 15.0,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 14.4,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 72.0
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 146.9,
+  "total_tva_euros": 29.38,
+  "total_ttc_euros": 176.28,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01670"
+  ],
+  "facture": "FC-2026-1204",
+  "historique": [
+    {
+      "date": "2026-06-23T09:10:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-23T09:12:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-24T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01670"
+    },
+    {
+      "date": "2026-06-24T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01670"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1204"
+    }
+  ]
+}

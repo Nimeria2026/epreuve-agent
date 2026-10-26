@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-001",
+  "de": {
+    "nom": "Hélène Marchal",
+    "adresse": "helene.marchal@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Congés de Julie",
+  "date": "2026-11-06T17:30:00+01:00",
+  "corps": "Sonia,\n\nPour mémoire : Julie est en congé du lundi 9 au vendredi 20 novembre. Karim reprend ses clients pendant ce temps.\n\nHélène (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

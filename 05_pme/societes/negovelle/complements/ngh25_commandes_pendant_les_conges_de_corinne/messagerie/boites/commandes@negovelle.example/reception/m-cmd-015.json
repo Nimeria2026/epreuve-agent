@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-015",
+  "de": {
+    "nom": "Étiquettes du Berry",
+    "adresse": "contact@etiquettes-du-berry.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Vos étiquettes d'expédition",
+  "date": "2026-07-25T06:30:00+02:00",
+  "corps": "Bonjour,\n\nNous imprimons vos étiquettes d'expédition en 24 heures. Demandez-nous un devis.\n\nÉtiquettes du Berry",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

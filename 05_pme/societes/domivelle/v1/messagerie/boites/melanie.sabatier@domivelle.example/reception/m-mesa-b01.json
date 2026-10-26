@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-mesa-b01",
+  "de": {
+    "nom": "M. Sylvain Ferrand",
+    "adresse": "sylvain.ferrand@messagerie.example"
+  },
+  "a": [
+    "melanie.sabatier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Procès-verbal reçu",
+  "date": "2026-05-20T10:46:00+02:00",
+  "corps": "Bonjour,\n\nMerci pour l'envoi du procès-verbal.\n\nM. Sylvain Ferrand",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

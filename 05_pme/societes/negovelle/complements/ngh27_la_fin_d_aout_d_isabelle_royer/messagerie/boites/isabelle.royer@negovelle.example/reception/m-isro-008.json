@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-isro-008",
+  "de": {
+    "nom": "Jean Bouchard",
+    "adresse": "jean.bouchard@maconnerie-bocquet.example"
+  },
+  "a": [
+    "isabelle.royer@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Notre virement",
+  "date": "2026-08-28T09:15:00+02:00",
+  "corps": "Bonjour,\n\nAvez-vous bien reçu notre virement pour la facture de juin ?\n\nJean Bouchard\nMaçonnerie Bocquet",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

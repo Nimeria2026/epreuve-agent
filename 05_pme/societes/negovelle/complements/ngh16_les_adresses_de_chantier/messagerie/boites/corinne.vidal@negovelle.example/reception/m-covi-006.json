@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-covi-006",
+  "de": {
+    "nom": "Manon Rey",
+    "adresse": "manon.rey@negovelle.example"
+  },
+  "a": [
+    "corinne.vidal@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "TR : Livraison sur chantier de la commande CO-2026-02017",
+  "date": "2026-07-03T12:00:00+02:00",
+  "corps": "Corinne,\n\nUne demande d'adresse de chantier pour Valentin Rénovation (c-0155), à toi pour l'appel.\n\nManon\n\n-------- Message transféré --------\nDe : Anne Gallet <anne.gallet@valentin-renovation.example>\nObjet : Livraison sur chantier de la commande CO-2026-02017\n\nBonjour,\n\nPourriez-vous livrer notre commande CO-2026-02017 sur notre chantier, 40 route de Brissonne, 36999 Vaumoreau-sur-Indre ?\n\nMerci,\nAnne Gallet\nValentin Rénovation",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

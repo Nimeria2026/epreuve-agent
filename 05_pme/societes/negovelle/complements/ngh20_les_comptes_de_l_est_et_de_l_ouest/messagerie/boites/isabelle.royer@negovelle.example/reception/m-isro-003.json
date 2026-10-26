@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-isro-003",
+  "de": {
+    "nom": "Hervé Mignot",
+    "adresse": "herve.mignot@maurin-travaux-publics.example"
+  },
+  "a": [
+    "isabelle.royer@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Notre virement",
+  "date": "2026-07-06T07:05:00+02:00",
+  "corps": "Bonjour,\n\nAvez-vous bien reçu notre virement de 4 038,67 € pour la facture FC-2026-0711 ?\n\nMerci,\nHervé Mignot\nMaurin Travaux publics",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

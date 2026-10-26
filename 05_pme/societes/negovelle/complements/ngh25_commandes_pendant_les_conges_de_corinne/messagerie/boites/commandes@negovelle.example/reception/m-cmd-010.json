@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-010",
+  "de": {
+    "nom": "Simone Parmentier",
+    "adresse": "simone.parmentier@entreprise-rouxel.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-24T09:15:00+02:00",
+  "corps": "Bonjour,\n\nNotre commande :\n\n- 50 x QUI-13438, Équerre d'assemblage 50 mm, laiton, sachet de 4\n\nLivraison standard au siège.\n\nSimone Parmentier\nEntreprise Rouxel",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

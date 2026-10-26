@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01654",
+  "commande": "CO-2026-01805",
+  "client": "c-0016",
+  "date_expedition": "2026-06-23",
+  "date_livraison": "2026-06-23",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "6 rue des Peupliers, 36999 Corvalet (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ELE-11347",
+      "libelle": "Câble souple H07RN-F 3G 1,5 mm², couronne de 50 m",
+      "quantite": 5
+    },
+    {
+      "reference": "ELP-10890",
+      "libelle": "Foret métal HSS 1,5 mm, étui de 5",
+      "quantite": 4
+    }
+  ],
+  "reserves": null,
+  "signataire": "Jacques Toussaint",
+  "statut": "livre"
+}

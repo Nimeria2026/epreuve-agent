@@ -1,0 +1,10 @@
+{
+  "id": "sebastien.noel",
+  "nom": "Sébastien Noël",
+  "competences": [
+    "pompe_a_chaleur",
+    "climatisation"
+  ],
+  "apprenti": false,
+  "indisponibilites": []
+}

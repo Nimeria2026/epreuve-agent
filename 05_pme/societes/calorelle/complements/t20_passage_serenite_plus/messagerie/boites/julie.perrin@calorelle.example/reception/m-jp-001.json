@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-001",
+  "de": {
+    "nom": "Sonia Lefèvre",
+    "adresse": "sonia.lefevre@calorelle.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Copie de mon contrat d'entretien",
+  "date": "2026-11-02T08:20:00+01:00",
+  "corps": "Bonjour Julie,\n\nPeux-tu envoyer à M. Lemoine la copie de son contrat d'entretien ?\n\nMerci,\nSonia\n\n----- Message transféré -----\nDe : Bernard Lemoine <b.lemoine@courriel.example>\nDate : 2026-10-30T16:40:00+01:00\nObjet : Copie de mon contrat d'entretien\n\nBonjour,\n\nJ'ai égaré mon contrat d'entretien. Pourriez-vous m'en envoyer une copie ?\n\nBien cordialement,\nBernard Lemoine\n8 allée des Peupliers, 45999 Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": "m-ctc-b20"
+}

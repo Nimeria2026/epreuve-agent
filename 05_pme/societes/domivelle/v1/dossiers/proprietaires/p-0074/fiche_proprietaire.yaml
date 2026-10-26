@@ -1,0 +1,11 @@
+# Fiche du propriétaire p-0074, mandant de Domivelle. Données FICTIVES.
+code: p-0074
+nom: M. Claude Hébert
+adresse: 71 avenue de la Gare, 18999 Montclavel-sur-Cher (FICTIF)
+courriel: claude.hebert@boite-postale.example
+telephone: 06 39 98 89 24
+iban: FR76 9999 9798 2630 0308 8609 854 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- c07-06
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

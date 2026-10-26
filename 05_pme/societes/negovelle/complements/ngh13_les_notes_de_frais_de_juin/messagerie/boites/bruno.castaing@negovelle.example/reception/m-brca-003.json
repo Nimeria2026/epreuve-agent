@@ -1,0 +1,29 @@
+{
+  "identifiant": "m-brca-003",
+  "de": {
+    "nom": "Samir Ouali",
+    "adresse": "samir.ouali@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Note de frais de juin",
+  "date": "2026-07-04T09:05:00+02:00",
+  "corps": "Bonjour Bruno,\n\nVoici ma note de frais de juin, 207,04 €, et mes justificatifs. Le 8 juin, le véhicule de service était au garage : j'ai pris ma voiture, 112 km au barème.\n\n| Date | Nature | Lieu | Montant TTC | Justificatif |\n|---|---|---|---|---|\n| 2 juin 2026 | repas en tournée | Fontclavier | 19,90 € | oui |\n| 8 juin 2026 | indemnités kilométriques, 112 km avec mon véhicule | Mérolles-en-Brenne | 67,54 € | oui |\n| 15 juin 2026 | péage | Mérolles-en-Brenne | 6,10 € | oui |\n| 22 juin 2026 | nuit d'hôtel | Fontclavier | 92,00 € | oui |\n| 29 juin 2026 | repas en tournée | Mérolles-en-Brenne | 21,50 € | oui |\n\nMerci,\nSamir",
+  "pieces_jointes": [
+    {
+      "nom": "samir.ouali.md",
+      "fichier": "pieces/m-brca-003/samir.ouali.md",
+      "taille_octets": 546
+    },
+    {
+      "nom": "justificatifs_samir.ouali_2026-06.pdf",
+      "fichier": "pieces/m-brca-003/justificatifs_samir.ouali_2026-06.pdf",
+      "taille_octets": 773
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

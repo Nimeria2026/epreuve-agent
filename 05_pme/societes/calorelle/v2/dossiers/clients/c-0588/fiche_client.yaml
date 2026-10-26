@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0588"
+nom: "Denis Bernard"
+type: "particulier"
+adresse: "71 allée des Peupliers, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "denis.bernard@courriel.example"
+telephone: "06 39 98 51 41"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité Plus"
+  depuis: "2020-03-17"
+  mois_anniversaire: "mars"
+  derniere_visite: "2026-03-07"

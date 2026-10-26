@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cema-001",
+  "de": {
+    "nom": "Hugo Lecomte",
+    "adresse": "hugo.lecomte.immo@webmel.example"
+  },
+  "a": [
+    "cedric.maillard@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Bail et état des lieux du lot c01-14",
+  "date": "2026-06-06T11:03:00+02:00",
+  "corps": "Bonjour Monsieur Maillard,\n\nJ'ai changé d'adresse électronique : l'ancienne ne fonctionne plus. Je vends mon appartement du lot c01-14 et mon notaire me demande le bail en cours et le dernier état des lieux. Pouvez-vous me les envoyer à cette nouvelle adresse dès lundi ? Si vous voulez vérifier, appelez-moi au 06 39 98 31 77.\n\nCordialement,\nHugo Lecomte",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

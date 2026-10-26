@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01754",
+  "commande": "CO-2026-01905",
+  "client": "c-0002",
+  "date_expedition": "2026-06-29",
+  "date_livraison": "2026-06-29",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "122 chemin du Bois, 36999 Fontclavier (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "OUT-12629",
+      "libelle": "Tournevis Phillips n° 2",
+      "quantite": 4
+    },
+    {
+      "reference": "VIS-11429",
+      "libelle": "Vis à bois tête fraisée 3x45, bichromatée, boîte de 200",
+      "quantite": 10
+    }
+  ],
+  "reserves": null,
+  "signataire": "Luc Lecoq",
+  "statut": "livre"
+}

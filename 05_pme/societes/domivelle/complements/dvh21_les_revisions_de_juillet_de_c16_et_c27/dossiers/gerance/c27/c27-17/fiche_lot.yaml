@@ -1,0 +1,19 @@
+# Fiche du lot c27-17. Données FICTIVES.
+lot: c27-17
+adresse: 86 rue de la Croix-Blanche, 18999 Montclavel-sur-Cher (FICTIF)
+type: T2
+surface_m2: 45
+locataire:
+  nom: M. Laurent Huet
+  courriel: laurent.huet@courriel.example
+  telephone: 06 39 98 73 09
+  entree: '2018-07-12'
+bail:
+  signature: '2018-07-12'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 439,00 €
+  depot_de_garantie: 374,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T1
+dpe:
+  classe: F

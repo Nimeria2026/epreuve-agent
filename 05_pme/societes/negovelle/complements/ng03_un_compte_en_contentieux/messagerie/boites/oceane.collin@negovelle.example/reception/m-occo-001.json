@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-occo-001",
+  "de": {
+    "nom": "Manon Pinson",
+    "adresse": "manon.pinson@entreprise-foucault.example"
+  },
+  "a": [
+    "oceane.collin@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande serrures et cylindres",
+  "date": "2026-07-03T17:26:00+02:00",
+  "corps": "Bonjour,\n\nMerci de nous livrer au dépôt :\n\n- 4 x QUI-12654, Serrure en applique horizontale, axe 40 mm\n- 8 x QUI-11576, Cylindre européen 40x35 mm, 5 clés\n\nBonne journée,\nManon Pinson\nEntreprise Foucault",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

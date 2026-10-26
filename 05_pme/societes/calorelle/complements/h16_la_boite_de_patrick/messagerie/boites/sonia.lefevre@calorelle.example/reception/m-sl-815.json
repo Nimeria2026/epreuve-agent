@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-815",
+  "de": {
+    "nom": "Transports de Sablonnet",
+    "adresse": "compta@transports-de-sablonnet.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Votre règlement",
+  "date": "2026-11-20T16:05:00+01:00",
+  "corps": "Bonjour,\n\nNous avons bien reçu le 19 novembre votre règlement de notre facture TS-08907, 132,00 €. Merci.\n\nTransports de Sablonnet (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

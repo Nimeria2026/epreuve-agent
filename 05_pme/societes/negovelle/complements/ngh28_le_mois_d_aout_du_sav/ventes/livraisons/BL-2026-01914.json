@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01914",
+  "commande": "CO-2026-02094",
+  "client": "c-0311",
+  "date_expedition": "2026-07-27",
+  "date_livraison": "2026-07-28",
+  "transport": {
+    "mode": "transporteur",
+    "transporteur": "transports-delorme",
+    "recepisse": "TD-412940"
+  },
+  "adresse": "2 parc d'activités de la Gare, 36999 Vendrigny (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "VIS-12400",
+      "libelle": "Vis à bois tête fraisée 4x40, inox A2, boîte de 100",
+      "quantite": 10
+    },
+    {
+      "reference": "FIX-11813",
+      "libelle": "Tige filetée M12, longueur 1 m, brute",
+      "quantite": 20
+    }
+  ],
+  "reserves": null,
+  "signataire": "Éric Gallet",
+  "statut": "livre"
+}

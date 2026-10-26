@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-e01",
+  "de": {
+    "nom": "Bruno Castaing",
+    "adresse": "bruno.castaing@negovelle.example"
+  },
+  "a": [
+    "fabrice.mercier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Déjeuner avec Plâtrerie Lecoq",
+  "date": "2026-07-06T09:10:00+02:00",
+  "corps": "Fabrice,\n\nD'accord pour le déjeuner du 8 juillet avec le gérant de Plâtrerie Lecoq, pour leur chantier de la rentrée. Mets-le sur ta note de juillet.\n\nBruno",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

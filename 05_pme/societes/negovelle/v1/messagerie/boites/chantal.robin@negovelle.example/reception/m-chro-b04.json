@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-chro-b04",
+  "de": {
+    "nom": "Gilles Poirier",
+    "adresse": "gilles.poirier@negovelle.example"
+  },
+  "a": [
+    "chantal.robin@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Quai de réception",
+  "date": "2026-06-26T12:51:00+02:00",
+  "corps": "Bonjour,\n\nLe quai 2 est libre à nouveau pour les réceptions.\n\nGilles",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

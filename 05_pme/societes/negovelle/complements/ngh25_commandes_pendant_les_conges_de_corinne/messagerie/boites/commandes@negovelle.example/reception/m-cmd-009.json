@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-009",
+  "de": {
+    "nom": "Didier Auger",
+    "adresse": "didier.auger@peinture-bocquet.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Ruban adhésif",
+  "date": "2026-07-26T21:10:00+02:00",
+  "corps": "Bonjour,\n\nIl nous faut :\n\n- 24 x CON-11968, Ruban adhésif PVC 48 mm, rouleau de 10 m\n\nLivraison standard.\n\nDidier Auger\nPeinture Bocquet",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

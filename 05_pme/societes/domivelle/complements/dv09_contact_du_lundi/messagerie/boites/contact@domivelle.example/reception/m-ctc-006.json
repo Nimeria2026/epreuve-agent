@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-006",
+  "de": {
+    "nom": "Plomberie des Chaumes-Rouges",
+    "adresse": "facturation@plomberie-des-chaumes-rouges.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis pour le lot c01-06",
+  "date": "2026-06-08T07:40:00+02:00",
+  "corps": "Bonjour,\n\nSuite à notre visite, voici notre devis pour la fuite sous l'évier du lot c01-06 : 185,00 € TTC.\n\nPlomberie des Chaumes-Rouges",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-007",
+  "de": {
+    "nom": "Centre Auto Utilitaires",
+    "adresse": "promo@utilitaires-centre-auto.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Nos utilitaires à prix réduit",
+  "date": "2026-11-02T08:10:00+01:00",
+  "corps": "Bonjour,\n\nProfitez de nos offres de fin d'année sur les fourgons. Publicité FICTIVE.",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

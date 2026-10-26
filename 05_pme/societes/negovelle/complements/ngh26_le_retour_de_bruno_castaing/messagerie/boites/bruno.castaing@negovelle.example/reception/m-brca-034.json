@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-034",
+  "de": {
+    "nom": "Fabrice Mercier",
+    "adresse": "fabrice.mercier@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Nos conditions de paiement",
+  "date": "2026-08-19T10:30:00+02:00",
+  "corps": "Bruno, Serrurerie Salmon demande 75 jours fin de mois. Je te laisse décider.\n\nFabrice\n\n----- Message transféré -----\nDe : Noémie Péron <noemie.peron@serrurerie-salmon.example>\nObjet : Nos conditions de paiement\n\nBonjour,\n\nPour la rentrée, nous souhaiterions régler vos factures à 75 jours fin de mois.\n\nNoémie Péron\nSerrurerie Salmon",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

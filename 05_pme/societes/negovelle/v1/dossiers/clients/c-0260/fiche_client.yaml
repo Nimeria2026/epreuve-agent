@@ -1,0 +1,31 @@
+# Fiche du client c-0260 de Négovelle. Données FICTIVES.
+code: c-0260
+nom: Navarre Maintenance
+type: entreprise
+adresse: 18 zone industrielle des Brandes, 36999 Corvalet (FICTIF)
+telephone: 02 61 91 94 58
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Louis Guillon
+  fonction: conducteur de travaux
+  courriel: louis.guillon@navarre-maintenance.example
+- nom: Vincent Hoarau
+  fonction: responsable des achats
+  courriel: vincent.hoarau@navarre-maintenance.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 18 zone industrielle des Brandes, 36999 Corvalet (FICTIF)
+- code: L2
+  libelle: chantier déclaré
+  adresse: 37 rue des Jardins, 36999 Brissonne (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2012-10-01'
+limite_encours_euros: 7000.0
+livraisons_partielles: false
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

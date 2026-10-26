@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-aubo-b02",
+  "de": {
+    "nom": "Louis Guillon",
+    "adresse": "louis.guillon@navarre-maintenance.example"
+  },
+  "a": [
+    "aurelie.bonnefoy@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Copie de facture",
+  "date": "2026-06-26T14:42:00+02:00",
+  "corps": "Bonjour,\n\nPouvez-vous me renvoyer la facture de mai ? Je ne la retrouve pas.\n\nCordialement,\nLouis Guillon",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

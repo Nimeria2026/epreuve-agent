@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-603",
+  "de": {
+    "nom": "Gaines et conduits de Mirelande",
+    "adresse": "compta@gaines-et-conduits-de-mirelande.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture GCM-2026-318",
+  "date": "2026-11-02T07:50:00+01:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-jointe notre facture GCM-2026-318.\n\nCordialement,\nService comptabilité, Gaines et conduits de Mirelande (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "Facture_GCM-2026-318.pdf",
+      "fichier": "pieces/m-cpt-603/Facture_GCM-2026-318.pdf",
+      "taille_octets": 1497
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

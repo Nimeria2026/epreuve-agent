@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01755",
+  "commande": "CO-2026-01906",
+  "client": "c-0095",
+  "date_expedition": "2026-06-29",
+  "date_livraison": "2026-06-29",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "129 place du Marché, 36999 Vaumoreau-sur-Indre (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "CON-12417",
+      "libelle": "Ruban adhésif toilé gris 48 mm, rouleau de 25 m",
+      "quantite": 6
+    },
+    {
+      "reference": "QUI-11420",
+      "libelle": "Cylindre européen 30x30 mm, 3 clés",
+      "quantite": 4
+    }
+  ],
+  "reserves": null,
+  "signataire": "Arnaud Maurin",
+  "statut": "livre"
+}

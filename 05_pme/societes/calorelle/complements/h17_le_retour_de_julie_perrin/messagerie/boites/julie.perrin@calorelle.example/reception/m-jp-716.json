@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-716",
+  "de": {
+    "nom": "Thomas Girard",
+    "adresse": "thomas.girard@calorelle.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Agnès Robin : correction de ma note",
+  "date": "2026-12-21T07:50:00+01:00",
+  "corps": "Julie,\n\nJ'ai mal compté chez Agnès Robin : il faut remplacer 5 radiateurs, pas 4. Le reste de ma note ne change pas.\n\nThomas (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

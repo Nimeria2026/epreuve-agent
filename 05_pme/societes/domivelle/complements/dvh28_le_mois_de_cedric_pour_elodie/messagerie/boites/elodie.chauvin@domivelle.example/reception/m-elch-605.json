@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-elch-605",
+  "de": {
+    "nom": "Jeanne Vallée",
+    "adresse": "jeanne.vallee@boite-postale.example"
+  },
+  "a": [
+    "elodie.chauvin@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Plus de chauffage",
+  "date": "2026-10-10T09:15:00+02:00",
+  "corps": "Bonjour,\n\nMa chaudière est en panne depuis jeudi : plus de chauffage ni d'eau chaude dans la maison du lot c11-08. Chauffage des Fontenils est passé hier : le corps de chauffe est fendu, son devis de remplacement, 1 450,00 € TTC, est joint. Il fait 15 degrés dans la maison.\n\nJeanne Vallée",
+  "pieces_jointes": [
+    {
+      "nom": "devis_chaudiere_c11-08.pdf",
+      "fichier": "pieces/m-elch-605/devis_chaudiere_c11-08.pdf",
+      "taille_octets": 847
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

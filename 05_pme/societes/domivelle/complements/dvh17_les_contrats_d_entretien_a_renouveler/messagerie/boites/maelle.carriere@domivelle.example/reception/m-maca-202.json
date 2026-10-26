@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-maca-202",
+  "de": {
+    "nom": "Nettoyage du Pré-Carré",
+    "adresse": "facturation@nettoyage-du-pre-carre.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Nos tarifs pour les Lauriers et le Carré Pasteur",
+  "date": "2026-06-03T14:20:00+02:00",
+  "corps": "Madame,\n\nVoici nos nouveaux tarifs, à l'échéance annuelle de chaque contrat de nettoyage des parties communes :\n- Résidence Les Lauriers : 3 110,00 € TTC par an au lieu de 2 880,00 €, à compter du 1er juillet 2026 ;\n- Résidence Le Carré Pasteur : 3 532,00 € TTC par an au lieu de 3 364,00 €, à compter du 1er janvier 2027.\n\nNettoyage du Pré-Carré",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

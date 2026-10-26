@@ -1,0 +1,59 @@
+{
+  "numero": "BL-2026-01833",
+  "commande": "CO-2026-01984",
+  "client": "c-0016",
+  "date_expedition": "2026-07-02",
+  "date_livraison": "2026-07-02",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "6 rue des Peupliers, 36999 Corvalet (FICTIF)",
+  "colis": 3,
+  "lignes": [
+    {
+      "reference": "CON-12009",
+      "libelle": "Ruban adhésif aluminium 19 mm, rouleau de 33 m",
+      "quantite": 4
+    },
+    {
+      "reference": "ELE-11625",
+      "libelle": "Disjoncteur tétrapolaire 10 A, courbe D",
+      "quantite": 2
+    },
+    {
+      "reference": "ELP-10147",
+      "libelle": "Disque diamant granit 300 mm",
+      "quantite": 1
+    },
+    {
+      "reference": "ELP-10939",
+      "libelle": "Foret métal HSS 12 mm, étui de 2",
+      "quantite": 1
+    },
+    {
+      "reference": "ENT-11192",
+      "libelle": "Sacs poubelle 50 l, transparents, rouleau de 10",
+      "quantite": 10
+    },
+    {
+      "reference": "OUT-11371",
+      "libelle": "Niveau à bulle compact 150 cm",
+      "quantite": 3
+    },
+    {
+      "reference": "QUI-13438",
+      "libelle": "Équerre d'assemblage 50 mm, laiton, sachet de 4",
+      "quantite": 3
+    },
+    {
+      "reference": "VIS-12156",
+      "libelle": "Vis à bois tête fraisée 4x16, bichromatée, boîte de 500",
+      "quantite": 1
+    }
+  ],
+  "reserves": null,
+  "signataire": "Jacques Toussaint",
+  "statut": "livre"
+}

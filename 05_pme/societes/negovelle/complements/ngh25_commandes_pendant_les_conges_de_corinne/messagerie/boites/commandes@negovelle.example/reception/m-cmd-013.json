@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-013",
+  "de": {
+    "nom": "Christian Drouet",
+    "adresse": "christian.drouet@menuiserie-pelletier.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Retour d'articles",
+  "date": "2026-07-24T16:00:00+02:00",
+  "corps": "Bonjour,\n\nNous voudrions rendre quatre charnières livrées le 21 juillet, jamais utilisées, dans leur emballage. Comment faire ?\n\nChristian Drouet\nMenuiserie Pelletier",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

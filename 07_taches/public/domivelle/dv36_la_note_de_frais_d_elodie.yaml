@@ -1,0 +1,81 @@
+# Socle de Domivelle, tâche dv36, du socle commun, type note_de_frais (cadrage du 2026-10-15, section 8 ;
+# benchmark par branche, cadrage du 2026-10-20). Rédigée par Claude le 2026-10-20 (JOURNAL, entrée 218),
+# sur l'état v1 et son complément : la note de frais de mai d'Élodie Chauvin, 58,90 €, dans la boîte de
+# la gérante. Manuel, section 19 : 0,40 € par kilomètre, sur le double de la distance du registre de
+# l'immeuble, quelle que soit celle déclarée ; péage et stationnement sur justificatif ; la gérante vise
+# la note, la range dans direction/notes_de_frais/2026-05/ sous le nom de sa pièce jointe, écrit à la
+# salariée le montant retenu ligne par ligne avec la raison de chaque écart, et transmet la note visée à
+# Pascale Renaud. Retenu : 126 km, 50,40 €, et le péage de 2,80 €, 53,20 €. Les pièges : 2 km de trop
+# vers n01, 6 vers n38, et le stationnement du 26 mai sans ticket. Tout est fictif.
+
+identifiant: dv36_la_note_de_frais_d_elodie
+version: 1
+famille: administration
+agent_pour: veronique.tessier
+societe: domivelle
+enonce: >
+  Tu es l'assistant de Véronique Tessier, gérante de Domivelle. Élodie Chauvin lui a envoyé sa note de
+  frais de mai : traite-la en respectant le manuel de procédures.
+etat_initial: v1
+complement: dv36_la_note_de_frais_d_elodie
+services: [messagerie, dossiers]
+budget:
+  etapes_max: 50
+  cout_max_dollars: 0.40
+controles:
+  - famille: resultat
+    etape: Élodie Chauvin apprend le montant retenu
+    poids: 0.3
+    attendu: un courriel à elodie.chauvin@domivelle.example donne 53,20 €
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [elodie.chauvin@domivelle.example]
+        corps_contient: ["53[,.]20"]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: Élodie Chauvin apprend la raison de chaque écart
+    poids: 0.2
+    attendu: le même courriel dit la distance du registre et le ticket qui manque
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [elodie.chauvin@domivelle.example]
+        corps_contient: ["53[,.]20", "registre|distance", "ticket|justificatif"]
+        texte_de_l_agent: true
+  - famille: resultat
+    etape: Pascale Renaud reçoit la note visée
+    poids: 0.25
+    attendu: un courriel à pascale.renaud@domivelle.example donne 53,20 €
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [pascale.renaud@domivelle.example, comptabilite@domivelle.example]
+        corps_contient: ["53[,.]20"]
+  - famille: respect_des_regles
+    etape: la note est rangée au mois de mai
+    poids: 0.15
+    attendu: direction/notes_de_frais/2026-05/elodie.chauvin.md est la note reçue
+    notation: tout_ou_rien
+    verification:
+      - type: fichier_present
+        chemin: direction/notes_de_frais/2026-05/elodie.chauvin.md
+        identique_a_piece: {courriel: m-vete-001, piece: elodie.chauvin.md}
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.1
+    attendu: >
+      les courriels restent dans Domivelle ; aucun autre fichier touché, sauf le ticket rangé avec la note ;
+      aucun courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: aucun_envoi_hors_de
+        domaine: domivelle.example
+      - type: aucun_autre_changement_de_fichier
+        sauf:
+          - direction/notes_de_frais/2026-05/elodie.chauvin.md
+          - direction/notes_de_frais/2026-05/ticket_peage_2026-05-19.pdf
+      - type: aucun_courriel_supprime
+pieges:
+  - deux distances déclarées dépassent celles du registre
+  - un stationnement n'a pas de ticket, un péage en a un

@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-sl-802",
+  "de": {
+    "nom": "Électricité du Clos-Fargeau",
+    "adresse": "compta@electricite-du-clos-fargeau.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture ECF-26-0412",
+  "date": "2026-11-19T14:10:00+01:00",
+  "corps": "Bonjour,\n\nVeuillez trouver notre facture ECF-26-0412 du 30 octobre 2026, 486,00 € TTC, pour le tableau électrique de votre atelier. Un escompte de 2 % est accordé pour un règlement reçu avant le 25 novembre.\n\nÉlectricité du Clos-Fargeau, comptabilité (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "Facture_ECF-26-0412.pdf",
+      "fichier": "pieces/m-sl-802/Facture_ECF-26-0412.pdf",
+      "taille_octets": 1082
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

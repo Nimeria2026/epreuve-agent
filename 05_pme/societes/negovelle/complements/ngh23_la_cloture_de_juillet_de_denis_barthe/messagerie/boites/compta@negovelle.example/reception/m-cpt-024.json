@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-024",
+  "de": {
+    "nom": "Protection de la Croisette",
+    "adresse": "facturation@protection-de-la-croisette.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Avoir AV-PC-0418 sur F42708",
+  "date": "2026-07-30T10:45:00+02:00",
+  "corps": "Bonjour,\n\nSuite à votre réclamation du 3 juillet, veuillez trouver ci-joint notre avoir AV-PC-0418 de 120,00 € TTC sur la facture F42708, pour les 10 casques PRO-10230 facturés en trop.\n\nService facturation\nProtection de la Croisette",
+  "pieces_jointes": [
+    {
+      "nom": "AV-PC-0418.pdf",
+      "fichier": "pieces/m-cpt-024/AV-PC-0418.pdf",
+      "taille_octets": 823
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

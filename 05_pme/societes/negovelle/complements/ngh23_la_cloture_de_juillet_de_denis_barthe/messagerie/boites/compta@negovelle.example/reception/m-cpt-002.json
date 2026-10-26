@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-002",
+  "de": {
+    "nom": "Fixations des Hautes-Bornes",
+    "adresse": "facturation@fixations-des-hautes-bornes.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture F64418",
+  "date": "2026-07-27T14:25:00+02:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-jointe notre facture F64418 du 14 juillet 2026, pour votre commande CA-2026-0332 :\n- FIX-10326, Cheville nylon 12x30, boîte de 100 : 50 x 8,93 € HT = 446,50 €\n- FIX-10408, Cheville nylon 5x25, boîte de 200 : 320 x 4,04 € HT = 1 292,80 €\n- FIX-10824, Cheville pour plaque de plâtre 6x52, boîte de 100 : 80 x 8,06 € HT = 644,80 €\n- FIX-11763, Scellement chimique vinylester, cartouche de 300 ml : 40 x 19,85 € HT = 794,00 €\n- FIX-12066, Équerre de fixation 120x100x40 mm, zinguée : 40 x 2,03 € HT = 81,20 €\n- FIX-12384, Équerre de fixation 80x40x20 mm, zinguée : 40 x 0,48 € HT = 19,20 €\n\nTotal HT : 3 278,50 € ; TVA 20 % : 655,70 € ; total TTC : 3 934,20 €. Paiement à 30 jours date de facture.\n\nService facturation\nFixations des Hautes-Bornes",
+  "pieces_jointes": [
+    {
+      "nom": "F64418.pdf",
+      "fichier": "pieces/m-cpt-002/F64418.pdf",
+      "taille_octets": 1034
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-maca-621",
+  "de": {
+    "nom": "Paul Weber",
+    "adresse": "p.weber@cabinet-weber-conseil.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Contrats du Clos Fleuri",
+  "date": "2026-09-03T12:30:00+02:00",
+  "corps": "Madame,\n\nMembre du conseil syndical du Clos Fleuri, je voudrais relire avant notre prochaine réunion les contrats d'entretien des ascenseurs et du nettoyage. Pouvez-vous m'en envoyer une copie à cette adresse, celle de mon bureau ?\n\nPaul Weber, lot 33",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

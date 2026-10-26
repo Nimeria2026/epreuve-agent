@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01893",
+  "commande": "CO-2026-02073",
+  "client": "c-0307",
+  "date_expedition": "2026-07-28",
+  "date_livraison": "2026-07-29",
+  "transport": {
+    "mode": "transporteur",
+    "transporteur": "transports-delorme",
+    "recepisse": "TD-412998"
+  },
+  "adresse": "124 rue des Chênes, 36999 Fontclavier (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "VIS-10890",
+      "libelle": "Vis à bois tête fraisée 3,5x40, inox A2, boîte de 500",
+      "quantite": 10
+    }
+  ],
+  "reserves": null,
+  "signataire": "Robert Billard",
+  "statut": "livre"
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-elch-006",
+  "de": {
+    "nom": "M. Claude Tissier",
+    "adresse": "claude.tissier@messagerie.example"
+  },
+  "a": [
+    "elodie.chauvin@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Robinet qui goutte",
+  "date": "2026-06-06T11:47:00+02:00",
+  "corps": "Bonjour,\n\nLe robinet de la cuisine goutte : il faudrait changer le joint. Pouvez-vous m'envoyer un plombier ?\n\nClaude Tissier, lot n02-10",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-012",
+  "de": {
+    "nom": "Laurent Gimenez",
+    "adresse": "laurent.gimenez@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Navarre Maintenance, CO-2026-02044",
+  "date": "2026-08-12T14:00:00+02:00",
+  "corps": "Bruno,\n\nNavarre Maintenance (c-0260) attend ton accord depuis le 10 août : je leur avais promis 10 % sous leur prix net sur les serrures à larder QUI-12817. J'ai saisi le brouillon CO-2026-02044, 40 serrures à 32,13 € HT ; il faudrait donc 28,92 €.\n\nLaurent",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

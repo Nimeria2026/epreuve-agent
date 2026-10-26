@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cpt-b04",
+  "de": {
+    "nom": "Hygiène de la Brenne",
+    "adresse": "commandes@hygiene-de-la-brenne.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Confirmation de commande",
+  "date": "2026-06-23T12:20:00+02:00",
+  "corps": "Bonjour,\n\nNous confirmons votre commande ; livraison prévue la semaine prochaine.\n\nLe service commandes\nHygiène de la Brenne",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

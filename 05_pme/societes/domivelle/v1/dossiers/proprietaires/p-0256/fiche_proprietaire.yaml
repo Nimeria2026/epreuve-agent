@@ -1,0 +1,12 @@
+# Fiche du propriétaire p-0256, mandant de Domivelle. Données FICTIVES.
+code: p-0256
+nom: M. Didier Hamon
+adresse: 6 rue du Lavoir, 18999 Montclavel-sur-Cher (FICTIF)
+courriel: didier.hamon@messagerie.example
+telephone: 06 39 98 92 32
+iban: FR76 9999 9309 4526 0700 0459 535 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- c27-01
+- c28-04
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

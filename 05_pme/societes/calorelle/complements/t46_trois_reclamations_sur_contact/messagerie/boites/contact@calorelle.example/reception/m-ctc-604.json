@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-604",
+  "de": {
+    "nom": "Lucie Morel",
+    "adresse": "lucie.morel@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Demande de devis",
+  "date": "2026-11-02T08:20:00+01:00",
+  "corps": "Bonjour,\n\nJe voudrais remplacer ma vieille chaudière au fioul par une pompe à chaleur. Pouvez-vous me faire un devis ? J'habite une maison de 1975 à Valmont-sur-Loire.\n\nLucie Morel (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

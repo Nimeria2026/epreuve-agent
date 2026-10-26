@@ -1,0 +1,10 @@
+# Fiche d'un fournisseur de Négovelle. Données FICTIVES.
+nom: Fixations des Brandes
+activite: fabricant de chevilles et de systèmes d'ancrage
+adresse: 18 zone industrielle des Brandes, 36999 Corvalet (FICTIF)
+telephone: 02 61 91 91 14
+courriel_commandes: commandes@fixations-des-brandes.example
+courriel_facturation: facturation@fixations-des-brandes.example
+iban: FR76 9999 9289 0349 3941 0027 069 (FICTIF)
+conditions: paiement à 60 jours date de facture
+minimum_de_commande: 500,00 € HT

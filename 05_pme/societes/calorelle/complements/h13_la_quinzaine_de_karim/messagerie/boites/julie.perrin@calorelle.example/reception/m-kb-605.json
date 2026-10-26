@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-605",
+  "de": {
+    "nom": "Syndic de la Résidence du Clos-Fargeau",
+    "adresse": "contact@syndic-de-la-residence-du-clos-fargeau-25.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Passage au contrat Sérénité Plus",
+  "date": "2026-11-21T18:30:00+01:00",
+  "corps": "Bonjour Monsieur Benali,\n\nAprès les pannes de l'hiver dernier, le conseil syndical souhaite passer notre contrat Sérénité au contrat Sérénité Plus, à partir du 1er décembre. Combien nous coûtera ce changement d'ici la fin de notre année de contrat ?\n\nCordialement,\nLe syndic de la Résidence du Clos-Fargeau, 48 rue du Moulin, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

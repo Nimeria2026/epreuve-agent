@@ -1,0 +1,31 @@
+# Fiche du client c-0293 de Négovelle. Données FICTIVES.
+code: c-0293
+nom: Menuiserie Navarre
+type: artisan
+adresse: 82 rue du Lavoir, 36999 Mérolles-en-Brenne (FICTIF)
+telephone: 02 61 91 65 33
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Fabienne Barre
+  fonction: gérante
+  courriel: fabienne.barre@menuiserie-navarre.example
+- nom: Sophie Lecoq
+  fonction: conjointe collaboratrice
+  courriel: sophie.lecoq@menuiserie-navarre.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 82 rue du Lavoir, 36999 Mérolles-en-Brenne (FICTIF)
+- code: L2
+  libelle: chantier déclaré
+  adresse: 73 place du Marché, 36999 Saulvenne (FICTIF)
+categorie_remise: C
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2014-03-01'
+limite_encours_euros: 1500.0
+livraisons_partielles: false
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

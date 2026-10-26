@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-mare-020",
+  "de": {
+    "nom": "Gilles Poirier",
+    "adresse": "gilles.poirier@negovelle.example"
+  },
+  "a": [
+    "manon.rey@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Mardi 14 juillet",
+  "date": "2026-07-07T16:30:00+02:00",
+  "corps": "Bonjour à tous,\n\nMardi 14 juillet, jour férié, l'entrepôt est fermé : rien n'est préparé ni livré, et le transporteur ne passe pas. Les livraisons reprennent le mercredi 15.\n\nGilles",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

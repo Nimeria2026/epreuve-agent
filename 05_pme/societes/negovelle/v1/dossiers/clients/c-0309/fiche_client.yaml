@@ -1,0 +1,31 @@
+# Fiche du client c-0309 de Négovelle. Données FICTIVES.
+code: c-0309
+nom: Entreprise Foucault
+type: entreprise
+adresse: 22 zone artisanale du Moulin, 36999 Mérolles-en-Brenne (FICTIF)
+telephone: 02 61 91 85 72
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Manon Pinson
+  fonction: conductrice de travaux
+  courriel: manon.pinson@entreprise-foucault.example
+- nom: Claire Allard
+  fonction: responsable des achats
+  courriel: claire.allard@entreprise-foucault.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 22 zone artisanale du Moulin, 36999 Mérolles-en-Brenne (FICTIF)
+- code: L2
+  libelle: dépôt
+  adresse: 20 zone industrielle des Brandes, 36999 Saulvenne (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2018-05-01'
+limite_encours_euros: 5500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: bloque
+motif_blocage: 'impayé : mise en demeure du 5 juin restée sans effet'

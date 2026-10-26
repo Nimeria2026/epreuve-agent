@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-933",
+  "de": {
+    "nom": "Distri-Clim Centre, service commercial",
+    "adresse": "commercial@distri-clim-centre.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "RE: Rendez-vous avec Mme Marchal",
+  "date": "2027-02-01T08:30:00+01:00",
+  "corps": "Madame,\n\nUne précision à notre demande de vendredi : notre responsable régional ne sera pas disponible le mardi 9 février. Merci de nous proposer le premier autre mardi ou jeudi matin possible.\n\nDistri-Clim Centre (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

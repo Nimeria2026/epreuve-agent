@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-624",
+  "de": {
+    "nom": "Philippe Bonnet",
+    "adresse": "philippe.bonnet@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Plus de chauffage",
+  "date": "2026-11-24T08:26:00+01:00",
+  "corps": "Bonjour,\n\nMa chaudière ne s'allume plus depuis ce matin, l'écran affiche un code d'erreur. Pouvez-vous passer ?\n\nPhilippe Bonnet, 58 rue Haute, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

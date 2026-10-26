@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-704",
+  "de": {
+    "nom": "Isabelle Bonnet",
+    "adresse": "isabelle.bonnet@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis climatisation",
+  "date": "2026-12-10T14:20:00+01:00",
+  "corps": "Bonjour,\n\nSuite à la visite de M. Lambert hier, j'attends votre devis pour la climatisation du séjour et des deux chambres.\n\nIsabelle Bonnet, 93 rue de la Loire, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,47 @@
+# Registre des lots en gestion, n33. Données FICTIVES.
+immeuble: n33
+nature: groupe de maisons
+adresse: 27 allée des Acacias, 18999 Saint-Aubrin-des-Bois (FICTIF)
+secteur: nord
+gestionnaire: Élodie Chauvin
+distance_agence_km: 19
+annee_construction: 1974
+gardien: false
+copropriete_du_syndic: null
+lots:
+- lot: n33-01
+  type: maison T3
+  surface_m2: 74
+  proprietaire: p-0432
+  locataire: Mme Laure Rolland
+  entree: '2024-01-26'
+  loyer_hors_charges: 703,00 €
+  provision_sur_charges: 17,00 €
+  depot_de_garantie: 670,00 €
+  revision: chaque 26 janvier
+  trimestre_irl: T3
+  dpe: C
+- lot: n33-02
+  type: maison T5
+  surface_m2: 100
+  proprietaire: p-0479
+  locataire: Mme Odile Gomez
+  entree: '2016-07-20'
+  loyer_hors_charges: 885,00 €
+  provision_sur_charges: 8,00 €
+  depot_de_garantie: 722,00 €
+  revision: chaque 20 juillet
+  trimestre_irl: T1
+  dpe: E
+- lot: n33-03
+  type: maison T3
+  surface_m2: 74
+  proprietaire: p-0480
+  locataire: M. Fabrice Poirier
+  entree: '2015-06-22'
+  loyer_hors_charges: 619,00 €
+  provision_sur_charges: 16,00 €
+  depot_de_garantie: 495,00 €
+  revision: chaque 22 juin
+  trimestre_irl: T1
+  dpe: E

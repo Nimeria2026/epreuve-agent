@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-maca-603",
+  "de": {
+    "nom": "Maçonnerie des Chaumes-Rouges",
+    "adresse": "facturation@maconnerie-des-chaumes-rouges.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Ravalement du Square des Écoles",
+  "date": "2026-09-02T08:30:00+02:00",
+  "corps": "Madame,\n\nPour le ravalement de la Résidence Le Square des Écoles, M. Delmas nous avait parlé d'un début le lundi 5 octobre. Pouvez-vous nous le confirmer ? Nous devons réserver l'échafaudage cette semaine.\n\nMaçonnerie des Chaumes-Rouges",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

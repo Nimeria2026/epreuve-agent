@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-b04",
+  "de": {
+    "nom": "Céline Robin",
+    "adresse": "celine.robin@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Visite pour un devis de climatisation",
+  "date": "2026-10-29T17:48:00+01:00",
+  "corps": "Bonjour,\n\nMerci pour votre appel : j'attends la visite de votre technicien pour le devis de climatisation de mon salon.\n\nCéline Robin (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

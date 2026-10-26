@@ -1,0 +1,70 @@
+{
+  "numero": "CO-2026-02045",
+  "client": "c-0262",
+  "reference_client": null,
+  "cree_le": "2026-07-03T14:00:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "1 rue Saint-Martin, 36999 Vendrigny (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ENT-11118",
+      "libelle": "Sacs poubelle 30 l, renforcés, rouleau de 20",
+      "quantite": 20,
+      "prix_tarif_ht_euros": 5.65,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 5.42,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 108.4
+    },
+    {
+      "reference": "QUI-10767",
+      "libelle": "Charnière invisible 30 mm, inox",
+      "quantite": 30,
+      "prix_tarif_ht_euros": 12.25,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 11.76,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 352.8
+    },
+    {
+      "reference": "QUI-10645",
+      "libelle": "Charnière de meuble à visser 50 mm, laiton",
+      "quantite": 20,
+      "prix_tarif_ht_euros": 12.1,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 11.62,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 232.4
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 693.6,
+  "total_tva_euros": 138.72,
+  "total_ttc_euros": 832.32,
+  "statut": "en_attente_deblocage",
+  "motif_attente": "encours dépassé : encours 3 511,84 € et commande 832,32 € TTC pour une limite de 4 000,00 €",
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T14:00:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": "commande du client"
+    },
+    {
+      "date": "2026-07-03T14:02:00+02:00",
+      "par": "benoit.faure",
+      "action": "mise_en_attente",
+      "detail": "encours dépassé"
+    }
+  ]
+}

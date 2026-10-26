@@ -1,0 +1,19 @@
+# Fiche du lot s13-08. Données FICTIVES.
+lot: s13-08
+adresse: 38 rue du Château, 18999 Chantebrune (FICTIF)
+type: T3
+surface_m2: 64
+locataire:
+  nom: Mme Amandine Laurent
+  courriel: amandine.laurent@messagerie.example
+  telephone: 06 39 98 76 03
+  entree: '2014-06-20'
+bail:
+  signature: '2014-06-20'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 502,00 €
+  depot_de_garantie: 394,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T1
+dpe:
+  classe: A

@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01701",
+  "commande": "CO-2026-01852",
+  "client": "c-0158",
+  "date_expedition": "2026-06-25",
+  "date_livraison": "2026-06-25",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "117 chemin des Prés, 36999 Corvalet (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "PRO-10882",
+      "libelle": "Gants de manutention anticoupure niveau F, taille 11",
+      "quantite": 120
+    }
+  ],
+  "reserves": null,
+  "signataire": "Laurent Allard",
+  "statut": "livre"
+}

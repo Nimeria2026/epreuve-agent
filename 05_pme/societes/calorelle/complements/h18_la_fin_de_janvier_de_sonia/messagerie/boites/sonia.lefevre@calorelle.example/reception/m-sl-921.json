@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-921",
+  "de": {
+    "nom": "Antoine Leroy",
+    "adresse": "antoine.leroy@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Décaler mon congé",
+  "date": "2027-01-29T16:45:00+01:00",
+  "corps": "Sonia,\n\nFinalement, peux-tu demander à Hélène de décaler mon congé du 15 au 19 février à la semaine suivante, du lundi 22 au vendredi 26 février ?\n\nAntoine (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

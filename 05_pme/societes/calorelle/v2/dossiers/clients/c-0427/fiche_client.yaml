@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0427"
+nom: "Olivier Muller"
+type: "particulier"
+adresse: "66 rue du Moulin, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "olivier.muller@courriel.example"
+telephone: "06 39 98 51 02"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2019-04-11"
+  mois_anniversaire: "avril"
+  derniere_visite: "2026-04-23"

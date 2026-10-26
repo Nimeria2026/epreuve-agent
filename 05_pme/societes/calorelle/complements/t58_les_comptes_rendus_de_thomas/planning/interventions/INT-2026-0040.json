@@ -1,0 +1,13 @@
+{
+  "numero": "INT-2026-0040",
+  "client": "c-0536",
+  "techniciens": [
+    "thomas.girard"
+  ],
+  "debut": "2026-11-03T16:00:00+01:00",
+  "fin": "2026-11-03T17:30:00+01:00",
+  "nature": "visite_annuelle",
+  "objet": "Visite annuelle de la chaufferie de l'école, contrat Sérénité Plus",
+  "statut": "planifiee",
+  "cree_par": "marc.duval"
+}

@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-vete-001",
+  "de": {
+    "nom": "Gaëlle Fournel",
+    "adresse": "gaelle.fournel@domivelle.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Mon arrêt de travail",
+  "date": "2026-06-08T07:52:00+02:00",
+  "corps": "Véronique,\n\nJe suis en arrêt maladie du lundi 8 au vendredi 19 juin inclus ; l'avis d'arrêt de travail est joint. Désolée de prévenir si tard.\n\nGaëlle",
+  "pieces_jointes": [
+    {
+      "nom": "avis_arret_de_travail.pdf",
+      "fichier": "pieces/m-vete-001/avis_arret_de_travail.pdf",
+      "taille_octets": 784
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-elch-002",
+  "de": {
+    "nom": "Hugo Hubert",
+    "adresse": "hugo.hubert@boite-postale.example"
+  },
+  "a": [
+    "elodie.chauvin@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Attestation d'assurance",
+  "date": "2026-06-07T21:03:00+02:00",
+  "corps": "Bonjour,\n\nVoici mon attestation d'assurance, désolé pour le retard.\n\nHugo Hubert, lot n02-08",
+  "pieces_jointes": [
+    {
+      "nom": "attestation_assurance.pdf",
+      "fichier": "pieces/m-elch-002/attestation_assurance.pdf",
+      "taille_octets": 824
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

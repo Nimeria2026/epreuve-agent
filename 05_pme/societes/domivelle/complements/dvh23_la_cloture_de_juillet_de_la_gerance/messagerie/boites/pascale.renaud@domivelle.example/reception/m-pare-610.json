@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-pare-610",
+  "de": {
+    "nom": "Solène Audoin",
+    "adresse": "solene.audoin@domivelle.example"
+  },
+  "a": [
+    "pascale.renaud@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Chauffe-eau de s18-16",
+  "date": "2026-07-31T16:20:00+02:00",
+  "corps": "Pascale,\n\nPlomberie des Chaumes-Rouges a changé le groupe de sécurité du chauffe-eau du lot s18-16 le mardi 28 juillet ; le plombier m'a annoncé 168,00 € TTC. Sa facture n'est pas encore arrivée : déduis déjà les 168,00 € du reversement du 10 août de la SCI Les Platanes Invest, ça évitera un mois de décalage.\n\nSolène",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

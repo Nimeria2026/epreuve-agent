@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-002",
+  "de": {
+    "nom": "Papeterie du Val",
+    "adresse": "factures@papeterie-du-val.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Votre facture PV-26-0412",
+  "date": "2026-11-02T08:05:00+01:00",
+  "corps": "Bonjour,\n\nVoici votre facture PV-26-0412 du 2 novembre 2026, d'un montant de 96,00 € TTC.\n\nPapeterie du Val (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "Facture PV-26-0412.pdf",
+      "fichier": "pieces/m-cpt-002/Facture PV-26-0412.pdf",
+      "taille_octets": 1107
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

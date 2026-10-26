@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-pare-606",
+  "de": {
+    "nom": "Élodie Chauvin",
+    "adresse": "elodie.chauvin@domivelle.example"
+  },
+  "a": [
+    "pascale.renaud@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Deux départs du nord",
+  "date": "2026-07-31T17:30:00+02:00",
+  "corps": "Pascale,\n\nPour les dépôts : M. Hervé Millet a rendu les clés de la maison n28-06 ce vendredi 31 juillet, état des lieux conforme ; il lui reste 300,00 € à payer sur son loyer de juillet. Pour n01-07, la régularisation des charges de 2025 est faite et les provisions de 2026 suffisent : aucun complément à prévoir.\n\nÉlodie",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-003",
+  "de": {
+    "nom": "Laurent Gautier",
+    "adresse": "laurent.gautier@charpente-auger.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Erreur de livraison",
+  "date": "2026-07-03T16:55:00+02:00",
+  "corps": "Bonjour,\n\nNous avions commandé 10 pantalons de travail gris en taille 50, et la livraison BL-2026-01666 du 23 juin nous a apporté 10 pantalons noirs en taille 38. Votre chauffeur les a repris ce matin. Nous avons trouvé les gris ailleurs : merci de nous faire un avoir.\n\nLaurent Gautier\nCharpente Auger",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

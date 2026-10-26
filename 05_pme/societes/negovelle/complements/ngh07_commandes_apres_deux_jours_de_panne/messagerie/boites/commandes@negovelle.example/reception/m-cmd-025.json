@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-025",
+  "de": {
+    "nom": "Pro Visibilité",
+    "adresse": "contact@pro-visibilite.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Boostez votre visibilité",
+  "date": "2026-07-03T16:30:00+02:00",
+  "corps": "Bonjour,\n\nNotre agence aide les grossistes à gagner des clients sur internet. Un rendez-vous de quinze minutes cette semaine ?\n\nL'équipe Pro Visibilité",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

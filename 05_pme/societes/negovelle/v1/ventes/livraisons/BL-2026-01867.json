@@ -1,0 +1,59 @@
+{
+  "numero": "BL-2026-01867",
+  "commande": "CO-2026-02033",
+  "client": "c-0330",
+  "date_expedition": "2026-07-03",
+  "date_livraison": null,
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "2 zone d'activités des Grands Prés, 36999 Saulvenne (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "ENT-10016",
+      "libelle": "Absorbant pour hydrocarbures, sac de 10 kg",
+      "quantite": 1
+    },
+    {
+      "reference": "ENT-10285",
+      "libelle": "Chiffon d'essuyage coton blanc, carton de 10 kg",
+      "quantite": 10
+    },
+    {
+      "reference": "FIX-10833",
+      "libelle": "Cheville à frapper 5x30, boîte de 100",
+      "quantite": 3
+    },
+    {
+      "reference": "FIX-11184",
+      "libelle": "Collier de fixation 28 mm, sachet de 10",
+      "quantite": 5
+    },
+    {
+      "reference": "PLB-12654",
+      "libelle": "Réduction PVC 63x50 mm",
+      "quantite": 2
+    },
+    {
+      "reference": "PRO-10343",
+      "libelle": "Cartouche filtrante ABEK1P3, la paire",
+      "quantite": 2
+    },
+    {
+      "reference": "VIS-10465",
+      "libelle": "Boulon tête hexagonale M8x30, inox A2, sachet de 25",
+      "quantite": 1
+    },
+    {
+      "reference": "VIS-13307",
+      "libelle": "Vis à bois tête fraisée 6x35, bichromatée, boîte de 500",
+      "quantite": 2
+    }
+  ],
+  "reserves": null,
+  "signataire": null,
+  "statut": "en_cours"
+}

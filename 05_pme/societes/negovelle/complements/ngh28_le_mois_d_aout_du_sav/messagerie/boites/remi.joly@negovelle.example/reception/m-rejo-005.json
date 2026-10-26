@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-rejo-005",
+  "de": {
+    "nom": "Nathalie Brunet",
+    "adresse": "nathalie.brunet@negovelle.example"
+  },
+  "a": [
+    "remi.joly@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Flexibles manquants",
+  "date": "2026-08-07T16:35:00+02:00",
+  "corps": "Rémi, un de mes dossiers ouverts, à reprendre.\n\nNathalie\n\n----- Message transféré -----\nDe : Françoise Daniel <francoise.daniel@chauffage-mabille.example>\nDate : 2026-07-23T16:45:00+02:00\nObjet : Flexibles manquants\n\nBonjour,\n\nDans la livraison du 21 juillet, BL-2026-01883, il manque 5 flexibles PLB-11200 sur 20. Nous avons protesté auprès du transporteur par lettre recommandée aujourd'hui (copie jointe).\n\nFrançoise Daniel\nChauffage Mabille",
+  "pieces_jointes": [
+    {
+      "nom": "lettre_recommandee_transporteur.pdf",
+      "fichier": "pieces/m-rejo-005/lettre_recommandee_transporteur.pdf",
+      "taille_octets": 943
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

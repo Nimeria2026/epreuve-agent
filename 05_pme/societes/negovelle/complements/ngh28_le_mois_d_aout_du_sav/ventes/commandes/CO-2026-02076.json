@@ -1,0 +1,68 @@
+{
+  "numero": "CO-2026-02076",
+  "client": "c-0002",
+  "reference_client": null,
+  "cree_le": "2026-07-21T10:00:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "122 chemin du Bois, 36999 Fontclavier (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-11396",
+      "libelle": "Câble téléphonique 2 paire(s), couronne de 25 m",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 70.05,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 70.05,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 280.2
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 295.2,
+  "total_tva_euros": 59.04,
+  "total_ttc_euros": 354.24,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01896"
+  ],
+  "facture": "FC-2026-1466",
+  "historique": [
+    {
+      "date": "2026-07-21T10:00:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": "commande du client"
+    },
+    {
+      "date": "2026-07-21T10:05:00+02:00",
+      "par": "oceane.collin",
+      "action": "validee",
+      "detail": "stock réservé"
+    },
+    {
+      "date": "2026-07-22T16:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01896"
+    },
+    {
+      "date": "2026-07-23T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01896"
+    },
+    {
+      "date": "2026-07-31T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1466"
+    }
+  ]
+}

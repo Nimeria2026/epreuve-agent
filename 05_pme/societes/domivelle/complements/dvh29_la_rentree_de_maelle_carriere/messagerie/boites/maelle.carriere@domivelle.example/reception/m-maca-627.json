@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-maca-627",
+  "de": {
+    "nom": "Dominique Fournier",
+    "adresse": "dominique.fournier@mel-perso.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Le ménage de l'immeuble",
+  "date": "2026-09-01T19:20:00+02:00",
+  "corps": "Madame,\n\nDepuis la mi-août, le hall et l'escalier du Parc Saint-Martin ne sont plus nettoyés qu'une fois par semaine au lieu de deux, et les poubelles ne sont plus sorties le jeudi soir. Pouvez-vous faire le nécessaire ?\n\nDominique Fournier, lot 4",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

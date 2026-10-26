@@ -1,0 +1,79 @@
+{
+  "numero": "CO-2026-01902",
+  "client": "c-0301",
+  "reference_client": "BC-1870",
+  "cree_le": "2026-06-26T09:10:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "13 zone d'activités des Grands Prés, 36999 Corvalet (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELP-10195",
+      "libelle": "Disque à tronçonner béton 115 mm, boîte de 10",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 61.1,
+      "remise_pourcent": 6.88,
+      "prix_net_ht_euros": 56.9,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 682.8
+    },
+    {
+      "reference": "PRO-10441",
+      "libelle": "Casque de chantier non ventilé, blanc",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 23.75,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 22.8,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 114.0
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 796.8,
+  "total_tva_euros": 159.36,
+  "total_ttc_euros": 956.16,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01751"
+  ],
+  "facture": "FC-2026-1278",
+  "historique": [
+    {
+      "date": "2026-06-26T09:10:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-26T09:12:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-29T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01751"
+    },
+    {
+      "date": "2026-06-29T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01751"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1278"
+    }
+  ]
+}

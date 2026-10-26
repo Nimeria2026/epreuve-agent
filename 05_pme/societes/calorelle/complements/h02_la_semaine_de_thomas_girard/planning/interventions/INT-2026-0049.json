@@ -1,0 +1,14 @@
+{
+  "numero": "INT-2026-0049",
+  "client": "c-0017",
+  "techniciens": [
+    "thomas.girard",
+    "antoine.leroy"
+  ],
+  "debut": "2026-11-17T08:00:00+01:00",
+  "fin": "2026-11-17T12:00:00+01:00",
+  "nature": "installation",
+  "objet": "Remplacement de la chaudière fioul de la chaufferie, première demi-journée",
+  "statut": "planifiee",
+  "cree_par": "marc.duval"
+}

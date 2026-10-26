@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-010",
+  "de": {
+    "nom": "Caroline Pasquet",
+    "adresse": "caroline.pasquet@bunel-et-fils.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-03T10:48:00+02:00",
+  "corps": "Bonjour,\n\nVoici notre commande, à livrer au siège :\n\n- 20 x PLB-10146, Bonde à grille 60 mm\n- 10 x PLB-10097, Bonde de douche 90 mm\n\nMerci de nous confirmer la livraison.\n\nCordialement,\nCaroline Pasquet\nBunel et Fils",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

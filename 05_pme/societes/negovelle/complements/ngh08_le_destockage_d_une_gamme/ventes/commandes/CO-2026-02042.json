@@ -1,0 +1,75 @@
+{
+  "numero": "CO-2026-02042",
+  "client": "c-0115",
+  "reference_client": null,
+  "cree_le": "2026-07-03T15:00:00+02:00",
+  "cree_par": "fabrice.mercier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "118 place du Marché, 36999 Vendrigny (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "OUT-10114",
+      "libelle": "Caisse à outils métallique 400 mm",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 17.55,
+      "remise_pourcent": 5.92,
+      "prix_net_ht_euros": 16.51,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 165.1
+    },
+    {
+      "reference": "OUT-10130",
+      "libelle": "Caisse à outils métallique 700 mm",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 72.4,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 69.5,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 278.0
+    },
+    {
+      "reference": "OUT-10138",
+      "libelle": "Caisse à outils plastique 400 mm",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 86.35,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 82.9,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 497.4
+    },
+    {
+      "reference": "OUT-11241",
+      "libelle": "Marteau à panne fendue 600 g",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 27.5,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 26.4,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 105.6
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 1046.1,
+  "total_tva_euros": 209.22,
+  "total_ttc_euros": 1255.32,
+  "statut": "brouillon",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T15:00:00+02:00",
+      "par": "fabrice.mercier",
+      "action": "creee",
+      "detail": "prix du déstockage attendus"
+    }
+  ]
+}

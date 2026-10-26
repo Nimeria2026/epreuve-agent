@@ -1,0 +1,79 @@
+{
+  "numero": "CO-2026-02065",
+  "client": "c-0148",
+  "reference_client": null,
+  "cree_le": "2026-07-23T10:00:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "71 rue des Remparts, 36999 Vaumoreau-sur-Indre (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "FIX-11519",
+      "libelle": "Goujon d'ancrage M10x90, boîte de 25",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 42.85,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 42.85,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 257.1
+    },
+    {
+      "reference": "VIS-12760",
+      "libelle": "Vis à bois tête fraisée 5x25, inox A2, boîte de 100",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 21.9,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 21.9,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 219.0
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 476.1,
+  "total_tva_euros": 95.22,
+  "total_ttc_euros": 571.32,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01885"
+  ],
+  "facture": "FC-2026-1456",
+  "historique": [
+    {
+      "date": "2026-07-23T10:00:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": "commande du client"
+    },
+    {
+      "date": "2026-07-23T10:05:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": "stock réservé"
+    },
+    {
+      "date": "2026-07-24T16:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01885"
+    },
+    {
+      "date": "2026-07-27T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01885"
+    },
+    {
+      "date": "2026-07-31T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1456"
+    }
+  ]
+}

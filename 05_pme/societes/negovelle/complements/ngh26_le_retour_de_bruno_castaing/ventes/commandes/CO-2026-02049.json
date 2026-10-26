@@ -1,0 +1,75 @@
+{
+  "numero": "CO-2026-02049",
+  "client": "c-0327",
+  "reference_client": null,
+  "cree_le": "2026-08-12T15:00:00+02:00",
+  "cree_par": "samir.ouali",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "114 rue du Château, 36999 Mérolles-en-Brenne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELP-11420",
+      "libelle": "Meuleuse d'angle 150 mm, 2000 W",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 124.0,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 124.0,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 496.0
+    },
+    {
+      "reference": "QUI-13070",
+      "libelle": "Verrou à baïonnette 80 mm, acier",
+      "quantite": 20,
+      "prix_tarif_ht_euros": 19.6,
+      "remise_pourcent": 3.0,
+      "prix_net_ht_euros": 19.01,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 380.2
+    },
+    {
+      "reference": "PRO-11502",
+      "libelle": "Pantalon de travail haute visibilité orange, taille 42",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 32.6,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 32.6,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 326.0
+    },
+    {
+      "reference": "OUT-12319",
+      "libelle": "Serre-joint à une main 150 mm",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 11.05,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 11.05,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 132.6
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 1334.8,
+  "total_tva_euros": 266.96,
+  "total_ttc_euros": 1601.76,
+  "statut": "brouillon",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-08-12T15:00:00+02:00",
+      "par": "samir.ouali",
+      "action": "creee",
+      "detail": "prix demandés au président"
+    }
+  ]
+}

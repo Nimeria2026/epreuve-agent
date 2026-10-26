@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cpt-b03",
+  "de": {
+    "nom": "Facturex",
+    "adresse": "lettre@facturex-solutions.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Facturation électronique : êtes-vous prêts ?",
+  "date": "2026-10-27T09:30:00+01:00",
+  "corps": "Notre guide pour passer à la facture électronique. Lettre d'information FICTIVE.",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

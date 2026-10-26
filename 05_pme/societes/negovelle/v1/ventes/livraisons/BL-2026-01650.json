@@ -1,0 +1,49 @@
+{
+  "numero": "BL-2026-01650",
+  "commande": "CO-2026-01801",
+  "client": "c-0040",
+  "date_expedition": "2026-06-23",
+  "date_livraison": "2026-06-23",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "34 zone industrielle des Brandes, 36999 Laubrissac (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "CON-10187",
+      "libelle": "Bombe de traçage, orange fluo, aérosol de 500 ml",
+      "quantite": 18
+    },
+    {
+      "reference": "ELE-11592",
+      "libelle": "Disjoncteur phase-neutre 32 A, courbe C",
+      "quantite": 2
+    },
+    {
+      "reference": "ELE-12066",
+      "libelle": "Goulotte 20x12 mm, barre de 2 m",
+      "quantite": 20
+    },
+    {
+      "reference": "ELE-13087",
+      "libelle": "Ruban isolant bleu, rouleau de 10 m",
+      "quantite": 30
+    },
+    {
+      "reference": "FIX-12107",
+      "libelle": "Équerre de fixation 120x60x20 mm, zinguée",
+      "quantite": 30
+    },
+    {
+      "reference": "VIS-10726",
+      "libelle": "Vis à bois tête fraisée 3,5x20, bichromatée, boîte de 500",
+      "quantite": 10
+    }
+  ],
+  "reserves": null,
+  "signataire": "Roger Auger",
+  "statut": "livre"
+}

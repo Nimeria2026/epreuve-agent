@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-ctc-833",
+  "de": {
+    "nom": "Papeterie du Val",
+    "adresse": "compta@papeterie-du-val.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture PV-26-0402",
+  "date": "2026-11-02T06:45:00+01:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-joint notre facture PV-26-0402.\n\nPapeterie du Val (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "Facture_PV-26-0402.pdf",
+      "fichier": "pieces/m-ctc-833/Facture_PV-26-0402.pdf",
+      "taille_octets": 862
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

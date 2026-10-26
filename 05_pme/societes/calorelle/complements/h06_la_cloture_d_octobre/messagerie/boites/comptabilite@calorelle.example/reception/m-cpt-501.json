@@ -1,0 +1,29 @@
+{
+  "identifiant": "m-cpt-501",
+  "de": {
+    "nom": "Antoine Leroy",
+    "adresse": "antoine.leroy@calorelle.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Note de frais d'octobre",
+  "date": "2026-10-30T17:40:00+01:00",
+  "corps": "Bonjour Patrick,\n\nVoici ma note de frais d'octobre ; la note et les justificatifs sont joints.\n\n- 8 octobre : repas, chantier de la Résidence des Grèves, 17,50 €\n- 15 octobre : repas, formation chez Distri-Clim Centre, 19,80 €\n- 15 octobre : trajet aller et retour pour la formation, avec ma voiture, 64 km à 0,45 €, 28,80 €\n- 15 octobre : stationnement, 3,20 €\n\nMerci,\nAntoine (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "note_de_frais_octobre_Leroy.pdf",
+      "fichier": "pieces/m-cpt-501/note_de_frais_octobre_Leroy.pdf",
+      "taille_octets": 1050
+    },
+    {
+      "nom": "justificatifs_octobre_Leroy.pdf",
+      "fichier": "pieces/m-cpt-501/justificatifs_octobre_Leroy.pdf",
+      "taille_octets": 786
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

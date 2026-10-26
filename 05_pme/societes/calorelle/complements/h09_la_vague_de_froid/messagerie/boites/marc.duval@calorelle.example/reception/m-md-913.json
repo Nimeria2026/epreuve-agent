@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-913",
+  "de": {
+    "nom": "Sonia Lefèvre",
+    "adresse": "sonia.lefevre@calorelle.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Chaudière qui s'éteint",
+  "date": "2026-11-10T08:05:00+01:00",
+  "corps": "Marc, un dépannage arrivé sur contact@.\nSonia\n\n----- Message transféré -----\nIdentifiant : m-ctc-913\nDe : Michel Girard <michel.girard@courriel.example>\nÀ : contact@calorelle.example\nCc : (aucun)\nDate : 2026-11-09T20:15:00+01:00\nObjet : Chaudière qui s'éteint\nPièces jointes : (aucune)\n\nBonjour,\n\nNotre chaudière gaz s'éteint plusieurs fois par jour.\n\nMichel Girard, 50 rue des Lilas (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

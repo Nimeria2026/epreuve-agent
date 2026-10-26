@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-laga-008",
+  "de": {
+    "nom": "Logistique Plus",
+    "adresse": "contact@logistique-plus.example"
+  },
+  "a": [
+    "laetitia.garnier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Optimisez vos tournées de livraison",
+  "date": "2026-07-04T06:30:00+02:00",
+  "corps": "Madame,\n\nNotre logiciel de tournées réduit de 20 % vos coûts de livraison. Puis-je vous présenter une démonstration de quinze minutes cette semaine ?\n\nBien à vous,\nKevin Morel, Logistique Plus",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

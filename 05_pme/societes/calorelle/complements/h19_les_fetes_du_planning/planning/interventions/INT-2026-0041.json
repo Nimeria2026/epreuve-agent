@@ -1,0 +1,14 @@
+{
+  "numero": "INT-2026-0041",
+  "client": "c-0258",
+  "techniciens": [
+    "kevin.lambert",
+    "enzo.caron"
+  ],
+  "debut": "2026-12-22T08:00:00+01:00",
+  "fin": "2026-12-22T09:30:00+01:00",
+  "nature": "depannage",
+  "objet": "Contrôle de la chaudière gaz après remplacement d'une pièce",
+  "statut": "planifiee",
+  "cree_par": "marc.duval"
+}

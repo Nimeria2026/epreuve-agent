@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-hm-513",
+  "de": {
+    "nom": "Thomas Girard",
+    "adresse": "thomas.girard@calorelle.example"
+  },
+  "a": [
+    "helene.marchal@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Enzo sur les petits dépannages",
+  "date": "2026-11-13T18:00:00+01:00",
+  "corps": "Hélène,\n\nEn décembre, on va crouler sous les dépannages. Enzo se débrouille bien : est-ce que je peux l'envoyer seul sur les petites pannes, les purges et les remises en route ? Ça libérerait un technicien.\n\nThomas (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

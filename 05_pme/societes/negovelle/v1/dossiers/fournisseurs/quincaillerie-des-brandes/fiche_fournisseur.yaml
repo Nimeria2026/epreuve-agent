@@ -1,0 +1,10 @@
+# Fiche d'un fournisseur de Négovelle. Données FICTIVES.
+nom: Quincaillerie des Brandes
+activite: fabricant de quincaillerie de bâtiment
+adresse: 28 zone d'activités des Grands Prés, 36999 Brissonne (FICTIF)
+telephone: 02 61 91 88 51
+courriel_commandes: commandes@quincaillerie-des-brandes.example
+courriel_facturation: facturation@quincaillerie-des-brandes.example
+iban: FR76 9999 9356 5287 8230 2544 962 (FICTIF)
+conditions: paiement à 60 jours date de facture
+minimum_de_commande: 150,00 € HT

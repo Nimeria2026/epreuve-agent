@@ -1,0 +1,19 @@
+# Fiche du lot c27-21. Données FICTIVES.
+lot: c27-21
+adresse: 86 rue de la Croix-Blanche, 18999 Montclavel-sur-Cher (FICTIF)
+type: T4
+surface_m2: 86
+locataire:
+  nom: Mme Valérie Roy
+  courriel: valerie.roy@mel-perso.example
+  telephone: 06 39 98 73 11
+  entree: '2025-07-25'
+bail:
+  signature: '2025-07-25'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 864,00 €
+  depot_de_garantie: 864,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T1
+dpe:
+  classe: D

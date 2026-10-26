@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01837",
+  "commande": "CO-2026-01988",
+  "client": "c-0232",
+  "date_expedition": "2026-07-02",
+  "date_livraison": "2026-07-02",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "48 rue des Lilas, 36999 Ardillac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "PLB-11290",
+      "libelle": "Groupe de sécurité coudé 20x27",
+      "quantite": 3
+    }
+  ],
+  "reserves": null,
+  "signataire": "Antoine Ruel",
+  "statut": "livre"
+}

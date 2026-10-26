@@ -1,0 +1,13 @@
+# DeepSeek V4.1 Flash servi par DeepInfra (nom d'API deepseek-ai/DeepSeek-V4.1-Flash) : un
+# contrôle du fournisseur. Le même modèle que la référence, chez le fournisseur de gpt-oss-120b,
+# pour savoir si les tours vides tiennent à DeepInfra ou à gpt-oss (JOURNAL, entrée 120). Clé
+# dans la variable DEEPINFRA_API_KEY, ou dans le fichier .env à la racine du dépôt, hors git.
+role: agent
+modele: deepseek-ai/DeepSeek-V4.1-Flash
+adresse: https://api.deepinfra.com/v1/openai
+cle_env: DEEPINFRA_API_KEY
+parametres: {}
+# Comme chez DeepSeek : avec des outils, le raisonnement de chaque tour précédent est renvoyé.
+raisonnement_renvoye: reasoning_content
+delai_appel_secondes: 300
+tours_max: 60

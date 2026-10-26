@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-laga-007",
+  "de": {
+    "nom": "Aurélie Dufour",
+    "adresse": "aurelie.dufour@rocher-industrie.example"
+  },
+  "a": [
+    "laetitia.garnier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande d'atelier",
+  "date": "2026-08-09T18:45:00+02:00",
+  "corps": "Bonjour Lætitia,\n\nNotre commande pour l'atelier :\n\n- 25 x ELP-10800, Foret béton SDS-plus 6x260 mm\n- 12 x CON-10971, Disque abrasif à lamelles 115 mm, grain 180, boîte de 50\n\nLivraison standard au siège, pas au dépôt.\n\nCordialement,\n\nAurélie Dufour\nRocher Industrie",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-ctc-307",
+  "de": {
+    "nom": "Visserie de Sablonnet",
+    "adresse": "compta@visserie-de-sablonnet.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture VS-2026-1104",
+  "date": "2026-11-02T07:40:00+01:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-jointe notre facture VS-2026-1104 du 30 octobre 2026.\n\nService comptable, Visserie de Sablonnet (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "Facture_VS-2026-1104.pdf",
+      "fichier": "pieces/m-ctc-307/Facture_VS-2026-1104.pdf",
+      "taille_octets": 1047
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

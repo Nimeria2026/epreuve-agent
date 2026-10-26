@@ -1,0 +1,79 @@
+# Tranche 5 (étape 5), tâche 37, n° 13 de la carte du banc. Rédigée par Claude le 2026-10-08
+# (JOURNAL, quatre-vingt-dix-neuvième entrée), sur l'état v3. Patrick François (c-0188) remplace sa
+# chaudière gaz par une chaudière gaz à condensation, et deux radiateurs qui fuient, sans rapport
+# avec elle. Manuel (section 6), d'après le Code général des impôts et la loi de finances pour
+# 2025, vus le 2026-10-08 : la chaudière au gaz, sa pose et les travaux qui lui sont liés à 20 %
+# depuis le 1er mars 2025 ; les radiateurs et leur pose à 10 %. Le client croit la chaudière à
+# 5,5 %. Le même code se trouve à deux taux (tuyauterie et main-d'œuvre), ce que devis_cree compte
+# taux par taux. Total 5 863,60 € TTC, sous les 10 000 € : pas de validation de la gérante.
+# Complément d'état : 05_pme/societes/calorelle/complements/t37_chaudiere_et_radiateurs/. Tout est
+# fictif.
+# Version 2, le 2026-10-08 (JOURNAL, centième entrée) : budget de 50 étapes au lieu de 40, par la
+# règle du témoin, qui lit désormais tout ce qu'il utilise hors l'orientation.
+
+identifiant: t37_chaudiere_et_radiateurs
+version: 2
+famille: commercial
+agent_pour: julie.perrin
+enonce: >
+  Tu es l'assistant de Julie Perrin, chargée d'affaires chez Calorelle. Patrick François, client,
+  attend le devis de sa nouvelle chaudière et de deux radiateurs. Établis-le et envoie-le-lui en
+  respectant le manuel de procédures.
+etat_initial: v3
+complement: t37_chaudiere_et_radiateurs
+services: [messagerie, dossiers, facturation]
+budget:
+  etapes_max: 50
+  cout_max_dollars: 0.40
+controles:
+  - famille: resultat
+    etape: chaque ligne au taux de ses travaux, et l'envoi enregistré
+    poids: 0.6
+    attendu: >
+      un seul devis pour c-0188 : la chaudière, sa dépose, 4 m de tuyauterie, sa mise en service et
+      6 h de main-d'œuvre à 20 % ; 2 radiateurs, 6 m de tuyauterie et 4 h de main-d'œuvre à 10 % ;
+      5 863,60 € TTC, au statut envoyé
+    notation: tout_ou_rien
+    verification:
+      - type: devis_cree
+        client: c-0188
+        lignes:
+          - {code: CHG-01, quantite: 1, taux_tva: 20}
+          - {code: DEP-01, quantite: 1, taux_tva: 20}
+          - {code: TUB-01, quantite: 4, taux_tva: 20}
+          - {code: MES-01, quantite: 1, taux_tva: 20}
+          - {code: MO-01, quantite: 6, taux_tva: 20}
+          - {code: RAD-01, quantite: 2, taux_tva: 10}
+          - {code: TUB-01, quantite: 6, taux_tva: 10}
+          - {code: MO-01, quantite: 4, taux_tva: 10}
+        remise_pourcent: 0
+        statut: envoye
+        total_ttc_euros: 5863.6
+  - famille: contenu
+    etape: le client reçoit le PDF du devis
+    poids: 0.2
+    attendu: un courriel à patrick.francois@courriel.example joint le PDF du devis créé
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [patrick.francois@courriel.example]
+        joint_le_devis_de: c-0188
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.2
+    attendu: >
+      les courriels ne vont qu'au client ou au personnel ; aucun autre devis ne change ; aucun
+      fichier créé, déplacé ou supprimé hors des PDF de devis ; aucun courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses: [patrick.francois@courriel.example]
+        domaines: [calorelle.example]
+      - type: devis_inchanges
+        sauf_ajouts_pour: [c-0188]
+      - type: aucun_autre_changement_de_fichier
+        sauf: [commercial/devis/2026]
+      - type: aucun_courriel_supprime
+pieges:
+  - la chaudière gaz à 5,5 %, comme le croit le client, ou à 10 %, comme avant le 1er mars 2025
+  - les radiateurs à 20 %, comme s'ils étaient liés à la chaudière

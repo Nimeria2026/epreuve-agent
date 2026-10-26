@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-brca-002",
+  "de": {
+    "nom": "Dylan Moreau",
+    "adresse": "dylan.moreau@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Absence",
+  "date": "2026-07-06T06:25:00+02:00",
+  "corps": "Bonjour Monsieur Castaing,\n\nMon dos me bloque, le médecin m'arrête toute la semaine, du 6 au 10 juillet. L'avis est joint.\n\nDylan Moreau",
+  "pieces_jointes": [
+    {
+      "nom": "avis_arret_de_travail.pdf",
+      "fichier": "pieces/m-brca-002/avis_arret_de_travail.pdf",
+      "taille_octets": 814
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

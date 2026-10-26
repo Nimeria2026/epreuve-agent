@@ -1,0 +1,59 @@
+{
+  "numero": "BL-2026-01822",
+  "commande": "CO-2026-01973",
+  "client": "c-0035",
+  "date_expedition": "2026-07-02",
+  "date_livraison": "2026-07-02",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "7 avenue de la Gare, 36999 Ardillac (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "ENT-10734",
+      "libelle": "Papier toilette à dévidage central, colis de 12",
+      "quantite": 10
+    },
+    {
+      "reference": "ENT-11118",
+      "libelle": "Sacs poubelle 30 l, renforcés, rouleau de 20",
+      "quantite": 50
+    },
+    {
+      "reference": "OUT-10253",
+      "libelle": "Ciseau à bois 22 mm",
+      "quantite": 6
+    },
+    {
+      "reference": "PLB-10302",
+      "libelle": "Chauffe-eau électrique 300 l, vertical mural",
+      "quantite": 1
+    },
+    {
+      "reference": "PRO-10269",
+      "libelle": "Bouchons d'oreille en mousse, boîte de 50",
+      "quantite": 4
+    },
+    {
+      "reference": "PRO-11086",
+      "libelle": "Gants de soudeur cuir fleur TIG, taille 9",
+      "quantite": 12
+    },
+    {
+      "reference": "PRO-11298",
+      "libelle": "Lunettes de protection teintées",
+      "quantite": 60
+    },
+    {
+      "reference": "VIS-11045",
+      "libelle": "Vis à bois tête fraisée 3,5x60, zinguée, boîte de 500",
+      "quantite": 12
+    }
+  ],
+  "reserves": null,
+  "signataire": "Marcel Barbe",
+  "statut": "livre"
+}

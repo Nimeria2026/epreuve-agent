@@ -1,0 +1,12 @@
+# Fiche du propriétaire p-0591, mandant de Domivelle. Données FICTIVES.
+code: p-0591
+nom: Mme Brigitte Paris
+adresse: 102 rue de la Croix-Blanche, 18999 Montclavel-sur-Cher (FICTIF)
+courriel: brigitte.paris@courriel.example
+telephone: 06 39 98 81 67
+iban: FR76 9999 9982 1558 6780 5341 621 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- s13-11
+- s18-12
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

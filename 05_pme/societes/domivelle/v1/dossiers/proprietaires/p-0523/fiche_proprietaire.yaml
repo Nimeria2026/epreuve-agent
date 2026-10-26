@@ -1,0 +1,11 @@
+# Fiche du propriétaire p-0523, mandant de Domivelle. Données FICTIVES.
+code: p-0523
+nom: Mme Geneviève Simon
+adresse: 4 rue du Château, 18999 Montclavel-sur-Cher (FICTIF)
+courriel: genevieve.simon@messagerie.example
+telephone: 06 39 98 94 90
+iban: FR76 9999 9126 0662 4893 2737 255 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- s04-15
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

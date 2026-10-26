@@ -1,0 +1,14 @@
+# Fiche du propriétaire p-0389, mandant de Domivelle. Données FICTIVES.
+code: p-0389
+nom: SCI Les Terrasses du Cher Invest
+adresse: 122 place du Marché, 18999 Saint-Aubrin-des-Bois (FICTIF)
+courriel: gestion@sci-les-terrasses-du-cher-invest.example
+telephone: 06 39 98 87 75
+iban: FR76 9999 9767 8505 2320 7294 583 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- n21-16
+- n25-17
+- n27-06
+- n27-08
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-901",
+  "de": {
+    "nom": "Mathieu Picard",
+    "adresse": "mathieu.picard@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Demande de congé : du 10 au 12 mars",
+  "date": "2027-01-28T07:30:00+01:00",
+  "corps": "Sonia,\n\nJe demande un congé du mercredi 10 au vendredi 12 mars 2027.\n\nMathieu (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

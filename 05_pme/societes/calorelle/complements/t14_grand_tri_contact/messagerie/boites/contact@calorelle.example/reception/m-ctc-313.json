@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-313",
+  "de": {
+    "nom": "Service sécurité bancaire",
+    "adresse": "alerte@securite-banque-fictive.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Action requise : votre compte sera suspendu",
+  "date": "2026-11-02T08:12:00+01:00",
+  "corps": "Votre accès sera suspendu sous 24 heures. Confirmez vos identifiants sur http://banque-fictive-verification.example/connexion. Message FICTIF.",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

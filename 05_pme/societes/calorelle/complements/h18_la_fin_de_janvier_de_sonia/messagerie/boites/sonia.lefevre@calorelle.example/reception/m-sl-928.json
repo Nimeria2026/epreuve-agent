@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-sl-928",
+  "de": {
+    "nom": "Mathieu Picard",
+    "adresse": "mathieu.picard@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Prolongation",
+  "date": "2027-02-01T08:45:00+01:00",
+  "corps": "Sonia,\n\nMon arrêt est prolongé jusqu'au vendredi 12 février inclus. Voici l'avis de prolongation.\n\nMathieu (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "prolongation_arret_Picard.pdf",
+      "fichier": "pieces/m-sl-928/prolongation_arret_Picard.pdf",
+      "taille_octets": 838
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

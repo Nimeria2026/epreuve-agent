@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-maca-629",
+  "de": {
+    "nom": "Contrôles Techniques du Berry",
+    "adresse": "rapports@controles-techniques-du-berry.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Contrôle technique de l'ascenseur, Résidence Le Parc Saint-Martin",
+  "date": "2026-08-25T16:00:00+02:00",
+  "corps": "Madame,\n\nVeuillez trouver le rapport du contrôle technique quinquennal de l'ascenseur de la Résidence Le Parc Saint-Martin, visité le 24 août. Il relève trois écarts : l'éclairage de la cabine et la téléalarme, qui relèvent de l'entretien courant, et la serrure de la porte palière du niveau -1, à remplacer.\n\nContrôles Techniques du Berry",
+  "pieces_jointes": [
+    {
+      "nom": "rapport_controle_ascenseur_parc_saint_martin.pdf",
+      "fichier": "pieces/m-maca-629/rapport_controle_ascenseur_parc_saint_martin.pdf",
+      "taille_octets": 1191
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

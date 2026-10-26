@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-hm-522",
+  "de": {
+    "nom": "Florian Masson",
+    "adresse": "florian.masson@calorelle.example"
+  },
+  "a": [
+    "helene.marchal@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Ma note de frais d'octobre",
+  "date": "2026-11-19T19:20:00+01:00",
+  "corps": "Bonjour Hélène,\n\nPatrick ne m'a remboursé que 20,00 € pour mon repas du 14 octobre à Brenneval, qui m'a coûté 26,00 €. Le chantier a fini tard et il n'y avait que ce restaurant d'ouvert. Peux-tu lui demander de me rembourser le repas en entier ?\n\nFlorian (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

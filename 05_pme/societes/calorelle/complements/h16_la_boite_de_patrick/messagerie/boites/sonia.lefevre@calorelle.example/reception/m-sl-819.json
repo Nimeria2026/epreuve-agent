@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-819",
+  "de": {
+    "nom": "Fumisterie des Hautes-Fresnes",
+    "adresse": "compta@fumisterie-des-hautes-fresnes.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Solde de notre compte",
+  "date": "2026-11-20T14:30:00+01:00",
+  "corps": "Bonjour,\n\nPouvez-vous nous dire ce qui reste dû sur notre compte chez vous ? Nous préparons notre clôture.\n\nFumisterie des Hautes-Fresnes (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

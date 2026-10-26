@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-017",
+  "de": {
+    "nom": "Sylvain Legendre",
+    "adresse": "sylvain.legendre@hardy-travaux-publics.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande d'outillage",
+  "date": "2026-07-03T09:03:00+02:00",
+  "corps": "Bonjour,\n\nVoici notre commande, à livrer au siège :\n\n- 24 x OUT-11241, Marteau à panne fendue 600 g\n- 10 x OUT-10040, Burin plat 400 mm\n\nMerci de nous confirmer la livraison.\n\nCordialement,\nSylvain Legendre\nHardy Travaux publics",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-occo-006",
+  "de": {
+    "nom": "Valérie Lacour",
+    "adresse": "valerie.lacour@centre-aquatique-intercommunal-de-fontclavier.example"
+  },
+  "a": [
+    "oceane.collin@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Livraison de CO-2026-02015 sur chantier",
+  "date": "2026-07-06T07:40:00+02:00",
+  "corps": "Bonjour,\n\nNotre commande CO-2026-02015 pourrait-elle partir directement sur le chantier de la piscine, 12 allée des Nageurs, 36999 Fontclavier ? Merci.\n\nValérie Lacour\nCentre aquatique intercommunal de Fontclavier",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

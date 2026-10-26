@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-tg-804",
+  "de": {
+    "nom": "Patrick Faure",
+    "adresse": "patrick.faure@courriel.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Radiateurs froids",
+  "date": "2026-12-20T18:00:00+01:00",
+  "corps": "Bonjour,\n\nLes radiateurs de l'étage restent froids depuis deux jours ; la chaudière gaz fonctionne pour le reste. Nous avons le contrat Sérénité.\n\nPatrick Faure, 62 avenue des Tilleuls (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-viar-010",
+  "de": {
+    "nom": "Lætitia Garnier",
+    "adresse": "laetitia.garnier@negovelle.example"
+  },
+  "a": [
+    "vincent.arnaud@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Question sur ELE-11249",
+  "date": "2026-08-27T15:10:00+02:00",
+  "corps": "Vincent,\n\nRouxel Industrie voudrait 30 couronnes de câble ELE-11249 pour la fin septembre, et le logiciel n'en donne presque plus. En recevons-nous bientôt ?\n\nLætitia",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

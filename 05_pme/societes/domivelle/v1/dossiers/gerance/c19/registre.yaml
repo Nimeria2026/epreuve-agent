@@ -1,0 +1,128 @@
+# Registre des lots en gestion, c19. Données FICTIVES.
+immeuble: c19
+nature: immeuble collectif
+adresse: 24 rue du Pont, 18999 Montclavel-sur-Cher (FICTIF)
+secteur: centre
+gestionnaire: Cédric Maillard
+distance_agence_km: 2
+annee_construction: 1990
+gardien: false
+copropriete_du_syndic: cp06
+lots:
+- lot: c19-01
+  type: T3
+  surface_m2: 57
+  etage: 0
+  proprietaire: p-0151
+  locataire: M. Dominique Lebon
+  entree: '2021-10-06'
+  loyer_hors_charges: 571,00 €
+  provision_sur_charges: 38,00 €
+  depot_de_garantie: 519,00 €
+  revision: chaque 6 octobre
+  trimestre_irl: T2
+  dpe: F
+- lot: c19-02
+  type: T3
+  surface_m2: 59
+  etage: 0
+  proprietaire: p-0191
+  locataire: Mme Josiane Guillot
+  entree: '2022-06-10'
+  loyer_hors_charges: 630,00 €
+  provision_sur_charges: 76,00 €
+  depot_de_garantie: 586,00 €
+  revision: chaque 10 juin
+  trimestre_irl: T1
+  dpe: B
+- lot: c19-03
+  type: T1
+  surface_m2: 29
+  etage: 0
+  proprietaire: p-0192
+  locataire: M. Étienne Gaillard
+  entree: '2025-08-04'
+  loyer_hors_charges: 281,00 €
+  provision_sur_charges: 38,00 €
+  depot_de_garantie: 281,00 €
+  revision: chaque 4 août
+  trimestre_irl: T2
+  dpe: E
+- lot: c19-04
+  type: T3
+  surface_m2: 55
+  etage: 0
+  proprietaire: p-0157
+  locataire: Mme Josiane Lesage
+  entree: '2016-03-20'
+  loyer_hors_charges: 520,00 €
+  provision_sur_charges: 98,00 €
+  depot_de_garantie: 416,00 €
+  revision: chaque 20 mars
+  trimestre_irl: T4
+  dpe: C
+- lot: c19-05
+  type: T2
+  surface_m2: 44
+  etage: 1
+  proprietaire: p-0193
+  locataire: Mme Sophie Mathieu
+  entree: '2017-11-15'
+  loyer_hors_charges: 415,00 €
+  provision_sur_charges: 88,00 €
+  depot_de_garantie: 346,00 €
+  revision: chaque 15 novembre
+  trimestre_irl: T3
+  dpe: B
+- lot: c19-06
+  type: T3
+  surface_m2: 63
+  etage: 1
+  proprietaire: p-0194
+  locataire: M. Pierre Couturier
+  entree: '2024-02-11'
+  loyer_hors_charges: 637,00 €
+  provision_sur_charges: 71,00 €
+  depot_de_garantie: 607,00 €
+  revision: chaque 11 février
+  trimestre_irl: T4
+  dpe: E
+- lot: c19-07
+  type: T3
+  surface_m2: 62
+  etage: 1
+  proprietaire: p-0195
+  locataire: Mme Monique Camus
+  entree: '2021-01-09'
+  loyer_hors_charges: 588,00 €
+  provision_sur_charges: 67,00 €
+  depot_de_garantie: 523,00 €
+  revision: chaque 9 janvier
+  trimestre_irl: T3
+  dpe: B
+- lot: c19-08
+  type: T2
+  surface_m2: 39
+  etage: 1
+  proprietaire: p-0196
+  locataire: M. Bruno Bourgeois
+  entree: '2026-03-06'
+  loyer_hors_charges: 368,00 €
+  provision_sur_charges: 105,00 €
+  depot_de_garantie: 368,00 €
+  revision: chaque 6 mars
+  trimestre_irl: T4
+  dpe: E
+- lot: c19-09
+  type: T3
+  surface_m2: 65
+  etage: 2
+  proprietaire: p-0197
+  locataire: Mme Marion Bigot
+  entree: '2014-10-16'
+  loyer_hors_charges: 608,00 €
+  provision_sur_charges: 96,00 €
+  depot_de_garantie: 477,00 €
+  revision: chaque 16 octobre
+  trimestre_irl: T2
+  dpe: D

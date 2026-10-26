@@ -1,0 +1,92 @@
+{
+  "numero": "CO-2026-02016",
+  "client": "c-0053",
+  "reference_client": "BC-4269",
+  "cree_le": "2026-07-03T09:10:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "32 zone d'activités des Grands Prés, 36999 Laubrissac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-11086",
+      "libelle": "Câble R2V 3G 6 mm², couronne de 100 m",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 73.8,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 70.85,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 141.7
+    },
+    {
+      "reference": "OUT-10065",
+      "libelle": "Burin pointu 300 mm",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 15.65,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 15.02,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 30.04
+    },
+    {
+      "reference": "PRO-11715",
+      "libelle": "Polo haute visibilité orange, taille XL",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 15.5,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 15.5,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 31.0
+    },
+    {
+      "reference": "VIS-11298",
+      "libelle": "Vis à bois tête fraisée 3x30, inox A2, boîte de 100",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 13.6,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 13.06,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 26.12
+    },
+    {
+      "reference": "VIS-13038",
+      "libelle": "Vis à bois tête fraisée 5x70, bichromatée, boîte de 200",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 21.55,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 20.69,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 82.76
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 311.62,
+  "total_tva_euros": 62.32,
+  "total_ttc_euros": 373.94,
+  "statut": "validee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T09:10:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T09:12:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "validee",
+      "detail": ""
+    }
+  ]
+}

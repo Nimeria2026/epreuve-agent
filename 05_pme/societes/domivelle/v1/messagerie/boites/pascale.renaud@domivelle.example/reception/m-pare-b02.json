@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-pare-b02",
+  "de": {
+    "nom": "Mme Lucie Bourgeois",
+    "adresse": "lucie.bourgeois@messagerie.example"
+  },
+  "a": [
+    "pascale.renaud@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Provision sur charges",
+  "date": "2026-05-22T13:06:00+02:00",
+  "corps": "Bonjour,\n\nJ'aimerais comprendre la hausse de la provision sur charges de mon lot.\n\nMerci d'avance,\nMme Lucie Bourgeois",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-yode-b03",
+  "de": {
+    "nom": "Nadège Lebrun",
+    "adresse": "nadege.lebrun@domivelle.example"
+  },
+  "a": [
+    "yohan.delmas@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Courrier du jour",
+  "date": "2026-05-29T08:50:00+02:00",
+  "corps": "Bonjour,\n\nLe courrier du jour est numérisé et rangé dans courrier/.\n\nNadège",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

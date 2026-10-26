@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-b13",
+  "de": {
+    "nom": "Catherine Bernard",
+    "adresse": "catherine.bernard@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Accès au parking",
+  "date": "2026-10-05T17:18:00+02:00",
+  "corps": "Bonjour,\n\nLe technicien pourra se garer dans la cour.\n\nCatherine Bernard (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,28 @@
+# Fiche du client c-0215 de Négovelle. Données FICTIVES.
+code: c-0215
+nom: Menuiserie Besson
+type: artisan
+adresse: 106 rue de la Fontaine, 36999 Laubrissac (FICTIF)
+telephone: 02 61 91 79 78
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Roger Valentin
+  fonction: gérant
+  courriel: roger.valentin@menuiserie-besson.example
+- nom: Luc Bouvier
+  fonction: conjoint collaborateur
+  courriel: luc.bouvier@menuiserie-besson.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 106 rue de la Fontaine, 36999 Laubrissac (FICTIF)
+categorie_remise: C
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2018-01-01'
+limite_encours_euros: 1000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

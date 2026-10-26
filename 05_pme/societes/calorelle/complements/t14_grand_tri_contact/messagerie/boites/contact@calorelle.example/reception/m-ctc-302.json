@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-302",
+  "de": {
+    "nom": "Garage du Rond-Point",
+    "adresse": "contact@garage-du-rond-point.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Climatisation de notre atelier",
+  "date": "2026-11-02T07:10:00+01:00",
+  "corps": "Bonjour,\n\nNous cherchons à climatiser notre atelier de réparation automobile (200 m²). Merci de nous faire parvenir un devis.\n\nGarage du Rond-Point (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-021",
+  "de": {
+    "nom": "Fixations des Tilleuls",
+    "adresse": "facturation@fixations-des-tilleuls.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture F70814",
+  "date": "2026-07-29T14:30:00+02:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-jointe notre facture F70814 du 21 juillet 2026, pour votre commande CA-2026-0323 :\n- FIX-10163, Cheville métallique à expansion M8x45, boîte de 25 : 400 x 6,04 € HT = 2 416,00 €\n- FIX-10171, Cheville métallique à expansion M8x45, boîte de 50 : 400 x 12,19 € HT = 4 876,00 €\n- FIX-10677, Cheville nylon 8x60, boîte de 100 : 140 x 4,58 € HT = 641,20 €\n- FIX-11412, Crochet en S à visser 40 mm, sachet de 10 : 40 x 2,73 € HT = 109,20 €\n- FIX-12000, Équerre de fixation 100x60x20 mm, galvanisée : 100 x 1,22 € HT = 122,00 €\n- FIX-12294, Équerre de fixation 60x40x40 mm, galvanisée : 160 x 0,83 € HT = 132,80 €\n\nTotal HT : 8 297,20 € ; TVA 20 % : 1 659,44 € ; total TTC : 9 956,64 €. Paiement à 60 jours date de facture.\n\nService facturation\nFixations des Tilleuls",
+  "pieces_jointes": [
+    {
+      "nom": "F70814.pdf",
+      "fichier": "pieces/m-cpt-021/F70814.pdf",
+      "taille_octets": 1033
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

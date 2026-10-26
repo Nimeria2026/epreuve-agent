@@ -1,0 +1,29 @@
+{
+  "identifiant": "m-cpt-503",
+  "de": {
+    "nom": "Kevin Lambert",
+    "adresse": "kevin.lambert@calorelle.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Note de frais d'octobre",
+  "date": "2026-11-02T07:45:00+01:00",
+  "corps": "Bonjour Patrick,\n\nVoici ma note de frais d'octobre ; la note et les justificatifs sont joints.\n\n- 13 octobre : repas, dépannage à Valmont, 20,00 €\n- 22 octobre : repas, formation chez Thermopièces Loire, 15,90 €\n- 22 octobre : trajet aller et retour pour la formation, avec ma voiture, 84 km à 0,45 €, 37,80 €\n- 22 octobre : stationnement, 6,00 €, ticket perdu\n\nMerci,\nKevin (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "note_de_frais_octobre_Lambert.pdf",
+      "fichier": "pieces/m-cpt-503/note_de_frais_octobre_Lambert.pdf",
+      "taille_octets": 1049
+    },
+    {
+      "nom": "justificatifs_octobre_Lambert.pdf",
+      "fichier": "pieces/m-cpt-503/justificatifs_octobre_Lambert.pdf",
+      "taille_octets": 819
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

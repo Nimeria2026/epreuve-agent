@@ -1,0 +1,8 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0156"
+nom: "Laurent Blanchard"
+type: "particulier"
+adresse: "3 rue du Moulin, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "laurent.blanchard@courriel.example"
+telephone: "06 39 98 50 42"
+charge_d_affaires: "julie.perrin"

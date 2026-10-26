@@ -1,0 +1,24 @@
+# Fiche du lot n01-09. Données FICTIVES.
+lot: n01-09
+adresse: 41 rue des Vignes, 18999 Vernillac (FICTIF)
+type: T1
+surface_m2: 30
+locataire:
+  nom: Mme Amandine Rousset
+  courriel: amandine.rousset@courriel.example
+  telephone: 06 39 98 61 61
+  entree: '2018-01-13'
+bail:
+  signature: '2018-01-13'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 267,00 €
+  depot_de_garantie: 222,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T3
+dpe:
+  classe: C
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

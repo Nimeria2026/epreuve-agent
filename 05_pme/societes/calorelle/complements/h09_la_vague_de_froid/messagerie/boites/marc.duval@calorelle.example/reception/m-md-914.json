@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-914",
+  "de": {
+    "nom": "Sonia Lefèvre",
+    "adresse": "sonia.lefevre@calorelle.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Panne de chaudière",
+  "date": "2026-11-10T08:10:00+01:00",
+  "corps": "Marc, un dépannage arrivé sur contact@.\nSonia\n\n----- Message transféré -----\nIdentifiant : m-ctc-914\nDe : Olivier Martin <olivier.martin@courriel.example>\nÀ : contact@calorelle.example\nCc : (aucun)\nDate : 2026-11-10T07:30:00+01:00\nObjet : Panne de chaudière\nPièces jointes : (aucune)\n\nBonjour,\n\nJe ne suis pas sous contrat chez vous, mais ma chaudière gaz ne démarre plus. Pouvez-vous passer ?\n\nOlivier Martin, 13 rue des Lilas (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

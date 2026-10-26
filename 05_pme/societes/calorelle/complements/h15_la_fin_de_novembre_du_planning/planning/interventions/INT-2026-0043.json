@@ -1,0 +1,13 @@
+{
+  "numero": "INT-2026-0043",
+  "client": "c-0410",
+  "techniciens": [
+    "mathieu.picard"
+  ],
+  "debut": "2026-11-30T13:30:00+01:00",
+  "fin": "2026-11-30T15:30:00+01:00",
+  "nature": "depannage",
+  "objet": "Dépannage : pompe à chaleur bruyante",
+  "statut": "planifiee",
+  "cree_par": "marc.duval"
+}

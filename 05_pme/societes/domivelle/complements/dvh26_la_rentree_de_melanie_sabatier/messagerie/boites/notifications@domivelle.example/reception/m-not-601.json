@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-not-601",
+  "de": {
+    "nom": "Système de messagerie",
+    "adresse": "mailer-daemon@domivelle.example"
+  },
+  "a": [
+    "notifications@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Message non distribué : Notification du procès-verbal de l'assemblée générale du 2 juillet 2026",
+  "date": "2026-07-31T18:06:00+02:00",
+  "corps": "Votre message à christian.besnard@mel-perso.example, envoyé le vendredi 31 juillet 2026 à 18 h 05, n'a pas pu être distribué : la boîte du destinataire n'existe plus.\n\nObjet : Notification du procès-verbal de l'assemblée générale du 2 juillet 2026, Le Square des Écoles",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,59 @@
+{
+  "numero": "BL-2026-01655",
+  "commande": "CO-2026-01806",
+  "client": "c-0028",
+  "date_expedition": "2026-06-23",
+  "date_livraison": "2026-06-23",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "103 rue des Peupliers, 36999 Corvalet (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "ELE-11617",
+      "libelle": "Disjoncteur tétrapolaire 10 A, courbe C",
+      "quantite": 1
+    },
+    {
+      "reference": "OUT-12450",
+      "libelle": "Spatule japonaise 150 mm",
+      "quantite": 2
+    },
+    {
+      "reference": "OUT-12523",
+      "libelle": "Spatule à enduire 250 mm",
+      "quantite": 4
+    },
+    {
+      "reference": "OUT-12752",
+      "libelle": "Tournevis plat n° 1",
+      "quantite": 2
+    },
+    {
+      "reference": "PRO-10302",
+      "libelle": "Bouchons d'oreille à cordelette, boîte de 200",
+      "quantite": 4
+    },
+    {
+      "reference": "QUI-12311",
+      "libelle": "Paumelle 60 mm, laiton, sachet de 2",
+      "quantite": 6
+    },
+    {
+      "reference": "VIS-11674",
+      "libelle": "Vis à bois tête fraisée 4,5x16, inox A2, boîte de 100",
+      "quantite": 3
+    },
+    {
+      "reference": "VIS-12303",
+      "libelle": "Vis à bois tête fraisée 4x30, inox A2, boîte de 500",
+      "quantite": 4
+    }
+  ],
+  "reserves": null,
+  "signataire": "Serge Rigaud",
+  "statut": "livre"
+}

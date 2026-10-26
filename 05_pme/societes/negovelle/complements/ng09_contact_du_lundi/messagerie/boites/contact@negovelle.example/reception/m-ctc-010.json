@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-010",
+  "de": {
+    "nom": "Protection de la Garenne",
+    "adresse": "commandes@protection-de-la-garenne.example"
+  },
+  "a": [
+    "contact@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Présentation de notre nouvelle gamme",
+  "date": "2026-07-06T06:45:00+02:00",
+  "corps": "Bonjour,\n\nNous lançons une gamme de vêtements haute visibilité et aimerions vous la présenter. Seriez-vous disponible la semaine prochaine pour un rendez-vous ?\n\nService commercial\nProtection de la Garenne",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

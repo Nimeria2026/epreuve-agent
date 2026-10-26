@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-602",
+  "de": {
+    "nom": "Céline Michel",
+    "adresse": "celine.michel@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Notre pompe à chaleur",
+  "date": "2026-11-02T08:15:00+01:00",
+  "corps": "Bonjour,\n\nSuite à la visite de M. Blanc jeudi, pouvez-vous m'envoyer le devis de la pompe à chaleur ? Une amie m'a dit que la TVA d'une pompe à chaleur était à 5,5 %. Notre maison est neuve, nous y sommes depuis avril 2025.\n\nCéline Michel (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

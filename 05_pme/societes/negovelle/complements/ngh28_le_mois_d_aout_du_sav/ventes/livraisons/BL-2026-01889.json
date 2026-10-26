@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01889",
+  "commande": "CO-2026-02069",
+  "client": "c-0233",
+  "date_expedition": "2026-07-27",
+  "date_livraison": "2026-07-28",
+  "transport": {
+    "mode": "transporteur",
+    "transporteur": "transports-delorme",
+    "recepisse": "TD-412975"
+  },
+  "adresse": "79 rue des Chênes, 36999 Mérolles-en-Brenne (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "VIS-13462",
+      "libelle": "Vis à bois tête fraisée 6x50, bichromatée, boîte de 500",
+      "quantite": 6
+    },
+    {
+      "reference": "QUI-13111",
+      "libelle": "Verrou à ressort 120 mm, acier",
+      "quantite": 4
+    }
+  ],
+  "reserves": "livraison refusée : colis 1 sur 2 écrasé",
+  "signataire": "Fabienne Boisson",
+  "statut": "refuse"
+}

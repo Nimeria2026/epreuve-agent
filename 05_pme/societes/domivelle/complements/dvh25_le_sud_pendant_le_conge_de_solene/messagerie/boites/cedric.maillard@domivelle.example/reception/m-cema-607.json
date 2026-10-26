@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cema-607",
+  "de": {
+    "nom": "Laurent Aubert",
+    "adresse": "laurent.aubert@courriel.example"
+  },
+  "a": [
+    "cedric.maillard@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Attestation d'assurance",
+  "date": "2026-09-05T14:00:00+02:00",
+  "corps": "Bonjour,\n\nVoici l'attestation d'assurance de mon logement, lot s13-05, pour l'année qui commence.\n\nLaurent Aubert",
+  "pieces_jointes": [
+    {
+      "nom": "attestation_aubert.pdf",
+      "fichier": "pieces/m-cema-607/attestation_aubert.pdf",
+      "taille_octets": 889
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

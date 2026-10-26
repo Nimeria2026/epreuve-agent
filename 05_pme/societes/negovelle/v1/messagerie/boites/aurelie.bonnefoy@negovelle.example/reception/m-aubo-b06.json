@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-aubo-b06",
+  "de": {
+    "nom": "Léa Forestier",
+    "adresse": "lea.forestier@serrurerie-baillet.example"
+  },
+  "a": [
+    "aurelie.bonnefoy@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Copie de facture",
+  "date": "2026-06-18T10:07:00+02:00",
+  "corps": "Bonjour,\n\nPouvez-vous me renvoyer la facture de mai ? Je ne la retrouve pas.\n\nCordialement,\nLéa Forestier",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

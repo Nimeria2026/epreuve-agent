@@ -1,0 +1,28 @@
+# Fiche du client c-0192 de Négovelle. Données FICTIVES.
+code: c-0192
+nom: Cazenave Rénovation
+type: entreprise
+adresse: 12 parc d'activités de la Gare, 36999 Fontclavier (FICTIF)
+telephone: 02 61 91 92 46
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Julie Maurin
+  fonction: conductrice de travaux
+  courriel: julie.maurin@cazenave-renovation.example
+- nom: Aurélie Moulin
+  fonction: responsable des achats
+  courriel: aurelie.moulin@cazenave-renovation.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 12 parc d'activités de la Gare, 36999 Fontclavier (FICTIF)
+categorie_remise: C
+delai_paiement: 60_jours_date_de_facture
+client_depuis: '2022-11-01'
+limite_encours_euros: 4000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-gafo-003",
+  "de": {
+    "nom": "Albert Lucas",
+    "adresse": "albert.lucas@mel-perso.example"
+  },
+  "a": [
+    "gaelle.fournel@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Question pour l'assemblée du 30 juin",
+  "date": "2026-06-07T20:14:00+02:00",
+  "corps": "Madame Fournel,\n\nJe vous notifie la question suivante, à inscrire à l'ordre du jour de notre assemblée du 30 juin : l'installation de bornes de recharge pour véhicules électriques au parking de la résidence.\n\nAlbert Lucas, lot 5, Résidence Le Clos Saint-Roch",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

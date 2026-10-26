@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-elch-003",
+  "de": {
+    "nom": "Mme Manon Perrot",
+    "adresse": "manon.perrot@mel-perso.example"
+  },
+  "a": [
+    "elodie.chauvin@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Chauffe-eau du lot n02-03",
+  "date": "2026-06-05T12:02:00+02:00",
+  "corps": "Bonjour,\n\nJ'ai bien reçu le devis de Chauffage des Fontenils pour le chauffe-eau du lot n02-03, 1 180,00 € TTC : je l'accepte, faites faire le remplacement au plus vite.\n\nCordialement,\nManon Perrot",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

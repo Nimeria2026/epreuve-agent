@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0115"
+nom: "Hélène Chevalier"
+type: "particulier"
+adresse: "50 rue de la Loire, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "helene.chevalier@courriel.example"
+telephone: "06 39 98 50 29"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2022-12-13"
+  mois_anniversaire: "décembre"
+  derniere_visite: "2025-12-16"

@@ -1,0 +1,59 @@
+{
+  "numero": "BL-2026-01799",
+  "commande": "CO-2026-01950",
+  "client": "c-0311",
+  "date_expedition": "2026-06-30",
+  "date_livraison": "2026-07-01",
+  "transport": {
+    "mode": "transporteur",
+    "transporteur": "transports-delorme",
+    "recepisse": "TD-294231"
+  },
+  "adresse": "2 parc d'activités de la Gare, 36999 Vendrigny (FICTIF)",
+  "colis": 3,
+  "lignes": [
+    {
+      "reference": "ELE-12711",
+      "libelle": "Prise de courant USB A et C, noir",
+      "quantite": 2
+    },
+    {
+      "reference": "OUT-10253",
+      "libelle": "Ciseau à bois 22 mm",
+      "quantite": 12
+    },
+    {
+      "reference": "OUT-11674",
+      "libelle": "Pince universelle 180 mm",
+      "quantite": 4
+    },
+    {
+      "reference": "PRO-10098",
+      "libelle": "Bottes de sécurité caoutchouc S5, pointure 38",
+      "quantite": 4
+    },
+    {
+      "reference": "PRO-10686",
+      "libelle": "Chaussures de sécurité légères composite S3, pointure 44",
+      "quantite": 2
+    },
+    {
+      "reference": "PRO-11347",
+      "libelle": "Masque FFP2 à valve, boîte de 10",
+      "quantite": 10
+    },
+    {
+      "reference": "QUI-12401",
+      "libelle": "Poignée de porte béquille sur plaque, laiton",
+      "quantite": 6
+    },
+    {
+      "reference": "VIS-11665",
+      "libelle": "Vis à bois tête fraisée 4,5x16, bichromatée, boîte de 200",
+      "quantite": 12
+    }
+  ],
+  "reserves": null,
+  "signataire": "Éric Gallet",
+  "statut": "livre"
+}

@@ -1,0 +1,79 @@
+{
+  "numero": "CO-2026-01881",
+  "client": "c-0262",
+  "reference_client": null,
+  "cree_le": "2026-06-25T09:10:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "1 rue Saint-Martin, 36999 Vendrigny (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "QUI-10914",
+      "libelle": "Charnière piano 25 mm, inox",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 13.95,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 13.95,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 83.7
+    },
+    {
+      "reference": "VIS-13095",
+      "libelle": "Vis à bois tête fraisée 5x80, zinguée, boîte de 100",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 16.1,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 15.46,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 77.3
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 176.0,
+  "total_tva_euros": 35.2,
+  "total_ttc_euros": 211.2,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01730"
+  ],
+  "facture": "FC-2026-1241",
+  "historique": [
+    {
+      "date": "2026-06-25T09:10:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-25T09:12:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-26T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01730"
+    },
+    {
+      "date": "2026-06-26T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01730"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1241"
+    }
+  ]
+}

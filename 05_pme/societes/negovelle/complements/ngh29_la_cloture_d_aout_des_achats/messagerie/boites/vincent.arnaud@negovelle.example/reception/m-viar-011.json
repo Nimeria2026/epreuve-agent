@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-viar-011",
+  "de": {
+    "nom": "Manon Rey",
+    "adresse": "manon.rey@negovelle.example"
+  },
+  "a": [
+    "vincent.arnaud@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Question sur QUI-10489",
+  "date": "2026-08-28T10:20:00+02:00",
+  "corps": "Vincent,\n\nUn client du nord voudrait 40 cadenas laiton QUI-10489 pour octobre. Tu les recommandes, ou je lui propose autre chose ?\n\nManon",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

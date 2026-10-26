@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-quma-b02",
+  "de": {
+    "nom": "Nadège Lebrun",
+    "adresse": "nadege.lebrun@domivelle.example"
+  },
+  "a": [
+    "quentin.mallet@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Courrier du jour",
+  "date": "2026-05-22T12:25:00+02:00",
+  "corps": "Bonjour,\n\nLe courrier du jour est numérisé et rangé dans courrier/.\n\nNadège",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

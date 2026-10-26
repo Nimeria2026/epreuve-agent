@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-quma-303",
+  "de": {
+    "nom": "Lucas Renard",
+    "adresse": "lucas.renard@courriel.example"
+  },
+  "a": [
+    "quentin.mallet@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Visite du T3 place du Marché",
+  "date": "2026-06-06T18:02:00+02:00",
+  "corps": "Bonjour,\n\nJe voudrais visiter le T3 du 112 place du Marché, à Montclavel-sur-Cher. Le dimanche 21 juin vers 11 h me conviendrait.\n\nLucas Renard",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

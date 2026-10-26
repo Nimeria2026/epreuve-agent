@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-906",
+  "de": {
+    "nom": "Sonia Lefèvre",
+    "adresse": "sonia.lefevre@calorelle.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Chaudière fioul en panne",
+  "date": "2026-11-09T14:40:00+01:00",
+  "corps": "Marc, un dépannage arrivé sur contact@.\nSonia\n\n----- Message transféré -----\nIdentifiant : m-ctc-906\nDe : Christophe Gauthier <christophe.gauthier@courriel.example>\nÀ : contact@calorelle.example\nCc : (aucun)\nDate : 2026-11-09T14:30:00+01:00\nObjet : Chaudière fioul en panne\nPièces jointes : (aucune)\n\nBonjour,\n\nNotre chaudière fioul s'est arrêtée et ne redémarre pas.\n\nChristophe Gauthier, 105 rue Haute (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

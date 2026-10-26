@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-b04",
+  "de": {
+    "nom": "Sophie Pasquet",
+    "adresse": "sophie.pasquet@garage-quere.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Horaires du comptoir cet été",
+  "date": "2026-06-26T16:50:00+02:00",
+  "corps": "Bonjour,\n\nLe comptoir reste-t-il ouvert en août ?\n\nSophie Pasquet",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

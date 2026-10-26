@@ -1,0 +1,10 @@
+# Fiche d'un fournisseur de Négovelle. Données FICTIVES.
+nom: Abrasifs et colles de la Brenne
+activite: fabricant de consommables d'atelier
+adresse: 15 zone industrielle des Brandes, 36999 Vendrigny (FICTIF)
+telephone: 02 61 91 64 49
+courriel_commandes: commandes@abrasifs-et-colles-de-la-brenne.example
+courriel_facturation: facturation@abrasifs-et-colles-de-la-brenne.example
+iban: FR76 9999 9726 0579 1214 6388 339 (FICTIF)
+conditions: paiement à 45 jours fin de mois
+minimum_de_commande: 500,00 € HT

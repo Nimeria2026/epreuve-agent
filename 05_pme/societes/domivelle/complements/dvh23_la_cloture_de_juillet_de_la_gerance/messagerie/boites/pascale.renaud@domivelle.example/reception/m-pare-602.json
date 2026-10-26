@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-pare-602",
+  "de": {
+    "nom": "Élodie Chauvin",
+    "adresse": "elodie.chauvin@domivelle.example"
+  },
+  "a": [
+    "pascale.renaud@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Révision du 8 août, n11-02",
+  "date": "2026-07-30T14:00:00+02:00",
+  "corps": "Pascale,\n\nLa révision du loyer de Mme Sylvie Leroux, lot n11-02, tombe le samedi 8 août : 977,00 € × 146,6 ÷ 145,47, soit 984,59 € hors charges. Je le lui ai écrit hier ; je te la transmets.\n\nÉlodie",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

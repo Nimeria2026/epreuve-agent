@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-isro-005",
+  "de": {
+    "nom": "Sophie Pasquet",
+    "adresse": "sophie.pasquet@garage-quere.example"
+  },
+  "a": [
+    "isabelle.royer@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Nos conditions de paiement",
+  "date": "2026-08-26T10:20:00+02:00",
+  "corps": "Bonjour,\n\nNous réglons tout au comptant depuis notre ouverture de compte, en mai. Pouvons-nous passer à 30 jours ?\n\nSophie Pasquet\nGarage Quéré",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

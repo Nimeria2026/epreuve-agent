@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-925",
+  "de": {
+    "nom": "Syndic de la Résidence du Clos-Fargeau",
+    "adresse": "contact@syndic-de-la-residence-du-clos-fargeau-3.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Déplacement facturé",
+  "date": "2026-12-22T14:30:00+01:00",
+  "corps": "Bonjour,\n\nLors de la visite d'entretien du 3 mai, votre technicien nous a fait payer un déplacement de 45 €. Notre contrat Sérénité comprend pourtant le déplacement : nous vous demandons un avoir de ce montant.\n\nLe syndic de la Résidence du Clos-Fargeau, 35 rue des Lilas (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-806",
+  "de": {
+    "nom": "Hélène Marchal",
+    "adresse": "helene.marchal@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Le point de ce matin",
+  "date": "2026-11-02T08:40:00+01:00",
+  "corps": "Sonia,\n\nQuand tu auras fini le tri, fais-moi le point : les réclamations que tu as transmises ce matin, avec le nom de chaque client et à qui tu les as confiées, et les absences de la semaine dans l'équipe. Envoie aussi à Marc les absences des techniciens de la semaine.\n\nHélène (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

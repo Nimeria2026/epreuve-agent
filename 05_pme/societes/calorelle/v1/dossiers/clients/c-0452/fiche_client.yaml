@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0452"
+nom: "Syndic de la Résidence du Pré-Bouvreuil"
+type: "syndic"
+adresse: "94 avenue des Tilleuls, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "contact@syndic-de-la-residence-du-pre-bouvreuil-452.example"
+telephone: "02 61 91 36 10"
+charge_d_affaires: "karim.benali"
+contrat:
+  formule: "Sérénité"
+  depuis: "2022-03-09"
+  mois_anniversaire: "mars"
+  derniere_visite: "2026-03-15"

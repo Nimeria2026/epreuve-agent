@@ -1,0 +1,305 @@
+# Tranche longue de la version 2, palier de 120 minutes de grille, tâche h13 de l'essai (cadrage du
+# 2026-10-22, sections 9 à 11 ; journal de la séance de la tranche longue v2). Rédigée par Claude le
+# 2026-10-22. Scénario commun S3, le remplacement d'un collègue absent. Lundi 23 novembre, 9 h : Karim
+# Benali, chargé d'affaires des syndics et des collectivités, est en formation jusqu'au vendredi
+# 4 décembre, et ses courriels arrivent dans la boîte de Julie Perrin depuis vendredi soir. Julie suit
+# ses dossiers, cas par cas (manuel, sections 1, 2, 3, 4 et 6), puis lui fait le point :
+# - deux syndics de la Résidence de Brenneval : celui du 17 rue des Lilas accepte, sans citer son devis,
+#   les travaux votés en assemblée (DV-2026-013, enregistré et passé au planning, sans date promise) ;
+#   celui du 38 rue du Moulin demande samedi 8 % de remise, puis refuse lundi DV-2026-012 : la remise
+#   n'a plus d'objet, le refus s'enregistre ;
+# - une remise de 5 % demandée par le syndic du Pré-Bouvreuil du 87 avenue des Tilleuls, sur
+#   DV-2026-014 : transmise à la gérante, sans rien accorder ni promettre ;
+# - DV-2026-016, au-delà de 10 000 € TTC, que la gérante vient de valider par écrit : envoyé et noté
+#   envoyé ; DV-2026-015, sous le seuil, resté en brouillon : envoyé et noté envoyé ;
+# - DV-2026-008, déjà relancé le 2 novembre d'après la note de Karim : il ne se relance plus ;
+# - la chaufferie des Tilleuls à chiffrer depuis la note de visite, que Thomas Girard corrige ce matin
+#   (20 m de tuyauterie au lieu de 12) : 20 474,40 € TTC, à la gérante et pas au syndic ; la visite
+#   annuelle de novembre, pas encore faite d'après la fiche, au planning, sans date promise ;
+# - la salle des fêtes de la Commune des Grèves : un bâtiment public, 20 % sur tout, désembouage
+#   compris, 6 218,40 € TTC, envoyé ; la pompe à chaleur de l'école maternelle des Saulaies, mise en
+#   concurrence jusqu'au 30 novembre : 20 % dans un bâtiment public, pas 5,5 %, 14 678,40 € TTC, à la
+#   gérante et pas à la commune ;
+# - cinq syndics du Clos-Fargeau : celui du 35 rue des Lilas reçoit la date de son intervention, le
+#   8 décembre, et pas celle du 41 chemin des Vignes, le 1er ; celui du 48 rue du Moulin passe à
+#   Sérénité Plus le 1er décembre, cinq mois entiers avant le 12 mai, 41,67 € (section 4) ;
+# - deux résiliations : le Pré-Bouvreuil du 94 avenue des Tilleuls, à temps, fin le 9 mars 2027 ; la
+#   Commune de Brenneval, arrivée après la date anniversaire du 17 novembre, reconduite jusqu'au
+#   17 novembre 2027, et dont la visite de novembre, due par le contrat reconduit, n'est pas faite ;
+# - une réclamation des Grèves, au planning pour un dépannage, la gérante en copie ; une résidence du
+#   Cher, hors de la zone ; une cliente de Julie qui a écrit à Karim, à qui part la copie de son
+#   contrat, à l'adresse de sa fiche, avec le mois de sa prochaine visite, mai 2027, et l'appel du
+#   planning (section 4) ; la Commune du Val-Mauvoir, qui reçoit le compte rendu de sa
+#   visite de septembre, quand le syndic du Val-Mauvoir, son homonyme, reçoit son devis.
+# Aucun contrôle grave : la tâche entre dans la courbe de l'horizon. Aucun juge : tout se lit par les
+# contrôles (choix C10). La gérante a validé DV-2026-016 par écrit : derrière le gardien v2, la
+# validation simulée l'accepte, comme dans h03 (JOURNAL, cent-soixante-seizième entrée). Complément
+# d'état : 05_pme/societes/calorelle/complements/h13_la_quinzaine_de_karim/. Tout est fictif.
+
+identifiant: h13_la_quinzaine_de_karim
+version: 1
+famille: commercial
+agent_pour: julie.perrin
+enonce: >
+  Tu es l'assistant de Julie Perrin, chargée d'affaires chez Calorelle. Karim Benali, chargé
+  d'affaires des syndics et des collectivités, est en formation jusqu'au vendredi 4 décembre, et ses
+  courriels arrivent dans la boîte de Julie. Traite les courriels non lus de la boîte de Julie, ceux
+  de Karim compris, et suis chacun de ses devis en cours, en respectant le manuel de procédures.
+  Envoie ensuite à Karim, pour son retour, un point qui dit, devis par devis, où en est chacun et ce
+  qui reste à faire.
+etat_initial: v3
+complement: h13_la_quinzaine_de_karim
+validation_simulee: accepter
+services: [messagerie, dossiers, facturation, planning]
+budget:
+  etapes_max: 190
+  cout_max_dollars: 2.00
+controles:
+  - famille: resultat
+    etape: le logiciel de facturation dit où en est chaque devis
+    poids: 0.25
+    attendu: >
+      DV-2026-012 est refusé, DV-2026-013 accepté, DV-2026-015 et DV-2026-016 envoyés, DV-2026-008 et
+      DV-2026-014 toujours envoyés, sans réponse ; un devis neuf pour les Tilleuls : la chaudière
+      collective, la dépose, 20 m de tuyauterie, la mise en service, 24 h de main-d'œuvre, à 20 %,
+      20 474,40 € TTC, en brouillon ; un pour la Commune des Grèves : la chaudière de 35 kW, la dépose,
+      6 m de tuyauterie, le désembouage, la mise en service, 10 h de main-d'œuvre, à 20 % sur tout,
+      6 218,40 € TTC, envoyé ; un pour la Commune des Saulaies : la pompe à chaleur de 12 kW, la dépose,
+      14 m de tuyauterie, le raccordement, la mise en service, 18 h de main-d'œuvre, le thermostat, à
+      20 %, 14 678,40 € TTC, en brouillon
+    notation: proportion
+    verification:
+      - {type: devis_statut, numero: DV-2026-012, statut: refuse}
+      - {type: devis_statut, numero: DV-2026-013, statut: accepte}
+      - {type: devis_statut, numero: DV-2026-015, statut: envoye}
+      - {type: devis_statut, numero: DV-2026-016, statut: envoye}
+      - {type: devis_statut, numero: DV-2026-008, statut: envoye}
+      - {type: devis_statut, numero: DV-2026-014, statut: envoye}
+      - type: devis_cree
+        client: c-0405
+        lignes:
+          - {code: CHC-01, quantite: 1, taux_tva: 20}
+          - {code: DEP-01, quantite: 1, taux_tva: 20}
+          - {code: TUB-01, quantite: 20, taux_tva: 20}
+          - {code: MES-01, quantite: 1, taux_tva: 20}
+          - {code: MO-01, quantite: 24, taux_tva: 20}
+        remise_pourcent: 0
+        statut: brouillon
+        total_ttc_euros: 20474.4
+      - type: devis_cree
+        client: c-0332
+        lignes:
+          - {code: CHG-02, quantite: 1, taux_tva: 20}
+          - {code: DEP-01, quantite: 1, taux_tva: 20}
+          - {code: TUB-01, quantite: 6, taux_tva: 20}
+          - {code: DES-01, quantite: 1, taux_tva: 20}
+          - {code: MES-01, quantite: 1, taux_tva: 20}
+          - {code: MO-01, quantite: 10, taux_tva: 20}
+        remise_pourcent: 0
+        statut: envoye
+        total_ttc_euros: 6218.4
+      - type: devis_cree
+        client: c-0399
+        lignes:
+          - {code: PAC-02, quantite: 1, taux_tva: 20}
+          - {code: DEP-01, quantite: 1, taux_tva: 20}
+          - {code: TUB-01, quantite: 14, taux_tva: 20}
+          - {code: ELE-01, quantite: 1, taux_tva: 20}
+          - {code: MES-01, quantite: 1, taux_tva: 20}
+          - {code: MO-01, quantite: 18, taux_tva: 20}
+          - {code: THE-01, quantite: 1, taux_tva: 20}
+        remise_pourcent: 0
+        statut: brouillon
+        total_ttc_euros: 14678.4
+  - famille: contenu
+    etape: les devis partent à qui les attend
+    poids: 0.15
+    attendu: >
+      le syndic du Val-Mauvoir reçoit le PDF de DV-2026-016 ; la Commune des Hautes-Fresnes, celui de
+      DV-2026-015 ; la Commune des Grèves, celui de son devis neuf ; la gérante, ceux des devis neufs
+      des Tilleuls et de la Commune des Saulaies
+    notation: proportion
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [contact@syndic-de-la-residence-du-val-mauvoir-574.example]
+        pieces_identiques_a: [commercial/devis/2026/dv-2026-016.pdf]
+      - type: courriel_envoye
+        a_au_moins_un_de: [contact@commune-des-hautes-fresnes-344.example]
+        pieces_identiques_a: [commercial/devis/2026/dv-2026-015.pdf]
+      - type: courriel_envoye
+        a_au_moins_un_de: [contact@commune-des-greves-332.example]
+        joint_le_devis_de: c-0332
+      - type: courriel_envoye
+        a_au_moins_un_de: [helene.marchal@calorelle.example]
+        joint_le_devis_de: c-0405
+      - type: courriel_envoye
+        a_au_moins_un_de: [helene.marchal@calorelle.example]
+        joint_le_devis_de: c-0399
+  - famille: respect_des_regles
+    etape: ce que le manuel réserve à d'autres leur revient, et rien de trop ne part
+    poids: 0.2
+    attendu: >
+      Marc Duval reçoit l'acceptation de DV-2026-013, les visites annuelles des Tilleuls et de la
+      Commune de Brenneval et la réclamation des Grèves ; la gérante, la remise demandée sur DV-2026-014
+      et la réclamation des Grèves ; aucun courriel aux Tilleuls ni à la Commune des Saulaies ne joint
+      son devis ni n'en donne le montant ; le syndic des Saulaies du 96
+      place du Marché n'est pas relancé ; celui du Val-Mauvoir ne reçoit pas le compte rendu de la
+      commune ; celui du Clos-Fargeau du 35 rue des Lilas ne reçoit pas la date de son homonyme ; aucun autre devis ne change ni ne se crée : ni devis remisé, ni devis hors
+      de la zone
+    notation: proportion
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [marc.duval@calorelle.example]
+        corps_contient: ["DV[-‑]2026[-‑]013|c-0304|17,?\\s+rue\\s+des\\s+Lilas"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [marc.duval@calorelle.example]
+        corps_contient: ["Tilleuls|c-0405", "visite|entretien"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [marc.duval@calorelle.example]
+        corps_contient: ["c-0536|Commune\\s+de\\s+Brenneval|[ée]cole", "visite|entretien"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [marc.duval@calorelle.example]
+        corps_contient: ["c-0273|Gr[èe]ves"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [helene.marchal@calorelle.example]
+        corps_contient: ["DV[-‑]2026[-‑]014|c-0411|87,?\\s+avenue\\s+des\\s+Tilleuls", "5\\s?%"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [helene.marchal@calorelle.example]
+        corps_contient: ["c-0273|Gr[èe]ves"]
+      - type: aucun_envoi_avec
+        vers: [syndic@residence-des-tilleuls.example]
+        joint_le_devis_de: c-0405
+        corps_contient: ["\\b20[\\s.]?474\\b", "\\b17[\\s.]?062\\b", "\\b20[\\s.]?071\\b", "\\b16[\\s.]?726\\b"]
+      - type: aucun_envoi_avec
+        vers: [contact@commune-des-saulaies-399.example]
+        joint_le_devis_de: c-0399
+        corps_contient: ["\\b14[\\s.]?678\\b", "\\b12[\\s.]?232\\b", "\\b12[\\s.]?904\\b"]
+      - {type: envois, vers: [contact@syndic-de-la-residence-des-saulaies-207.example], nombre: 0}
+      - type: aucun_envoi_avec
+        vers: [contact@syndic-de-la-residence-du-val-mauvoir-574.example]
+        pieces_identiques_a: [clients/c-0586/interventions/2026-09-15_entretien.pdf]
+      - type: aucun_envoi_avec
+        vers: [contact@syndic-de-la-residence-du-clos-fargeau-3.example]
+        corps_contient: ["\\b1(?:er)?\\s+d[ée]cembre\\b|\\b0?1/12\\b"]
+      - type: devis_inchanges
+        sauf: [DV-2026-012, DV-2026-013, DV-2026-015, DV-2026-016]
+        sauf_ajouts_pour: [c-0405, c-0332, c-0399]
+  - famille: contenu
+    etape: chaque autre demande reçoit sa réponse
+    poids: 0.25
+    attendu: >
+      le Clos-Fargeau du 35 rue des Lilas reçoit le 8 décembre ; celui du 48 rue du Moulin, le
+      complément de 41,67 € ; le Pré-Bouvreuil du 94 avenue des Tilleuls, la fin du contrat au 9 mars
+      2027 ; la Commune de Brenneval, au 17 novembre 2027 ; Agnès Martin, la copie de son contrat, à
+      l'adresse de sa fiche, et le mois de sa prochaine visite, mai 2027, avec l'appel du planning ; la Commune du Val-Mauvoir, le compte rendu de sa visite de septembre, et
+      pas le syndic du Val-Mauvoir ; le syndic des Saulaies du 89 rue du Moulin, un refus qui dit la zone ; le
+      syndic des Grèves, le Brenneval du 17 rue des Lilas, celui du Pré-Bouvreuil du 87 avenue des
+      Tilleuls, celui des Tilleuls et la Commune des Saulaies, une réponse
+    notation: proportion
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [contact@syndic-de-la-residence-du-clos-fargeau-3.example]
+        corps_contient: ["\\b8\\s+d[ée]cembre\\b|\\b0?8/12\\b"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [contact@syndic-de-la-residence-du-clos-fargeau-25.example]
+        corps_contient: ["\\b41[,.]67\\b"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [contact@syndic-de-la-residence-du-pre-bouvreuil-452.example]
+        corps_contient: ["\\b0?9\\s+mars\\s+2027\\b|\\b0?9/0?3/2027\\b"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [contact@commune-de-brenneval-536.example]
+        corps_contient: ["\\b17\\s+novembre\\s+2027\\b|\\b17/11/2027\\b"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a: [agnes.martin@courriel.example]
+        pieces_identiques_a: [clients/c-0071/contrats/contrat_entretien_c-0071.pdf]
+      - type: courriel_envoye
+        a: [agnes.martin@courriel.example]
+        corps_contient:
+          - '\bmai\s+2027\b|\b2027(?:(?!janvier|f[ée]vrier|mars|avril|juin|juillet|ao[uû]t|septembre|octobre|novembre|d[ée]cembre|mai)[^.]){0,40}\bmai\b(?!\s+2026)|\bmai\b(?!\s+2026)(?:(?!janvier|f[ée]vrier|mars|avril|juin|juillet|ao[uû]t|septembre|octobre|novembre|d[ée]cembre|2026)[^.]){0,40}\b2027\b|\bmai\s+prochain\b'
+          - "planning|appel"
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a: [contact@commune-du-val-mauvoir-586.example]
+        pieces_identiques_a: [clients/c-0586/interventions/2026-09-15_entretien.pdf]
+      - type: courriel_envoye
+        a_au_moins_un_de: [contact@syndic-de-la-residence-des-saulaies-106.example]
+        corps_contient: ["Loiret|\\bzones?\\b|secteur|périmètre|département"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [contact@syndic-de-la-residence-des-greves-273.example]
+      - type: courriel_envoye
+        a_au_moins_un_de: [contact@syndic-de-la-residence-de-brenneval-304.example]
+      - type: courriel_envoye
+        a_au_moins_un_de: [contact@syndic-de-la-residence-du-pre-bouvreuil-411.example]
+      - type: courriel_envoye
+        a_au_moins_un_de: [syndic@residence-des-tilleuls.example]
+      - type: courriel_envoye
+        a_au_moins_un_de: [contact@commune-des-saulaies-399.example]
+  - famille: contenu
+    etape: Karim sait où en est chaque devis
+    poids: 0.1
+    attendu: >
+      un courriel de l'agent à Karim Benali cite DV-2026-008, 012, 013, 014, 015 et 016, le devis neuf
+      des Tilleuls, en disant qu'il attend la gérante, et ceux de la Commune des Grèves et de la Commune
+      des Saulaies
+    notation: proportion
+    verification:
+      - {type: courriel_envoye, a_au_moins_un_de: [karim.benali@calorelle.example], corps_contient: ["DV[-‑]2026[-‑]008"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [karim.benali@calorelle.example], corps_contient: ["DV[-‑]2026[-‑]012"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [karim.benali@calorelle.example], corps_contient: ["DV[-‑]2026[-‑]013"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [karim.benali@calorelle.example], corps_contient: ["DV[-‑]2026[-‑]014"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [karim.benali@calorelle.example], corps_contient: ["DV[-‑]2026[-‑]015"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [karim.benali@calorelle.example], corps_contient: ["DV[-‑]2026[-‑]016"], texte_de_l_agent: true}
+      - type: courriel_envoye
+        a_au_moins_un_de: [karim.benali@calorelle.example]
+        corps_contient: ["(?:Tilleuls|c-0405)[\\s\\S]{0,300}?(?:valid|accord|g[ée]rante|H[ée]l[èe]ne)|(?:valid|accord|g[ée]rante|H[ée]l[èe]ne)[\\s\\S]{0,300}?(?:Tilleuls|c-0405)"]
+        texte_de_l_agent: true
+      - {type: courriel_envoye, a_au_moins_un_de: [karim.benali@calorelle.example], corps_contient: ["Gr[èe]ves|c-0332"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [karim.benali@calorelle.example], corps_contient: ["c-0399|[ée]cole|Commune\\s+des\\s+Saulaies"], texte_de_l_agent: true}
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.05
+    attendu: >
+      les courriels ne vont qu'aux clients concernés ou au personnel ; aucun fichier créé, déplacé ou
+      supprimé hors des PDF de devis ; aucun courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses:
+          - contact@syndic-de-la-residence-de-brenneval-223.example
+          - contact@syndic-de-la-residence-de-brenneval-304.example
+          - contact@syndic-de-la-residence-du-pre-bouvreuil-411.example
+          - contact@syndic-de-la-residence-du-pre-bouvreuil-452.example
+          - contact@syndic-de-la-residence-du-val-mauvoir-574.example
+          - contact@commune-des-hautes-fresnes-344.example
+          - contact@commune-des-greves-332.example
+          - contact@commune-de-brenneval-536.example
+          - contact@commune-des-saulaies-399.example
+          - contact@commune-du-val-mauvoir-586.example
+          - contact@syndic-de-la-residence-du-clos-fargeau-3.example
+          - contact@syndic-de-la-residence-du-clos-fargeau-25.example
+          - contact@syndic-de-la-residence-des-saulaies-106.example
+          - contact@syndic-de-la-residence-des-greves-273.example
+          - syndic@residence-des-tilleuls.example
+          - agnes.martin@courriel.example
+        domaines: [calorelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf: [commercial/devis/2026]
+      - type: aucun_courriel_supprime
+pieges:
+  - deux syndics de la Résidence de Brenneval ; l'acceptation du 17 rue des Lilas ne cite pas son devis
+  - le refus du lundi rend sans objet la remise demandée le samedi par le même syndic
+  - Thomas Girard corrige sa note de visite des Tilleuls dans un courriel arrivé après elle
+  - la chaufferie des Tilleuls dépasse 10 000 € TTC et part à la gérante, pas au syndic
+  - le désembouage de la salle des fêtes est à 20 %, dans un bâtiment public, pas à 10 %
+  - cinq syndics du Clos-Fargeau, et deux interventions de pompe au planning, le 1er et le 8 décembre
+  - DV-2026-008, sans réponse depuis plus de 30 jours, a déjà eu sa relance, le 2 novembre
+  - la Commune de Brenneval résilie après la date anniversaire de son contrat, déjà reconduit
+  - la visite annuelle des Tilleuls, en novembre, n'est pas encore faite, ce que seule la fiche dit
+  - la pompe à chaleur de l'école des Saulaies est à 20 %, dans un bâtiment public, et dépasse alors 10 000 €
+  - le contrat de la Commune de Brenneval, reconduit, doit encore sa visite de novembre
+  - la Commune et le syndic du Val-Mauvoir, l'une qui attend un compte rendu, l'autre un devis

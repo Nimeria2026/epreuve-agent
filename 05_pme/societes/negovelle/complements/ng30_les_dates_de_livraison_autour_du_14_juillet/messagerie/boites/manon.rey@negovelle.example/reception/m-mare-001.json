@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-mare-001",
+  "de": {
+    "nom": "Nathalie Ernault",
+    "adresse": "nathalie.ernault@electricite-chauveau.example"
+  },
+  "a": [
+    "manon.rey@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Livraison de notre commande CO-2026-02044",
+  "date": "2026-07-10T07:50:00+02:00",
+  "corps": "Bonjour Manon,\n\nNous avons passé ce matin en express la commande CO-2026-02044. Quand serons-nous livrés ?\n\nNathalie Ernault\nÉlectricité Chauveau",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

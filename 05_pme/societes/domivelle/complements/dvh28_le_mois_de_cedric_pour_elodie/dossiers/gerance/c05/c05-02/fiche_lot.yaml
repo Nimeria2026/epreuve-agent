@@ -1,0 +1,19 @@
+# Fiche du lot c05-02. Données FICTIVES.
+lot: c05-02
+adresse: 69 allée des Acacias, 18999 Montclavel-sur-Cher (FICTIF)
+type: maison T5
+surface_m2: 103
+locataire:
+  nom: Mme Estelle Rolland
+  courriel: estelle.rolland@mel-perso.example
+  telephone: 06 39 98 77 10
+  entree: '2025-07-05'
+bail:
+  signature: '2025-07-05'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 982,00 €
+  depot_de_garantie: 982,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T1
+dpe:
+  classe: E

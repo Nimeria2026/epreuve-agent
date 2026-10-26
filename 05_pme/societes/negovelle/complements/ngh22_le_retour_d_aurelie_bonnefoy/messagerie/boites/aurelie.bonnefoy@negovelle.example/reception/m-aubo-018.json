@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-aubo-018",
+  "de": {
+    "nom": "Chantal Robin",
+    "adresse": "chantal.robin@negovelle.example"
+  },
+  "a": [
+    "aurelie.bonnefoy@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Tes tickets de juillet",
+  "date": "2026-07-31T17:40:00+02:00",
+  "corps": "Aurélie,\n\nVoici les tickets que tu m'as laissés à scanner pour ta note de frais de juillet, dans la pièce jointe. Je t'en ai fait la liste :\n\n- 2 juillet 2026, repas en tournée, Laubrissac : 16,80 €\n- 7 juillet 2026, péage, Fontclavier : 9,60 €\n- 9 juillet 2026, nuit d'hôtel avec petit-déjeuner, Vendrigny : 84,00 €\n- 10 juillet 2026, repas en tournée, Vendrigny : 18,20 €\n- 16 juillet 2026, déjeuner avec le gérant de Monnier Bâtiment, Saulvenne : 54,30 €\n- 21 juillet 2026, stationnement, Vaumoreau-sur-Indre : 4,50 €\n- 23 juillet 2026, 46 km avec ma voiture, le véhicule de service au garage, Corvalet : 27,60 €\n- 28 juillet 2026, péage, Corvalet : 7,40 €\n- 30 juin 2026, repas en tournée, Corvalet : 17,90 €\n\nBonnes vacances,\nChantal",
+  "pieces_jointes": [
+    {
+      "nom": "tickets_juillet_aurelie_bonnefoy.pdf",
+      "fichier": "pieces/m-aubo-018/tickets_juillet_aurelie_bonnefoy.pdf",
+      "taille_octets": 1263
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

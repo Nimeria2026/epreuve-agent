@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-sl-632",
+  "de": {
+    "nom": "Florian Masson",
+    "adresse": "florian.masson@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Prolongation de mon arrêt",
+  "date": "2026-11-13T08:10:00+01:00",
+  "corps": "Bonjour Sonia,\n\nLe médecin prolonge mon arrêt jusqu'au vendredi 20 novembre inclus : c'est toujours mon dos, il ne veut pas que je porte de charges. Je t'envoie l'avis de prolongation.\n\nFlorian (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "prolongation_arret_Masson.pdf",
+      "fichier": "pieces/m-sl-632/prolongation_arret_Masson.pdf",
+      "taille_octets": 818
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

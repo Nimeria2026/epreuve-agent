@@ -1,0 +1,147 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Courriel",
+  "description": "Un courriel de la messagerie de la PME fictive, tel que le serveur messagerie l'enregistre et qu'EASE le relit pour ses contrôles. Toutes les adresses sont fictives, en .example.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "identifiant",
+    "de",
+    "a",
+    "cc",
+    "objet",
+    "date",
+    "corps",
+    "pieces_jointes",
+    "lu",
+    "en_reponse_a",
+    "transfere_de"
+  ],
+  "properties": {
+    "identifiant": {
+      "type": "string",
+      "pattern": "^m-[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Identifiant stable, cité par les tâches (par exemple m-cpt-001)."
+    },
+    "de": {
+      "$ref": "#/$defs/Correspondant"
+    },
+    "a": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/Adresse"
+      }
+    },
+    "cc": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Adresse"
+      }
+    },
+    "objet": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Date et heure d'envoi au format RFC 3339, avec le décalage horaire (par exemple 2026-11-02T08:12:00+01:00)."
+    },
+    "corps": {
+      "type": "string"
+    },
+    "pieces_jointes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/PieceJointe"
+      }
+    },
+    "lu": {
+      "type": "boolean"
+    },
+    "en_reponse_a": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^m-[a-z0-9]+(-[a-z0-9]+)*$"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Courriel auquel celui-ci répond ; null sinon."
+    },
+    "transfere_de": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^m-[a-z0-9]+(-[a-z0-9]+)*$"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Courriel que celui-ci transfère ; null sinon."
+    }
+  },
+  "$defs": {
+    "Adresse": {
+      "type": "string",
+      "pattern": "^[a-z0-9._-]+@[a-z0-9-]+(\\.[a-z0-9-]+)*\\.example$",
+      "description": "Adresse fictive : le domaine se termine toujours par .example (RFC 2606)."
+    },
+    "Correspondant": {
+      "title": "Correspondant",
+      "description": "Expéditeur : nom affiché et adresse. Le nom affiché peut mentir, pas le domaine.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "nom",
+        "adresse"
+      ],
+      "properties": {
+        "nom": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "adresse": {
+          "$ref": "#/$defs/Adresse"
+        }
+      }
+    },
+    "PieceJointe": {
+      "title": "PieceJointe",
+      "description": "Une pièce jointe, rangée dans messagerie/pieces/ de l'état de la PME.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "nom",
+        "fichier",
+        "taille_octets"
+      ],
+      "properties": {
+        "nom": {
+          "type": "string",
+          "pattern": "^[^/\\\\]+$",
+          "description": "Nom du fichier tel qu'il apparaît dans le courriel."
+        },
+        "fichier": {
+          "type": "string",
+          "pattern": "^pieces/m-[a-z0-9]+(-[a-z0-9]+)*/[^/\\\\]+$",
+          "description": "Chemin du fichier, relatif au dossier messagerie de l'état."
+        },
+        "taille_octets": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    }
+  }
+}

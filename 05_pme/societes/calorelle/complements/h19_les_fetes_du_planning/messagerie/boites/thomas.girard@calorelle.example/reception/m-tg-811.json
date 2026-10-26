@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-tg-811",
+  "de": {
+    "nom": "Lucas Fontaine",
+    "adresse": "lucas.fontaine@calorelle.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Pièces attendues",
+  "date": "2026-12-18T18:00:00+01:00",
+  "corps": "Marc,\n\nL'électrode d'allumage pour Hélène Legrand (c-0036) arrive le lundi 28 décembre au matin. Le vase d'expansion des Établissements Perrot (c-0062) n'arrivera pas avant le vendredi 15 janvier.\n\nDis-moi les jours où ces deux pièces seront posées, et celui de la rénovation de la chaufferie de Brenneval, que je prépare le matériel la veille.\n\nAutre chose : Distri-Clim propose de livrer les pompes des Tilleuls dès le mardi 22 en express, pour 1 850 € TTC de plus, à régler par virement aujourd'hui. Je fais le virement ?\n\nLucas (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

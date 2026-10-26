@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-002",
+  "de": {
+    "nom": "Sophie Lagarde",
+    "adresse": "sophie.lagarde@serrurerie-thiery.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande express",
+  "date": "2026-07-26T19:05:00+02:00",
+  "corps": "Bonjour,\n\nCommande à livrer en express, dès que possible :\n\n- 10 x QUI-10375, Cadenas inox marine 40 mm, 2 clés\n- 20 x QUI-13421, Équerre d'assemblage 40 mm, zinguée, sachet de 4\n\nAu siège.\n\nSophie Lagarde\nSerrurerie Thiery",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

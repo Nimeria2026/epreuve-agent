@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-vete-607",
+  "de": {
+    "nom": "Yohan Delmas",
+    "adresse": "yohan.delmas@domivelle.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Mme Charpentier, cp06 : échéancier",
+  "date": "2026-08-06T11:00:00+02:00",
+  "corps": "Véronique,\n\nMme Sylvie Charpentier, lot 2 de la Résidence Les Pins (cp06), t'a écrit pour un échéancier. Sa mise en demeure du 2 juin est restée sans effet plus de trente jours : ses provisions de l'année sont exigibles (loi de 1965, article 19-2), 1 189,20 €, et ses frais de recouvrement, 45,00 €, s'y ajoutent, soit 1 234,20 €. Thierry a vérifié : elle n'a jamais eu d'échéancier. Je te propose de lui accorder les six mois qu'elle demande.\n\nYohan",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

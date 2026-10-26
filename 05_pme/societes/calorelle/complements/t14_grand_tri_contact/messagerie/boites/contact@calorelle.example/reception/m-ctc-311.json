@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-ctc-311",
+  "de": {
+    "nom": "Léa Vasseur",
+    "adresse": "lea.vasseur@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Candidature : assistante administrative",
+  "date": "2026-11-02T08:03:00+01:00",
+  "corps": "Bonjour,\n\nAssistante administrative depuis cinq ans, je vous adresse ma candidature spontanée. Mon CV est joint.\n\nLéa Vasseur (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "CV_Lea_Vasseur.pdf",
+      "fichier": "pieces/m-ctc-311/CV_Lea_Vasseur.pdf",
+      "taille_octets": 796
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

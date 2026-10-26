@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-501",
+  "de": {
+    "nom": "Syndic de la Résidence du Clos-Fargeau",
+    "adresse": "contact@syndic-de-la-residence-du-clos-fargeau-402.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Compte rendu de la visite d'octobre",
+  "date": "2026-11-16T17:50:00+01:00",
+  "corps": "Bonjour Monsieur Benali,\n\nPour notre assemblée générale du 3 décembre, pourriez-vous nous adresser le compte rendu de la visite d'entretien de notre chaufferie, faite en octobre ?\n\nCordialement,\nLe syndic de la Résidence du Clos-Fargeau, 63 impasse des Saules (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

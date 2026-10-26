@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-isro-016",
+  "de": {
+    "nom": "Daniel Pelletier",
+    "adresse": "daniel.pelletier@paysage-noblet.example"
+  },
+  "a": [
+    "isabelle.royer@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Nos 60 jours",
+  "date": "2026-08-27T15:00:00+02:00",
+  "corps": "Bonjour,\n\nM. Castaing nous a accordé 60 jours de paiement. Notre facture d'août est-elle déjà concernée ?\n\nDaniel Pelletier\nPaysage Noblet",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-ctc-001",
+  "de": {
+    "nom": "Lettre recommandée électronique",
+    "adresse": "ne-pas-repondre@lre-certifiee.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Vous avez reçu une lettre recommandée électronique",
+  "date": "2026-06-05T16:02:00+02:00",
+  "corps": "Bonjour,\n\nMme Laure Maréchal vous a adressé une lettre recommandée électronique, déposée le vendredi 5 juin 2026 à 15 h 58.\n\nObjet déclaré par l'expéditeur : congé de mon logement, lot n38-04, 41 rue Jean-Jaurès à Saint-Aubrin-des-Bois.\n\nLa preuve de dépôt est jointe. La lettre est à accepter sous quinze jours.\n\nLRE Certifiée, service de lettre recommandée électronique",
+  "pieces_jointes": [
+    {
+      "nom": "preuve_de_depot.pdf",
+      "fichier": "pieces/m-ctc-001/preuve_de_depot.pdf",
+      "taille_octets": 774
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

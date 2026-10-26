@@ -1,0 +1,25 @@
+# Fiche du client c-0329 de Négovelle. Données FICTIVES.
+code: c-0329
+nom: Plâtrerie Belin
+type: artisan
+adresse: 40 chemin des Prés, 36999 Mérolles-en-Brenne (FICTIF)
+telephone: 02 61 91 81 14
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Alice Ancelin
+  fonction: gérante
+  courriel: alice.ancelin@platrerie-belin.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 40 chemin des Prés, 36999 Mérolles-en-Brenne (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2021-01-01'
+limite_encours_euros: 7000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

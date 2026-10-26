@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-isro-014",
+  "de": {
+    "nom": "Léa Parmentier",
+    "adresse": "lea.parmentier@entreprise-clerc.example"
+  },
+  "a": [
+    "isabelle.royer@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Ce que nous vous devons",
+  "date": "2026-08-25T10:00:00+02:00",
+  "corps": "Bonjour,\n\nPour préparer nos paiements de septembre, pouvez-vous nous dire ce que nous vous devons à ce jour ?\n\nLéa Parmentier\nEntreprise Clerc",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,11 @@
+# Fiche du propriétaire p-0511, mandant de Domivelle. Données FICTIVES.
+code: p-0511
+nom: Mme Suzanne Bonnet
+adresse: 71 rue de l'Église, 18999 Saint-Aubrin-des-Bois (FICTIF)
+courriel: suzanne.bonnet@boite-postale.example
+telephone: 06 39 98 58 91
+iban: FR76 9999 9068 7595 4869 8368 125 (FICTIF)
+comptes_rendus: par courrier
+lots:
+- n38-04
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

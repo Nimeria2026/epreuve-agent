@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-laga-013",
+  "de": {
+    "nom": "Corinne Vidal",
+    "adresse": "corinne.vidal@negovelle.example"
+  },
+  "a": [
+    "laetitia.garnier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Commande au prix convenu",
+  "date": "2026-08-10T07:43:00+02:00",
+  "corps": "Lætitia,\n\nManon étant absente jusqu'au 21, je te transfère sa commande du nord, arrivée dans commandes@.\n\nCorinne\n\n----- Message transféré -----\nDe : Louis Guillon <louis.guillon@navarre-maintenance.example>\nDate : 7 août 2026, 15 h 30\nObjet : Commande au prix convenu\n\nBonjour,\n\nComme convenu avec Laurent Gimenez la semaine dernière, voici notre commande, au prix qu'il nous a promis, 10 % sous notre prix habituel :\n\n- 40 x QUI-12817, Serrure à larder à clé L, axe 60 mm\n\nSi ce prix n'est pas possible, ne livrez rien : nous attendrons.\n\nCordialement,\n\nLouis Guillon\nNavarre Maintenance",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

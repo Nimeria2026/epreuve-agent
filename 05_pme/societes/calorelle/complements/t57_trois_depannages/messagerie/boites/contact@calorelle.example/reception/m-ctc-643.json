@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-643",
+  "de": {
+    "nom": "Alain Bonnet",
+    "adresse": "alain.bonnet@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Chaudière fioul en panne",
+  "date": "2026-11-09T08:32:00+01:00",
+  "corps": "Bonjour,\n\nMa chaudière au fioul ne démarre plus. Je n'ai pas de contrat chez vous. Je ne suis chez moi que demain, mardi 10 novembre, toute la journée.\n\nAlain Bonnet, 8 rue Haute, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-viar-014",
+  "de": {
+    "nom": "Aurélie Bonnefoy",
+    "adresse": "aurelie.bonnefoy@negovelle.example"
+  },
+  "a": [
+    "vincent.arnaud@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Question sur ELE-11976",
+  "date": "2026-08-31T07:30:00+02:00",
+  "corps": "Vincent,\n\nMonnier Bâtiment me demande 15 couronnes de gaine ELE-11976 pour un chantier d'octobre. Tu en reçois quand ?\n\nAurélie",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

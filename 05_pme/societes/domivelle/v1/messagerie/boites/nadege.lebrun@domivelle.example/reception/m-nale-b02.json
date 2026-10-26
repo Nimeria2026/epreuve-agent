@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-nale-b02",
+  "de": {
+    "nom": "Mme Estelle Guillot",
+    "adresse": "estelle.guillot@courriel.example"
+  },
+  "a": [
+    "nadege.lebrun@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Attestation pour ma déclaration de revenus",
+  "date": "2026-05-26T13:35:00+02:00",
+  "corps": "Bonjour,\n\nJe n'ai pas reçu l'attestation annuelle pour ma déclaration des revenus fonciers. Pouvez-vous me la renvoyer ?\n\nCordialement,\nMme Estelle Guillot",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-viar-007",
+  "de": {
+    "nom": "Bruno Castaing",
+    "adresse": "bruno.castaing@negovelle.example"
+  },
+  "a": [
+    "vincent.arnaud@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Les offres de l'été, et le point d'août",
+  "date": "2026-08-24T09:10:00+02:00",
+  "corps": "Vincent,\n\nMe voici rentré. Les offres de fournisseurs de l'été, que Chantal t'a transférées pendant mon absence : prépare-m'en une note pour lundi 31, une ligne par offre, avec le fournisseur, ce qu'il propose et jusqu'à quand. Réponds à chacun que tu me la soumets et que je déciderai en septembre ; d'ici là, ne t'engage sur rien.\n\nEt lundi, pour la clôture, fais-moi le point des achats : les commandes de réassort parties ce jour-là, fournisseur par fournisseur, avec leur montant HT au dernier prix facturé, et ce qui attend encore chez les fournisseurs.\n\nBruno",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

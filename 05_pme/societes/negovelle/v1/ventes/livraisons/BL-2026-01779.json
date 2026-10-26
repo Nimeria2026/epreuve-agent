@@ -1,0 +1,49 @@
+{
+  "numero": "BL-2026-01779",
+  "commande": "CO-2026-01930",
+  "client": "c-0262",
+  "date_expedition": "2026-06-29",
+  "date_livraison": "2026-06-30",
+  "transport": {
+    "mode": "transporteur",
+    "transporteur": "transports-delorme",
+    "recepisse": "TD-924800"
+  },
+  "adresse": "1 rue Saint-Martin, 36999 Vendrigny (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "FIX-10506",
+      "libelle": "Cheville nylon 6x25, boîte de 100",
+      "quantite": 4
+    },
+    {
+      "reference": "PLB-13062",
+      "libelle": "Tube PVC évacuation 63 mm, barre de 2 m",
+      "quantite": 1
+    },
+    {
+      "reference": "PRO-10841",
+      "libelle": "Gants de manutention anticoupure niveau D, taille 10",
+      "quantite": 1
+    },
+    {
+      "reference": "QUI-11829",
+      "libelle": "Ferme-porte à glissière, force EN 2 à 5",
+      "quantite": 12
+    },
+    {
+      "reference": "VIS-10710",
+      "libelle": "Vis à bois tête fraisée 3,5x16, inox A2, boîte de 500",
+      "quantite": 3
+    },
+    {
+      "reference": "VIS-12090",
+      "libelle": "Vis à bois tête fraisée 4,5x70, inox A2, boîte de 500",
+      "quantite": 2
+    }
+  ],
+  "reserves": null,
+  "signataire": "Gilles Humbert",
+  "statut": "livre"
+}

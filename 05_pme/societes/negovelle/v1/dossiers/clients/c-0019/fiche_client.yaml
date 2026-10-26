@@ -1,0 +1,28 @@
+# Fiche du client c-0019 de Négovelle. Données FICTIVES.
+code: c-0019
+nom: Monnier Industrie
+type: pme
+adresse: 39 parc d'activités de la Gare, 36999 Mérolles-en-Brenne (FICTIF)
+telephone: 02 61 91 70 71
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Jean Voisin
+  fonction: responsable des achats
+  courriel: jean.voisin@monnier-industrie.example
+- nom: Fabienne Gabriel
+  fonction: responsable de maintenance
+  courriel: fabienne.gabriel@monnier-industrie.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 39 parc d'activités de la Gare, 36999 Mérolles-en-Brenne (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2015-07-01'
+limite_encours_euros: 11500.0
+livraisons_partielles: false
+substitution_acceptee: false
+statut: bloque
+motif_blocage: redressement judiciaire ouvert le 12 juin 2026

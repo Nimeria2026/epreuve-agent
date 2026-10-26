@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-ctc-027",
+  "de": {
+    "nom": "Bernard Delorme",
+    "adresse": "bernard.delorme@courriel.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Caution pour ma fille, T2 s02-04",
+  "date": "2026-06-07T09:30:00+02:00",
+  "corps": "Bonjour,\n\nJe me porte caution pour ma fille, candidate au T2 s02-04. Voici mon avis d'imposition.\n\nBernard Delorme",
+  "pieces_jointes": [
+    {
+      "nom": "avis_d_imposition_2025.pdf",
+      "fichier": "pieces/m-ctc-027/avis_d_imposition_2025.pdf",
+      "taille_octets": 741
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

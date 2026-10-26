@@ -1,0 +1,28 @@
+# Fiche du client c-0318 de Négovelle. Données FICTIVES.
+code: c-0318
+nom: Couverture Boutin
+type: artisan
+adresse: 75 chemin des Prés, 36999 Corvalet (FICTIF)
+telephone: 02 61 91 96 05
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Valérie Chartier
+  fonction: gérante
+  courriel: valerie.chartier@couverture-boutin.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 75 chemin des Prés, 36999 Corvalet (FICTIF)
+- code: L2
+  libelle: chantier déclaré
+  adresse: 28 rue de la Fontaine, 36999 Vaumoreau-sur-Indre (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2012-06-01'
+limite_encours_euros: 1500.0
+livraisons_partielles: false
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

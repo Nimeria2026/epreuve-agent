@@ -1,0 +1,24 @@
+# Fiche du lot c01-04. Données FICTIVES.
+lot: c01-04
+adresse: 139 rue des Écoles, 18999 Montclavel-sur-Cher (FICTIF)
+type: T4
+surface_m2: 74
+locataire:
+  nom: M. Marcel Navarro
+  courriel: marcel.navarro@courriel.example
+  telephone: 06 39 98 57 42
+  entree: '2015-05-19'
+bail:
+  signature: '2015-05-19'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 790,00 €
+  depot_de_garantie: 620,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T1
+dpe:
+  classe: E
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

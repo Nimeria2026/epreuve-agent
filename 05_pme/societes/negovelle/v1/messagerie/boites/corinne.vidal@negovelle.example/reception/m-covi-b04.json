@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-covi-b04",
+  "de": {
+    "nom": "Martine Ancelin",
+    "adresse": "martine.ancelin@bellanger-industrie.example"
+  },
+  "a": [
+    "corinne.vidal@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Disponibilité",
+  "date": "2026-06-22T15:01:00+02:00",
+  "corps": "Bonjour,\n\nAvez-vous en stock la référence ELP-10963 ? Il m'en faudrait 20 pour la fin de semaine.\n\nMerci,\nMartine Ancelin",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

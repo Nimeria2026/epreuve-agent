@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-015",
+  "de": {
+    "nom": "Françoise Simonet",
+    "adresse": "francoise.simonet@ateliers-billard.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-03T11:05:00+02:00",
+  "corps": "Bonjour,\n\nVoici notre commande, à livrer au siège :\n\n- 5 x ENT-10040, Absorbant végétal, sac de 20 kg\n- 4 x ENT-10130, Balai brosse coco 60 cm\n\nMerci de nous confirmer la livraison.\n\nCordialement,\nFrançoise Simonet\nBillard",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

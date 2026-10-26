@@ -1,0 +1,59 @@
+{
+  "numero": "BL-2026-01777",
+  "commande": "CO-2026-01928",
+  "client": "c-0114",
+  "date_expedition": "2026-06-30",
+  "date_livraison": "2026-06-30",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "10 zone industrielle des Brandes, 36999 Vendrigny (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "ELE-12890",
+      "libelle": "Projecteur LED 30 W, sans détecteur",
+      "quantite": 2
+    },
+    {
+      "reference": "ELP-11666",
+      "libelle": "Ponceuse orbitale 800 W",
+      "quantite": 3
+    },
+    {
+      "reference": "ENT-10530",
+      "libelle": "Lavette microfibre verte, paquet de 5",
+      "quantite": 1
+    },
+    {
+      "reference": "FIX-12098",
+      "libelle": "Équerre de fixation 120x40x40 mm, zinguée",
+      "quantite": 20
+    },
+    {
+      "reference": "OUT-11714",
+      "libelle": "Pince à bec long 160 mm",
+      "quantite": 4
+    },
+    {
+      "reference": "OUT-12433",
+      "libelle": "Spatule de peintre 60 mm",
+      "quantite": 6
+    },
+    {
+      "reference": "PLB-12629",
+      "libelle": "Réduction PVC 125x110 mm",
+      "quantite": 10
+    },
+    {
+      "reference": "VIS-13348",
+      "libelle": "Vis à bois tête fraisée 6x40, bichromatée, boîte de 200",
+      "quantite": 3
+    }
+  ],
+  "reserves": "1 projecteur ELE-12890 au verre brisé, constaté avec le chauffeur",
+  "signataire": "F. Pasquet",
+  "statut": "livre"
+}

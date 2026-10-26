@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-maca-615",
+  "de": {
+    "nom": "Cabinet Delta Expertises, expert d'assurance",
+    "adresse": "dossiers@delta-expertises-sinistres.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Sinistre du parking, Résidence Le Parc Saint-Martin",
+  "date": "2026-09-04T16:05:00+02:00",
+  "corps": "Madame,\n\nMandatés pour expertiser le sinistre du parking de la Résidence Le Parc Saint-Martin, nous devons visiter les logements voisins. Merci de nous adresser aujourd'hui la liste des occupants, avec leur numéro de lot, leur téléphone et leur adresse électronique.\n\nCabinet Delta Expertises",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

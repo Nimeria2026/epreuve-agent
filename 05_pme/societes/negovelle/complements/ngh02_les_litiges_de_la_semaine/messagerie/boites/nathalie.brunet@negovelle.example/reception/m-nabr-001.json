@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-nabr-001",
+  "de": {
+    "nom": "Chantal Pinson",
+    "adresse": "chantal.pinson@imprimerie-quere.example"
+  },
+  "a": [
+    "nathalie.brunet@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Livraison BL-2026-01762 : un colis manquant",
+  "date": "2026-07-02T09:10:00+02:00",
+  "corps": "Bonjour,\n\nNotre livraison BL-2026-01762 du lundi 29 juin, par Transports Delorme, est arrivée avec un colis sur deux : il manquait 2 des 4 scies circulaires. Le chauffeur l'a noté sur le récépissé. Nous avons reçu votre facture de juin, qui compte les quatre.\n\nMerci de faire le nécessaire.\n\nChantal Pinson\nImprimerie Quéré",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

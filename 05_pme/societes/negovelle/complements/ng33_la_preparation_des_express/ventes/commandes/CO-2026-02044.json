@@ -1,0 +1,48 @@
+{
+  "numero": "CO-2026-02044",
+  "client": "c-0122",
+  "reference_client": null,
+  "cree_le": "2026-07-06T07:28:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "8 rue des Jardins, 36999 Ardillac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "FIX-10579",
+      "libelle": "Cheville nylon 6x50, boîte de 50",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 5.95,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 5.71,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 34.26
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 49.26,
+  "total_tva_euros": 9.85,
+  "total_ttc_euros": 59.11,
+  "statut": "validee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-06T07:28:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-06T07:30:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": ""
+    }
+  ]
+}

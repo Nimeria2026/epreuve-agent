@@ -1,0 +1,13 @@
+{
+  "numero": "INT-2026-0042",
+  "client": "c-0034",
+  "techniciens": [
+    "sebastien.noel"
+  ],
+  "debut": "2027-01-26T08:00:00+01:00",
+  "fin": "2027-01-26T09:30:00+01:00",
+  "nature": "visite_annuelle",
+  "objet": "Visite d'entretien annuelle",
+  "statut": "planifiee",
+  "cree_par": "marc.duval"
+}

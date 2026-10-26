@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-006",
+  "de": {
+    "nom": "Agnès Mabille",
+    "adresse": "agnes.mabille@plomberie-bouchard.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-06T06:48:00+02:00",
+  "corps": "Bonjour,\n\nVoici notre commande, à livrer au siège :\n- 4 x PLB-11078, Flexible inox de douche 200 cm\n- 10 x PLB-11143, Flexible inox femelle-femelle 12x17 30 cm\n\nMerci,\nAgnès Mabille\nPlomberie Bouchard",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

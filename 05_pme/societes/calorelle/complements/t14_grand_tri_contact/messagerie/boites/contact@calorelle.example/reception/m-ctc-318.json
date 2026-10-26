@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-ctc-318",
+  "de": {
+    "nom": "Maxime Roy",
+    "adresse": "maxime.roy@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "À l'attention de Thomas Girard : candidature d'apprenti",
+  "date": "2026-11-02T08:42:00+01:00",
+  "corps": "Bonjour Monsieur Girard,\n\nEn première année de BTS fluides, je cherche une entreprise pour mon apprentissage. Vous trouverez mon CV ci-joint.\n\nMaxime Roy (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "CV_Maxime_Roy.pdf",
+      "fichier": "pieces/m-ctc-318/CV_Maxime_Roy.pdf",
+      "taille_octets": 789
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

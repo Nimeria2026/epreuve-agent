@@ -1,0 +1,20 @@
+# Fiche de la copropriété cp40. Données FICTIVES.
+copropriete: cp40
+nom: Résidence Le Hameau des Prés
+adresse: 47 rue du Four, 18999 Chantebrune (FICTIF)
+lots_principaux: 40
+annee_construction: 1978
+ascenseur: true
+exercice: du lendemain du 31 décembre au 31 décembre
+gestionnaire: Gaëlle Fournel
+conseil_syndical:
+  president: Mme Jeanne Besnard
+  membres:
+  - M. Guy Garnier
+  - M. Henri Jacob
+seuil_mise_en_concurrence: 8 000,00 €
+seuil_consultation_du_conseil_syndical: 1 000,00 €
+assureur_de_l_immeuble: Assurances Brévalle (FICTIF)
+declaration_des_sinistres: sinistres@assurances-brevalle.example
+immeuble_en_gestion_locative: null
+fonds_de_travaux: 5 % du budget prévisionnel, aux tantièmes généraux, appelé avec chaque provision

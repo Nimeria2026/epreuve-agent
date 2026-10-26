@@ -1,0 +1,49 @@
+{
+  "numero": "BL-2026-01685",
+  "commande": "CO-2026-01836",
+  "client": "c-0127",
+  "date_expedition": "2026-06-24",
+  "date_livraison": "2026-06-24",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "82 rue des Chênes, 36999 Fontclavier (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "ELP-10620",
+      "libelle": "Foret béton SDS-plus 14x110 mm",
+      "quantite": 3
+    },
+    {
+      "reference": "PLB-10465",
+      "libelle": "Colle PVC, pot de 500 ml",
+      "quantite": 3
+    },
+    {
+      "reference": "PLB-10530",
+      "libelle": "Collier de fixation tube 20 mm, sachet de 10",
+      "quantite": 3
+    },
+    {
+      "reference": "QUI-10040",
+      "libelle": "Arrêt de volet marseillais, galvanisé",
+      "quantite": 12
+    },
+    {
+      "reference": "VIS-11437",
+      "libelle": "Vis à bois tête fraisée 3x45, bichromatée, boîte de 500",
+      "quantite": 4
+    },
+    {
+      "reference": "VIS-13380",
+      "libelle": "Vis à bois tête fraisée 6x40, zinguée, boîte de 100",
+      "quantite": 12
+    }
+  ],
+  "reserves": null,
+  "signataire": "Denise Gonnet",
+  "statut": "livre"
+}

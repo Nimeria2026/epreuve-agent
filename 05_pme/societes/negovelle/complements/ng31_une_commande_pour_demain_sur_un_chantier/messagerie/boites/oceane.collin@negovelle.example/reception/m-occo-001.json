@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-occo-001",
+  "de": {
+    "nom": "Éric Barbe",
+    "adresse": "eric.barbe@plomberie-feuillet.example"
+  },
+  "a": [
+    "oceane.collin@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Pour demain matin, chantier de la rue du Lavoir",
+  "date": "2026-07-06T07:50:00+02:00",
+  "corps": "Bonjour,\n\nPour notre chantier de la rue du Lavoir, à Fontclavier, il nous faut demain matin :\n\n- 4 x PLB-12744, Tube PER 12 mm, gainé bleu, couronne de 25 m\n- 10 x PLB-12139, Raccord à sertir applique 14 mm\n- 2 x PLB-11698, Mitigeur d'évier à douchette, chromé\n\nLa commande dépasse 300 € HT : pas de frais de port pour nous, je pense.\n\nMerci,\nÉric Barbe\nPlomberie Feuillet",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

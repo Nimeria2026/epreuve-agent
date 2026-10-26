@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-soau-b01",
+  "de": {
+    "nom": "Véronique Tessier",
+    "adresse": "veronique.tessier@domivelle.example"
+  },
+  "a": [
+    "solene.audoin@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Fermeture du pont de l'Ascension",
+  "date": "2026-05-24T15:49:00+02:00",
+  "corps": "Bonjour,\n\nL'agence sera fermée le vendredi 15 mai, pont de l'Ascension.\n\nVéronique",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,24 @@
+# Fiche du lot n38-01. Données FICTIVES.
+lot: n38-01
+adresse: 41 rue Jean-Jaurès, 18999 Saint-Aubrin-des-Bois (FICTIF)
+type: T4
+surface_m2: 78
+locataire:
+  nom: M. Étienne Huet
+  courriel: etienne.huet@courriel.example
+  telephone: 06 39 98 97 16
+  entree: '2019-11-28'
+bail:
+  signature: '2019-11-28'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 680,00 €
+  depot_de_garantie: 591,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T3
+dpe:
+  classe: C
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

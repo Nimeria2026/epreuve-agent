@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-isro-005",
+  "de": {
+    "nom": "Benoît Faure",
+    "adresse": "benoit.faure@negovelle.example"
+  },
+  "a": [
+    "isabelle.royer@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Deux commandes en attente de déblocage",
+  "date": "2026-07-03T10:20:00+02:00",
+  "corps": "Isabelle,\n\nDeux commandes de l'est sont en attente de déblocage depuis ce matin : CO-2026-02042 de Peinture Hardy et CO-2026-02044 de Charpente Ducret. J'ai proposé aux deux clients de régler leurs factures échues.\n\nBenoît",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

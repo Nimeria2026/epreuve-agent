@@ -1,0 +1,64 @@
+{
+  "numero": "DV-2026-014",
+  "client": "c-0089",
+  "objet": "Ballon thermodynamique",
+  "lignes": [
+    {
+      "code": "BAL-01",
+      "libelle": "Ballon thermodynamique 200 litres",
+      "quantite": 1,
+      "prix_unitaire_ht_euros": 2300,
+      "taux_tva": 5.5,
+      "montant_ht_euros": 2300
+    },
+    {
+      "code": "DEP-01",
+      "libelle": "Dépose et évacuation de l'ancien appareil",
+      "quantite": 1,
+      "prix_unitaire_ht_euros": 180,
+      "taux_tva": 5.5,
+      "montant_ht_euros": 180
+    },
+    {
+      "code": "TUB-01",
+      "libelle": "Tuyauterie cuivre posée",
+      "quantite": 4,
+      "prix_unitaire_ht_euros": 42,
+      "taux_tva": 5.5,
+      "montant_ht_euros": 168
+    },
+    {
+      "code": "ELE-01",
+      "libelle": "Raccordement électrique",
+      "quantite": 1,
+      "prix_unitaire_ht_euros": 160,
+      "taux_tva": 5.5,
+      "montant_ht_euros": 160
+    },
+    {
+      "code": "MES-01",
+      "libelle": "Mise en service",
+      "quantite": 1,
+      "prix_unitaire_ht_euros": 150,
+      "taux_tva": 5.5,
+      "montant_ht_euros": 150
+    },
+    {
+      "code": "MO-01",
+      "libelle": "Main-d'œuvre de technicien",
+      "quantite": 5,
+      "prix_unitaire_ht_euros": 58,
+      "taux_tva": 5.5,
+      "montant_ht_euros": 290
+    }
+  ],
+  "remise_pourcent": 0,
+  "total_ht_euros": 3248,
+  "total_tva_euros": 178.64,
+  "total_ttc_euros": 3426.64,
+  "statut": "envoye",
+  "cree_le": "2026-11-12T10:00:00+01:00",
+  "cree_par": "julie.perrin",
+  "envoye_le": "2026-11-16T11:00:00+01:00",
+  "reponse_le": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-011",
+  "de": {
+    "nom": "Jean Combes",
+    "adresse": "jean.combes@services-techniques-de-merolles-en-brenne.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Casques cassés",
+  "date": "2026-08-05T15:00:00+02:00",
+  "corps": "Bonjour,\n\nVotre chauffeur a noté sur le bon BL-2026-01903, à la livraison de ce matin, 2 casques antibruit PRO-10424 cassés. Que faisons-nous ?\n\nJean Combes\nServices techniques de Mérolles-en-Brenne",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

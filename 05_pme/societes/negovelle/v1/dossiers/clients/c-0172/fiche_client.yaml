@@ -1,0 +1,28 @@
+# Fiche du client c-0172 de Négovelle. Données FICTIVES.
+code: c-0172
+nom: Ateliers Lagarde
+type: pme
+adresse: 27 parc d'activités de la Gare, 36999 Corvalet (FICTIF)
+telephone: 02 61 91 75 37
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Henri Raynaud
+  fonction: responsable des achats
+  courriel: henri.raynaud@ateliers-lagarde.example
+- nom: Joël Barbe
+  fonction: responsable de maintenance
+  courriel: joel.barbe@ateliers-lagarde.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 27 parc d'activités de la Gare, 36999 Corvalet (FICTIF)
+categorie_remise: A
+delai_paiement: 60_jours_date_de_facture
+client_depuis: '2015-01-01'
+limite_encours_euros: 5500.0
+livraisons_partielles: true
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-maca-605",
+  "de": {
+    "nom": "Daniel Tanguy",
+    "adresse": "daniel.tanguy@messagerie.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Dégât des eaux au Moulin Neuf",
+  "date": "2026-08-27T19:30:00+02:00",
+  "corps": "Madame,\n\nLa machine à laver de mon voisin du dessus, M. Leblanc (lot 17), a fui le 25 août : mon plafond de cuisine est taché et le placo gonfle. Pouvez-vous envoyer votre plombier et votre peintre aux frais de la copropriété, et déclarer le sinistre à l'assureur de l'immeuble ?\n\nDaniel Tanguy, lot 13, Résidence Le Moulin Neuf",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

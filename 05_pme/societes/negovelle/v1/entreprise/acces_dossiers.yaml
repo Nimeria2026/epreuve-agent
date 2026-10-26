@@ -1,0 +1,12 @@
+# Accès aux dossiers partagés de Négovelle, par dossier de premier niveau. Tout est fictif.
+# Une personne ouvre un dossier si elle a au moins un des droits listés (organigramme.yaml).
+# Un dossier absent de cette liste n'est ouvert à personne : l'accès est fermé par défaut.
+# Le mot réservé « tous » ouvre un dossier à toute personne de l'organigramme.
+commun: [tous]
+clients: [acces_clients, acces_direction]
+fournisseurs: [acces_achats, acces_sav, acces_comptabilite, acces_direction]
+achats: [acces_achats, acces_entrepot, acces_comptabilite, acces_direction]
+courrier: [acces_courrier, acces_clients, acces_comptabilite, acces_direction]
+comptabilite: [acces_comptabilite, acces_direction]
+direction: [acces_direction]
+rh: [acces_rh]

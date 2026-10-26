@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-thol-b03",
+  "de": {
+    "nom": "Mme Estelle Delorme",
+    "adresse": "estelle.delorme@boite-postale.example"
+  },
+  "a": [
+    "thierry.ollivier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Appel de fonds",
+  "date": "2026-05-30T09:26:00+02:00",
+  "corps": "Bonjour,\n\nJ'ai bien reçu l'appel de fonds du trimestre ; le virement est parti.\n\nMme Estelle Delorme",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

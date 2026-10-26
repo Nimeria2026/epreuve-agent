@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-008",
+  "de": {
+    "nom": "Noémie Cosson",
+    "adresse": "noemie.cosson@mairie-de-fontclavier.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande de la mairie",
+  "date": "2026-07-06T06:35:00+02:00",
+  "corps": "Bonjour,\n\nCommande des services de la mairie : 4 seaux de maçon 15 l et 2 caisses à outils 500 mm.\n\nNoémie Cosson\nMairie de Fontclavier",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-016",
+  "de": {
+    "nom": "Michel Clerc",
+    "adresse": "michel.clerc@chauffage-baillet.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Disjoncteurs abîmés",
+  "date": "2026-08-04T11:30:00+02:00",
+  "corps": "Bonjour,\n\nAu déballage de la livraison du 28 juillet, BL-2026-01908, deux disjoncteurs ELE-11486 avaient le boîtier fendu. Nous avions écrit « sous réserve de déballage » sur le récépissé du transporteur : merci de nous faire un avoir.\n\nMichel Clerc\nChauffage Baillet",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

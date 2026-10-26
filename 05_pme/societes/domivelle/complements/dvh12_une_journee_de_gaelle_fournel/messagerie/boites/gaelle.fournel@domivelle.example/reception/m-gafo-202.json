@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-gafo-202",
+  "de": {
+    "nom": "Joël Rivière",
+    "adresse": "joel.riviere@courriel.example"
+  },
+  "a": [
+    "gaelle.fournel@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Contrat de nettoyage des Magnolias",
+  "date": "2026-06-05T11:00:00+02:00",
+  "corps": "Bonjour,\n\nMembre du conseil syndical des Magnolias, je voudrais une copie du contrat de nettoyage des parties communes, pour notre réunion de jeudi.\n\nJoël Rivière",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

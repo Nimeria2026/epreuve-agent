@@ -1,0 +1,123 @@
+{
+  "numero": "CO-2026-01914",
+  "client": "c-0075",
+  "reference_client": null,
+  "cree_le": "2026-06-26T09:10:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "61 rue des Jardins, 36999 Mérolles-en-Brenne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-12311",
+      "libelle": "Hublot étanche LED 8 W",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 40.65,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 40.65,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 203.25
+    },
+    {
+      "reference": "ELE-12744",
+      "libelle": "Prise de courant étanche double en saillie IP55, blanc",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 7.5,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 7.5,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 15.0
+    },
+    {
+      "reference": "FIX-10481",
+      "libelle": "Cheville nylon 5x50, boîte de 50",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 12.05,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 12.05,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 24.1
+    },
+    {
+      "reference": "FIX-12147",
+      "libelle": "Équerre de fixation 120x80x40 mm, galvanisée",
+      "quantite": 20,
+      "prix_tarif_ht_euros": 4.25,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 4.25,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 85.0
+    },
+    {
+      "reference": "OUT-10841",
+      "libelle": "Lime carrée 300 mm, taille bâtarde",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 16.35,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 16.35,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 32.7
+    },
+    {
+      "reference": "PLB-10947",
+      "libelle": "Coude cuivre à souder 45° 22 mm, sachet de 5",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 2.9,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 2.9,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 14.5
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 374.55,
+  "total_tva_euros": 74.91,
+  "total_ttc_euros": 449.46,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01763"
+  ],
+  "facture": "FC-2026-1067",
+  "historique": [
+    {
+      "date": "2026-06-26T09:10:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-26T09:12:00+02:00",
+      "par": "oceane.collin",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-29T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01763"
+    },
+    {
+      "date": "2026-06-29T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01763"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1067"
+    }
+  ]
+}

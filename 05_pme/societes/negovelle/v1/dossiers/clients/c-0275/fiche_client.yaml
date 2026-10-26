@@ -1,0 +1,28 @@
+# Fiche du client c-0275 de Négovelle. Données FICTIVES.
+code: c-0275
+nom: Entreprise Drouet
+type: entreprise
+adresse: 4 zone d'activités des Grands Prés, 36999 Vaumoreau-sur-Indre (FICTIF)
+telephone: 02 61 91 79 89
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: René Crozet
+  fonction: conducteur de travaux
+  courriel: rene.crozet@entreprise-drouet.example
+- nom: Louis Achard
+  fonction: responsable des achats
+  courriel: louis.achard@entreprise-drouet.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 4 zone d'activités des Grands Prés, 36999 Vaumoreau-sur-Indre (FICTIF)
+categorie_remise: C
+delai_paiement: 60_jours_date_de_facture
+client_depuis: '2016-01-01'
+limite_encours_euros: 8500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

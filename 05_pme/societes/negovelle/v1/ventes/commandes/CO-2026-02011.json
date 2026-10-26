@@ -1,0 +1,59 @@
+{
+  "numero": "CO-2026-02011",
+  "client": "c-0206",
+  "reference_client": null,
+  "cree_le": "2026-07-03T09:10:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "22 rue des Forges, 36999 Vendrigny (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-13282",
+      "libelle": "Spot encastrable LED 5 W, 3000 K, blanc",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 9.15,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 8.42,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 50.52
+    },
+    {
+      "reference": "QUI-10906",
+      "libelle": "Charnière piano 25 mm, acier zingué",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 6.2,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 6.2,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 12.4
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 77.92,
+  "total_tva_euros": 15.58,
+  "total_ttc_euros": 93.5,
+  "statut": "validee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T09:10:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T09:12:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": ""
+    }
+  ]
+}

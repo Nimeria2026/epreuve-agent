@@ -1,0 +1,39 @@
+{
+  "numero": "BL-2026-01747",
+  "commande": "CO-2026-01898",
+  "client": "c-0046",
+  "date_expedition": "2026-06-29",
+  "date_livraison": "2026-06-29",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "33 zone industrielle des Brandes, 36999 Fontclavier (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "PRO-11649",
+      "libelle": "Pantalon de travail multipoches noir, taille 48",
+      "quantite": 10
+    },
+    {
+      "reference": "QUI-10514",
+      "libelle": "Cadenas à combinaison 40 mm, 3 clés",
+      "quantite": 1
+    },
+    {
+      "reference": "QUI-11616",
+      "libelle": "Cylindre européen 40x50 mm, 3 clés",
+      "quantite": 5
+    },
+    {
+      "reference": "VIS-10302",
+      "libelle": "Boulon tête hexagonale M6x20, inox A2, sachet de 10",
+      "quantite": 1
+    }
+  ],
+  "reserves": null,
+  "signataire": "Sandrine Delaunay",
+  "statut": "livre"
+}

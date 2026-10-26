@@ -1,0 +1,79 @@
+{
+  "numero": "CO-2026-01865",
+  "client": "c-0224",
+  "reference_client": "BC-2468",
+  "cree_le": "2026-06-24T09:10:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "13 parc d'activités de la Gare, 36999 Ardillac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-10359",
+      "libelle": "Colle vinylique, tube de 125 ml",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 48.05,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 46.13,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 230.65
+    },
+    {
+      "reference": "ELE-12441",
+      "libelle": "Interrupteur double va-et-vient, blanc",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 38.9,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 37.34,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 74.68
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 305.33,
+  "total_tva_euros": 61.07,
+  "total_ttc_euros": 366.4,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01714"
+  ],
+  "facture": "FC-2026-1204",
+  "historique": [
+    {
+      "date": "2026-06-24T09:10:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-24T09:12:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-25T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01714"
+    },
+    {
+      "date": "2026-06-25T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01714"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1204"
+    }
+  ]
+}

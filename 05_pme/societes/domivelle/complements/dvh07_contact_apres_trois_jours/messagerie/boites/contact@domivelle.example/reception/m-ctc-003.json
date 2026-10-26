@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-ctc-003",
+  "de": {
+    "nom": "Plomberie du Moulin-Barrat",
+    "adresse": "facturation@plomberie-du-moulin-barrat.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis pour le lot n02-05",
+  "date": "2026-06-03T08:40:00+02:00",
+  "corps": "Bonjour,\n\nSuite à notre visite, voici notre devis pour le remplacement du mitigeur de la cuisine du lot n02-05 : 260,00 € TTC.\n\nPlomberie du Moulin-Barrat",
+  "pieces_jointes": [
+    {
+      "nom": "devis_n02-05.pdf",
+      "fichier": "pieces/m-ctc-003/devis_n02-05.pdf",
+      "taille_octets": 772
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-pr-501",
+  "de": {
+    "nom": "Hélène Marchal",
+    "adresse": "helene.marchal@calorelle.example"
+  },
+  "a": [
+    "patrick.roux@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Frais d'octobre",
+  "date": "2026-11-02T08:35:00+01:00",
+  "corps": "Patrick,\n\nPour le budget, peux-tu me donner le total des frais de déplacement que nous remboursons aux techniciens pour octobre ?\n\nHélène (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

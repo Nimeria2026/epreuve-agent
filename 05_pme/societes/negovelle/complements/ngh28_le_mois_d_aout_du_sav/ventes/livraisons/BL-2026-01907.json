@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01907",
+  "commande": "CO-2026-02087",
+  "client": "c-0152",
+  "date_expedition": "2026-07-27",
+  "date_livraison": "2026-07-27",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "29 zone industrielle des Brandes, 36999 Corvalet (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "OUT-10775",
+      "libelle": "Lames de cutter 25 mm, étui de 10",
+      "quantite": 10
+    }
+  ],
+  "reserves": null,
+  "signataire": "Vincent Ducret",
+  "statut": "livre"
+}

@@ -1,0 +1,11 @@
+# Fiche du propriétaire p-0093, mandant de Domivelle. Données FICTIVES.
+code: p-0093
+nom: M. Luc Tanguy
+adresse: 107 rue du Château, 18999 Montclavel-sur-Cher (FICTIF)
+courriel: luc.tanguy@messagerie.example
+telephone: 06 39 98 69 70
+iban: FR76 9999 9251 6237 2772 5956 609 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- c08-12
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-soau-001",
+  "de": {
+    "nom": "Nadège Lebrun",
+    "adresse": "nadege.lebrun@domivelle.example"
+  },
+  "a": [
+    "solene.audoin@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Recommandé reçu : congé, lot s01-05",
+  "date": "2026-06-03T11:42:00+02:00",
+  "corps": "Solène,\n\nUne lettre recommandée avec avis de réception est arrivée ce mercredi 3 juin : Mme Sophie Charpentier, locataire du lot s01-05, donne congé de son logement. Elle écrit avoir perdu son emploi et demande un préavis d'un mois ; aucun justificatif n'est joint à la lettre. Je l'ai numérisée et rangée dans courrier/2026-06/.\n\nNadège",
+  "pieces_jointes": [
+    {
+      "nom": "2026-06-03_conge_s01-05.pdf",
+      "fichier": "pieces/m-soau-001/2026-06-03_conge_s01-05.pdf",
+      "taille_octets": 811
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

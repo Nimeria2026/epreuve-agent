@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-hm-523",
+  "de": {
+    "nom": "Kevin Lambert",
+    "adresse": "kevin.lambert@calorelle.example"
+  },
+  "a": [
+    "helene.marchal@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Erreur sur mes kilomètres d'octobre",
+  "date": "2026-11-20T08:15:00+01:00",
+  "corps": "Bonjour Hélène,\n\nPour mes 212 km d'octobre avec ma voiture, Patrick m'a remboursé 85,40 €. Au barème de 0,45 € le kilomètre, je compte 95,40 €. Peux-tu regarder ?\n\nKevin (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

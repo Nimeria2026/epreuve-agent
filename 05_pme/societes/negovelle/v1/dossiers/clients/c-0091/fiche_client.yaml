@@ -1,0 +1,28 @@
+# Fiche du client c-0091 de Négovelle. Données FICTIVES.
+code: c-0091
+nom: Maçonnerie Gabriel
+type: artisan
+adresse: 56 rue des Jardins, 36999 Laubrissac (FICTIF)
+telephone: 02 61 91 99 90
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Serge Barre
+  fonction: gérant
+  courriel: serge.barre@maconnerie-gabriel.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 56 rue des Jardins, 36999 Laubrissac (FICTIF)
+- code: L2
+  libelle: chantier déclaré
+  adresse: 10 rue du Pont, 36999 Mérolles-en-Brenne (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2023-03-01'
+limite_encours_euros: 6500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

@@ -1,0 +1,29 @@
+{
+  "identifiant": "m-vete-001",
+  "de": {
+    "nom": "Quentin Mallet",
+    "adresse": "quentin.mallet@domivelle.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Ma note de frais de mai",
+  "date": "2026-06-05T17:20:00+02:00",
+  "corps": "Véronique,\n\nVoici ma note de frais de mai, avec ma voiture :\n\n| Date | Objet | Immeuble | Kilomètres | Stationnement |\n|---|---|---|---|---|\n| 28 avril 2026 | visite | s02 | 30 | 0,00 € |\n| 4 mai 2026 | état des lieux d'entrée | n02 | 24 | 0,00 € |\n| 7 mai 2026 | visite | s01 | 36 | 4,50 € |\n| 12 mai 2026 | état des lieux d'entrée | n03 | 60 | 0,00 € |\n| 22 mai 2026 | état des lieux de sortie | n01 | 18 | 3,00 € |\n\nSoit 168 km à 0,40 €, 67,20 €, et 7,50 € de stationnement : 74,70 €. Le ticket du 7 mai est joint ; celui du 22 mai, je l'ai perdu.\n\nQuentin",
+  "pieces_jointes": [
+    {
+      "nom": "note_de_frais_2026-05.pdf",
+      "fichier": "pieces/m-vete-001/note_de_frais_2026-05.pdf",
+      "taille_octets": 770
+    },
+    {
+      "nom": "ticket_stationnement_2026-05-07.pdf",
+      "fichier": "pieces/m-vete-001/ticket_stationnement_2026-05-07.pdf",
+      "taille_octets": 765
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

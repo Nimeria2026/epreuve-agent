@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01798",
+  "commande": "CO-2026-01949",
+  "client": "c-0246",
+  "date_expedition": "2026-07-01",
+  "date_livraison": "2026-07-01",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "137 rue du Château, 36999 Vaumoreau-sur-Indre (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "CON-11322",
+      "libelle": "Marqueur de chantier jaune, boîte de 12",
+      "quantite": 10
+    },
+    {
+      "reference": "FIX-12156",
+      "libelle": "Équerre de fixation 40x100x20 mm, zinguée",
+      "quantite": 20
+    }
+  ],
+  "reserves": null,
+  "signataire": "Robert Hamel",
+  "statut": "livre"
+}

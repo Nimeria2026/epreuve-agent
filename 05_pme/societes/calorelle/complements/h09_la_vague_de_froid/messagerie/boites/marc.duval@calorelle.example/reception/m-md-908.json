@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-908",
+  "de": {
+    "nom": "Sonia Lefèvre",
+    "adresse": "sonia.lefevre@calorelle.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Plus d'eau chaude ni de chauffage",
+  "date": "2026-11-09T17:15:00+01:00",
+  "corps": "Marc, un dépannage arrivé sur contact@.\nSonia\n\n----- Message transféré -----\nIdentifiant : m-ctc-908\nDe : Julien Girard <julien.girard@courriel.example>\nÀ : contact@calorelle.example\nCc : (aucun)\nDate : 2026-11-09T17:10:00+01:00\nObjet : Plus d'eau chaude ni de chauffage\nPièces jointes : (aucune)\n\nBonjour,\n\nPlus d'eau chaude ni de chauffage : la chaudière gaz affiche un code d'erreur.\n\nJulien Girard, 46 chemin des Vignes (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

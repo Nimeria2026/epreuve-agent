@@ -1,0 +1,34 @@
+{
+  "numero": "BL-2026-01693",
+  "commande": "CO-2026-01844",
+  "client": "c-0117",
+  "date_expedition": "2026-06-25",
+  "date_livraison": "2026-06-25",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "32 parc d'activités de la Gare, 36999 Vendrigny (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ENT-11061",
+      "libelle": "Sacs poubelle 160 l, renforcés, rouleau de 25",
+      "quantite": 40
+    },
+    {
+      "reference": "QUI-10906",
+      "libelle": "Charnière piano 25 mm, acier zingué",
+      "quantite": 20
+    },
+    {
+      "reference": "QUI-12776",
+      "libelle": "Serrure à larder bec-de-cane, axe 45 mm",
+      "quantite": 12
+    }
+  ],
+  "reserves": "un colis enfoncé, contenu à vérifier",
+  "signataire": "Jacqueline Humbert",
+  "statut": "livre"
+}

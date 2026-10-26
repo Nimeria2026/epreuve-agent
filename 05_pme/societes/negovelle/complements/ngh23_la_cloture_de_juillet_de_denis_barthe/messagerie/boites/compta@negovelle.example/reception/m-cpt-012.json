@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cpt-012",
+  "de": {
+    "nom": "Transports Delorme",
+    "adresse": "facturation@transports-delorme.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Relance : facture TD-2026-0612",
+  "date": "2026-07-31T06:35:00+02:00",
+  "corps": "Bonjour,\n\nSauf erreur de notre part, notre facture TD-2026-0612 du 30 juin, 1 842,60 € TTC, échue le 30 juillet, reste impayée. Merci de procéder à son règlement.\n\nService facturation\nTransports Delorme",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

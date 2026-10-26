@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0034"
+nom: "Aurélie Garnier"
+type: "particulier"
+adresse: "83 rue des Écoles, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "aurelie.garnier@courriel.example"
+telephone: "06 39 98 50 06"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité Plus"
+  depuis: "2023-01-25"
+  mois_anniversaire: "janvier"
+  derniere_visite: "2026-01-27"

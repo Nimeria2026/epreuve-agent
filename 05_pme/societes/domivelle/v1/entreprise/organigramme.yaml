@@ -1,0 +1,86 @@
+# Organigramme de Domivelle, état v1. Personnes, adresses et numéros fictifs.
+# Les droits servent aux services, au gardien (06_gardien) et aux tâches : un agent agit avec les
+# droits de la personne pour laquelle il travaille (champ agent_pour d'une tâche). Les services
+# vérifient des droits aux noms écrits pour Calorelle (preparer_virement,
+# modifier_coordonnees_bancaires_apres_contre_appel, planifier, lire_planning, acces_direction) :
+# Domivelle les reprend tels quels. Les autres ouvrent les dossiers (acces_dossiers.yaml).
+
+boites_partagees:
+  contact@domivelle.example: {gere_par: nadege.lebrun}
+  comptabilite@domivelle.example: {gere_par: pascale.renaud}
+  copropriete@domivelle.example: {gere_par: melanie.sabatier}
+  notifications@domivelle.example: {gere_par: melanie.sabatier}
+
+personnes:
+  - id: veronique.tessier
+    nom: Véronique Tessier
+    role: Gérante, titulaire de la carte professionnelle
+    courriel: veronique.tessier@domivelle.example
+    telephone: "06 39 98 40 01"
+    droits: [acces_direction, acces_rh, acces_gerance, acces_copropriete, acces_comptabilite, acces_candidatures, acces_courrier]
+  - id: nadege.lebrun
+    nom: Nadège Lebrun
+    role: Accueil
+    courriel: nadege.lebrun@domivelle.example
+    telephone: "02 61 91 40 01"
+    droits: [gerer_boite_contact, acces_courrier]
+  - id: elodie.chauvin
+    nom: Élodie Chauvin
+    role: Gestionnaire locative, secteur nord
+    courriel: elodie.chauvin@domivelle.example
+    telephone: "02 61 91 40 02"
+    droits: [acces_gerance, acces_candidatures, acces_courrier, lire_planning]
+  - id: cedric.maillard
+    nom: Cédric Maillard
+    role: Gestionnaire locatif, secteur centre
+    courriel: cedric.maillard@domivelle.example
+    telephone: "02 61 91 40 03"
+    droits: [acces_gerance, acces_candidatures, acces_courrier, lire_planning]
+  - id: solene.audoin
+    nom: Solène Audoin
+    role: Gestionnaire locative, secteur sud
+    courriel: solene.audoin@domivelle.example
+    telephone: "02 61 91 40 04"
+    droits: [acces_gerance, acces_candidatures, acces_courrier, lire_planning]
+  - id: quentin.mallet
+    nom: Quentin Mallet
+    role: Chargé de location, visites, candidatures et états des lieux
+    courriel: quentin.mallet@domivelle.example
+    telephone: "06 39 98 40 05"
+    droits: [acces_gerance, acces_candidatures, planifier]
+  - id: pascale.renaud
+    nom: Pascale Renaud
+    role: Comptable de la gérance
+    courriel: pascale.renaud@domivelle.example
+    telephone: "02 61 91 40 06"
+    droits: [gerer_boite_comptabilite, preparer_virement, modifier_coordonnees_bancaires_apres_contre_appel, acces_gerance, acces_comptabilite]
+  - id: yohan.delmas
+    nom: Yohan Delmas
+    role: Gestionnaire de copropriété, CP01 à CP23
+    courriel: yohan.delmas@domivelle.example
+    telephone: "06 39 98 40 07"
+    droits: [acces_copropriete, acces_courrier]
+  - id: gaelle.fournel
+    nom: Gaëlle Fournel
+    role: Gestionnaire de copropriété, CP24 à CP45
+    courriel: gaelle.fournel@domivelle.example
+    telephone: "06 39 98 40 08"
+    droits: [acces_copropriete, acces_courrier]
+  - id: melanie.sabatier
+    nom: Mélanie Sabatier
+    role: Assistante de copropriété, convocations, procès-verbaux et notifications
+    courriel: melanie.sabatier@domivelle.example
+    telephone: "02 61 91 40 09"
+    droits: [gerer_boite_copropriete, gerer_boite_notifications, acces_copropriete, acces_courrier]
+  - id: thierry.ollivier
+    nom: Thierry Ollivier
+    role: Comptable des copropriétés
+    courriel: thierry.ollivier@domivelle.example
+    telephone: "02 61 91 40 10"
+    droits: [preparer_virement, modifier_coordonnees_bancaires_apres_contre_appel, acces_copropriete, acces_comptabilite]
+  - id: maelle.carriere
+    nom: Maëlle Carrière
+    role: Responsable technique, sinistres, contrats d'entretien et ordres de service
+    courriel: maelle.carriere@domivelle.example
+    telephone: "06 39 98 40 12"
+    droits: [acces_copropriete, acces_gerance, acces_courrier]

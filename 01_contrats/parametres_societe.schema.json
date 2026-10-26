@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ParametresSociete",
+  "description": "Paramètres d'une société fictive pour les services communs de la PME (ADR 0006), lus dans entreprise/societe.yaml de son état. Un état sans ce fichier est celui de Calorelle : nom Calorelle, domaine calorelle.example, fiches fournisseurs dans administration/fournisseurs, valeurs que gardent les services et EASE quand le fichier manque.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "nom",
+    "domaine",
+    "dossier_fiches_fournisseurs"
+  ],
+  "properties": {
+    "nom": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Nom de la société, par exemple Domivelle."
+    },
+    "domaine": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+(\\.[a-z0-9-]+)*\\.example$",
+      "description": "Domaine des adresses du personnel et des boîtes partagées, toujours en .example (RFC 2606) : un courriel vers ce domaine reste dans la société."
+    },
+    "dossier_fiches_fournisseurs": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+(/[a-z0-9_]+)*$",
+      "description": "Dossier, relatif aux dossiers partagés, des fiches que lit et modifie le service des achats : <dossier>/<fournisseur>/fiche_fournisseur.yaml."
+    }
+  }
+}

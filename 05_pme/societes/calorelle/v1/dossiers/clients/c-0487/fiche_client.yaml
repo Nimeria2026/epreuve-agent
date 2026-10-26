@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0487"
+nom: "Alain Legrand"
+type: "particulier"
+adresse: "57 chemin des Vignes, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "alain.legrand@courriel.example"
+telephone: "06 39 98 51 16"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité Plus"
+  depuis: "2020-01-17"
+  mois_anniversaire: "janvier"
+  derniere_visite: "2026-01-04"

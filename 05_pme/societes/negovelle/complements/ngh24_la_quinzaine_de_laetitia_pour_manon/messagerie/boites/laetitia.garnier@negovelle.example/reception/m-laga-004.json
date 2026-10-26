@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-laga-004",
+  "de": {
+    "nom": "Pierre Ducros",
+    "adresse": "pierre.ducros@maconnerie-baudouin.example"
+  },
+  "a": [
+    "laetitia.garnier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande de gants et de disques",
+  "date": "2026-08-06T15:50:00+02:00",
+  "corps": "Bonjour Lætitia,\n\nNotre commande :\n\n- 10 x PRO-11094, Gants nitrile jetables non poudrés, taille 10, boîte de 100\n- 24 x CON-10571, Disque abrasif auto-agrippant 125 mm, grain 80, boîte de 25\n\nLivraison standard au siège.\n\nMerci,\n\nPierre Ducros\nMaçonnerie Baudouin",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

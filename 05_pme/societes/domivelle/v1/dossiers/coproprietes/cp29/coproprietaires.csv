@@ -1,0 +1,11 @@
+lot;etage;tantiemes_generaux;coproprietaire;courriel;notification;adresse_postale
+1;0;1160;Mme Fabienne Bourgeois;fabienne.bourgeois@boite-postale.example;électronique;53 allée des Acacias, 18999 Montclavel-sur-Cher (FICTIF)
+2;0;790;M. Albert Baudin;albert.baudin@mel-perso.example;voie postale;82 rue des Écoles, 18999 Montclavel-sur-Cher (FICTIF)
+3;0;992;Mme Suzanne Aubert;suzanne.aubert@mel-perso.example;électronique;123 impasse des Noyers, 18999 Montclavel-sur-Cher (FICTIF)
+4;0;1361;SCI La Croix-Blanche;gestion@sci-la-croix-blanche.example;électronique;29 rue des Jardins, 18999 Montclavel-sur-Cher (FICTIF)
+5;1;723;Mme Yvette Marie;yvette.marie@mel-perso.example;électronique;30 avenue Pasteur, 18999 Montclavel-sur-Cher (FICTIF)
+6;1;790;Mme Corinne Vincent;corinne.vincent@mel-perso.example;électronique;52 allée des Acacias, 18999 Montclavel-sur-Cher (FICTIF)
+7;1;773;M. Jérôme Lemaire;jerome.lemaire@courriel.example;électronique;64 chemin des Prés, 18999 Montclavel-sur-Cher (FICTIF)
+8;1;1260;M. Henri Fleury;henri.fleury@boite-postale.example;électronique;129 impasse des Noyers, 18999 Montclavel-sur-Cher (FICTIF)
+9;2;991;M. Éric Morin;eric.morin@courriel.example;électronique;77 rue des Lilas, 18999 Montclavel-sur-Cher (FICTIF)
+10;2;1160;M. Bernard Weber;bernard.weber@boite-postale.example;voie postale;30 rue du Lavoir, 18999 Montclavel-sur-Cher (FICTIF)

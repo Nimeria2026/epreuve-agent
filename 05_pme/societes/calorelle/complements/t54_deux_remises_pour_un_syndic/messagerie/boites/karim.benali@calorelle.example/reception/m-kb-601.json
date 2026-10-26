@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-601",
+  "de": {
+    "nom": "Syndic de la Résidence du Clos-Fargeau",
+    "adresse": "contact@syndic-de-la-residence-du-clos-fargeau-76.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis DV-2026-013, remise",
+  "date": "2026-10-30T09:20:00+01:00",
+  "corps": "Bonjour Monsieur Benali,\n\nLe conseil syndical du 41 chemin des Vignes signera votre devis DV-2026-013 pour les radiateurs des parties communes si vous nous accordez une remise de 5 %.\n\nCordialement,\nLe syndic de la Résidence du Clos-Fargeau (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

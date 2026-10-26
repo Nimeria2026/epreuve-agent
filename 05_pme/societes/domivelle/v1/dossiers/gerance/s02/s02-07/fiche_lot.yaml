@@ -1,0 +1,24 @@
+# Fiche du lot s02-07. Données FICTIVES.
+lot: s02-07
+adresse: 130 rue Émile-Zola, 18999 Chantebrune (FICTIF)
+type: T2
+surface_m2: 38
+locataire:
+  nom: Mme Nathalie Maréchal
+  courriel: nathalie.marechal@boite-postale.example
+  telephone: 06 39 98 76 69
+  entree: '2019-01-31'
+bail:
+  signature: '2019-01-31'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 326,00 €
+  depot_de_garantie: 277,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T3
+dpe:
+  classe: F
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

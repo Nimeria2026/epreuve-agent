@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-gafo-605",
+  "de": {
+    "nom": "Roger Lesage",
+    "adresse": "roger.lesage@messagerie.example"
+  },
+  "a": [
+    "gaelle.fournel@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Ma question pour l'assemblée du 10 septembre",
+  "date": "2026-09-12T09:30:00+02:00",
+  "corps": "Madame,\n\nJ'avais notifié à M. Delmas, le mardi 8 septembre, une question pour l'assemblée du jeudi 10 : le remplacement des boîtes aux lettres. Elle n'a pas été posée. Pourquoi ?\n\nRoger Lesage, lot 2, Résidence Le Moulin Neuf",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

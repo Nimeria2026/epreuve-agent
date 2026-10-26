@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0141"
+nom: "Établissements Vincent"
+type: "entreprise"
+adresse: "41 avenue des Tilleuls, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "contact@etablissements-vincent-141.example"
+telephone: "02 61 91 35 38"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2023-03-14"
+  mois_anniversaire: "mars"
+  derniere_visite: "2026-03-11"

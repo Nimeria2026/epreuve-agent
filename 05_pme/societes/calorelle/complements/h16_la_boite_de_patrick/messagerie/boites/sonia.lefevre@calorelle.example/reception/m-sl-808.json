@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-sl-808",
+  "de": {
+    "nom": "David Roussel",
+    "adresse": "david.roussel@calorelle.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Note de frais de novembre",
+  "date": "2026-11-20T17:40:00+01:00",
+  "corps": "Bonjour Patrick,\n\nMa note de frais de novembre :\n- 2 novembre, repas : 23,50 € ;\n- 12 novembre, repas : 18,00 € ;\n- 12 novembre, 120 km avec ma voiture pour le chantier de Vierzon ;\n- 12 novembre, péage : 8,60 €.\nLes justificatifs sont joints.\n\nDavid (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "note_de_frais_david_novembre.pdf",
+      "fichier": "pieces/m-sl-808/note_de_frais_david_novembre.pdf",
+      "taille_octets": 766
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

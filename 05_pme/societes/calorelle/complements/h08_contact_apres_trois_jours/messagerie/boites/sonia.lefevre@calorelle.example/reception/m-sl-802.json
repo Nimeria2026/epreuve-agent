@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-sl-802",
+  "de": {
+    "nom": "Romain Guérin",
+    "adresse": "romain.guerin@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Mon arrêt",
+  "date": "2026-10-30T19:00:00+01:00",
+  "corps": "Bonjour Sonia,\n\nJe t'envoie mon arrêt de travail, du lundi 2 au jeudi 5 novembre inclus. Désolé pour le planning.\n\nRomain (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "arret_de_travail_Guerin.pdf",
+      "fichier": "pieces/m-sl-802/arret_de_travail_Guerin.pdf",
+      "taille_octets": 818
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

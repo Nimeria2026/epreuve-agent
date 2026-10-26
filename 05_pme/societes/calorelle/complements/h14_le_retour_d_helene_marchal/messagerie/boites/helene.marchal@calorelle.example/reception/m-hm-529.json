@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-hm-529",
+  "de": {
+    "nom": "Hélène Legrand",
+    "adresse": "helene.legrand@courriel.example"
+  },
+  "a": [
+    "helene.marchal@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Date de ma prochaine visite",
+  "date": "2026-11-22T15:15:00+01:00",
+  "corps": "Madame Marchal,\n\nPouvez-vous me dire quand aura lieu la prochaine visite d'entretien de ma pompe à chaleur ?\n\nHélène Legrand (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

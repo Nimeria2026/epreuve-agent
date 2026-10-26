@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-gipo-001",
+  "de": {
+    "nom": "Fabrice Mercier",
+    "adresse": "fabrice.mercier@negovelle.example"
+  },
+  "a": [
+    "gilles.poirier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Prépa express : ajoute CO-2026-02045",
+  "date": "2026-07-06T07:58:00+02:00",
+  "corps": "Gilles,\n\nMets aussi dans la préparation express de ce midi la commande CO-2026-02045 de Menuiserie industrielle Chatelain. Leur compte est bloqué, mais ils règlent cette semaine, je m'en porte garant : Isabelle débloquera après.\n\nFabrice",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

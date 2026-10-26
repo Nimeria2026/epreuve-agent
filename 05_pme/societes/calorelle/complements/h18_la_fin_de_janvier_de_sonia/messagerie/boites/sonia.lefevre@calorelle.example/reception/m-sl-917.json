@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-917",
+  "de": {
+    "nom": "Thomas Girard",
+    "adresse": "thomas.girard@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Enzo seul mardi ?",
+  "date": "2027-02-01T07:30:00+01:00",
+  "corps": "Sonia,\n\nAvec l'absence de Mathieu, je suis à court de monde. Enzo pourrait-il faire seul la visite d'entretien de mardi à la Résidence des Grèves ? C'est une visite simple.\n\nThomas (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

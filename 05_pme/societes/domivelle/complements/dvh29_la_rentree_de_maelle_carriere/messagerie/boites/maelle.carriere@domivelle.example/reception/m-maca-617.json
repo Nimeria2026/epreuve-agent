@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-maca-617",
+  "de": {
+    "nom": "Manon Lejeune",
+    "adresse": "manon.lejeune@courriel.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Infiltration sous la toiture-terrasse",
+  "date": "2026-08-24T18:45:00+02:00",
+  "corps": "Madame,\n\nDepuis l'orage du 22 août, une tache s'étend au plafond de ma chambre, au huitième étage, juste sous la toiture-terrasse des Hauts de Montclavel. L'eau ne coule plus, mais le plâtre a gonflé sur près d'un mètre. Que dois-je faire ?\n\nManon Lejeune, lot 33",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

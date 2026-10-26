@@ -1,0 +1,14 @@
+{
+  "numero": "INT-2026-0040",
+  "client": "c-0346",
+  "techniciens": [
+    "david.roussel",
+    "romain.guerin"
+  ],
+  "debut": "2026-11-12T08:00:00+01:00",
+  "fin": "2026-11-12T12:00:00+01:00",
+  "nature": "installation",
+  "objet": "Remplacement de la chaudière gaz de l'atelier",
+  "statut": "planifiee",
+  "cree_par": "marc.duval"
+}

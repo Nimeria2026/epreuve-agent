@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0366"
+nom: "Odile Garnier"
+type: "particulier"
+adresse: "63 allée des Peupliers, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "odile.garnier2@courriel.example"
+telephone: "06 39 98 50 86"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité Plus"
+  depuis: "2024-03-01"
+  mois_anniversaire: "mars"
+  derniere_visite: "2026-03-11"

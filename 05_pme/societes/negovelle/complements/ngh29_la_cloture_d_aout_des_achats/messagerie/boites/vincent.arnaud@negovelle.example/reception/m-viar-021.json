@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-viar-021",
+  "de": {
+    "nom": "Isabelle Jolivet",
+    "adresse": "isabelle.jolivet@electricite-bouchard.example"
+  },
+  "a": [
+    "vincent.arnaud@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-08-28T10:40:00+02:00",
+  "corps": "Bonjour,\n\nPourriez-vous nous livrer 10 serre-joints OUT-12384 et 4 niveaux OUT-11453, à notre adresse habituelle ?\n\nIsabelle Jolivet\nÉlectricité Bouchard",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

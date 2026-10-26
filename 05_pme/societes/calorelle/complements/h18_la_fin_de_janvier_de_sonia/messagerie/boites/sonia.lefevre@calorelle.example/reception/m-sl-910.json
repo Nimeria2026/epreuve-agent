@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-910",
+  "de": {
+    "nom": "Crédit Fictif du Val",
+    "adresse": "credits@credit-fictif-du-val.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Kevin Lambert",
+  "date": "2027-01-29T14:40:00+01:00",
+  "corps": "Madame,\n\nDans le cadre d'une demande de prêt, pourriez-vous nous confirmer le salaire et l'ancienneté de votre salarié M. Kevin Lambert ?\n\nLe service crédits, Crédit Fictif du Val (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-sl-704",
+  "de": {
+    "nom": "Noé Rivière",
+    "adresse": "n.riviere@courriel.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "RIB et correction",
+  "date": "2026-11-01T21:15:00+01:00",
+  "corps": "Bonjour Madame,\n\nJ'avais oublié mon RIB, le voici. Et je me suis trompé de date : je commence chez vous le lundi 23 novembre, après ma première période au CFA, comme l'indique mon contrat. Pardon pour l'erreur.\n\nUne dernière question : quand je serai plus à l'aise, pourrai-je faire seul les petites visites d'entretien près de chez moi ?\n\nNoé Rivière (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "rib_Riviere.pdf",
+      "fichier": "pieces/m-sl-704/rib_Riviere.pdf",
+      "taille_octets": 797
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

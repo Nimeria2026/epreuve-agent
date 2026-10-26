@@ -1,0 +1,9 @@
+{
+  "numero": "AV-2026-0010",
+  "client": "c-0290",
+  "facture": "FC-2026-0851",
+  "date": "2026-06-15T10:30:00+02:00",
+  "montant_ttc_euros": 36.66,
+  "motif": "retour d'un article conforme, décote de 10 %",
+  "emis_par": "nathalie.brunet"
+}

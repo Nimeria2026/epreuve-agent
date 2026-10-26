@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-laga-001",
+  "de": {
+    "nom": "Laurent Baillet",
+    "adresse": "laurent.baillet@webmel.example"
+  },
+  "a": [
+    "laetitia.garnier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Livraison de la commande CO-2026-02031",
+  "date": "2026-07-06T06:51:00+02:00",
+  "corps": "Bonjour Madame Garnier,\n\nMon adresse de Besson Rénovation ne fonctionne plus depuis samedi, je vous écris de ma messagerie personnelle. Notre commande CO-2026-02031 doit être livrée demain : pouvez-vous la faire partir sur notre nouveau chantier, 18 rue des Tanneurs, 36999 Saulvenne, et non au siège ? Merci de me répondre sur cette adresse.\n\nCordialement,\nLaurent Baillet",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,39 @@
+{
+  "numero": "BL-2026-01690",
+  "commande": "CO-2026-01841",
+  "client": "c-0263",
+  "date_expedition": "2026-06-24",
+  "date_livraison": "2026-06-24",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "109 rue des Lilas, 36999 Ardillac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ELE-12008",
+      "libelle": "Goulotte 12x12 mm, barre de 2 m",
+      "quantite": 1
+    },
+    {
+      "reference": "ELP-10751",
+      "libelle": "Foret béton SDS-plus 5x160 mm",
+      "quantite": 2
+    },
+    {
+      "reference": "VIS-10114",
+      "libelle": "Boulon tête hexagonale M10x60, zingué, sachet de 10",
+      "quantite": 5
+    },
+    {
+      "reference": "VIS-12458",
+      "libelle": "Vis à bois tête fraisée 4x45, zinguée, boîte de 200",
+      "quantite": 12
+    }
+  ],
+  "reserves": null,
+  "signataire": "Corinne Pinson",
+  "statut": "livre"
+}

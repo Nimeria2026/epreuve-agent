@@ -1,0 +1,13 @@
+{
+  "numero": "INT-2026-0042",
+  "client": "c-0168",
+  "techniciens": [
+    "mathieu.picard"
+  ],
+  "debut": "2026-11-30T08:00:00+01:00",
+  "fin": "2026-11-30T12:00:00+01:00",
+  "nature": "mise_en_service",
+  "objet": "Réglage de la pompe à chaleur posée en novembre",
+  "statut": "planifiee",
+  "cree_par": "marc.duval"
+}

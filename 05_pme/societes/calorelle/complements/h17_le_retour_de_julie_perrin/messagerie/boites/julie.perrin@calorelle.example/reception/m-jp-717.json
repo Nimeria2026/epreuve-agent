@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-717",
+  "de": {
+    "nom": "Hélène Chevalier",
+    "adresse": "helene.chevalier@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Passage au contrat Sérénité Plus",
+  "date": "2026-12-21T10:00:00+01:00",
+  "corps": "Bonjour,\n\nJe voudrais passer mon contrat Sérénité au contrat Sérénité Plus à partir du 1er février. Combien me coûtera ce changement ?\n\nHélène Chevalier, 50 rue de la Loire, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

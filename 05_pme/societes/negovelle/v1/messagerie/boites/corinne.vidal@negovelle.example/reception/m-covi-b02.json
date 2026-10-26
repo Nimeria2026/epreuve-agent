@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-covi-b02",
+  "de": {
+    "nom": "Françoise Mahé",
+    "adresse": "francoise.mahe@imprimerie-becker.example"
+  },
+  "a": [
+    "corinne.vidal@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Copie de facture",
+  "date": "2026-06-25T09:32:00+02:00",
+  "corps": "Bonjour,\n\nPouvez-vous me renvoyer la facture de mai ? Je ne la retrouve pas.\n\nCordialement,\nFrançoise Mahé",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

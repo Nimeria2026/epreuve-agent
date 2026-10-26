@@ -1,0 +1,19 @@
+# Fiche du lot c15-10. Données FICTIVES.
+lot: c15-10
+adresse: 41 rue de la Croix-Blanche, 18999 Montclavel-sur-Cher (FICTIF)
+type: T3
+surface_m2: 55
+locataire:
+  nom: M. Gilles Boulanger
+  courriel: gilles.boulanger@mel-perso.example
+  telephone: 06 39 98 77 06
+  entree: '2023-07-20'
+bail:
+  signature: '2023-07-20'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 514,00 €
+  depot_de_garantie: 490,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T1
+dpe:
+  classe: E

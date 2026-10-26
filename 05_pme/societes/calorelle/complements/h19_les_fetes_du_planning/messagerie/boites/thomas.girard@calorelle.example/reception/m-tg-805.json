@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-tg-805",
+  "de": {
+    "nom": "Jean Simon",
+    "adresse": "jean.simon@courriel.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Fuite sur un radiateur",
+  "date": "2026-12-21T07:45:00+01:00",
+  "corps": "Bonjour,\n\nLe robinet d'un radiateur fuit dans notre salon. Nous n'avons pas de contrat chez vous : pouvez-vous venir ?\n\nJean Simon, 87 rue du Moulin (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

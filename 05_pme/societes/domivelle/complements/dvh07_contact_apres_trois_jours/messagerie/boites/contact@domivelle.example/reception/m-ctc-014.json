@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-014",
+  "de": {
+    "nom": "Lucie Benoît",
+    "adresse": "lucie.benoit@courriel.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Visite du T3 rue des Vignes",
+  "date": "2026-06-04T11:10:00+02:00",
+  "corps": "Bonjour,\n\nJe suis intéressée par le T3 n01-06 que vous louez. Puis-je le visiter ?\n\nLucie Benoît",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-ctc-007",
+  "de": {
+    "nom": "Ascenseurs du Moulin-Barrat",
+    "adresse": "facturation@ascenseurs-du-moulin-barrat.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Renouvellement du contrat d'ascenseur, Résidence Les Peupliers",
+  "date": "2026-06-03T14:20:00+02:00",
+  "corps": "Bonjour,\n\nVotre contrat d'entretien de l'ascenseur de la Résidence Les Peupliers arrive à échéance : voici notre proposition de renouvellement, 2 640,00 € TTC par an.\n\nAscenseurs du Moulin-Barrat",
+  "pieces_jointes": [
+    {
+      "nom": "devis_ascenseur_cp17.pdf",
+      "fichier": "pieces/m-ctc-007/devis_ascenseur_cp17.pdf",
+      "taille_octets": 763
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01831",
+  "commande": "CO-2026-01982",
+  "client": "c-0299",
+  "date_expedition": "2026-07-02",
+  "date_livraison": "2026-07-02",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "37 zone industrielle des Brandes, 36999 Saulvenne (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ELP-10089",
+      "libelle": "Disque diamant béton 300 mm",
+      "quantite": 2
+    },
+    {
+      "reference": "ELP-10293",
+      "libelle": "Disque à tronçonner pierre 115 mm, boîte de 10",
+      "quantite": 3
+    }
+  ],
+  "reserves": null,
+  "signataire": "Guy Simonet",
+  "statut": "livre"
+}

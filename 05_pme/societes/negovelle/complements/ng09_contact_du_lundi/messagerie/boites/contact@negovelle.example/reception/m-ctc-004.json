@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-004",
+  "de": {
+    "nom": "Denis Rouxel",
+    "adresse": "denis.rouxel@menuiserie-parmentier.example"
+  },
+  "a": [
+    "contact@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Livraison abîmée",
+  "date": "2026-07-04T08:15:00+02:00",
+  "corps": "Bonjour,\n\nLa livraison de vendredi est arrivée avec un carton écrasé : deux disjoncteurs ont le boîtier fendu. Que faisons-nous ?\n\nDenis Rouxel\nMenuiserie Parmentier",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

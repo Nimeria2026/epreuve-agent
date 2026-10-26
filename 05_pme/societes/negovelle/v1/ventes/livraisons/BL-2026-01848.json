@@ -1,0 +1,59 @@
+{
+  "numero": "BL-2026-01848",
+  "commande": "CO-2026-01999",
+  "client": "c-0005",
+  "date_expedition": "2026-07-03",
+  "date_livraison": "2026-07-03",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "132 rue des Chênes, 36999 Fontclavier (FICTIF)",
+  "colis": 3,
+  "lignes": [
+    {
+      "reference": "CON-11249",
+      "libelle": "Dégrippant au PTFE, aérosol de 500 ml",
+      "quantite": 10
+    },
+    {
+      "reference": "ELE-13389",
+      "libelle": "Tableau électrique 4 rangée(s), 18 modules",
+      "quantite": 1
+    },
+    {
+      "reference": "ELP-11698",
+      "libelle": "Ponceuse à bande 600 W",
+      "quantite": 2
+    },
+    {
+      "reference": "OUT-11323",
+      "libelle": "Mètre ruban 8 m, ruban de 16 mm",
+      "quantite": 10
+    },
+    {
+      "reference": "OUT-12719",
+      "libelle": "Tournevis Torx n° 2",
+      "quantite": 12
+    },
+    {
+      "reference": "PRO-11527",
+      "libelle": "Pantalon de travail haute visibilité orange, taille 50",
+      "quantite": 1
+    },
+    {
+      "reference": "VIS-10694",
+      "libelle": "Vis à bois tête fraisée 3,5x16, bichromatée, boîte de 500",
+      "quantite": 2
+    },
+    {
+      "reference": "VIS-13462",
+      "libelle": "Vis à bois tête fraisée 6x50, bichromatée, boîte de 500",
+      "quantite": 12
+    }
+  ],
+  "reserves": null,
+  "signataire": "Philippe Boutin",
+  "statut": "livre"
+}

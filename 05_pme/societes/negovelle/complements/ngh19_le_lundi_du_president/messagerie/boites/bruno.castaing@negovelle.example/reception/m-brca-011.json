@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-011",
+  "de": {
+    "nom": "Fabrice Mercier",
+    "adresse": "fabrice.mercier@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Prix pour Chauffage Baillet, CO-2026-02045",
+  "date": "2026-07-06T08:25:00+02:00",
+  "corps": "Bruno,\n\nChauffage Baillet (c-0237) équipe deux nouvelles équipes ; j'ai saisi sa commande en brouillon, CO-2026-02045, et il attend ces prix nets pour la confirmer :\n- ELP-11551, Perceuse-visseuse 18 V, 1 batterie(s) 2 Ah, coffret, 2 unités : 190,00 € HT au lieu de 243,30 € au tarif\n- PLB-12449, Robinet d'arrêt quart de tour 20x27, 12 unités : 15,50 € HT au lieu de 20,10 € au tarif\n- ELP-10236, Disque à tronçonner inox 115 mm, boîte de 25, 12 unités : 24,00 € HT au lieu de 34,55 € au tarif\n- ELE-10979, Câble H07V-U 10 mm², couronne de 100 m, 3 unités : 58,00 € HT au lieu de 78,15 € au tarif\n- QUI-11274, Coulisse de tiroir à fermeture amortie 300 mm, la paire, 12 unités : 19,00 € HT au lieu de 24,65 € au tarif\n\nTu valides ?\n\nFabrice",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

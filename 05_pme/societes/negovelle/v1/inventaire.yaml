@@ -1,0 +1,114 @@
+# Ce que l'état initial v1 de Négovelle contient : le monde commun à ses tâches (cadrage
+# 00_docs/sources/2026-10-17_cadrage_negoce_de_gros.md, sections 4 à 6). Cahier des charges de
+# 09_outillage/scripts/generer_negovelle_v1.py, qui écrit dossiers/, messagerie/, facturation/ et
+# ventes/ ; entreprise/ s'écrit à la main. Ce qui n'appartient qu'à une tâche, ses courriels non lus
+# et leurs pièces, va dans son complément (05_pme/societes/negovelle/complements/<tâche>/), à
+# l'écriture de la tâche. Tant qu'aucun run n'a tourné sur Négovelle, v1 peut encore changer :
+# chaque tâche y fixe, en l'écrivant, les objets dont elle a besoin (section reserve_pour_les_taches).
+# Tout est fictif.
+
+date_simulee: 2026-07-06
+graine: 20260706
+
+conventions:
+  - chaque PDF porte la mention FICTIF
+  - adresses électroniques en negovelle.example pour le personnel et les boîtes partagées, en .example pour les tiers (RFC 2606)
+  - téléphones dans les plages réservées aux œuvres de fiction, 02 61 91 xx xx et 06 39 98 xx xx ; ceux de Négovelle de 60 00 à 60 99
+  - coordonnées bancaires au code banque 99999
+  - communes inventées, absentes de geo.api.gouv.fr (vérifié le 2026-10-17), toutes au code postal 36999, dans l'Indre (36), réel
+  - noms de famille pris dans une liste sans aucun nom de celle de Domivelle ni des salariés de Calorelle, de Domivelle et de Négovelle
+  - un agent ne lit que le texte (.md, .yaml, .csv, .txt, .json) et le corps des courriels ; un PDF se range ou se transmet, il ne se lit pas
+
+communes:
+  vaumoreau: {nom: Vaumoreau-sur-Indre, secteur: nord, siege: oui}
+  corvalet: {nom: Corvalet, secteur: nord}
+  brissonne: {nom: Brissonne, secteur: nord}
+  vendrigny: {nom: Vendrigny, secteur: est}
+  ardillac: {nom: Ardillac, secteur: est}
+  laubrissac: {nom: Laubrissac, secteur: sud}
+  saulvenne: {nom: Saulvenne, secteur: sud}
+  merolles: {nom: Mérolles-en-Brenne, secteur: ouest}
+  fontclavier: {nom: Fontclavier, secteur: ouest}
+
+ventes:
+  catalogue: >-
+    ventes/catalogue.json, 4 000 articles en dix familles (commun/familles.md), références
+    <PRÉFIXE>-<5 chiffres> ; prix de vente, barème par quantité, prix net, dernier prix d'achat net,
+    avantages financiers du fournisseur, transport par unité, stock, point de commande, réassort,
+    statut (environ 3 % en fin de série, 2 % déréférencés, 4 % en rupture), substituts ; les
+    conditions de vente en tête (remises des catégories A, B et C ; port ; franco ; express)
+  commandes: >-
+    ventes/commandes/, du 22 juin au 3 juillet 2026, CO-2026-01801 et suivantes : facturées au relevé
+    de juin, livrées en juillet, expédiées ou validées le 3 juillet (ces dernières réservent leur
+    stock), et six reliquats en attente de réassort ; chiffrées comme le service les chiffre
+  livraisons: >-
+    ventes/livraisons/, un bon par commande partie : camionnette pour une commande standard,
+    transporteur (transports-delorme) pour une commande express ; quelques réserves au récépissé
+  retours: ventes/retours/, cinq retours de juin, déjà enregistrés
+
+facturation:
+  factures: >-
+    facturation/factures/ : une facture par client et par mois, datée du dernier jour du mois (mai et
+    juin 2026, et celles de mars et d'avril non réglées ou réglées en juin) ; des ventes au comptoir
+    facturées le jour même, FC-2026-1401 et suivantes. Échéance : la date de la facture plus le délai
+    de la fiche. Les règlements reçus du 1er au 3 juillet ne sont pas encore lettrés : leur facture
+    reste à payer
+  avoirs: facturation/avoirs/, douze avoirs de juin
+
+dossiers:
+  commun: le manuel, les conditions générales de vente et la fiche de l'entreprise, recopiés de entreprise/ ; l'annuaire, tiré de l'organigramme ; les secteurs ; les familles du catalogue
+  clients: >-
+    clients/<code>/fiche_client.yaml, 350 clients c-0001 à c-0350 (contrat fiche_client_negoce) :
+    210 artisans, 70 entreprises, 42 PME, 28 collectivités ; contacts déclarés, adresses de
+    livraison codées, catégorie de remise, délai de paiement (comptant pour les clients de moins de
+    six mois), limite d'encours tenue par les commandes validées, statut ; cinq clients bloqués ;
+    clients/liste.csv, le code, le nom, le type et le secteur de chacun
+  fournisseurs: >-
+    fournisseurs/<code>/fiche_fournisseur.yaml et rib_<code>.pdf, quarante fournisseurs, quatre par
+    famille, et le transporteur ; leurs factures de juin dans factures/<numero>.pdf
+  achats: achats/commandes/AAAA-MM/CA-2026-0301.csv et suivantes, quarante commandes de juin ; achats/receptions/AAAA-MM/BR-…csv, les réceptions arrivées
+  comptabilite: releves/2026-06.csv et 2026-07.csv, les encaissements ; echeancier_fournisseurs.csv
+  courrier: courrier/AAAA-MM/, quelques plis numérisés
+  direction: notes_de_frais/2026-05/, les notes de mai des quatre commerciaux, visées
+  rh: un dossier par salarié, avec son contrat ; candidatures/, deux candidatures
+
+messagerie: les quatre boîtes partagées et celles des 22 salariés, avec des courriels déjà lus des trois dernières semaines ; aucun non lu
+
+reserve_pour_les_taches:
+  # Ce que chaque tâche du socle prend dans v1 (cadrage, section 8), choisi dans l'état généré le
+  # 2026-10-17 ; ses courriels, et les pièces qu'elle ajoute ou remplace, sont dans son complément
+  # (05_pme/societes/negovelle/complements/). Trois ajouts au générateur, faits pour les tâches :
+  # clients/liste.csv, les factures de juin au montant de leurs commandes, l'heure d'expédition
+  # des camionnettes.
+  ng01: >-
+    le client c-0159, du nord, livraisons partielles acceptées, substitution non ; QUI-11175, 26
+    disponibles, réassort de 60 le 16 juillet, substitut QUI-11159 ; QUI-12833 et QUI-11469 en stock
+  ng02: le client c-0115, près de sa limite d'encours, et sa facture FC-2026-0696, impayée
+  ng03: le client bloqué c-0309 et son commercial
+  ng04: le fournisseur fixations-des-tilleuls, sa fiche et son RIB
+  ng05: les clients c-0007, remise B, et c-0251, remise C
+  ng06: >-
+    les factures FC-2026-1190 (c-0210), FC-2026-1043 (c-0049), FC-2026-0641 et FC-2026-1042
+    (c-0048), et le bon de livraison BL-2026-01758, que le complément remplace
+  ng07: les six reliquats CO-2026-02036 à CO-2026-02041
+  ng08: >-
+    les commandes et les réceptions de juin de quatre fournisseurs : fixations-des-hautes-bornes,
+    materiel-electrique-du-pont-rouge, protection-de-la-garenne, visserie-de-la-garenne
+  ng09: les clients et les fournisseurs qu'écrivent les douze courriels de contact@
+  ng10: le client c-0325 et ses factures FC-2026-0338, FC-2026-0884 et FC-2026-1301
+  ng11: >-
+    le client c-0229, sa facture FC-2026-1209 et le bon de livraison BL-2026-01784, que le
+    complément remplace
+  ng12: le client c-0330 et sa commande CO-2026-02031, validée
+  ng13: le client c-0109 ; le complément ajoute sa commande en brouillon, CO-2026-02042
+  ng14: >-
+    les clients c-0091, c-0046, c-0136, c-0058 et c-0022 et leurs factures échues ; le complément
+    rattache FC-2026-1420 à c-0058 et ajoute au relevé de juillet le règlement de FC-2026-0311
+  ng15: rh/steven.lacroix/
+  ng16: direction/notes_de_frais/2026-05/aurelie.bonnefoy.md, la note de mai, visée
+  ng17: les clients c-0050 et c-0164
+  ng18: >-
+    les clients c-0179, c-0208 et c-0237, leurs livraisons BL-2026-01666, BL-2026-01681 et
+    BL-2026-01720 ; le complément remplace la commande CO-2026-01832 et deux de ces livraisons
+  ng19: le transporteur, transports-delorme, sa fiche et son RIB
+  ng20: le client c-0021 ; PLB-10122, PLB-10375 et PLB-10146 en stock

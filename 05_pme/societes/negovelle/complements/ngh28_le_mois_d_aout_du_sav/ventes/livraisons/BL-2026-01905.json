@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01905",
+  "commande": "CO-2026-02085",
+  "client": "c-0064",
+  "date_expedition": "2026-07-21",
+  "date_livraison": "2026-07-21",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "27 avenue Pasteur, 36999 Brissonne (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "FIX-10065",
+      "libelle": "Cheville métallique à expansion M5x32, boîte de 25",
+      "quantite": 10
+    }
+  ],
+  "reserves": null,
+  "signataire": "Philippe Fleurot",
+  "statut": "livre"
+}

@@ -1,0 +1,59 @@
+{
+  "numero": "BL-2026-01665",
+  "commande": "CO-2026-01816",
+  "client": "c-0096",
+  "date_expedition": "2026-06-23",
+  "date_livraison": "2026-06-23",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "47 rue du Moulin, 36999 Mérolles-en-Brenne (FICTIF)",
+  "colis": 3,
+  "lignes": [
+    {
+      "reference": "CON-11714",
+      "libelle": "Papier abrasif corindon, grain 40, rouleau de 25 m",
+      "quantite": 2
+    },
+    {
+      "reference": "ELP-10465",
+      "libelle": "Embout de vissage T15, étui de 25",
+      "quantite": 10
+    },
+    {
+      "reference": "PLB-10539",
+      "libelle": "Collier de fixation tube 22 mm, sachet de 10",
+      "quantite": 1
+    },
+    {
+      "reference": "PLB-10596",
+      "libelle": "Collier de fixation tube 40 mm, sachet de 10",
+      "quantite": 6
+    },
+    {
+      "reference": "QUI-11445",
+      "libelle": "Cylindre européen 30x40 mm, 3 clés",
+      "quantite": 2
+    },
+    {
+      "reference": "VIS-10734",
+      "libelle": "Vis à bois tête fraisée 3,5x20, inox A2, boîte de 200",
+      "quantite": 2
+    },
+    {
+      "reference": "VIS-11845",
+      "libelle": "Vis à bois tête fraisée 4,5x35, bichromatée, boîte de 200",
+      "quantite": 6
+    },
+    {
+      "reference": "VIS-12156",
+      "libelle": "Vis à bois tête fraisée 4x16, bichromatée, boîte de 500",
+      "quantite": 2
+    }
+  ],
+  "reserves": null,
+  "signataire": "Roger Boisson",
+  "statut": "livre"
+}

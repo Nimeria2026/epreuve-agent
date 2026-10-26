@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-viar-016",
+  "de": {
+    "nom": "Laurent Gimenez",
+    "adresse": "laurent.gimenez@negovelle.example"
+  },
+  "a": [
+    "vincent.arnaud@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Seuil de QUI-10114",
+  "date": "2026-08-28T09:05:00+02:00",
+  "corps": "Vincent,\n\nUn client me demande 12 pièces de QUI-10114 (Boîte aux lettres double face, vert) à 46,00 € HT pièce, au lieu de 82,15 € HT au tarif. Avant d'en parler à Bruno : est-ce au-dessus du seuil de revente à perte ? Tu as les prix d'achat.\n\nLaurent",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

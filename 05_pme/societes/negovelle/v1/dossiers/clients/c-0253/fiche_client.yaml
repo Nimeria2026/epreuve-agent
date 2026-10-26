@@ -1,0 +1,28 @@
+# Fiche du client c-0253 de Négovelle. Données FICTIVES.
+code: c-0253
+nom: Voisin Agencement
+type: pme
+adresse: 32 parc d'activités de la Gare, 36999 Fontclavier (FICTIF)
+telephone: 02 61 91 62 14
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Maxime Cosson
+  fonction: responsable des achats
+  courriel: maxime.cosson@voisin-agencement.example
+- nom: Frédéric Pasquet
+  fonction: responsable de maintenance
+  courriel: frederic.pasquet@voisin-agencement.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 32 parc d'activités de la Gare, 36999 Fontclavier (FICTIF)
+categorie_remise: A
+delai_paiement: 60_jours_date_de_facture
+client_depuis: '2022-12-01'
+limite_encours_euros: 5000.0
+livraisons_partielles: false
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

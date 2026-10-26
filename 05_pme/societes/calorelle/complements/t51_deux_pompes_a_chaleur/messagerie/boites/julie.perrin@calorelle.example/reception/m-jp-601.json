@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-601",
+  "de": {
+    "nom": "Anne Lambert",
+    "adresse": "anne.lambert@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis de la pompe à chaleur",
+  "date": "2026-11-02T07:50:00+01:00",
+  "corps": "Bonjour Madame Perrin,\n\nM. Picard est passé mardi voir ma chaudière au fioul. J'attends votre devis pour la pompe à chaleur. Ma maison date de 1994 ; je signerai l'attestation sur le devis.\n\nCordialement,\nAnne Lambert (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

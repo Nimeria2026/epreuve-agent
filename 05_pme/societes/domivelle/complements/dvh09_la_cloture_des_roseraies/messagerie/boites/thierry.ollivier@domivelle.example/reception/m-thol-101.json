@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-thol-101",
+  "de": {
+    "nom": "Gaëlle Fournel",
+    "adresse": "gaelle.fournel@domivelle.example"
+  },
+  "a": [
+    "thierry.ollivier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Les Roseraies : comptes et budget pour l'assemblée",
+  "date": "2026-06-05T15:10:00+02:00",
+  "corps": "Bonjour Thierry,\n\nPour l'assemblée des Roseraies de septembre, peux-tu me préparer les comptes de l'exercice 2025-2026 avec leurs comparatifs, le solde de chaque copropriétaire et le projet de budget 2027-2028 ? Hypothèses : chaque poste au réalisé 2025-2026, arrondi à l'euro supérieur, sauf le nettoyage, 2 160,00 € par an au nouveau contrat de Nettoyage des Quatre-Vents, et l'assurance, 1 120,00 € d'après l'avis d'échéance.\n\nMerci,\nGaëlle",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

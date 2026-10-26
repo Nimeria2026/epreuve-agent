@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-ctc-829",
+  "de": {
+    "nom": "Céline Faure",
+    "adresse": "celine.faure@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis DV-2026-011 signé",
+  "date": "2026-11-01T10:15:00+01:00",
+  "corps": "Bonjour,\n\nVoici le devis DV-2026-011 signé, pour le remplacement de ma chaudière gaz.\n\nCéline Faure (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "DV-2026-011_signe.pdf",
+      "fichier": "pieces/m-ctc-829/DV-2026-011_signe.pdf",
+      "taille_octets": 795
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,139 @@
+{
+  "numero": "CO-2026-01986",
+  "client": "c-0301",
+  "reference_client": "BC-7818",
+  "cree_le": "2026-07-01T09:10:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "13 zone d'activités des Grands Prés, 36999 Corvalet (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-11388",
+      "libelle": "Câble téléphonique 2 paire(s), couronne de 100 m",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 16.6,
+      "remise_pourcent": 5.92,
+      "prix_net_ht_euros": 15.62,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 187.44
+    },
+    {
+      "reference": "ELE-13438",
+      "libelle": "Tube LED T8 1500 mm, 22 W",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 3.6,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 3.46,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 10.38
+    },
+    {
+      "reference": "OUT-11118",
+      "libelle": "Marteau de maçon 600 g",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 27.15,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 26.06,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 78.18
+    },
+    {
+      "reference": "PLB-12253",
+      "libelle": "Raccord à sertir droit 14 mm",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 11.9,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 11.42,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 11.42
+    },
+    {
+      "reference": "PLB-12891",
+      "libelle": "Tube PER 20 mm, gainé rouge, couronne de 25 m",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 78.2,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 75.07,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 375.35
+    },
+    {
+      "reference": "PRO-10220",
+      "libelle": "Bottes de sécurité fourrées S5, pointure 45",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 41.4,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 41.4,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 165.6
+    },
+    {
+      "reference": "PRO-11502",
+      "libelle": "Pantalon de travail haute visibilité orange, taille 42",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 32.6,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 31.3,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 93.9
+    },
+    {
+      "reference": "VIS-10138",
+      "libelle": "Boulon tête hexagonale M10x80, inox A2, sachet de 25",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 15.75,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 15.12,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 45.36
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 967.63,
+  "total_tva_euros": 193.53,
+  "total_ttc_euros": 1161.16,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01835"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-01T09:10:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-01T09:12:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-02T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01835"
+    },
+    {
+      "date": "2026-07-02T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01835"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01794",
+  "commande": "CO-2026-01945",
+  "client": "c-0172",
+  "date_expedition": "2026-07-01",
+  "date_livraison": "2026-07-01",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "27 parc d'activités de la Gare, 36999 Corvalet (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "FIX-11845",
+      "libelle": "Tige filetée M14, longueur 1 m, inox A2",
+      "quantite": 10
+    }
+  ],
+  "reserves": null,
+  "signataire": "Henri Raynaud",
+  "statut": "livre"
+}

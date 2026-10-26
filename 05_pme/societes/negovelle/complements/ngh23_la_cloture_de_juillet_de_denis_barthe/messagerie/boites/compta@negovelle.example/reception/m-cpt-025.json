@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cpt-025",
+  "de": {
+    "nom": "Fixations des Brandes",
+    "adresse": "facturation@fixations-des-brandes.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Relance : facture F27703",
+  "date": "2026-07-31T07:05:00+02:00",
+  "corps": "Bonjour,\n\nNotre facture F27703 du 2 juin, 812,40 € TTC, arrive à échéance demain, 1er août. Merci de veiller à son règlement.\n\nService facturation\nFixations des Brandes",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

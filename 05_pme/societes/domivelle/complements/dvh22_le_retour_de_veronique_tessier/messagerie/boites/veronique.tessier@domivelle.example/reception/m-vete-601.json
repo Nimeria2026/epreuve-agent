@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-vete-601",
+  "de": {
+    "nom": "Nadège Lebrun",
+    "adresse": "nadege.lebrun@domivelle.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Les absences d'août",
+  "date": "2026-07-31T17:00:00+02:00",
+  "corps": "Véronique,\n\nPour ton retour, les absences d'août, telles que je les ai notées :\n\n- toi, du lundi 3 au vendredi 21 août ;\n- Mélanie, du lundi 3 au vendredi 28 août ;\n- Élodie, du lundi 10 au vendredi 28 août : Cédric reprend le nord (manuel, section 17) ;\n- Maëlle, du lundi 17 août au vendredi 4 septembre.\n\nLes autres sont là tout le mois.\n\nNadège",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

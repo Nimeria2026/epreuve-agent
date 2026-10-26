@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-covi-001",
+  "de": {
+    "nom": "Vincent Arnaud",
+    "adresse": "vincent.arnaud@negovelle.example"
+  },
+  "a": [
+    "corinne.vidal@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Report de livraison des colliers FIX-11192",
+  "date": "2026-07-06T07:45:00+02:00",
+  "corps": "Corinne,\n\nFixations de la Brenne repousse le réassort des colliers FIX-11192. Je te laisse prévenir les clients qui attendent ces colliers.\n\nVincent\n\n----- Message transféré -----\nDe : Fixations de la Brenne <commandes@fixations-de-la-brenne.example>\nObjet : Report de livraison\n\nBonjour,\n\nSuite à un incident sur notre ligne de production, les 160 sachets de colliers de fixation 28 mm (votre référence FIX-11192) prévus le 16 juillet vous seront livrés le vendredi 24 juillet. Veuillez nous en excuser.\n\nService commercial\nFixations de la Brenne",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

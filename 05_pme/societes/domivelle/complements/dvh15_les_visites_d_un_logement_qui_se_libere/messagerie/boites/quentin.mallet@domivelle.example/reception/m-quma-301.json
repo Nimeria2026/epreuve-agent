@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-quma-301",
+  "de": {
+    "nom": "Cédric Maillard",
+    "adresse": "cedric.maillard@domivelle.example"
+  },
+  "a": [
+    "quentin.mallet@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Congé de Mme Labbé, c04-03",
+  "date": "2026-06-05T10:30:00+02:00",
+  "corps": "Quentin,\n\nMme Marion Labbé, locataire du T3 c04-03, donne congé : sa lettre recommandée a été reçue le samedi 2 mai, préavis de trois mois, sans motif de réduction. Le propriétaire veut relouer : l'annonce est en ligne. Je te laisse organiser les visites et l'état des lieux de sortie.\n\nCédric",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

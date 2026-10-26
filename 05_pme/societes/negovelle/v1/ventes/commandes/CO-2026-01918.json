@@ -1,0 +1,145 @@
+{
+  "numero": "CO-2026-01918",
+  "client": "c-0251",
+  "reference_client": "BC-3399",
+  "cree_le": "2026-06-26T09:10:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "21 zone d'activités des Grands Prés, 36999 Vaumoreau-sur-Indre (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-10628",
+      "libelle": "Disque abrasif auto-agrippant 150 mm, grain 240, boîte de 25",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 25.2,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 23.18,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 139.08
+    },
+    {
+      "reference": "ELE-11127",
+      "libelle": "Câble R2V 5G 10 mm², couronne de 100 m",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 121.7,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 121.7,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 243.4
+    },
+    {
+      "reference": "ELE-11576",
+      "libelle": "Disjoncteur phase-neutre 20 A, courbe D",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 56.15,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 56.15,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 336.9
+    },
+    {
+      "reference": "OUT-10718",
+      "libelle": "Jeu de clés mâles Torx, 10 pièces",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 29.6,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 27.23,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 27.23
+    },
+    {
+      "reference": "OUT-11420",
+      "libelle": "Niveau à bulle de maçon 100 cm",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 45.4,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 41.77,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 83.54
+    },
+    {
+      "reference": "OUT-11453",
+      "libelle": "Niveau à bulle de maçon 30 cm",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 24.15,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 22.22,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 66.66
+    },
+    {
+      "reference": "VIS-11763",
+      "libelle": "Vis à bois tête fraisée 4,5x25, inox A2, boîte de 100",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 18.85,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 17.34,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 34.68
+    },
+    {
+      "reference": "VIS-13274",
+      "libelle": "Vis à bois tête fraisée 6x30, inox A2, boîte de 200",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 11.75,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 10.81,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 43.24
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 974.73,
+  "total_tva_euros": 194.95,
+  "total_ttc_euros": 1169.68,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01767"
+  ],
+  "facture": "FC-2026-1230",
+  "historique": [
+    {
+      "date": "2026-06-26T09:10:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-26T09:12:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-29T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01767"
+    },
+    {
+      "date": "2026-06-29T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01767"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1230"
+    }
+  ]
+}

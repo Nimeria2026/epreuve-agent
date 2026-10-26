@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-mare-001",
+  "de": {
+    "nom": "André Ducros",
+    "adresse": "andre.ducros@menuiserie-gabriel.example"
+  },
+  "a": [
+    "manon.rey@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande de vis et de scies",
+  "date": "2026-07-06T07:35:00+02:00",
+  "corps": "Bonjour,\n\nMerci de nous livrer au siège :\n\n- 30 x VIS-13087, Vis à bois tête fraisée 5x80, inox A2, boîte de 200\n- 5 x VIS-11078, Vis à bois tête fraisée 3,5x70, inox A2, boîte de 200\n- 2 x OUT-12188, Scie égoïne 500 mm\n\nCordialement,\nAndré Ducros\nMenuiserie Gabriel",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

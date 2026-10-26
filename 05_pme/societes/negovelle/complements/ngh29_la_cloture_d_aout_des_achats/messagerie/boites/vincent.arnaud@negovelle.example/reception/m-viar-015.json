@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-viar-015",
+  "de": {
+    "nom": "Fabrice Mercier",
+    "adresse": "fabrice.mercier@negovelle.example"
+  },
+  "a": [
+    "vincent.arnaud@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Question sur OUT-12384",
+  "date": "2026-08-31T07:40:00+02:00",
+  "corps": "Vincent,\n\nUn client de l'est voudrait 20 serre-joints OUT-12384 la semaine prochaine : en a-t-on ?\n\nFabrice",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

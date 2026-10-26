@@ -1,0 +1,28 @@
+# Fiche du client c-0276 de Négovelle. Données FICTIVES.
+code: c-0276
+nom: Charpente Rouxel
+type: artisan
+adresse: 27 impasse des Noyers, 36999 Ardillac (FICTIF)
+telephone: 02 61 91 80 62
+secteur: est
+commercial: fabrice.mercier
+administration_des_ventes: benoit.faure
+contacts:
+- nom: Suzanne Salmon
+  fonction: gérante
+  courriel: suzanne.salmon@charpente-rouxel.example
+- nom: Gérard Legendre
+  fonction: conjoint collaborateur
+  courriel: gerard.legendre@charpente-rouxel.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 27 impasse des Noyers, 36999 Ardillac (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2016-12-01'
+limite_encours_euros: 1500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

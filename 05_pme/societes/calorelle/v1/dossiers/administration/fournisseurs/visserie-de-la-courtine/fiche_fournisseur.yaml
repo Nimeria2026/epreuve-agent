@@ -1,0 +1,8 @@
+# Fiche fournisseur Calorelle. Données FICTIVES.
+nom: "Visserie de la Courtine"
+activite: "visserie"
+adresse: "4 zone d'activité des Grèves, 45999 Valmont-sur-Loire (FICTIF)"
+telephone: "02 61 91 20 26"
+courriel_facturation: "compta@visserie-de-la-courtine.example"
+iban: "FR76 9999 9862 3366 8358 6578 415 (FICTIF)"
+conditions: "paiement à 30 jours fin de mois"

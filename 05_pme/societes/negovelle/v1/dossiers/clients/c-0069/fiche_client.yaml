@@ -1,0 +1,28 @@
+# Fiche du client c-0069 de Négovelle. Données FICTIVES.
+code: c-0069
+nom: Durieux Rénovation
+type: entreprise
+adresse: 28 zone industrielle des Brandes, 36999 Laubrissac (FICTIF)
+telephone: 02 61 91 95 46
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Agnès Gautier
+  fonction: conductrice de travaux
+  courriel: agnes.gautier@durieux-renovation.example
+- nom: Serge Rouxel
+  fonction: responsable des achats
+  courriel: serge.rouxel@durieux-renovation.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 28 zone industrielle des Brandes, 36999 Laubrissac (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2010-10-01'
+limite_encours_euros: 8000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

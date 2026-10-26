@@ -1,0 +1,176 @@
+# Registre des lots en gestion, n12. Données FICTIVES.
+immeuble: n12
+nature: immeuble collectif
+adresse: 121 rue de la Fontaine, 18999 Vernillac (FICTIF)
+secteur: nord
+gestionnaire: Élodie Chauvin
+distance_agence_km: 12
+annee_construction: 2002
+gardien: false
+copropriete_du_syndic: null
+lots:
+- lot: n12-01
+  type: T3
+  surface_m2: 55
+  etage: 0
+  proprietaire: p-0329
+  locataire: vacant
+  loyer_hors_charges: 485,00 €
+  provision_sur_charges: 77,00 €
+  dpe: D
+- lot: n12-02
+  type: T1
+  surface_m2: 34
+  etage: 0
+  proprietaire: p-0284
+  locataire: Mme Pauline Bonnet
+  entree: '2014-07-21'
+  loyer_hors_charges: 287,00 €
+  provision_sur_charges: 60,00 €
+  depot_de_garantie: 225,00 €
+  revision: chaque 21 juillet
+  trimestre_irl: T1
+  dpe: D
+- lot: n12-03
+  type: T1
+  surface_m2: 30
+  etage: 0
+  proprietaire: p-0330
+  locataire: M. Éric Schmitt
+  entree: '2022-09-01'
+  loyer_hors_charges: 250,00 €
+  provision_sur_charges: 62,00 €
+  depot_de_garantie: 233,00 €
+  revision: chaque 1er septembre
+  trimestre_irl: T2
+  dpe: D
+- lot: n12-04
+  type: T2
+  surface_m2: 38
+  etage: 0
+  proprietaire: p-0331
+  locataire: M. Maxime Fleury
+  entree: '2018-08-24'
+  loyer_hors_charges: 364,00 €
+  provision_sur_charges: 68,00 €
+  depot_de_garantie: 310,00 €
+  revision: chaque 24 août
+  trimestre_irl: T2
+  dpe: C
+- lot: n12-05
+  type: T2
+  surface_m2: 46
+  etage: 1
+  proprietaire: p-0332
+  locataire: M. André Chauvet
+  entree: '2025-07-31'
+  loyer_hors_charges: 360,00 €
+  provision_sur_charges: 36,00 €
+  depot_de_garantie: 360,00 €
+  revision: chaque 31 juillet
+  trimestre_irl: T1
+  dpe: A
+- lot: n12-06
+  type: T2
+  surface_m2: 48
+  etage: 1
+  proprietaire: p-0333
+  locataire: Mme Geneviève Robin
+  entree: '2023-08-18'
+  loyer_hors_charges: 414,00 €
+  provision_sur_charges: 32,00 €
+  depot_de_garantie: 394,00 €
+  revision: chaque 18 août
+  trimestre_irl: T2
+  dpe: F
+- lot: n12-07
+  type: T1
+  surface_m2: 29
+  etage: 1
+  proprietaire: p-0334
+  locataire: Mme Chantal Legrand
+  entree: '2017-02-20'
+  loyer_hors_charges: 244,00 €
+  provision_sur_charges: 95,00 €
+  depot_de_garantie: 199,00 €
+  revision: chaque 20 février
+  trimestre_irl: T4
+  dpe: F
+- lot: n12-08
+  type: T3
+  surface_m2: 57
+  etage: 1
+  proprietaire: p-0335
+  locataire: M. Éric Raymond
+  entree: '2012-11-24'
+  loyer_hors_charges: 534,00 €
+  provision_sur_charges: 67,00 €
+  depot_de_garantie: 403,00 €
+  revision: chaque 24 novembre
+  trimestre_irl: T3
+  dpe: E
+- lot: n12-09
+  type: T3
+  surface_m2: 57
+  etage: 2
+  proprietaire: p-0336
+  locataire: M. Alain Rey
+  entree: '2013-07-17'
+  loyer_hors_charges: 512,00 €
+  provision_sur_charges: 54,00 €
+  depot_de_garantie: 394,00 €
+  revision: chaque 17 juillet
+  trimestre_irl: T1
+  dpe: B
+- lot: n12-10
+  type: T2
+  surface_m2: 40
+  etage: 2
+  proprietaire: p-0337
+  locataire: Mme Suzanne Meyer
+  entree: '2020-09-30'
+  loyer_hors_charges: 372,00 €
+  provision_sur_charges: 45,00 €
+  depot_de_garantie: 331,00 €
+  revision: chaque 30 septembre
+  trimestre_irl: T2
+  dpe: E
+- lot: n12-11
+  type: T1
+  surface_m2: 30
+  etage: 2
+  proprietaire: p-0285
+  locataire: Mme Geneviève Brunet
+  entree: '2022-05-03'
+  loyer_hors_charges: 241,00 €
+  provision_sur_charges: 60,00 €
+  depot_de_garantie: 219,00 €
+  revision: chaque 3 mai
+  trimestre_irl: T1
+  dpe: E
+- lot: n12-12
+  type: T2
+  surface_m2: 43
+  etage: 2
+  proprietaire: p-0287
+  locataire: Mme Sandrine Charpentier
+  entree: '2014-02-10'
+  loyer_hors_charges: 371,00 €
+  provision_sur_charges: 58,00 €
+  depot_de_garantie: 285,00 €
+  revision: chaque 10 février
+  trimestre_irl: T4
+  dpe: C
+- lot: n12-13
+  type: T2
+  surface_m2: 43
+  etage: 3
+  proprietaire: p-0338
+  locataire: Mme Agnès Hamon
+  entree: '2021-06-17'
+  loyer_hors_charges: 399,00 €
+  provision_sur_charges: 92,00 €
+  depot_de_garantie: 363,00 €
+  revision: chaque 17 juin
+  trimestre_irl: T1
+  dpe: C

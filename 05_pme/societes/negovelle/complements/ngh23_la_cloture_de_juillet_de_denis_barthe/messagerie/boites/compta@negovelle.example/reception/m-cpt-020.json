@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-020",
+  "de": {
+    "nom": "Sanitaire des Grands Champs",
+    "adresse": "facturation@sanitaire-des-grands-champs.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture F44741",
+  "date": "2026-07-29T09:00:00+02:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-jointe notre facture F44741 du 24 juillet 2026, pour votre commande CA-2026-0336 :\n- PLB-10424, Clapet anti-retour à ressort 20x27 : 60 x 13,06 € HT = 783,60 €\n- PLB-10832, Coude PVC 87° 110 mm : 120 x 1,72 € HT = 206,40 €\n- PLB-10922, Coude cuivre à souder 45° 16 mm, sachet de 5 : 160 x 5,67 € HT = 907,20 €\n- PLB-11657, Manchon PVC 125 mm : 15 x 2,01 € HT = 30,15 €\n- PLB-12694, Siphon de baignoire 40 mm : 30 x 11,87 € HT = 356,10 €\n- PLB-13184, Tube cuivre écroui 28 mm, barre de 2 m : 15 x 31,72 € HT = 475,80 €\n\nTotal HT : 2 759,25 € ; TVA 20 % : 551,85 € ; total TTC : 3 311,10 €. Paiement à 45 jours fin de mois.\n\nService facturation\nSanitaire des Grands Champs",
+  "pieces_jointes": [
+    {
+      "nom": "F44741.pdf",
+      "fichier": "pieces/m-cpt-020/F44741.pdf",
+      "taille_octets": 1037
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

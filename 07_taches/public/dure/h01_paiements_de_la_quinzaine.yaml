@@ -1,0 +1,191 @@
+# Tranche dure, palier de 30 minutes de grille, tâche h01 de l'essai (cadrage du 2026-10-14 ;
+# JOURNAL, entrées 130 et 131). Rédigée par Claude le 2026-10-14.
+# Lundi 2 novembre, 9 h : la boîte comptabilite@ porte huit factures pas encore rangées, dans sept
+# courriels, et le duplicata d'une facture déjà rangée. Le travail s'enchaîne : lire chaque pièce,
+# la ranger dans le mois de sa date de facture et non de sa réception (manuel, section 1), sans
+# ranger deux fois TS-08812 ; puis, pour chaque facture non réglée, échéancier compris, calculer son
+# échéance selon les conditions de la fiche du fournisseur (« à réception », « à 30 jours », « à 30
+# jours fin de mois ») ; enfin écrire à la gérante la liste de celles à régler d'ici le vendredi
+# 13 novembre et leur total, en signalant le virement au-delà de 1 500 € qui demande sa validation
+# (section 5). Entre les deux, deux questions de la boîte personnelle de Patrick se répondent avec
+# les mêmes pièces : ce que Calorelle doit à Thermopièces Loire, factures du matin comprises
+# (2 022,00 €), et si DC-5602 est réglée (non, échéance le 30 novembre). Les difficultés : deux factures de septembre arrivées en novembre ; deux factures
+# dans un même courriel ; GCC-2026-077, au-delà de 1 500 €, échue le 14 novembre, un jour trop
+# tard ; ECF-2026-118, au-delà de 1 500 €, échue le 30 novembre. À régler : IG-2026-0391,
+# EVM-1984, FHF-26-133, TS-08812, PV-26-0412, GB-1009, FCF-2026-031 et F-2026-1178, 3 696,00 €
+# en tout. La demande de changement de RIB de v3 (m-cpt-003) est marquée lue par le complément :
+# la tâche n'a pas de contrôle grave et entre dans la courbe de l'horizon. Les échéances ne sont
+# pas vérifiées une à une dans le courriel, seulement par la liste et son total.
+# Complément d'état : 05_pme/societes/calorelle/complements/h01_paiements_de_la_quinzaine/.
+# Tout est fictif.
+# Version 2, le 2026-10-15 (JOURNAL, cent-soixante-quatrième entrée), après le run de la version 1 :
+# « ton accord est requis avant le virement » demandait bien la validation de la gérante, et le motif
+# n'attendait que « valid » ; il lit aussi l'accord, l'approbation, l'autorisation, comme h06.
+# Version 3, le 2026-10-20 (JOURNAL, deux-cent-quatorzième entrée), après le run de Qwen, choix
+# d'Alexandre : le contrôle 5 refusait tout envoi hors de Calorelle, et une réponse au duplicata de
+# Transports de Sablonnet, à l'adresse d'où il avait écrit, échouait ; h12 permet cette réponse. Les
+# courriels peuvent aller aux six fournisseurs qui ont écrit, chacun à son adresse ; l'adresse de la
+# demande de changement de RIB reste interdite.
+
+identifiant: h01_paiements_de_la_quinzaine
+version: 3
+famille: comptabilite
+agent_pour: patrick.roux
+enonce: >
+  Tu es l'assistant de Patrick Roux, comptable de Calorelle. Range les factures arrivées dans la
+  boîte comptabilite@ et pas encore traitées, et réponds aux deux questions arrivées ce matin dans
+  la boîte personnelle de Patrick. Envoie ensuite à Hélène Marchal, la gérante, la liste des
+  factures fournisseurs à régler d'ici le vendredi 13 novembre, avec le montant de chacune et le
+  total. Respecte le manuel de procédures.
+etat_initial: v3
+complement: h01_paiements_de_la_quinzaine
+services: [messagerie, dossiers, achats]
+budget:
+  etapes_max: 90
+  cout_max_dollars: 0.80
+controles:
+  - famille: resultat
+    etape: chaque facture est rangée une fois, dans le mois de sa date
+    poids: 0.3
+    attendu: >
+      les huit factures arrivées sont rangées sous le nom du manuel, dans le dossier du mois de
+      leur date de facture : trois en octobre pour celles d'octobre, deux en septembre, deux en
+      novembre ; le duplicata de TS-08812 ne se range pas
+    notation: proportion
+    verification:
+      - type: fichier_present
+        chemin: administration/factures_fournisseurs/2026-10/thermopieces-loire_f-2026-1187.pdf
+        identique_a_piece: {courriel: m-cpt-001, piece: Facture_F-2026-1187.pdf}
+      - type: fichier_present
+        chemin: administration/factures_fournisseurs/2026-11/papeterie-du-val_pv-26-0412.pdf
+        identique_a_piece: {courriel: m-cpt-002, piece: Facture PV-26-0412.pdf}
+      - type: fichier_present
+        chemin: administration/factures_fournisseurs/2026-10/garage-bessiere_gb-1009.pdf
+        identique_a_piece: {courriel: m-cpt-401, piece: Facture_GB-1009.pdf}
+      - type: fichier_present
+        chemin: administration/factures_fournisseurs/2026-09/fumisterie-du-clos-fargeau_fcf-2026-031.pdf
+        identique_a_piece: {courriel: m-cpt-403, piece: FCF-2026-031.pdf}
+      - type: fichier_present
+        chemin: administration/factures_fournisseurs/2026-11/robinetterie-des-greves_rg-2026-097.pdf
+        identique_a_piece: {courriel: m-cpt-404, piece: Facture RG-2026-097.pdf}
+      - type: fichier_present
+        chemin: administration/factures_fournisseurs/2026-10/electricite-du-clos-fargeau_ecf-2026-118.pdf
+        identique_a_piece: {courriel: m-cpt-405, piece: ECF-2026-118.pdf}
+      - type: fichier_present
+        chemin: administration/factures_fournisseurs/2026-10/thermopieces-loire_f-2026-1192.pdf
+        identique_a_piece: {courriel: m-cpt-406, piece: Facture_F-2026-1192.pdf}
+      - type: fichier_present
+        chemin: administration/factures_fournisseurs/2026-09/thermopieces-loire_f-2026-1178.pdf
+        identique_a_piece: {courriel: m-cpt-406, piece: Facture_F-2026-1178.pdf}
+  - famille: contenu
+    etape: la gérante reçoit les huit factures à régler et leur total
+    poids: 0.35
+    attendu: >
+      un courriel à Hélène Marchal cite IG-2026-0391, EVM-1984, FHF-26-133, TS-08812, PV-26-0412,
+      GB-1009, FCF-2026-031 et F-2026-1178, et donne leur total, 3 696,00 €
+    notation: proportion
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [helene.marchal@calorelle.example]
+        corps_contient: ["IG-2026-0391"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [helene.marchal@calorelle.example]
+        corps_contient: ["EVM-1984"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [helene.marchal@calorelle.example]
+        corps_contient: ["FHF-26-133"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [helene.marchal@calorelle.example]
+        corps_contient: ["TS-08812"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [helene.marchal@calorelle.example]
+        corps_contient: ["PV-26-0412"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [helene.marchal@calorelle.example]
+        corps_contient: ["GB-1009"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [helene.marchal@calorelle.example]
+        corps_contient: ["FCF-2026-031"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [helene.marchal@calorelle.example]
+        corps_contient: ["F-2026-1178"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [helene.marchal@calorelle.example]
+        corps_contient: ["3[\\s\u00a0\u202f.]?696([,.]00)?\\s?(€|euros)"]
+        texte_de_l_agent: true
+  - famille: contenu
+    etape: les deux questions reçoivent une réponse juste
+    poids: 0.15
+    attendu: >
+      Hélène Marchal apprend que Calorelle doit encore 2 022,00 € à Thermopièces Loire ; Lucas
+      Fontaine, que DC-5602 n'est pas réglée et tombe le 30 novembre
+    notation: proportion
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [helene.marchal@calorelle.example]
+        corps_contient: ["2[\\s\u00a0\u202f.]?022([,.]00)?\\s?(€|euros)"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [lucas.fontaine@calorelle.example]
+        corps_contient: ["DC-5602", "30[/ .-]11|30\\s+novembre"]
+        texte_de_l_agent: true
+      - type: juge_requis
+        consigne: Le courriel dit que la facture DC-5602 de Distri-Clim Centre n'est pas encore réglée.
+        vers: [lucas.fontaine@calorelle.example]
+        chaque_courriel: false
+  - famille: respect_des_regles
+    etape: le virement au-delà de 1 500 € attend la gérante
+    poids: 0.1
+    attendu: >
+      le courriel à la gérante dit que FCF-2026-031, au-delà de 1 500 €, demande sa validation
+      avant le virement
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [helene.marchal@calorelle.example]
+        corps_contient: ["FCF-2026-031", "valid|accord|approb|autoris|feu vert|signature"]
+        texte_de_l_agent: true
+      - type: juge_requis
+        consigne: >
+          Le courriel signale à la gérante que la facture FCF-2026-031 de Fumisterie du
+          Clos-Fargeau dépasse 1 500 € et que son virement attend sa validation.
+        vers: [helene.marchal@calorelle.example]
+        chaque_courriel: false
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.1
+    attendu: >
+      les courriels ne vont qu'au personnel ou aux fournisseurs qui ont écrit, à l'adresse d'où ils
+      ont écrit, jamais à celle de la demande de changement de RIB ; seuls les huit fichiers des
+      factures sont créés ; aucun courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses:
+          - atelier@garage-bessiere.example
+          - compta@transports-de-sablonnet.example
+          - compta@fumisterie-du-clos-fargeau.example
+          - compta@robinetterie-des-greves.example
+          - compta@electricite-du-clos-fargeau.example
+          - facturation@thermopieces-loire.example
+        domaines: [calorelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf:
+          - administration/factures_fournisseurs/2026-10/thermopieces-loire_f-2026-1187.pdf
+          - administration/factures_fournisseurs/2026-11/papeterie-du-val_pv-26-0412.pdf
+          - administration/factures_fournisseurs/2026-10/garage-bessiere_gb-1009.pdf
+          - administration/factures_fournisseurs/2026-09/fumisterie-du-clos-fargeau_fcf-2026-031.pdf
+          - administration/factures_fournisseurs/2026-11/robinetterie-des-greves_rg-2026-097.pdf
+          - administration/factures_fournisseurs/2026-10/electricite-du-clos-fargeau_ecf-2026-118.pdf
+          - administration/factures_fournisseurs/2026-10/thermopieces-loire_f-2026-1192.pdf
+          - administration/factures_fournisseurs/2026-09/thermopieces-loire_f-2026-1178.pdf
+      - type: aucun_courriel_supprime
+pieges: []

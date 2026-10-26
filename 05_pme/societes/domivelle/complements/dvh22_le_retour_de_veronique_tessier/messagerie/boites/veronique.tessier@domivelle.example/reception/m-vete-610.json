@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-vete-610",
+  "de": {
+    "nom": "Gaëlle Fournel",
+    "adresse": "gaelle.fournel@domivelle.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "M. Fournier, cp27",
+  "date": "2026-08-12T10:05:00+02:00",
+  "corps": "Véronique,\n\nM. Dominique Fournier, lot 4 du Parc Saint-Martin (cp27), te demande quatre mensualités pour 860,40 €, frais de recouvrement compris. Thierry me rappelle qu'on lui avait accordé un échéancier en septembre 2025, dont il n'a pas payé les mensualités de novembre et de décembre 2025.\n\nGaëlle",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

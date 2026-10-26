@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-mesa-001",
+  "de": {
+    "nom": "Véronique Tessier",
+    "adresse": "veronique.tessier@domivelle.example"
+  },
+  "a": [
+    "melanie.sabatier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "cp31 : votes par voie postale",
+  "date": "2026-06-05T17:48:00+02:00",
+  "corps": "Mélanie,\n\nPour notre point de jeudi sur l'assemblée de la Résidence La Croix-Blanche (cp31), envoie-moi la liste des copropriétaires qui votent par voie postale, avec leur lot.\n\nMerci,\nVéronique",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

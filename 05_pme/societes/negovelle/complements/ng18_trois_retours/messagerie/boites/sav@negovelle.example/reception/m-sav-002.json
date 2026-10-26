@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-002",
+  "de": {
+    "nom": "Michel Clerc",
+    "adresse": "michel.clerc@chauffage-baillet.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Pantalons trop grands",
+  "date": "2026-07-03T15:40:00+02:00",
+  "corps": "Bonjour,\n\nSur la livraison BL-2026-01681 du 24 juin, 2 des 5 pantalons haute visibilité sont trop grands pour mes gars. Je peux vous les rapporter, ils sont encore dans leur sachet ? Merci de me dire.\n\nMichel Clerc\nChauffage Baillet",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

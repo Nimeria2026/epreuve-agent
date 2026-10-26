@@ -1,0 +1,106 @@
+{
+  "numero": "CO-2026-01995",
+  "client": "c-0027",
+  "reference_client": null,
+  "cree_le": "2026-07-02T09:10:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "124 rue des Jardins, 36999 Laubrissac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-10604",
+      "libelle": "Disque abrasif auto-agrippant 150 mm, grain 180, boîte de 10",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 37.55,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 37.55,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 75.1
+    },
+    {
+      "reference": "FIX-10939",
+      "libelle": "Cheville à frapper 6x50, boîte de 50",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 14.4,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 14.4,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 14.4
+    },
+    {
+      "reference": "OUT-11339",
+      "libelle": "Mètre ruban 8 m, ruban de 25 mm",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 14.75,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 14.75,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 29.5
+    },
+    {
+      "reference": "PLB-10637",
+      "libelle": "Coude PVC 15° 32 mm",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 4.75,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 4.75,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 4.75
+    },
+    {
+      "reference": "VIS-13086",
+      "libelle": "Vis à bois tête fraisée 5x80, bichromatée, boîte de 500",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 23.85,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 23.85,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 238.5
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 362.25,
+  "total_tva_euros": 72.45,
+  "total_ttc_euros": 434.7,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01844"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-02T09:10:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-02T09:12:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01844"
+    },
+    {
+      "date": "2026-07-03T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01844"
+    }
+  ]
+}

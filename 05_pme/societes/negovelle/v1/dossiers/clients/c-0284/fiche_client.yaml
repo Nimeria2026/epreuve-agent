@@ -1,0 +1,25 @@
+# Fiche du client c-0284 de Négovelle. Données FICTIVES.
+code: c-0284
+nom: Maçonnerie Langlais
+type: artisan
+adresse: 129 rue de l'Église, 36999 Laubrissac (FICTIF)
+telephone: 02 61 91 77 58
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Didier Dufour
+  fonction: gérant
+  courriel: didier.dufour@maconnerie-langlais.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 129 rue de l'Église, 36999 Laubrissac (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2018-11-01'
+limite_encours_euros: 2000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

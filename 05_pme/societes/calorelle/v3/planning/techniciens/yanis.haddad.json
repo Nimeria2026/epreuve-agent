@@ -1,0 +1,10 @@
+{
+  "id": "yanis.haddad",
+  "nom": "Yanis Haddad",
+  "competences": [
+    "climatisation",
+    "ventilation"
+  ],
+  "apprenti": false,
+  "indisponibilites": []
+}

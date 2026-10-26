@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-002",
+  "de": {
+    "nom": "Saulaies Gestion",
+    "adresse": "copropriete@saulaies-gestion.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis : rénovation de la chaufferie collective",
+  "date": "2026-11-01T10:05:00+01:00",
+  "corps": "Bonjour,\n\nNous gérons la résidence Les Saulaies, 48 lots. Le conseil syndical souhaite un devis pour rénover la chaufferie collective avant l'hiver prochain.\n\nSaulaies Gestion, syndic de copropriété (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

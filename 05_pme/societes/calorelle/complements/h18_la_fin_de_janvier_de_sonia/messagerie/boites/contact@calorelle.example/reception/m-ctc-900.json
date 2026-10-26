@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-900",
+  "de": {
+    "nom": "Valérie Perrot",
+    "adresse": "valerie.perrot@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Merci",
+  "date": "2027-01-27T17:40:00+01:00",
+  "corps": "Bonjour,\n\nMerci pour la visite d'entretien de ce matin, tout fonctionne.\n\nValérie Perrot (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

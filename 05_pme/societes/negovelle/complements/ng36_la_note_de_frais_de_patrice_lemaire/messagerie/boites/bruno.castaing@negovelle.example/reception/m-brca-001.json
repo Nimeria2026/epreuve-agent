@@ -1,0 +1,29 @@
+{
+  "identifiant": "m-brca-001",
+  "de": {
+    "nom": "Patrice Lemaire",
+    "adresse": "patrice.lemaire@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Note de frais de juin",
+  "date": "2026-07-03T17:15:00+02:00",
+  "corps": "Bonjour Monsieur Castaing,\n\nVoici ma note de frais de juin, 166,60 €, avec mes justificatifs : le déplacement des 18 et 19 juin chez un fournisseur du Cher, pour une réception urgente, et le repas du 29 mai que j'avais oublié de vous compter. Je n'ai pas retrouvé le ticket du péage du retour.\n\n| Date | Nature | Lieu | Montant TTC | Justificatif |\n|---|---|---|---|---|\n| 29 mai 2026 | repas en tournée | Corvalet | 17,80 € | oui |\n| 11 juin 2026 | repas en tournée | Brissonne | 23,50 € | oui |\n| 18 juin 2026 | péage, aller | autoroute | 9,20 € | oui |\n| 18 juin 2026 | nuit d'hôtel avec petit-déjeuner | Cher | 86,00 € | oui |\n| 19 juin 2026 | repas en tournée | Cher | 16,40 € | oui |\n| 19 juin 2026 | péage, retour | autoroute | 9,20 € | non |\n| 25 juin 2026 | stationnement | Vaumoreau-sur-Indre | 4,50 € | oui |\n\nPatrice Lemaire",
+  "pieces_jointes": [
+    {
+      "nom": "patrice.lemaire.md",
+      "fichier": "pieces/m-brca-001/patrice.lemaire.md",
+      "taille_octets": 633
+    },
+    {
+      "nom": "justificatifs_2026-06.pdf",
+      "fichier": "pieces/m-brca-001/justificatifs_2026-06.pdf",
+      "taille_octets": 794
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

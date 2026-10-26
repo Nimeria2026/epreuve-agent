@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-909",
+  "de": {
+    "nom": "Établissements Muller",
+    "adresse": "contact@etablissements-muller-534.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis : climatisation des bureaux",
+  "date": "2027-01-29T17:10:00+01:00",
+  "corps": "Bonjour,\n\nNous voudrions climatiser nos deux bureaux du premier étage. Pouvez-vous nous faire un devis ?\n\nÉtablissements Muller, 110 rue des Lilas (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,31 @@
+# Fiche du client c-0058 de Négovelle. Données FICTIVES.
+code: c-0058
+nom: Péron Rénovation
+type: entreprise
+adresse: 1 zone artisanale du Moulin, 36999 Laubrissac (FICTIF)
+telephone: 02 61 91 85 79
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Gérard Dufour
+  fonction: conducteur de travaux
+  courriel: gerard.dufour@peron-renovation.example
+- nom: Joël Daniel
+  fonction: responsable des achats
+  courriel: joel.daniel@peron-renovation.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 1 zone artisanale du Moulin, 36999 Laubrissac (FICTIF)
+- code: L2
+  libelle: dépôt
+  adresse: 36 zone artisanale du Moulin, 36999 Mérolles-en-Brenne (FICTIF)
+categorie_remise: B
+delai_paiement: comptant
+client_depuis: '2026-03-08'
+limite_encours_euros: 4000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

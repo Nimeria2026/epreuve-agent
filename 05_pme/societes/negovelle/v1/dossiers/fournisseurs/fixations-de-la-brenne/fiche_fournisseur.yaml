@@ -1,0 +1,10 @@
+# Fiche d'un fournisseur de Négovelle. Données FICTIVES.
+nom: Fixations de la Brenne
+activite: fabricant de chevilles et de systèmes d'ancrage
+adresse: 30 zone artisanale du Moulin, 36999 Mérolles-en-Brenne (FICTIF)
+telephone: 02 61 91 88 50
+courriel_commandes: commandes@fixations-de-la-brenne.example
+courriel_facturation: facturation@fixations-de-la-brenne.example
+iban: FR76 9999 9002 3282 9385 5187 017 (FICTIF)
+conditions: paiement à 60 jours date de facture
+minimum_de_commande: 150,00 € HT

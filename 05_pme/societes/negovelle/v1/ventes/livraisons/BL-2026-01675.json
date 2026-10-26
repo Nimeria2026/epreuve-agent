@@ -1,0 +1,39 @@
+{
+  "numero": "BL-2026-01675",
+  "commande": "CO-2026-01826",
+  "client": "c-0311",
+  "date_expedition": "2026-06-24",
+  "date_livraison": "2026-06-24",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "2 parc d'activités de la Gare, 36999 Vendrigny (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ELE-12801",
+      "libelle": "Projecteur LED 10 W, à détecteur",
+      "quantite": 1
+    },
+    {
+      "reference": "ENT-10669",
+      "libelle": "Nettoyant pour vitres, bidon de 5 l",
+      "quantite": 1
+    },
+    {
+      "reference": "OUT-11029",
+      "libelle": "Lime triangulaire 250 mm, taille bâtarde",
+      "quantite": 12
+    },
+    {
+      "reference": "QUI-12082",
+      "libelle": "Paumelle 110 mm, acier, sachet de 10",
+      "quantite": 2
+    }
+  ],
+  "reserves": null,
+  "signataire": "Éric Gallet",
+  "statut": "livre"
+}

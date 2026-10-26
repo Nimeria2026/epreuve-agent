@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cpt-b02",
+  "de": {
+    "nom": "Véronique Tessier",
+    "adresse": "veronique.tessier@domivelle.example"
+  },
+  "a": [
+    "comptabilite@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Fermeture du pont de l'Ascension",
+  "date": "2026-05-20T08:14:00+02:00",
+  "corps": "Bonjour,\n\nL'agence sera fermée le vendredi 15 mai, pont de l'Ascension.\n\nVéronique",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

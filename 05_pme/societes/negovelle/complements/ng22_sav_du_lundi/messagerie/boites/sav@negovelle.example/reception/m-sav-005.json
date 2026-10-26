@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-005",
+  "de": {
+    "nom": "Brigitte Cadiou",
+    "adresse": "brigitte.cadiou@maconnerie-martineau.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Retour de truelles",
+  "date": "2026-07-06T07:24:00+02:00",
+  "corps": "Bonjour,\n\nNous voudrions vous retourner 3 truelles commandées en trop, neuves, dans leur emballage.\n\nBrigitte Cadiou\nMaçonnerie Martineau",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

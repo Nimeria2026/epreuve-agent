@@ -1,0 +1,90 @@
+{
+  "numero": "CO-2026-01939",
+  "client": "c-0282",
+  "reference_client": null,
+  "cree_le": "2026-06-29T09:10:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "36 parc d'activités de la Gare, 36999 Laubrissac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-11845",
+      "libelle": "Papier abrasif toile, grain 40, rouleau de 25 m",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 42.8,
+      "remise_pourcent": 5.92,
+      "prix_net_ht_euros": 40.27,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 483.24
+    },
+    {
+      "reference": "FIX-12000",
+      "libelle": "Équerre de fixation 100x60x20 mm, galvanisée",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 2.1,
+      "remise_pourcent": 5.92,
+      "prix_net_ht_euros": 1.98,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 19.8
+    },
+    {
+      "reference": "OUT-12107",
+      "libelle": "Scie à plâtre 400 mm",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 41.75,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 40.08,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 240.48
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 743.52,
+  "total_tva_euros": 148.7,
+  "total_ttc_euros": 892.22,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01788"
+  ],
+  "facture": "FC-2026-1260",
+  "historique": [
+    {
+      "date": "2026-06-29T09:10:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-29T09:12:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-30T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01788"
+    },
+    {
+      "date": "2026-06-30T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01788"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1260"
+    }
+  ]
+}

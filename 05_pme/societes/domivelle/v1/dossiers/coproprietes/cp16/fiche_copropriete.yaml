@@ -1,0 +1,20 @@
+# Fiche de la copropriété cp16. Données FICTIVES.
+copropriete: cp16
+nom: Résidence Les Violettes
+adresse: 12 place du Marché, 18999 Montclavel-sur-Cher (FICTIF)
+lots_principaux: 38
+annee_construction: 1984
+ascenseur: true
+exercice: du lendemain du 31 décembre au 31 décembre
+gestionnaire: Yohan Delmas
+conseil_syndical:
+  president: M. Xavier Renard
+  membres:
+  - Mme Émilie Simon
+  - M. Olivier Perrot
+seuil_mise_en_concurrence: 7 000,00 €
+seuil_consultation_du_conseil_syndical: 1 000,00 €
+assureur_de_l_immeuble: Mutuelle des Deux-Rives (FICTIF)
+declaration_des_sinistres: sinistres@mutuelle-des-deux-rives.example
+immeuble_en_gestion_locative: null
+fonds_de_travaux: 5 % du budget prévisionnel, aux tantièmes généraux, appelé avec chaque provision

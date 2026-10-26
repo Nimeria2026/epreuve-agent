@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-411",
+  "de": {
+    "nom": "Établissements Dubois",
+    "adresse": "contact@etablissements-dubois-20.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Climatisation de nos bureaux",
+  "date": "2026-10-30T16:05:00+01:00",
+  "corps": "Bonjour Madame Perrin,\n\nNous avons validé en réunion votre proposition pour la climatisation de nos bureaux : bon pour accord. Pouvez-vous nous dire quand vos techniciens pourront intervenir ?\n\nCordialement,\nÉtablissements Dubois (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

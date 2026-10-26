@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-tg-816",
+  "de": {
+    "nom": "Florian Masson",
+    "adresse": "florian.masson@calorelle.example"
+  },
+  "a": [
+    "thomas.girard@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Le 31 décembre",
+  "date": "2026-12-18T16:30:00+01:00",
+  "corps": "Thomas,\n\nPeux-tu me donner le jeudi 31 décembre ? J'ai de la famille à recevoir.\n\nFlorian (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

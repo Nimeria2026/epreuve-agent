@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-720",
+  "de": {
+    "nom": "Publi-Centre",
+    "adresse": "offres@publi-centre.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Vos calendriers 2027 à prix cassés",
+  "date": "2026-12-23T06:00:00+01:00",
+  "corps": "Bonjour,\n\nOffrez à vos clients un calendrier 2027 à votre nom : 500 exemplaires pour 199 €.\n\nPubli-Centre (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

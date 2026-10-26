@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-018",
+  "de": {
+    "nom": "Sanitaire des Brandes",
+    "adresse": "facturation@sanitaire-des-brandes.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture F61922",
+  "date": "2026-07-27T15:40:00+02:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-jointe notre facture F61922 du 16 juillet 2026, pour votre commande CA-2026-0321 :\n- PLB-11951, Pâte à joint pour filetage, pot de 500 g : 80 x 3,23 € HT = 258,40 €\n- PLB-13176, Tube cuivre écroui 22 mm, barre de 4 m : 40 x 45,13 € HT = 1 805,20 €\n\nTotal HT : 2 063,60 € ; TVA 20 % : 412,72 € ; total TTC : 2 476,32 €. Paiement à 60 jours date de facture.\n\nService facturation\nSanitaire des Brandes",
+  "pieces_jointes": [
+    {
+      "nom": "F61922.pdf",
+      "fichier": "pieces/m-cpt-018/F61922.pdf",
+      "taille_octets": 887
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

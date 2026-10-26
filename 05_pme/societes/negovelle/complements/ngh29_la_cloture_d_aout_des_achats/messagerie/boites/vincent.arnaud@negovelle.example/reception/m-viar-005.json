@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-viar-005",
+  "de": {
+    "nom": "Chantal Robin",
+    "adresse": "chantal.robin@negovelle.example"
+  },
+  "a": [
+    "vincent.arnaud@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Offre de Électroportatif des Brandes",
+  "date": "2026-08-20T09:15:00+02:00",
+  "corps": "Vincent, une offre de fournisseur pour toi.\n\nChantal\n\n----- Message transféré -----\nDe : Karine Delmas <karine.delmas@electroportatif-des-brandes.example>\nDate : 2026-08-20T08:30:00+02:00\nObjet : Offre de rentrée\n\nBonjour,\n\nNous déstockons nos coffrets de forets béton de l'an dernier à 30 % sous le tarif, jusqu'au 15 septembre 2026 ou épuisement du stock.\n\nBien cordialement,\nKarine Delmas\nÉlectroportatif des Brandes",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

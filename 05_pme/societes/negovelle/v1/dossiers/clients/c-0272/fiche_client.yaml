@@ -1,0 +1,28 @@
+# Fiche du client c-0272 de Négovelle. Données FICTIVES.
+code: c-0272
+nom: Charpente Coulon
+type: artisan
+adresse: 2 rue du Moulin, 36999 Saulvenne (FICTIF)
+telephone: 02 61 91 99 18
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Alain Dufour
+  fonction: gérant
+  courriel: alain.dufour@charpente-coulon.example
+- nom: Corinne Granger
+  fonction: conjointe collaboratrice
+  courriel: corinne.granger@charpente-coulon.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 2 rue du Moulin, 36999 Saulvenne (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2016-03-01'
+limite_encours_euros: 2000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

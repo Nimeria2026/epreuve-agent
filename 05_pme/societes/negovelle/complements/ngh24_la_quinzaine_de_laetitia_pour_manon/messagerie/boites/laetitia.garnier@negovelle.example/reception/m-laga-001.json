@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-laga-001",
+  "de": {
+    "nom": "Noémie Lagarde",
+    "adresse": "noemie.lagarde@rouxel-industrie.example"
+  },
+  "a": [
+    "laetitia.garnier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-08-07T16:20:00+02:00",
+  "corps": "Bonjour Lætitia,\n\nVoici notre commande :\n\n- 4 x CON-11706, Papier abrasif corindon, grain 240, rouleau de 50 m\n- 6 x ELE-11894, Fil de terre vert-jaune 6 mm², couronne de 50 m\n\nLivraison à notre siège, en standard.\n\nMerci,\n\nNoémie Lagarde\nRouxel Industrie",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

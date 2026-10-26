@@ -1,0 +1,8 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0184"
+nom: "Gilles Lambert"
+type: "particulier"
+adresse: "11 rue des Lilas, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "gilles.lambert@courriel.example"
+telephone: "06 39 98 50 48"
+charge_d_affaires: "julie.perrin"

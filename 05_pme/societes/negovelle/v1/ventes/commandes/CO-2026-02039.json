@@ -1,0 +1,42 @@
+{
+  "numero": "CO-2026-02039",
+  "client": "c-0155",
+  "reference_client": null,
+  "cree_le": "2026-07-02T09:10:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "6 zone artisanale du Moulin, 36999 Brissonne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "OUT-10261",
+      "libelle": "Ciseau à bois 24 mm",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 8.1,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 7.78,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 15.56
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 15.56,
+  "total_tva_euros": 3.11,
+  "total_ttc_euros": 18.67,
+  "statut": "en_attente_reassort",
+  "motif_attente": null,
+  "reliquat_de": "CO-2026-01989",
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-02T09:10:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": "reliquat de CO-2026-01989"
+    }
+  ]
+}

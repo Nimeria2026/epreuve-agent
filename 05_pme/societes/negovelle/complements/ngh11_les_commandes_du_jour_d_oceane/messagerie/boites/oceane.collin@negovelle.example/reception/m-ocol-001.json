@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ocol-001",
+  "de": {
+    "nom": "Joël Grondin",
+    "adresse": "joel.grondin@chauffage-collet.example"
+  },
+  "a": [
+    "oceane.collin@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-03T16:20:00+02:00",
+  "corps": "Bonjour Océane,\n\nMerci de nous livrer au siège :\n- 4 x OUT-10637, Clé à pipe débouchée 24 mm\n- 6 x VIS-13331, Vis à bois tête fraisée 6x35, inox A2, boîte de 500\n\nCordialement,\nJoël Grondin\nChauffage Collet",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

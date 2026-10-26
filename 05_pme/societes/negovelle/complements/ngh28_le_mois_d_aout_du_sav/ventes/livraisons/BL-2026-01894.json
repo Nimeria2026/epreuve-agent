@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01894",
+  "commande": "CO-2026-02074",
+  "client": "c-0138",
+  "date_expedition": "2026-07-01",
+  "date_livraison": "2026-07-02",
+  "transport": {
+    "mode": "transporteur",
+    "transporteur": "transports-delorme",
+    "recepisse": "TD-408817"
+  },
+  "adresse": "133 rue des Lilas, 36999 Vaumoreau-sur-Indre (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "ELP-11298",
+      "libelle": "Foret à bois trois pointes 6 mm",
+      "quantite": 10
+    }
+  ],
+  "reserves": null,
+  "signataire": "Alice Cazenave",
+  "statut": "livre"
+}

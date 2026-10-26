@@ -1,0 +1,4 @@
+# Horloge simulée de la PME. Les courriels envoyés pendant une exécution sont datés à partir de
+# cette heure, une minute d'écart entre deux envois : deux exécutions identiques produisent les
+# mêmes courriels. Lundi 2 novembre 2026, heure de Paris. Fictif.
+debut: "2026-11-02T09:00:00+01:00"

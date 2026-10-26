@@ -1,0 +1,133 @@
+{
+  "numero": "CO-2026-02033",
+  "client": "c-0330",
+  "reference_client": "BC-1223",
+  "cree_le": "2026-07-03T09:10:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "2 zone d'activités des Grands Prés, 36999 Saulvenne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ENT-10016",
+      "libelle": "Absorbant pour hydrocarbures, sac de 10 kg",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 13.5,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 12.42,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 12.42
+    },
+    {
+      "reference": "ENT-10285",
+      "libelle": "Chiffon d'essuyage coton blanc, carton de 10 kg",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 19.3,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 19.3,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 193.0
+    },
+    {
+      "reference": "FIX-10833",
+      "libelle": "Cheville à frapper 5x30, boîte de 100",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 8.8,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 8.1,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 24.3
+    },
+    {
+      "reference": "FIX-11184",
+      "libelle": "Collier de fixation 28 mm, sachet de 10",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 11.6,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 10.67,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 53.35
+    },
+    {
+      "reference": "PLB-12654",
+      "libelle": "Réduction PVC 63x50 mm",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 4.55,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 4.19,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 8.38
+    },
+    {
+      "reference": "PRO-10343",
+      "libelle": "Cartouche filtrante ABEK1P3, la paire",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 19.85,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 18.26,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 36.52
+    },
+    {
+      "reference": "VIS-10465",
+      "libelle": "Boulon tête hexagonale M8x30, inox A2, sachet de 25",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 3.5,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 3.22,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 3.22
+    },
+    {
+      "reference": "VIS-13307",
+      "libelle": "Vis à bois tête fraisée 6x35, bichromatée, boîte de 500",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 18.2,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 16.74,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 33.48
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 364.67,
+  "total_tva_euros": 72.93,
+  "total_ttc_euros": 437.6,
+  "statut": "expediee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01867"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T09:10:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T09:12:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T16:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01867"
+    }
+  ]
+}

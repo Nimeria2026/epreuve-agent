@@ -1,0 +1,19 @@
+# Fiche du lot c27-01. Données FICTIVES.
+lot: c27-01
+adresse: 86 rue de la Croix-Blanche, 18999 Montclavel-sur-Cher (FICTIF)
+type: T3
+surface_m2: 60
+locataire:
+  nom: M. Fabrice Aubert
+  courriel: fabrice.aubert@courriel.example
+  telephone: 06 39 98 74 75
+  entree: '2016-04-25'
+bail:
+  signature: '2016-04-25'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 630,00 €
+  depot_de_garantie: 504,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T4
+dpe:
+  classe: B

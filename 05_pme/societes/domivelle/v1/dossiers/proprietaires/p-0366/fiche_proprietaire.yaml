@@ -1,0 +1,11 @@
+# Fiche du propriétaire p-0366, mandant de Domivelle. Données FICTIVES.
+code: p-0366
+nom: SCI Le Panorama
+adresse: 113 rue de la Croix-Blanche, 18999 Montclavel-sur-Cher (FICTIF)
+courriel: gestion@sci-le-panorama.example
+telephone: 06 39 98 67 72
+iban: FR76 9999 9133 1072 7294 0004 985 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- n17-06
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-719",
+  "de": {
+    "nom": "Patrick Boyer",
+    "adresse": "patrick.boyer@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "RE: Votre devis pour le ballon",
+  "date": "2026-12-22T19:30:00+01:00",
+  "corps": "Bonjour Madame Perrin,\n\nFinalement, nous annulons notre accord du 10 décembre sur le devis DV-2026-014 : mon beau-frère nous installe un ballon d'occasion. M. Duval nous avait appelés pour fixer la pose au jeudi 14 janvier. Désolés pour ce changement.\n\nPatrick Boyer, 66 rue de la Loire, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

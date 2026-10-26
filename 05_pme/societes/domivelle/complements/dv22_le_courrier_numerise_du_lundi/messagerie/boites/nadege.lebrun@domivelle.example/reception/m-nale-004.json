@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-nale-004",
+  "de": {
+    "nom": "Copieur de l'accueil",
+    "adresse": "copieur@domivelle.example"
+  },
+  "a": [
+    "nadege.lebrun@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Numérisation",
+  "date": "2026-06-08T08:43:00+02:00",
+  "corps": "Facture papier de la Serrurerie de la Motte-Brûlée, n° 2026-0821, pour le changement du cylindre de la porte du logement de Mme Estelle Gaillard, lot s01-03, 25 rue du Lavoir à Sorlay-le-Haut : 168,00 € TTC, reçue au courrier de ce matin.",
+  "pieces_jointes": [
+    {
+      "nom": "scan.pdf",
+      "fichier": "pieces/m-nale-004/scan.pdf",
+      "taille_octets": 828
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,84 @@
+{
+  "numero": "CO-2026-01944",
+  "client": "c-0117",
+  "reference_client": null,
+  "cree_le": "2026-06-30T09:10:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L2",
+    "adresse": "21 zone d'activités des Grands Prés, 36999 Laubrissac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "PLB-11878",
+      "libelle": "Purgeur manuel de radiateur",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 10.95,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 10.95,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 32.85
+    },
+    {
+      "reference": "PLB-13503",
+      "libelle": "Étanchéité ruban PTFE de 25 m",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 2.75,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 2.75,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 5.5
+    },
+    {
+      "reference": "QUI-12270",
+      "libelle": "Paumelle 60 mm, acier, sachet de 2",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 5.5,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 5.5,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 66.0
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 119.35,
+  "total_tva_euros": 23.87,
+  "total_ttc_euros": 143.22,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01793"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-06-30T09:10:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-30T09:12:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-01T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01793"
+    },
+    {
+      "date": "2026-07-01T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01793"
+    }
+  ]
+}

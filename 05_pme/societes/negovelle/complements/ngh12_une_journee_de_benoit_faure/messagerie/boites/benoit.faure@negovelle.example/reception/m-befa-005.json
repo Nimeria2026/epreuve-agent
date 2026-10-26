@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-befa-005",
+  "de": {
+    "nom": "Claude Gabriel",
+    "adresse": "claude.gabriel@chauffage-ducret.example"
+  },
+  "a": [
+    "benoit.faure@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-04T09:15:00+02:00",
+  "corps": "Bonjour Benoît,\n\nMerci de nous livrer au siège :\n- 6 x PLB-11078, Flexible inox de douche 200 cm\n- 10 x PLB-11143, Flexible inox femelle-femelle 12x17 30 cm\n\nCordialement,\nClaude Gabriel\nChauffage Ducret",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

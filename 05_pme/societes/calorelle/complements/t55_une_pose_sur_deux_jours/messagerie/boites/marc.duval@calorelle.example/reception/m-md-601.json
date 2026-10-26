@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-601",
+  "de": {
+    "nom": "Julie Perrin",
+    "adresse": "julie.perrin@calorelle.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Pose de pompe à chaleur chez Agnès Robin",
+  "date": "2026-11-02T08:30:00+01:00",
+  "corps": "Marc,\n\nAgnès Robin (c-0086, 95 rue des Lilas) a accepté DV-2026-013 : pose d'une pompe à chaleur air-eau à la place de sa chaudière au fioul. Thomas compte deux jours pleins, l'un à la suite de l'autre : on vidange le circuit le premier matin, et la maison ne peut pas rester plus d'une nuit sans chauffage. Il faut un technicien qui pose les pompes à chaleur, avec un second.\n\nLa cliente est disponible à partir du mardi 10 novembre et voudrait que ce soit fait au plus tôt.\n\nThomas propose Nicolas le premier jour, avec Enzo ; le second jour, il ne reste que les raccordements et les essais : Enzo peut les faire seul.\n\nPeux-tu planifier la pose et prévenir la cliente et les techniciens ?\n\nJulie (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

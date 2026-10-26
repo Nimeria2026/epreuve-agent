@@ -1,0 +1,90 @@
+{
+  "numero": "CO-2026-01927",
+  "client": "c-0349",
+  "reference_client": null,
+  "cree_le": "2026-06-29T09:10:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "43 avenue de la Gare, 36999 Fontclavier (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-11837",
+      "libelle": "Papier abrasif toile, grain 240, rouleau de 5 m",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 44.5,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 42.72,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 85.44
+    },
+    {
+      "reference": "QUI-10138",
+      "libelle": "Boîte aux lettres murale, noir",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 38.7,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 37.15,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 37.15
+    },
+    {
+      "reference": "QUI-12768",
+      "libelle": "Serrure à larder bec-de-cane, axe 40 mm",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 18.85,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 18.1,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 72.4
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 209.99,
+  "total_tva_euros": 42.0,
+  "total_ttc_euros": 251.99,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01776"
+  ],
+  "facture": "FC-2026-1323",
+  "historique": [
+    {
+      "date": "2026-06-29T09:10:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-29T09:12:00+02:00",
+      "par": "oceane.collin",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-30T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01776"
+    },
+    {
+      "date": "2026-06-30T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01776"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1323"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01838",
+  "commande": "CO-2026-01989",
+  "client": "c-0155",
+  "date_expedition": "2026-07-03",
+  "date_livraison": "2026-07-03",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "6 zone artisanale du Moulin, 36999 Brissonne (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "VIS-10808",
+      "libelle": "Vis à bois tête fraisée 3,5x30, bichromatée, boîte de 200",
+      "quantite": 2
+    }
+  ],
+  "reserves": null,
+  "signataire": "Sophie Salmon",
+  "statut": "livre"
+}

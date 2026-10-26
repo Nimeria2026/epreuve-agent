@@ -1,0 +1,83 @@
+# Registre des lots en gestion, c09. Données FICTIVES.
+immeuble: c09
+nature: groupe de maisons
+adresse: 50 rue des Forges, 18999 Montclavel-sur-Cher (FICTIF)
+secteur: centre
+gestionnaire: Cédric Maillard
+distance_agence_km: 5
+annee_construction: 1960
+gardien: false
+copropriete_du_syndic: null
+lots:
+- lot: c09-01
+  type: maison T5
+  surface_m2: 115
+  proprietaire: p-0073
+  locataire: Mme Christine Michaud
+  entree: '2018-07-11'
+  loyer_hors_charges: 1 181,00 €
+  provision_sur_charges: 19,00 €
+  depot_de_garantie: 1 005,00 €
+  revision: chaque 11 juillet
+  trimestre_irl: T1
+  dpe: E
+- lot: c09-02
+  type: maison T4
+  surface_m2: 85
+  proprietaire: p-0088
+  locataire: Mme Jacqueline Boisseau
+  entree: '2015-05-20'
+  loyer_hors_charges: 827,00 €
+  provision_sur_charges: 2,00 €
+  depot_de_garantie: 649,00 €
+  revision: chaque 20 mai
+  trimestre_irl: T1
+  dpe: D
+- lot: c09-03
+  type: maison T4
+  surface_m2: 92
+  proprietaire: p-0084
+  locataire: M. Guy Ferry
+  entree: '2020-06-23'
+  loyer_hors_charges: 946,00 €
+  provision_sur_charges: 19,00 €
+  depot_de_garantie: 841,00 €
+  revision: chaque 23 juin
+  trimestre_irl: T1
+  dpe: D
+- lot: c09-04
+  type: maison T4
+  surface_m2: 96
+  proprietaire: p-0063
+  locataire: M. Louis Camus
+  entree: '2012-10-10'
+  loyer_hors_charges: 974,00 €
+  provision_sur_charges: 11,00 €
+  depot_de_garantie: 735,00 €
+  revision: chaque 10 octobre
+  trimestre_irl: T2
+  dpe: E
+- lot: c09-05
+  type: maison T5
+  surface_m2: 103
+  proprietaire: p-0098
+  locataire: M. Alain Maréchal
+  entree: '2022-10-18'
+  loyer_hors_charges: 1 093,00 €
+  provision_sur_charges: 8,00 €
+  depot_de_garantie: 1 017,00 €
+  revision: chaque 18 octobre
+  trimestre_irl: T2
+  dpe: E
+- lot: c09-06
+  type: maison T4
+  surface_m2: 102
+  proprietaire: p-0099
+  locataire: Mme Florence Lamy
+  entree: '2017-12-25'
+  loyer_hors_charges: 1 068,00 €
+  provision_sur_charges: 14,00 €
+  depot_de_garantie: 890,00 €
+  revision: chaque 25 décembre
+  trimestre_irl: T3
+  dpe: E

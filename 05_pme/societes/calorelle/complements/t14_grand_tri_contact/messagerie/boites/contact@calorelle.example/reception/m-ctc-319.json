@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-319",
+  "de": {
+    "nom": "Boulangerie du Marché",
+    "adresse": "contact@boulangerie-du-marche.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Climatisation de la chambre froide en panne",
+  "date": "2026-11-02T08:47:00+01:00",
+  "corps": "Bonjour,\n\nNous ne sommes pas encore clients : la climatisation de notre laboratoire est en panne depuis ce matin. Pouvez-vous intervenir rapidement ?\n\nBoulangerie du Marché, 4 place du Marché (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

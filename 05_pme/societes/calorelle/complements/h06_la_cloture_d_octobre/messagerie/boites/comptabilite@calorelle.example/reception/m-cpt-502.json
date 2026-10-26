@@ -1,0 +1,29 @@
+{
+  "identifiant": "m-cpt-502",
+  "de": {
+    "nom": "Yanis Haddad",
+    "adresse": "yanis.haddad@calorelle.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Note de frais d'octobre",
+  "date": "2026-10-31T10:15:00+01:00",
+  "corps": "Bonjour Patrick,\n\nVoici ma note de frais d'octobre ; la note et les justificatifs sont joints.\n\n- 6 octobre : repas, dépannage à Brenneval, 26,40 €\n- 20 octobre : trajet aller et retour au salon du chauffage, avec ma voiture, 110 km à 0,60 €, 66,00 €\n- 20 octobre : péage, 12,40 €\n- 27 octobre : repas, chantier des Établissements Michel, 18,90 €\n\nJ'ai compté le kilomètre au barème des impôts, ma voiture fait 7 chevaux.\n\nMerci,\nYanis (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "note_de_frais_octobre_Haddad.pdf",
+      "fichier": "pieces/m-cpt-502/note_de_frais_octobre_Haddad.pdf",
+      "taille_octets": 1034
+    },
+    {
+      "nom": "justificatifs_octobre_Haddad.pdf",
+      "fichier": "pieces/m-cpt-502/justificatifs_octobre_Haddad.pdf",
+      "taille_octets": 777
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

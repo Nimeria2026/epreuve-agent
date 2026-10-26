@@ -1,0 +1,31 @@
+# Fiche du client c-0003 de Négovelle. Données FICTIVES.
+code: c-0003
+nom: Imprimerie Grondin
+type: pme
+adresse: 37 zone d'activités des Grands Prés, 36999 Fontclavier (FICTIF)
+telephone: 02 61 91 92 38
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Julien Baudry
+  fonction: responsable des achats
+  courriel: julien.baudry@imprimerie-grondin.example
+- nom: Pascal Bouchard
+  fonction: responsable de maintenance
+  courriel: pascal.bouchard@imprimerie-grondin.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 37 zone d'activités des Grands Prés, 36999 Fontclavier (FICTIF)
+- code: L2
+  libelle: dépôt
+  adresse: 2 zone industrielle des Brandes, 36999 Vaumoreau-sur-Indre (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2013-01-01'
+limite_encours_euros: 4000.0
+livraisons_partielles: false
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

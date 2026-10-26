@@ -1,0 +1,25 @@
+# Fiche du client c-0205 de Négovelle. Données FICTIVES.
+code: c-0205
+nom: Menuiserie Péron
+type: artisan
+adresse: 70 rue du Four, 36999 Fontclavier (FICTIF)
+telephone: 02 61 91 97 34
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Jacques Bouchard
+  fonction: gérant
+  courriel: jacques.bouchard@menuiserie-peron.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 70 rue du Four, 36999 Fontclavier (FICTIF)
+categorie_remise: C
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2024-10-01'
+limite_encours_euros: 2500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

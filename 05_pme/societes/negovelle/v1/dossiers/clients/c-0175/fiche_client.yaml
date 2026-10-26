@@ -1,0 +1,31 @@
+# Fiche du client c-0175 de Négovelle. Données FICTIVES.
+code: c-0175
+nom: Chauffage Lemarchand
+type: artisan
+adresse: 57 avenue de la Gare, 36999 Vendrigny (FICTIF)
+telephone: 02 61 91 96 42
+secteur: est
+commercial: fabrice.mercier
+administration_des_ventes: benoit.faure
+contacts:
+- nom: Arnaud Genet
+  fonction: gérant
+  courriel: arnaud.genet@chauffage-lemarchand.example
+- nom: Amandine Grenier
+  fonction: conjointe collaboratrice
+  courriel: amandine.grenier@chauffage-lemarchand.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 57 avenue de la Gare, 36999 Vendrigny (FICTIF)
+- code: L2
+  libelle: chantier déclaré
+  adresse: 50 avenue Pasteur, 36999 Ardillac (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2016-07-01'
+limite_encours_euros: 4500.0
+livraisons_partielles: false
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

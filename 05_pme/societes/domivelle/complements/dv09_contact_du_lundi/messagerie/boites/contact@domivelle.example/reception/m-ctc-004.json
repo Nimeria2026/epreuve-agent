@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-004",
+  "de": {
+    "nom": "Vincent Perrot",
+    "adresse": "vincent.perrot@mel-perso.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Assemblée de la Résidence Les Hortensias",
+  "date": "2026-06-08T07:24:00+02:00",
+  "corps": "Bonjour,\n\nCopropriétaire du lot 2 de la Résidence Les Hortensias, je voudrais connaître la date de notre prochaine assemblée générale.\n\nVincent Perrot",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

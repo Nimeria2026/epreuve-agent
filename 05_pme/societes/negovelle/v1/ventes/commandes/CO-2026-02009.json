@@ -1,0 +1,89 @@
+{
+  "numero": "CO-2026-02009",
+  "client": "c-0219",
+  "reference_client": null,
+  "cree_le": "2026-07-03T09:10:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "16 rue du Lavoir, 36999 Laubrissac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ENT-10784",
+      "libelle": "Poubelle à couvercle basculant 50 l",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 31.4,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 31.4,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 31.4
+    },
+    {
+      "reference": "ENT-10873",
+      "libelle": "Raclette à vitres 35 cm",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 5.6,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 5.6,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 33.6
+    },
+    {
+      "reference": "VIS-10620",
+      "libelle": "Rondelle plate M16, zinguée, sachet de 50",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 3.65,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 3.65,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 3.65
+    },
+    {
+      "reference": "VIS-10808",
+      "libelle": "Vis à bois tête fraisée 3,5x30, bichromatée, boîte de 200",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 21.1,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 21.1,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 42.2
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 125.85,
+  "total_tva_euros": 25.17,
+  "total_ttc_euros": 151.02,
+  "statut": "expediee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01858"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T09:10:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T09:12:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T16:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01858"
+    }
+  ]
+}

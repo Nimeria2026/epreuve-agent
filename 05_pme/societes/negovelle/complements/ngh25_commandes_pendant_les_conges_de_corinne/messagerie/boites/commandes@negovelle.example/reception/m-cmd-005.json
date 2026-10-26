@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-005",
+  "de": {
+    "nom": "Jacqueline Humbert",
+    "adresse": "jacqueline.humbert@imprimerie-gay.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Détecteurs de fumée",
+  "date": "2026-07-24T11:20:00+02:00",
+  "corps": "Bonjour,\n\nPour équiper nos locaux :\n\n- 10 x ELE-11796, Détecteur de fumée autonome\n\nLivraison standard au siège.\n\nJacqueline Humbert\nImprimerie Gay",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

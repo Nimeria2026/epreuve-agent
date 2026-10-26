@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0162"
+nom: "Établissements Legrand"
+type: "entreprise"
+adresse: "24 rue de la Loire, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "contact@etablissements-legrand-162.example"
+telephone: "02 61 91 35 44"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2018-01-02"
+  mois_anniversaire: "janvier"
+  derniere_visite: "2026-01-04"

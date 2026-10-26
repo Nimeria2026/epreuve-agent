@@ -1,0 +1,25 @@
+# Fiche du client c-0304 de Négovelle. Données FICTIVES.
+code: c-0304
+nom: Paysage Noblet
+type: artisan
+adresse: 104 rue des Forges, 36999 Vendrigny (FICTIF)
+telephone: 02 61 91 69 08
+secteur: est
+commercial: fabrice.mercier
+administration_des_ventes: benoit.faure
+contacts:
+- nom: Daniel Pelletier
+  fonction: gérant
+  courriel: daniel.pelletier@paysage-noblet.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 104 rue des Forges, 36999 Vendrigny (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2012-02-01'
+limite_encours_euros: 2000.0
+livraisons_partielles: true
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

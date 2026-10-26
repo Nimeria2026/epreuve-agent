@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-006",
+  "de": {
+    "nom": "Anne Valentin",
+    "adresse": "anne.valentin@services-techniques-de-vaumoreau-sur-indre.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-24T10:00:00+02:00",
+  "corps": "Bonjour,\n\nNotre commande :\n\n- 20 x VIS-10530, Boulon tête hexagonale M8x80, zingué, sachet de 25\n\nLivraison standard.\n\nAnne Valentin\nServices techniques de Vaumoreau-sur-Indre",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

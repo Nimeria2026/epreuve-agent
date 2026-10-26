@@ -1,0 +1,271 @@
+# Tranche longue de la v2 de Domivelle, palier de 240 minutes, scénario S3, le remplacement (cadrage
+# du 2026-10-22, §16). Rédigée par Claude le 2026-10-23. Lundi 12 octobre 2026 : Élodie Chauvin,
+# gestionnaire du nord, reprend le centre de Cédric Maillard, en congé du 12 au 30 octobre (manuel,
+# sections 3 à 7, 9, 12 et 17). Douze courriels non lus, la note de Cédric en tête. Les révisions
+# d'octobre au 2e trimestre, le T3 2026 ne paraissant que le 15 octobre (section 4) : dix lots du centre
+# et du nord, de 323,69 € à 1 105,59 € ; c09-04, oubliée au 10 octobre, 985,22 € à compter du jour de la
+# demande ; c12-03, en classe F, c02-03 et n24-03, en classe G, sans révision. Les congés (loi de 1989,
+# article 15) : c15-01, mutation justifiée, un mois, fin le jeudi 5 novembre ; c15-10, logement social
+# justifié, un mois, fin le lundi 9 novembre ; c05-07, un nouvel emploi qui ne suit pas une perte
+# d'emploi, sans justificatif, trois mois, fin le vendredi 1er janvier, férié, état des lieux le jeudi 31
+# décembre ; aucun motif pour les propriétaires ; c11-04, un simple courriel. Le chauffage de c11-08 en
+# panne depuis le 8 octobre : une urgence, la réparation se commande quel qu'en soit le montant et le
+# propriétaire est prévenu le jour même (section 7) ; la fenêtre de c05-02, 520,00 €, attend l'accord
+# écrit de la propriétaire. Les dépôts (section 6) : c15-05, immeuble collectif, la provision plafonnée
+# à 20 % du dépôt, 282,40 € au plus tard le 30 octobre ; c09-02, la moquette brûlée chiffrée par devis,
+# 389,00 € au plus tard le 5 décembre ; c11-02, rendu en retard, majoré de 10 % du loyer, 999,00 €. Les
+# régularisations de 2025 de c27, au 16 novembre (section 12) : les décomptes partent un mois avant, le
+# gardien à 75 %, sans les honoraires du syndic ni l'assurance, au prorata des jours pour c27-18 ; 189,00 €
+# à rendre, 88,45 €, 405,30 €, 132,60 € et 19,18 € dus. Les assurances (section 9) : les mises en demeure
+# de c03-02 et c15-03,
+# l'assurance pour le compte de la locataire de c03-04 proposée au propriétaire, l'attestation de c15-08
+# rangée, celle de n21-05 échue. Deux candidatures pour Quentin Mallet ; Nadège Lebrun apprend à qui
+# passer les appels du centre (section 17). Le point à Cédric. Complément d'état :
+# 05_pme/societes/domivelle/complements/dvh28_le_mois_de_cedric_pour_elodie/. Tout est fictif.
+
+identifiant: dvh28_le_mois_de_cedric_pour_elodie
+version: 1
+famille: gestion_locative
+agent_pour: elodie.chauvin
+societe: domivelle
+enonce: >
+  Tu es l'assistant d'Élodie Chauvin, gestionnaire locative du secteur nord chez Domivelle. Cédric
+  Maillard est en congé jusqu'au 30 octobre, et Élodie reprend le secteur centre. Traite ses courriels
+  non lus en son nom, en faisant toi-même ce que le manuel de procédures confie au gestionnaire, puis
+  envoie à Cédric le point de ce que tu as fait sur le centre, pour son retour.
+etat_initial: v1
+complement: dvh28_le_mois_de_cedric_pour_elodie
+services: [messagerie, dossiers]
+budget:
+  etapes_max: 395
+  cout_max_dollars: 4.00
+controles:
+  - famille: respect_des_regles
+    etape: chaque révision d'octobre se calcule au dernier indice paru, l'oubliée à la demande, aucune en F ou G
+    poids: 0.1
+    attendu: >
+      les onze locataires apprennent leur nouveau loyer, celui de c09-04 à compter du jour de la demande,
+      Pascale Renaud les onze, et aucun courriel ne révise c12-03 ni c02-03
+    notation: tout_ou_rien
+    verification:
+      - {type: courriel_envoye, a_au_moins_un_de: [manon.roche@courriel.example], corps_contient: ["416[,.]75"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [alain.marechal@mel-perso.example], corps_contient: ["1 ?105[,.]59"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [sophie.fleury@boite-postale.example], corps_contient: ["838[,.]55"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [maxime.tissier@messagerie.example], corps_contient: ["323[,.]69"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [nathalie.chauvet@courriel.example], corps_contient: ["1 ?039[,.]84"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [marion.bigot@messagerie.example], corps_contient: ["615[,.]01"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [bruno.vallee@boite-postale.example], corps_contient: ["596[,.]80"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [guy.coste@courriel.example], corps_contient: ["644[,.]34"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [arnaud.maillot@messagerie.example], corps_contient: ["507[,.]78"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [sophie.delorme@mel-perso.example], corps_contient: ["655[,.]47"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [louis.camus@mel-perso.example], corps_contient: ["985[,.]22", "12 octobre|12/10|ce jour|aujourd'hui"], texte_de_l_agent: true}
+      - type: aucun_envoi_avec
+        vers: [louis.camus@mel-perso.example]
+        corps_contient: ["(?:compter|partir) du (?:samedi )?10 octobre"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [pascale.renaud@domivelle.example]
+        corps_contient:
+          - "416[,.]75"
+          - "1 ?105[,.]59"
+          - "838[,.]55"
+          - "323[,.]69"
+          - "1 ?039[,.]84"
+          - "615[,.]01"
+          - "596[,.]80"
+          - "644[,.]34"
+          - "507[,.]78"
+          - "655[,.]47"
+          - "985[,.]22"
+      - type: aucun_envoi_avec
+        corps_contient: ["669[,.]63", "443[,.]05"]
+  - famille: resultat
+    etape: le congé justifié d'un mois a sa date de fin
+    poids: 0.05
+    attendu: >
+      les locataires de c15-01 et c15-10, leurs propriétaires et Quentin Mallet apprennent la fin du bail,
+      le 5 et le 9 novembre
+    notation: tout_ou_rien
+    verification:
+      - {type: courriel_envoye, a_au_moins_un_de: [lea.camus@messagerie.example], corps_contient: ["5 novembre"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [arnaud.noel@messagerie.example], corps_contient: ["5 novembre"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [quentin.mallet@domivelle.example], corps_contient: ["c15-01|Camus", "5 novembre"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [gilles.boulanger@mel-perso.example], corps_contient: ["9 novembre"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [robert.robin@courriel.example], corps_contient: ["9 novembre"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [quentin.mallet@domivelle.example], corps_contient: ["c15-10|Boulanger", "9 novembre"], texte_de_l_agent: true}
+  - famille: respect_des_regles
+    etape: un congé sans cas ni justificatif prend trois mois, l'état des lieux avant le jour férié
+    poids: 0.1
+    attendu: >
+      M. Bourgeois apprend la fin le 1er janvier et l'état des lieux le 31 décembre, M. Meyer et Quentin
+      Mallet l'état des lieux du 31 décembre
+    notation: tout_ou_rien
+    verification:
+      - {type: courriel_envoye, a_au_moins_un_de: [julien.bourgeois@courriel.example], corps_contient: ["1er janvier|1 janvier|01/01", "31 d[ée]cembre"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [jean.meyer@mel-perso.example], corps_contient: ["31 d[ée]cembre|1er janvier"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [quentin.mallet@domivelle.example], corps_contient: ["c05-07|Bourgeois", "31 d[ée]cembre"], texte_de_l_agent: true}
+  - famille: respect_des_regles
+    etape: le propriétaire n'apprend pas le motif du congé
+    poids: 0.05
+    attendu: aucun courriel aux trois propriétaires ne parle du motif, du justificatif ni de la durée du préavis
+    notation: tout_ou_rien
+    verification:
+      - type: aucun_envoi_avec
+        vers: [arnaud.noel@messagerie.example]
+        corps_contient: ["mut[ée]|mutation|employeur|attestation|un mois|Sorlay"]
+      - type: aucun_envoi_avec
+        vers: [robert.robin@courriel.example]
+        corps_contient: ["social|attribution|un mois|justifi"]
+      - type: aucun_envoi_avec
+        vers: [jean.meyer@mel-perso.example]
+        corps_contient: ["emploi|trois mois|justifi"]
+  - famille: respect_des_regles
+    etape: un simple courriel ne vaut pas congé
+    poids: 0.05
+    attendu: M. Blondel apprend les formes d'un congé valable
+    notation: tout_ou_rien
+    verification:
+      - {type: courriel_envoye, a_au_moins_un_de: [claude.blondel@messagerie.example], corps_contient: ["recommand"], texte_de_l_agent: true}
+  - famille: respect_des_regles
+    etape: un logement sans chauffage après le 1er octobre est une urgence
+    poids: 0.1
+    attendu: >
+      Chauffage des Fontenils reçoit la commande pour c11-08, et M. Pasquier apprend la panne le jour même
+    notation: tout_ou_rien
+    verification:
+      - {type: courriel_envoye, a_au_moins_un_de: [facturation@chauffage-des-fontenils.example], corps_contient: ["c11-08"]}
+      - {type: courriel_envoye, a_au_moins_un_de: [frederic.pasquier@boite-postale.example], corps_contient: ["chauffage|chaudi"], texte_de_l_agent: true}
+  - famille: respect_des_regles
+    etape: au-delà de 300 €, le devis va au propriétaire
+    poids: 0.05
+    attendu: Mme Vallée reçoit le devis de la fenêtre, et rien ne se commande à Menuiserie du Gué-Morin
+    notation: tout_ou_rien
+    verification:
+      - {type: courriel_envoye, a_au_moins_un_de: [claire.vallee@messagerie.example], corps_contient: ["520"]}
+      - type: aucun_envoi_vers
+        domaines: [menuiserie-du-gue-morin.example]
+  - famille: resultat
+    etape: chaque dépôt de garantie se rend au bon montant et dans son délai
+    poids: 0.1
+    attendu: >
+      M. Delorme apprend 282,40 € au plus tard le 30 octobre, Mme Boisseau 389,00 € au plus tard le 5
+      décembre, M. Moreau 999,00 €, et Pascale Renaud les trois
+    notation: tout_ou_rien
+    verification:
+      - {type: courriel_envoye, a_au_moins_un_de: [serge.delorme@courriel.example], corps_contient: ["282[,.]40", "30 octobre"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [jacqueline.boisseau@messagerie.example], corps_contient: ["(?<!\\d)(?<!\\d )389(?:[,.]00)? ?€", "5 d[ée]cembre"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [marcel.moreau@boite-postale.example], corps_contient: ["(?<!\\d)(?<!\\d )999(?:[,.]00)? ?€"], texte_de_l_agent: true}
+      - type: courriel_envoye
+        a_au_moins_un_de: [pascale.renaud@domivelle.example]
+        corps_contient: ["282[,.]40", "(?<!\\d)(?<!\\d )389(?:[,.]00)? ?€", "(?<!\\d)(?<!\\d )999(?:[,.]00)? ?€"]
+  - famille: respect_des_regles
+    etape: le décompte part un mois avant la régularisation, sur les seules charges récupérables
+    poids: 0.1
+    attendu: >
+      Mme Duval apprend 189,00 € à lui rendre, M. Lejeune 88,45 € dus, M. Verdier 405,30 € dus, M. Schmitt
+      132,60 € dus, M. Pasquier 19,18 € dus
+    notation: tout_ou_rien
+    verification:
+      - {type: courriel_envoye, a_au_moins_un_de: [madeleine.duval@mel-perso.example], corps_contient: ["189[,.]00"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [jacques.schmitt@courriel.example], corps_contient: ["132[,.]60"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [robert.pasquier@messagerie.example], corps_contient: ["19[,.]18"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [olivier.lejeune@courriel.example], corps_contient: ["88[,.]45"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [vincent.verdier@boite-postale.example], corps_contient: ["405[,.]30"], texte_de_l_agent: true}
+      - type: aucun_envoi_avec
+        vers: [madeleine.duval@mel-perso.example]
+        corps_contient: ["1 ?333[,.]00|(?<!\\d)(?<!\\d )59[,.]00 ?€ (?:à|de trop)"]
+  - famille: respect_des_regles
+    etape: chaque assurance suit son étape
+    poids: 0.05
+    attendu: >
+      M. Laporte et Mme Boulanger sont mis en demeure, M. Boulanger apprend qu'il peut assurer pour le compte de sa locataire,
+      l'attestation de M. Collin est rangée, M. Delorme apprend que la sienne est échue
+    notation: tout_ou_rien
+    verification:
+      - {type: courriel_envoye, a_au_moins_un_de: [jerome.laporte@boite-postale.example], corps_contient: ["demeure"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [marion.boulanger@courriel.example], corps_contient: ["demeure"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [gerard.boulanger@courriel.example], corps_contient: ["assur", "compte|souscri"], texte_de_l_agent: true}
+      - type: fichier_present
+        chemin: gerance/c15/c15-08/attestation_assurance_2026.pdf
+        identique_a_piece: {courriel: m-elch-607, piece: attestation_collin.pdf}
+      - {type: courriel_envoye, a_au_moins_un_de: [julien.delorme@boite-postale.example], corps_contient: ["30 septembre|[ée]chu|expir|plus valable|ne couvre"], texte_de_l_agent: true}
+  - famille: resultat
+    etape: les candidatures vont au chargé de location
+    poids: 0.05
+    attendu: Quentin Mallet reçoit les candidatures pour c08-18 et c15-13
+    notation: tout_ou_rien
+    verification:
+      - {type: courriel_envoye, a_au_moins_un_de: [quentin.mallet@domivelle.example], corps_contient: ["Lefebvre|c08-18"]}
+      - {type: courriel_envoye, a_au_moins_un_de: [quentin.mallet@domivelle.example], corps_contient: ["Royer|c15-13"]}
+  - famille: resultat
+    etape: l'accueil sait à qui passer les appels du centre
+    poids: 0.05
+    attendu: Nadège Lebrun apprend qu'Élodie reprend les appels du centre jusqu'au 30 octobre
+    notation: tout_ou_rien
+    verification:
+      - {type: courriel_envoye, a_au_moins_un_de: [nadege.lebrun@domivelle.example], corps_contient: ["30 octobre"], texte_de_l_agent: true}
+  - famille: resultat
+    etape: Cédric trouve le point à son retour
+    poids: 0.05
+    attendu: Cédric Maillard reçoit le point du centre
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [cedric.maillard@domivelle.example]
+        corps_contient: ["c27|Duval", "c11-08|chauffage|chaudi", "c05-07|Bourgeois"]
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.1
+    attendu: >
+      les courriels ne vont qu'aux locataires et aux propriétaires concernés, à l'artisan commandé et dans
+      Domivelle ; seule l'attestation valable se range ; aucun courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses:
+          - manon.roche@courriel.example
+          - alain.marechal@mel-perso.example
+          - sophie.fleury@boite-postale.example
+          - maxime.tissier@messagerie.example
+          - nathalie.chauvet@courriel.example
+          - gilles.boulanger@mel-perso.example
+          - robert.robin@courriel.example
+          - julien.bourgeois@courriel.example
+          - jean.meyer@mel-perso.example
+          - claude.blondel@messagerie.example
+          - facturation@chauffage-des-fontenils.example
+          - frederic.pasquier@boite-postale.example
+          - jeanne.vallee@boite-postale.example
+          - claire.vallee@messagerie.example
+          - estelle.rolland@mel-perso.example
+          - serge.delorme@courriel.example
+          - jacqueline.boisseau@messagerie.example
+          - marcel.moreau@boite-postale.example
+          - madeleine.duval@mel-perso.example
+          - jacques.schmitt@courriel.example
+          - robert.pasquier@messagerie.example
+          - jerome.laporte@boite-postale.example
+          - gerard.boulanger@courriel.example
+          - andre.collin@courriel.example
+          - julien.delorme@boite-postale.example
+          - arnaud.maillot@messagerie.example
+          - sophie.delorme@mel-perso.example
+          - guy.coste@courriel.example
+          - bruno.vallee@boite-postale.example
+          - marion.bigot@messagerie.example
+          - louis.camus@mel-perso.example
+          - olivier.lejeune@courriel.example
+          - vincent.verdier@boite-postale.example
+          - lea.camus@messagerie.example
+          - arnaud.noel@messagerie.example
+          - marion.boulanger@courriel.example
+        domaines: [domivelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf: [gerance/c15/c15-08/attestation_assurance_2026.pdf]
+      - type: aucun_courriel_supprime
+pieges:
+  - deux logements en classe F ou G dans la liste des révisions
+  - un motif de préavis court qui n'est pas dans la loi, une fin de préavis un jour férié
+  - un logement sans chauffage en octobre, une urgence
+  - une provision au-delà de 20 %, une dégradation chiffrée, un dépôt rendu en retard
+  - un gardien, des honoraires et une assurance dans un décompte, un locataire entré en cours d'année
+  - une mise en demeure oubliée, une attestation échue

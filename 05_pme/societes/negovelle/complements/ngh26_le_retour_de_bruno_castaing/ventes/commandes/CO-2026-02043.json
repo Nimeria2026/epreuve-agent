@@ -1,0 +1,75 @@
+{
+  "numero": "CO-2026-02043",
+  "client": "c-0306",
+  "reference_client": null,
+  "cree_le": "2026-08-05T15:00:00+02:00",
+  "cree_par": "samir.ouali",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "57 rue des Peupliers, 36999 Fontclavier (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELP-11665",
+      "libelle": "Ponceuse orbitale 400 W",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 93.1,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 93.1,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 465.5
+    },
+    {
+      "reference": "QUI-12417",
+      "libelle": "Poignée de porte béquille sur rosace, aluminium",
+      "quantite": 30,
+      "prix_tarif_ht_euros": 35.75,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 35.75,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 1072.5
+    },
+    {
+      "reference": "QUI-12752",
+      "libelle": "Serrure en applique à fouillot, axe 60 mm",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 41.4,
+      "remise_pourcent": 3.0,
+      "prix_net_ht_euros": 40.16,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 481.92
+    },
+    {
+      "reference": "QUI-12989",
+      "libelle": "Verrou à baïonnette 100 mm, inox",
+      "quantite": 20,
+      "prix_tarif_ht_euros": 22.55,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 22.55,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 451.0
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 2470.92,
+  "total_tva_euros": 494.18,
+  "total_ttc_euros": 2965.1,
+  "statut": "brouillon",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-08-05T15:00:00+02:00",
+      "par": "samir.ouali",
+      "action": "creee",
+      "detail": "prix demandés au président"
+    }
+  ]
+}

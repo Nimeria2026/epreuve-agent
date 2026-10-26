@@ -1,0 +1,117 @@
+{
+  "numero": "CO-2026-02003",
+  "client": "c-0036",
+  "reference_client": null,
+  "cree_le": "2026-07-02T09:10:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "37 rue du Lavoir, 36999 Vendrigny (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-12058",
+      "libelle": "Ruban adhésif aluminium 38 mm, rouleau de 33 m",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 5.1,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 5.1,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 30.6
+    },
+    {
+      "reference": "ELE-10506",
+      "libelle": "Boîte d'encastrement triple 40 mm",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 3.1,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 3.1,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 15.5
+    },
+    {
+      "reference": "ELP-11339",
+      "libelle": "Meuleuse d'angle 115 mm, 2000 W",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 146.7,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 146.7,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 146.7
+    },
+    {
+      "reference": "FIX-12327",
+      "libelle": "Équerre de fixation 60x80x20 mm, galvanisée",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 1.4,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 1.4,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 8.4
+    },
+    {
+      "reference": "PLB-11894",
+      "libelle": "Pâte à joint d'étanchéité eau, pot de 100 g",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 15.15,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 15.15,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 30.3
+    },
+    {
+      "reference": "PLB-12074",
+      "libelle": "Raccord laiton réduction mâle-femelle 20x27",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 8.2,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 8.2,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 49.2
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 295.7,
+  "total_tva_euros": 59.14,
+  "total_ttc_euros": 354.84,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01852"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-02T09:10:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-02T09:12:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01852"
+    },
+    {
+      "date": "2026-07-03T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01852"
+    }
+  ]
+}

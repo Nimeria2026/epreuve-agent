@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-014",
+  "de": {
+    "nom": "Rémi Joly",
+    "adresse": "remi.joly@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Deux autres litiges hors délai",
+  "date": "2026-08-13T16:00:00+02:00",
+  "corps": "Bruno,\n\nJe reprends les litiges de Nathalie. Deux dossiers qu'elle avait ouverts, sans réserves au récépissé ni protestation dans les trois jours : pas d'avoir d'office.\n\n- Chauffage Clerc (c-0262), BL-2026-01779, livré le 30 juin, récépissé TD-924800 : 2 ferme-portes QUI-11829 arrivés cassés, signalés le 20 juillet. Geste proposé : 208,39 € TTC, les deux au prix net de la commande.\n- Durieux Bâtiment (c-0228), BL-2026-01715, livré le 25 juin, récépissé TD-910382 : une scie à bûches OUT-11935 tordue, signalée le 9 juillet. Geste proposé : 23,50 € TTC.\n\nRémi",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

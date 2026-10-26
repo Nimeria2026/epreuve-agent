@@ -1,0 +1,106 @@
+{
+  "numero": "CO-2026-01965",
+  "client": "c-0224",
+  "reference_client": "BC-3240",
+  "cree_le": "2026-06-30T09:10:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "express",
+  "livraison": {
+    "code": "L1",
+    "adresse": "13 parc d'activités de la Gare, 36999 Ardillac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-13446",
+      "libelle": "Tube LED T8 1500 mm, 9 W",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 9.05,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 8.69,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 17.38
+    },
+    {
+      "reference": "FIX-11176",
+      "libelle": "Collier de fixation 25 mm, sachet de 50",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 4.2,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 4.03,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 8.06
+    },
+    {
+      "reference": "FIX-12090",
+      "libelle": "Équerre de fixation 120x40x40 mm, galvanisée",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 2.35,
+      "remise_pourcent": 5.92,
+      "prix_net_ht_euros": 2.21,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 22.1
+    },
+    {
+      "reference": "OUT-13152",
+      "libelle": "Équerre de menuisier 600 mm",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 14.4,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 13.82,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 165.84
+    },
+    {
+      "reference": "PRO-11028",
+      "libelle": "Gants de manutention hiver, taille 11",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 7.0,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 6.72,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 13.44
+    }
+  ],
+  "port_ht_euros": 25.0,
+  "total_ht_euros": 251.82,
+  "total_tva_euros": 50.36,
+  "total_ttc_euros": 302.18,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01814"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-06-30T09:10:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-30T09:12:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-30T16:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01814"
+    },
+    {
+      "date": "2026-07-01T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01814"
+    }
+  ]
+}

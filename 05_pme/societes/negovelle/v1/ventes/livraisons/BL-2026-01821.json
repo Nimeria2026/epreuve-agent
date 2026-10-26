@@ -1,0 +1,59 @@
+{
+  "numero": "BL-2026-01821",
+  "commande": "CO-2026-01972",
+  "client": "c-0222",
+  "date_expedition": "2026-07-02",
+  "date_livraison": "2026-07-02",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "33 parc d'activités de la Gare, 36999 Vaumoreau-sur-Indre (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "FIX-11078",
+      "libelle": "Collier de fixation 14 mm, sachet de 50",
+      "quantite": 1
+    },
+    {
+      "reference": "FIX-11535",
+      "libelle": "Goujon d'ancrage M12x100, boîte de 25",
+      "quantite": 4
+    },
+    {
+      "reference": "FIX-11870",
+      "libelle": "Tige filetée M16, longueur 1 m, zinguée",
+      "quantite": 2
+    },
+    {
+      "reference": "OUT-11339",
+      "libelle": "Mètre ruban 8 m, ruban de 25 mm",
+      "quantite": 12
+    },
+    {
+      "reference": "PLB-12621",
+      "libelle": "Réduction PVC 110x40 mm",
+      "quantite": 10
+    },
+    {
+      "reference": "PRO-10457",
+      "libelle": "Casque de chantier non ventilé, jaune",
+      "quantite": 12
+    },
+    {
+      "reference": "VIS-12980",
+      "libelle": "Vis à bois tête fraisée 5x50, zinguée, boîte de 500",
+      "quantite": 10
+    },
+    {
+      "reference": "VIS-13634",
+      "libelle": "Vis à tôle tête cylindrique 3,5x16, inox A2, boîte de 250",
+      "quantite": 12
+    }
+  ],
+  "reserves": null,
+  "signataire": "Pascal Genet",
+  "statut": "livre"
+}

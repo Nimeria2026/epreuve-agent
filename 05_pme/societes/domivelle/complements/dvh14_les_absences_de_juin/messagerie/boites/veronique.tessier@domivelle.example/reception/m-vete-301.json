@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-vete-301",
+  "de": {
+    "nom": "Yohan Delmas",
+    "adresse": "yohan.delmas@domivelle.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Mon arrêt de travail",
+  "date": "2026-06-08T07:40:00+02:00",
+  "corps": "Véronique,\n\nJe me fais opérer du genou ce matin : je suis arrêté du lundi 8 au mercredi 17 juin inclus. Voici l'avis d'arrêt de travail.\n\nYohan",
+  "pieces_jointes": [
+    {
+      "nom": "avis_arret_de_travail.pdf",
+      "fichier": "pieces/m-vete-301/avis_arret_de_travail.pdf",
+      "taille_octets": 775
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

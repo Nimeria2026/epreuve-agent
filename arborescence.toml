@@ -1,0 +1,150 @@
+# arborescence.toml : le plan du dépôt POA (nom public : Épreuve d'agent).
+#
+# La garde (09_outillage/garde/verifier_arborescence.py) compare le dépôt à ce plan à quatre
+# moments : à chaque écriture d'un agent Claude Code, avant chaque commit, dans l'intégration
+# continue et à la demande (make verifier).
+#
+# Ce plan ne change que pour un vrai problème rencontré. Procédure :
+#   1. écrire un ADR dans 00_docs/adr/ (problème constaté, date, décision, alternatives) ;
+#   2. modifier ce fichier, augmenter « version » et reporter le numéro de l'ADR dans « adr » ;
+#   3. noter la décision dans JOURNAL.md ;
+#   4. lancer make verifier.
+# La garde refuse un plan qui cite un ADR absent.
+
+version = 10
+adr = "0010"
+
+[nommage]
+# Tout nom non déclaré explicitement dans ce plan doit suivre ce motif :
+# minuscules, chiffres, « _ », « - » et « . », sans accent ni espace.
+motif = '^[a-z0-9_][a-z0-9_.-]*$'
+# Noms usuels acceptés partout malgré le motif.
+exceptions = ["README.md", "CLAUDE.md", "AGENTS.md", "ATELIER.md", "JOURNAL_PUBLIC.md", "BRIEF.md", "PLAN.md", "JOURNAL.md", "Makefile", "Dockerfile", "LICENSE"]
+# Chemins sous lesquels les noms sont libres (données réalistes : adresses, pièces jointes) ;
+# les extensions de la zone restent contrôlées (ADR 0003, ADR 0006).
+libre = ["05_pme/societes"]
+
+[ignorer]
+# Jamais inspectés : générés, locaux, ou propres aux outils.
+chemins = [".git", "99_local", "07_taches/prive"]
+noms = ["node_modules", ".venv", "__pycache__", "dist", "build", "coverage", ".pytest_cache", ".ruff_cache", ".mypy_cache", ".DS_Store"]
+suffixes = [".egg-info"]
+
+[racine]
+fichiers = [
+  "CLAUDE.md", "BRIEF.md", "PLAN.md", "JOURNAL.md",   # pilotage (METHODE.md)
+  "AGENTS.md", "ATELIER.md",                         # portes d'entrée pour toute IA (ADR 0008)
+  "JOURNAL_PUBLIC.md",                               # journal public, exporté en JOURNAL.md (ADR 0009)
+  "LICENSE",                                         # licence du code, Apache 2.0 (ADR 0010)
+  "README.md",                                       # présentation du dépôt
+  "arborescence.toml", "Makefile",                   # plan et commandes
+  ".gitignore", ".gitattributes", ".editorconfig",
+  ".env", ".env.exemple",                            # configuration locale (.env hors git)
+  "pyproject.toml", "uv.lock", ".python-version",    # espace de travail Python (étape 1)
+  "package.json", "pnpm-workspace.yaml", "pnpm-lock.yaml", "tsconfig.base.json",  # TypeScript (étape 2)
+  "biome.json",                                      # style du TypeScript (ADR 0002)
+]
+dossiers = [
+  "00_docs", "01_contrats", "02_ease", "03_orchestrations", "04_eke", "05_pme", "06_gardien",
+  "07_taches", "08_publications", "09_outillage", "10_deploiement", "11_bancs_publics", "12_coffre", "99_local",
+  ".claude", ".github",
+]
+
+# Une zone par dossier de premier niveau.
+#   entrees        : ce qui est permis directement dans la zone (« / » final = dossier, jokers permis)
+#   obligatoires   : ce qui doit exister dans la zone
+#   extensions     : extensions permises partout dans la zone, à toute profondeur
+#   sans_extension : fichiers sans extension permis dans la zone
+# Sous le premier niveau d'une zone, l'organisation est libre : seuls le nommage et les
+# extensions sont contrôlés. Le dépôt grandit sans ADR tant qu'il grandit dans les zones.
+
+[zones."00_docs"]
+role = "Documentation : sources datées, décisions d'architecture, protocole de mesure"
+entrees = ["README.md", "sources/", "adr/", "protocole/"]
+obligatoires = ["README.md", "adr/"]
+extensions = [".md", ".png", ".svg", ".pdf", ".csv"]
+
+[zones."01_contrats"]
+role = "Contrats de données en JSON Schema, source de vérité pour Python et TypeScript"
+entrees = ["README.md", "*.schema.json", "exemples/"]
+obligatoires = ["README.md"]
+extensions = [".json", ".md"]
+
+[zones."02_ease"]
+role = "Banc de mesure, Python"
+entrees = ["README.md", "pyproject.toml", "src/", "tests/"]
+obligatoires = ["README.md"]
+extensions = [".py", ".pyi", ".typed", ".toml", ".md", ".json", ".jsonl", ".yaml", ".yml", ".j2", ".html", ".css"]
+
+[zones."03_orchestrations"]
+role = "Schémas d'orchestration d'agents, Python"
+entrees = ["README.md", "pyproject.toml", "src/", "tests/"]
+obligatoires = ["README.md"]
+extensions = [".py", ".pyi", ".typed", ".toml", ".md", ".json", ".jsonl", ".yaml", ".yml"]
+
+[zones."04_eke"]
+role = "Outil documentaire de la PME, serveur MCP, Python"
+entrees = ["README.md", "pyproject.toml", "src/", "tests/"]
+obligatoires = ["README.md"]
+extensions = [".py", ".pyi", ".typed", ".toml", ".md", ".json", ".jsonl", ".yaml", ".yml"]
+
+[zones."05_pme"]
+role = "PME fictives : un serveur MCP par service, commun à toutes, leur interface web (ADR 0005), un dossier de données par société (ADR 0006), TypeScript"
+entrees = ["README.md", "societes/", "*/"]
+obligatoires = ["README.md", "societes/"]
+extensions = [".ts", ".mts", ".json", ".md", ".yaml", ".yml", ".csv", ".txt", ".eml", ".pdf"]
+
+[zones."06_gardien"]
+role = "Passerelle MCP entre les agents et la PME, TypeScript"
+entrees = ["README.md", "package.json", "tsconfig.json", "src/", "tests/", "regles/"]
+obligatoires = ["README.md"]
+extensions = [".ts", ".mts", ".json", ".md", ".yaml", ".yml"]
+
+[zones."07_taches"]
+role = "Jeux de tâches (données) : public/ versionné, prive/ hors git"
+entrees = ["README.md", "public/", "prive/"]
+obligatoires = ["README.md", "public/"]
+extensions = [".yaml", ".yml", ".json", ".md"]
+
+[zones."08_publications"]
+role = "Résultats publiés, figés, un dossier daté par publication"
+entrees = ["README.md", "[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]_*/"]
+obligatoires = ["README.md"]
+extensions = [".md", ".json", ".jsonl", ".html", ".css", ".csv", ".svg", ".png"]
+
+[zones."09_outillage"]
+role = "Outils du dépôt lui-même : garde de l'arborescence, crochets git"
+entrees = ["README.md", "garde/", "hooks/", "scripts/"]
+obligatoires = ["README.md", "garde/", "hooks/"]
+extensions = [".py", ".sh", ".md", ".toml"]
+sans_extension = ["pre-commit", "pre-push"]
+
+[zones."10_deploiement"]
+role = "Docker Compose et images (étape 8)"
+entrees = ["README.md", "compose.yaml", "images/"]
+obligatoires = ["README.md"]
+extensions = [".yaml", ".yml", ".md", ".dockerfile", ".conf", ".sh"]
+sans_extension = ["Dockerfile"]
+
+[zones."11_bancs_publics"]
+role = "Bancs publics d'agents construits par d'autres (τ²-bench), servis à EASE par MCP, Python (ADR 0004)"
+entrees = ["README.md", "pyproject.toml", "src/", "tests/"]
+obligatoires = ["README.md"]
+extensions = [".py", ".pyi", ".typed", ".toml", ".md", ".json", ".jsonl", ".yaml", ".yml"]
+
+[zones."12_coffre"]
+role = "Copie en ligne, chiffrée avec age, des tâches cachées, des verdicts du juge et des runs entiers aux tâches cachées (ADR 0008)"
+entrees = ["README.md", "destinataire.txt", "index.age", "[0-9][0-9][0-9][0-9][0-9].age"]
+obligatoires = ["README.md"]
+extensions = [".age", ".txt", ".md"]
+
+[zones.".claude"]
+role = "Réglages de Claude Code pour ce dépôt, dont le crochet de la garde"
+entrees = ["settings.json", "settings.local.json"]
+obligatoires = ["settings.json"]
+extensions = [".json"]
+
+[zones.".github"]
+role = "Intégration continue"
+entrees = ["workflows/"]
+extensions = [".yml", ".yaml"]

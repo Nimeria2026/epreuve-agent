@@ -1,0 +1,15 @@
+# Agent de reproduction τ²-bench (reproduction_tau2) sur Qwen 3.8 27B, servi par make qwen. Comme
+# configurations/qwen_local.yaml, plus les deux réglages que l'agent de τ²-bench 1.0.1 envoie à
+# chaque appel : température 0 (DEFAULT_LLM_ARGS_AGENT, src/tau2/config.py) et tool_choice auto
+# (generate, src/tau2/utils/llm_utils.py). Le modèle est livré avec une température de 1,0
+# (00_docs/sources/2026-10-05_reglages_des_modeles.md) : ici, celle de τ²-bench l'emporte.
+role: agent
+modele: qwen3.8-27b-w4a16
+adresse: http://127.0.0.1:30100/v1
+cle_env: null
+parametres:
+  temperature: 0.0
+  tool_choice: auto
+raisonnement_renvoye: null
+delai_appel_secondes: 900
+tours_max: 100

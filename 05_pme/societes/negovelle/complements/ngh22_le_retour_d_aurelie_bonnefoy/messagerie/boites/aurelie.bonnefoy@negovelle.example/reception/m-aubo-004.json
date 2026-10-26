@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-aubo-004",
+  "de": {
+    "nom": "Alice Daniel",
+    "adresse": "alice.daniel@serrurerie-herve.example"
+  },
+  "a": [
+    "aurelie.bonnefoy@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Serrures",
+  "date": "2026-08-07T16:45:00+02:00",
+  "corps": "Bonjour Aurélie,\n\nIl me faut 40 serrures à larder QUI-12858. On me dit que Serrurerie Langlais vous les paie moins cher que nous : à quel prix les leur vendez-vous ? Et quel serait le nôtre ?\n\nMerci,\n\nAlice Daniel\nSerrurerie Hervé",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

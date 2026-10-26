@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-003",
+  "de": {
+    "nom": "Benoît Faure",
+    "adresse": "benoit.faure@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Océane",
+  "date": "2026-07-06T07:40:00+02:00",
+  "corps": "Bruno,\n\nOcéane n'est pas là ce matin, et ses clients de l'ouest commencent à appeler. Qu'est-ce qu'elle a ? Pour combien de temps ? Je reprends son secteur en attendant ?\n\nBenoît",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

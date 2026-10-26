@@ -1,0 +1,19 @@
+{
+  "name": "@poa/commun",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Code commun aux services de la PME fictive : contrats générés, validation, chemins, droits",
+  "type": "module",
+  "exports": {
+    "./*": "./src/*.ts"
+  },
+  "scripts": {
+    "test": "node --test --test-reporter=spec \"tests/**/*.test.ts\"",
+    "types": "tsc --noEmit -p ."
+  },
+  "dependencies": {
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
+    "yaml": "^2.8.0"
+  }
+}

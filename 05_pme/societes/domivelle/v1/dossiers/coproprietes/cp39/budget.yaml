@@ -1,0 +1,17 @@
+# Budget prévisionnel de l'exercice en cours, voté, copropriété cp39. Données FICTIVES.
+copropriete: cp39
+exercice: '2026'
+total: 63 700,00 €
+postes:
+  nettoyage des parties communes: 14 014,00 €
+  espaces verts: 5 096,00 €
+  électricité des parties communes: 5 733,00 €
+  eau: 8 918,00 €
+  assurance de l'immeuble: 7 007,00 €
+  honoraires du syndic: 11 466,00 €
+  entretien et petites réparations: 6 370,00 €
+  ascenseur, contrat et électricité: 5 096,00 €
+repartition:
+  charges générales, aux tantièmes généraux: 58 604,00 €
+  ascenseur, aux tantièmes d'ascenseur: 5 096,00 €
+appel: un quart du budget, exigible le premier jour de chaque trimestre

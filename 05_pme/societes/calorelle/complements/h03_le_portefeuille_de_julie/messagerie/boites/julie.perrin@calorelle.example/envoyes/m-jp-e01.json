@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-jp-e01",
+  "de": {
+    "nom": "Julie Perrin",
+    "adresse": "julie.perrin@calorelle.example"
+  },
+  "a": [
+    "helene.marchal@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis DV-2026-014 à valider",
+  "date": "2026-10-28T10:30:00+01:00",
+  "corps": "Hélène,\n\nVoici le devis DV-2026-014 de Patrick Lefebvre : pompe à chaleur air-eau et ballon thermodynamique, 12 533,40 € TTC. Au-delà de 10 000 €, il attend ton accord avant de partir.\n\nJulie (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "dv-2026-014.pdf",
+      "fichier": "pieces/m-jp-e01/dv-2026-014.pdf",
+      "taille_octets": 1621
+    }
+  ],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

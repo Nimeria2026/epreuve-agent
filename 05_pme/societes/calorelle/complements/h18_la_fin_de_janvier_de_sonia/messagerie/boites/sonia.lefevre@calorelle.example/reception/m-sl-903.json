@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-903",
+  "de": {
+    "nom": "Yanis Haddad",
+    "adresse": "yanis.haddad@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Congé en mars, et mon solde",
+  "date": "2027-01-28T09:00:00+01:00",
+  "corps": "Sonia,\n\nJe demande un congé du lundi 8 au mercredi 10 mars 2027. Et peux-tu me dire combien de jours de congés payés il me reste ?\n\nYanis (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

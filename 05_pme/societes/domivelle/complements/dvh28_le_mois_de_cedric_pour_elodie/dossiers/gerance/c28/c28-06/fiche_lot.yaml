@@ -1,0 +1,19 @@
+# Fiche du lot c28-06. Données FICTIVES.
+lot: c28-06
+adresse: 59 rue de l'Église, 18999 Montclavel-sur-Cher (FICTIF)
+type: T3
+surface_m2: 63
+locataire:
+  nom: M. Bruno Vallée
+  courriel: bruno.vallee@boite-postale.example
+  telephone: 06 39 98 77 24
+  entree: '2025-10-23'
+bail:
+  signature: '2025-10-23'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 590,00 €
+  depot_de_garantie: 590,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T2
+dpe:
+  classe: E

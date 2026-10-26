@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-609",
+  "de": {
+    "nom": "Syndic de la Résidence du Pré-Bouvreuil",
+    "adresse": "contact@syndic-de-la-residence-du-pre-bouvreuil-452.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Résiliation de notre contrat d'entretien",
+  "date": "2026-11-20T19:05:00+01:00",
+  "corps": "Bonjour Monsieur Benali,\n\nPar la présente, le syndic de la Résidence du Pré-Bouvreuil résilie le contrat d'entretien de la chaufferie, la copropriété ayant choisi un contrat global avec un autre prestataire. Merci de nous confirmer la date de fin du contrat.\n\nCordialement,\nLe syndic de la Résidence du Pré-Bouvreuil, 94 avenue des Tilleuls, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

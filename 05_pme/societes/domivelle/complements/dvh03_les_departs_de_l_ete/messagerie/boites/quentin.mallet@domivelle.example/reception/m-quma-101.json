@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-quma-101",
+  "de": {
+    "nom": "Élodie Chauvin",
+    "adresse": "elodie.chauvin@domivelle.example"
+  },
+  "a": [
+    "quentin.mallet@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Fin de bail, lot n27-06",
+  "date": "2026-04-06T11:30:00+02:00",
+  "corps": "Bonjour Quentin,\n\nCongé reçu le samedi 4 avril pour le lot n27-06, M. Vincent Pichon, préavis de trois mois : fin du bail le samedi 4 juillet 2026. Pour l'état des lieux de sortie.\n\nÉlodie",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

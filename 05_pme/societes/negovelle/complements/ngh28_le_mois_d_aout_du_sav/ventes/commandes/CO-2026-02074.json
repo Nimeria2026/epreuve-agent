@@ -1,0 +1,68 @@
+{
+  "numero": "CO-2026-02074",
+  "client": "c-0138",
+  "reference_client": null,
+  "cree_le": "2026-06-30T10:00:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "133 rue des Lilas, 36999 Vaumoreau-sur-Indre (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELP-11298",
+      "libelle": "Foret à bois trois pointes 6 mm",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 8.85,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 8.14,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 81.4
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 96.4,
+  "total_tva_euros": 19.28,
+  "total_ttc_euros": 115.68,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01894"
+  ],
+  "facture": "FC-2026-1464",
+  "historique": [
+    {
+      "date": "2026-06-30T10:00:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": "commande du client"
+    },
+    {
+      "date": "2026-06-30T10:05:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": "stock réservé"
+    },
+    {
+      "date": "2026-07-01T16:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01894"
+    },
+    {
+      "date": "2026-07-02T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01894"
+    },
+    {
+      "date": "2026-07-31T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1464"
+    }
+  ]
+}

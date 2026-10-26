@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cop-001",
+  "de": {
+    "nom": "Laure Giraud",
+    "adresse": "laure.giraud@boite-postale.example"
+  },
+  "a": [
+    "copropriete@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Prochaine assemblée",
+  "date": "2026-06-06T10:12:00+02:00",
+  "corps": "Bonjour,\n\nCopropriétaire du lot 2 de la Résidence Le Bocage, je voudrais savoir quand aura lieu notre prochaine assemblée générale : je serai absente une partie de l'été.\n\nLaure Giraud",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

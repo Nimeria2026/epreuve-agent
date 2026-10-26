@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-b01",
+  "de": {
+    "nom": "Anne Moreau",
+    "adresse": "anne.moreau@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "RE: Devis DV-2026-009",
+  "date": "2026-10-12T09:40:00+02:00",
+  "corps": "Bonjour,\n\nMerci pour le devis, je reviens vers vous après en avoir parlé en famille.\n\nAnne Moreau (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

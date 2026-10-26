@@ -1,0 +1,89 @@
+# Registre des lots en gestion, s34. Données FICTIVES.
+immeuble: s34
+nature: immeuble collectif
+adresse: 103 rue des Écoles, 18999 Sorlay-le-Haut (FICTIF)
+secteur: sud
+gestionnaire: Solène Audoin
+distance_agence_km: 21
+annee_construction: 1958
+gardien: false
+copropriete_du_syndic: null
+lots:
+- lot: s34-01
+  type: T3
+  surface_m2: 58
+  etage: 0
+  proprietaire: p-0698
+  locataire: Mme Béatrice Poulain
+  entree: '2022-08-30'
+  loyer_hors_charges: 520,00 €
+  provision_sur_charges: 117,00 €
+  depot_de_garantie: 484,00 €
+  revision: chaque 30 août
+  trimestre_irl: T2
+  dpe: C
+- lot: s34-02
+  type: T3
+  surface_m2: 69
+  etage: 0
+  proprietaire: p-0705
+  locataire: M. Bernard Giraud
+  entree: '2014-02-02'
+  loyer_hors_charges: 544,00 €
+  provision_sur_charges: 70,00 €
+  depot_de_garantie: 418,00 €
+  revision: chaque 2 février
+  trimestre_irl: T4
+  dpe: C
+- lot: s34-03
+  type: T2
+  surface_m2: 47
+  etage: 0
+  proprietaire: p-0688
+  locataire: Mme Estelle Julien
+  entree: '2017-02-02'
+  loyer_hors_charges: 423,00 €
+  provision_sur_charges: 35,00 €
+  depot_de_garantie: 345,00 €
+  revision: chaque 2 février
+  trimestre_irl: T4
+  dpe: B
+- lot: s34-04
+  type: T4
+  surface_m2: 78
+  etage: 0
+  proprietaire: p-0706
+  locataire: M. René Garnier
+  entree: '2025-01-28'
+  loyer_hors_charges: 650,00 €
+  provision_sur_charges: 54,00 €
+  depot_de_garantie: 634,00 €
+  revision: chaque 28 janvier
+  trimestre_irl: T3
+  dpe: D
+- lot: s34-05
+  type: T3
+  surface_m2: 58
+  etage: 1
+  proprietaire: p-0707
+  locataire: Mme Hélène Fleury
+  entree: '2020-03-31'
+  loyer_hors_charges: 541,00 €
+  provision_sur_charges: 46,00 €
+  depot_de_garantie: 470,00 €
+  revision: chaque 31 mars
+  trimestre_irl: T4
+  dpe: D
+- lot: s34-06
+  type: T3
+  surface_m2: 55
+  etage: 1
+  proprietaire: p-0708
+  locataire: M. Marcel Olivier
+  entree: '2023-10-02'
+  loyer_hors_charges: 518,00 €
+  provision_sur_charges: 109,00 €
+  depot_de_garantie: 493,00 €
+  revision: chaque 2 octobre
+  trimestre_irl: T2
+  dpe: D

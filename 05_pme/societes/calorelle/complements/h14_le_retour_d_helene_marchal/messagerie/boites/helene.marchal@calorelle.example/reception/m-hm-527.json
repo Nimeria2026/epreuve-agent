@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-hm-527",
+  "de": {
+    "nom": "Commune du Pré-Bouvreuil",
+    "adresse": "contact@commune-du-pre-bouvreuil-279.example"
+  },
+  "a": [
+    "helene.marchal@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Fin du contrat d'entretien de la mairie",
+  "date": "2026-11-21T11:00:00+01:00",
+  "corps": "Madame la gérante,\n\nLe conseil municipal a décidé de ne pas reconduire le contrat d'entretien de la chaufferie de la mairie à sa prochaine échéance. Merci de nous en accuser réception.\n\nLe secrétariat de la mairie du Pré-Bouvreuil, 78 rue de la Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

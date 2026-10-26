@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cema-602",
+  "de": {
+    "nom": "Nadège Lebrun",
+    "adresse": "nadege.lebrun@domivelle.example"
+  },
+  "a": [
+    "cedric.maillard@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Recommandé pour le lot s05-08",
+  "date": "2026-09-07T08:40:00+02:00",
+  "corps": "Cédric,\n\nSolène étant en congé, je te signale le recommandé de Mme Christine Cordier, lot s05-08, dont j'ai signé l'avis de réception le vendredi 4 septembre. Il est numérisé dans courrier/2026-09/2026-09-04_conge_s05-08.pdf, avec l'attestation de son employeur.\n\nNadège",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

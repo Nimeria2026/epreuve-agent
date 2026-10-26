@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01780",
+  "commande": "CO-2026-01931",
+  "client": "c-0115",
+  "date_expedition": "2026-06-30",
+  "date_livraison": "2026-06-30",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "118 place du Marché, 36999 Vendrigny (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "VIS-10587",
+      "libelle": "Rondelle plate M14, inox A2, sachet de 50",
+      "quantite": 4
+    }
+  ],
+  "reserves": null,
+  "signataire": "Françoise Ancelin",
+  "statut": "livre"
+}

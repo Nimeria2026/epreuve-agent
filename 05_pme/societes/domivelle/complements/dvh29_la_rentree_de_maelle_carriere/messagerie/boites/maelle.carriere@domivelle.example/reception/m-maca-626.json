@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-maca-626",
+  "de": {
+    "nom": "Peinture des Rouches",
+    "adresse": "facturation@peinture-des-rouches.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis, plafond du hall des Marronniers",
+  "date": "2026-08-20T15:50:00+02:00",
+  "corps": "Madame,\n\nComme demandé, voici notre devis pour la réfection du plafond du hall de la Résidence Les Marronniers, 29 rue du Château à Vernillac, après le dégât des eaux de juin : 1 960,00 € TTC.\n\nPeinture des Rouches",
+  "pieces_jointes": [
+    {
+      "nom": "devis_plafond_hall_marronniers.pdf",
+      "fichier": "pieces/m-maca-626/devis_plafond_hall_marronniers.pdf",
+      "taille_octets": 897
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

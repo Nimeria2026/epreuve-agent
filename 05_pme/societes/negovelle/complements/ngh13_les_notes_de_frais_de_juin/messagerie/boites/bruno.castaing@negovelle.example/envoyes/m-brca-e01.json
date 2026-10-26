@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-e01",
+  "de": {
+    "nom": "Bruno Castaing",
+    "adresse": "bruno.castaing@negovelle.example"
+  },
+  "a": [
+    "fabrice.mercier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Déjeuner avec Électricité Noblet",
+  "date": "2026-06-12T09:20:00+02:00",
+  "corps": "Fabrice,\n\nD'accord pour le déjeuner du 18 juin avec le gérant d'Électricité Noblet, pour leur commande de la rentrée. Mets-le sur ta note de juin.\n\nBruno",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

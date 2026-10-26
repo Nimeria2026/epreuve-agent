@@ -1,0 +1,56 @@
+{
+  "numero": "DV-2025-005",
+  "client": "c-0036",
+  "objet": "Remplacement de chaudière gaz",
+  "lignes": [
+    {
+      "code": "CHG-02",
+      "libelle": "Chaudière gaz à condensation 35 kW, eau chaude intégrée",
+      "quantite": 1,
+      "prix_unitaire_ht_euros": 3600,
+      "taux_tva": 20,
+      "montant_ht_euros": 3600
+    },
+    {
+      "code": "DEP-01",
+      "libelle": "Dépose et évacuation de l'ancien appareil",
+      "quantite": 1,
+      "prix_unitaire_ht_euros": 180,
+      "taux_tva": 20,
+      "montant_ht_euros": 180
+    },
+    {
+      "code": "TUB-01",
+      "libelle": "Tuyauterie cuivre posée",
+      "quantite": 6,
+      "prix_unitaire_ht_euros": 42,
+      "taux_tva": 20,
+      "montant_ht_euros": 252
+    },
+    {
+      "code": "MES-01",
+      "libelle": "Mise en service",
+      "quantite": 1,
+      "prix_unitaire_ht_euros": 150,
+      "taux_tva": 20,
+      "montant_ht_euros": 150
+    },
+    {
+      "code": "MO-01",
+      "libelle": "Main-d'œuvre de technicien",
+      "quantite": 7,
+      "prix_unitaire_ht_euros": 58,
+      "taux_tva": 20,
+      "montant_ht_euros": 406
+    }
+  ],
+  "remise_pourcent": 0,
+  "total_ht_euros": 4588,
+  "total_tva_euros": 917.6,
+  "total_ttc_euros": 5505.6,
+  "statut": "accepte",
+  "cree_le": "2025-07-07T10:00:00+02:00",
+  "cree_par": "julie.perrin",
+  "envoye_le": "2025-07-07T11:00:00+02:00",
+  "reponse_le": "2025-07-15T15:00:00+02:00"
+}

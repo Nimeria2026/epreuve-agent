@@ -1,0 +1,8 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0415"
+nom: "Gilles Dubois"
+type: "particulier"
+adresse: "101 chemin des Vignes, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "gilles.dubois@courriel.example"
+telephone: "06 39 98 51 00"
+charge_d_affaires: "julie.perrin"

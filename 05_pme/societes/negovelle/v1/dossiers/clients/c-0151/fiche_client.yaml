@@ -1,0 +1,28 @@
+# Fiche du client c-0151 de Négovelle. Données FICTIVES.
+code: c-0151
+nom: Chauffage Grondin
+type: artisan
+adresse: 30 rue de l'Église, 36999 Fontclavier (FICTIF)
+telephone: 02 61 91 86 17
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Pierre Simonet
+  fonction: gérant
+  courriel: pierre.simonet@chauffage-grondin.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 30 rue de l'Église, 36999 Fontclavier (FICTIF)
+- code: L2
+  libelle: chantier déclaré
+  adresse: 80 rue du Château, 36999 Ardillac (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2009-07-01'
+limite_encours_euros: 2500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

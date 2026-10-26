@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-occo-003",
+  "de": {
+    "nom": "Bernard Thiery",
+    "adresse": "bernard.thiery@chauffage-sauvage.example"
+  },
+  "a": [
+    "oceane.collin@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-06T07:15:00+02:00",
+  "corps": "Bonjour,\n\nVoici notre commande, à livrer au siège :\n- 12 x VIS-10931, Vis à bois tête fraisée 3,5x45, inox A2, boîte de 100\n- 10 x FIX-10816, Cheville pour plaque de plâtre 6x45, boîte de 50\n\nMerci,\nBernard Thiery\nChauffage Sauvage",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

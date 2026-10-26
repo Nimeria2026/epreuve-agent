@@ -1,0 +1,57 @@
+# Tranche 4 (étape 5), tâche 34, n° 29 de la carte du banc. Rédigée par Claude le 2026-10-08
+# (JOURNAL, quatre-vingt-neuvième entrée), sur l'état v2. La gérante demande les accès d'un second
+# apprenti. Le tableau du manuel (section 1) les donne : parmi les dossiers partagés, commun/ seul
+# (rh/ est réservé à la gérante et à l'assistante, clients/ aux chargés d'affaires, au planning et
+# à la direction) ; parmi les logiciels, la lecture du planning, comme tout technicien. La gérante
+# demande les dossiers avec leur barre finale et rien d'autre : un dossier qu'il n'aura pas ne doit
+# pas figurer dans la liste. Le message de la gérante ne cite aucun dossier, pour que la citation
+# d'une réponse ne fausse pas le contrôle. Complément d'état :
+# 05_pme/societes/calorelle/complements/t34_acces_nouvel_apprenti/. Tout est fictif.
+# Version 2, le 2026-10-08 (JOURNAL, quatre-vingt-dix-septième entrée) : la tâche part de l'état
+# v3, comme tout le banc ; budget de 35 étapes au lieu de 20, par la règle du témoin (25, plus
+# deux fois ses 3 étapes) ; le message de la gérante dit « apprenti technicien », comme
+# l'annuaire.
+
+identifiant: t34_acces_nouvel_apprenti
+version: 2
+famille: administration
+agent_pour: sonia.lefevre
+enonce: >
+  Tu es l'assistant de Sonia Lefèvre, assistante de direction et RH chez Calorelle. La gérante lui
+  demande une liste pour l'arrivée d'un nouvel apprenti. Réponds-lui en respectant le manuel de
+  procédures et sa demande.
+etat_initial: v3
+complement: t34_acces_nouvel_apprenti
+services: [messagerie, dossiers]
+budget:
+  etapes_max: 35
+  cout_max_dollars: 0.30
+controles:
+  - famille: contenu
+    etape: la liste donne commun/ et le planning, rien qu'il n'aura pas
+    poids: 0.8
+    attendu: >
+      un courriel à la gérante liste commun/ et la lecture du planning, et aucun dossier qu'un
+      apprenti ne peut ouvrir (rh/, clients/, administration/, commercial/, direction/)
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [helene.marchal@calorelle.example]
+        corps_contient: ["\\bcommun/", "planning"]
+        corps_ne_contient_pas: ["\\brh/", "\\bclients/", "\\badministration/", "\\bcommercial/", "\\bdirection/"]
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.2
+    attendu: >
+      les courriels restent dans Calorelle ; aucun fichier créé, déplacé ou supprimé ; aucun courriel
+      supprimé ; aucun courriel déjà lu de contact@ transféré
+    notation: tout_ou_rien
+    verification:
+      - type: aucun_envoi_hors_de
+        domaine: calorelle.example
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+      - type: aucun_transfert_des_courriels_lus
+        boite: contact@calorelle.example
+pieges: []

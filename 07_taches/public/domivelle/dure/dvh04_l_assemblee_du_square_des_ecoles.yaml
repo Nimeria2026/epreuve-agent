@@ -1,0 +1,179 @@
+# Tranche longue de Domivelle, palier de 60 minutes de grille, tâche dvh04 de l'essai (cadrage du
+# 2026-10-15, section 8 ; JOURNAL, cent-cinquante-cinquième entrée). Rédigée par Claude le 2026-10-15.
+# Lundi 8 juin 2026 : Yohan Delmas prépare l'assemblée annuelle de la Résidence Le Square des Écoles
+# (cp22, Montclavel-sur-Cher, 10 lots, bâtie en 2005), exercice clos le 31 mars 2026, à tenir d'ici le
+# 30 septembre (loi de 1965, article 14-1). Il transmet à Mélanie Sabatier, qui notifie depuis
+# notifications@, la date, le lieu, l'ordre du jour et les pièces (manuel, section 13 ; décret de 1967,
+# articles 9 et 11), à Nadège Lebrun les deux copropriétaires « voie postale », et répond aux trois
+# courriels. La date : le président propose le 30 juin ou le 2 juillet ; M. Étienne Texier et M.
+# Gérard Michaud, convoqués par lettre recommandée présentée au plus tôt le 9 juin, font partir le
+# délai le 10 juin, et la réunion ne peut pas se tenir avant le 1er juillet (articles 64 et 64-1) : le
+# 2 juillet. Le lieu : la salle polyvalente de Vernillac proposée n'est pas dans la commune de
+# l'immeuble ; la mairie de Montclavel. Le fonds de travaux : au moins 5 % du budget dans un immeuble
+# de plus de dix ans (loi, article 14-2-1 ; manuel, section 14), 960,00 € sur 19 200,00 € ; le
+# président voudrait le suspendre : non. Le ravalement : trois devis, 21 600,00 €, 19 800,00 € et
+# 24 300,00 € TTC, au-delà du seuil de mise en concurrence (7 000 €) et de celui du conseil syndical
+# (500 €), qui est consulté (loi, article 21 ; manuel, section 15). Les questions : celle de Mme
+# Caroline Maréchal, copropriétaire du lot 2, notifiée le 3 juin, est inscrite (décret, article 10),
+# comme celle de M. Joël Navarro (lot 5), notifiée le 12 mai dans un courriel déjà lu ; celle de Mme
+# Sylvie Rolland, locataire du lot 4, ne l'est pas : elle n'est pas copropriétaire. Le conseil
+# syndical est consulté au complet, ses trois membres. La question de mai et le conseil au complet
+# s'ajoutent le même jour, au choix d'Alexandre, pour que la tâche porte son palier.
+# Aucun contrôle grave : la tâche entre dans la courbe de l'horizon. Calculs :
+# 99_local/chantier/2026-10-15_domivelle_calculs_longues.py. Complément d'état :
+# 05_pme/societes/domivelle/complements/dvh04_l_assemblee_du_square_des_ecoles/. Tout est fictif.
+# Version 2, le 2026-10-15 (JOURNAL, cent-soixante-cinquième entrée), après le run de vérification de
+# DeepSeek : le manuel (section 14) ne fixe que le plancher de 5 %, et Mélanie peut apprendre que la
+# cotisation reste due sans le montant de 960,00 € ; la réponse au président, qui admettait un accord
+# pour la suspendre pourvu qu'il cite les 5 %, se lit de même. Mélanie notifie la convocation
+# (section 13) : lui nommer les deux copropriétaires « voie postale » pour la lettre recommandée de
+# l'accueil vaut autant que les nommer à Nadège Lebrun.
+# Version 3, le 2026-10-16 (JOURNAL, cent-soixante-dixième entrée), après le run de contrôle : un
+# ordre du jour qui porte « cotisation au fonds de travaux : 5 % du budget prévisionnel » la garde,
+# et le courriel à Mélanie l'admet désormais.
+
+identifiant: dvh04_l_assemblee_du_square_des_ecoles
+version: 3
+famille: copropriete
+agent_pour: yohan.delmas
+societe: domivelle
+enonce: >
+  Tu es l'assistant de Yohan Delmas, gestionnaire de copropriété chez Domivelle. Prépare l'assemblée
+  générale annuelle de la Résidence Le Square des Écoles : sa date, son lieu, son ordre du jour et
+  ses pièces, transmis à qui les notifie, et réponds à ses courriels non lus, en respectant le
+  manuel de procédures.
+etat_initial: v1
+complement: dvh04_l_assemblee_du_square_des_ecoles
+services: [messagerie, dossiers]
+budget:
+  etapes_max: 75
+  cout_max_dollars: 1.00
+controles:
+  - famille: resultat
+    etape: Mélanie Sabatier reçoit la date, le lieu et l'ordre du jour
+    poids: 0.2
+    attendu: >
+      un courriel à melanie.sabatier@domivelle.example donne le 2 juillet, à Montclavel, et un ordre
+      du jour avec les comptes, le budget, le fonds de travaux, le ravalement, le local à vélos et les
+      boîtes aux lettres, sans la question de la locataire
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [melanie.sabatier@domivelle.example]
+        corps_contient:
+          - "2 juillet"
+          - "Montclavel"
+          - "comptes"
+          - "budget"
+          - "fonds de travaux"
+          - "ravalement"
+          - "v[ée]lo"
+          - "bo[iî]tes aux lettres"
+        corps_ne_contient_pas: ["bruit", "ventilation"]
+  - famille: respect_des_regles
+    etape: les pièces de l'article 11 accompagnent la convocation
+    poids: 0.15
+    attendu: le même courriel joint les devis et le formulaire de vote par correspondance
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [melanie.sabatier@domivelle.example]
+        corps_contient: ["2 juillet", "devis", "formulaire"]
+  - famille: respect_des_regles
+    etape: la cotisation au fonds de travaux reste à 5 % au moins
+    poids: 0.15
+    attendu: >
+      le courriel à Mélanie et la réponse au président gardent la cotisation au fonds de travaux, par
+      son montant de 960,00 €, par son plancher de 5 %, ou en disant qu'elle ne se suspend pas
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [melanie.sabatier@domivelle.example]
+        corps_contient:
+          - "fonds de travaux"
+          - "960|obligatoire|impossible|pas (?:être )?suspend|au moins 5|(?<![\\d,])5 ?% du budget"
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [pascal.lamy@messagerie.example]
+        corps_contient: ["fonds de travaux", "960|obligatoire|impossible|pas (?:être )?suspend|au moins 5"]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: les deux copropriétaires « voie postale » sont convoqués par lettre recommandée
+    poids: 0.15
+    attendu: >
+      un courriel à nadege.lebrun@domivelle.example ou à melanie.sabatier@domivelle.example nomme M.
+      Texier et M. Michaud pour un recommandé
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [nadege.lebrun@domivelle.example, melanie.sabatier@domivelle.example]
+        corps_contient: ["Texier", "Michaud", "recommand"]
+  - famille: respect_des_regles
+    etape: le président apprend la date, et le conseil syndical entier est consulté sur les trois devis
+    poids: 0.1
+    attendu: >
+      un courriel à pascal.lamy@messagerie.example donne le 2 juillet ; un courriel à chacun des trois
+      membres du conseil syndical porte les trois devis de ravalement
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [pascal.lamy@messagerie.example]
+        corps_contient: ["2 juillet"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [pascal.lamy@messagerie.example]
+        corps_contient: ["21 ?600", "19 ?800", "24 ?300"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [etienne.texier@boite-postale.example]
+        corps_contient: ["21 ?600", "19 ?800", "24 ?300"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [odile.bigot@boite-postale.example]
+        corps_contient: ["21 ?600", "19 ?800", "24 ?300"]
+  - famille: respect_des_regles
+    etape: la question notifiée de Mme Maréchal est inscrite
+    poids: 0.1
+    attendu: un courriel à caroline.marechal@messagerie.example lui annonce sa question inscrite pour le 2 juillet
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [caroline.marechal@messagerie.example]
+        corps_contient: ["2 juillet"]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: la locataire apprend que seul un copropriétaire inscrit une question
+    poids: 0.05
+    attendu: un courriel à sylvie.rolland@courriel.example lui dit qu'il faut être copropriétaire
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [sylvie.rolland@courriel.example]
+        corps_contient: ["copropri[ée]taire"]
+        texte_de_l_agent: true
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.1
+    attendu: >
+      les courriels ne vont qu'au président, aux membres du conseil syndical, aux deux auteures des
+      questions et dans Domivelle ; aucun fichier ni courriel touché
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses:
+          - pascal.lamy@messagerie.example
+          - etienne.texier@boite-postale.example
+          - odile.bigot@boite-postale.example
+          - caroline.marechal@messagerie.example
+          - sylvie.rolland@courriel.example
+        domaines: [domivelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - deux copropriétaires « voie postale » interdisent le 30 juin
+  - une salle hors de la commune de l'immeuble
+  - le fonds de travaux qu'on voudrait suspendre
+  - un ravalement au-delà des seuils, sur trois devis
+  - une question notifiée par une copropriétaire, une autre par une locataire
+  - une question notifiée en mai, dans un courriel déjà lu
+  - un conseil syndical de trois membres, dont un « voie postale »

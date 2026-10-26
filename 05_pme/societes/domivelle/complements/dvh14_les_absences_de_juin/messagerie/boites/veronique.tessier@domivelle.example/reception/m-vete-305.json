@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-vete-305",
+  "de": {
+    "nom": "Cédric Maillard",
+    "adresse": "cedric.maillard@domivelle.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "La candidature d'Agathe Lemoine",
+  "date": "2026-06-08T09:10:00+02:00",
+  "corps": "Véronique,\n\nNadège me dit qu'une assistante de gestion locative a écrit samedi. Tu peux me transférer sa candidature ? Elle m'aiderait bien au centre.\n\nCédric",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

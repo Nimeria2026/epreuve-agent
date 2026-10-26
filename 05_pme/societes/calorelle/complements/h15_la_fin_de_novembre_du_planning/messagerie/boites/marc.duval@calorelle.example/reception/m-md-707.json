@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-707",
+  "de": {
+    "nom": "Hélène Chevalier",
+    "adresse": "helene.chevalier@courriel.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Entretien de décembre",
+  "date": "2026-11-29T18:30:00+01:00",
+  "corps": "Bonjour,\n\nPour l'entretien annuel de ma chaudière en décembre, le samedi 12 décembre m'arrangerait, je travaille toute la semaine.\n\nHélène Chevalier\n50 rue de la Loire, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

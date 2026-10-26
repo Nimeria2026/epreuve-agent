@@ -1,0 +1,62 @@
+{
+  "numero": "CO-2026-02000",
+  "client": "c-0206",
+  "reference_client": null,
+  "cree_le": "2026-07-02T09:10:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "22 rue des Forges, 36999 Vendrigny (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "VIS-10539",
+      "libelle": "Rondelle plate M10, inox A2, sachet de 50",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 3.65,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 3.36,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 13.44
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 28.44,
+  "total_tva_euros": 5.69,
+  "total_ttc_euros": 34.13,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01849"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-02T09:10:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-02T09:12:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01849"
+    },
+    {
+      "date": "2026-07-03T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01849"
+    }
+  ]
+}

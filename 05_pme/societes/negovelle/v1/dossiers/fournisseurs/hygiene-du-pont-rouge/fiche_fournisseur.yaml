@@ -1,0 +1,10 @@
+# Fiche d'un fournisseur de Négovelle. Données FICTIVES.
+nom: Hygiène du Pont-Rouge
+activite: fabricant de produits d'hygiène et d'entretien
+adresse: 12 zone industrielle des Brandes, 36999 Laubrissac (FICTIF)
+telephone: 02 61 91 64 05
+courriel_commandes: commandes@hygiene-du-pont-rouge.example
+courriel_facturation: facturation@hygiene-du-pont-rouge.example
+iban: FR76 9999 9790 2092 7645 6119 099 (FICTIF)
+conditions: paiement à 60 jours date de facture
+minimum_de_commande: 150,00 € HT

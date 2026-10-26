@@ -1,0 +1,34 @@
+{
+  "numero": "BL-2026-01695",
+  "commande": "CO-2026-01846",
+  "client": "c-0194",
+  "date_expedition": "2026-06-25",
+  "date_livraison": "2026-06-25",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "135 place du Marché, 36999 Ardillac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ELE-10212",
+      "libelle": "Ampoule LED G9 9 W, 2700 K",
+      "quantite": 20
+    },
+    {
+      "reference": "OUT-12450",
+      "libelle": "Spatule japonaise 150 mm",
+      "quantite": 4
+    },
+    {
+      "reference": "VIS-10988",
+      "libelle": "Vis à bois tête fraisée 3,5x50, zinguée, boîte de 100",
+      "quantite": 4
+    }
+  ],
+  "reserves": null,
+  "signataire": "Olivier Gay",
+  "statut": "livre"
+}

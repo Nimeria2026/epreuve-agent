@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-vete-002",
+  "de": {
+    "nom": "Nadège Lebrun",
+    "adresse": "nadege.lebrun@domivelle.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Les appels du centre",
+  "date": "2026-06-08T08:50:00+02:00",
+  "corps": "Véronique,\n\nCédric ne sera pas là demain, m'a-t-il dit. À qui je passe les appels des locataires du centre ? Solène s'est proposée.\n\nNadège",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

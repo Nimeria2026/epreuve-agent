@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-covi-001",
+  "de": {
+    "nom": "Corinne Vidal",
+    "adresse": "corinne.vidal@negovelle.example"
+  },
+  "a": [
+    "corinne.vidal@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Appels de vendredi, adresses de chantier",
+  "date": "2026-07-03T17:40:00+02:00",
+  "corps": "Appels de cet après-midi, aux numéros des fiches :\n\n- Boulay Travaux publics (02 61 91 95 68), 15 h 10 : Arnaud Gervais confirme le chantier, lieu-dit les Varennes, route d'Ardillac, 36999 Vendrigny.\n- Voisin Agencement (02 61 91 62 14), 15 h 25 : Maxime Cosson confirme le chantier, mais au 21 rue du Lavoir, 36999 Mérolles-en-Brenne, et non au 12 de son courriel.\n- Chauffage Salmon (02 61 91 68 70), 15 h 40 : Hugo Achard confirme le chantier, résidence les Peupliers, 5 allée des Saules, 36999 Corvalet.\n- Besson Rénovation (02 61 91 97 79), 16 h 05 : pas de réponse, message laissé.\n- Valentin Rénovation (02 61 91 91 88), 16 h 20 : Anne Gallet dit n'avoir rien demandé, et Valentin Rénovation n'a aucun chantier route de Brissonne. On ne change rien.\n\nLundi : saisir ce qui est confirmé.\n\nCorinne",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

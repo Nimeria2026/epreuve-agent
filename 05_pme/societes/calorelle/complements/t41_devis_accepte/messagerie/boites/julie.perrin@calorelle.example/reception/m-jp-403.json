@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-403",
+  "de": {
+    "nom": "Céline Faure",
+    "adresse": "celine.faure@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Votre devis DV-2026-011",
+  "date": "2026-11-02T08:02:00+01:00",
+  "corps": "Bonjour Madame Perrin,\n\nJ'accepte votre devis DV-2026-011 pour le remplacement de ma chaudière. Bon pour accord. Quand pourrez-vous l'installer ?\n\nCordialement,\nCéline Faure (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

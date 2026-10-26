@@ -1,0 +1,15 @@
+# Fiche du propriétaire p-0004, mandant de Domivelle. Données FICTIVES.
+code: p-0004
+nom: Mme Alice Besnard
+adresse: 46 rue des Lilas, 18999 Montclavel-sur-Cher (FICTIF)
+courriel: alice.besnard@mel-perso.example
+telephone: 06 39 98 71 41
+iban: FR76 9999 9161 9446 7344 8265 841 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- n01-05
+- n01-06
+- n01-13
+- n02-07
+- n02-09
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

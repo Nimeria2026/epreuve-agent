@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-befa-008",
+  "de": {
+    "nom": "Catherine Gautier",
+    "adresse": "catherine.gautier@electricite-gay.example"
+  },
+  "a": [
+    "benoit.faure@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande urgente",
+  "date": "2026-07-06T06:50:00+02:00",
+  "corps": "Bonjour Benoît,\n\nNous avons un chantier qui démarre mercredi : pouvez-vous nous livrer au siège\n- 4 x ELE-12441, Interrupteur double va-et-vient, blanc\n- 10 x ELE-10555, Boîte d'encastrement étanche 85 mm\n\nMerci de faire au plus vite.\n\nCatherine Gautier\nÉlectricité Gay",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

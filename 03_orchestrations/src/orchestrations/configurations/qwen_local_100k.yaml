@@ -1,0 +1,13 @@
+# Qwen 3.8 27B (W4A16), servi sur le poste d'Alexandre par `make qwen CONTEXTE=102400`
+# (09_outillage/scripts/servir_qwen.sh). Réglages de l'éditeur : aucun paramètre ajouté. Comme
+# qwen_local.yaml, sauf le délai d'un appel : 3 600 s, pour qu'un tour puisse remplir le contexte
+# (cadrage du second Qwen local, choix S1).
+role: agent
+modele: qwen3.8-27b-w4a16
+adresse: http://127.0.0.1:30100/v1
+cle_env: null
+parametres: {}
+# vLLM rend le raisonnement dans `reasoning` ; le modèle de conversation de Qwen ne le relit pas.
+raisonnement_renvoye: null
+delai_appel_secondes: 3600
+tours_max: 60

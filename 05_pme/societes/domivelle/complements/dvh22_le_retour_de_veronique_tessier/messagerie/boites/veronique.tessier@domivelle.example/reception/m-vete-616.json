@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-vete-616",
+  "de": {
+    "nom": "Philippe Rivière",
+    "adresse": "philippe.riviere@courriel.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Demande d'étalement, Le Clos Fleuri",
+  "date": "2026-08-19T10:00:00+02:00",
+  "corps": "Madame,\n\nLe syndicat du Clos Fleuri me réclame 2 418,00 €, frais compris. Je vous demande de les étaler sur douze mois ; je n'ai jamais eu de retard avant cette année.\n\nM. Philippe Rivière, lot 6",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

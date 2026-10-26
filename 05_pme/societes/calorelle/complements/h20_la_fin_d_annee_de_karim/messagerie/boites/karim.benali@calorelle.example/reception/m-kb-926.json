@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-926",
+  "de": {
+    "nom": "Syndic de la Résidence des Saulaies",
+    "adresse": "contact@syndic-de-la-residence-des-saulaies-106.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Un devis qui n'est pas le nôtre",
+  "date": "2026-12-23T09:15:00+01:00",
+  "corps": "Bonjour,\n\nNous avons reçu le 7 décembre votre devis DV-2026-020, qui concerne la Résidence des Saulaies du chemin des Vignes et pas la nôtre. Nous vous le signalons ; que devons-nous en faire ?\n\nLe syndic de la Résidence des Saulaies, 89 rue du Moulin (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

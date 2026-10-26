@@ -1,0 +1,8 @@
+# Fiche fournisseur Calorelle. Données FICTIVES.
+nom: "Outillage de la Courtine"
+activite: "outillage"
+adresse: "29 zone d'activité du Pré-Bouvreuil, 45999 Valmont-sur-Loire (FICTIF)"
+telephone: "02 61 91 20 22"
+courriel_facturation: "compta@outillage-de-la-courtine.example"
+iban: "FR76 9999 9544 9663 5483 3859 530 (FICTIF)"
+conditions: "paiement à 30 jours fin de mois"

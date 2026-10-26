@@ -1,0 +1,71 @@
+# Registre des lots en gestion, s06. Données FICTIVES.
+immeuble: s06
+nature: groupe de maisons
+adresse: 10 rue des Remparts, 18999 Chantebrune (FICTIF)
+secteur: sud
+gestionnaire: Solène Audoin
+distance_agence_km: 9
+annee_construction: 1971
+gardien: false
+copropriete_du_syndic: null
+lots:
+- lot: s06-01
+  type: maison T5
+  surface_m2: 111
+  proprietaire: p-0514
+  locataire: M. Albert Guillot
+  entree: '2026-01-24'
+  loyer_hors_charges: 939,00 €
+  provision_sur_charges: 13,00 €
+  depot_de_garantie: 939,00 €
+  revision: chaque 24 janvier
+  trimestre_irl: T3
+  dpe: C
+- lot: s06-02
+  type: maison T5
+  surface_m2: 119
+  proprietaire: p-0539
+  locataire: Mme Yvette Deschamps
+  entree: '2012-11-15'
+  loyer_hors_charges: 1 070,00 €
+  provision_sur_charges: 20,00 €
+  depot_de_garantie: 808,00 €
+  revision: chaque 15 novembre
+  trimestre_irl: T3
+  dpe: E
+- lot: s06-03
+  type: maison T5
+  surface_m2: 125
+  proprietaire: p-0540
+  locataire: Mme Léa Fontaine
+  entree: '2025-05-19'
+  loyer_hors_charges: 1 195,00 €
+  provision_sur_charges: 12,00 €
+  depot_de_garantie: 1 166,00 €
+  revision: chaque 19 mai
+  trimestre_irl: T1
+  dpe: B
+- lot: s06-04
+  type: maison T3
+  surface_m2: 80
+  proprietaire: p-0541
+  locataire: Mme Alice Julien
+  entree: '2012-08-14'
+  loyer_hors_charges: 655,00 €
+  provision_sur_charges: 8,00 €
+  depot_de_garantie: 494,00 €
+  revision: chaque 14 août
+  trimestre_irl: T2
+  dpe: E
+- lot: s06-05
+  type: maison T3
+  surface_m2: 85
+  proprietaire: p-0516
+  locataire: M. Claude Chabert
+  entree: '2026-03-15'
+  loyer_hors_charges: 685,00 €
+  provision_sur_charges: 19,00 €
+  depot_de_garantie: 685,00 €
+  revision: chaque 15 mars
+  trimestre_irl: T4
+  dpe: C

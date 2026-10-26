@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0272"
+nom: "Pierre Lambert"
+type: "particulier"
+adresse: "108 rue des Écoles, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "pierre.lambert@courriel.example"
+telephone: "06 39 98 50 66"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2021-05-13"
+  mois_anniversaire: "mai"
+  derniere_visite: "2026-05-11"

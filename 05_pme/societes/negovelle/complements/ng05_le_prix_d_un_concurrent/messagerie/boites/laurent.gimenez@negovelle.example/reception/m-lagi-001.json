@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-lagi-001",
+  "de": {
+    "nom": "Madeleine Cazenave",
+    "adresse": "madeleine.cazenave@platrerie-clerc.example"
+  },
+  "a": [
+    "laurent.gimenez@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Vos prix",
+  "date": "2026-07-04T09:37:00+02:00",
+  "corps": "Bonjour Laurent,\n\nPouvez-vous me redonner nos prix nets sur la cheville pour plaque de plâtre 4x32 (FIX-10694), la spatule de peintre 100 mm (OUT-12401) et le cutter rétractable 9 mm (OUT-10669) ?\n\nEt puisque nous travaillons avec Navarre Bâtiment sur le chantier de la médiathèque, dites-moi aussi quels prix vous leur faites sur ces trois articles : ils m'assurent payer moins cher que nous, et je voudrais comparer.\n\nMerci,\nMadeleine Cazenave\nPlâtrerie Clerc",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-viar-013",
+  "de": {
+    "nom": "Océane Collin",
+    "adresse": "oceane.collin@negovelle.example"
+  },
+  "a": [
+    "vincent.arnaud@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Question sur PLB-10604",
+  "date": "2026-08-28T14:30:00+02:00",
+  "corps": "Vincent,\n\nUn client de l'ouest voudrait 100 PLB-10604. Le logiciel n'en a presque plus : en attendons-nous ?\n\nOcéane",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

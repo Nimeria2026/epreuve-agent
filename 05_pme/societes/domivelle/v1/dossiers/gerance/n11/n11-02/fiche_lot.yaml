@@ -1,0 +1,24 @@
+# Fiche du lot n11-02. Données FICTIVES.
+lot: n11-02
+adresse: 74 rue Saint-Martin, 18999 Vernillac (FICTIF)
+type: maison T5
+surface_m2: 119
+locataire:
+  nom: Mme Sylvie Leroux
+  courriel: sylvie.leroux@courriel.example
+  telephone: 06 39 98 53 79
+  entree: '2015-08-08'
+bail:
+  signature: '2015-08-08'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 977,00 €
+  depot_de_garantie: 782,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T2
+dpe:
+  classe: E
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

@@ -1,0 +1,10 @@
+# Fiche d'un fournisseur de Négovelle. Données FICTIVES.
+nom: Hygiène des Tilleuls
+activite: fabricant de produits d'hygiène et d'entretien
+adresse: 24 zone d'activités des Grands Prés, 36999 Ardillac (FICTIF)
+telephone: 02 61 91 69 60
+courriel_commandes: commandes@hygiene-des-tilleuls.example
+courriel_facturation: facturation@hygiene-des-tilleuls.example
+iban: FR76 9999 9785 3630 1467 0525 250 (FICTIF)
+conditions: paiement à 60 jours date de facture
+minimum_de_commande: 300,00 € HT

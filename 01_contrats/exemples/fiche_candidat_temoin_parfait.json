@@ -1,0 +1,13 @@
+{
+  "identifiant": "temoin_parfait",
+  "nom": "Témoin parfait",
+  "version": "1",
+  "origine": "temoin",
+  "division": null,
+  "branchement": "mcp",
+  "editeur": "Épreuve d'agent",
+  "url": null,
+  "modeles": [],
+  "cout_mesurable": true,
+  "conditions_utilisation": null
+}

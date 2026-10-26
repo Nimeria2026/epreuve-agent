@@ -1,0 +1,13 @@
+{
+  "numero": "INT-2026-0048",
+  "client": "c-0010",
+  "techniciens": [
+    "thomas.girard"
+  ],
+  "debut": "2026-11-16T13:30:00+01:00",
+  "fin": "2026-11-16T17:30:00+01:00",
+  "nature": "installation",
+  "objet": "Pose d'un ballon thermodynamique",
+  "statut": "planifiee",
+  "cree_par": "marc.duval"
+}

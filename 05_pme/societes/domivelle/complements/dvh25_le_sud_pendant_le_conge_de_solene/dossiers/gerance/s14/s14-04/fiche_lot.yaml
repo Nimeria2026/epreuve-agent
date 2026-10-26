@@ -1,0 +1,19 @@
+# Fiche du lot s14-04. Données FICTIVES.
+lot: s14-04
+adresse: 48 rue du Lavoir, 18999 Chantebrune (FICTIF)
+type: maison T5
+surface_m2: 103
+locataire:
+  nom: Mme Jeanne Muller
+  courriel: jeanne.muller@courriel.example
+  telephone: 06 39 98 76 10
+  entree: '2022-04-11'
+bail:
+  signature: '2022-04-11'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 871,00 €
+  depot_de_garantie: 792,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T4
+dpe:
+  classe: D

@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-viar-022",
+  "de": {
+    "nom": "Kévin Morin",
+    "adresse": "kevin.morin@courriel.example"
+  },
+  "a": [
+    "vincent.arnaud@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Candidature : préparateur de commandes",
+  "date": "2026-08-28T18:20:00+02:00",
+  "corps": "Bonjour,\n\nPréparateur de commandes depuis six ans, cariste, je vous propose ma candidature pour votre entrepôt de Vaumoreau-sur-Indre. Vous trouverez mon CV ci-joint.\n\nKévin Morin",
+  "pieces_jointes": [
+    {
+      "nom": "cv_kevin_morin.pdf",
+      "fichier": "pieces/m-viar-022/cv_kevin_morin.pdf",
+      "taille_octets": 761
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

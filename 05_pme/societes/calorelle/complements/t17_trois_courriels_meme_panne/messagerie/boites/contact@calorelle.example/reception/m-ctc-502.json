@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-502",
+  "de": {
+    "nom": "Agnès Martin",
+    "adresse": "agnes.martin@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "RE: Chaudière en panne",
+  "date": "2026-11-02T07:48:00+01:00",
+  "corps": "Toujours rien ? Il fait 14 degrés dans la maison.\n\nAgnès Martin (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

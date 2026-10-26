@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-pale-b01",
+  "de": {
+    "nom": "Bruno Castaing",
+    "adresse": "bruno.castaing@negovelle.example"
+  },
+  "a": [
+    "patrice.lemaire@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Inventaire tournant",
+  "date": "2026-07-03T14:12:00+02:00",
+  "corps": "Bonjour à tous,\n\nL'inventaire tournant de la visserie se fait jeudi après-midi.\n\nBruno",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

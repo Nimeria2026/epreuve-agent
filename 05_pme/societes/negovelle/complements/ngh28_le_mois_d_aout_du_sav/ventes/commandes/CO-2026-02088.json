@@ -1,0 +1,79 @@
+{
+  "numero": "CO-2026-02088",
+  "client": "c-0237",
+  "reference_client": null,
+  "cree_le": "2026-07-26T10:00:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "111 rue du Four, 36999 Vendrigny (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "PLB-11608",
+      "libelle": "Mamelon laiton 12x17",
+      "quantite": 30,
+      "prix_tarif_ht_euros": 4.7,
+      "remise_pourcent": 6.88,
+      "prix_net_ht_euros": 4.38,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 131.4
+    },
+    {
+      "reference": "ELE-11486",
+      "libelle": "Disjoncteur bipolaire 20 A, courbe C",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 23.7,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 22.75,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 136.5
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 282.9,
+  "total_tva_euros": 56.58,
+  "total_ttc_euros": 339.48,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01908"
+  ],
+  "facture": "FC-2026-1476",
+  "historique": [
+    {
+      "date": "2026-07-26T10:00:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": "commande du client"
+    },
+    {
+      "date": "2026-07-26T10:05:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": "stock réservé"
+    },
+    {
+      "date": "2026-07-27T16:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01908"
+    },
+    {
+      "date": "2026-07-28T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01908"
+    },
+    {
+      "date": "2026-07-31T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1476"
+    }
+  ]
+}

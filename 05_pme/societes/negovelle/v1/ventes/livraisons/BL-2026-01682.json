@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01682",
+  "commande": "CO-2026-01833",
+  "client": "c-0275",
+  "date_expedition": "2026-06-24",
+  "date_livraison": "2026-06-24",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "4 zone d'activités des Grands Prés, 36999 Vaumoreau-sur-Indre (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ELE-11069",
+      "libelle": "Câble R2V 3G 2,5 mm², couronne de 100 m",
+      "quantite": 5
+    },
+    {
+      "reference": "ELE-12858",
+      "libelle": "Projecteur LED 20 W, sans détecteur",
+      "quantite": 1
+    }
+  ],
+  "reserves": null,
+  "signataire": "René Crozet",
+  "statut": "livre"
+}

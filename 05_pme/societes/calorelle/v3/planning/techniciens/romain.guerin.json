@@ -1,0 +1,15 @@
+{
+  "id": "romain.guerin",
+  "nom": "Romain Guérin",
+  "competences": [
+    "chaudiere_gaz",
+    "chaudiere_fioul"
+  ],
+  "apprenti": false,
+  "indisponibilites": [
+    {
+      "debut": "2026-12-28T00:00:00+01:00",
+      "fin": "2027-01-01T00:00:00+01:00"
+    }
+  ]
+}

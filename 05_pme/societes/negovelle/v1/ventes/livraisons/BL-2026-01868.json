@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01868",
+  "commande": "CO-2026-02035",
+  "client": "c-0101",
+  "date_expedition": "2026-07-03",
+  "date_livraison": null,
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "26 parc d'activités de la Gare, 36999 Vaumoreau-sur-Indre (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ELE-13454",
+      "libelle": "Tube LED T8 600 mm, 14 W",
+      "quantite": 1
+    }
+  ],
+  "reserves": null,
+  "signataire": null,
+  "statut": "en_cours"
+}

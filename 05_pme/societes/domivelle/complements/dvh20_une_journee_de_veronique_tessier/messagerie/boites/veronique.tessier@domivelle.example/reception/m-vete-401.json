@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-vete-401",
+  "de": {
+    "nom": "Nadège Lebrun",
+    "adresse": "nadege.lebrun@domivelle.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Lettre recommandée électronique : congé, c01-14",
+  "date": "2026-06-05T11:30:00+02:00",
+  "corps": "Véronique,\n\nUne lettre recommandée électronique est arrivée ce vendredi 5 juin pour Domivelle : Mme Madeleine Brunet, locataire du lot c01-14, donne congé. Elle a retrouvé un emploi après une période de chômage et demande un préavis d'un mois ; son contrat de travail et l'attestation de France Travail sont joints. Je te transmets la lettre.\n\nNadège",
+  "pieces_jointes": [
+    {
+      "nom": "lettre_recommandee_electronique_c01-14.pdf",
+      "fichier": "pieces/m-vete-401/lettre_recommandee_electronique_c01-14.pdf",
+      "taille_octets": 771
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

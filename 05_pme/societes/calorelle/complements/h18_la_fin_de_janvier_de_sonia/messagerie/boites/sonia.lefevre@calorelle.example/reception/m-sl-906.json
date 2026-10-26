@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-906",
+  "de": {
+    "nom": "David Roussel",
+    "adresse": "david.roussel@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Congé début mars",
+  "date": "2027-01-29T09:40:00+01:00",
+  "corps": "Sonia,\n\nJe demande un congé du lundi 1er au vendredi 5 mars 2027. Combien de jours me restera-t-il après ?\n\nDavid (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

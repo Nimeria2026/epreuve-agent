@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01677",
+  "commande": "CO-2026-01828",
+  "client": "c-0164",
+  "date_expedition": "2026-06-24",
+  "date_livraison": "2026-06-24",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "11 parc d'activités de la Gare, 36999 Vaumoreau-sur-Indre (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "QUI-13062",
+      "libelle": "Verrou à baïonnette 60 mm, laiton",
+      "quantite": 2
+    },
+    {
+      "reference": "VIS-12107",
+      "libelle": "Vis à bois tête fraisée 4,5x80, bichromatée, boîte de 100",
+      "quantite": 5
+    }
+  ],
+  "reserves": null,
+  "signataire": "Hugo Maurin",
+  "statut": "livre"
+}

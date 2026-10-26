@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-009",
+  "de": {
+    "nom": "Denise Gonnet",
+    "adresse": "denise.gonnet@platrerie-gabriel.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Avez-vous des spatules ?",
+  "date": "2026-07-06T06:40:00+02:00",
+  "corps": "Bonjour,\n\nAvez-vous des spatules japonaises de 40 mm ? Il m'en faudrait 10.\n\nDenise Gonnet\nPlâtrerie Gabriel",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

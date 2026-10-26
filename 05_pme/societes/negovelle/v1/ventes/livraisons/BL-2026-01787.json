@@ -1,0 +1,34 @@
+{
+  "numero": "BL-2026-01787",
+  "commande": "CO-2026-01938",
+  "client": "c-0077",
+  "date_expedition": "2026-06-30",
+  "date_livraison": "2026-06-30",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "23 parc d'activités de la Gare, 36999 Ardillac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "OUT-12580",
+      "libelle": "Spatule à reboucher 250 mm",
+      "quantite": 4
+    },
+    {
+      "reference": "VIS-13430",
+      "libelle": "Vis à bois tête fraisée 6x45, inox A2, boîte de 500",
+      "quantite": 5
+    },
+    {
+      "reference": "VIS-13862",
+      "libelle": "Vis à tôle tête cylindrique 4,2x13, inox A2, boîte de 250",
+      "quantite": 4
+    }
+  ],
+  "reserves": "un colis enfoncé, contenu à vérifier",
+  "signataire": "Christine Maurin",
+  "statut": "livre"
+}

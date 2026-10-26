@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-ctc-701",
+  "de": {
+    "nom": "Électricité du Val-Mauvoir",
+    "adresse": "compta@electricite-du-val-mauvoir.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture EVM-2011",
+  "date": "2026-11-02T07:30:00+01:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-jointe notre facture EVM-2011 du 30 octobre 2026.\n\nService comptable, Électricité du Val-Mauvoir (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "Facture_EVM-2011.pdf",
+      "fichier": "pieces/m-ctc-701/Facture_EVM-2011.pdf",
+      "taille_octets": 1053
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

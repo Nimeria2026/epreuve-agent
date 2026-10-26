@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-405",
+  "de": {
+    "nom": "Florian Masson",
+    "adresse": "florian.masson@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Lundi 21 décembre",
+  "date": "2026-11-01T20:30:00+01:00",
+  "corps": "Bonjour Sonia,\n\nJe voudrais poser le lundi 21 décembre, si c'est possible.\n\nBonne soirée,\nFlorian (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

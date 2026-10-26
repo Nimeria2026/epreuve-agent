@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-741",
+  "de": {
+    "nom": "Sophie Vincent",
+    "adresse": "sophie.vincent@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Mon devis",
+  "date": "2026-12-22T09:00:00+01:00",
+  "corps": "Bonjour,\n\nOù en est mon devis pour la pompe à chaleur ?\n\nSophie Vincent, 39 place du Marché, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,59 @@
+{
+  "numero": "BL-2026-01691",
+  "commande": "CO-2026-01842",
+  "client": "c-0025",
+  "date_expedition": "2026-06-24",
+  "date_livraison": "2026-06-24",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "119 rue des Chênes, 36999 Mérolles-en-Brenne (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "CON-10538",
+      "libelle": "Disque abrasif auto-agrippant 125 mm, grain 40, boîte de 25",
+      "quantite": 3
+    },
+    {
+      "reference": "CON-11960",
+      "libelle": "Ruban adhésif PVC 38 mm, rouleau de 50 m",
+      "quantite": 4
+    },
+    {
+      "reference": "ELE-10955",
+      "libelle": "Câble H07V-K 6 mm², couronne de 50 m",
+      "quantite": 1
+    },
+    {
+      "reference": "ENT-10342",
+      "libelle": "Distributeur de papier toilette, blanc",
+      "quantite": 2
+    },
+    {
+      "reference": "FIX-10081",
+      "libelle": "Cheville métallique à expansion M5x45, boîte de 25",
+      "quantite": 1
+    },
+    {
+      "reference": "FIX-10130",
+      "libelle": "Cheville métallique à expansion M6x45, boîte de 50",
+      "quantite": 1
+    },
+    {
+      "reference": "QUI-10244",
+      "libelle": "Butoir de porte magnétique, laiton",
+      "quantite": 6
+    },
+    {
+      "reference": "QUI-12972",
+      "libelle": "Verrou de sûreté 80 mm, inox",
+      "quantite": 6
+    }
+  ],
+  "reserves": null,
+  "signataire": "Laurent Barbe",
+  "statut": "livre"
+}

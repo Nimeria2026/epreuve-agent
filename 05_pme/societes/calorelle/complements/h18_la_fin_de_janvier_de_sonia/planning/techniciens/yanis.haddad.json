@@ -1,0 +1,15 @@
+{
+  "id": "yanis.haddad",
+  "nom": "Yanis Haddad",
+  "competences": [
+    "climatisation",
+    "ventilation"
+  ],
+  "apprenti": false,
+  "indisponibilites": [
+    {
+      "debut": "2027-01-11T00:00:00+01:00",
+      "fin": "2027-01-16T00:00:00+01:00"
+    }
+  ]
+}

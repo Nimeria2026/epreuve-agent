@@ -1,0 +1,34 @@
+{
+  "numero": "BL-2026-01715",
+  "commande": "CO-2026-01866",
+  "client": "c-0228",
+  "date_expedition": "2026-06-24",
+  "date_livraison": "2026-06-25",
+  "transport": {
+    "mode": "transporteur",
+    "transporteur": "transports-delorme",
+    "recepisse": "TD-910382"
+  },
+  "adresse": "38 zone artisanale du Moulin, 36999 Vendrigny (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "OUT-11755",
+      "libelle": "Pince à dénuder 200 mm",
+      "quantite": 4
+    },
+    {
+      "reference": "OUT-11935",
+      "libelle": "Scie à bûches 450 mm",
+      "quantite": 5
+    },
+    {
+      "reference": "VIS-13332",
+      "libelle": "Vis à bois tête fraisée 6x35, zinguée, boîte de 100",
+      "quantite": 1
+    }
+  ],
+  "reserves": null,
+  "signataire": "Sylvie Gabriel",
+  "statut": "livre"
+}

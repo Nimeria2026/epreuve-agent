@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-maca-102",
+  "de": {
+    "nom": "Lucie Texier",
+    "adresse": "lucie.texier@mel-perso.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Dégâts dans mon appartement",
+  "date": "2026-06-07T11:40:00+02:00",
+  "corps": "Bonjour,\n\nAvec la fuite de vendredi, le plafond de mon séjour est taché et gonflé, et mon canapé est abîmé. Le syndic doit faire refaire mon plafond et me rembourser le canapé : quand passez-vous ?\n\nLucie Texier, lot c07-14, 53 allée des Acacias",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

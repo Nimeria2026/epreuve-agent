@@ -1,0 +1,15 @@
+# Budget prévisionnel de l'exercice en cours, voté, copropriété cp22. Données FICTIVES.
+copropriete: cp22
+exercice: 2026-2027
+total: 18 000,00 €
+postes:
+  nettoyage des parties communes: 4 304,00 €
+  espaces verts: 1 565,00 €
+  électricité des parties communes: 1 761,00 €
+  eau: 2 739,00 €
+  assurance de l'immeuble: 2 152,00 €
+  honoraires du syndic: 3 522,00 €
+  entretien et petites réparations: 1 957,00 €
+repartition:
+  charges générales, aux tantièmes généraux: 18 000,00 €
+appel: un quart du budget, exigible le premier jour de chaque trimestre

@@ -1,0 +1,4 @@
+# Horloge simulée de Négovelle. Les courriels envoyés pendant une exécution sont datés à partir de
+# cette heure, une minute d'écart entre deux envois. Lundi 6 juillet 2026, heure de Paris (heure
+# d'été). Fictif.
+debut: "2026-07-06T08:00:00+02:00"

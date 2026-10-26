@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-sl-915",
+  "de": {
+    "nom": "Bastien Morel",
+    "adresse": "bastien.morel@courriel.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Mon RIB",
+  "date": "2027-01-31T20:10:00+01:00",
+  "corps": "Bonjour Madame Lefèvre,\n\nJ'avais oublié mon RIB, le voici.\n\nBastien Morel (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "rib_Morel.pdf",
+      "fichier": "pieces/m-sl-915/rib_Morel.pdf",
+      "taille_octets": 777
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

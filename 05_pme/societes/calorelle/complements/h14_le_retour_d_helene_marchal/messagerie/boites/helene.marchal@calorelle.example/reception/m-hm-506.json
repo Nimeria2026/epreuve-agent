@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-hm-506",
+  "de": {
+    "nom": "Patrick Boyer",
+    "adresse": "patrick.boyer@courriel.example"
+  },
+  "a": [
+    "helene.marchal@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Plus de chauffage",
+  "date": "2026-11-12T19:05:00+01:00",
+  "corps": "Madame Marchal,\n\nJe n'arrive pas à joindre vos services : notre pompe à chaleur est en défaut depuis ce soir, plus de chauffage. Nous avons le contrat Sérénité Plus. Pouvez-vous envoyer quelqu'un ?\n\nPatrick Boyer, 66 rue de la Loire, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

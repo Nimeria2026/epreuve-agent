@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0424"
+nom: "Aurélie François"
+type: "particulier"
+adresse: "24 allée des Peupliers, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "aurelie.francois@courriel.example"
+telephone: "06 39 98 51 01"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2021-05-06"
+  mois_anniversaire: "mai"
+  derniere_visite: "2026-05-16"

@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-sl-810",
+  "de": {
+    "nom": "Mathieu Picard",
+    "adresse": "mathieu.picard@calorelle.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Note de frais de novembre",
+  "date": "2026-11-20T12:30:00+01:00",
+  "corps": "Bonjour Patrick,\n\nMa note de frais de novembre :\n- 17 novembre, stationnement à Orléans : 12,00 €, ticket joint ;\n- 17 novembre, repas : 20,00 €, ticket joint ;\n- 17 novembre, péage : 9,80 €, j'ai perdu le ticket.\n\nMathieu (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "note_de_frais_mathieu_novembre.pdf",
+      "fichier": "pieces/m-sl-810/note_de_frais_mathieu_novembre.pdf",
+      "taille_octets": 767
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

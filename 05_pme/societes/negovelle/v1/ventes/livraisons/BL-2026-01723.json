@@ -1,0 +1,44 @@
+{
+  "numero": "BL-2026-01723",
+  "commande": "CO-2026-01874",
+  "client": "c-0112",
+  "date_expedition": "2026-06-26",
+  "date_livraison": "2026-06-26",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "32 zone d'activités des Grands Prés, 36999 Laubrissac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "CON-12057",
+      "libelle": "Ruban adhésif aluminium 38 mm, rouleau de 25 m",
+      "quantite": 60
+    },
+    {
+      "reference": "ELP-11290",
+      "libelle": "Foret à bois trois pointes 5 mm",
+      "quantite": 3
+    },
+    {
+      "reference": "OUT-10138",
+      "libelle": "Caisse à outils plastique 400 mm",
+      "quantite": 4
+    },
+    {
+      "reference": "PLB-12801",
+      "libelle": "Tube PER 16 mm, gainé bleu, couronne de 100 m",
+      "quantite": 10
+    },
+    {
+      "reference": "PRO-11665",
+      "libelle": "Pantalon de travail multipoches noir, taille 52",
+      "quantite": 2
+    }
+  ],
+  "reserves": "2 colis livrés sur 3",
+  "signataire": "Vincent Mabille",
+  "statut": "livre"
+}

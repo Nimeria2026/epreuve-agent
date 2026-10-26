@@ -1,0 +1,56 @@
+{
+  "numero": "DV-2026-014",
+  "client": "c-0069",
+  "objet": "Climatisation réversible des bureaux",
+  "lignes": [
+    {
+      "code": "CLI-01",
+      "libelle": "Climatiseur réversible mono-split 3,5 kW, classe A++, pilotable à distance",
+      "quantite": 1,
+      "prix_unitaire_ht_euros": 1450,
+      "taux_tva": 20,
+      "montant_ht_euros": 1450
+    },
+    {
+      "code": "CLI-02",
+      "libelle": "Unité intérieure supplémentaire du climatiseur réversible",
+      "quantite": 2,
+      "prix_unitaire_ht_euros": 690,
+      "taux_tva": 20,
+      "montant_ht_euros": 1380
+    },
+    {
+      "code": "ELE-01",
+      "libelle": "Raccordement électrique",
+      "quantite": 1,
+      "prix_unitaire_ht_euros": 160,
+      "taux_tva": 20,
+      "montant_ht_euros": 160
+    },
+    {
+      "code": "TUB-01",
+      "libelle": "Tuyauterie cuivre posée",
+      "quantite": 8,
+      "prix_unitaire_ht_euros": 42,
+      "taux_tva": 20,
+      "montant_ht_euros": 336
+    },
+    {
+      "code": "MO-01",
+      "libelle": "Main-d'œuvre de technicien",
+      "quantite": 9,
+      "prix_unitaire_ht_euros": 58,
+      "taux_tva": 20,
+      "montant_ht_euros": 522
+    }
+  ],
+  "remise_pourcent": 0,
+  "total_ht_euros": 3848,
+  "total_tva_euros": 769.6,
+  "total_ttc_euros": 4617.6,
+  "statut": "envoye",
+  "cree_le": "2026-11-02T10:00:00+01:00",
+  "cree_par": "julie.perrin",
+  "envoye_le": "2026-11-03T11:00:00+01:00",
+  "reponse_le": null
+}

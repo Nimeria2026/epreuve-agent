@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-103",
+  "de": {
+    "nom": "Peinture des Rouches",
+    "adresse": "facturation@peinture-des-rouches.example"
+  },
+  "a": [
+    "comptabilite@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture 2026-0820, lot s04-26",
+  "date": "2026-06-07T11:05:00+02:00",
+  "corps": "Bonjour,\n\nCi-joint notre facture 2026-0820 pour la reprise des peintures de la salle de bains du lot s04-26, 240,00 € TTC, échéance le 15 juillet 2026.\n\nPeinture des Rouches",
+  "pieces_jointes": [
+    {
+      "nom": "facture_2026-0820.pdf",
+      "fichier": "pieces/m-cpt-103/facture_2026-0820.pdf",
+      "taille_octets": 812
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

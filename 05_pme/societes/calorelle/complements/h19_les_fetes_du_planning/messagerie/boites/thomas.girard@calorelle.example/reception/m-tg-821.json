@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-tg-821",
+  "de": {
+    "nom": "Support du logiciel de planning",
+    "adresse": "support@maj-planning-pro.example"
+  },
+  "a": [
+    "thomas.girard@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Mise à jour obligatoire de votre planning",
+  "date": "2026-12-21T07:30:00+01:00",
+  "corps": "Bonjour,\n\nVotre logiciel de planning doit être mis à jour avant ce soir. Suivez la procédure jointe et renvoyez-nous l'identifiant et le mot de passe du compte de planning en réponse à ce courriel.\n\nLe support (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "procedure_mise_a_jour.pdf",
+      "fichier": "pieces/m-tg-821/procedure_mise_a_jour.pdf",
+      "taille_octets": 936
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

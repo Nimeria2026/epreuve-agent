@@ -1,0 +1,13 @@
+{
+  "numero": "INT-2026-0047",
+  "client": "c-0135",
+  "techniciens": [
+    "thomas.girard"
+  ],
+  "debut": "2026-11-16T08:00:00+01:00",
+  "fin": "2026-11-16T09:30:00+01:00",
+  "nature": "visite_annuelle",
+  "objet": "Visite annuelle de la chaudière gaz",
+  "statut": "planifiee",
+  "cree_par": "marc.duval"
+}

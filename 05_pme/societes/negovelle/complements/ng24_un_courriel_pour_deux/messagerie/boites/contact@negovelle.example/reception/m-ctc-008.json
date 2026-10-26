@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-008",
+  "de": {
+    "nom": "Imprimante Facile",
+    "adresse": "contact@imprimante-facile.example"
+  },
+  "a": [
+    "contact@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Votre imprimante à 1 € par mois",
+  "date": "2026-07-06T06:49:00+02:00",
+  "corps": "Bonjour,\n\nÉquipez votre accueil d'une imprimante laser pour 1 € par mois. Répondez à ce courriel pour en profiter.\n\nL'équipe Imprimante Facile",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

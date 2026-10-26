@@ -1,0 +1,25 @@
+# Fiche du client c-0237 de Négovelle. Données FICTIVES.
+code: c-0237
+nom: Chauffage Baillet
+type: artisan
+adresse: 111 rue du Four, 36999 Vendrigny (FICTIF)
+telephone: 02 61 91 68 75
+secteur: est
+commercial: fabrice.mercier
+administration_des_ventes: benoit.faure
+contacts:
+- nom: Michel Clerc
+  fonction: gérant
+  courriel: michel.clerc@chauffage-baillet.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 111 rue du Four, 36999 Vendrigny (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2009-08-01'
+limite_encours_euros: 5500.0
+livraisons_partielles: false
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

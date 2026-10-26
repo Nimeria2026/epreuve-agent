@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-710",
+  "de": {
+    "nom": "Établissements Simon",
+    "adresse": "contact@etablissements-simon-307.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Visite annuelle",
+  "date": "2026-11-30T08:10:00+01:00",
+  "corps": "Bonjour,\n\nNous avions demandé l'annulation de la visite du 9 novembre. Nous pouvons vous recevoir à partir du 14 décembre, pas avant : notre atelier est en inventaire jusque-là.\n\nÉtablissements Simon, service technique (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,139 @@
+{
+  "numero": "CO-2026-01964",
+  "client": "c-0306",
+  "reference_client": null,
+  "cree_le": "2026-06-30T09:10:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "57 rue des Peupliers, 36999 Fontclavier (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-10645",
+      "libelle": "Disque abrasif auto-agrippant 150 mm, grain 40, boîte de 25",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 7.85,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 7.85,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 23.55
+    },
+    {
+      "reference": "CON-11608",
+      "libelle": "Papier abrasif carbure de silicium, grain 60, rouleau de 50 m",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 13.3,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 13.3,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 53.2
+    },
+    {
+      "reference": "ELP-10351",
+      "libelle": "Embout de vissage PH2, étui de 25",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 4.85,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 4.85,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 14.55
+    },
+    {
+      "reference": "ENT-10147",
+      "libelle": "Balai d'atelier 40 cm",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 6.4,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 6.4,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 6.4
+    },
+    {
+      "reference": "ENT-11159",
+      "libelle": "Sacs poubelle 50 l, noirs, rouleau de 20",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 12.75,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 12.75,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 127.5
+    },
+    {
+      "reference": "FIX-12425",
+      "libelle": "Équerre de fixation 80x60x40 mm, zinguée",
+      "quantite": 100,
+      "prix_tarif_ht_euros": 4.2,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 4.2,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 420.0
+    },
+    {
+      "reference": "PLB-10204",
+      "libelle": "Bouchon de visite PVC 32 mm",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 2.9,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 2.9,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 5.8
+    },
+    {
+      "reference": "PLB-10571",
+      "libelle": "Collier de fixation tube 28 mm, sachet de 10",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 2.7,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 2.7,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 10.8
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 661.8,
+  "total_tva_euros": 132.36,
+  "total_ttc_euros": 794.16,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01813"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-06-30T09:10:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-30T09:12:00+02:00",
+      "par": "oceane.collin",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-01T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01813"
+    },
+    {
+      "date": "2026-07-01T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01813"
+    }
+  ]
+}

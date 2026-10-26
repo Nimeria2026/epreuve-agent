@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-vete-412",
+  "de": {
+    "nom": "Mme Estelle Gaillard",
+    "adresse": "estelle.gaillard@messagerie.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Personne ne me répond",
+  "date": "2026-06-07T20:10:00+02:00",
+  "corps": "Madame la gérante,\n\nLe robinet de ma cuisine goutte depuis trois semaines : le joint est usé. J'ai écrit deux fois à Mme Audoin sans réponse. Je vous demande d'envoyer un plombier au plus vite, aux frais du propriétaire.\n\nEstelle Gaillard, lot s01-03",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

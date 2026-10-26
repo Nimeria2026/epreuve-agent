@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-002",
+  "de": {
+    "nom": "Matériel électrique du Val-Corvalet",
+    "adresse": "facturation@materiel-electrique-du-val-corvalet.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture F33972",
+  "date": "2026-06-30T09:15:00+02:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-jointe notre facture F33972 du 30 juin 2026, pour votre commande CA-2026-0304 :\n- ELE-11184, Câble R2V 5G 6 mm², couronne de 50 m : 2 x 178,51 € HT = 357,02 €\n- ELE-11674, Disjoncteur tétrapolaire 25 A, courbe D : 80 x 18,59 € HT = 1 487,20 €\n- ELE-13225, Réglette LED 1200 mm, 24 W : 160 x 6,88 € HT = 1 100,80 €\n\nTotal HT : 2 945,02 € ; TVA 20 % : 589,00 € ; total TTC : 3 534,02 €. Paiement à 60 jours date de facture.\n\nService facturation\nMatériel électrique du Val-Corvalet",
+  "pieces_jointes": [
+    {
+      "nom": "F33972.pdf",
+      "fichier": "pieces/m-cpt-002/F33972.pdf",
+      "taille_octets": 811
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

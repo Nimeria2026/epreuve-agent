@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-003",
+  "de": {
+    "nom": "Sophie Brochard",
+    "adresse": "sophie.brochard@serrurerie-grenier.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-06T06:39:00+02:00",
+  "corps": "Bonjour,\n\nVoici notre commande, à livrer au siège :\n- 12 x QUI-10767, Charnière invisible 30 mm, inox\n- 8 x QUI-10645, Charnière de meuble à visser 50 mm, laiton\n\nMerci,\nSophie Brochard\nSerrurerie Grenier",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

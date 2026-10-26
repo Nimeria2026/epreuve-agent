@@ -1,0 +1,44 @@
+{
+  "numero": "BL-2026-01844",
+  "commande": "CO-2026-01995",
+  "client": "c-0027",
+  "date_expedition": "2026-07-03",
+  "date_livraison": "2026-07-03",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "124 rue des Jardins, 36999 Laubrissac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "CON-10604",
+      "libelle": "Disque abrasif auto-agrippant 150 mm, grain 180, boîte de 10",
+      "quantite": 2
+    },
+    {
+      "reference": "FIX-10939",
+      "libelle": "Cheville à frapper 6x50, boîte de 50",
+      "quantite": 1
+    },
+    {
+      "reference": "OUT-11339",
+      "libelle": "Mètre ruban 8 m, ruban de 25 mm",
+      "quantite": 2
+    },
+    {
+      "reference": "PLB-10637",
+      "libelle": "Coude PVC 15° 32 mm",
+      "quantite": 1
+    },
+    {
+      "reference": "VIS-13086",
+      "libelle": "Vis à bois tête fraisée 5x80, bichromatée, boîte de 500",
+      "quantite": 10
+    }
+  ],
+  "reserves": null,
+  "signataire": "Hugo Clerc",
+  "statut": "livre"
+}

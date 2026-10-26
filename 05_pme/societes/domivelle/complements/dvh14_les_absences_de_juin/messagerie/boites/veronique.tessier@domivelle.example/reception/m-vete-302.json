@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-vete-302",
+  "de": {
+    "nom": "Solène Audoin",
+    "adresse": "solene.audoin@domivelle.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Arrêt de travail",
+  "date": "2026-06-08T08:05:00+02:00",
+  "corps": "Bonjour Véronique,\n\nJe suis arrêtée du mercredi 10 au mercredi 24 juin inclus ; l'avis est joint. Je travaille encore lundi et mardi.\n\nSolène",
+  "pieces_jointes": [
+    {
+      "nom": "arret_de_travail.pdf",
+      "fichier": "pieces/m-vete-302/arret_de_travail.pdf",
+      "taille_octets": 777
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

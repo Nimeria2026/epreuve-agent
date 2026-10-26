@@ -1,0 +1,25 @@
+# Fiche du client c-0030 de Négovelle. Données FICTIVES.
+code: c-0030
+nom: Chauffage Allard
+type: artisan
+adresse: 45 rue des Jardins, 36999 Brissonne (FICTIF)
+telephone: 02 61 91 88 61
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Yvette Boisson
+  fonction: gérante
+  courriel: yvette.boisson@chauffage-allard.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 45 rue des Jardins, 36999 Brissonne (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2011-01-01'
+limite_encours_euros: 3000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

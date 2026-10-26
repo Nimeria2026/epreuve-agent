@@ -1,0 +1,13 @@
+#!/bin/sh
+# Crochet git avant chaque commit, activé par « make installer-hooks » : la garde refuse un fichier
+# ajouté hors du plan arborescence.toml. Quelques secondes. Les tests complets tournent avant
+# chaque poussée (crochet pre-push) et à la demande (make tests), et non plus à chaque commit
+# (ADR 0007, JOURNAL, cent-quatre-vingt-quinzième entrée) ; avant un commit, la séance lance au
+# premier plan les tests de ce qu'elle a touché et dit lesquels.
+# Contournement délibéré : git commit --no-verify (à réserver à une urgence, et à noter dans
+# JOURNAL.md).
+racine="$(git rev-parse --show-toplevel)" || exit 1
+cd "$racine" || exit 1
+
+python3 09_outillage/garde/verifier_arborescence.py --indexe || exit 1
+echo "Crochet : arborescence conforme."

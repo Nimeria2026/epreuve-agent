@@ -1,0 +1,34 @@
+{
+  "numero": "BL-2026-01773",
+  "commande": "CO-2026-01924",
+  "client": "c-0091",
+  "date_expedition": "2026-06-30",
+  "date_livraison": "2026-06-30",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "56 rue des Jardins, 36999 Laubrissac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "PRO-10694",
+      "libelle": "Chaussures de sécurité légères composite S3, pointure 45",
+      "quantite": 12
+    },
+    {
+      "reference": "QUI-10873",
+      "libelle": "Charnière invisible 80 mm, inox",
+      "quantite": 1
+    },
+    {
+      "reference": "QUI-11478",
+      "libelle": "Cylindre européen 30x50 mm, 5 clés",
+      "quantite": 2
+    }
+  ],
+  "reserves": null,
+  "signataire": "Serge Barre",
+  "statut": "livre"
+}

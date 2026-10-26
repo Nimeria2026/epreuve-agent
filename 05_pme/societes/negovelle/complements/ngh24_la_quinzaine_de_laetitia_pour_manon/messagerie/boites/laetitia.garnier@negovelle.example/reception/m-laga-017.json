@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-laga-017",
+  "de": {
+    "nom": "Manon Rey",
+    "adresse": "manon.rey@negovelle.example"
+  },
+  "a": [
+    "laetitia.garnier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Mes clients pendant mon absence",
+  "date": "2026-08-07T17:45:00+02:00",
+  "corps": "Lætitia,\n\nMerci de prendre le nord jusqu'au 21. Rien d'urgent en cours de mon côté : tout ce qui est arrivé jusqu'à vendredi est saisi. Laisse-moi pour mon retour, le lundi 24, le point de ce que tu auras fait pour mes clients.\n\nManon",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

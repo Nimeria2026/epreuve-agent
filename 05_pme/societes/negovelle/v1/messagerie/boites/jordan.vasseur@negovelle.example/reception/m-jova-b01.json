@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jova-b01",
+  "de": {
+    "nom": "Chantal Robin",
+    "adresse": "chantal.robin@negovelle.example"
+  },
+  "a": [
+    "jordan.vasseur@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Courrier du jour",
+  "date": "2026-07-01T08:37:00+02:00",
+  "corps": "Bonjour,\n\nLe courrier du jour est numérisé et rangé dans courrier/.\n\nChantal",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

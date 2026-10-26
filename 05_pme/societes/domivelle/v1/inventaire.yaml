@@ -1,0 +1,115 @@
+# Ce que l'état initial v1 de Domivelle contient : le monde commun aux 20 tâches courtes du socle
+# (cadrage 00_docs/sources/2026-10-15_cadrage_administration_de_biens.md, sections 6 et 8).
+# Cahier des charges de 09_outillage/scripts/generer_domivelle_v1.py, qui écrit dossiers/ et
+# messagerie/ ; entreprise/ s'écrit à la main. Ce qui n'appartient qu'à une tâche, ses courriels non
+# lus et leurs pièces, va dans son complément (05_pme/societes/domivelle/complements/<tâche>/), à
+# l'écriture de la tâche. Jusqu'au run de mesure de la tranche longue, v1 peut encore changer :
+# chaque tâche y fixe, en l'écrivant, les objets dont elle a besoin (section
+# « reserve_pour_les_taches »). Le run de vérification des 20 tâches courtes, le 2026-10-15, a
+# tourné sur une version antérieure (JOURNAL, entrée 160), comme celui des 21 tâches longues, le
+# même jour (entrée 165).
+# Tout est fictif.
+
+date_simulee: 2026-06-08
+graine: 20260608
+
+conventions:
+  - chaque document porte la mention FICTIF
+  - adresses électroniques en domivelle.example pour le personnel et les boîtes partagées, en .example pour les tiers (RFC 2606)
+  - téléphones dans les plages réservées aux œuvres de fiction, 02 61 91 xx xx et 06 39 98 xx xx
+  - coordonnées bancaires au code banque 99999
+  - communes inventées, absentes de geo.api.gouv.fr (vérifié le 2026-10-15), toutes au code postal 18999, dans le Cher (18), réel
+  - un agent ne lit que le texte (.md, .yaml, .csv, .txt, .json) et le corps des courriels ; un PDF se range ou se transmet, il ne se lit pas (service des dossiers). Toute donnée qu'une tâche doit lire est donc en texte
+
+communes:
+  montclavel: {nom: Montclavel-sur-Cher, secteur: centre, distance_agence_km: 1 à 6}
+  vernillac: {nom: Vernillac, secteur: nord, distance_agence_km: 8 à 16}
+  saint_aubrin: {nom: Saint-Aubrin-des-Bois, secteur: nord, distance_agence_km: 14 à 24}
+  chantebrune: {nom: Chantebrune, secteur: sud, distance_agence_km: 7 à 15}
+  sorlay: {nom: Sorlay-le-Haut, secteur: sud, distance_agence_km: 12 à 22}
+
+dossiers:
+  commun:
+    contenu: le manuel, recopié de entreprise/ ; l'annuaire, tiré de l'organigramme ; la fiche de l'entreprise ; les indices de référence des loyers ; la liste des pièces exigibles d'un candidat
+  gerance:
+    lots: 1 200, dont environ 3 % vacants
+    secteurs: {nord: 400, centre: 420, sud: 380}
+    immeubles: >-
+      un dossier par immeuble ou par groupe de maisons d'une commune, gerance/<code>/, codes n01,
+      c01, s01 et suivants ; immeubles collectifs de 6 à 30 lots, groupes de maisons de 3 à 10
+    registre: >-
+      gerance/<code>/registre.yaml : en tête l'adresse, la commune, le secteur, la distance de
+      l'agence en kilomètres, l'année de construction et la copropriété du syndic qui le gère, s'il
+      y en a une ; puis une ligne par lot : code (<immeuble>-<NN>), type, surface, étage,
+      propriétaire (code), locataire (nom, date d'entrée), loyer hors charges, provision sur
+      charges, dépôt de garantie, date de révision, trimestre de référence de l'IRL, classe du DPE
+    documents_d_un_lot: >-
+      gerance/<code>/<lot>/ pour les lots des tâches et quelques voisins : fiche_lot.yaml (bail,
+      locataire et ses coordonnées), bail.pdf, etat_des_lieux_entree.md, dpe.pdf
+  proprietaires:
+    nombre: environ 700, codes p-0001 à p-0700
+    liste: proprietaires/liste.csv (code, nom, secteur, lots)
+    fiches: >-
+      proprietaires/<code>/fiche_proprietaire.yaml (adresse postale, courriel, téléphone, IBAN,
+      envoi des comptes rendus) et rib_<code>.pdf, pour les propriétaires des tâches et un
+      échantillon de 60 ; les autres n'apparaissent que dans la liste et les registres
+  candidatures:
+    contenu: candidatures/<lot>/<prenom.nom>/ pour trois lots en relocation, deux ou trois candidats chacun, pièces en PDF et liste_des_pieces.md
+  coproprietes:
+    nombre: 45, cp01 à cp45, de 8 à 60 lots ; Yohan Delmas gère cp01 à cp23, Gaëlle Fournel cp24 à cp45
+    par_copropriete: >-
+      fiche_copropriete.yaml (nom, adresse, nombre de lots, année de construction, exercice,
+      gestionnaire, conseil syndical, seuils de l'article 21, assureur de l'immeuble) ;
+      coproprietaires.csv (lot, tantièmes de chaque catégorie, nom, courriel, mode de notification
+      électronique ou voie postale, adresse postale) ; budget de l'exercice en cours ; procès-verbal
+      de la dernière assemblée en .md ; contrats d'entretien en .md
+    exercices: la plupart civils ; quelques-uns finissent le 31 mars, le 30 juin ou le 30 septembre
+    assemblees: >-
+      les copropriétés à exercice civil tiennent leur assemblée de mars à fin juin ; au 8 juin,
+      environ les deux tiers ont la leur, procès-verbal compris, les autres l'ont à venir
+  artisans:
+    nombre: 28 artisans et prestataires (plomberie, électricité, serrurerie, chauffage, menuiserie et volets, peinture, nettoyage, ascenseurs, espaces verts, couverture, vitrerie, désinsectisation, diagnostics)
+    par_artisan: artisans/<nom>/fiche_fournisseur.yaml et rib_<nom>.pdf (lus par le service des achats, entreprise/societe.yaml) ; pour les métiers qui travaillent dans les lots en gestion, factures/ avec une à trois factures déjà rangées sous <numero>_<lot>.pdf (manuel, section 18)
+  courrier:
+    contenu: courrier/2026-05/ et courrier/2026-06/, courrier numérisé déjà rangé sous le nom de la section 1 du manuel
+  comptabilite:
+    contenu: comptabilite/reversements/2026-05-10.csv (reversement de mai) ; notes des comptables en .md
+  direction:
+    contenu: direction/notes_de_frais/2026-03/ et 2026-04/, notes déjà visées en .md ; documents de la gérante
+  rh:
+    contenu: rh/<prenom.nom>/ pour les douze salariés (contrat en PDF) ; rh/candidatures/ avec deux candidatures déjà rangées
+
+messagerie:
+  boites_partagees: contact@, comptabilite@, copropriete@ et notifications@, chacune avec des courriels déjà lus des trois dernières semaines
+  boites_personnelles: les douze salariés, chacun avec quelques courriels déjà lus
+  non_lus: aucun dans v1 ; ceux d'une tâche sont dans son complément
+
+reserve_pour_les_taches:
+  # Ce que v1 doit déjà contenir pour chaque tâche (cadrage, section 8). Les valeurs viennent du
+  # script de calcul (99_local/chantier/2026-10-15_domivelle_calculs.py) ; chaque tâche les
+  # complète en s'écrivant.
+  dv01: quatre lots loués du secteur sud et leurs locataires
+  dv02: >-
+    quatre baux du secteur centre : loyer 684,00 €, référence T1, révision le 1er juillet ; loyer
+    615,00 €, référence T2, révision le 1er juillet ; un logement classé F, révision le 1er juillet ;
+    loyer 552,00 €, référence T4, révision le 1er mars
+  dv03: un lot loué 610,00 €, dépôt 610,00 €, clés rendues le 22 mai 2026, ses deux états des lieux en .md
+  dv04: un propriétaire avec fiche complète, courriel et IBAN
+  dv05: un lot en relocation, son propriétaire, un candidat et ses pièces
+  dv06: trois lots du secteur nord, leurs propriétaires, un chauffagiste et un menuisier dans artisans/
+  dv07: la copropriété cp31, sa liste de copropriétaires avec leurs coordonnées
+  dv08: un plombier, un serrurier et l'entreprise de nettoyage de cp31 dans artisans/, et leurs lots
+  dv09: des lots en gestion dans une copropriété du syndic
+  dv10: un lot loué du secteur sud et son voisin du dessous
+  dv11: un immeuble du nord avec gardien, ses charges de 2025 en .md, un locataire arrivé en cours d'année
+  dv12: un propriétaire du secteur centre avec fiche complète, le bail et le dernier état des lieux de son lot
+  dv13: une copropriété de Yohan Delmas à exercice clos le 31 mars, un copropriétaire « voie postale »
+  dv14: une copropriété au budget de 48 000 €, un lot de 312 tantièmes sur 10 000, immeuble de plus de dix ans, un lot vendu en mai
+  dv15: rh/gaelle.fournel/
+  dv16: >-
+    des immeubles à 12, 18, 22, 9 et 15 km de l'agence ; la note de frais d'avril de Quentin
+    Mallet, avec la visite du 28 avril
+  dv17: une copropriété de Yohan Delmas dont l'assemblée a voté des travaux à l'article 24 et à l'article 25
+  dv18: deux lots superposés d'une copropriété du syndic, leurs occupants
+  dv19: l'ascensoriste de plusieurs copropriétés, fiche complète et contrat
+  dv20: une copropriété dont le procès-verbal fixe le seuil de mise en concurrence, ses contrats en cours

@@ -1,0 +1,49 @@
+{
+  "numero": "BL-2026-01689",
+  "commande": "CO-2026-01840",
+  "client": "c-0222",
+  "date_expedition": "2026-06-24",
+  "date_livraison": "2026-06-24",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "33 parc d'activités de la Gare, 36999 Vaumoreau-sur-Indre (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "CON-11127",
+      "libelle": "Disque abrasif à lamelles 125 mm, grain 60, boîte de 50",
+      "quantite": 6
+    },
+    {
+      "reference": "CON-11380",
+      "libelle": "Mastic hybride MS polymère, cartouche de 310 ml, gris",
+      "quantite": 24
+    },
+    {
+      "reference": "FIX-12368",
+      "libelle": "Équerre de fixation 80x100x40 mm, galvanisée",
+      "quantite": 40
+    },
+    {
+      "reference": "FIX-12425",
+      "libelle": "Équerre de fixation 80x60x40 mm, zinguée",
+      "quantite": 10
+    },
+    {
+      "reference": "VIS-11559",
+      "libelle": "Vis à bois tête fraisée 3x70, bichromatée, boîte de 100",
+      "quantite": 6
+    },
+    {
+      "reference": "VIS-12237",
+      "libelle": "Vis à bois tête fraisée 4x25, bichromatée, boîte de 100",
+      "quantite": 4
+    }
+  ],
+  "reserves": "emballage déchiré, article rayé",
+  "signataire": "Pascal Genet",
+  "statut": "livre"
+}

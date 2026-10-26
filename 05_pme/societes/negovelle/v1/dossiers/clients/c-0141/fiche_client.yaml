@@ -1,0 +1,31 @@
+# Fiche du client c-0141 de Négovelle. Données FICTIVES.
+code: c-0141
+nom: Services techniques de Mérolles-en-Brenne
+type: collectivite
+adresse: 36 rue des Lilas, 36999 Mérolles-en-Brenne (FICTIF)
+telephone: 02 61 91 81 71
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Jean Combes
+  fonction: responsable des services techniques
+  courriel: jean.combes@services-techniques-de-merolles-en-brenne.example
+- nom: Christian Bodin
+  fonction: secrétaire de mairie
+  courriel: christian.bodin@services-techniques-de-merolles-en-brenne.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 36 rue des Lilas, 36999 Mérolles-en-Brenne (FICTIF)
+- code: L2
+  libelle: dépôt
+  adresse: 31 zone industrielle des Brandes, 36999 Vendrigny (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2012-02-01'
+limite_encours_euros: 2500.0
+livraisons_partielles: true
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

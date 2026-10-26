@@ -1,0 +1,48 @@
+{
+  "numero": "DV-2026-018",
+  "client": "c-0347",
+  "objet": "Ballon thermodynamique des vestiaires du stade",
+  "lignes": [
+    {
+      "code": "BAL-01",
+      "libelle": "Ballon thermodynamique 200 litres",
+      "quantite": 1,
+      "prix_unitaire_ht_euros": 2300,
+      "taux_tva": 20,
+      "montant_ht_euros": 2300
+    },
+    {
+      "code": "TUB-01",
+      "libelle": "Tuyauterie cuivre posée",
+      "quantite": 6,
+      "prix_unitaire_ht_euros": 42,
+      "taux_tva": 20,
+      "montant_ht_euros": 252
+    },
+    {
+      "code": "ELE-01",
+      "libelle": "Raccordement électrique",
+      "quantite": 1,
+      "prix_unitaire_ht_euros": 160,
+      "taux_tva": 20,
+      "montant_ht_euros": 160
+    },
+    {
+      "code": "MO-01",
+      "libelle": "Main-d'œuvre de technicien",
+      "quantite": 4,
+      "prix_unitaire_ht_euros": 58,
+      "taux_tva": 20,
+      "montant_ht_euros": 232
+    }
+  ],
+  "remise_pourcent": 0,
+  "total_ht_euros": 2944,
+  "total_tva_euros": 588.8,
+  "total_ttc_euros": 3532.8,
+  "statut": "accepte",
+  "cree_le": "2026-10-14T10:00:00+02:00",
+  "cree_par": "karim.benali",
+  "envoye_le": "2026-10-15T11:00:00+02:00",
+  "reponse_le": "2026-10-30T16:00:00+01:00"
+}

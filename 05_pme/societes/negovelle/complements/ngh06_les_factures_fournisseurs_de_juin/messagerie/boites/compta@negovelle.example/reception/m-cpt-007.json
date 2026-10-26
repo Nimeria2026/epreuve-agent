@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-007",
+  "de": {
+    "nom": "Protection de la Garenne",
+    "adresse": "facturation@protection-de-la-garenne.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture F78314",
+  "date": "2026-07-03T14:15:00+02:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-jointe notre facture F78314 du 3 juillet 2026, pour votre commande CA-2026-0335 :\n- PRO-10122, Bottes de sécurité caoutchouc S5, pointure 41 : 2 x 36,27 € HT = 72,54 €\n- PRO-10710, Chaussures de sécurité montantes S3, pointure 38 : 4 x 32,81 € HT = 131,24 €\n- PRO-11935, Tee-shirt de travail noir, taille XXL : 80 x 8,66 € HT = 692,80 €\n\nTotal HT : 896,58 € ; TVA 20 % : 179,32 € ; total TTC : 1 075,90 €. Paiement à 60 jours date de facture.\n\nService facturation\nProtection de la Garenne",
+  "pieces_jointes": [
+    {
+      "nom": "F78314.pdf",
+      "fichier": "pieces/m-cpt-007/F78314.pdf",
+      "taille_octets": 800
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

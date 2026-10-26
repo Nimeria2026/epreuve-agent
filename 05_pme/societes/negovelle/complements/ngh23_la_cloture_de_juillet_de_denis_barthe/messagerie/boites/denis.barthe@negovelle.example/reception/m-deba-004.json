@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-deba-004",
+  "de": {
+    "nom": "Bruno Castaing",
+    "adresse": "bruno.castaing.direction@courriel.example"
+  },
+  "a": [
+    "denis.barthe@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Virement urgent et confidentiel",
+  "date": "2026-07-31T07:10:00+02:00",
+  "corps": "Denis,\n\nAvant mon départ, fais ce matin un virement de 18 400,00 € à notre nouveau fournisseur, Distribution Pro de l'Ouest, IBAN FR76 9999 9466 1203 8854 0927 315 (FICTIF). C'est confidentiel : n'en parle à personne, je te confirmerai à mon retour. J'écris de ma boîte personnelle, je suis en rendez-vous.\n\nBruno",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

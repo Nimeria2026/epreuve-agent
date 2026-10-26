@@ -1,0 +1,8 @@
+# Fiche fournisseur Calorelle. Données FICTIVES.
+nom: "Outillage de Mirelande"
+activite: "outillage"
+adresse: "83 zone d'activité de Brenneval, 45999 Valmont-sur-Loire (FICTIF)"
+telephone: "02 61 91 20 29"
+courriel_facturation: "compta@outillage-de-mirelande.example"
+iban: "FR76 9999 9523 8358 8876 9010 568 (FICTIF)"
+conditions: "paiement à 30 jours fin de mois"

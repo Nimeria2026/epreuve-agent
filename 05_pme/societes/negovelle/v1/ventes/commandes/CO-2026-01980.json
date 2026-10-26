@@ -1,0 +1,73 @@
+{
+  "numero": "CO-2026-01980",
+  "client": "c-0314",
+  "reference_client": "BC-7119",
+  "cree_le": "2026-07-01T09:10:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "33 zone artisanale du Moulin, 36999 Mérolles-en-Brenne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELP-10441",
+      "libelle": "Embout de vissage T10, étui de 25",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 5.9,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 5.66,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 67.92
+    },
+    {
+      "reference": "ELP-11012",
+      "libelle": "Foret métal HSS 3 mm, étui de 10",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 10.5,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 10.08,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 20.16
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 103.08,
+  "total_tva_euros": 20.62,
+  "total_ttc_euros": 123.7,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01829"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-01T09:10:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-01T09:12:00+02:00",
+      "par": "oceane.collin",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-02T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01829"
+    },
+    {
+      "date": "2026-07-02T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01829"
+    }
+  ]
+}

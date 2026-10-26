@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-622",
+  "de": {
+    "nom": "Établissements Laurent",
+    "adresse": "contact@etablissements-laurent-151.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis pour la ventilation de l'atelier",
+  "date": "2026-11-24T07:58:00+01:00",
+  "corps": "Bonjour,\n\nNous voudrions un devis pour remplacer la ventilation de notre atelier, 88 impasse des Saules. Mme Perrin connaît nos locaux.\n\nLa direction des Établissements Laurent (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

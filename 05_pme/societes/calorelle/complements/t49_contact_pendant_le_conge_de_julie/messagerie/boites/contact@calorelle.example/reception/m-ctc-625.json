@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-625",
+  "de": {
+    "nom": "Commune du Pré-Bouvreuil",
+    "adresse": "contact@commune-du-pre-bouvreuil-347.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Chaufferie de l'école : demande de devis",
+  "date": "2026-11-24T08:40:00+01:00",
+  "corps": "Bonjour,\n\nLa commune souhaite un devis pour le désembouage de la chaufferie de l'école, 54 rue du Moulin, à faire pendant les vacances de Noël.\n\nLe secrétariat de mairie du Pré-Bouvreuil (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

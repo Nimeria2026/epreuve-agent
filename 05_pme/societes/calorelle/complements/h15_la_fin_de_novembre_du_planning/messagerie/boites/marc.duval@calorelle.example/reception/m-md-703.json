@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-703",
+  "de": {
+    "nom": "Julie Perrin",
+    "adresse": "julie.perrin@calorelle.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Deux résiliations",
+  "date": "2026-11-27T09:15:00+01:00",
+  "corps": "Marc,\n\nDeux lettres de résiliation pour des contrats de décembre :\n- Michel Moreau (c-0377), lettre datée et reçue le 14 octobre ;\n- Gilles Bonnet (c-0413), lettre reçue le mercredi 25 novembre.\nJe m'occupe de leur répondre pour le contrat. Pour leurs visites de décembre, je te laisse voir selon le manuel, et dis-moi ce que tu fais.\n\nJulie (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

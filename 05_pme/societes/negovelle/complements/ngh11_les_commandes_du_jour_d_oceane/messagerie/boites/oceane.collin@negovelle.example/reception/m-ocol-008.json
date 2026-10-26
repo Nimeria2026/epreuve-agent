@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ocol-008",
+  "de": {
+    "nom": "Roger Boisson",
+    "adresse": "roger.boisson@maconnerie-rocher.example"
+  },
+  "a": [
+    "oceane.collin@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-06T07:22:00+02:00",
+  "corps": "Bonjour Océane,\n\nMerci de nous livrer au siège :\n- 10 x PRO-11151, Gants nitrile renforcés, taille 8, boîte de 100\n- 4 x QUI-12221, Paumelle 140 mm, inox, sachet de 10\n\nCordialement,\nRoger Boisson\nMaçonnerie Rocher",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

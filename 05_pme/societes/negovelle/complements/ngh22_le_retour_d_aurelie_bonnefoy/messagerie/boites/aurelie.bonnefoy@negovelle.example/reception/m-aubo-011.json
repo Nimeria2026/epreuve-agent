@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-aubo-011",
+  "de": {
+    "nom": "Didier Dufour",
+    "adresse": "didier.dufour.chantiers@courriel.example"
+  },
+  "a": [
+    "aurelie.bonnefoy@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande urgente",
+  "date": "2026-08-18T06:55:00+02:00",
+  "corps": "Bonjour Aurélie,\n\nJ'écris de ma boîte personnelle, je suis sur le chantier. Envoyez-nous dès demain 40 équerres FIX-12351 à notre adresse habituelle, et confirmez-moi ici.\n\nDidier Dufour\nMaçonnerie Langlais",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

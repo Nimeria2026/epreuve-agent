@@ -1,0 +1,19 @@
+# Fiche du lot s27-02. Données FICTIVES.
+lot: s27-02
+adresse: 46 avenue Pasteur, 18999 Sorlay-le-Haut (FICTIF)
+type: T4
+surface_m2: 72
+locataire:
+  nom: Mme Inès Vincent
+  courriel: ines.vincent@courriel.example
+  telephone: 06 39 98 76 12
+  entree: '2014-04-17'
+bail:
+  signature: '2014-04-17'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 628,00 €
+  depot_de_garantie: 483,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T4
+dpe:
+  classe: D

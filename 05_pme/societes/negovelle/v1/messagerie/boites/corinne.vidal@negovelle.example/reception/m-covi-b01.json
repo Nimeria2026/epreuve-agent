@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-covi-b01",
+  "de": {
+    "nom": "Antoine Cazenave",
+    "adresse": "antoine.cazenave@pasquet-batiment.example"
+  },
+  "a": [
+    "corinne.vidal@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Copie de facture",
+  "date": "2026-06-29T15:09:00+02:00",
+  "corps": "Bonjour,\n\nPouvez-vous me renvoyer la facture de mai ? Je ne la retrouve pas.\n\nCordialement,\nAntoine Cazenave",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

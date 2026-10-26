@@ -1,0 +1,86 @@
+{
+  "numero": "CO-2026-02045",
+  "client": "c-0237",
+  "reference_client": null,
+  "cree_le": "2026-07-03T15:00:00+02:00",
+  "cree_par": "fabrice.mercier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "111 rue du Four, 36999 Vendrigny (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELP-11551",
+      "libelle": "Perceuse-visseuse 18 V, 1 batterie(s) 2 Ah, coffret",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 243.3,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 233.57,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 467.14
+    },
+    {
+      "reference": "PLB-12449",
+      "libelle": "Robinet d'arrêt quart de tour 20x27",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 20.1,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 19.3,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 231.6
+    },
+    {
+      "reference": "ELP-10236",
+      "libelle": "Disque à tronçonner inox 115 mm, boîte de 25",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 34.55,
+      "remise_pourcent": 6.88,
+      "prix_net_ht_euros": 32.17,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 386.04
+    },
+    {
+      "reference": "ELE-10979",
+      "libelle": "Câble H07V-U 10 mm², couronne de 100 m",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 78.15,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 75.02,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 225.06
+    },
+    {
+      "reference": "QUI-11274",
+      "libelle": "Coulisse de tiroir à fermeture amortie 300 mm, la paire",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 24.65,
+      "remise_pourcent": 6.88,
+      "prix_net_ht_euros": 22.95,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 275.4
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 1585.24,
+  "total_tva_euros": 317.05,
+  "total_ttc_euros": 1902.29,
+  "statut": "brouillon",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T15:00:00+02:00",
+      "par": "fabrice.mercier",
+      "action": "creee",
+      "detail": "prix demandés au président"
+    }
+  ]
+}

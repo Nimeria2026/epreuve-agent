@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-012",
+  "de": {
+    "nom": "Philippe Boutin",
+    "adresse": "philippe.boutin@peinture-durieux.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Retour d'articles",
+  "date": "2026-08-04T10:15:00+02:00",
+  "corps": "Bonjour,\n\nNous vous rapportons 3 spatules OUT-12596 et 6 boîtes de vis VIS-11396 de la livraison du 24 juillet, BL-2026-01904, non utilisées, dans leur emballage.\n\nPhilippe Boutin\nPeinture Durieux",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

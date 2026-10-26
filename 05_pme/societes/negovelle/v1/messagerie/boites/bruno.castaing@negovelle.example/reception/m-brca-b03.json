@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-b03",
+  "de": {
+    "nom": "Inès Durieux",
+    "adresse": "ines.durieux@chevrier-maintenance.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Horaires du comptoir cet été",
+  "date": "2026-06-30T11:40:00+02:00",
+  "corps": "Bonjour,\n\nLe comptoir reste-t-il ouvert en août ?\n\nInès Durieux",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

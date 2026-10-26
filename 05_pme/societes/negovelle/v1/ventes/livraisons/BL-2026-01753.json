@@ -1,0 +1,44 @@
+{
+  "numero": "BL-2026-01753",
+  "commande": "CO-2026-01904",
+  "client": "c-0207",
+  "date_expedition": "2026-06-29",
+  "date_livraison": "2026-06-29",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "40 rue des Peupliers, 36999 Mérolles-en-Brenne (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "CON-11486",
+      "libelle": "Mousse polyuréthane coupe-feu, 750 ml",
+      "quantite": 10
+    },
+    {
+      "reference": "FIX-11894",
+      "libelle": "Tige filetée M20, longueur 1 m, zinguée",
+      "quantite": 10
+    },
+    {
+      "reference": "PLB-10147",
+      "libelle": "Bonde à grille 90 mm",
+      "quantite": 12
+    },
+    {
+      "reference": "PLB-13274",
+      "libelle": "Tube multicouche 26 mm, couronne de 25 m",
+      "quantite": 3
+    },
+    {
+      "reference": "PRO-11518",
+      "libelle": "Pantalon de travail haute visibilité orange, taille 46",
+      "quantite": 1
+    }
+  ],
+  "reserves": null,
+  "signataire": "Arnaud Auger",
+  "statut": "livre"
+}

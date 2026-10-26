@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-023",
+  "de": {
+    "nom": "Outillage du Moulin-Neuf",
+    "adresse": "facturation@outillage-du-moulin-neuf.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture F92064",
+  "date": "2026-07-30T16:35:00+02:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-jointe notre facture F92064 du 25 juillet 2026, pour votre commande CA-2026-0338 :\n- OUT-10081, Burin à goujon 150 mm : 20 x 7,45 € HT = 149,00 €\n- OUT-10187, Caisse à outils à tiroirs 400 mm : 240 x 16,43 € HT = 3 943,20 €\n- OUT-10702, Cutter à lame trapèze 25 mm : 165 x 8,08 € HT = 1 333,20 €\n- OUT-11143, Marteau de menuisier 400 g : 40 x 8,58 € HT = 343,20 €\n- OUT-11274, Mètre ruban 3 m, ruban de 19 mm : 60 x 4,25 € HT = 255,00 €\n- OUT-12703, Tournevis Pozidriv n° 6 : 240 x 5,78 € HT = 1 387,20 €\n\nTotal HT : 7 410,80 € ; TVA 20 % : 1 482,16 € ; total TTC : 8 892,96 €. Paiement à 45 jours fin de mois.\n\nService facturation\nOutillage du Moulin-Neuf",
+  "pieces_jointes": [
+    {
+      "nom": "F92064.pdf",
+      "fichier": "pieces/m-cpt-023/F92064.pdf",
+      "taille_octets": 1033
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

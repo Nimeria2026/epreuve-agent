@@ -1,0 +1,39 @@
+{
+  "numero": "BL-2026-01674",
+  "commande": "CO-2026-01825",
+  "client": "c-0257",
+  "date_expedition": "2026-06-24",
+  "date_livraison": "2026-06-24",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "6 zone industrielle des Brandes, 36999 Laubrissac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "CON-11437",
+      "libelle": "Mastic silicone neutre, cartouche de 310 ml, noir",
+      "quantite": 72
+    },
+    {
+      "reference": "ENT-10783",
+      "libelle": "Poubelle à couvercle basculant 30 l",
+      "quantite": 12
+    },
+    {
+      "reference": "PLB-12980",
+      "libelle": "Tube PVC évacuation 125 mm, barre de 2 m",
+      "quantite": 4
+    },
+    {
+      "reference": "VIS-11028",
+      "libelle": "Vis à bois tête fraisée 3,5x60, inox A2, boîte de 100",
+      "quantite": 4
+    }
+  ],
+  "reserves": null,
+  "signataire": "Christian Voisin",
+  "statut": "livre"
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-aubo-003",
+  "de": {
+    "nom": "Maxime Drouet",
+    "adresse": "maxime.drouet@imprimerie-mignot.example"
+  },
+  "a": [
+    "aurelie.bonnefoy@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Produits d'entretien",
+  "date": "2026-08-06T10:00:00+02:00",
+  "corps": "Bonjour Aurélie,\n\nNous refaisons notre stock d'entretien pour l'atelier : 20 cartons d'essuie-mains ENT-10408 et 6 bidons de désinfectant ENT-10392. Quel prix pouvez-vous nous faire ?\n\nBien à vous,\n\nMaxime Drouet\nImprimerie Mignot",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

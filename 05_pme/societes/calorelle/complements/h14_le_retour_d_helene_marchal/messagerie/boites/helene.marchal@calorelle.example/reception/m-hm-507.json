@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-hm-507",
+  "de": {
+    "nom": "Papeterie du Val",
+    "adresse": "factures@papeterie-du-val.example"
+  },
+  "a": [
+    "helene.marchal@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture PV-26-0450",
+  "date": "2026-11-13T09:40:00+01:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-jointe notre facture PV-26-0450 du 12 novembre 2026.\n\nPapeterie du Val (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "PV-26-0450.pdf",
+      "fichier": "pieces/m-hm-507/PV-26-0450.pdf",
+      "taille_octets": 1050
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

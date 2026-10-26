@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-pr-402",
+  "de": {
+    "nom": "Lucas Fontaine",
+    "adresse": "lucas.fontaine@calorelle.example"
+  },
+  "a": [
+    "patrick.roux@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Distri-Clim Centre bloque nos livraisons",
+  "date": "2026-11-02T08:44:00+01:00",
+  "corps": "Bonjour Patrick,\n\nDistri-Clim Centre ne veut plus nous livrer tant que sa facture DC-5602 n'est pas payée. Est-ce qu'elle est réglée ? Sinon, quand le sera-t-elle ?\n\nLucas (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

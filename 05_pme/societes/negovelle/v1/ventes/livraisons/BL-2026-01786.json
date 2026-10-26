@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01786",
+  "commande": "CO-2026-01937",
+  "client": "c-0080",
+  "date_expedition": "2026-06-30",
+  "date_livraison": "2026-06-30",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "55 rue de la Poste, 36999 Mérolles-en-Brenne (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "PLB-12098",
+      "libelle": "Raccord laiton té égal 12x17",
+      "quantite": 10
+    },
+    {
+      "reference": "QUI-11371",
+      "libelle": "Coulisse de tiroir à sortie totale 250 mm, la paire",
+      "quantite": 1
+    }
+  ],
+  "reserves": null,
+  "signataire": "Serge Lacour",
+  "statut": "livre"
+}

@@ -1,0 +1,20 @@
+# Fiche de la copropriété cp31. Données FICTIVES.
+copropriete: cp31
+nom: Résidence La Croix-Blanche
+adresse: 122 rue Émile-Zola, 18999 Vernillac (FICTIF)
+lots_principaux: 41
+annee_construction: 1963
+ascenseur: true
+exercice: du lendemain du 31 décembre au 31 décembre
+gestionnaire: Gaëlle Fournel
+conseil_syndical:
+  president: Mme Fabienne Gaillard
+  membres:
+  - M. Patrice Lévêque
+  - Mme Julie Ferrand
+seuil_mise_en_concurrence: 4 000,00 €
+seuil_consultation_du_conseil_syndical: 500,00 €
+assureur_de_l_immeuble: Assurances Brévalle (FICTIF)
+declaration_des_sinistres: sinistres@assurances-brevalle.example
+immeuble_en_gestion_locative: null
+fonds_de_travaux: 5 % du budget prévisionnel, aux tantièmes généraux, appelé avec chaque provision

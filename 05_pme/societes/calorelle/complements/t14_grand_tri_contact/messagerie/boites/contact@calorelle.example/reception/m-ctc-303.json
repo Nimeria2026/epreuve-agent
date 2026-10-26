@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-303",
+  "de": {
+    "nom": "Cabinet Delaunay, syndic",
+    "adresse": "gestion@cabinet-delaunay.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Remplacement de chaufferie, résidence Les Ormes",
+  "date": "2026-11-02T07:16:00+01:00",
+  "corps": "Bonjour,\n\nSyndic de la résidence Les Ormes (48 logements), nous préparons le remplacement de la chaufferie collective pour l'assemblée générale de mars. Pouvez-vous nous adresser un devis ?\n\nCabinet Delaunay (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

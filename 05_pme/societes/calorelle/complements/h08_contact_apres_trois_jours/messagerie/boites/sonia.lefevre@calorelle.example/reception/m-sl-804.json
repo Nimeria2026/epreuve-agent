@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-804",
+  "de": {
+    "nom": "Marc Duval",
+    "adresse": "marc.duval@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Dépannages du week-end",
+  "date": "2026-11-02T07:10:00+01:00",
+  "corps": "Sonia,\n\nPour les dépannages arrivés pendant la fermeture, mets-moi le code du client dans ton transfert quand c'en est un : je gagnerai du temps.\n\nMarc (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

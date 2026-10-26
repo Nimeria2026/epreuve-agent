@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-706",
+  "de": {
+    "nom": "Thomas Girard",
+    "adresse": "thomas.girard@calorelle.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Décembre",
+  "date": "2026-11-27T17:05:00+01:00",
+  "corps": "Marc,\n\nDeux choses pour décembre. Je suis en formation chez Thermopièces Loire le lundi 7 décembre, toute la journée : ne me mets rien ce jour-là. Et pour te soulager, Enzo pourrait faire seul les visites des chaudières gaz des particuliers, il les connaît bien maintenant.\n\nThomas (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

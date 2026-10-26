@@ -1,0 +1,125 @@
+{
+  "numero": "CO-2026-02019",
+  "client": "c-0253",
+  "reference_client": null,
+  "cree_le": "2026-07-03T09:10:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "32 parc d'activités de la Gare, 36999 Fontclavier (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-11347",
+      "libelle": "Marqueur de chantier rouge, boîte de 12",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 12.85,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 12.85,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 51.4
+    },
+    {
+      "reference": "ELP-10955",
+      "libelle": "Foret métal HSS 13 mm, étui de 10",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 23.8,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 23.8,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 47.6
+    },
+    {
+      "reference": "FIX-12352",
+      "libelle": "Équerre de fixation 80x100x20 mm, galvanisée",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 2.95,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 2.95,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 11.8
+    },
+    {
+      "reference": "FIX-12441",
+      "libelle": "Équerre de fixation 80x80x20 mm, zinguée",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 3.0,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 3.0,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 36.0
+    },
+    {
+      "reference": "OUT-10383",
+      "libelle": "Clé mixte 16 mm",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 17.95,
+      "remise_pourcent": 3.0,
+      "prix_net_ht_euros": 17.41,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 174.1
+    },
+    {
+      "reference": "PLB-11951",
+      "libelle": "Pâte à joint pour filetage, pot de 500 g",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 5.7,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 5.7,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 57.0
+    },
+    {
+      "reference": "QUI-13127",
+      "libelle": "Verrou à ressort 120 mm, laiton",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 6.15,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 6.15,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 12.3
+    },
+    {
+      "reference": "VIS-10441",
+      "libelle": "Boulon tête hexagonale M8x20, inox A2, sachet de 25",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 16.6,
+      "remise_pourcent": 2.0,
+      "prix_net_ht_euros": 16.27,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 97.62
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 487.82,
+  "total_tva_euros": 97.56,
+  "total_ttc_euros": 585.38,
+  "statut": "validee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T09:10:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T09:12:00+02:00",
+      "par": "oceane.collin",
+      "action": "validee",
+      "detail": ""
+    }
+  ]
+}

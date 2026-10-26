@@ -1,0 +1,9 @@
+{
+  "numero": "AV-2026-0002",
+  "client": "c-0204",
+  "facture": "FC-2026-0774",
+  "date": "2026-06-03T10:30:00+02:00",
+  "montant_ttc_euros": 106.56,
+  "motif": "article cassé à la livraison",
+  "emis_par": "nathalie.brunet"
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-002",
+  "de": {
+    "nom": "Bruno Monnier",
+    "adresse": "bruno.monnier@chauffage-pelletier.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Disponibilité de flexibles",
+  "date": "2026-07-03T15:16:00+02:00",
+  "corps": "Bonjour,\n\nAvez-vous 15 flexibles inox mâle-femelle 15x21 de 50 cm en stock ? Il nous les faudrait pour jeudi.\n\nBruno Monnier\nChauffage Pelletier",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-927",
+  "de": {
+    "nom": "Commune du Val-Mauvoir",
+    "adresse": "contact@commune-du-val-mauvoir-586.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Notre visite de 2027",
+  "date": "2026-12-23T16:30:00+01:00",
+  "corps": "Bonjour,\n\nPourrions-nous avoir notre visite d'entretien en octobre plutôt qu'en septembre l'an prochain ? La rentrée scolaire occupe nos services techniques tout le mois.\n\nLa mairie du Val-Mauvoir (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-806",
+  "de": {
+    "nom": "Boulangerie Lemaire",
+    "adresse": "contact@boulangerie-lemaire.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Climatisation de la boutique",
+  "date": "2026-10-30T09:30:00+01:00",
+  "corps": "Bonjour,\n\nNous souhaitons climatiser notre boutique, 60 m², avant l'été. Pouvez-vous passer et nous faire un devis ?\n\nBoulangerie Lemaire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

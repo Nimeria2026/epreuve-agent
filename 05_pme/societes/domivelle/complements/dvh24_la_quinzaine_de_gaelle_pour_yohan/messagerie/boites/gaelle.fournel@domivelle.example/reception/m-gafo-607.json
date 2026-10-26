@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-gafo-607",
+  "de": {
+    "nom": "Odile Germain",
+    "adresse": "odile.germain@mel-perso.example"
+  },
+  "a": [
+    "gaelle.fournel@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Dégât des eaux dans ma salle de bains",
+  "date": "2026-09-13T10:05:00+02:00",
+  "corps": "Madame,\n\nUne tache d'eau s'étend au plafond de ma salle de bains : elle vient de la douche de ma voisine du dessus, Mme Béatrice Lebon, lot 9, dont le plombier a trouvé le joint fendu. Pouvez-vous envoyer votre plombier refaire mon plafond aux frais de la copropriété et déclarer le sinistre à l'assureur de l'immeuble ?\n\nOdile Germain, lot 5, Résidence Les Iris",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

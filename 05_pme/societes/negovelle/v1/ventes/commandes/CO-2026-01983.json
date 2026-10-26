@@ -1,0 +1,73 @@
+{
+  "numero": "CO-2026-01983",
+  "client": "c-0268",
+  "reference_client": null,
+  "cree_le": "2026-07-01T09:10:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "105 rue des Jardins, 36999 Laubrissac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-11118",
+      "libelle": "Câble R2V 5G 1,5 mm², couronne de 25 m",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 46.35,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 44.5,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 44.5
+    },
+    {
+      "reference": "PLB-11960",
+      "libelle": "Raccord laiton coude mâle-femelle 15x21",
+      "quantite": 60,
+      "prix_tarif_ht_euros": 5.5,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 5.5,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 330.0
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 374.5,
+  "total_tva_euros": 74.9,
+  "total_ttc_euros": 449.4,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01832"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-01T09:10:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-01T09:12:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-02T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01832"
+    },
+    {
+      "date": "2026-07-02T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01832"
+    }
+  ]
+}

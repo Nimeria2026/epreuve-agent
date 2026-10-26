@@ -1,0 +1,90 @@
+{
+  "numero": "CO-2026-01888",
+  "client": "c-0035",
+  "reference_client": null,
+  "cree_le": "2026-06-25T09:10:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "7 avenue de la Gare, 36999 Ardillac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ENT-10114",
+      "libelle": "Balai brosse coco 30 cm",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 19.9,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 19.9,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 19.9
+    },
+    {
+      "reference": "FIX-11216",
+      "libelle": "Collier de fixation 40 mm, sachet de 10",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 10.1,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 10.1,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 20.2
+    },
+    {
+      "reference": "QUI-13503",
+      "libelle": "Équerre d'assemblage 60 mm, zinguée, sachet de 4",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 4.1,
+      "remise_pourcent": 3.0,
+      "prix_net_ht_euros": 3.98,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 47.76
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 102.86,
+  "total_tva_euros": 20.57,
+  "total_ttc_euros": 123.43,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01737"
+  ],
+  "facture": "FC-2026-1029",
+  "historique": [
+    {
+      "date": "2026-06-25T09:10:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-25T09:12:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-26T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01737"
+    },
+    {
+      "date": "2026-06-26T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01737"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1029"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "numero": "INT-2026-0041",
+  "client": "c-0184",
+  "techniciens": [
+    "kevin.lambert",
+    "mathieu.picard"
+  ],
+  "debut": "2026-11-12T08:00:00+01:00",
+  "fin": "2026-11-12T12:00:00+01:00",
+  "nature": "installation",
+  "objet": "Remplacement de la chaudière gaz et pose d'un thermostat connecté",
+  "statut": "planifiee",
+  "cree_par": "marc.duval"
+}

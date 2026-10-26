@@ -1,0 +1,17 @@
+# Budget prévisionnel de l'exercice en cours, voté, copropriété cp19. Données FICTIVES.
+copropriete: cp19
+exercice: '2026'
+total: 27 000,00 €
+postes:
+  nettoyage des parties communes: 5 940,00 €
+  espaces verts: 2 160,00 €
+  électricité des parties communes: 2 430,00 €
+  eau: 3 780,00 €
+  assurance de l'immeuble: 2 970,00 €
+  honoraires du syndic: 4 860,00 €
+  entretien et petites réparations: 2 700,00 €
+  ascenseur, contrat et électricité: 2 160,00 €
+repartition:
+  charges générales, aux tantièmes généraux: 24 840,00 €
+  ascenseur, aux tantièmes d'ascenseur: 2 160,00 €
+appel: un quart du budget, exigible le premier jour de chaque trimestre

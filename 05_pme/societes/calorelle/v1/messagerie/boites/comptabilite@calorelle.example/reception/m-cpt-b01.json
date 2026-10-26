@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cpt-b01",
+  "de": {
+    "nom": "Distri-Clim Centre",
+    "adresse": "compta@distri-clim-centre.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Relance : facture DC-5521",
+  "date": "2026-10-20T10:12:00+02:00",
+  "corps": "Bonjour,\n\nSauf erreur de notre part, notre facture DC-5521 du 18 septembre 2026 reste à régler. Merci de votre retour.\n\nService comptable, Distri-Clim Centre (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

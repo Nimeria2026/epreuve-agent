@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-001",
+  "de": {
+    "nom": "Protection du Pont-Rouge",
+    "adresse": "facturation@protection-du-pont-rouge.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture F20481",
+  "date": "2026-06-29T08:15:00+02:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-jointe notre facture F20481 du 29 juin 2026, pour votre commande CA-2026-0303 :\n- PRO-10106, Bottes de sécurité caoutchouc S5, pointure 39 : 4 x 44,72 € HT = 178,88 €\n- PRO-10416, Casque antibruit serre-tête SNR 27 dB : 20 x 31,08 € HT = 621,60 €\n- PRO-10963, Gants de manutention enduits nitrile, taille 7 : 60 x 5,14 € HT = 308,40 €\n- PRO-11053, Gants de soudeur cuir croûte, taille 10 : 15 x 6,69 € HT = 100,35 €\n- PRO-11486, Pantalon de travail haute visibilité orange, taille 38 : 24 x 22,04 € HT = 528,96 €\n- PRO-12041, Veste de travail polaire grise, taille M : 6 x 47,81 € HT = 286,86 €\n\nTotal HT : 2 025,05 € ; TVA 20 % : 405,01 € ; total TTC : 2 430,06 €. Paiement à 30 jours date de facture.\n\nService facturation\nProtection du Pont-Rouge",
+  "pieces_jointes": [
+    {
+      "nom": "F20481.pdf",
+      "fichier": "pieces/m-cpt-001/F20481.pdf",
+      "taille_octets": 800
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

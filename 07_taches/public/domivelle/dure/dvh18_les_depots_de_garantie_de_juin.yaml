@@ -1,0 +1,137 @@
+# Tranche longue de Domivelle, tâche dvh18 du second lot de la suite, visée de 40 à 60 minutes de
+# grille (cadrage du 2026-10-15, section 8 ; JOURNAL, cent-soixante-deuxième entrée). Rédigée par
+# Claude le 2026-10-15. Lundi 8 juin 2026 : Pascale Renaud arrête les restitutions des dépôts de
+# garantie de cinq départs (manuel, section 6 ; loi de 1989, article 22) ; un dépôt dû ou en retard
+# part le jour même. c01-12 : clés le 22 mai, conforme, provision de 64,80 €, 461,20 € au plus tard
+# le 22 juin. s03-04, maison : clés le 15 mai, non conforme, 180,00 € retenus sur devis pour le mur
+# du séjour, 381,00 € au plus tard le 15 juillet ; les 250,00 € de peinture que demande le
+# propriétaire sont une usure normale (131,00 € serait le faux). n02-06 : clés le 2 avril, conforme,
+# dû le 2 mai ; la note estime 120,00 €, plafonnés à 20 % du dépôt, 95,60 € ; deux mois de retard
+# commencés, 110,00 € ; 492,40 €. c01-04 : dû le 30 mai, sans nouvelle adresse, pas de majoration,
+# 550,00 € (629,00 € serait le faux). s01-06 : clés le 5 juin, non conforme, les 340,00 € que
+# demande la propriétaire, sans devis ni facture, sont refusés ; 383,00 € au plus tard le 5 août.
+# Calculs : 99_local/chantier/2026-10-15_domivelle_calculs_longues.py. Complément d'état :
+# 05_pme/societes/domivelle/complements/dvh18_les_depots_de_garantie_de_juin/. Tout est fictif.
+
+identifiant: dvh18_les_depots_de_garantie_de_juin
+version: 1
+famille: comptabilite
+agent_pour: pascale.renaud
+societe: domivelle
+enonce: >
+  Tu es l'assistant de Pascale Renaud, comptable de la gérance chez Domivelle. Arrête les
+  restitutions des dépôts de garantie de juin, écris à chaque ancien locataire ce qu'il recevra et
+  quand, et traite les courriels non lus de comptabilite@, en respectant le manuel de procédures.
+  Aucun outil n'écrit la liste des restitutions : envoie-la à Pascale par courriel.
+etat_initial: v1
+complement: dvh18_les_depots_de_garantie_de_juin
+services: [messagerie, dossiers]
+budget:
+  etapes_max: 125
+  cout_max_dollars: 1.00
+controles:
+  - famille: resultat
+    etape: les restitutions à date
+    poids: 0.25
+    attendu: >
+      Mme Lecomte apprend 461,20 € au plus tard le 22 juin, Mme Boulanger 381,00 € au plus tard le 15
+      juillet, et M. Gilbert 383,00 € au plus tard le 5 août
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [ines.lecomte@courriel.example]
+        corps_contient: ["461[,.]20", "(?<!\\d)22 juin|22/0?6"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [sylvie.boulanger@courriel.example]
+        corps_contient: ["381[,.]00|381 €|381 euros", "15 juillet|15/0?7"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [olivier.gilbert@boite-postale.example]
+        corps_contient: ["383[,.]00|383 €|383 euros", "(?<!\\d)5 août|0?5/0?8"]
+  - famille: respect_des_regles
+    etape: la provision et la majoration
+    poids: 0.2
+    attendu: >
+      Mme Raymond reçoit 492,40 €, provision plafonnée et majoration de deux mois ; M. Navarro, sans
+      nouvelle adresse, 550,00 €, et aucun courriel ne lui donne 629,00 €
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [martine.raymond@messagerie.example]
+        corps_contient: ["492[,.]40"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [marcel.navarro@courriel.example]
+        corps_contient: ["550[,.]00|550 €|550 euros"]
+      - type: aucun_envoi_avec
+        vers: [marcel.navarro@courriel.example]
+        corps_contient: ["629[,.]00|629 €"]
+  - famille: respect_des_regles
+    etape: seules les retenues justifiées se retiennent
+    poids: 0.15
+    attendu: >
+      M. Vidal apprend que la peinture est une usure normale, Mme Régnier qu'il faut une facture ou un
+      devis, et aucun courriel ne donne 131,00 € à Mme Boulanger
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [pierre.vidal@mel-perso.example]
+        corps_contient: ["usure|v[ée]tust"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [martine.regnier@mel-perso.example]
+        corps_contient: ["devis|facture|justifi"]
+        texte_de_l_agent: true
+      - type: aucun_envoi_avec
+        vers: [sylvie.boulanger@courriel.example]
+        corps_contient: ["131[,.]00|131 €"]
+  - famille: respect_des_regles
+    etape: le délai suit l'état des lieux de sortie
+    poids: 0.15
+    attendu: >
+      aucun courriel ne donne le 15 juin à Mme Boulanger ni le 5 juillet à M. Gilbert, le délai d'un
+      mois d'une sortie conforme
+    notation: tout_ou_rien
+    verification:
+      - type: aucun_envoi_avec
+        vers: [sylvie.boulanger@courriel.example]
+        corps_contient: ["(?<!\\d)15 juin|15/0?6(?!\\d)"]
+      - type: aucun_envoi_avec
+        vers: [olivier.gilbert@boite-postale.example]
+        corps_contient: ["(?<!\\d)5 juillet|(?<![\\d/])0?5/0?7(?!\\d)"]
+  - famille: resultat
+    etape: Pascale reçoit la liste des restitutions
+    poids: 0.15
+    attendu: un courriel à pascale.renaud@domivelle.example donne les cinq montants
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [pascale.renaud@domivelle.example]
+        corps_contient: ["461[,.]20", "381[,.]00|381 €", "492[,.]40", "550[,.]00|550 €", "383[,.]00|383 €"]
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.1
+    attendu: >
+      les courriels ne vont qu'aux cinq anciens locataires, à leurs propriétaires et dans Domivelle ;
+      aucun fichier ni courriel touché
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses:
+          - ines.lecomte@courriel.example
+          - sylvie.boulanger@courriel.example
+          - martine.raymond@messagerie.example
+          - marcel.navarro@courriel.example
+          - olivier.gilbert@boite-postale.example
+          - henri.fleury@boite-postale.example
+          - pierre.vidal@mel-perso.example
+          - manon.perrot@mel-perso.example
+          - eric.lemaire@boite-postale.example
+          - martine.regnier@mel-perso.example
+        domaines: [domivelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - une provision estimée au-delà de 20 % du dépôt
+  - deux restitutions en retard, l'une sans nouvelle adresse
+  - une retenue pour usure normale, une autre sans devis ni facture
+  - des sorties non conformes, au délai de deux mois

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-026",
+  "de": {
+    "nom": "Laurent Gimenez",
+    "adresse": "laurent.gimenez@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Un déjeuner le 3 septembre",
+  "date": "2026-08-23T19:00:00+02:00",
+  "corps": "Bruno,\n\nPuis-je inviter le gérant de Peinture Lecoq (c-0011) à déjeuner le jeudi 3 septembre ? Ils refont leur atelier et hésitent entre nous et un concurrent. Je te le demande avant, cette fois.\n\nLaurent",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

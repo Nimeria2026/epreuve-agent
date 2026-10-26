@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-jp-701",
+  "de": {
+    "nom": "Thermopièces Loire, service facturation",
+    "adresse": "facturation@thermopieces-loire.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture F-2026-1312",
+  "date": "2026-12-07T08:40:00+01:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-joint notre facture F-2026-1312 du 4 décembre 2026.\n\nThermopièces Loire (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "Facture_F-2026-1312.pdf",
+      "fichier": "pieces/m-jp-701/Facture_F-2026-1312.pdf",
+      "taille_octets": 1056
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

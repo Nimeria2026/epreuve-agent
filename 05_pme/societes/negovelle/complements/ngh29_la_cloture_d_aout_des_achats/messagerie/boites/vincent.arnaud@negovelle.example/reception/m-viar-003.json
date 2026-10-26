@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-viar-003",
+  "de": {
+    "nom": "Chantal Robin",
+    "adresse": "chantal.robin@negovelle.example"
+  },
+  "a": [
+    "vincent.arnaud@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Offre de Protection du Pont-Rouge",
+  "date": "2026-08-11T09:15:00+02:00",
+  "corps": "Vincent, une offre de fournisseur pour toi.\n\nChantal\n\n----- Message transféré -----\nDe : Sandrine Coste <sandrine.coste@protection-du-pont-rouge.example>\nDate : 2026-08-11T08:30:00+02:00\nObjet : Offre de rentrée\n\nBonjour,\n\nNotre commerciale de secteur souhaiterait vous rencontrer la semaine du 14 septembre pour vous présenter notre gamme d'hiver : gants, vestes et bonnets haute visibilité. Quel jour vous conviendrait ?\n\nBien cordialement,\nSandrine Coste\nProtection du Pont-Rouge",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,13 @@
+{
+  "numero": "INT-2026-0043",
+  "client": "c-0277",
+  "techniciens": [
+    "kevin.lambert"
+  ],
+  "debut": "2026-12-24T08:00:00+01:00",
+  "fin": "2026-12-24T09:30:00+01:00",
+  "nature": "depannage",
+  "objet": "Réglage de la chaudière gaz et du thermostat",
+  "statut": "planifiee",
+  "cree_par": "marc.duval"
+}

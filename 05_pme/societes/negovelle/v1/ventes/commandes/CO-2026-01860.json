@@ -1,0 +1,112 @@
+{
+  "numero": "CO-2026-01860",
+  "client": "c-0223",
+  "reference_client": null,
+  "cree_le": "2026-06-24T09:10:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "26 zone d'activités des Grands Prés, 36999 Mérolles-en-Brenne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-10008",
+      "libelle": "Ampoule LED B22 12 W, 2700 K",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 7.5,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 7.2,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 14.4
+    },
+    {
+      "reference": "ELE-12237",
+      "libelle": "Hublot rond LED 12 W",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 10.7,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 10.27,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 20.54
+    },
+    {
+      "reference": "ELP-10588",
+      "libelle": "Foret béton SDS-plus 12x210 mm",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 14.95,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 14.35,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 28.7
+    },
+    {
+      "reference": "FIX-11298",
+      "libelle": "Crochet droit à visser 20 mm, sachet de 10",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 3.25,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 3.12,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 37.44
+    },
+    {
+      "reference": "OUT-11706",
+      "libelle": "Pince à bec long 140 mm",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 8.85,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 8.5,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 8.5
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 124.58,
+  "total_tva_euros": 24.92,
+  "total_ttc_euros": 149.5,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01709"
+  ],
+  "facture": "FC-2026-1203",
+  "historique": [
+    {
+      "date": "2026-06-24T09:10:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-24T09:12:00+02:00",
+      "par": "oceane.collin",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-25T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01709"
+    },
+    {
+      "date": "2026-06-25T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01709"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1203"
+    }
+  ]
+}

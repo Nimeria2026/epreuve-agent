@@ -1,0 +1,59 @@
+{
+  "numero": "CO-2026-02021",
+  "client": "c-0174",
+  "reference_client": "BC-9218",
+  "cree_le": "2026-07-03T09:10:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "9 zone artisanale du Moulin, 36999 Brissonne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "PLB-12425",
+      "libelle": "Robinet d'arrêt de machine à laver 26x34",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 27.9,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 26.78,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 107.12
+    },
+    {
+      "reference": "PRO-11371",
+      "libelle": "Masque FFP2, boîte de 20",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 43.95,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 42.19,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 84.38
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 206.5,
+  "total_tva_euros": 41.3,
+  "total_ttc_euros": 247.8,
+  "statut": "validee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T09:10:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T09:12:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": ""
+    }
+  ]
+}

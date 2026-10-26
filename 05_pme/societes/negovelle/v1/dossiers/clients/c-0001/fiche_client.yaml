@@ -1,0 +1,28 @@
+# Fiche du client c-0001 de Négovelle. Données FICTIVES.
+code: c-0001
+nom: Mairie de Vaumoreau-sur-Indre
+type: collectivite
+adresse: 65 avenue de la Gare, 36999 Vaumoreau-sur-Indre (FICTIF)
+telephone: 02 61 91 90 81
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Gérard Vaillant
+  fonction: responsable des services techniques
+  courriel: gerard.vaillant@mairie-de-vaumoreau-sur-indre.example
+- nom: Julie Parmentier
+  fonction: secrétaire de mairie
+  courriel: julie.parmentier@mairie-de-vaumoreau-sur-indre.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 65 avenue de la Gare, 36999 Vaumoreau-sur-Indre (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2023-10-01'
+limite_encours_euros: 3000.0
+livraisons_partielles: true
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

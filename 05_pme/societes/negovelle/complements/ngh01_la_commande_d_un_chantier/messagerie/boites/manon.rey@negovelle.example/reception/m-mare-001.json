@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-mare-001",
+  "de": {
+    "nom": "Catherine Jolivet",
+    "adresse": "catherine.jolivet@electricite-fleurot.example"
+  },
+  "a": [
+    "manon.rey@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande BC 26-114, chantier de la rue Saint-Martin",
+  "date": "2026-07-06T07:48:00+02:00",
+  "corps": "Bonjour Manon,\n\nVoici notre commande pour le chantier de la rue Saint-Martin, à livrer sur le chantier.\n\nPour démarrer mardi matin, en express :\n- 2 x ELE-13372, Tableau électrique 3 rangée(s), 13 modules\n- 4 x ELE-12392, Interrupteur différentiel 40 A 30 mA, type F\n- 12 x ELE-11445, Disjoncteur bipolaire 10 A, courbe C\n- 6 x ELE-10898, Câble H07V-K 1,5 mm², couronne de 50 m\n- 10 x VIS-13789, Vis à tôle tête cylindrique 3,9x19, inox A2, boîte de 250\n\nLe reste en livraison normale :\n- 40 x ELE-12564, Peigne d'alimentation phase-neutre, 13 modules\n- 20 x ELE-11911, Gaine ICTA 16 mm, couronne de 50 m\n- 4 x ELE-10882, Câble H07V-K 1,5 mm², couronne de 100 m\n- 30 x ELE-12735, Prise de courant double 2P+T, blanc\n- 12 x ELE-12335, Interrupteur de volet roulant, blanc\n- 60 x ELE-10424, Boîte d'encastrement double 40 mm\n- 20 x ELE-11714, Domino 1,5 mm², barrette de 10\n- 20 x FIX-11053, Collier de fixation 12 mm, sachet de 25\n- 10 x ELE-12711, Prise de courant USB A et C, noir\n\nNotre référence : BC 26-114. Merci de me confirmer ce qui part et quand.\n\nCordialement,\nCatherine Jolivet\nÉlectricité Fleurot",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-deba-002",
+  "de": {
+    "nom": "Vincent Arnaud",
+    "adresse": "vincent.arnaud@negovelle.example"
+  },
+  "a": [
+    "denis.barthe@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Changement de coordonnées bancaires",
+  "date": "2026-07-06T07:52:00+02:00",
+  "corps": "Denis,\n\nHygiène de la Brenne m'a écrit ce matin, tu trouveras leur nouveau RIB joint. Peux-tu le mettre à jour avant le paiement de leur facture du 15 ?\n\nVincent\n\n-------- Message transféré --------\nDe : Hygiène de la Brenne <facturation@hygiene-de-la-brenne.example>\nDate : lundi 6 juillet 2026, 7 h 20\nObjet : Changement de coordonnées bancaires\n\nBonjour,\n\nNous changeons de banque au 1er juillet. Merci de régler désormais nos factures sur le compte joint, IBAN FR76 9999 9187 4410 3356 0927 115, à commencer par la facture F47397 à échéance du 15 juillet. Notre ancien compte sera clôturé à la fin du mois.\n\nCordialement,\nService comptable, Hygiène de la Brenne",
+  "pieces_jointes": [
+    {
+      "nom": "rib_hygiene-de-la-brenne_juillet_2026.pdf",
+      "fichier": "pieces/m-deba-002/rib_hygiene-de-la-brenne_juillet_2026.pdf",
+      "taille_octets": 908
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

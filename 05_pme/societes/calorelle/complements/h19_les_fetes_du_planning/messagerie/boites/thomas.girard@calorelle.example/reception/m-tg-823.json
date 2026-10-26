@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-tg-823",
+  "de": {
+    "nom": "Établissements Blanchard",
+    "adresse": "contact@etablissements-blanchard-263.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Mise en service de notre pompe à chaleur",
+  "date": "2026-12-18T16:00:00+01:00",
+  "corps": "Bonjour,\n\nPouvez-vous nous confirmer la mise en service de notre pompe à chaleur, que votre planning indique le vendredi 1er janvier à 8 h ? Nos locaux seront ouverts tous les jours ouvrés de janvier.\n\nÉtablissements Blanchard, 95 place du Marché (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

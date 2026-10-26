@@ -1,0 +1,29 @@
+{
+  "identifiant": "m-brca-013",
+  "de": {
+    "nom": "Élise Marchand",
+    "adresse": "elise.marchand@messagerie-perso.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Candidature : commerciale",
+  "date": "2026-08-13T10:45:00+02:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ma candidature au poste de commerciale, mon CV et ma lettre.\n\nBien cordialement,\nÉlise Marchand",
+  "pieces_jointes": [
+    {
+      "nom": "cv.pdf",
+      "fichier": "pieces/m-brca-013/cv.pdf",
+      "taille_octets": 765
+    },
+    {
+      "nom": "lettre.md",
+      "fichier": "pieces/m-brca-013/lettre.md",
+      "taille_octets": 295
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

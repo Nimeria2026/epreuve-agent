@@ -1,0 +1,29 @@
+{
+  "identifiant": "m-elch-609",
+  "de": {
+    "nom": "Anaïs Lefebvre",
+    "adresse": "anais.lefebvre@courriel.example"
+  },
+  "a": [
+    "elodie.chauvin@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Candidature pour le logement c08-18",
+  "date": "2026-10-10T19:00:00+02:00",
+  "corps": "Bonjour,\n\nJe souhaite louer le logement vacant c08-18. Vous trouverez ci-joint ma pièce d'identité et mes trois derniers bulletins de salaire.\n\nAnaïs Lefebvre",
+  "pieces_jointes": [
+    {
+      "nom": "piece_identite_lefebvre.pdf",
+      "fichier": "pieces/m-elch-609/piece_identite_lefebvre.pdf",
+      "taille_octets": 742
+    },
+    {
+      "nom": "bulletins_salaire_lefebvre.pdf",
+      "fichier": "pieces/m-elch-609/bulletins_salaire_lefebvre.pdf",
+      "taille_octets": 772
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

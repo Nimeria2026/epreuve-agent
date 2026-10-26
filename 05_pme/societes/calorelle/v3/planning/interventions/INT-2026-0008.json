@@ -1,0 +1,14 @@
+{
+  "numero": "INT-2026-0008",
+  "client": "c-0274",
+  "techniciens": [
+    "yanis.haddad",
+    "florian.masson"
+  ],
+  "debut": "2026-11-03T08:00:00+01:00",
+  "fin": "2026-11-03T12:00:00+01:00",
+  "nature": "installation",
+  "objet": "Installation d'une climatisation réversible, première demi-journée",
+  "statut": "planifiee",
+  "cree_par": "donnees_initiales"
+}

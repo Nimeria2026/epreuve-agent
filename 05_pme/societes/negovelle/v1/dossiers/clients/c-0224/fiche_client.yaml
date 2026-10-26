@@ -1,0 +1,28 @@
+# Fiche du client c-0224 de Négovelle. Données FICTIVES.
+code: c-0224
+nom: Fleurot et Fils
+type: entreprise
+adresse: 13 parc d'activités de la Gare, 36999 Ardillac (FICTIF)
+telephone: 02 61 91 66 56
+secteur: est
+commercial: fabrice.mercier
+administration_des_ventes: benoit.faure
+contacts:
+- nom: Roger Baudouin
+  fonction: conducteur de travaux
+  courriel: roger.baudouin@fleurot-et-fils.example
+- nom: Laure Noblet
+  fonction: responsable des achats
+  courriel: laure.noblet@fleurot-et-fils.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 13 parc d'activités de la Gare, 36999 Ardillac (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2021-05-01'
+limite_encours_euros: 10000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

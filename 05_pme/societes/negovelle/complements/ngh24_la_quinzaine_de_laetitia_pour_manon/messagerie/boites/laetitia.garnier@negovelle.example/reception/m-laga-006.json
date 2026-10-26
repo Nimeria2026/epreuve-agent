@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-laga-006",
+  "de": {
+    "nom": "Xavier Auger",
+    "adresse": "xavier.auger@charpente-vallet.example"
+  },
+  "a": [
+    "laetitia.garnier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Cylindres et vis",
+  "date": "2026-08-07T14:00:00+02:00",
+  "corps": "Bonjour,\n\nVoici notre commande, à livrer au siège :\n\n- 8 x QUI-11461, Cylindre européen 30x45 mm, 3 clés\n- 10 x VIS-12899, Vis à bois tête fraisée 5x45, bichromatée, boîte de 500\n\nEn standard.\n\nCordialement,\n\nXavier Auger\nCharpente Vallet",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

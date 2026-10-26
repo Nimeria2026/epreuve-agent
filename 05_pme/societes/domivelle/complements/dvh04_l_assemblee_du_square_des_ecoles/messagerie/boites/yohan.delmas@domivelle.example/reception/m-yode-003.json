@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-yode-003",
+  "de": {
+    "nom": "Sylvie Rolland",
+    "adresse": "sylvie.rolland@courriel.example"
+  },
+  "a": [
+    "yohan.delmas@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Une question pour l'assemblée",
+  "date": "2026-06-06T10:12:00+02:00",
+  "corps": "Bonjour,\n\nJe loue l'appartement du lot 4 de la Résidence Le Square des Écoles. La ventilation du parking fait un bruit constant la nuit : je voudrais que la question soit inscrite à l'ordre du jour de la prochaine assemblée générale.\n\nSylvie Rolland",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

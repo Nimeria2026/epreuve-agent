@@ -1,0 +1,12 @@
+# Fiche du propriétaire p-0175, mandant de Domivelle. Données FICTIVES.
+code: p-0175
+nom: Mme Suzanne Noël
+adresse: 128 rue des Écoles, 18999 Montclavel-sur-Cher (FICTIF)
+courriel: suzanne.noel@courriel.example
+telephone: 06 39 98 78 85
+iban: FR76 9999 9319 3680 9026 1686 709 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- c16-18
+- c17-08
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

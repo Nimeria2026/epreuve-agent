@@ -1,0 +1,42 @@
+{
+  "numero": "CO-2026-02040",
+  "client": "c-0219",
+  "reference_client": null,
+  "cree_le": "2026-07-03T09:10:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "16 rue du Lavoir, 36999 Laubrissac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-12646",
+      "libelle": "Prise de courant 2P+T à éclips, anthracite",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 8.3,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 8.3,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 83.0
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 83.0,
+  "total_tva_euros": 16.6,
+  "total_ttc_euros": 99.6,
+  "statut": "en_attente_reassort",
+  "motif_attente": null,
+  "reliquat_de": "CO-2026-02009",
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T09:10:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": "reliquat de CO-2026-02009"
+    }
+  ]
+}

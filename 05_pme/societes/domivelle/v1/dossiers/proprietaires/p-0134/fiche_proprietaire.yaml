@@ -1,0 +1,11 @@
+# Fiche du propriétaire p-0134, mandant de Domivelle. Données FICTIVES.
+code: p-0134
+nom: SCI Le Vallon
+adresse: 94 rue de la Fontaine, 18999 Montclavel-sur-Cher (FICTIF)
+courriel: gestion@sci-le-vallon.example
+telephone: 06 39 98 71 59
+iban: FR76 9999 9045 1559 4592 3709 997 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- c13-03
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

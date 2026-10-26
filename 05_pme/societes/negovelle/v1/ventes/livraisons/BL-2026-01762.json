@@ -1,0 +1,44 @@
+{
+  "numero": "BL-2026-01762",
+  "commande": "CO-2026-01913",
+  "client": "c-0029",
+  "date_expedition": "2026-06-26",
+  "date_livraison": "2026-06-29",
+  "transport": {
+    "mode": "transporteur",
+    "transporteur": "transports-delorme",
+    "recepisse": "TD-799103"
+  },
+  "adresse": "26 parc d'activités de la Gare, 36999 Corvalet (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "ELE-10922",
+      "libelle": "Câble H07V-K 10 mm², couronne de 50 m",
+      "quantite": 1
+    },
+    {
+      "reference": "ELP-11731",
+      "libelle": "Scie circulaire 190 mm, 1400 W",
+      "quantite": 4
+    },
+    {
+      "reference": "OUT-10196",
+      "libelle": "Caisse à outils à tiroirs 600 mm",
+      "quantite": 1
+    },
+    {
+      "reference": "QUI-12972",
+      "libelle": "Verrou de sûreté 80 mm, inox",
+      "quantite": 2
+    },
+    {
+      "reference": "VIS-10930",
+      "libelle": "Vis à bois tête fraisée 3,5x45, bichromatée, boîte de 500",
+      "quantite": 1
+    }
+  ],
+  "reserves": null,
+  "signataire": "Chantal Pinson",
+  "statut": "livre"
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-gafo-203",
+  "de": {
+    "nom": "Espaces verts de la Garenne-Aubry",
+    "adresse": "facturation@espaces-verts-de-la-garenne-aubry.example"
+  },
+  "a": [
+    "gaelle.fournel@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Résidence Les Marronniers : nouveau contrat",
+  "date": "2026-06-05T14:30:00+02:00",
+  "corps": "Bonjour,\n\nNotre contrat d'entretien des espaces verts de la Résidence Les Marronniers arrive à son échéance annuelle le 1er octobre. Nous vous proposons un nouveau contrat, avec la taille des arbres en plus, à 7 680,00 € TTC par an. Merci de nous le retourner signé avant le 30 juin.\n\nEspaces verts de la Garenne-Aubry",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

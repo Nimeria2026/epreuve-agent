@@ -1,0 +1,59 @@
+{
+  "numero": "CO-2026-02043",
+  "client": "c-0199",
+  "reference_client": null,
+  "cree_le": "2026-07-03T14:00:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "7 parc d'activités de la Gare, 36999 Fontclavier (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELP-11380",
+      "libelle": "Meuleuse d'angle 125 mm, 2000 W",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 95.8,
+      "remise_pourcent": 6.88,
+      "prix_net_ht_euros": 89.21,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 1070.52
+    },
+    {
+      "reference": "ELP-11429",
+      "libelle": "Meuleuse d'angle 150 mm, 750 W",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 67.4,
+      "remise_pourcent": 5.92,
+      "prix_net_ht_euros": 63.41,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 380.46
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 1450.98,
+  "total_tva_euros": 290.2,
+  "total_ttc_euros": 1741.18,
+  "statut": "en_attente_deblocage",
+  "motif_attente": "encours dépassé : encours 4 228,47 € et commande 1 741,18 € TTC pour une limite de 5 000,00 €",
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T14:00:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": "commande du client"
+    },
+    {
+      "date": "2026-07-03T14:02:00+02:00",
+      "par": "oceane.collin",
+      "action": "mise_en_attente",
+      "detail": "encours dépassé"
+    }
+  ]
+}

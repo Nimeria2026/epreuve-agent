@@ -1,0 +1,59 @@
+{
+  "numero": "BL-2026-01781",
+  "commande": "CO-2026-01932",
+  "client": "c-0128",
+  "date_expedition": "2026-06-30",
+  "date_livraison": "2026-06-30",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "119 rue du Moulin, 36999 Mérolles-en-Brenne (FICTIF)",
+  "colis": 3,
+  "lignes": [
+    {
+      "reference": "ELE-11290",
+      "libelle": "Câble U1000 R2V 2x 6 mm², couronne de 100 m",
+      "quantite": 12
+    },
+    {
+      "reference": "ELE-12842",
+      "libelle": "Projecteur LED 150 W, à détecteur",
+      "quantite": 12
+    },
+    {
+      "reference": "ELP-10179",
+      "libelle": "Disque diamant polyvalent 230 mm",
+      "quantite": 4
+    },
+    {
+      "reference": "ELP-11478",
+      "libelle": "Meuleuse d'angle 230 mm, 1200 W",
+      "quantite": 2
+    },
+    {
+      "reference": "OUT-12956",
+      "libelle": "Truelle ronde 220 mm",
+      "quantite": 2
+    },
+    {
+      "reference": "PRO-10955",
+      "libelle": "Gants de manutention enduits nitrile, taille 11",
+      "quantite": 24
+    },
+    {
+      "reference": "QUI-12302",
+      "libelle": "Paumelle 60 mm, inox, sachet de 4",
+      "quantite": 4
+    },
+    {
+      "reference": "VIS-13707",
+      "libelle": "Vis à tôle tête cylindrique 3,5x9,5, inox A2, boîte de 100",
+      "quantite": 6
+    }
+  ],
+  "reserves": null,
+  "signataire": "Guy Fleurot",
+  "statut": "livre"
+}

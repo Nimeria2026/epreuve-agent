@@ -1,0 +1,15 @@
+# Fiche du propriétaire p-0031, mandant de Domivelle. Données FICTIVES.
+code: p-0031
+nom: Mme Martine Régnier
+adresse: 62 rue des Forges, 18999 Chantebrune (FICTIF)
+courriel: martine.regnier@mel-perso.example
+telephone: 06 39 98 64 97
+iban: FR76 9999 9259 6791 3277 2858 872 (FICTIF)
+comptes_rendus: par courrier
+lots:
+- s01-06
+- s01-10
+- s02-04
+- s02-07
+- s03-03
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

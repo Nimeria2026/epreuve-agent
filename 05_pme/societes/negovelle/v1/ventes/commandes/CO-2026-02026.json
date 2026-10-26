@@ -1,0 +1,67 @@
+{
+  "numero": "CO-2026-02026",
+  "client": "c-0004",
+  "reference_client": null,
+  "cree_le": "2026-07-03T09:10:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "25 rue de la Fontaine, 36999 Corvalet (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-11127",
+      "libelle": "Câble R2V 5G 10 mm², couronne de 100 m",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 121.7,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 121.7,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 243.4
+    },
+    {
+      "reference": "QUI-11347",
+      "libelle": "Coulisse de tiroir à galets 450 mm, la paire",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 28.35,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 28.35,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 56.7
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 300.1,
+  "total_tva_euros": 60.02,
+  "total_ttc_euros": 360.12,
+  "statut": "expediee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01864"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T09:10:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T09:12:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T16:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01864"
+    }
+  ]
+}

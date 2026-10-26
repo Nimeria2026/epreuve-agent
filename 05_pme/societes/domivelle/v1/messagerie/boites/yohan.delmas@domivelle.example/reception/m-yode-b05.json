@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-yode-b05",
+  "de": {
+    "nom": "Véronique Tessier",
+    "adresse": "veronique.tessier@domivelle.example"
+  },
+  "a": [
+    "yohan.delmas@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Point d'équipe jeudi",
+  "date": "2026-05-31T09:36:00+02:00",
+  "corps": "Bonjour à tous,\n\nPoint d'équipe jeudi à 9 h, salle du rez-de-chaussée.\n\nVéronique",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

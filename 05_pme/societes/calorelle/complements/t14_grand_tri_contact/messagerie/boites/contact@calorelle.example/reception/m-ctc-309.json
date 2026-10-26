@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-309",
+  "de": {
+    "nom": "Manon Faure",
+    "adresse": "manon.faure@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Réclamation : traces de suie",
+  "date": "2026-11-02T07:51:00+01:00",
+  "corps": "Bonjour,\n\nLors de la visite d'entretien de juin, votre technicien a laissé des traces de suie sur le mur de ma buanderie. Je demande que vous preniez en charge le nettoyage.\n\nManon Faure, 105 rue des Lilas (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

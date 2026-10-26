@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-isro-003",
+  "de": {
+    "nom": "Bruno Castaing",
+    "adresse": "bruno.castaing@negovelle.example"
+  },
+  "a": [
+    "isabelle.royer@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "RE: Lycée professionnel de Vendrigny : CO-2026-02050",
+  "date": "2026-08-24T15:14:00+02:00",
+  "corps": "Isabelle,\n\nTu as mon accord écrit pour débloquer la commande CO-2026-02050 de Lycée professionnel de Vendrigny, 699,00 € TTC.\n\nBruno",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

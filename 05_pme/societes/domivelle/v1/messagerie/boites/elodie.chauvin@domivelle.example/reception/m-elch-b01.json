@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-elch-b01",
+  "de": {
+    "nom": "Mme Corinne Millet",
+    "adresse": "corinne.millet@courriel.example"
+  },
+  "a": [
+    "elodie.chauvin@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Question sur mon compte rendu de gérance",
+  "date": "2026-05-23T10:36:00+02:00",
+  "corps": "Bonjour,\n\nPouvez-vous me confirmer le montant reversé le 10 mai ?\n\nMerci,\nMme Corinne Millet",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

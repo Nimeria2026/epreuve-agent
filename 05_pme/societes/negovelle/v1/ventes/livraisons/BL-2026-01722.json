@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01722",
+  "commande": "CO-2026-01873",
+  "client": "c-0229",
+  "date_expedition": "2026-06-26",
+  "date_livraison": "2026-06-26",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "63 rue des Forges, 36999 Vendrigny (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ELE-10408",
+      "libelle": "Borne de connexion à levier 3 conducteurs, boîte de 50",
+      "quantite": 2
+    }
+  ],
+  "reserves": "2 colis livrés sur 3",
+  "signataire": "Agnès Durieux",
+  "statut": "livre"
+}

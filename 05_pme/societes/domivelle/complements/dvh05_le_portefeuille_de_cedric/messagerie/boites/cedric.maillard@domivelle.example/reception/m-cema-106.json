@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cema-106",
+  "de": {
+    "nom": "Menuiserie des Fontenils",
+    "adresse": "facturation@menuiserie-des-fontenils.example"
+  },
+  "a": [
+    "cedric.maillard@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis D-2026-231, volet roulant, lot c27-01",
+  "date": "2026-06-05T16:45:00+02:00",
+  "corps": "Bonjour,\n\nVoici notre devis pour le volet roulant du séjour du lot c27-01, 86 rue de la Croix-Blanche : remplacement du moteur et de la commande, 380,00 € TTC. Nous pouvons intervenir sous huit jours après votre accord.\n\nMenuiserie des Fontenils",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

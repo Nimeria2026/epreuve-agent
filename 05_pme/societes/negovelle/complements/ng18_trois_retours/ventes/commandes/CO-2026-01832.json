@@ -1,0 +1,145 @@
+{
+  "numero": "CO-2026-01832",
+  "client": "c-0237",
+  "reference_client": null,
+  "cree_le": "2026-06-23T09:10:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "111 rue du Four, 36999 Vendrigny (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-10596",
+      "libelle": "Boîte de dérivation à embouts 220 mm",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 11.4,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 10.94,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 65.64
+    },
+    {
+      "reference": "ELP-10604",
+      "libelle": "Foret béton SDS-plus 12x310 mm",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 17.95,
+      "remise_pourcent": 5.92,
+      "prix_net_ht_euros": 16.89,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 84.45
+    },
+    {
+      "reference": "FIX-11592",
+      "libelle": "Goujon d'ancrage M12x90, boîte de 25",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 16.0,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 15.36,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 92.16
+    },
+    {
+      "reference": "PLB-10302",
+      "libelle": "Chauffe-eau électrique 300 l, vertical mural",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 574.9,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 551.9,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 2759.5
+    },
+    {
+      "reference": "PLB-12066",
+      "libelle": "Raccord laiton réduction mâle-femelle 15x21",
+      "quantite": 50,
+      "prix_tarif_ht_euros": 8.25,
+      "remise_pourcent": 8.8,
+      "prix_net_ht_euros": 7.52,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 376.0
+    },
+    {
+      "reference": "PRO-11535",
+      "libelle": "Pantalon de travail haute visibilité orange, taille 52",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 26.15,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 25.1,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 125.5
+    },
+    {
+      "reference": "QUI-12311",
+      "libelle": "Paumelle 60 mm, laiton, sachet de 2",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 5.35,
+      "remise_pourcent": 6.88,
+      "prix_net_ht_euros": 4.98,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 59.76
+    },
+    {
+      "reference": "QUI-13487",
+      "libelle": "Équerre d'assemblage 60 mm, zinguée, sachet de 10",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 2.75,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 2.64,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 5.28
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 3568.29,
+  "total_tva_euros": 713.66,
+  "total_ttc_euros": 4281.95,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01681"
+  ],
+  "facture": "FC-2026-1216",
+  "historique": [
+    {
+      "date": "2026-06-23T09:10:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-23T09:12:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-24T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01681"
+    },
+    {
+      "date": "2026-06-24T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01681"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1216"
+    }
+  ]
+}

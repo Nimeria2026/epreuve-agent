@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-quma-305",
+  "de": {
+    "nom": "Thibault Gauthier",
+    "adresse": "thibault.gauthier@messagerie.example"
+  },
+  "a": [
+    "quentin.mallet@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Visite c04-03",
+  "date": "2026-06-07T21:30:00+02:00",
+  "corps": "Bonjour,\n\nL'annonce pour le T3 du 112 place du Marché, à Montclavel-sur-Cher m'intéresse : pourrais-je le visiter le samedi 20 juin à 9 h ?\n\nThibault Gauthier",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,125 @@
+{
+  "numero": "CO-2026-02034",
+  "client": "c-0294",
+  "reference_client": null,
+  "cree_le": "2026-07-03T09:10:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "69 rue des Chênes, 36999 Vaumoreau-sur-Indre (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-10032",
+      "libelle": "Bombe de peinture antirouille, gris, aérosol de 500 ml",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 8.55,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 8.21,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 49.26
+    },
+    {
+      "reference": "ELE-10922",
+      "libelle": "Câble H07V-K 10 mm², couronne de 50 m",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 354.25,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 340.08,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 1020.24
+    },
+    {
+      "reference": "ELE-12245",
+      "libelle": "Hublot rond LED 15 W",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 25.3,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 24.29,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 48.58
+    },
+    {
+      "reference": "ELP-10955",
+      "libelle": "Foret métal HSS 13 mm, étui de 10",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 23.8,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 22.85,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 22.85
+    },
+    {
+      "reference": "FIX-10898",
+      "libelle": "Cheville à frapper 5x80, boîte de 50",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 14.35,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 14.35,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 43.05
+    },
+    {
+      "reference": "FIX-12409",
+      "libelle": "Équerre de fixation 80x60x20 mm, zinguée",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 4.2,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 4.03,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 4.03
+    },
+    {
+      "reference": "PLB-10244",
+      "libelle": "Chauffe-eau électrique 100 l, horizontal",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 476.1,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 457.06,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 2285.3
+    },
+    {
+      "reference": "QUI-10310",
+      "libelle": "Cadenas acier 40 mm, 3 clés",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 34.1,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 32.74,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 32.74
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 3506.05,
+  "total_tva_euros": 701.21,
+  "total_ttc_euros": 4207.26,
+  "statut": "validee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T09:10:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T09:12:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": ""
+    }
+  ]
+}

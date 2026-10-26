@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-soau-303",
+  "de": {
+    "nom": "Mme Chantal Barbier",
+    "adresse": "chantal.barbier@courriel.example"
+  },
+  "a": [
+    "solene.audoin@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Attestation habitation 2026",
+  "date": "2026-06-07T20:45:00+02:00",
+  "corps": "Bonsoir,\n\nPardon pour le retard : voici l'attestation de mon assurance habitation, du 15 avril 2026 au 14 avril 2027.\n\nChantal Barbier, lot s04-07",
+  "pieces_jointes": [
+    {
+      "nom": "attestation_assurance.pdf",
+      "fichier": "pieces/m-soau-303/attestation_assurance.pdf",
+      "taille_octets": 824
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

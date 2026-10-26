@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-viar-008",
+  "de": {
+    "nom": "Denis Barthe",
+    "adresse": "denis.barthe@negovelle.example"
+  },
+  "a": [
+    "vincent.arnaud@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Clôture d'août : les réceptions",
+  "date": "2026-08-28T16:05:00+02:00",
+  "corps": "Vincent,\n\nPour clôturer août, rapproche tes commandes du mois (achats/commandes/2026-08/) de leurs bons de réception (achats/receptions/2026-08/). Les écarts partent en réclamation au fournisseur, comme le veut le manuel. Envoie-moi lundi la liste des commandes soldées, avec leur montant HT, dont je paierai la facture, et de celles qui attendent, avec leur écart.\n\nDenis",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

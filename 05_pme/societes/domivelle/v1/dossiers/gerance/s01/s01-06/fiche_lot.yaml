@@ -1,0 +1,24 @@
+# Fiche du lot s01-06. Données FICTIVES.
+lot: s01-06
+adresse: 25 rue du Lavoir, 18999 Sorlay-le-Haut (FICTIF)
+type: T3
+surface_m2: 69
+locataire:
+  nom: M. Olivier Gilbert
+  courriel: olivier.gilbert@boite-postale.example
+  telephone: 06 39 98 67 75
+  entree: '2013-03-23'
+bail:
+  signature: '2013-03-23'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 587,00 €
+  depot_de_garantie: 443,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T4
+dpe:
+  classe: E
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

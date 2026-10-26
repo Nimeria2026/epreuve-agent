@@ -1,0 +1,92 @@
+{
+  "numero": "CO-2026-02030",
+  "client": "c-0249",
+  "reference_client": "BC-6993",
+  "cree_le": "2026-07-03T09:10:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "34 zone industrielle des Brandes, 36999 Vendrigny (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-11502",
+      "libelle": "Disjoncteur bipolaire 25 A, courbe C",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 28.55,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 27.41,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 164.46
+    },
+    {
+      "reference": "ELE-13372",
+      "libelle": "Tableau électrique 3 rangée(s), 13 modules",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 117.6,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 112.9,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 225.8
+    },
+    {
+      "reference": "ELP-10620",
+      "libelle": "Foret béton SDS-plus 14x110 mm",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 15.45,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 14.83,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 177.96
+    },
+    {
+      "reference": "PLB-13299",
+      "libelle": "Tube multicouche 32 mm, couronne de 50 m",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 97.6,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 93.7,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 562.2
+    },
+    {
+      "reference": "QUI-10710",
+      "libelle": "Charnière de meuble à visser 80 mm, laiton",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 5.9,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 5.66,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 22.64
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 1153.06,
+  "total_tva_euros": 230.61,
+  "total_ttc_euros": 1383.67,
+  "statut": "validee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T09:10:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T09:12:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": ""
+    }
+  ]
+}

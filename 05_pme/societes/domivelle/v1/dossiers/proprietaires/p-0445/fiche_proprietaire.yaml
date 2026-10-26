@@ -1,0 +1,13 @@
+# Fiche du propriétaire p-0445, mandant de Domivelle. Données FICTIVES.
+code: p-0445
+nom: M. Henri Bourgeois
+adresse: 125 rue des Peupliers, 18999 Montclavel-sur-Cher (FICTIF)
+courriel: henri.bourgeois@boite-postale.example
+telephone: 06 39 98 96 68
+iban: FR76 9999 9261 5080 0943 5150 658 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- n27-11
+- n28-01
+- n35-04
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

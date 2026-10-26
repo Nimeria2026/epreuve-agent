@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-fame-b05",
+  "de": {
+    "nom": "Guy Simonet",
+    "adresse": "guy.simonet@boulay-maintenance.example"
+  },
+  "a": [
+    "fabrice.mercier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Horaires du comptoir cet été",
+  "date": "2026-06-18T15:29:00+02:00",
+  "corps": "Bonjour,\n\nLe comptoir reste-t-il ouvert en août ?\n\nGuy Simonet",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-921",
+  "de": {
+    "nom": "Commune du Pré-Bouvreuil",
+    "adresse": "contact@commune-du-pre-bouvreuil-279.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Consultation : chaudière du gymnase",
+  "date": "2026-12-22T09:00:00+01:00",
+  "corps": "Bonjour,\n\nLa commune consulte pour le remplacement de la chaudière du gymnase, 78 rue de la Loire. Les offres sont attendues avant le vendredi 15 janvier à 12 h ; la visite du site est obligatoire et se prend avec le secrétariat de mairie.\n\nLa mairie du Pré-Bouvreuil, 78 rue de la Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

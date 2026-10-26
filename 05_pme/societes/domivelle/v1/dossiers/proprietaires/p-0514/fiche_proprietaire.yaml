@@ -1,0 +1,15 @@
+# Fiche du propriétaire p-0514, mandant de Domivelle. Données FICTIVES.
+code: p-0514
+nom: M. Pierre Vidal
+adresse: 54 rue des Forges, 18999 Montclavel-sur-Cher (FICTIF)
+courriel: pierre.vidal@mel-perso.example
+telephone: 06 39 98 91 10
+iban: FR76 9999 9608 1006 3896 5298 363 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- s03-04
+- s04-07
+- s04-10
+- s06-01
+- s10-09
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

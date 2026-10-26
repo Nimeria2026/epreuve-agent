@@ -1,0 +1,90 @@
+{
+  "numero": "CO-2026-01856",
+  "client": "c-0178",
+  "reference_client": "BC-863",
+  "cree_le": "2026-06-24T09:10:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "express",
+  "livraison": {
+    "code": "L1",
+    "adresse": "7 zone industrielle des Brandes, 36999 Vaumoreau-sur-Indre (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "OUT-13152",
+      "libelle": "Équerre de menuisier 600 mm",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 14.4,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 13.82,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 27.64
+    },
+    {
+      "reference": "PRO-10391",
+      "libelle": "Casque antibruit pliable SNR 27 dB",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 35.95,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 34.51,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 69.02
+    },
+    {
+      "reference": "VIS-13699",
+      "libelle": "Vis à tôle tête cylindrique 3,5x25, zinguée, boîte de 250",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 3.65,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 3.5,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 10.5
+    }
+  ],
+  "port_ht_euros": 25.0,
+  "total_ht_euros": 132.16,
+  "total_tva_euros": 26.43,
+  "total_ttc_euros": 158.59,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01705"
+  ],
+  "facture": "FC-2026-1162",
+  "historique": [
+    {
+      "date": "2026-06-24T09:10:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-24T09:12:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-24T16:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01705"
+    },
+    {
+      "date": "2026-06-25T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01705"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1162"
+    }
+  ]
+}

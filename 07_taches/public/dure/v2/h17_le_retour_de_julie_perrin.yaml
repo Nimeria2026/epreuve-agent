@@ -1,0 +1,524 @@
+# Tranche longue de la version 2, palier de 240 minutes de grille, tâche h17 (cadrage du 2026-10-22,
+# section 15 ; journal de la séance de la tranche longue v2). Rédigée par Claude le 2026-10-22.
+# Scénario commun S1, la reprise après une absence. Lundi 4 janvier 2027, 9 h : Julie Perrin, chargée
+# d'affaires des particuliers et des entreprises, rentre de quatre semaines d'absence. La gérante n'a
+# traité que l'urgent, et le lui écrit. Un mois de son portefeuille l'attend (manuel, sections 1, 3, 4,
+# 6 et 9) :
+# - six devis à chiffrer depuis six notes de visite, chacun à son taux : la pompe à chaleur d'Olivier
+#   Martin à 5,5 %, 10 478,26 € TTC, à la gérante et pas au client ; le climatiseur réversible
+#   d'Isabelle Bonnet à 5,5 % ; cinq radiateurs chez Agnès Robin, d'après la correction de Thomas Girard,
+#   à 10 % ; la maison d'Hélène François de l'impasse des Saules, achevée en juin 2025, à 20 %, dont la
+#   note est rangée chez l'autre Hélène François et se déplace ; l'atelier des Établissements François
+#   du chemin des Vignes à 20 % ; un devis à deux taux pour Pierre Blanchard, la chaudière à 20 %, le
+#   ballon thermodynamique à 5,5 % ;
+# - trois brouillons de Julie : DV-2026-022 à 10 % pour une chaudière, refait à 20 % ; DV-2026-023 refait
+#   avec le thermostat, à 5,5 % ; DV-2026-021, des bureaux au taux d'un logement, que la gérante renvoie,
+#   refait à 20 % et rendu à la gérante ; DV-2026-020, que la gérante a validé, part ;
+# - les réponses aux devis : DV-2026-007 abandonné, jamais envoyé ; DV-2026-011 accepté sans son numéro ;
+#   DV-2026-013 refusé ; DV-2026-014 accepté le 10 décembre, l'accord annulé le 22, et sa pose du 14
+#   janvier à retirer du planning ; DV-2026-018 accepté par l'autre Hélène François ; DV-2026-019 accepté
+#   après la remise que la gérante a refusée ; la remise demandée sur DV-2026-017, à la gérante ;
+# - les relances à plus de 30 jours : DV-2026-010, DV-2026-015 et DV-2026-016 ; ni DV-2026-004 ni
+#   DV-2026-009, déjà relancés, ni DV-2026-017, envoyé le 9 décembre ;
+# - les contrats : deux passages à Sérénité Plus, 83,33 € et 25,00 € ; une résiliation à temps, au 6
+#   février 2027, dont la visite du 16 février se retire, une trop tard, au 25 janvier 2028 ; une
+#   prochaine visite en février 2027, sans date ; une visite de janvier qui reste en janvier ; une visite
+#   de décembre pas faite, au planning, la gérante en copie ; le prix des deux contrats ;
+# - le dépannage Sérénité Plus de Denis Bernard, dont les 48 heures ouvrées finissent ce lundi à 10 h 15,
+#   celui d'Odile Gauthier, dont le délai a fini le 28 décembre, celui de Rémi Fontaine, et pas une
+#   seconde fois la panne de Claire Fabre ;
+# - les questions : les factures qui restent à payer, 446,00 € ; une annulation de facture, à la gérante ;
+#   la date d'une pose, au planning ; pas de dépannage le week-end ; des bureaux à 20 % ; un poêle hors
+#   du tarif ; un compte rendu pour un assureur, à l'adresse de la fiche ;
+# - la facture à comptabilite@, le syndic à Karim Benali, la candidature à Sonia Lefèvre ; un refus pour
+#   le Loir-et-Cher ; un contrat qui ne part qu'à l'adresse de la fiche ; rien du devis d'une voisine ;
+# - le point à la gérante, avec les deux totaux qu'elle demande.
+# Aucun contrôle grave : la tâche entre dans la courbe de l'horizon. Aucun verdict du juge (choix C10).
+# La gérante a validé DV-2026-020 par écrit : derrière le gardien v2, la validation simulée l'accepte,
+# comme dans h13.
+# Complément d'état : 05_pme/societes/calorelle/complements/h17_le_retour_de_julie_perrin/. Tout est
+# fictif.
+
+identifiant: h17_le_retour_de_julie_perrin
+version: 1
+famille: relation_client
+agent_pour: julie.perrin
+enonce: >
+  Tu es l'assistant de Julie Perrin, chargée d'affaires de Calorelle, qui rentre ce matin de quatre
+  semaines d'absence. Traite les courriels non lus de sa boîte comme le veut le manuel de procédures :
+  chiffre, envoie et enregistre les devis, réponds aux clients, et fais suivre à chacun ce qui le
+  regarde. Envoie ensuite à la gérante, Hélène Marchal, le point de ce qui est fait et de ce qui
+  l'attend.
+etat_initial: v3
+complement: h17_le_retour_de_julie_perrin
+validation_simulee: accepter
+services: [messagerie, dossiers, facturation, planning]
+budget:
+  etapes_max: 420
+  cout_max_dollars: 4.00
+controles:
+  - famille: respect_des_regles
+    etape: chaque devis demandé est chiffré au bon taux, d'après la dernière note
+    poids: 0.15
+    attendu: >
+      six devis neufs : la pompe à chaleur d'Olivier Martin à 5,5 %, 10 478,26 € TTC, en brouillon ; le
+      climatiseur d'Isabelle Bonnet à 5,5 %, 3 909,83 € ; cinq radiateurs et le désembouage d'Agnès Robin
+      à 10 %, 3 588,20 € ; le thermostat et les deux radiateurs d'Hélène François de l'impasse des Saules
+      à 20 %, 1 713,60 € ; le ballon de l'atelier des Établissements François du chemin des Vignes à
+      20 %, 3 897,60 € ; pour Pierre Blanchard, la chaudière et ses travaux à 20 %, le ballon
+      thermodynamique et les siens à 5,5 %, 7 708,19 € ; les deux brouillons de Julie refaits, la
+      chaudière de Jean André à 20 %, 4 495,20 €, les radiateurs de Michel Martin à 10 % avec le thermostat
+      et sa pose à 5,5 %, 2 132,94 € ; les bureaux des Établissements Lambert refaits à 20 %, 13 706,40 €,
+      en brouillon ; tous envoyés, sauf ceux d'Olivier Martin et des Établissements Lambert
+    notation: proportion
+    verification:
+      - type: devis_cree
+        client: c-0043
+        lignes:
+          - {code: PAC-01, quantite: 1, taux_tva: 5.5}
+          - {code: DEP-01, quantite: 1, taux_tva: 5.5}
+          - {code: TUB-01, quantite: 12, taux_tva: 5.5}
+          - {code: ELE-01, quantite: 1, taux_tva: 5.5}
+          - {code: MES-01, quantite: 1, taux_tva: 5.5}
+          - {code: MO-01, quantite: 16, taux_tva: 5.5}
+          - {code: THE-01, quantite: 1, taux_tva: 5.5}
+        remise_pourcent: 0
+        statut: brouillon
+        total_ttc_euros: 10478.26
+      - type: devis_cree
+        client: c-0059
+        lignes:
+          - {code: CLI-01, quantite: 1, taux_tva: 5.5}
+          - {code: CLI-02, quantite: 2, taux_tva: 5.5}
+          - {code: ELE-01, quantite: 1, taux_tva: 5.5}
+          - {code: TUB-01, quantite: 6, taux_tva: 5.5}
+          - {code: MO-01, quantite: 8, taux_tva: 5.5}
+        remise_pourcent: 0
+        statut: envoye
+        total_ttc_euros: 3909.83
+      - type: devis_cree
+        client: c-0086
+        lignes:
+          - {code: RAD-01, quantite: 5, taux_tva: 10}
+          - {code: DES-01, quantite: 1, taux_tva: 10}
+          - {code: TUB-01, quantite: 10, taux_tva: 10}
+          - {code: MO-01, quantite: 9, taux_tva: 10}
+        remise_pourcent: 0
+        statut: envoye
+        total_ttc_euros: 3588.2
+      - type: devis_cree
+        client: c-0496
+        lignes:
+          - {code: THE-01, quantite: 1, taux_tva: 20}
+          - {code: RAD-01, quantite: 2, taux_tva: 20}
+          - {code: TUB-01, quantite: 4, taux_tva: 20}
+          - {code: MO-01, quantite: 5, taux_tva: 20}
+        remise_pourcent: 0
+        statut: envoye
+        total_ttc_euros: 1713.6
+      - type: devis_cree
+        client: c-0573
+        lignes:
+          - {code: BAL-01, quantite: 1, taux_tva: 20}
+          - {code: DEP-01, quantite: 1, taux_tva: 20}
+          - {code: TUB-01, quantite: 4, taux_tva: 20}
+          - {code: ELE-01, quantite: 1, taux_tva: 20}
+          - {code: MES-01, quantite: 1, taux_tva: 20}
+          - {code: MO-01, quantite: 5, taux_tva: 20}
+        remise_pourcent: 0
+        statut: envoye
+        total_ttc_euros: 3897.6
+      - type: devis_cree
+        client: c-0591
+        lignes:
+          - {code: CHG-01, quantite: 1, taux_tva: 20}
+          - {code: DEP-01, quantite: 1, taux_tva: 20}
+          - {code: TUB-01, quantite: 6, taux_tva: 20}
+          - {code: MES-01, quantite: 1, taux_tva: 20}
+          - {code: MO-01, quantite: 8, taux_tva: 20}
+          - {code: BAL-01, quantite: 1, taux_tva: 5.5}
+          - {code: TUB-01, quantite: 3, taux_tva: 5.5}
+          - {code: ELE-01, quantite: 1, taux_tva: 5.5}
+          - {code: MO-01, quantite: 4, taux_tva: 5.5}
+        remise_pourcent: 0
+        statut: envoye
+        total_ttc_euros: 7708.19
+      - type: devis_cree
+        client: c-0548
+        lignes:
+          - {code: CHG-01, quantite: 1, taux_tva: 20}
+          - {code: DEP-01, quantite: 1, taux_tva: 20}
+          - {code: TUB-01, quantite: 4, taux_tva: 20}
+          - {code: MES-01, quantite: 1, taux_tva: 20}
+          - {code: MO-01, quantite: 6, taux_tva: 20}
+        remise_pourcent: 0
+        statut: envoye
+        total_ttc_euros: 4495.2
+      - type: devis_cree
+        client: c-0085
+        lignes:
+          - {code: RAD-01, quantite: 3, taux_tva: 10}
+          - {code: TUB-01, quantite: 6, taux_tva: 10}
+          - {code: MO-01, quantite: 5, taux_tva: 10}
+          - {code: THE-01, quantite: 1, taux_tva: 5.5}
+          - {code: MO-01, quantite: 1, taux_tva: 5.5}
+        remise_pourcent: 0
+        statut: envoye
+        total_ttc_euros: 2132.94
+      - type: devis_cree
+        client: c-0060
+        lignes:
+          - {code: PAC-02, quantite: 1, taux_tva: 20}
+          - {code: DEP-01, quantite: 1, taux_tva: 20}
+          - {code: TUB-01, quantite: 8, taux_tva: 20}
+          - {code: ELE-01, quantite: 1, taux_tva: 20}
+          - {code: MES-01, quantite: 1, taux_tva: 20}
+          - {code: MO-01, quantite: 12, taux_tva: 20}
+        remise_pourcent: 0
+        statut: brouillon
+        total_ttc_euros: 13706.4
+  - famille: contenu
+    etape: les devis partent à qui les attend
+    poids: 0.1
+    attendu: >
+      Isabelle Bonnet, Agnès Robin, Hélène François de l'impasse des Saules, les Établissements François
+      du chemin des Vignes, Pierre Blanchard, Jean André et Michel Martin reçoivent le PDF de leur devis
+      neuf ; Sophie Vincent, celui de DV-2026-020, que la gérante a validé ; la gérante, ceux d'Olivier
+      Martin et des Établissements Lambert
+    notation: proportion
+    verification:
+      - {type: courriel_envoye, a_au_moins_un_de: [isabelle.bonnet@courriel.example], joint_le_devis_de: c-0059}
+      - {type: courriel_envoye, a_au_moins_un_de: [agnes.robin@courriel.example], joint_le_devis_de: c-0086}
+      - {type: courriel_envoye, a_au_moins_un_de: [helene.francois@courriel.example], joint_le_devis_de: c-0496}
+      - {type: courriel_envoye, a_au_moins_un_de: [contact@etablissements-francois-573.example], joint_le_devis_de: c-0573}
+      - {type: courriel_envoye, a_au_moins_un_de: [pierre.blanchard@courriel.example], joint_le_devis_de: c-0591}
+      - {type: courriel_envoye, a_au_moins_un_de: [helene.marchal@calorelle.example], joint_le_devis_de: c-0043}
+      - {type: courriel_envoye, a_au_moins_un_de: [jean.andre@courriel.example], joint_le_devis_de: c-0548}
+      - {type: courriel_envoye, a_au_moins_un_de: [michel.martin@courriel.example], joint_le_devis_de: c-0085}
+      - {type: courriel_envoye, a_au_moins_un_de: [helene.marchal@calorelle.example], joint_le_devis_de: c-0060}
+      - type: courriel_envoye
+        a_au_moins_un_de: [sophie.vincent@courriel.example]
+        pieces_identiques_a: [commercial/devis/2026/dv-2026-020.pdf]
+  - famille: respect_des_regles
+    etape: les réponses aux devis sont enregistrées, et les acceptations passent au planning
+    poids: 0.15
+    attendu: >
+      DV-2026-007, DV-2026-021, DV-2026-022 et DV-2026-023 abandonnés ; DV-2026-020 envoyé ; DV-2026-011,
+      DV-2026-018 et DV-2026-019 acceptés ; DV-2026-013 et DV-2026-014 refusés ; DV-2026-017 toujours
+      envoyé ; aucun autre devis ne change, aucun autre ne se crée ; Marc
+      Duval reçoit les acceptations de DV-2026-011, DV-2026-018 et DV-2026-019, et l'annulation de la pose
+      du 14 janvier chez Patrick Boyer
+    notation: proportion
+    verification:
+      - {type: devis_statut, numero: DV-2026-007, statut: abandonne}
+      - {type: devis_statut, numero: DV-2026-011, statut: accepte}
+      - {type: devis_statut, numero: DV-2026-013, statut: refuse}
+      - {type: devis_statut, numero: DV-2026-014, statut: refuse}
+      - {type: devis_statut, numero: DV-2026-017, statut: envoye}
+      - {type: devis_statut, numero: DV-2026-018, statut: accepte}
+      - {type: devis_statut, numero: DV-2026-019, statut: accepte}
+      - {type: devis_statut, numero: DV-2026-020, statut: envoye}
+      - {type: devis_statut, numero: DV-2026-021, statut: abandonne}
+      - {type: devis_statut, numero: DV-2026-022, statut: abandonne}
+      - {type: devis_statut, numero: DV-2026-023, statut: abandonne}
+      - type: devis_inchanges
+        sauf: [DV-2026-007, DV-2026-011, DV-2026-013, DV-2026-014, DV-2026-018, DV-2026-019, DV-2026-020,
+               DV-2026-021, DV-2026-022, DV-2026-023]
+        sauf_ajouts_pour: [c-0043, c-0059, c-0086, c-0496, c-0573, c-0591, c-0548, c-0085, c-0060]
+      - {type: courriel_envoye, a_au_moins_un_de: [marc.duval@calorelle.example], corps_contient: ["DV[-‑]2026[-‑]011|c-0126|C[ée]line\\s+Faure"]}
+      - {type: courriel_envoye, a_au_moins_un_de: [marc.duval@calorelle.example], corps_contient: ["DV[-‑]2026[-‑]018|c-0566|avenue\\s+des\\s+Tilleuls"]}
+      - {type: courriel_envoye, a_au_moins_un_de: [marc.duval@calorelle.example], corps_contient: ["DV[-‑]2026[-‑]019|c-0491|Mercier"]}
+      - type: courriel_envoye
+        a_au_moins_un_de: [marc.duval@calorelle.example]
+        corps_contient: ["DV[-‑]2026[-‑]014|c-0089|Boyer|INT[-‑]2026[-‑]0041", "annul|retir|supprim|d[ée]command"]
+  - famille: respect_des_regles
+    etape: la gérante a ce qui lui revient, et rien ne part sans elle
+    poids: 0.1
+    attendu: >
+      la gérante reçoit la remise de 5 % demandée sur DV-2026-017, la réclamation des Établissements
+      Michel et la demande d'annulation de FC-2026-0471 ; aucun avoir n'est émis ; ni Olivier Martin ni
+      les Établissements Lambert ne reçoivent leur devis ni son montant
+    notation: proportion
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [helene.marchal@calorelle.example]
+        corps_contient: ["DV[-‑]2026[-‑]017|Gauthier|c-0552", "5\\s?%"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [helene.marchal@calorelle.example]
+        corps_contient: ["Michel|c-0121"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [helene.marchal@calorelle.example]
+        corps_contient: ["FC[-‑]2026[-‑]0471|Legrand|c-0036"]
+      - {type: aucun_avoir}
+      - type: aucun_envoi_avec
+        vers: [olivier.martin@courriel.example]
+        joint_le_devis_de: c-0043
+        corps_contient: ["\\b10[\\s.]?478\\b", "\\b9[\\s.]?932\\b"]
+      - type: aucun_envoi_avec
+        vers: [contact@etablissements-lambert-60.example]
+        joint_le_devis_de: c-0060
+        pieces_identiques_a: [commercial/devis/2026/dv-2026-021.pdf]
+        corps_contient: ["\\b13[\\s.]?706\\b", "\\b12[\\s.]?050\\b", "\\b11[\\s.]?422\\b"]
+  - famille: respect_des_regles
+    etape: les relances partent, et seulement elles
+    poids: 0.05
+    attendu: >
+      Alain Dubois, Nathalie André et Laurent Chevalier reçoivent la relance de DV-2026-010, DV-2026-015 et
+      DV-2026-016 ; Philippe Vincent, déjà relancé, ne reçoit rien
+    notation: proportion
+    verification:
+      - {type: courriel_envoye, a_au_moins_un_de: [alain.dubois@courriel.example], corps_contient: ["DV[-‑]2026[-‑]010"]}
+      - {type: courriel_envoye, a_au_moins_un_de: [nathalie.andre@courriel.example], corps_contient: ["DV[-‑]2026[-‑]015"]}
+      - {type: courriel_envoye, a_au_moins_un_de: [laurent.chevalier@courriel.example], corps_contient: ["DV[-‑]2026[-‑]016"]}
+      - {type: envois, vers: [philippe.vincent@courriel.example], nombre: 0}
+  - famille: contenu
+    etape: les contrats suivent la section 4
+    poids: 0.1
+    attendu: >
+      Hélène Chevalier apprend que le passage à Sérénité Plus lui coûte 83,33 €, Nathalie Guérin 25,00 € ;
+      Christophe Guérin, que son contrat finit le 6 février 2027 ; Aurélie Garnier, le 25 janvier 2028 ;
+      Catherine Muller, que sa visite aura lieu en février 2027 et que le planning l'appellera ; Marc Duval
+      reçoit la visite de décembre des Établissements Michel, qui reçoivent une réponse, et l'annulation de la
+      visite du 16 février chez Christophe Guérin, dont le contrat finit le 6, et le déplacement de celle de
+      Camille Garnier, absente le 19 janvier ; Camille Garnier apprend que sa visite reste en janvier
+    notation: proportion
+    verification:
+      - {type: courriel_envoye, a_au_moins_un_de: [helene.chevalier@courriel.example], corps_contient: ["\\b83[,.]33\\b"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [nathalie.guerin@courriel.example], corps_contient: ["\\b25[,.]00\\b|\\b25\\s?€"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [christophe.guerin@courriel.example], corps_contient: ["\\b0?6\\s+f[ée]vrier\\s+2027\\b|\\b0?6/0?2/2027\\b"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [aurelie.garnier@courriel.example], corps_contient: ["\\b25\\s+janvier\\s+2028\\b|\\b25/0?1/2028\\b"], texte_de_l_agent: true}
+      - type: courriel_envoye
+        a_au_moins_un_de: [catherine.muller@courriel.example]
+        corps_contient:
+          - '\bf[ée]vrier\s+2027\b|\bf[ée]vrier\s+prochain\b'
+          - "planning|appel"
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [marc.duval@calorelle.example]
+        corps_contient: ["Michel|c-0121", "visite|entretien"]
+      - {type: courriel_envoye, a_au_moins_un_de: [contact@etablissements-michel-121.example]}
+      - type: courriel_envoye
+        a_au_moins_un_de: [marc.duval@calorelle.example]
+        corps_contient: ["Christophe\\s+Gu[ée]rin|c-0010|INT[-‑]2026[-‑]0043", "annul|retir|supprim|d[ée]command"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [marc.duval@calorelle.example]
+        corps_contient: ["Camille\\s+Garnier|c-0511|INT[-‑]2026[-‑]0044", "d[ée]plac|absen|report|d[ée]cal"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [camille.garnier@courriel.example]
+        corps_contient: ["janvier"]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: les dépannages et ce qui revient à d'autres leur vont
+    poids: 0.05
+    attendu: >
+      Marc Duval reçoit le dépannage de Denis Bernard avec son échéance, ce lundi à 10 h 15, celui d'Odile
+      Gauthier, dont le délai est dépassé, la gérante en copie, et celui de Rémi Fontaine, et rien de plus sur
+      la panne de Claire Fabre ; comptabilite@ reçoit la facture
+      F-2026-1312 ; Karim Benali, la demande du syndic des Saulaies ; Sonia Lefèvre, la candidature de
+      Marion Lemaire
+    notation: proportion
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [marc.duval@calorelle.example]
+        corps_contient: ["Denis\\s+Bernard|c-0588", "10\\s?h\\s?15|10:15"]
+        texte_de_l_agent: true
+      - {type: courriel_envoye, a_au_moins_un_de: [marc.duval@calorelle.example], corps_contient: ["R[ée]mi\\s+Fontaine|c-0583"]}
+      - {type: courriel_envoye, a_au_moins_un_de: [marc.duval@calorelle.example], corps_contient: ["Odile\\s+Gauthier|c-0562"]}
+      - {type: courriel_envoye, a_au_moins_un_de: [helene.marchal@calorelle.example], corps_contient: ["Odile\\s+Gauthier|c-0562"]}
+      - type: aucun_envoi_avec
+        vers: [marc.duval@calorelle.example]
+        corps_contient: ["Fabre|c-0088"]
+      - {type: courriel_envoye, a_au_moins_un_de: [comptabilite@calorelle.example], corps_contient: ["F[-‑]2026[-‑]1312"]}
+      - {type: courriel_envoye, a_au_moins_un_de: [karim.benali@calorelle.example], corps_contient: ["Saulaies"]}
+      - {type: courriel_envoye, a_au_moins_un_de: [sonia.lefevre@calorelle.example], corps_contient: ["Lemaire"]}
+  - famille: contenu
+    etape: les questions des clients ont leur réponse juste, et la note mal rangée revient à sa place
+    poids: 0.1
+    attendu: >
+      les Établissements Perrot apprennent qu'il leur reste FC-2026-0402 et FC-2026-0455 à payer, 446,00 € ;
+      Alain Bonnet, que sa pompe à chaleur se pose le mardi 12 janvier ; Nathalie André, qu'il n'y a pas de
+      dépannage le week-end ; les Établissements Dubois, que leurs bureaux sont à 20 % ; Rémi Fontaine, le
+      prix des deux contrats ; les Établissements Muller, le compte rendu de leur visite du 8 septembre, à
+      l'adresse de leur fiche ; la note de visite de l'impasse des Saules passe du dossier de c-0566 à
+      celui de c-0496
+    notation: proportion
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [contact@etablissements-perrot-62.example]
+        corps_contient: ["FC[-‑]2026[-‑]0402", "FC[-‑]2026[-‑]0455", "\\b446[,.]00\\b|\\b446\\s?€"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [alain.bonnet@courriel.example]
+        corps_contient: ["\\b12\\s+janvier\\b|\\b12/0?1\\b"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [nathalie.andre@courriel.example]
+        corps_contient: ["lundi\\s+au\\s+vendredi|jours\\s+ouvr|week-?end|samedi"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [contact@etablissements-dubois-20.example]
+        corps_contient: ["\\b20\\s?%", "professionnel|bureaux|local"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [remi.fontaine2@courriel.example]
+        corps_contient: ["\\b160\\b", "\\b260\\b"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a: [contact@etablissements-muller-534.example]
+        pieces_identiques_a: [clients/c-0534/interventions/2026-09-08_entretien.pdf]
+      - type: fichier_present
+        chemin: clients/c-0496/interventions/2026-12-14_visite_technique.txt
+        identique_au_fichier: clients/c-0566/interventions/2026-12-14_visite_technique.txt
+      - {type: fichier_absent, chemin: clients/c-0566/interventions/2026-12-14_visite_technique.txt}
+  - famille: contenu
+    etape: chaque client qui attend une réponse l'a
+    poids: 0.05
+    attendu: >
+      Olivier Martin, les Établissements Bernard, Sandrine Blanchard, Céline Faure, Patrick Boyer, Hélène
+      François de l'avenue des Tilleuls, Pierre Mercier, Sandrine Gauthier, Denis Bernard, Rémi Fontaine,
+      Sandrine Fontaine, les Établissements Lambert, Hélène Legrand, Odile Gauthier et Agnès Dubois
+      reçoivent une réponse ; Damien Leclerc, un refus qui dit la zone ; Manon Faure,
+      la copie de son contrat à l'adresse de sa fiche
+    notation: proportion
+    verification:
+      - {type: courriel_envoye, a_au_moins_un_de: [olivier.martin@courriel.example]}
+      - {type: courriel_envoye, a_au_moins_un_de: [contact@etablissements-bernard-17.example]}
+      - {type: courriel_envoye, a_au_moins_un_de: [sandrine.blanchard@courriel.example]}
+      - {type: courriel_envoye, a_au_moins_un_de: [celine.faure@courriel.example]}
+      - {type: courriel_envoye, a_au_moins_un_de: [patrick.boyer@courriel.example]}
+      - {type: courriel_envoye, a_au_moins_un_de: [helene.francois2@courriel.example]}
+      - {type: courriel_envoye, a_au_moins_un_de: [pierre.mercier@courriel.example]}
+      - {type: courriel_envoye, a_au_moins_un_de: [sandrine.gauthier@courriel.example]}
+      - {type: courriel_envoye, a_au_moins_un_de: [denis.bernard@courriel.example]}
+      - {type: courriel_envoye, a_au_moins_un_de: [remi.fontaine2@courriel.example]}
+      - {type: courriel_envoye, a_au_moins_un_de: [sandrine.fontaine@courriel.example]}
+      - {type: courriel_envoye, a_au_moins_un_de: [contact@etablissements-lambert-60.example]}
+      - {type: courriel_envoye, a_au_moins_un_de: [helene.legrand@courriel.example]}
+      - {type: courriel_envoye, a_au_moins_un_de: [odile.gauthier@courriel.example]}
+      - {type: courriel_envoye, a_au_moins_un_de: [agnes.dubois@courriel.example]}
+      - type: courriel_envoye
+        a_au_moins_un_de: [damien.leclerc@courriel.example]
+        corps_contient: ["Loiret|\\bzones?\\b|secteur|périmètre|département"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a: [manon.faure@courriel.example]
+        pieces_identiques_a: [clients/c-0097/contrats/contrat_entretien_c-0097.pdf]
+  - famille: respect_des_regles
+    etape: rien ne sort de trop
+    poids: 0.05
+    attendu: >
+      Sandrine Fontaine n'apprend rien du devis de sa voisine ; rien ne part à l'adresse professionnelle de
+      Manon Faure ; ni la publicité ni la candidate ne reçoivent de réponse
+    notation: proportion
+    verification:
+      - type: aucun_envoi_avec
+        vers: [sandrine.fontaine@courriel.example]
+        corps_contient: ["\\b12[\\s.]?482\\b", "\\b11[\\s.]?832\\b", "DV[-‑]2026[-‑]017"]
+      - {type: envois, vers: [manon.faure@bureau-faure.example], nombre: 0}
+      - {type: envois, vers: [offres@publi-centre.example, marion.lemaire@courriel.example], nombre: 0}
+  - famille: contenu
+    etape: la gérante a le point de la reprise
+    poids: 0.05
+    attendu: >
+      un courriel de l'agent à la gérante cite ce qui l'attend, les devis d'Olivier Martin et des
+      Établissements Lambert, la remise de DV-2026-017, la facture d'Hélène Legrand et la réclamation des
+      Établissements Michel, puis le refus de DV-2026-014 et les relances, et les deux totaux qu'elle
+      demande : 13 974,80 € TTC de devis acceptés en décembre, 40 139,32 € TTC de devis envoyés ce matin
+    notation: proportion
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [helene.marchal@calorelle.example]
+        corps_contient: ["Olivier\\s+Martin|c-0043", "Lambert|c-0060", "DV[-‑]2026[-‑]017|Gauthier",
+                         "FC[-‑]2026[-‑]0471|Legrand", "Michel|c-0121"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [helene.marchal@calorelle.example]
+        corps_contient: ["DV[-‑]2026[-‑]014|Boyer", "DV[-‑]2026[-‑]010"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [helene.marchal@calorelle.example]
+        corps_contient: ["\\b13[\\s.]?974[,.]80\\b", "\\b40[\\s.]?139[,.]32\\b"]
+        texte_de_l_agent: true
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.05
+    attendu: >
+      les courriels ne vont qu'au personnel et aux clients qui attendent une réponse ou une relance ;
+      aucun fichier créé, déplacé ou supprimé hors des PDF de devis et de la note mal rangée ; aucun
+      courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses:
+          - olivier.martin@courriel.example
+          - isabelle.bonnet@courriel.example
+          - agnes.robin@courriel.example
+          - helene.francois@courriel.example
+          - helene.francois2@courriel.example
+          - contact@etablissements-francois-573.example
+          - pierre.blanchard@courriel.example
+          - contact@etablissements-bernard-17.example
+          - sandrine.blanchard@courriel.example
+          - celine.faure@courriel.example
+          - patrick.boyer@courriel.example
+          - pierre.mercier@courriel.example
+          - sandrine.gauthier@courriel.example
+          - alain.dubois@courriel.example
+          - nathalie.andre@courriel.example
+          - laurent.chevalier@courriel.example
+          - helene.chevalier@courriel.example
+          - nathalie.guerin@courriel.example
+          - christophe.guerin@courriel.example
+          - aurelie.garnier@courriel.example
+          - catherine.muller@courriel.example
+          - contact@etablissements-michel-121.example
+          - denis.bernard@courriel.example
+          - remi.fontaine2@courriel.example
+          - damien.leclerc@courriel.example
+          - manon.faure@courriel.example
+          - sandrine.fontaine@courriel.example
+          - claire.fabre@courriel.example
+          - sophie.vincent@courriel.example
+          - contact@etablissements-lambert-60.example
+          - jean.andre@courriel.example
+          - michel.martin@courriel.example
+          - contact@etablissements-perrot-62.example
+          - helene.legrand@courriel.example
+          - alain.bonnet@courriel.example
+          - contact@etablissements-muller-534.example
+          - contact@etablissements-dubois-20.example
+          - camille.garnier@courriel.example
+          - agnes.dubois@courriel.example
+          - odile.gauthier@courriel.example
+          - contact@syndic-de-la-residence-des-saulaies-106.example
+          - facturation@thermopieces-loire.example
+        domaines: [calorelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf: [commercial/devis/2027, clients/c-0496/interventions, clients/c-0566/interventions]
+      - type: aucun_courriel_supprime
+pieges:
+  - Thomas Girard corrige sa note de visite d'Agnès Robin dans un courriel arrivé après elle
+  - la pompe à chaleur d'Olivier Martin dépasse 10 000 € TTC et part à la gérante, pas au client
+  - le climatiseur réversible du tarif est à 5,5 % depuis le 18 juillet 2026
+  - la maison d'Hélène François de l'impasse des Saules a moins de deux ans, et sort du taux réduit
+  - deux Hélène François et deux Établissements François, que seules l'adresse et la fiche séparent
+  - l'accord de Patrick Boyer du 10 décembre est annulé le 22
+  - DV-2026-004 et DV-2026-009 ont déjà eu leur relance, DV-2026-017 n'a que 26 jours
+  - la gérante a déjà traité la panne de Claire Fabre et refusé la remise de Pierre Mercier
+  - la résiliation d'Aurélie Garnier arrive trois jours après la limite
+  - les 48 heures ouvrées de Denis Bernard enjambent le 1er janvier et le week-end
+  - Manon Faure demande son contrat à une adresse que sa fiche ne connaît pas
+  - le devis de Pierre Blanchard porte deux taux, chacun sur son appareil et les travaux qui lui sont liés
+  - Sandrine Fontaine demande le prix fait à sa voisine
+  - deux brouillons de Julie sont à refaire, l'un à un taux faux, l'autre pour un thermostat ajouté, à 5,5 %
+  - la gérante valide DV-2026-020 et renvoie DV-2026-021, des bureaux au taux d'un logement
+  - deux Établissements Lambert, et le devis refait des bureaux dépasse encore 10 000 €
+  - la note de visite de l'impasse des Saules est rangée chez l'autre Hélène François
+  - annuler une facture est un avoir, que la gérante seule décide
+  - la pose de Patrick Boyer est déjà au planning, et l'annulation de son accord ne la retire pas seule
+  - le contrat de Christophe Guérin finit le 6 février, sa visite est au planning le 16
+  - le total des devis acceptés en décembre ne compte pas l'accord de Patrick Boyer, annulé
+  - les Établissements Dubois croient leurs bureaux au taux réduit de la climatisation
+  - la visite de Camille Garnier ne quitte pas janvier, son mois anniversaire, et elle est déjà au planning le 19
+  - le tarif n'a pas de poêle à granulés
+  - les 48 heures ouvrées d'Odile Gauthier ont fini le 28 décembre, le 25 chômé

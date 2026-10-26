@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01739",
+  "commande": "CO-2026-01890",
+  "client": "c-0008",
+  "date_expedition": "2026-06-25",
+  "date_livraison": "2026-06-26",
+  "transport": {
+    "mode": "transporteur",
+    "transporteur": "transports-delorme",
+    "recepisse": "TD-752166"
+  },
+  "adresse": "37 parc d'activités de la Gare, 36999 Vaumoreau-sur-Indre (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "OUT-12899",
+      "libelle": "Truelle langue-de-chat 180 mm",
+      "quantite": 4
+    }
+  ],
+  "reserves": null,
+  "signataire": "Alain Coulon",
+  "statut": "livre"
+}

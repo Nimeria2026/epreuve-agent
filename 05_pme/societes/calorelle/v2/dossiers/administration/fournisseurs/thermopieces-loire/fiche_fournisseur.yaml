@@ -1,0 +1,8 @@
+# Fiche fournisseur Calorelle. Données FICTIVES.
+nom: "Thermopièces Loire"
+activite: "pièces détachées de chauffage"
+adresse: "83 zone d'activité du Val-Mauvoir, 45999 Valmont-sur-Loire (FICTIF)"
+telephone: "02 61 91 20 11"
+courriel_facturation: "facturation@thermopieces-loire.example"
+iban: "FR76 9999 9001 2300 0011 8742 019 (FICTIF)"
+conditions: "paiement à 30 jours fin de mois"

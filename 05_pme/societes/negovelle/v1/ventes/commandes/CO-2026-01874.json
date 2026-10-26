@@ -1,0 +1,112 @@
+{
+  "numero": "CO-2026-01874",
+  "client": "c-0112",
+  "reference_client": "BC-558",
+  "cree_le": "2026-06-25T09:10:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "32 zone d'activités des Grands Prés, 36999 Laubrissac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-12057",
+      "libelle": "Ruban adhésif aluminium 38 mm, rouleau de 25 m",
+      "quantite": 60,
+      "prix_tarif_ht_euros": 6.1,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 6.1,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 366.0
+    },
+    {
+      "reference": "ELP-11290",
+      "libelle": "Foret à bois trois pointes 5 mm",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 6.65,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 6.65,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 19.95
+    },
+    {
+      "reference": "OUT-10138",
+      "libelle": "Caisse à outils plastique 400 mm",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 86.35,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 86.35,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 345.4
+    },
+    {
+      "reference": "PLB-12801",
+      "libelle": "Tube PER 16 mm, gainé bleu, couronne de 100 m",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 40.65,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 40.65,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 406.5
+    },
+    {
+      "reference": "PRO-11665",
+      "libelle": "Pantalon de travail multipoches noir, taille 52",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 35.1,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 35.1,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 70.2
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 1208.05,
+  "total_tva_euros": 241.61,
+  "total_ttc_euros": 1449.66,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01723"
+  ],
+  "facture": "FC-2026-1100",
+  "historique": [
+    {
+      "date": "2026-06-25T09:10:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-25T09:12:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-26T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01723"
+    },
+    {
+      "date": "2026-06-26T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01723"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1100"
+    }
+  ]
+}

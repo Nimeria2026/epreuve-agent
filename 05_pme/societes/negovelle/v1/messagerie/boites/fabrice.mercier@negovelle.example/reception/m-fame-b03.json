@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-fame-b03",
+  "de": {
+    "nom": "François Pasquet",
+    "adresse": "francois.pasquet@legendre-renovation.example"
+  },
+  "a": [
+    "fabrice.mercier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Copie de facture",
+  "date": "2026-06-22T08:07:00+02:00",
+  "corps": "Bonjour,\n\nPouvez-vous me renvoyer la facture de mai ? Je ne la retrouve pas.\n\nCordialement,\nFrançois Pasquet",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

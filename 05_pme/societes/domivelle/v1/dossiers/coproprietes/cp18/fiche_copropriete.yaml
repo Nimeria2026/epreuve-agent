@@ -1,0 +1,20 @@
+# Fiche de la copropriété cp18. Données FICTIVES.
+copropriete: cp18
+nom: Résidence Les Hauts de Montclavel
+adresse: 102 rue Jean-Jaurès, 18999 Montclavel-sur-Cher (FICTIF)
+lots_principaux: 33
+annee_construction: 2000
+ascenseur: true
+exercice: du lendemain du 31 décembre au 31 décembre
+gestionnaire: Yohan Delmas
+conseil_syndical:
+  president: M. Paul Germain
+  membres:
+  - Mme Jeanne Rivière
+  - Mme Pauline Mouton
+seuil_mise_en_concurrence: 5 000,00 €
+seuil_consultation_du_conseil_syndical: 500,00 €
+assureur_de_l_immeuble: Mutuelle Carrelis (FICTIF)
+declaration_des_sinistres: sinistres@mutuelle-carrelis.example
+immeuble_en_gestion_locative: null
+fonds_de_travaux: 5 % du budget prévisionnel, aux tantièmes généraux, appelé avec chaque provision

@@ -1,0 +1,104 @@
+# Socle de Négovelle, tâche ng08, du socle commun, type facture_fournisseur (cadrage du 2026-10-17,
+# section 8). Rédigée par Claude le 2026-10-17 (JOURNAL, entrée 191), sur l'état v1 et son
+# complément : cinq courriels non lus dans compta@, quatre factures de fournisseurs dont le détail est
+# dans le corps, et F83204 reçue deux fois. Manuel, section 12 : chacune se range dans
+# fournisseurs/<code>/factures/<numero>.pdf et se rapproche de la commande d'achat et du bon de
+# réception ; ne se paient que les quantités reçues, au prix de la commande ; un écart part en
+# réclamation au fournisseur, à l'adresse de sa fiche, et la facture attend ; une facture déjà rangée
+# ne se range ni ne se paie deux fois. F83204 (430,32 €, échéance le 30 juillet) et F16240 (1 322,40 €,
+# le 1er septembre) sont bonnes à payer ; F51172 facture 60 goulottes pour 50 reçues ; F29917 facture
+# les cartouches à 19,40 € pour 18,88 € à la commande. Tout est fictif.
+
+identifiant: ng08_les_factures_des_fournisseurs
+version: 1
+famille: comptabilite
+agent_pour: denis.barthe
+societe: negovelle
+enonce: >
+  Tu es l'assistant de Denis Barthe, comptable fournisseurs de Négovelle. Range et rapproche les
+  factures des courriels non lus de compta@, puis envoie à Bruno Castaing la liste de celles qui sont
+  bonnes à payer, avec leur montant et leur échéance, en respectant le manuel de procédures.
+etat_initial: v1
+complement: ng08_les_factures_des_fournisseurs
+services: [messagerie, dossiers]
+budget:
+  etapes_max: 75
+  cout_max_dollars: 0.50
+controles:
+  - famille: resultat
+    etape: les quatre factures sont rangées chez leur fournisseur
+    poids: 0.3
+    attendu: chaque facture reçue est rangée sous fournisseurs/<code>/factures/<numero>.pdf
+    notation: tout_ou_rien
+    verification:
+      - type: fichier_present
+        chemin: fournisseurs/fixations-des-hautes-bornes/factures/F83204.pdf
+        identique_a_piece: {courriel: m-cpt-001, piece: F83204.pdf}
+      - type: fichier_present
+        chemin: fournisseurs/materiel-electrique-du-pont-rouge/factures/F51172.pdf
+        identique_a_piece: {courriel: m-cpt-002, piece: F51172.pdf}
+      - type: fichier_present
+        chemin: fournisseurs/protection-de-la-garenne/factures/F29917.pdf
+        identique_a_piece: {courriel: m-cpt-003, piece: F29917.pdf}
+      - type: fichier_present
+        chemin: fournisseurs/visserie-de-la-garenne/factures/F16240.pdf
+        identique_a_piece: {courriel: m-cpt-004, piece: F16240.pdf}
+  - famille: respect_des_regles
+    etape: les deux écarts partent en réclamation
+    poids: 0.25
+    attendu: >
+      un courriel à Matériel électrique du Pont-Rouge réclame sur F51172, un à Protection de la Garenne
+      sur F29917, aux adresses de leur fiche
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de:
+          - facturation@materiel-electrique-du-pont-rouge.example
+          - commandes@materiel-electrique-du-pont-rouge.example
+        corps_contient: [F51172]
+      - type: courriel_envoye
+        a_au_moins_un_de: [facturation@protection-de-la-garenne.example, commandes@protection-de-la-garenne.example]
+        corps_contient: [F29917]
+  - famille: resultat
+    etape: le président reçoit les factures bonnes à payer et leurs échéances
+    poids: 0.25
+    attendu: >
+      un courriel à bruno.castaing@negovelle.example donne F83204 au 30 juillet et F16240 au 1er
+      septembre
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [bruno.castaing@negovelle.example]
+        corps_contient:
+          - "F83204"
+          - "F16240"
+          - "30 juillet|30/0?7|2026-07-30"
+          - "1(?:er)? septembre|0?1/0?9|2026-09-01"
+        texte_de_l_agent: true
+  - famille: absence_effet_de_bord
+    etape: la facture reçue deux fois n'est rangée qu'une fois, rien d'autre ne bouge
+    poids: 0.2
+    attendu: >
+      les courriels ne vont qu'aux deux fournisseurs en réclamation et dans Négovelle ; aucun autre
+      fichier que les quatre factures et l'échéancier ; aucun courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses:
+          - facturation@materiel-electrique-du-pont-rouge.example
+          - commandes@materiel-electrique-du-pont-rouge.example
+          - facturation@protection-de-la-garenne.example
+          - commandes@protection-de-la-garenne.example
+        domaines: [negovelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf:
+          - fournisseurs/fixations-des-hautes-bornes/factures/F83204.pdf
+          - fournisseurs/materiel-electrique-du-pont-rouge/factures/F51172.pdf
+          - fournisseurs/protection-de-la-garenne/factures/F29917.pdf
+          - fournisseurs/visserie-de-la-garenne/factures/F16240.pdf
+          - comptabilite/echeancier_fournisseurs.csv
+      - type: aucun_courriel_supprime
+pieges:
+  - une facture compte plus que la réception
+  - une autre facture un prix au-dessus de la commande
+  - une facture arrive deux fois

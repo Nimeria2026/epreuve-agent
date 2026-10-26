@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-002",
+  "de": {
+    "nom": "Lucie Bouvier",
+    "adresse": "lucie.bouvier@couverture-herve.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Carton écrasé à la livraison",
+  "date": "2026-07-03T14:06:00+02:00",
+  "corps": "Bonjour,\n\nVotre camionnette nous a livré ce matin un carton écrasé : deux gouttières pliées. Le chauffeur l'a noté sur le bon.\n\nLucie Bouvier\nCouverture Hervé",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,28 @@
+# Fiche du client c-0231 de Négovelle. Données FICTIVES.
+code: c-0231
+nom: Résidence autonomie de Corvalet
+type: collectivite
+adresse: 93 chemin du Bois, 36999 Corvalet (FICTIF)
+telephone: 02 61 91 90 87
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Pascal Lemarchand
+  fonction: responsable des services techniques
+  courriel: pascal.lemarchand@residence-autonomie-de-corvalet.example
+- nom: Alain Crozet
+  fonction: secrétaire de mairie
+  courriel: alain.crozet@residence-autonomie-de-corvalet.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 93 chemin du Bois, 36999 Corvalet (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2022-06-01'
+limite_encours_euros: 1500.0
+livraisons_partielles: true
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

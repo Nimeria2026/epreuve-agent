@@ -1,0 +1,13 @@
+{
+  "numero": "INT-2026-0044",
+  "client": "c-0229",
+  "techniciens": [
+    "nicolas.blanc"
+  ],
+  "debut": "2026-12-28T08:00:00+01:00",
+  "fin": "2026-12-28T09:30:00+01:00",
+  "nature": "mise_en_service",
+  "objet": "Mise en service de la climatisation réversible",
+  "statut": "planifiee",
+  "cree_par": "marc.duval"
+}

@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-ctc-004",
+  "de": {
+    "nom": "Garage Bessière",
+    "adresse": "atelier@garage-bessiere.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture GB-1102",
+  "date": "2026-11-02T07:15:00+01:00",
+  "corps": "Bonjour,\n\nVeuillez trouver notre facture GB-1102 du 30 octobre 2026 pour la révision du fourgon.\n\nGarage Bessière (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "Facture GB-1102.pdf",
+      "fichier": "pieces/m-ctc-004/Facture GB-1102.pdf",
+      "taille_octets": 1097
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-hm-530",
+  "de": {
+    "nom": "Camille Martin",
+    "adresse": "camille.martin@courriel.example"
+  },
+  "a": [
+    "helene.marchal@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Chaudière en panne",
+  "date": "2026-11-23T07:40:00+01:00",
+  "corps": "Madame Marchal,\n\nNotre chaudière ne démarre plus depuis ce matin. Pouvez-vous envoyer quelqu'un ?\n\nCamille Martin, 12 rue des Écoles, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

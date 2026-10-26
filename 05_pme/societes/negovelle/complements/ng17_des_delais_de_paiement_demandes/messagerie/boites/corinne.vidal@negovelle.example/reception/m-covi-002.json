@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-covi-002",
+  "de": {
+    "nom": "Hugo Maurin",
+    "adresse": "hugo.maurin@cadiou-maintenance.example"
+  },
+  "a": [
+    "corinne.vidal@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Demande de délai",
+  "date": "2026-07-06T07:50:00+02:00",
+  "corps": "Bonjour Madame Vidal,\n\nNos chantiers publics nous paient de plus en plus tard. Pourriez-vous passer nos factures de 30 à 60 jours date de facture ? Nous sommes clients depuis longtemps et nous réglons toujours à l'heure.\n\nBien cordialement,\nHugo Maurin\nCadiou Maintenance",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

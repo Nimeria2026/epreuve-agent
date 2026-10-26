@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-nabr-008",
+  "de": {
+    "nom": "Aurélie Bonnefoy",
+    "adresse": "aurelie.bonnefoy@negovelle.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Avoir pour Menuiserie Besson",
+  "date": "2026-07-03T17:30:00+02:00",
+  "corps": "Rémi,\n\nPeux-tu faire un avoir de 50 € à Menuiserie Besson (c-0215) sur sa facture de juin, FC-2026-1195, pour le retard de leur livraison de la semaine dernière ? Je le leur ai promis.\n\nMerci,\nAurélie",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

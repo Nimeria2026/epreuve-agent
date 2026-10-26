@@ -1,0 +1,28 @@
+# Fiche du client c-0227 de Négovelle. Données FICTIVES.
+code: c-0227
+nom: Maçonnerie Simonet
+type: artisan
+adresse: 83 chemin du Bois, 36999 Fontclavier (FICTIF)
+telephone: 02 61 91 99 26
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Jean Grenier
+  fonction: gérant
+  courriel: jean.grenier@maconnerie-simonet.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 83 chemin du Bois, 36999 Fontclavier (FICTIF)
+- code: L2
+  libelle: chantier déclaré
+  adresse: 66 avenue Pasteur, 36999 Mérolles-en-Brenne (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2012-11-01'
+limite_encours_euros: 2000.0
+livraisons_partielles: true
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

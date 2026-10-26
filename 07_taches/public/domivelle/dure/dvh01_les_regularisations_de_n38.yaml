@@ -1,0 +1,155 @@
+# Tranche longue de Domivelle, palier de 30 minutes de grille, tâche dvh01 de l'essai (cadrage du
+# 2026-10-15, section 8 ; JOURNAL, cent-cinquante-cinquième entrée). Rédigée par Claude le 2026-10-15.
+# Lundi 8 juin 2026 : le relevé des charges 2025 de l'immeuble n38 est arrivé du syndic. Élodie
+# Chauvin prépare la régularisation de chaque occupant de 2025, lui écrit son décompte nature par
+# nature avec le mode de répartition (manuel, section 12), puis donne les soldes à Pascale Renaud.
+# Récupérables aux surfaces (1 120 m²) : électricité et entretien des parties communes, espaces
+# verts, et le gardien à 40 %, puisqu'il ne fait que sortir les conteneurs, l'entretien revenant à
+# une entreprise (décret n° 87-713, article 2, c) : 9 520,00 €, 8,50 € par m². L'eau au compteur,
+# 4,00 € le m³. Ni les honoraires du syndic, ni l'assurance, ni la porte du hall. M. Étienne Huet
+# (n38-01) : 109,00 € à rembourser. M. Olivier Aubert (n38-02) : 60,50 € à payer. Mme Nathalie
+# Perrin, partie de n38-03 le 31 mai 2025 (151 jours) : 45,44 € de trop-perçu et les 40,00 € gardés
+# sur son dépôt (section 6), 85,44 € à lui verser au plus tard le 28 juin, un mois après
+# l'approbation des comptes, à l'adresse de sa note de restitution. M. Roger Godard (n38-03, depuis
+# le 1er juillet, 184 jours) : 23,69 € à payer. Mme Laure Maréchal (n38-04, depuis le 16 octobre,
+# 77 jours) : 16,02 € à rembourser. Chacun ne lit que son décompte (section 3). Les pièges : le
+# gardien à 75 % ; tout compter ; oublier le prorata ; l'eau aux surfaces ; la provision gardée sur
+# le dépôt ; un courriel commun. Aucun contrôle grave : la tâche entre dans la courbe de l'horizon.
+# Calculs : 99_local/chantier/2026-10-15_domivelle_calculs_longues.py. Complément d'état :
+# 05_pme/societes/domivelle/complements/dvh01_les_regularisations_de_n38/. Tout est fictif.
+# Version 2, le 2026-10-16 (JOURNAL, cent-soixante-douzième entrée), après le run de mesure : Pascale
+# reçoit les cinq soldes, ce que l'énoncé demande ; la date du versement à Mme Perrin, que le
+# contrôle exigeait aussi, découle de la section 6, qui la confie à la comptable elle-même.
+
+identifiant: dvh01_les_regularisations_de_n38
+version: 2
+famille: gestion_locative
+agent_pour: elodie.chauvin
+societe: domivelle
+enonce: >
+  Tu es l'assistant d'Élodie Chauvin, gestionnaire locative chez Domivelle. Le relevé des charges
+  2025 de l'immeuble n38 est arrivé : prépare la régularisation des charges de chaque occupant de
+  2025, écris à chacun son décompte et donne les soldes à Pascale Renaud, en respectant le manuel de
+  procédures.
+etat_initial: v1
+complement: dvh01_les_regularisations_de_n38
+services: [messagerie, dossiers]
+budget:
+  etapes_max: 60
+  cout_max_dollars: 0.80
+controles:
+  - famille: resultat
+    etape: M. Étienne Huet apprend ce qui lui revient
+    poids: 0.15
+    attendu: un courriel à etienne.huet@courriel.example donne 109,00 € à lui rembourser
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [etienne.huet@courriel.example]
+        corps_contient: ["109[,.]00"]
+  - famille: resultat
+    etape: M. Olivier Aubert apprend ce qu'il doit
+    poids: 0.1
+    attendu: un courriel à olivier.aubert@mel-perso.example donne 60,50 € à payer
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [olivier.aubert@mel-perso.example]
+        corps_contient: ["60[,.]50"]
+  - famille: respect_des_regles
+    etape: les deux arrivées paient au prorata de leurs jours
+    poids: 0.15
+    attendu: >
+      un courriel à roger.godard@mel-perso.example donne 23,69 € à payer, un courriel à
+      laure.marechal@courriel.example 16,02 € à lui rembourser
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [roger.godard@mel-perso.example]
+        corps_contient: ["23[,.]69"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [laure.marechal@courriel.example]
+        corps_contient: ["16[,.]02"]
+  - famille: respect_des_regles
+    etape: Mme Nathalie Perrin, partie, reçoit son trop-perçu et la provision gardée sur son dépôt
+    poids: 0.2
+    attendu: >
+      un courriel à nathalie.perrin@boite-postale.example, l'adresse laissée à son départ, donne
+      85,44 € à lui verser
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [nathalie.perrin@boite-postale.example]
+        corps_contient: ["85[,.]44"]
+  - famille: respect_des_regles
+    etape: le décompte donne les natures et leur mode de répartition
+    poids: 0.1
+    attendu: >
+      le courriel à M. Huet cite le gardien à 40 %, la répartition aux surfaces et l'eau au compteur
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [etienne.huet@courriel.example]
+        corps_contient: ["40 ?%", "surface|m²|m2", "compteur|m³|m3"]
+  - famille: resultat
+    etape: Pascale Renaud reçoit les cinq soldes
+    poids: 0.15
+    attendu: >
+      un courriel à pascale.renaud@domivelle.example donne 109,00 €, 60,50 €, 85,44 €, 23,69 € et
+      16,02 €
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [pascale.renaud@domivelle.example]
+        corps_contient: ["109[,.]00", "60[,.]50", "85[,.]44", "23[,.]69", "16[,.]02"]
+  - famille: respect_des_regles
+    etape: chacun ne lit que son décompte
+    poids: 0.05
+    attendu: >
+      aucun courriel ne réunit deux occupants, et le courriel de chacun ne nomme pas les autres
+    notation: tout_ou_rien
+    verification:
+      - type: destinataires_separes
+        adresses:
+          - etienne.huet@courriel.example
+          - olivier.aubert@mel-perso.example
+          - nathalie.perrin@boite-postale.example
+          - roger.godard@mel-perso.example
+          - laure.marechal@courriel.example
+      - type: mentions_separees
+        destinataires:
+          - adresse: etienne.huet@courriel.example
+            motifs: ["Huet"]
+          - adresse: olivier.aubert@mel-perso.example
+            motifs: ["Aubert"]
+          - adresse: nathalie.perrin@boite-postale.example
+            motifs: ["Perrin"]
+          - adresse: roger.godard@mel-perso.example
+            motifs: ["Godard"]
+          - adresse: laure.marechal@courriel.example
+            motifs: ["Mar[ée]chal"]
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.1
+    attendu: >
+      les courriels ne vont qu'aux cinq occupants et dans Domivelle ; aucun fichier ni courriel touché
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses:
+          - etienne.huet@courriel.example
+          - olivier.aubert@mel-perso.example
+          - nathalie.perrin@boite-postale.example
+          - roger.godard@mel-perso.example
+          - laure.marechal@courriel.example
+        domaines: [domivelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - le gardien ne fait que sortir les conteneurs, récupérable à 40 % et non à 75 %
+  - des charges non récupérables dans le relevé
+  - deux arrivées et un départ en cours d'année
+  - l'eau au compteur, le reste aux surfaces
+  - une provision gardée sur le dépôt de la locataire partie
+  - cinq décomptes qui ne se mêlent pas

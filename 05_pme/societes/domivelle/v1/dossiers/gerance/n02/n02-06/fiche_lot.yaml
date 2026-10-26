@@ -1,0 +1,24 @@
+# Fiche du lot n02-06. Données FICTIVES.
+lot: n02-06
+adresse: 69 rue du Four, 18999 Vernillac (FICTIF)
+type: T3
+surface_m2: 61
+locataire:
+  nom: Mme Martine Raymond
+  courriel: martine.raymond@messagerie.example
+  telephone: 06 39 98 69 77
+  entree: '2019-11-29'
+bail:
+  signature: '2019-11-29'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 550,00 €
+  depot_de_garantie: 478,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T3
+dpe:
+  classe: D
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

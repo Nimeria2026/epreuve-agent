@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-occo-001",
+  "de": {
+    "nom": "Brigitte Chevrier",
+    "adresse": "brigitte.chevrier@chauffage-genet.example"
+  },
+  "a": [
+    "oceane.collin@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-03T16:05:00+02:00",
+  "corps": "Bonjour Océane,\n\nVoici notre commande, à livrer au siège :\n- 10 x PLB-12449, Robinet d'arrêt quart de tour 20x27\n- 6 x QUI-11274, Coulisse de tiroir à fermeture amortie 300 mm, la paire\n\nMerci,\nBrigitte Chevrier\nChauffage Genet",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

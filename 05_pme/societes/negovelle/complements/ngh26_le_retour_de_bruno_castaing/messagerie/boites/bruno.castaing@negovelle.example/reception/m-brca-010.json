@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-010",
+  "de": {
+    "nom": "Fabrice Mercier",
+    "adresse": "fabrice.mercier@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Prix pour Services techniques de Vendrigny, CO-2026-02046",
+  "date": "2026-08-10T14:30:00+02:00",
+  "corps": "Bruno,\n\nLes Services techniques de Vendrigny (c-0120) renouvellent leur stock de rentrée ; brouillon CO-2026-02046 :\n\n- VIS-13495, Vis à bois tête fraisée 6x60, bichromatée, boîte de 100 : 30 à 16,00 € HT au lieu de 20,50 €\n- ELE-12000, Gaine ICTA 40 mm, couronne de 50 m : 10 à 24,00 € HT au lieu de 28,40 €\n- PRO-10539, Casque de chantier à jugulaire, orange : 25 à 21,00 € HT au lieu de 26,05 €\n- OUT-13054, Équerre de contrôle 400 mm : 8 à 22,00 € HT au lieu de 31,50 €\n- QUI-10171, Boîte aux lettres normalisée, vert : 20 à 26,00 € HT au lieu de 30,26 €\n\nL'équerre OUT-13054, ils la trouvent à 22 € ailleurs : il faut s'aligner.\n\nFabrice",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

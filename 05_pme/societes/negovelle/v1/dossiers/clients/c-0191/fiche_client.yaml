@@ -1,0 +1,25 @@
+# Fiche du client c-0191 de Négovelle. Données FICTIVES.
+code: c-0191
+nom: Paysage Achard
+type: artisan
+adresse: 83 rue du Moulin, 36999 Vaumoreau-sur-Indre (FICTIF)
+telephone: 02 61 91 99 06
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Inès Valentin
+  fonction: gérante
+  courriel: ines.valentin@paysage-achard.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 83 rue du Moulin, 36999 Vaumoreau-sur-Indre (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2018-01-01'
+limite_encours_euros: 1500.0
+livraisons_partielles: false
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

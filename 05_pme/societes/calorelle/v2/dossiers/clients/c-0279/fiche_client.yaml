@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0279"
+nom: "Commune du Pré-Bouvreuil"
+type: "collectivite"
+adresse: "78 rue de la Loire, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "contact@commune-du-pre-bouvreuil-279.example"
+telephone: "02 61 91 35 71"
+charge_d_affaires: "karim.benali"
+contrat:
+  formule: "Sérénité Plus"
+  depuis: "2020-09-18"
+  mois_anniversaire: "septembre"
+  derniere_visite: "2026-09-21"

@@ -1,0 +1,46 @@
+# L'agent seul (03_orchestrations) sur MiniMax M3.1 Flash, par la route gratuite d'OpenRouter.
+# Essai du 2026-10-20 sur les tâches publiques de la tranche (JOURNAL, deux-cent-vingt-quatrième
+# entrée), hors du constat. Jamais de tâche cachée : ce que la route gratuite fait des requêtes n'est
+# pas écrit (ease.mesure.FOURNISSEURS_SANS_CACHEES).
+# Version 0.2.0 du 2026-10-21 : le raisonnement est renvoyé au tour suivant, comme le demande MiniMax
+# (JOURNAL, deux-cent-vingt-huitième entrée).
+# Prix après la gratuité, relevé le 2026-10-20 : 0,15 $ le million de jetons d'entrée, 0,015 $ lus
+# en cache, 0,60 $ en sortie ; le tarif noté plus bas est celui de la route gratuite, zéro.
+fiche:
+  identifiant: agent_seul_minimax_m31_flash_openrouter
+  nom: Agent seul sur MiniMax M3.1 Flash (OpenRouter, route gratuite)
+  version: "0.2.0"
+  origine: fait_main
+  division: a_modele_egal
+  branchement: mcp
+  editeur: Épreuve d'agent
+  url: null
+  modeles:
+    - nom: minimax/minimax-m3.1-flash:free
+      fournisseur: OpenRouter, route gratuite
+  cout_mesurable: true
+  conditions_utilisation: null
+configuration:
+  modeles:
+    - role: agent
+      nom: minimax/minimax-m3.1-flash:free
+      fournisseur: OpenRouter, route gratuite
+      version_renvoyee: "?"
+      parametres: {}
+      tarif:
+        entree_dollars_par_million: 0.0
+        entree_en_cache_dollars_par_million: 0.0
+        sortie_dollars_par_million: 0.0
+        source: https://openrouter.ai/minimax/minimax-m3.1-flash:free
+        releve_le: "2026-10-20"
+machine: null
+lancement:
+  module: orchestrations.agent_seul
+  arguments: [--configuration, 03_orchestrations/src/orchestrations/configurations/minimax_m31_flash_openrouter.yaml]
+  delai_secondes: 3600
+  sonde: null
+  creneau: null
+  energie: null
+  empreinte_de:
+    - 03_orchestrations/src/orchestrations/consignes/agent_seul.md
+    - 03_orchestrations/src/orchestrations/configurations/minimax_m31_flash_openrouter.yaml

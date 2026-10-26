@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-003",
+  "de": {
+    "nom": "Samir Ouali",
+    "adresse": "samir.ouali@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Prix pour Cazenave Rénovation, CO-2026-02044",
+  "date": "2026-07-03T16:10:00+02:00",
+  "corps": "Bruno,\n\nCazenave Rénovation (c-0192) reprendrait trois articles que nous arrêtons, s'ils sont à ces prix, brouillon CO-2026-02044 :\n- OUT-11380, Niveau à bulle compact 200 cm, 5 unités : 36,00 € HT au lieu de 72,90 € au tarif\n- ELE-13381, Tableau électrique 4 rangée(s), 13 modules, 3 unités : 44,00 € HT au lieu de 81,05 € au tarif\n- QUI-10457, Cadenas laiton 50 mm, 2 clés, 6 unités : 16,50 € HT au lieu de 31,35 € au tarif\n\nC'est sous le seuil, je sais : à toi de voir.\n\nSamir",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

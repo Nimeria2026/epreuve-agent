@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-aubo-021",
+  "de": {
+    "nom": "Patrice Clerc",
+    "adresse": "patrice.clerc@guillon-batiment.example"
+  },
+  "a": [
+    "aurelie.bonnefoy@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Vis 6x60",
+  "date": "2026-08-06T15:40:00+02:00",
+  "corps": "Bonjour Aurélie,\n\nIl nous faut 50 boîtes de vis VIS-13527 pour la fin du mois. Pouvez-vous nous les réserver ?\n\nMerci,\n\nPatrice Clerc\nGuillon Bâtiment",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

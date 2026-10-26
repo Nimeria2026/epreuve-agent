@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-043",
+  "de": {
+    "nom": "Samir Ouali",
+    "adresse": "samir.ouali@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Électricité Simonet : un prix de déstockage",
+  "date": "2026-08-14T10:10:00+02:00",
+  "corps": "Bruno,\n\nÉlectricité Simonet (c-0250) prendrait 40 disjoncteurs ELE-11543 à 8,50 € HT au lieu de 12,36 €. L'article est déréférencé, on n'en recommandera plus. Je saisis la commande avec ton accord.\n\nSamir",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

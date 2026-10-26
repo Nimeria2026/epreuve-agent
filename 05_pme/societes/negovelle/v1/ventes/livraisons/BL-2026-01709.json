@@ -1,0 +1,44 @@
+{
+  "numero": "BL-2026-01709",
+  "commande": "CO-2026-01860",
+  "client": "c-0223",
+  "date_expedition": "2026-06-25",
+  "date_livraison": "2026-06-25",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "26 zone d'activités des Grands Prés, 36999 Mérolles-en-Brenne (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "ELE-10008",
+      "libelle": "Ampoule LED B22 12 W, 2700 K",
+      "quantite": 2
+    },
+    {
+      "reference": "ELE-12237",
+      "libelle": "Hublot rond LED 12 W",
+      "quantite": 2
+    },
+    {
+      "reference": "ELP-10588",
+      "libelle": "Foret béton SDS-plus 12x210 mm",
+      "quantite": 2
+    },
+    {
+      "reference": "FIX-11298",
+      "libelle": "Crochet droit à visser 20 mm, sachet de 10",
+      "quantite": 12
+    },
+    {
+      "reference": "OUT-11706",
+      "libelle": "Pince à bec long 140 mm",
+      "quantite": 1
+    }
+  ],
+  "reserves": null,
+  "signataire": "Antoine Cazenave",
+  "statut": "livre"
+}

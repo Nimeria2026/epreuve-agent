@@ -1,0 +1,79 @@
+{
+  "numero": "CO-2026-01925",
+  "client": "c-0251",
+  "reference_client": "BC-5161",
+  "cree_le": "2026-06-29T09:10:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "21 zone d'activités des Grands Prés, 36999 Vaumoreau-sur-Indre (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "OUT-12245",
+      "libelle": "Serre-joint à pompe 600 mm",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 42.75,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 39.33,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 39.33
+    },
+    {
+      "reference": "VIS-12760",
+      "libelle": "Vis à bois tête fraisée 5x25, inox A2, boîte de 100",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 21.9,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 20.15,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 20.15
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 74.48,
+  "total_tva_euros": 14.9,
+  "total_ttc_euros": 89.38,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01774"
+  ],
+  "facture": "FC-2026-1230",
+  "historique": [
+    {
+      "date": "2026-06-29T09:10:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-29T09:12:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-30T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01774"
+    },
+    {
+      "date": "2026-06-30T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01774"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1230"
+    }
+  ]
+}

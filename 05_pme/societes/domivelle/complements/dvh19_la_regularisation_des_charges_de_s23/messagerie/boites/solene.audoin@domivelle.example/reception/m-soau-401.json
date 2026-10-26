@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-soau-401",
+  "de": {
+    "nom": "Pascale Renaud",
+    "adresse": "pascale.renaud@domivelle.example"
+  },
+  "a": [
+    "solene.audoin@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Régularisation de s23",
+  "date": "2026-06-05T15:10:00+02:00",
+  "corps": "Solène,\n\nLes comptes 2025 de la Résidence Le Panorama sont approuvés depuis le 30 avril : le relevé du syndic est dans le dossier de s23. Peux-tu faire la régularisation des charges 2025 de nos locataires et me donner les soldes ? Pour les deux locataires partis en 2025, je vire leur solde le jour où tu me le donnes.\n\nPascale",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

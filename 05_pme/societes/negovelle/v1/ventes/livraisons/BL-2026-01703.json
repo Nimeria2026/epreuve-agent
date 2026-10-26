@@ -1,0 +1,59 @@
+{
+  "numero": "BL-2026-01703",
+  "commande": "CO-2026-01854",
+  "client": "c-0330",
+  "date_expedition": "2026-06-25",
+  "date_livraison": "2026-06-25",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "2 zone d'activités des Grands Prés, 36999 Saulvenne (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "ELE-11535",
+      "libelle": "Disjoncteur bipolaire 40 A, courbe D",
+      "quantite": 2
+    },
+    {
+      "reference": "ELE-12204",
+      "libelle": "Goulotte 60x40 mm, barre de 2 m",
+      "quantite": 10
+    },
+    {
+      "reference": "ELP-11739",
+      "libelle": "Scie circulaire 190 mm, 1600 W",
+      "quantite": 1
+    },
+    {
+      "reference": "OUT-11412",
+      "libelle": "Niveau à bulle compact 80 cm",
+      "quantite": 1
+    },
+    {
+      "reference": "PLB-10449",
+      "libelle": "Colle PVC, pot de 125 ml",
+      "quantite": 2
+    },
+    {
+      "reference": "PRO-11772",
+      "libelle": "Protection longe double à absorbeur 1,5 m",
+      "quantite": 1
+    },
+    {
+      "reference": "VIS-11870",
+      "libelle": "Vis à bois tête fraisée 4,5x40, bichromatée, boîte de 100",
+      "quantite": 6
+    },
+    {
+      "reference": "VIS-13282",
+      "libelle": "Vis à bois tête fraisée 6x30, inox A2, boîte de 500",
+      "quantite": 1
+    }
+  ],
+  "reserves": null,
+  "signataire": "Laurent Baillet",
+  "statut": "livre"
+}

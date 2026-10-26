@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-912",
+  "de": {
+    "nom": "Antoine Leroy",
+    "adresse": "antoine.leroy@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Copie de mon contrat",
+  "date": "2027-01-29T16:20:00+01:00",
+  "corps": "Sonia,\n\nPeux-tu m'envoyer une copie de mon contrat de travail ? Je ne retrouve plus la mienne.\n\nAntoine (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

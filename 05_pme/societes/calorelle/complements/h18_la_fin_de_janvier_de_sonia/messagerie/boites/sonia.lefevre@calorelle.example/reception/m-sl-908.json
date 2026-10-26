@@ -1,0 +1,34 @@
+{
+  "identifiant": "m-sl-908",
+  "de": {
+    "nom": "Bastien Morel",
+    "adresse": "bastien.morel@courriel.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Mes documents pour mon arrivée",
+  "date": "2027-01-29T11:30:00+01:00",
+  "corps": "Bonjour Madame Lefèvre,\n\nComme convenu, voici mon contrat de travail à durée indéterminée signé, ma carte d'identité et mon attestation de sécurité sociale. Je commence le lundi 15 février.\n\nBastien Morel (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "contrat_de_travail_Morel.pdf",
+      "fichier": "pieces/m-sl-908/contrat_de_travail_Morel.pdf",
+      "taille_octets": 826
+    },
+    {
+      "nom": "carte_identite_Morel.pdf",
+      "fichier": "pieces/m-sl-908/carte_identite_Morel.pdf",
+      "taille_octets": 755
+    },
+    {
+      "nom": "attestation_securite_sociale_Morel.pdf",
+      "fichier": "pieces/m-sl-908/attestation_securite_sociale_Morel.pdf",
+      "taille_octets": 770
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

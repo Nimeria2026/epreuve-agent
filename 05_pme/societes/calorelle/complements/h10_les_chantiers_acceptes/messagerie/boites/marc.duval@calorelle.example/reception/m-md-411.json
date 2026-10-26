@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-411",
+  "de": {
+    "nom": "Julie Perrin",
+    "adresse": "julie.perrin@calorelle.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Deux chantiers à planifier",
+  "date": "2026-10-30T17:20:00+01:00",
+  "corps": "Marc,\n\nDeux devis acceptés cette semaine, à planifier :\n\n- DV-2026-016, Laurent Fontaine (c-0376) : la pose d'un climatiseur réversible mono-split. Une demi-journée, 4 heures, un technicien de la climatisation. Pas avant le lundi 16 novembre : ses peintres finissent le vendredi 13. Il la voudrait avant la fin du mois.\n- DV-2026-017, Olivier Muller (c-0427) : le remplacement de sa chaudière gaz murale, pose et mise en service. Une demi-journée, 4 heures. M. Muller ne peut nous recevoir que le matin du jeudi 12 ou du vendredi 13 novembre, le vendredi de préférence : il a posé sa matinée. La semaine suivante, il est en congé : n'importe quel jour du lundi 16 au vendredi 20 lui convient.\n\nDis-moi ce que tu as fixé, que je puisse répondre à mes clients s'ils m'appellent.\n\nJulie (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-004",
+  "de": {
+    "nom": "Delphine Chauveau",
+    "adresse": "delphine.chauveau@peinture-maurin.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Petite commande",
+  "date": "2026-07-25T09:40:00+02:00",
+  "corps": "Bonjour,\n\nIl nous faut :\n\n- 6 x QUI-11935, Patère double, blanc\n- 4 x PLB-10138, Bonde à grille 40 mm\n\nLivraison standard au siège.\n\nDelphine Chauveau\nPeinture Maurin",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

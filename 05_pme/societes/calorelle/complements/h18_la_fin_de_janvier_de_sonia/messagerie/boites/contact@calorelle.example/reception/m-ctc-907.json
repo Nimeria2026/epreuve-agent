@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-907",
+  "de": {
+    "nom": "Syndic de la Résidence des Tilleuls",
+    "adresse": "syndic@residence-des-tilleuls.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Réclamation : facture de la visite",
+  "date": "2027-01-29T15:30:00+01:00",
+  "corps": "Bonjour,\n\nVotre technicien est resté vingt minutes pour la visite annuelle de notre chaufferie, et vous nous facturez la visite comme les autres années. Nous contestons cette visite bâclée.\n\nLe syndic de la Résidence des Tilleuls, 2 avenue des Tilleuls (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

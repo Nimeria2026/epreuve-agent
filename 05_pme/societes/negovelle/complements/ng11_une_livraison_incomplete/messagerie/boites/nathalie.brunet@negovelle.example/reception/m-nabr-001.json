@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-nabr-001",
+  "de": {
+    "nom": "Agnès Durieux",
+    "adresse": "agnes.durieux@chauffage-quere.example"
+  },
+  "a": [
+    "nathalie.brunet@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Livraison BL-2026-01784 incomplète et abîmée",
+  "date": "2026-07-03T11:20:00+02:00",
+  "corps": "Bonjour Madame Brunet,\n\nNotre livraison BL-2026-01784 du mardi 30 juin, par Transports Delorme, est arrivée avec un colis en moins : le chauffeur l'a noté sur le récépissé. Il y manquait 2 disjoncteurs tétrapolaires et la serrure en applique. En déballant le mercredi 1er juillet, nous avons trouvé un troisième disjoncteur au boîtier fendu ; nous avons envoyé au transporteur une lettre recommandée de protestation le jeudi 2 juillet, dont la copie est jointe. Nous tenons le disjoncteur cassé à la disposition de votre chauffeur.\n\nMerci de nous faire un avoir.\n\nAgnès Durieux\nChauffage Quéré",
+  "pieces_jointes": [
+    {
+      "nom": "protestation_transports_delorme_2026-07-02.pdf",
+      "fichier": "pieces/m-nabr-001/protestation_transports_delorme_2026-07-02.pdf",
+      "taille_octets": 1014
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

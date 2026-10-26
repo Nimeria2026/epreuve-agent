@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-009",
+  "de": {
+    "nom": "René Gay",
+    "adresse": "rene.gay@serrurerie-dumont.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Retour de cylindres",
+  "date": "2026-08-07T15:20:00+02:00",
+  "corps": "Bonjour,\n\nLe chantier pour lequel nous vous avions fait commander 10 cylindres QUI-11674 s'arrête : pouvons-nous vous en rendre 4, livrés le 17 juillet, BL-2026-01897 ?\n\nRené Gay\nSerrurerie Dumont",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

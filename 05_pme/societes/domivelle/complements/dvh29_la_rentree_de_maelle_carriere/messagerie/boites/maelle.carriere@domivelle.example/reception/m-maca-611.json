@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-maca-611",
+  "de": {
+    "nom": "Plomberie des Chaumes-Rouges",
+    "adresse": "facturation@plomberie-des-chaumes-rouges.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis, lot n21-15",
+  "date": "2026-09-01T15:00:00+02:00",
+  "corps": "Madame,\n\nVoici notre devis pour le remplacement du ballon d'eau chaude du lot n21-15 : 1 180,00 € TTC. Le locataire nous a appelés directement.\n\nPlomberie des Chaumes-Rouges",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

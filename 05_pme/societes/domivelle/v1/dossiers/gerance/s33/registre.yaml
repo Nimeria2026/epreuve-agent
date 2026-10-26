@@ -1,0 +1,47 @@
+# Registre des lots en gestion, s33. Données FICTIVES.
+immeuble: s33
+nature: groupe de maisons
+adresse: 124 chemin du Bois, 18999 Sorlay-le-Haut (FICTIF)
+secteur: sud
+gestionnaire: Solène Audoin
+distance_agence_km: 18
+annee_construction: 2000
+gardien: false
+copropriete_du_syndic: null
+lots:
+- lot: s33-01
+  type: maison T4
+  surface_m2: 105
+  proprietaire: p-0702
+  locataire: Mme Nathalie Lefort
+  entree: '2024-11-04'
+  loyer_hors_charges: 1 007,00 €
+  provision_sur_charges: 5,00 €
+  depot_de_garantie: 982,00 €
+  revision: chaque 4 novembre
+  trimestre_irl: T3
+  dpe: E
+- lot: s33-02
+  type: maison T3
+  surface_m2: 73
+  proprietaire: p-0703
+  locataire: M. Patrice Chauvet
+  entree: '2016-05-09'
+  loyer_hors_charges: 578,00 €
+  provision_sur_charges: 13,00 €
+  depot_de_garantie: 462,00 €
+  revision: chaque 9 mai
+  trimestre_irl: T1
+  dpe: D
+- lot: s33-03
+  type: maison T5
+  surface_m2: 124
+  proprietaire: p-0704
+  locataire: M. Daniel Rey
+  entree: '2012-12-31'
+  loyer_hors_charges: 1 085,00 €
+  provision_sur_charges: 6,00 €
+  depot_de_garantie: 819,00 €
+  revision: chaque 31 décembre
+  trimestre_irl: T3
+  dpe: C

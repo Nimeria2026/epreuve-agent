@@ -1,0 +1,131 @@
+# Registre des lots en gestion, s30. Données FICTIVES.
+immeuble: s30
+nature: groupe de maisons
+adresse: 85 rue Jean-Jaurès, 18999 Sorlay-le-Haut (FICTIF)
+secteur: sud
+gestionnaire: Solène Audoin
+distance_agence_km: 12
+annee_construction: 1998
+gardien: false
+copropriete_du_syndic: null
+lots:
+- lot: s30-01
+  type: maison T4
+  surface_m2: 94
+  proprietaire: p-0686
+  locataire: Mme Amandine Simon
+  entree: '2025-12-29'
+  loyer_hors_charges: 880,00 €
+  provision_sur_charges: 2,00 €
+  depot_de_garantie: 880,00 €
+  revision: chaque 29 décembre
+  trimestre_irl: T3
+  dpe: E
+- lot: s30-02
+  type: maison T4
+  surface_m2: 88
+  proprietaire: p-0687
+  locataire: M. Alain Deschamps
+  entree: '2020-01-11'
+  loyer_hors_charges: 816,00 €
+  provision_sur_charges: 15,00 €
+  depot_de_garantie: 710,00 €
+  revision: chaque 11 janvier
+  trimestre_irl: T3
+  dpe: E
+- lot: s30-03
+  type: maison T5
+  surface_m2: 107
+  proprietaire: p-0640
+  locataire: M. Guy Courtois
+  entree: '2015-06-28'
+  loyer_hors_charges: 946,00 €
+  provision_sur_charges: 10,00 €
+  depot_de_garantie: 757,00 €
+  revision: chaque 28 juin
+  trimestre_irl: T1
+  dpe: B
+- lot: s30-04
+  type: maison T5
+  surface_m2: 104
+  proprietaire: p-0631
+  locataire: Mme Estelle Millet
+  entree: '2023-08-16'
+  loyer_hors_charges: 962,00 €
+  provision_sur_charges: 0,00 €
+  depot_de_garantie: 916,00 €
+  revision: chaque 16 août
+  trimestre_irl: T2
+  dpe: D
+- lot: s30-05
+  type: maison T5
+  surface_m2: 104
+  proprietaire: p-0653
+  locataire: Mme Pauline Renard
+  entree: '2014-06-20'
+  loyer_hors_charges: 973,00 €
+  provision_sur_charges: 10,00 €
+  depot_de_garantie: 763,00 €
+  revision: chaque 20 juin
+  trimestre_irl: T1
+  dpe: E
+- lot: s30-06
+  type: maison T4
+  surface_m2: 98
+  proprietaire: p-0688
+  locataire: M. Étienne Chapuis
+  entree: '2022-04-09'
+  loyer_hors_charges: 880,00 €
+  provision_sur_charges: 16,00 €
+  depot_de_garantie: 800,00 €
+  revision: chaque 9 avril
+  trimestre_irl: T4
+  dpe: D
+- lot: s30-07
+  type: maison T5
+  surface_m2: 115
+  proprietaire: p-0689
+  locataire: M. Paul Thibault
+  entree: '2017-08-28'
+  loyer_hors_charges: 898,00 €
+  provision_sur_charges: 4,00 €
+  depot_de_garantie: 748,00 €
+  revision: chaque 28 août
+  trimestre_irl: T2
+  dpe: C
+- lot: s30-08
+  type: maison T4
+  surface_m2: 91
+  proprietaire: p-0690
+  locataire: Mme Françoise Lemaire
+  entree: '2022-08-15'
+  loyer_hors_charges: 741,00 €
+  provision_sur_charges: 12,00 €
+  depot_de_garantie: 689,00 €
+  revision: chaque 15 août
+  trimestre_irl: T2
+  dpe: C
+- lot: s30-09
+  type: maison T3
+  surface_m2: 74
+  proprietaire: p-0691
+  locataire: M. Hervé Fontaine
+  entree: '2017-10-02'
+  loyer_hors_charges: 612,00 €
+  provision_sur_charges: 17,00 €
+  depot_de_garantie: 510,00 €
+  revision: chaque 2 octobre
+  trimestre_irl: T2
+  dpe: E
+- lot: s30-10
+  type: maison T4
+  surface_m2: 97
+  proprietaire: p-0692
+  locataire: M. Alain Marchand
+  entree: '2022-12-18'
+  loyer_hors_charges: 798,00 €
+  provision_sur_charges: 3,00 €
+  depot_de_garantie: 742,00 €
+  revision: chaque 18 décembre
+  trimestre_irl: T3
+  dpe: C

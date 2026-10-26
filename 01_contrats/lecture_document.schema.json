@@ -1,0 +1,183 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LectureDocument",
+  "description": "Ce qu'EKE, l'outil documentaire de la PME, rend d'un document PDF (étape 6) : le document lu, puis selon l'outil appelé ses lignes, ses valeurs ou les citations d'un texte cherché. Chaque texte rendu porte sa provenance : la page et la zone d'où il vient. Zones en points PDF (1/72 de pouce), origine en haut à gauche de la page telle qu'elle s'affiche, y vers le bas.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["document", "lecteur"],
+  "properties": {
+    "document": {
+      "$ref": "#/$defs/document"
+    },
+    "lecteur": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["version", "moteur"],
+      "description": "Ce qui a lu le document, pour rejouer une lecture (règle 1 du BRIEF).",
+      "properties": {
+        "version": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Version d'EKE."
+        },
+        "moteur": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Bibliothèque de lecture des PDF et sa version, par exemple « pypdfium2 5.14.0 »."
+        }
+      }
+    },
+    "lignes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/citation"
+      },
+      "description": "Outil lire_document : le texte du document dans l'ordre de lecture du PDF, une colonne de texte après l'autre. Une ligne est un morceau de texte d'une seule ligne visuelle, sans grand blanc : la ligne d'un courrier, la cellule d'un tableau."
+    },
+    "valeurs": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/valeur"
+      },
+      "description": "Outil extraire_valeurs : les paires étiquette-valeur trouvées, dans l'ordre des lignes."
+    },
+    "recherche": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Outil citer : le texte cherché, tel que donné."
+    },
+    "citations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/citation"
+      },
+      "description": "Outil citer : chaque endroit où le texte cherché apparaît ; vide s'il n'apparaît nulle part."
+    }
+  },
+  "dependentRequired": {
+    "recherche": ["citations"],
+    "citations": ["recherche"]
+  },
+  "$defs": {
+    "document": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["chemin", "empreinte", "pages"],
+      "properties": {
+        "chemin": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Chemin du document dans les dossiers partagés de la PME, avec des « / »."
+        },
+        "empreinte": {
+          "type": "string",
+          "pattern": "^sha256:[0-9a-f]{64}$",
+          "description": "Empreinte sha256 du fichier lu, préfixée par « sha256: »."
+        },
+        "pages": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/page"
+          }
+        }
+      }
+    },
+    "page": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["numero", "largeur", "hauteur"],
+      "properties": {
+        "numero": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Numéro de la page, à partir de 1."
+        },
+        "largeur": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "description": "En points, page telle qu'elle s'affiche (une page tournée d'un quart de tour échange largeur et hauteur)."
+        },
+        "hauteur": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "description": "En points, page telle qu'elle s'affiche."
+        }
+      }
+    },
+    "zone": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["x0", "y0", "x1", "y1"],
+      "description": "Rectangle en points, origine en haut à gauche de la page affichée, y vers le bas : x0 ≤ x1 et y0 ≤ y1.",
+      "properties": {
+        "x0": {
+          "type": "number",
+          "description": "Bord gauche."
+        },
+        "y0": {
+          "type": "number",
+          "description": "Bord haut."
+        },
+        "x1": {
+          "type": "number",
+          "description": "Bord droit."
+        },
+        "y1": {
+          "type": "number",
+          "description": "Bord bas."
+        }
+      }
+    },
+    "citation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["texte", "page", "zone"],
+      "description": "Un texte du document et sa provenance.",
+      "properties": {
+        "texte": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Le texte exact, tel qu'il se lit dans le document."
+        },
+        "page": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "zone": {
+          "$ref": "#/$defs/zone"
+        }
+      }
+    },
+    "valeur": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["etiquette", "type", "valeur", "unite", "citation"],
+      "properties": {
+        "etiquette": {
+          "type": "string",
+          "minLength": 1,
+          "description": "L'étiquette telle qu'elle est écrite, par exemple « Total TTC »."
+        },
+        "type": {
+          "type": "string",
+          "enum": ["montant", "date", "iban", "pourcentage", "texte"],
+          "description": "Ce que la valeur est. « iban » se reconnaît à sa forme ; la clé de contrôle n'est pas vérifiée."
+        },
+        "valeur": {
+          "type": "string",
+          "minLength": 1,
+          "description": "La valeur normalisée : montant en décimal à point et deux décimales (« 512.40 »), date AAAA-MM-JJ, IBAN sans espaces, pourcentage en décimal à point (« 5.5 »), texte tel qu'écrit."
+        },
+        "unite": {
+          "type": ["string", "null"],
+          "description": "« EUR » pour un montant, « % » pour un pourcentage ; null sinon."
+        },
+        "citation": {
+          "$ref": "#/$defs/citation",
+          "description": "Le texte d'où vient la valeur, sans l'étiquette, et sa provenance."
+        }
+      }
+    }
+  }
+}

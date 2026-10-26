@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cop-602",
+  "de": {
+    "nom": "Étude de Maître Hugues Marchetti, notaire",
+    "adresse": "etude.marchetti@notaires-du-cher.example"
+  },
+  "a": [
+    "copropriete@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Vente du lot 3, Résidence Les Hauts de Montclavel",
+  "date": "2026-08-11T11:00:00+02:00",
+  "corps": "Madame, Monsieur,\n\nNous sommes chargés de la vente du lot 3 de la Résidence Les Hauts de Montclavel, propriété de M. Fabrice Michaud. Merci de nous adresser l'état daté et le pré-état daté.\n\nÉtude de Maître Hugues Marchetti",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

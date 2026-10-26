@@ -1,0 +1,12 @@
+# Fiche du propriétaire p-0284, mandant de Domivelle. Données FICTIVES.
+code: p-0284
+nom: M. Daniel Thibault
+adresse: 29 allée des Acacias, 18999 Saint-Aubrin-des-Bois (FICTIF)
+courriel: daniel.thibault@boite-postale.example
+telephone: 06 39 98 54 32
+iban: FR76 9999 9037 5151 1316 2765 831 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- n04-08
+- n12-02
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

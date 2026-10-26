@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-003",
+  "de": {
+    "nom": "Protection de la Garenne",
+    "adresse": "facturation@protection-de-la-garenne.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture F29917",
+  "date": "2026-07-03T11:15:00+02:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-jointe notre facture F29917 du 1er juillet 2026, pour votre commande CA-2026-0315 :\n- PRO-10351, Cartouche filtrante P3, la paire : 120 x 19,40 € HT = 2 328,00 €\n- PRO-11911, Tee-shirt de travail noir, taille M : 50 x 6,75 € HT = 337,50 €\n\nTotal HT : 2 665,50 € ; TVA 20 % : 533,10 € ; total TTC : 3 198,60 €. Paiement à 60 jours date de facture.\n\nService facturation\nProtection de la Garenne",
+  "pieces_jointes": [
+    {
+      "nom": "F29917.pdf",
+      "fichier": "pieces/m-cpt-003/F29917.pdf",
+      "taille_octets": 800
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

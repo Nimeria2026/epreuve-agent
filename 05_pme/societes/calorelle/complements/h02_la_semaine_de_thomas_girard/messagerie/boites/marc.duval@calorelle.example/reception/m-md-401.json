@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-401",
+  "de": {
+    "nom": "Hélène Marchal",
+    "adresse": "helene.marchal@calorelle.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Thomas en formation du 9 au 20 novembre",
+  "date": "2026-11-02T08:30:00+01:00",
+  "corps": "Marc,\n\nThomas Girard suivra une formation à Orléans du lundi 9 au vendredi 20 novembre : il n'assurera aucune intervention pendant ces deux semaines. Kevin Lambert sera lui aussi absent le vendredi 13 novembre. Peux-tu réorganiser les rendez-vous de Thomas ?\n\nHélène (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

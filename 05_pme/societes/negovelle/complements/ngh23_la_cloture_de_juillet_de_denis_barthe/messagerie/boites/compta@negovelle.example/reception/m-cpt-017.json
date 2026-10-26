@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-017",
+  "de": {
+    "nom": "Sanitaire des Grands Champs",
+    "adresse": "facturation@sanitaire-des-grands-champs.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture F44690",
+  "date": "2026-07-27T10:05:00+02:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-jointe notre facture F44690 du 10 juillet 2026, pour votre commande CA-2026-0313 :\n- PLB-10228, Bouchon de visite PVC 63 mm : 80 x 2,50 € HT = 200,00 €\n- PLB-11829, Mécanisme de chasse simple débit : 2 x 23,83 € HT = 47,66 €\n- PLB-12155, Raccord à sertir applique 18 mm : 180 x 5,76 € HT = 1 036,80 €\n- PLB-12964, Tube PVC évacuation 110 mm, barre de 4 m : 240 x 11,32 € HT = 2 716,80 €\n\nTotal HT : 4 001,26 € ; TVA 20 % : 800,25 € ; total TTC : 4 801,51 €. Paiement à 45 jours fin de mois.\n\nService facturation\nSanitaire des Grands Champs",
+  "pieces_jointes": [
+    {
+      "nom": "F44690.pdf",
+      "fichier": "pieces/m-cpt-017/F44690.pdf",
+      "taille_octets": 965
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

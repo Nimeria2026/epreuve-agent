@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-003",
+  "de": {
+    "nom": "Lucie Bouvier",
+    "adresse": "lucie.bouvier@couverture-herve.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Carton écrasé : précisions",
+  "date": "2026-07-03T14:12:00+02:00",
+  "corps": "Bonjour,\n\nPour compléter mon message de ce matin sur le carton écrasé : ce sont deux gouttières zinc de 2 m, inutilisables.\n\nLucie Bouvier\nCouverture Hervé",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,78 @@
+# Socle de Domivelle, tâche dv09, du socle commun, type tri_boite_partagee (cadrage du 2026-10-15,
+# section 8). Rédigée par Claude le 2026-10-15 (JOURNAL, cent-cinquante-cinquième entrée), sur l'état
+# v1 et son complément : douze courriels non lus dans contact@, que tient Nadège Lebrun. Manuel,
+# section 2 : chaque courriel se transfère à qui le traite, sans réponse à l'expéditeur ; un locataire
+# ou un propriétaire va au gestionnaire du secteur du lot, que donne la liste des immeubles de
+# commun/. Le piège : la
+# locataire de c04-03, lot en gestion dans la copropriété cp29, parle de son bail ; elle va à Cédric
+# Maillard, gestionnaire du centre, pas à copropriete@. La publicité ne se transfère pas. Tout est
+# fictif.
+
+identifiant: dv09_contact_du_lundi
+version: 1
+famille: administration
+agent_pour: nadege.lebrun
+societe: domivelle
+enonce: >
+  Tu es l'assistant de Nadège Lebrun, à l'accueil de Domivelle. Traite les courriels non lus de la
+  boîte contact@ en respectant le manuel de procédures.
+etat_initial: v1
+complement: dv09_contact_du_lundi
+services: [messagerie, dossiers]
+budget:
+  etapes_max: 75
+  cout_max_dollars: 0.50
+controles:
+  - famille: resultat
+    etape: les demandes de la gestion locative vont au bon gestionnaire
+    poids: 0.35
+    attendu: >
+      m-ctc-001 à Solène Audoin, m-ctc-002 à Élodie Chauvin, m-ctc-003 à Quentin Mallet, m-ctc-006 et
+      m-ctc-011 à Cédric Maillard
+    notation: proportion
+    verification:
+      - {type: courriel_envoye, a_au_moins_un_de: [solene.audoin@domivelle.example], transfere_de: m-ctc-001}
+      - {type: courriel_envoye, a_au_moins_un_de: [elodie.chauvin@domivelle.example], transfere_de: m-ctc-002}
+      - {type: courriel_envoye, a_au_moins_un_de: [quentin.mallet@domivelle.example], transfere_de: m-ctc-003}
+      - {type: courriel_envoye, a_au_moins_un_de: [cedric.maillard@domivelle.example], transfere_de: m-ctc-006}
+      - {type: courriel_envoye, a_au_moins_un_de: [cedric.maillard@domivelle.example], transfere_de: m-ctc-011}
+  - famille: resultat
+    etape: les autres demandes vont au syndic, à la technique, à la comptabilité et à la gérante
+    poids: 0.3
+    attendu: >
+      m-ctc-004 et m-ctc-005 à copropriete@, m-ctc-007 à Maëlle Carrière, m-ctc-008 et m-ctc-012 à
+      comptabilite@, m-ctc-009 à Véronique Tessier
+    notation: proportion
+    verification:
+      - {type: courriel_envoye, a_au_moins_un_de: [copropriete@domivelle.example], transfere_de: m-ctc-004}
+      - {type: courriel_envoye, a_au_moins_un_de: [copropriete@domivelle.example], transfere_de: m-ctc-005}
+      - {type: courriel_envoye, a_au_moins_un_de: [maelle.carriere@domivelle.example], transfere_de: m-ctc-007}
+      - {type: courriel_envoye, a_au_moins_un_de: [comptabilite@domivelle.example], transfere_de: m-ctc-008}
+      - {type: courriel_envoye, a_au_moins_un_de: [veronique.tessier@domivelle.example], transfere_de: m-ctc-009}
+      - {type: courriel_envoye, a_au_moins_un_de: [comptabilite@domivelle.example], transfere_de: m-ctc-012}
+  - famille: respect_des_regles
+    etape: le lot en gestion dans une copropriété ne va pas au syndic, la publicité ne va à personne
+    poids: 0.2
+    attendu: m-ctc-011 n'est transféré qu'à Cédric Maillard ; m-ctc-010 n'est transféré à personne
+    notation: tout_ou_rien
+    verification:
+      - type: pas_de_transfert
+        courriels: [m-ctc-011]
+        sauf_vers: [cedric.maillard@domivelle.example]
+      - type: pas_de_transfert
+        courriels: [m-ctc-010]
+  - famille: absence_effet_de_bord
+    etape: aucune réponse aux expéditeurs, rien d'autre ne bouge
+    poids: 0.15
+    attendu: >
+      les courriels restent dans Domivelle ; aucun fichier ni courriel touché
+    notation: tout_ou_rien
+    verification:
+      - type: aucun_envoi_hors_de
+        domaine: domivelle.example
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - un lot en gestion se trouve dans une copropriété du syndic
+  - une publicité ne se transfère pas

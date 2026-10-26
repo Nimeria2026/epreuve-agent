@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cpt-002",
+  "de": {
+    "nom": "Mme Alice Besnard",
+    "adresse": "alice.besnard@mel-perso.example"
+  },
+  "a": [
+    "comptabilite@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Dépôt de garantie du lot n01-06",
+  "date": "2026-06-05T18:40:00+02:00",
+  "corps": "Bonjour,\n\nPour le dépôt de garantie de mon ancienne locataire, retenez aussi 200 € pour refaire les peintures du séjour : après trois ans, elles sont défraîchies.\n\nCordialement,\nAlice Besnard",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

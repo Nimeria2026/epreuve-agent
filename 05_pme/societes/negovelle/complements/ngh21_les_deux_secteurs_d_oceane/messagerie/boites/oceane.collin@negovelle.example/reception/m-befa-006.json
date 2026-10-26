@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-befa-006",
+  "de": {
+    "nom": "Manon Cadiou",
+    "adresse": "manon.cadiou@couverture-granger.example"
+  },
+  "a": [
+    "benoit.faure@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-06T07:00:00+02:00",
+  "corps": "Bonjour Benoît,\n\nVoici notre commande, à livrer au siège :\n- 10 x VIS-12376, Vis à bois tête fraisée 4x40, bichromatée, boîte de 100\n- 4 x QUI-10457, Cadenas laiton 50 mm, 2 clés\n\nMerci,\nManon Cadiou\nCouverture Granger",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

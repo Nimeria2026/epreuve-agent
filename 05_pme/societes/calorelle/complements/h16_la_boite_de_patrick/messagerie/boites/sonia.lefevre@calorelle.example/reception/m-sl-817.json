@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-817",
+  "de": {
+    "nom": "Catherine Dupont",
+    "adresse": "catherine.dupont@courriel.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Votre facture FC-2026-0418",
+  "date": "2026-11-21T10:40:00+01:00",
+  "corps": "Bonjour,\n\nJe reçois votre facture FC-2026-0418, 214,00 €, pour la visite d'entretien du 3 novembre. Mon contrat Sérénité comprend la visite annuelle : je ne vois pas pourquoi je devrais la payer. Merci de l'annuler.\n\nCatherine Dupont, 79 rue des Écoles, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

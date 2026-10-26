@@ -1,0 +1,64 @@
+{
+  "numero": "CO-2026-02048",
+  "client": "c-0010",
+  "reference_client": null,
+  "cree_le": "2026-07-03T15:00:00+02:00",
+  "cree_par": "fabrice.mercier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "111 rue des Remparts, 36999 Vendrigny (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "OUT-10195",
+      "libelle": "Caisse à outils à tiroirs 500 mm",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 27.65,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 27.65,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 276.5
+    },
+    {
+      "reference": "OUT-11813",
+      "libelle": "Pince étau 160 mm",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 25.0,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 25.0,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 150.0
+    },
+    {
+      "reference": "OUT-10114",
+      "libelle": "Caisse à outils métallique 400 mm",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 17.55,
+      "remise_pourcent": 2.0,
+      "prix_net_ht_euros": 17.2,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 86.0
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 512.5,
+  "total_tva_euros": 102.5,
+  "total_ttc_euros": 615.0,
+  "statut": "brouillon",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T15:00:00+02:00",
+      "par": "fabrice.mercier",
+      "action": "creee",
+      "detail": "prix du déstockage attendus"
+    }
+  ]
+}

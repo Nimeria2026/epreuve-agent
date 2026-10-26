@@ -1,0 +1,286 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Commande",
+  "description": "Une commande d'un client de Négovelle, telle que le service de ventes la garde dans ventes/commandes/ : ses lignes chiffrées, sa livraison, ses totaux, son statut et son historique. Données fictives.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "numero",
+    "client",
+    "reference_client",
+    "cree_le",
+    "cree_par",
+    "mode",
+    "livraison",
+    "lignes",
+    "port_ht_euros",
+    "total_ht_euros",
+    "total_tva_euros",
+    "total_ttc_euros",
+    "statut",
+    "motif_attente",
+    "reliquat_de",
+    "livraisons",
+    "facture",
+    "historique"
+  ],
+  "properties": {
+    "numero": {
+      "type": "string",
+      "pattern": "^CO-[0-9]{4}-[0-9]{5}$",
+      "description": "Par exemple CO-2026-01873."
+    },
+    "client": {
+      "type": "string",
+      "pattern": "^c-[0-9]{4}$",
+      "description": "Code du client, celui de sa fiche."
+    },
+    "reference_client": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Référence du bon de commande du client, ou null."
+    },
+    "cree_le": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "cree_par": {
+      "type": "string",
+      "pattern": "^[a-z]+(?:[.-][a-z]+)*$",
+      "description": "Identifiant d'une personne de l'organigramme."
+    },
+    "mode": {
+      "type": "string",
+      "enum": [
+        "standard",
+        "express"
+      ]
+    },
+    "livraison": {
+      "description": "Où livrer : une adresse de la fiche, ou une adresse ponctuelle.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "code",
+        "adresse"
+      ],
+      "properties": {
+        "code": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^L[0-9]+$"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Code de l'adresse dans la fiche du client, null pour une adresse ponctuelle."
+        },
+        "adresse": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "lignes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/LigneCommande"
+      }
+    },
+    "port_ht_euros": {
+      "type": "number",
+      "minimum": 0
+    },
+    "total_ht_euros": {
+      "type": "number",
+      "minimum": 0
+    },
+    "total_tva_euros": {
+      "type": "number",
+      "minimum": 0
+    },
+    "total_ttc_euros": {
+      "type": "number",
+      "minimum": 0
+    },
+    "statut": {
+      "type": "string",
+      "enum": [
+        "brouillon",
+        "en_attente_deblocage",
+        "en_attente_reassort",
+        "validee",
+        "expediee",
+        "livree",
+        "facturee",
+        "annulee"
+      ]
+    },
+    "motif_attente": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Pourquoi une commande attend un déblocage, ou null."
+    },
+    "reliquat_de": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^CO-[0-9]{4}-[0-9]{5}$",
+          "description": "Par exemple CO-2026-01873."
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "La commande dont celle-ci est le reliquat, ou null."
+    },
+    "livraisons": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^BL-[0-9]{4}-[0-9]{5}$",
+        "description": "Par exemple BL-2026-01544."
+      }
+    },
+    "facture": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^FC-[0-9]{4}-[0-9]{4}$",
+          "description": "Par exemple FC-2026-0412."
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "historique": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Evenement"
+      }
+    }
+  },
+  "$defs": {
+    "LigneCommande": {
+      "title": "LigneCommande",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "reference",
+        "libelle",
+        "quantite",
+        "prix_tarif_ht_euros",
+        "remise_pourcent",
+        "prix_net_ht_euros",
+        "prix_derogatoire",
+        "taux_tva",
+        "montant_ht_euros"
+      ],
+      "properties": {
+        "reference": {
+          "type": "string",
+          "pattern": "^[A-Z]{3}-[0-9]{5}$",
+          "description": "Référence du catalogue, par exemple VIS-01482."
+        },
+        "libelle": {
+          "type": "string",
+          "minLength": 1
+        },
+        "quantite": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "prix_tarif_ht_euros": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "remise_pourcent": {
+          "type": "number",
+          "minimum": 0,
+          "exclusiveMaximum": 100,
+          "description": "Remise de la catégorie du client puis du barème, composées ; 0 pour un prix net ou un prix dérogatoire."
+        },
+        "prix_net_ht_euros": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "description": "Prix unitaire après remise, au centime, calculé par le service ou accordé."
+        },
+        "prix_derogatoire": {
+          "type": "boolean",
+          "description": "Vrai si le prix a été accordé par accorder_prix."
+        },
+        "taux_tva": {
+          "type": "number",
+          "enum": [
+            5.5,
+            10,
+            20
+          ],
+          "description": "En pour cent."
+        },
+        "montant_ht_euros": {
+          "type": "number",
+          "minimum": 0
+        }
+      }
+    },
+    "Evenement": {
+      "title": "Evenement",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "date",
+        "par",
+        "action",
+        "detail"
+      ],
+      "properties": {
+        "date": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "par": {
+          "type": "string",
+          "pattern": "^[a-z]+(?:[.-][a-z]+)*$",
+          "description": "Identifiant d'une personne de l'organigramme."
+        },
+        "action": {
+          "type": "string",
+          "enum": [
+            "creee",
+            "modifiee",
+            "validee",
+            "mise_en_attente",
+            "debloquee",
+            "prix_accorde",
+            "adresse_ponctuelle",
+            "scindee",
+            "expediee",
+            "livree",
+            "facturee",
+            "annulee"
+          ]
+        },
+        "detail": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

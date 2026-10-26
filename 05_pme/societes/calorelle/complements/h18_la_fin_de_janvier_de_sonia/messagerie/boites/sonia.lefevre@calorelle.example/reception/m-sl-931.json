@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-sl-931",
+  "de": {
+    "nom": "Jade Lemoine",
+    "adresse": "jade.lemoine@courriel.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Ma pièce d'identité",
+  "date": "2027-02-01T08:50:00+01:00",
+  "corps": "Bonjour Madame Lefèvre,\n\nJe vous envoie ma pièce d'identité ; le reste suivra.\n\nJade Lemoine (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "piece_identite_Lemoine.pdf",
+      "fichier": "pieces/m-sl-931/piece_identite_Lemoine.pdf",
+      "taille_octets": 754
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,145 @@
+{
+  "numero": "CO-2026-01816",
+  "client": "c-0096",
+  "reference_client": null,
+  "cree_le": "2026-06-22T09:10:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "47 rue du Moulin, 36999 Mérolles-en-Brenne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-11714",
+      "libelle": "Papier abrasif corindon, grain 40, rouleau de 25 m",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 9.0,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 8.64,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 17.28
+    },
+    {
+      "reference": "ELP-10465",
+      "libelle": "Embout de vissage T15, étui de 25",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 14.45,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 13.87,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 138.7
+    },
+    {
+      "reference": "PLB-10539",
+      "libelle": "Collier de fixation tube 22 mm, sachet de 10",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 8.25,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 7.92,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 7.92
+    },
+    {
+      "reference": "PLB-10596",
+      "libelle": "Collier de fixation tube 40 mm, sachet de 10",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 4.75,
+      "remise_pourcent": 5.92,
+      "prix_net_ht_euros": 4.47,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 26.82
+    },
+    {
+      "reference": "QUI-11445",
+      "libelle": "Cylindre européen 30x40 mm, 3 clés",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 65.9,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 63.26,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 126.52
+    },
+    {
+      "reference": "VIS-10734",
+      "libelle": "Vis à bois tête fraisée 3,5x20, inox A2, boîte de 200",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 6.35,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 6.1,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 12.2
+    },
+    {
+      "reference": "VIS-11845",
+      "libelle": "Vis à bois tête fraisée 4,5x35, bichromatée, boîte de 200",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 19.9,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 19.9,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 119.4
+    },
+    {
+      "reference": "VIS-12156",
+      "libelle": "Vis à bois tête fraisée 4x16, bichromatée, boîte de 500",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 9.0,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 9.0,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 18.0
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 466.84,
+  "total_tva_euros": 93.37,
+  "total_ttc_euros": 560.21,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01665"
+  ],
+  "facture": "FC-2026-1087",
+  "historique": [
+    {
+      "date": "2026-06-22T09:10:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-22T09:12:00+02:00",
+      "par": "oceane.collin",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-23T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01665"
+    },
+    {
+      "date": "2026-06-23T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01665"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1087"
+    }
+  ]
+}

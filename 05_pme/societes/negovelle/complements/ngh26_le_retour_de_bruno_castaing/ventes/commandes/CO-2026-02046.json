@@ -1,0 +1,86 @@
+{
+  "numero": "CO-2026-02046",
+  "client": "c-0120",
+  "reference_client": null,
+  "cree_le": "2026-08-10T15:00:00+02:00",
+  "cree_par": "fabrice.mercier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "88 rue des Écoles, 36999 Vendrigny (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "VIS-13495",
+      "libelle": "Vis à bois tête fraisée 6x60, bichromatée, boîte de 100",
+      "quantite": 30,
+      "prix_tarif_ht_euros": 20.5,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 20.5,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 615.0
+    },
+    {
+      "reference": "ELE-12000",
+      "libelle": "Gaine ICTA 40 mm, couronne de 50 m",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 28.4,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 28.4,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 284.0
+    },
+    {
+      "reference": "PRO-10539",
+      "libelle": "Casque de chantier à jugulaire, orange",
+      "quantite": 25,
+      "prix_tarif_ht_euros": 26.05,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 26.05,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 651.25
+    },
+    {
+      "reference": "OUT-13054",
+      "libelle": "Équerre de contrôle 400 mm",
+      "quantite": 8,
+      "prix_tarif_ht_euros": 31.5,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 31.5,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 252.0
+    },
+    {
+      "reference": "QUI-10171",
+      "libelle": "Boîte aux lettres normalisée, vert",
+      "quantite": 20,
+      "prix_tarif_ht_euros": 31.85,
+      "remise_pourcent": 5.0,
+      "prix_net_ht_euros": 30.26,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 605.2
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 2407.45,
+  "total_tva_euros": 481.49,
+  "total_ttc_euros": 2888.94,
+  "statut": "brouillon",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-08-10T15:00:00+02:00",
+      "par": "fabrice.mercier",
+      "action": "creee",
+      "detail": "prix demandés au président"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "numero": "CO-2026-02047",
+  "client": "c-0089",
+  "reference_client": null,
+  "cree_le": "2026-08-18T15:00:00+02:00",
+  "cree_par": "laurent.gimenez",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "139 rue de la Fontaine, 36999 Corvalet (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-12400",
+      "libelle": "Interrupteur différentiel 40 A 30 mA, type Hpi",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 89.05,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 85.49,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 341.96
+    },
+    {
+      "reference": "CON-11339",
+      "libelle": "Marqueur de chantier rouge, boîte de 10",
+      "quantite": 24,
+      "prix_tarif_ht_euros": 18.2,
+      "remise_pourcent": 6.88,
+      "prix_net_ht_euros": 16.95,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 406.8
+    },
+    {
+      "reference": "ELP-10057",
+      "libelle": "Disque diamant béton 115 mm",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 105.55,
+      "remise_pourcent": 6.88,
+      "prix_net_ht_euros": 98.29,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 1179.48
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 1928.24,
+  "total_tva_euros": 385.65,
+  "total_ttc_euros": 2313.89,
+  "statut": "brouillon",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-08-18T15:00:00+02:00",
+      "par": "laurent.gimenez",
+      "action": "creee",
+      "detail": "prix demandés au président"
+    }
+  ]
+}

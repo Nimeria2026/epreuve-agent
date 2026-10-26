@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-301",
+  "de": {
+    "nom": "Établissements Simon",
+    "adresse": "contact@etablissements-simon-307.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Résiliation de notre contrat d'entretien",
+  "date": "2026-11-02T07:52:00+01:00",
+  "corps": "Madame,\n\nNous avons regroupé nos locaux et souhaitons résilier notre contrat d'entretien Sérénité. Merci de nous confirmer la date de fin du contrat.\n\nÉtablissements Simon, 75 rue des Lilas (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

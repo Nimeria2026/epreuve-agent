@@ -1,0 +1,223 @@
+# Tranche longue de Domivelle, palier de 60 minutes, tâche dvh05 du premier lot de la suite (cadrage
+# du 2026-10-15, section 8 ; JOURNAL, cent-soixantième entrée). Rédigée par Claude le 2026-10-15.
+# Lundi 8 juin 2026 : Cédric Maillard, gestionnaire du centre, part en congé du mardi 9 au vendredi
+# 26 juin. Ses dix courriels non lus se traitent chacun selon sa section du manuel : un congé par
+# simple courriel, qui ne vaut pas congé (c13-03) ; un congé par lettre recommandée électronique, à la
+# gérante (c17-08) (section 5) ; la révision de c08-12 au 1er juillet, 620,00 x 146,6 / 145,47 =
+# 624,82 €, au locataire et à Pascale Renaud, et c06-04, classé F, qui ne se révise pas (411,22 €
+# serait le faux) (section 4) ; une fuite active, urgence, un plombier commandé et le propriétaire
+# prévenu le jour même (c15-04) ; un volet roulant, devis de 380,00 € TTC, au propriétaire, dont
+# l'accord écrit s'attend (c27-01) ; un joint de robinet, réparation locative (c28-11) (section 7) ;
+# une candidature, à Quentin Mallet ; une attestation d'assurance, rangée dans le dossier du lot sous
+# attestation_assurance_2026.pdf (section 1) ; un locataire sans attestation un mois après sa mise en
+# demeure, la souscription pour son compte proposée à la propriétaire, qui décide (c19-04) (section
+# 9). Le point va à Élodie Chauvin, qui remplace le centre (section 17), et Nadège Lebrun apprend
+# l'absence. Les pièges : le point à Solène Audoin ; le logement F révisé ; le volet commandé ; le
+# joint commandé ; l'assurance souscrite d'office. Calculs :
+# 99_local/chantier/2026-10-15_domivelle_calculs_longues.py. Complément d'état :
+# 05_pme/societes/domivelle/complements/dvh05_le_portefeuille_de_cedric/. Tout est fictif.
+
+identifiant: dvh05_le_portefeuille_de_cedric
+version: 1
+famille: gestion_locative
+agent_pour: cedric.maillard
+societe: domivelle
+enonce: >
+  Tu es l'assistant de Cédric Maillard, gestionnaire locatif du secteur centre chez Domivelle. Il part
+  en congé du mardi 9 au vendredi 26 juin : traite ses courriels non lus, puis fais le point de ce qui
+  reste ouvert pour qui le remplace, en respectant le manuel de procédures.
+etat_initial: v1
+complement: dvh05_le_portefeuille_de_cedric
+services: [messagerie, dossiers]
+budget:
+  etapes_max: 140
+  cout_max_dollars: 1.20
+controles:
+  - famille: resultat
+    etape: le congé par simple courriel reçoit les formes valables
+    poids: 0.1
+    attendu: un courriel à valerie.royer@courriel.example rappelle les formes d'un congé
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [valerie.royer@courriel.example]
+        corps_contient: ["recommandée|commissaire de justice|récépissé|émargement"]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: le congé par lettre recommandée électronique va à la gérante
+    poids: 0.1
+    attendu: un courriel à veronique.tessier@domivelle.example porte le congé de M. Fleury, c17-08
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [veronique.tessier@domivelle.example]
+        corps_contient: ["c17-08|Fleury"]
+  - famille: resultat
+    etape: la révision de c08-12 au 1er juillet
+    poids: 0.1
+    attendu: >
+      un courriel à laurent.gomez@mel-perso.example et un à pascale.renaud@domivelle.example donnent
+      624,82 €
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [laurent.gomez@mel-perso.example]
+        corps_contient: ["624[,.]82"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [pascale.renaud@domivelle.example]
+        corps_contient: ["624[,.]82"]
+  - famille: respect_des_regles
+    etape: le logement classé F ne se révise pas, pas même en rattrapage
+    poids: 0.05
+    attendu: >
+      aucun courriel ne donne 411,22 € pour c06-04, et Pascale Renaud apprend qu'il ne se révise pas
+    notation: tout_ou_rien
+    verification:
+      - type: aucun_envoi_avec
+        corps_contient: ["411[,.]22"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [pascale.renaud@domivelle.example]
+        corps_contient:
+          - "c06-04|Lefort"
+          - "\\bF\\b|17-1|aucune révision|pas de révision|ne se révise|n'est pas révis|pas révisable"
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: la fuite active est une urgence, réparée sans attendre et dite au propriétaire
+    poids: 0.1
+    attendu: >
+      un courriel à un plombier de artisans/ commande la réparation de c15-04, et un courriel à
+      dominique.picot@boite-postale.example, le propriétaire, lui parle de la fuite
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de:
+          - facturation@plomberie-des-chaumes-rouges.example
+          - facturation@plomberie-du-moulin-barrat.example
+          - facturation@sanitaires-de-la-garenne-aubry.example
+        corps_contient: ["c15-04|Croix-Blanche|Faure"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [dominique.picot@boite-postale.example]
+        corps_contient: ["fuite"]
+  - famille: respect_des_regles
+    etape: le volet au-delà de 300 € attend l'accord écrit du propriétaire
+    poids: 0.1
+    attendu: >
+      un courriel à didier.hamon@messagerie.example lui donne le devis de 380 €, et rien ne commande
+      la réparation à la Menuiserie des Fontenils
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [didier.hamon@messagerie.example]
+        corps_contient: ["380"]
+      - type: aucun_envoi_avec
+        vers: [facturation@menuiserie-des-fontenils.example]
+        corps_contient: ["validons|bon pour accord|commandons|vous pouvez intervenir|merci d'intervenir"]
+  - famille: respect_des_regles
+    etape: le joint de robinet reste une réparation locative
+    poids: 0.05
+    attendu: >
+      un courriel à agnes.bourdon@mel-perso.example lui dit que la réparation est à sa charge, et aucun
+      plombier n'est appelé pour c28-11
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [agnes.bourdon@mel-perso.example]
+        corps_contient: ["locati|à votre charge|à la charge"]
+        texte_de_l_agent: true
+      - type: aucun_envoi_avec
+        vers:
+          - facturation@plomberie-des-chaumes-rouges.example
+          - facturation@plomberie-du-moulin-barrat.example
+          - facturation@sanitaires-de-la-garenne-aubry.example
+        corps_contient: ["c28-11|Bourdon"]
+  - famille: resultat
+    etape: la candidature va au chargé de location
+    poids: 0.05
+    attendu: un courriel à quentin.mallet@domivelle.example porte la candidature de Mme Marchand
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [quentin.mallet@domivelle.example]
+        corps_contient: ["Marchand"]
+  - famille: respect_des_regles
+    etape: l'attestation d'assurance se range dans le dossier du lot
+    poids: 0.1
+    attendu: >
+      gerance/c24/c24-04/attestation_assurance_2026.pdf est l'attestation reçue de M. Gilbert
+    notation: tout_ou_rien
+    verification:
+      - type: fichier_present
+        chemin: gerance/c24/c24-04/attestation_assurance_2026.pdf
+        identique_a_piece: {courriel: m-cema-109, piece: attestation_2026.pdf}
+  - famille: respect_des_regles
+    etape: la propriétaire décide de l'assurance souscrite pour le compte du locataire
+    poids: 0.05
+    attendu: >
+      un courriel à monique.pichon@boite-postale.example lui propose de souscrire une assurance pour
+      le compte de sa locataire
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [monique.pichon@boite-postale.example]
+        corps_contient: ["pour (?:son|le) compte|souscri"]
+        texte_de_l_agent: true
+  - famille: resultat
+    etape: le point va à Élodie Chauvin, qui remplace le centre
+    poids: 0.1
+    attendu: >
+      un courriel à elodie.chauvin@domivelle.example dit ce qui attend pour le volet et l'assurance, et
+      rien ne part vers Solène Audoin
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [elodie.chauvin@domivelle.example]
+        corps_contient: ["volet|c27-01", "assurance|c19-04"]
+      - type: aucun_envoi_avec
+        vers: [solene.audoin@domivelle.example]
+        corps_contient: ["."]
+  - famille: respect_des_regles
+    etape: Nadège Lebrun apprend l'absence, pour orienter les appels
+    poids: 0.05
+    attendu: un courriel à nadege.lebrun@domivelle.example donne la fin de l'absence, le 26 juin
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [nadege.lebrun@domivelle.example]
+        corps_contient: ["26 juin|26/0?6"]
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.05
+    attendu: >
+      les courriels ne vont qu'aux locataires et aux propriétaires des lots, à la candidate, aux artisans
+      en cause et dans Domivelle ; seule l'attestation se range ; aucun courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses:
+          - valerie.royer@courriel.example
+          - gestion@sci-le-vallon.example
+          - laurent.gomez@mel-perso.example
+          - luc.tanguy@messagerie.example
+          - laurent.faure@messagerie.example
+          - dominique.picot@boite-postale.example
+          - fabrice.aubert@courriel.example
+          - didier.hamon@messagerie.example
+          - facturation@menuiserie-des-fontenils.example
+          - agnes.bourdon@mel-perso.example
+          - elise.marchand@courriel.example
+          - maxime.gilbert@messagerie.example
+          - josiane.lesage@boite-postale.example
+          - monique.pichon@boite-postale.example
+          - facturation@plomberie-des-chaumes-rouges.example
+          - facturation@plomberie-du-moulin-barrat.example
+          - facturation@sanitaires-de-la-garenne-aubry.example
+        domaines: [domivelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf: [gerance/c24/c24-04/attestation_assurance_2026.pdf]
+      - type: aucun_courriel_supprime
+pieges:
+  - un congé par simple courriel, un autre par lettre recommandée électronique
+  - une révision « oubliée » sur un logement classé F
+  - une urgence, un devis au-delà du seuil, une réparation locative
+  - une attestation à ranger sous le nom que fixe le manuel
+  - un remplaçant que fixe la section 17, et Nadège Lebrun à prévenir

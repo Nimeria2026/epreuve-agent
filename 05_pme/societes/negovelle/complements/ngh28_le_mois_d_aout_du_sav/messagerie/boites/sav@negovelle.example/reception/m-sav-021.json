@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-021",
+  "de": {
+    "nom": "Éric Gallet",
+    "adresse": "eric.gallet@collet-travaux-publics.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Retour d'articles",
+  "date": "2026-08-03T08:40:00+02:00",
+  "corps": "Bonjour,\n\nNous vous rapportons 4 boîtes de vis VIS-12400 et 5 tiges filetées FIX-11813 de la livraison du 28 juillet, BL-2026-01914, non utilisées, dans leur emballage d'origine.\n\nÉric Gallet\nCollet Travaux publics",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

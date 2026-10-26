@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-covi-004",
+  "de": {
+    "nom": "Manon Rey",
+    "adresse": "manon.rey@negovelle.example"
+  },
+  "a": [
+    "corinne.vidal@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "TR : Livraison sur chantier de la commande CO-2026-02034",
+  "date": "2026-07-03T11:40:00+02:00",
+  "corps": "Corinne,\n\nUne demande d'adresse de chantier pour Chauffage Salmon (c-0294), à toi pour l'appel.\n\nManon\n\n-------- Message transféré --------\nDe : Hugo Achard <hugo.achard@chauffage-salmon.example>\nObjet : Livraison sur chantier de la commande CO-2026-02034\n\nBonjour Manon,\n\nLa commande de ce matin pour la chaufferie (CO-2026-02034) peut-elle partir directement sur le chantier, résidence les Peupliers, 5 allée des Saules, 36999 Corvalet ? L'autre commande reste au dépôt.\n\nHugo Achard\nChauffage Salmon",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

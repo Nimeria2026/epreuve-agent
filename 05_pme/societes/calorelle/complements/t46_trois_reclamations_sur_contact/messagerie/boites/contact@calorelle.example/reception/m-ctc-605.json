@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-605",
+  "de": {
+    "nom": "Sandrine Fontaine",
+    "adresse": "sandrine.fontaine@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Radiateur qui fuit",
+  "date": "2026-11-02T08:31:00+01:00",
+  "corps": "Bonjour,\n\nLe radiateur de ma chambre fuit au niveau du robinet, une flaque s'est formée cette nuit. Pouvez-vous envoyer quelqu'un ?\n\nSandrine Fontaine, 38 avenue des Tilleuls, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-mesa-b03",
+  "de": {
+    "nom": "M. Fabrice Schmitt",
+    "adresse": "fabrice.schmitt@messagerie.example"
+  },
+  "a": [
+    "melanie.sabatier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Date de la prochaine assemblée",
+  "date": "2026-06-05T13:36:00+02:00",
+  "corps": "Bonjour,\n\nPouvez-vous me dire quand se tiendra notre prochaine assemblée ?\n\nM. Fabrice Schmitt",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

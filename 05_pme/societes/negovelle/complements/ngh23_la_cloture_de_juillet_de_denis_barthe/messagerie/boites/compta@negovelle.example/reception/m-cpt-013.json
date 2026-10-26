@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cpt-013",
+  "de": {
+    "nom": "Visserie du Val-Corvalet",
+    "adresse": "facturation@visserie-du-val-corvalet.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture F35887",
+  "date": "2026-07-30T11:00:00+02:00",
+  "corps": "Bonjour,\n\nPouvez-vous nous dire quand vous réglerez notre facture F35887 du 16 juin, 1 397,40 € TTC ? Nous préparons notre trésorerie d'août.\n\nService facturation\nVisserie du Val-Corvalet",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

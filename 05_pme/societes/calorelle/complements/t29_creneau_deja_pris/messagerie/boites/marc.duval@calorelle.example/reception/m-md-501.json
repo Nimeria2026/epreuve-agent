@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-501",
+  "de": {
+    "nom": "Camille Martin",
+    "adresse": "camille.martin@courriel.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Date de mon entretien annuel",
+  "date": "2026-11-02T08:15:00+01:00",
+  "corps": "Bonjour Monsieur Duval,\n\nSuite à votre message, je souhaiterais que la visite d'entretien de ma chaudière gaz ait lieu le jeudi 12 novembre à 10 h, avec Kevin Lambert, qui était venu l'an dernier et connaît l'installation.\n\nCordialement,\nCamille Martin\n78 chemin des Vignes, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-001",
+  "de": {
+    "nom": "Vincent Arnaud",
+    "adresse": "vincent.arnaud@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Déstockage des caisses à outils et des pinces étau",
+  "date": "2026-07-03T16:30:00+02:00",
+  "corps": "Bruno,\n\nComme convenu, je te propose de solder les deux gammes que nous arrêtons, les caisses à outils et les pinces étau : 35 % sous le tarif, sur les vingt références, prix hors taxes :\n- OUT-10114, Caisse à outils métallique 400 mm : 11,41 € au lieu de 17,55 €\n- OUT-10122, Caisse à outils métallique 500 mm : 23,04 € au lieu de 35,45 €\n- OUT-10130, Caisse à outils métallique 700 mm : 47,06 € au lieu de 72,40 €\n- OUT-10138, Caisse à outils plastique 400 mm : 56,13 € au lieu de 86,35 €\n- OUT-10146, Caisse à outils plastique 500 mm : 23,56 € au lieu de 36,25 €\n- OUT-10147, Caisse à outils plastique 600 mm : 30,74 € au lieu de 47,30 €\n- OUT-10155, Caisse à outils plastique 700 mm : 25,45 € au lieu de 39,15 €\n- OUT-10163, Caisse à outils à roulettes 500 mm : 17,81 € au lieu de 27,40 €\n- OUT-10171, Caisse à outils à roulettes 600 mm : 26,88 € au lieu de 41,35 €\n- OUT-10179, Caisse à outils à roulettes 700 mm : 15,80 € au lieu de 24,30 €\n- OUT-10187, Caisse à outils à tiroirs 400 mm : 16,41 € au lieu de 25,25 €\n- OUT-10195, Caisse à outils à tiroirs 500 mm : 17,97 € au lieu de 27,65 €\n- OUT-10196, Caisse à outils à tiroirs 600 mm : 18,43 € au lieu de 28,35 €\n- OUT-10204, Caisse à outils à tiroirs 700 mm : 18,59 € au lieu de 28,60 €\n- OUT-11812, Pince étau 140 mm : 15,66 € au lieu de 24,10 €\n- OUT-11813, Pince étau 160 mm : 16,25 € au lieu de 25,00 €\n- OUT-11821, Pince étau 180 mm : 7,38 € au lieu de 11,35 €\n- OUT-11829, Pince étau 200 mm : 19,56 € au lieu de 30,10 €\n- OUT-11837, Pince étau 250 mm : 18,66 € au lieu de 28,70 €\n- OUT-11845, Pince étau 300 mm : 18,07 € au lieu de 27,80 €\n\nLes commerciaux ont déjà huit commandes en brouillon qui attendent ces prix : CO-2026-02042 et CO-2026-02048 (Fabrice), CO-2026-02043 et CO-2026-02045 (Laurent), CO-2026-02044 et CO-2026-02049 (Samir), CO-2026-02046 et CO-2026-02047 (Aurélie). Envoie la décision à Corinne et à moi, que l'on sache quel prix appliquer.\n\nVincent",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

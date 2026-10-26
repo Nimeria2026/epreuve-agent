@@ -1,0 +1,79 @@
+# Benchmark par branche (cadrage du 2026-10-20), tâche 58, du métier. Rédigée par Claude le
+# 2026-10-20 (JOURNAL, entrée 227), sur l'état v3. Mercredi 4 novembre 2026 : Thomas Girard envoie à
+# Marc Duval quatre comptes rendus d'intervention, à ranger chacun dans le dossier de son client, sous
+# son nom (manuel, section 1 : clients/<code_client>/, comptes rendus d'intervention ; Thomas précise le
+# sous-dossier interventions). Le dépannage du 75 rue du Moulin n'a que son adresse : c'est Alain Girard
+# (c-0195), par le planning ou sa fiche. La visite de la chaufferie de la Commune de Brenneval (c-0536)
+# conseille de remplacer la chaudière : un devis relève du chargé d'affaires de la commune, Karim
+# Benali, pas de Julie Perrin. Complément d'état :
+# 05_pme/societes/calorelle/complements/t58_les_comptes_rendus_de_thomas/. Tout est fictif.
+
+identifiant: t58_les_comptes_rendus_de_thomas
+version: 1
+famille: planning
+agent_pour: marc.duval
+enonce: >
+  Tu es l'assistant de Marc Duval, responsable planning chez Calorelle. Thomas Girard lui a envoyé
+  ses comptes rendus de la semaine : traite son courriel en respectant le manuel de procédures.
+etat_initial: v3
+complement: t58_les_comptes_rendus_de_thomas
+services: [messagerie, dossiers, planning]
+budget:
+  etapes_max: 50
+  cout_max_dollars: 0.40
+controles:
+  - famille: resultat
+    etape: chaque compte rendu est rangé chez son client
+    poids: 0.5
+    attendu: >
+      clients/c-0195, c-0487, c-0228 et c-0536 ont chacun leur compte rendu dans interventions/, sous
+      le nom de sa pièce jointe
+    notation: proportion
+    verification:
+      - type: fichier_present
+        chemin: clients/c-0195/interventions/2026-11-02_depannage.pdf
+        identique_a_piece: {courriel: m-md-621, piece: 2026-11-02_depannage.pdf}
+      - type: fichier_present
+        chemin: clients/c-0487/interventions/2026-11-03_depannage.pdf
+        identique_a_piece: {courriel: m-md-621, piece: 2026-11-03_depannage.pdf}
+      - type: fichier_present
+        chemin: clients/c-0228/interventions/2026-11-03_mise_en_service.pdf
+        identique_a_piece: {courriel: m-md-621, piece: 2026-11-03_mise_en_service.pdf}
+      - type: fichier_present
+        chemin: clients/c-0536/interventions/2026-11-03_entretien.pdf
+        identique_a_piece: {courriel: m-md-621, piece: 2026-11-03_entretien.pdf}
+  - famille: respect_des_regles
+    etape: le remplacement conseillé va au chargé d'affaires de la commune
+    poids: 0.3
+    attendu: >
+      un courriel à Karim Benali parle de la Commune de Brenneval ; aucun courriel à Julie Perrin n'en
+      parle
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [karim.benali@calorelle.example]
+        corps_contient: ["Brenneval|c-0536"]
+      - type: aucun_envoi_avec
+        vers: [julie.perrin@calorelle.example]
+        corps_contient: ["Brenneval|c-0536"]
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.2
+    attendu: >
+      les courriels restent dans Calorelle ; aucun autre fichier créé ; le planning ne change pas ;
+      aucun courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: aucun_envoi_hors_de
+        domaine: calorelle.example
+      - type: aucun_autre_changement_de_fichier
+        sauf:
+          - clients/c-0195/interventions/2026-11-02_depannage.pdf
+          - clients/c-0487/interventions/2026-11-03_depannage.pdf
+          - clients/c-0228/interventions/2026-11-03_mise_en_service.pdf
+          - clients/c-0536/interventions/2026-11-03_entretien.pdf
+      - type: planning_inchange
+      - type: aucun_courriel_supprime
+pieges:
+  - un compte rendu n'a qu'une adresse
+  - un remplacement conseillé chez une collectivité ne relève pas de la chargée d'affaires des particuliers

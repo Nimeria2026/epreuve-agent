@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-nale-002",
+  "de": {
+    "nom": "Véronique Tessier",
+    "adresse": "veronique.tessier@domivelle.example"
+  },
+  "a": [
+    "nadege.lebrun@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Contact@ en panne",
+  "date": "2026-06-05T17:35:00+02:00",
+  "corps": "Nadège,\n\nLe prestataire me dit que les courriels de contact@ sont retenus depuis mercredi et seront délivrés lundi matin. Une fois contact@ trié, fais-moi le point de ce qui est arrivé : combien de demandes pour chacun, et ce qui est urgent.\n\nVéronique",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

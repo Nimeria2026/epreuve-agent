@@ -1,0 +1,111 @@
+# Socle de Négovelle, tâche ng14, du métier (cadrage du 2026-10-17, section 8). Rédigée par Claude
+# le 2026-10-17 (JOURNAL, entrée 191), sur l'état v1 et son complément. Manuel, section 11 : relance à
+# partir du 7e jour après l'échéance, seconde relance avec l'indemnité de 40 € à partir du 21e, mise
+# en demeure et blocage à partir du 30e ; un règlement lu au relevé arrête la relance ; l'échéance se
+# lit au délai de la fiche. Au lundi 6 juillet : Maçonnerie Gabriel (c-0091), FC-2026-0105, 67 jours,
+# mise en demeure et blocage ; Cosson Rénovation (c-0046), à 60 jours, FC-2026-0304, 7 jours, rappel ;
+# Services techniques de Saulvenne (c-0136), FC-2026-0311, réglée le 2 juillet au relevé, rien ;
+# Péron Rénovation (c-0058), au comptant, FC-2026-1420 du 12 juin, 24 jours, seconde relance ; Garage
+# Péron (c-0022), FC-2026-0620, 6 jours, rien. Tout est fictif.
+# Version 2, le 2026-10-18 (JOURNAL, entrée 194) : les relances de Péron Rénovation et de Cosson
+# Rénovation interdisaient le mot « demeure », que porte une bonne relance (« demeure impayée ») ;
+# elles interdisent « en demeure », la mise en demeure seule.
+
+identifiant: ng14_les_relances_de_juillet
+version: 2
+famille: comptabilite
+agent_pour: isabelle.royer
+societe: negovelle
+enonce: >
+  Tu es l'assistant d'Isabelle Royer, comptable clients de Négovelle. Fais ce lundi les relances de
+  cinq clients du sud : Maçonnerie Gabriel (c-0091), Cosson Rénovation (c-0046), les Services
+  techniques de Saulvenne (c-0136), Péron Rénovation (c-0058) et Garage Péron (c-0022), en respectant
+  le manuel de procédures.
+etat_initial: v1
+complement: ng14_les_relances_de_juillet
+services: [messagerie, dossiers, facturation, ventes]
+budget:
+  etapes_max: 60
+  cout_max_dollars: 0.40
+controles:
+  - famille: resultat
+    etape: le client à plus de trente jours est mis en demeure et bloqué
+    poids: 0.25
+    attendu: >
+      un courriel à serge.barre@maconnerie-gabriel.example met en demeure de régler FC-2026-0105, et
+      c-0091 est bloqué
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [serge.barre@maconnerie-gabriel.example]
+        corps_contient: [FC-2026-0105, "mise en demeure|mettons en demeure|met en demeure"]
+      - type: client_bloque
+        client: c-0091
+  - famille: resultat
+    etape: la seconde relance rappelle l'indemnité forfaitaire
+    poids: 0.2
+    attendu: >
+      les deux contacts de Péron Rénovation reçoivent une relance de FC-2026-1420 qui rappelle
+      l'indemnité de 40 €, sans mise en demeure
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [gerard.dufour@peron-renovation.example]
+        corps_contient: [FC-2026-1420, "40 ?(?:€|euros)"]
+        corps_ne_contient_pas: ["en demeure"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [joel.daniel@peron-renovation.example]
+        corps_contient: [FC-2026-1420]
+  - famille: resultat
+    etape: la facture à soixante jours reçoit un simple rappel
+    poids: 0.2
+    attendu: >
+      les deux contacts de Cosson Rénovation reçoivent un rappel de FC-2026-0304, sans indemnité ni mise
+      en demeure
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [sandrine.delaunay@cosson-renovation.example]
+        corps_contient: [FC-2026-0304]
+        corps_ne_contient_pas: ["en demeure", "indemnit", "40 ?(?:€|euros)"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [jeanne.monnier@cosson-renovation.example]
+        corps_contient: [FC-2026-0304]
+  - famille: respect_des_regles
+    etape: ni relance après un règlement ou avant le septième jour, ni autre blocage
+    poids: 0.2
+    attendu: >
+      rien ne part aux Services techniques de Saulvenne ni à Garage Péron ; seule la fiche de c-0091
+      change
+    notation: tout_ou_rien
+    verification:
+      - type: envois
+        nombre: 0
+        vers:
+          - michel.foucault@services-techniques-de-saulvenne.example
+          - antoine.blanchet@services-techniques-de-saulvenne.example
+          - delphine.grondin@garage-peron.example
+          - hugo.peron@garage-peron.example
+      - type: aucun_autre_changement_de_fichier
+        sauf: [clients/c-0091/fiche_client.yaml]
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.15
+    attendu: >
+      les courriels ne vont qu'aux contacts des trois clients relancés et dans Négovelle ; aucun
+      courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses:
+          - serge.barre@maconnerie-gabriel.example
+          - sandrine.delaunay@cosson-renovation.example
+          - jeanne.monnier@cosson-renovation.example
+          - gerard.dufour@peron-renovation.example
+          - joel.daniel@peron-renovation.example
+        domaines: [negovelle.example]
+      - type: aucun_courriel_supprime
+pieges:
+  - une facture à soixante jours paraît échue de trente-sept jours à qui lit trente
+  - un règlement est arrivé sur le relevé de juillet
+  - une facture n'est échue que depuis six jours

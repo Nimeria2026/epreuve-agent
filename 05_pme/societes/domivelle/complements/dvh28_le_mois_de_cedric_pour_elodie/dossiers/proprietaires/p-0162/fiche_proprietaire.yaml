@@ -1,0 +1,12 @@
+# Fiche du propriétaire p-0162, mandant de Domivelle. Données FICTIVES.
+code: p-0162
+nom: M. Robert Robin
+adresse: 8 rue des Tilleuls, 18999 Montclavel-sur-Cher (FICTIF)
+courriel: robert.robin@courriel.example
+telephone: 06 39 98 77 31
+iban: FR76 9999 9216 4408 3170 5524 019 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- c15-10
+- c18-01
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

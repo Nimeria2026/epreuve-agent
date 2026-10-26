@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-aubo-017",
+  "de": {
+    "nom": "Électroportatif des Brandes",
+    "adresse": "commandes@electroportatif-des-brandes.example"
+  },
+  "a": [
+    "aurelie.bonnefoy@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Notre offre de rentrée",
+  "date": "2026-08-21T11:00:00+02:00",
+  "corps": "Madame,\n\nPour la rentrée, nous proposons à nos revendeurs 8 % de remise sur toute la gamme des perforateurs, pour une commande passée avant le 30 septembre. Pouvons-nous vous rencontrer ?\n\nÉlectroportatif des Brandes",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

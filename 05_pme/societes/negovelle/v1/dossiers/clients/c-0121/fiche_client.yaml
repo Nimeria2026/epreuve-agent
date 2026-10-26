@@ -1,0 +1,28 @@
+# Fiche du client c-0121 de Négovelle. Données FICTIVES.
+code: c-0121
+nom: Électricité Bouchard
+type: artisan
+adresse: 135 place du Marché, 36999 Vaumoreau-sur-Indre (FICTIF)
+telephone: 02 61 91 75 56
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Isabelle Jolivet
+  fonction: gérante
+  courriel: isabelle.jolivet@electricite-bouchard.example
+- nom: Antoine Bruneau
+  fonction: conjoint collaborateur
+  courriel: antoine.bruneau@electricite-bouchard.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 135 place du Marché, 36999 Vaumoreau-sur-Indre (FICTIF)
+categorie_remise: C
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2022-11-01'
+limite_encours_euros: 1000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

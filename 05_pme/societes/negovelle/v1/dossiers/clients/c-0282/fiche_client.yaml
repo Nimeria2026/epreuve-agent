@@ -1,0 +1,31 @@
+# Fiche du client c-0282 de Négovelle. Données FICTIVES.
+code: c-0282
+nom: Bunel et Fils
+type: entreprise
+adresse: 36 parc d'activités de la Gare, 36999 Laubrissac (FICTIF)
+telephone: 02 61 91 66 29
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Caroline Pasquet
+  fonction: conductrice de travaux
+  courriel: caroline.pasquet@bunel-et-fils.example
+- nom: Arnaud Fleurot
+  fonction: responsable des achats
+  courriel: arnaud.fleurot@bunel-et-fils.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 36 parc d'activités de la Gare, 36999 Laubrissac (FICTIF)
+- code: L2
+  libelle: dépôt
+  adresse: 33 zone industrielle des Brandes, 36999 Fontclavier (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2010-09-01'
+limite_encours_euros: 12500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

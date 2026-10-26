@@ -1,0 +1,14 @@
+{
+  "numero": "INT-2026-0018",
+  "client": "c-0573",
+  "techniciens": [
+    "romain.guerin",
+    "david.roussel"
+  ],
+  "debut": "2026-11-04T13:30:00+01:00",
+  "fin": "2026-11-04T17:30:00+01:00",
+  "nature": "installation",
+  "objet": "Remplacement d'une chaudière gaz, seconde demi-journée",
+  "statut": "planifiee",
+  "cree_par": "donnees_initiales"
+}

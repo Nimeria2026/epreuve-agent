@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-maca-606",
+  "de": {
+    "nom": "Julien Michaud",
+    "adresse": "julien.michaud@messagerie.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Infiltration dans mon salon",
+  "date": "2026-09-06T20:10:00+02:00",
+  "corps": "Bonjour,\n\nL'eau coule du plafond de mon salon depuis cet après-midi, au lot s36-07. Mme Audoin est absente, son message renvoie vers M. Maillard ; je vous écris aussi, puisque vous vous occupez des sinistres.\n\nJulien Michaud",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

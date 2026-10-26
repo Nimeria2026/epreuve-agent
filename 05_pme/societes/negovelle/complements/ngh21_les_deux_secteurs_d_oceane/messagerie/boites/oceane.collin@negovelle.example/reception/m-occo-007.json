@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-occo-007",
+  "de": {
+    "nom": "Manon Delaunay",
+    "adresse": "manon.delaunay@platrerie-boisson.example"
+  },
+  "a": [
+    "oceane.collin@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture FC-2026-1120",
+  "date": "2026-07-06T07:50:00+02:00",
+  "corps": "Bonjour,\n\nNotre facture de juin, FC-2026-1120, compte 2 483,80 € : nous avons un doute sur deux lignes. Pouvez-vous nous en envoyer le détail ?\n\nManon Delaunay\nPlâtrerie Boisson",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

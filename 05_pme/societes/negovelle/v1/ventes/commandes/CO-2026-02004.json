@@ -1,0 +1,139 @@
+{
+  "numero": "CO-2026-02004",
+  "client": "c-0223",
+  "reference_client": "BC-121",
+  "cree_le": "2026-07-02T09:10:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "26 zone d'activités des Grands Prés, 36999 Mérolles-en-Brenne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-10449",
+      "libelle": "Boîte d'encastrement pour cloison sèche 40 mm",
+      "quantite": 40,
+      "prix_tarif_ht_euros": 0.9,
+      "remise_pourcent": 8.8,
+      "prix_net_ht_euros": 0.82,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 32.8
+    },
+    {
+      "reference": "ELE-13258",
+      "libelle": "Réglette LED 600 mm, 18 W",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 11.4,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 10.94,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 21.88
+    },
+    {
+      "reference": "ELP-10571",
+      "libelle": "Foret béton SDS-plus 10x450 mm",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 24.7,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 23.71,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 47.42
+    },
+    {
+      "reference": "ELP-11551",
+      "libelle": "Perceuse-visseuse 18 V, 1 batterie(s) 2 Ah, coffret",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 243.3,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 233.57,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 1167.85
+    },
+    {
+      "reference": "FIX-11396",
+      "libelle": "Crochet en S à visser 30 mm, sachet de 10",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 6.75,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 6.48,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 6.48
+    },
+    {
+      "reference": "PLB-11175",
+      "libelle": "Flexible inox femelle-femelle 15x21 100 cm",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 13.9,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 13.34,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 26.68
+    },
+    {
+      "reference": "QUI-10833",
+      "libelle": "Charnière invisible 60 mm, laiton",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 11.25,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 10.8,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 108.0
+    },
+    {
+      "reference": "QUI-11527",
+      "libelle": "Cylindre européen 35x45 mm, 3 clés",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 37.8,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 37.8,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 75.6
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 1486.71,
+  "total_tva_euros": 297.34,
+  "total_ttc_euros": 1784.05,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01853"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-02T09:10:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-02T09:12:00+02:00",
+      "par": "oceane.collin",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01853"
+    },
+    {
+      "date": "2026-07-03T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01853"
+    }
+  ]
+}

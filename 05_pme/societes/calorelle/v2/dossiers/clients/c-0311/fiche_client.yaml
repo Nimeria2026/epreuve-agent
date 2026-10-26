@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0311"
+nom: "Claire Favre"
+type: "particulier"
+adresse: "45 rue de la Loire, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "claire.favre@courriel.example"
+telephone: "06 39 98 43 11"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2023-09-01"
+  mois_anniversaire: "septembre"
+  derniere_visite: "2026-09-16"

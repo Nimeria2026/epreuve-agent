@@ -1,0 +1,112 @@
+{
+  "numero": "CO-2026-01871",
+  "client": "c-0179",
+  "reference_client": "BC-2049",
+  "cree_le": "2026-06-25T09:10:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "23 zone industrielle des Brandes, 36999 Vendrigny (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ENT-10481",
+      "libelle": "Lavette microfibre bleue, paquet de 5",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 20.8,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 19.97,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 99.85
+    },
+    {
+      "reference": "FIX-12400",
+      "libelle": "Équerre de fixation 80x40x40 mm, zinguée",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 1.8,
+      "remise_pourcent": 5.92,
+      "prix_net_ht_euros": 1.69,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 16.9
+    },
+    {
+      "reference": "OUT-10440",
+      "libelle": "Clé mixte 26 mm",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 10.4,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 9.98,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 119.76
+    },
+    {
+      "reference": "OUT-13021",
+      "libelle": "Équerre de charpentier 500 mm",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 31.45,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 30.19,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 60.38
+    },
+    {
+      "reference": "VIS-13511",
+      "libelle": "Vis à bois tête fraisée 6x60, bichromatée, boîte de 500",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 14.75,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 14.16,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 70.8
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 367.69,
+  "total_tva_euros": 73.54,
+  "total_ttc_euros": 441.23,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01720"
+  ],
+  "facture": "FC-2026-1163",
+  "historique": [
+    {
+      "date": "2026-06-25T09:10:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-25T09:12:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-26T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01720"
+    },
+    {
+      "date": "2026-06-26T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01720"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1163"
+    }
+  ]
+}

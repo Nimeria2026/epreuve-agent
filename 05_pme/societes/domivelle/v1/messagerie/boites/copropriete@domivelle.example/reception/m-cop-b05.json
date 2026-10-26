@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cop-b05",
+  "de": {
+    "nom": "M. Daniel Berthier",
+    "adresse": "daniel.berthier@boite-postale.example"
+  },
+  "a": [
+    "copropriete@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Date de la prochaine assemblée",
+  "date": "2026-05-28T13:48:00+02:00",
+  "corps": "Bonjour,\n\nPouvez-vous me dire quand se tiendra notre prochaine assemblée ?\n\nM. Daniel Berthier",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

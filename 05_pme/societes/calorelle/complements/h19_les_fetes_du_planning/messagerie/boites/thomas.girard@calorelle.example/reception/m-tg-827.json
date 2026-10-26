@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-tg-827",
+  "de": {
+    "nom": "Yanis Haddad",
+    "adresse": "yanis.haddad@calorelle.example"
+  },
+  "a": [
+    "thomas.girard@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Le 24 et le 31",
+  "date": "2026-12-21T08:20:00+01:00",
+  "corps": "Thomas,\n\nOn finit à midi le 24 et le 31, comme l'an dernier ? Je voudrais le savoir pour ma journée du 24.\n\nYanis (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

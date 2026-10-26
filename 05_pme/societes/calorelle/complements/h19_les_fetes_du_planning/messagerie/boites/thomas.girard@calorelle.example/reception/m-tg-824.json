@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-tg-824",
+  "de": {
+    "nom": "Hélène Marchal",
+    "adresse": "helene.marchal@calorelle.example"
+  },
+  "a": [
+    "thomas.girard@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Les dépannages Sérénité Plus de la semaine",
+  "date": "2026-12-21T08:15:00+01:00",
+  "corps": "Thomas,\n\nChaque lundi, Marc m'envoie la liste des dépannages Sérénité Plus en cours : pour chacun, le client, l'heure de sa demande, l'échéance de ses 48 heures ouvrées et l'heure où le technicien passe. Fais-la ce lundi à sa place, s'il te plaît.\n\nHélène (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

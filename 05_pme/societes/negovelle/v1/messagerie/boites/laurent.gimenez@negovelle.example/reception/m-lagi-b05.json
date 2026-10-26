@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-lagi-b05",
+  "de": {
+    "nom": "Camille Pelletier",
+    "adresse": "camille.pelletier@menuiserie-bonneau.example"
+  },
+  "a": [
+    "laurent.gimenez@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande reçue, merci",
+  "date": "2026-06-17T10:16:00+02:00",
+  "corps": "Bonjour,\n\nLa livraison de ce matin est complète. Merci.\n\nCamille Pelletier",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

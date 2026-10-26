@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-tg-802",
+  "de": {
+    "nom": "Syndic de la Résidence du Clos-Fargeau",
+    "adresse": "contact@syndic-de-la-residence-du-clos-fargeau-76.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Chaudière collective en panne",
+  "date": "2026-12-18T11:00:00+01:00",
+  "corps": "Bonjour,\n\nLa chaudière collective de la résidence est en panne depuis ce matin : plus de chauffage dans les logements.\n\nLe syndic de la Résidence du Clos-Fargeau, 41 chemin des Vignes (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

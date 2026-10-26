@@ -1,0 +1,112 @@
+{
+  "numero": "CO-2026-01900",
+  "client": "c-0049",
+  "reference_client": null,
+  "cree_le": "2026-06-26T09:10:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "express",
+  "livraison": {
+    "code": "L1",
+    "adresse": "51 rue du Lavoir, 36999 Vendrigny (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-10146",
+      "libelle": "Ampoule LED E27 6 W, 2700 K",
+      "quantite": 40,
+      "prix_tarif_ht_euros": 2.7,
+      "remise_pourcent": 7.84,
+      "prix_net_ht_euros": 2.49,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 99.6
+    },
+    {
+      "reference": "ELE-10947",
+      "libelle": "Câble H07V-K 6 mm², couronne de 100 m",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 59.5,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 59.5,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 59.5
+    },
+    {
+      "reference": "ELP-10024",
+      "libelle": "Batterie 12 V 8 Ah",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 128.3,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 123.17,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 492.68
+    },
+    {
+      "reference": "OUT-12972",
+      "libelle": "Truelle à joint 140 mm",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 11.55,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 11.09,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 11.09
+    },
+    {
+      "reference": "VIS-11959",
+      "libelle": "Vis à bois tête fraisée 4,5x45, zinguée, boîte de 200",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 19.9,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 19.1,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 229.2
+    }
+  ],
+  "port_ht_euros": 25.0,
+  "total_ht_euros": 917.07,
+  "total_tva_euros": 183.41,
+  "total_ttc_euros": 1100.48,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01749"
+  ],
+  "facture": "FC-2026-1043",
+  "historique": [
+    {
+      "date": "2026-06-26T09:10:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-26T09:12:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-26T16:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01749"
+    },
+    {
+      "date": "2026-06-29T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01749"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1043"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "numero": "CO-2026-01959",
+  "client": "c-0335",
+  "reference_client": null,
+  "cree_le": "2026-06-30T09:10:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "16 zone artisanale du Moulin, 36999 Ardillac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "OUT-12343",
+      "libelle": "Serre-joint à une main 500 mm",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 28.95,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 28.95,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 57.9
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 72.9,
+  "total_tva_euros": 14.58,
+  "total_ttc_euros": 87.48,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01808"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-06-30T09:10:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-30T09:12:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-01T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01808"
+    },
+    {
+      "date": "2026-07-01T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01808"
+    }
+  ]
+}

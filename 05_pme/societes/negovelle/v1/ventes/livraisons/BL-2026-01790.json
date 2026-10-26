@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01790",
+  "commande": "CO-2026-01941",
+  "client": "c-0206",
+  "date_expedition": "2026-06-30",
+  "date_livraison": "2026-06-30",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "22 rue des Forges, 36999 Vendrigny (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ELP-10734",
+      "libelle": "Foret béton SDS-plus 20x260 mm",
+      "quantite": 2
+    },
+    {
+      "reference": "OUT-11012",
+      "libelle": "Lime triangulaire 150 mm, taille bâtarde",
+      "quantite": 3
+    }
+  ],
+  "reserves": null,
+  "signataire": "Guy Vaillant",
+  "statut": "livre"
+}

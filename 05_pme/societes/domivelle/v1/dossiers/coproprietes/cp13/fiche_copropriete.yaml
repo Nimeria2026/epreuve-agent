@@ -1,0 +1,20 @@
+# Fiche de la copropriété cp13. Données FICTIVES.
+copropriete: cp13
+nom: Résidence Le Clos des Vignes
+adresse: 122 avenue de la Gare, 18999 Montclavel-sur-Cher (FICTIF)
+lots_principaux: 30
+annee_construction: 1965
+ascenseur: true
+exercice: du lendemain du 31 décembre au 31 décembre
+gestionnaire: Yohan Delmas
+conseil_syndical:
+  president: Mme Josiane Roy
+  membres:
+  - SCI Le Parc des Ormes
+  - Mme Amandine Ferrand
+seuil_mise_en_concurrence: 8 000,00 €
+seuil_consultation_du_conseil_syndical: 1 000,00 €
+assureur_de_l_immeuble: Mutuelle des Deux-Rives (FICTIF)
+declaration_des_sinistres: sinistres@mutuelle-des-deux-rives.example
+immeuble_en_gestion_locative: c16
+fonds_de_travaux: 5 % du budget prévisionnel, aux tantièmes généraux, appelé avec chaque provision

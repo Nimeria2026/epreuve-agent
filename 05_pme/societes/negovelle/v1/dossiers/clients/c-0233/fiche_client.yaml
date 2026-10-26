@@ -1,0 +1,28 @@
+# Fiche du client c-0233 de Négovelle. Données FICTIVES.
+code: c-0233
+nom: Maçonnerie Achard
+type: artisan
+adresse: 79 rue des Chênes, 36999 Mérolles-en-Brenne (FICTIF)
+telephone: 02 61 91 99 31
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Fabienne Boisson
+  fonction: gérante
+  courriel: fabienne.boisson@maconnerie-achard.example
+- nom: Chantal Combes
+  fonction: conjointe collaboratrice
+  courriel: chantal.combes@maconnerie-achard.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 79 rue des Chênes, 36999 Mérolles-en-Brenne (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2011-12-01'
+limite_encours_euros: 1500.0
+livraisons_partielles: true
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

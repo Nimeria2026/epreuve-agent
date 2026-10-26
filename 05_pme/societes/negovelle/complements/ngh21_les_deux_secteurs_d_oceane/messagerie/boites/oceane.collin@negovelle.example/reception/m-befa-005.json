@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-befa-005",
+  "de": {
+    "nom": "Pierre Simonet",
+    "adresse": "pierre.simonet@chauffage-grondin.example"
+  },
+  "a": [
+    "benoit.faure@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-06T07:35:00+02:00",
+  "corps": "Bonjour Benoît,\n\nOcéane ne répond pas au téléphone, je vous l'adresse.\n\nVoici notre commande, à livrer au siège :\n- 2 x ELE-10293, Appareil modulaire contacteur jour-nuit 25 A\n- 3 x CON-11028, Disque abrasif à lamelles 115 mm, grain 80, boîte de 25\n\nMerci,\nPierre Simonet\nChauffage Grondin",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

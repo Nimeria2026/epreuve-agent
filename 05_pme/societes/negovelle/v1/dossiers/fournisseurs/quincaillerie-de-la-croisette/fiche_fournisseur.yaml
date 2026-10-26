@@ -1,0 +1,10 @@
+# Fiche d'un fournisseur de Négovelle. Données FICTIVES.
+nom: Quincaillerie de la Croisette
+activite: fabricant de quincaillerie de bâtiment
+adresse: 29 zone industrielle des Brandes, 36999 Saulvenne (FICTIF)
+telephone: 02 61 91 74 74
+courriel_commandes: commandes@quincaillerie-de-la-croisette.example
+courriel_facturation: facturation@quincaillerie-de-la-croisette.example
+iban: FR76 9999 9141 0252 9329 0515 914 (FICTIF)
+conditions: paiement à 45 jours fin de mois
+minimum_de_commande: 500,00 € HT

@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0479"
+nom: "Denis Legrand"
+type: "particulier"
+adresse: "93 impasse des Saules, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "denis.legrand@courriel.example"
+telephone: "06 39 98 51 13"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2023-10-15"
+  mois_anniversaire: "octobre"
+  derniere_visite: "2026-10-22"

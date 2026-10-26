@@ -1,0 +1,123 @@
+{
+  "numero": "CO-2026-01818",
+  "client": "c-0174",
+  "reference_client": "BC-2827",
+  "cree_le": "2026-06-22T09:10:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "9 zone artisanale du Moulin, 36999 Brissonne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-12245",
+      "libelle": "Ruban adhésif double face 25 mm, rouleau de 25 m",
+      "quantite": 60,
+      "prix_tarif_ht_euros": 5.9,
+      "remise_pourcent": 10.72,
+      "prix_net_ht_euros": 5.27,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 316.2
+    },
+    {
+      "reference": "ENT-10147",
+      "libelle": "Balai d'atelier 40 cm",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 6.4,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 6.14,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 36.84
+    },
+    {
+      "reference": "PLB-12695",
+      "libelle": "Siphon de douche 32 mm",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 7.35,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 7.06,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 70.6
+    },
+    {
+      "reference": "QUI-11559",
+      "libelle": "Cylindre européen 40x30 mm, 3 clés",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 64.0,
+      "remise_pourcent": 5.92,
+      "prix_net_ht_euros": 60.21,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 602.1
+    },
+    {
+      "reference": "QUI-12850",
+      "libelle": "Serrure à larder à cylindre, axe 40 mm",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 32.5,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 31.2,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 31.2
+    },
+    {
+      "reference": "VIS-11184",
+      "libelle": "Vis à bois tête fraisée 3x16, inox A2, boîte de 500",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 23.95,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 22.99,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 114.95
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 1171.89,
+  "total_tva_euros": 234.38,
+  "total_ttc_euros": 1406.27,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01667"
+  ],
+  "facture": "FC-2026-1158",
+  "historique": [
+    {
+      "date": "2026-06-22T09:10:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-22T09:12:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-23T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01667"
+    },
+    {
+      "date": "2026-06-23T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01667"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1158"
+    }
+  ]
+}

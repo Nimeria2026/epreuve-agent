@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-028",
+  "de": {
+    "nom": "Gilles Poirier",
+    "adresse": "gilles.poirier@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Steven et Jordan",
+  "date": "2026-08-24T08:30:00+02:00",
+  "corps": "Bruno,\n\nDe retour ce matin, je ne vois ni Steven à l'entrepôt ni Jordan au départ des tournées. Ils ont quoi, et ils reviennent quand ? J'ai les préparations et les tournées de la rentrée à organiser.\n\nGilles",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

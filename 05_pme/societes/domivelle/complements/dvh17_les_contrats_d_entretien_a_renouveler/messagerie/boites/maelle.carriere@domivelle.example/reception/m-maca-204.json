@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-maca-204",
+  "de": {
+    "nom": "Nettoyage des Quatre-Vents",
+    "adresse": "facturation@nettoyage-des-quatre-vents.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Résidence Les Roseraies : nouveau tarif",
+  "date": "2026-06-05T16:50:00+02:00",
+  "corps": "Bonjour,\n\nLe contrat de nettoyage de la Résidence Les Roseraies passera de 610,00 € à 640,00 € TTC par an à son échéance du 1er octobre 2026. Merci de nous dire si cela vous convient.\n\nNettoyage des Quatre-Vents",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

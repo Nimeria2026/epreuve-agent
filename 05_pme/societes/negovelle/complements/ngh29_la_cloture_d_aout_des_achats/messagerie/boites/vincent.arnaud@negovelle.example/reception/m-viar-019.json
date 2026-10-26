@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-viar-019",
+  "de": {
+    "nom": "Service facturation",
+    "adresse": "facturation@fixations-des-brandes.example"
+  },
+  "a": [
+    "vincent.arnaud@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture F-2026-08817",
+  "date": "2026-08-28T09:30:00+02:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-jointe notre facture F-2026-08817 du 28 août, pour votre commande CA-2026-0382 : 320 équerres FIX-12360 et 60 boîtes de chevilles FIX-10065, 1 243,20 € TTC, payable à 45 jours fin de mois.\n\nLe service facturation\nFixations des Brandes",
+  "pieces_jointes": [
+    {
+      "nom": "F-2026-08817.pdf",
+      "fichier": "pieces/m-viar-019/F-2026-08817.pdf",
+      "taille_octets": 751
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-401",
+  "de": {
+    "nom": "Karim Benali",
+    "adresse": "karim.benali@calorelle.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Urgence Résidence des Saulaies",
+  "date": "2026-11-02T08:52:00+01:00",
+  "corps": "Marc,\n\nLe syndic de la Résidence des Saulaies (c-0106) vient d'appeler, à 8 h 30 : la chaudière collective gaz est en panne, plus de chauffage dans l'immeuble. Ils ont le contrat Sérénité Plus.\n\nJ'ai regardé le planning : demain matin, seul Enzo est libre, à 10 h. Mets-le, il connaît bien les chaudières gaz et ça nous évite de dépasser le délai. Dis-moi quand c'est calé, je préviens le syndic.\n\nKarim (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

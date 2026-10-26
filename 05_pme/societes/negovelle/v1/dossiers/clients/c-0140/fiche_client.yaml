@@ -1,0 +1,28 @@
+# Fiche du client c-0140 de Négovelle. Données FICTIVES.
+code: c-0140
+nom: Serrurerie Rouxel
+type: artisan
+adresse: 133 rue des Chênes, 36999 Ardillac (FICTIF)
+telephone: 02 61 91 62 94
+secteur: est
+commercial: fabrice.mercier
+administration_des_ventes: benoit.faure
+contacts:
+- nom: Isabelle Legendre
+  fonction: gérante
+  courriel: isabelle.legendre@serrurerie-rouxel.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 133 rue des Chênes, 36999 Ardillac (FICTIF)
+- code: L2
+  libelle: chantier déclaré
+  adresse: 32 boulevard de l'Indre, 36999 Brissonne (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2015-02-01'
+limite_encours_euros: 2500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

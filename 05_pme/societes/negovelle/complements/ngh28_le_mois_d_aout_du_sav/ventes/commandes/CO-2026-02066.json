@@ -1,0 +1,79 @@
+{
+  "numero": "CO-2026-02066",
+  "client": "c-0339",
+  "reference_client": null,
+  "cree_le": "2026-07-23T10:00:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "20 zone artisanale du Moulin, 36999 Vaumoreau-sur-Indre (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELP-10710",
+      "libelle": "Foret béton SDS-plus 18x260 mm",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 17.1,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 16.42,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 164.2
+    },
+    {
+      "reference": "VIS-11494",
+      "libelle": "Vis à bois tête fraisée 3x50, zinguée, boîte de 500",
+      "quantite": 20,
+      "prix_tarif_ht_euros": 16.35,
+      "remise_pourcent": 6.88,
+      "prix_net_ht_euros": 15.23,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 304.6
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 468.8,
+  "total_tva_euros": 93.76,
+  "total_ttc_euros": 562.56,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01886"
+  ],
+  "facture": "FC-2026-1457",
+  "historique": [
+    {
+      "date": "2026-07-23T10:00:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": "commande du client"
+    },
+    {
+      "date": "2026-07-23T10:05:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": "stock réservé"
+    },
+    {
+      "date": "2026-07-24T16:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01886"
+    },
+    {
+      "date": "2026-07-24T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01886"
+    },
+    {
+      "date": "2026-07-31T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1457"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+# Fiche fournisseur Calorelle. Données FICTIVES.
+nom: "Fumisterie des Hautes-Fresnes"
+activite: "fumisterie"
+adresse: "69 zone d'activité de Brenneval, 45999 Valmont-sur-Loire (FICTIF)"
+telephone: "02 61 91 20 23"
+courriel_facturation: "compta@fumisterie-des-hautes-fresnes.example"
+iban: "FR76 9999 9513 0737 9519 2076 602 (FICTIF)"
+conditions: "paiement à 30 jours"

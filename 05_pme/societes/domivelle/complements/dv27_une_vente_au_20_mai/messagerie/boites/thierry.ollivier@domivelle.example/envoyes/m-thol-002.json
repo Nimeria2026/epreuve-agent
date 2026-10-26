@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-thol-002",
+  "de": {
+    "nom": "Thierry Ollivier",
+    "adresse": "thierry.ollivier@domivelle.example"
+  },
+  "a": [
+    "claude.laporte@boite-postale.example"
+  ],
+  "cc": [],
+  "objet": "Relance : provision du deuxième trimestre, lot 5",
+  "date": "2026-06-02T09:40:00+02:00",
+  "corps": "Monsieur Laporte,\n\nSauf erreur, la provision du deuxième trimestre 2026 de votre lot 5 à la Résidence Les Mimosas, 637,73 €, exigible le 1er avril, reste impayée. Merci d'en faire le règlement.\n\nBien cordialement,\nThierry Ollivier, comptable des copropriétés, Domivelle",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

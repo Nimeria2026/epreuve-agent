@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-rejo-b03",
+  "de": {
+    "nom": "Robert Durieux",
+    "adresse": "robert.durieux@platrerie-chatelain.example"
+  },
+  "a": [
+    "remi.joly@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Horaires du comptoir cet été",
+  "date": "2026-06-26T08:55:00+02:00",
+  "corps": "Bonjour,\n\nLe comptoir reste-t-il ouvert en août ?\n\nRobert Durieux",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-mare-b01",
+  "de": {
+    "nom": "Caroline Feuillet",
+    "adresse": "caroline.feuillet@office-de-tourisme-du-val-de-vaumoreau.example"
+  },
+  "a": [
+    "manon.rey@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Horaires du comptoir cet été",
+  "date": "2026-07-03T11:26:00+02:00",
+  "corps": "Bonjour,\n\nLe comptoir reste-t-il ouvert en août ?\n\nCaroline Feuillet",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

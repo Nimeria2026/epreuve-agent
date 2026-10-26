@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0142"
+nom: "Bernard Lemoine"
+type: "particulier"
+adresse: "8 allée des Peupliers, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "b.lemoine@courriel.example"
+telephone: "06 39 98 41 42"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2021-10-15"
+  mois_anniversaire: "octobre"
+  derniere_visite: "2026-10-08"

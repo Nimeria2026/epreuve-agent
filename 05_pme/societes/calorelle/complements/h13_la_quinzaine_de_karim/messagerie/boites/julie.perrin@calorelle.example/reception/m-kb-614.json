@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-614",
+  "de": {
+    "nom": "Commune de Brenneval",
+    "adresse": "contact@commune-de-brenneval-536.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Fin du contrat d'entretien de l'école",
+  "date": "2026-11-23T08:45:00+01:00",
+  "corps": "Bonjour Monsieur Benali,\n\nLe conseil municipal a décidé de confier l'entretien de la chaufferie de l'école à la régie technique de la commune. Nous mettons donc fin au contrat d'entretien à compter de ce jour.\n\nCordialement,\nLe secrétariat de la mairie de Brenneval (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

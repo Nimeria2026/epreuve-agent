@@ -1,0 +1,42 @@
+{
+  "numero": "CO-2026-02038",
+  "client": "c-0246",
+  "reference_client": null,
+  "cree_le": "2026-07-03T09:10:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "137 rue du Château, 36999 Vaumoreau-sur-Indre (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "PRO-10587",
+      "libelle": "Chaussures de sécurité basses S3, pointure 38",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 56.25,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 56.25,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 562.5
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 562.5,
+  "total_tva_euros": 112.5,
+  "total_ttc_euros": 675.0,
+  "statut": "en_attente_reassort",
+  "motif_attente": null,
+  "reliquat_de": "CO-2026-02013",
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T09:10:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": "reliquat de CO-2026-02013"
+    }
+  ]
+}

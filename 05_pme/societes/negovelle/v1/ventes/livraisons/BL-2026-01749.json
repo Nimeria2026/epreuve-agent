@@ -1,0 +1,44 @@
+{
+  "numero": "BL-2026-01749",
+  "commande": "CO-2026-01900",
+  "client": "c-0049",
+  "date_expedition": "2026-06-26",
+  "date_livraison": "2026-06-29",
+  "transport": {
+    "mode": "transporteur",
+    "transporteur": "transports-delorme",
+    "recepisse": "TD-239359"
+  },
+  "adresse": "51 rue du Lavoir, 36999 Vendrigny (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ELE-10146",
+      "libelle": "Ampoule LED E27 6 W, 2700 K",
+      "quantite": 40
+    },
+    {
+      "reference": "ELE-10947",
+      "libelle": "Câble H07V-K 6 mm², couronne de 100 m",
+      "quantite": 1
+    },
+    {
+      "reference": "ELP-10024",
+      "libelle": "Batterie 12 V 8 Ah",
+      "quantite": 4
+    },
+    {
+      "reference": "OUT-12972",
+      "libelle": "Truelle à joint 140 mm",
+      "quantite": 1
+    },
+    {
+      "reference": "VIS-11959",
+      "libelle": "Vis à bois tête fraisée 4,5x45, zinguée, boîte de 200",
+      "quantite": 12
+    }
+  ],
+  "reserves": null,
+  "signataire": "Denis Rouxel",
+  "statut": "livre"
+}

@@ -1,0 +1,8 @@
+# Fiche fournisseur Calorelle. Données FICTIVES.
+nom: "Électricité du Clos-Fargeau"
+activite: "électricité"
+adresse: "74 zone d'activité de Sablonnet, 45999 Valmont-sur-Loire (FICTIF)"
+telephone: "02 61 91 20 25"
+courriel_facturation: "compta@electricite-du-clos-fargeau.example"
+iban: "FR76 9999 9623 7013 7927 2931 439 (FICTIF)"
+conditions: "paiement à 30 jours fin de mois"

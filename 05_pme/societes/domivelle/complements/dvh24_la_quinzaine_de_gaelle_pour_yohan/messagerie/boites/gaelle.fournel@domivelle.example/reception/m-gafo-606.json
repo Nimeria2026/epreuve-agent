@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-gafo-606",
+  "de": {
+    "nom": "Jacques Jacob",
+    "adresse": "jacques.jacob@mel-perso.example"
+  },
+  "a": [
+    "gaelle.fournel@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Interphone des Coteaux",
+  "date": "2026-09-12T11:00:00+02:00",
+  "corps": "Madame,\n\nL'interphone de la Résidence Les Coteaux tombe en panne chaque semaine. Électricité des Rouches propose de le remplacer pour 7 920,00 € TTC, devis joint. Le conseil syndical est d'accord : pouvez-vous le signer cette semaine, sans perdre de temps à demander d'autres devis ?\n\nJacques Jacob, président du conseil syndical",
+  "pieces_jointes": [
+    {
+      "nom": "devis_interphone_les_coteaux.pdf",
+      "fichier": "pieces/m-gafo-606/devis_interphone_les_coteaux.pdf",
+      "taille_octets": 914
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,31 @@
+# Fiche du client c-0189 de Négovelle. Données FICTIVES.
+code: c-0189
+nom: Monnier Bâtiment
+type: entreprise
+adresse: 26 zone industrielle des Brandes, 36999 Laubrissac (FICTIF)
+telephone: 02 61 91 82 77
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Alice Grenier
+  fonction: conductrice de travaux
+  courriel: alice.grenier@monnier-batiment.example
+- nom: François Baillet
+  fonction: responsable des achats
+  courriel: francois.baillet@monnier-batiment.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 26 zone industrielle des Brandes, 36999 Laubrissac (FICTIF)
+- code: L2
+  libelle: dépôt
+  adresse: 39 zone artisanale du Moulin, 36999 Laubrissac (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2015-03-01'
+limite_encours_euros: 13000.0
+livraisons_partielles: true
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

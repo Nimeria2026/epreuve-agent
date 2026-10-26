@@ -1,0 +1,28 @@
+# Fiche du client c-0234 de Négovelle. Données FICTIVES.
+code: c-0234
+nom: Rouxel Rénovation
+type: entreprise
+adresse: 26 zone d'activités des Grands Prés, 36999 Corvalet (FICTIF)
+telephone: 02 61 91 87 88
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Luc Ducros
+  fonction: conducteur de travaux
+  courriel: luc.ducros@rouxel-renovation.example
+- nom: Suzanne Lemarchand
+  fonction: responsable des achats
+  courriel: suzanne.lemarchand@rouxel-renovation.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 26 zone d'activités des Grands Prés, 36999 Corvalet (FICTIF)
+categorie_remise: B
+delai_paiement: 60_jours_date_de_facture
+client_depuis: '2023-05-01'
+limite_encours_euros: 5500.0
+livraisons_partielles: false
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

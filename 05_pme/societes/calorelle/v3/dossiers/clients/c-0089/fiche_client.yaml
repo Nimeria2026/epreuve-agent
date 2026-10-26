@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0089"
+nom: "Patrick Boyer"
+type: "particulier"
+adresse: "66 rue de la Loire, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "patrick.boyer@courriel.example"
+telephone: "06 39 98 50 22"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité Plus"
+  depuis: "2022-04-06"
+  mois_anniversaire: "avril"
+  derniere_visite: "2026-04-17"

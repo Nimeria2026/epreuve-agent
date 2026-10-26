@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-covi-001",
+  "de": {
+    "nom": "Bruno Castaing",
+    "adresse": "bruno.castaing@negovelle.example"
+  },
+  "a": [
+    "corinne.vidal@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "commandes@ après la panne",
+  "date": "2026-07-06T07:40:00+02:00",
+  "corps": "Corinne,\n\nLa messagerie est revenue. Manon, Lætitia, Benoît et Océane rattrapent ce matin le téléphone de jeudi et vendredi : saisis toi-même aujourd'hui les commandes arrivées dans commandes@ pendant la panne, en suivant le manuel, et transfère le reste à qui de droit.\n\nBruno",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

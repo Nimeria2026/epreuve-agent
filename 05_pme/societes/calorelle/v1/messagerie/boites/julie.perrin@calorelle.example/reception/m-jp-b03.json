@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-b03",
+  "de": {
+    "nom": "Olivier Faure",
+    "adresse": "olivier.faure@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "RE: Devis DV-2026-011",
+  "date": "2026-10-26T11:25:00+01:00",
+  "corps": "Bonjour,\n\nD'accord pour le devis, quand pouvez-vous intervenir ?\n\nOlivier Faure (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

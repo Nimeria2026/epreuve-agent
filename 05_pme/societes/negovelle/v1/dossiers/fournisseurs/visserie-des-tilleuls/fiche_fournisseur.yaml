@@ -1,0 +1,10 @@
+# Fiche d'un fournisseur de Négovelle. Données FICTIVES.
+nom: Visserie des Tilleuls
+activite: fabricant de visserie et de boulonnerie
+adresse: 28 zone industrielle des Brandes, 36999 Mérolles-en-Brenne (FICTIF)
+telephone: 02 61 91 75 40
+courriel_commandes: commandes@visserie-des-tilleuls.example
+courriel_facturation: facturation@visserie-des-tilleuls.example
+iban: FR76 9999 9671 4823 3588 2593 060 (FICTIF)
+conditions: paiement à 45 jours fin de mois
+minimum_de_commande: 250,00 € HT

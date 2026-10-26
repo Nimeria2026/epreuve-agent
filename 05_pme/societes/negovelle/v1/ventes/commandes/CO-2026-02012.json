@@ -1,0 +1,81 @@
+{
+  "numero": "CO-2026-02012",
+  "client": "c-0027",
+  "reference_client": null,
+  "cree_le": "2026-07-03T09:10:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "124 rue des Jardins, 36999 Laubrissac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-12221",
+      "libelle": "Ruban adhésif double face 19 mm, rouleau de 33 m",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 7.85,
+      "remise_pourcent": 2.0,
+      "prix_net_ht_euros": 7.69,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 92.28
+    },
+    {
+      "reference": "ELP-11625",
+      "libelle": "Ponceuse excentrique 300 W",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 144.75,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 144.75,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 579.0
+    },
+    {
+      "reference": "VIS-12351",
+      "libelle": "Vis à bois tête fraisée 4x35, inox A2, boîte de 500",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 20.3,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 20.3,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 20.3
+    },
+    {
+      "reference": "VIS-12605",
+      "libelle": "Vis à bois tête fraisée 4x80, inox A2, boîte de 200",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 13.8,
+      "remise_pourcent": 3.0,
+      "prix_net_ht_euros": 13.39,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 133.9
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 825.48,
+  "total_tva_euros": 165.1,
+  "total_ttc_euros": 990.58,
+  "statut": "validee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T09:10:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T09:12:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "validee",
+      "detail": ""
+    }
+  ]
+}

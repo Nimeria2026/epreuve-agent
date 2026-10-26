@@ -1,0 +1,79 @@
+{
+  "numero": "CO-2026-02062",
+  "client": "c-0270",
+  "reference_client": null,
+  "cree_le": "2026-07-09T10:00:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "8 zone d'activités des Grands Prés, 36999 Vaumoreau-sur-Indre (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-12891",
+      "libelle": "Projecteur LED 30 W, à détecteur",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 64.5,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 61.92,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 185.76
+    },
+    {
+      "reference": "ENT-11151",
+      "libelle": "Sacs poubelle 50 l, noirs, rouleau de 10",
+      "quantite": 20,
+      "prix_tarif_ht_euros": 12.7,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 12.19,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 243.8
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 429.56,
+  "total_tva_euros": 85.91,
+  "total_ttc_euros": 515.47,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01882"
+  ],
+  "facture": "FC-2026-1453",
+  "historique": [
+    {
+      "date": "2026-07-09T10:00:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": "commande du client"
+    },
+    {
+      "date": "2026-07-09T10:05:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": "stock réservé"
+    },
+    {
+      "date": "2026-07-10T16:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01882"
+    },
+    {
+      "date": "2026-07-13T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01882"
+    },
+    {
+      "date": "2026-07-31T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1453"
+    }
+  ]
+}

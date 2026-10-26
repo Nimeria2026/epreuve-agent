@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-201",
+  "de": {
+    "nom": "Syndic de la Résidence de Brenneval",
+    "adresse": "contact@syndic-de-la-residence-de-brenneval-223.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis DV-2026-012",
+  "date": "2026-11-02T08:35:00+01:00",
+  "corps": "Bonjour Monsieur Benali,\n\nLe conseil syndical est prêt à signer votre devis DV-2026-012 pour la chaufferie, à condition d'une remise de 15 %. Renvoyez-nous un devis corrigé et nous signons cette semaine.\n\nCordialement,\nLe syndic de la Résidence de Brenneval (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

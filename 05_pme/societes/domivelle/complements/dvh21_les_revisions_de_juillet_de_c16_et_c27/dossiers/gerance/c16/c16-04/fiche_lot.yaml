@@ -1,0 +1,19 @@
+# Fiche du lot c16-04. Données FICTIVES.
+lot: c16-04
+adresse: 122 avenue de la Gare, 18999 Montclavel-sur-Cher (FICTIF)
+type: T4
+surface_m2: 78
+locataire:
+  nom: M. Jean Huet
+  courriel: jean.huet@messagerie.example
+  telephone: 06 39 98 73 01
+  entree: '2024-07-20'
+bail:
+  signature: '2024-07-20'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 832,00 €
+  depot_de_garantie: 812,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T1
+dpe:
+  classe: C

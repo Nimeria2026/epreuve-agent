@@ -1,0 +1,17 @@
+# Budget prévisionnel de l'exercice en cours, voté, copropriété cp44. Données FICTIVES.
+copropriete: cp44
+exercice: '2026'
+total: 15 300,00 €
+postes:
+  nettoyage des parties communes: 3 366,00 €
+  espaces verts: 1 224,00 €
+  électricité des parties communes: 1 377,00 €
+  eau: 2 142,00 €
+  assurance de l'immeuble: 1 683,00 €
+  honoraires du syndic: 2 754,00 €
+  entretien et petites réparations: 1 530,00 €
+  ascenseur, contrat et électricité: 1 224,00 €
+repartition:
+  charges générales, aux tantièmes généraux: 14 076,00 €
+  ascenseur, aux tantièmes d'ascenseur: 1 224,00 €
+appel: un quart du budget, exigible le premier jour de chaque trimestre

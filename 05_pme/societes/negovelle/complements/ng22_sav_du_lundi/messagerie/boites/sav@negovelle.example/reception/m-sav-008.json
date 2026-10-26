@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-008",
+  "de": {
+    "nom": "Florence Pelletier",
+    "adresse": "florence.pelletier@paysage-ducret.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Retour de casques antibruit",
+  "date": "2026-07-06T07:42:00+02:00",
+  "corps": "Bonjour,\n\nNous rendons 2 casques antibruit : nous les avons essayés une fois, ils ne conviennent pas à nos équipes.\n\nFlorence Pelletier\nPaysage Ducret",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

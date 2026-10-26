@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-621",
+  "de": {
+    "nom": "Bastien Leclerc",
+    "adresse": "bastien.leclerc@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis climatisation",
+  "date": "2026-11-24T07:35:00+01:00",
+  "corps": "Bonjour,\n\nJe souhaite climatiser le séjour de ma maison, construite en 1990 à Valmont-sur-Loire. Pouvez-vous m'établir un devis ?\n\nBastien Leclerc (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

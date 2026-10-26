@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-712",
+  "de": {
+    "nom": "Établissements Faure",
+    "adresse": "contact@etablissements-faure-131.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Fermeture de fin d'année",
+  "date": "2026-11-28T11:40:00+01:00",
+  "corps": "Bonjour,\n\nNotre atelier sera fermé du lundi 21 décembre au vendredi 1er janvier. Pour l'entretien annuel de notre chaudière, merci de passer avant.\n\nÉtablissements Faure, 26 avenue des Tilleuls, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

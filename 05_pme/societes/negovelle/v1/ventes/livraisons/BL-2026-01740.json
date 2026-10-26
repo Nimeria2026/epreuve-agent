@@ -1,0 +1,39 @@
+{
+  "numero": "BL-2026-01740",
+  "commande": "CO-2026-01891",
+  "client": "c-0223",
+  "date_expedition": "2026-06-26",
+  "date_livraison": "2026-06-26",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "26 zone d'activités des Grands Prés, 36999 Mérolles-en-Brenne (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ELP-10628",
+      "libelle": "Foret béton SDS-plus 14x160 mm",
+      "quantite": 3
+    },
+    {
+      "reference": "OUT-12646",
+      "libelle": "Tournevis Phillips n° 5",
+      "quantite": 1
+    },
+    {
+      "reference": "QUI-10065",
+      "libelle": "Arrêt de volet tête de bergère, noir",
+      "quantite": 5
+    },
+    {
+      "reference": "QUI-11094",
+      "libelle": "Charnière à lames 30 mm, acier zingué",
+      "quantite": 24
+    }
+  ],
+  "reserves": "un carton ouvert, il manque un sachet",
+  "signataire": "Antoine Cazenave",
+  "statut": "livre"
+}

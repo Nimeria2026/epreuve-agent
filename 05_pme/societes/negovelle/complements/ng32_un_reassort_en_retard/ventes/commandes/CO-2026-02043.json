@@ -1,0 +1,42 @@
+{
+  "numero": "CO-2026-02043",
+  "client": "c-0100",
+  "reference_client": null,
+  "cree_le": "2026-07-01T09:12:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "43 impasse des Noyers, 36999 Laubrissac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "FIX-11192",
+      "libelle": "Collier de fixation 28 mm, sachet de 25",
+      "quantite": 20,
+      "prix_tarif_ht_euros": 5.8,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 5.57,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 111.4
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 111.4,
+  "total_tva_euros": 22.28,
+  "total_ttc_euros": 133.68,
+  "statut": "en_attente_reassort",
+  "motif_attente": null,
+  "reliquat_de": "CO-2026-01977",
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-01T09:12:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": "reliquat de CO-2026-01977"
+    }
+  ]
+}

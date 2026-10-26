@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-isro-013",
+  "de": {
+    "nom": "Simone Valentin",
+    "adresse": "simone.valentin@navarre-renovation.example"
+  },
+  "a": [
+    "isabelle.royer@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Notre facture de juin",
+  "date": "2026-08-31T07:40:00+02:00",
+  "corps": "Bonjour,\n\nNous avons réglé la semaine dernière, vous devriez l'avoir vu passer.\n\nSimone Valentin\nNavarre Rénovation",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

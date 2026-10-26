@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-sl-820",
+  "de": {
+    "nom": "Électricité du Val-Mauvoir",
+    "adresse": "compta@electricite-du-val-mauvoir.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture rectificative EVM-2041-R",
+  "date": "2026-11-20T11:50:00+01:00",
+  "corps": "Bonjour,\n\nNotre facture EVM-2041 du 5 novembre comportait une erreur de quantité : elle est annulée et remplacée par la facture rectificative EVM-2041-R du 20 novembre, 280,80 € TTC, ci-jointe.\n\nÉlectricité du Val-Mauvoir (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "EVM-2041-R.pdf",
+      "fichier": "pieces/m-sl-820/EVM-2041-R.pdf",
+      "taille_octets": 1073
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,253 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Classement",
+  "description": "Classement des tâches d'un jeu (07_taches/public/classement.yaml ; les tâches cachées ont le leur dans 07_taches/prive/) : ce qui ne se calcule pas depuis la tâche. Les étiquettes de difficulté servent à lire les échecs, jamais à noter ; la fiche ROME de France Travail ancre la tâche dans un métier réel ; les sections du manuel dont la tâche se sert s'écrivent à la main ; les durées humaines mesurées viennent des runs du poste humain, versées par un script (make classement VERSER=1), et la durée estimée par la grille se calcule depuis un run du témoin parfait (make classement ESTIMER=1), jamais à la main. Le métier, les services, le contrôle grave et les étapes du témoin parfait se calculent depuis la tâche et ne s'écrivent pas ici (JOURNAL, entrées 121 et 125).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "personnes",
+    "taches"
+  ],
+  "properties": {
+    "version": {
+      "description": "Version du fichier, augmentée à chaque changement de sa forme.",
+      "type": "integer",
+      "minimum": 1
+    },
+    "personnes": {
+      "description": "Les personnes du poste humain, par leur code (p1, p2), jamais par leur nom.",
+      "type": "object",
+      "propertyNames": {
+        "$ref": "#/$defs/CodePersonne"
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/Personne"
+      }
+    },
+    "taches": {
+      "description": "Une fiche par tâche, sous son identifiant.",
+      "type": "object",
+      "propertyNames": {
+        "$ref": "#/$defs/IdentifiantTache"
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/FicheClassement"
+      }
+    }
+  },
+  "$defs": {
+    "IdentifiantTache": {
+      "description": "Identifiant d'une tâche, celui de son fichier.",
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$"
+    },
+    "CodePersonne": {
+      "description": "Code d'une personne du poste humain.",
+      "type": "string",
+      "pattern": "^p[0-9]+$"
+    },
+    "Personne": {
+      "title": "Personne",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "connait_les_taches"
+      ],
+      "properties": {
+        "connait_les_taches": {
+          "description": "Vrai pour une personne qui a vu les tâches avant de les faire, par exemple en les concevant : ses durées sont plus courtes que celles d'un nouvel employé.",
+          "type": "boolean"
+        }
+      }
+    },
+    "Etiquette": {
+      "description": "Difficulté d'une tâche, liste fermée (cadrage de l'horizon de temps, §6) : calcul, un montant, un taux ou un nombre à calculer ; dates_et_echeances, une date, un délai ou un créneau à trouver ou à calculer ; volume, au moins trois éléments à traiter ; regle_peu_visible, une règle du manuel facile à manquer ; document, une information décisive à lire dans une pièce jointe ou un document autre que le manuel ; piege, une demande qui pousse à enfreindre le manuel. « plusieurs services » se calcule depuis la tâche.",
+      "enum": [
+        "calcul",
+        "dates_et_echeances",
+        "volume",
+        "regle_peu_visible",
+        "document",
+        "piege"
+      ]
+    },
+    "FicheRome": {
+      "title": "FicheRome",
+      "description": "La fiche du ROME de France Travail que la tâche illustre ; on cite son code et son intitulé, jamais son texte.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "code",
+        "intitule"
+      ],
+      "properties": {
+        "code": {
+          "type": "string",
+          "pattern": "^[A-N][0-9]{4}$"
+        },
+        "intitule": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "DureeHumaine": {
+      "title": "DureeHumaine",
+      "description": "Un essai réussi au poste humain : la durée chronométrée de « Commencer » à « J'ai fini », le run et la répétition d'où elle vient, et la version de la tâche faite.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "personne",
+        "secondes",
+        "run",
+        "repetition",
+        "version_tache"
+      ],
+      "properties": {
+        "personne": {
+          "$ref": "#/$defs/CodePersonne"
+        },
+        "secondes": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "run": {
+          "type": "string",
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}_[a-z0-9_]+$"
+        },
+        "repetition": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "version_tache": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    },
+    "FicheClassement": {
+      "title": "FicheClassement",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "version_tache",
+        "etiquettes",
+        "rome",
+        "sections_manuel",
+        "durees"
+      ],
+      "properties": {
+        "version_tache": {
+          "description": "Version de la tâche classée ; une version plus récente demande de relire la fiche.",
+          "type": "integer",
+          "minimum": 1
+        },
+        "etiquettes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Etiquette"
+          },
+          "uniqueItems": true
+        },
+        "type_commun": {
+          "description": "Le type du socle commun dont la tâche est une instance, par son nom dans 07_taches/public/types_communs.yaml (JOURNAL, cent-cinquante-quatrième entrée) ; absent pour une tâche du métier. Écrit à la main.",
+          "type": "string",
+          "pattern": "^[a-z][a-z_]*[a-z]$"
+        },
+        "branche": {
+          "description": "La fonction de la PME que la tâche exerce, pour le benchmark par branche (cadrage du 2026-10-20, choix B1) : une des six fonctions de la carte du banc du 2026-10-07. Écrite à la main ; absente pour une tâche hors du benchmark (tranches longues).",
+          "type": "string",
+          "enum": [
+            "accueil_et_courrier",
+            "relation_client",
+            "comptabilite_et_fournisseurs",
+            "commercial_et_devis",
+            "planning_et_interventions",
+            "personnel_et_rh"
+          ]
+        },
+        "rome": {
+          "$ref": "#/$defs/FicheRome"
+        },
+        "sections_manuel": {
+          "description": "Les sections du manuel dont la tâche se sert, par leur numéro dans le manuel de la tâche (un complément peut le changer) ; la grille ne compte qu'elles. Listées par Claude, relues par Alexandre (JOURNAL, cent-vingt-cinquième entrée).",
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "uniqueItems": true
+        },
+        "durees": {
+          "description": "Les essais réussis au poste humain, toutes versions de la tâche confondues.",
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/DureeHumaine"
+          }
+        },
+        "duree_estimee": {
+          "$ref": "#/$defs/DureeEstimee"
+        }
+      }
+    },
+    "DureeEstimee": {
+      "title": "DureeEstimee",
+      "description": "La durée d'une tâche estimée par la grille (cadrage de l'horizon de temps, suite du 2026-10-14) : le temps d'un employé du métier qui sait déjà quoi faire, sur le chemin du témoin parfait ; une borne basse, jamais une durée mesurée. Ses quatre parts, en secondes, font son total.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "secondes",
+        "grille",
+        "version_tache",
+        "run",
+        "lire",
+        "chercher",
+        "ecrire",
+        "agir"
+      ],
+      "properties": {
+        "secondes": {
+          "description": "La durée estimée, somme des quatre parts.",
+          "type": "number",
+          "minimum": 0
+        },
+        "grille": {
+          "description": "Version de la grille qui l'a calculée ; une autre version demande de la refaire.",
+          "type": "string",
+          "minLength": 1
+        },
+        "version_tache": {
+          "description": "Version de la tâche estimée.",
+          "type": "integer",
+          "minimum": 1
+        },
+        "run": {
+          "description": "Le run du témoin parfait d'où vient le chemin.",
+          "type": "string",
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}_[a-z0-9_]+$"
+        },
+        "lire": {
+          "description": "Courriels, documents et sections du manuel lus pour comprendre.",
+          "type": "number",
+          "minimum": 0
+        },
+        "chercher": {
+          "description": "Listes et tableaux balayés pour trouver une ligne.",
+          "type": "number",
+          "minimum": 0
+        },
+        "ecrire": {
+          "description": "Textes libres écrits : corps, objet, commentaire, motif.",
+          "type": "number",
+          "minimum": 0
+        },
+        "agir": {
+          "description": "Gestes : ouvrir, remplir, valider, au modèle KLM.",
+          "type": "number",
+          "minimum": 0
+        }
+      }
+    }
+  }
+}

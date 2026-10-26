@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-003",
+  "de": {
+    "nom": "Paul Mercier",
+    "adresse": "p.mercier@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Urgent : plus de chauffage depuis hier soir",
+  "date": "2026-11-02T06:58:00+01:00",
+  "corps": "Bonjour,\n\nPlus de chauffage ni d'eau chaude depuis hier soir, la chaudière affiche le code F28. Pouvez-vous passer aujourd'hui ?\n\nPaul Mercier, 6 chemin des Vignes, 45999 Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

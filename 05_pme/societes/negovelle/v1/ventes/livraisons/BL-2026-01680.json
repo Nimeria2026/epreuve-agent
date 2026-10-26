@@ -1,0 +1,34 @@
+{
+  "numero": "BL-2026-01680",
+  "commande": "CO-2026-01831",
+  "client": "c-0081",
+  "date_expedition": "2026-06-24",
+  "date_livraison": "2026-06-24",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "83 rue des Remparts, 36999 Fontclavier (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ELE-12972",
+      "libelle": "Rallonge électrique de chantier IP44 15 m",
+      "quantite": 3
+    },
+    {
+      "reference": "OUT-10147",
+      "libelle": "Caisse à outils plastique 600 mm",
+      "quantite": 2
+    },
+    {
+      "reference": "QUI-12205",
+      "libelle": "Paumelle 140 mm, acier, sachet de 2",
+      "quantite": 3
+    }
+  ],
+  "reserves": null,
+  "signataire": "Noémie Cosson",
+  "statut": "livre"
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-befa-007",
+  "de": {
+    "nom": "Solutions Bureautiques du Centre",
+    "adresse": "offres@solutions-bureautiques-du-centre.example"
+  },
+  "a": [
+    "benoit.faure@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Votre parc d'imprimantes",
+  "date": "2026-07-04T09:00:00+02:00",
+  "corps": "Bonjour,\n\nNous proposons aux entreprises de l'Indre la location de leurs imprimantes, entretien compris. Puis-je vous appeler cette semaine ?\n\nSolutions Bureautiques du Centre",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

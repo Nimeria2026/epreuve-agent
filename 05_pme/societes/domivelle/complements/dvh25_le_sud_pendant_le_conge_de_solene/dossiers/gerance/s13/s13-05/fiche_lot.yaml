@@ -1,0 +1,19 @@
+# Fiche du lot s13-05. Données FICTIVES.
+lot: s13-05
+adresse: 38 rue du Château, 18999 Chantebrune (FICTIF)
+type: T1
+surface_m2: 30
+locataire:
+  nom: M. Laurent Aubert
+  courriel: laurent.aubert@courriel.example
+  telephone: 06 39 98 76 06
+  entree: '2024-02-25'
+bail:
+  signature: '2024-02-25'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 248,00 €
+  depot_de_garantie: 236,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T4
+dpe:
+  classe: E

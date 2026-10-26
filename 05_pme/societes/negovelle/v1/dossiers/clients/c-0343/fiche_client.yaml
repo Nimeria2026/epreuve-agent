@@ -1,0 +1,28 @@
+# Fiche du client c-0343 de Négovelle. Données FICTIVES.
+code: c-0343
+nom: Menuiserie industrielle Hoarau
+type: pme
+adresse: 5 zone d'activités des Grands Prés, 36999 Ardillac (FICTIF)
+telephone: 02 61 91 61 93
+secteur: est
+commercial: fabrice.mercier
+administration_des_ventes: benoit.faure
+contacts:
+- nom: Vincent Cosson
+  fonction: responsable des achats
+  courriel: vincent.cosson@menuiserie-industrielle-hoarau.example
+- nom: Simone Voisin
+  fonction: responsable de maintenance
+  courriel: simone.voisin@menuiserie-industrielle-hoarau.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 5 zone d'activités des Grands Prés, 36999 Ardillac (FICTIF)
+categorie_remise: A
+delai_paiement: 60_jours_date_de_facture
+client_depuis: '2025-02-01'
+limite_encours_euros: 9500.0
+livraisons_partielles: true
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

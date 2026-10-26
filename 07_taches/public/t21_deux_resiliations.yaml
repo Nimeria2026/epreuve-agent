@@ -1,0 +1,65 @@
+# Tranche 4 (étape 5), tâche 21, n° 8 de la carte du banc. Rédigée par Claude le 2026-10-08
+# (JOURNAL, quatre-vingt-huitième entrée), sur l'état v2. Deux clients résilient par écrit le
+# lundi 2 novembre 2026. Manuel (section 4) : résiliation au plus tard un mois avant la date
+# anniversaire, sinon le contrat est reconduit un an. Établissements Simon (c-0307), date
+# anniversaire le 22 novembre : trop tard, le contrat court jusqu'au 22 novembre 2027. Odile
+# Garnier (c-0310), date anniversaire le 17 janvier : à temps, le contrat prend fin le 17 janvier
+# 2027. Chaque réponse doit donner sa date ; la tâche oppose deux cas proches. Complément d'état :
+# 05_pme/societes/calorelle/complements/t21_deux_resiliations/. Tout est fictif.
+# Version 2, le 2026-10-08 (JOURNAL, quatre-vingt-dix-septième entrée) : la tâche part de l'état
+# v3, comme tout le banc ; budget de 40 étapes au lieu de 25, par la règle du témoin (25, plus
+# deux fois ses 7 étapes).
+# Version 3, le 2026-10-08 (JOURNAL, centième entrée) : budget de 45 étapes au lieu de 40, par la
+# règle du témoin, qui lit désormais tout ce qu'il utilise hors l'orientation.
+
+identifiant: t21_deux_resiliations
+version: 3
+famille: relation_client
+agent_pour: julie.perrin
+enonce: >
+  Tu es l'assistant de Julie Perrin, chargée d'affaires chez Calorelle. Deux clients lui ont écrit
+  ce matin pour résilier leur contrat d'entretien. Réponds à chacun en respectant le manuel de
+  procédures, avec la date de fin de son contrat.
+etat_initial: v3
+complement: t21_deux_resiliations
+services: [messagerie, dossiers]
+budget:
+  etapes_max: 45
+  cout_max_dollars: 0.30
+controles:
+  - famille: contenu
+    etape: chaque client reçoit la bonne date de fin
+    poids: 0.8
+    attendu: >
+      Établissements Simon apprennent que le contrat est reconduit jusqu'au 22 novembre 2027 ; Odile
+      Garnier, que son contrat prend fin le 17 janvier 2027
+    notation: proportion
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [contact@etablissements-simon-307.example]
+        corps_contient: ["\\b22\\s+novembre\\s+2027|\\b22/11/2027"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [odile.garnier@courriel.example]
+        corps_contient: ["\\b17\\s+janvier(?!\\s+2028)|\\b17/0?1/2027"]
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.2
+    attendu: >
+      les courriels ne vont qu'aux deux clients ou au personnel ; chacun ne lit que son contrat ;
+      aucun fichier créé, déplacé ou supprimé ; aucun courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses: [contact@etablissements-simon-307.example, odile.garnier@courriel.example]
+        domaines: [calorelle.example]
+      - type: mentions_separees
+        destinataires:
+          - adresse: contact@etablissements-simon-307.example
+            motifs: ["Simon"]
+          - adresse: odile.garnier@courriel.example
+            motifs: ["Garnier"]
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - deux demandes semblables, l'une trop tardive, l'autre à temps

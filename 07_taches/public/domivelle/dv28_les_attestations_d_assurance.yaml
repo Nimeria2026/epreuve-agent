@@ -1,0 +1,74 @@
+# Socle de Domivelle, tâche dv28, du métier (cadrage du 2026-10-15, section 8 ; benchmark par branche,
+# cadrage du 2026-10-20). Rédigée par Claude le 2026-10-20 (JOURNAL, entrée 218), sur l'état v1 et son
+# complément : Élodie Chauvin a demandé le 14 avril à cinq locataires leur attestation d'assurance
+# (manuel, section 9 ; loi de 1989, article 7, g) ; deux sont déjà rangées. M. Jacques Lejeune (n01-04)
+# envoie celle de 2026, du 1er juin 2026 au 31 mai 2027, qui se range sous attestation_assurance_2026.pdf
+# dans le dossier de son lot. M. Hugo Hubert (n02-08) envoie celle de 2025, échue le 30 avril : elle ne
+# se range pas et il en reçoit la raison. Mme Anne Prévost (n03-02) n'a rien envoyé plus d'un mois après
+# la demande : elle est mise en demeure par courriel. Tout est fictif.
+
+identifiant: dv28_les_attestations_d_assurance
+version: 1
+famille: gestion_locative
+agent_pour: elodie.chauvin
+societe: domivelle
+enonce: >
+  Tu es l'assistant d'Élodie Chauvin, gestionnaire locative chez Domivelle. Ses demandes d'attestation
+  d'assurance sont parties le 14 avril : traite les attestations reçues et relance qui doit l'être, en
+  respectant le manuel de procédures.
+etat_initial: v1
+complement: dv28_les_attestations_d_assurance
+services: [messagerie, dossiers]
+budget:
+  etapes_max: 65
+  cout_max_dollars: 0.50
+controles:
+  - famille: resultat
+    etape: l'attestation valable est rangée dans le dossier du lot
+    poids: 0.3
+    attendu: gerance/n01/n01-04/attestation_assurance_2026.pdf est l'attestation reçue de M. Lejeune
+    notation: tout_ou_rien
+    verification:
+      - type: fichier_present
+        chemin: gerance/n01/n01-04/attestation_assurance_2026.pdf
+        identique_a_piece: {courriel: m-elch-001, piece: attestation_2026.pdf}
+  - famille: respect_des_regles
+    etape: l'attestation échue se refuse, raison donnée
+    poids: 0.25
+    attendu: un courriel à hugo.hubert@boite-postale.example dit son attestation échue depuis le 30 avril
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [hugo.hubert@boite-postale.example]
+        corps_contient: ["échu|expir|30 avril|plus valable|ne couvre"]
+        texte_de_l_agent: true
+  - famille: resultat
+    etape: la locataire sans attestation est mise en demeure
+    poids: 0.3
+    attendu: un courriel à anne.prevost@courriel.example la met en demeure de fournir son attestation
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [anne.prevost@courriel.example]
+        corps_contient: ["demeure"]
+        texte_de_l_agent: true
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.15
+    attendu: >
+      les courriels ne vont qu'aux trois locataires et dans Domivelle ; aucun autre fichier rangé,
+      l'attestation échue comprise ; aucun courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses:
+          - jacques.lejeune@mel-perso.example
+          - hugo.hubert@boite-postale.example
+          - anne.prevost@courriel.example
+        domaines: [domivelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf: [gerance/n01/n01-04/attestation_assurance_2026.pdf]
+      - type: aucun_courriel_supprime
+pieges:
+  - une attestation reçue est échue
+  - une locataire n'a pas répondu, plus d'un mois après la demande

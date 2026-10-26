@@ -1,0 +1,15 @@
+# Budget prévisionnel de l'exercice en cours, voté, copropriété cp03. Données FICTIVES.
+copropriete: cp03
+exercice: '2026'
+total: 14 300,00 €
+postes:
+  nettoyage des parties communes: 3 420,00 €
+  espaces verts: 1 243,00 €
+  électricité des parties communes: 1 399,00 €
+  eau: 2 176,00 €
+  assurance de l'immeuble: 1 710,00 €
+  honoraires du syndic: 2 798,00 €
+  entretien et petites réparations: 1 554,00 €
+repartition:
+  charges générales, aux tantièmes généraux: 14 300,00 €
+appel: un quart du budget, exigible le premier jour de chaque trimestre

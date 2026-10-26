@@ -1,0 +1,13 @@
+{
+  "numero": "INT-2026-0022",
+  "client": "c-0168",
+  "techniciens": [
+    "nicolas.blanc"
+  ],
+  "debut": "2026-11-05T13:30:00+01:00",
+  "fin": "2026-11-05T15:30:00+01:00",
+  "nature": "mise_en_service",
+  "objet": "Mise en service de la pompe à chaleur posée le 2 novembre",
+  "statut": "planifiee",
+  "cree_par": "donnees_initiales"
+}

@@ -1,0 +1,49 @@
+{
+  "numero": "BL-2026-01856",
+  "commande": "CO-2026-02007",
+  "client": "c-0340",
+  "date_expedition": "2026-07-03",
+  "date_livraison": "2026-07-03",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "108 rue des Chênes, 36999 Fontclavier (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "FIX-10049",
+      "libelle": "Cheville métallique à expansion M4x65, boîte de 25",
+      "quantite": 10
+    },
+    {
+      "reference": "OUT-11412",
+      "libelle": "Niveau à bulle compact 80 cm",
+      "quantite": 1
+    },
+    {
+      "reference": "PLB-10637",
+      "libelle": "Coude PVC 15° 32 mm",
+      "quantite": 4
+    },
+    {
+      "reference": "PLB-11739",
+      "libelle": "Mitigeur de bain-douche, chromé",
+      "quantite": 5
+    },
+    {
+      "reference": "PLB-11976",
+      "libelle": "Raccord laiton coude mâle-femelle 26x34",
+      "quantite": 10
+    },
+    {
+      "reference": "VIS-10351",
+      "libelle": "Boulon tête hexagonale M6x40, inox A2, sachet de 10",
+      "quantite": 4
+    }
+  ],
+  "reserves": null,
+  "signataire": "Sandrine Sauvage",
+  "statut": "livre"
+}

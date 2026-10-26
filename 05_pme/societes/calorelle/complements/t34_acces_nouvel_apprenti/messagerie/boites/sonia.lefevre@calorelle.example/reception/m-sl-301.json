@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-301",
+  "de": {
+    "nom": "Hélène Marchal",
+    "adresse": "helene.marchal@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Arrivée de Noah Bertrand",
+  "date": "2026-11-02T08:30:00+01:00",
+  "corps": "Sonia,\n\nNoah Bertrand, notre second apprenti technicien, arrive le lundi 16 novembre, comme Enzo. Envoie-moi la liste des dossiers partagés et des logiciels qu'il pourra utiliser, d'après le manuel : une ligne par accès, les dossiers écrits avec leur barre finale comme dans le tableau du manuel, et rien d'autre.\n\nHélène (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

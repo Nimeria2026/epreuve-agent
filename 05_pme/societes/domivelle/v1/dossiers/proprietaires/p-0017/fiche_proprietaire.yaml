@@ -1,0 +1,13 @@
+# Fiche du propriétaire p-0017, mandant de Domivelle. Données FICTIVES.
+code: p-0017
+nom: Mme Suzanne Aubert
+adresse: 123 impasse des Noyers, 18999 Montclavel-sur-Cher (FICTIF)
+courriel: suzanne.aubert@mel-perso.example
+telephone: 06 39 98 54 29
+iban: FR76 9999 9542 2236 1520 2197 338 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- c01-01
+- c04-03
+- c06-04
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

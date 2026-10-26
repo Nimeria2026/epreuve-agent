@@ -1,0 +1,49 @@
+{
+  "numero": "BL-2026-01765",
+  "commande": "CO-2026-01916",
+  "client": "c-0251",
+  "date_expedition": "2026-06-29",
+  "date_livraison": "2026-06-29",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "21 zone d'activités des Grands Prés, 36999 Vaumoreau-sur-Indre (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "CON-11273",
+      "libelle": "Dégrippant à choc thermique, aérosol de 500 ml",
+      "quantite": 6
+    },
+    {
+      "reference": "ELE-10661",
+      "libelle": "Boîte de dérivation étanche IP55 80 mm",
+      "quantite": 2
+    },
+    {
+      "reference": "OUT-11135",
+      "libelle": "Marteau de menuisier 300 g",
+      "quantite": 1
+    },
+    {
+      "reference": "PLB-12384",
+      "libelle": "Raccord à sertir té 22 mm",
+      "quantite": 50
+    },
+    {
+      "reference": "PRO-10081",
+      "libelle": "Bottes de sécurité PVC S5, pointure 45",
+      "quantite": 3
+    },
+    {
+      "reference": "PRO-10734",
+      "libelle": "Chaussures de sécurité montantes S3, pointure 41",
+      "quantite": 5
+    }
+  ],
+  "reserves": null,
+  "signataire": "Françoise Foucault",
+  "statut": "livre"
+}

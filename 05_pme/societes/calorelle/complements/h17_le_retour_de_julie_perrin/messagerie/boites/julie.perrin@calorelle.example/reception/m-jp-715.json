@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-715",
+  "de": {
+    "nom": "Syndic de la Résidence des Saulaies",
+    "adresse": "contact@syndic-de-la-residence-des-saulaies-106.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis pour la chaufferie",
+  "date": "2026-12-18T11:00:00+01:00",
+  "corps": "Bonjour Madame Perrin,\n\nOn nous a donné votre adresse : la chaudière collective de notre résidence du 89 rue du Moulin est à remplacer. Pouvez-vous nous faire un devis ?\n\nLe syndic de la Résidence des Saulaies, 89 rue du Moulin, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

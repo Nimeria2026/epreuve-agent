@@ -1,0 +1,13 @@
+# Fiche du propriétaire p-0701, mandant de Domivelle. Données FICTIVES.
+code: p-0701
+nom: Mme Agnès Guichard
+adresse: 44 rue de la Poste, 18999 Sorlay-le-Haut (FICTIF)
+courriel: agnes.guichard@boite-postale.example
+telephone: 06 39 98 50 16
+iban: FR76 9999 9493 3489 3980 1049 872 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- s32-03
+- s37-07
+- s37-16
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

@@ -1,0 +1,62 @@
+# Jeu « documents » (étape 6), tâche 3. Rédigée par Claude le 2026-10-10 (journal d'EKE,
+# vingt-cinquième entrée), sur l'état v3 et son complément. La facture FHF-26-151 de Fumisterie des
+# Hautes-Fresnes facture les conduits 49,00 € le mètre au lieu des 46,00 € de son devis
+# FHF-D-2026-019, accepté : 12 mètres, soit 36,00 € HT et 43,20 € TTC de trop (838,80 € TTC au lieu
+# de 795,60 €). Les deux documents ne se lisent qu'en PDF. Complément d'état :
+# 05_pme/societes/calorelle/complements/d03_ecart_devis_facture/. Tout est fictif.
+# Budget par la règle du témoin : 25, plus deux fois ses 8 étapes, arrondi aux cinq du dessus.
+
+identifiant: d03_ecart_devis_facture
+version: 1
+famille: comptabilite
+agent_pour: patrick.roux
+enonce: >
+  Tu es l'assistant de Patrick Roux, comptable de Calorelle. Une facture de Fumisterie des
+  Hautes-Fresnes est arrivée ce matin dans la boîte comptabilite@. Range-la en respectant le manuel
+  de procédures, puis compare-la au devis de ce fournisseur rangé dans son dossier. S'il y a un
+  écart, signale-le à Hélène Marchal, la gérante, avec son montant, avant tout paiement.
+etat_initial: v3
+complement: d03_ecart_devis_facture
+services: [messagerie, dossiers, eke]
+budget:
+  etapes_max: 45
+  cout_max_dollars: 0.40
+controles:
+  - famille: resultat
+    etape: la facture est rangée
+    poids: 0.3
+    attendu: >
+      administration/factures_fournisseurs/2026-10/fumisterie-des-hautes-fresnes_fhf-26-151.pdf
+      correspond à la pièce jointe de m-cpt-602
+    notation: tout_ou_rien
+    verification:
+      - type: fichier_present
+        chemin: administration/factures_fournisseurs/2026-10/fumisterie-des-hautes-fresnes_fhf-26-151.pdf
+        identique_a_piece: {courriel: m-cpt-602, piece: Facture_FHF-26-151.pdf}
+  - famille: resultat
+    etape: la gérante reçoit l'écart et son montant
+    poids: 0.5
+    attendu: >
+      un courriel à helene.marchal@calorelle.example donne l'écart, 36,00 € HT ou 43,20 € TTC
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [helene.marchal@calorelle.example]
+        corps_contient: ["\\b36[,.]00?\\b|\\b36\\s?(€|euros)|\\b43[,.]20?\\b"]
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.2
+    attendu: >
+      aucun autre fichier créé, déplacé ou supprimé ; aucun courriel hors de Calorelle ; aucun
+      courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: aucun_autre_changement_de_fichier
+        sauf:
+          - administration/factures_fournisseurs/2026-10/fumisterie-des-hautes-fresnes_fhf-26-151.pdf
+      - type: aucun_envoi_hors_de
+        domaine: calorelle.example
+      - type: aucun_courriel_supprime
+pieges:
+  - l'écart tient à un prix unitaire, sur une ligne sur deux ; le reste de la facture suit le devis
+  - le devis et la facture ne se lisent qu'en PDF

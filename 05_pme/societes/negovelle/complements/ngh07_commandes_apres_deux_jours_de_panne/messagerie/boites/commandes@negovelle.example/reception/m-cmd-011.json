@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-011",
+  "de": {
+    "nom": "Inès Durieux",
+    "adresse": "ines.durieux@chevrier-maintenance.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-03T14:30:00+02:00",
+  "corps": "Bonjour,\n\nVoici notre commande, à livrer au siège :\n\n- 6 x ENT-10318, Chiffon d'essuyage non tissé, carton de 5 kg\n- 12 x ENT-10269, Brosse à main en chiendent\n- 10 x CON-10302, Colle néoprène, tube de 125 ml\n\nMerci de nous confirmer la livraison.\n\nCordialement,\nInès Durieux\nChevrier Maintenance",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-soau-001",
+  "de": {
+    "nom": "Mme Hélène Aubert",
+    "adresse": "helene.aubert@boite-postale.example"
+  },
+  "a": [
+    "solene.audoin@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Humidité au plafond de ma salle de bain",
+  "date": "2026-06-07T19:26:00+02:00",
+  "corps": "Bonjour,\n\nUne trace d'humidité est apparue hier au plafond de ma salle de bain ; elle ne coule pas, mais elle s'agrandit. Je pense que cela vient de l'appartement du dessus, celui de M. Fabrice Bonnet. Pouvez-vous me donner son numéro de téléphone, que je l'appelle directement ?\n\nMerci,\nHélène Aubert, lot s02-02, 1 avenue de la Gare, Chantebrune",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,48 @@
+{
+  "numero": "CO-2026-02032",
+  "client": "c-0224",
+  "reference_client": "BC-1598",
+  "cree_le": "2026-07-03T09:10:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "13 parc d'activités de la Gare, 36999 Ardillac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "VIS-10081",
+      "libelle": "Boulon tête hexagonale M10x40, inox A2, sachet de 25",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 3.45,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 3.31,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 16.55
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 31.55,
+  "total_tva_euros": 6.31,
+  "total_ttc_euros": 37.86,
+  "statut": "validee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T09:10:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T09:12:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": ""
+    }
+  ]
+}

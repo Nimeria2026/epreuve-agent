@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-402",
+  "de": {
+    "nom": "Patrick François",
+    "adresse": "patrick.francois@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis chaudière et radiateurs",
+  "date": "2026-11-02T08:10:00+01:00",
+  "corps": "Bonjour Madame Perrin,\n\nSuite à la visite de M. Leroy mercredi, j'attends votre devis pour la chaudière et les deux radiateurs. Un ami m'a dit que la TVA d'une chaudière était à 5,5 % : j'espère que c'est le cas. La maison a été construite en 1985 ; je signerai l'attestation sur le devis.\n\nCordialement,\nPatrick François (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

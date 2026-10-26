@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-pr-601",
+  "de": {
+    "nom": "Hélène Marchal",
+    "adresse": "helene.marchal@calorelle.example"
+  },
+  "a": [
+    "patrick.roux@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Trésorerie de fin de mois",
+  "date": "2026-11-26T17:30:00+01:00",
+  "corps": "Patrick,\n\nPour lundi, peux-tu me donner la liste de toutes les factures fournisseurs à payer ce jour-là, échues comprises, et leur total ; et, pour la trésorerie de décembre, la liste de celles qui échoient en décembre, avec leur échéance, et leur total ? Dis-moi aussi ce que les relevés de fin de mois auront fait apparaître.\n\nHélène (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

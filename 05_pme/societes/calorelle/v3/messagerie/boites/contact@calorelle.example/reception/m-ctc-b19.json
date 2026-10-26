@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-b19",
+  "de": {
+    "nom": "Isabelle Leroux",
+    "adresse": "isabelle.leroux@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Panne de climatisation",
+  "date": "2026-10-29T15:15:00+01:00",
+  "corps": "Bonjour,\n\nLa climatisation ne refroidit plus, pouvez-vous passer ?\n\nIsabelle Leroux (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

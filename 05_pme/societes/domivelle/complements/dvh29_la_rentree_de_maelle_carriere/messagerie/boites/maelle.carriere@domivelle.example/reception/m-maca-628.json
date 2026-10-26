@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-maca-628",
+  "de": {
+    "nom": "Électricité du Pré-Carré",
+    "adresse": "facturation@electricite-du-pre-carre.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture 2026-0871",
+  "date": "2026-08-18T10:00:00+02:00",
+  "corps": "Madame,\n\nVeuillez trouver notre facture 2026-0871 pour le dépannage de l'éclairage du parking de la Résidence Les Platanes, le 3 août : 312,00 € TTC, à régler à 30 jours.\n\nÉlectricité du Pré-Carré",
+  "pieces_jointes": [
+    {
+      "nom": "facture_2026-0871.pdf",
+      "fichier": "pieces/m-maca-628/facture_2026-0871.pdf",
+      "taille_octets": 896
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

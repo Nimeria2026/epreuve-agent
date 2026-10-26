@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-913",
+  "de": {
+    "nom": "Marc Duval",
+    "adresse": "marc.duval@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Mathieu",
+  "date": "2027-01-30T09:00:00+01:00",
+  "corps": "Sonia,\n\nMathieu n'est venu ni jeudi ni vendredi. Il est malade ? Jusqu'à quand dois-je le remplacer ?\n\nMarc (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

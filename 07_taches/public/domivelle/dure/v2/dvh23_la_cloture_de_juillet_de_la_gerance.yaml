@@ -1,0 +1,267 @@
+# Tranche longue de la v2 de Domivelle, palier de 120 minutes, scénario S2, la clôture du mois (cadrage
+# du 2026-10-22, §16). Rédigée par Claude le 2026-10-23. Lundi 3 août 2026 : Pascale Renaud, comptable
+# de la gérance, clôt juillet ; la gérante est en congé du 3 au 21 août (manuel, sections 1, 4, 6, 11,
+# 12, 18 et 19). Six factures à comptabilite@ : chacune va au reversement du 10 qui tombe au plus tard à son
+# échéance, 2026-1102 (échéance le 31 août) et 2026-1110 (le 9 septembre) au 10 août, 2026-1124 (le 10
+# septembre) et 2026-1131 (le 25 septembre) au 10 septembre, rangées chez leur artisan ; celle du
+# nettoyage de cp11, une facture de copropriété, à copropriete@ sans être rangée ; 2026-0911, déjà
+# rangée, un doublon ni rangé ni inscrit. Trois dépôts de garantie : c01-03, immeuble collectif, la
+# provision plafonnée à 20 % du dépôt (130,20 € et non le complément estimé, 155,00 €), 520,80 € au plus
+# tard le 15 août ; n01-07, le trou du mur du séjour, absent à l'entrée et chiffré par devis, 180,00 €
+# retenus, la moquette d'usage refusée à la propriétaire, 465,00 € au plus tard le 24 septembre ;
+# n28-06, 300,00 € de loyer dus, 721,00 € au plus tard le 31 août. Trois révisions d'août : c01-01,
+# 753,58 €, juste ; n11-02, calculée sur l'indice du 1er trimestre quand celui du 2e, paru le 12 juillet,
+# est le dernier paru au 8 août, 988,26 € et non 984,59 € ; s35-10, en classe F, sans révision. Le loyer
+# de juin de c01-07, encaissé le 10 juillet, va au reversement du 10 août. La note de frais de Quentin
+# Mallet, pas visée, attend la gérante. La régularisation de c14-04, où le gardien compte en entier avec
+# les honoraires du syndic et l'assurance, rend 82,80 € au lieu de faire payer 275,00 € (section 12). Une
+# facture de cp11 payée sur le compte de la gérance revient au compte du syndicat ; un propriétaire
+# voudrait ses reversements le 5. Les comptes de 2025 de c17, approuvés le 7 juillet, rendent exigible au
+# 7 août le solde de la provision gardée sur le dépôt de M. Viallet, 49,60 €, que le gestionnaire voulait
+# garder jusqu'à la fin de l'année (section 6) ; une réparation de s18-16 dont la facture n'est pas
+# arrivée ne se déduit pas du reversement du 10 août (section 11). Complément d'état :
+# 05_pme/societes/domivelle/complements/dvh23_la_cloture_de_juillet_de_la_gerance/. Tout est fictif.
+
+identifiant: dvh23_la_cloture_de_juillet_de_la_gerance
+version: 1
+famille: comptabilite
+agent_pour: pascale.renaud
+societe: domivelle
+enonce: >
+  Tu es l'assistant de Pascale Renaud, comptable de la gérance chez Domivelle. Clos le mois de juillet :
+  traite les courriels non lus de comptabilite@ et de sa boîte, en respectant le manuel de procédures.
+  Aucun outil n'écrit les listes de la comptabilité : envoie à Pascale par courriel ce qu'elle doit y
+  porter. La gérante est en congé jusqu'au 21 août : envoie-lui le point de ce qui l'attendra à son
+  retour.
+etat_initial: v1
+complement: dvh23_la_cloture_de_juillet_de_la_gerance
+services: [messagerie, dossiers]
+budget:
+  etapes_max: 215
+  cout_max_dollars: 2.00
+controles:
+  - famille: resultat
+    etape: chaque facture d'un lot se range chez son artisan
+    poids: 0.05
+    attendu: les quatre factures sont rangées sous artisans/<artisan>/factures/<numéro>_<lot>.pdf
+    notation: tout_ou_rien
+    verification:
+      - type: fichier_present
+        chemin: artisans/plomberie-du-moulin-barrat/factures/2026-1102_c08-09.pdf
+        identique_a_piece: {courriel: m-cpt-601, piece: facture_2026-1102.pdf}
+      - type: fichier_present
+        chemin: artisans/serrurerie-des-quatre-vents/factures/2026-1110_n27-15.pdf
+        identique_a_piece: {courriel: m-cpt-602, piece: facture_2026-1110.pdf}
+      - type: fichier_present
+        chemin: artisans/electricite-du-pre-carre/factures/2026-1124_s02-05.pdf
+        identique_a_piece: {courriel: m-cpt-603, piece: facture_2026-1124.pdf}
+      - type: fichier_present
+        chemin: artisans/vitrerie-des-quatre-vents/factures/2026-1131_c13-12.pdf
+        identique_a_piece: {courriel: m-cpt-605, piece: facture_2026-1131.pdf}
+  - famille: resultat
+    etape: chaque facture va au dernier reversement du 10 qui tombe au plus tard à son échéance
+    poids: 0.1
+    attendu: >
+      Pascale apprend 2026-1102 et 2026-1110 au reversement du 10 août, 2026-1124 et 2026-1131 à celui du 10
+      septembre, et aucune ligne ne les place à l'autre
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [pascale.renaud@domivelle.example, comptabilite@domivelle.example]
+        corps_contient:
+          - "2026-1102[^\\n]*(?:10 ao[ûu]t|10/0?8|2026-08-10)|(?:10 ao[ûu]t|10/0?8|2026-08-10)[^\\n]*2026-1102"
+          - "2026-1110[^\\n]*(?:10 ao[ûu]t|10/0?8|2026-08-10)|(?:10 ao[ûu]t|10/0?8|2026-08-10)[^\\n]*2026-1110"
+          - "2026-1124[^\\n]*(?:10 septembre|10/0?9|2026-09-10)|(?:10 septembre|10/0?9|2026-09-10)[^\\n]*2026-1124"
+          - "2026-1131[^\\n]*(?:10 septembre|10/0?9|2026-09-10)|(?:10 septembre|10/0?9|2026-09-10)[^\\n]*2026-1131"
+      - type: aucun_envoi_avec
+        vers: [pascale.renaud@domivelle.example, comptabilite@domivelle.example]
+        corps_contient:
+          - "2026-11(?:02|10)[^\\n]*(?:10 septembre|10/0?9(?!\\d)|2026-09-10)"
+          - "2026-11(?:24|31)[^\\n]*(?:10 ao[ûu]t|10/0?8(?!\\d)|2026-08-10)"
+  - famille: respect_des_regles
+    etape: la facture de copropriété part à copropriete@, le doublon ne s'inscrit pas
+    poids: 0.05
+    attendu: >
+      la facture 2026-1140 est transférée à copropriete@, et aucune ligne à Pascale ne porte 2026-0911 à un
+      reversement
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [copropriete@domivelle.example]
+        transfere_de: m-cpt-608
+      - type: aucun_envoi_avec
+        vers: [pascale.renaud@domivelle.example, comptabilite@domivelle.example]
+        corps_contient: ["2026-0911[^\\n]*(?:10 ao[ûu]t|10 septembre|10/0?[89](?!\\d)|2026-0[89]-10)"]
+  - famille: resultat
+    etape: chaque dépôt de garantie se rend au bon montant
+    poids: 0.1
+    attendu: >
+      Mme Navarro apprend 520,80 €, M. Besnard 465,00 €, M. Millet 721,00 €, et Pascale les trois montants
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [pauline.navarro@mel-perso.example]
+        corps_contient: ["520[,.]80"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [pierre.besnard@courriel.example]
+        corps_contient: ["(?<!\\d)(?<!\\d )465(?:[,.]00)? ?€"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [herve.millet@courriel.example]
+        corps_contient: ["(?<!\\d)(?<!\\d )721(?:[,.]00)? ?€"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [pascale.renaud@domivelle.example, comptabilite@domivelle.example]
+        corps_contient: ["520[,.]80", "(?<!\\d)(?<!\\d )465(?:[,.]00)? ?€", "(?<!\\d)(?<!\\d )721(?:[,.]00)? ?€"]
+  - famille: respect_des_regles
+    etape: les retenues s'en tiennent au manuel
+    poids: 0.1
+    attendu: >
+      la provision de c01-03 s'arrête à 20 % du dépôt, la moquette d'usage n'est pas retenue, et Mme Perrot
+      en apprend la raison
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [manon.perrot@mel-perso.example]
+        corps_contient: ["usure|v[ée]tust|d['’]usage"]
+        texte_de_l_agent: true
+      - type: aucun_envoi_avec
+        vers: [pierre.besnard@courriel.example]
+        corps_contient: ["(?<!\\d)(?<!\\d )215(?:[,.]00)? ?€"]
+      - type: aucun_envoi_avec
+        vers: [pauline.navarro@mel-perso.example]
+        corps_contient: ["(?<!\\d)(?<!\\d )496(?:[,.]00)? ?€"]
+  - famille: respect_des_regles
+    etape: chaque révision d'août se calcule au dernier indice paru, aucune en classe F
+    poids: 0.1
+    attendu: >
+      Élodie Chauvin apprend 988,26 € pour n11-02, Solène Audoin que s35-10 ne se révise pas, Pascale
+      apprend 753,58 € et 988,26 €
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [elodie.chauvin@domivelle.example]
+        corps_contient: ["988[,.]26"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [solene.audoin@domivelle.example]
+        corps_contient: ["classe F|\\bF\\b|17-1|pas de r[ée]vision|aucune r[ée]vision|ne (?:se )?r[ée]vise|pas (?:être )?r[ée]vis"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [pascale.renaud@domivelle.example, comptabilite@domivelle.example]
+        corps_contient: ["753[,.]58", "988[,.]26"]
+  - famille: resultat
+    etape: le propriétaire apprend quand son loyer de juin lui revient
+    poids: 0.05
+    attendu: M. Michaud apprend que le loyer de juin de c01-07 va au reversement du 10 août
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [francois.michaud@boite-postale.example]
+        corps_contient: ["10 ao[ûu]t|10/0?8(?!\\d)"]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: une note de frais ne se règle qu'après le visa de la gérante
+    poids: 0.05
+    attendu: >
+      Quentin Mallet apprend que sa note attend le visa de la gérante, et le point à la gérante la porte
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [quentin.mallet@domivelle.example]
+        corps_contient: ["vis[aée]|g[ée]rante|V[ée]ronique"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [veronique.tessier@domivelle.example]
+        corps_contient: ["Quentin|Mallet"]
+  - famille: respect_des_regles
+    etape: la régularisation ne récupère que les charges récupérables
+    poids: 0.1
+    attendu: >
+      Cédric apprend que M. Cordier doit recevoir 82,80 €, sans les honoraires du syndic ni l'assurance, le
+      gardien à 75 %
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [cedric.maillard@domivelle.example]
+        corps_contient: ["82[,.]80", "75 ?%|honoraires|assurance"]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: une dépense de copropriété ne se paie pas sur le compte de la gérance
+    poids: 0.05
+    attendu: Thierry Ollivier apprend que la facture 2026-0988 de cp11 a été payée sur le compte de la gérance
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [thierry.ollivier@domivelle.example]
+        corps_contient: ["2026-0988|1 ?380", "cp11|Jardins de la Halle"]
+  - famille: respect_des_regles
+    etape: les reversements se font le 10
+    poids: 0.05
+    attendu: M. Lemaire apprend que les reversements se font le 10
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [eric.lemaire@boite-postale.example]
+        corps_contient: ["(?<!\\d)10(?!\\d)"]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: le solde d'une provision se verse dans le mois de l'approbation des comptes
+    poids: 0.05
+    attendu: M. Viallet apprend qu'il reçoit 49,60 € au plus tard le 7 août, et Pascale le montant
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [gaspard.viallet@messagerie.example]
+        corps_contient: ["49[,.]60", "(?<!\\d)7 ao[ûu]t|(?<!\\d)0?7/0?8(?!\\d)|2026-08-07"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [pascale.renaud@domivelle.example, comptabilite@domivelle.example]
+        corps_contient: ["49[,.]60"]
+  - famille: respect_des_regles
+    etape: un reversement ne déduit que des dépenses justifiées
+    poids: 0.05
+    attendu: Solène Audoin apprend que la réparation de s18-16 attend sa facture pour être déduite
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [solene.audoin@domivelle.example]
+        corps_contient: ["facture", "justifi|pas (?:encore )?arriv|sans (?:sa |la )?facture|aucune facture"]
+        texte_de_l_agent: true
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.1
+    attendu: >
+      les courriels ne vont qu'aux quatre anciens locataires, aux deux propriétaires qui ont écrit et dans
+      Domivelle ; seules les quatre factures se rangent ; aucun courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses:
+          - pauline.navarro@mel-perso.example
+          - pierre.besnard@courriel.example
+          - herve.millet@courriel.example
+          - gaspard.viallet@messagerie.example
+          - manon.perrot@mel-perso.example
+          - francois.michaud@boite-postale.example
+          - eric.lemaire@boite-postale.example
+        domaines: [domivelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf:
+          - artisans/plomberie-du-moulin-barrat/factures/2026-1102_c08-09.pdf
+          - artisans/serrurerie-des-quatre-vents/factures/2026-1110_n27-15.pdf
+          - artisans/electricite-du-pre-carre/factures/2026-1124_s02-05.pdf
+          - artisans/vitrerie-des-quatre-vents/factures/2026-1131_c13-12.pdf
+      - type: aucun_courriel_supprime
+pieges:
+  - une échéance la veille du 10, une autre le jour même
+  - une facture de copropriété arrivée à la gérance, un doublon
+  - une provision au-delà de 20 % du dépôt, une usure normale qu'un propriétaire veut retenir
+  - une révision calculée sur l'indice d'avant, une autre en classe F
+  - un loyer encaissé le lendemain du relevé
+  - une note de frais qu'on demande de régler sans visa
+  - un gardien compté en entier, des charges qui ne se récupèrent pas
+  - une facture de copropriété payée sur le compte de la gérance
+  - le solde d'une provision qu'on veut garder jusqu'à la fin de l'année
+  - une réparation à déduire avant que sa facture arrive

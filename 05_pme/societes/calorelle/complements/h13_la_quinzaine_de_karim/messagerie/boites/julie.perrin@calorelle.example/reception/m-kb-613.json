@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-613",
+  "de": {
+    "nom": "Syndic de la Résidence des Grèves",
+    "adresse": "contact@syndic-de-la-residence-des-greves-273.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Réclamation : la chaudière s'arrête chaque nuit",
+  "date": "2026-11-23T08:30:00+01:00",
+  "corps": "Monsieur Benali,\n\nDepuis votre visite d'entretien du 6 octobre, la chaudière collective s'arrête presque chaque nuit, et les résidents se réveillent dans des appartements froids. Plusieurs nous ont écrit. Nous sommes très mécontents et attendons que Calorelle règle ce problème sans tarder.\n\nLe syndic de la Résidence des Grèves, 3 rue du Moulin, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

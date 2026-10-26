@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-301",
+  "de": {
+    "nom": "Outillage de Mirelande",
+    "adresse": "compta@outillage-de-mirelande.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture OM-2026-231",
+  "date": "2026-10-30T16:10:00+01:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-jointe notre facture OM-2026-231 du 30 octobre 2026.\n\nService comptable, Outillage de Mirelande (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "Facture_OM-2026-231.pdf",
+      "fichier": "pieces/m-cpt-301/Facture_OM-2026-231.pdf",
+      "taille_octets": 1047
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

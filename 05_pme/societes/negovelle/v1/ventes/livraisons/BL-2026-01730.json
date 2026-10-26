@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01730",
+  "commande": "CO-2026-01881",
+  "client": "c-0262",
+  "date_expedition": "2026-06-26",
+  "date_livraison": "2026-06-26",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "1 rue Saint-Martin, 36999 Vendrigny (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "QUI-10914",
+      "libelle": "Charnière piano 25 mm, inox",
+      "quantite": 6
+    },
+    {
+      "reference": "VIS-13095",
+      "libelle": "Vis à bois tête fraisée 5x80, zinguée, boîte de 100",
+      "quantite": 5
+    }
+  ],
+  "reserves": "un carton ouvert, il manque un sachet",
+  "signataire": "Gilles Humbert",
+  "statut": "livre"
+}

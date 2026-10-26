@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-711",
+  "de": {
+    "nom": "Lucas Fontaine",
+    "adresse": "lucas.fontaine@calorelle.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Pompe à chaleur de M. Lefebvre",
+  "date": "2026-11-27T15:20:00+01:00",
+  "corps": "Marc,\n\nLa pompe à chaleur de Patrick Lefebvre, dont la pose est prévue le jeudi 3 décembre, n'arrivera chez nous que le mercredi 9 décembre : le fournisseur me l'a confirmé ce matin. Tout le reste du matériel est là.\n\nLucas (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

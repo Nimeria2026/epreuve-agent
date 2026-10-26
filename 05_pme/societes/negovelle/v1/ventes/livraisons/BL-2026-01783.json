@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01783",
+  "commande": "CO-2026-01934",
+  "client": "c-0131",
+  "date_expedition": "2026-06-30",
+  "date_livraison": "2026-06-30",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "21 zone d'activités des Grands Prés, 36999 Fontclavier (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "OUT-12482",
+      "libelle": "Spatule japonaise 40 mm",
+      "quantite": 6
+    }
+  ],
+  "reserves": null,
+  "signataire": "Hervé Mignot",
+  "statut": "livre"
+}

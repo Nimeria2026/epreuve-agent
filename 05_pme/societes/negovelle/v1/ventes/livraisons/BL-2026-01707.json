@@ -1,0 +1,59 @@
+{
+  "numero": "BL-2026-01707",
+  "commande": "CO-2026-01858",
+  "client": "c-0167",
+  "date_expedition": "2026-06-25",
+  "date_livraison": "2026-06-25",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "1 zone d'activités des Grands Prés, 36999 Mérolles-en-Brenne (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "CON-10767",
+      "libelle": "Disque abrasif fibre 115 mm, grain 80, boîte de 25",
+      "quantite": 2
+    },
+    {
+      "reference": "ENT-10587",
+      "libelle": "Nettoyant détartrant sanitaire, bidon de 5 l",
+      "quantite": 2
+    },
+    {
+      "reference": "FIX-10685",
+      "libelle": "Cheville nylon 8x60, boîte de 200",
+      "quantite": 3
+    },
+    {
+      "reference": "FIX-10767",
+      "libelle": "Cheville pour plaque de plâtre 5x52, boîte de 100",
+      "quantite": 2
+    },
+    {
+      "reference": "PLB-10359",
+      "libelle": "Clapet anti-retour laiton 15x21",
+      "quantite": 2
+    },
+    {
+      "reference": "PLB-12858",
+      "libelle": "Tube PER 16 mm, nu, couronne de 50 m",
+      "quantite": 1
+    },
+    {
+      "reference": "PRO-10171",
+      "libelle": "Bottes de sécurité fourrées S5, pointure 38",
+      "quantite": 1
+    },
+    {
+      "reference": "QUI-12940",
+      "libelle": "Verrou de sûreté 60 mm, acier",
+      "quantite": 4
+    }
+  ],
+  "reserves": null,
+  "signataire": "Claude Langlais",
+  "statut": "livre"
+}

@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01745",
+  "commande": "CO-2026-01896",
+  "client": "c-0081",
+  "date_expedition": "2026-06-26",
+  "date_livraison": "2026-06-26",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "83 rue des Remparts, 36999 Fontclavier (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ELE-10293",
+      "libelle": "Appareil modulaire contacteur jour-nuit 25 A",
+      "quantite": 4
+    }
+  ],
+  "reserves": null,
+  "signataire": "Noémie Cosson",
+  "statut": "livre"
+}

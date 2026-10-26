@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-rejo-001",
+  "de": {
+    "nom": "Gilles Poirier",
+    "adresse": "gilles.poirier@negovelle.example"
+  },
+  "a": [
+    "remi.joly@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Retours contrôlés",
+  "date": "2026-07-03T17:45:00+02:00",
+  "corps": "Rémi,\n\nRetours reçus au quai jeudi et vendredi, contrôlés :\n- Électricité Ruel, 2 cylindres QUI-11420 : neufs, dans leur emballage d'origine ;\n- Plâtrerie Hoarau, 4 boîtes de vis VIS-11976 : neuves, non ouvertes ;\n- Électricité Rouxel, 5 hublots ronds ELE-12254 repris par Jordan : neufs, dans leur carton ;\n- Couverture Ancelin, 6 cylindres QUI-11657 : 4 neufs dans leur emballage, 2 sortis de leur emballage, emballage déchiré ;\n- Peinture Bruneau, 4 boîtes de vis VIS-11290 : intactes ;\n- Charpente Quéré, 3 casques antibruit PRO-10400 : sortis de leur sachet ;\n- Garage Guillon, 2 truelles OUT-12899 : traces de mortier, elles ont servi.\n\nRien d'autre n'est arrivé.\n\nGilles",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

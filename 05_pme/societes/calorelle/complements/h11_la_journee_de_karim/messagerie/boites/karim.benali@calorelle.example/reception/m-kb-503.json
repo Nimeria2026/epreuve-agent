@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-503",
+  "de": {
+    "nom": "Commune des Hautes-Fresnes",
+    "adresse": "contact@commune-des-hautes-fresnes-344.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Rendez-vous de jeudi à la médiathèque",
+  "date": "2026-11-17T07:55:00+01:00",
+  "corps": "Bonjour Monsieur Benali,\n\nVotre technicien doit venir jeudi 19 novembre à 8 h pour la pompe à chaleur de la médiathèque. La médiathèque sera fermée jeudi matin pour l'inventaire, et personne ne pourra ouvrir. Pourrait-il venir jeudi après-midi, ou vendredi ?\n\nCordialement,\nLe secrétariat de la mairie des Hautes-Fresnes (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

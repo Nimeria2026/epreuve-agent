@@ -1,0 +1,90 @@
+{
+  "numero": "CO-2026-01923",
+  "client": "c-0114",
+  "reference_client": null,
+  "cree_le": "2026-06-29T09:10:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "10 zone industrielle des Brandes, 36999 Vendrigny (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-11372",
+      "libelle": "Mastic hybride MS polymère, cartouche de 310 ml, blanc",
+      "quantite": 48,
+      "prix_tarif_ht_euros": 13.7,
+      "remise_pourcent": 11.68,
+      "prix_net_ht_euros": 12.1,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 580.8
+    },
+    {
+      "reference": "ENT-10302",
+      "libelle": "Chiffon d'essuyage coton de couleur, carton de 5 kg",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 27.4,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 27.4,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 274.0
+    },
+    {
+      "reference": "FIX-10457",
+      "libelle": "Cheville nylon 5x40, boîte de 50",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 9.5,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 8.74,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 87.4
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 942.2,
+  "total_tva_euros": 188.44,
+  "total_ttc_euros": 1130.64,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01772"
+  ],
+  "facture": "FC-2026-1102",
+  "historique": [
+    {
+      "date": "2026-06-29T09:10:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-29T09:12:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-30T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01772"
+    },
+    {
+      "date": "2026-06-30T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01772"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1102"
+    }
+  ]
+}

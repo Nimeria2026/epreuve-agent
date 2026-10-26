@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01796",
+  "commande": "CO-2026-01947",
+  "client": "c-0140",
+  "date_expedition": "2026-07-01",
+  "date_livraison": "2026-07-01",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "133 rue des Chênes, 36999 Ardillac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "CON-10245",
+      "libelle": "Bombe galvanisante, orange fluo, aérosol de 500 ml",
+      "quantite": 6
+    },
+    {
+      "reference": "ELE-10383",
+      "libelle": "Borne de connexion automatique 5 conducteurs, boîte de 50",
+      "quantite": 1
+    }
+  ],
+  "reserves": null,
+  "signataire": "Isabelle Legendre",
+  "statut": "livre"
+}

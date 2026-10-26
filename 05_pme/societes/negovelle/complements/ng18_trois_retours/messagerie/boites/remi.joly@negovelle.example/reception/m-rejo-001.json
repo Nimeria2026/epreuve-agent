@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-rejo-001",
+  "de": {
+    "nom": "Gilles Poirier",
+    "adresse": "gilles.poirier@negovelle.example"
+  },
+  "a": [
+    "remi.joly@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Retours contrôlés",
+  "date": "2026-07-03T17:30:00+02:00",
+  "corps": "Rémi,\n\nContrôlés cet après-midi :\n- les 5 clés mixtes de 26 mm rapportées par Guyot Travaux publics : neuves, dans leur emballage d'origine ;\n- les 10 pantalons noirs en taille 38 repris par Patrice chez Charpente Auger : neufs, dans leur sachet.\nTu peux les enregistrer.\n\nGilles",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

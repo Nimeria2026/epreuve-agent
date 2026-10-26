@@ -1,0 +1,39 @@
+{
+  "numero": "BL-2026-01756",
+  "commande": "CO-2026-01907",
+  "client": "c-0222",
+  "date_expedition": "2026-06-29",
+  "date_livraison": "2026-06-29",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "33 parc d'activités de la Gare, 36999 Vaumoreau-sur-Indre (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ELE-10261",
+      "libelle": "Ampoule LED GU10 6 W, 4000 K",
+      "quantite": 2
+    },
+    {
+      "reference": "FIX-11657",
+      "libelle": "Goujon d'ancrage M16x75, boîte de 50",
+      "quantite": 3
+    },
+    {
+      "reference": "PLB-10334",
+      "libelle": "Chauffe-eau électrique 50 l, vertical sur socle",
+      "quantite": 3
+    },
+    {
+      "reference": "PLB-10833",
+      "libelle": "Coude PVC 87° 32 mm",
+      "quantite": 2
+    }
+  ],
+  "reserves": null,
+  "signataire": "Pascal Genet",
+  "statut": "livre"
+}

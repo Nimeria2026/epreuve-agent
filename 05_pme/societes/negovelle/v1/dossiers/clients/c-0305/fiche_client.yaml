@@ -1,0 +1,31 @@
+# Fiche du client c-0305 de Négovelle. Données FICTIVES.
+code: c-0305
+nom: Imprimerie Becker
+type: pme
+adresse: 38 zone artisanale du Moulin, 36999 Saulvenne (FICTIF)
+telephone: 02 61 91 82 38
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Françoise Mahé
+  fonction: responsable des achats
+  courriel: francoise.mahe@imprimerie-becker.example
+- nom: Xavier Daniel
+  fonction: responsable de maintenance
+  courriel: xavier.daniel@imprimerie-becker.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 38 zone artisanale du Moulin, 36999 Saulvenne (FICTIF)
+- code: L2
+  libelle: dépôt
+  adresse: 29 parc d'activités de la Gare, 36999 Vendrigny (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2013-04-01'
+limite_encours_euros: 2000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

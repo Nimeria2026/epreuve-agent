@@ -1,0 +1,13 @@
+{
+  "numero": "INT-2026-0011",
+  "client": "c-0410",
+  "techniciens": [
+    "mathieu.picard"
+  ],
+  "debut": "2026-11-03T10:00:00+01:00",
+  "fin": "2026-11-03T12:00:00+01:00",
+  "nature": "depannage",
+  "objet": "Dépannage : pompe à chaleur en défaut",
+  "statut": "planifiee",
+  "cree_par": "donnees_initiales"
+}

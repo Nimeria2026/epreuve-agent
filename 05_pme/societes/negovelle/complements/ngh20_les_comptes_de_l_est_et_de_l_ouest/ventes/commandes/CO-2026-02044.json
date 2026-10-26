@@ -1,0 +1,59 @@
+{
+  "numero": "CO-2026-02044",
+  "client": "c-0206",
+  "reference_client": null,
+  "cree_le": "2026-07-03T10:00:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "22 rue des Forges, 36999 Vendrigny (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELP-11551",
+      "libelle": "Perceuse-visseuse 18 V, 1 batterie(s) 2 Ah, coffret",
+      "quantite": 8,
+      "prix_tarif_ht_euros": 243.3,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 223.84,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 1790.72
+    },
+    {
+      "reference": "ELE-10979",
+      "libelle": "Câble H07V-U 10 mm², couronne de 100 m",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 78.15,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 71.9,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 719.0
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 2509.72,
+  "total_tva_euros": 501.94,
+  "total_ttc_euros": 3011.66,
+  "statut": "en_attente_deblocage",
+  "motif_attente": "encours dépassé : encours 10 864,39 € et commande 3 011,66 € TTC pour une limite de 13 500,00 €",
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T10:00:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": "commande du client"
+    },
+    {
+      "date": "2026-07-03T10:02:00+02:00",
+      "par": "benoit.faure",
+      "action": "mise_en_attente",
+      "detail": "encours dépassé"
+    }
+  ]
+}

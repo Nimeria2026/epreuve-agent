@@ -1,0 +1,103 @@
+# Tranche 4 (étape 5), tâche 31, n° 26 de la carte du banc. Rédigée par Claude le 2026-10-07
+# (JOURNAL, quatre-vingt-sixième entrée), sur l'état v2, sans complément. Les trois clients du
+# mois anniversaire de novembre qui habitent chemin des Vignes n'ont pas encore de visite :
+# Camille Martin (c-0066), Jean Dupont (c-0135), la commune de Brenneval (c-0536). Les trois
+# visites tombent la même demi-journée, avec un même technicien qui entretient les chaudières
+# gaz, en novembre (manuel, section 4) ; chaque client reçoit le jour et l'heure. Une demi-journée
+# dure 4 heures : trois visites d'1 h 30 n'y tiennent pas pour un seul technicien, il faut des
+# visites plus courtes ou un second technicien à côté du premier. Tout est fictif.
+# Version 2, le 2026-10-08 (JOURNAL, quatre-vingt-dix-septième entrée) : la tâche part de l'état
+# v3, comme tout le banc ; budget de 45 étapes au lieu de 35, par la règle du témoin (25, plus
+# deux fois ses 8 étapes) ; l'énoncé dit qu'une visite dure une heure : celles du planning durent
+# 1 h 30, et trois ne tenaient pas sur une demi-journée avec un seul technicien.
+# Version 3, le 2026-10-08 (JOURNAL, centième entrée) : budget de 55 étapes au lieu de 45, par la
+# règle du témoin, qui lit désormais tout ce qu'il utilise hors l'orientation.
+# Version 4, le 2026-10-10 (JOURNAL, cent-douzième entrée) : l'énoncé dit que Marc a déjà appelé
+# les trois clients. Le manuel (section 4) ne laisse promettre aucune date de visite annuelle avant
+# cet appel, et l'énoncé demandait de l'annoncer par courriel : les deux se contredisaient, et le
+# relecteur de DeepSeek renvoyait les trois courriels pour cette raison.
+
+identifiant: t31_regrouper_trois_visites
+version: 4
+famille: planning
+agent_pour: marc.duval
+enonce: >
+  Tu es l'assistant de Marc Duval, responsable planning chez Calorelle. Camille Martin, Jean
+  Dupont et la commune de Brenneval, tous chemin des Vignes, attendent leur visite d'entretien
+  annuel, pour des chaudières gaz. Regroupe leurs trois visites sur une même demi-journée, avec un
+  même technicien, en respectant le manuel de procédures ; chaque visite dure une heure. Donne
+  ensuite à chacun le jour et l'heure par courriel : Marc les a appelés tous les trois, ils
+  acceptent la demi-journée que tu choisiras et en attendent la confirmation écrite.
+etat_initial: v3
+services: [messagerie, dossiers, planning]
+budget:
+  etapes_max: 55
+  cout_max_dollars: 0.40
+controles:
+  - famille: resultat
+    etape: les trois visites tombent la même demi-journée de novembre
+    poids: 0.5
+    attendu: >
+      une visite annuelle ajoutée pour chacun des trois clients, en novembre 2026, avec un
+      technicien confirmé qui entretient les chaudières gaz ; les trois le même jour, la même
+      demi-journée, avec un technicien commun ; aucune intervention ne compte l'apprenti seul
+    notation: tout_ou_rien
+    verification:
+      - type: intervention_ajoutee
+        client: c-0066
+        nature: visite_annuelle
+        apres: "2026-11-02T09:00:00+01:00"
+        avant: "2026-12-01T00:00:00+01:00"
+        competence: chaudiere_gaz
+      - type: intervention_ajoutee
+        client: c-0135
+        nature: visite_annuelle
+        apres: "2026-11-02T09:00:00+01:00"
+        avant: "2026-12-01T00:00:00+01:00"
+        competence: chaudiere_gaz
+      - type: intervention_ajoutee
+        client: c-0536
+        nature: visite_annuelle
+        apres: "2026-11-02T09:00:00+01:00"
+        avant: "2026-12-01T00:00:00+01:00"
+        competence: chaudiere_gaz
+      - type: interventions_regroupees
+        clients: [c-0066, c-0135, c-0536]
+        meme_technicien: true
+      - type: jamais_seuls
+        techniciens: [enzo.caron]
+  - famille: contenu
+    etape: chaque client reçoit le jour et l'heure
+    poids: 0.3
+    attendu: chacun des trois clients reçoit un courriel avec le jour et l'heure de sa visite
+    notation: proportion
+    verification:
+      - type: intervention_annoncee
+        vers: [camille.martin@courriel.example]
+        client: c-0066
+      - type: intervention_annoncee
+        vers: [jean.dupont@courriel.example]
+        client: c-0135
+      - type: intervention_annoncee
+        vers: [contact@commune-de-brenneval-536.example]
+        client: c-0536
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.2
+    attendu: >
+      le reste du planning est inchangé ; les courriels ne vont qu'aux trois clients ou au
+      personnel ; aucun fichier créé, déplacé ou supprimé ; aucun courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: planning_inchange
+        sauf_ajouts_pour: [c-0066, c-0135, c-0536]
+      - type: seuls_destinataires
+        adresses:
+          - camille.martin@courriel.example
+          - jean.dupont@courriel.example
+          - contact@commune-de-brenneval-536.example
+        domaines: [calorelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges: []

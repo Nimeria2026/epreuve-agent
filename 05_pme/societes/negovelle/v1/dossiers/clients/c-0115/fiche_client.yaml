@@ -1,0 +1,25 @@
+# Fiche du client c-0115 de Négovelle. Données FICTIVES.
+code: c-0115
+nom: Maçonnerie Lhomme
+type: artisan
+adresse: 118 place du Marché, 36999 Vendrigny (FICTIF)
+telephone: 02 61 91 86 14
+secteur: est
+commercial: fabrice.mercier
+administration_des_ventes: benoit.faure
+contacts:
+- nom: Françoise Ancelin
+  fonction: gérante
+  courriel: francoise.ancelin@maconnerie-lhomme.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 118 place du Marché, 36999 Vendrigny (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2018-08-01'
+limite_encours_euros: 2000.0
+livraisons_partielles: false
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

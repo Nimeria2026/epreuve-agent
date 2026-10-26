@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01670",
+  "commande": "CO-2026-01821",
+  "client": "c-0224",
+  "date_expedition": "2026-06-24",
+  "date_livraison": "2026-06-24",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "13 parc d'activités de la Gare, 36999 Ardillac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "PLB-11853",
+      "libelle": "Mécanisme de chasse à tirette",
+      "quantite": 2
+    },
+    {
+      "reference": "VIS-10048",
+      "libelle": "Boulon tête hexagonale M10x20, zingué, sachet de 25",
+      "quantite": 5
+    }
+  ],
+  "reserves": null,
+  "signataire": "Roger Baudouin",
+  "statut": "livre"
+}

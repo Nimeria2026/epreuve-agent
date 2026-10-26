@@ -1,0 +1,11 @@
+# Fiche du propriétaire p-0303, mandant de Domivelle. Données FICTIVES.
+code: p-0303
+nom: M. Hugo Meunier
+adresse: 105 rue Saint-Martin, 18999 Montclavel-sur-Cher (FICTIF)
+courriel: hugo.meunier@boite-postale.example
+telephone: 06 39 98 60 32
+iban: FR76 9999 9631 7041 9498 1833 645 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- n08-03
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

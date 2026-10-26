@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cpt-609",
+  "de": {
+    "nom": "M. Éric Lemaire",
+    "adresse": "eric.lemaire@boite-postale.example"
+  },
+  "a": [
+    "comptabilite@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Date de mes reversements",
+  "date": "2026-07-30T09:20:00+02:00",
+  "corps": "Madame,\n\nPourriez-vous me verser mes loyers le 5 de chaque mois plutôt que le 10 ? Mon emprunt est prélevé le 6.\n\nM. Éric Lemaire",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

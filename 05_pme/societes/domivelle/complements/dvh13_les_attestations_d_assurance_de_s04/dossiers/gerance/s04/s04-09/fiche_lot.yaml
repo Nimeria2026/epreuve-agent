@@ -1,0 +1,19 @@
+# Fiche du lot s04-09. Données FICTIVES.
+lot: s04-09
+adresse: 138 chemin du Bois, 18999 Chantebrune (FICTIF)
+type: T1
+surface_m2: 28
+locataire:
+  nom: M. Serge Garnier
+  courriel: serge.garnier@messagerie.example
+  telephone: 06 39 98 71 09
+  entree: '2019-05-09'
+bail:
+  signature: '2019-05-09'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 235,00 €
+  depot_de_garantie: 200,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T1
+dpe:
+  classe: E

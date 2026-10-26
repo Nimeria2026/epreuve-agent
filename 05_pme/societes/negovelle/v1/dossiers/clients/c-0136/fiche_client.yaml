@@ -1,0 +1,28 @@
+# Fiche du client c-0136 de Négovelle. Données FICTIVES.
+code: c-0136
+nom: Services techniques de Saulvenne
+type: collectivite
+adresse: 128 rue des Vignes, 36999 Saulvenne (FICTIF)
+telephone: 02 61 91 73 57
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Michel Foucault
+  fonction: responsable des services techniques
+  courriel: michel.foucault@services-techniques-de-saulvenne.example
+- nom: Antoine Blanchet
+  fonction: secrétaire de mairie
+  courriel: antoine.blanchet@services-techniques-de-saulvenne.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 128 rue des Vignes, 36999 Saulvenne (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2008-08-01'
+limite_encours_euros: 1500.0
+livraisons_partielles: false
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

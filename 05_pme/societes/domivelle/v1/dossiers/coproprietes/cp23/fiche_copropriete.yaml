@@ -1,0 +1,20 @@
+# Fiche de la copropriété cp23. Données FICTIVES.
+copropriete: cp23
+nom: Résidence Les Mimosas
+adresse: 20 rue des Écoles, 18999 Montclavel-sur-Cher (FICTIF)
+lots_principaux: 16
+annee_construction: 2007
+ascenseur: true
+exercice: du lendemain du 31 décembre au 31 décembre
+gestionnaire: Yohan Delmas
+conseil_syndical:
+  president: M. Vincent Vincent
+  membres:
+  - M. Didier Bertin
+  - Mme Anne Texier
+seuil_mise_en_concurrence: 6 000,00 €
+seuil_consultation_du_conseil_syndical: 1 000,00 €
+assureur_de_l_immeuble: Assurances Brévalle (FICTIF)
+declaration_des_sinistres: sinistres@assurances-brevalle.example
+immeuble_en_gestion_locative: c26
+fonds_de_travaux: 5 % du budget prévisionnel, aux tantièmes généraux, appelé avec chaque provision

@@ -1,0 +1,107 @@
+# Classement des tâches publiques (contrat 01_contrats/classement.schema.json ; JOURNAL, entrées 121,
+# 125 et 154). Écrit par ease.classement : make classement VERSER=1 ou ESTIMER=1 réécrit ce fichier
+# d'un bloc, sans garder d'autres commentaires que celui-ci. Les étiquettes, le type commun d'une
+# tâche du socle commun (07_taches/public/types_communs.yaml), la fiche ROME et les sections du
+# manuel s'écrivent à la main ; les durées, jamais : les mesurées viennent des runs du poste
+# humain, l'estimée de la grille (ease.grille) sur un run du témoin parfait. Le métier, les
+# services, le contrôle grave et les étapes du témoin se calculent depuis la tâche (make classement).
+# Fiches ROME : France Travail, ROME 4.0, Licence Ouverte ; on cite le code et l'intitulé.
+version: 2
+personnes: {}
+taches:
+  h01_paiements_de_la_quinzaine:
+    version_tache: 3
+    etiquettes: [calcul, dates_et_echeances, volume, regle_peu_visible]
+    rome: {code: M1608, intitule: Secrétariat comptable}
+    sections_manuel: [1, 5]
+    durees: []
+    duree_estimee: {secondes: 1371.0, grille: '1', version_tache: 3, run: 2026-10-20_130518_temoin_parfait,
+      lire: 290.7, chercher: 71.8, ecrire: 647.4, agir: 361.2}
+  h02_la_semaine_de_thomas_girard:
+    version_tache: 4
+    etiquettes: [dates_et_echeances, volume, regle_peu_visible]
+    rome: {code: M1605, intitule: Assistanat technique et administratif}
+    sections_manuel: [4, 9]
+    durees: []
+    duree_estimee: {secondes: 2635.7, grille: '1', version_tache: 4, run: 2026-10-20_130518_temoin_parfait,
+      lire: 116.5, chercher: 296.1, ecrire: 1632.6, agir: 590.4}
+  h03_le_portefeuille_de_julie:
+    version_tache: 5
+    etiquettes: [dates_et_echeances, volume, regle_peu_visible]
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [2, 3, 4, 6]
+    durees: []
+    duree_estimee: {secondes: 4718.0, grille: '1', version_tache: 5, run: 2026-10-20_130518_temoin_parfait,
+      lire: 642.1, chercher: 284.3, ecrire: 3157.9, agir: 633.8}
+  h04_les_conges_de_fin_d_annee:
+    version_tache: 14
+    etiquettes: [dates_et_echeances, regle_peu_visible]
+    rome: {code: M1501, intitule: Assistanat en ressources humaines}
+    sections_manuel: [7]
+    durees: []
+    duree_estimee: {secondes: 945.4, grille: '1', version_tache: 14, run: 2026-10-21_221222_temoin_parfait,
+      lire: 111.7, chercher: 24.1, ecrire: 723.2, agir: 86.5}
+  h05_la_semaine_des_syndics:
+    version_tache: 2
+    etiquettes: [dates_et_echeances, regle_peu_visible]
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [2, 3, 6]
+    durees: []
+    duree_estimee: {secondes: 1262.2, grille: '1', version_tache: 2, run: 2026-10-20_130518_temoin_parfait,
+      lire: 193.9, chercher: 243.1, ecrire: 716.8, agir: 108.4}
+  h06_la_cloture_d_octobre:
+    version_tache: 8
+    etiquettes: [calcul, dates_et_echeances, regle_peu_visible]
+    rome: {code: M1608, intitule: Secrétariat comptable}
+    sections_manuel: [1, 5, 7]
+    durees: []
+    duree_estimee: {secondes: 2046.1, grille: '1', version_tache: 8, run: 2026-10-20_130518_temoin_parfait,
+      lire: 357.7, chercher: 82.5, ecrire: 1408.4, agir: 197.4}
+  h07_l_arrivee_de_deux_salaries:
+    version_tache: 2
+    etiquettes: [dates_et_echeances, regle_peu_visible]
+    rome: {code: M1501, intitule: Assistanat en ressources humaines}
+    sections_manuel: [1, 7, 9]
+    durees: []
+    duree_estimee: {secondes: 1938.1, grille: '1', version_tache: 2, run: 2026-10-20_130518_temoin_parfait,
+      lire: 285.1, chercher: 12.0, ecrire: 1417.9, agir: 223.1}
+  h08_contact_apres_trois_jours:
+    version_tache: 5
+    etiquettes: [volume, regle_peu_visible]
+    rome: {code: M1607, intitule: Secrétariat}
+    sections_manuel: [1, 2, 3, 7]
+    durees: []
+    duree_estimee: {secondes: 3302.2, grille: '1', version_tache: 5, run: 2026-10-22_061512_temoin_parfait,
+      lire: 729.8, chercher: 282.2, ecrire: 1657.9, agir: 632.3}
+  h09_la_vague_de_froid:
+    version_tache: 1
+    etiquettes: [dates_et_echeances, volume, regle_peu_visible]
+    rome: {code: M1605, intitule: Assistanat technique et administratif}
+    sections_manuel: [4, 9]
+    durees: []
+    duree_estimee: {secondes: 5457.8, grille: '1', version_tache: 1, run: 2026-10-20_130518_temoin_parfait,
+      lire: 637.3, chercher: 250.0, ecrire: 3590.5, agir: 980.0}
+  h10_les_chantiers_acceptes:
+    version_tache: 1
+    etiquettes: [piege, dates_et_echeances, volume]
+    rome: {code: M1605, intitule: Assistanat technique et administratif}
+    sections_manuel: [9]
+    durees: []
+    duree_estimee: {secondes: 1470.5, grille: '1', version_tache: 1, run: 2026-10-20_130518_temoin_parfait,
+      lire: 122.8, chercher: 226.7, ecrire: 915.8, agir: 205.2}
+  h11_la_journee_de_karim:
+    version_tache: 2
+    etiquettes: [piege, volume, regle_peu_visible, document]
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [1, 2, 3, 4, 6]
+    durees: []
+    duree_estimee: {secondes: 2131.6, grille: '1', version_tache: 2, run: 2026-10-20_130518_temoin_parfait,
+      lire: 412.9, chercher: 234.7, ecrire: 1190.5, agir: 293.4}
+  h12_la_fin_de_novembre:
+    version_tache: 2
+    etiquettes: [piege, calcul, dates_et_echeances, volume]
+    rome: {code: M1608, intitule: Secrétariat comptable}
+    sections_manuel: [1, 5, 8]
+    durees: []
+    duree_estimee: {secondes: 3260.7, grille: '1', version_tache: 2, run: 2026-10-20_130518_temoin_parfait,
+      lire: 453.8, chercher: 98.7, ecrire: 2437.9, agir: 270.3}

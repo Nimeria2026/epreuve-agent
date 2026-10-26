@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-vete-613",
+  "de": {
+    "nom": "Mme Suzanne Aubert",
+    "adresse": "suzanne.aubert@mel-perso.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Mon lot c06-04",
+  "date": "2026-08-14T11:10:00+02:00",
+  "corps": "Madame Tessier,\n\nJe souhaite reprendre moi-même la gestion de mon appartement c06-04 au 31 décembre, et mettre fin à mon mandat de gestion pour ce lot. Que dois-je faire ?\n\nMme Suzanne Aubert",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

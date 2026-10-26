@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-709",
+  "de": {
+    "nom": "Hélène François",
+    "adresse": "helene.francois@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis thermostat et radiateurs",
+  "date": "2026-12-15T17:05:00+01:00",
+  "corps": "Bonjour,\n\nM. Picard est passé hier pour le thermostat et les deux radiateurs des combles. J'attends votre devis.\n\nHélène François, 80 impasse des Saules, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

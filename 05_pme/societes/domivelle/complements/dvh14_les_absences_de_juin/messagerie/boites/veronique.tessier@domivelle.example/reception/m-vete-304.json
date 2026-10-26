@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-vete-304",
+  "de": {
+    "nom": "Agathe Lemoine",
+    "adresse": "agathe.lemoine@mel-perso.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Candidature : assistante de gestion locative",
+  "date": "2026-06-06T15:12:00+02:00",
+  "corps": "Madame,\n\nAssistante de gestion locative depuis quatre ans, je vous adresse ma candidature spontanée. Mon curriculum vitae est joint.\n\nAgathe Lemoine",
+  "pieces_jointes": [
+    {
+      "nom": "cv_agathe_lemoine.pdf",
+      "fichier": "pieces/m-vete-304/cv_agathe_lemoine.pdf",
+      "taille_octets": 770
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

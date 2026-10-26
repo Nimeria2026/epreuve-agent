@@ -1,0 +1,31 @@
+# Fiche du client c-0300 de Négovelle. Données FICTIVES.
+code: c-0300
+nom: Menuiserie industrielle Morel
+type: pme
+adresse: 20 zone artisanale du Moulin, 36999 Fontclavier (FICTIF)
+telephone: 02 61 91 75 15
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Fabrice Gay
+  fonction: responsable des achats
+  courriel: fabrice.gay@menuiserie-industrielle-morel.example
+- nom: Valérie Guyot
+  fonction: responsable de maintenance
+  courriel: valerie.guyot@menuiserie-industrielle-morel.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 20 zone artisanale du Moulin, 36999 Fontclavier (FICTIF)
+- code: L2
+  libelle: dépôt
+  adresse: 1 parc d'activités de la Gare, 36999 Saulvenne (FICTIF)
+categorie_remise: B
+delai_paiement: 60_jours_date_de_facture
+client_depuis: '2020-11-01'
+limite_encours_euros: 4500.0
+livraisons_partielles: true
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

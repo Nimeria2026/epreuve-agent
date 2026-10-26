@@ -1,0 +1,8 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0086"
+nom: "Agnès Robin"
+type: "particulier"
+adresse: "95 rue des Lilas, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "agnes.robin@courriel.example"
+telephone: "06 39 98 50 21"
+charge_d_affaires: "julie.perrin"

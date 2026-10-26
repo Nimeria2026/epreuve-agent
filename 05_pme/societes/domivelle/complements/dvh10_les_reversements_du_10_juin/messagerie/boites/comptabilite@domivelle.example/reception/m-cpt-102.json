@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-102",
+  "de": {
+    "nom": "SCI Le Vieux Pont Famille",
+    "adresse": "gestion@sci-le-vieux-pont-famille.example"
+  },
+  "a": [
+    "comptabilite@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Changement de banque",
+  "date": "2026-06-06T16:50:00+02:00",
+  "corps": "Bonjour,\n\nNotre SCI change de banque ce mois-ci. Merci de verser nos loyers, dès le reversement du 10 juin, sur le compte du relevé d'identité bancaire ci-joint : FR76 9999 9428 5531 0076 4412 087. Pour toute question, joignez notre nouveau gérant au 07 00 41 26 93.\n\nThomas Perret, gérant de la SCI Le Vieux Pont Famille",
+  "pieces_jointes": [
+    {
+      "nom": "rib_sci_le_vieux_pont_famille.pdf",
+      "fichier": "pieces/m-cpt-102/rib_sci_le_vieux_pont_famille.pdf",
+      "taille_octets": 794
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,112 @@
+{
+  "numero": "CO-2026-01829",
+  "client": "c-0199",
+  "reference_client": "BC-3580",
+  "cree_le": "2026-06-23T09:10:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "express",
+  "livraison": {
+    "code": "L1",
+    "adresse": "7 parc d'activités de la Gare, 36999 Fontclavier (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-11494",
+      "libelle": "Mousse polyuréthane expansive manuelle, 500 ml",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 12.85,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 12.34,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 61.7
+    },
+    {
+      "reference": "CON-11943",
+      "libelle": "Ruban adhésif PVC 25 mm, rouleau de 50 m",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 2.9,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 2.78,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 16.68
+    },
+    {
+      "reference": "ELE-10196",
+      "libelle": "Ampoule LED G9 6 W, 2700 K",
+      "quantite": 50,
+      "prix_tarif_ht_euros": 3.4,
+      "remise_pourcent": 7.84,
+      "prix_net_ht_euros": 3.13,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 156.5
+    },
+    {
+      "reference": "PLB-12319",
+      "libelle": "Raccord à sertir réduction 20 mm",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 4.75,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 4.56,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 45.6
+    },
+    {
+      "reference": "VIS-13217",
+      "libelle": "Vis à bois tête fraisée 6x25, inox A2, boîte de 100",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 4.75,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 4.56,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 4.56
+    }
+  ],
+  "port_ht_euros": 25.0,
+  "total_ht_euros": 310.04,
+  "total_tva_euros": 62.01,
+  "total_ttc_euros": 372.05,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01678"
+  ],
+  "facture": "FC-2026-1180",
+  "historique": [
+    {
+      "date": "2026-06-23T09:10:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-23T09:12:00+02:00",
+      "par": "oceane.collin",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-23T16:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01678"
+    },
+    {
+      "date": "2026-06-24T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01678"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1180"
+    }
+  ]
+}

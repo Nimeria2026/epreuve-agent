@@ -1,0 +1,8 @@
+# Fiche fournisseur Calorelle. Données FICTIVES.
+nom: "Transports de Mirelande"
+activite: "transports"
+adresse: "48 zone d'activité des Saulaies, 45999 Valmont-sur-Loire (FICTIF)"
+telephone: "02 61 91 20 37"
+courriel_facturation: "compta@transports-de-mirelande.example"
+iban: "FR76 9999 9791 7341 4190 8641 895 (FICTIF)"
+conditions: "paiement à 30 jours fin de mois"

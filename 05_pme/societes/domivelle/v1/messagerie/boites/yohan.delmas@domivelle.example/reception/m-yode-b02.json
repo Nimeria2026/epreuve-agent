@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-yode-b02",
+  "de": {
+    "nom": "M. Henri Dupuy",
+    "adresse": "henri.dupuy@boite-postale.example"
+  },
+  "a": [
+    "yohan.delmas@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Éclairage de l'entrée",
+  "date": "2026-05-25T16:58:00+02:00",
+  "corps": "Bonjour,\n\nL'éclairage du hall ne fonctionne plus depuis deux jours.\n\nM. Henri Dupuy",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

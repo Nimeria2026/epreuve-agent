@@ -1,0 +1,8 @@
+# Fiche fournisseur Calorelle. Données FICTIVES.
+nom: "Visserie de Sablonnet"
+activite: "visserie"
+adresse: "2 zone d'activité de Mirelande, 45999 Valmont-sur-Loire (FICTIF)"
+telephone: "02 61 91 20 19"
+courriel_facturation: "compta@visserie-de-sablonnet.example"
+iban: "FR76 9999 9331 7207 5057 5957 601 (FICTIF)"
+conditions: "paiement à 30 jours fin de mois"

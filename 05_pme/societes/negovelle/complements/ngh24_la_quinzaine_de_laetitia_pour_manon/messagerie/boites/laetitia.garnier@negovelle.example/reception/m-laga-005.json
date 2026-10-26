@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-laga-005",
+  "de": {
+    "nom": "Martine Cadiou",
+    "adresse": "martine.cadiou@platrerie-blanchet.example"
+  },
+  "a": [
+    "laetitia.garnier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Petite commande",
+  "date": "2026-08-08T09:30:00+02:00",
+  "corps": "Bonjour,\n\nIl nous faut :\n\n- 20 x FIX-10702, Cheville pour plaque de plâtre 4x37, boîte de 100\n- 12 x CON-10195, Bombe galvanisante, blanc, aérosol de 400 ml\n\nEn standard, au siège.\n\nMerci,\n\nMartine Cadiou\nPlâtrerie Blanchet",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,31 @@
+# Fiche du client c-0319 de Négovelle. Données FICTIVES.
+code: c-0319
+nom: Garage Quéré
+type: pme
+adresse: 20 zone d'activités des Grands Prés, 36999 Vaumoreau-sur-Indre (FICTIF)
+telephone: 02 61 91 61 85
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Sophie Pasquet
+  fonction: responsable des achats
+  courriel: sophie.pasquet@garage-quere.example
+- nom: Pierre Langlais
+  fonction: responsable de maintenance
+  courriel: pierre.langlais@garage-quere.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 20 zone d'activités des Grands Prés, 36999 Vaumoreau-sur-Indre (FICTIF)
+- code: L2
+  libelle: dépôt
+  adresse: 33 parc d'activités de la Gare, 36999 Brissonne (FICTIF)
+categorie_remise: A
+delai_paiement: comptant
+client_depuis: '2026-05-16'
+limite_encours_euros: 6500.0
+livraisons_partielles: false
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

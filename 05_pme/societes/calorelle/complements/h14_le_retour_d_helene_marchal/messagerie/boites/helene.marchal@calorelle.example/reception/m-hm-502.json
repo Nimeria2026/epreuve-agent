@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-hm-502",
+  "de": {
+    "nom": "Bernard Petit",
+    "adresse": "bernard.petit@courriel.example"
+  },
+  "a": [
+    "helene.marchal@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Demande de devis",
+  "date": "2026-11-09T10:20:00+01:00",
+  "corps": "Madame,\n\nJ'habite une maison de 1978 à Valmont-sur-Loire et voudrais remplacer ma chaudière fioul par une pompe à chaleur. Pouvez-vous me faire un devis ?\n\nBernard Petit (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

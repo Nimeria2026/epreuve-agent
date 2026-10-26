@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-maca-612",
+  "de": {
+    "nom": "Menuiserie des Fontenils",
+    "adresse": "facturation@menuiserie-des-fontenils.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis, lot c17-05",
+  "date": "2026-09-02T10:45:00+02:00",
+  "corps": "Madame,\n\nVoici notre devis pour la porte palière du lot c17-05, 34 rue du Four : remplacement de la serrure trois points, 680,00 € TTC.\n\nMenuiserie des Fontenils",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-405",
+  "de": {
+    "nom": "Gérard Fontaine",
+    "adresse": "gerard.fontaine@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Demande de devis",
+  "date": "2026-11-02T07:31:00+01:00",
+  "corps": "Bonjour,\n\nVotre entreprise m'a été recommandée par un voisin. Je souhaite remplacer ma chaudière fioul par une pompe à chaleur. J'habite 7 route de Chambord, 41999 Bréval-sur-Cher, à une vingtaine de minutes de chez vous. Pouvez-vous passer et me faire un devis ?\n\nCordialement,\nGérard Fontaine (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,124 @@
+# Registre des lots en gestion, c20. Données FICTIVES.
+immeuble: c20
+nature: immeuble collectif
+adresse: 115 rue des Lilas, 18999 Montclavel-sur-Cher (FICTIF)
+secteur: centre
+gestionnaire: Cédric Maillard
+distance_agence_km: 6
+annee_construction: 1977
+gardien: false
+copropriete_du_syndic: cp09
+lots:
+- lot: c20-01
+  type: T3
+  surface_m2: 61
+  etage: 0
+  proprietaire: p-0198
+  locataire: vacant
+  loyer_hors_charges: 638,00 €
+  provision_sur_charges: 60,00 €
+  dpe: D
+- lot: c20-02
+  type: T3
+  surface_m2: 62
+  etage: 0
+  proprietaire: p-0199
+  locataire: M. Étienne Renard
+  entree: '2014-08-19'
+  loyer_hors_charges: 661,00 €
+  provision_sur_charges: 48,00 €
+  depot_de_garantie: 518,00 €
+  revision: chaque 19 août
+  trimestre_irl: T2
+  dpe: C
+- lot: c20-03
+  type: T4
+  surface_m2: 76
+  etage: 0
+  proprietaire: p-0200
+  locataire: M. Philippe Garnier
+  entree: '2024-06-28'
+  loyer_hors_charges: 768,00 €
+  provision_sur_charges: 116,00 €
+  depot_de_garantie: 749,00 €
+  revision: chaque 28 juin
+  trimestre_irl: T1
+  dpe: E
+- lot: c20-04
+  type: T3
+  surface_m2: 60
+  etage: 0
+  proprietaire: p-0201
+  locataire: M. Bruno Cordier
+  entree: '2015-12-22'
+  loyer_hors_charges: 628,00 €
+  provision_sur_charges: 94,00 €
+  depot_de_garantie: 502,00 €
+  revision: chaque 22 décembre
+  trimestre_irl: T3
+  dpe: F
+- lot: c20-05
+  type: T3
+  surface_m2: 60
+  etage: 1
+  proprietaire: p-0202
+  locataire: Mme Fabienne Laporte
+  entree: '2023-04-29'
+  loyer_hors_charges: 615,00 €
+  provision_sur_charges: 33,00 €
+  depot_de_garantie: 572,00 €
+  revision: chaque 29 avril
+  trimestre_irl: T4
+  dpe: B
+- lot: c20-06
+  type: T1
+  surface_m2: 31
+  etage: 1
+  proprietaire: p-0203
+  locataire: Mme Noémie Charpentier
+  entree: '2013-11-01'
+  loyer_hors_charges: 304,00 €
+  provision_sur_charges: 87,00 €
+  depot_de_garantie: 234,00 €
+  revision: chaque 1er novembre
+  trimestre_irl: T3
+  dpe: D
+- lot: c20-07
+  type: T2
+  surface_m2: 45
+  etage: 1
+  proprietaire: p-0173
+  locataire: M. Bernard Raymond
+  entree: '2022-07-01'
+  loyer_hors_charges: 420,00 €
+  provision_sur_charges: 77,00 €
+  depot_de_garantie: 391,00 €
+  revision: chaque 1er juillet
+  trimestre_irl: T1
+  dpe: C
+- lot: c20-08
+  type: T1
+  surface_m2: 29
+  etage: 1
+  proprietaire: p-0204
+  locataire: Mme Brigitte Renard
+  entree: '2017-11-13'
+  loyer_hors_charges: 279,00 €
+  provision_sur_charges: 36,00 €
+  depot_de_garantie: 232,00 €
+  revision: chaque 13 novembre
+  trimestre_irl: T3
+  dpe: G
+- lot: c20-09
+  type: T4
+  surface_m2: 75
+  etage: 2
+  proprietaire: p-0205
+  locataire: Mme Josiane Joly
+  entree: '2018-06-04'
+  loyer_hors_charges: 743,00 €
+  provision_sur_charges: 96,00 €
+  depot_de_garantie: 619,00 €
+  revision: chaque 4 juin
+  trimestre_irl: T1
+  dpe: F

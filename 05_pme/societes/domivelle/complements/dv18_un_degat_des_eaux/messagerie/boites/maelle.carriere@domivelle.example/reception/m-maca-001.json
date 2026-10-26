@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-maca-001",
+  "de": {
+    "nom": "Pascal Devaux",
+    "adresse": "pascal.devaux@boite-postale.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Dégât des eaux, lot 6",
+  "date": "2026-06-06T10:04:00+02:00",
+  "corps": "Madame Carrière,\n\nLe plafond de ma salle de bain, au lot 6 de la Résidence Le Moulin Neuf, est taché et gonflé par une fuite venue de l'appartement du dessus, le lot 10 de M. Guy Régnier. Son plombier est passé hier : c'est le joint de sa baignoire, qu'il a refait. Envoyez-moi un peintre pour refaire mon plafond, aux frais de la copropriété ; c'est à cela que servent nos charges.\n\nPascal Devaux",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

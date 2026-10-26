@@ -1,0 +1,44 @@
+# L'agent seul (03_orchestrations) sur Qwen 3.8 Max, par l'API de GMI Cloud, pendant sa semaine
+# d'accès gratuit (JOURNAL, entrée 103). Tâches publiques seulement.
+# Réglages, prix et sources : 00_docs/sources/2026-10-05_reglages_des_modeles.md.
+fiche:
+  identifiant: agent_seul_qwen_max_gmi
+  nom: Agent seul sur Qwen 3.8 Max (GMI Cloud)
+  version: "0.1.0"
+  origine: fait_main
+  division: a_modele_egal
+  branchement: mcp
+  editeur: Épreuve d'agent
+  url: null
+  modeles:
+    - nom: Qwen/Qwen3.8-Max
+      fournisseur: GMI Cloud
+  cout_mesurable: true
+  conditions_utilisation: null
+configuration:
+  modeles:
+    - role: agent
+      nom: Qwen/Qwen3.8-Max
+      fournisseur: GMI Cloud
+      version_renvoyee: "?"
+      parametres: {}
+      # Prix public hors semaine gratuite, relevé sur un agrégateur : GMI Cloud ne l'affiche pas
+      # sur ses pages publiques. Les runs de la semaine gratuite ne coûtent rien ; le rapport
+      # donne leur coût à ce prix.
+      tarif:
+        entree_dollars_par_million: 1.65
+        entree_en_cache_dollars_par_million: "?"
+        sortie_dollars_par_million: 4.95
+        source: https://computeprices.com/providers/gmi-cloud/models/qwen3-8-max
+        releve_le: "2026-10-09"
+machine: null
+lancement:
+  module: orchestrations.agent_seul
+  arguments: [--configuration, 03_orchestrations/src/orchestrations/configurations/qwen_max_gmi.yaml]
+  delai_secondes: 3600
+  sonde: null
+  creneau: null
+  energie: null
+  empreinte_de:
+    - 03_orchestrations/src/orchestrations/consignes/agent_seul.md
+    - 03_orchestrations/src/orchestrations/configurations/qwen_max_gmi.yaml

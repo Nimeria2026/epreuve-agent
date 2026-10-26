@@ -1,0 +1,11 @@
+{
+  "id": "thomas.girard",
+  "nom": "Thomas Girard",
+  "competences": [
+    "chaudiere_gaz",
+    "chaudiere_fioul",
+    "pompe_a_chaleur"
+  ],
+  "apprenti": false,
+  "indisponibilites": []
+}

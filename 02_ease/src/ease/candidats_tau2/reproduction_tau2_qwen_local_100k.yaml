@@ -1,0 +1,51 @@
+# L'agent de reproduction τ²-bench (03_orchestrations, reproduction_tau2) sur Qwen 3.8 27B, servi
+# sur le poste d'Alexandre par make qwen CONTEXTE=102400 : le même que reproduction_tau2_qwen_local,
+# avec un contexte de 102 400 jetons, pour les tâches que la limite de 40 960 a coupées (JOURNAL,
+# deux-cent-vingt-sixième entrée). Délai d'un appel 3 600 s, d'une exécution 7 200 s (choix S1 du
+# cadrage du second Qwen local).
+# Réglages, versions et sources : 00_docs/sources/2026-10-05_reglages_des_modeles.md ; température 0
+# et tool_choice auto, ceux de l'agent de τ²-bench 1.0.1.
+fiche:
+  identifiant: reproduction_tau2_qwen_local_100k
+  nom: Agent de reproduction τ²-bench sur Qwen 3.8 27B (W4A16, en local, contexte de 102 400 jetons)
+  version: "0.1.0"
+  origine: fait_main
+  division: a_modele_egal
+  branchement: mcp
+  editeur: Épreuve d'agent
+  url: null
+  modeles:
+    - nom: qwen3.8-27b-w4a16
+      fournisseur: local
+  # Les jetons se comptent, mais l'électricité n'est relevée que pour la carte : pas de prix.
+  cout_mesurable: false
+  conditions_utilisation: null
+configuration:
+  modeles:
+    - role: agent
+      nom: qwen3.8-27b-w4a16
+      fournisseur: local
+      version_renvoyee: "?"
+      parametres:
+        temperature: 0.0
+        tool_choice: auto
+      tarif: null
+# Relevé du 2026-10-05 : vLLM par /version, système d'après infra/moteur.md de Nimeria.
+machine:
+  systeme: Ubuntu 24.04
+  processeur: "?"
+  carte_graphique: NVIDIA GeForce RTX 3090
+  service_modele: vLLM 0.27.1, contexte de 102 400 jetons
+lancement:
+  module: orchestrations.reproduction_tau2
+  arguments: [--configuration, 03_orchestrations/src/orchestrations/configurations_tau2/qwen_local_100k.yaml]
+  delai_secondes: 7200
+  # Le serveur lancé par make qwen doit répondre ici avant un run.
+  sonde: http://127.0.0.1:30100/version
+  # Le contexte que le serveur doit annoncer, vérifié avant le run (cadrage du second Qwen local).
+  contexte_serveur: 102400
+  creneau: null
+  energie: nvidia_smi
+  empreinte_de:
+    - 03_orchestrations/src/orchestrations/reproduction_tau2.py
+    - 03_orchestrations/src/orchestrations/configurations_tau2/qwen_local_100k.yaml

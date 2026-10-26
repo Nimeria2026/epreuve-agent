@@ -1,0 +1,59 @@
+{
+  "numero": "CO-2026-02043",
+  "client": "c-0128",
+  "reference_client": null,
+  "cree_le": "2026-07-03T10:00:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "119 rue du Moulin, 36999 Mérolles-en-Brenne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-11657",
+      "libelle": "Disjoncteur tétrapolaire 20 A, courbe C",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 58.8,
+      "remise_pourcent": 6.88,
+      "prix_net_ht_euros": 54.75,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 657.0
+    },
+    {
+      "reference": "ELE-12384",
+      "libelle": "Interrupteur différentiel 40 A 30 mA, type AC",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 80.5,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 77.28,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 463.68
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 1120.68,
+  "total_tva_euros": 224.14,
+  "total_ttc_euros": 1344.82,
+  "statut": "en_attente_deblocage",
+  "motif_attente": "encours dépassé : encours 6 341,06 € et commande 1 344,82 € TTC pour une limite de 7 500,00 €",
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T10:00:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": "commande du client"
+    },
+    {
+      "date": "2026-07-03T10:02:00+02:00",
+      "par": "oceane.collin",
+      "action": "mise_en_attente",
+      "detail": "encours dépassé"
+    }
+  ]
+}

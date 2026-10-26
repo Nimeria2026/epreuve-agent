@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-aubo-013",
+  "de": {
+    "nom": "Camille Cadiou",
+    "adresse": "camille.cadiou@electricite-salmon.example"
+  },
+  "a": [
+    "aurelie.bonnefoy@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Votre facture de juin",
+  "date": "2026-08-19T09:00:00+02:00",
+  "corps": "Bonjour Aurélie,\n\nVotre facture FC-2026-1178 du 30 juin reprend deux fois la même livraison de câbles, je crois. Pouvez-vous voir avec votre comptabilité ?\n\nMerci,\n\nCamille Cadiou\nÉlectricité Salmon",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

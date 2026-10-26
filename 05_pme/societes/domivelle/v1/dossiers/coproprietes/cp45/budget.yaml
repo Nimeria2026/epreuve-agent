@@ -1,0 +1,17 @@
+# Budget prévisionnel de l'exercice en cours, voté, copropriété cp45. Données FICTIVES.
+copropriete: cp45
+exercice: '2026'
+total: 37 800,00 €
+postes:
+  nettoyage des parties communes: 8 316,00 €
+  espaces verts: 3 024,00 €
+  électricité des parties communes: 3 402,00 €
+  eau: 5 292,00 €
+  assurance de l'immeuble: 4 158,00 €
+  honoraires du syndic: 6 804,00 €
+  entretien et petites réparations: 3 780,00 €
+  ascenseur, contrat et électricité: 3 024,00 €
+repartition:
+  charges générales, aux tantièmes généraux: 34 776,00 €
+  ascenseur, aux tantièmes d'ascenseur: 3 024,00 €
+appel: un quart du budget, exigible le premier jour de chaque trimestre

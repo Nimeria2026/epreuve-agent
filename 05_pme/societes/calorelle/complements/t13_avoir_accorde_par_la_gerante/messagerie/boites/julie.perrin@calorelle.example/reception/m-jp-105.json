@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-105",
+  "de": {
+    "nom": "Hélène Marchal",
+    "adresse": "helene.marchal@calorelle.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Geste pour M. Legrand",
+  "date": "2026-11-02T08:52:00+01:00",
+  "corps": "Julie,\n\nJ'ai étudié la réclamation de Pierre Legrand (c-0137) sur le retard du technicien le 15 octobre. J'accorde un geste de 30 € : émets un avoir de 30 € sur sa facture FC-2026-0396, motif « retard du technicien le 15 octobre », puis préviens-le par courriel.\n\nMerci,\nHélène (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

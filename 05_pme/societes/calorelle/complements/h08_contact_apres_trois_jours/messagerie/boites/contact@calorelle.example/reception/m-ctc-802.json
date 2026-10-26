@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-802",
+  "de": {
+    "nom": "Christophe Guérin",
+    "adresse": "christophe.guerin@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Plus de chauffage",
+  "date": "2026-10-29T19:20:00+01:00",
+  "corps": "Bonjour,\n\nNotre chaudière s'est mise en défaut ce soir, elle affiche F28 et ne redémarre pas : plus de chauffage ni d'eau chaude. Pouvez-vous envoyer quelqu'un ?\n\nChristophe Guérin (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

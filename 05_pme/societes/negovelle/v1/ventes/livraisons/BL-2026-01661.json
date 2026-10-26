@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01661",
+  "commande": "CO-2026-01812",
+  "client": "c-0027",
+  "date_expedition": "2026-06-23",
+  "date_livraison": "2026-06-23",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "124 rue des Jardins, 36999 Laubrissac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ENT-10138",
+      "libelle": "Balai brosse coco 80 cm",
+      "quantite": 2
+    },
+    {
+      "reference": "PLB-10563",
+      "libelle": "Collier de fixation tube 25 mm, sachet de 25",
+      "quantite": 3
+    }
+  ],
+  "reserves": null,
+  "signataire": "Hugo Clerc",
+  "statut": "livre"
+}

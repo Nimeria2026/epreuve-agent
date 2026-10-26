@@ -1,0 +1,19 @@
+# Fiche du lot c07-18. Données FICTIVES.
+lot: c07-18
+adresse: 53 allée des Acacias, 18999 Montclavel-sur-Cher (FICTIF)
+type: T2
+surface_m2: 40
+locataire:
+  nom: Mme Laure Bertin
+  courriel: laure.bertin@courriel.example
+  telephone: 06 39 98 74 82
+  entree: '2015-01-09'
+bail:
+  signature: '2015-01-09'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 414,00 €
+  depot_de_garantie: 325,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T3
+dpe:
+  classe: C

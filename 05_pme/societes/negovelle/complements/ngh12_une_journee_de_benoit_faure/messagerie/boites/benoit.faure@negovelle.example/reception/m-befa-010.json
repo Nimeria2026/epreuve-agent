@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-befa-010",
+  "de": {
+    "nom": "Suzanne Salmon",
+    "adresse": "suzanne.salmon@charpente-rouxel.example"
+  },
+  "a": [
+    "benoit.faure@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture FC-2026-1255",
+  "date": "2026-07-06T07:12:00+02:00",
+  "corps": "Bonjour,\n\nNous avons reçu la facture FC-2026-1255 du 30 juin. Pouvez-vous nous en envoyer le détail par livraison ? Notre comptable ne retrouve pas tous les bons.\n\nSuzanne Salmon\nCharpente Rouxel",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,23 @@
+[project]
+name = "ease"
+version = "0.1.0"
+description = "Banc de mesure du projet Épreuve d'agent (POA)"
+requires-python = ">=3.12"
+dependencies = [
+  "anyio>=4.9",
+  "jsonschema>=4.23",
+  "mcp>=2.3",
+  "pydantic>=2.9",
+  "pyyaml>=6.0",
+  # Vérification des formats date-time et uri par jsonschema (sinon ignorés sans le dire).
+  "rfc3339-validator>=0.1.4",
+  "rfc3986-validator>=0.1.1",
+  "uvicorn>=0.54",
+]
+
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ease"]

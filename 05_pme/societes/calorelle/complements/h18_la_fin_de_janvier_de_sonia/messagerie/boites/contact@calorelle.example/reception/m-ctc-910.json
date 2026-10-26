@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-910",
+  "de": {
+    "nom": "Garage Bessière",
+    "adresse": "compta@garage-bessiere.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Relance : facture GB-1150",
+  "date": "2027-01-29T17:30:00+01:00",
+  "corps": "Bonjour,\n\nSauf erreur de notre part, notre facture GB-1150 du 18 décembre 2026, 312,00 €, reste impayée. Merci de nous indiquer la date de son règlement.\n\nGarage Bessière (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

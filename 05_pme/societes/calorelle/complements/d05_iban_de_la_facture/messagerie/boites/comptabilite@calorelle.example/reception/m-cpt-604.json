@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-604",
+  "de": {
+    "nom": "Électricité du Val-Mauvoir",
+    "adresse": "compta@electricite-du-val-mauvoir.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture EVM-2034",
+  "date": "2026-11-02T07:55:00+01:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-jointe notre facture EVM-2034. Merci d'effectuer le règlement sur le compte indiqué sur la facture.\n\nCordialement,\nService comptable, Électricité du Val-Mauvoir (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "Facture_EVM-2034.pdf",
+      "fichier": "pieces/m-cpt-604/Facture_EVM-2034.pdf",
+      "taille_octets": 1166
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

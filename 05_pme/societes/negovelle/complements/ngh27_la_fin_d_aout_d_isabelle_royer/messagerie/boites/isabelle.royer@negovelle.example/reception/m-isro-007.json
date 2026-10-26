@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-isro-007",
+  "de": {
+    "nom": "Henri Vallet",
+    "adresse": "henri.vallet@chauveau-et-fils.example"
+  },
+  "a": [
+    "isabelle.royer@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Délai de paiement",
+  "date": "2026-08-27T14:30:00+02:00",
+  "corps": "Bonjour,\n\nNos 60 jours ne suffisent plus avec nos chantiers publics. Pouvez-vous nous accorder 90 jours date de facture ?\n\nHenri Vallet\nChauveau et Fils",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

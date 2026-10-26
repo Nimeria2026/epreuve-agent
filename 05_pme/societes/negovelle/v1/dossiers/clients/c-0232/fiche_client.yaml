@@ -1,0 +1,28 @@
+# Fiche du client c-0232 de Négovelle. Données FICTIVES.
+code: c-0232
+nom: Couverture Bonneau
+type: artisan
+adresse: 48 rue des Lilas, 36999 Ardillac (FICTIF)
+telephone: 02 61 91 67 48
+secteur: est
+commercial: fabrice.mercier
+administration_des_ventes: benoit.faure
+contacts:
+- nom: Antoine Ruel
+  fonction: gérant
+  courriel: antoine.ruel@couverture-bonneau.example
+- nom: Daniel Grenier
+  fonction: conjoint collaborateur
+  courriel: daniel.grenier@couverture-bonneau.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 48 rue des Lilas, 36999 Ardillac (FICTIF)
+categorie_remise: C
+delai_paiement: comptant
+client_depuis: '2026-04-06'
+limite_encours_euros: 3000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

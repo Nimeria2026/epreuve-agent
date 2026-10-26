@@ -1,0 +1,11 @@
+# Fiche du propriétaire p-0466, mandant de Domivelle. Données FICTIVES.
+code: p-0466
+nom: Mme Monique Langlois
+adresse: 82 rue Jean-Jaurès, 18999 Saint-Aubrin-des-Bois (FICTIF)
+courriel: monique.langlois@boite-postale.example
+telephone: 06 39 98 83 00
+iban: FR76 9999 9807 0171 2468 7708 546 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- n30-10
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

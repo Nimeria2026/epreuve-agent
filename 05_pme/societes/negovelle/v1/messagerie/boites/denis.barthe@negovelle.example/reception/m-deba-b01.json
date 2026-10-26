@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-deba-b01",
+  "de": {
+    "nom": "Outillage du Moulin-Neuf",
+    "adresse": "commandes@outillage-du-moulin-neuf.example"
+  },
+  "a": [
+    "denis.barthe@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Confirmation de commande",
+  "date": "2026-07-03T15:30:00+02:00",
+  "corps": "Bonjour,\n\nNous confirmons votre commande ; livraison prévue la semaine prochaine.\n\nLe service commandes\nOutillage du Moulin-Neuf",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

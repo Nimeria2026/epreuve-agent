@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01738",
+  "commande": "CO-2026-01889",
+  "client": "c-0179",
+  "date_expedition": "2026-06-26",
+  "date_livraison": "2026-06-26",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "23 zone industrielle des Brandes, 36999 Vendrigny (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ELP-11151",
+      "libelle": "Foret métal HSS 6,5 mm, étui de 5",
+      "quantite": 1
+    },
+    {
+      "reference": "PLB-11257",
+      "libelle": "Flexible inox mâle-femelle 15x21 40 cm",
+      "quantite": 5
+    }
+  ],
+  "reserves": null,
+  "signataire": "Alice Barbe",
+  "statut": "livre"
+}

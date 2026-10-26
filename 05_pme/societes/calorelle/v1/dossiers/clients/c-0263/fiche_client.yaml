@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0263"
+nom: "Établissements Blanchard"
+type: "entreprise"
+adresse: "95 place du Marché, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "contact@etablissements-blanchard-263.example"
+telephone: "02 61 91 35 65"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité Plus"
+  depuis: "2021-01-14"
+  mois_anniversaire: "janvier"
+  derniere_visite: "2026-01-18"

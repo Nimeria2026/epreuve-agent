@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Intervention",
+  "description": "Un rendez-vous du planning de la PME (étape 5) : chez quel client, avec quels techniciens, quand, pour quoi. Une intervention annulée reste au planning, avec son motif. Données fictives.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["numero", "client", "techniciens", "debut", "fin", "nature", "objet", "statut", "cree_par"],
+  "properties": {
+    "numero": {
+      "type": "string",
+      "pattern": "^INT-[0-9]{4}-[0-9]{4}$",
+      "description": "Par exemple INT-2026-0001."
+    },
+    "client": {
+      "type": "string",
+      "pattern": "^c-[0-9]{4}$"
+    },
+    "techniciens": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]+\\.[a-z]+$"
+      }
+    },
+    "debut": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Heure de la PME, au format RFC 3339 avec le décalage horaire."
+    },
+    "fin": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "nature": {
+      "type": "string",
+      "enum": ["visite_annuelle", "depannage", "installation", "mise_en_service"]
+    },
+    "objet": {
+      "type": "string",
+      "minLength": 1
+    },
+    "statut": {
+      "type": "string",
+      "enum": ["planifiee", "annulee"]
+    },
+    "motif_annulation": {
+      "type": "string",
+      "minLength": 1
+    },
+    "cree_par": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Identifiant de la personne servie quand l'intervention a été planifiée, ou « donnees_initiales »."
+    }
+  }
+}

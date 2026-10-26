@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-712",
+  "de": {
+    "nom": "Pierre Blanchard",
+    "adresse": "pierre.blanchard@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Mon devis",
+  "date": "2026-12-17T15:00:00+01:00",
+  "corps": "Bonjour,\n\nM. Leroy est passé hier. J'attends votre devis pour la chaudière neuve et le ballon thermodynamique, en un seul devis comme convenu avec lui.\n\nPierre Blanchard, 102 rue du Moulin, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

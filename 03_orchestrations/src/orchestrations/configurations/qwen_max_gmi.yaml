@@ -1,0 +1,13 @@
+# Qwen 3.8 Max par GMI Cloud (nom d'API Qwen/Qwen3.8-Max), pendant la semaine d'accès gratuit
+# annoncée le 2026-10-09 (JOURNAL, entrée 103). Clé dans la variable GMICLOUD_API_KEY, ou dans le
+# fichier .env à la racine du dépôt, hors git. Réglages de l'éditeur : aucun paramètre ajouté.
+role: agent
+modele: Qwen/Qwen3.8-Max
+adresse: https://api.gmi-serving.com/v1
+cle_env: GMICLOUD_API_KEY
+parametres: {}
+# Comme pour Qwen local : le modèle de conversation de Qwen ne relit pas le raisonnement des tours
+# précédents. Ce que l'API renvoie du raisonnement : « ? » jusqu'au premier essai.
+raisonnement_renvoye: null
+delai_appel_secondes: 300
+tours_max: 60

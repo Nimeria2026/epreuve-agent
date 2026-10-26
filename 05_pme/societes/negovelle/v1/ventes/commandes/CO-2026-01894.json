@@ -1,0 +1,90 @@
+{
+  "numero": "CO-2026-01894",
+  "client": "c-0080",
+  "reference_client": null,
+  "cree_le": "2026-06-25T09:10:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "55 rue de la Poste, 36999 Mérolles-en-Brenne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "OUT-11127",
+      "libelle": "Marteau de menuisier 200 g",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 24.2,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 23.23,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 116.15
+    },
+    {
+      "reference": "PLB-11772",
+      "libelle": "Mitigeur de douche, noir mat",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 94.55,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 90.77,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 272.31
+    },
+    {
+      "reference": "QUI-11902",
+      "libelle": "Gond à scellement 16 mm",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 7.25,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 6.96,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 69.6
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 458.06,
+  "total_tva_euros": 91.61,
+  "total_ttc_euros": 549.67,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01743"
+  ],
+  "facture": "FC-2026-1072",
+  "historique": [
+    {
+      "date": "2026-06-25T09:10:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-25T09:12:00+02:00",
+      "par": "oceane.collin",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-26T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01743"
+    },
+    {
+      "date": "2026-06-26T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01743"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1072"
+    }
+  ]
+}

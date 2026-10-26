@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01880",
+  "commande": "CO-2026-02060",
+  "client": "c-0102",
+  "date_expedition": "2026-07-20",
+  "date_livraison": "2026-07-21",
+  "transport": {
+    "mode": "transporteur",
+    "transporteur": "transports-delorme",
+    "recepisse": "TD-412066"
+  },
+  "adresse": "82 chemin du Bois, 36999 Brissonne (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "ELE-12841",
+      "libelle": "Projecteur LED 150 W, sans détecteur",
+      "quantite": 4
+    },
+    {
+      "reference": "FIX-10988",
+      "libelle": "Cheville à frapper 8x40, boîte de 100",
+      "quantite": 10
+    }
+  ],
+  "reserves": "colis 2 sur 2 manquant : 2 projecteurs ELE-12841",
+  "signataire": "Maxime Monnier",
+  "statut": "livre"
+}

@@ -1,0 +1,29 @@
+{
+  "identifiant": "m-brca-031",
+  "de": {
+    "nom": "Vincent Arnaud",
+    "adresse": "vincent.arnaud@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Note de frais de juillet",
+  "date": "2026-08-06T10:00:00+02:00",
+  "corps": "Bonjour Bruno,\n\nMa note de frais de juillet, 138,60 € : mes deux tournées chez les fournisseurs, à Corvalet et à Fontclavier. Les justificatifs sont joints.\n\nVincent",
+  "pieces_jointes": [
+    {
+      "nom": "vincent.arnaud.md",
+      "fichier": "pieces/m-brca-031/vincent.arnaud.md",
+      "taille_octets": 517
+    },
+    {
+      "nom": "justificatifs_vincent.arnaud_2026-07.pdf",
+      "fichier": "pieces/m-brca-031/justificatifs_vincent.arnaud_2026-07.pdf",
+      "taille_octets": 779
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

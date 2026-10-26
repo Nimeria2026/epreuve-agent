@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-002",
+  "de": {
+    "nom": "Valérie Bonneau",
+    "adresse": "valerie.bonneau@maconnerie-cordonnier.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Retour de deux clés",
+  "date": "2026-07-31T10:20:00+02:00",
+  "corps": "Bonjour,\n\nNous voudrions rendre 2 clés mixtes OUT-10473 de la livraison du 16 juillet, BL-2026-01890, jamais utilisées, dans leur emballage. Nous vous les déposons la semaine prochaine.\n\nValérie Bonneau\nMaçonnerie Cordonnier",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

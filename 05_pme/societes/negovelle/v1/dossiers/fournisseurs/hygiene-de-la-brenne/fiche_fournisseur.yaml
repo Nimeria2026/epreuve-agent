@@ -1,0 +1,10 @@
+# Fiche d'un fournisseur de Négovelle. Données FICTIVES.
+nom: Hygiène de la Brenne
+activite: fabricant de produits d'hygiène et d'entretien
+adresse: 4 zone d'activités des Grands Prés, 36999 Laubrissac (FICTIF)
+telephone: 02 61 91 61 61
+courriel_commandes: commandes@hygiene-de-la-brenne.example
+courriel_facturation: facturation@hygiene-de-la-brenne.example
+iban: FR76 9999 9929 2278 2021 9249 504 (FICTIF)
+conditions: paiement à 30 jours date de facture
+minimum_de_commande: 300,00 € HT

@@ -1,0 +1,15 @@
+{
+  "id": "nicolas.blanc",
+  "nom": "Nicolas Blanc",
+  "competences": [
+    "climatisation",
+    "pompe_a_chaleur"
+  ],
+  "apprenti": false,
+  "indisponibilites": [
+    {
+      "debut": "2026-12-28T00:00:00+01:00",
+      "fin": "2027-01-01T00:00:00+01:00"
+    }
+  ]
+}

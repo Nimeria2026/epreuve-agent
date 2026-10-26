@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01849",
+  "commande": "CO-2026-02000",
+  "client": "c-0206",
+  "date_expedition": "2026-07-03",
+  "date_livraison": "2026-07-03",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "22 rue des Forges, 36999 Vendrigny (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "VIS-10539",
+      "libelle": "Rondelle plate M10, inox A2, sachet de 50",
+      "quantite": 4
+    }
+  ],
+  "reserves": null,
+  "signataire": "Guy Vaillant",
+  "statut": "livre"
+}

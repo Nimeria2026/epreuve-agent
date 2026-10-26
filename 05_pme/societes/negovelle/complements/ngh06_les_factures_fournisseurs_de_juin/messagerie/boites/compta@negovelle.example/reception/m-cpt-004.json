@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-004",
+  "de": {
+    "nom": "Abrasifs et colles du Val-Corvalet",
+    "adresse": "facturation@abrasifs-et-colles-du-val-corvalet.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture F52630",
+  "date": "2026-07-01T11:15:00+02:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-jointe notre facture F52630 du 1er juillet 2026, pour votre commande CA-2026-0325 :\n- CON-10971, Disque abrasif à lamelles 115 mm, grain 180, boîte de 50 : 18 x 26,45 € HT = 476,10 €\n- CON-11600, Papier abrasif carbure de silicium, grain 60, rouleau de 5 m : 320 x 5,83 € HT = 1 865,60 €\n- CON-11641, Papier abrasif corindon, grain 100, rouleau de 5 m : 2 x 30,28 € HT = 60,56 €\n- CON-11902, Ruban adhésif PVC 19 mm, rouleau de 10 m : 30 x 6,78 € HT = 203,40 €\n\nTotal HT : 2 605,66 € ; TVA 20 % : 521,13 € ; total TTC : 3 126,79 €. Paiement à 30 jours date de facture.\n\nService facturation\nAbrasifs et colles du Val-Corvalet",
+  "pieces_jointes": [
+    {
+      "nom": "F52630.pdf",
+      "fichier": "pieces/m-cpt-004/F52630.pdf",
+      "taille_octets": 810
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

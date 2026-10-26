@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0432"
+nom: "Olivier Rousseau"
+type: "particulier"
+adresse: "7 chemin des Vignes, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "olivier.rousseau@courriel.example"
+telephone: "06 39 98 51 03"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité Plus"
+  depuis: "2020-06-02"
+  mois_anniversaire: "juin"
+  derniere_visite: "2026-06-20"

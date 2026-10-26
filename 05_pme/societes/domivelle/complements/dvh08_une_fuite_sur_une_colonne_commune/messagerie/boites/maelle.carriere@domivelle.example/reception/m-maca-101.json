@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-maca-101",
+  "de": {
+    "nom": "Plomberie du Moulin-Barrat",
+    "adresse": "facturation@plomberie-du-moulin-barrat.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Fuite, Résidence Le Clos des Forges : rapport et devis D-2026-318",
+  "date": "2026-06-06T10:00:00+02:00",
+  "corps": "Bonjour,\n\nAppelés par la permanence vendredi 5 juin à 22 h au 53 allée des Acacias, Montclavel-sur-Cher (Résidence Le Clos des Forges), nous avons trouvé une fuite active sur la colonne d'eaux usées en fonte, fissurée dans la gaine technique commune au droit du cinquième étage, lot 22. L'eau descend dans les lots 18, au quatrième, et 14, au troisième. Nous avons posé un collier provisoire, qui ne tiendra pas : la colonne fuit encore à chaque évacuation.\n\nDevis D-2026-318 :\n- remplacement de trois mètres de colonne d'eaux usées, gaine commune : 3 150,00 € TTC ;\n- ouverture et refermeture de la gaine technique : 540,00 € TTC ;\n- remplacement du siphon et du raccord de la baignoire du lot 22, usés, sans lien avec la fuite : 290,00 € TTC.\nTotal : 3 980,00 € TTC. Nous pouvons intervenir le mardi 9 juin sur votre accord.\n\nPlomberie du Moulin-Barrat",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

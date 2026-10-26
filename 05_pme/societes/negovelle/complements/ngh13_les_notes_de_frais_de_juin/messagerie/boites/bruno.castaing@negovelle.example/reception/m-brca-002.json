@@ -1,0 +1,29 @@
+{
+  "identifiant": "m-brca-002",
+  "de": {
+    "nom": "Laurent Gimenez",
+    "adresse": "laurent.gimenez@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Note de frais de juin",
+  "date": "2026-07-03T18:40:00+02:00",
+  "corps": "Bonjour Bruno,\n\nVoici ma note de frais de juin, 169,40 €, et mes justificatifs. Le déjeuner du 16 juin était avec Garage Guillon, pour leur commande de la rentrée. Je n'ai pas le ticket du stationnement du 25 juin.\n\n| Date | Nature | Lieu | Montant TTC | Justificatif |\n|---|---|---|---|---|\n| 4 juin 2026 | repas en tournée | Corvalet | 23,80 € | oui |\n| 11 juin 2026 | péage | Brissonne | 5,20 € | oui |\n| 16 juin 2026 | repas avec un client, Garage Guillon | Vaumoreau-sur-Indre | 47,90 € | oui |\n| 17 juin 2026 | nuit d'hôtel | Brissonne | 88,00 € | oui |\n| 25 juin 2026 | stationnement | Corvalet | 4,50 € | non |\n\nMerci,\nLaurent",
+  "pieces_jointes": [
+    {
+      "nom": "laurent.gimenez.md",
+      "fichier": "pieces/m-brca-002/laurent.gimenez.md",
+      "taille_octets": 503
+    },
+    {
+      "nom": "justificatifs_laurent.gimenez_2026-06.pdf",
+      "fichier": "pieces/m-brca-002/justificatifs_laurent.gimenez_2026-06.pdf",
+      "taille_octets": 806
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

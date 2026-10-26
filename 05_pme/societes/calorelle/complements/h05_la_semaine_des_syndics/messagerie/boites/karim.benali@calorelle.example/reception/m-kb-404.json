@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-404",
+  "de": {
+    "nom": "Bruno Carpentier",
+    "adresse": "bruno.carpentier@courriel.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis pour ma chaudière",
+  "date": "2026-11-02T08:05:00+01:00",
+  "corps": "Bonjour Monsieur Benali,\n\nUn voisin, membre d'un conseil syndical, m'a donné votre adresse. J'habite une maison au 18 rue des Vignes, à Valmont-sur-Loire, et je voudrais remplacer ma chaudière gaz. Pouvez-vous me faire un devis ?\n\nCordialement,\nBruno Carpentier (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

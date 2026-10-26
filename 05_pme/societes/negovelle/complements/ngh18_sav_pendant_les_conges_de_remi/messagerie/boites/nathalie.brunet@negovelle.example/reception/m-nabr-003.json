@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-nabr-003",
+  "de": {
+    "nom": "Christian Voisin",
+    "adresse": "christian.voisin@cazenave-maintenance.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Reprise de 4 poubelles",
+  "date": "2026-07-03T11:15:00+02:00",
+  "corps": "Bonjour,\n\nSur la livraison BL-2026-01674 du 24 juin, 4 des 12 poubelles ENT-10783 sont en trop. Je les ai rapportées hier au comptoir, neuves, dans leur emballage. Merci de nous les reprendre.\n\nChristian Voisin\nCazenave Maintenance",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

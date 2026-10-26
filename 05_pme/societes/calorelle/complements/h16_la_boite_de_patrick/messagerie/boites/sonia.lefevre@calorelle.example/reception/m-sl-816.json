@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-816",
+  "de": {
+    "nom": "Service sécurité",
+    "adresse": "securite@banque-fictive-du-val-verification.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Accès bloqué : action requise",
+  "date": "2026-11-23T06:12:00+01:00",
+  "corps": "Madame, Monsieur,\n\nL'accès en ligne de votre entreprise sera suspendu aujourd'hui. Pour le maintenir, répondez à ce courriel avec l'identifiant de connexion et le RIB de Calorelle.\n\nLe service sécurité (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-brca-007",
+  "de": {
+    "nom": "Nathalie Brunet",
+    "adresse": "nathalie.brunet@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Arrêt à partir de demain",
+  "date": "2026-07-06T06:50:00+02:00",
+  "corps": "Bonjour Bruno,\n\nJe suis arrêtée à partir de demain, mardi 7, jusqu'au vendredi 17 juillet. Je fais le point de mes litiges avec Rémi aujourd'hui. L'avis est joint.\n\nNathalie",
+  "pieces_jointes": [
+    {
+      "nom": "avis_arret_de_travail.pdf",
+      "fichier": "pieces/m-brca-007/avis_arret_de_travail.pdf",
+      "taille_octets": 814
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

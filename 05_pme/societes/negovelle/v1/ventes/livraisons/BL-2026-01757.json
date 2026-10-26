@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01757",
+  "commande": "CO-2026-01908",
+  "client": "c-0343",
+  "date_expedition": "2026-06-26",
+  "date_livraison": "2026-06-29",
+  "transport": {
+    "mode": "transporteur",
+    "transporteur": "transports-delorme",
+    "recepisse": "TD-929614"
+  },
+  "adresse": "5 zone d'activités des Grands Prés, 36999 Ardillac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "CON-12017",
+      "libelle": "Ruban adhésif aluminium 19 mm, rouleau de 50 m",
+      "quantite": 1
+    }
+  ],
+  "reserves": null,
+  "signataire": "Vincent Cosson",
+  "statut": "livre"
+}

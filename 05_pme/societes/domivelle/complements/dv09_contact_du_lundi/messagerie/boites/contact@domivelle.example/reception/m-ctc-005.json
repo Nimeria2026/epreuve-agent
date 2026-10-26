@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-005",
+  "de": {
+    "nom": "Office notarial des Remparts",
+    "adresse": "accueil@office-des-remparts.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "État daté, Résidence Les Terrasses du Cher",
+  "date": "2026-06-08T07:31:00+02:00",
+  "corps": "Madame, Monsieur,\n\nNous préparons la vente du lot 12 de la Résidence Les Terrasses du Cher, dont vous êtes syndic. Merci de nous adresser l'état daté.\n\nOffice notarial des Remparts",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

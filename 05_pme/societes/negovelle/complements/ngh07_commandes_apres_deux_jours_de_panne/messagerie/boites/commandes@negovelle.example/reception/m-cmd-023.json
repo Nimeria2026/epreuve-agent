@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-023",
+  "de": {
+    "nom": "Martine Ancelin",
+    "adresse": "martine.ancelin@bellanger-industrie.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Retour",
+  "date": "2026-07-02T15:05:00+02:00",
+  "corps": "Bonjour,\n\nNous voudrions vous rendre deux articles de notre dernière livraison, qui ne nous servent pas. Comment faire ?\n\nCordialement,\nMartine Ancelin\nBellanger Industrie",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

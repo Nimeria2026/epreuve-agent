@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-laga-010",
+  "de": {
+    "nom": "Corinne Vidal",
+    "adresse": "corinne.vidal@negovelle.example"
+  },
+  "a": [
+    "laetitia.garnier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Ferme-portes",
+  "date": "2026-08-10T07:40:00+02:00",
+  "corps": "Lætitia,\n\nManon étant absente jusqu'au 21, je te transfère sa commande du nord, arrivée dans commandes@.\n\nCorinne\n\n----- Message transféré -----\nDe : Pascal Genet <pascal.genet@thiery-maintenance.example>\nDate : 7 août 2026, 17 h 05\nObjet : Ferme-portes\n\nBonjour,\n\nNotre commande :\n\n- 12 x QUI-11812, Ferme-porte à bras compas, force EN 3\n- 6 x ENT-10571, Nettoyant détartrant sanitaire, bidon de 1 l\n\nLivraison standard au siège. Si tout n'est pas là, envoyez ce que vous avez.\n\nPascal Genet\nThiery Maintenance",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

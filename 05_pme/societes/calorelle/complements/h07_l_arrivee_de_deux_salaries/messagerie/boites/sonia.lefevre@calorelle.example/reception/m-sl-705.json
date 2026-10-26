@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-705",
+  "de": {
+    "nom": "Marc Duval",
+    "adresse": "marc.duval@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Les deux nouveaux",
+  "date": "2026-10-30T16:45:00+01:00",
+  "corps": "Sonia,\n\nHélène m'a dit que deux nouveaux arrivent en novembre, Jérôme Barré et un apprenti. Donne-moi leurs dates d'arrivée, et transfère-moi leurs contrats, que je voie leurs horaires de travail pour préparer le planning.\n\nMarc (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

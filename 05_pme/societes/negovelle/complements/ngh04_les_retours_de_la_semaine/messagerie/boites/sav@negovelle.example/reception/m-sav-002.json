@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-002",
+  "de": {
+    "nom": "Étienne Lecoq",
+    "adresse": "etienne.lecoq@platrerie-hoarau.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Vis à reprendre",
+  "date": "2026-07-02T11:30:00+02:00",
+  "corps": "Bonjour,\n\nLes 4 boîtes de vis VIS-11976 de la livraison BL-2026-01811 du 1er juillet ne nous servent finalement pas ; je vous les rapporte demain matin, non ouvertes. Merci de les reprendre.\n\nÉtienne Lecoq\nPlâtrerie Hoarau",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

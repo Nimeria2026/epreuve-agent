@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cema-604",
+  "de": {
+    "nom": "Amandine Laurent",
+    "adresse": "amandine.laurent@messagerie.example"
+  },
+  "a": [
+    "cedric.maillard@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Ma douche",
+  "date": "2026-09-06T10:30:00+02:00",
+  "corps": "Bonjour,\n\nLe flexible de ma douche est usé, sa gaine se déroule. Pouvez-vous m'envoyer un plombier pour le remplacer ? Lot s13-08.\n\nAmandine Laurent",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

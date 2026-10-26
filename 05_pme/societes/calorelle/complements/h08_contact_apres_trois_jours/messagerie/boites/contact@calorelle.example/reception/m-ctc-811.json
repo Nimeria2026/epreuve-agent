@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-811",
+  "de": {
+    "nom": "Tenues Pro Direct",
+    "adresse": "offres@tenues-pro-direct.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "-30 % sur vos vêtements de travail",
+  "date": "2026-10-30T12:30:00+01:00",
+  "corps": "Bonjour,\n\nJusqu'au 15 novembre, profitez de 30 % de remise sur toute notre gamme de vêtements de travail et de chaussures de sécurité.\n\nL'équipe Tenues Pro Direct (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

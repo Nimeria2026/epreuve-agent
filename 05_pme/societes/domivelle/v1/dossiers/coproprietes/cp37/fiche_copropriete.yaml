@@ -1,0 +1,20 @@
+# Fiche de la copropriété cp37. Données FICTIVES.
+copropriete: cp37
+nom: Résidence Les Rives du Cher
+adresse: 137 rue de la Halle, 18999 Vernillac (FICTIF)
+lots_principaux: 60
+annee_construction: 1997
+ascenseur: true
+exercice: du lendemain du 31 décembre au 31 décembre
+gestionnaire: Gaëlle Fournel
+conseil_syndical:
+  president: Mme Laure Bazin
+  membres:
+  - M. Jacques Godard
+  - Mme Claire Texier
+seuil_mise_en_concurrence: 3 000,00 €
+seuil_consultation_du_conseil_syndical: 1 000,00 €
+assureur_de_l_immeuble: Mutuelle Carrelis (FICTIF)
+declaration_des_sinistres: sinistres@mutuelle-carrelis.example
+immeuble_en_gestion_locative: null
+fonds_de_travaux: 5 % du budget prévisionnel, aux tantièmes généraux, appelé avec chaque provision

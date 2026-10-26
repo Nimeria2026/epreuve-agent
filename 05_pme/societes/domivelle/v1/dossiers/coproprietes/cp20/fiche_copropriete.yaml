@@ -1,0 +1,20 @@
+# Fiche de la copropriété cp20. Données FICTIVES.
+copropriete: cp20
+nom: Résidence Les Terrasses du Cher
+adresse: 101 rue du Pont, 18999 Montclavel-sur-Cher (FICTIF)
+lots_principaux: 43
+annee_construction: 2004
+ascenseur: true
+exercice: du lendemain du 30 septembre au 30 septembre
+gestionnaire: Yohan Delmas
+conseil_syndical:
+  president: M. Henri Lacroix
+  membres:
+  - Mme Fabienne Deschamps
+  - M. René Noël
+seuil_mise_en_concurrence: 7 000,00 €
+seuil_consultation_du_conseil_syndical: 500,00 €
+assureur_de_l_immeuble: Assurances Brévalle (FICTIF)
+declaration_des_sinistres: sinistres@assurances-brevalle.example
+immeuble_en_gestion_locative: null
+fonds_de_travaux: 5 % du budget prévisionnel, aux tantièmes généraux, appelé avec chaque provision

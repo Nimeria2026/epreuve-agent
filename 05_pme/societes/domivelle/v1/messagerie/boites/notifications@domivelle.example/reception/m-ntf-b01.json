@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ntf-b01",
+  "de": {
+    "nom": "Service d'envoi électronique",
+    "adresse": "accuses@envoi-electronique.example"
+  },
+  "a": [
+    "notifications@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Accusé de dépôt : envoi pour Résidence Le Parc Saint-Martin",
+  "date": "2026-05-20T11:24:00+02:00",
+  "corps": "Votre envoi électronique pour la copropriété cp27 a été déposé et remis à ses destinataires.\n\nDocument FICTIF : Domivelle et ses partenaires n'existent pas.",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

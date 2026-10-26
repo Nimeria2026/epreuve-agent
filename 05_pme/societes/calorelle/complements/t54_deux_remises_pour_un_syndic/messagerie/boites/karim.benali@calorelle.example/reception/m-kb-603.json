@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-603",
+  "de": {
+    "nom": "Syndic de la Résidence du Clos-Fargeau",
+    "adresse": "contact@syndic-de-la-residence-du-clos-fargeau-180.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis DV-2026-014",
+  "date": "2026-11-02T08:40:00+01:00",
+  "corps": "Bonjour Monsieur Benali,\n\nVous accordez une remise à notre immeuble du chemin des Vignes. Pour celui du 97 rue des Écoles, nous vous demandons 8 % sur le désembouage, DV-2026-014 : renvoyez-nous le devis corrigé et nous signons cette semaine.\n\nCordialement,\nLe syndic de la Résidence du Clos-Fargeau (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01795",
+  "commande": "CO-2026-01946",
+  "client": "c-0018",
+  "date_expedition": "2026-07-01",
+  "date_livraison": "2026-07-01",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "37 parc d'activités de la Gare, 36999 Saulvenne (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "QUI-10596",
+      "libelle": "Charnière de meuble à visser 30 mm, inox",
+      "quantite": 6
+    }
+  ],
+  "reserves": null,
+  "signataire": "Inès Durieux",
+  "statut": "livre"
+}

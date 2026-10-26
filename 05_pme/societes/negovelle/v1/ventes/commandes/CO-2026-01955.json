@@ -1,0 +1,95 @@
+{
+  "numero": "CO-2026-01955",
+  "client": "c-0252",
+  "reference_client": null,
+  "cree_le": "2026-06-30T09:10:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "2 chemin du Bois, 36999 Vaumoreau-sur-Indre (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-10367",
+      "libelle": "Borne de connexion automatique 3 conducteurs, boîte de 100",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 16.95,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 16.27,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 97.62
+    },
+    {
+      "reference": "OUT-11045",
+      "libelle": "Lime triangulaire 300 mm, taille bâtarde",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 13.95,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 13.39,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 53.56
+    },
+    {
+      "reference": "OUT-13119",
+      "libelle": "Équerre de menuisier 200 mm",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 11.55,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 11.09,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 33.27
+    },
+    {
+      "reference": "PRO-10963",
+      "libelle": "Gants de manutention enduits nitrile, taille 7",
+      "quantite": 36,
+      "prix_tarif_ht_euros": 8.65,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 8.3,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 298.8
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 483.25,
+  "total_tva_euros": 96.65,
+  "total_ttc_euros": 579.9,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01804"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-06-30T09:10:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-30T09:12:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-01T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01804"
+    },
+    {
+      "date": "2026-07-01T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01804"
+    }
+  ]
+}

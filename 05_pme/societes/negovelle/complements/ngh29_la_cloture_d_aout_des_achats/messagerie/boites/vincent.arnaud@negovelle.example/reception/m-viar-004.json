@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-viar-004",
+  "de": {
+    "nom": "Chantal Robin",
+    "adresse": "chantal.robin@negovelle.example"
+  },
+  "a": [
+    "vincent.arnaud@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Offre de Hygiène de la Brenne",
+  "date": "2026-08-17T09:15:00+02:00",
+  "corps": "Vincent, une offre de fournisseur pour toi.\n\nChantal\n\n----- Message transféré -----\nDe : Yves Marchal <yves.marchal@hygiene-de-la-brenne.example>\nDate : 2026-08-17T08:30:00+02:00\nObjet : Offre de rentrée\n\nBonjour,\n\nNous lançons un nettoyant dégraissant d'origine végétale, en bidon de 5 l : échantillons gratuits sur simple demande, et 10 % de remise de lancement jusqu'au 31 octobre 2026.\n\nBien cordialement,\nYves Marchal\nHygiène de la Brenne",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

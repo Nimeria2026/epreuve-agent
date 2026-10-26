@@ -1,0 +1,19 @@
+# Fiche du lot c27-09. Données FICTIVES.
+lot: c27-09
+adresse: 86 rue de la Croix-Blanche, 18999 Montclavel-sur-Cher (FICTIF)
+type: T1
+surface_m2: 32
+locataire:
+  nom: Mme Inès Pasquier
+  courriel: ines.pasquier@boite-postale.example
+  telephone: 06 39 98 73 08
+  entree: '2015-07-25'
+bail:
+  signature: '2015-07-25'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 330,00 €
+  depot_de_garantie: 264,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T1
+dpe:
+  classe: D

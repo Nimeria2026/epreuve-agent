@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-707",
+  "de": {
+    "nom": "Hélène Marchal",
+    "adresse": "helene.marchal@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Arrivées de novembre",
+  "date": "2026-11-02T08:30:00+01:00",
+  "corps": "Sonia,\n\nOù en sont les arrivées de Jérôme Barré et de Noé Rivière ? Dis-moi quand chacun arrive, et si son dossier est complet. Envoie aussi à chacun un mot d'accueil : le jour de son arrivée, rendez-vous à 8 h au dépôt, avec ses chaussures de sécurité ; Thomas Girard l'accueillera et lui remettra sa tenue et son téléphone.\n\nHélène (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

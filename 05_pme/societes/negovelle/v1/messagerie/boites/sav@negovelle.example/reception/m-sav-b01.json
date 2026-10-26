@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-b01",
+  "de": {
+    "nom": "Léa Gonnet",
+    "adresse": "lea.gonnet@maconnerie-auger.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Disponibilité",
+  "date": "2026-06-29T15:22:00+02:00",
+  "corps": "Bonjour,\n\nAvez-vous en stock la référence QUI-11592 ? Il m'en faudrait 50 pour la fin de semaine.\n\nMerci,\nLéa Gonnet",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

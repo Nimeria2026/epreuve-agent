@@ -1,0 +1,128 @@
+# Registre des lots en gestion, s05. Données FICTIVES.
+immeuble: s05
+nature: immeuble collectif
+adresse: 28 rue de la Poste, 18999 Chantebrune (FICTIF)
+secteur: sud
+gestionnaire: Solène Audoin
+distance_agence_km: 13
+annee_construction: 2005
+gardien: false
+copropriete_du_syndic: null
+lots:
+- lot: s05-01
+  type: T3
+  surface_m2: 60
+  etage: 0
+  proprietaire: p-0520
+  locataire: Mme Isabelle Simon
+  entree: '2013-09-30'
+  loyer_hors_charges: 561,00 €
+  provision_sur_charges: 37,00 €
+  depot_de_garantie: 432,00 €
+  revision: chaque 30 septembre
+  trimestre_irl: T2
+  dpe: B
+- lot: s05-02
+  type: T2
+  surface_m2: 46
+  etage: 0
+  proprietaire: p-0532
+  locataire: Mme Denise Olivier
+  entree: '2013-04-13'
+  loyer_hors_charges: 374,00 €
+  provision_sur_charges: 64,00 €
+  depot_de_garantie: 282,00 €
+  revision: chaque 13 avril
+  trimestre_irl: T4
+  dpe: F
+- lot: s05-03
+  type: T2
+  surface_m2: 49
+  etage: 0
+  proprietaire: p-0520
+  locataire: Mme Corinne Cordier
+  entree: '2014-08-08'
+  loyer_hors_charges: 401,00 €
+  provision_sur_charges: 32,00 €
+  depot_de_garantie: 315,00 €
+  revision: chaque 8 août
+  trimestre_irl: T2
+  dpe: C
+- lot: s05-04
+  type: T3
+  surface_m2: 57
+  etage: 0
+  proprietaire: p-0533
+  locataire: M. Olivier Bigot
+  entree: '2013-06-09'
+  loyer_hors_charges: 547,00 €
+  provision_sur_charges: 78,00 €
+  depot_de_garantie: 413,00 €
+  revision: chaque 9 juin
+  trimestre_irl: T1
+  dpe: E
+- lot: s05-05
+  type: T2
+  surface_m2: 41
+  etage: 1
+  proprietaire: p-0534
+  locataire: M. Pascal Lemaire
+  entree: '2015-05-14'
+  loyer_hors_charges: 361,00 €
+  provision_sur_charges: 43,00 €
+  depot_de_garantie: 283,00 €
+  revision: chaque 14 mai
+  trimestre_irl: T1
+  dpe: E
+- lot: s05-06
+  type: T3
+  surface_m2: 60
+  etage: 1
+  proprietaire: p-0535
+  locataire: M. Philippe Carpentier
+  entree: '2023-10-07'
+  loyer_hors_charges: 538,00 €
+  provision_sur_charges: 37,00 €
+  depot_de_garantie: 512,00 €
+  revision: chaque 7 octobre
+  trimestre_irl: T2
+  dpe: D
+- lot: s05-07
+  type: T1
+  surface_m2: 29
+  etage: 1
+  proprietaire: p-0536
+  locataire: M. André Brunet
+  entree: '2012-07-06'
+  loyer_hors_charges: 240,00 €
+  provision_sur_charges: 107,00 €
+  depot_de_garantie: 181,00 €
+  revision: chaque 6 juillet
+  trimestre_irl: T1
+  dpe: E
+- lot: s05-08
+  type: T3
+  surface_m2: 58
+  etage: 1
+  proprietaire: p-0537
+  locataire: Mme Christine Cordier
+  entree: '2014-02-17'
+  loyer_hors_charges: 506,00 €
+  provision_sur_charges: 105,00 €
+  depot_de_garantie: 389,00 €
+  revision: chaque 17 février
+  trimestre_irl: T4
+  dpe: E
+- lot: s05-09
+  type: T3
+  surface_m2: 58
+  etage: 2
+  proprietaire: p-0538
+  locataire: Mme Geneviève Weber
+  entree: '2023-04-09'
+  loyer_hors_charges: 537,00 €
+  provision_sur_charges: 69,00 €
+  depot_de_garantie: 500,00 €
+  revision: chaque 9 avril
+  trimestre_irl: T4
+  dpe: E

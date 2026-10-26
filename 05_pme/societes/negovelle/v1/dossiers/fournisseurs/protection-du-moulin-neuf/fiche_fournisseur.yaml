@@ -1,0 +1,10 @@
+# Fiche d'un fournisseur de Négovelle. Données FICTIVES.
+nom: Protection du Moulin-Neuf
+activite: fabricant d'équipements de protection individuelle
+adresse: 26 parc d'activités de la Gare, 36999 Mérolles-en-Brenne (FICTIF)
+telephone: 02 61 91 69 88
+courriel_commandes: commandes@protection-du-moulin-neuf.example
+courriel_facturation: facturation@protection-du-moulin-neuf.example
+iban: FR76 9999 9692 9749 8855 5279 215 (FICTIF)
+conditions: paiement à 30 jours date de facture
+minimum_de_commande: 300,00 € HT

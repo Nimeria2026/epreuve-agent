@@ -1,0 +1,39 @@
+{
+  "numero": "BL-2026-01817",
+  "commande": "CO-2026-01968",
+  "client": "c-0044",
+  "date_expedition": "2026-07-02",
+  "date_livraison": "2026-07-02",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "11 zone d'activités des Grands Prés, 36999 Fontclavier (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "ELE-12254",
+      "libelle": "Hublot rond LED 8 W",
+      "quantite": 4
+    },
+    {
+      "reference": "ENT-11078",
+      "libelle": "Sacs poubelle 160 l, transparents, rouleau de 25",
+      "quantite": 3
+    },
+    {
+      "reference": "VIS-10481",
+      "libelle": "Boulon tête hexagonale M8x40, zingué, sachet de 25",
+      "quantite": 1
+    },
+    {
+      "reference": "VIS-14066",
+      "libelle": "Écrou hexagonal M12, inox A2, sachet de 100",
+      "quantite": 4
+    }
+  ],
+  "reserves": null,
+  "signataire": "Louis Lagarde",
+  "statut": "livre"
+}

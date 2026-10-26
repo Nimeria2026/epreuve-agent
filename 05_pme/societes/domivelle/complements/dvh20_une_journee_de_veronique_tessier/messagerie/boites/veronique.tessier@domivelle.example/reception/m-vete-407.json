@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-vete-407",
+  "de": {
+    "nom": "Bastien Leroy",
+    "adresse": "bastien.leroy@courriel.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Candidature : comptable",
+  "date": "2026-06-06T14:00:00+02:00",
+  "corps": "Madame,\n\nComptable en cabinet depuis six ans, je vous adresse ma candidature. Mon curriculum vitae est joint.\n\nBastien Leroy",
+  "pieces_jointes": [
+    {
+      "nom": "cv_bastien_leroy.pdf",
+      "fichier": "pieces/m-vete-407/cv_bastien_leroy.pdf",
+      "taille_octets": 748
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

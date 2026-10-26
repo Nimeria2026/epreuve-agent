@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-604",
+  "de": {
+    "nom": "Distri-Clim Centre",
+    "adresse": "compta@distri-clim-centre.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture DC-5650",
+  "date": "2026-11-27T10:15:00+01:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-joint notre facture DC-5650 du 20 novembre 2026, 2 280,00 € TTC, pour les deux unités extérieures de pompe à chaleur livrées le même jour.\n\nService comptable, Distri-Clim Centre (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "Facture_DC-5650.pdf",
+      "fichier": "pieces/m-cpt-604/Facture_DC-5650.pdf",
+      "taille_octets": 1070
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

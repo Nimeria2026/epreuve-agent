@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-b02",
+  "de": {
+    "nom": "Sophie Perrot",
+    "adresse": "sophie.perrot@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Merci pour votre intervention",
+  "date": "2026-08-11T15:16:00+02:00",
+  "corps": "Bonjour,\n\nMerci au technicien pour sa visite rapide et soignée.\n\nSophie Perrot (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

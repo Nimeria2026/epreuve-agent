@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-viar-018",
+  "de": {
+    "nom": "Lucie Barbier",
+    "adresse": "lucie.barbier@visserie-de-la-garenne.example"
+  },
+  "a": [
+    "vincent.arnaud@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Votre commande CA-2026-0380",
+  "date": "2026-08-26T11:20:00+02:00",
+  "corps": "Bonjour Monsieur Arnaud,\n\nVotre commande CA-2026-0380 du 7 août vous a été livrée hier. Nous vous informons que notre facture appliquera notre tarif du 1er août : VIS-13511 à 10,40 € HT au lieu de 9,91 € ; VIS-12458 à 12,35 € HT au lieu de 11,80 €.\n\nMerci de votre compréhension,\nLucie Barbier, administration des ventes\nVisserie de la Garenne",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

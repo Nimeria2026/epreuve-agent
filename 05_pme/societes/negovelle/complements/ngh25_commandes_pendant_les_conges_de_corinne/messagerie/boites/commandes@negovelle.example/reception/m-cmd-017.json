@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-017",
+  "de": {
+    "nom": "Chantal Granger",
+    "adresse": "chantal.granger@maconnerie-daniel.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-24T16:20:00+02:00",
+  "corps": "Bonjour,\n\nNotre commande, que j'ai aussi donnée à M. Mercier :\n\n- 48 x CON-11012, Disque abrasif à lamelles 115 mm, grain 60, boîte de 50\n- 10 x CON-11510, Mousse polyuréthane expansive pistolable, 500 ml\n\nAu siège.\n\nChantal Granger\nMaçonnerie Daniel",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

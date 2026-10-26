@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0020"
+nom: "Établissements Dubois"
+type: "entreprise"
+adresse: "50 rue de la Loire, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "contact@etablissements-dubois-20.example"
+telephone: "02 61 91 35 03"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité Plus"
+  depuis: "2021-09-14"
+  mois_anniversaire: "septembre"
+  derniere_visite: "2026-09-27"

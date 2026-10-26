@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-101",
+  "de": {
+    "nom": "Pierre Legrand",
+    "adresse": "pierre.legrand@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Visite du 15 octobre : demande de remboursement",
+  "date": "2026-11-02T08:24:00+01:00",
+  "corps": "Bonjour Madame Perrin,\n\nLe 15 octobre, votre technicien devait venir entre 8 h et 10 h pour l'entretien annuel de ma chaudière. Il est arrivé à 13 h, sans prévenir. J'avais posé ma matinée pour l'attendre et j'ai perdu une demi-journée de congé.\n\nJe vous demande de me rembourser le contrat de cette année (facture FC-2026-0396, 160 €). À défaut, j'attends un geste commercial sérieux.\n\nCordialement,\nPierre Legrand\n60 allée des Peupliers, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

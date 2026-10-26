@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01702",
+  "commande": "CO-2026-01853",
+  "client": "c-0273",
+  "date_expedition": "2026-06-25",
+  "date_livraison": "2026-06-25",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "9 parc d'activités de la Gare, 36999 Saulvenne (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "PLB-12139",
+      "libelle": "Raccord à sertir applique 14 mm",
+      "quantite": 1
+    },
+    {
+      "reference": "QUI-10735",
+      "libelle": "Charnière invisible 25 mm, acier zingué",
+      "quantite": 8
+    }
+  ],
+  "reserves": null,
+  "signataire": "Aurélie Chevrier",
+  "statut": "livre"
+}

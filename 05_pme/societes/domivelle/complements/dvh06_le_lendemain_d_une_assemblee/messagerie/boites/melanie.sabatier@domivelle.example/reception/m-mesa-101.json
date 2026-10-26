@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-mesa-101",
+  "de": {
+    "nom": "Gaëlle Fournel",
+    "adresse": "gaelle.fournel@domivelle.example"
+  },
+  "a": [
+    "melanie.sabatier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Les Platanes : le procès-verbal",
+  "date": "2026-06-05T21:05:00+02:00",
+  "corps": "Bonjour Mélanie,\n\nL'assemblée des Platanes s'est bien passée ; le procès-verbal, signé en séance, est rangé dans le dossier de cp32. Peux-tu en faire les suites lundi ?\n\nMerci,\nGaëlle",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

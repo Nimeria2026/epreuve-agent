@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cpt-202",
+  "de": {
+    "nom": "Mme Martine Régnier",
+    "adresse": "martine.regnier@mel-perso.example"
+  },
+  "a": [
+    "comptabilite@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "s01-06 : la porte de la cuisine",
+  "date": "2026-06-06T10:25:00+02:00",
+  "corps": "Bonjour,\n\nM. Gilbert a abîmé la porte du meuble sous l'évier. Retenez 340,00 € sur son dépôt de garantie : c'est le prix d'un meuble neuf, je n'ai pas eu le temps de demander un devis.\n\nMartine Régnier",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

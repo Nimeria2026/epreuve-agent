@@ -1,0 +1,14 @@
+{
+  "numero": "INT-2026-0045",
+  "client": "c-0181",
+  "techniciens": [
+    "romain.guerin",
+    "antoine.leroy"
+  ],
+  "debut": "2026-12-29T08:00:00+01:00",
+  "fin": "2026-12-29T12:00:00+01:00",
+  "nature": "installation",
+  "objet": "Pose d'un ballon thermodynamique et de sa tuyauterie",
+  "statut": "planifiee",
+  "cree_par": "marc.duval"
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-tg-822",
+  "de": {
+    "nom": "Syndic de la Résidence du Clos-Fargeau",
+    "adresse": "contact@syndic-de-la-residence-du-clos-fargeau-3.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Notre contrôle de mardi",
+  "date": "2026-12-20T09:00:00+01:00",
+  "corps": "Bonjour,\n\nDes résidents nous disent que la Résidence du Clos-Fargeau du chemin des Vignes est sans chauffage. Que s'est-il passé chez eux ? Leur chaudière est-elle la même que la nôtre ? Et notre contrôle de mardi est-il maintenu ?\n\nLe syndic de la Résidence du Clos-Fargeau, 35 rue des Lilas (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

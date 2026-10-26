@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-412",
+  "de": {
+    "nom": "Alain Dubois",
+    "adresse": "alain.dubois@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "RE: Devis DV-2026-010",
+  "date": "2026-10-31T10:20:00+01:00",
+  "corps": "Bonjour Madame Perrin,\n\nNous en avons parlé en famille. Un autre installateur nous propose une pompe à chaleur équivalente pour 10 % de moins que votre devis DV-2026-010. Si vous nous faites la même remise, nous signons tout de suite ; sinon, nous choisirons l'autre.\n\nCordialement,\nAlain Dubois (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

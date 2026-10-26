@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01887",
+  "commande": "CO-2026-02067",
+  "client": "c-0305",
+  "date_expedition": "2026-07-29",
+  "date_livraison": "2026-07-29",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "38 zone artisanale du Moulin, 36999 Saulvenne (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "PRO-10441",
+      "libelle": "Casque de chantier non ventilé, blanc",
+      "quantite": 10
+    }
+  ],
+  "reserves": null,
+  "signataire": "Françoise Mahé",
+  "statut": "livre"
+}

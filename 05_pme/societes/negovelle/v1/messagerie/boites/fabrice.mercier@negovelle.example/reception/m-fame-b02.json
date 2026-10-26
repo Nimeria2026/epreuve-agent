@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-fame-b02",
+  "de": {
+    "nom": "Geneviève Bellanger",
+    "adresse": "genevieve.bellanger@bruneau-renovation.example"
+  },
+  "a": [
+    "fabrice.mercier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Copie de facture",
+  "date": "2026-06-23T11:21:00+02:00",
+  "corps": "Bonjour,\n\nPouvez-vous me renvoyer la facture de mai ? Je ne la retrouve pas.\n\nCordialement,\nGeneviève Bellanger",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

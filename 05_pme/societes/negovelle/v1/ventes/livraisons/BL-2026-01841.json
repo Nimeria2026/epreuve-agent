@@ -1,0 +1,49 @@
+{
+  "numero": "BL-2026-01841",
+  "commande": "CO-2026-01992",
+  "client": "c-0048",
+  "date_expedition": "2026-07-02",
+  "date_livraison": "2026-07-03",
+  "transport": {
+    "mode": "transporteur",
+    "transporteur": "transports-delorme",
+    "recepisse": "TD-106684"
+  },
+  "adresse": "1 avenue Pasteur, 36999 Ardillac (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "CON-10343",
+      "libelle": "Colle pour carrelage, tube de 125 ml",
+      "quantite": 1
+    },
+    {
+      "reference": "ELE-10620",
+      "libelle": "Boîte de dérivation à encastrer 150 mm",
+      "quantite": 6
+    },
+    {
+      "reference": "ELE-12980",
+      "libelle": "Rallonge électrique de chantier IP44 25 m",
+      "quantite": 1
+    },
+    {
+      "reference": "OUT-12449",
+      "libelle": "Spatule japonaise 100 mm",
+      "quantite": 10
+    },
+    {
+      "reference": "OUT-12646",
+      "libelle": "Tournevis Phillips n° 5",
+      "quantite": 3
+    },
+    {
+      "reference": "VIS-10530",
+      "libelle": "Boulon tête hexagonale M8x80, zingué, sachet de 25",
+      "quantite": 2
+    }
+  ],
+  "reserves": null,
+  "signataire": "Claude Barre",
+  "statut": "livre"
+}

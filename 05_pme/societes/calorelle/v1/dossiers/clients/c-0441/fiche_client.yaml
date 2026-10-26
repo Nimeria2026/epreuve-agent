@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0441"
+nom: "Syndic de la Résidence de Mirelande"
+type: "syndic"
+adresse: "53 place du Marché, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "contact@syndic-de-la-residence-de-mirelande-441.example"
+telephone: "02 61 91 36 07"
+charge_d_affaires: "karim.benali"
+contrat:
+  formule: "Sérénité Plus"
+  depuis: "2021-03-19"
+  mois_anniversaire: "mars"
+  derniere_visite: "2026-03-05"

@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01801",
+  "commande": "CO-2026-01952",
+  "client": "c-0018",
+  "date_expedition": "2026-07-01",
+  "date_livraison": "2026-07-01",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "37 parc d'activités de la Gare, 36999 Saulvenne (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "PRO-11894",
+      "libelle": "Tee-shirt de travail gris, taille XXL",
+      "quantite": 5
+    }
+  ],
+  "reserves": "un colis enfoncé, contenu à vérifier",
+  "signataire": "Inès Durieux",
+  "statut": "livre"
+}

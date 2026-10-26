@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-elch-301",
+  "de": {
+    "nom": "M. Daniel Thibault",
+    "adresse": "daniel.thibault@boite-postale.example"
+  },
+  "a": [
+    "elodie.chauvin@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Relouer mon T2 de l'allée des Acacias",
+  "date": "2026-06-04T17:20:00+02:00",
+  "corps": "Madame Chauvin,\n\nM. Martel a rendu les clés de mon T2 n04-08 le 31 mai. Je voudrais le relouer au même loyer dès juillet, ou alors le louer meublé si c'est plus simple. Mme Bonnet quitte aussi mon T1 n12-02 à la fin du mois : celui-là, je le reloue à 320,00 € hors charges. Pouvez-vous lancer les visites des deux ?\n\nDaniel Thibault",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

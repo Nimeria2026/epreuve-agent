@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-hm-520",
+  "de": {
+    "nom": "Julie Perrin",
+    "adresse": "julie.perrin@calorelle.example"
+  },
+  "a": [
+    "helene.marchal@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis DV-2026-021 à valider",
+  "date": "2026-11-19T16:45:00+01:00",
+  "corps": "Hélène,\n\nVoici le devis DV-2026-021 : Sandrine Blanchard (c-0042), pompe à chaleur et ballon thermodynamique pour sa nouvelle maison. Au-delà de 10 000 € TTC, il attend ton accord avant de partir au client.\n\nJulie (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "dv-2026-021.pdf",
+      "fichier": "pieces/m-hm-520/dv-2026-021.pdf",
+      "taille_octets": 1618
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

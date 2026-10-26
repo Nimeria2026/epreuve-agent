@@ -1,0 +1,13 @@
+{
+  "numero": "INT-2026-0040",
+  "client": "c-0405",
+  "techniciens": [
+    "thomas.girard"
+  ],
+  "debut": "2026-11-19T08:00:00+01:00",
+  "fin": "2026-11-19T10:00:00+01:00",
+  "nature": "visite_annuelle",
+  "objet": "Visite annuelle de la chaufferie, contrat Sérénité Plus ; jour convenu avec le syndic par téléphone le 26 octobre",
+  "statut": "planifiee",
+  "cree_par": "marc.duval"
+}

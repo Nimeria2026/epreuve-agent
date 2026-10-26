@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-506",
+  "de": {
+    "nom": "Commune du Val-Mauvoir",
+    "adresse": "contact@commune-du-val-mauvoir-586.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis pour les radiateurs de la mairie",
+  "date": "2026-11-17T08:50:00+01:00",
+  "corps": "Bonjour Monsieur Benali,\n\nVotre technicien est passé jeudi dernier voir les radiateurs du bureau d'accueil de la mairie. Pouvez-vous nous adresser le devis de leur remplacement ? Le conseil municipal du 26 novembre doit le voter.\n\nCordialement,\nLe secrétariat de la mairie du Val-Mauvoir (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

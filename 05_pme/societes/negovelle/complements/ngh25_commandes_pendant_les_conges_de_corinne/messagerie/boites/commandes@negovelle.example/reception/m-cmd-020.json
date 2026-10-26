@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-020",
+  "de": {
+    "nom": "Sophie Rocher",
+    "adresse": "sophie.rocher@mairie-de-ardillac.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande à livrer à l'école",
+  "date": "2026-07-25T10:15:00+02:00",
+  "corps": "Bonjour,\n\nPour les travaux d'été de l'école Jules-Ferry, merci de livrer directement à l'école, 3 rue des Tilleuls à Ardillac (FICTIF), cette semaine :\n\n- 24 x CON-11094, Disque abrasif à lamelles 125 mm, grain 40, boîte de 10\n- 12 x CON-10073, Bombe de peinture haute température, blanc, aérosol de 400 ml\n\nSophie Rocher\nMairie de Ardillac",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

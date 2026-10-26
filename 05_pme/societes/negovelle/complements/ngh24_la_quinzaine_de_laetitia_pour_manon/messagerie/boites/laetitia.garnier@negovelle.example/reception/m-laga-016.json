@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-laga-016",
+  "de": {
+    "nom": "Corinne Vidal",
+    "adresse": "corinne.vidal@negovelle.example"
+  },
+  "a": [
+    "laetitia.garnier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Commande",
+  "date": "2026-08-10T07:46:00+02:00",
+  "corps": "Lætitia,\n\nManon étant absente jusqu'au 21, je te transfère sa commande du nord, arrivée dans commandes@.\n\nCorinne\n\n----- Message transféré -----\nDe : Thomas Vidal <thomas.vidal@peinture-dore.example>\nDate : 8 août 2026, 7 h 25\nObjet : Commande\n\nBonjour,\n\nJe suis le nouveau chef d'équipe de Peinture Doré. Notre commande :\n\n- 6 x CON-10653, Disque abrasif auto-agrippant 150 mm, grain 60, boîte de 10\n\nÀ livrer au siège, en standard.\n\nThomas Vidal\nPeinture Doré",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

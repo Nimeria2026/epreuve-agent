@@ -1,0 +1,70 @@
+{
+  "numero": "CO-2026-02042",
+  "client": "c-0168",
+  "reference_client": null,
+  "cree_le": "2026-07-03T10:00:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "120 place du Marché, 36999 Ardillac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "PLB-12449",
+      "libelle": "Robinet d'arrêt quart de tour 20x27",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 20.1,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 18.49,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 221.88
+    },
+    {
+      "reference": "QUI-11274",
+      "libelle": "Coulisse de tiroir à fermeture amortie 300 mm, la paire",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 24.65,
+      "remise_pourcent": 10.76,
+      "prix_net_ht_euros": 22.0,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 264.0
+    },
+    {
+      "reference": "ELE-11412",
+      "libelle": "Câble téléphonique 4 paire(s), couronne de 25 m",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 52.5,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 48.3,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 193.2
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 679.08,
+  "total_tva_euros": 135.82,
+  "total_ttc_euros": 814.9,
+  "statut": "en_attente_deblocage",
+  "motif_attente": "encours dépassé : encours 2 047,35 € et commande 814,90 € TTC pour une limite de 2 500,00 €",
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T10:00:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": "commande du client"
+    },
+    {
+      "date": "2026-07-03T10:02:00+02:00",
+      "par": "benoit.faure",
+      "action": "mise_en_attente",
+      "detail": "encours dépassé"
+    }
+  ]
+}

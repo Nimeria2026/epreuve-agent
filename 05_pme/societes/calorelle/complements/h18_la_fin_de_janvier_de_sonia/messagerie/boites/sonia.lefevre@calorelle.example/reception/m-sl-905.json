@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-905",
+  "de": {
+    "nom": "Lucas Fontaine",
+    "adresse": "lucas.fontaine@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Congé en mars",
+  "date": "2027-01-28T15:30:00+01:00",
+  "corps": "Sonia,\n\nJe demande un congé du lundi 8 au vendredi 12 mars 2027.\n\nLucas (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

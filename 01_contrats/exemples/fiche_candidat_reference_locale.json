@@ -1,0 +1,18 @@
+{
+  "identifiant": "agent_seul_qwen38_27b",
+  "nom": "Agent seul sur Qwen 3.8 27B",
+  "version": "0.1.0",
+  "origine": "fait_main",
+  "division": "a_modele_egal",
+  "branchement": "mcp",
+  "editeur": "Épreuve d'agent",
+  "url": null,
+  "modeles": [
+    {
+      "nom": "Qwen3.8-27B",
+      "fournisseur": "local"
+    }
+  ],
+  "cout_mesurable": true,
+  "conditions_utilisation": null
+}

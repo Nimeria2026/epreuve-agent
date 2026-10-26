@@ -1,0 +1,139 @@
+{
+  "numero": "CO-2026-01950",
+  "client": "c-0311",
+  "reference_client": "BC-2032",
+  "cree_le": "2026-06-30T09:10:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "express",
+  "livraison": {
+    "code": "L1",
+    "adresse": "2 parc d'activités de la Gare, 36999 Vendrigny (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-12711",
+      "libelle": "Prise de courant USB A et C, noir",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 7.55,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 6.95,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 13.9
+    },
+    {
+      "reference": "OUT-10253",
+      "libelle": "Ciseau à bois 22 mm",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 16.95,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 15.59,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 187.08
+    },
+    {
+      "reference": "OUT-11674",
+      "libelle": "Pince universelle 180 mm",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 25.95,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 25.95,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 103.8
+    },
+    {
+      "reference": "PRO-10098",
+      "libelle": "Bottes de sécurité caoutchouc S5, pointure 38",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 35.55,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 35.55,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 142.2
+    },
+    {
+      "reference": "PRO-10686",
+      "libelle": "Chaussures de sécurité légères composite S3, pointure 44",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 68.75,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 63.25,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 126.5
+    },
+    {
+      "reference": "PRO-11347",
+      "libelle": "Masque FFP2 à valve, boîte de 10",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 7.4,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 6.81,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 68.1
+    },
+    {
+      "reference": "QUI-12401",
+      "libelle": "Poignée de porte béquille sur plaque, laiton",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 36.35,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 33.44,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 200.64
+    },
+    {
+      "reference": "VIS-11665",
+      "libelle": "Vis à bois tête fraisée 4,5x16, bichromatée, boîte de 200",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 16.1,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 14.81,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 177.72
+    }
+  ],
+  "port_ht_euros": 25.0,
+  "total_ht_euros": 1044.94,
+  "total_tva_euros": 208.99,
+  "total_ttc_euros": 1253.93,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01799"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-06-30T09:10:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-30T09:12:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-30T16:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01799"
+    },
+    {
+      "date": "2026-07-01T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01799"
+    }
+  ]
+}

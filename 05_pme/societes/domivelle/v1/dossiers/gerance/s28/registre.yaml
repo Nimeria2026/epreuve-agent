@@ -1,0 +1,71 @@
+# Registre des lots en gestion, s28. Données FICTIVES.
+immeuble: s28
+nature: groupe de maisons
+adresse: 21 allée des Acacias, 18999 Sorlay-le-Haut (FICTIF)
+secteur: sud
+gestionnaire: Solène Audoin
+distance_agence_km: 17
+annee_construction: 2012
+gardien: false
+copropriete_du_syndic: null
+lots:
+- lot: s28-01
+  type: maison T3
+  surface_m2: 85
+  proprietaire: p-0649
+  locataire: M. Bernard Coste
+  entree: '2018-07-14'
+  loyer_hors_charges: 679,00 €
+  provision_sur_charges: 9,00 €
+  depot_de_garantie: 578,00 €
+  revision: chaque 14 juillet
+  trimestre_irl: T1
+  dpe: E
+- lot: s28-02
+  type: maison T5
+  surface_m2: 103
+  proprietaire: p-0680
+  locataire: Mme Valérie Lévêque
+  entree: '2021-12-03'
+  loyer_hors_charges: 893,00 €
+  provision_sur_charges: 10,00 €
+  depot_de_garantie: 812,00 €
+  revision: chaque 3 décembre
+  trimestre_irl: T3
+  dpe: B
+- lot: s28-03
+  type: maison T4
+  surface_m2: 85
+  proprietaire: p-0621
+  locataire: Mme Françoise Fontaine
+  entree: '2026-04-08'
+  loyer_hors_charges: 673,00 €
+  provision_sur_charges: 5,00 €
+  depot_de_garantie: 673,00 €
+  revision: chaque 8 avril
+  trimestre_irl: T4
+  dpe: F
+- lot: s28-04
+  type: maison T3
+  surface_m2: 80
+  proprietaire: p-0631
+  locataire: M. Étienne Barbier
+  entree: '2014-11-14'
+  loyer_hors_charges: 648,00 €
+  provision_sur_charges: 16,00 €
+  depot_de_garantie: 508,00 €
+  revision: chaque 14 novembre
+  trimestre_irl: T3
+  dpe: B
+- lot: s28-05
+  type: maison T5
+  surface_m2: 118
+  proprietaire: p-0681
+  locataire: M. Louis Maillot
+  entree: '2018-12-14'
+  loyer_hors_charges: 1 109,00 €
+  provision_sur_charges: 18,00 €
+  depot_de_garantie: 944,00 €
+  revision: chaque 14 décembre
+  trimestre_irl: T3
+  dpe: C

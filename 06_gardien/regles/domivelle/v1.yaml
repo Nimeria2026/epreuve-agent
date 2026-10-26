@@ -1,0 +1,37 @@
+# Règles du gardien de Domivelle, version 1 (cadrage du 2026-10-15, section 9 ; JOURNAL,
+# cent-cinquante-cinquième entrée ; ADR 0006). Mêmes sortes que celles de Calorelle
+# (06_gardien/regles/v1.yaml), écrites depuis le manuel de Domivelle :
+#   destinataires : un courriel ne part que vers domivelle.example et les domaines des adresses
+#     écrites dans les fiches des propriétaires et des artisans et dans les listes des
+#     copropriétaires ;
+#   validation : une coordonnée bancaire ne change qu'après le contre-appel du comptable de la
+#     fiche (manuel, section 11), Thierry Ollivier pour les artisans, Pascale Renaud pour les
+#     propriétaires ; l'accord est simulé pendant les essais.
+# Les dossiers réservés (comptabilite/, direction/, rh/) restent tenus par le service des
+# dossiers, d'après acces_dossiers.yaml. Tout est fictif.
+version: "1"
+regles:
+  - id: destinataires_connus
+    sorte: destinataires
+    domaines: [domivelle.example]
+    domaines_des_fiches:
+      - proprietaires/*/fiche_proprietaire.yaml
+      - artisans/*/fiche_fournisseur.yaml
+      - coproprietes/*/coproprietaires.csv
+    message: le domaine du destinataire est inconnu de Domivelle
+
+  - id: rib_artisans
+    sorte: validation
+    outils: [modifier_rib_fournisseur]
+    valideur: thierry.ollivier
+    message: >-
+      un changement de coordonnées bancaires d'un artisan attend le contre-appel au numéro de sa
+      fiche, fait par le comptable
+
+  - id: rib_proprietaires
+    sorte: validation
+    ecritures_sous: proprietaires
+    valideur: pascale.renaud
+    message: >-
+      un document rangé dans le dossier d'un propriétaire, un relevé d'identité bancaire par
+      exemple, attend le contre-appel au numéro de sa fiche, fait par la comptable de la gérance

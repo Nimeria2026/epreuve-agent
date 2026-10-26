@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cema-606",
+  "de": {
+    "nom": "Lucie Couturier",
+    "adresse": "lucie.couturier@mel-perso.example"
+  },
+  "a": [
+    "cedric.maillard@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "La ventilation de la salle de bains",
+  "date": "2026-09-06T18:45:00+02:00",
+  "corps": "Bonjour,\n\nLa ventilation mécanique de ma salle de bains ne tourne plus. Électricité du Pré-Carré est venue voir : le moteur est grillé, son devis de 186,00 € TTC est joint. Lot s20-07.\n\nLucie Couturier",
+  "pieces_jointes": [
+    {
+      "nom": "devis_vmc_s20-07.pdf",
+      "fichier": "pieces/m-cema-606/devis_vmc_s20-07.pdf",
+      "taille_octets": 869
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

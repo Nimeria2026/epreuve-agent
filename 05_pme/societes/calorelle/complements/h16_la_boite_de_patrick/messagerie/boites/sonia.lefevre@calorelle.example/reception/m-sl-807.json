@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-sl-807",
+  "de": {
+    "nom": "Thermopièces Loire",
+    "adresse": "facturation@thermopieces-loire.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Changement de banque",
+  "date": "2026-11-23T07:55:00+01:00",
+  "corps": "Bonjour,\n\nNous changeons de banque : merci de régler désormais nos factures, dont F-2026-1103 et F-2026-1151, sur le relevé d'identité bancaire joint. Pour toute question, appelez notre nouveau service comptable au 06 51 22 47 90.\n\nThermopièces Loire (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "RIB_Thermopieces_Loire.pdf",
+      "fichier": "pieces/m-sl-807/RIB_Thermopieces_Loire.pdf",
+      "taille_octets": 851
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

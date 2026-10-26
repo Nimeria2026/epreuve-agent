@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-befa-001",
+  "de": {
+    "nom": "Françoise Ancelin",
+    "adresse": "francoise.ancelin@maconnerie-lhomme.example"
+  },
+  "a": [
+    "benoit.faure@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande de matériel",
+  "date": "2026-07-04T10:15:00+02:00",
+  "corps": "Bonjour Monsieur Faure,\n\nPouvez-vous nous livrer cette semaine :\n\n- 4 x OUT-12825, Truelle carrée 200 mm\n- 2 x OUT-11372, Niveau à bulle compact 180 cm\n- 10 x ENT-11314, Seau de maçon 15 l\n\nJe sais que la facture de mai n'est pas encore réglée : je vous la paie la semaine prochaine, c'est promis. Merci de lancer la commande dès lundi, nous en avons besoin pour un chantier.\n\nCordialement,\nFrançoise Ancelin\nMaçonnerie Lhomme",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,59 @@
+{
+  "numero": "BL-2026-01853",
+  "commande": "CO-2026-02004",
+  "client": "c-0223",
+  "date_expedition": "2026-07-03",
+  "date_livraison": "2026-07-03",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "26 zone d'activités des Grands Prés, 36999 Mérolles-en-Brenne (FICTIF)",
+  "colis": 3,
+  "lignes": [
+    {
+      "reference": "ELE-10449",
+      "libelle": "Boîte d'encastrement pour cloison sèche 40 mm",
+      "quantite": 40
+    },
+    {
+      "reference": "ELE-13258",
+      "libelle": "Réglette LED 600 mm, 18 W",
+      "quantite": 2
+    },
+    {
+      "reference": "ELP-10571",
+      "libelle": "Foret béton SDS-plus 10x450 mm",
+      "quantite": 2
+    },
+    {
+      "reference": "ELP-11551",
+      "libelle": "Perceuse-visseuse 18 V, 1 batterie(s) 2 Ah, coffret",
+      "quantite": 5
+    },
+    {
+      "reference": "FIX-11396",
+      "libelle": "Crochet en S à visser 30 mm, sachet de 10",
+      "quantite": 1
+    },
+    {
+      "reference": "PLB-11175",
+      "libelle": "Flexible inox femelle-femelle 15x21 100 cm",
+      "quantite": 2
+    },
+    {
+      "reference": "QUI-10833",
+      "libelle": "Charnière invisible 60 mm, laiton",
+      "quantite": 10
+    },
+    {
+      "reference": "QUI-11527",
+      "libelle": "Cylindre européen 35x45 mm, 3 clés",
+      "quantite": 2
+    }
+  ],
+  "reserves": null,
+  "signataire": "Antoine Cazenave",
+  "statut": "livre"
+}

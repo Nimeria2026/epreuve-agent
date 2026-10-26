@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cop-607",
+  "de": {
+    "nom": "Guy Besnard",
+    "adresse": "guy.besnard@boite-postale.example"
+  },
+  "a": [
+    "copropriete@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Ma nouvelle adresse",
+  "date": "2026-08-25T12:05:00+02:00",
+  "corps": "Bonjour,\n\nJ'ai changé d'adresse électronique : écrivez-moi désormais à guy.besnard.cher@courriel.example pour tout ce qui concerne mon lot 2 des Glycines.\n\nGuy Besnard",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

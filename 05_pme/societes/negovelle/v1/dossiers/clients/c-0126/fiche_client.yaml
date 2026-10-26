@@ -1,0 +1,31 @@
+# Fiche du client c-0126 de Négovelle. Données FICTIVES.
+code: c-0126
+nom: Imprimerie Mignot
+type: pme
+adresse: 31 zone industrielle des Brandes, 36999 Saulvenne (FICTIF)
+telephone: 02 61 91 84 13
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Maxime Drouet
+  fonction: responsable des achats
+  courriel: maxime.drouet@imprimerie-mignot.example
+- nom: Jérôme Bruneau
+  fonction: responsable de maintenance
+  courriel: jerome.bruneau@imprimerie-mignot.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 31 zone industrielle des Brandes, 36999 Saulvenne (FICTIF)
+- code: L2
+  libelle: dépôt
+  adresse: 5 zone artisanale du Moulin, 36999 Ardillac (FICTIF)
+categorie_remise: A
+delai_paiement: 60_jours_date_de_facture
+client_depuis: '2023-03-01'
+limite_encours_euros: 6000.0
+livraisons_partielles: true
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-chro-001",
+  "de": {
+    "nom": "Bruno Castaing",
+    "adresse": "bruno.castaing@negovelle.example"
+  },
+  "a": [
+    "chantal.robin@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Comptoir en août",
+  "date": "2026-07-06T07:32:00+02:00",
+  "corps": "Chantal,\n\nPeinture Legendre a demandé mercredi sur contact@ si le comptoir reste ouvert en août. Peux-tu leur répondre que oui : le comptoir reste ouvert tout le mois d'août, aux horaires habituels, dès 7 h 30 du lundi au vendredi.\n\nBruno",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

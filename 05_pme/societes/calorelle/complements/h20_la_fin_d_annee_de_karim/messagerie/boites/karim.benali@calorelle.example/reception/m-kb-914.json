@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-914",
+  "de": {
+    "nom": "Syndic de la Résidence du Clos-Fargeau",
+    "adresse": "contact@syndic-de-la-residence-du-clos-fargeau-25.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "La rénovation de nos voisins",
+  "date": "2026-12-23T15:00:00+01:00",
+  "corps": "Bonjour,\n\nLa Résidence du Clos-Fargeau du chemin des Vignes a fait rénover sa chaufferie chez vous l'an dernier. Combien l'a-t-elle payée ? Nous aimerions savoir à quoi nous attendre pour la nôtre.\n\nLe syndic de la Résidence du Clos-Fargeau, 48 rue du Moulin (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

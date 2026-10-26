@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-sl-814",
+  "de": {
+    "nom": "Distri-Clim Centre, service comptable",
+    "adresse": "compta@distri-clim-centre.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Avoir AV-DC-118",
+  "date": "2026-11-20T11:15:00+01:00",
+  "corps": "Bonjour,\n\nVeuillez trouver notre avoir AV-DC-118 du 19 novembre 2026, 238,80 € TTC, sur notre facture DC-5602 : la pompe à chaleur a été livrée avec une carrosserie abîmée.\n\nDistri-Clim Centre (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "AV-DC-118.pdf",
+      "fichier": "pieces/m-sl-814/AV-DC-118.pdf",
+      "taille_octets": 893
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-yode-004",
+  "de": {
+    "nom": "Joël Navarro",
+    "adresse": "joel.navarro@courriel.example"
+  },
+  "a": [
+    "yohan.delmas@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Question pour l'assemblée de la Résidence Le Square des Écoles",
+  "date": "2026-05-12T19:03:00+02:00",
+  "corps": "Monsieur Delmas,\n\nCopropriétaire du lot 5, je vous notifie une question pour la prochaine assemblée générale : le remplacement des boîtes aux lettres du hall, abîmées. Projet de résolution : « L'assemblée générale décide le remplacement des boîtes aux lettres du hall et charge le syndic de faire établir deux devis. »\n\nJoël Navarro",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

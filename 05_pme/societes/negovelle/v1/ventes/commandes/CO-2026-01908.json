@@ -1,0 +1,68 @@
+{
+  "numero": "CO-2026-01908",
+  "client": "c-0343",
+  "reference_client": "BC-6449",
+  "cree_le": "2026-06-26T09:10:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "express",
+  "livraison": {
+    "code": "L1",
+    "adresse": "5 zone d'activités des Grands Prés, 36999 Ardillac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-12017",
+      "libelle": "Ruban adhésif aluminium 19 mm, rouleau de 50 m",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 7.4,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 7.4,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 7.4
+    }
+  ],
+  "port_ht_euros": 25.0,
+  "total_ht_euros": 32.4,
+  "total_tva_euros": 6.48,
+  "total_ttc_euros": 38.88,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01757"
+  ],
+  "facture": "FC-2026-1318",
+  "historique": [
+    {
+      "date": "2026-06-26T09:10:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-26T09:12:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-26T16:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01757"
+    },
+    {
+      "date": "2026-06-29T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01757"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1318"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-001",
+  "de": {
+    "nom": "Transports Delorme",
+    "adresse": "facturation@transports-delorme.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Nos nouvelles coordonnées bancaires",
+  "date": "2026-07-03T15:12:00+02:00",
+  "corps": "Bonjour,\n\nTransports Delorme change de banque au 1er août. Notre nouveau RIB est joint : merci de régler nos factures sur ce compte à partir de cette date. Pour toute vérification, appelez notre comptable, Mme Lucie Barbier, au 06 39 98 52 40.\n\nCordialement,\nService facturation\nTransports Delorme",
+  "pieces_jointes": [
+    {
+      "nom": "rib_transports_delorme_2026-08.pdf",
+      "fichier": "pieces/m-cpt-001/rib_transports_delorme_2026-08.pdf",
+      "taille_octets": 792
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

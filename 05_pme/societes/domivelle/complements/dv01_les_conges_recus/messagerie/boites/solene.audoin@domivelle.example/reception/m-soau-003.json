@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-soau-003",
+  "de": {
+    "nom": "Nadège Lebrun",
+    "adresse": "nadege.lebrun@domivelle.example"
+  },
+  "a": [
+    "solene.audoin@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Recommandé reçu : congé, lot s01-01",
+  "date": "2026-06-05T10:18:00+02:00",
+  "corps": "Solène,\n\nUne lettre recommandée avec avis de réception est arrivée ce vendredi 5 juin : M. Maxime Jourdan, locataire du lot s01-01, donne congé à la suite d'une mutation professionnelle et demande un préavis d'un mois. L'attestation de son employeur est jointe à la lettre. Numérisée dans courrier/2026-06/.\n\nNadège",
+  "pieces_jointes": [
+    {
+      "nom": "2026-06-05_conge_s01-01.pdf",
+      "fichier": "pieces/m-soau-003/2026-06-05_conge_s01-01.pdf",
+      "taille_octets": 827
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

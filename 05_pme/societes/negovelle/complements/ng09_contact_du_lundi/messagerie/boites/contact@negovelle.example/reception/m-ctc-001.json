@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-001",
+  "de": {
+    "nom": "Inès Hervé",
+    "adresse": "ines.herve@couverture-ancelin.example"
+  },
+  "a": [
+    "contact@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande de tuiles et de crochets",
+  "date": "2026-07-04T08:00:00+02:00",
+  "corps": "Bonjour,\n\nMerci de nous livrer cette semaine 40 crochets de gouttière et 10 boîtes de vis à tôle 4,8x19. Notre adresse habituelle.\n\nInès Hervé\nCouverture Ancelin",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-009",
+  "de": {
+    "nom": "Clara Joubert",
+    "adresse": "clara.joubert@courriel.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Candidature, poste de gestionnaire locative",
+  "date": "2026-06-08T08:10:00+02:00",
+  "corps": "Madame, Monsieur,\n\nJe vous adresse ma candidature spontanée à un poste de gestionnaire locative.\n\nClara Joubert",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

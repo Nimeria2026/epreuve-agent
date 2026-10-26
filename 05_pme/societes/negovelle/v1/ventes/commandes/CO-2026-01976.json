@@ -1,0 +1,139 @@
+{
+  "numero": "CO-2026-01976",
+  "client": "c-0187",
+  "reference_client": "BC-7594",
+  "cree_le": "2026-07-01T09:10:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "express",
+  "livraison": {
+    "code": "L1",
+    "adresse": "23 zone industrielle des Brandes, 36999 Vaumoreau-sur-Indre (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-12196",
+      "libelle": "Ruban adhésif de masquage 50 mm, rouleau de 10 m",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 13.15,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 12.62,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 12.62
+    },
+    {
+      "reference": "ELE-13046",
+      "libelle": "Rallonge électrique multiprise 6 prises 15 m",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 77.9,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 74.78,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 448.68
+    },
+    {
+      "reference": "ELE-13283",
+      "libelle": "Spot encastrable LED 5 W, 3000 K, noir",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 17.15,
+      "remise_pourcent": 5.92,
+      "prix_net_ht_euros": 16.13,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 161.3
+    },
+    {
+      "reference": "ELP-10971",
+      "libelle": "Foret métal HSS 13 mm, étui de 5",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 10.5,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 10.08,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 10.08
+    },
+    {
+      "reference": "OUT-11077",
+      "libelle": "Marteau de coffreur 400 g",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 11.95,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 11.47,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 34.41
+    },
+    {
+      "reference": "OUT-11968",
+      "libelle": "Scie à dos 250 mm",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 35.55,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 34.13,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 136.52
+    },
+    {
+      "reference": "PLB-12645",
+      "libelle": "Réduction PVC 50x32 mm",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 2.05,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 2.05,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 4.1
+    },
+    {
+      "reference": "QUI-10800",
+      "libelle": "Charnière invisible 50 mm, acier zingué",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 5.25,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 5.04,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 20.16
+    }
+  ],
+  "port_ht_euros": 25.0,
+  "total_ht_euros": 852.87,
+  "total_tva_euros": 170.57,
+  "total_ttc_euros": 1023.44,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01825"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-01T09:10:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-01T09:12:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-01T16:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01825"
+    },
+    {
+      "date": "2026-07-02T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01825"
+    }
+  ]
+}

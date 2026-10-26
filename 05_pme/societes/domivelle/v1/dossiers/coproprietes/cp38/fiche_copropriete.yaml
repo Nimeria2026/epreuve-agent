@@ -1,0 +1,20 @@
+# Fiche de la copropriété cp38. Données FICTIVES.
+copropriete: cp38
+nom: Résidence Le Clos Fleuri
+adresse: 83 rue de l'Église, 18999 Vernillac (FICTIF)
+lots_principaux: 60
+annee_construction: 1995
+ascenseur: true
+exercice: du lendemain du 31 décembre au 31 décembre
+gestionnaire: Gaëlle Fournel
+conseil_syndical:
+  president: M. Claude Maillot
+  membres:
+  - M. Marcel Picot
+  - M. Paul Weber
+seuil_mise_en_concurrence: 6 000,00 €
+seuil_consultation_du_conseil_syndical: 1 000,00 €
+assureur_de_l_immeuble: Mutuelle Carrelis (FICTIF)
+declaration_des_sinistres: sinistres@mutuelle-carrelis.example
+immeuble_en_gestion_locative: null
+fonds_de_travaux: 5 % du budget prévisionnel, aux tantièmes généraux, appelé avec chaque provision

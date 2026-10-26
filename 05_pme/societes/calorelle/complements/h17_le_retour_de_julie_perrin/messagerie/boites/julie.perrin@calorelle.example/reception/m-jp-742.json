@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-742",
+  "de": {
+    "nom": "Établissements Muller",
+    "adresse": "contact@etablissements-muller-534.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Compte rendu pour notre assureur",
+  "date": "2026-12-21T14:30:00+01:00",
+  "corps": "Madame Perrin,\n\nNotre assureur nous demande le compte rendu de la dernière visite d'entretien de notre chaudière. Pouvez-vous nous l'envoyer ?\n\nÉtablissements Muller, 110 rue des Lilas, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

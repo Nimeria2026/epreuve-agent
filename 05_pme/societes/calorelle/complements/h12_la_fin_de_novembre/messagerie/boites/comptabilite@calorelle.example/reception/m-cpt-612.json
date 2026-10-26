@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-612",
+  "de": {
+    "nom": "Informatique des Grèves",
+    "adresse": "compta@informatique-des-greves.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture IG-2026-0455",
+  "date": "2026-11-30T08:15:00+01:00",
+  "corps": "Bonjour,\n\nNotre facture IG-2026-0455 du 20 novembre 2026, 1 620,00 € TTC, pour le serveur de sauvegarde installé le même jour, est partie par erreur à une ancienne adresse ; la voici. Elle est payable à réception.\n\nService comptable, Informatique des Grèves (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "IG-2026-0455.pdf",
+      "fichier": "pieces/m-cpt-612/IG-2026-0455.pdf",
+      "taille_octets": 1075
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

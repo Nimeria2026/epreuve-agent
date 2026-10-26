@@ -1,0 +1,54 @@
+{
+  "numero": "CO-2026-02042",
+  "client": "c-0031",
+  "reference_client": null,
+  "cree_le": "2026-07-08T10:05:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "100 rue du Pont, 36999 Brissonne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "FIX-11208",
+      "libelle": "Collier de fixation 32 mm, sachet de 25",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 7.05,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 7.05,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 70.5
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 85.5,
+  "total_tva_euros": 17.1,
+  "total_ttc_euros": 102.6,
+  "statut": "validee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-08T10:05:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-08T10:07:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-08T10:07:00+02:00",
+      "par": "manon.rey",
+      "action": "scindee",
+      "detail": "reliquat CO-2026-02043"
+    }
+  ]
+}

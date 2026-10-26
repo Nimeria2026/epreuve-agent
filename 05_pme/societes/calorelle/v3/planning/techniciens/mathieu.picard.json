@@ -1,0 +1,10 @@
+{
+  "id": "mathieu.picard",
+  "nom": "Mathieu Picard",
+  "competences": [
+    "chaudiere_gaz",
+    "pompe_a_chaleur"
+  ],
+  "apprenti": false,
+  "indisponibilites": []
+}

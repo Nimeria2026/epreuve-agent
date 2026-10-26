@@ -1,0 +1,42 @@
+{
+  "numero": "CO-2026-02041",
+  "client": "c-0027",
+  "reference_client": null,
+  "cree_le": "2026-07-02T09:10:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "124 rue des Jardins, 36999 Laubrissac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "PLB-12850",
+      "libelle": "Tube PER 16 mm, nu, couronne de 25 m",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 20.15,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 20.15,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 100.75
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 100.75,
+  "total_tva_euros": 20.15,
+  "total_ttc_euros": 120.9,
+  "statut": "en_attente_reassort",
+  "motif_attente": null,
+  "reliquat_de": "CO-2026-01995",
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-02T09:10:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": "reliquat de CO-2026-01995"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-elch-607",
+  "de": {
+    "nom": "André Collin",
+    "adresse": "andre.collin@courriel.example"
+  },
+  "a": [
+    "elodie.chauvin@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Attestation d'assurance",
+  "date": "2026-10-10T14:00:00+02:00",
+  "corps": "Bonjour,\n\nVoici l'attestation d'assurance de mon logement, lot c15-08.\n\nAndré Collin",
+  "pieces_jointes": [
+    {
+      "nom": "attestation_collin.pdf",
+      "fichier": "pieces/m-elch-607/attestation_collin.pdf",
+      "taille_octets": 890
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

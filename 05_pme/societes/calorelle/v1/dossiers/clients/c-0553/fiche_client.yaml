@@ -1,0 +1,8 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0553"
+nom: "Olivier Mercier"
+type: "particulier"
+adresse: "94 chemin des Vignes, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "olivier.mercier@courriel.example"
+telephone: "06 39 98 51 31"
+charge_d_affaires: "julie.perrin"

@@ -1,0 +1,19 @@
+# Fiche du lot c08-13. Données FICTIVES.
+lot: c08-13
+adresse: 4 rue du Château, 18999 Montclavel-sur-Cher (FICTIF)
+type: T3
+surface_m2: 63
+locataire:
+  nom: Mme Sophie Delorme
+  courriel: sophie.delorme@mel-perso.example
+  telephone: 06 39 98 77 22
+  entree: '2017-10-26'
+bail:
+  signature: '2017-10-26'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 648,00 €
+  depot_de_garantie: 540,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T2
+dpe:
+  classe: E

@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cema-610",
+  "de": {
+    "nom": "Martine Régnier",
+    "adresse": "martine.regnier.chantebrune@messagerie.example"
+  },
+  "a": [
+    "cedric.maillard@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Nouveau compte pour mes loyers",
+  "date": "2026-09-07T07:12:00+02:00",
+  "corps": "Bonjour Monsieur Maillard,\n\nJ'ai changé de banque et de messagerie. À partir du reversement du 10 septembre, merci de verser mes loyers sur le compte du relevé joint, et de m'écrire désormais à cette adresse ; l'ancienne sera fermée à la fin de la semaine. Mme Audoin étant absente, je vous remercie de faire le nécessaire dès aujourd'hui.\n\nMartine Régnier, propriétaire de s01-06, s01-10, s02-04, s02-07 et s03-03",
+  "pieces_jointes": [
+    {
+      "nom": "rib_martine_regnier.pdf",
+      "fichier": "pieces/m-cema-610/rib_martine_regnier.pdf",
+      "taille_octets": 814
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

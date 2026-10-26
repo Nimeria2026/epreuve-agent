@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-gafo-608",
+  "de": {
+    "nom": "Christine Boisseau",
+    "adresse": "christine.boisseau@courriel.example"
+  },
+  "a": [
+    "gaelle.fournel@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "De l'eau dans mon séjour",
+  "date": "2026-09-13T18:30:00+02:00",
+  "corps": "Madame,\n\nDepuis les pluies de mercredi, l'eau coule du plafond de mon séjour, sous la toiture-terrasse de l'immeuble. Qui s'en occupe ?\n\nChristine Boisseau, lot 38, 9e étage, Résidence Les Violettes",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-936",
+  "de": {
+    "nom": "Nicolas Blanc",
+    "adresse": "nicolas.blanc@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Je retire ma demande",
+  "date": "2027-02-01T08:55:00+01:00",
+  "corps": "Sonia,\n\nJe retire ma demande de congé du lundi 15 février : mon déménagement est reporté.\n\nNicolas (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

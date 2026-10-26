@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-befa-003",
+  "de": {
+    "nom": "Philippe Durieux",
+    "adresse": "philippe.durieux@peinture-bruneau.example"
+  },
+  "a": [
+    "benoit.faure@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande de spatules",
+  "date": "2026-07-03T16:50:00+02:00",
+  "corps": "Bonjour,\n\nPour nos chantiers de juillet, merci de nous livrer au siège :\n- 10 x OUT-12425, Spatule de peintre 300 mm\n- 5 x OUT-12449, Spatule japonaise 100 mm\n\nCordialement,\nPhilippe Durieux\nPeinture Bruneau",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

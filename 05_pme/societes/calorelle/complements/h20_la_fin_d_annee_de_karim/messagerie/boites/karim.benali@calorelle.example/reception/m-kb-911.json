@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-911",
+  "de": {
+    "nom": "Commune du Pré-Bouvreuil",
+    "adresse": "contact@commune-du-pre-bouvreuil-347.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Pompe à chaleur de la mairie",
+  "date": "2026-12-15T09:00:00+01:00",
+  "corps": "Bonjour,\n\nVotre technicien est passé voir le chauffage de la mairie. Pouvez-vous nous adresser votre devis pour la pompe à chaleur avant la fin de l'année ?\n\nLa mairie du Pré-Bouvreuil, 54 rue du Moulin (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

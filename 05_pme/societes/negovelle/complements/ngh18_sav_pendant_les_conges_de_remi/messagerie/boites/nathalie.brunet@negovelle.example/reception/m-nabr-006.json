@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-nabr-006",
+  "de": {
+    "nom": "Laurent Allard",
+    "adresse": "laurent.allard@serrurerie-durieux.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Spots manquants, livraison BL-2026-01652",
+  "date": "2026-07-02T11:05:00+02:00",
+  "corps": "Bonjour,\n\nEn déballant notre livraison BL-2026-01652 du mardi 23 juin, nous avons trouvé un carton éventré : il manquait 4 des 10 spots LED ELE-13291. Nous avons protesté auprès du transporteur par lettre recommandée le jeudi 25 juin, dont la copie est jointe.\n\nMerci de nous en tenir compte.\n\nLaurent Allard\nSerrurerie Durieux",
+  "pieces_jointes": [
+    {
+      "nom": "protestation_transports_delorme_2026-06-25.pdf",
+      "fichier": "pieces/m-nabr-006/protestation_transports_delorme_2026-06-25.pdf",
+      "taille_octets": 1022
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

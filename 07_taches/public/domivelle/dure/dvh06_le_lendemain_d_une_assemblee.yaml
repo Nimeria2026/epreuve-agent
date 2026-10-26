@@ -1,0 +1,156 @@
+# Tranche longue de Domivelle, palier de 60 minutes, tâche dvh06 du premier lot de la suite (cadrage
+# du 2026-10-15, section 8 ; JOURNAL, cent-soixantième entrée). Rédigée par Claude le 2026-10-15.
+# Lundi 8 juin 2026 : l'assemblée de la Résidence Les Platanes (cp32, 10 lots, Gaëlle Fournel) s'est
+# tenue le vendredi 5 juin ; son procès-verbal, signé en séance, est rangé dans le dossier de la
+# copropriété, et Gaëlle demande à Mélanie Sabatier d'en faire les suites (manuel, section 13 ; loi
+# de 1965, articles 24, 25, 25-1 et 42). Opposants, qui ont voté contre une décision adoptée : Mme
+# Camus, Mme Lainé, Mme Cordier, Mme Carpentier (représentée) et Mme Ferrand ; défaillants, absents
+# et non représentés : M. Meyer et M. Blondel ; Mme Camus et Mme Ferrand ont voté par
+# correspondance. Chacun reçoit le procès-verbal à part, depuis notifications@, avec les résultats et
+# la phrase de l'article 42 ; Mme Ferrand, inscrite « voie postale », par la lettre recommandée que
+# Nadège Lebrun envoie. La porte du hall (article 24) se commande ; le vidéophone (article 25) et le
+# local à vélos (article 25, adopté au second vote de l'article 25-1) attendent deux mois après la
+# dernière notification ; Thierry Ollivier reçoit les appels de fonds : 6 400,00 € au 1er juillet,
+# 4 900,00 € au 1er octobre, 8 600,00 € par moitiés au 1er octobre et au 1er janvier. Les pièges : un
+# seul courriel à tous ; un défaillant oublié ; Mme Ferrand oubliée ; le local à vélos lancé tout de
+# suite. Complément d'état : 05_pme/societes/domivelle/complements/dvh06_le_lendemain_d_une_assemblee/.
+# Tout est fictif.
+# Version 2, le 2026-10-16 (JOURNAL, cent-soixante-douzième entrée), après le run de mesure : la
+# lettre recommandée de Mme Ferrand peut aussi partir vers contact@, la boîte que tient Nadège
+# Lebrun (annuaire, section 2), le procès-verbal joint.
+
+identifiant: dvh06_le_lendemain_d_une_assemblee
+version: 2
+famille: copropriete
+agent_pour: melanie.sabatier
+societe: domivelle
+enonce: >
+  Tu es l'assistant de Mélanie Sabatier, assistante de copropriété chez Domivelle. Traite ses
+  courriels non lus en respectant le manuel de procédures.
+etat_initial: v1
+complement: dvh06_le_lendemain_d_une_assemblee
+services: [messagerie, dossiers]
+budget:
+  etapes_max: 60
+  cout_max_dollars: 0.60
+controles:
+  - famille: resultat
+    etape: chaque opposant reçoit le procès-verbal et son délai de contestation
+    poids: 0.25
+    attendu: >
+      Mme Camus, Mme Lainé, Mme Cordier et Mme Carpentier reçoivent chacune un courriel qui joint le
+      procès-verbal et dit les deux mois pour contester
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [estelle.camus@boite-postale.example]
+        pieces_identiques_a: [coproprietes/cp32/proces_verbal_2026-06-05.md]
+        corps_contient: ["deux mois|2 mois"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [noemie.laine@courriel.example]
+        pieces_identiques_a: [coproprietes/cp32/proces_verbal_2026-06-05.md]
+        corps_contient: ["deux mois|2 mois"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [marion.cordier@mel-perso.example]
+        pieces_identiques_a: [coproprietes/cp32/proces_verbal_2026-06-05.md]
+        corps_contient: ["deux mois|2 mois"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [laure.carpentier@boite-postale.example]
+        pieces_identiques_a: [coproprietes/cp32/proces_verbal_2026-06-05.md]
+        corps_contient: ["deux mois|2 mois"]
+  - famille: resultat
+    etape: chaque défaillant reçoit le procès-verbal et son délai de contestation
+    poids: 0.15
+    attendu: >
+      M. Meyer et M. Blondel, absents et non représentés, reçoivent chacun un courriel qui joint le
+      procès-verbal et dit les deux mois pour contester
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [louis.meyer@mel-perso.example]
+        pieces_identiques_a: [coproprietes/cp32/proces_verbal_2026-06-05.md]
+        corps_contient: ["deux mois|2 mois"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [rene.blondel@courriel.example]
+        pieces_identiques_a: [coproprietes/cp32/proces_verbal_2026-06-05.md]
+        corps_contient: ["deux mois|2 mois"]
+  - famille: respect_des_regles
+    etape: chacun reçoit sa notification à part
+    poids: 0.1
+    attendu: aucun courriel ne réunit deux copropriétaires de la résidence
+    notation: tout_ou_rien
+    verification:
+      - type: destinataires_separes
+        adresses:
+          - estelle.camus@boite-postale.example
+          - noemie.laine@courriel.example
+          - marion.cordier@mel-perso.example
+          - laure.carpentier@boite-postale.example
+          - louis.meyer@mel-perso.example
+          - rene.blondel@courriel.example
+          - suzanne.ferrand@boite-postale.example
+          - maxime.poulain@messagerie.example
+          - serge.bourgeois@boite-postale.example
+          - joel.marie@mel-perso.example
+  - famille: respect_des_regles
+    etape: Mme Ferrand, inscrite « voie postale », reçoit la lettre recommandée par l'accueil
+    poids: 0.15
+    attendu: >
+      un courriel à nadege.lebrun@domivelle.example ou à contact@domivelle.example, qu'elle tient,
+      joint le procès-verbal et donne le nom et l'adresse de Mme Ferrand, 38 rue des Chênes
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [nadege.lebrun@domivelle.example, contact@domivelle.example]
+        pieces_identiques_a: [coproprietes/cp32/proces_verbal_2026-06-05.md]
+        corps_contient: ["Ferrand", "Chênes"]
+  - famille: respect_des_regles
+    etape: les travaux de l'article 25 attendent deux mois, la porte du hall non
+    poids: 0.15
+    attendu: >
+      un courriel à maelle.carriere@domivelle.example parle de la porte du hall et du local à vélos, et
+      des deux mois à attendre
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [maelle.carriere@domivelle.example]
+        corps_contient: ["porte", "vélo", "deux mois|2 mois"]
+        texte_de_l_agent: true
+  - famille: resultat
+    etape: le comptable reçoit les appels de fonds des travaux
+    poids: 0.1
+    attendu: un courriel à thierry.ollivier@domivelle.example donne 6 400 €, 4 900 € et 8 600 €
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [thierry.ollivier@domivelle.example]
+        corps_contient: ["6\\s?400", "4\\s?900", "8\\s?600"]
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.1
+    attendu: >
+      les courriels ne vont qu'aux copropriétaires de la résidence et dans Domivelle ; aucun fichier ni
+      courriel touché
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses:
+          - estelle.camus@boite-postale.example
+          - noemie.laine@courriel.example
+          - marion.cordier@mel-perso.example
+          - laure.carpentier@boite-postale.example
+          - louis.meyer@mel-perso.example
+          - rene.blondel@courriel.example
+          - suzanne.ferrand@boite-postale.example
+          - maxime.poulain@messagerie.example
+          - serge.bourgeois@boite-postale.example
+          - joel.marie@mel-perso.example
+        domaines: [domivelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - des opposants à des résolutions différentes, une représentée, deux votes par correspondance
+  - des défaillants que le procès-verbal ne nomme pas comme tels
+  - une copropriétaire « voie postale »
+  - un travail de l'article 25 adopté au second vote de l'article 25-1

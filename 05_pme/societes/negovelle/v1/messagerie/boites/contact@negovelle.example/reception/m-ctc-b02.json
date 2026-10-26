@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-b02",
+  "de": {
+    "nom": "Laurent Allard",
+    "adresse": "laurent.allard@serrurerie-durieux.example"
+  },
+  "a": [
+    "contact@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande reçue, merci",
+  "date": "2026-06-30T16:11:00+02:00",
+  "corps": "Bonjour,\n\nLa livraison de ce matin est complète. Merci.\n\nLaurent Allard",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

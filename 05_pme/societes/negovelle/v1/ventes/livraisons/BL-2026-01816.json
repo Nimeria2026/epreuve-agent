@@ -1,0 +1,44 @@
+{
+  "numero": "BL-2026-01816",
+  "commande": "CO-2026-01967",
+  "client": "c-0301",
+  "date_expedition": "2026-07-02",
+  "date_livraison": "2026-07-02",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "13 zone d'activités des Grands Prés, 36999 Corvalet (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "ELE-10881",
+      "libelle": "Conduit IRL 50 mm, barre de 3 m",
+      "quantite": 20
+    },
+    {
+      "reference": "FIX-11208",
+      "libelle": "Collier de fixation 32 mm, sachet de 25",
+      "quantite": 1
+    },
+    {
+      "reference": "FIX-11559",
+      "libelle": "Goujon d'ancrage M12x120, boîte de 50",
+      "quantite": 3
+    },
+    {
+      "reference": "QUI-10236",
+      "libelle": "Butoir de porte magnétique, inox",
+      "quantite": 1
+    },
+    {
+      "reference": "VIS-11666",
+      "libelle": "Vis à bois tête fraisée 4,5x16, bichromatée, boîte de 500",
+      "quantite": 2
+    }
+  ],
+  "reserves": null,
+  "signataire": "Maxime Combes",
+  "statut": "livre"
+}

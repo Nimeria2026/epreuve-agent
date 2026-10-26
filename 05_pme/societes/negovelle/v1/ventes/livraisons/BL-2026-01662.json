@@ -1,0 +1,34 @@
+{
+  "numero": "BL-2026-01662",
+  "commande": "CO-2026-01813",
+  "client": "c-0047",
+  "date_expedition": "2026-06-23",
+  "date_livraison": "2026-06-23",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "3 avenue de la Gare, 36999 Laubrissac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "CON-12204",
+      "libelle": "Ruban adhésif de masquage 50 mm, rouleau de 25 m",
+      "quantite": 6
+    },
+    {
+      "reference": "VIS-13119",
+      "libelle": "Vis à bois tête fraisée 6x16, bichromatée, boîte de 200",
+      "quantite": 2
+    },
+    {
+      "reference": "VIS-13919",
+      "libelle": "Vis à tôle tête cylindrique 4,2x25, zinguée, boîte de 100",
+      "quantite": 6
+    }
+  ],
+  "reserves": null,
+  "signataire": "Léa Gonnet",
+  "statut": "livre"
+}

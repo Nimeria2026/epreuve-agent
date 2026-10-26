@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-001",
+  "de": {
+    "nom": "Jacques Toussaint",
+    "adresse": "jacques.toussaint@charpente-becker.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Colis manquant sur la livraison express de vendredi",
+  "date": "2026-07-03T14:00:00+02:00",
+  "corps": "Bonjour,\n\nLa livraison express de vendredi par Transports Delorme est arrivée avec un colis en moins sur trois ; le chauffeur l'a noté sur le récépissé. Que faisons-nous ?\n\nJacques Toussaint\nCharpente Becker",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

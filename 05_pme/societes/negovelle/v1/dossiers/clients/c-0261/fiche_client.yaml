@@ -1,0 +1,25 @@
+# Fiche du client c-0261 de Négovelle. Données FICTIVES.
+code: c-0261
+nom: Maçonnerie Allard
+type: artisan
+adresse: 133 rue du Four, 36999 Fontclavier (FICTIF)
+telephone: 02 61 91 84 07
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: François Bonneau
+  fonction: gérant
+  courriel: francois.bonneau@maconnerie-allard.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 133 rue du Four, 36999 Fontclavier (FICTIF)
+categorie_remise: A
+delai_paiement: comptant
+client_depuis: '2026-01-22'
+limite_encours_euros: 3500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

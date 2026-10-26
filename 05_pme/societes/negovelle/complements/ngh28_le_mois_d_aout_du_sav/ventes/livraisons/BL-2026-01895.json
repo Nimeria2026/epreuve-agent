@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01895",
+  "commande": "CO-2026-02075",
+  "client": "c-0090",
+  "date_expedition": "2026-07-20",
+  "date_livraison": "2026-07-20",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "21 rue des Lilas, 36999 Brissonne (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "PRO-11641",
+      "libelle": "Pantalon de travail multipoches noir, taille 46",
+      "quantite": 5
+    }
+  ],
+  "reserves": null,
+  "signataire": "Hervé Legendre",
+  "statut": "livre"
+}

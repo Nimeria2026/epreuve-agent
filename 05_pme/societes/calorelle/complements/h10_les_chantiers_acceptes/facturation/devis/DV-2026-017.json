@@ -1,0 +1,48 @@
+{
+  "numero": "DV-2026-017",
+  "client": "c-0427",
+  "objet": "Remplacement de la chaudière gaz",
+  "lignes": [
+    {
+      "code": "CHG-01",
+      "libelle": "Chaudière gaz à condensation 25 kW",
+      "quantite": 1,
+      "prix_unitaire_ht_euros": 2900,
+      "taux_tva": 20,
+      "montant_ht_euros": 2900
+    },
+    {
+      "code": "DEP-01",
+      "libelle": "Dépose et évacuation de l'ancien appareil",
+      "quantite": 1,
+      "prix_unitaire_ht_euros": 180,
+      "taux_tva": 20,
+      "montant_ht_euros": 180
+    },
+    {
+      "code": "MES-01",
+      "libelle": "Mise en service",
+      "quantite": 1,
+      "prix_unitaire_ht_euros": 150,
+      "taux_tva": 20,
+      "montant_ht_euros": 150
+    },
+    {
+      "code": "MO-01",
+      "libelle": "Main-d'œuvre de technicien",
+      "quantite": 4,
+      "prix_unitaire_ht_euros": 58,
+      "taux_tva": 20,
+      "montant_ht_euros": 232
+    }
+  ],
+  "remise_pourcent": 0,
+  "total_ht_euros": 3462,
+  "total_tva_euros": 692.4,
+  "total_ttc_euros": 4154.4,
+  "statut": "accepte",
+  "cree_le": "2026-10-19T10:00:00+02:00",
+  "cree_par": "julie.perrin",
+  "envoye_le": "2026-10-20T11:00:00+02:00",
+  "reponse_le": "2026-10-30T15:00:00+01:00"
+}

@@ -1,0 +1,28 @@
+# Fiche du client c-0166 de Négovelle. Données FICTIVES.
+code: c-0166
+nom: Plomberie Bouchard
+type: artisan
+adresse: 128 place du Marché, 36999 Vendrigny (FICTIF)
+telephone: 02 61 91 64 44
+secteur: est
+commercial: fabrice.mercier
+administration_des_ventes: benoit.faure
+contacts:
+- nom: Agnès Mabille
+  fonction: gérante
+  courriel: agnes.mabille@plomberie-bouchard.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 128 place du Marché, 36999 Vendrigny (FICTIF)
+- code: L2
+  libelle: chantier déclaré
+  adresse: 96 rue des Forges, 36999 Mérolles-en-Brenne (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2016-03-01'
+limite_encours_euros: 1000.0
+livraisons_partielles: true
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

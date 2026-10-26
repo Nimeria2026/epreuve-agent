@@ -1,0 +1,64 @@
+{
+  "numero": "CO-2026-02049",
+  "client": "c-0003",
+  "reference_client": null,
+  "cree_le": "2026-07-03T15:00:00+02:00",
+  "cree_par": "samir.ouali",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "37 zone d'activités des Grands Prés, 36999 Fontclavier (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "OUT-10138",
+      "libelle": "Caisse à outils plastique 400 mm",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 86.35,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 82.9,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 165.8
+    },
+    {
+      "reference": "OUT-11829",
+      "libelle": "Pince étau 200 mm",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 30.1,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 28.9,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 115.6
+    },
+    {
+      "reference": "OUT-10155",
+      "libelle": "Caisse à outils plastique 700 mm",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 39.15,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 37.58,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 225.48
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 506.88,
+  "total_tva_euros": 101.38,
+  "total_ttc_euros": 608.26,
+  "statut": "brouillon",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T15:00:00+02:00",
+      "par": "samir.ouali",
+      "action": "creee",
+      "detail": "prix du déstockage attendus"
+    }
+  ]
+}

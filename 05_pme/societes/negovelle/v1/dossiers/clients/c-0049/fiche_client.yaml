@@ -1,0 +1,28 @@
+# Fiche du client c-0049 de Négovelle. Données FICTIVES.
+code: c-0049
+nom: Menuiserie Parmentier
+type: artisan
+adresse: 51 rue du Lavoir, 36999 Vendrigny (FICTIF)
+telephone: 02 61 91 89 39
+secteur: est
+commercial: fabrice.mercier
+administration_des_ventes: benoit.faure
+contacts:
+- nom: Denis Rouxel
+  fonction: gérant
+  courriel: denis.rouxel@menuiserie-parmentier.example
+- nom: Laure Chartier
+  fonction: conjointe collaboratrice
+  courriel: laure.chartier@menuiserie-parmentier.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 51 rue du Lavoir, 36999 Vendrigny (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2008-12-01'
+limite_encours_euros: 5500.0
+livraisons_partielles: false
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

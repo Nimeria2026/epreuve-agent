@@ -1,0 +1,39 @@
+{
+  "numero": "BL-2026-01858",
+  "commande": "CO-2026-02009",
+  "client": "c-0219",
+  "date_expedition": "2026-07-03",
+  "date_livraison": null,
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "16 rue du Lavoir, 36999 Laubrissac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ENT-10784",
+      "libelle": "Poubelle à couvercle basculant 50 l",
+      "quantite": 1
+    },
+    {
+      "reference": "ENT-10873",
+      "libelle": "Raclette à vitres 35 cm",
+      "quantite": 6
+    },
+    {
+      "reference": "VIS-10620",
+      "libelle": "Rondelle plate M16, zinguée, sachet de 50",
+      "quantite": 1
+    },
+    {
+      "reference": "VIS-10808",
+      "libelle": "Vis à bois tête fraisée 3,5x30, bichromatée, boîte de 200",
+      "quantite": 2
+    }
+  ],
+  "reserves": null,
+  "signataire": null,
+  "statut": "en_cours"
+}

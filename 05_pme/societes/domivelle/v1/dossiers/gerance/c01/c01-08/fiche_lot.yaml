@@ -1,0 +1,24 @@
+# Fiche du lot c01-08. Données FICTIVES.
+lot: c01-08
+adresse: 139 rue des Écoles, 18999 Montclavel-sur-Cher (FICTIF)
+type: T2
+surface_m2: 40
+locataire:
+  nom: M. André Vidal
+  courriel: andre.vidal@messagerie.example
+  telephone: 06 39 98 64 39
+  entree: '2016-03-25'
+bail:
+  signature: '2016-03-25'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 431,00 €
+  depot_de_garantie: 345,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T4
+dpe:
+  classe: E
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

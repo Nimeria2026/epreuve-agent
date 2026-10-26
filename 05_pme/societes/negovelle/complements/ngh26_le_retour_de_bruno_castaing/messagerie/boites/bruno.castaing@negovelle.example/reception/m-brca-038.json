@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-038",
+  "de": {
+    "nom": "Denis Barthe",
+    "adresse": "denis.barthe@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "F18877 de Visserie de la Garenne",
+  "date": "2026-08-24T09:10:00+02:00",
+  "corps": "Bruno,\n\nPour ma liste de vendredi : les 6 boîtes de F18877 sont arrivées vendredi soir, Gilles a fait la réception ce matin. La facture est juste ; je retire la réclamation.\n\nDenis",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

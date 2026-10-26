@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-805",
+  "de": {
+    "nom": "Hugo Ferrier",
+    "adresse": "hugo.ferrier@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Fuite sur mon ballon",
+  "date": "2026-10-30T08:10:00+01:00",
+  "corps": "Bonjour,\n\nMon ballon d'eau chaude fuit par le bas depuis ce matin. Je ne suis pas client chez vous, mais pouvez-vous intervenir à Brenneval ?\n\nHugo Ferrier, 06 39 98 52 14 (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

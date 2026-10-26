@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-maca-613",
+  "de": {
+    "nom": "Nadège Lebrun",
+    "adresse": "nadege.lebrun@domivelle.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Appel de Mme Thibault",
+  "date": "2026-09-04T11:20:00+02:00",
+  "corps": "Maëlle,\n\nMme Madeleine Thibault, propriétaire de la maison c22-04, a appelé ce matin : elle accepte le devis de Couverture des Rouches pour la toiture, 2 400,00 €, et demande qu'on le commande tout de suite. Elle n'a pas le temps d'écrire, elle part en voyage.\n\nNadège",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,31 @@
+# Fiche du client c-0079 de Négovelle. Données FICTIVES.
+code: c-0079
+nom: Entreprise Clerc
+type: entreprise
+adresse: 36 zone artisanale du Moulin, 36999 Fontclavier (FICTIF)
+telephone: 02 61 91 66 12
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Léa Parmentier
+  fonction: conductrice de travaux
+  courriel: lea.parmentier@entreprise-clerc.example
+- nom: Frédéric Lhomme
+  fonction: responsable des achats
+  courriel: frederic.lhomme@entreprise-clerc.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 36 zone artisanale du Moulin, 36999 Fontclavier (FICTIF)
+- code: L2
+  libelle: chantier déclaré
+  adresse: 1 rue du Château, 36999 Corvalet (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2017-11-01'
+limite_encours_euros: 4500.0
+livraisons_partielles: false
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-643",
+  "de": {
+    "nom": "Sonia Lefèvre",
+    "adresse": "sonia.lefevre@calorelle.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Chaudière fioul en panne",
+  "date": "2026-11-09T08:55:00+01:00",
+  "corps": "Marc, une troisième, d'un client sans contrat.\nSonia\n\n----- Message transféré -----\nIdentifiant : m-ctc-643\nDe : Alain Bonnet <alain.bonnet@courriel.example>\nÀ : contact@calorelle.example\nCc : (aucun)\nDate : 2026-11-09T08:32:00+01:00\nObjet : Chaudière fioul en panne\nPièces jointes : (aucune)\n\nBonjour,\n\nMa chaudière au fioul ne démarre plus. Je n'ai pas de contrat chez vous. Je ne suis chez moi que demain, mardi 10 novembre, toute la journée.\n\nAlain Bonnet, 8 rue Haute, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": "m-ctc-643"
+}

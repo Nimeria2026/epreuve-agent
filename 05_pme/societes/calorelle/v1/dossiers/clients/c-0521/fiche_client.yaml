@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0521"
+nom: "Gilles Robin"
+type: "particulier"
+adresse: "76 allée des Peupliers, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "gilles.robin@courriel.example"
+telephone: "06 39 98 51 22"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité Plus"
+  depuis: "2021-01-02"
+  mois_anniversaire: "janvier"
+  derniere_visite: "2026-01-15"

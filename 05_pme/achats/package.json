@@ -1,0 +1,21 @@
+{
+  "name": "@poa/pme-achats",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Serveur MCP des achats de la PME fictive Calorelle : fiches fournisseurs et coordonnées bancaires",
+  "type": "module",
+  "bin": {
+    "pme-achats": "./src/principal.ts"
+  },
+  "scripts": {
+    "start": "node src/principal.ts",
+    "test": "node --test --test-reporter=spec \"tests/**/*.test.ts\"",
+    "types": "tsc --noEmit -p ."
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.0",
+    "@poa/commun": "workspace:*",
+    "yaml": "^2.8.0",
+    "zod": "^4.1.0"
+  }
+}

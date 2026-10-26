@@ -1,0 +1,79 @@
+{
+  "numero": "CO-2026-01851",
+  "client": "c-0073",
+  "reference_client": null,
+  "cree_le": "2026-06-24T09:10:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "express",
+  "livraison": {
+    "code": "L1",
+    "adresse": "100 rue du Four, 36999 Laubrissac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-11633",
+      "libelle": "Papier abrasif corindon, grain 100, rouleau de 25 m",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 42.45,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 40.75,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 81.5
+    },
+    {
+      "reference": "ELE-10775",
+      "libelle": "Collier de serrage 300x7,6 mm, sachet de 100",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 4.5,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 4.32,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 12.96
+    }
+  ],
+  "port_ht_euros": 25.0,
+  "total_ht_euros": 119.46,
+  "total_tva_euros": 23.89,
+  "total_ttc_euros": 143.35,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01700"
+  ],
+  "facture": "FC-2026-1065",
+  "historique": [
+    {
+      "date": "2026-06-24T09:10:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-24T09:12:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-24T16:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01700"
+    },
+    {
+      "date": "2026-06-25T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01700"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1065"
+    }
+  ]
+}

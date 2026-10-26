@@ -1,0 +1,68 @@
+{
+  "numero": "CO-2026-02067",
+  "client": "c-0305",
+  "reference_client": null,
+  "cree_le": "2026-07-28T10:00:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "38 zone artisanale du Moulin, 36999 Saulvenne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "PRO-10441",
+      "libelle": "Casque de chantier non ventilé, blanc",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 23.75,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 23.75,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 237.5
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 252.5,
+  "total_tva_euros": 50.5,
+  "total_ttc_euros": 303.0,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01887"
+  ],
+  "facture": "FC-2026-1458",
+  "historique": [
+    {
+      "date": "2026-07-28T10:00:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": "commande du client"
+    },
+    {
+      "date": "2026-07-28T10:05:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "validee",
+      "detail": "stock réservé"
+    },
+    {
+      "date": "2026-07-29T16:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01887"
+    },
+    {
+      "date": "2026-07-29T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01887"
+    },
+    {
+      "date": "2026-07-31T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1458"
+    }
+  ]
+}

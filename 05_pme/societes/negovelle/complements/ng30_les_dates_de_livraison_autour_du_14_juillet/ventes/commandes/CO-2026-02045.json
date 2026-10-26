@@ -1,0 +1,59 @@
+{
+  "numero": "CO-2026-02045",
+  "client": "c-0024",
+  "reference_client": null,
+  "cree_le": "2026-07-10T07:42:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "35 rue de la Halle, 36999 Corvalet (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-10269",
+      "libelle": "Colle de montage, cartouche de 310 ml",
+      "quantite": 24,
+      "prix_tarif_ht_euros": 6.45,
+      "remise_pourcent": 3.0,
+      "prix_net_ht_euros": 6.26,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 150.24
+    },
+    {
+      "reference": "ENT-11314",
+      "libelle": "Seau de maçon 15 l",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 12.6,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 12.6,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 75.6
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 240.84,
+  "total_tva_euros": 48.17,
+  "total_ttc_euros": 289.01,
+  "statut": "validee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-10T07:42:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-10T07:45:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": ""
+    }
+  ]
+}

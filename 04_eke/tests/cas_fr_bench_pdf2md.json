@@ -1,0 +1,3557 @@
+{
+ "source": {
+  "banc": "github.com/ld-lab-pulsia/benchpdf2md@ceab1548ac914bff6585fa5c6227e2b24c35cfdb",
+  "rapidfuzz": "3.14.3",
+  "unidecode": "unidecode 1.4.0",
+  "html_to_markdown": "html_to_markdown 2.20.0",
+  "ecrit_le": "2026-10-09T10:30:18Z"
+ },
+ "partial_ratio": [
+  [
+   "",
+   "",
+   100.0
+  ],
+  [
+   "a",
+   "",
+   0.0
+  ],
+  [
+   "",
+   "abc",
+   0.0
+  ],
+  [
+   "abc",
+   "abc",
+   100.0
+  ],
+  [
+   "abc",
+   "xabcx",
+   100.0
+  ],
+  [
+   "bonjour",
+   "Bonjour",
+   92.3076923076923
+  ],
+  [
+   "Dépôt d'un rapport",
+   "1re délibération. Dépôt d'un rapport de M. Henry",
+   100.0
+  ],
+  [
+   "texte",
+   "un très long texte de référence que la sortie ne contient pas",
+   100.0
+  ],
+  [
+   "un très long texte de référence",
+   "texte",
+   100.0
+  ],
+  [
+   "dbcab  ",
+   "dbad  cccceddd aeddbddbeec  cedccb",
+   76.92307692307692
+  ],
+  [
+   "da bdee cded ada",
+   "deadde",
+   66.66666666666667
+  ],
+  [
+   "baec eecac  bceaa",
+   "ce abceeaa bedbcaad ccbc",
+   59.25925925925925
+  ],
+  [
+   "bcd eeb",
+   "d aba cedb c e ab ebcededbeeece",
+   71.42857142857143
+  ],
+  [
+   "aeea",
+   "c b bdddedadad  dbeaad deead cbceeb bbededcc ebeaabcce  e",
+   75.0
+  ],
+  [
+   "dba db ee d",
+   "dccbababaad eab  bacbcdcedacaebebbc",
+   54.54545454545454
+  ],
+  [
+   "dbb daebbbeaeabc cc",
+   "ebdead adbcdcbeebcdaedee beac",
+   54.054054054054056
+  ],
+  [
+   "aceceb a cdabdecacbe",
+   "aebb cecd c c a aedc adeceebbcedaddeeeddcaebdb bcaeacec ae",
+   60.0
+  ],
+  [
+   "a",
+   "eeeaccce ca cedaddd  dabbdcabeaaabca ccbeedbed ",
+   100.0
+  ],
+  [
+   "cecebe  ca  ba ",
+   "dbacb baceeaace eeabadabddbaeceaac aea bae cecddd eeac",
+   60.0
+  ],
+  [
+   "ddbbca ",
+   "d ebdc ccabddbc e cec eee cbbe   d beccedac bd dbb cebadd b",
+   71.42857142857143
+  ],
+  [
+   "c  de",
+   " ddc ea bddeebbdcbe",
+   60.0
+  ],
+  [
+   "ec",
+   "a ddb  a cadeae ae cd ddac  eeaeabbee aadab",
+   50.0
+  ],
+  [
+   "bccdaa",
+   "ee  eccbb a bac cceaccc ab  aaaab ",
+   50.0
+  ],
+  [
+   "ca b dd",
+   " eedd e",
+   60.0
+  ],
+  [
+   "eddeeedca",
+   "cabeadeebc  ac eaabeaa d eed abababb aba b e",
+   55.55555555555556
+  ],
+  [
+   "acb   deadbeccaeace",
+   " cdabdb dbce debaa c",
+   55.55555555555556
+  ],
+  [
+   " baac be acba cecab ",
+   "e bec ddadeeccddba decb e  cbd e abbb  a acbe ",
+   60.0
+  ],
+  [
+   "eaceeccebca adb",
+   "be ec",
+   60.0
+  ],
+  [
+   "dca ce",
+   "cdaaeeddbbdcad  bcbdea acaadacca",
+   66.66666666666667
+  ],
+  [
+   "eccecbdc ",
+   "ecad becee a eacdaddaed beaaec dbaaade bbadbebbdc",
+   57.14285714285714
+  ],
+  [
+   "cce cea",
+   "adeddedde aabdaadea adada  bacaeadd",
+   57.14285714285714
+  ],
+  [
+   "e d  dabb",
+   "db b bcdb ccbdededcd adbb ddcbecbe  deccad",
+   66.66666666666667
+  ],
+  [
+   "e",
+   "aec dc edabbcbe edaecabebbcbcaead cc cbc aadccaed",
+   100.0
+  ],
+  [
+   "cbb da b  c bed",
+   "eadcad abbabaccc e dcc cdccbeea c",
+   53.333333333333336
+  ],
+  [
+   "d abebcdac  b bdbed",
+   "dbdddcaacc b  beccdbdb",
+   59.45945945945945
+  ],
+  [
+   "e d",
+   "",
+   0.0
+  ],
+  [
+   "dcde cbed",
+   "beaaadcedaecb bbbeccbabaabbdbeccedcbcceaaecdad cdadba",
+   66.66666666666667
+  ],
+  [
+   "dbdddba cdae",
+   "cda b",
+   66.66666666666667
+  ],
+  [
+   "bdebeae",
+   "eabb dabdea eb ea dadeec abcedde  ebad",
+   71.42857142857143
+  ],
+  [
+   "ecbdbddccd ac",
+   "aeccbaebebedbbd ccdbcddddccaaaebbcaadeaabb  dcc  a",
+   69.23076923076923
+  ],
+  [
+   "ddb cddeccaaec d  b",
+   "dcdbb  c",
+   76.92307692307692
+  ],
+  [
+   "bc cad cea daccbabd ",
+   "caddeca b caacadccdddcaedecda cdeaacdebaccbadeaa ede ",
+   65.0
+  ],
+  [
+   " dddadd bce e",
+   "b ddbcaeaaeeecdbceeeeabed ebddbe e d",
+   58.33333333333333
+  ],
+  [
+   "eeadbc bcdabea ab",
+   "abd dddcb bcdeb",
+   60.0
+  ],
+  [
+   "  a d   bba",
+   "b daea aab d ca ad ec a abecb a aed db ae ad ceee",
+   63.63636363636363
+  ],
+  [
+   "ea b deba",
+   " ccab eb abc adbb acddeeb bc  a aadcacecd ",
+   66.66666666666667
+  ],
+  [
+   "cccacdeeda e ",
+   "a",
+   100.0
+  ],
+  [
+   " aacabe",
+   "bd aebaaadacdaecee  bbaaaad abec ed",
+   71.42857142857143
+  ],
+  [
+   "eebbaacdda aaa",
+   "ceec",
+   66.66666666666667
+  ],
+  [
+   "e ecadbc c",
+   "eebdb c beccd  cebded eebdaeecdc cadcccbac cabbeacc dab",
+   70.58823529411764
+  ],
+  [
+   "c cae",
+   " eaaa cdb bcdcc cadcdbd eacdceeeede cae da cda  ecc aeccbbe",
+   80.0
+  ],
+  [
+   "c b cdb c c ",
+   "ee c e daeaab  c e aabbacaecbac accbdbcbeae cac dcecddaaed",
+   58.33333333333333
+  ],
+  [
+   "beb  bdc c a da da ",
+   "bbdb edbb",
+   53.333333333333336
+  ],
+  [
+   "be ceabe ec  a",
+   "e c  cda  addedbdddd",
+   64.0
+  ],
+  [
+   "ccd",
+   "edebcedacbd eaebe ded",
+   66.66666666666667
+  ],
+  [
+   "e dede",
+   "bd a ceeca  e dabdaee  aacbadeb ebddedbdacbbcdeecc",
+   66.66666666666667
+  ],
+  [
+   "be dae ae",
+   "cbe cecdc bce ac",
+   55.55555555555556
+  ],
+  [
+   "  accdb daee e",
+   "dcadeacb  b  aa cecc ddeebcaccbbb d",
+   64.28571428571428
+  ],
+  [
+   " cdacbb",
+   "dbeac   bb bbac  aad acacdece cdde",
+   57.14285714285714
+  ],
+  [
+   "dabcabdedeabc",
+   "   ebba b  cda caa dbccedce dbddeada bdebdebeedcbcb de aec",
+   69.23076923076923
+  ],
+  [
+   "ace a bbc",
+   " deae edcbdbcdeb ae ",
+   58.82352941176471
+  ],
+  [
+   "aa",
+   "e  caaca c ecaaabcd  aaeeaaeb",
+   100.0
+  ],
+  [
+   "c dae db debaaab acd",
+   "adecbe cddacaece ace acca ecee aca  ",
+   55.00000000000001
+  ],
+  [
+   " bbbb",
+   "e cdadeecaeec c eeba ccdcdc b aa",
+   40.0
+  ],
+  [
+   "ba eadabbca ecbbca ",
+   "bbaedc ae e ddecaae  e  ebcd b bcdaa e bda",
+   58.06451612903225
+  ],
+  [
+   " ed",
+   "eaccbecb c cb acc  bace d ebdbdcaedd  c",
+   66.66666666666667
+  ],
+  [
+   "aabc",
+   "db ed c daae",
+   57.14285714285714
+  ],
+  [
+   "be bd",
+   " be",
+   80.0
+  ],
+  [
+   "edbe ed",
+   "ea da edda",
+   57.14285714285714
+  ],
+  [
+   "deaebea dcbb",
+   "bdce b edc  abc daba  eeddabbdcacaadc acdeaebb ee accbee",
+   66.66666666666667
+  ],
+  [
+   "dacebede caaccadaa a",
+   "cc ba baceea  ec  a ba a deaaa",
+   51.42857142857142
+  ],
+  [
+   "bbdaba  caa  eacbed ",
+   "a",
+   100.0
+  ],
+  [
+   "dcbcc d ",
+   "eedbebcaaabdb  eeca  ebdea cbecabdeac ",
+   50.0
+  ],
+  [
+   " ea",
+   "",
+   0.0
+  ],
+  [
+   "cdb abcc ae  ",
+   "add ae  aaeaebaebc eecdeecabacadcbe ccacaacaacbd  ",
+   57.14285714285714
+  ],
+  [
+   " eebbca",
+   "ebceebbde cb  beeedcca aa e",
+   60.0
+  ],
+  [
+   "cc da adb cd",
+   " cdedbc ec bab ada bdde  a cdcedebeb",
+   66.66666666666667
+  ],
+  [
+   "acec b e c",
+   "a bdecccbdaaceadbddaecc",
+   62.5
+  ],
+  [
+   "a  eaaaaaeeec",
+   "dcaddbac addcebbdbb dbcacccdbaab  bdd ead ba bea daaed",
+   58.33333333333333
+  ],
+  [
+   "baadb",
+   "c  c adceaebe ddcecdcceed ee caaccabbbc eab ceadeecebc",
+   60.0
+  ],
+  [
+   "aaca",
+   "a",
+   100.0
+  ],
+  [
+   "dcbb",
+   "eaccbae dde cc  db",
+   66.66666666666667
+  ],
+  [
+   "c a dbc d",
+   "bedeadbe",
+   42.85714285714286
+  ],
+  [
+   "db  cbdae dbdec",
+   "cadde",
+   60.0
+  ],
+  [
+   "da aaccd abdc",
+   "cacaaaebcadcc  accaace  d",
+   61.53846153846154
+  ],
+  [
+   "adecb cea",
+   " caabedbd cd adaca b ad",
+   66.66666666666667
+  ],
+  [
+   " a ",
+   "bdcd ",
+   50.0
+  ],
+  [
+   "baa ae e",
+   " abaaac cbecbac d cacddbcbdbcddb ecbe ",
+   62.5
+  ],
+  [
+   "adaa a bdbacdacdb",
+   " dea ",
+   60.0
+  ],
+  [
+   " aa",
+   "cabad aed daeb ",
+   66.66666666666667
+  ],
+  [
+   "d ad ba be beeaeaa ",
+   "ccbb ce edcddbebc ceedced ab ded ac  aea baa b",
+   64.70588235294117
+  ],
+  [
+   " ea",
+   "ae accbcbdeee",
+   66.66666666666667
+  ],
+  [
+   "dcc ca aecba a",
+   "aadec cdaeacba dcadecd",
+   71.42857142857143
+  ],
+  [
+   "aecd",
+   "eded beecaae ebcd ce",
+   75.0
+  ],
+  [
+   "bc adceba  e c",
+   "cececbc bacae c  c",
+   74.07407407407408
+  ],
+  [
+   "ab aa  bd",
+   "de adddceceed de d dadbcaeaa e   beca deaeec",
+   55.55555555555556
+  ],
+  [
+   "cbead",
+   "accdcedda ba",
+   60.0
+  ],
+  [
+   "eebc ",
+   "e cbe aaababbecdbcaecbedbcbcaebaceabecdbb",
+   60.0
+  ],
+  [
+   "ebbebdbdecbaa ec",
+   "baedbcaa debdbe cabdd abb c deebcabcabbed c  becba  ab ",
+   66.66666666666667
+  ],
+  [
+   "eacbdeb ",
+   "abdddeebabceeeeebe   da ada d b ebbde d",
+   66.66666666666667
+  ],
+  [
+   "eb bbeda aebc  ",
+   "adac b e bacad ceaabb cedcca  e ccdcc caca",
+   53.333333333333336
+  ],
+  [
+   "d deecd  addaa  ",
+   "bcbb a adceecdeacebddd b badb acc aea de bbad",
+   56.25
+  ],
+  [
+   "be",
+   "bceedeaccc babe ddaca  dabecadda",
+   100.0
+  ],
+  [
+   "e ca ab c ",
+   " e dadcbeddebeeccec edcdeedccc cca",
+   47.05882352941176
+  ],
+  [
+   " bd  db",
+   "abca adeaade  aad bbeced  ",
+   60.0
+  ],
+  [
+   "dee acbcc",
+   "dd a  d  cbe accdbeebb dd abbdbbbadc b ecacd e",
+   55.55555555555556
+  ],
+  [
+   "cdd dac ccdad",
+   "dbabbdbad  acdcdcc dd ",
+   61.53846153846154
+  ],
+  [
+   "da add bde",
+   "ea b",
+   57.14285714285714
+  ],
+  [
+   "abbddbcd dee",
+   "cad d bebba babe accbed ade",
+   54.54545454545454
+  ],
+  [
+   "dbadd ba dcdbaceeb",
+   "ebadcabebaecadccc c e  aab a becb eb  ade bbaadd   ce cd",
+   55.55555555555556
+  ],
+  [
+   "bddc",
+   "abebdccc dbbebeeecee abbdeceb  de",
+   75.0
+  ],
+  [
+   "caccba dcadcab  bb  ",
+   " bdcaca bbedbebeeecbbcdddca  debdcadbbaededc adcaecadd",
+   60.0
+  ],
+  [
+   "abeeabbaacde bc",
+   "bd acbbcbcb cac abedcccaec e e cee b dcbade cbd  ",
+   60.0
+  ],
+  [
+   " eb",
+   "e cbdba dceb db ddc adeb d cdb",
+   66.66666666666667
+  ],
+  [
+   "b eed cbdadbed",
+   "bdbebaeeedb  eecdebcadcbcdaddccaa",
+   64.28571428571428
+  ],
+  [
+   "cabca a deb",
+   "a  aeab",
+   71.42857142857143
+  ],
+  [
+   "ddeaae aad eea b ",
+   "bcaaebebadaebaecca aadb dbbcc",
+   58.82352941176471
+  ],
+  [
+   "cbbbebdcca bcabcbd",
+   "ad ecced ee",
+   50.0
+  ],
+  [
+   "de edddabcbaa",
+   "dbdaa d  d cebec aebbecbbddeb d dea",
+   54.54545454545454
+  ],
+  [
+   "ebedbae a a ",
+   "d",
+   100.0
+  ],
+  [
+   "dc",
+   "be eca",
+   50.0
+  ],
+  [
+   " aeddbde",
+   "ac ccea dbdeaacd   cbbba dd deddde   e bacedb a d bce",
+   75.0
+  ],
+  [
+   "abca cbc e",
+   "beabdcbaaec d   adddacdba d  bbd adceb be  ec",
+   60.0
+  ],
+  [
+   "bbade ecbdd d b",
+   "dbade aa a",
+   62.5
+  ],
+  [
+   "c  b b edcddbdb",
+   " aaacebeeeecaaddcd adbedcbbeccd abb  da e",
+   53.333333333333336
+  ],
+  [
+   "cdd  aabe dccbdc",
+   "be d eccccadbeccdcbbcadcecbcaaaeceeaadceedb",
+   56.25
+  ],
+  [
+   "eecae ee e ab d ca",
+   "acdc dbcabeedcbeeedabcccecaec",
+   55.55555555555556
+  ],
+  [
+   "d dceeeccedac",
+   "ad  abcaab",
+   46.15384615384615
+  ],
+  [
+   "dbeeddcd  ebdd",
+   " ec bcbe aebd",
+   58.33333333333333
+  ],
+  [
+   "c d aebe",
+   "aeede ddddcaeebda a a",
+   54.54545454545454
+  ],
+  [
+   "b",
+   "adeb adcaaea bbe cbbbe d de b",
+   100.0
+  ],
+  [
+   "cbebdeec  beaeaa",
+   "cddeb ebdccbed",
+   61.53846153846154
+  ],
+  [
+   "edabbee  aba bed ",
+   "b",
+   100.0
+  ],
+  [
+   "ededddcaaeecba",
+   "baedabaaaded d bebe ada  bdd dacd   ",
+   50.0
+  ],
+  [
+   "d dc c d bbea",
+   "aa ccb dcbeb edeabaabceabc ed",
+   61.53846153846154
+  ],
+  [
+   "  bee  eaabbdd",
+   "e",
+   100.0
+  ],
+  [
+   "dbeae",
+   "cedabcbdbcdaeaa  ceda aeec acdeba bcceebdeade",
+   80.0
+  ],
+  [
+   "ceaecebaedadabdbe de",
+   "c ee  ",
+   60.0
+  ],
+  [
+   "acbabacc c",
+   " ed deaecacecccecabecb eea  aaebcbd cae ee",
+   60.0
+  ],
+  [
+   "d ebdceeabaad d eded",
+   " ",
+   100.0
+  ],
+  [
+   "dca",
+   "abacdce eeee cdecbecdeaabb c dea dacdd ada  aed  cd",
+   66.66666666666667
+  ],
+  [
+   "bbdccebde",
+   "cabe e aa",
+   46.15384615384615
+  ],
+  [
+   "  bdcddebb d",
+   "aabb ebad  a cbd e cddcbad caa  adadcdadc d ",
+   58.33333333333333
+  ],
+  [
+   "b",
+   " daed",
+   0.0
+  ],
+  [
+   "debd eaab",
+   "ec d d ae edee ed  aeeaea",
+   57.14285714285714
+  ],
+  [
+   "caca ba",
+   "ebaddbdabadbd cdaace  aab adb",
+   57.14285714285714
+  ],
+  [
+   "bbaed ab bcbdbedc",
+   "acad be ebedceaceaedcbdebdbddbeacdb",
+   60.0
+  ],
+  [
+   "eadacdde cc",
+   "ebbab aaeaecacbdaa  bbaa",
+   54.54545454545454
+  ],
+  [
+   "caedbcd",
+   "ebcacad aab bdbcdead bceacebd",
+   72.72727272727273
+  ],
+  [
+   "dddbeaebbc",
+   "cbaeba cde beae ebe bcceddce ddaac b cdbadbebbead",
+   60.0
+  ],
+  [
+   "ada a ",
+   "c c eebccaeedbec ecdaebdc ",
+   50.0
+  ],
+  [
+   "bb babee  dbdeededbb",
+   "ceaecacadb db bdb addadcbacbaadad ac",
+   55.00000000000001
+  ],
+  [
+   "bae cadbeaad  cb ",
+   "edbeaceeaac",
+   54.54545454545454
+  ],
+  [
+   "adcd ecda",
+   "aa b bbcbdead a eadabbdedbdecc bcb cdedcbbb aad",
+   66.66666666666667
+  ],
+  [
+   "   eceeb ba",
+   " bceaee ecdac d ccacbdcaa accbccddbccacccc bebaddaccaa eeace",
+   52.63157894736843
+  ],
+  [
+   "e cc ebadbeaa aaac",
+   "dcd aaca cecbabee adaeacc ccce abb adddceabcebbdc",
+   66.66666666666667
+  ],
+  [
+   "dbcbadddbeeeb abd",
+   "adadbcbada eb dedad ca",
+   64.70588235294117
+  ],
+  [
+   "aad",
+   "edadbdaebd",
+   66.66666666666667
+  ],
+  [
+   "bbdb d",
+   "adadb cdbdbd accbcda   ba",
+   66.66666666666667
+  ],
+  [
+   "ge h hh bheeaedf bfahgghbh ege c cabfa cahbfedf b acdcfafd  hhcbhddaaecffe acgadhfaefdhhdbffeea ecddh cd",
+   "gdefc gchgd hgdfeedahaffaacagfgc eaghcgchaheafgehh bheeaedf bfahgghbh ege c cabfa cahbfedf b acdcfafd  hhcbhddaaecffe acgadhfaefdhhdbffeea ecdaaaaaaaaababbbaababbbabaaaaaaabbabbaababbbaba",
+   92.3076923076923
+  ],
+  [
+   "acbbdhddegchdhfbghced fdahdehebch hdhb ebacchbec dgaaeah  bhbffddbebabggeah dabggb",
+   "b cbddgcacb hcbgfcecgchgf dhchffbheacbhh aegdfdfchhbhhgfhddegchdhfbghced fdahdehebch hdhb ebacchbec dgaaeah  bhbffddbebabggeah daabaaabbabbbbababaaaabbbaaabbbabbbabbbaaaaa",
+   91.46341463414635
+  ],
+  [
+   " defefdehafdcfed db cd eh e fe  ghacbhcca ggbgagb dbhbgebbhfgdcbcga",
+   "dc hhhacebhefhahbdafh bcc edeeagb eea dfbfdfbegcfcecc hea fg adefbchcbdcffdehafdcfed db cd eh e fe  ghacbhcca ggbgagb dbhbgebbhfgdabaaabbbabaabbaababbababa",
+   91.04477611940298
+  ],
+  [
+   "gddfdfdhbg cdcgecaehd afa efdddebdabhfhbaaedbehdfddcfbhbcff acf fcdahabhffgcf ",
+   " fcefgbbc dcdedebbhaccccbae egfccacfdhbg cdcgecaehd afa efdddebdabhfhbaaedbehdfddcfbhbcff acf fcdahabhfaabbababbbbabaaabbaaaaabbaaabaabbbbabaaaaabaabbbbaaabaabab",
+   89.74358974358975
+  ],
+  [
+   "acfcadgfcaa ebgbgchg cafacgfgchbcfd eefbcdahdgca bbgefgeechafggefh aaf bha heae aab gbedcgddgadagegbg bfcfehbb",
+   "hdcadfghdbdaadhedbahbha dcgadhccgaechhche cach hf bf gfcggaeaaddbggahef abdgfcaa ebgbgchg cafacgfgchbcfd eefbcdahdgca bbgefgeechafggefh aaf bha heae aab gbedcgddgadagegbg bfcabaabaaaaabbbaaaabbbbaaaaabbababbabbaaabbabaabababbaba",
+   94.54545454545455
+  ],
+  [
+   "debgcaaf cd de acehfh g adgcdfddg gdggb gedcfeaebcebebdf hbbabfcccgdgbbhdgafceh fhccggeecddcccdbc",
+   "bc hcbh hfcf bcdegdaecbdc hd cbfbgfhcg egcgfbfbccf aaf cd de acehfh g adgcdfddg gdggb gedcfeaebcebebdf hbbabfcccgdgbbhdgafceh fhccggeecddcbabaababbbbbabbababaabaabaaaabbbaaabbababbaba",
+   92.78350515463917
+  ],
+  [
+   "bechbdgefh bedcaff hc cbf  fggaeecbfafbgfbabedbeb gccffhdhahee  bh dfhb",
+   "fagace acbdcdhd eaafheabcdgdedgabbfega gdbche dcedgefh bedcaff hc cbf  fggaeecbfafbgfbabedbeb gccffhdhahee  bhaaabbabba",
+   90.14084507042254
+  ],
+  [
+   " gbdfee  ccccbcfeabgaagf dacchcbfgacgae ced  cabgbfdc edh fbhccchd dcd g gehdah eb cbefcbb  cehhccd gbe ffbcdcg",
+   "cch ffegee  ccccbcfeabgaagf dacchcbfgacgae ced  cabgbfdc edh fbhccchd dcd g gehdah eb cbefcbb  cehhccd gbe ffbbaaabaaaabaaababbaabbaaabbbaabaa",
+   94.11764705882352
+  ],
+  [
+   "h hhegefgghaddehbcbc eadg d  bbafcbedeb bfaede agg ha cahcd afddafddc",
+   "d ebchhaacc cfahbdfgcgdacaghdhffhdcbg feefcbdgffh cfaedfaeddcabbaf hhbbgd agefgghaddehbcbc eadg d  bbafcbedeb bfaede agg ha cahcd afddabbaabbbbabaaaabb",
+   91.30434782608697
+  ],
+  [
+   "ag dheebbhdbbaecahebechdeaeaf acbfacfha gg g ffghdeeh hb  a facbgaf ca bfdcaccgadgfad gecghffbdbbeahbgc aacfde",
+   "hfddchc e d c  gdccagabbf hbeebbhdbbaecahebechdeaeaf acbfacfha gg g ffghdeeh hb  a facbgaf ca bfdcaccgadgfad gecghffbdbbeahbgc aabbababaababaabaabab",
+   95.45454545454545
+  ],
+  [
+   " dcchhchafafgfa fhghc bhaeadahhgc f abh ecddfdagch a dgfbhaechedehbebeh dddb fbfbfbb gdefed ccbgb ffabd",
+   "fcfcaeacfdfahchafafgfa fhghc bhaeadahhgc f abh ecddfdagch a dgfbhaechedehbebeh dddb fbfbfbb gdefed ccbgb babbaabaababaaba",
+   93.20388349514563
+  ],
+  [
+   "bh e chbghfgggdgcaagedec fec beabbahbghh e hhehegfahe fbcgcafaa egdfbddcfhefca ghghdaedggc afhbcadggcgedgg heb ghd ",
+   "hddacb egcdchbghfgggdgcaagedec fec beabbahbghh e hhehegfahe fbcgcafaa egdfbddcfhefca ghghdaedggc afhbcadggcgedgg hebababaababbbbaabaaabbbbbabbbabbabbbabbbabbabbbbaaabbbababaaabbabab",
+   93.91304347826087
+  ],
+  [
+   "e dee  ehdefgacg gebdagcfadea bbbbaefagfeecfbd dcced hbddaghhdcb ",
+   "aegahfedfhfd  deabf hecdba fbe  ehfgagfefabcdh dahafdab   ehdefgacg gebdagcfadea bbbbaefagfeecfbd dcced hbddaghbbbaaababaababaabbbabaaaaabbabbabbababbababbaaaaabababbbaababaabbaabbabaaaabb",
+   87.6923076923077
+  ],
+  [
+   "c     ebhaebcfgagb cdff eaecadbghhdeedcabbdhfcgbdbde  eabfdhdh hgeddfgcf fb agffahgcb hfhaheecg  ",
+   "b b ebhaebcfgagb cdff eaecadbghhdeedcabbdhfcgbdbde  eabfdhdh hgeddfgcf fb agffahgcb hfhahebaaabbbaabbbbaababaaaaba",
+   94.11764705882352
+  ],
+  [
+   "dfcdbehfb ebadchd egffehbfededbgdcddcaagcgbc ea e hedchb bdddeh fehhegbbc cd gabhe fdheedhg bbdeeea",
+   "fdfefghehfb ebadchd egffehbfededbgdcddcaagcgbc ea e hedchb bdddeh fehhegbbc cd gabhe fdheedhg bbbabaaabbabbbabaabbaaaabbbaaabaababbaaababbaaabbabbbbabbbaaaabbbababaabaabbaaa",
+   93.4010152284264
+  ],
+  [
+   "ahcdadcafeecdcccabeddf fh  agagbabhgcffaafcf acac  hbdcaabcdfdede hgagchbe egdbea ",
+   "  ebchdcebafabhehheaa hdcefehcbhcfbdchfhdcafeecdcccabeddf fh  agagbabhgcffaafcf acac  hbdcaabcdfdede hgagchbe egbbbbbaaabbabbbbbaaaaabaaabbbbabbbbbaaabbbaabaababbaabbababbaabaaabababbbbbb",
+   92.6829268292683
+  ],
+  [
+   "heeeee db fegabhg bfegfcachahd dddhgacabaabhcfeddffdcedgaddaa cdhdfhhaafchdgh affcehbdchccfbdacgebadhd gg",
+   " f  baehebh fhhbeg aede b bfebd cghab gbe db fegabhg bfegfcachahd dddhgacabaabhcfeddffdcedgaddaa cdhdfhhaafchdgh affcehbdchccfbdacgebadbaaababbaabaaa",
+   91.42857142857143
+  ],
+  [
+   "gff ccgfbfac cda   bh gfhfcegdcebhbeeeefa dbd aeacbhfbdbbbbda achcbaafecaegbcg e",
+   "db gccgfbfac cda   bh gfhfcegdcebhbeeeefa dbd aeacbhfbdbbbbda achcbaafecaegabaaabbbbbababbbaabaab",
+   92.99363057324841
+  ],
+  [
+   "effdbgddaf  dcfh eeh gahfeg edfe ba ggdfeagde haafbbebh cfdacacg ",
+   "cbbfaheeeg ef cdfgg dfa adafe gcdahhh ghfheaadeebhf dbhhf fcbbgddaf  dcfh eeh gahfeg edfe ba ggdfeagde haafbbebh cfdaabaabbbbabbbbbbaaaaa",
+   90.76923076923077
+  ],
+  [
+   "egdaebdad cedeagheceddecccd afdddfd facab egaegd hcabhheeaabhcdbgafbacbfageg g",
+   "gb cd adedfa dcfaacfc bhdcgdefgef dhh gfh afhbb gehe hgh ghhcded de acfbdad cedeagheceddecccd afdddfd facab egaegd hcabhheeaabhcdbgafbacbfaaaaabaabaabaababbbaabbabababbbbbbbbbbababbbbaaababbaaababbabbbbabbabaabbbbbababa",
+   91.02564102564102
+  ],
+  [
+   " cb fgbd cadfbbcechdeehfgea d edga dafbebcgdchfhab fhgdabe aedd ahachbcb chcacdhfg hcc",
+   "fehdehhdhc bfdcgafeebeh hc bgh gcgdecfgebhg faghdh  hb cg add hgbd cadfbbcechdeehfgea d edga dafbebcgdchfhab fhgdabe aedd ahachbcb chcacdhfbbaabbbbbbbababaababbbabbaabbabaaabaababababbbbaaaabbaabb",
+   91.86046511627907
+  ],
+  [
+   "ebhedcecgchegchadefdfac efbdhbechh hbfgbdabff hhb hcacccacgfbe hehefhfchfddebbhadhga",
+   "eddhgedgbhcfadfgaddcah b bb eahdfghge cehe ha hdhd cea ehb aahgdg cecgchegchadefdfac efbdhbechh hbfgbdabff hhb hcacccacgfbe hehefhfchfddebbhaabaaa",
+   92.85714285714286
+  ],
+  [
+   "ac bha agddbeefha bfefghda agd febhafeagfcbbgghebaheabfhefbhfgah ceahedcgeeafbcdh",
+   "ca agddbeefha bfefghda agd febhafeagfcbbgghebaheabfhefbhfgah ceahedcgeeababbbbaabbaa",
+   94.8051948051948
+  ],
+  [
+   "gh chgabfhdghdf hgh dgecehf hfghf  a fbef ead gchbhfbbabac hdhdahhbgdbgeebafdbbhcd",
+   "fdefeagcc fab dhbdbh eahgedc b bhdehaadccbfcaafbeehaebgabfhdghdf hgh dgecehf hfghf  a fbef ead gchbhfbbabac hdhdahhbgdbgeebafdabbabbbbabbbaaaabbaabaaaaabbabaaabaabbbbababababbbbbbbaabbbaaaaaabbabbbbaa",
+   91.46341463414635
+  ],
+  [
+   "hhecbddbbdc eeea ffec gbgbfaea  gadfbhceefhdhafcecgegebdbbdhcdaeahg bcefccgeabfbfd ghgggg",
+   "gfafedbbhce ddbbdc eeea ffec gbgbfaea  gadfbhceefhdhafcecgegebdbbdhcdaeahg bcefccgeabfbfd ga",
+   93.64161849710982
+  ],
+  [
+   "gadb fbbh afhhgceb ach cdffdahgdhdefaechd hf daaeefh g ehg h abcghh addegfdhdggh bg",
+   "fcchc aghbfhdcbbgffe ef gagbchfefbbh afhhgceb ach cdffdahgdhdefaechd hf daaeefh g ehg h abcghh addegfdhdgbabaabbbabbbbbbbbbbbaaabbabbbabbb",
+   92.7710843373494
+  ],
+  [
+   "gd dddfedf bahbbfefaggcfacgcahgeddaebcha bhgefagdebhcg adabdhe fdadh",
+   " dheghdfffaffdfedf bahbbfefaggcfacgcahgeddaebcha bhgefagdebhcg adabdhe abbbba",
+   89.70588235294117
+  ],
+  [
+   "d  d agfgb g acafh ghfccffdaaffdg gehf a  aeaafahc bhhhch ga cdcf",
+   "fcegcadcehcgahgafaedhed ghafcfbfhhdefhdagfgb g acafh ghfccffdaaffdg gehf a  aeaafahc bhhhch gaababababbbbaababbabaaab",
+   87.6923076923077
+  ],
+  [
+   "gbcccfbhefeehdbacdfffbeh hhaeghgagafffecbfdbfdead fcfchchbfbge fahdahbchgfebeded hghadcdggdfhhbba d  cedfa ebbc",
+   " eccbgbchgfc cgfbhefeehdbacdfffbeh hhaeghgagafffecbfdbfdead fcfchchbfbge fahdahbchgfebeded hghadcdggdfhhbba d  cedfaaabababbabaabbbbb",
+   95.4954954954955
+  ],
+  [
+   "gaddgf fgdfh gdceghcdhggabfcgb fbac fa  fgbegadecef fddaggefeagheg",
+   "ad  bfddgffdfeeh be gffabhdhhdefeebh ffchhhfedheafdd ceddc acdhf fgdfh gdceghcdhggabfcgb fbac fa  fgbegadecef fddaggefeaabaaabbabaaabbbbbababbbaaab",
+   89.39393939393939
+  ],
+  [
+   "ag  fbcffc eaeabdehfhgfe   fdgbcf hh aaaceadbhh ccchcfbggcddfe ffdchegdgcfc b hbf",
+   " ggcafhedfbbhbhbcffc eaeabdehfhgfe   fdgbcf hh aaaceadbhh ccchcfbggcddfe ffdchegdgcfc aaabbbbbaababbaaabbbbbbbaaabbaabbaaabaabbbbbaababbbb",
+   90.12345679012346
+  ],
+  [
+   "dccghhhchgfabghhh daedhaa eddhaahb ba chacgdbhaeeddbaafedfc ebbgcccc",
+   "bec hffb  bfg fc gdbffabchahhchgfabghhh daedhaa eddhaahb ba chacgdbhaeeddbaafedfc ebbabbabbbababbababbbaabbbbaab",
+   89.70588235294117
+  ],
+  [
+   "fefhcfbbhhbhedhcbagdcgcdcf cg bachgdddadehcdfaddheebccegecf dg aagcga  bfffh",
+   "fdegbcdecge fabb bfbeag   af dca hc decff ahfafchafbbhhbhedhcbagdcgcdcf cg bachgdddadehcdfaddheebccegecf dg aagcga  baabbababaa",
+   92.10526315789474
+  ],
+  [
+   "hedbcb aafehgcedhedd fh ceghd dd  cadfadha   ddh d caahdbhcbehdcgfegggadb  a fbgd cedfdcheade",
+   "daachdfdcb aafehgcedhedd fh ceghd dd  cadfadha   ddh d caahdbhcbehdcgfegggadb  a fbgd cedfdcbbabbaabbabbaaaaaabaabbababaaabbaaaaaabbbabaababaaababaaabaababbaababba",
+   93.5483870967742
+  ],
+  [
+   "bhcad b heh  chccbbbcfea bbabeffedgfab  cgcghaedbebcgbg f  fhcegdcaeafebabhbhcchhdeecbcdfbebcaedbgaef gah",
+   "acadhddeehbaaacebfcbgbegae gecda dcgegh fhechbfbf ab b heh  chccbbbcfea bbabeffedgfab  cgcghaedbebcgbg f  fhcegdcaeafebabhbhcchhdeecbcdfbebcaedbgaebbbb",
+   93.65853658536585
+  ],
+  [
+   "edfcghfh gaedgcfaeeebfgd gad bhdebec eh  achgfacdaggabchghff dcbcchbhe cfeggd acbfed dace  d",
+   "edff ghcch hbfd hbcfgebbffefbdahhhhcgbfge b b ce chhfh gaedgcfaeeebfgd gad bhdebec eh  achgfacdaggabchghff dcbcchbhe cfeggd acbfed daabaaaaaabbbbaabababbaabaabbababababaaabaababababababbbabaaabaa",
+   91.30434782608697
+  ],
+  [
+   "cgabcc fefg edcchfgcecgdgcbefb hecc efacchgehecggech bhfbffbacaca hdheg  abdcfg ga",
+   " h ehba f facfhg hfbgfhecdggff bfb ghhehchfae aeffebdahfcdedbgcba dcggafcabdcgbhc fefg edcchfgcecgdgcbefb hecc efacchgehecggech bhfbffbacaca hdheg  abdcbbabbaaaab",
+   92.6829268292683
+  ],
+  [
+   "hhfg adegbhcc acfd chbega febfbccgcfhefadaa h  geb cchabbafehgcegacdhgfdaaadefeabbdgddahbgabebcgfa ffcfabb    h",
+   "dgefhdhacfc fadegbhcc acfd chbega febfbccgcfhefadaa h  geb cchabbafehgcegacdhgfdaaadefeabbdgddahbgabebcgfa ffcfabbabababbbaababbababbaaaabbbbbbbbaabbbabaabbbbbaaabbabbaaaabbabb",
+   94.5945945945946
+  ],
+  [
+   "dae eabfgcfd beegefafdahe fgegbdbgcfcaagdbcccccacbfdfgecbgdffcbaceebfcbgdddbegfgcag gdbchd bhfdh f ffbfdfhhhhef fada g",
+   "dhdegf c  gcbafbaga  f g daf hhfhacageabfgcfd beegefafdahe fgegbdbgcfcaagdbcccccacbfdfgecbgdffcbaceebfcbgdddbegfgcag gdbchd bhfdh f ffbfdfhhhhef fababbbaabaaaabaaaaabbbbbaabbbabbbbbabbabaabababaaabbbbbbbbbaabbbbaababababa",
+   94.91525423728814
+  ],
+  [
+   "addabgfc fdbagadbabdhbheah ebeagcgdg fdgeeagga abcadg cb abdahcf fd babcdhhgdfcfbdfabaaccg ",
+   "agge  dedcfdgfchdagf  fbbfgeceggb aagaceehbgdbhbehfgcbbdhdd ddbgfc fdbagadbabdhbheah ebeagcgdg fdgeeagga abcadg cb abdahcf fd babcdhhgdfcfbdfababaaa",
+   94.97206703910615
+  ],
+  [
+   "gb hd ceede aaebfdcegefhfc ge aadgfgfhegecbdef degdd bgaeadcba  hfabbaeda gbcb  deedddccehgg fhee",
+   " bececbadhdcbbag acfghafgfbeaadae cedfb ceede aaebfdcegefhfc ge aadgfgfhegecbdef degdd bgaeadcba  hfabbaeda gbcb  deedddccehggabbbbababbbbaababbabbabbbbaabbaabbabbbaaaaaaaaaaaababbabbbaabaababa",
+   91.75257731958763
+  ],
+  [
+   "eddhfd bfce  cfgfefaedefaaggc  ghd fbcha dcg hfch dbghcecccaadbbcahac haagbaddch b echhadcbeb c h",
+   "hgda dbcdcfcbfdhfdgafacehbefhaggfd bfce  cfgfefaedefaaggc  ghd fbcha dcg hfch dbghcecccaadbbcahac haagbaddch b echhadcbeaaaaabbaabbbabaaaaababbab",
+   92.78350515463917
+  ],
+  [
+   " ghaabbdeghe beed e dbcafbacbeeceffcfaebbagfgeffffcfgeeaffadgad b fa hgabbd a dbccgcdg",
+   "fhggcaf eeb hgeeecgeede c acbhbfhcac hhagfdbbdeghe beed e dbcafbacbeeceffcfaebbagfgeffffcfgeeaffadgad b fa hgabbd a dbcaaaabaababbaaabbabbbabaabaa",
+   91.86046511627907
+  ],
+  [
+   "acdedeedhgbgbdhdgghcgfcddccc cffheaef ghg b fcafabegchbhafdcbae f  bhbc gh caacbgab gfefbcfeha f eeah adcadhecedfac",
+   "gchef gdagcefb dgbgbgfahfhfe cfeeaheedhgbgbdhdgghcgfcddccc cffheaef ghg b fcafabegchbhafdcbae f  bhbc gh caacbgab gfefbcfeha f eeah adcadhecbbbbaaaaaaaaabaababbbaaabbaabbabbbabaababaabbabbbb",
+   93.04347826086956
+  ],
+  [
+   "bg behhgechgdcgbfbaebbhcdeageagba hdcbgbcafgahfdb fcaeaafacefdd ebdb bb hcaddhahcfaeea",
+   "hache adehhgechgdcgbfbaebbhcdeageagba hdcbgbcafgahfdb fcaeaafacefdd ebdb bb hcaddhahcaaababbabbbbaaaaabaaababbbaabaaabaabbb",
+   93.02325581395348
+  ],
+  [
+   "haefbdfhbh eahafagfd hc edhgdfb  e ebcgbdfde faca bch aa cffcbb hgfhcgbb fhdbgdhcd d dbchhhhgd",
+   " hefdhhfbdfhbh eahafagfd hc edhgdfb  e ebcgbdfde faca bch aa cffcbb hgfhcgbb fhdbgdhcd d dbchbabbaabb",
+   94.11764705882352
+  ],
+  [
+   "ada ehbebgbhfdbhe  gcaaea hheg afcehgdfcah g decbfcfcdgdbcgdd b ae  bcgghb ahhdebdegdcd",
+   "gee gabcfdc fb gcgfd bbhahgbb hfaf hbfdebahbebgbhfdbhe  gcaaea hheg afcehgdfcah g decbfcfcdgdbcgdd b ae  bcgghb ahhdebdbabbbbbbabbaabababbbbabbbbabbababaaaababbbbaababbbabbbab",
+   91.95402298850574
+  ],
+  [
+   "geeccbc bahhafe hebeheae ccabgbeefahghdcha feaaf aefefbhdbgebgdbd ehehdcb ag ee",
+   "bhffddabhfa d gbgfed  cb fgbahhfghfbad hghd  hdh ededghgfdcdbhe fee gccbbc bahhafe hebeheae ccabgbeefahghdcha feaaf aefefbhdbgebgdbd ehehdcb babbabbbbbaabbabbaaaaabbbbaabbbabbaabaabbababbababaaaabaa",
+   93.67088607594937
+  ],
+  [
+   "f afhcbegffegccahfcabchdabddegb ccaefhhb daheeacbbaddedac ecgefgaa ghhgagbdce edcaachgfcgehb",
+   "egbfahbafghchddae hedchef hbdbgf dafbfg faba g aghcd fd  d bec abgghahabfehecbegffegccahfcabchdabddegb ccaefhhb daheeacbbaddedac ecgefgaa ghhgagbdce edcaachgfbbbbbabbbbbabbaaaabbaaaaaaababbbbabbbbbbaabaaabbbaaababaababb",
+   93.47826086956522
+  ],
+  [
+   "gc b cgfeadcfbcfff fgba bg bgebfcabdbagegeeheegh gcchf  bde cdhf efg edfbfegbaggfhcfhcdcb cgafbhfbaf",
+   "effbhbgbecaeeafeghffcahfcbghdehbgdefefggdcgfeadcfbcfff fgba bg bgebfcabdbagegeeheegh gcchf  bde cdhf efg edfbfegbaggfhcfhcdcb cgafbbaabbabbaabbaabaabbbabbabb",
+   93.0
+  ],
+  [
+   "bdgdgbhaged  fagafbccefc cdchbddcgec ahcbgbfgdhcacaeh g efhfadfhagag",
+   "hdb  ehe eacbgegghbbhaged  fagafbccefc cdchbddcgec ahcbgbfgdhcacaeh g efhfadfbbbabbaaaaababbabaabaababbbaabababbaabbbbbbababababbab",
+   89.70588235294117
+  ],
+  [
+   "bhgggfehecdae fffhcbcbechca aecbfgdecf cca ebgceadedehcdfecafd fedabfhdfghbgefhaceg cdhh",
+   "ehhcfehecdae fffhcbcbechca aecbfgdecf cca ebgceadedehcdfecafd fedabfhdfghbgefhacegabbbabbbbabbababaababbbabaa",
+   92.94117647058823
+  ],
+  [
+   " cegggedb bbcadedbghf a eh dgbgha gfeccecdfccehhafcddddchhch aacggaccd fhhbbdgc fehgdehc cegfecgabgefgh ddhdc",
+   "bghgfhhcag db cdeaheg gaef ff edb  dgedb bbcadedbghf a eh dgbgha gfeccecdfccehhafcddddchhch aacggaccd fhhbbdgc fehgdehc cegfecgabgefgh aabbbbbabababaabaaaabaaaabbaaaaabbabaababbabbabbaaababaabbbbaababab",
+   92.66055045871559
+  ],
+  [
+   " ghf  dffda fh chbhehhfdfgbdgdgebe addbbdegfgcgadddcadg hd hagebfgcbcaghegh",
+   "bbggcbaebacbdecb dffda fh chbhehhfdfgbdgdgebe addbbdegfgcgadddcadg hd hagebfgcbcabbbaa",
+   89.65517241379311
+  ],
+  [
+   "cehac feeba ddcec ac ddgda ccecaccfhbbecab gh hcg dagefdgbc baeeabcaaedceebfcf addcfbf  hffdbhgcbghfbbhbee hh ab",
+   "gdag bdbh aad gacbgahd dhfbfh gbhdbcdhc ehfdgeege b fhdd cfbgbeac feeba ddcec ac ddgda ccecaccfhbbecab gh hcg dagefdgbc baeeabcaaedceebfcf addcfbf  hffdbhgcbghfbbhbee baabbaabbaaaabaaaabaababaaababbabaaabbabbaaaaaaaaaaabbab",
+   95.53571428571429
+  ],
+  [
+   "cc b ffa gbd fe ebfffbabdgaabd edcfdedffaf afdggadhhdfacggcdeggge ahe dcehbe addce a beffbhedebbcbhhed edcbad",
+   "g hcheadhafdaghchf  dhgbaeafhea h    hcbgbfcecccga hfaeaehhhfh  addbhffa gbd fe ebfffbabdgaabd edcfdedffaf afdggadhhdfacggcdeggge ahe dcehbe addce a beffbhedebbcbhhed eabbaaaaaabaabbbaabbbabbaaaabababbaaaaaaaabababaabaabbbbababaaaabbabbb",
+   94.4954128440367
+  ],
+  [
+   "da  fd adg fbhhedhhh d ccacafeff gceb cb dgb bdeegaeeb afdd  fccadaggbdfacdhadbcbbegbgca",
+   "aabaffdccg  hb hge bfdf eaeaffgadcefgffd adg fbhhedhhh d ccacafeff gceb cb dgb bdeegaeeb afdd  fccadaggbdfacdhadbcbbeabbbbabbaabaababbbaaabaababaabbabaaabbaaaaaaaaa",
+   92.04545454545455
+  ],
+  [
+   "gaaeacc hfheah feg f bde eacehghgbhhcdbdhhbadedh gdbfga bhedaaaf a",
+   "hdcbhhhdgb gabcbe abcaeaccddhfhge acc hfheah feg f bde eacehghgbhhcdbdhhbadedh gdbfga bhedaabbabbbbb",
+   92.42424242424242
+  ],
+  [
+   "eeaggdhaaheg ffgahghfa hb  edbedcgafehgcedadefadbfebgeaacfa  ced heffebdghgcgc",
+   "cbfhfagd dhbbccfefd bd  fbchfcedccebeaffhb g egcbecg fhbadaecea bac gcccchg edhaaheg ffgahghfa hb  edbedcgafehgcedadefadbfebgeaacfa  ced heffebdgabbbababbaaaabbbbaaabbabbbabaaabaababaabaababaabbabaabbbbbaabbaaaaaa",
+   89.74358974358975
+  ],
+  [
+   "chfbhbgaadf aceachfhgfa cdhcdb  hgbbgbcfhhhcaggcbabghfchhbhgcdgbdda  be ecfdbcggbcbahhfcgccccaabb",
+   "egahebhac efaach  fhfdcachgeecedhhbcbfhefahdfchehebchgbgaadf aceachfhgfa cdhcdb  hgbbgbcfhhhcaggcbabghfchhbhgcdgbdda  be ecfdbcggbcbahhfcgcccabaaabababbbbbbabaabaababbbabaaaaababbbabaaaababbbabababaaaaabaaaababaaaaa",
+   94.84536082474226
+  ],
+  [
+   "bacc aabd ddac  b d",
+   " ccadbb  ad acbb ba",
+   56.25
+  ],
+  [
+   "c     ab      adabdc c bc  d aabbaa baab  babdc dd bdbcbcadbbaaaac   da d  cad dcdabbaa  a",
+   "acaabadbdadaacd ccbcaaaad cbbacc cacb caacccabd dadaadd bcdcc abcddacc ac  bcdd  db abacac",
+   56.62650602409638
+  ],
+  [
+   " b  cd cdacccd  bcbcbd dccadbb bbadc a dc   ",
+   "adaadcadcdbac ddb bbdadb b c db ca  aab bdbc",
+   57.49999999999999
+  ],
+  [
+   "ad   bcd cbadcadbacc  dcadacbaddad dd baacdaa b  bccda",
+   "c cb bccabddbbc d a cb cbc cdaa dbbd b dcacc cb cccd c",
+   58.00000000000001
+  ],
+  [
+   "cdbacabbcdaadbd  bdcba cdab   c acbacbada c abbdbd cd",
+   "aabc b bdcbabacbab bbd   dcdaa cbaddbb   d dcbbdbddbc",
+   64.58333333333333
+  ],
+  [
+   "adccabc  cadbaacbaac ccabcddbcd b   b ababccd bdb b abaacc daccda",
+   " abccccddadcabbcbcacbbadaab  ddccdbcccacdd bcccca ccbbdcdbbbad dc",
+   56.19834710743802
+  ],
+  [
+   "dddc cccc dcdcd bbaddbb d abacadcddccab  bdcdcd    cbcda aaa",
+   "caadbda  bd cb  adbddadcbacb ca dc bcbba dbd a  c c  bda dad",
+   60.7843137254902
+  ],
+  [
+   "dadcccbdbdccddcabddccaddbaddd   dbbacca dbacbbdbc a   ",
+   " aa  adcaddaac  a bd d cbccdabac ccdcbbcca abbc adb ac",
+   58.58585858585859
+  ],
+  [
+   "a c   dccdbbc acccacd dccccaacbbddcbbb cc ccc ac dc",
+   "db cbc bcacdbb aba bbbbbbabd  d d bb dddbaaaaa  cac",
+   51.61290322580645
+  ],
+  [
+   "cb d ca  b  bbbadbcda dbbaabb bc bbdaccbc dbaacacdabbbd ",
+   " cad b  ccb ad dad da acaccadab bddbcc db cadabcdadcdbca",
+   59.81308411214954
+  ],
+  [
+   " bdab bdbd d b addcdb  adbcbabdc daccdc cd aacdcdc  accdbbbd dc cacddd b c b bbdb adcddc  ",
+   "abcdcdaabcaadbdcc dcadbdcdc  b d  cbd  d  ab aba dbdbacbbccdbdddbcdba c ddaadc dbd dbddc c",
+   59.3939393939394
+  ],
+  [
+   "b adddcbddbbba abbbdbacadcabaccccaab da cbcbbd bc dbd d  badc  bd",
+   " c d aad   bc bccbcaaacaba dabccbaac bcdb ab bd  a b c cbdcbcb dc",
+   59.45945945945945
+  ],
+  [
+   "c bcdbd ac  dacc dd dd a",
+   "ca dbbc  dcdbd d aa d dd",
+   71.42857142857143
+  ],
+  [
+   "adc cdcbcd dd",
+   " bbdcbddcabbd",
+   60.86956521739131
+  ],
+  [
+   "d  c caacd adb ",
+   "badcbadb d dc  ",
+   53.84615384615385
+  ],
+  [
+   "babbacbdbd acda d b d aaaca",
+   "bddc bcdbbbcbdacbcb  cab cc",
+   57.77777777777777
+  ],
+  [
+   "bbcdbbccbadddbada   daa  dda acaa  ab baa cbabccc cb daac",
+   "dbaabbcdadbbbdabcdadc b aab bccb abcba ad   ccb bc cdb ab",
+   60.19417475728155
+  ],
+  [
+   "bac abdaa cc bac b bdb   aadcaadb dc bbca ddbc  ccc c c d cdc cdda dc",
+   "cb d cacb cddab a ca dacbccccab ccdadcdcca  adbdddaacacccddbaacccccc ",
+   60.86956521739131
+  ],
+  [
+   "cb  ",
+   " c d",
+   66.66666666666667
+  ],
+  [
+   "bdadcb d  ddb ac a cbdabbbccbdd cccad caccc dc  ddaadb dabddc c",
+   "bcadcbad bbdcbbbdb a cbbd adcadcbda ac bbdcad d cd a daca c  bb",
+   62.295081967213115
+  ],
+  [
+   "b acbbd aaaaa b cabcba bcb b  cabdccba  dca",
+   " bbd  c adacdccd acbcc ddcbcccaaa cadacd  c",
+   53.16455696202531
+  ],
+  [
+   "ad ba ccac ac",
+   "add baddcbbbd",
+   60.0
+  ],
+  [
+   " dcb dbdabbbcab cb bdcdadbabbdd ac",
+   "d c   dabbaaadbca ccada bdccba dcb",
+   63.33333333333333
+  ],
+  [
+   "d ",
+   " b",
+   66.66666666666667
+  ],
+  [
+   " dcababccdbdabaaadadadacccabcadccccbbad d abdcdaababbd  ",
+   "dcb abada ad acadc bacd  cdadb cccbdbc daaacbd dddbabdc ",
+   62.13592233009708
+  ],
+  [
+   "ddacdcbdd d dacacbd",
+   "ddcdbadbad cddb  ca",
+   68.57142857142857
+  ],
+  [
+   "ca dacdddbad  c acbdcacd bcb abd  cca",
+   " abdda c ccbaaadb bd   aabc bdaac c d",
+   62.295081967213115
+  ],
+  [
+   "d  babacb adcbbcbab cac dd d  caacabcb",
+   " caddacadb da dcb cdbddaad bdcacccdcad",
+   59.375
+  ],
+  [
+   "bababaacc ca  c b bad cd adac dcdbdb c cba aa dbc bbbdadcc badbbdcbdcbc cbacab b",
+   "a bad a a dbb adabd dbbaacabaadbdaccdbdbcdccb  a  dad abbbcdadcd da dcad bbdda b",
+   60.431654676258994
+  ],
+  [
+   "bbba dcb cbbda c dbddaacc d c dddc bbbb ",
+   " b ddcddad aba db dabdd cacb a ddcb bddb",
+   61.76470588235294
+  ]
+ ],
+ "ratio": [
+  [
+   "",
+   "",
+   100.0
+  ],
+  [
+   "a",
+   "",
+   0.0
+  ],
+  [
+   "",
+   "abc",
+   0.0
+  ],
+  [
+   "abc",
+   "abc",
+   100.0
+  ],
+  [
+   "abc",
+   "xabcx",
+   75.0
+  ],
+  [
+   "bonjour",
+   "Bonjour",
+   85.71428571428572
+  ],
+  [
+   "Dépôt d'un rapport",
+   "1re délibération. Dépôt d'un rapport de M. Henry",
+   54.54545454545454
+  ],
+  [
+   "texte",
+   "un très long texte de référence que la sortie ne contient pas",
+   15.151515151515149
+  ],
+  [
+   "un très long texte de référence",
+   "texte",
+   27.77777777777778
+  ],
+  [
+   "dbcab  ",
+   "dbad  cccceddd aeddbddbeec  cedccb",
+   34.14634146341463
+  ],
+  [
+   "da bdee cded ada",
+   "deadde",
+   45.45454545454546
+  ],
+  [
+   "baec eecac  bceaa",
+   "ce abceeaa bedbcaad ccbc",
+   48.78048780487805
+  ],
+  [
+   "bcd eeb",
+   "d aba cedb c e ab ebcededbeeece",
+   36.8421052631579
+  ],
+  [
+   "aeea",
+   "c b bdddedadad  dbeaad deead cbceeb bbededcc ebeaabcce  e",
+   13.11475409836066
+  ],
+  [
+   "dba db ee d",
+   "dccbababaad eab  bacbcdcedacaebebbc",
+   34.78260869565217
+  ],
+  [
+   "dbb daebbbeaeabc cc",
+   "ebdead adbcdcbeebcdaedee beac",
+   45.833333333333336
+  ],
+  [
+   "aceceb a cdabdecacbe",
+   "aebb cecd c c a aedc adeceebbcedaddeeeddcaebdb bcaeacec ae",
+   41.02564102564102
+  ],
+  [
+   "a",
+   "eeeaccce ca cedaddd  dabbdcabeaaabca ccbeedbed ",
+   4.1666666666666625
+  ],
+  [
+   "cecebe  ca  ba ",
+   "dbacb baceeaace eeabadabddbaeceaac aea bae cecddd eeac",
+   37.68115942028986
+  ],
+  [
+   "ddbbca ",
+   "d ebdc ccabddbc e cec eee cbbe   d beccedac bd dbb cebadd b",
+   21.212121212121215
+  ],
+  [
+   "c  de",
+   " ddc ea bddeebbdcbe",
+   41.666666666666664
+  ],
+  [
+   "ec",
+   "a ddb  a cadeae ae cd ddac  eeaeabbee aadab",
+   8.888888888888891
+  ],
+  [
+   "bccdaa",
+   "ee  eccbb a bac cceaccc ab  aaaab ",
+   25.0
+  ],
+  [
+   "ca b dd",
+   " eedd e",
+   42.85714285714286
+  ],
+  [
+   "eddeeedca",
+   "cabeadeebc  ac eaabeaa d eed abababb aba b e",
+   26.415094339622648
+  ],
+  [
+   "acb   deadbeccaeace",
+   " cdabdb dbce debaa c",
+   51.28205128205128
+  ],
+  [
+   " baac be acba cecab ",
+   "e bec ddadeeccddba decb e  cbd e abbb  a acbe ",
+   48.484848484848484
+  ],
+  [
+   "eaceeccebca adb",
+   "be ec",
+   30.000000000000004
+  ],
+  [
+   "dca ce",
+   "cdaaeeddbbdcad  bcbdea acaadacca",
+   31.57894736842105
+  ],
+  [
+   "eccecbdc ",
+   "ecad becee a eacdaddaed beaaec dbaaade bbadbebbdc",
+   27.586206896551722
+  ],
+  [
+   "cce cea",
+   "adeddedde aabdaadea adada  bacaeadd",
+   23.809523809523814
+  ],
+  [
+   "e d  dabb",
+   "db b bcdb ccbdededcd adbb ddcbecbe  deccad",
+   27.450980392156865
+  ],
+  [
+   "e",
+   "aec dc edabbcbe edaecabebbcbcaead cc cbc aadccaed",
+   4.0000000000000036
+  ],
+  [
+   "cbb da b  c bed",
+   "eadcad abbabaccc e dcc cdccbeea c",
+   45.833333333333336
+  ],
+  [
+   "d abebcdac  b bdbed",
+   "dbdddcaacc b  beccdbdb",
+   58.53658536585367
+  ],
+  [
+   "e d",
+   "",
+   0.0
+  ],
+  [
+   "dcde cbed",
+   "beaaadcedaecb bbbeccbabaabbdbeccedcbcceaaecdad cdadba",
+   29.032258064516125
+  ],
+  [
+   "dbdddba cdae",
+   "cda b",
+   35.29411764705882
+  ],
+  [
+   "bdebeae",
+   "eabb dabdea eb ea dadeec abcedde  ebad",
+   31.11111111111111
+  ],
+  [
+   "ecbdbddccd ac",
+   "aeccbaebebedbbd ccdbcddddccaaaebbcaadeaabb  dcc  a",
+   38.095238095238095
+  ],
+  [
+   "ddb cddeccaaec d  b",
+   "dcdbb  c",
+   37.03703703703704
+  ],
+  [
+   "bc cad cea daccbabd ",
+   "caddeca b caacadccdddcaedecda cdeaacdebaccbadeaa ede ",
+   46.57534246575342
+  ],
+  [
+   " dddadd bce e",
+   "b ddbcaeaaeeecdbceeeeabed ebddbe e d",
+   44.89795918367348
+  ],
+  [
+   "eeadbc bcdabea ab",
+   "abd dddcb bcdeb",
+   56.25
+  ],
+  [
+   "  a d   bba",
+   "b daea aab d ca ad ec a abecb a aed db ae ad ceee",
+   36.66666666666667
+  ],
+  [
+   "ea b deba",
+   " ccab eb abc adbb acddeeb bc  a aadcacecd ",
+   35.29411764705882
+  ],
+  [
+   "cccacdeeda e ",
+   "a",
+   14.28571428571429
+  ],
+  [
+   " aacabe",
+   "bd aebaaadacdaecee  bbaaaad abec ed",
+   33.333333333333336
+  ],
+  [
+   "eebbaacdda aaa",
+   "ceec",
+   33.333333333333336
+  ],
+  [
+   "e ecadbc c",
+   "eebdb c beccd  cebded eebdaeecdc cadcccbac cabbeacc dab",
+   30.76923076923077
+  ],
+  [
+   "c cae",
+   " eaaa cdb bcdcc cadcdbd eacdceeeede cae da cda  ecc aeccbbe",
+   15.625
+  ],
+  [
+   "c b cdb c c ",
+   "ee c e daeaab  c e aabbacaecbac accbdbcbeae cac dcecddaaed",
+   31.428571428571427
+  ],
+  [
+   "beb  bdc c a da da ",
+   "bbdb edbb",
+   35.71428571428571
+  ],
+  [
+   "be ceabe ec  a",
+   "e c  cda  addedbdddd",
+   47.05882352941176
+  ],
+  [
+   "ccd",
+   "edebcedacbd eaebe ded",
+   25.0
+  ],
+  [
+   "e dede",
+   "bd a ceeca  e dabdaee  aacbadeb ebddedbdacbbcdeecc",
+   21.42857142857143
+  ],
+  [
+   "be dae ae",
+   "cbe cecdc bce ac",
+   56.00000000000001
+  ],
+  [
+   "  accdb daee e",
+   "dcadeacb  b  aa cecc ddeebcaccbbb d",
+   40.816326530612244
+  ],
+  [
+   " cdacbb",
+   "dbeac   bb bbac  aad acacdece cdde",
+   24.390243902439025
+  ],
+  [
+   "dabcabdedeabc",
+   "   ebba b  cda caa dbccedce dbddeada bdebdebeedcbcb de aec",
+   33.80281690140845
+  ],
+  [
+   "ace a bbc",
+   " deae edcbdbcdeb ae ",
+   41.379310344827594
+  ],
+  [
+   "aa",
+   "e  caaca c ecaaabcd  aaeeaaeb",
+   12.903225806451612
+  ],
+  [
+   "c dae db debaaab acd",
+   "adecbe cddacaece ace acca ecee aca  ",
+   42.85714285714286
+  ],
+  [
+   " bbbb",
+   "e cdadeecaeec c eeba ccdcdc b aa",
+   16.216216216216218
+  ],
+  [
+   "ba eadabbca ecbbca ",
+   "bbaedc ae e ddecaae  e  ebcd b bcdaa e bda",
+   49.18032786885246
+  ],
+  [
+   " ed",
+   "eaccbecb c cb acc  bace d ebdbdcaedd  c",
+   14.28571428571429
+  ],
+  [
+   "aabc",
+   "db ed c daae",
+   25.0
+  ],
+  [
+   "be bd",
+   " be",
+   50.0
+  ],
+  [
+   "edbe ed",
+   "ea da edda",
+   58.82352941176471
+  ],
+  [
+   "deaebea dcbb",
+   "bdce b edc  abc daba  eeddabbdcacaadc acdeaebb ee accbee",
+   29.411764705882348
+  ],
+  [
+   "dacebede caaccadaa a",
+   "cc ba baceea  ec  a ba a deaaa",
+   52.0
+  ],
+  [
+   "bbdaba  caa  eacbed ",
+   "a",
+   9.523809523809524
+  ],
+  [
+   "dcbcc d ",
+   "eedbebcaaabdb  eeca  ebdea cbecabdeac ",
+   30.434782608695656
+  ],
+  [
+   " ea",
+   "",
+   0.0
+  ],
+  [
+   "cdb abcc ae  ",
+   "add ae  aaeaebaebc eecdeecabacadcbe ccacaacaacbd  ",
+   34.92063492063492
+  ],
+  [
+   " eebbca",
+   "ebceebbde cb  beeedcca aa e",
+   35.29411764705882
+  ],
+  [
+   "cc da adb cd",
+   " cdedbc ec bab ada bdde  a cdcedebeb",
+   45.833333333333336
+  ],
+  [
+   "acec b e c",
+   "a bdecccbdaaceadbddaecc",
+   36.36363636363637
+  ],
+  [
+   "a  eaaaaaeeec",
+   "dcaddbac addcebbdbb dbcacccdbaab  bdd ead ba bea daaed",
+   29.850746268656714
+  ],
+  [
+   "baadb",
+   "c  c adceaebe ddcecdcceed ee caaccabbbc eab ceadeecebc",
+   16.94915254237288
+  ],
+  [
+   "aaca",
+   "a",
+   40.0
+  ],
+  [
+   "dcbb",
+   "eaccbae dde cc  db",
+   27.27272727272727
+  ],
+  [
+   "c a dbc d",
+   "bedeadbe",
+   35.29411764705882
+  ],
+  [
+   "db  cbdae dbdec",
+   "cadde",
+   50.0
+  ],
+  [
+   "da aaccd abdc",
+   "cacaaaebcadcc  accaace  d",
+   42.10526315789473
+  ],
+  [
+   "adecb cea",
+   " caabedbd cd adaca b ad",
+   37.5
+  ],
+  [
+   " a ",
+   "bdcd ",
+   25.0
+  ],
+  [
+   "baa ae e",
+   " abaaac cbecbac d cacddbcbdbcddb ecbe ",
+   30.434782608695656
+  ],
+  [
+   "adaa a bdbacdacdb",
+   " dea ",
+   27.27272727272727
+  ],
+  [
+   " aa",
+   "cabad aed daeb ",
+   33.333333333333336
+  ],
+  [
+   "d ad ba be beeaeaa ",
+   "ccbb ce edcddbebc ceedced ab ded ac  aea baa b",
+   40.0
+  ],
+  [
+   " ea",
+   "ae accbcbdeee",
+   25.0
+  ],
+  [
+   "dcc ca aecba a",
+   "aadec cdaeacba dcadecd",
+   61.111111111111114
+  ],
+  [
+   "aecd",
+   "eded beecaae ebcd ce",
+   33.333333333333336
+  ],
+  [
+   "bc adceba  e c",
+   "cececbc bacae c  c",
+   62.5
+  ],
+  [
+   "ab aa  bd",
+   "de adddceceed de d dadbcaeaa e   beca deaeec",
+   30.188679245283023
+  ],
+  [
+   "cbead",
+   "accdcedda ba",
+   35.29411764705882
+  ],
+  [
+   "eebc ",
+   "e cbe aaababbecdbcaecbedbcbcaebaceabecdbb",
+   17.391304347826086
+  ],
+  [
+   "ebbebdbdecbaa ec",
+   "baedbcaa debdbe cabdd abb c deebcabcabbed c  becba  ab ",
+   42.25352112676056
+  ],
+  [
+   "eacbdeb ",
+   "abdddeebabceeeeebe   da ada d b ebbde d",
+   34.04255319148937
+  ],
+  [
+   "eb bbeda aebc  ",
+   "adac b e bacad ceaabb cedcca  e ccdcc caca",
+   42.10526315789473
+  ],
+  [
+   "d deecd  addaa  ",
+   "bcbb a adceecdeacebddd b badb acc aea de bbad",
+   45.90163934426229
+  ],
+  [
+   "be",
+   "bceedeaccc babe ddaca  dabecadda",
+   11.764705882352944
+  ],
+  [
+   "e ca ab c ",
+   " e dadcbeddebeeccec edcdeedccc cca",
+   31.818181818181824
+  ],
+  [
+   " bd  db",
+   "abca adeaade  aad bbeced  ",
+   36.36363636363637
+  ],
+  [
+   "dee acbcc",
+   "dd a  d  cbe accdbeebb dd abbdbbbadc b ecacd e",
+   32.72727272727273
+  ],
+  [
+   "cdd dac ccdad",
+   "dbabbdbad  acdcdcc dd ",
+   51.42857142857142
+  ],
+  [
+   "da add bde",
+   "ea b",
+   42.85714285714286
+  ],
+  [
+   "abbddbcd dee",
+   "cad d bebba babe accbed ade",
+   46.15384615384615
+  ],
+  [
+   "dbadd ba dcdbaceeb",
+   "ebadcabebaecadccc c e  aab a becb eb  ade bbaadd   ce cd",
+   37.83783783783784
+  ],
+  [
+   "bddc",
+   "abebdccc dbbebeeecee abbdeceb  de",
+   21.62162162162162
+  ],
+  [
+   "caccba dcadcab  bb  ",
+   " bdcaca bbedbebeeecbbcdddca  debdcadbbaededc adcaecadd",
+   40.54054054054054
+  ],
+  [
+   "abeeabbaacde bc",
+   "bd acbbcbcb cac abedcccaec e e cee b dcbade cbd  ",
+   34.375
+  ],
+  [
+   " eb",
+   "e cbdba dceb db ddc adeb d cdb",
+   18.181818181818176
+  ],
+  [
+   "b eed cbdadbed",
+   "bdbebaeeedb  eecdebcadcbcdaddccaa",
+   46.808510638297875
+  ],
+  [
+   "cabca a deb",
+   "a  aeab",
+   55.55555555555556
+  ],
+  [
+   "ddeaae aad eea b ",
+   "bcaaebebadaebaecca aadb dbbcc",
+   47.82608695652174
+  ],
+  [
+   "cbbbebdcca bcabcbd",
+   "ad ecced ee",
+   34.48275862068966
+  ],
+  [
+   "de edddabcbaa",
+   "dbdaa d  d cebec aebbecbbddeb d dea",
+   37.5
+  ],
+  [
+   "ebedbae a a ",
+   "d",
+   15.384615384615385
+  ]
+ ],
+ "levenshtein": [
+  [
+   "",
+   "",
+   0
+  ],
+  [
+   "a",
+   "",
+   1
+  ],
+  [
+   "",
+   "abc",
+   3
+  ],
+  [
+   "abc",
+   "abc",
+   0
+  ],
+  [
+   "abc",
+   "xabcx",
+   2
+  ],
+  [
+   "bonjour",
+   "Bonjour",
+   1
+  ],
+  [
+   "Dépôt d'un rapport",
+   "1re délibération. Dépôt d'un rapport de M. Henry",
+   30
+  ],
+  [
+   "texte",
+   "un très long texte de référence que la sortie ne contient pas",
+   56
+  ],
+  [
+   "un très long texte de référence",
+   "texte",
+   26
+  ],
+  [
+   "dbcab  ",
+   "dbad  cccceddd aeddbddbeec  cedccb",
+   27
+  ],
+  [
+   "da bdee cded ada",
+   "deadde",
+   12
+  ],
+  [
+   "baec eecac  bceaa",
+   "ce abceeaa bedbcaad ccbc",
+   17
+  ],
+  [
+   "bcd eeb",
+   "d aba cedb c e ab ebcededbeeece",
+   24
+  ],
+  [
+   "aeea",
+   "c b bdddedadad  dbeaad deead cbceeb bbededcc ebeaabcce  e",
+   53
+  ],
+  [
+   "dba db ee d",
+   "dccbababaad eab  bacbcdcedacaebebbc",
+   27
+  ],
+  [
+   "dbb daebbbeaeabc cc",
+   "ebdead adbcdcbeebcdaedee beac",
+   19
+  ],
+  [
+   "aceceb a cdabdecacbe",
+   "aebb cecd c c a aedc adeceebbcedaddeeeddcaebdb bcaeacec ae",
+   42
+  ],
+  [
+   "a",
+   "eeeaccce ca cedaddd  dabbdcabeaaabca ccbeedbed ",
+   46
+  ],
+  [
+   "cecebe  ca  ba ",
+   "dbacb baceeaace eeabadabddbaeceaac aea bae cecddd eeac",
+   42
+  ],
+  [
+   "ddbbca ",
+   "d ebdc ccabddbc e cec eee cbbe   d beccedac bd dbb cebadd b",
+   52
+  ],
+  [
+   "c  de",
+   " ddc ea bddeebbdcbe",
+   14
+  ],
+  [
+   "ec",
+   "a ddb  a cadeae ae cd ddac  eeaeabbee aadab",
+   41
+  ],
+  [
+   "bccdaa",
+   "ee  eccbb a bac cceaccc ab  aaaab ",
+   29
+  ],
+  [
+   "ca b dd",
+   " eedd e",
+   6
+  ],
+  [
+   "eddeeedca",
+   "cabeadeebc  ac eaabeaa d eed abababb aba b e",
+   37
+  ],
+  [
+   "acb   deadbeccaeace",
+   " cdabdb dbce debaa c",
+   14
+  ],
+  [
+   " baac be acba cecab ",
+   "e bec ddadeeccddba decb e  cbd e abbb  a acbe ",
+   31
+  ],
+  [
+   "eaceeccebca adb",
+   "be ec",
+   12
+  ],
+  [
+   "dca ce",
+   "cdaaeeddbbdcad  bcbdea acaadacca",
+   26
+  ],
+  [
+   "eccecbdc ",
+   "ecad becee a eacdaddaed beaaec dbaaade bbadbebbdc",
+   41
+  ],
+  [
+   "cce cea",
+   "adeddedde aabdaadea adada  bacaeadd",
+   30
+  ],
+  [
+   "e d  dabb",
+   "db b bcdb ccbdededcd adbb ddcbecbe  deccad",
+   35
+  ],
+  [
+   "e",
+   "aec dc edabbcbe edaecabebbcbcaead cc cbc aadccaed",
+   48
+  ],
+  [
+   "cbb da b  c bed",
+   "eadcad abbabaccc e dcc cdccbeea c",
+   23
+  ],
+  [
+   "d abebcdac  b bdbed",
+   "dbdddcaacc b  beccdbdb",
+   13
+  ],
+  [
+   "e d",
+   "",
+   3
+  ],
+  [
+   "dcde cbed",
+   "beaaadcedaecb bbbeccbabaabbdbeccedcbcceaaecdad cdadba",
+   44
+  ],
+  [
+   "dbdddba cdae",
+   "cda b",
+   9
+  ],
+  [
+   "bdebeae",
+   "eabb dabdea eb ea dadeec abcedde  ebad",
+   31
+  ],
+  [
+   "ecbdbddccd ac",
+   "aeccbaebebedbbd ccdbcddddccaaaebbcaadeaabb  dcc  a",
+   38
+  ],
+  [
+   "ddb cddeccaaec d  b",
+   "dcdbb  c",
+   14
+  ],
+  [
+   "bc cad cea daccbabd ",
+   "caddeca b caacadccdddcaedecda cdeaacdebaccbadeaa ede ",
+   36
+  ],
+  [
+   " dddadd bce e",
+   "b ddbcaeaaeeecdbceeeeabed ebddbe e d",
+   25
+  ],
+  [
+   "eeadbc bcdabea ab",
+   "abd dddcb bcdeb",
+   12
+  ],
+  [
+   "  a d   bba",
+   "b daea aab d ca ad ec a abecb a aed db ae ad ceee",
+   38
+  ],
+  [
+   "ea b deba",
+   " ccab eb abc adbb acddeeb bc  a aadcacecd ",
+   33
+  ],
+  [
+   "cccacdeeda e ",
+   "a",
+   12
+  ],
+  [
+   " aacabe",
+   "bd aebaaadacdaecee  bbaaaad abec ed",
+   28
+  ],
+  [
+   "eebbaacdda aaa",
+   "ceec",
+   12
+  ],
+  [
+   "e ecadbc c",
+   "eebdb c beccd  cebded eebdaeecdc cadcccbac cabbeacc dab",
+   45
+  ],
+  [
+   "c cae",
+   " eaaa cdb bcdcc cadcdbd eacdceeeede cae da cda  ecc aeccbbe",
+   54
+  ],
+  [
+   "c b cdb c c ",
+   "ee c e daeaab  c e aabbacaecbac accbdbcbeae cac dcecddaaed",
+   47
+  ],
+  [
+   "beb  bdc c a da da ",
+   "bbdb edbb",
+   14
+  ],
+  [
+   "be ceabe ec  a",
+   "e c  cda  addedbdddd",
+   16
+  ],
+  [
+   "ccd",
+   "edebcedacbd eaebe ded",
+   18
+  ],
+  [
+   "e dede",
+   "bd a ceeca  e dabdaee  aacbadeb ebddedbdacbbcdeecc",
+   44
+  ],
+  [
+   "be dae ae",
+   "cbe cecdc bce ac",
+   9
+  ],
+  [
+   "  accdb daee e",
+   "dcadeacb  b  aa cecc ddeebcaccbbb d",
+   26
+  ],
+  [
+   " cdacbb",
+   "dbeac   bb bbac  aad acacdece cdde",
+   29
+  ],
+  [
+   "dabcabdedeabc",
+   "   ebba b  cda caa dbccedce dbddeada bdebdebeedcbcb de aec",
+   46
+  ],
+  [
+   "ace a bbc",
+   " deae edcbdbcdeb ae ",
+   15
+  ],
+  [
+   "aa",
+   "e  caaca c ecaaabcd  aaeeaaeb",
+   27
+  ],
+  [
+   "c dae db debaaab acd",
+   "adecbe cddacaece ace acca ecee aca  ",
+   25
+  ],
+  [
+   " bbbb",
+   "e cdadeecaeec c eeba ccdcdc b aa",
+   29
+  ],
+  [
+   "ba eadabbca ecbbca ",
+   "bbaedc ae e ddecaae  e  ebcd b bcdaa e bda",
+   28
+  ],
+  [
+   " ed",
+   "eaccbecb c cb acc  bace d ebdbdcaedd  c",
+   36
+  ],
+  [
+   "aabc",
+   "db ed c daae",
+   11
+  ],
+  [
+   "be bd",
+   " be",
+   3
+  ],
+  [
+   "edbe ed",
+   "ea da edda",
+   6
+  ],
+  [
+   "deaebea dcbb",
+   "bdce b edc  abc daba  eeddabbdcacaadc acdeaebb ee accbee",
+   46
+  ],
+  [
+   "dacebede caaccadaa a",
+   "cc ba baceea  ec  a ba a deaaa",
+   20
+  ],
+  [
+   "bbdaba  caa  eacbed ",
+   "a",
+   19
+  ],
+  [
+   "dcbcc d ",
+   "eedbebcaaabdb  eeca  ebdea cbecabdeac ",
+   31
+  ],
+  [
+   " ea",
+   "",
+   3
+  ],
+  [
+   "cdb abcc ae  ",
+   "add ae  aaeaebaebc eecdeecabacadcbe ccacaacaacbd  ",
+   39
+  ],
+  [
+   " eebbca",
+   "ebceebbde cb  beeedcca aa e",
+   21
+  ],
+  [
+   "cc da adb cd",
+   " cdedbc ec bab ada bdde  a cdcedebeb",
+   25
+  ],
+  [
+   "acec b e c",
+   "a bdecccbdaaceadbddaecc",
+   17
+  ],
+  [
+   "a  eaaaaaeeec",
+   "dcaddbac addcebbdbb dbcacccdbaab  bdd ead ba bea daaed",
+   44
+  ],
+  [
+   "baadb",
+   "c  c adceaebe ddcecdcceed ee caaccabbbc eab ceadeecebc",
+   49
+  ]
+ ],
+ "correspondances": [
+  [
+   "rapport",
+   "le rapport du rapporteur",
+   0,
+   [
+    3
+   ]
+  ],
+  [
+   "rapport",
+   "le raport du rapporteur",
+   1,
+   [
+    13,
+    3,
+    12
+   ]
+  ],
+  [
+   "ab",
+   "xb ab ab",
+   0,
+   [
+    3
+   ]
+  ],
+  [
+   "abc",
+   "zzzz",
+   1,
+   []
+  ],
+  [
+   "abcdef",
+   "abxdef abcdxf",
+   1,
+   [
+    0
+   ]
+  ]
+ ],
+ "convert_to_markdown": [
+  [
+   "a\nb",
+   "a\nb\n"
+  ],
+  [
+   "a\n\nb",
+   "a\n\nb\n"
+  ],
+  [
+   "  a  ",
+   " a\n"
+  ],
+  [
+   "a\tb",
+   "a b\n"
+  ],
+  [
+   "a b",
+   "a b\n"
+  ],
+  [
+   "a b",
+   "a b\n"
+  ],
+  [
+   "a\rb",
+   "a\nb\n"
+  ],
+  [
+   "a\r\nb",
+   "a\nb\n"
+  ],
+  [
+   "a\fb",
+   "a\fb\n"
+  ],
+  [
+   "a \nb",
+   "a \nb\n"
+  ],
+  [
+   " \nx",
+   " \nx\n"
+  ],
+  [
+   "R&D",
+   "R&D\n"
+  ],
+  [
+   "a & b",
+   "a & b\n"
+  ],
+  [
+   "&amp;",
+   "&\n"
+  ],
+  [
+   "&lt;",
+   "<\n"
+  ],
+  [
+   "&eacute;",
+   "é\n"
+  ],
+  [
+   "&copy",
+   "&copy\n"
+  ],
+  [
+   "&#233;",
+   "é\n"
+  ],
+  [
+   "&#x41;",
+   "A\n"
+  ],
+  [
+   "&nbsp;",
+   "\n"
+  ],
+  [
+   "&nosuchentity;",
+   "&nosuchentity;\n"
+  ],
+  [
+   "AT&T;",
+   "AT&T;\n"
+  ],
+  [
+   "R&D &amp; x",
+   "R&D &amp; x\n"
+  ],
+  [
+   "&#+65;",
+   "A\n"
+  ],
+  [
+   "&#55296;",
+   "&#55296;\n"
+  ],
+  [
+   "&#x110000;",
+   "&#x110000;\n"
+  ],
+  [
+   "&AMP;",
+   "&\n"
+  ],
+  [
+   "&lesg;",
+   "⋚\n"
+  ],
+  [
+   "&;",
+   "&;\n"
+  ],
+  [
+   "&#;",
+   "&#;\n"
+  ],
+  [
+   "&#x;",
+   "&#x;\n"
+  ],
+  [
+   "x < y",
+   "x < y\n"
+  ],
+  [
+   "<5",
+   "<5\n"
+  ],
+  [
+   "a <5",
+   "a <5\n"
+  ],
+  [
+   "R&D <5",
+   "R&D &lt;5\n"
+  ],
+  [
+   "a&lt;b<5",
+   "a<b<5\n"
+  ],
+  [
+   "1<2<3",
+   "1<2<3\n"
+  ],
+  [
+   "<",
+   "<\n"
+  ],
+  [
+   "a<",
+   "a<\n"
+  ],
+  [
+   "<<5",
+   "<<5\n"
+  ],
+  [
+   "<é",
+   "<é\n"
+  ],
+  [
+   "<!5",
+   "<!5\n"
+  ],
+  [
+   "</5",
+   "</5\n"
+  ],
+  [
+   "<5 a \nb",
+   "<5 a\nb\n"
+  ],
+  [
+   "<5 a  \n  b",
+   "<5 a\n b\n"
+  ],
+  [
+   "<5\n a",
+   "<5\n a\n"
+  ],
+  [
+   "  <5 a ",
+   " <5 a\n"
+  ],
+  [
+   "<5 a \n \n b",
+   "<5 a\n\n b\n"
+  ],
+  [
+   "<5\ta\t\nb",
+   "<5 a\nb\n"
+  ],
+  [
+   " \n<5",
+   " <5\n"
+  ],
+  [
+   "\n\n<5 a",
+   " <5 a\n"
+  ],
+  [
+   "a <5\n\n\n",
+   "a <5\n"
+  ],
+  [
+   "<5 &amp; &nbsp; x",
+   "<5 & x\n"
+  ],
+  [
+   "<5 a \u000b \nb",
+   "<5 a \u000b\nb\n"
+  ],
+  [
+   "9H-12H30<br>13H30-17H",
+   "9H-12H30  \n13H30-17H\n"
+  ],
+  [
+   "a<br/>b",
+   "a  \nb\n"
+  ],
+  [
+   "*a* _b_ **c**",
+   "*a* _b_ **c**\n"
+  ],
+  [
+   "# t\n- l",
+   "# t\n- l\n"
+  ],
+  [
+   "| a | b |\n|---|---|\n| 1 | 2 |",
+   "| a | b |\n|---|---|\n| 1 | 2 |\n"
+  ],
+  [
+   "",
+   ""
+  ],
+  [
+   " ",
+   "\n"
+  ],
+  [
+   "\n",
+   ""
+  ],
+  [
+   "x\n",
+   "x\n"
+  ],
+  [
+   "\nx",
+   "\nx\n"
+  ],
+  [
+   "a\u0002b c d e f g h",
+   "a\u0002b c d e f g h\n"
+  ],
+  [
+   "a\u0000b",
+   null
+  ],
+  [
+   "\u0001\u0002\u0003abc",
+   null
+  ],
+  [
+   "%PDF-1.4 x",
+   null
+  ]
+ ],
+ "normalise": [
+  [
+   {},
+   "L’accueil du « Musée » — œuvre d’Émile, É-T-É : 25 µm, 3º, [X] fait",
+   "L'accueil du «Musée» - oeuvre d'Emile, ETE: 25 μm, 3°, [x] fait"
+  ],
+  [
+   {},
+   "exam-\nple, week-end, Jean-Michel, x-\n145",
+   "example, weekend, JeanMichel, x- 145"
+  ],
+  [
+   {},
+   "**Gras** et *italique* et __souligné__ et _penché_, <b>b</b> <i>i</i> \\*étoile\\*",
+   "Gras et italique et souligné et penché, b i étoile"
+  ],
+  [
+   {},
+   "Ligne une<br>ligne deux<br/>trois ; quatre ! cinq ?",
+   "Ligne une ligne deux trois; quatre! cinq?"
+  ],
+  [
+   {},
+   "☑ oui ☐ non ☒ peut-être ✓ ✔ ✗ ✖ ✅ ❌ ❎",
+   "[x] oui [ ] non [x] peutêtre [x] [x] [x] [x] [x] [x] [x]"
+  ],
+  [
+   {},
+   "Prix : 1 234,50 € TTC — « net »",
+   "Prix: 1 234,50 € TTC - «net»"
+  ],
+  [
+   {},
+   "Tél. 01 23 45 67 89 ; Fax.(01) 98-76",
+   "Tél. 01 23 45 67 89; Fax.(01) 98-76"
+  ],
+  [
+   {},
+   "R&D &amp; S&P 500 < 5 %",
+   "R&D &amp; S&P 500 &lt; 5 %"
+  ],
+  [
+   {},
+   "  espaces   multiples\t et\n\n retours  ",
+   "espaces multiples et retours"
+  ],
+  [
+   {},
+   "ﬁn de l’œuvre",
+   "ﬁn de l'oeuvre"
+  ],
+  [
+   {
+    "alphanum": true,
+    "unidecode": true
+   },
+   "L’accueil du « Musée » — œuvre d’Émile, É-T-É : 25 µm, 3º, [X] fait",
+   "l'accueildumuseeoeuvred'emile.ete:25mm.3deg.xfait"
+  ],
+  [
+   {
+    "alphanum": true,
+    "unidecode": true
+   },
+   "exam-\nple, week-end, Jean-Michel, x-\n145",
+   "example.weekend.jeanmichel.x145"
+  ],
+  [
+   {
+    "alphanum": true,
+    "unidecode": true
+   },
+   "**Gras** et *italique* et __souligné__ et _penché_, <b>b</b> <i>i</i> \\*étoile\\*",
+   "grasetitaliqueetsouligneetpenche.bietoile"
+  ],
+  [
+   {
+    "alphanum": true,
+    "unidecode": true
+   },
+   "Ligne une<br>ligne deux<br/>trois ; quatre ! cinq ?",
+   "ligneunelignedeuxtrois:quatrecinq"
+  ],
+  [
+   {
+    "alphanum": true,
+    "unidecode": true
+   },
+   "☑ oui ☐ non ☒ peut-être ✓ ✔ ✗ ✖ ✅ ❌ ❎",
+   "xouinonxpeutetrexxxxxxx"
+  ],
+  [
+   {
+    "alphanum": true,
+    "unidecode": true
+   },
+   "Prix : 1 234,50 € TTC — « net »",
+   "prix:1234.50eurttcnet"
+  ],
+  [
+   {
+    "alphanum": true,
+    "unidecode": true
+   },
+   "Tél. 01 23 45 67 89 ; Fax.(01) 98-76",
+   "tel.0123456789:fax.(01)9876"
+  ],
+  [
+   {
+    "alphanum": true,
+    "unidecode": true
+   },
+   "R&D &amp; S&P 500 < 5 %",
+   "rdamp:sp500lt:5"
+  ],
+  [
+   {
+    "alphanum": true,
+    "unidecode": true
+   },
+   "  espaces   multiples\t et\n\n retours  ",
+   "espacesmultiplesetretours"
+  ],
+  [
+   {
+    "alphanum": true,
+    "unidecode": true
+   },
+   "ﬁn de l’œuvre",
+   "findel'oeuvre"
+  ],
+  [
+   {
+    "unidecode": true
+   },
+   "L’accueil du « Musée » — œuvre d’Émile, É-T-É : 25 µm, 3º, [X] fait",
+   "L'accueil du <<Musee>> - oeuvre d'Emile, ETE: 25 mm, 3deg, [x] fait"
+  ],
+  [
+   {
+    "unidecode": true
+   },
+   "exam-\nple, week-end, Jean-Michel, x-\n145",
+   "example, weekend, JeanMichel, x- 145"
+  ],
+  [
+   {
+    "unidecode": true
+   },
+   "**Gras** et *italique* et __souligné__ et _penché_, <b>b</b> <i>i</i> \\*étoile\\*",
+   "Gras et italique et souligne et penche, b i etoile"
+  ],
+  [
+   {
+    "unidecode": true
+   },
+   "Ligne une<br>ligne deux<br/>trois ; quatre ! cinq ?",
+   "Ligne une ligne deux trois; quatre! cinq?"
+  ],
+  [
+   {
+    "unidecode": true
+   },
+   "☑ oui ☐ non ☒ peut-être ✓ ✔ ✗ ✖ ✅ ❌ ❎",
+   "[x] oui [ ] non [x] peutetre [x] [x] [x] [x] [x] [x] [x]"
+  ],
+  [
+   {
+    "unidecode": true
+   },
+   "Prix : 1 234,50 € TTC — « net »",
+   "Prix: 1 234,50 EUR TTC - <<net>>"
+  ],
+  [
+   {
+    "unidecode": true
+   },
+   "Tél. 01 23 45 67 89 ; Fax.(01) 98-76",
+   "Tel. 01 23 45 67 89; Fax.(01) 98-76"
+  ],
+  [
+   {
+    "unidecode": true
+   },
+   "R&D &amp; S&P 500 < 5 %",
+   "R&D &amp; S&P 500 &lt; 5 %"
+  ],
+  [
+   {
+    "unidecode": true
+   },
+   "  espaces   multiples\t et\n\n retours  ",
+   "espaces multiples et retours"
+  ],
+  [
+   {
+    "unidecode": true
+   },
+   "ﬁn de l’œuvre",
+   "fin de l'oeuvre"
+  ],
+  [
+   {
+    "alphanum": true,
+    "unidecode": true,
+    "ignore_space": true,
+    "ignore_str": [
+     "-",
+     "*"
+    ]
+   },
+   "L’accueil du « Musée » — œuvre d’Émile, É-T-É : 25 µm, 3º, [X] fait",
+   "l'accueildumuseeoeuvred'emile.ete:25mm.3deg.xfait"
+  ],
+  [
+   {
+    "alphanum": true,
+    "unidecode": true,
+    "ignore_space": true,
+    "ignore_str": [
+     "-",
+     "*"
+    ]
+   },
+   "exam-\nple, week-end, Jean-Michel, x-\n145",
+   "example.weekend.jeanmichel.x145"
+  ],
+  [
+   {
+    "alphanum": true,
+    "unidecode": true,
+    "ignore_space": true,
+    "ignore_str": [
+     "-",
+     "*"
+    ]
+   },
+   "**Gras** et *italique* et __souligné__ et _penché_, <b>b</b> <i>i</i> \\*étoile\\*",
+   "grasetitaliqueetsouligneetpenche.bietoile"
+  ],
+  [
+   {
+    "alphanum": true,
+    "unidecode": true,
+    "ignore_space": true,
+    "ignore_str": [
+     "-",
+     "*"
+    ]
+   },
+   "Ligne une<br>ligne deux<br/>trois ; quatre ! cinq ?",
+   "ligneunelignedeuxtrois:quatrecinq"
+  ],
+  [
+   {
+    "alphanum": true,
+    "unidecode": true,
+    "ignore_space": true,
+    "ignore_str": [
+     "-",
+     "*"
+    ]
+   },
+   "☑ oui ☐ non ☒ peut-être ✓ ✔ ✗ ✖ ✅ ❌ ❎",
+   "xouinonxpeutetrexxxxxxx"
+  ],
+  [
+   {
+    "alphanum": true,
+    "unidecode": true,
+    "ignore_space": true,
+    "ignore_str": [
+     "-",
+     "*"
+    ]
+   },
+   "Prix : 1 234,50 € TTC — « net »",
+   "prix:1234.50eurttcnet"
+  ],
+  [
+   {
+    "alphanum": true,
+    "unidecode": true,
+    "ignore_space": true,
+    "ignore_str": [
+     "-",
+     "*"
+    ]
+   },
+   "Tél. 01 23 45 67 89 ; Fax.(01) 98-76",
+   "tel.0123456789:fax.(01)9876"
+  ],
+  [
+   {
+    "alphanum": true,
+    "unidecode": true,
+    "ignore_space": true,
+    "ignore_str": [
+     "-",
+     "*"
+    ]
+   },
+   "R&D &amp; S&P 500 < 5 %",
+   "rdamp:sp500lt:5"
+  ],
+  [
+   {
+    "alphanum": true,
+    "unidecode": true,
+    "ignore_space": true,
+    "ignore_str": [
+     "-",
+     "*"
+    ]
+   },
+   "  espaces   multiples\t et\n\n retours  ",
+   "espacesmultiplesetretours"
+  ],
+  [
+   {
+    "alphanum": true,
+    "unidecode": true,
+    "ignore_space": true,
+    "ignore_str": [
+     "-",
+     "*"
+    ]
+   },
+   "ﬁn de l’œuvre",
+   "findel'oeuvre"
+  ],
+  [
+   {
+    "unidecode": true,
+    "ignore_chars": "][()",
+    "ignore_newlines": false
+   },
+   "L’accueil du « Musée » — œuvre d’Émile, É-T-É : 25 µm, 3º, [X] fait",
+   "L'accueil du <<Musee>> - oeuvre d'Emile, ETE: 25 mm, 3deg, x fait"
+  ],
+  [
+   {
+    "unidecode": true,
+    "ignore_chars": "][()",
+    "ignore_newlines": false
+   },
+   "exam-\nple, week-end, Jean-Michel, x-\n145",
+   "example, weekend, JeanMichel, x- 145"
+  ],
+  [
+   {
+    "unidecode": true,
+    "ignore_chars": "][()",
+    "ignore_newlines": false
+   },
+   "**Gras** et *italique* et __souligné__ et _penché_, <b>b</b> <i>i</i> \\*étoile\\*",
+   "Gras et italique et souligne et penche, b i etoile"
+  ],
+  [
+   {
+    "unidecode": true,
+    "ignore_chars": "][()",
+    "ignore_newlines": false
+   },
+   "Ligne une<br>ligne deux<br/>trois ; quatre ! cinq ?",
+   "Ligne une ligne deux trois; quatre! cinq?"
+  ],
+  [
+   {
+    "unidecode": true,
+    "ignore_chars": "][()",
+    "ignore_newlines": false
+   },
+   "☑ oui ☐ non ☒ peut-être ✓ ✔ ✗ ✖ ✅ ❌ ❎",
+   "x oui   non x peutetre x x x x x x x"
+  ],
+  [
+   {
+    "unidecode": true,
+    "ignore_chars": "][()",
+    "ignore_newlines": false
+   },
+   "Prix : 1 234,50 € TTC — « net »",
+   "Prix: 1 234,50 EUR TTC - <<net>>"
+  ],
+  [
+   {
+    "unidecode": true,
+    "ignore_chars": "][()",
+    "ignore_newlines": false
+   },
+   "Tél. 01 23 45 67 89 ; Fax.(01) 98-76",
+   "Tel. 01 23 45 67 89; Fax.01 98-76"
+  ],
+  [
+   {
+    "unidecode": true,
+    "ignore_chars": "][()",
+    "ignore_newlines": false
+   },
+   "R&D &amp; S&P 500 < 5 %",
+   "R&D &amp; S&P 500 &lt; 5 %"
+  ],
+  [
+   {
+    "unidecode": true,
+    "ignore_chars": "][()",
+    "ignore_newlines": false
+   },
+   "  espaces   multiples\t et\n\n retours  ",
+   "espaces multiples et retours"
+  ],
+  [
+   {
+    "unidecode": true,
+    "ignore_chars": "][()",
+    "ignore_newlines": false
+   },
+   "ﬁn de l’œuvre",
+   "fin de l'oeuvre"
+  ],
+  [
+   {
+    "alphanum": false,
+    "unidecode": false,
+    "remove_line_break_hyphenation": false
+   },
+   "L’accueil du « Musée » — œuvre d’Émile, É-T-É : 25 µm, 3º, [X] fait",
+   "L'accueil du «Musée» - oeuvre d'Emile, E-T-E: 25 μm, 3°, [x] fait"
+  ],
+  [
+   {
+    "alphanum": false,
+    "unidecode": false,
+    "remove_line_break_hyphenation": false
+   },
+   "exam-\nple, week-end, Jean-Michel, x-\n145",
+   "exam- ple, week-end, Jean-Michel, x- 145"
+  ],
+  [
+   {
+    "alphanum": false,
+    "unidecode": false,
+    "remove_line_break_hyphenation": false
+   },
+   "**Gras** et *italique* et __souligné__ et _penché_, <b>b</b> <i>i</i> \\*étoile\\*",
+   "Gras et italique et souligné et penché, b i étoile"
+  ],
+  [
+   {
+    "alphanum": false,
+    "unidecode": false,
+    "remove_line_break_hyphenation": false
+   },
+   "Ligne une<br>ligne deux<br/>trois ; quatre ! cinq ?",
+   "Ligne une ligne deux trois; quatre! cinq?"
+  ],
+  [
+   {
+    "alphanum": false,
+    "unidecode": false,
+    "remove_line_break_hyphenation": false
+   },
+   "☑ oui ☐ non ☒ peut-être ✓ ✔ ✗ ✖ ✅ ❌ ❎",
+   "[x] oui [ ] non [x] peut-être [x] [x] [x] [x] [x] [x] [x]"
+  ],
+  [
+   {
+    "alphanum": false,
+    "unidecode": false,
+    "remove_line_break_hyphenation": false
+   },
+   "Prix : 1 234,50 € TTC — « net »",
+   "Prix: 1 234,50 € TTC - «net»"
+  ],
+  [
+   {
+    "alphanum": false,
+    "unidecode": false,
+    "remove_line_break_hyphenation": false
+   },
+   "Tél. 01 23 45 67 89 ; Fax.(01) 98-76",
+   "Tél. 01 23 45 67 89; Fax.(01) 98-76"
+  ],
+  [
+   {
+    "alphanum": false,
+    "unidecode": false,
+    "remove_line_break_hyphenation": false
+   },
+   "R&D &amp; S&P 500 < 5 %",
+   "R&D &amp; S&P 500 &lt; 5 %"
+  ],
+  [
+   {
+    "alphanum": false,
+    "unidecode": false,
+    "remove_line_break_hyphenation": false
+   },
+   "  espaces   multiples\t et\n\n retours  ",
+   "espaces multiples et retours"
+  ],
+  [
+   {
+    "alphanum": false,
+    "unidecode": false,
+    "remove_line_break_hyphenation": false
+   },
+   "ﬁn de l’œuvre",
+   "ﬁn de l'oeuvre"
+  ]
+ ],
+ "tests": [
+  {
+   "test": {
+    "pdf": "cas.pdf",
+    "page": 0,
+    "id": "cas0",
+    "category": "cas",
+    "type": "present",
+    "text": "Dépôt d'un rapport de M. Henry Boucher"
+   },
+   "contenu": "Rapport annuel\n\nDépôt d'un rapport de M. Henry Boucher sur la proposition de loi, adoptée par la Chambre.\n\nLa séance est ouverte à quinze heures.\n\n| Région | 2022 | 2023 |\n|---|---|---|\n| Nord | 12 | 14 |\n| Sud | 7 | 9 |\n\nFin du docu-\nment.",
+   "reussi": true
+  },
+  {
+   "test": {
+    "pdf": "cas.pdf",
+    "page": 0,
+    "id": "cas1",
+    "category": "cas",
+    "type": "present",
+    "text": "dépôt d'un rapport",
+    "case_sensitive": false
+   },
+   "contenu": "Rapport annuel\n\nDépôt d'un rapport de M. Henry Boucher sur la proposition de loi, adoptée par la Chambre.\n\nLa séance est ouverte à quinze heures.\n\n| Région | 2022 | 2023 |\n|---|---|---|\n| Nord | 12 | 14 |\n| Sud | 7 | 9 |\n\nFin du docu-\nment.",
+   "reussi": true
+  },
+  {
+   "test": {
+    "pdf": "cas.pdf",
+    "page": 0,
+    "id": "cas2",
+    "category": "cas",
+    "type": "present",
+    "text": "dépôt d'un rapport"
+   },
+   "contenu": "Rapport annuel\n\nDépôt d'un rapport de M. Henry Boucher sur la proposition de loi, adoptée par la Chambre.\n\nLa séance est ouverte à quinze heures.\n\n| Région | 2022 | 2023 |\n|---|---|---|\n| Nord | 12 | 14 |\n| Sud | 7 | 9 |\n\nFin du docu-\nment.",
+   "reussi": false
+  },
+  {
+   "test": {
+    "pdf": "cas.pdf",
+    "page": 0,
+    "id": "cas3",
+    "category": "cas",
+    "type": "present",
+    "text": "Depot d un rapport",
+    "alphanum": true,
+    "unidecode": true
+   },
+   "contenu": "Rapport annuel\n\nDépôt d'un rapport de M. Henry Boucher sur la proposition de loi, adoptée par la Chambre.\n\nLa séance est ouverte à quinze heures.\n\n| Région | 2022 | 2023 |\n|---|---|---|\n| Nord | 12 | 14 |\n| Sud | 7 | 9 |\n\nFin du docu-\nment.",
+   "reussi": false
+  },
+  {
+   "test": {
+    "pdf": "cas.pdf",
+    "page": 0,
+    "id": "cas4",
+    "category": "cas",
+    "type": "present",
+    "text": "document.",
+    "alphanum": true
+   },
+   "contenu": "Rapport annuel\n\nDépôt d'un rapport de M. Henry Boucher sur la proposition de loi, adoptée par la Chambre.\n\nLa séance est ouverte à quinze heures.\n\n| Région | 2022 | 2023 |\n|---|---|---|\n| Nord | 12 | 14 |\n| Sud | 7 | 9 |\n\nFin du docu-\nment.",
+   "reussi": true
+  },
+  {
+   "test": {
+    "pdf": "cas.pdf",
+    "page": 0,
+    "id": "cas5",
+    "category": "cas",
+    "type": "present",
+    "text": "Fin du document"
+   },
+   "contenu": "Rapport annuel\n\nDépôt d'un rapport de M. Henry Boucher sur la proposition de loi, adoptée par la Chambre.\n\nLa séance est ouverte à quinze heures.\n\n| Région | 2022 | 2023 |\n|---|---|---|\n| Nord | 12 | 14 |\n| Sud | 7 | 9 |\n\nFin du docu-\nment.",
+   "reussi": true
+  },
+  {
+   "test": {
+    "pdf": "cas.pdf",
+    "page": 0,
+    "id": "cas6",
+    "category": "cas",
+    "type": "present",
+    "text": "Rapport annuel",
+    "first_n": 20
+   },
+   "contenu": "Rapport annuel\n\nDépôt d'un rapport de M. Henry Boucher sur la proposition de loi, adoptée par la Chambre.\n\nLa séance est ouverte à quinze heures.\n\n| Région | 2022 | 2023 |\n|---|---|---|\n| Nord | 12 | 14 |\n| Sud | 7 | 9 |\n\nFin du docu-\nment.",
+   "reussi": true
+  },
+  {
+   "test": {
+    "pdf": "cas.pdf",
+    "page": 0,
+    "id": "cas7",
+    "category": "cas",
+    "type": "present",
+    "text": "Rapport annuel",
+    "last_n": 20
+   },
+   "contenu": "Rapport annuel\n\nDépôt d'un rapport de M. Henry Boucher sur la proposition de loi, adoptée par la Chambre.\n\nLa séance est ouverte à quinze heures.\n\n| Région | 2022 | 2023 |\n|---|---|---|\n| Nord | 12 | 14 |\n| Sud | 7 | 9 |\n\nFin du docu-\nment.",
+   "reussi": false
+  },
+  {
+   "test": {
+    "pdf": "cas.pdf",
+    "page": 0,
+    "id": "cas8",
+    "category": "cas",
+    "type": "present",
+    "text": "La séance est ouverte à quinze heures. Dépôt d'un rapport de M. Henry Boucher sur la proposition",
+    "max_diffs": 3
+   },
+   "contenu": "Rapport annuel\n\nDépôt d'un rapport de M. Henry Boucher sur la proposition de loi, adoptée par la Chambre.\n\nLa séance est ouverte à quinze heures.\n\n| Région | 2022 | 2023 |\n|---|---|---|\n| Nord | 12 | 14 |\n| Sud | 7 | 9 |\n\nFin du docu-\nment.",
+   "reussi": false
+  },
+  {
+   "test": {
+    "pdf": "cas.pdf",
+    "page": 0,
+    "id": "cas9",
+    "category": "cas",
+    "type": "present",
+    "text": "La séance est ouverte à seize heures. Dépôt d'un rapport de M. Henry Boucher sur la proposition",
+    "max_diffs": 4
+   },
+   "contenu": "Rapport annuel\n\nDépôt d'un rapport de M. Henry Boucher sur la proposition de loi, adoptée par la Chambre.\n\nLa séance est ouverte à quinze heures.\n\n| Région | 2022 | 2023 |\n|---|---|---|\n| Nord | 12 | 14 |\n| Sud | 7 | 9 |\n\nFin du docu-\nment.",
+   "reussi": false
+  },
+  {
+   "test": {
+    "pdf": "cas.pdf",
+    "page": 0,
+    "id": "cas10",
+    "category": "cas",
+    "type": "present",
+    "text": "La séance est ouverte à seize heures. Dépôt d'un rapport de M. Henry Boucher sur la proposition",
+    "max_diffs": 1
+   },
+   "contenu": "Rapport annuel\n\nDépôt d'un rapport de M. Henry Boucher sur la proposition de loi, adoptée par la Chambre.\n\nLa séance est ouverte à quinze heures.\n\n| Région | 2022 | 2023 |\n|---|---|---|\n| Nord | 12 | 14 |\n| Sud | 7 | 9 |\n\nFin du docu-\nment.",
+   "reussi": false
+  },
+  {
+   "test": {
+    "pdf": "cas.pdf",
+    "page": 0,
+    "id": "cas11",
+    "category": "cas",
+    "type": "present",
+    "text": "ouverte"
+   },
+   "contenu": "ouverte",
+   "reussi": true
+  },
+  {
+   "test": {
+    "pdf": "cas.pdf",
+    "page": 0,
+    "id": "cas12",
+    "category": "cas",
+    "type": "present",
+    "text": "La séance est ouverte"
+   },
+   "contenu": "ouverte",
+   "reussi": true
+  },
+  {
+   "test": {
+    "pdf": "cas.pdf",
+    "page": 0,
+    "id": "cas13",
+    "category": "cas",
+    "type": "present",
+    "text": "rien"
+   },
+   "contenu": "",
+   "reussi": false
+  },
+  {
+   "test": {
+    "pdf": "cas.pdf",
+    "page": 0,
+    "id": "cas14",
+    "category": "cas",
+    "type": "absent",
+    "text": "Annexe secrète"
+   },
+   "contenu": "Rapport annuel\n\nDépôt d'un rapport de M. Henry Boucher sur la proposition de loi, adoptée par la Chambre.\n\nLa séance est ouverte à quinze heures.\n\n| Région | 2022 | 2023 |\n|---|---|---|\n| Nord | 12 | 14 |\n| Sud | 7 | 9 |\n\nFin du docu-\nment.",
+   "reussi": true
+  },
+  {
+   "test": {
+    "pdf": "cas.pdf",
+    "page": 0,
+    "id": "cas15",
+    "category": "cas",
+    "type": "absent",
+    "text": "La séance"
+   },
+   "contenu": "Rapport annuel\n\nDépôt d'un rapport de M. Henry Boucher sur la proposition de loi, adoptée par la Chambre.\n\nLa séance est ouverte à quinze heures.\n\n| Région | 2022 | 2023 |\n|---|---|---|\n| Nord | 12 | 14 |\n| Sud | 7 | 9 |\n\nFin du docu-\nment.",
+   "reussi": false
+  },
+  {
+   "test": {
+    "pdf": "cas.pdf",
+    "page": 0,
+    "id": "cas16",
+    "category": "cas",
+    "type": "order",
+    "before": "Dépôt d'un rapport",
+    "after": "La séance est ouverte"
+   },
+   "contenu": "Rapport annuel\n\nDépôt d'un rapport de M. Henry Boucher sur la proposition de loi, adoptée par la Chambre.\n\nLa séance est ouverte à quinze heures.\n\n| Région | 2022 | 2023 |\n|---|---|---|\n| Nord | 12 | 14 |\n| Sud | 7 | 9 |\n\nFin du docu-\nment.",
+   "reussi": true
+  },
+  {
+   "test": {
+    "pdf": "cas.pdf",
+    "page": 0,
+    "id": "cas17",
+    "category": "cas",
+    "type": "order",
+    "before": "La séance est ouverte",
+    "after": "Dépôt d'un rapport"
+   },
+   "contenu": "Rapport annuel\n\nDépôt d'un rapport de M. Henry Boucher sur la proposition de loi, adoptée par la Chambre.\n\nLa séance est ouverte à quinze heures.\n\n| Région | 2022 | 2023 |\n|---|---|---|\n| Nord | 12 | 14 |\n| Sud | 7 | 9 |\n\nFin du docu-\nment.",
+   "reussi": false
+  },
+  {
+   "test": {
+    "pdf": "cas.pdf",
+    "page": 0,
+    "id": "cas18",
+    "category": "cas",
+    "type": "order",
+    "before": "Depot d'un rapport",
+    "after": "La seance",
+    "max_diffs": 2
+   },
+   "contenu": "Rapport annuel\n\nDépôt d'un rapport de M. Henry Boucher sur la proposition de loi, adoptée par la Chambre.\n\nLa séance est ouverte à quinze heures.\n\n| Région | 2022 | 2023 |\n|---|---|---|\n| Nord | 12 | 14 |\n| Sud | 7 | 9 |\n\nFin du docu-\nment.",
+   "reussi": true
+  },
+  {
+   "test": {
+    "pdf": "cas.pdf",
+    "page": 0,
+    "id": "cas19",
+    "category": "cas",
+    "type": "order",
+    "before": "Première colonne",
+    "after": "seconde colonne"
+   },
+   "contenu": "Première colonne puis seconde colonne.\nLa seconde colonne suit.",
+   "reussi": true
+  },
+  {
+   "test": {
+    "pdf": "cas.pdf",
+    "page": 0,
+    "id": "cas20",
+    "category": "cas",
+    "type": "order",
+    "before": "seconde colonne",
+    "after": "Première colonne"
+   },
+   "contenu": "Première colonne puis seconde colonne.\nLa seconde colonne suit.",
+   "reussi": false
+  },
+  {
+   "test": {
+    "pdf": "cas.pdf",
+    "page": 0,
+    "id": "cas21",
+    "category": "cas",
+    "type": "table",
+    "cell": "12",
+    "left": "Nord",
+    "up": "2022",
+    "right": "14"
+   },
+   "contenu": "Rapport annuel\n\nDépôt d'un rapport de M. Henry Boucher sur la proposition de loi, adoptée par la Chambre.\n\nLa séance est ouverte à quinze heures.\n\n| Région | 2022 | 2023 |\n|---|---|---|\n| Nord | 12 | 14 |\n| Sud | 7 | 9 |\n\nFin du docu-\nment.",
+   "reussi": true
+  },
+  {
+   "test": {
+    "pdf": "cas.pdf",
+    "page": 0,
+    "id": "cas22",
+    "category": "cas",
+    "type": "table",
+    "cell": "12",
+    "left": "Sud"
+   },
+   "contenu": "Rapport annuel\n\nDépôt d'un rapport de M. Henry Boucher sur la proposition de loi, adoptée par la Chambre.\n\nLa séance est ouverte à quinze heures.\n\n| Région | 2022 | 2023 |\n|---|---|---|\n| Nord | 12 | 14 |\n| Sud | 7 | 9 |\n\nFin du docu-\nment.",
+   "reussi": false
+  },
+  {
+   "test": {
+    "pdf": "cas.pdf",
+    "page": 0,
+    "id": "cas23",
+    "category": "cas",
+    "type": "table",
+    "cell": "9",
+    "top_heading": "2023",
+    "left_heading": "Sud"
+   },
+   "contenu": "Rapport annuel\n\nDépôt d'un rapport de M. Henry Boucher sur la proposition de loi, adoptée par la Chambre.\n\nLa séance est ouverte à quinze heures.\n\n| Région | 2022 | 2023 |\n|---|---|---|\n| Nord | 12 | 14 |\n| Sud | 7 | 9 |\n\nFin du docu-\nment.",
+   "reussi": true
+  },
+  {
+   "test": {
+    "pdf": "cas.pdf",
+    "page": 0,
+    "id": "cas24",
+    "category": "cas",
+    "type": "table",
+    "cell": "Nord",
+    "down": "Sud",
+    "up": "Région"
+   },
+   "contenu": "Rapport annuel\n\nDépôt d'un rapport de M. Henry Boucher sur la proposition de loi, adoptée par la Chambre.\n\nLa séance est ouverte à quinze heures.\n\n| Région | 2022 | 2023 |\n|---|---|---|\n| Nord | 12 | 14 |\n| Sud | 7 | 9 |\n\nFin du docu-\nment.",
+   "reussi": true
+  },
+  {
+   "test": {
+    "pdf": "cas.pdf",
+    "page": 0,
+    "id": "cas25",
+    "category": "cas",
+    "type": "table",
+    "cell": "13",
+    "max_diffs": 1
+   },
+   "contenu": "Rapport annuel\n\nDépôt d'un rapport de M. Henry Boucher sur la proposition de loi, adoptée par la Chambre.\n\nLa séance est ouverte à quinze heures.\n\n| Région | 2022 | 2023 |\n|---|---|---|\n| Nord | 12 | 14 |\n| Sud | 7 | 9 |\n\nFin du docu-\nment.",
+   "reussi": true
+  },
+  {
+   "test": {
+    "pdf": "cas.pdf",
+    "page": 0,
+    "id": "cas26",
+    "category": "cas",
+    "type": "table",
+    "cell": "1"
+   },
+   "contenu": "Première colonne puis seconde colonne.\nLa seconde colonne suit.",
+   "reussi": false
+  },
+  {
+   "test": {
+    "pdf": "cas.pdf",
+    "page": 0,
+    "id": "cas27",
+    "category": "cas",
+    "type": "table",
+    "cell": "3",
+    "left": "x",
+    "up": "1",
+    "right": "4"
+   },
+   "contenu": "<table><tr><th>A</th><th colspan='2'>B</th></tr><tr><td rowspan='2'>x</td><td>1</td><td>2</td></tr><tr><td>3</td><td>4</td></tr></table>",
+   "reussi": true
+  },
+  {
+   "test": {
+    "pdf": "cas.pdf",
+    "page": 0,
+    "id": "cas28",
+    "category": "cas",
+    "type": "table",
+    "cell": "1",
+    "top_heading": "B",
+    "left": "x"
+   },
+   "contenu": "<table><tr><th>A</th><th colspan='2'>B</th></tr><tr><td rowspan='2'>x</td><td>1</td><td>2</td></tr><tr><td>3</td><td>4</td></tr></table>",
+   "reussi": true
+  },
+  {
+   "test": {
+    "pdf": "cas.pdf",
+    "page": 0,
+    "id": "cas29",
+    "category": "cas",
+    "type": "table",
+    "cell": "A",
+    "down": "x"
+   },
+   "contenu": "<table><tr><th>A</th><th colspan='2'>B</th></tr><tr><td rowspan='2'>x</td><td>1</td><td>2</td></tr><tr><td>3</td><td>4</td></tr></table>",
+   "reussi": true
+  },
+  {
+   "test": {
+    "pdf": "cas.pdf",
+    "page": 0,
+    "id": "cas30",
+    "category": "cas",
+    "type": "baseline"
+   },
+   "contenu": "Rapport annuel\n\nDépôt d'un rapport de M. Henry Boucher sur la proposition de loi, adoptée par la Chambre.\n\nLa séance est ouverte à quinze heures.\n\n| Région | 2022 | 2023 |\n|---|---|---|\n| Nord | 12 | 14 |\n| Sud | 7 | 9 |\n\nFin du docu-\nment.",
+   "reussi": true
+  },
+  {
+   "test": {
+    "pdf": "cas.pdf",
+    "page": 0,
+    "id": "cas31",
+    "category": "cas",
+    "type": "baseline"
+   },
+   "contenu": "",
+   "reussi": false
+  },
+  {
+   "test": {
+    "pdf": "cas.pdf",
+    "page": 0,
+    "id": "cas32",
+    "category": "cas",
+    "type": "baseline"
+   },
+   "contenu": "   \n  ",
+   "reussi": false
+  },
+  {
+   "test": {
+    "pdf": "cas.pdf",
+    "page": 0,
+    "id": "cas33",
+    "category": "cas",
+    "type": "baseline"
+   },
+   "contenu": "début ab ab ab ab ab ab ab ab ab ab ab ab ab ab ab ab ab ab ab ab ab ab ab ab ab ab ab ab ab ab ab ",
+   "reussi": false
+  },
+  {
+   "test": {
+    "pdf": "cas.pdf",
+    "page": 0,
+    "id": "cas34",
+    "category": "cas",
+    "type": "baseline"
+   },
+   "contenu": "début ab ab ab ab ab ab ab ab ab ab ab ab ab ab ab ab ab ab ab ab ab ab ab ab ab ab ab ab ab ",
+   "reussi": true
+  },
+  {
+   "test": {
+    "pdf": "cas.pdf",
+    "page": 0,
+    "id": "cas35",
+    "category": "cas",
+    "type": "baseline"
+   },
+   "contenu": "texte 中文",
+   "reussi": false
+  },
+  {
+   "test": {
+    "pdf": "cas.pdf",
+    "page": 0,
+    "id": "cas36",
+    "category": "cas",
+    "type": "baseline"
+   },
+   "contenu": "texte 😀",
+   "reussi": false
+  }
+ ]
+}

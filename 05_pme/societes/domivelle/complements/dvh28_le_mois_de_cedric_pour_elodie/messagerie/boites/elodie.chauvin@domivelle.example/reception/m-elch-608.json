@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-elch-608",
+  "de": {
+    "nom": "Julien Delorme",
+    "adresse": "julien.delorme@boite-postale.example"
+  },
+  "a": [
+    "elodie.chauvin@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Mon assurance",
+  "date": "2026-10-11T11:20:00+02:00",
+  "corps": "Bonjour,\n\nCi-jointe mon attestation d'assurance pour le lot n21-05.\n\nJulien Delorme",
+  "pieces_jointes": [
+    {
+      "nom": "attestation_delorme.pdf",
+      "fichier": "pieces/m-elch-608/attestation_delorme.pdf",
+      "taille_octets": 892
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

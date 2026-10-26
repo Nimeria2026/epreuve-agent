@@ -1,0 +1,8 @@
+# Fiche fournisseur Calorelle. Données FICTIVES.
+nom: "Transports des Hautes-Fresnes"
+activite: "transports"
+adresse: "22 zone d'activité du Clos-Fargeau, 45999 Valmont-sur-Loire (FICTIF)"
+telephone: "02 61 91 20 41"
+courriel_facturation: "compta@transports-des-hautes-fresnes.example"
+iban: "FR76 9999 9662 6671 4420 3575 213 (FICTIF)"
+conditions: "paiement à 30 jours fin de mois"

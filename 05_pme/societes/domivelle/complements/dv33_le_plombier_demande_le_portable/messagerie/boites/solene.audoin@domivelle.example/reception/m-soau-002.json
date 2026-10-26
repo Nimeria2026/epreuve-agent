@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-soau-002",
+  "de": {
+    "nom": "Plomberie du Moulin-Barrat",
+    "adresse": "facturation@plomberie-du-moulin-barrat.example"
+  },
+  "a": [
+    "solene.audoin@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Intervention lot s01-05",
+  "date": "2026-06-08T07:55:00+02:00",
+  "corps": "Bonjour Madame Audoin,\n\nPour l'intervention au lot s01-05, pouvez-vous nous donner le portable de la locataire et le code de la porte de l'immeuble ? Nous pouvons passer le mardi 9 juin entre 8 h et 10 h, ou le jeudi 11 juin entre 14 h et 16 h. Notre standard : 02 61 91 76 75.\n\nService technique, Plomberie du Moulin-Barrat",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

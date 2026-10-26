@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-006",
+  "de": {
+    "nom": "Florence Pelletier",
+    "adresse": "florence.pelletier@paysage-ducret.example"
+  },
+  "a": [
+    "contact@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Notre virement du 2 juillet",
+  "date": "2026-07-06T06:35:00+02:00",
+  "corps": "Bonjour,\n\nNous avons réglé par virement le 2 juillet notre facture de juin, FC-2026-1077. Pouvez-vous nous confirmer sa bonne réception ?\n\nFlorence Pelletier\nPaysage Ducret",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

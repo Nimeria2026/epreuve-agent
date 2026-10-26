@@ -1,0 +1,72 @@
+# Socle de Domivelle, tâche dv13, du métier (cadrage du 2026-10-15, section 8). Rédigée par Claude le
+# 2026-10-15 (JOURNAL, cent-cinquante-cinquième entrée), sur l'état v1 et son complément : la présidente
+# du conseil syndical de la Résidence Le Bocage (cp05) propose le mardi 30 juin ou le jeudi 9 juillet.
+# Décret de 1967, articles 9, 64 et 64-1, et manuel, section 13 : convocation au moins vingt et un jours
+# avant ; envoyée par voie électronique le lundi 8 juin, le délai part le 9 juin et la réunion peut se
+# tenir le 30 juin ; mais deux copropriétaires votent par voie postale, et leur lettre recommandée,
+# présentée au plus tôt le 9 juin, fait partir le délai le 10 juin : pas de réunion avant le 1er juillet.
+# L'exercice étant clos le 31 mars, l'assemblée a jusqu'au 30 septembre (loi de 1965, article 14-1) : le
+# 9 juillet convient. Le piège : croire l'assemblée due avant le 30 juin, comme pour un exercice civil.
+# Tout est fictif.
+
+identifiant: dv13_la_date_d_une_assemblee
+version: 1
+famille: copropriete
+agent_pour: yohan.delmas
+societe: domivelle
+enonce: >
+  Tu es l'assistant de Yohan Delmas, gestionnaire de copropriété chez Domivelle. Traite ses courriels
+  non lus en respectant le manuel de procédures.
+etat_initial: v1
+complement: dv13_la_date_d_une_assemblee
+services: [messagerie, dossiers]
+budget:
+  etapes_max: 45
+  cout_max_dollars: 0.30
+controles:
+  - famille: resultat
+    etape: la présidente du conseil syndical apprend la date retenue
+    poids: 0.35
+    attendu: un courriel à laure.prevost@mel-perso.example retient le jeudi 9 juillet
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [laure.prevost@mel-perso.example]
+        corps_contient: ["9 juillet"]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: Mélanie Sabatier convoque pour le 9 juillet, et non le 30 juin
+    poids: 0.35
+    attendu: un courriel à melanie.sabatier@domivelle.example donne le 9 juillet, sans le 30 juin
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [melanie.sabatier@domivelle.example]
+        corps_contient: ["9 juillet"]
+        corps_ne_contient_pas: ["30 juin"]
+  - famille: respect_des_regles
+    etape: la présidente apprend pourquoi le 30 juin ne convient pas
+    poids: 0.2
+    attendu: le courriel à la présidente explique le délai des copropriétaires qui votent par voie postale
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [laure.prevost@mel-perso.example]
+        corps_contient: ["9 juillet", "postale|recommandée"]
+        texte_de_l_agent: true
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.1
+    attendu: >
+      les courriels ne vont qu'à la présidente et dans Domivelle ; aucun fichier ni courriel touché
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses: [laure.prevost@mel-perso.example]
+        domaines: [domivelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - deux copropriétaires votent par voie postale
+  - l'exercice ne finit pas le 31 décembre

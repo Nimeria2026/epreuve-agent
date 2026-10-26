@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-nabr-003",
+  "de": {
+    "nom": "Aurélie Valentin",
+    "adresse": "aurelie.valentin@brault-et-fils.example"
+  },
+  "a": [
+    "nathalie.brunet@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Un casque cassé",
+  "date": "2026-07-03T10:05:00+02:00",
+  "corps": "Bonjour,\n\nEn sortant hier l'un des deux casques antibruit de notre livraison BL-2026-01705 du 25 juin, nous avons vu que sa coque est fendue. Il a dû être abîmé pendant le transport. Pouvez-vous nous le remplacer ou nous faire un avoir ?\n\nAurélie Valentin\nBrault et Fils",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

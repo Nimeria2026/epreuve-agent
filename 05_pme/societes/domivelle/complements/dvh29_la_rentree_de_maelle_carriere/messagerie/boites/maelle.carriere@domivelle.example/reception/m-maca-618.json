@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-maca-618",
+  "de": {
+    "nom": "Caroline Millet",
+    "adresse": "caroline.millet@mel-perso.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Éclairage du hall en panne",
+  "date": "2026-08-27T09:15:00+02:00",
+  "corps": "Madame,\n\nL'éclairage du hall et de l'escalier des Magnolias ne fonctionne plus depuis le 21 août : la minuterie a grillé. J'ai fait passer Électricité des Rouches, qui propose de la remplacer pour 240,00 € TTC, devis joint. Pouvez-vous la commander ?\n\nCaroline Millet, présidente du conseil syndical",
+  "pieces_jointes": [
+    {
+      "nom": "devis_minuterie_magnolias.pdf",
+      "fichier": "pieces/m-maca-618/devis_minuterie_magnolias.pdf",
+      "taille_octets": 901
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

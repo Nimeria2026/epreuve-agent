@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-ctc-002",
+  "de": {
+    "nom": "André Vidal",
+    "adresse": "andre.vidal@messagerie.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Attestation d'assurance 2026",
+  "date": "2026-06-03T08:05:00+02:00",
+  "corps": "Bonjour,\n\nVoici mon attestation d'assurance habitation pour 2026.\n\nAndré Vidal, lot c01-08",
+  "pieces_jointes": [
+    {
+      "nom": "attestation_assurance_2026.pdf",
+      "fichier": "pieces/m-ctc-002/attestation_assurance_2026.pdf",
+      "taille_octets": 754
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

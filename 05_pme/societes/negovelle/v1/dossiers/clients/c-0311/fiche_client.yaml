@@ -1,0 +1,31 @@
+# Fiche du client c-0311 de Négovelle. Données FICTIVES.
+code: c-0311
+nom: Collet Travaux publics
+type: entreprise
+adresse: 2 parc d'activités de la Gare, 36999 Vendrigny (FICTIF)
+telephone: 02 61 91 63 39
+secteur: est
+commercial: fabrice.mercier
+administration_des_ventes: benoit.faure
+contacts:
+- nom: Éric Gallet
+  fonction: conducteur de travaux
+  courriel: eric.gallet@collet-travaux-publics.example
+- nom: Olivier Clerc
+  fonction: responsable des achats
+  courriel: olivier.clerc@collet-travaux-publics.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 2 parc d'activités de la Gare, 36999 Vendrigny (FICTIF)
+- code: L2
+  libelle: chantier déclaré
+  adresse: 120 rue Saint-Martin, 36999 Vaumoreau-sur-Indre (FICTIF)
+categorie_remise: C
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2021-12-01'
+limite_encours_euros: 6000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

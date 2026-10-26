@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-b11",
+  "de": {
+    "nom": "Michel Lambert",
+    "adresse": "michel.lambert@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Lettre d'information",
+  "date": "2026-09-26T18:39:00+02:00",
+  "corps": "Bonjour,\n\nLes nouveautés de la saison de chauffe. Envoi FICTIF.\n\nMichel Lambert (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

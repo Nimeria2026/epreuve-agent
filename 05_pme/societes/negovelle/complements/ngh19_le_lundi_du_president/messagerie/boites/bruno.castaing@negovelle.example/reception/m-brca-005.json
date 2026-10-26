@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-005",
+  "de": {
+    "nom": "Louis Langlais",
+    "adresse": "louis.langlais@menuiserie-coulon.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Délai de paiement",
+  "date": "2026-07-06T07:30:00+02:00",
+  "corps": "Monsieur,\n\nVotre commercial nous a refusé un délai de paiement de 90 jours. Notre trésorerie est tendue cet été : je me permets de vous le demander directement, à partir de la facture de juillet.\n\nLouis Langlais\nMenuiserie Coulon",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

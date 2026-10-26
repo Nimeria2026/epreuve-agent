@@ -1,0 +1,14 @@
+# Fiche du propriétaire p-0030, mandant de Domivelle. Données FICTIVES.
+code: p-0030
+nom: Mme Marion Muller
+adresse: 92 rue des Chênes, 18999 Montclavel-sur-Cher (FICTIF)
+courriel: marion.muller@mel-perso.example
+telephone: 06 39 98 75 48
+iban: FR76 9999 9301 9014 8345 8098 138 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- s01-05
+- s01-08
+- s04-02
+- s04-09
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

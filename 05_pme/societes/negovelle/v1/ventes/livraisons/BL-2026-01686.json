@@ -1,0 +1,59 @@
+{
+  "numero": "BL-2026-01686",
+  "commande": "CO-2026-01837",
+  "client": "c-0112",
+  "date_expedition": "2026-06-24",
+  "date_livraison": "2026-06-24",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "32 zone d'activités des Grands Prés, 36999 Laubrissac (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "ELP-10808",
+      "libelle": "Foret béton SDS-plus 6x310 mm",
+      "quantite": 5
+    },
+    {
+      "reference": "ELP-11478",
+      "libelle": "Meuleuse d'angle 230 mm, 1200 W",
+      "quantite": 5
+    },
+    {
+      "reference": "ELP-11657",
+      "libelle": "Ponceuse orbitale 300 W",
+      "quantite": 10
+    },
+    {
+      "reference": "FIX-11274",
+      "libelle": "Crochet coudé à visser 60 mm, sachet de 25",
+      "quantite": 5
+    },
+    {
+      "reference": "OUT-11959",
+      "libelle": "Scie à bûches 600 mm",
+      "quantite": 6
+    },
+    {
+      "reference": "PLB-11127",
+      "libelle": "Flexible inox femelle-femelle 12x17 150 cm",
+      "quantite": 2
+    },
+    {
+      "reference": "QUI-10465",
+      "libelle": "Cadenas laiton 50 mm, 3 clés",
+      "quantite": 6
+    },
+    {
+      "reference": "QUI-10988",
+      "libelle": "Charnière piano 60 mm, acier zingué",
+      "quantite": 4
+    }
+  ],
+  "reserves": null,
+  "signataire": "Vincent Mabille",
+  "statut": "livre"
+}

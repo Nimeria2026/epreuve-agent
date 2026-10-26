@@ -1,0 +1,25 @@
+# Fiche du client c-0023 de Négovelle. Données FICTIVES.
+code: c-0023
+nom: Chauffage Bunel
+type: artisan
+adresse: 48 rue du Four, 36999 Vendrigny (FICTIF)
+telephone: 02 61 91 70 15
+secteur: est
+commercial: fabrice.mercier
+administration_des_ventes: benoit.faure
+contacts:
+- nom: Sylvie Mahé
+  fonction: gérante
+  courriel: sylvie.mahe@chauffage-bunel.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 48 rue du Four, 36999 Vendrigny (FICTIF)
+categorie_remise: C
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2009-09-01'
+limite_encours_euros: 1500.0
+livraisons_partielles: true
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

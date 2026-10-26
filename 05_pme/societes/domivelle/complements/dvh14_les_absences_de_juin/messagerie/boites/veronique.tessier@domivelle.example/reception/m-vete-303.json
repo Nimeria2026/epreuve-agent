@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-vete-303",
+  "de": {
+    "nom": "Gaëlle Fournel",
+    "adresse": "gaelle.fournel@domivelle.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Yohan",
+  "date": "2026-06-08T08:50:00+02:00",
+  "corps": "Véronique,\n\nOn me dit que Yohan est absent : qu'est-ce qu'il a ? C'est grave ? Et dois-je reprendre ses copropriétés, jusqu'à quand ?\n\nGaëlle",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

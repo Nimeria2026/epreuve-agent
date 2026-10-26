@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-002",
+  "de": {
+    "nom": "Fabrice Mercier",
+    "adresse": "fabrice.mercier@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Prix pour Paysage Chevrier, CO-2026-02042",
+  "date": "2026-08-03T10:20:00+02:00",
+  "corps": "Bruno,\n\nPaysage Chevrier (c-0123) équipe son nouveau dépôt. J'ai saisi le brouillon CO-2026-02042 ; il faudrait ces prix :\n\n- ELP-10008, Batterie 12 V 3 Ah : 10 à 58,00 € HT au lieu de 70,20 €\n- QUI-12474, Poignée de porte carrée sur rosace, aluminium : 12 à 46,00 € HT au lieu de 54,80 €\n- OUT-11992, Scie à dos 400 mm : 6 à 33,50 € HT au lieu de 39,90 €\n- PLB-13021, Tube PVC évacuation 40 mm, barre de 2 m : 20 à 20,50 € HT au lieu de 24,50 €\n\nIls attendent ta réponse pour la fin du mois.\n\nFabrice",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

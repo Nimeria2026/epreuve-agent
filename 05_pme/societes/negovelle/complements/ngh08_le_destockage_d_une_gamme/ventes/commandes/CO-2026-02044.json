@@ -1,0 +1,64 @@
+{
+  "numero": "CO-2026-02044",
+  "client": "c-0167",
+  "reference_client": null,
+  "cree_le": "2026-07-03T15:00:00+02:00",
+  "cree_par": "samir.ouali",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "1 zone d'activités des Grands Prés, 36999 Mérolles-en-Brenne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "OUT-10122",
+      "libelle": "Caisse à outils métallique 500 mm",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 35.45,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 32.61,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 195.66
+    },
+    {
+      "reference": "OUT-10187",
+      "libelle": "Caisse à outils à tiroirs 400 mm",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 25.25,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 23.23,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 232.3
+    },
+    {
+      "reference": "OUT-10171",
+      "libelle": "Caisse à outils à roulettes 600 mm",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 41.35,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 38.04,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 190.2
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 618.16,
+  "total_tva_euros": 123.63,
+  "total_ttc_euros": 741.79,
+  "statut": "brouillon",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T15:00:00+02:00",
+      "par": "samir.ouali",
+      "action": "creee",
+      "detail": "prix du déstockage attendus"
+    }
+  ]
+}

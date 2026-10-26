@@ -1,0 +1,10 @@
+# Fiche d'un fournisseur de Négovelle. Données FICTIVES.
+nom: Sanitaire des Tilleuls
+activite: fabricant de raccords et de robinetterie
+adresse: 20 zone artisanale du Moulin, 36999 Ardillac (FICTIF)
+telephone: 02 61 91 86 86
+courriel_commandes: commandes@sanitaire-des-tilleuls.example
+courriel_facturation: facturation@sanitaire-des-tilleuls.example
+iban: FR76 9999 9529 0522 9323 1652 403 (FICTIF)
+conditions: paiement à 60 jours date de facture
+minimum_de_commande: 500,00 € HT

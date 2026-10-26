@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cpt-016",
+  "de": {
+    "nom": "Patrice Lagarde",
+    "adresse": "patrice.lagarde@transports-ducret.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Notre relevé de compte",
+  "date": "2026-07-30T14:10:00+02:00",
+  "corps": "Bonjour,\n\nPouvez-vous nous envoyer le relevé de nos factures de juin et de juillet ? Notre comptable le demande.\n\nPatrice Lagarde\nTransports Ducret",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

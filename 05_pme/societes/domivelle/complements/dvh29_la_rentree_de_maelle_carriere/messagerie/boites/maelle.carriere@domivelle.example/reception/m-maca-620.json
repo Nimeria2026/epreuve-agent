@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-maca-620",
+  "de": {
+    "nom": "Manon Pagès",
+    "adresse": "manon.pages@courriel.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Le balcon du dessus",
+  "date": "2026-08-31T08:50:00+02:00",
+  "corps": "Madame,\n\nÀ chaque arrosage, l'eau des jardinières du balcon de Mme Coste, du lot 14, juste au-dessus de chez moi, coule sur ma terrasse et tache la façade. Pouvez-vous me donner son numéro de téléphone ou son adresse électronique, que je l'appelle moi-même ?\n\nManon Pagès, lot 10, Résidence Les Iris",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

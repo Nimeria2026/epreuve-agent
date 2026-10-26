@@ -1,0 +1,29 @@
+{
+  "identifiant": "m-cpt-406",
+  "de": {
+    "nom": "Thermopièces Loire",
+    "adresse": "facturation@thermopieces-loire.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Factures F-2026-1192 et F-2026-1178",
+  "date": "2026-11-02T08:10:00+01:00",
+  "corps": "Bonjour,\n\nVous trouverez ci-jointes notre facture F-2026-1192 du 30 octobre 2026, 205,20 € TTC, et notre facture F-2026-1178 du 28 septembre 2026, 168,00 € TTC, restée chez nous par erreur.\n\nService comptable, Thermopièces Loire (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "Facture_F-2026-1192.pdf",
+      "fichier": "pieces/m-cpt-406/Facture_F-2026-1192.pdf",
+      "taille_octets": 1061
+    },
+    {
+      "nom": "Facture_F-2026-1178.pdf",
+      "fichier": "pieces/m-cpt-406/Facture_F-2026-1178.pdf",
+      "taille_octets": 1049
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

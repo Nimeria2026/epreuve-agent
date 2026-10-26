@@ -1,0 +1,42 @@
+{
+  "numero": "CO-2026-02043",
+  "client": "c-0031",
+  "reference_client": null,
+  "cree_le": "2026-07-08T10:07:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "100 rue du Pont, 36999 Brissonne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "VIS-11453",
+      "libelle": "Vis à bois tête fraisée 3x45, zinguée, boîte de 100",
+      "quantite": 30,
+      "prix_tarif_ht_euros": 19.0,
+      "remise_pourcent": 3.0,
+      "prix_net_ht_euros": 18.43,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 552.9
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 552.9,
+  "total_tva_euros": 110.58,
+  "total_ttc_euros": 663.48,
+  "statut": "en_attente_reassort",
+  "motif_attente": null,
+  "reliquat_de": "CO-2026-02042",
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-08T10:07:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": "reliquat de CO-2026-02042"
+    }
+  ]
+}

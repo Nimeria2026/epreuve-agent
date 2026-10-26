@@ -1,0 +1,48 @@
+{
+  "numero": "CO-2026-02025",
+  "client": "c-0040",
+  "reference_client": null,
+  "cree_le": "2026-07-03T09:10:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "express",
+  "livraison": {
+    "code": "L1",
+    "adresse": "34 zone industrielle des Brandes, 36999 Laubrissac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-10465",
+      "libelle": "Boîte d'encastrement pour cloison sèche 67 mm",
+      "quantite": 40,
+      "prix_tarif_ht_euros": 2.55,
+      "remise_pourcent": 11.68,
+      "prix_net_ht_euros": 2.25,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 90.0
+    }
+  ],
+  "port_ht_euros": 25.0,
+  "total_ht_euros": 115.0,
+  "total_tva_euros": 23.0,
+  "total_ttc_euros": 138.0,
+  "statut": "validee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T09:10:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T09:12:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "validee",
+      "detail": ""
+    }
+  ]
+}

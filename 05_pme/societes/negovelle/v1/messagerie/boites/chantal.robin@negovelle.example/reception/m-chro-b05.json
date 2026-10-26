@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-chro-b05",
+  "de": {
+    "nom": "Bruno Castaing",
+    "adresse": "bruno.castaing@negovelle.example"
+  },
+  "a": [
+    "chantal.robin@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Congés d'été",
+  "date": "2026-06-25T11:42:00+02:00",
+  "corps": "Bonjour,\n\nMerci de m'envoyer vos dates de congés d'août avant le 10 juillet.\n\nBruno",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

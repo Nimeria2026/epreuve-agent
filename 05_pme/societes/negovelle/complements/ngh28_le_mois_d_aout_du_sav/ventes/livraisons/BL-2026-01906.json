@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01906",
+  "commande": "CO-2026-02086",
+  "client": "c-0085",
+  "date_expedition": "2026-07-07",
+  "date_livraison": "2026-07-08",
+  "transport": {
+    "mode": "transporteur",
+    "transporteur": "transports-delorme",
+    "recepisse": "TD-409402"
+  },
+  "adresse": "43 boulevard de l'Indre, 36999 Corvalet (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "ELE-12213",
+      "libelle": "Hublot ovale LED 15 W",
+      "quantite": 4
+    }
+  ],
+  "reserves": null,
+  "signataire": "Anne Chatelain",
+  "statut": "livre"
+}

@@ -1,0 +1,102 @@
+# Registre des lots en gestion, c24. Données FICTIVES.
+immeuble: c24
+nature: immeuble collectif
+adresse: 92 rue des Vignes, 18999 Montclavel-sur-Cher (FICTIF)
+secteur: centre
+gestionnaire: Cédric Maillard
+distance_agence_km: 3
+annee_construction: 1980
+gardien: false
+copropriete_du_syndic: cp24
+lots:
+- lot: c24-01
+  type: T4
+  surface_m2: 81
+  etage: 0
+  proprietaire: p-0234
+  locataire: M. Joël Simon
+  entree: '2020-04-22'
+  loyer_hors_charges: 797,00 €
+  provision_sur_charges: 56,00 €
+  depot_de_garantie: 693,00 €
+  revision: chaque 22 avril
+  trimestre_irl: T4
+  dpe: D
+- lot: c24-02
+  type: T2
+  surface_m2: 38
+  etage: 0
+  proprietaire: p-0194
+  locataire: M. Maxime Lejeune
+  entree: '2016-09-04'
+  loyer_hors_charges: 355,00 €
+  provision_sur_charges: 31,00 €
+  depot_de_garantie: 290,00 €
+  revision: chaque 4 septembre
+  trimestre_irl: T2
+  dpe: C
+- lot: c24-03
+  type: T1
+  surface_m2: 34
+  etage: 0
+  proprietaire: p-0235
+  locataire: Mme Corinne Fontaine
+  entree: '2020-04-13'
+  loyer_hors_charges: 369,00 €
+  provision_sur_charges: 94,00 €
+  depot_de_garantie: 321,00 €
+  revision: chaque 13 avril
+  trimestre_irl: T4
+  dpe: E
+- lot: c24-04
+  type: T5
+  surface_m2: 90
+  etage: 0
+  proprietaire: p-0236
+  locataire: M. Maxime Gilbert
+  entree: '2012-07-11'
+  loyer_hors_charges: 953,00 €
+  provision_sur_charges: 95,00 €
+  depot_de_garantie: 719,00 €
+  revision: chaque 11 juillet
+  trimestre_irl: T1
+  dpe: E
+- lot: c24-05
+  type: T2
+  surface_m2: 46
+  etage: 1
+  proprietaire: p-0237
+  locataire: M. François Maillot
+  entree: '2023-12-19'
+  loyer_hors_charges: 503,00 €
+  provision_sur_charges: 118,00 €
+  depot_de_garantie: 479,00 €
+  revision: chaque 19 décembre
+  trimestre_irl: T3
+  dpe: D
+- lot: c24-06
+  type: T3
+  surface_m2: 69
+  etage: 1
+  proprietaire: p-0238
+  locataire: Mme Béatrice Boisseau
+  entree: '2019-11-03'
+  loyer_hors_charges: 758,00 €
+  provision_sur_charges: 51,00 €
+  depot_de_garantie: 659,00 €
+  revision: chaque 3 novembre
+  trimestre_irl: T3
+  dpe: D
+- lot: c24-07
+  type: T1
+  surface_m2: 34
+  etage: 1
+  proprietaire: p-0239
+  locataire: Mme Odile Joly
+  entree: '2014-12-09'
+  loyer_hors_charges: 354,00 €
+  provision_sur_charges: 32,00 €
+  depot_de_garantie: 278,00 €
+  revision: chaque 9 décembre
+  trimestre_irl: T3
+  dpe: D

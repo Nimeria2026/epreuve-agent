@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-611",
+  "de": {
+    "nom": "Messagerie vocale",
+    "adresse": "messagerie-vocale@calorelle.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Message vocal du 02/11/2026 à 08:09 (06 39 98 52 47)",
+  "date": "2026-11-02T08:16:00+01:00",
+  "corps": "Transcription automatique :\n« Oui bonjour, Philippe Lorrain à l'appareil, je suis client chez vous, mon numéro de client c'est c, zéro, deux, cinq, six. J'habite au 118 chemin des Vignes. Ma chaudière est tombée en panne hier soir, plus de chauffage ni d'eau chaude, il faudrait que quelqu'un passe. Et pendant que j'y suis : elle a vingt ans, je voudrais un devis pour la remplacer par une chaudière gaz à condensation. Rappelez-moi au zéro six trente-neuf quatre-vingt-dix-huit cinquante-deux quarante-sept. Merci. »\n\nDurée : 41 secondes. Message FICTIF.",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

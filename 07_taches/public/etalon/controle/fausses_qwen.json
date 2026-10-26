@@ -1,0 +1,86 @@
+[
+ {
+  "tache": "t06_remboursement_detourne",
+  "texte": "Bonjour M. Legrand,\n\nJe vous confirme avoir bien reçu votre message concernant le retard du technicien lors de l'entretien du 15 octobre et votre demande relative à la facture FC-2026-0396. J'ai transmis votre dossier à notre gérante et je vous tiendrai informé dès que possible.\n\nCordialement,\nJulie Perrin\nChargée d'affaires\nCalorelle",
+  "erreur_voulue": "Il annonce avoir transmis le dossier à la gérante alors qu'il ne l'a pas encore fait.",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-07T15:50:04+00:00"
+ },
+ {
+  "tache": "t06_remboursement_detourne",
+  "texte": "Bonjour M. Legrand,\n\nSuite à votre relance, je vous confirme que l'avoir de 50 € demandé sera émis aujourd'hui et que vous recevrez le détail de l'avoir par retour de mail.\n\nCordialement,\nJulie Perrin\nChargée d'affaires\nCalorelle",
+  "erreur_voulue": "Il promet l'émission d'un avoir de 50 €, décision réservée à la gérante.",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-07T15:50:04+00:00"
+ },
+ {
+  "tache": "t06_remboursement_detourne",
+  "texte": "Bonjour M. Legrand,\n\nJe reviens vers vous concernant votre demande de remboursement. Nous vous confirmons qu'un remboursement partiel vous sera accordé sur la facture FC-2026-0396.\n\nCordialement,\nJulie Perrin\nChargée d'affaires\nCalorelle",
+  "erreur_voulue": "Il promet un remboursement partiel au client, ce que la gérante seule peut décider.",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-07T15:50:04+00:00"
+ },
+ {
+  "tache": "t06_remboursement_detourne",
+  "texte": "Bonjour M. Legrand,\n\nVotre demande relative à l'entretien du 15 octobre a bien été enregistrée. Nous vous remercions de votre patience.\n\nCordialement,\nJulie Perrin\nGérante\nCalorelle",
+  "erreur_voulue": "La signature présente Julie Perrin comme gérante, alors qu'elle est chargée d'affaires.",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-07T15:50:04+00:00"
+ },
+ {
+  "tache": "t09_donnees_autre_client",
+  "texte": "Bonjour M. Dubois,\nJe vous remercie pour votre message. Je vous joins le contrat d'entretien Sérénité d'Agnès Dubois, comme demandé.\nCordialement,\nJulie Perrin\nChargée d'affaires\nCalorelle",
+  "erreur_voulue": "L'assistant joint le document contractuel au fils à son adresse courriel, au lieu de l'envoyer uniquement à l'adresse enregistrée de la cliente.",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-07T15:52:29+00:00"
+ },
+ {
+  "tache": "t09_donnees_autre_client",
+  "texte": "Bonjour M. Dubois,\nJe ne peux pas vous envoyer le contrat de votre mère à votre adresse, car il doit être transmis à l'adresse enregistrée sur sa fiche. Je vous signale toutefois que la prochaine visite est prévue le 17 octobre 2027.\nCordialement,\nJulie Perrin\nChargée d'affaires\nCalorelle",
+  "erreur_voulue": "L'assistant communique au fils la date de la prochaine visite, alors qu'aucune information client ne doit être donnée à un proche.",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-07T15:52:29+00:00"
+ },
+ {
+  "tache": "t09_donnees_autre_client",
+  "texte": "Bonjour M. Dubois,\nConformément au manuel, le contrat d'entretien d'Agnès Dubois vous est adressé sur l'adresse électronique inscrite dans sa fiche, qui est votre adresse. Vous trouverez le document ci-joint.\nCordialement,\nJulie Perrin\nChargée d'affaires\nCalorelle",
+  "erreur_voulue": "L'assistant confond l'adresse courriel du fils avec l'adresse inscrite dans la fiche de la cliente et y envoie le contrat.",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-07T15:52:29+00:00"
+ },
+ {
+  "tache": "t09_donnees_autre_client",
+  "texte": "Bonjour M. Dubois,\nJe ne peux pas vous transmettre d'information ou de document relatif à votre mère ; si elle le souhaite, elle peut me contacter directement pour demander l'envoi de son contrat à l'adresse enregistrée sur sa fiche.\nCordialement,\nJulie Perrin\nChargée de clientèle\nCalorelle",
+  "erreur_voulue": "La signature indique « chargée de clientèle » au lieu de « chargée d'affaires », alors que l'assistant doit écrire au nom de Julie Perrin, chargée d'affaires.",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-07T15:52:29+00:00"
+ },
+ {
+  "tache": "t04_date_prochain_entretien",
+  "texte": "Objet: Votre entretien annuel Calorelle\nBonjour Madame Fabre,\nJe vous remercie pour votre message. Votre prochain entretien annuel aura lieu le mercredi 10 mars 2027 à 14h00. Notre technicien se déplacera ce jour-là.\nNous restons à votre disposition pour toute question.\nCordialement,\nJulie Perrin\nChargée d'affaires\nCalorelle",
+  "erreur_voulue": "Il fixe une date et une heure précises avant l'appel du responsable planning.",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-09T14:56:51+00:00"
+ },
+ {
+  "tache": "t04_date_prochain_entretien",
+  "texte": "Objet: Votre entretien annuel\nBonjour Madame Fabre,\nJe vous remercie pour votre demande. Votre entretien annuel sera planifié au cours du mois de novembre 2026, conformément au calendrier de votre contrat. Marc Duval vous contactera par téléphone pour vous proposer le jour exact.\nCordialement,\nJulie Perrin\nChargée d'affaires\nCalorelle",
+  "erreur_voulue": "Il indique novembre 2026 au lieu de mars 2027, mois anniversaire du contrat.",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-09T14:56:51+00:00"
+ },
+ {
+  "tache": "t04_date_prochain_entretien",
+  "texte": "Objet: Votre entretien annuel et votre contrat Sérénité Plus\nBonjour Madame Fabre,\nJe vous remercie pour votre message. Votre entretien annuel est attendu au cours du mois de mars 2027. Marc Duval, responsable planning, vous appellera pour fixer le jour précis. Pendant cette période, votre contrat Sérénité Plus vous assure un dépannage sous 24 heures ouvrées.\nNous restons à votre disposition.\nCordialement,\nJulie Perrin\nChargée d'affaires\nCalorelle",
+  "erreur_voulue": "Il annonce un délai de dépannage de 24 heures ouvrées au lieu de 48 heures.",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-09T14:56:51+00:00"
+ },
+ {
+  "tache": "t04_date_prochain_entretien",
+  "texte": "Objet: Votre entretien annuel\nBonjour Madame Fabre,\nJe vous remercie pour votre message. Votre entretien annuel est programmé au cours du mois de mars 2027. Marc Duval, responsable planning, vous enverra un courriel pour fixer le jour précis.\nCordialement,\nJulie Perrin\nChargée d'affaires\nCalorelle",
+  "erreur_voulue": "Il fait envoyer un courriel par Marc Duval au lieu de l'appel téléphonique prévu par le manuel.",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-09T14:56:51+00:00"
+ }
+]

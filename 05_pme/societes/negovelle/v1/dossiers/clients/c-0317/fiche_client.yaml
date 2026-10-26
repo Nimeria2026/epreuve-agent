@@ -1,0 +1,31 @@
+# Fiche du client c-0317 de Négovelle. Données FICTIVES.
+code: c-0317
+nom: Hamel et Fils
+type: entreprise
+adresse: 20 zone d'activités des Grands Prés, 36999 Vaumoreau-sur-Indre (FICTIF)
+telephone: 02 61 91 61 88
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Catherine Clerc
+  fonction: conductrice de travaux
+  courriel: catherine.clerc@hamel-et-fils.example
+- nom: Florence Lemarchand
+  fonction: responsable des achats
+  courriel: florence.lemarchand@hamel-et-fils.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 20 zone d'activités des Grands Prés, 36999 Vaumoreau-sur-Indre (FICTIF)
+- code: L2
+  libelle: chantier déclaré
+  adresse: 50 rue des Remparts, 36999 Fontclavier (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2024-05-01'
+limite_encours_euros: 8500.0
+livraisons_partielles: true
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

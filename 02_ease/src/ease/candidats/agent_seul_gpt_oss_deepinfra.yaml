@@ -1,0 +1,46 @@
+# L'agent seul (03_orchestrations) sur gpt-oss-120b, par l'API de DeepInfra : le troisième modèle,
+# d'une autre famille que les deux références (JOURNAL, entrée 120). Tâches cachées admises : la
+# politique de DeepInfra est lue (00_docs/sources/2026-10-13_politiques_de_donnees.md).
+# Réglages, prix et sources : 00_docs/sources/2026-10-05_reglages_des_modeles.md.
+fiche:
+  identifiant: agent_seul_gpt_oss_deepinfra
+  nom: Agent seul sur gpt-oss-120b (DeepInfra)
+  version: "0.1.0"
+  origine: fait_main
+  division: a_modele_egal
+  branchement: mcp
+  editeur: Épreuve d'agent
+  url: null
+  modeles:
+    - nom: openai/gpt-oss-120b
+      fournisseur: DeepInfra
+  cout_mesurable: true
+  conditions_utilisation: null
+configuration:
+  modeles:
+    - role: agent
+      nom: openai/gpt-oss-120b
+      fournisseur: DeepInfra
+      version_renvoyee: "?"
+      parametres:
+        reasoning_effort: medium
+      # Pas de remise sur le cache : DeepInfra ne dit pas la part lue en cache, et son coût estimé
+      # (estimated_cost) compte chaque jeton lu au prix de l'entrée (diagnostic du 2026-10-13,
+      # JOURNAL, entrée 120). À confronter à sa facture après le premier run complet.
+      tarif:
+        entree_dollars_par_million: 0.037
+        entree_en_cache_dollars_par_million: 0.037
+        sortie_dollars_par_million: 0.17
+        source: https://deepinfra.com/openai/gpt-oss-120b
+        releve_le: "2026-10-13"
+machine: null
+lancement:
+  module: orchestrations.agent_seul
+  arguments: [--configuration, 03_orchestrations/src/orchestrations/configurations/gpt_oss_deepinfra.yaml]
+  delai_secondes: 3600
+  sonde: null
+  creneau: null
+  energie: null
+  empreinte_de:
+    - 03_orchestrations/src/orchestrations/consignes/agent_seul.md
+    - 03_orchestrations/src/orchestrations/configurations/gpt_oss_deepinfra.yaml

@@ -1,0 +1,24 @@
+# Fiche du lot c12-25. Données FICTIVES.
+lot: c12-25
+adresse: 46 rue de l'Église, 18999 Montclavel-sur-Cher (FICTIF)
+type: T3
+surface_m2: 66
+locataire:
+  nom: Mme Julie Gomez
+  courriel: julie.gomez@boite-postale.example
+  telephone: 06 39 98 66 99
+  entree: '2017-04-02'
+bail:
+  signature: '2017-04-02'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 612,00 €
+  depot_de_garantie: 500,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T4
+dpe:
+  classe: E
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

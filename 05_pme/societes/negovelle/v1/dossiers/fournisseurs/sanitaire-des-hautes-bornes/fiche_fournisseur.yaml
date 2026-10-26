@@ -1,0 +1,10 @@
+# Fiche d'un fournisseur de Négovelle. Données FICTIVES.
+nom: Sanitaire des Hautes-Bornes
+activite: fabricant de raccords et de robinetterie
+adresse: 23 zone artisanale du Moulin, 36999 Laubrissac (FICTIF)
+telephone: 02 61 91 96 32
+courriel_commandes: commandes@sanitaire-des-hautes-bornes.example
+courriel_facturation: facturation@sanitaire-des-hautes-bornes.example
+iban: FR76 9999 9379 6973 1599 6197 783 (FICTIF)
+conditions: paiement à 45 jours fin de mois
+minimum_de_commande: 250,00 € HT

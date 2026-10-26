@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-viar-001",
+  "de": {
+    "nom": "Gilles Poirier",
+    "adresse": "gilles.poirier@negovelle.example"
+  },
+  "a": [
+    "vincent.arnaud@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Réassort plomberie, visserie et fixations avant août",
+  "date": "2026-07-06T07:20:00+02:00",
+  "corps": "Vincent,\n\nJe pars en congés en août et je voudrais que le réassort de la plomberie, de la visserie et des fixations parte cette semaine, pour que tout soit reçu avant mon départ. Voici les articles passés sous leur point de commande à l'inventaire de vendredi soir ; ceux qui se vendent peu l'été attendront septembre.\n\n- FIX-10310, Cheville nylon 12x25, boîte de 200 : stock 0, point de commande 10\n- FIX-10784, Cheville pour plaque de plâtre 6x32, boîte de 50 : stock 4, point de commande 5\n- FIX-11257, Crochet coudé à visser 40 mm, sachet de 10 : stock 0, point de commande 80\n- FIX-11796, Tige filetée M10, longueur 1 m, brute : stock 0, point de commande 60\n- FIX-11960, Équerre de fixation 100x100x40 mm, zinguée : stock 13, point de commande 20\n- PLB-10098, Bonde à clapet 32 mm : stock 0, point de commande 10\n- PLB-10588, Collier de fixation tube 32 mm, sachet de 25 : stock 5, point de commande 10\n- PLB-10604, Collier de fixation tube 40 mm, sachet de 25 : stock 39, point de commande 40\n- PLB-10628, Coude PVC 15° 100 mm : stock 0, point de commande 5\n- PLB-10645, Coude PVC 15° 40 mm : stock 0, point de commande 10\n- PLB-10767, Coude PVC 45° 80 mm : stock 70, point de commande 80\n- PLB-11527, Joint plat EPDM 33x42, sachet de 50 : stock 0, point de commande 10\n- PLB-12809, Tube PER 16 mm, gainé bleu, couronne de 25 m : stock 18, point de commande 20\n- PLB-13217, Tube cuivre écroui 8 mm, barre de 4 m : stock 18, point de commande 20\n- PLB-13438, Vanne thermostatique 20x27 : stock 57, point de commande 80\n- VIS-10293, Boulon tête hexagonale M6x100, zingué, sachet de 10 : stock 13, point de commande 20\n- VIS-10792, Vis à bois tête fraisée 3,5x25, zinguée, boîte de 200 : stock 0, point de commande 80\n- VIS-11567, Vis à bois tête fraisée 3x70, bichromatée, boîte de 200 : stock 10, point de commande 20\n- VIS-11870, Vis à bois tête fraisée 4,5x40, bichromatée, boîte de 100 : stock 53, point de commande 60\n- VIS-11976, Vis à bois tête fraisée 4,5x50, bichromatée, boîte de 200 : stock 14, point de commande 20\n- VIS-12082, Vis à bois tête fraisée 4,5x70, inox A2, boîte de 200 : stock 0, point de commande 40\n- VIS-12155, Vis à bois tête fraisée 4x16, bichromatée, boîte de 200 : stock 52, point de commande 60\n- VIS-12302, Vis à bois tête fraisée 4x30, inox A2, boîte de 200 : stock 8, point de commande 10\n- VIS-12596, Vis à bois tête fraisée 4x80, bichromatée, boîte de 200 : stock 57, point de commande 60\n- VIS-12719, Vis à bois tête fraisée 5x20, inox A2, boîte de 500 : stock 26, point de commande 30\n- VIS-14066, Écrou hexagonal M12, inox A2, sachet de 100 : stock 21, point de commande 40\n\nComme d'habitude, une commande par fournisseur, et dans le courriel une ligne par article : référence, désignation, quantité. Mets-moi en copie, que je sache quoi attendre à la réception.\n\nGilles",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

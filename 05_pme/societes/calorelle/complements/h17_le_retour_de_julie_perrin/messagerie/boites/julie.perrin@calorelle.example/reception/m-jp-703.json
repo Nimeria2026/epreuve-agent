@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-703",
+  "de": {
+    "nom": "Olivier Martin",
+    "adresse": "olivier.martin@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis pompe à chaleur",
+  "date": "2026-12-10T10:00:00+01:00",
+  "corps": "Bonjour Madame Perrin,\n\nVotre technicien, M. Blanc, est passé mardi voir notre chaudière. Pourriez-vous nous adresser le devis de la pompe à chaleur ?\n\nOlivier Martin, 13 rue des Lilas, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

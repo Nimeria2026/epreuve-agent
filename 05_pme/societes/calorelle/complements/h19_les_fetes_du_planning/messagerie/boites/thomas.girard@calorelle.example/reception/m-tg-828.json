@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-tg-828",
+  "de": {
+    "nom": "Camille Lambert",
+    "adresse": "camille.lambert@courriel.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Mise en service du 28 décembre",
+  "date": "2026-12-19T09:30:00+01:00",
+  "corps": "Bonjour,\n\nPour la mise en service de notre climatisation, le lundi 28 décembre à 8 h, votre technicien pourrait-il venir l'après-midi plutôt ? Je ne suis pas chez moi le matin ce jour-là.\n\nCamille Lambert, 47 avenue des Tilleuls (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

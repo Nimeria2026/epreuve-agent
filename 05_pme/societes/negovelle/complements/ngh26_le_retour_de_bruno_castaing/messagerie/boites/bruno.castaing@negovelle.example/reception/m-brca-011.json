@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-011",
+  "de": {
+    "nom": "Fabrice Mercier",
+    "adresse": "fabrice.mercier@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Paysage Noblet : 60 jours",
+  "date": "2026-08-11T11:30:00+02:00",
+  "corps": "Bruno,\n\nPaysage Noblet (c-0304), client depuis 2012 et toujours payé à l'heure, demande à passer de 30 à 60 jours date de facture, à partir des factures d'août. C'est à toi d'accorder.\n\nFabrice",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

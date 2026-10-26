@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-maca-631",
+  "de": {
+    "nom": "Valérie Chevalier",
+    "adresse": "valerie.chevalier.cher@courriel.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Ma nouvelle adresse",
+  "date": "2026-08-28T21:15:00+02:00",
+  "corps": "Madame,\n\nPour le sinistre de la toiture du Clos Saint-Roch, merci de m'écrire désormais à cette nouvelle adresse : je ne consulte plus l'ancienne.\n\nValérie Chevalier, lot 11",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

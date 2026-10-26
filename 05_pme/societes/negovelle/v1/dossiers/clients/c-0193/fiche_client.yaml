@@ -1,0 +1,28 @@
+# Fiche du client c-0193 de Négovelle. Données FICTIVES.
+code: c-0193
+nom: Rigaud Agencement
+type: pme
+adresse: 16 zone artisanale du Moulin, 36999 Vendrigny (FICTIF)
+telephone: 02 61 91 79 31
+secteur: est
+commercial: fabrice.mercier
+administration_des_ventes: benoit.faure
+contacts:
+- nom: Robert Sauvage
+  fonction: responsable des achats
+  courriel: robert.sauvage@rigaud-agencement.example
+- nom: Laurent Humbert
+  fonction: responsable de maintenance
+  courriel: laurent.humbert@rigaud-agencement.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 16 zone artisanale du Moulin, 36999 Vendrigny (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2017-01-01'
+limite_encours_euros: 7000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

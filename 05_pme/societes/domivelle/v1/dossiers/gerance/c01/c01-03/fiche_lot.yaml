@@ -1,0 +1,24 @@
+# Fiche du lot c01-03. Données FICTIVES.
+lot: c01-03
+adresse: 139 rue des Écoles, 18999 Montclavel-sur-Cher (FICTIF)
+type: T3
+surface_m2: 66
+locataire:
+  nom: Mme Pauline Navarro
+  courriel: pauline.navarro@mel-perso.example
+  telephone: 06 39 98 81 07
+  entree: '2023-07-01'
+bail:
+  signature: '2023-07-01'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 684,00 €
+  depot_de_garantie: 651,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T1
+dpe:
+  classe: C
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

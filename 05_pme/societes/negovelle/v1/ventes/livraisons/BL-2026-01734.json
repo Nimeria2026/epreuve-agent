@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01734",
+  "commande": "CO-2026-01885",
+  "client": "c-0160",
+  "date_expedition": "2026-06-26",
+  "date_livraison": "2026-06-26",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "9 zone d'activités des Grands Prés, 36999 Ardillac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "OUT-11568",
+      "libelle": "Niveau à bulle tubulaire 40 cm",
+      "quantite": 3
+    }
+  ],
+  "reserves": null,
+  "signataire": "Noémie Lhomme",
+  "statut": "livre"
+}

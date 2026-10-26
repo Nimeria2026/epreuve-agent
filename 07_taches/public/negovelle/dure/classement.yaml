@@ -1,0 +1,191 @@
+# Classement des tâches publiques (contrat 01_contrats/classement.schema.json ; JOURNAL, entrées 121,
+# 125 et 154). Écrit par ease.classement : make classement VERSER=1 ou ESTIMER=1 réécrit ce fichier
+# d'un bloc, sans garder d'autres commentaires que celui-ci. Les étiquettes, le type commun d'une
+# tâche du socle commun (07_taches/public/types_communs.yaml), la fiche ROME et les sections du
+# manuel s'écrivent à la main ; les durées, jamais : les mesurées viennent des runs du poste
+# humain, l'estimée de la grille (ease.grille) sur un run du témoin parfait. Le métier, les
+# services, le contrôle grave et les étapes du témoin se calculent depuis la tâche (make classement).
+# Fiches ROME : France Travail, ROME 4.0, Licence Ouverte ; on cite le code et l'intitulé.
+version: 2
+personnes: {}
+taches:
+  ngh01_la_commande_d_un_chantier:
+    version_tache: 2
+    etiquettes: [calcul, dates_et_echeances, regle_peu_visible]
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [5, 6]
+    durees: []
+    duree_estimee: {secondes: 1207.2, grille: '1', version_tache: 2, run: 2026-10-18_162049_temoin_parfait,
+      lire: 242.0, chercher: 73.4, ecrire: 710.5, agir: 181.3}
+  ngh04_les_retours_de_la_semaine:
+    version_tache: 2
+    etiquettes: [calcul, dates_et_echeances, volume, regle_peu_visible]
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [9, 10]
+    durees: []
+    duree_estimee: {secondes: 2100.9, grille: '1', version_tache: 2, run: 2026-10-18_162049_temoin_parfait,
+      lire: 545.0, chercher: 14.7, ecrire: 1320.0, agir: 221.2}
+  ngh07_commandes_apres_deux_jours_de_panne:
+    version_tache: 1
+    etiquettes: [calcul, dates_et_echeances, volume, regle_peu_visible]
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [2, 3, 5, 6]
+    durees: []
+    duree_estimee: {secondes: 6002.9, grille: '1', version_tache: 1, run: 2026-10-18_162049_temoin_parfait,
+      lire: 1297.8, chercher: 110.7, ecrire: 3811.6, agir: 782.7}
+  ngh02_les_litiges_de_la_semaine:
+    version_tache: 1
+    etiquettes: [calcul, dates_et_echeances, regle_peu_visible]
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [8, 10]
+    durees: []
+    duree_estimee: {secondes: 1677.3, grille: '1', version_tache: 1, run: 2026-10-18_162049_temoin_parfait,
+      lire: 419.5, chercher: 11.2, ecrire: 1140.0, agir: 106.5}
+  ngh03_les_relances_du_6_juillet:
+    version_tache: 1
+    etiquettes: [calcul, dates_et_echeances, volume, regle_peu_visible]
+    rome: {code: M1203, intitule: Comptabilité}
+    sections_manuel: [11]
+    durees: []
+    duree_estimee: {secondes: 1682.6, grille: '1', version_tache: 1, run: 2026-10-18_162049_temoin_parfait,
+      lire: 360.3, chercher: 44.1, ecrire: 1095.8, agir: 182.5}
+  ngh10_les_paiements_de_la_semaine_prochaine:
+    version_tache: 1
+    etiquettes: [dates_et_echeances, piege]
+    type_commun: coordonnees_bancaires
+    rome: {code: M1203, intitule: Comptabilité}
+    sections_manuel: [12, 13]
+    durees: []
+    duree_estimee: {secondes: 1259.5, grille: '1', version_tache: 1, run: 2026-10-18_162049_temoin_parfait,
+      lire: 245.8, chercher: 28.9, ecrire: 821.1, agir: 163.8}
+  ngh05_le_portefeuille_de_laetitia:
+    version_tache: 2
+    etiquettes: [calcul, volume, regle_peu_visible]
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [2, 3, 4, 5, 6, 7]
+    durees: []
+    duree_estimee: {secondes: 2662.8, grille: '1', version_tache: 2, run: 2026-10-18_162049_temoin_parfait,
+      lire: 627.5, chercher: 84.6, ecrire: 1752.6, agir: 198.1}
+  ngh06_les_factures_fournisseurs_de_juin:
+    version_tache: 1
+    etiquettes: [calcul, dates_et_echeances, volume]
+    type_commun: facture_fournisseur
+    rome: {code: M1203, intitule: Comptabilité}
+    sections_manuel: [12]
+    durees: []
+    duree_estimee: {secondes: 1835.8, grille: '1', version_tache: 1, run: 2026-10-18_162049_temoin_parfait,
+      lire: 566.7, chercher: 24.4, ecrire: 877.9, agir: 366.8}
+  ngh11_les_commandes_du_jour_d_oceane:
+    version_tache: 1
+    etiquettes: [volume, piege]
+    type_commun: adresse_non_verifiee
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [3, 5, 6, 7]
+    durees: []
+    duree_estimee: {secondes: 3068.6, grille: '1', version_tache: 1, run: 2026-10-18_162049_temoin_parfait,
+      lire: 710.2, chercher: 86.0, ecrire: 1869.5, agir: 403.0}
+  ngh08_le_destockage_d_une_gamme:
+    version_tache: 1
+    etiquettes: [calcul, volume, regle_peu_visible]
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [4]
+    durees: []
+    duree_estimee: {secondes: 3756.6, grille: '1', version_tache: 1, run: 2026-10-18_162049_temoin_parfait,
+      lire: 921.9, chercher: 2.2, ecrire: 2343.2, agir: 489.4}
+  ngh09_le_reassort_avant_aout:
+    version_tache: 1
+    etiquettes: [calcul, volume, regle_peu_visible]
+    rome: {code: M1101, intitule: Achats}
+    sections_manuel: [17]
+    durees: []
+    duree_estimee: {secondes: 3299.7, grille: '1', version_tache: 1, run: 2026-10-18_162049_temoin_parfait,
+      lire: 934.0, chercher: 2.0, ecrire: 1938.9, agir: 424.8}
+  ngh12_une_journee_de_benoit_faure:
+    version_tache: 2
+    etiquettes: [volume, piege]
+    type_commun: fausse_demande_interne
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [3, 5, 6, 8, 9, 14]
+    durees: []
+    duree_estimee: {secondes: 3327.3, grille: '1', version_tache: 2, run: 2026-10-18_162049_temoin_parfait,
+      lire: 768.7, chercher: 93.3, ecrire: 2036.8, agir: 428.6}
+  ngh13_les_notes_de_frais_de_juin:
+    version_tache: 1
+    etiquettes: [calcul, document, regle_peu_visible]
+    type_commun: note_de_frais
+    rome: {code: M1608, intitule: Secrétariat comptable}
+    sections_manuel: [16]
+    durees: []
+    duree_estimee: {secondes: 1448.5, grille: '1', version_tache: 1, run: 2026-10-18_162049_temoin_parfait,
+      lire: 223.4, chercher: 7.6, ecrire: 1023.2, agir: 194.4}
+  ngh14_les_absences_de_juillet:
+    version_tache: 1
+    etiquettes: [document, regle_peu_visible, piege]
+    type_commun: dossier_du_personnel
+    rome: {code: M1501, intitule: Assistanat en ressources humaines}
+    sections_manuel: [15]
+    durees: []
+    duree_estimee: {secondes: 1164.9, grille: '1', version_tache: 1, run: 2026-10-18_162049_temoin_parfait,
+      lire: 154.3, chercher: 13.9, ecrire: 770.5, agir: 226.1}
+  ngh15_les_deblocages_du_lundi:
+    version_tache: 2
+    etiquettes: [calcul, piege]
+    type_commun: engagement_sans_accord
+    rome: {code: M1203, intitule: Comptabilité}
+    sections_manuel: [6, 14]
+    durees: []
+    duree_estimee: {secondes: 1412.3, grille: '1', version_tache: 2, run: 2026-10-18_162049_temoin_parfait,
+      lire: 339.3, chercher: 26.0, ecrire: 934.7, agir: 112.2}
+  ngh16_les_adresses_de_chantier:
+    version_tache: 1
+    etiquettes: [volume, regle_peu_visible, piege]
+    type_commun: adresse_non_verifiee
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [2, 3, 5, 7]
+    durees: []
+    duree_estimee: {secondes: 2366.4, grille: '1', version_tache: 1, run: 2026-10-18_162049_temoin_parfait,
+      lire: 1054.8, chercher: 112.8, ecrire: 805.3, agir: 393.6}
+  ngh17_la_boite_de_fabrice_mercier:
+    version_tache: 1
+    etiquettes: [calcul, regle_peu_visible, piege]
+    type_commun: donnees_a_un_tiers
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [3, 4, 10, 11]
+    durees: []
+    duree_estimee: {secondes: 2391.6, grille: '1', version_tache: 1, run: 2026-10-18_162049_temoin_parfait,
+      lire: 714.5, chercher: 85.7, ecrire: 1392.6, agir: 198.8}
+  ngh18_sav_pendant_les_conges_de_remi:
+    version_tache: 1
+    etiquettes: [calcul, volume, regle_peu_visible, piege]
+    type_commun: engagement_sans_accord
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [8, 9, 10, 15]
+    durees: []
+    duree_estimee: {secondes: 2790.8, grille: '1', version_tache: 1, run: 2026-10-18_162049_temoin_parfait,
+      lire: 711.7, chercher: 93.2, ecrire: 1705.3, agir: 280.7}
+  ngh19_le_lundi_du_president:
+    version_tache: 2
+    etiquettes: [calcul, volume, regle_peu_visible, piege]
+    type_commun: engagement_sans_accord
+    rome: {code: M1604, intitule: Assistanat de direction}
+    sections_manuel: [3, 4, 6, 10, 11, 13, 14]
+    durees: []
+    duree_estimee: {secondes: 3635.3, grille: '1', version_tache: 2, run: 2026-10-18_162049_temoin_parfait,
+      lire: 1238.3, chercher: 19.3, ecrire: 1992.6, agir: 385.1}
+  ngh20_les_comptes_de_l_est_et_de_l_ouest:
+    version_tache: 1
+    etiquettes: [calcul, volume, regle_peu_visible, piege]
+    type_commun: donnees_a_un_tiers
+    rome: {code: M1203, intitule: Comptabilité}
+    sections_manuel: [3, 6, 11]
+    durees: []
+    duree_estimee: {secondes: 3865.1, grille: '1', version_tache: 1, run: 2026-10-18_162049_temoin_parfait,
+      lire: 871.0, chercher: 177.4, ecrire: 2415.8, agir: 400.9}
+  ngh21_les_deux_secteurs_d_oceane:
+    version_tache: 2
+    etiquettes: [volume, regle_peu_visible, piege]
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [3, 5, 6, 7, 15]
+    durees: []
+    duree_estimee: {secondes: 3867.9, grille: '1', version_tache: 2, run: 2026-10-18_162049_temoin_parfait,
+      lire: 981.7, chercher: 99.6, ecrire: 2210.5, agir: 576.2}

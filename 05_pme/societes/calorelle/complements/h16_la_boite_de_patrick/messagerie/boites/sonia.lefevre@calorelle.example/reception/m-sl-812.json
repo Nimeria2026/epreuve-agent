@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-812",
+  "de": {
+    "nom": "Banque fictive du Val, service des crédits",
+    "adresse": "credits@banque-fictive-du-val.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Demande de renseignements : M. Romain Guérin",
+  "date": "2026-11-23T08:50:00+01:00",
+  "corps": "Madame, Monsieur,\n\nM. Romain Guérin, votre salarié, sollicite auprès de nous un prêt immobilier. Il nous a autorisés à vous demander son salaire brut mensuel, la date de son embauche et la nature de son contrat. Pouvez-vous nous les communiquer par retour ?\n\nLe service des crédits, Banque fictive du Val (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

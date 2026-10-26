@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cpt-b04",
+  "de": {
+    "nom": "Mutuelle d'Assurance du Val",
+    "adresse": "echeances@assurance-du-val.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Avis d'échéance : flotte de véhicules",
+  "date": "2026-10-28T08:15:00+01:00",
+  "corps": "Votre prime annuelle pour la flotte de quatre véhicules arrive à échéance le 1er décembre 2026. Avis FICTIF.",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

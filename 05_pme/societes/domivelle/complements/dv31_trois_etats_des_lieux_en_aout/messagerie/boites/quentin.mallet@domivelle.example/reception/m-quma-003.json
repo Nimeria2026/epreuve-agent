@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-quma-003",
+  "de": {
+    "nom": "Solène Audoin",
+    "adresse": "solene.audoin@domivelle.example"
+  },
+  "a": [
+    "quentin.mallet@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Fin de préavis, lot s01-03",
+  "date": "2026-06-05T16:10:00+02:00",
+  "corps": "Quentin,\n\nMme Estelle Gaillard, locataire du lot s01-03, a donné congé par lettre recommandée reçue le mercredi 27 mai : préavis de trois mois, qui finit le jeudi 27 août. Je lui ai écrit la date de fin, ainsi qu'au propriétaire. À toi pour l'état des lieux de sortie.\n\nSolène",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

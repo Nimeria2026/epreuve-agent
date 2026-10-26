@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0010"
+nom: "Christophe Guérin"
+type: "particulier"
+adresse: "116 rue du Moulin, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "christophe.guerin@courriel.example"
+telephone: "06 39 98 50 01"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2022-02-06"
+  mois_anniversaire: "février"
+  derniere_visite: "2026-02-22"

@@ -1,0 +1,39 @@
+{
+  "numero": "BL-2026-01725",
+  "commande": "CO-2026-01876",
+  "client": "c-0334",
+  "date_expedition": "2026-06-26",
+  "date_livraison": "2026-06-26",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "80 chemin du Bois, 36999 Laubrissac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ELE-10579",
+      "libelle": "Boîte de dérivation à couvercle vissé 220 mm",
+      "quantite": 12
+    },
+    {
+      "reference": "ELE-10620",
+      "libelle": "Boîte de dérivation à encastrer 150 mm",
+      "quantite": 1
+    },
+    {
+      "reference": "ELP-10547",
+      "libelle": "Foret béton SDS-plus 10x210 mm",
+      "quantite": 10
+    },
+    {
+      "reference": "FIX-12139",
+      "libelle": "Équerre de fixation 120x80x20 mm, zinguée",
+      "quantite": 60
+    }
+  ],
+  "reserves": null,
+  "signataire": "Martine Cadiou",
+  "statut": "livre"
+}

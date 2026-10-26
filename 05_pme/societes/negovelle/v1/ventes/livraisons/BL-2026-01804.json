@@ -1,0 +1,39 @@
+{
+  "numero": "BL-2026-01804",
+  "commande": "CO-2026-01955",
+  "client": "c-0252",
+  "date_expedition": "2026-07-01",
+  "date_livraison": "2026-07-01",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "2 chemin du Bois, 36999 Vaumoreau-sur-Indre (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ELE-10367",
+      "libelle": "Borne de connexion automatique 3 conducteurs, boîte de 100",
+      "quantite": 6
+    },
+    {
+      "reference": "OUT-11045",
+      "libelle": "Lime triangulaire 300 mm, taille bâtarde",
+      "quantite": 4
+    },
+    {
+      "reference": "OUT-13119",
+      "libelle": "Équerre de menuisier 200 mm",
+      "quantite": 3
+    },
+    {
+      "reference": "PRO-10963",
+      "libelle": "Gants de manutention enduits nitrile, taille 7",
+      "quantite": 36
+    }
+  ],
+  "reserves": null,
+  "signataire": "Suzanne Bunel",
+  "statut": "livre"
+}

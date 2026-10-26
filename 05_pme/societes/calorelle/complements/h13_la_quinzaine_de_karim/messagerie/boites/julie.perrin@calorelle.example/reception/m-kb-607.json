@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-607",
+  "de": {
+    "nom": "Syndic de la Résidence des Tilleuls",
+    "adresse": "syndic@residence-des-tilleuls.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis de la nouvelle chaudière collective",
+  "date": "2026-11-22T11:00:00+01:00",
+  "corps": "Bonjour Monsieur Benali,\n\nM. Girard est passé mercredi voir notre chaufferie. Pouvez-vous nous adresser le devis du remplacement de la chaudière collective ? Notre assemblée générale se tient le 10 décembre. Par ailleurs, la visite d'entretien annuelle de la chaufferie n'a pas encore eu lieu cette année : quand est-elle prévue ?\n\nCordialement,\nLe syndic de la Résidence des Tilleuls, 2 avenue des Tilleuls, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

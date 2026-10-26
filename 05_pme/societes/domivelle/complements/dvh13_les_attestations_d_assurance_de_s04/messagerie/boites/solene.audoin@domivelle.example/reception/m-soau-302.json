@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-soau-302",
+  "de": {
+    "nom": "Mme Léa Pichon",
+    "adresse": "lea.pichon@mel-perso.example"
+  },
+  "a": [
+    "solene.audoin@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Mon assurance",
+  "date": "2026-06-06T11:02:00+02:00",
+  "corps": "Bonjour Madame,\n\nVous m'avez demandé mon attestation : la voici, elle couvre du 1er avril 2025 au 31 mars 2026.\n\nLéa Pichon, lot s04-10",
+  "pieces_jointes": [
+    {
+      "nom": "attestation_assurance.pdf",
+      "fichier": "pieces/m-soau-302/attestation_assurance.pdf",
+      "taille_octets": 819
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

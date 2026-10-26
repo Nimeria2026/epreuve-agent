@@ -1,0 +1,79 @@
+{
+  "numero": "CO-2026-01899",
+  "client": "c-0079",
+  "reference_client": "BC-446",
+  "cree_le": "2026-06-26T09:10:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "36 zone artisanale du Moulin, 36999 Fontclavier (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-10775",
+      "libelle": "Collier de serrage 300x7,6 mm, sachet de 100",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 4.5,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 4.32,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 21.6
+    },
+    {
+      "reference": "ELP-10220",
+      "libelle": "Disque à tronçonner béton 230 mm, boîte de 25",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 41.95,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 40.27,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 161.08
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 197.68,
+  "total_tva_euros": 39.54,
+  "total_ttc_euros": 237.22,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01748"
+  ],
+  "facture": "FC-2026-1071",
+  "historique": [
+    {
+      "date": "2026-06-26T09:10:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-26T09:12:00+02:00",
+      "par": "oceane.collin",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-29T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01748"
+    },
+    {
+      "date": "2026-06-29T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01748"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1071"
+    }
+  ]
+}

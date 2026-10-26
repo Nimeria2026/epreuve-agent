@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-brca-001",
+  "de": {
+    "nom": "Gilles Poirier",
+    "adresse": "gilles.poirier@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Candidature de cariste",
+  "date": "2026-07-06T07:40:00+02:00",
+  "corps": "Bruno,\n\nC'est mon voisin, sérieux, CACES en poche. Peux-tu transmettre son CV à Vincent, qui cherche quelqu'un pour les réceptions, et me dire ce que tu en penses ?\n\nGilles\n\n----- Message transféré -----\nDe : Maxence Lebeau <maxence.lebeau@messagerie-perso.example>\nObjet : Candidature de cariste\n\nMonsieur Poirier,\n\nComme convenu, voici mon CV pour un poste de cariste chez Négovelle.\n\nMaxence Lebeau",
+  "pieces_jointes": [
+    {
+      "nom": "cv.pdf",
+      "fichier": "pieces/m-brca-001/cv.pdf",
+      "taille_octets": 791
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

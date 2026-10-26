@@ -1,0 +1,19 @@
+# Fiche du lot s04-21. Données FICTIVES.
+lot: s04-21
+adresse: 138 chemin du Bois, 18999 Chantebrune (FICTIF)
+type: T3
+surface_m2: 67
+locataire:
+  nom: M. Hugo Lucas
+  courriel: hugo.lucas@courriel.example
+  telephone: 06 39 98 71 21
+  entree: '2017-07-02'
+bail:
+  signature: '2017-07-02'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 616,00 €
+  depot_de_garantie: 513,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T1
+dpe:
+  classe: E

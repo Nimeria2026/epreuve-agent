@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-laga-003",
+  "de": {
+    "nom": "Jérôme Valentin",
+    "adresse": "jerome.valentin@peinture-simonet.example"
+  },
+  "a": [
+    "laetitia.garnier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande boîtes aux lettres",
+  "date": "2026-07-04T09:10:00+02:00",
+  "corps": "Bonjour,\n\nVoici notre commande pour la résidence des Tilleuls, à livrer au siège :\n- 12 x QUI-10097, Boîte aux lettres double face, blanc\n- 6 x QUI-10196, Boîte aux lettres à encastrer, vert\n\nCordialement,\nJérôme Valentin\nPeinture Simonet",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

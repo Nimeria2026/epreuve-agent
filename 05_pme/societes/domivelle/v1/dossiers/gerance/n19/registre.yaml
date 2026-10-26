@@ -1,0 +1,47 @@
+# Registre des lots en gestion, n19. Données FICTIVES.
+immeuble: n19
+nature: groupe de maisons
+adresse: 131 rue de la Fontaine, 18999 Vernillac (FICTIF)
+secteur: nord
+gestionnaire: Élodie Chauvin
+distance_agence_km: 9
+annee_construction: 2005
+gardien: false
+copropriete_du_syndic: null
+lots:
+- lot: n19-01
+  type: maison T3
+  surface_m2: 84
+  proprietaire: p-0320
+  locataire: Mme Manon Rolland
+  entree: '2022-09-30'
+  loyer_hors_charges: 683,00 €
+  provision_sur_charges: 15,00 €
+  depot_de_garantie: 635,00 €
+  revision: chaque 30 septembre
+  trimestre_irl: T2
+  dpe: F
+- lot: n19-02
+  type: maison T5
+  surface_m2: 116
+  proprietaire: p-0373
+  locataire: Mme Aurélie Fleury
+  entree: '2018-08-21'
+  loyer_hors_charges: 1 030,00 €
+  provision_sur_charges: 14,00 €
+  depot_de_garantie: 877,00 €
+  revision: chaque 21 août
+  trimestre_irl: T2
+  dpe: D
+- lot: n19-03
+  type: maison T5
+  surface_m2: 102
+  proprietaire: p-0374
+  locataire: M. Michel Simon
+  entree: '2019-08-10'
+  loyer_hors_charges: 917,00 €
+  provision_sur_charges: 7,00 €
+  depot_de_garantie: 797,00 €
+  revision: chaque 10 août
+  trimestre_irl: T2
+  dpe: E

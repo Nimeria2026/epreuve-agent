@@ -1,0 +1,8 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0376"
+nom: "Laurent Fontaine"
+type: "particulier"
+adresse: "21 rue des Écoles, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "laurent.fontaine@courriel.example"
+telephone: "06 39 98 50 88"
+charge_d_affaires: "julie.perrin"

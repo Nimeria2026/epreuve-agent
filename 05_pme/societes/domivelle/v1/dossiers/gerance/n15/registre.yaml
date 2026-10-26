@@ -1,0 +1,95 @@
+# Registre des lots en gestion, n15. Données FICTIVES.
+immeuble: n15
+nature: groupe de maisons
+adresse: 36 rue de la Fontaine, 18999 Vernillac (FICTIF)
+secteur: nord
+gestionnaire: Élodie Chauvin
+distance_agence_km: 14
+annee_construction: 1969
+gardien: false
+copropriete_du_syndic: null
+lots:
+- lot: n15-01
+  type: maison T5
+  surface_m2: 113
+  proprietaire: p-0348
+  locataire: M. Luc Rousset
+  entree: '2023-01-15'
+  loyer_hors_charges: 1 013,00 €
+  provision_sur_charges: 10,00 €
+  depot_de_garantie: 942,00 €
+  revision: chaque 15 janvier
+  trimestre_irl: T3
+  dpe: E
+- lot: n15-02
+  type: maison T4
+  surface_m2: 93
+  proprietaire: p-0339
+  locataire: M. Henri Aubert
+  entree: '2020-04-27'
+  loyer_hors_charges: 870,00 €
+  provision_sur_charges: 4,00 €
+  depot_de_garantie: 757,00 €
+  revision: chaque 27 avril
+  trimestre_irl: T4
+  dpe: F
+- lot: n15-03
+  type: maison T4
+  surface_m2: 102
+  proprietaire: p-0349
+  locataire: Mme Fabienne Vallée
+  entree: '2012-10-09'
+  loyer_hors_charges: 801,00 €
+  provision_sur_charges: 0,00 €
+  depot_de_garantie: 605,00 €
+  revision: chaque 9 octobre
+  trimestre_irl: T2
+  dpe: F
+- lot: n15-04
+  type: maison T3
+  surface_m2: 80
+  proprietaire: p-0350
+  locataire: Mme Madeleine Colas
+  entree: '2023-09-26'
+  loyer_hors_charges: 684,00 €
+  provision_sur_charges: 15,00 €
+  depot_de_garantie: 651,00 €
+  revision: chaque 26 septembre
+  trimestre_irl: T2
+  dpe: B
+- lot: n15-05
+  type: maison T5
+  surface_m2: 120
+  proprietaire: p-0314
+  locataire: Mme Madeleine Chevalier
+  entree: '2025-03-06'
+  loyer_hors_charges: 1 075,00 €
+  provision_sur_charges: 13,00 €
+  depot_de_garantie: 1 049,00 €
+  revision: chaque 6 mars
+  trimestre_irl: T4
+  dpe: D
+- lot: n15-06
+  type: maison T5
+  surface_m2: 120
+  proprietaire: p-0351
+  locataire: M. Gérard Huet
+  entree: '2016-10-18'
+  loyer_hors_charges: 1 103,00 €
+  provision_sur_charges: 18,00 €
+  depot_de_garantie: 900,00 €
+  revision: chaque 18 octobre
+  trimestre_irl: T2
+  dpe: D
+- lot: n15-07
+  type: maison T5
+  surface_m2: 109
+  proprietaire: p-0352
+  locataire: M. Jean Guillot
+  entree: '2019-08-14'
+  loyer_hors_charges: 992,00 €
+  provision_sur_charges: 3,00 €
+  depot_de_garantie: 863,00 €
+  revision: chaque 14 août
+  trimestre_irl: T2
+  dpe: D

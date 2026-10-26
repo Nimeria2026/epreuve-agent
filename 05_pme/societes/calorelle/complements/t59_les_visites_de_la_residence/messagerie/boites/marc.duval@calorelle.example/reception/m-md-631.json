@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-631",
+  "de": {
+    "nom": "Syndic de la Résidence des Tilleuls",
+    "adresse": "syndic@residence-des-tilleuls.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Affichage des passages de novembre",
+  "date": "2026-11-02T08:25:00+01:00",
+  "corps": "Bonjour Monsieur Duval,\n\nPour notre affichage dans le hall, pouvez-vous nous donner les jours et heures de passage de vos techniciens dans la résidence en novembre : la visite de la chaufferie, et celles des appartements des copropriétaires qui ont un contrat chez vous ? Nous préviendrons chacun.\n\nCordialement,\nLe syndic de la Résidence des Tilleuls, 2 avenue des Tilleuls (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,28 @@
+# Fiche du client c-0296 de Négovelle. Données FICTIVES.
+code: c-0296
+nom: Charpente Vallet
+type: artisan
+adresse: 43 avenue de la Gare, 36999 Saulvenne (FICTIF)
+telephone: 02 61 91 81 53
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Xavier Auger
+  fonction: gérant
+  courriel: xavier.auger@charpente-vallet.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 43 avenue de la Gare, 36999 Saulvenne (FICTIF)
+- code: L2
+  libelle: chantier déclaré
+  adresse: 13 rue du Pont, 36999 Vaumoreau-sur-Indre (FICTIF)
+categorie_remise: C
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2025-06-01'
+limite_encours_euros: 1500.0
+livraisons_partielles: false
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

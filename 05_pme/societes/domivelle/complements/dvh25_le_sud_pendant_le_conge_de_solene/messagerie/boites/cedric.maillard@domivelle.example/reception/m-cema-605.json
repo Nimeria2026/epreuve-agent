@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cema-605",
+  "de": {
+    "nom": "Pascal Leblanc",
+    "adresse": "pascal.leblanc@boite-postale.example"
+  },
+  "a": [
+    "cedric.maillard@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Le portail ne s'ouvre plus",
+  "date": "2026-09-05T09:20:00+02:00",
+  "corps": "Bonjour,\n\nLe portail motorisé de la maison s16-01 ne s'ouvre plus. Électricité des Rouches est passée : la carte électronique est à changer, son devis de 540,00 € TTC est joint. Pouvez-vous lancer la réparation ?\n\nPascal Leblanc",
+  "pieces_jointes": [
+    {
+      "nom": "devis_portail_s16-01.pdf",
+      "fichier": "pieces/m-cema-605/devis_portail_s16-01.pdf",
+      "taille_octets": 854
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

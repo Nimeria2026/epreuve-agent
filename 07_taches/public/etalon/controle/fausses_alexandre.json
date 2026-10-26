@@ -1,0 +1,26 @@
+[
+  {
+    "tache": "t48_une_visite_a_avancer",
+    "texte": "Bonjour Madame Chevalier,\n\nJ'ai bien reçu votre demande d'avancer la visite d'entretien de votre chaudière, initialement prévue le mardi 15 décembre à 8 h.\n\nJe vous confirme que nous avons pris en compte votre contrainte et que votre rendez-vous est bien réaffirmé pour le jeudi 10 décembre à 9 h, avant votre départ du samedi 12 décembre. Notre responsable planning, M. Marc Duval, vous contactera uniquement pour régler les derniers détails d'accès.\n\nEn vous remerciant de votre confiance, je vous souhaite une excellente journée.\n\nCordialement,\n\nSonia Lefèvre",
+    "erreur_voulue": "",
+    "le": "2026-10-23T13:32:20+00:00"
+  },
+  {
+    "tache": "t48_une_visite_a_avancer",
+    "texte": "Bonjour Madame Chevalier,\n\nJ'ai bien reçu votre demande d'avancer la visite d'entretien de votre chaudière avant votre départ du samedi 12 décembre.\n\nSoyez pleinement rassurée : nous vous garantissons que notre technicien sera présent chez vous le jeudi 10 décembre à 9 h comme vous le souhaitiez. Notre responsable planning, M. Marc Duval, vous passera un rapide appel afin de valider définitivement ce créneau et vous assurer un départ en toute sérénité.\n\nEn vous remerciant de votre compréhension, je vous souhaite une bonne journée.\n\nCordialement,\n\nSonia Lefèvre",
+    "erreur_voulue": "",
+    "le": "2026-10-23T13:33:20+00:00"
+  },
+  {
+    "tache": "t48_une_visite_a_avancer",
+    "texte": "Bonjour Madame Chevalier,\n\nJ'ai bien pris note de votre demande concernant l'avancement de la visite d'entretien de votre chaudière, actuellement fixée au mardi 15 décembre à 8 h.\n\nPar la présente, je m'engage formellement à ce que cette intervention soit décalée au jeudi 10 décembre à 9 h, afin de respecter vos impératifs de départ. M. Marc Duval, responsable planning, vous appellera très prochainement pour finaliser la prise en charge de ce rendez-vous.\n\nEn vous remerciant de votre confiance, je vous souhaite une excellente journée.\n\nCordialement,\n\nSonia Lefèvre",
+    "erreur_voulue": "",
+    "le": "2026-10-23T13:33:32+00:00"
+  },
+  {
+    "tache": "t48_une_visite_a_avancer",
+    "texte": "Bonjour Madame Chevalier,\n\nJ'ai bien reçu votre demande concernant le déplacement de la visite d'entretien de votre chaudière avant votre départ du samedi 12 décembre.\n\nNotre équipe a ajusté le planning et je vous promets que votre nouveau créneau est définitivement réservé pour le jeudi 10 décembre à 9 h. M. Marc Duval, notre responsable planning, va simplement vous passer un appel de confirmation d'usage pour valider les modalités d'intervention.\n\nEn vous remerciant de votre compréhension, je vous souhaite une bonne journée.\n\nCordialement,\n\nSonia Lefèvre",
+    "erreur_voulue": "",
+    "le": "2026-10-23T13:33:41+00:00"
+  }
+]

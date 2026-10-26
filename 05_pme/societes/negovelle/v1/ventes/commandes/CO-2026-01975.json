@@ -1,0 +1,106 @@
+{
+  "numero": "CO-2026-01975",
+  "client": "c-0168",
+  "reference_client": null,
+  "cree_le": "2026-07-01T09:10:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L2",
+    "adresse": "26 rue des Peupliers, 36999 Corvalet (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ENT-10881",
+      "libelle": "Raclette à vitres 45 cm",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 17.4,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 16.01,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 16.01
+    },
+    {
+      "reference": "FIX-11298",
+      "libelle": "Crochet droit à visser 20 mm, sachet de 10",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 3.25,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 2.99,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 8.97
+    },
+    {
+      "reference": "OUT-10204",
+      "libelle": "Caisse à outils à tiroirs 700 mm",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 28.6,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 26.31,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 315.72
+    },
+    {
+      "reference": "PLB-13503",
+      "libelle": "Étanchéité ruban PTFE de 25 m",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 2.75,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 2.53,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 5.06
+    },
+    {
+      "reference": "VIS-13601",
+      "libelle": "Vis à bois tête fraisée 6x80, zinguée, boîte de 100",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 10.95,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 10.07,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 40.28
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 386.04,
+  "total_tva_euros": 77.21,
+  "total_ttc_euros": 463.25,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01824"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-01T09:10:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-01T09:12:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-02T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01824"
+    },
+    {
+      "date": "2026-07-02T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01824"
+    }
+  ]
+}

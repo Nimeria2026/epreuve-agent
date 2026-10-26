@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-quma-304",
+  "de": {
+    "nom": "Clara Duhamel",
+    "adresse": "clara.duhamel@boite-postale.example"
+  },
+  "a": [
+    "quentin.mallet@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Demande de visite",
+  "date": "2026-06-07T09:40:00+02:00",
+  "corps": "Bonjour,\n\nPuis-je visiter le T3 du 112 place du Marché, à Montclavel-sur-Cher le mardi 14 juillet à 10 h ? Sinon, dites-moi quand c'est possible.\n\nClara Duhamel",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,25 @@
+# Fiche du client c-0308 de Négovelle. Données FICTIVES.
+code: c-0308
+nom: Plâtrerie Foucault
+type: artisan
+adresse: 67 allée des Acacias, 36999 Vaumoreau-sur-Indre (FICTIF)
+telephone: 02 61 91 63 09
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Paul Baudry
+  fonction: gérant
+  courriel: paul.baudry@platrerie-foucault.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 67 allée des Acacias, 36999 Vaumoreau-sur-Indre (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2024-08-01'
+limite_encours_euros: 1500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

@@ -1,0 +1,10 @@
+# Fiche d'un fournisseur de Négovelle. Données FICTIVES.
+nom: Outillage des Tilleuls
+activite: fabricant d'outillage à main
+adresse: 11 parc d'activités de la Gare, 36999 Saulvenne (FICTIF)
+telephone: 02 61 91 82 69
+courriel_commandes: commandes@outillage-des-tilleuls.example
+courriel_facturation: facturation@outillage-des-tilleuls.example
+iban: FR76 9999 9764 3123 2243 1101 053 (FICTIF)
+conditions: paiement à 45 jours fin de mois
+minimum_de_commande: 300,00 € HT

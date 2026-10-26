@@ -1,0 +1,48 @@
+{
+  "numero": "CO-2026-02050",
+  "client": "c-0201",
+  "reference_client": null,
+  "cree_le": "2026-08-17T09:30:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "18 rue des Remparts, 36999 Vendrigny (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-11788",
+      "libelle": "Détecteur de chaleur",
+      "quantite": 50,
+      "prix_tarif_ht_euros": 11.65,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 11.65,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 582.5
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 582.5,
+  "total_tva_euros": 116.5,
+  "total_ttc_euros": 699.0,
+  "statut": "en_attente_deblocage",
+  "motif_attente": "encours dépassé : encours 411,48 € et commande 699,00 € TTC pour une limite de 1 000,00 €",
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-08-17T09:30:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": "commande du client"
+    },
+    {
+      "date": "2026-08-17T09:31:00+02:00",
+      "par": "benoit.faure",
+      "action": "mise_en_attente",
+      "detail": "encours dépassé"
+    }
+  ]
+}

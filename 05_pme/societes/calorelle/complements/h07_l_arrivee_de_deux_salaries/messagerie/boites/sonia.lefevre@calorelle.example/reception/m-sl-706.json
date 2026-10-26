@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-706",
+  "de": {
+    "nom": "Kevin Lambert",
+    "adresse": "kevin.lambert@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Le nouveau",
+  "date": "2026-11-02T07:55:00+01:00",
+  "corps": "Salut Sonia,\n\nIl paraît qu'un nouveau technicien arrive ce mois-ci. Tu sais à quel salaire il est embauché ? J'aimerais savoir si on lui donne plus qu'à moi, avant mon entretien avec Hélène.\n\nKevin (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

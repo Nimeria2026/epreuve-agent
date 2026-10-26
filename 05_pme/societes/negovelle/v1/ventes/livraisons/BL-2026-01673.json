@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01673",
+  "commande": "CO-2026-01824",
+  "client": "c-0041",
+  "date_expedition": "2026-06-24",
+  "date_livraison": "2026-06-24",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "62 chemin des Prés, 36999 Laubrissac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ELE-10392",
+      "libelle": "Borne de connexion à levier 2 conducteurs, boîte de 50",
+      "quantite": 3
+    },
+    {
+      "reference": "ELE-10947",
+      "libelle": "Câble H07V-K 6 mm², couronne de 100 m",
+      "quantite": 5
+    }
+  ],
+  "reserves": null,
+  "signataire": "Inès Hervé",
+  "statut": "livre"
+}

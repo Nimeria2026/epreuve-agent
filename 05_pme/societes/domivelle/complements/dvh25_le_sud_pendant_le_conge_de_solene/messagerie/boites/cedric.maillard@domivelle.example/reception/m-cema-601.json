@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cema-601",
+  "de": {
+    "nom": "Solène Audoin",
+    "adresse": "solene.audoin@domivelle.example"
+  },
+  "a": [
+    "cedric.maillard@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Mon sud pendant mon congé",
+  "date": "2026-09-04T17:50:00+02:00",
+  "corps": "Cédric,\n\nMerci de reprendre le sud pendant mon congé, du lundi 7 au vendredi 18 septembre ; mon message d'absence renvoie vers toi.\n\n- Révisions : celle de Mme Legrand (s10-11) tombe le lundi 14 septembre, à lui écrire. Celle de Mme Rey (s38-07) tombait le vendredi 4 septembre : je n'ai pas eu le temps de la lui écrire, je te la laisse.\n- Révision de Mme Pauline Lainé (s29-03), le samedi 12 septembre, à lui écrire aussi.\n- Congé : celui de Mme Inès Vincent (s27-02), par lettre recommandée reçue le lundi 31 août, est numérisé dans courrier/2026-08/2026-08-31_conge_s27-02.pdf ; je n'ai pas eu le temps de le traiter.\n- Assurance : Mme Jeanne Muller (s14-04) n'a toujours pas envoyé d'attestation ; ma mise en demeure par courriel est partie le lundi 3 août.\n- Le reste arrivera dans ta boîte.\n\nSolène",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

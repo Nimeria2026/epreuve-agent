@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-yode-b04",
+  "de": {
+    "nom": "M. Marcel Régnier",
+    "adresse": "marcel.regnier@messagerie.example"
+  },
+  "a": [
+    "yohan.delmas@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Appel de fonds",
+  "date": "2026-05-30T11:56:00+02:00",
+  "corps": "Bonjour,\n\nJ'ai bien reçu l'appel de fonds du trimestre ; le virement est parti.\n\nM. Marcel Régnier",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

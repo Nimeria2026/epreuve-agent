@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-pare-603",
+  "de": {
+    "nom": "Cédric Maillard",
+    "adresse": "cedric.maillard@domivelle.example"
+  },
+  "a": [
+    "pascale.renaud@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Révision du 10 août, c01-01",
+  "date": "2026-07-31T10:05:00+02:00",
+  "corps": "Pascale,\n\nLa révision du loyer de Mme Simone Joly, lot c01-01, au lundi 10 août : 745,00 € × 148,37 ÷ 146,68, soit 753,58 € hors charges, à l'indice du 2e trimestre. La locataire a reçu le calcul.\n\nCédric",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-hm-532",
+  "de": {
+    "nom": "Camille Martin",
+    "adresse": "camille.martin@courriel.example"
+  },
+  "a": [
+    "helene.marchal@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "RE: Chaudière en panne",
+  "date": "2026-11-23T08:35:00+01:00",
+  "corps": "Madame Marchal,\n\nToujours rien, et il fait 15 degrés dans la maison. Quelqu'un peut-il passer aujourd'hui ?\n\nCamille Martin (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

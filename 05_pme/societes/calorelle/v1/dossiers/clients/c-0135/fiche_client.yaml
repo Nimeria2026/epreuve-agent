@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0135"
+nom: "Jean Dupont"
+type: "particulier"
+adresse: "31 chemin des Vignes, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "jean.dupont@courriel.example"
+telephone: "06 39 98 50 36"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2022-11-09"
+  mois_anniversaire: "novembre"
+  derniere_visite: "2025-11-26"

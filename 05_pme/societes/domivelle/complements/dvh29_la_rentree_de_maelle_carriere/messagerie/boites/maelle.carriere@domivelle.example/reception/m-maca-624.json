@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-maca-624",
+  "de": {
+    "nom": "Drones des Coteaux",
+    "adresse": "offres@drones-des-coteaux.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Inspection de vos toitures par drone",
+  "date": "2026-08-19T07:30:00+02:00",
+  "corps": "Madame,\n\nInspectez les toitures de vos copropriétés sans échafaudage : nos drones photographient une toiture en trente minutes. Offre de lancement jusqu'au 30 septembre : 20 % de remise sur la première inspection.\n\nDrones des Coteaux",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

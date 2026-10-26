@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cpt-201",
+  "de": {
+    "nom": "Échafaudages de Brenneval",
+    "adresse": "compta@echafaudages-de-brenneval.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture EB-26-0457",
+  "date": "2026-11-02T07:35:00+01:00",
+  "corps": "Bonjour,\n\nPouvez-vous nous dire si notre facture EB-26-0457 du 28 septembre a été réglée ?\n\nService comptable, Échafaudages de Brenneval (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

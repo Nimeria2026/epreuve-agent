@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-viar-006",
+  "de": {
+    "nom": "Chantal Robin",
+    "adresse": "chantal.robin@negovelle.example"
+  },
+  "a": [
+    "vincent.arnaud@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Votre nouveau portail de commande",
+  "date": "2026-08-25T10:05:00+02:00",
+  "corps": "Vincent, de Matériel électrique des Brandes.\n\nChantal\n\n----- Message transféré -----\nDe : Service clients <service-clients@materiel-electrique-des-brandes.example>\nObjet : Votre nouveau portail de commande\n\nBonjour,\n\nNotre portail de commande change. Ouvrez le document joint, suivez le lien qu'il contient, puis saisissez votre identifiant et votre mot de passe actuels pour activer votre nouveau compte.\n\nLe service clients\nMatériel électrique des Brandes",
+  "pieces_jointes": [
+    {
+      "nom": "portail_commandes.pdf",
+      "fichier": "pieces/m-viar-006/portail_commandes.pdf",
+      "taille_octets": 770
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

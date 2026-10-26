@@ -1,0 +1,68 @@
+{
+  "numero": "CO-2026-01838",
+  "client": "c-0347",
+  "reference_client": "BC-6175",
+  "cree_le": "2026-06-23T09:10:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "1 zone d'activités des Grands Prés, 36999 Vendrigny (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "QUI-12058",
+      "libelle": "Paumelle 100 mm, laiton, sachet de 10",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 10.55,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 10.55,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 10.55
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 25.55,
+  "total_tva_euros": 5.11,
+  "total_ttc_euros": 30.66,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01687"
+  ],
+  "facture": "FC-2026-1321",
+  "historique": [
+    {
+      "date": "2026-06-23T09:10:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-23T09:12:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-24T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01687"
+    },
+    {
+      "date": "2026-06-24T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01687"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1321"
+    }
+  ]
+}

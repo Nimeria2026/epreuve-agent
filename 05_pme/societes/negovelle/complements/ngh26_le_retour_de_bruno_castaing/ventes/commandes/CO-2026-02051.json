@@ -1,0 +1,86 @@
+{
+  "numero": "CO-2026-02051",
+  "client": "c-0011",
+  "reference_client": null,
+  "cree_le": "2026-08-24T15:00:00+02:00",
+  "cree_par": "laurent.gimenez",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "70 rue Saint-Martin, 36999 Vaumoreau-sur-Indre (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "OUT-11861",
+      "libelle": "Scie de carreleur 250 mm",
+      "quantite": 50,
+      "prix_tarif_ht_euros": 18.25,
+      "remise_pourcent": 7.0,
+      "prix_net_ht_euros": 16.97,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 848.5
+    },
+    {
+      "reference": "VIS-10865",
+      "libelle": "Vis à bois tête fraisée 3,5x35, zinguée, boîte de 200",
+      "quantite": 50,
+      "prix_tarif_ht_euros": 17.75,
+      "remise_pourcent": 6.0,
+      "prix_net_ht_euros": 16.69,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 834.5
+    },
+    {
+      "reference": "QUI-12237",
+      "libelle": "Paumelle 140 mm, inox, sachet de 4",
+      "quantite": 20,
+      "prix_tarif_ht_euros": 24.25,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 24.25,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 485.0
+    },
+    {
+      "reference": "OUT-12033",
+      "libelle": "Scie à métaux 300 mm",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 30.25,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 30.25,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 302.5
+    },
+    {
+      "reference": "OUT-12988",
+      "libelle": "Truelle à joint 180 mm",
+      "quantite": 30,
+      "prix_tarif_ht_euros": 13.0,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 13.0,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 390.0
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 2860.5,
+  "total_tva_euros": 572.1,
+  "total_ttc_euros": 3432.6,
+  "statut": "brouillon",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-08-24T15:00:00+02:00",
+      "par": "laurent.gimenez",
+      "action": "creee",
+      "detail": "prix demandés au président"
+    }
+  ]
+}

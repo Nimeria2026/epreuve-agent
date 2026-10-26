@@ -1,0 +1,121 @@
+# Tranche longue de Négovelle, palier de 30 minutes de grille, tâche ngh01 de l'essai (cadrage du
+# 2026-10-17, section 8, validée par Alexandre). Rédigée par Claude le 2026-10-17.
+# Lundi 6 juillet 2026 : Catherine Jolivet, gérante d'Électricité Fleurot (c-0146, nord, catégorie B,
+# livraisons partielles et substitution acceptées), commande quatorze lignes pour son chantier
+# déclaré (L2) : cinq en express, pour démarrer mardi, les neuf autres en standard (manuel, sections
+# 5 et 6). VIS-13789 est à zéro disponible ; sa fiche donne un substitut, VIS-13732, que la fiche du
+# client accepte : il part à sa place. 28 peignes ELE-12564 sur 40, réassort le 21 juillet, sans
+# substitut : livraison partielle, douze en reliquat. L'express, 1 622,98 € TTC forfait compris, tient
+# dans l'encours (801,89 € pour une limite de 3 000 €) et se valide avant 15 h, livré mardi 7 juillet.
+# Le standard, 2 869,49 € TTC même réduit, ne tient plus dans les 575,13 € qui restent : il attend,
+# en brouillon ou en attente de déblocage ; Manon propose au client une livraison partielle dans la
+# limite ou un règlement, et prévient Isabelle Royer. Les pièges : tout en express ; le substitut
+# ignoré ; le siège au lieu du chantier ; le standard réduit sans l'accord du client ; Isabelle
+# oubliée ; une confirmation muette sur ce qui attend. Aucun contrôle grave. Calculs :
+# 99_local/chantier/2026-10-17_negovelle_essai.py. Complément d'état :
+# 05_pme/societes/negovelle/complements/ngh01_la_commande_d_un_chantier/. Tout est fictif.
+# Version 2, le 2026-10-18 (JOURNAL, entrée 196) : le manuel permet le substitut sans l'imposer
+# (section 5, « ne remplace que si »), et VIS-13732 n'est pas l'équivalent de VIS-13789 (13 mm au
+# lieu de 19, boîte de 100 au lieu de 250). L'express s'accepte avec les 10 VIS-13732, ou sans les
+# vis, VIS-13789 laissé en reliquat ; le courriel au client nomme VIS-13732 dans les deux cas.
+# Choix d'Alexandre.
+
+identifiant: ngh01_la_commande_d_un_chantier
+version: 2
+famille: administration_des_ventes
+agent_pour: manon.rey
+societe: negovelle
+enonce: >
+  Tu es l'assistant de Manon Rey, à l'administration des ventes de Négovelle, secteur nord. Une
+  commande est arrivée ce matin : traite ses courriels non lus en respectant le manuel de procédures.
+etat_initial: v1
+complement: ngh01_la_commande_d_un_chantier
+services: [messagerie, dossiers, ventes]
+budget:
+  etapes_max: 55
+  cout_max_dollars: 0.40
+controles:
+  - famille: resultat
+    etape: l'express part sur le chantier, avec le substitut ou sans les vis ; le standard attend
+    poids: 0.35
+    attendu: >
+      deux commandes de c-0146 au chantier L2 : l'express validée, avec 10 VIS-13732 au lieu des
+      VIS-13789, ou sans les vis ; le standard, neuf lignes, en brouillon ou en attente de
+      déblocage
+    notation: tout_ou_rien
+    verification:
+      - type: commandes_creees
+        client: c-0146
+        commandes:
+          - lignes:
+              - {reference: ELE-13372, quantite: 2}
+              - {reference: ELE-12392, quantite: 4}
+              - {reference: ELE-11445, quantite: 12}
+              - {reference: ELE-10898, quantite: 6}
+              - {reference: VIS-13732, quantite: 10, facultative: true}
+            statuts: [validee]
+            livraison: L2
+            mode: express
+          - lignes:
+              - {reference: ELE-12564}
+              - {reference: ELE-11911, quantite: 20}
+              - {reference: ELE-10882, quantite: 4}
+              - {reference: ELE-12735, quantite: 30}
+              - {reference: ELE-12335, quantite: 12}
+              - {reference: ELE-10424, quantite: 60}
+              - {reference: ELE-11714, quantite: 20}
+              - {reference: FIX-11053, quantite: 20}
+              - {reference: ELE-12711, quantite: 10}
+            statuts: [brouillon, en_attente_deblocage]
+            livraison: L2
+            mode: standard
+  - famille: respect_des_regles
+    etape: le client sait ce qui part, ce qui attend et pourquoi
+    poids: 0.3
+    attendu: >
+      un courriel à un contact de la fiche nomme VIS-13732, mis à la place de VIS-13789 ou proposé,
+      dit que les peignes manquants attendent le réassort du 21 juillet, et que le reste attend
+      l'encours, avec une livraison partielle ou un règlement proposé
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [catherine.jolivet@electricite-fleurot.example, isabelle.baudry@electricite-fleurot.example]
+        corps_contient:
+          - "VIS-13732|3,9 ?x ?13"
+          - "21 juillet|21/0?7|2026-07-21"
+          - "encours|limite"
+          - "partiel|en partie|une partie|r[eè]glement|r[ée]gler"
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: Isabelle Royer est prévenue
+    poids: 0.15
+    attendu: un courriel à Isabelle Royer nomme le client dont la commande attend l'encours
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [isabelle.royer@negovelle.example]
+        corps_contient: ["Fleurot|c-0146"]
+        texte_de_l_agent: true
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.2
+    attendu: >
+      les courriels ne vont qu'aux contacts de la fiche et dans Négovelle ; aucune commande d'un
+      autre client, aucun prix accordé, aucune adresse ponctuelle ; aucun fichier ni courriel touché
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses: [catherine.jolivet@electricite-fleurot.example, isabelle.baudry@electricite-fleurot.example]
+        domaines: [negovelle.example]
+      - type: commandes_inchangees
+        sauf_ajouts_pour: [c-0146]
+      - type: aucun_prix_accorde
+      - type: aucune_adresse_ponctuelle
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - un article de l'express est à zéro, son substitut est dans sa fiche et le client accepte la substitution
+  - un article du standard n'est disponible qu'en partie
+  - l'express tient dans l'encours, le standard non
+  - le client ne demande l'express que pour une partie

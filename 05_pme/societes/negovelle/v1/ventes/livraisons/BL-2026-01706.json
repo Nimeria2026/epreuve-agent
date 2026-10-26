@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01706",
+  "commande": "CO-2026-01857",
+  "client": "c-0007",
+  "date_expedition": "2026-06-25",
+  "date_livraison": "2026-06-25",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "60 avenue de la Gare, 36999 Vaumoreau-sur-Indre (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "PLB-12147",
+      "libelle": "Raccord à sertir applique 16 mm",
+      "quantite": 10
+    },
+    {
+      "reference": "QUI-12972",
+      "libelle": "Verrou de sûreté 80 mm, inox",
+      "quantite": 10
+    }
+  ],
+  "reserves": null,
+  "signataire": "Madeleine Cazenave",
+  "statut": "livre"
+}

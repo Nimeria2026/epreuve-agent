@@ -1,0 +1,64 @@
+{
+  "numero": "CO-2026-02042",
+  "client": "c-0109",
+  "reference_client": null,
+  "cree_le": "2026-07-03T16:40:00+02:00",
+  "cree_par": "fabrice.mercier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "14 zone artisanale du Moulin, 36999 Ardillac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "VIS-10024",
+      "libelle": "Boulon tête hexagonale M10x100, zingué, sachet de 25",
+      "quantite": 20,
+      "prix_tarif_ht_euros": 9.75,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 8.97,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 179.4
+    },
+    {
+      "reference": "VIS-10245",
+      "libelle": "Boulon tête hexagonale M12x60, zingué, sachet de 10",
+      "quantite": 30,
+      "prix_tarif_ht_euros": 10.5,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 9.66,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 289.8
+    },
+    {
+      "reference": "VIS-11273",
+      "libelle": "Vis à bois tête fraisée 3x25, zinguée, boîte de 100",
+      "quantite": 20,
+      "prix_tarif_ht_euros": 9.2,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 8.46,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 169.2
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 638.4,
+  "total_tva_euros": 127.68,
+  "total_ttc_euros": 766.08,
+  "statut": "brouillon",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T16:40:00+02:00",
+      "par": "fabrice.mercier",
+      "action": "creee",
+      "detail": ""
+    }
+  ]
+}

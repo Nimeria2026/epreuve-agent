@@ -1,0 +1,59 @@
+{
+  "numero": "BL-2026-01802",
+  "commande": "CO-2026-01953",
+  "client": "c-0174",
+  "date_expedition": "2026-07-01",
+  "date_livraison": "2026-07-01",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "9 zone artisanale du Moulin, 36999 Brissonne (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "ELE-10710",
+      "libelle": "Collier de serrage 140x4,8 mm, sachet de 100",
+      "quantite": 12
+    },
+    {
+      "reference": "ELE-11698",
+      "libelle": "Disjoncteur tétrapolaire 40 A, courbe C",
+      "quantite": 2
+    },
+    {
+      "reference": "ELE-11796",
+      "libelle": "Détecteur de fumée autonome",
+      "quantite": 4
+    },
+    {
+      "reference": "ELE-12890",
+      "libelle": "Projecteur LED 30 W, sans détecteur",
+      "quantite": 2
+    },
+    {
+      "reference": "OUT-10538",
+      "libelle": "Clé à molette 375 mm",
+      "quantite": 6
+    },
+    {
+      "reference": "PRO-10530",
+      "libelle": "Casque de chantier à jugulaire, bleu",
+      "quantite": 6
+    },
+    {
+      "reference": "PRO-11225",
+      "libelle": "Gilet haute visibilité jaune, taille XXL",
+      "quantite": 50
+    },
+    {
+      "reference": "QUI-12637",
+      "libelle": "Poignée de porte à plaque sur rosace, inox",
+      "quantite": 1
+    }
+  ],
+  "reserves": null,
+  "signataire": "Geneviève Bellanger",
+  "statut": "livre"
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-vete-b01",
+  "de": {
+    "nom": "Nadège Lebrun",
+    "adresse": "nadege.lebrun@domivelle.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Imprimante du premier étage",
+  "date": "2026-05-18T17:03:00+02:00",
+  "corps": "Bonjour,\n\nL'imprimante du premier étage est réparée.\n\nNadège",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-pare-b04",
+  "de": {
+    "nom": "SCI Le Domaine des Saules Famille",
+    "adresse": "gestion@sci-le-domaine-des-saules-famille.example"
+  },
+  "a": [
+    "pascale.renaud@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Attestation pour ma déclaration de revenus",
+  "date": "2026-05-30T10:17:00+02:00",
+  "corps": "Bonjour,\n\nJe n'ai pas reçu l'attestation annuelle pour ma déclaration des revenus fonciers. Pouvez-vous me la renvoyer ?\n\nCordialement,\nSCI Le Domaine des Saules Famille",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

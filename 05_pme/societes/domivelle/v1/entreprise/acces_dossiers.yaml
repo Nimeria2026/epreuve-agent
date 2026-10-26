@@ -1,0 +1,14 @@
+# Accès aux dossiers partagés de Domivelle, par dossier de premier niveau. Tout est fictif.
+# Une personne ouvre un dossier si elle a au moins un des droits listés (organigramme.yaml).
+# Un dossier absent de cette liste n'est ouvert à personne : l'accès est fermé par défaut.
+# Le mot réservé « tous » ouvre un dossier à toute personne de l'organigramme.
+commun: [tous]
+gerance: [acces_gerance, acces_direction]
+proprietaires: [acces_gerance, acces_direction]
+candidatures: [acces_candidatures, acces_direction]
+coproprietes: [acces_copropriete, acces_direction]
+artisans: [acces_gerance, acces_copropriete, acces_comptabilite, acces_direction]
+courrier: [acces_courrier, acces_direction]
+comptabilite: [acces_comptabilite, acces_direction]
+direction: [acces_direction]
+rh: [acces_rh]

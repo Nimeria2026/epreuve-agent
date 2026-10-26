@@ -1,0 +1,20 @@
+# Fiche de la copropriété cp35. Données FICTIVES.
+copropriete: cp35
+nom: Résidence Le Mail
+adresse: 64 rue des Forges, 18999 Vernillac (FICTIF)
+lots_principaux: 23
+annee_construction: 1968
+ascenseur: true
+exercice: du lendemain du 31 décembre au 31 décembre
+gestionnaire: Gaëlle Fournel
+conseil_syndical:
+  president: M. Denis Bonnet
+  membres:
+  - Mme Amandine Courtois
+  - Mme Émilie Blondel
+seuil_mise_en_concurrence: 6 000,00 €
+seuil_consultation_du_conseil_syndical: 1 000,00 €
+assureur_de_l_immeuble: Assurances Brévalle (FICTIF)
+declaration_des_sinistres: sinistres@assurances-brevalle.example
+immeuble_en_gestion_locative: n09
+fonds_de_travaux: 5 % du budget prévisionnel, aux tantièmes généraux, appelé avec chaque provision

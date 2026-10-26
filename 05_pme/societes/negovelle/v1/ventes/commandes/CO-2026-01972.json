@@ -1,0 +1,139 @@
+{
+  "numero": "CO-2026-01972",
+  "client": "c-0222",
+  "reference_client": null,
+  "cree_le": "2026-07-01T09:10:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "33 parc d'activités de la Gare, 36999 Vaumoreau-sur-Indre (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "FIX-11078",
+      "libelle": "Collier de fixation 14 mm, sachet de 50",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 9.45,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 9.07,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 9.07
+    },
+    {
+      "reference": "FIX-11535",
+      "libelle": "Goujon d'ancrage M12x100, boîte de 25",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 24.4,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 23.42,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 93.68
+    },
+    {
+      "reference": "FIX-11870",
+      "libelle": "Tige filetée M16, longueur 1 m, zinguée",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 8.8,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 8.45,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 16.9
+    },
+    {
+      "reference": "OUT-11339",
+      "libelle": "Mètre ruban 8 m, ruban de 25 mm",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 14.75,
+      "remise_pourcent": 6.88,
+      "prix_net_ht_euros": 13.74,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 164.88
+    },
+    {
+      "reference": "PLB-12621",
+      "libelle": "Réduction PVC 110x40 mm",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 4.7,
+      "remise_pourcent": 6.88,
+      "prix_net_ht_euros": 4.38,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 43.8
+    },
+    {
+      "reference": "PRO-10457",
+      "libelle": "Casque de chantier non ventilé, jaune",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 14.75,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 14.75,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 177.0
+    },
+    {
+      "reference": "VIS-12980",
+      "libelle": "Vis à bois tête fraisée 5x50, zinguée, boîte de 500",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 17.05,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 16.37,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 163.7
+    },
+    {
+      "reference": "VIS-13634",
+      "libelle": "Vis à tôle tête cylindrique 3,5x16, inox A2, boîte de 250",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 5.45,
+      "remise_pourcent": 5.92,
+      "prix_net_ht_euros": 5.13,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 61.56
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 730.59,
+  "total_tva_euros": 146.12,
+  "total_ttc_euros": 876.71,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01821"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-01T09:10:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-01T09:12:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-02T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01821"
+    },
+    {
+      "date": "2026-07-02T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01821"
+    }
+  ]
+}

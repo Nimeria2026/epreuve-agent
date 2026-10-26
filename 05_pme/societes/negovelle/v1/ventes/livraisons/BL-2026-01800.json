@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01800",
+  "commande": "CO-2026-01951",
+  "client": "c-0299",
+  "date_expedition": "2026-07-01",
+  "date_livraison": "2026-07-01",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "37 zone industrielle des Brandes, 36999 Saulvenne (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "PLB-10996",
+      "libelle": "Coude cuivre à souder 90° 14 mm, sachet de 10",
+      "quantite": 10
+    }
+  ],
+  "reserves": null,
+  "signataire": "Guy Simonet",
+  "statut": "livre"
+}

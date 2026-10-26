@@ -1,0 +1,83 @@
+# Registre des lots en gestion, n03. Données FICTIVES.
+immeuble: n03
+nature: groupe de maisons
+adresse: 107 rue des Jardins, 18999 Saint-Aubrin-des-Bois (FICTIF)
+secteur: nord
+gestionnaire: Élodie Chauvin
+distance_agence_km: 22
+annee_construction: 2007
+gardien: false
+copropriete_du_syndic: null
+lots:
+- lot: n03-01
+  type: maison T4
+  surface_m2: 85
+  proprietaire: p-0014
+  locataire: M. Pascal Michaud
+  entree: '2020-12-03'
+  loyer_hors_charges: 795,00 €
+  provision_sur_charges: 17,00 €
+  depot_de_garantie: 707,00 €
+  revision: chaque 3 décembre
+  trimestre_irl: T3
+  dpe: D
+- lot: n03-02
+  type: maison T3
+  surface_m2: 77
+  proprietaire: p-0014
+  locataire: Mme Anne Prévost
+  entree: '2018-11-04'
+  loyer_hors_charges: 727,00 €
+  provision_sur_charges: 10,00 €
+  depot_de_garantie: 619,00 €
+  revision: chaque 4 novembre
+  trimestre_irl: T3
+  dpe: G
+- lot: n03-03
+  type: maison T5
+  surface_m2: 125
+  proprietaire: p-0010
+  locataire: Mme Simone Vidal
+  entree: '2016-12-14'
+  loyer_hors_charges: 1 023,00 €
+  provision_sur_charges: 11,00 €
+  depot_de_garantie: 835,00 €
+  revision: chaque 14 décembre
+  trimestre_irl: T3
+  dpe: D
+- lot: n03-04
+  type: maison T5
+  surface_m2: 114
+  proprietaire: p-0002
+  locataire: M. André Renard
+  entree: '2016-07-19'
+  loyer_hors_charges: 983,00 €
+  provision_sur_charges: 13,00 €
+  depot_de_garantie: 802,00 €
+  revision: chaque 19 juillet
+  trimestre_irl: T1
+  dpe: E
+- lot: n03-05
+  type: maison T4
+  surface_m2: 86
+  proprietaire: p-0016
+  locataire: Mme Anne Gauthier
+  entree: '2017-06-13'
+  loyer_hors_charges: 675,00 €
+  provision_sur_charges: 6,00 €
+  depot_de_garantie: 562,00 €
+  revision: chaque 13 juin
+  trimestre_irl: T1
+  dpe: E
+- lot: n03-06
+  type: maison T3
+  surface_m2: 80
+  proprietaire: p-0011
+  locataire: Mme Catherine Lévêque
+  entree: '2012-12-24'
+  loyer_hors_charges: 747,00 €
+  provision_sur_charges: 7,00 €
+  depot_de_garantie: 564,00 €
+  revision: chaque 24 décembre
+  trimestre_irl: T3
+  dpe: C

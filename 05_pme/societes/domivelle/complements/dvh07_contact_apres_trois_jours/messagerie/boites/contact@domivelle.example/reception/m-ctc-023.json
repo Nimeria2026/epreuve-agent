@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-ctc-023",
+  "de": {
+    "nom": "Nettoyage du Pré-Carré",
+    "adresse": "facturation@nettoyage-du-pre-carre.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture 2026-0455, Résidence La Croix-Blanche",
+  "date": "2026-06-05T14:00:00+02:00",
+  "corps": "Bonjour,\n\nCi-jointe notre facture n° 2026-0455 pour le nettoyage des parties communes de la Résidence La Croix-Blanche en mai : 1 180,00 € TTC.\n\nNettoyage du Pré-Carré",
+  "pieces_jointes": [
+    {
+      "nom": "facture_2026-0455.pdf",
+      "fichier": "pieces/m-ctc-023/facture_2026-0455.pdf",
+      "taille_octets": 766
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

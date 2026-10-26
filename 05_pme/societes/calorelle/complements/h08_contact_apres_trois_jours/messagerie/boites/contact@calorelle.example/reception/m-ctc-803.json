@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-803",
+  "de": {
+    "nom": "Cabinet Ferrand, syndic",
+    "adresse": "gestion@cabinet-ferrand.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Résidence Les Tilleuls : remplacement de la chaufferie",
+  "date": "2026-10-30T08:40:00+01:00",
+  "corps": "Bonjour,\n\nSyndic de la Résidence Les Tilleuls, 32 logements, nous préparons le remplacement de la chaufferie collective pour l'été prochain. Merci de nous adresser un devis.\n\nCabinet Ferrand (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-aubo-001",
+  "de": {
+    "nom": "Agnès Gautier",
+    "adresse": "agnes.gautier@durieux-renovation.example"
+  },
+  "a": [
+    "aurelie.bonnefoy@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Prix",
+  "date": "2026-08-04T09:15:00+02:00",
+  "corps": "Bonjour Aurélie,\n\nPouvez-vous me donner votre prix pour 60 charnières QUI-10612 et 30 verrous QUI-13005 ? C'est pour la rénovation d'un collège à la rentrée.\n\nMerci,\n\nAgnès Gautier\nDurieux Rénovation",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

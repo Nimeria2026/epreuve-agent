@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-vete-409",
+  "de": {
+    "nom": "Gestimmo Logiciels",
+    "adresse": "offres@gestimmo-logiciels.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Offre spéciale : votre logiciel de gérance à moitié prix",
+  "date": "2026-06-07T06:00:00+02:00",
+  "corps": "Madame la gérante,\n\nJusqu'au 30 juin, notre logiciel de gérance est à moitié prix. Répondez à ce courriel pour une démonstration.\n\nGestimmo Logiciels",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

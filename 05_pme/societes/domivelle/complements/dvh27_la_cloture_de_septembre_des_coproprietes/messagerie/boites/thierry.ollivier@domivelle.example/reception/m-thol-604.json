@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-thol-604",
+  "de": {
+    "nom": "Gaëlle Fournel",
+    "adresse": "gaelle.fournel@domivelle.example"
+  },
+  "a": [
+    "thierry.ollivier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Comptes des Marronniers",
+  "date": "2026-09-29T14:20:00+02:00",
+  "corps": "Thierry,\n\nPour l'assemblée des Marronniers (cp36) du mardi 17 novembre, peux-tu me préparer les comptes de l'exercice clos le 30 juin 2026, par poste, avec leurs comparatifs, et me dire le solde du lot 23 ? Il a été vendu le 12 mars, et M. Carpentier, le vendeur, demande qu'on lui rembourse son trop-perçu.\n\nGaëlle",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

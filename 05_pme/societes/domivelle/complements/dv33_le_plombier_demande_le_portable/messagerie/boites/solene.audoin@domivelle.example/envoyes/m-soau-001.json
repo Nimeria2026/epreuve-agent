@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-soau-001",
+  "de": {
+    "nom": "Solène Audoin",
+    "adresse": "solene.audoin@domivelle.example"
+  },
+  "a": [
+    "facturation@plomberie-du-moulin-barrat.example"
+  ],
+  "cc": [],
+  "objet": "Ordre de service, lot s01-05",
+  "date": "2026-06-04T16:20:00+02:00",
+  "corps": "Bonjour,\n\nMerci d'intervenir au lot s01-05, 25 rue du Lavoir à Sorlay-le-Haut, chez Mme Sophie Charpentier : fuite sur la colonne d'évacuation de la salle de bain, selon votre devis de 240,00 € TTC.\n\nBien cordialement,\nSolène Audoin, gestionnaire locative, Domivelle",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

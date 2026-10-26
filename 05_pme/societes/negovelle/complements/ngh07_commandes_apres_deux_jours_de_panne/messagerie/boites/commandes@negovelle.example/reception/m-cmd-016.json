@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-016",
+  "de": {
+    "nom": "Léa Forestier",
+    "adresse": "lea.forestier@serrurerie-baillet.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande de serrures",
+  "date": "2026-07-02T16:20:00+02:00",
+  "corps": "Bonjour,\n\nVoici notre commande, à livrer au siège :\n\n- 30 x QUI-12793, Serrure à larder à clé L, axe 40 mm\n- 10 x QUI-10073, Arrêt de volet à bascule, blanc\n\nMerci de nous confirmer la livraison.\n\nCordialement,\nLéa Forestier\nSerrurerie Baillet",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

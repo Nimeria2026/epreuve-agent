@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-003",
+  "de": {
+    "nom": "Inès Hervé",
+    "adresse": "ines.herve@couverture-ancelin.example"
+  },
+  "a": [
+    "contact@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Complément à ma commande de ce matin",
+  "date": "2026-07-04T08:10:00+02:00",
+  "corps": "Bonjour,\n\nPour compléter ma commande de ce matin : ajoutez 2 boîtes de chevilles nylon 5x60.\n\nInès Hervé\nCouverture Ancelin",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

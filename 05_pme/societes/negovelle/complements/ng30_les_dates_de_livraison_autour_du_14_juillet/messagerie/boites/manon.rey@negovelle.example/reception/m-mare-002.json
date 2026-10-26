@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-mare-002",
+  "de": {
+    "nom": "Alain Mignot",
+    "adresse": "alain.mignot@platrerie-desjardins.example"
+  },
+  "a": [
+    "manon.rey@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande CO-2026-02045",
+  "date": "2026-07-10T07:55:00+02:00",
+  "corps": "Bonjour,\n\nPourrons-nous avoir notre commande CO-2026-02045 de ce matin le mardi 14 au matin ? Nous démarrons un chantier ce jour-là. Sinon, quand ?\n\nAlain Mignot\nPlâtrerie Desjardins",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-917",
+  "de": {
+    "nom": "Sonia Lefèvre",
+    "adresse": "sonia.lefevre@calorelle.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Pompe à chaleur à l'arrêt",
+  "date": "2026-11-10T08:30:00+01:00",
+  "corps": "Marc, un dépannage arrivé sur contact@.\nSonia\n\n----- Message transféré -----\nIdentifiant : m-ctc-917\nDe : Manon Vincent <manon.vincent@courriel.example>\nÀ : contact@calorelle.example\nCc : (aucun)\nDate : 2026-11-10T08:20:00+01:00\nObjet : Pompe à chaleur à l'arrêt\nPièces jointes : (aucune)\n\nBonjour,\n\nNotre pompe à chaleur est à l'arrêt depuis cette nuit.\n\nManon Vincent, 113 avenue des Tilleuls (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

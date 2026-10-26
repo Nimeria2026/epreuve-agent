@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-903",
+  "de": {
+    "nom": "Sonia Lefèvre",
+    "adresse": "sonia.lefevre@calorelle.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Ma climatisation ne chauffe plus",
+  "date": "2026-11-09T10:20:00+01:00",
+  "corps": "Marc, un dépannage arrivé sur contact@.\nSonia\n\n----- Message transféré -----\nIdentifiant : m-ctc-903\nDe : Camille Lambert <camille.lambert@courriel.example>\nÀ : contact@calorelle.example\nCc : (aucun)\nDate : 2026-11-09T10:05:00+01:00\nObjet : Ma climatisation ne chauffe plus\nPièces jointes : (aucune)\n\nBonjour,\n\nNotre climatisation réversible, qui chauffe la maison, souffle de l'air froid depuis ce matin.\n\nCamille Lambert, 47 avenue des Tilleuls (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

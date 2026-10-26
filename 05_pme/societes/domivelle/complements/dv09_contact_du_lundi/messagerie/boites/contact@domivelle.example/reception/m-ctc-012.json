@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-ctc-012",
+  "de": {
+    "nom": "Électricité des Rouches",
+    "adresse": "facturation@electricite-des-rouches.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture 2026-0618",
+  "date": "2026-06-08T08:44:00+02:00",
+  "corps": "Bonjour,\n\nCi-jointe notre facture n° 2026-0618 pour le lot s03-04 : 156,00 € TTC.\n\nÉlectricité des Rouches",
+  "pieces_jointes": [
+    {
+      "nom": "facture_2026-0618.pdf",
+      "fichier": "pieces/m-ctc-012/facture_2026-0618.pdf",
+      "taille_octets": 794
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

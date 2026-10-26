@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-rejo-014",
+  "de": {
+    "nom": "Nathalie Brunet",
+    "adresse": "nathalie.brunet@negovelle.example"
+  },
+  "a": [
+    "remi.joly@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Vis manquantes",
+  "date": "2026-08-07T16:44:00+02:00",
+  "corps": "Rémi, un de mes dossiers ouverts, à reprendre.\n\nNathalie\n\n----- Message transféré -----\nDe : Camille Pelletier <camille.pelletier@menuiserie-bonneau.example>\nDate : 2026-08-01T10:30:00+02:00\nObjet : Vis manquantes\n\nBonjour,\n\nDans la livraison du mardi 28 juillet, BL-2026-01901, il manque 5 boîtes de vis VIS-11445. Nous avons écrit au transporteur en recommandé ce matin (copie jointe).\n\nCamille Pelletier\nMenuiserie Bonneau",
+  "pieces_jointes": [
+    {
+      "nom": "lettre_recommandee_transporteur.pdf",
+      "fichier": "pieces/m-rejo-014/lettre_recommandee_transporteur.pdf",
+      "taille_octets": 937
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

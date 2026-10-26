@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cema-002",
+  "de": {
+    "nom": "Henri Ferry",
+    "adresse": "henri.ferry@messagerie.example"
+  },
+  "a": [
+    "cedric.maillard@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Fuite sous l'évier",
+  "date": "2026-06-08T07:32:00+02:00",
+  "corps": "Bonjour,\n\nLe tuyau sous l'évier de la cuisine fuit : l'eau coule en continu dans le meuble. J'ai mis une bassine et fermé le petit robinet, mais ça coule encore.\n\nHenri Ferry, lot c01-06",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-brca-027",
+  "de": {
+    "nom": "Jordan Vasseur",
+    "adresse": "jordan.vasseur@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Arrêt de travail",
+  "date": "2026-08-24T07:30:00+02:00",
+  "corps": "Bonjour Bruno,\n\nVoici mon avis d'arrêt de travail, du 24 août 2026 au 4 septembre 2026 : lombalgie aiguë.\n\nJordan",
+  "pieces_jointes": [
+    {
+      "nom": "avis_arret_de_travail.pdf",
+      "fichier": "pieces/m-brca-027/avis_arret_de_travail.pdf",
+      "taille_octets": 842
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

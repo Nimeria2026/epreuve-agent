@@ -1,0 +1,49 @@
+{
+  "numero": "BL-2026-01724",
+  "commande": "CO-2026-01875",
+  "client": "c-0174",
+  "date_expedition": "2026-06-26",
+  "date_livraison": "2026-06-26",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "9 zone artisanale du Moulin, 36999 Brissonne (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "FIX-10212",
+      "libelle": "Cheville nylon 10x25, boîte de 200",
+      "quantite": 1
+    },
+    {
+      "reference": "OUT-10146",
+      "libelle": "Caisse à outils plastique 500 mm",
+      "quantite": 1
+    },
+    {
+      "reference": "OUT-10686",
+      "libelle": "Cutter à lame sécable 9 mm",
+      "quantite": 1
+    },
+    {
+      "reference": "PRO-10571",
+      "libelle": "Chaussettes de travail d'été, pointures 39-42",
+      "quantite": 5
+    },
+    {
+      "reference": "QUI-11241",
+      "libelle": "Coulisse de tiroir à billes 400 mm, la paire",
+      "quantite": 2
+    },
+    {
+      "reference": "VIS-13429",
+      "libelle": "Vis à bois tête fraisée 6x45, inox A2, boîte de 200",
+      "quantite": 6
+    }
+  ],
+  "reserves": null,
+  "signataire": "Geneviève Bellanger",
+  "statut": "livre"
+}

@@ -1,0 +1,13 @@
+{
+  "numero": "INT-2026-0010",
+  "client": "c-0062",
+  "techniciens": [
+    "thomas.girard"
+  ],
+  "debut": "2026-11-03T10:00:00+01:00",
+  "fin": "2026-11-03T11:30:00+01:00",
+  "nature": "visite_annuelle",
+  "objet": "Visite annuelle du contrat Sérénité Plus",
+  "statut": "planifiee",
+  "cree_par": "donnees_initiales"
+}

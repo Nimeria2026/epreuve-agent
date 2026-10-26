@@ -1,0 +1,10 @@
+# Fiche d'un fournisseur de Négovelle. Données FICTIVES.
+nom: Électroportatif du Moulin-Neuf
+activite: distributeur d'outillage électroportatif
+adresse: 17 zone industrielle des Brandes, 36999 Ardillac (FICTIF)
+telephone: 02 61 91 88 33
+courriel_commandes: commandes@electroportatif-du-moulin-neuf.example
+courriel_facturation: facturation@electroportatif-du-moulin-neuf.example
+iban: FR76 9999 9517 0785 1849 5557 640 (FICTIF)
+conditions: paiement à 30 jours date de facture
+minimum_de_commande: 300,00 € HT

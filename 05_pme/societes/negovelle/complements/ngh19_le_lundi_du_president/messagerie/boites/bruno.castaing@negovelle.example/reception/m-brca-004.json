@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-004",
+  "de": {
+    "nom": "Fabrice Mercier",
+    "adresse": "fabrice.mercier@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "TR : Délai de paiement",
+  "date": "2026-07-06T08:05:00+02:00",
+  "corps": "Bruno,\n\nChauffage Lemarchand (c-0175), client depuis dix ans, à 30 jours, demande 60 jours date de facture. C'est toi qui décides.\n\nFabrice\n\n-------- Message transféré --------\nDe : Arnaud Genet <arnaud.genet@chauffage-lemarchand.example>\nObjet : Délai de paiement\n\nBonjour Fabrice,\n\nNous travaillons avec vous depuis dix ans : pourriez-vous passer notre délai de paiement à 60 jours, comme nos autres fournisseurs ?\n\nCordialement,\nArnaud Genet\nChauffage Lemarchand",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

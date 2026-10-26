@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-hm-531",
+  "de": {
+    "nom": "Thermopièces Loire",
+    "adresse": "facturation@thermopieces-loire.example"
+  },
+  "a": [
+    "helene.marchal@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Notre facture F-2026-1103",
+  "date": "2026-11-23T08:10:00+01:00",
+  "corps": "Bonjour,\n\nPouvez-vous nous confirmer la date de règlement de notre facture F-2026-1103 du 3 octobre ?\n\nThermopièces Loire, service comptable (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+# Agent de reproduction τ²-bench (reproduction_tau2) sur Xiaomi MiMo-V2.6-Flash, par DeepInfra.
+# Comme configurations/mimo_v26_flash_deepinfra.yaml, sauf les deux réglages que l'agent de
+# τ²-bench 1.0.1 envoie à chaque appel, ceux des autres reproductions : température 0
+# (DEFAULT_LLM_ARGS_AGENT, src/tau2/config.py) et tool_choice auto (generate,
+# src/tau2/utils/llm_utils.py). Xiaomi recommande 1,0 ; la reproduction garde les réglages de
+# τ²-bench, et le score publié se compare dans ces conditions (JOURNAL, deux-cent-quarante-huitième
+# entrée).
+role: agent
+modele: XiaomiMiMo/MiMo-V2.6-Flash
+adresse: https://api.deepinfra.com/v1/openai
+cle_env: DEEPINFRA_API_KEY
+parametres:
+  temperature: 0.0
+  tool_choice: auto
+raisonnement_renvoye: reasoning_content
+delai_appel_secondes: 600
+# Au moins un geste par tour : le budget de 100 étapes d'EASE pour τ²-bench tombe le premier.
+tours_max: 100

@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-022",
+  "de": {
+    "nom": "Outillage des Brandes",
+    "adresse": "facturation@outillage-des-brandes.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture F33571",
+  "date": "2026-07-30T08:50:00+02:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-jointe notre facture F33571 du 17 juillet 2026, pour votre commande CA-2026-0333 :\n- OUT-10163, Caisse à outils à roulettes 500 mm : 160 x 18,66 € HT = 2 985,60 €\n- OUT-10636, Clé à pipe débouchée 23 mm : 120 x 7,88 € HT = 945,60 €\n- OUT-10882, Lime demi-ronde 250 mm, taille demi-douce : 320 x 11,21 € HT = 3 587,20 €\n- OUT-11290, Mètre ruban 3 m, ruban de 32 mm : 40 x 9,62 € HT = 384,80 €\n- OUT-11861, Scie de carreleur 250 mm : 20 x 12,44 € HT = 248,80 €\n- OUT-12155, Scie égoïne 250 mm : 50 x 11,69 € HT = 584,50 €\n\nTotal HT : 8 736,50 € ; TVA 20 % : 1 747,30 € ; total TTC : 10 483,80 €. Paiement à 45 jours fin de mois.\n\nService facturation\nOutillage des Brandes",
+  "pieces_jointes": [
+    {
+      "nom": "F33571.pdf",
+      "fichier": "pieces/m-cpt-022/F33571.pdf",
+      "taille_octets": 1034
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

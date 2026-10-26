@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-016",
+  "de": {
+    "nom": "Hervé Pasquet",
+    "adresse": "herve.pasquet@paysage-feuillet-sarl.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande et nouvelle adresse de livraison",
+  "date": "2026-07-27T07:20:00+02:00",
+  "corps": "Bonjour,\n\nNous changeons de dépôt : livrez désormais nos commandes au 18 route de Corvalet, à Vendrigny, et envoyez-nous ici la confirmation et le bon de livraison. Pour commencer :\n\n- 6 x OUT-12041, Scie à métaux 350 mm\n\nHervé Pasquet\nPaysage Feuillet",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,34 @@
+{
+  "numero": "BL-2026-01827",
+  "commande": "CO-2026-01978",
+  "client": "c-0160",
+  "date_expedition": "2026-07-02",
+  "date_livraison": "2026-07-02",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "9 zone d'activités des Grands Prés, 36999 Ardillac (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "ENT-10155",
+      "libelle": "Balai d'atelier 50 cm",
+      "quantite": 2
+    },
+    {
+      "reference": "ENT-11290",
+      "libelle": "Savon d'atelier en gel, pot de 3 l",
+      "quantite": 4
+    },
+    {
+      "reference": "FIX-12302",
+      "libelle": "Équerre de fixation 60x40x40 mm, zinguée",
+      "quantite": 6
+    }
+  ],
+  "reserves": null,
+  "signataire": "Noémie Lhomme",
+  "statut": "livre"
+}

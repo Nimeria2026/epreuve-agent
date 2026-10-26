@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0352"
+nom: "Gilles Rousseau"
+type: "particulier"
+adresse: "74 rue des Lilas, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "gilles.rousseau@courriel.example"
+telephone: "06 39 98 50 84"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2018-11-02"
+  mois_anniversaire: "novembre"
+  derniere_visite: "2025-11-21"

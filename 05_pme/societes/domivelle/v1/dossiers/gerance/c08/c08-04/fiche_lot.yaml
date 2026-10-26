@@ -1,0 +1,24 @@
+# Fiche du lot c08-04. Données FICTIVES.
+lot: c08-04
+adresse: 4 rue du Château, 18999 Montclavel-sur-Cher (FICTIF)
+type: T1
+surface_m2: 29
+locataire:
+  nom: M. François Texier
+  courriel: francois.texier@mel-perso.example
+  telephone: 06 39 98 83 51
+  entree: '2021-12-06'
+bail:
+  signature: '2021-12-06'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 316,00 €
+  depot_de_garantie: 287,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T3
+dpe:
+  classe: E
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

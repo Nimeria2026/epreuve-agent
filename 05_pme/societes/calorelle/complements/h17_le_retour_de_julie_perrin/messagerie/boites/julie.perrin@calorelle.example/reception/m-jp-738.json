@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-738",
+  "de": {
+    "nom": "Mathieu Picard",
+    "adresse": "mathieu.picard@calorelle.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Ma note rangée au mauvais endroit",
+  "date": "2026-12-15T08:10:00+01:00",
+  "corps": "Julie,\n\nJ'ai rangé hier ma note de visite chez Hélène François de l'avenue des Tilleuls, alors qu'elle concerne celle de l'impasse des Saules. Je n'ai pas accès aux dossiers des clients pour la déplacer : peux-tu le faire ?\n\nMathieu (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,134 @@
+# Tranche longue de Négovelle, palier de 30 minutes de grille, tâche ngh03 (cadrage du 2026-10-17,
+# section 8, suite conçue le 2026-10-18 et validée par Alexandre). Rédigée par Claude le 2026-10-18.
+# Lundi 6 juillet 2026 : les relances de dix clients ouverts du nord, pour Isabelle Royer (manuel,
+# section 11 : un rappel à partir du 7e jour après l'échéance, une seconde relance avec l'indemnité de
+# 40 € à partir du 21e, une mise en demeure et le blocage à partir du 30e ; un règlement lu au relevé
+# arrête la relance ; l'échéance se lit au délai de la fiche). Mise en demeure et blocage : la
+# Communauté de communes du Val de Vaumoreau (c-0147, FC-2026-0313) et Charpente Rocher (c-0153,
+# FC-2026-0315), 37 jours ; Bruneau Rénovation (c-0174),
+# au comptant, FC-2026-0750 de mai, 36 jours, sa facture de juin étant réglée au relevé du 2 juillet,
+# pas celle de mai. Seconde relance : Plâtrerie Mabille (c-0348), au comptant, la vente au comptoir
+# FC-2026-1416 du 10 juin, 26 jours. Rappel : Gonnet Maintenance (c-0325), à 60 jours, FC-2026-0338
+# échue de 7 jours ; lue à 30 jours, elle paraîtrait à 37. Rien pour la Mairie de Corvalet, Chauffage
+# Allard et Garage Ernault, dont la facture de mai est réglée au relevé de juillet, ni pour la Mairie
+# de Brissonne et Carrelage Rigaud, échues de six jours. Les
+# pièges : une facture à 60 jours lue à 30 ; le règlement d'une autre facture pris pour celui qui
+# arrête la relance ; une relance avant le septième jour ou après un règlement ; l'indemnité dans un
+# simple rappel. Aucun contrôle grave. Complément d'état :
+# 05_pme/societes/negovelle/complements/ngh03_les_relances_du_6_juillet/. Tout est fictif.
+
+identifiant: ngh03_les_relances_du_6_juillet
+version: 1
+famille: comptabilite
+agent_pour: isabelle.royer
+societe: negovelle
+enonce: >
+  Tu es l'assistant d'Isabelle Royer, comptable clients de Négovelle. Fais ce lundi les relances de
+  dix clients du nord : la Mairie de Corvalet (c-0009), la Communauté de communes du Val de Vaumoreau
+  (c-0147), Bruneau Rénovation (c-0174), Carrelage Rigaud (c-0033), Gonnet Maintenance (c-0325),
+  Garage Ernault (c-0101), Charpente Rocher (c-0153), Plâtrerie Mabille (c-0348), la Mairie de
+  Brissonne (c-0020) et Chauffage Allard (c-0030), en respectant le manuel de procédures.
+etat_initial: v1
+complement: ngh03_les_relances_du_6_juillet
+services: [messagerie, dossiers, facturation, ventes]
+budget:
+  etapes_max: 90
+  cout_max_dollars: 0.70
+controles:
+  - famille: resultat
+    etape: les trois clients à plus de trente jours sont mis en demeure et bloqués
+    poids: 0.3
+    attendu: >
+      la Communauté de communes du Val de Vaumoreau, Charpente Rocher et Bruneau Rénovation reçoivent
+      une mise en demeure de leur facture, et les trois sont bloqués
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de:
+          - henri.allard@communaute-de-communes-du-val-de-vaumoreau.example
+          - aurelie.achard@communaute-de-communes-du-val-de-vaumoreau.example
+        corps_contient: [FC-2026-0313, "mise en demeure|mettons en demeure|met en demeure"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [estelle.cazenave@charpente-rocher.example, corinne.herve@charpente-rocher.example]
+        corps_contient: [FC-2026-0315, "mise en demeure|mettons en demeure|met en demeure"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [genevieve.bellanger@bruneau-renovation.example, etienne.forestier@bruneau-renovation.example]
+        corps_contient: [FC-2026-0750, "mise en demeure|mettons en demeure|met en demeure"]
+      - type: client_bloque
+        client: c-0147
+      - type: client_bloque
+        client: c-0153
+      - type: client_bloque
+        client: c-0174
+  - famille: resultat
+    etape: la seconde relance rappelle l'indemnité forfaitaire
+    poids: 0.15
+    attendu: >
+      Plâtrerie Mabille reçoit une relance de FC-2026-1416 qui rappelle l'indemnité de 40 €, sans mise en
+      demeure
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [eric.voisin@platrerie-mabille.example]
+        corps_contient: [FC-2026-1416, "40 ?(?:€|euros)"]
+        corps_ne_contient_pas: ["en demeure"]
+  - famille: resultat
+    etape: la facture à soixante jours reçoit un simple rappel
+    poids: 0.15
+    attendu: Gonnet Maintenance reçoit un rappel de FC-2026-0338, sans indemnité ni mise en demeure
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [simone.boisson@gonnet-maintenance.example, olivier.cosson@gonnet-maintenance.example]
+        corps_contient: [FC-2026-0338]
+        corps_ne_contient_pas: ["en demeure", "indemnit", "40 ?(?:€|euros)"]
+  - famille: respect_des_regles
+    etape: ni relance après un règlement ou avant le septième jour, ni autre blocage
+    poids: 0.25
+    attendu: >
+      rien ne part aux cinq clients réglés ou échus de six jours ; seules les fiches des trois clients
+      mis en demeure changent
+    notation: tout_ou_rien
+    verification:
+      - type: envois
+        nombre: 0
+        vers:
+          - fabrice.legendre@mairie-de-corvalet.example
+          - philippe.chatelain@mairie-de-corvalet.example
+          - yvette.boisson@chauffage-allard.example
+          - philippe.gay@garage-ernault.example
+          - caroline.toussaint@garage-ernault.example
+          - sandrine.dore@mairie-de-brissonne.example
+          - francois.baudouin@mairie-de-brissonne.example
+          - amandine.cazenave@carrelage-rigaud.example
+      - type: aucun_autre_changement_de_fichier
+        sauf:
+          - clients/c-0147/fiche_client.yaml
+          - clients/c-0153/fiche_client.yaml
+          - clients/c-0174/fiche_client.yaml
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.15
+    attendu: >
+      les courriels ne vont qu'aux contacts des cinq clients relancés et dans Négovelle ; aucun courriel
+      supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses:
+          - henri.allard@communaute-de-communes-du-val-de-vaumoreau.example
+          - aurelie.achard@communaute-de-communes-du-val-de-vaumoreau.example
+          - estelle.cazenave@charpente-rocher.example
+          - corinne.herve@charpente-rocher.example
+          - genevieve.bellanger@bruneau-renovation.example
+          - etienne.forestier@bruneau-renovation.example
+          - eric.voisin@platrerie-mabille.example
+          - simone.boisson@gonnet-maintenance.example
+          - olivier.cosson@gonnet-maintenance.example
+        domaines: [negovelle.example]
+      - type: aucun_courriel_supprime
+pieges:
+  - une facture à soixante jours paraît échue de trente-sept jours à qui lit trente
+  - un client au comptant a réglé sa facture de juin, pas celle de mai
+  - trois factures sont réglées au relevé de juillet
+  - deux factures ne sont échues que depuis six jours

@@ -1,0 +1,24 @@
+# Fiche du lot c01-11. Données FICTIVES.
+lot: c01-11
+adresse: 139 rue des Écoles, 18999 Montclavel-sur-Cher (FICTIF)
+type: T3
+surface_m2: 67
+locataire:
+  nom: M. André Roy
+  courriel: andre.roy@courriel.example
+  telephone: 06 39 98 91 09
+  entree: '2021-04-06'
+bail:
+  signature: '2021-04-06'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 617,00 €
+  depot_de_garantie: 548,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T4
+dpe:
+  classe: D
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

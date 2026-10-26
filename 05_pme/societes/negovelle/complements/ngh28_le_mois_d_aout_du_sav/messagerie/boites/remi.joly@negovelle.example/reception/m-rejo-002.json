@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-rejo-002",
+  "de": {
+    "nom": "Nathalie Brunet",
+    "adresse": "nathalie.brunet@negovelle.example"
+  },
+  "a": [
+    "remi.joly@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Colis manquant",
+  "date": "2026-08-07T16:32:00+02:00",
+  "corps": "Rémi, un de mes dossiers ouverts, à reprendre.\n\nNathalie\n\n----- Message transféré -----\nDe : Maxime Monnier <maxime.monnier@paysage-rigaud.example>\nDate : 2026-07-22T09:00:00+02:00\nObjet : Colis manquant\n\nBonjour,\n\nNotre livraison du 21 juillet, BL-2026-01880, est arrivée avec un seul colis sur deux : il manque les 2 projecteurs ELE-12841. Le livreur l'a noté sur son récépissé.\n\nMaxime Monnier\nPaysage Rigaud",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

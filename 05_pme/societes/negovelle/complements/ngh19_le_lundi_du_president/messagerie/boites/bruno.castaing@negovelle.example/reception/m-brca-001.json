@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-001",
+  "de": {
+    "nom": "Laurent Gimenez",
+    "adresse": "laurent.gimenez@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Prix pour Électricité Morel, CO-2026-02042",
+  "date": "2026-07-03T15:20:00+02:00",
+  "corps": "Bruno,\n\nÉlectricité Morel (c-0130) a une offre d'un concurrent sur son chantier de la mairie. J'ai saisi sa commande en brouillon, CO-2026-02042 ; pour la garder, il nous faudrait ces prix nets :\n- ELE-11657, Disjoncteur tétrapolaire 20 A, courbe C, 10 unités : 44,00 € HT au lieu de 58,80 € au tarif\n- QUI-11690, Cylindre européen 45x50 mm, 5 clés, 6 unités : 46,50 € HT au lieu de 59,65 € au tarif\n- PLB-11812, Mitigeur thermostatique de douche, inox brossé, 4 unités : 58,00 € HT au lieu de 77,35 € au tarif\n- PLB-12409, Robinet d'arrêt de machine à laver 15x21, 24 unités : 16,00 € HT au lieu de 23,10 € au tarif\n- ELE-11412, Câble téléphonique 4 paire(s), couronne de 25 m, 6 unités : 38,00 € HT au lieu de 52,50 € au tarif\n- ELE-12384, Interrupteur différentiel 40 A 30 mA, type AC, 4 unités : 60,00 € HT au lieu de 80,50 € au tarif\n- ELE-11029, Câble R2V 3G 1,5 mm², couronne de 25 m, 4 unités : 110,00 € HT au lieu de 159,75 € au tarif\n\nTu es d'accord ?\n\nLaurent",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

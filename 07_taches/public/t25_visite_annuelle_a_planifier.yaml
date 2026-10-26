@@ -1,0 +1,73 @@
+# Tranche 4 (étape 5), tâche 25, n° 20 de la carte du banc. Rédigée par Claude le 2026-10-07
+# (JOURNAL, quatre-vingt-cinquième entrée), sur l'état v2. Jean Dupont, contrat Sérénité, mois
+# anniversaire novembre, répond au message de Marc Duval : absent jusqu'au vendredi 13 novembre
+# inclus, libre ensuite. La visite doit tomber en novembre (manuel, section 4), avec un
+# technicien qui entretient les chaudières gaz, jamais l'apprenti seul (section 9), et le client
+# reçoit le jour et l'heure. Le mois n'est écrit nulle part dans la demande : il est dans la
+# fiche du client. Complément d'état :
+# 05_pme/societes/calorelle/complements/t25_visite_annuelle_a_planifier/. Tout est fictif.
+# Version 2, le 2026-10-08 (JOURNAL, quatre-vingt-dix-septième entrée) : la tâche part de l'état
+# v3, comme tout le banc ; budget de 40 étapes au lieu de 25, par la règle du témoin (25, plus
+# deux fois ses 6 étapes).
+# Version 3, le 2026-10-08 (JOURNAL, centième entrée) : budget de 45 étapes au lieu de 40, par la
+# règle du témoin, qui lit désormais tout ce qu'il utilise hors l'orientation.
+
+identifiant: t25_visite_annuelle_a_planifier
+version: 3
+famille: planning
+agent_pour: marc.duval
+enonce: >
+  Tu es l'assistant de Marc Duval, responsable planning chez Calorelle. Un client a répondu ce
+  matin au sujet de sa visite d'entretien annuel. Planifie-la en respectant le manuel de
+  procédures, puis confirme-lui le jour et l'heure par courriel.
+etat_initial: v3
+complement: t25_visite_annuelle_a_planifier
+services: [messagerie, dossiers, planning]
+budget:
+  etapes_max: 45
+  cout_max_dollars: 0.30
+controles:
+  - famille: resultat
+    etape: la visite est planifiée dans le mois anniversaire, après le retour du client
+    poids: 0.4
+    attendu: >
+      une seule visite annuelle ajoutée pour Jean Dupont (c-0135), entre le samedi 14 et le
+      lundi 30 novembre 2026, avec un technicien confirmé qui entretient les chaudières gaz ; aucune
+      intervention ne compte l'apprenti seul
+    notation: tout_ou_rien
+    verification:
+      - type: intervention_ajoutee
+        client: c-0135
+        nature: visite_annuelle
+        apres: "2026-11-14T00:00:00+01:00"
+        avant: "2026-12-01T00:00:00+01:00"
+        competence: chaudiere_gaz
+      - type: jamais_seuls
+        techniciens: [enzo.caron]
+  - famille: contenu
+    etape: le client reçoit le jour et l'heure
+    poids: 0.3
+    attendu: >
+      un courriel à jean.dupont@courriel.example donne le jour et l'heure de début de la visite
+      planifiée
+    notation: tout_ou_rien
+    verification:
+      - type: intervention_annoncee
+        vers: [jean.dupont@courriel.example]
+        client: c-0135
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.3
+    attendu: >
+      le reste du planning est inchangé ; les courriels ne vont qu'au client ou à Marc Duval ;
+      aucun fichier créé, déplacé ou supprimé ; aucun courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: planning_inchange
+        sauf_ajouts_pour: [c-0135]
+      - type: seuls_destinataires
+        adresses: [jean.dupont@courriel.example, marc.duval@calorelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges: []

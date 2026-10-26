@@ -1,0 +1,123 @@
+{
+  "numero": "CO-2026-01801",
+  "client": "c-0040",
+  "reference_client": null,
+  "cree_le": "2026-06-22T09:10:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "34 zone industrielle des Brandes, 36999 Laubrissac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-10187",
+      "libelle": "Bombe de traçage, orange fluo, aérosol de 500 ml",
+      "quantite": 18,
+      "prix_tarif_ht_euros": 12.8,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 11.78,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 212.04
+    },
+    {
+      "reference": "ELE-11592",
+      "libelle": "Disjoncteur phase-neutre 32 A, courbe C",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 24.0,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 22.08,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 44.16
+    },
+    {
+      "reference": "ELE-12066",
+      "libelle": "Goulotte 20x12 mm, barre de 2 m",
+      "quantite": 20,
+      "prix_tarif_ht_euros": 7.95,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 7.31,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 146.2
+    },
+    {
+      "reference": "ELE-13087",
+      "libelle": "Ruban isolant bleu, rouleau de 10 m",
+      "quantite": 30,
+      "prix_tarif_ht_euros": 1.85,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 1.7,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 51.0
+    },
+    {
+      "reference": "FIX-12107",
+      "libelle": "Équerre de fixation 120x60x20 mm, zinguée",
+      "quantite": 30,
+      "prix_tarif_ht_euros": 3.85,
+      "remise_pourcent": 10.76,
+      "prix_net_ht_euros": 3.44,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 103.2
+    },
+    {
+      "reference": "VIS-10726",
+      "libelle": "Vis à bois tête fraisée 3,5x20, bichromatée, boîte de 500",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 3.25,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 2.99,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 29.9
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 586.5,
+  "total_tva_euros": 117.3,
+  "total_ttc_euros": 703.8,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01650"
+  ],
+  "facture": "FC-2026-1034",
+  "historique": [
+    {
+      "date": "2026-06-22T09:10:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-22T09:12:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-23T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01650"
+    },
+    {
+      "date": "2026-06-23T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01650"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1034"
+    }
+  ]
+}

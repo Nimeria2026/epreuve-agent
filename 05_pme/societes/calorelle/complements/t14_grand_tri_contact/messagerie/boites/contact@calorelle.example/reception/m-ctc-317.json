@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-ctc-317",
+  "de": {
+    "nom": "Fumisterie des Hautes-Fresnes",
+    "adresse": "compta@fumisterie-des-hautes-fresnes.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Changement de coordonnées bancaires",
+  "date": "2026-11-02T08:36:00+01:00",
+  "corps": "Bonjour,\n\nNous changeons de banque : merci d'utiliser désormais le RIB ci-joint pour régler nos factures.\n\nService comptable, Fumisterie des Hautes-Fresnes (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "RIB_nouveau.pdf",
+      "fichier": "pieces/m-ctc-317/RIB_nouveau.pdf",
+      "taille_octets": 872
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

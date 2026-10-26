@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01751",
+  "commande": "CO-2026-01902",
+  "client": "c-0301",
+  "date_expedition": "2026-06-29",
+  "date_livraison": "2026-06-29",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "13 zone d'activités des Grands Prés, 36999 Corvalet (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ELP-10195",
+      "libelle": "Disque à tronçonner béton 115 mm, boîte de 10",
+      "quantite": 12
+    },
+    {
+      "reference": "PRO-10441",
+      "libelle": "Casque de chantier non ventilé, blanc",
+      "quantite": 5
+    }
+  ],
+  "reserves": null,
+  "signataire": "Maxime Combes",
+  "statut": "livre"
+}

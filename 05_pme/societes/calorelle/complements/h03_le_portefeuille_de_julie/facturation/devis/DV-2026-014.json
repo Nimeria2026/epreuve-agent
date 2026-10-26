@@ -1,0 +1,72 @@
+{
+  "numero": "DV-2026-014",
+  "client": "c-0237",
+  "objet": "Pompe à chaleur air-eau et ballon thermodynamique",
+  "lignes": [
+    {
+      "code": "PAC-01",
+      "libelle": "Pompe à chaleur air-eau 8 kW",
+      "quantite": 1,
+      "prix_unitaire_ht_euros": 7800,
+      "taux_tva": 5.5,
+      "montant_ht_euros": 7800
+    },
+    {
+      "code": "BAL-01",
+      "libelle": "Ballon thermodynamique 200 litres",
+      "quantite": 1,
+      "prix_unitaire_ht_euros": 2300,
+      "taux_tva": 5.5,
+      "montant_ht_euros": 2300
+    },
+    {
+      "code": "DEP-01",
+      "libelle": "Dépose et évacuation de l'ancien appareil",
+      "quantite": 1,
+      "prix_unitaire_ht_euros": 180,
+      "taux_tva": 5.5,
+      "montant_ht_euros": 180
+    },
+    {
+      "code": "TUB-01",
+      "libelle": "Tuyauterie cuivre posée",
+      "quantite": 10,
+      "prix_unitaire_ht_euros": 42,
+      "taux_tva": 5.5,
+      "montant_ht_euros": 420
+    },
+    {
+      "code": "ELE-01",
+      "libelle": "Raccordement électrique",
+      "quantite": 1,
+      "prix_unitaire_ht_euros": 160,
+      "taux_tva": 5.5,
+      "montant_ht_euros": 160
+    },
+    {
+      "code": "MES-01",
+      "libelle": "Mise en service",
+      "quantite": 1,
+      "prix_unitaire_ht_euros": 150,
+      "taux_tva": 5.5,
+      "montant_ht_euros": 150
+    },
+    {
+      "code": "MO-01",
+      "libelle": "Main-d'œuvre de technicien",
+      "quantite": 15,
+      "prix_unitaire_ht_euros": 58,
+      "taux_tva": 5.5,
+      "montant_ht_euros": 870
+    }
+  ],
+  "remise_pourcent": 0,
+  "total_ht_euros": 11880,
+  "total_tva_euros": 653.4,
+  "total_ttc_euros": 12533.4,
+  "statut": "brouillon",
+  "cree_le": "2026-10-28T10:00:00+01:00",
+  "cree_par": "julie.perrin",
+  "envoye_le": null,
+  "reponse_le": null
+}

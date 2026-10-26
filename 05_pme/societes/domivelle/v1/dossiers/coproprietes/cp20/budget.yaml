@@ -1,0 +1,17 @@
+# Budget prévisionnel de l'exercice en cours, voté, copropriété cp20. Données FICTIVES.
+copropriete: cp20
+exercice: 2025-2026
+total: 68 800,00 €
+postes:
+  nettoyage des parties communes: 15 136,00 €
+  espaces verts: 5 504,00 €
+  électricité des parties communes: 6 192,00 €
+  eau: 9 632,00 €
+  assurance de l'immeuble: 7 568,00 €
+  honoraires du syndic: 12 384,00 €
+  entretien et petites réparations: 6 880,00 €
+  ascenseur, contrat et électricité: 5 504,00 €
+repartition:
+  charges générales, aux tantièmes généraux: 63 296,00 €
+  ascenseur, aux tantièmes d'ascenseur: 5 504,00 €
+appel: un quart du budget, exigible le premier jour de chaque trimestre

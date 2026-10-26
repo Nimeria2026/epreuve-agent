@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-302",
+  "de": {
+    "nom": "Odile Garnier",
+    "adresse": "odile.garnier@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Fin de mon contrat",
+  "date": "2026-11-02T08:26:00+01:00",
+  "corps": "Bonjour,\n\nJe vends ma maison au printemps et souhaite résilier mon contrat d'entretien. À quelle date prendra-t-il fin ?\n\nOdile Garnier, 85 impasse des Saules (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

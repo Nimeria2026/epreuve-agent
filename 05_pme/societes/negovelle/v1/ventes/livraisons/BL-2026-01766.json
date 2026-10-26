@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01766",
+  "commande": "CO-2026-01917",
+  "client": "c-0054",
+  "date_expedition": "2026-06-29",
+  "date_livraison": "2026-06-29",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "10 parc d'activités de la Gare, 36999 Mérolles-en-Brenne (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "QUI-13217",
+      "libelle": "Verrou à targette 120 mm, acier",
+      "quantite": 1
+    }
+  ],
+  "reserves": null,
+  "signataire": "Simone Parmentier",
+  "statut": "livre"
+}

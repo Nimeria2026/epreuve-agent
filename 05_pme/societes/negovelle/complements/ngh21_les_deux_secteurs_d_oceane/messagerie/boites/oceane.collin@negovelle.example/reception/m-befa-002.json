@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-befa-002",
+  "de": {
+    "nom": "Fabienne Ruel",
+    "adresse": "fabienne.ruel@serrurerie-dufour.example"
+  },
+  "a": [
+    "benoit.faure@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-06T06:50:00+02:00",
+  "corps": "Bonjour,\n\nVoici notre commande, à livrer au siège :\n- 4 x QUI-10457, Cadenas laiton 50 mm, 2 clés\n- 2 x ELE-12384, Interrupteur différentiel 40 A 30 mA, type AC\n\nMerci,\nFabienne Ruel\nSerrurerie Dufour",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

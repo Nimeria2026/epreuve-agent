@@ -1,0 +1,75 @@
+{
+  "numero": "CO-2026-02043",
+  "client": "c-0247",
+  "reference_client": null,
+  "cree_le": "2026-07-03T15:00:00+02:00",
+  "cree_par": "aurelie.bonnefoy",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "83 place du Marché, 36999 Saulvenne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-10293",
+      "libelle": "Appareil modulaire contacteur jour-nuit 25 A",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 63.8,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 63.8,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 319.0
+    },
+    {
+      "reference": "CON-11028",
+      "libelle": "Disque abrasif à lamelles 115 mm, grain 80, boîte de 25",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 33.5,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 33.5,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 335.0
+    },
+    {
+      "reference": "ELE-12792",
+      "libelle": "Projecteur LED 10 W, portable sur pied",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 107.45,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 107.45,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 429.8
+    },
+    {
+      "reference": "QUI-12662",
+      "libelle": "Serrure en applique horizontale, axe 50 mm",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 36.5,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 36.5,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 365.0
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 1448.8,
+  "total_tva_euros": 289.76,
+  "total_ttc_euros": 1738.56,
+  "statut": "brouillon",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T15:00:00+02:00",
+      "par": "aurelie.bonnefoy",
+      "action": "creee",
+      "detail": "prix demandés au président"
+    }
+  ]
+}

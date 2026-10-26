@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-nale-001",
+  "de": {
+    "nom": "Véronique Tessier",
+    "adresse": "veronique.tessier@domivelle.example"
+  },
+  "a": [
+    "nadege.lebrun@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Absence de Solène",
+  "date": "2026-06-05T17:30:00+02:00",
+  "corps": "Nadège,\n\nSolène est en congé du lundi 8 au vendredi 12 juin. Cédric reprend le secteur sud : oriente vers lui ce qui le concerne.\n\nVéronique",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

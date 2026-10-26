@@ -1,0 +1,24 @@
+# Fiche du lot c01-16. Données FICTIVES.
+lot: c01-16
+adresse: 139 rue des Écoles, 18999 Montclavel-sur-Cher (FICTIF)
+type: T3
+surface_m2: 56
+locataire:
+  nom: M. Hugo Millet
+  courriel: hugo.millet@courriel.example
+  telephone: 06 39 98 91 61
+  entree: '2017-10-25'
+bail:
+  signature: '2017-10-25'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 565,00 €
+  depot_de_garantie: 471,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T2
+dpe:
+  classe: D
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

@@ -1,0 +1,14 @@
+{
+  "numero": "INT-2026-0053",
+  "client": "c-0237",
+  "techniciens": [
+    "sebastien.noel",
+    "nicolas.blanc"
+  ],
+  "debut": "2026-12-03T13:30:00+01:00",
+  "fin": "2026-12-03T17:30:00+01:00",
+  "nature": "installation",
+  "objet": "Pose d'une pompe à chaleur air-eau, seconde demi-journée",
+  "statut": "planifiee",
+  "cree_par": "marc.duval"
+}

@@ -1,0 +1,14 @@
+{
+  "numero": "INT-2026-0050",
+  "client": "c-0405",
+  "techniciens": [
+    "antoine.leroy",
+    "mathieu.picard"
+  ],
+  "debut": "2026-12-23T08:00:00+01:00",
+  "fin": "2026-12-23T12:00:00+01:00",
+  "nature": "installation",
+  "objet": "Remplacement des pompes de circulation de la chaufferie collective",
+  "statut": "planifiee",
+  "cree_par": "marc.duval"
+}

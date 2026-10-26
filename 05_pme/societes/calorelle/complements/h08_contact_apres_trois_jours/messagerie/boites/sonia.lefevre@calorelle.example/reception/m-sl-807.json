@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-807",
+  "de": {
+    "nom": "Patrick Roux",
+    "adresse": "patrick.roux@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Factures de la fermeture",
+  "date": "2026-11-02T08:15:00+01:00",
+  "corps": "Sonia,\n\nDes factures sont-elles arrivées sur contact@ pendant la fermeture ? J'en attends une de Thermopièces Loire pour un vase d'expansion.\n\nPatrick (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

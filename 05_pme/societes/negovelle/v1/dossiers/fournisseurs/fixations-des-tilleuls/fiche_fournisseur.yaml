@@ -1,0 +1,10 @@
+# Fiche d'un fournisseur de Négovelle. Données FICTIVES.
+nom: Fixations des Tilleuls
+activite: fabricant de chevilles et de systèmes d'ancrage
+adresse: 25 zone industrielle des Brandes, 36999 Laubrissac (FICTIF)
+telephone: 02 61 91 71 69
+courriel_commandes: commandes@fixations-des-tilleuls.example
+courriel_facturation: facturation@fixations-des-tilleuls.example
+iban: FR76 9999 9438 6696 8646 9056 227 (FICTIF)
+conditions: paiement à 60 jours date de facture
+minimum_de_commande: 250,00 € HT

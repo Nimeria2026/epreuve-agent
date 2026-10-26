@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-nabr-004",
+  "de": {
+    "nom": "Alice Barbe",
+    "adresse": "alice.barbe@guyot-travaux-publics.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Erreur sur nos clés",
+  "date": "2026-07-03T14:20:00+02:00",
+  "corps": "Bonjour,\n\nNous avions commandé 12 clés mixtes de 26 mm, OUT-10440, et la livraison BL-2026-01720 du 26 juin nous a apporté 12 clés de 27 mm. Votre chauffeur les a reprises hier. Nous avons trouvé les 26 mm ailleurs : merci de nous faire un avoir.\n\nAlice Barbe\nGuyot Travaux publics",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

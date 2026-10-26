@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-gafo-609",
+  "de": {
+    "nom": "Paul Lamy",
+    "adresse": "paul.lamy@messagerie.example"
+  },
+  "a": [
+    "gaelle.fournel@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Mon appel du 1er octobre",
+  "date": "2026-09-12T14:10:00+02:00",
+  "corps": "Madame,\n\nCombien devrai-je verser le 1er octobre pour mon lot 15 des Violettes ? Un voisin me dit que le fonds de travaux n'est dû que si l'assemblée a adopté un plan pluriannuel de travaux : je ne devrais donc pas le payer.\n\nPaul Lamy",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

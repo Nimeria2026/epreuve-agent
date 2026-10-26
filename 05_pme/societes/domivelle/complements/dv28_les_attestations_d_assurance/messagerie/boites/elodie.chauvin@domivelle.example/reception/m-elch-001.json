@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-elch-001",
+  "de": {
+    "nom": "Jacques Lejeune",
+    "adresse": "jacques.lejeune@mel-perso.example"
+  },
+  "a": [
+    "elodie.chauvin@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Mon attestation d'assurance",
+  "date": "2026-06-06T09:48:00+02:00",
+  "corps": "Bonjour Madame Chauvin,\n\nVoici mon attestation d'assurance habitation, renouvelée au 1er juin.\n\nJacques Lejeune, lot n01-04",
+  "pieces_jointes": [
+    {
+      "nom": "attestation_2026.pdf",
+      "fichier": "pieces/m-elch-001/attestation_2026.pdf",
+      "taille_octets": 830
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

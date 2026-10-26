@@ -1,0 +1,25 @@
+# Fiche du client c-0292 de Négovelle. Données FICTIVES.
+code: c-0292
+nom: Chauffage Mabille
+type: artisan
+adresse: 102 rue du Lavoir, 36999 Mérolles-en-Brenne (FICTIF)
+telephone: 02 61 91 89 51
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Françoise Daniel
+  fonction: gérante
+  courriel: francoise.daniel@chauffage-mabille.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 102 rue du Lavoir, 36999 Mérolles-en-Brenne (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2019-08-01'
+limite_encours_euros: 3500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

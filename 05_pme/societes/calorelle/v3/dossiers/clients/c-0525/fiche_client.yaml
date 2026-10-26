@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0525"
+nom: "Établissements Mercier"
+type: "entreprise"
+adresse: "118 rue de la Loire, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "contact@etablissements-mercier-525.example"
+telephone: "02 61 91 36 23"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2018-09-06"
+  mois_anniversaire: "septembre"
+  derniere_visite: "2026-09-15"

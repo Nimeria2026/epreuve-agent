@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-lagi-b01",
+  "de": {
+    "nom": "Denis Rouxel",
+    "adresse": "denis.rouxel@menuiserie-parmentier.example"
+  },
+  "a": [
+    "laurent.gimenez@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Horaires du comptoir cet été",
+  "date": "2026-06-25T16:04:00+02:00",
+  "corps": "Bonjour,\n\nLe comptoir reste-t-il ouvert en août ?\n\nDenis Rouxel",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

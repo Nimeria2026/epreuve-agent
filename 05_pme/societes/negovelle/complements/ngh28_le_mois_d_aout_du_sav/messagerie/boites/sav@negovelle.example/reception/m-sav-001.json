@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-001",
+  "de": {
+    "nom": "Florence Navarre",
+    "adresse": "florence.navarre@garage-allard.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Colis manquant",
+  "date": "2026-08-05T09:10:00+02:00",
+  "corps": "Bonjour,\n\nNotre livraison d'hier, BL-2026-01888, n'avait qu'un colis sur deux : il manque les 15 boîtes de vis VIS-10751. C'est noté sur le récépissé du transporteur.\n\nFlorence Navarre\nGarage Allard",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

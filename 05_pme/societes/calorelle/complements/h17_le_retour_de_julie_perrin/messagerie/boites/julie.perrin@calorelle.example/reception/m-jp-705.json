@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-705",
+  "de": {
+    "nom": "Établissements Bernard",
+    "adresse": "contact@etablissements-bernard-17.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Climatisation des bureaux",
+  "date": "2026-12-11T09:10:00+01:00",
+  "corps": "Bonjour Madame Perrin,\n\nNous avions parlé en octobre de climatiser nos bureaux. Le budget de l'an prochain ne le permettra pas : nous renonçons à ce projet, inutile de nous envoyer le devis.\n\nCordialement,\nÉtablissements Bernard, 42 rue Haute, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-840",
+  "de": {
+    "nom": "Michel Girard",
+    "adresse": "michel.girard@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Entretien annuel",
+  "date": "2026-11-02T07:20:00+01:00",
+  "corps": "Bonjour,\n\nL'entretien annuel de ma chaudière est prévu ce mois-ci. Pouvez-vous me dire quel jour votre technicien passera ?\n\nMichel Girard (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

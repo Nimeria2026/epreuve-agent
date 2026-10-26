@@ -1,0 +1,17 @@
+# Budget prévisionnel de l'exercice en cours, voté, copropriété cp27. Données FICTIVES.
+copropriete: cp27
+exercice: '2026'
+total: 57 800,00 €
+postes:
+  nettoyage des parties communes: 12 716,00 €
+  espaces verts: 4 624,00 €
+  électricité des parties communes: 5 202,00 €
+  eau: 8 092,00 €
+  assurance de l'immeuble: 6 358,00 €
+  honoraires du syndic: 10 404,00 €
+  entretien et petites réparations: 5 780,00 €
+  ascenseur, contrat et électricité: 4 624,00 €
+repartition:
+  charges générales, aux tantièmes généraux: 53 176,00 €
+  ascenseur, aux tantièmes d'ascenseur: 4 624,00 €
+appel: un quart du budget, exigible le premier jour de chaque trimestre

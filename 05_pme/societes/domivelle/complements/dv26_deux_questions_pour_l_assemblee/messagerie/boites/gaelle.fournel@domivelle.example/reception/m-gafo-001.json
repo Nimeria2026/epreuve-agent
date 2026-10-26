@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-gafo-001",
+  "de": {
+    "nom": "Mélanie Sabatier",
+    "adresse": "melanie.sabatier@domivelle.example"
+  },
+  "a": [
+    "gaelle.fournel@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Les Charmilles : assemblée de septembre",
+  "date": "2026-06-04T09:15:00+02:00",
+  "corps": "Gaëlle,\n\nPour la Résidence Les Charmilles (cp41), j'attends ta date et ton ordre du jour pour l'assemblée de septembre ; rien n'est encore convoqué.\n\nMélanie",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

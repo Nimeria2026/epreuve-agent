@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-601",
+  "de": {
+    "nom": "Outillage de Sablonnet",
+    "adresse": "compta@outillage-de-sablonnet.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture OS-1180",
+  "date": "2026-11-26T14:10:00+01:00",
+  "corps": "Bonjour,\n\nEn préparant nos relevés, nous nous apercevons que notre facture OS-1180 du 28 octobre 2026, 348,00 € TTC, pour la scie sabre et les lames livrées le même jour, ne vous a jamais été envoyée. La voici, avec nos excuses.\n\nService comptable, Outillage de Sablonnet (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "Facture_OS-1180.pdf",
+      "fichier": "pieces/m-cpt-601/Facture_OS-1180.pdf",
+      "taille_octets": 1041
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cema-613",
+  "de": {
+    "nom": "Paul Guillot",
+    "adresse": "paul.guillot@messagerie.example"
+  },
+  "a": [
+    "cedric.maillard@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Les candidats pour s21-06",
+  "date": "2026-09-06T17:00:00+02:00",
+  "corps": "Monsieur,\n\nPour mon appartement s21-06, demandez aux candidats leurs trois derniers relevés de compte bancaire, et ne retenez pas de famille avec de jeunes enfants : la voisine du dessous se plaint déjà du bruit.\n\nPaul Guillot",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

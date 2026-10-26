@@ -1,0 +1,24 @@
+# Fiche du lot s01-03. Données FICTIVES.
+lot: s01-03
+adresse: 25 rue du Lavoir, 18999 Sorlay-le-Haut (FICTIF)
+type: T2
+surface_m2: 46
+locataire:
+  nom: Mme Estelle Gaillard
+  courriel: estelle.gaillard@messagerie.example
+  telephone: 06 39 98 50 50
+  entree: '2022-08-17'
+bail:
+  signature: '2022-08-17'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 390,00 €
+  depot_de_garantie: 363,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T2
+dpe:
+  classe: D
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

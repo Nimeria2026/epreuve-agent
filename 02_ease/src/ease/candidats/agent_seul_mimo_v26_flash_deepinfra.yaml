@@ -1,0 +1,46 @@
+# L'agent seul (03_orchestrations) sur Xiaomi MiMo-V2.6-Flash, par l'API de DeepInfra. Essai du
+# 2026-10-21 sur les tâches publiques de la tranche, un essai puis cinq, hors du constat (JOURNAL,
+# deux-cent-trente-troisième entrée). DeepInfra ne garde ni n'entraîne sur les requêtes
+# (00_docs/sources/2026-10-05_reglages_des_modeles.md) : les tâches cachées peuvent y aller.
+# Prix lus dans la liste des modèles de l'API de DeepInfra le 2026-10-21 ; elle porte aussi une
+# remise de 0,05, au sens « ? ».
+fiche:
+  identifiant: agent_seul_mimo_v26_flash_deepinfra
+  nom: Agent seul sur MiMo-V2.6-Flash (DeepInfra)
+  version: "0.1.0"
+  origine: fait_main
+  division: a_modele_egal
+  branchement: mcp
+  editeur: Épreuve d'agent
+  url: null
+  modeles:
+    - nom: XiaomiMiMo/MiMo-V2.6-Flash
+      fournisseur: DeepInfra
+  cout_mesurable: true
+  conditions_utilisation: null
+configuration:
+  modeles:
+    - role: agent
+      nom: XiaomiMiMo/MiMo-V2.6-Flash
+      fournisseur: DeepInfra
+      version_renvoyee: "?"
+      parametres:
+        temperature: 1.0
+        top_p: 0.95
+      tarif:
+        entree_dollars_par_million: 0.14
+        entree_en_cache_dollars_par_million: 0.0028
+        sortie_dollars_par_million: 0.28
+        source: https://api.deepinfra.com/models/list
+        releve_le: "2026-10-21"
+machine: null
+lancement:
+  module: orchestrations.agent_seul
+  arguments: [--configuration, 03_orchestrations/src/orchestrations/configurations/mimo_v26_flash_deepinfra.yaml]
+  delai_secondes: 3600
+  sonde: null
+  creneau: null
+  energie: null
+  empreinte_de:
+    - 03_orchestrations/src/orchestrations/consignes/agent_seul.md
+    - 03_orchestrations/src/orchestrations/configurations/mimo_v26_flash_deepinfra.yaml

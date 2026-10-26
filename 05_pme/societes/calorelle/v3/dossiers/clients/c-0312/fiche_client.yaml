@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0312"
+nom: "Établissements Moreau"
+type: "entreprise"
+adresse: "113 rue du Moulin, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "contact@etablissements-moreau-312.example"
+telephone: "02 61 91 35 77"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité Plus"
+  depuis: "2018-04-27"
+  mois_anniversaire: "avril"
+  derniere_visite: "2026-04-06"

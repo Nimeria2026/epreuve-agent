@@ -1,0 +1,115 @@
+# Registre des lots en gestion, s12. Données FICTIVES.
+immeuble: s12
+nature: groupe de maisons
+adresse: 33 rue des Forges, 18999 Chantebrune (FICTIF)
+secteur: sud
+gestionnaire: Solène Audoin
+distance_agence_km: 7
+annee_construction: 1981
+gardien: false
+copropriete_du_syndic: null
+lots:
+- lot: s12-01
+  type: maison T4
+  surface_m2: 100
+  proprietaire: p-0568
+  locataire: Mme Estelle Sanchez
+  entree: '2021-06-22'
+  loyer_hors_charges: 867,00 €
+  provision_sur_charges: 8,00 €
+  depot_de_garantie: 788,00 €
+  revision: chaque 22 juin
+  trimestre_irl: T1
+  dpe: A
+- lot: s12-02
+  type: maison T5
+  surface_m2: 100
+  proprietaire: p-0581
+  locataire: Mme Martine Gomez
+  entree: '2024-01-03'
+  loyer_hors_charges: 816,00 €
+  provision_sur_charges: 17,00 €
+  depot_de_garantie: 777,00 €
+  revision: chaque 3 janvier
+  trimestre_irl: T3
+  dpe: E
+- lot: s12-03
+  type: maison T5
+  surface_m2: 104
+  proprietaire: p-0582
+  locataire: vacant
+  loyer_hors_charges: 889,00 €
+  provision_sur_charges: 2,00 €
+  dpe: B
+- lot: s12-04
+  type: maison T4
+  surface_m2: 87
+  proprietaire: p-0583
+  locataire: M. Gérard Fabre
+  entree: '2018-11-10'
+  loyer_hors_charges: 684,00 €
+  provision_sur_charges: 1,00 €
+  depot_de_garantie: 582,00 €
+  revision: chaque 10 novembre
+  trimestre_irl: T3
+  dpe: F
+- lot: s12-05
+  type: maison T3
+  surface_m2: 83
+  proprietaire: p-0584
+  locataire: M. Jean Vincent
+  entree: '2015-08-17'
+  loyer_hors_charges: 796,00 €
+  provision_sur_charges: 0,00 €
+  depot_de_garantie: 637,00 €
+  revision: chaque 17 août
+  trimestre_irl: T2
+  dpe: D
+- lot: s12-06
+  type: maison T4
+  surface_m2: 100
+  proprietaire: p-0550
+  locataire: Mme Delphine Ferry
+  entree: '2026-04-15'
+  loyer_hors_charges: 944,00 €
+  provision_sur_charges: 12,00 €
+  depot_de_garantie: 944,00 €
+  revision: chaque 15 avril
+  trimestre_irl: T4
+  dpe: B
+- lot: s12-07
+  type: maison T5
+  surface_m2: 118
+  proprietaire: p-0534
+  locataire: Mme Sylvie Lainé
+  entree: '2024-01-05'
+  loyer_hors_charges: 1 099,00 €
+  provision_sur_charges: 10,00 €
+  depot_de_garantie: 1 047,00 €
+  revision: chaque 5 janvier
+  trimestre_irl: T3
+  dpe: C
+- lot: s12-08
+  type: maison T4
+  surface_m2: 97
+  proprietaire: p-0566
+  locataire: Mme Pauline Poirier
+  entree: '2015-06-25'
+  loyer_hors_charges: 789,00 €
+  provision_sur_charges: 5,00 €
+  depot_de_garantie: 631,00 €
+  revision: chaque 25 juin
+  trimestre_irl: T1
+  dpe: D
+- lot: s12-09
+  type: maison T4
+  surface_m2: 90
+  proprietaire: p-0585
+  locataire: Mme Monique Giraud
+  entree: '2014-11-10'
+  loyer_hors_charges: 744,00 €
+  provision_sur_charges: 5,00 €
+  depot_de_garantie: 584,00 €
+  revision: chaque 10 novembre
+  trimestre_irl: T3
+  dpe: C

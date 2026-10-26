@@ -1,0 +1,31 @@
+# Fiche du client c-0078 de Négovelle. Données FICTIVES.
+code: c-0078
+nom: Électricité Chatelain
+type: artisan
+adresse: 34 rue Saint-Martin, 36999 Laubrissac (FICTIF)
+telephone: 02 61 91 67 26
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Suzanne Rigaud
+  fonction: gérante
+  courriel: suzanne.rigaud@electricite-chatelain.example
+- nom: Dominique Granger
+  fonction: conjoint collaborateur
+  courriel: dominique.granger@electricite-chatelain.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 34 rue Saint-Martin, 36999 Laubrissac (FICTIF)
+- code: L2
+  libelle: chantier déclaré
+  adresse: 109 allée des Acacias, 36999 Ardillac (FICTIF)
+categorie_remise: C
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2020-05-01'
+limite_encours_euros: 3000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

@@ -1,0 +1,39 @@
+{
+  "numero": "BL-2026-01770",
+  "commande": "CO-2026-01921",
+  "client": "c-0064",
+  "date_expedition": "2026-06-30",
+  "date_livraison": "2026-06-30",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "27 avenue Pasteur, 36999 Brissonne (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ELE-10057",
+      "libelle": "Ampoule LED B22 9 W, 4000 K",
+      "quantite": 2
+    },
+    {
+      "reference": "OUT-11249",
+      "libelle": "Marteau à panne fendue 800 g",
+      "quantite": 1
+    },
+    {
+      "reference": "PRO-11004",
+      "libelle": "Gants de manutention enduits polyuréthane, taille 8",
+      "quantite": 4
+    },
+    {
+      "reference": "VIS-10261",
+      "libelle": "Boulon tête hexagonale M12x80, inox A2, sachet de 25",
+      "quantite": 3
+    }
+  ],
+  "reserves": null,
+  "signataire": "Philippe Fleurot",
+  "statut": "livre"
+}

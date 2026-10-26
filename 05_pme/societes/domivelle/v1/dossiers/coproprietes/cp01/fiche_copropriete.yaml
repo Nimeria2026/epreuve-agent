@@ -1,0 +1,20 @@
+# Fiche de la copropriété cp01. Données FICTIVES.
+copropriete: cp01
+nom: Résidence Les Camélias
+adresse: 59 rue de la Poste, 18999 Montclavel-sur-Cher (FICTIF)
+lots_principaux: 39
+annee_construction: 1998
+ascenseur: true
+exercice: du lendemain du 31 décembre au 31 décembre
+gestionnaire: Yohan Delmas
+conseil_syndical:
+  president: Mme Monique Sanchez
+  membres:
+  - Mme Marion Guichard
+  - M. Joël Marchand
+seuil_mise_en_concurrence: 4 000,00 €
+seuil_consultation_du_conseil_syndical: 1 000,00 €
+assureur_de_l_immeuble: Assurances Brévalle (FICTIF)
+declaration_des_sinistres: sinistres@assurances-brevalle.example
+immeuble_en_gestion_locative: null
+fonds_de_travaux: 5 % du budget prévisionnel, aux tantièmes généraux, appelé avec chaque provision

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-606",
+  "de": {
+    "nom": "Agnès Martin",
+    "adresse": "agnes.martin@courriel.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Copie de mon contrat d'entretien",
+  "date": "2026-11-22T10:15:00+01:00",
+  "corps": "Bonjour Monsieur Benali,\n\nNous nous sommes vus à l'assemblée de ma copropriété. Pourriez-vous m'envoyer une copie de mon contrat d'entretien, pour ma chaudière ? Je ne la retrouve plus. Et à quelle date aura lieu ma prochaine visite d'entretien ?\n\nMerci,\nAgnès Martin (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

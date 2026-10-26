@@ -1,0 +1,10 @@
+# Fiche d'un fournisseur de Négovelle. Données FICTIVES.
+nom: Protection du Pont-Rouge
+activite: fabricant d'équipements de protection individuelle
+adresse: 8 parc d'activités de la Gare, 36999 Corvalet (FICTIF)
+telephone: 02 61 91 61 78
+courriel_commandes: commandes@protection-du-pont-rouge.example
+courriel_facturation: facturation@protection-du-pont-rouge.example
+iban: FR76 9999 9012 5668 9120 4470 105 (FICTIF)
+conditions: paiement à 30 jours date de facture
+minimum_de_commande: 500,00 € HT

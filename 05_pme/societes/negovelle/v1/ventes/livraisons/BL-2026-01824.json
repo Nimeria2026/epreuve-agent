@@ -1,0 +1,44 @@
+{
+  "numero": "BL-2026-01824",
+  "commande": "CO-2026-01975",
+  "client": "c-0168",
+  "date_expedition": "2026-07-02",
+  "date_livraison": "2026-07-02",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "26 rue des Peupliers, 36999 Corvalet (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ENT-10881",
+      "libelle": "Raclette à vitres 45 cm",
+      "quantite": 1
+    },
+    {
+      "reference": "FIX-11298",
+      "libelle": "Crochet droit à visser 20 mm, sachet de 10",
+      "quantite": 3
+    },
+    {
+      "reference": "OUT-10204",
+      "libelle": "Caisse à outils à tiroirs 700 mm",
+      "quantite": 12
+    },
+    {
+      "reference": "PLB-13503",
+      "libelle": "Étanchéité ruban PTFE de 25 m",
+      "quantite": 2
+    },
+    {
+      "reference": "VIS-13601",
+      "libelle": "Vis à bois tête fraisée 6x80, zinguée, boîte de 100",
+      "quantite": 4
+    }
+  ],
+  "reserves": null,
+  "signataire": "Noémie Moulin",
+  "statut": "livre"
+}

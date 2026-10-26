@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-mare-b03",
+  "de": {
+    "nom": "Arnaud Bunel",
+    "adresse": "arnaud.bunel@platrerie-humbert.example"
+  },
+  "a": [
+    "manon.rey@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Horaires du comptoir cet été",
+  "date": "2026-06-29T11:37:00+02:00",
+  "corps": "Bonjour,\n\nLe comptoir reste-t-il ouvert en août ?\n\nArnaud Bunel",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

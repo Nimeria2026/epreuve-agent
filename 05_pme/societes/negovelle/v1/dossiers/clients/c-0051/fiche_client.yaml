@@ -1,0 +1,31 @@
+# Fiche du client c-0051 de Négovelle. Données FICTIVES.
+code: c-0051
+nom: Lhomme Travaux publics
+type: entreprise
+adresse: 31 parc d'activités de la Gare, 36999 Fontclavier (FICTIF)
+telephone: 02 61 91 88 29
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Henri Auger
+  fonction: conducteur de travaux
+  courriel: henri.auger@lhomme-travaux-publics.example
+- nom: Hervé Daniel
+  fonction: responsable des achats
+  courriel: herve.daniel@lhomme-travaux-publics.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 31 parc d'activités de la Gare, 36999 Fontclavier (FICTIF)
+- code: L2
+  libelle: dépôt
+  adresse: 38 zone industrielle des Brandes, 36999 Laubrissac (FICTIF)
+categorie_remise: C
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2015-07-01'
+limite_encours_euros: 5500.0
+livraisons_partielles: true
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

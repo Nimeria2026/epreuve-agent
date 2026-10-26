@@ -1,0 +1,101 @@
+{
+  "numero": "CO-2026-01876",
+  "client": "c-0334",
+  "reference_client": null,
+  "cree_le": "2026-06-25T09:10:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "80 chemin du Bois, 36999 Laubrissac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-10579",
+      "libelle": "Boîte de dérivation à couvercle vissé 220 mm",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 3.8,
+      "remise_pourcent": 9.84,
+      "prix_net_ht_euros": 3.43,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 41.16
+    },
+    {
+      "reference": "ELE-10620",
+      "libelle": "Boîte de dérivation à encastrer 150 mm",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 10.05,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 10.05,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 10.05
+    },
+    {
+      "reference": "ELP-10547",
+      "libelle": "Foret béton SDS-plus 10x210 mm",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 12.25,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 11.27,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 112.7
+    },
+    {
+      "reference": "FIX-12139",
+      "libelle": "Équerre de fixation 120x80x20 mm, zinguée",
+      "quantite": 60,
+      "prix_tarif_ht_euros": 4.2,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 3.86,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 231.6
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 395.51,
+  "total_tva_euros": 79.1,
+  "total_ttc_euros": 474.61,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01725"
+  ],
+  "facture": "FC-2026-1310",
+  "historique": [
+    {
+      "date": "2026-06-25T09:10:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-25T09:12:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-26T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01725"
+    },
+    {
+      "date": "2026-06-26T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01725"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1310"
+    }
+  ]
+}

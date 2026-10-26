@@ -1,0 +1,14 @@
+{
+  "numero": "INT-2026-0030",
+  "client": "c-0437",
+  "techniciens": [
+    "thomas.girard",
+    "enzo.caron"
+  ],
+  "debut": "2026-11-09T13:30:00+01:00",
+  "fin": "2026-11-09T17:30:00+01:00",
+  "nature": "installation",
+  "objet": "Remplacement d'une chaudière gaz, seconde demi-journée",
+  "statut": "planifiee",
+  "cree_par": "donnees_initiales"
+}

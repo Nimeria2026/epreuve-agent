@@ -1,0 +1,42 @@
+{
+  "numero": "CO-2026-02042",
+  "client": "c-0252",
+  "reference_client": null,
+  "cree_le": "2026-06-30T09:12:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "2 chemin du Bois, 36999 Vaumoreau-sur-Indre (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "FIX-11192",
+      "libelle": "Collier de fixation 28 mm, sachet de 25",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 5.8,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 5.57,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 66.84
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 66.84,
+  "total_tva_euros": 13.37,
+  "total_ttc_euros": 80.21,
+  "statut": "en_attente_reassort",
+  "motif_attente": null,
+  "reliquat_de": "CO-2026-01955",
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-06-30T09:12:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": "reliquat de CO-2026-01955"
+    }
+  ]
+}

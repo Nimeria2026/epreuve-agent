@@ -1,0 +1,44 @@
+{
+  "numero": "BL-2026-01797",
+  "commande": "CO-2026-01948",
+  "client": "c-0319",
+  "date_expedition": "2026-07-01",
+  "date_livraison": "2026-07-01",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "20 zone d'activités des Grands Prés, 36999 Vaumoreau-sur-Indre (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "CON-12156",
+      "libelle": "Ruban adhésif de masquage 38 mm, rouleau de 33 m",
+      "quantite": 4
+    },
+    {
+      "reference": "CON-12343",
+      "libelle": "Ruban adhésif toilé gris 19 mm, rouleau de 33 m",
+      "quantite": 2
+    },
+    {
+      "reference": "ELE-13127",
+      "libelle": "Ruban isolant gris, rouleau de 33 m",
+      "quantite": 50
+    },
+    {
+      "reference": "QUI-11886",
+      "libelle": "Gond à scellement 12 mm",
+      "quantite": 24
+    },
+    {
+      "reference": "VIS-11584",
+      "libelle": "Vis à bois tête fraisée 3x70, inox A2, boîte de 200",
+      "quantite": 2
+    }
+  ],
+  "reserves": null,
+  "signataire": "Sophie Pasquet",
+  "statut": "livre"
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-917",
+  "de": {
+    "nom": "Patrick Roux",
+    "adresse": "patrick.roux@calorelle.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Brenneval veut payer en trois fois",
+  "date": "2026-12-28T11:00:00+01:00",
+  "corps": "Karim,\n\nLe syndic de la Résidence de Brenneval du 17 rue des Lilas (c-0304) me demande s'il peut régler DV-2026-013 en trois fois, sans frais. Ce n'est pas à moi d'en décider : vois avec Hélène, je ne fais rien sans son accord.\n\nPatrick (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

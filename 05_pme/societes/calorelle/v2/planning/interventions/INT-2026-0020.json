@@ -1,0 +1,13 @@
+{
+  "numero": "INT-2026-0020",
+  "client": "c-0034",
+  "techniciens": [
+    "mathieu.picard"
+  ],
+  "debut": "2026-11-05T08:00:00+01:00",
+  "fin": "2026-11-05T10:00:00+01:00",
+  "nature": "depannage",
+  "objet": "Dépannage : plus d'eau chaude",
+  "statut": "planifiee",
+  "cree_par": "donnees_initiales"
+}

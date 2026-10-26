@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0085"
+nom: "Michel Martin"
+type: "particulier"
+adresse: "25 rue du Moulin, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "michel.martin@courriel.example"
+telephone: "06 39 98 50 20"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité Plus"
+  depuis: "2022-11-10"
+  mois_anniversaire: "novembre"
+  derniere_visite: "2025-11-15"

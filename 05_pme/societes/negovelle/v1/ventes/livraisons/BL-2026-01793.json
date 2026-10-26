@@ -1,0 +1,34 @@
+{
+  "numero": "BL-2026-01793",
+  "commande": "CO-2026-01944",
+  "client": "c-0117",
+  "date_expedition": "2026-07-01",
+  "date_livraison": "2026-07-01",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "21 zone d'activités des Grands Prés, 36999 Laubrissac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "PLB-11878",
+      "libelle": "Purgeur manuel de radiateur",
+      "quantite": 3
+    },
+    {
+      "reference": "PLB-13503",
+      "libelle": "Étanchéité ruban PTFE de 25 m",
+      "quantite": 2
+    },
+    {
+      "reference": "QUI-12270",
+      "libelle": "Paumelle 60 mm, acier, sachet de 2",
+      "quantite": 12
+    }
+  ],
+  "reserves": null,
+  "signataire": "Jacqueline Humbert",
+  "statut": "livre"
+}

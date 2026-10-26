@@ -1,0 +1,123 @@
+{
+  "numero": "CO-2026-01930",
+  "client": "c-0262",
+  "reference_client": null,
+  "cree_le": "2026-06-29T09:10:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "express",
+  "livraison": {
+    "code": "L1",
+    "adresse": "1 rue Saint-Martin, 36999 Vendrigny (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "FIX-10506",
+      "libelle": "Cheville nylon 6x25, boîte de 100",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 11.35,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 10.9,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 43.6
+    },
+    {
+      "reference": "PLB-13062",
+      "libelle": "Tube PVC évacuation 63 mm, barre de 2 m",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 12.7,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 12.19,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 12.19
+    },
+    {
+      "reference": "PRO-10841",
+      "libelle": "Gants de manutention anticoupure niveau D, taille 10",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 11.55,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 11.09,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 11.09
+    },
+    {
+      "reference": "QUI-11829",
+      "libelle": "Ferme-porte à glissière, force EN 2 à 5",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 90.45,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 86.83,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 1041.96
+    },
+    {
+      "reference": "VIS-10710",
+      "libelle": "Vis à bois tête fraisée 3,5x16, inox A2, boîte de 500",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 3.7,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 3.55,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 10.65
+    },
+    {
+      "reference": "VIS-12090",
+      "libelle": "Vis à bois tête fraisée 4,5x70, inox A2, boîte de 500",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 11.05,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 10.61,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 21.22
+    }
+  ],
+  "port_ht_euros": 25.0,
+  "total_ht_euros": 1165.71,
+  "total_tva_euros": 233.14,
+  "total_ttc_euros": 1398.85,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01779"
+  ],
+  "facture": "FC-2026-1241",
+  "historique": [
+    {
+      "date": "2026-06-29T09:10:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-29T09:12:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-29T16:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01779"
+    },
+    {
+      "date": "2026-06-30T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01779"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1241"
+    }
+  ]
+}

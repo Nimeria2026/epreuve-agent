@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-602",
+  "de": {
+    "nom": "Syndic de la Résidence de Brenneval",
+    "adresse": "contact@syndic-de-la-residence-de-brenneval-304.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Travaux de la chaufferie votés",
+  "date": "2026-11-21T11:40:00+01:00",
+  "corps": "Bonjour Monsieur Benali,\n\nL'assemblée générale de jeudi a voté les travaux de rénovation de la chaufferie de votre devis : bon pour accord. Pouvez-vous nous dire quand vos équipes pourront intervenir ?\n\nCordialement,\nLe syndic de la Résidence de Brenneval, 17 rue des Lilas, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

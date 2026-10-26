@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-b01",
+  "de": {
+    "nom": "Sandrine Lefebvre",
+    "adresse": "sandrine.lefebvre@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Demande d'information sur le contrat Sérénité",
+  "date": "2026-08-09T11:47:00+02:00",
+  "corps": "Bonjour,\n\nBonjour, que comprend exactement le contrat Sérénité ?\n\nSandrine Lefebvre (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

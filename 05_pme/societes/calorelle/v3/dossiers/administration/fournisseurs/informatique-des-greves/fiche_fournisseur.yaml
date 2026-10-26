@@ -1,0 +1,8 @@
+# Fiche fournisseur Calorelle. Données FICTIVES.
+nom: "Informatique des Grèves"
+activite: "informatique"
+adresse: "18 zone d'activité du Pré-Bouvreuil, 45999 Valmont-sur-Loire (FICTIF)"
+telephone: "02 61 91 20 33"
+courriel_facturation: "compta@informatique-des-greves.example"
+iban: "FR76 9999 9723 7107 4687 1674 480 (FICTIF)"
+conditions: "paiement à réception"

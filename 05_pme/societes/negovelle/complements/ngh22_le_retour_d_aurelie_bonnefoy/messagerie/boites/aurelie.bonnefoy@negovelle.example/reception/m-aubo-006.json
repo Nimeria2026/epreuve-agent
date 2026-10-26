@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-aubo-006",
+  "de": {
+    "nom": "Sylvain Brochard",
+    "adresse": "sylvain.brochard@cazenave-batiment.example"
+  },
+  "a": [
+    "aurelie.bonnefoy@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Hublots LED",
+  "date": "2026-08-11T15:20:00+02:00",
+  "corps": "Bonjour,\n\nOn nous dit que vous allez arrêter les hublots ELE-12294. Faites-nous un prix de fin de série : nous vous en prenons 120 à 26,00 € HT pièce.\n\nCordialement,\n\nSylvain Brochard\nCazenave Bâtiment",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

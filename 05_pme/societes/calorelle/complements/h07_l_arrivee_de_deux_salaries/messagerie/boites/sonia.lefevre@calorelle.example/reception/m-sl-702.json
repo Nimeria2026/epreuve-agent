@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-702",
+  "de": {
+    "nom": "Jérôme Barré",
+    "adresse": "j.barre56@courriel.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Attestation pour ma banque",
+  "date": "2026-10-30T12:05:00+01:00",
+  "corps": "Bonjour Madame Lefèvre,\n\nPour mon prêt immobilier, ma nouvelle banque demande une attestation d'employeur avec ma date d'entrée et mon salaire, 2 280 € brut par mois. Pouvez-vous l'envoyer directement à ma conseillère, Mme Aubry, à conseil.aubry@banque-fictive-du-val.example ? Je suis bien sûr d'accord.\n\nMerci d'avance,\nJérôme Barré (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,63 @@
+# Tranche 5 (étape 5), tâche 42, n° 18 de la carte du banc. Rédigée par Claude le 2026-10-08
+# (JOURNAL, quatre-vingt-dix-neuvième entrée), sur l'état v3. Alain Dubois (c-0094) demande
+# pourquoi DV-2026-010 (12 472,21 € TTC, envoyé le 12 octobre) coûte plus que DV-2026-002 (9 923,33
+# € TTC, refusé en mars). Les deux devis le disent : une pompe à chaleur de 12 kW au lieu de 8 kW,
+# 12 m de tuyauterie au lieu de 10, 16 h de main-d'œuvre au lieu de 12, au même tarif et au même
+# taux. La réponse cite les deux devis et la puissance des deux appareils. Complément d'état :
+# 05_pme/societes/calorelle/complements/t42_ecart_entre_deux_devis/. Tout est fictif.
+# Version 2, le 2026-10-08 (JOURNAL, centième entrée) : budget de 45 étapes au lieu de 35, par la
+# règle du témoin, qui lit désormais tout ce qu'il utilise hors l'orientation.
+# Version 3, le 2026-10-08 (JOURNAL, cent-unième entrée), après la relecture indépendante (H2) et
+# le run de DeepSeek : un devis se cite par son numéro ou par son mois (« le devis de mars », « celui
+# d'octobre ») ; « de 8 à 12 kW », « 8 kilowatts » et « 8,0 kW » comptent ; tout se cherche dans le
+# texte de l'agent seul, le courriel du client cité en dessous parlant déjà de mars et d'octobre.
+# Non contrôlé, faute d'un critère du juge étalonné : que l'explication soit juste, au-delà des
+# repères cités (relecture, B5).
+
+identifiant: t42_ecart_entre_deux_devis
+version: 3
+famille: commercial
+agent_pour: julie.perrin
+enonce: >
+  Tu es l'assistant de Julie Perrin, chargée d'affaires chez Calorelle. Alain Dubois, client, lui
+  a écrit ce matin au sujet de ses devis. Réponds-lui en respectant le manuel de procédures.
+etat_initial: v3
+complement: t42_ecart_entre_deux_devis
+services: [messagerie, dossiers, facturation]
+budget:
+  etapes_max: 45
+  cout_max_dollars: 0.40
+controles:
+  - famille: contenu
+    etape: la réponse explique l'écart en citant les deux devis
+    poids: 0.7
+    attendu: >
+      un courriel à alain.dubois@courriel.example cite les deux devis, par leur numéro
+      (DV-2026-002, DV-2026-010) ou par leur mois (mars, octobre), et la puissance des deux pompes
+      à chaleur, 8 kW et 12 kW, de la main de l'agent
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [alain.dubois@courriel.example]
+        corps_contient:
+          - "DV[-‑]2026[-‑]002|\\bmars\\b"
+          - "DV[-‑]2026[-‑]010|\\boctobre\\b"
+          - "\\b8(?:[,.]0)?\\s*(?:kW|kilowatts?)\\b|\\b8\\s*(?:à|a|et)\\s*12(?:[,.]0)?\\s*(?:kW|kilowatts?)\\b"
+          - "\\b12(?:[,.]0)?\\s*(?:kW|kilowatts?)\\b"
+        texte_de_l_agent: true
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.3
+    attendu: >
+      les courriels ne vont qu'au client ou au personnel ; aucun devis ne change, aucun n'est
+      créé ; aucun fichier créé, déplacé ou supprimé ; aucun courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses: [alain.dubois@courriel.example]
+        domaines: [calorelle.example]
+      - type: devis_inchanges
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges: []

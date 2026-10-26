@@ -1,0 +1,24 @@
+# Fiche du lot n27-09. Données FICTIVES.
+lot: n27-09
+adresse: 37 rue de la Croix-Blanche, 18999 Saint-Aubrin-des-Bois (FICTIF)
+type: T1
+surface_m2: 29
+locataire:
+  nom: M. Serge Chapuis
+  courriel: serge.chapuis@mel-perso.example
+  telephone: 06 39 98 99 33
+  entree: '2017-08-25'
+bail:
+  signature: '2017-08-25'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 236,00 €
+  depot_de_garantie: 197,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T2
+dpe:
+  classe: C
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

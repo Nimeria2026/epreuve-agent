@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-gafo-610",
+  "de": {
+    "nom": "Thierry Ollivier",
+    "adresse": "thierry.ollivier@domivelle.example"
+  },
+  "a": [
+    "gaelle.fournel@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Impayé du lot 12 des Peupliers",
+  "date": "2026-09-11T16:40:00+02:00",
+  "corps": "Gaëlle,\n\nYohan m'a dit que tu le remplaces. Les Peupliers (cp17), lot 12, Mme Anne Millet : ses provisions du 1er avril et du 1er juillet, 1 104,10 €, restent impayées. La mise en demeure, présentée le mardi 11 août par lettre recommandée, est restée sans effet : depuis le jeudi 10 septembre, trente jours sont passés, et la provision du 1er octobre, 552,05 €, est devenue exigible. Je te le dis pour que vous décidiez d'une action avec la gérante.\n\nAutre chose : la lettre recommandée de la mise en demeure, 8,90 €, et nos honoraires de mise en demeure, 45,00 €. Je les passe en charges générales de l'immeuble, comme d'habitude ?\n\nThierry",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

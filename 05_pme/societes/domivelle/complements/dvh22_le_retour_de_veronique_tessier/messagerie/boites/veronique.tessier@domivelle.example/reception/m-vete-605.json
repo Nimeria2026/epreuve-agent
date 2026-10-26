@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-vete-605",
+  "de": {
+    "nom": "Nadège Lebrun",
+    "adresse": "nadege.lebrun@domivelle.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Lettre recommandée électronique : congé, n01-05",
+  "date": "2026-08-04T10:20:00+02:00",
+  "corps": "Véronique,\n\nUne lettre recommandée électronique est arrivée ce mardi 4 août : Mme Aurélie Leroux, locataire du lot n01-05, donne congé, avec un préavis de trois mois ; elle ne dit pas pourquoi. Je te la transmets, elle t'attendra.\n\nNadège",
+  "pieces_jointes": [
+    {
+      "nom": "lettre_recommandee_electronique_n01-05.pdf",
+      "fichier": "pieces/m-vete-605/lettre_recommandee_electronique_n01-05.pdf",
+      "taille_octets": 773
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

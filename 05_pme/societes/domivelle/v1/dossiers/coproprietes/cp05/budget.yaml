@@ -1,0 +1,15 @@
+# Budget prévisionnel de l'exercice en cours, voté, copropriété cp05. Données FICTIVES.
+copropriete: cp05
+exercice: 2026-2027
+total: 17 000,00 €
+postes:
+  nettoyage des parties communes: 4 065,00 €
+  espaces verts: 1 478,00 €
+  électricité des parties communes: 1 663,00 €
+  eau: 2 587,00 €
+  assurance de l'immeuble: 2 033,00 €
+  honoraires du syndic: 3 326,00 €
+  entretien et petites réparations: 1 848,00 €
+repartition:
+  charges générales, aux tantièmes généraux: 17 000,00 €
+appel: un quart du budget, exigible le premier jour de chaque trimestre

@@ -1,0 +1,34 @@
+{
+  "identifiant": "m-brca-002",
+  "de": {
+    "nom": "Clémence Aubertin",
+    "adresse": "clemence.aubertin@messagerie-perso.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Mes documents pour mon arrivée",
+  "date": "2026-07-03T19:10:00+02:00",
+  "corps": "Bonjour Monsieur Castaing,\n\nComme convenu, je commence le lundi 20 juillet comme assistante à l'administration des ventes, en renfort pour l'été, auprès de Corinne Vidal. Vous trouverez ci-joints mon contrat signé, la copie de ma pièce d'identité et mon RIB pour la paie.\n\nBien cordialement,\nClémence Aubertin",
+  "pieces_jointes": [
+    {
+      "nom": "contrat_de_travail.pdf",
+      "fichier": "pieces/m-brca-002/contrat_de_travail.pdf",
+      "taille_octets": 851
+    },
+    {
+      "nom": "piece_identite.pdf",
+      "fichier": "pieces/m-brca-002/piece_identite.pdf",
+      "taille_octets": 743
+    },
+    {
+      "nom": "rib.pdf",
+      "fichier": "pieces/m-brca-002/rib.pdf",
+      "taille_octets": 786
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

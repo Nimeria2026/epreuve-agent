@@ -1,0 +1,67 @@
+{
+  "numero": "CO-2026-02024",
+  "client": "c-0062",
+  "reference_client": null,
+  "cree_le": "2026-07-03T09:10:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "44 rue du Pont, 36999 Mérolles-en-Brenne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "FIX-11535",
+      "libelle": "Goujon d'ancrage M12x100, boîte de 25",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 24.4,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 23.42,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 281.04
+    },
+    {
+      "reference": "QUI-10016",
+      "libelle": "Arrêt de volet automatique, galvanisé",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 12.75,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 12.75,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 76.5
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 357.54,
+  "total_tva_euros": 71.51,
+  "total_ttc_euros": 429.05,
+  "statut": "expediee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01863"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T09:10:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T09:12:00+02:00",
+      "par": "oceane.collin",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T16:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01863"
+    }
+  ]
+}

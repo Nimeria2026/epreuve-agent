@@ -1,0 +1,28 @@
+# Fiche du client c-0028 de Négovelle. Données FICTIVES.
+code: c-0028
+nom: Paysage Crozet
+type: artisan
+adresse: 103 rue des Peupliers, 36999 Corvalet (FICTIF)
+telephone: 02 61 91 70 13
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Serge Rigaud
+  fonction: gérant
+  courriel: serge.rigaud@paysage-crozet.example
+- nom: Monique Toussaint
+  fonction: conjointe collaboratrice
+  courriel: monique.toussaint@paysage-crozet.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 103 rue des Peupliers, 36999 Corvalet (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2019-10-01'
+limite_encours_euros: 5500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

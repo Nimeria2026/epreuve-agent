@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-laga-005",
+  "de": {
+    "nom": "Roger Auger",
+    "adresse": "roger.auger@fleurot-batiment.example"
+  },
+  "a": [
+    "laetitia.garnier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Prix des boulons",
+  "date": "2026-07-03T11:10:00+02:00",
+  "corps": "Bonjour,\n\nQuel serait notre prix pour 60 sachets de boulons VIS-10048, M10x20 zingués ? Nous en aurons besoin en septembre.\n\nCordialement,\nRoger Auger\nFleurot Bâtiment",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

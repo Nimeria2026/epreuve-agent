@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0611"
+nom: "Martine Garnier"
+type: "particulier"
+adresse: "2 avenue des Tilleuls, appartement 4, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "martine.garnier@courriel.example"
+telephone: "06 39 98 56 11"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2021-11-08"
+  mois_anniversaire: "novembre"
+  derniere_visite: "2025-11-24"

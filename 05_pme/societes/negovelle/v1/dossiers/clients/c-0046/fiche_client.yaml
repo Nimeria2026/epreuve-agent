@@ -1,0 +1,31 @@
+# Fiche du client c-0046 de Négovelle. Données FICTIVES.
+code: c-0046
+nom: Cosson Rénovation
+type: entreprise
+adresse: 23 parc d'activités de la Gare, 36999 Saulvenne (FICTIF)
+telephone: 02 61 91 63 48
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Sandrine Delaunay
+  fonction: conductrice de travaux
+  courriel: sandrine.delaunay@cosson-renovation.example
+- nom: Jeanne Monnier
+  fonction: responsable des achats
+  courriel: jeanne.monnier@cosson-renovation.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 23 parc d'activités de la Gare, 36999 Saulvenne (FICTIF)
+- code: L2
+  libelle: dépôt
+  adresse: 33 zone industrielle des Brandes, 36999 Fontclavier (FICTIF)
+categorie_remise: B
+delai_paiement: 60_jours_date_de_facture
+client_depuis: '2023-06-01'
+limite_encours_euros: 8500.0
+livraisons_partielles: false
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

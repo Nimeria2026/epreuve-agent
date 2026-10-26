@@ -1,0 +1,24 @@
+# Fiche du lot s03-01. Données FICTIVES.
+lot: s03-01
+adresse: 58 rue de la Halle, 18999 Chantebrune (FICTIF)
+type: maison T4
+surface_m2: 85
+locataire:
+  nom: Mme Monique Pagès
+  courriel: monique.pages@messagerie.example
+  telephone: 06 39 98 70 24
+  entree: '2024-03-05'
+bail:
+  signature: '2024-03-05'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 695,00 €
+  depot_de_garantie: 662,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T4
+dpe:
+  classe: B
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

@@ -1,0 +1,28 @@
+# Fiche du client c-0016 de Négovelle. Données FICTIVES.
+code: c-0016
+nom: Charpente Becker
+type: artisan
+adresse: 6 rue des Peupliers, 36999 Corvalet (FICTIF)
+telephone: 02 61 91 72 61
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Jacques Toussaint
+  fonction: gérant
+  courriel: jacques.toussaint@charpente-becker.example
+- nom: Henri Rigaud
+  fonction: conjoint collaborateur
+  courriel: henri.rigaud@charpente-becker.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 6 rue des Peupliers, 36999 Corvalet (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2009-12-01'
+limite_encours_euros: 1500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-isro-018",
+  "de": {
+    "nom": "Denis Barthe",
+    "adresse": "denis.barthe@negovelle.example"
+  },
+  "a": [
+    "isabelle.royer@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Règlements clients d'août",
+  "date": "2026-08-28T18:00:00+02:00",
+  "corps": "Isabelle,\n\nPour ma trésorerie de septembre : combien les clients ont-ils réglé en août, au total, d'après le relevé ?\n\nDenis",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

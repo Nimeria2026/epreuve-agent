@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-102",
+  "de": {
+    "nom": "Julien Dubois",
+    "adresse": "julien.dubois@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Contrat d'entretien de ma mère",
+  "date": "2026-11-02T08:37:00+01:00",
+  "corps": "Bonjour,\n\nJe suis le fils d'Agnès Dubois, votre cliente (contrat Sérénité). Ma mère est hospitalisée depuis une semaine et je m'occupe de ses papiers. Pouvez-vous m'envoyer la copie de son contrat d'entretien, et me dire quand est prévue la prochaine visite, pour que je m'organise ?\n\nMerci d'avance,\nJulien Dubois (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

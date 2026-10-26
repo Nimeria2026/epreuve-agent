@@ -1,0 +1,49 @@
+{
+  "numero": "BL-2026-01731",
+  "commande": "CO-2026-01882",
+  "client": "c-0040",
+  "date_expedition": "2026-06-26",
+  "date_livraison": "2026-06-26",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "34 zone industrielle des Brandes, 36999 Laubrissac (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "ELP-11265",
+      "libelle": "Foret à bois trois pointes 18 mm",
+      "quantite": 2
+    },
+    {
+      "reference": "OUT-11772",
+      "libelle": "Pince à sertir 160 mm",
+      "quantite": 6
+    },
+    {
+      "reference": "PRO-10735",
+      "libelle": "Chaussures de sécurité montantes S3, pointure 42",
+      "quantite": 5
+    },
+    {
+      "reference": "QUI-10367",
+      "libelle": "Cadenas inox marine 30 mm, 3 clés",
+      "quantite": 3
+    },
+    {
+      "reference": "QUI-12425",
+      "libelle": "Poignée de porte béquille sur rosace, inox",
+      "quantite": 1
+    },
+    {
+      "reference": "VIS-10032",
+      "libelle": "Boulon tête hexagonale M10x20, inox A2, sachet de 25",
+      "quantite": 10
+    }
+  ],
+  "reserves": null,
+  "signataire": "Roger Auger",
+  "statut": "livre"
+}

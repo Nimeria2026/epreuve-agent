@@ -1,0 +1,29 @@
+{
+  "identifiant": "m-cema-609",
+  "de": {
+    "nom": "Coralie Benard",
+    "adresse": "coralie.benard@courriel.example"
+  },
+  "a": [
+    "cedric.maillard@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Candidature pour l'appartement de la rue du Four",
+  "date": "2026-09-05T16:30:00+02:00",
+  "corps": "Bonjour,\n\nJe souhaite louer l'appartement vacant c15-12. Vous trouverez ci-joint ma pièce d'identité et mes trois derniers bulletins de salaire.\n\nCoralie Benard",
+  "pieces_jointes": [
+    {
+      "nom": "piece_identite_benard.pdf",
+      "fichier": "pieces/m-cema-609/piece_identite_benard.pdf",
+      "taille_octets": 742
+    },
+    {
+      "nom": "bulletins_salaire_benard.pdf",
+      "fichier": "pieces/m-cema-609/bulletins_salaire_benard.pdf",
+      "taille_octets": 764
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

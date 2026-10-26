@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-brca-001",
+  "de": {
+    "nom": "Steven Lacroix",
+    "adresse": "steven.lacroix@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Arrêt de travail",
+  "date": "2026-07-06T06:40:00+02:00",
+  "corps": "Bonjour Monsieur Castaing,\n\nMon médecin m'arrête du lundi 6 au vendredi 17 juillet inclus. L'avis d'arrêt de travail est joint.\n\nSteven Lacroix",
+  "pieces_jointes": [
+    {
+      "nom": "avis_arret_de_travail.pdf",
+      "fichier": "pieces/m-brca-001/avis_arret_de_travail.pdf",
+      "taille_octets": 790
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

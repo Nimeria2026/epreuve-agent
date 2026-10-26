@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-101",
+  "de": {
+    "nom": "Syndic de la Résidence des Grèves",
+    "adresse": "contact@syndic-de-la-residence-des-greves-273.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis pour la chaufferie",
+  "date": "2026-11-02T08:20:00+01:00",
+  "corps": "Bonjour Monsieur Benali,\n\nSuite à la visite de M. Girard, merci de nous envoyer aujourd'hui même le devis de remplacement de la chaudière collective : notre assemblée générale se tient jeudi et nous devons le présenter aux copropriétaires.\n\nCordialement,\nLe syndic de la Résidence des Grèves (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

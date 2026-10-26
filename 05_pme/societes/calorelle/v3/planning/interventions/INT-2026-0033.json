@@ -1,0 +1,14 @@
+{
+  "numero": "INT-2026-0033",
+  "client": "c-0437",
+  "techniciens": [
+    "thomas.girard",
+    "enzo.caron"
+  ],
+  "debut": "2026-11-12T08:00:00+01:00",
+  "fin": "2026-11-12T10:00:00+01:00",
+  "nature": "mise_en_service",
+  "objet": "Mise en service de la chaudière remplacée le 9 novembre",
+  "statut": "planifiee",
+  "cree_par": "donnees_initiales"
+}

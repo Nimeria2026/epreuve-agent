@@ -1,0 +1,676 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FicheDeRun",
+  "description": "Une campagne de mesure : un candidat passé sur un jeu de tâches, chaque tâche répétée k fois. Elle permet de rejouer le run (règle 1 du BRIEF). « ? » signifie inconnu, et le rapport le montre ; null signifie sans objet. EASE vérifie au chargement ce que le schéma ne sait pas exprimer : statut et fin cohérents, dates en UTC, date de l'identifiant.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "identifiant",
+    "debut_utc",
+    "fin_utc",
+    "statut",
+    "raison_interruption",
+    "code",
+    "candidat",
+    "configuration",
+    "empreinte_prompts",
+    "jeu_taches",
+    "etat_pme",
+    "regles_gardien",
+    "repetitions",
+    "machine"
+  ],
+  "properties": {
+    "identifiant": {
+      "$ref": "#/$defs/IdentifiantRun"
+    },
+    "debut_utc": {
+      "$ref": "#/$defs/HorodatageUTC"
+    },
+    "fin_utc": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/HorodatageUTC"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "statut": {
+      "type": "string",
+      "enum": [
+        "en_cours",
+        "termine",
+        "interrompu"
+      ]
+    },
+    "raison_interruption": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "code": {
+      "$ref": "#/$defs/Code"
+    },
+    "candidat": {
+      "$ref": "#/$defs/ReferenceCandidat"
+    },
+    "configuration": {
+      "$ref": "#/$defs/Configuration"
+    },
+    "empreinte_prompts": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/Empreinte"
+        },
+        {
+          "$ref": "#/$defs/Inconnu"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Empreinte des prompts ; null pour un candidat sans prompt."
+    },
+    "jeu_taches": {
+      "$ref": "#/$defs/JeuDeTaches"
+    },
+    "etat_pme": {
+      "$ref": "#/$defs/EtatPME"
+    },
+    "regles_gardien": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/ReglesGardien"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "repetitions": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Nombre de répétitions de chaque tâche."
+    },
+    "machine": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/Machine"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "juge": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/JugeDuRun"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Le juge qui a tranché les vérifications juge_requis ; null : aucun juge. Absent des runs d'avant le juge (étape 4)."
+    },
+    "banc_public": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/BancPublic"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Le banc public sur lequel le candidat a été mesuré, hors de la PME (étape 7) ; null ou absent : un run de la PME. etat_pme porte alors la version et l'empreinte des données du banc."
+    }
+  },
+  "$defs": {
+    "Inconnu": {
+      "const": "?",
+      "description": "Valeur inconnue ; le rapport la montre comme telle."
+    },
+    "Empreinte": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$",
+      "description": "Empreinte sha256, préfixée par « sha256: »."
+    },
+    "HorodatageUTC": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Date et heure en UTC, au format RFC 3339 (par exemple 2026-11-03T14:00:00Z)."
+    },
+    "IdentifiantRun": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}_[a-z0-9_]+$",
+      "description": "Date de début du run en UTC, puis un nom ; c'est aussi le nom du dossier du run."
+    },
+    "Code": {
+      "title": "Code",
+      "description": "Version du code qui a produit le run.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "commit",
+        "modifications_non_commitees"
+      ],
+      "properties": {
+        "commit": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$",
+          "description": "Commit git complet."
+        },
+        "modifications_non_commitees": {
+          "type": "boolean",
+          "description": "Vrai si le dépôt avait des modifications non commitées : le run n'est alors pas rejouable à l'identique."
+        }
+      }
+    },
+    "ReferenceCandidat": {
+      "title": "ReferenceCandidat",
+      "description": "Fiche candidat utilisée pour ce run.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "identifiant",
+        "version"
+      ],
+      "properties": {
+        "identifiant": {
+          "type": "string",
+          "pattern": "^[a-z0-9_]+$"
+        },
+        "version": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "Tarif": {
+      "title": "Tarif",
+      "description": "Prix appliqués au calcul du coût, recopiés avec leur source pour qu'un coût publié se recalcule sans dépendre des prix du jour.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "entree_dollars_par_million",
+        "entree_en_cache_dollars_par_million",
+        "sortie_dollars_par_million",
+        "source",
+        "releve_le"
+      ],
+      "properties": {
+        "entree_dollars_par_million": {
+          "type": "number",
+          "minimum": 0
+        },
+        "entree_en_cache_dollars_par_million": {
+          "anyOf": [
+            {
+              "type": "number",
+              "minimum": 0
+            },
+            {
+              "$ref": "#/$defs/Inconnu"
+            }
+          ]
+        },
+        "sortie_dollars_par_million": {
+          "type": "number",
+          "minimum": 0
+        },
+        "source": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Adresse ou nom de la source des prix."
+        },
+        "releve_le": {
+          "type": "string",
+          "format": "date",
+          "description": "Date du relevé des prix."
+        }
+      }
+    },
+    "Modele": {
+      "title": "Modele",
+      "description": "Un modèle appelé pendant le run.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "role",
+        "nom",
+        "fournisseur",
+        "version_renvoyee",
+        "parametres",
+        "tarif"
+      ],
+      "properties": {
+        "role": {
+          "type": "string",
+          "pattern": "^[a-z_]+$",
+          "description": "Rôle du modèle dans l'orchestration, par exemple agent ou superviseur."
+        },
+        "nom": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Nom du modèle demandé."
+        },
+        "fournisseur": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Fournisseur de l'API, ou local."
+        },
+        "version_renvoyee": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "$ref": "#/$defs/Inconnu"
+            }
+          ]
+        },
+        "parametres": {
+          "type": "object",
+          "additionalProperties": {
+            "type": [
+              "number",
+              "string",
+              "boolean",
+              "null"
+            ]
+          },
+          "description": "Réglages d'appel : température, nombre maximal de jetons, effort de raisonnement."
+        },
+        "tarif": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Tarif"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      }
+    },
+    "Configuration": {
+      "title": "Configuration",
+      "description": "Configuration exacte du candidat pendant ce run.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "modeles"
+      ],
+      "properties": {
+        "modeles": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Modele"
+          },
+          "description": "Modèles appelés ; liste vide pour un témoin qui n'appelle aucun modèle."
+        }
+      }
+    },
+    "TacheDuJeu": {
+      "title": "TacheDuJeu",
+      "description": "Une tâche du jeu, avec la version mesurée et, si elle en a un, l'empreinte de son complément d'état.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "identifiant",
+        "version"
+      ],
+      "properties": {
+        "identifiant": {
+          "type": "string",
+          "pattern": "^[a-z0-9_]+$"
+        },
+        "version": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "empreinte_complement": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Empreinte"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Empreinte du complément d'état propre à la tâche (étape 4) ; null ou absent si elle n'en a pas."
+        }
+      }
+    },
+    "JeuDeTaches": {
+      "title": "JeuDeTaches",
+      "description": "Jeu de tâches identifié par la liste de ses tâches, leurs versions et une empreinte.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "nom",
+        "taches",
+        "empreinte"
+      ],
+      "properties": {
+        "nom": {
+          "type": "string",
+          "pattern": "^[a-z0-9_]+$",
+          "description": "Nom du jeu, par exemple public."
+        },
+        "taches": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/TacheDuJeu"
+          }
+        },
+        "empreinte": {
+          "$ref": "#/$defs/Empreinte"
+        }
+      }
+    },
+    "EtatPME": {
+      "title": "EtatPME",
+      "description": "État initial de la PME chargé avant chaque exécution.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "version",
+        "empreinte"
+      ],
+      "properties": {
+        "version": {
+          "type": "string",
+          "pattern": "^v[0-9]+$"
+        },
+        "empreinte": {
+          "$ref": "#/$defs/Empreinte"
+        },
+        "societe": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9_]*$"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Société fictive de l'état (ADR 0006) ; null : terrain qui n'est pas une société (tau2). Absent des fiches écrites avant la seconde société, toutes de Calorelle."
+        }
+      }
+    },
+    "JugeDuRun": {
+      "title": "JugeDuRun",
+      "description": "Le juge étalonné d'EASE (étape 4) : son modèle, la version de sa grille, et le nombre d'avis qu'il rend au plus quand le premier ne dit pas vrai.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "modele",
+        "grille"
+      ],
+      "properties": {
+        "modele": {
+          "type": "string",
+          "minLength": 1
+        },
+        "grille": {
+          "type": "string",
+          "minLength": 1
+        },
+        "avis": {
+          "description": "Avis au plus quand le premier ne dit pas vrai, faux ou illisible, la majorité tranchant (JOURNAL, 161e et 168e entrées) ; absent, un seul avis, comme dans les runs d'avant le 2026-10-15 au soir.",
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    },
+    "BancPublic": {
+      "title": "BancPublic",
+      "description": "Un banc public d'agents construit par d'autres (ADR 0004), servi à EASE par MCP : ce qu'il faut pour rejouer le run et le comparer aux scores publiés.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "nom",
+        "version",
+        "domaine",
+        "jeu",
+        "simulateur"
+      ],
+      "properties": {
+        "nom": {
+          "type": "string",
+          "pattern": "^[a-z0-9_]+$",
+          "description": "Nom du banc, par exemple tau2_bench."
+        },
+        "version": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Version du paquet du banc installée par uv.lock, par exemple 1.0.1."
+        },
+        "domaine": {
+          "type": "string",
+          "pattern": "^[a-z0-9_]+$",
+          "description": "Domaine du banc, par exemple airline."
+        },
+        "jeu": {
+          "type": "string",
+          "pattern": "^[a-z0-9_]+$",
+          "description": "Jeu de tâches du domaine, par exemple verified."
+        },
+        "simulateur": {
+          "$ref": "#/$defs/SimulateurDuRun"
+        }
+      }
+    },
+    "SimulateurDuRun": {
+      "title": "SimulateurDuRun",
+      "description": "Celui qui joue le client face à l'agent : un modèle, payé à part du candidat, ou un utilisateur sans modèle (écrit d'avance, rejoué).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "modele",
+        "fournisseur",
+        "parametres",
+        "tarif",
+        "jetons",
+        "cout_dollars",
+        "cout_annonce_dollars"
+      ],
+      "properties": {
+        "modele": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Nom du modèle au format de litellm, par exemple openrouter/google/gemini-2.5-flash ; ecrit_d_avance ou rejoue:<agent> sans modèle."
+        },
+        "fournisseur": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "null sans modèle."
+        },
+        "parametres": {
+          "type": "object",
+          "description": "Réglages envoyés au modèle à chaque appel, tels quels."
+        },
+        "tarif": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Tarif"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "null sans modèle."
+        },
+        "jetons": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/JetonsSimulateur"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Jetons du simulateur sur tout le run, lus dans les réponses de son API ; null sans modèle ou tant que le run n'est pas fini."
+        },
+        "cout_dollars": {
+          "anyOf": [
+            {
+              "type": "number",
+              "minimum": 0
+            },
+            {
+              "$ref": "#/$defs/Inconnu"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Coût du simulateur sur tout le run, calculé par EASE avec le tarif ; null sans modèle ou tant que le run n'est pas fini."
+        },
+        "cout_annonce_dollars": {
+          "anyOf": [
+            {
+              "type": "number",
+              "minimum": 0
+            },
+            {
+              "$ref": "#/$defs/Inconnu"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Coût annoncé par le fournisseur dans ses réponses, s'il en annonce un ; « ? » s'il manque à une réponse ; null sans modèle ou tant que le run n'est pas fini."
+        }
+      }
+    },
+    "JetonsSimulateur": {
+      "title": "JetonsSimulateur",
+      "description": "Jetons consommés par le simulateur d'utilisateur ; la réflexion compte en sortie, et dont_reflexion en donne la part.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "entree",
+        "entree_en_cache",
+        "sortie",
+        "dont_reflexion"
+      ],
+      "properties": {
+        "entree": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 0
+            },
+            {
+              "$ref": "#/$defs/Inconnu"
+            }
+          ]
+        },
+        "entree_en_cache": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 0
+            },
+            {
+              "$ref": "#/$defs/Inconnu"
+            }
+          ]
+        },
+        "sortie": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 0
+            },
+            {
+              "$ref": "#/$defs/Inconnu"
+            }
+          ]
+        },
+        "dont_reflexion": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 0
+            },
+            {
+              "$ref": "#/$defs/Inconnu"
+            }
+          ],
+          "description": "Jetons de réflexion compris dans la sortie, tels que l'API les donne (completion_tokens_details.reasoning_tokens) ; « ? » s'ils manquent à une réponse."
+        }
+      }
+    },
+    "ReglesGardien": {
+      "title": "ReglesGardien",
+      "description": "Version des règles du gardien (étape 4).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "version",
+        "empreinte"
+      ],
+      "properties": {
+        "version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "empreinte": {
+          "$ref": "#/$defs/Empreinte"
+        }
+      }
+    },
+    "Machine": {
+      "title": "Machine",
+      "description": "Machine qui sert un modèle local. Chaque champ vaut « ? » si inconnu.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "systeme",
+        "processeur",
+        "carte_graphique",
+        "service_modele"
+      ],
+      "properties": {
+        "systeme": {
+          "type": "string",
+          "minLength": 1
+        },
+        "processeur": {
+          "type": "string",
+          "minLength": 1
+        },
+        "carte_graphique": {
+          "type": "string",
+          "minLength": 1
+        },
+        "service_modele": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Logiciel qui sert le modèle et sa version, par exemple vLLM."
+        }
+      }
+    }
+  }
+}

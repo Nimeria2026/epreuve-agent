@@ -1,0 +1,25 @@
+# Fiche du client c-0106 de Négovelle. Données FICTIVES.
+code: c-0106
+nom: Charpente Vaillant
+type: artisan
+adresse: 98 avenue de la Gare, 36999 Laubrissac (FICTIF)
+telephone: 02 61 91 67 58
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Isabelle Brault
+  fonction: gérante
+  courriel: isabelle.brault@charpente-vaillant.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 98 avenue de la Gare, 36999 Laubrissac (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2011-03-01'
+limite_encours_euros: 3500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-809",
+  "de": {
+    "nom": "Mairie de Sablonnet",
+    "adresse": "secretariat@mairie-sablonnet.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Entretien des chaudières communales",
+  "date": "2026-10-30T11:50:00+01:00",
+  "corps": "Bonjour,\n\nLa commune souhaite un devis pour l'entretien annuel des chaudières de l'école et de la salle des fêtes.\n\nLe secrétariat de mairie, Sablonnet (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

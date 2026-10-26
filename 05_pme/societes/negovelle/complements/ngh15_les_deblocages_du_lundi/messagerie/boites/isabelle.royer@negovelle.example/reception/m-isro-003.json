@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-isro-003",
+  "de": {
+    "nom": "Laure Gay",
+    "adresse": "laure.gay@ruel-industrie.example"
+  },
+  "a": [
+    "isabelle.royer@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Notre commande CO-2026-02044",
+  "date": "2026-07-05T18:00:00+02:00",
+  "corps": "Madame,\n\nNous réglerons notre facture d'avril en fin de semaine prochaine, sans faute. Pouvez-vous libérer dès aujourd'hui notre commande CO-2026-02044 ? Le chantier attend.\n\nLaure Gay\nRuel Industrie",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

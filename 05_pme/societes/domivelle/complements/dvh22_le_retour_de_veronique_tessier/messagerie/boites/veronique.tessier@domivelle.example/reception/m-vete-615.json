@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-vete-615",
+  "de": {
+    "nom": "Nadège Lebrun",
+    "adresse": "nadege.lebrun@domivelle.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Lettre recommandée électronique : congé, c01-07",
+  "date": "2026-08-18T14:40:00+02:00",
+  "corps": "Véronique,\n\nEncore une lettre recommandée électronique, reçue ce mardi 18 août : M. Maxime Carpentier, locataire du lot c01-07, donne congé. Il écrit qu'un logement social lui est attribué et demande un préavis d'un mois, mais rien n'est joint pour le justifier.\n\nNadège",
+  "pieces_jointes": [
+    {
+      "nom": "lettre_recommandee_electronique_c01-07.pdf",
+      "fichier": "pieces/m-vete-615/lettre_recommandee_electronique_c01-07.pdf",
+      "taille_octets": 769
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

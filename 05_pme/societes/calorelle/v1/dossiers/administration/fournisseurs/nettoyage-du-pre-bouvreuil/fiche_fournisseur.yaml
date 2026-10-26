@@ -1,0 +1,8 @@
+# Fiche fournisseur Calorelle. Données FICTIVES.
+nom: "Nettoyage du Pré-Bouvreuil"
+activite: "nettoyage"
+adresse: "51 zone d'activité de Mirelande, 45999 Valmont-sur-Loire (FICTIF)"
+telephone: "02 61 91 20 17"
+courriel_facturation: "compta@nettoyage-du-pre-bouvreuil.example"
+iban: "FR76 9999 9961 6630 1209 5959 754 (FICTIF)"
+conditions: "paiement à 30 jours fin de mois"

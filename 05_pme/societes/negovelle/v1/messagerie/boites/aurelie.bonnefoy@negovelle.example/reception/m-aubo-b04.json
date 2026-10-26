@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-aubo-b04",
+  "de": {
+    "nom": "Françoise Foucault",
+    "adresse": "francoise.foucault@navarre-batiment.example"
+  },
+  "a": [
+    "aurelie.bonnefoy@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Horaires du comptoir cet été",
+  "date": "2026-06-24T16:11:00+02:00",
+  "corps": "Bonjour,\n\nLe comptoir reste-t-il ouvert en août ?\n\nFrançoise Foucault",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

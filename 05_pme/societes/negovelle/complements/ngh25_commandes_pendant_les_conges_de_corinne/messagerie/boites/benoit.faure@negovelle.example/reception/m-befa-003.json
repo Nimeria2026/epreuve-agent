@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-befa-003",
+  "de": {
+    "nom": "Fabrice Mercier",
+    "adresse": "fabrice.mercier@negovelle.example"
+  },
+  "a": [
+    "benoit.faure@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande de Maçonnerie Daniel",
+  "date": "2026-07-27T07:50:00+02:00",
+  "corps": "Benoît,\n\nMaçonnerie Daniel m'a donné sa commande vendredi, sur le chantier. Je te la transmets.\n\nFabrice\n\n----- Message transféré -----\nDe : Chantal Granger <chantal.granger@maconnerie-daniel.example>\nObjet : Commande\n\n- 48 x CON-11012, Disque abrasif à lamelles 115 mm, grain 60, boîte de 50\n- 10 x CON-11510, Mousse polyuréthane expansive pistolable, 500 ml\n\nAu siège.",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

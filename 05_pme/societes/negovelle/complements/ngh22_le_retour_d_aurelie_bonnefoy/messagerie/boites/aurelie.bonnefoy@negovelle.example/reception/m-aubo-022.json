@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-aubo-022",
+  "de": {
+    "nom": "Xavier Brault",
+    "adresse": "xavier.brault@chauffage-chauveau.example"
+  },
+  "a": [
+    "aurelie.bonnefoy@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Pantalons pour demain",
+  "date": "2026-08-21T16:30:00+02:00",
+  "corps": "Bonjour Aurélie,\n\nDeux nouveaux arrivent lundi : pourriez-vous nous livrer en express 12 pantalons de travail PRO-11600 ? Combien cela nous coûterait-il, livraison comprise, et quand les aurions-nous ?\n\nMerci,\n\nXavier Brault\nChauffage Chauveau",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

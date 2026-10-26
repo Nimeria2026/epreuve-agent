@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-002",
+  "de": {
+    "nom": "Protection du Pont-Rouge",
+    "adresse": "facturation@protection-du-pont-rouge.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture F58210",
+  "date": "2026-07-03T14:15:00+02:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-jointe notre facture F58210 du 3 juillet 2026, pour votre commande CA-2026-0317 :\n- PRO-11037, Gants de manutention hiver, taille 8 : 40 x 5,99 € HT = 239,60 €\n- PRO-11339, Masque FFP1, boîte de 50 : 40 x 10,45 € HT = 418,00 €\n- PRO-11429, Pantalon de travail coupe droite bleu marine, taille 40 : 2 x 30,13 € HT = 60,26 €\n- PRO-12033, Veste de travail polaire grise, taille L : 6 x 43,56 € HT = 261,36 €\n\nTotal HT : 979,22 € ; TVA 20 % : 195,84 € ; total TTC : 1 175,06 €. Paiement à 30 jours date de facture.\n\nService facturation\nProtection du Pont-Rouge",
+  "pieces_jointes": [
+    {
+      "nom": "F58210.pdf",
+      "fichier": "pieces/m-cpt-002/F58210.pdf",
+      "taille_octets": 800
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

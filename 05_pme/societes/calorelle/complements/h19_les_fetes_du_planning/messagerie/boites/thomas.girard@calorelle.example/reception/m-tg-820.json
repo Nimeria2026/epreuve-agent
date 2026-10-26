@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-tg-820",
+  "de": {
+    "nom": "Établissements Michel",
+    "adresse": "contact@etablissements-michel-121.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Réclamation : visite du 9 décembre",
+  "date": "2026-12-18T10:30:00+01:00",
+  "corps": "Bonjour,\n\nVotre technicien est arrivé le 9 décembre à 10 h au lieu de 8 h, sans nous prévenir : nous avons dû garder un salarié sur place toute la matinée. Nous demandons un geste commercial sur le renouvellement de notre contrat.\n\nÉtablissements Michel, 75 rue de la Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

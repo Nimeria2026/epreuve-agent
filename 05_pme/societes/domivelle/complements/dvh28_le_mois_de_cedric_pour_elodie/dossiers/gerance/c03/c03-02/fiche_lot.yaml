@@ -1,0 +1,19 @@
+# Fiche du lot c03-02. Données FICTIVES.
+lot: c03-02
+adresse: 111 rue de la Fontaine, 18999 Montclavel-sur-Cher (FICTIF)
+type: T3
+surface_m2: 60
+locataire:
+  nom: M. Jérôme Laporte
+  courriel: jerome.laporte@boite-postale.example
+  telephone: 06 39 98 77 17
+  entree: '2019-04-08'
+bail:
+  signature: '2019-04-08'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 639,00 €
+  depot_de_garantie: 544,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T4
+dpe:
+  classe: E

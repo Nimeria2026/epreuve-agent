@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cema-102",
+  "de": {
+    "nom": "Recommandé électronique Certimel",
+    "adresse": "remise@certimel-lre.example"
+  },
+  "a": [
+    "cedric.maillard@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Lettre recommandée électronique pour Domivelle",
+  "date": "2026-06-05T10:02:00+02:00",
+  "corps": "Une lettre recommandée électronique vous est adressée par M. Jean Fleury, locataire du lot c17-08, 34 rue du Four, 18999 Montclavel-sur-Cher.\n\nObjet déclaré par l'expéditeur : congé du logement, préavis de trois mois.\n\nDate d'envoi : 4 juin 2026. Pour en prendre connaissance, connectez-vous à votre espace Certimel avec le code joint.\n\nCertimel, prestataire de lettre recommandée électronique (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "code_acces_certimel.pdf",
+      "fichier": "pieces/m-cema-102/code_acces_certimel.pdf",
+      "taille_octets": 808
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

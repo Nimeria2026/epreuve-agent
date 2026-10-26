@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-803",
+  "de": {
+    "nom": "Sophie Vincent",
+    "adresse": "sophie.vincent@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Technicien jamais venu",
+  "date": "2026-11-21T09:10:00+01:00",
+  "corps": "Bonjour,\n\nJ'ai attendu toute la matinée de jeudi le technicien qui devait passer pour mon vase d'expansion ; personne n'est venu et personne ne m'a prévenue. Je suis très mécontente.\n\nSophie Vincent, 39 place du Marché, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

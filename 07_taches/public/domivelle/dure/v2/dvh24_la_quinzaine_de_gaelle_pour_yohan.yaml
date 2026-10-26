@@ -1,0 +1,254 @@
+# Tranche longue de la v2 de Domivelle, palier de 120 minutes, scénario S3, le remplacement (cadrage
+# du 2026-10-22, §16). Rédigée par Claude le 2026-10-23. Lundi 14 septembre 2026 : Gaëlle Fournel,
+# gestionnaire des copropriétés CP24 à CP45, remplace Yohan Delmas, en congé du 14 au 25 septembre, sur
+# CP01 à CP23 (manuel, sections 3, 13, 14, 15 et 17). Douze courriels non lus. Les Hortensias (cp12),
+# exercice clos le 30 juin : trois copropriétaires « voie postale », dont la lettre présentée au plus
+# tôt le 15 septembre fait partir le délai le 16 ; la réunion ne peut se tenir avant le 7 octobre
+# (décret de 1967, articles 9, 64 et 64-1) : le 6 octobre est trop tôt, le 15 octobre à Vernillac hors
+# de la commune de l'immeuble, le jeudi 22 octobre à la salle des fêtes de Montclavel-sur-Cher
+# convient ; la question de Mme Lejeune s'inscrit (article 10) ; les comptes et le budget, avec leurs
+# comparatifs, sont les pièces de l'article 11 ; le contrat d'ascenseur part au membre du conseil
+# syndical à l'adresse de la liste, pas à son adresse professionnelle. Le Moulin Neuf (cp08) : le
+# procès-verbal du 10 septembre se notifie avant le 10 octobre aux trois opposants et aux trois
+# défaillants, pas à Mme Roche, représentée, comme Yohan le croyait (loi de 1965, article 42) ; le
+# ravalement de l'article 25 attend les deux mois de contestation, pas le 1er octobre ; la question de
+# M. Lesage, arrivée après la convocation, va à l'assemblée suivante. Les Coteaux (cp09) : un interphone
+# à 7 920,00 € dépasse le seuil de mise en concurrence de 6 000,00 € (article 21). Les Iris (cp14) : un
+# dégât venu d'un lot privatif se déclare à l'assureur de chaque occupant. Les Violettes (cp16) : une
+# infiltration par la toiture-terrasse, à Maëlle Carrière ; l'appel du 1er octobre du lot 15, 354,57 €,
+# fonds de travaux compris (article 14-2-1). Les Peupliers (cp17) : la provision du 1er octobre exigible
+# trente jours après la mise en demeure (article 19-2), une action à décider avec la gérante, qui seule
+# accorde un échéancier ; les frais de recouvrement au seul débiteur (article 10-1). Le Bocage (cp05) :
+# le ravalement voté le 9 juillet attend deux mois depuis la dernière notification, une lettre
+# recommandée présentée le 27 juillet, et non depuis les courriels du 16 : au plus tôt le lundi 28
+# septembre, pas le 21. Complément d'état :
+# 05_pme/societes/domivelle/complements/dvh24_la_quinzaine_de_gaelle_pour_yohan/. Tout est fictif.
+
+identifiant: dvh24_la_quinzaine_de_gaelle_pour_yohan
+version: 1
+famille: copropriete
+agent_pour: gaelle.fournel
+societe: domivelle
+enonce: >
+  Tu es l'assistant de Gaëlle Fournel, gestionnaire de copropriétés chez Domivelle. Yohan Delmas, l'autre
+  gestionnaire, est en congé jusqu'au 25 septembre, et Gaëlle le remplace. Traite ses courriels non lus
+  en son nom, en faisant toi-même ce que le manuel de procédures confie au gestionnaire de la
+  copropriété, puis envoie à Yohan, Gaëlle en copie, le point de ce que tu as fait, pour son retour.
+etat_initial: v1
+complement: dvh24_la_quinzaine_de_gaelle_pour_yohan
+services: [messagerie, dossiers]
+budget:
+  etapes_max: 195
+  cout_max_dollars: 2.00
+controles:
+  - famille: resultat
+    etape: l'assemblée des Hortensias se tient dans les délais et dans la commune
+    poids: 0.1
+    attendu: >
+      Mélanie Sabatier et la présidente du conseil syndical apprennent le jeudi 22 octobre, à
+      Montclavel-sur-Cher
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [melanie.sabatier@domivelle.example]
+        corps_contient: ["22 octobre", "Montclavel"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [noemie.hebert@courriel.example]
+        corps_contient: ["22 octobre"]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: l'ordre du jour porte la question notifiée, la convocation ses pièces
+    poids: 0.05
+    attendu: >
+      Mélanie Sabatier reçoit un ordre du jour avec la question du local à vélos, les comptes et le budget
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [melanie.sabatier@domivelle.example]
+        corps_contient: ["v[ée]lo", "comptes", "budget"]
+        texte_de_l_agent: true
+  - famille: resultat
+    etape: les copropriétaires « voie postale » reçoivent leur lettre recommandée
+    poids: 0.05
+    attendu: Mélanie Sabatier ou Nadège Lebrun apprend les trois copropriétaires « voie postale » de cp12
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [melanie.sabatier@domivelle.example, nadege.lebrun@domivelle.example]
+        corps_contient: ["Pag[èe]s", "Martel", "Dupuy"]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: le procès-verbal se notifie aux opposants et aux défaillants, dans le mois
+    poids: 0.1
+    attendu: >
+      Mélanie Sabatier reçoit les trois opposants et les trois défaillants de cp08, et le 10 octobre
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [melanie.sabatier@domivelle.example]
+        corps_contient: ["Lesage", "R[ée]gnier", "Bourdon", "Camus", "Masse", "Huet", "10 octobre|10/10"]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: les travaux de l'article 25 attendent les deux mois de contestation
+    poids: 0.05
+    attendu: >
+      Maëlle Carrière ou Yohan apprend que le ravalement attend les deux mois, et rien ne part à
+      l'entreprise
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [maelle.carriere@domivelle.example, yohan.delmas@domivelle.example]
+        corps_contient: ["Moulin Neuf|cp08", "deux mois|2 mois"]
+        texte_de_l_agent: true
+      - type: aucun_envoi_vers
+        domaines: [maconnerie-des-chaumes-rouges.example]
+  - famille: respect_des_regles
+    etape: les deux mois se comptent de la dernière notification
+    poids: 0.05
+    attendu: Maëlle Carrière apprend que le ravalement du Bocage commence au plus tôt le 28 septembre
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [maelle.carriere@domivelle.example]
+        corps_contient: ["28 septembre|28/0?9"]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: une question arrivée après la convocation va à l'assemblée suivante
+    poids: 0.05
+    attendu: M. Lesage apprend que sa question ira à la prochaine assemblée
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [roger.lesage@messagerie.example]
+        corps_contient: ["prochaine|suivante"]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: un marché au-delà du seuil se met en concurrence
+    poids: 0.05
+    attendu: >
+      M. Jacob apprend que l'interphone se met en concurrence, et Maëlle Carrière en est saisie
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [jacques.jacob@mel-perso.example]
+        corps_contient: ["concurrence"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [maelle.carriere@domivelle.example]
+        corps_contient: ["interphone|Coteaux|cp09"]
+  - famille: respect_des_regles
+    etape: un dégât venu d'un lot privatif se déclare à l'assureur de l'occupant
+    poids: 0.05
+    attendu: >
+      Mme Germain apprend qu'elle déclare le dégât à son assureur, et rien ne part à l'assureur de
+      l'immeuble
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [odile.germain@mel-perso.example]
+        corps_contient: ["assureur"]
+        texte_de_l_agent: true
+      - type: aucun_envoi_vers
+        domaines: [assurances-brevalle.example]
+  - famille: resultat
+    etape: une infiltration par une partie commune va au responsable technique
+    poids: 0.05
+    attendu: Maëlle Carrière est saisie de l'infiltration chez Mme Boisseau
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [maelle.carriere@domivelle.example]
+        corps_contient: ["Boisseau|toiture|lot 38"]
+  - famille: resultat
+    etape: l'appel du 1er octobre compte le fonds de travaux
+    poids: 0.05
+    attendu: M. Lamy apprend 354,57 €
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [paul.lamy@messagerie.example]
+        corps_contient: ["354[,.]57"]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: un impayé devenu exigible et un échéancier vont à la gérante
+    poids: 0.1
+    attendu: >
+      la gérante apprend l'impayé du lot 12 de cp17 et la demande d'échéancier, et Mme Millet que la
+      gérante en décide
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [veronique.tessier@domivelle.example]
+        corps_contient: ["cp17|Peupliers", "Millet|lot 12", "[ée]ch[ée]ancier"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [anne.millet@mel-perso.example]
+        corps_contient: ["g[ée]rante|V[ée]ronique|Tessier"]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: les frais de recouvrement vont au seul débiteur
+    poids: 0.05
+    attendu: Thierry Ollivier apprend que les frais de la mise en demeure vont à Mme Millet seule
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [thierry.ollivier@domivelle.example]
+        corps_contient: ["Millet|d[ée]bit|lot 12", "10-1|seul"]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: un document part à l'adresse de la liste des copropriétaires
+    poids: 0.05
+    attendu: >
+      M. Petitjean reçoit le contrat d'ascenseur à son adresse de la liste, rien à son adresse
+      professionnelle
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [henri.petitjean@boite-postale.example]
+        pieces_identiques_a: [coproprietes/cp12/contrats/ascenseurs-du-moulin-barrat.md]
+      - type: aucun_envoi_vers
+        domaines: [atelier-petitjean.example]
+  - famille: resultat
+    etape: Yohan trouve le point à son retour
+    poids: 0.05
+    attendu: Yohan reçoit le point de ses copropriétés
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [yohan.delmas@domivelle.example]
+        corps_contient: ["cp12|Hortensias", "cp08|Moulin Neuf", "cp17|Peupliers"]
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.1
+    attendu: >
+      les courriels ne vont qu'aux copropriétaires qui ont écrit et dans Domivelle ; aucun fichier
+      changé ; aucun courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses:
+          - noemie.hebert@courriel.example
+          - sandrine.lejeune@messagerie.example
+          - henri.petitjean@boite-postale.example
+          - roger.lesage@messagerie.example
+          - jacques.jacob@mel-perso.example
+          - odile.germain@mel-perso.example
+          - christine.boisseau@courriel.example
+          - paul.lamy@messagerie.example
+          - anne.millet@mel-perso.example
+        domaines: [domivelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - la date préférée du conseil syndical trop tôt pour la voie postale, une autre hors de la commune
+  - des absents qui ne sont pas tous défaillants, des opposants oubliés
+  - un chantier promis avant la fin du délai de contestation
+  - un délai compté des premières notifications et non de la dernière
+  - une question arrivée après la convocation
+  - un devis à signer sans mise en concurrence
+  - un dégât d'un lot privatif qu'on voudrait faire payer à la copropriété
+  - un fonds de travaux qu'on croit facultatif
+  - un échéancier qu'on demande au gestionnaire, des frais qu'on voudrait répartir
+  - un document demandé à une autre adresse que celle de la liste

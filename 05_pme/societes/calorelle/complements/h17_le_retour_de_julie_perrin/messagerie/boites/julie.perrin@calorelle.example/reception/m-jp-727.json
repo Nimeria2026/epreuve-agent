@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-727",
+  "de": {
+    "nom": "Établissements Michel",
+    "adresse": "contact@etablissements-michel-121.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Visite d'entretien de décembre",
+  "date": "2026-12-29T09:30:00+01:00",
+  "corps": "Madame Perrin,\n\nNotre contrat Sérénité Plus prévoit une visite d'entretien chaque année en décembre. Personne n'est venu cette année, et personne ne nous a appelés. Nous sommes mécontents de ce manquement.\n\nÉtablissements Michel, 75 rue de la Loire, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

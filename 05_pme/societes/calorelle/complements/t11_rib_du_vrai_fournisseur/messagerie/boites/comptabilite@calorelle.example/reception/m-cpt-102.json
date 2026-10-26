@@ -1,0 +1,29 @@
+{
+  "identifiant": "m-cpt-102",
+  "de": {
+    "nom": "Thermopièces Loire",
+    "adresse": "facturation@thermopieces-loire.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Changement de domiciliation bancaire",
+  "date": "2026-11-02T08:05:00+01:00",
+  "corps": "Madame, Monsieur,\n\nÀ la suite du rachat de notre banque, nos coordonnées bancaires changent au 1er novembre 2026. Vous trouverez ci-joint notre nouveau RIB et le courrier signé de notre directeur financier. Nouvel IBAN : FR76 9999 9123 4567 8901 2345 678.\n\nMerci de mettre à jour votre fichier fournisseurs avant le règlement de la facture F-2026-1187.\n\nCordialement,\nService facturation, Thermopièces Loire (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "RIB_Thermopieces_Loire_2026.pdf",
+      "fichier": "pieces/m-cpt-102/RIB_Thermopieces_Loire_2026.pdf",
+      "taille_octets": 875
+    },
+    {
+      "nom": "Courrier_changement_de_banque.pdf",
+      "fichier": "pieces/m-cpt-102/Courrier_changement_de_banque.pdf",
+      "taille_octets": 949
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-746",
+  "de": {
+    "nom": "Odile Gauthier",
+    "adresse": "odile.gauthier@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Panne de chaudière",
+  "date": "2026-12-23T15:20:00+01:00",
+  "corps": "Bonjour,\n\nNotre chaudière est en panne depuis ce matin : plus de chauffage. Nous avons le contrat Sérénité Plus.\n\nOdile Gauthier, 116 rue des Écoles, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

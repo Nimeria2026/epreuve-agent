@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-rejo-004",
+  "de": {
+    "nom": "Nathalie Brunet",
+    "adresse": "nathalie.brunet@negovelle.example"
+  },
+  "a": [
+    "remi.joly@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Projecteur brisé",
+  "date": "2026-08-07T16:34:00+02:00",
+  "corps": "Rémi, un de mes dossiers ouverts, à reprendre.\n\nNathalie\n\n----- Message transféré -----\nDe : Robert Martineau <robert.martineau@imprimerie-drouet.example>\nDate : 2026-07-17T15:10:00+02:00\nObjet : Projecteur brisé\n\nBonjour,\n\nAu déballage de la livraison du lundi 13 juillet, BL-2026-01882, nous avons trouvé un projecteur ELE-12891 brisé. Nous avons envoyé ce jour au transporteur une lettre recommandée, dont copie jointe.\n\nRobert Martineau\nImprimerie Drouet",
+  "pieces_jointes": [
+    {
+      "nom": "lettre_recommandee_transporteur.pdf",
+      "fichier": "pieces/m-rejo-004/lettre_recommandee_transporteur.pdf",
+      "taille_octets": 951
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

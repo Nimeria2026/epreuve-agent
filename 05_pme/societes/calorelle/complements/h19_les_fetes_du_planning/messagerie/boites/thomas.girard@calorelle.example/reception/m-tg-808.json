@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-tg-808",
+  "de": {
+    "nom": "Distri-Clim Centre, service commercial",
+    "adresse": "commercial@distri-clim-centre.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Votre commande de pompes de circulation",
+  "date": "2026-12-18T15:00:00+01:00",
+  "corps": "Bonjour,\n\nLes deux pompes de circulation commandées pour la Résidence des Tilleuls ne vous seront livrées que le mardi 5 janvier, en fin de journée.\n\nDistri-Clim Centre (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

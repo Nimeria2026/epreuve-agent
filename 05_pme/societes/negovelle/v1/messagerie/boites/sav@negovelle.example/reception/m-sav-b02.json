@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-b02",
+  "de": {
+    "nom": "Sophie Lagarde",
+    "adresse": "sophie.lagarde@serrurerie-thiery.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Copie de facture",
+  "date": "2026-06-24T12:56:00+02:00",
+  "corps": "Bonjour,\n\nPouvez-vous me renvoyer la facture de mai ? Je ne la retrouve pas.\n\nCordialement,\nSophie Lagarde",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

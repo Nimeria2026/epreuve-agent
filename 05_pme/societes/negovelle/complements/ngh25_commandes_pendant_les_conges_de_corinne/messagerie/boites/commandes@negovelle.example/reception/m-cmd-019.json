@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-019",
+  "de": {
+    "nom": "Isabelle Legendre",
+    "adresse": "isabelle.legendre@serrurerie-rouxel.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Demande de prix",
+  "date": "2026-07-24T09:00:00+02:00",
+  "corps": "Bonjour,\n\nQuel serait notre prix, à l'unité, pour :\n\n- 20 x CON-10343, Colle pour carrelage, tube de 125 ml\n- 60 x CON-11331, Marqueur de chantier noir, boîte de 12\n\nSi c'est bon, nous vous passerons commande.\n\nIsabelle Legendre\nSerrurerie Rouxel",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

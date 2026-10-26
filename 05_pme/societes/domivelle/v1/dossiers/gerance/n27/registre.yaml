@@ -1,0 +1,232 @@
+# Registre des lots en gestion, n27. Données FICTIVES.
+immeuble: n27
+nature: immeuble collectif
+adresse: 37 rue de la Croix-Blanche, 18999 Saint-Aubrin-des-Bois (FICTIF)
+secteur: nord
+gestionnaire: Élodie Chauvin
+distance_agence_km: 19
+annee_construction: 1997
+gardien: false
+copropriete_du_syndic: null
+lots:
+- lot: n27-01
+  type: T2
+  surface_m2: 46
+  etage: 0
+  proprietaire: p-0438
+  locataire: M. Christian Maréchal
+  entree: '2016-06-03'
+  loyer_hors_charges: 375,00 €
+  provision_sur_charges: 70,00 €
+  depot_de_garantie: 300,00 €
+  revision: chaque 3 juin
+  trimestre_irl: T1
+  dpe: C
+- lot: n27-02
+  type: T2
+  surface_m2: 41
+  etage: 0
+  proprietaire: p-0439
+  locataire: M. Dominique Leclerc
+  entree: '2014-08-29'
+  loyer_hors_charges: 367,00 €
+  provision_sur_charges: 62,00 €
+  depot_de_garantie: 288,00 €
+  revision: chaque 29 août
+  trimestre_irl: T2
+  dpe: C
+- lot: n27-03
+  type: T2
+  surface_m2: 44
+  etage: 0
+  proprietaire: p-0440
+  locataire: M. Frédéric Martel
+  entree: '2024-10-31'
+  loyer_hors_charges: 369,00 €
+  provision_sur_charges: 84,00 €
+  depot_de_garantie: 360,00 €
+  revision: chaque 31 octobre
+  trimestre_irl: T2
+  dpe: D
+- lot: n27-04
+  type: T1
+  surface_m2: 28
+  etage: 0
+  proprietaire: p-0441
+  locataire: M. Denis Thibault
+  entree: '2016-12-10'
+  loyer_hors_charges: 250,00 €
+  provision_sur_charges: 80,00 €
+  depot_de_garantie: 204,00 €
+  revision: chaque 10 décembre
+  trimestre_irl: T3
+  dpe: C
+- lot: n27-05
+  type: T2
+  surface_m2: 42
+  etage: 1
+  proprietaire: p-0442
+  locataire: M. Pascal Laurent
+  entree: '2025-09-22'
+  loyer_hors_charges: 388,00 €
+  provision_sur_charges: 68,00 €
+  depot_de_garantie: 388,00 €
+  revision: chaque 22 septembre
+  trimestre_irl: T2
+  dpe: E
+- lot: n27-06
+  type: T3
+  surface_m2: 68
+  etage: 1
+  proprietaire: p-0389
+  locataire: M. Vincent Pichon
+  entree: '2014-03-14'
+  loyer_hors_charges: 609,00 €
+  provision_sur_charges: 116,00 €
+  depot_de_garantie: 468,00 €
+  revision: chaque 14 mars
+  trimestre_irl: T4
+  dpe: D
+- lot: n27-07
+  type: T3
+  surface_m2: 67
+  etage: 1
+  proprietaire: p-0402
+  locataire: Mme Lucie Moreau
+  entree: '2024-07-02'
+  loyer_hors_charges: 593,00 €
+  provision_sur_charges: 94,00 €
+  depot_de_garantie: 579,00 €
+  revision: chaque 2 juillet
+  trimestre_irl: T1
+  dpe: D
+- lot: n27-08
+  type: T3
+  surface_m2: 61
+  etage: 1
+  proprietaire: p-0389
+  locataire: M. Christian Mathieu
+  entree: '2013-01-09'
+  loyer_hors_charges: 552,00 €
+  provision_sur_charges: 112,00 €
+  depot_de_garantie: 417,00 €
+  revision: chaque 9 janvier
+  trimestre_irl: T3
+  dpe: E
+- lot: n27-09
+  type: T1
+  surface_m2: 29
+  etage: 2
+  proprietaire: p-0443
+  locataire: M. Serge Chapuis
+  entree: '2017-08-25'
+  loyer_hors_charges: 236,00 €
+  provision_sur_charges: 73,00 €
+  depot_de_garantie: 197,00 €
+  revision: chaque 25 août
+  trimestre_irl: T2
+  dpe: C
+- lot: n27-10
+  type: T3
+  surface_m2: 63
+  etage: 2
+  proprietaire: p-0444
+  locataire: M. Maxime Gauthier
+  entree: '2023-08-16'
+  loyer_hors_charges: 584,00 €
+  provision_sur_charges: 106,00 €
+  depot_de_garantie: 556,00 €
+  revision: chaque 16 août
+  trimestre_irl: T2
+  dpe: E
+- lot: n27-11
+  type: T3
+  surface_m2: 57
+  etage: 2
+  proprietaire: p-0445
+  locataire: M. Daniel Lejeune
+  entree: '2017-07-30'
+  loyer_hors_charges: 546,00 €
+  provision_sur_charges: 37,00 €
+  depot_de_garantie: 455,00 €
+  revision: chaque 30 juillet
+  trimestre_irl: T1
+  dpe: A
+- lot: n27-12
+  type: T2
+  surface_m2: 38
+  etage: 2
+  proprietaire: p-0446
+  locataire: Mme Marion Martel
+  entree: '2014-02-08'
+  loyer_hors_charges: 360,00 €
+  provision_sur_charges: 36,00 €
+  depot_de_garantie: 277,00 €
+  revision: chaque 8 février
+  trimestre_irl: T4
+  dpe: C
+- lot: n27-13
+  type: T4
+  surface_m2: 83
+  etage: 3
+  proprietaire: p-0447
+  locataire: Mme Martine Masse
+  entree: '2014-03-19'
+  loyer_hors_charges: 763,00 €
+  provision_sur_charges: 62,00 €
+  depot_de_garantie: 587,00 €
+  revision: chaque 19 mars
+  trimestre_irl: T4
+  dpe: E
+- lot: n27-14
+  type: T2
+  surface_m2: 39
+  etage: 3
+  proprietaire: p-0448
+  locataire: Mme Amandine Lemaire
+  entree: '2019-01-18'
+  loyer_hors_charges: 356,00 €
+  provision_sur_charges: 52,00 €
+  depot_de_garantie: 303,00 €
+  revision: chaque 18 janvier
+  trimestre_irl: T3
+  dpe: F
+- lot: n27-15
+  type: T2
+  surface_m2: 46
+  etage: 3
+  proprietaire: p-0449
+  locataire: M. Guy Simon
+  entree: '2016-08-08'
+  loyer_hors_charges: 402,00 €
+  provision_sur_charges: 103,00 €
+  depot_de_garantie: 328,00 €
+  revision: chaque 8 août
+  trimestre_irl: T2
+  dpe: D
+- lot: n27-16
+  type: T2
+  surface_m2: 46
+  etage: 3
+  proprietaire: p-0450
+  locataire: M. Jean Lucas
+  entree: '2023-08-01'
+  loyer_hors_charges: 439,00 €
+  provision_sur_charges: 34,00 €
+  depot_de_garantie: 418,00 €
+  revision: chaque 1er août
+  trimestre_irl: T2
+  dpe: F
+- lot: n27-17
+  type: T4
+  surface_m2: 78
+  etage: 4
+  proprietaire: p-0451
+  locataire: M. Patrice Mouton
+  entree: '2014-06-06'
+  loyer_hors_charges: 735,00 €
+  provision_sur_charges: 45,00 €
+  depot_de_garantie: 565,00 €
+  revision: chaque 6 juin
+  trimestre_irl: T1
+  dpe: D

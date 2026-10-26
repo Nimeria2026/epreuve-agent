@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-tg-826",
+  "de": {
+    "nom": "Hélène Bernard",
+    "adresse": "helene.bernard@courriel.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis pour une pompe à chaleur",
+  "date": "2026-12-20T15:00:00+01:00",
+  "corps": "Bonjour,\n\nJe voudrais un devis pour remplacer ma vieille chaudière fioul par une pompe à chaleur. Pouvez-vous passer en janvier ?\n\nHélène Bernard, 110 impasse des Saules (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

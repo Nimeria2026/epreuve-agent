@@ -1,0 +1,145 @@
+{
+  "numero": "CO-2026-01863",
+  "client": "c-0165",
+  "reference_client": "BC-9701",
+  "cree_le": "2026-06-24T09:10:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "11 parc d'activités de la Gare, 36999 Ardillac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-11233",
+      "libelle": "Disque abrasif à lamelles 150 mm, grain 80, boîte de 10",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 13.5,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 12.96,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 12.96
+    },
+    {
+      "reference": "ELE-10555",
+      "libelle": "Boîte d'encastrement étanche 85 mm",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 0.95,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 0.91,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 9.1
+    },
+    {
+      "reference": "FIX-10734",
+      "libelle": "Cheville pour plaque de plâtre 5x32, boîte de 100",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 6.4,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 6.14,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 73.68
+    },
+    {
+      "reference": "OUT-10236",
+      "libelle": "Ciseau à bois 16 mm",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 16.75,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 16.08,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 64.32
+    },
+    {
+      "reference": "OUT-12090",
+      "libelle": "Scie à plâtre 250 mm",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 22.15,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 21.26,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 21.26
+    },
+    {
+      "reference": "PLB-11020",
+      "libelle": "Coude cuivre à souder 90° 16 mm, sachet de 5",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 10.55,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 10.13,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 101.3
+    },
+    {
+      "reference": "PRO-10930",
+      "libelle": "Gants de manutention cuir fleur, taille 7",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 7.8,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 7.49,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 74.9
+    },
+    {
+      "reference": "VIS-11649",
+      "libelle": "Vis à bois tête fraisée 3x80, zinguée, boîte de 500",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 6.65,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 6.38,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 31.9
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 389.42,
+  "total_tva_euros": 77.88,
+  "total_ttc_euros": 467.3,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01712"
+  ],
+  "facture": "FC-2026-1150",
+  "historique": [
+    {
+      "date": "2026-06-24T09:10:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-24T09:12:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-25T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01712"
+    },
+    {
+      "date": "2026-06-25T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01712"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1150"
+    }
+  ]
+}

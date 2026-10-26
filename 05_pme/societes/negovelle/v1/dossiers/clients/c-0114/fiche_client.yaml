@@ -1,0 +1,28 @@
+# Fiche du client c-0114 de Négovelle. Données FICTIVES.
+code: c-0114
+nom: Legendre Rénovation
+type: entreprise
+adresse: 10 zone industrielle des Brandes, 36999 Vendrigny (FICTIF)
+telephone: 02 61 91 87 76
+secteur: est
+commercial: fabrice.mercier
+administration_des_ventes: benoit.faure
+contacts:
+- nom: François Pasquet
+  fonction: conducteur de travaux
+  courriel: francois.pasquet@legendre-renovation.example
+- nom: Léa Vaillant
+  fonction: responsable des achats
+  courriel: lea.vaillant@legendre-renovation.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 10 zone industrielle des Brandes, 36999 Vendrigny (FICTIF)
+categorie_remise: C
+delai_paiement: 60_jours_date_de_facture
+client_depuis: '2014-12-01'
+limite_encours_euros: 12000.0
+livraisons_partielles: false
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

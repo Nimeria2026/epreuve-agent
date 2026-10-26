@@ -1,0 +1,75 @@
+# Classement des tâches publiques (contrat 01_contrats/classement.schema.json ; JOURNAL, entrées 121,
+# 125 et 154). Écrit par ease.classement : make classement VERSER=1 ou ESTIMER=1 réécrit ce fichier
+# d'un bloc, sans garder d'autres commentaires que celui-ci. Les étiquettes, le type commun d'une
+# tâche du socle commun (07_taches/public/types_communs.yaml), la fiche ROME et les sections du
+# manuel s'écrivent à la main ; les durées, jamais : les mesurées viennent des runs du poste
+# humain, l'estimée de la grille (ease.grille) sur un run du témoin parfait. Le métier, les
+# services, le contrôle grave et les étapes du témoin se calculent depuis la tâche (make classement).
+# Fiches ROME : France Travail, ROME 4.0, Licence Ouverte ; on cite le code et l'intitulé.
+version: 2
+personnes: {}
+taches:
+  dvh22_le_retour_de_veronique_tessier:
+    version_tache: 1
+    etiquettes: [calcul, dates_et_echeances, volume, document, regle_peu_visible]
+    rome: {code: C1501, intitule: Gérance immobilière}
+    sections_manuel: [4, 5, 6, 8, 14, 17, 19]
+    durees: []
+    duree_estimee: {secondes: 7955.6, grille: '1', version_tache: 1, run: 2026-10-23_092630_temoin_parfait,
+      lire: 890.4, chercher: 943.8, ecrire: 5384.2, agir: 737.2}
+  dvh23_la_cloture_de_juillet_de_la_gerance:
+    version_tache: 1
+    etiquettes: [calcul, dates_et_echeances, volume, document, regle_peu_visible]
+    rome: {code: M1608, intitule: Secrétariat comptable}
+    sections_manuel: [1, 4, 6, 11, 12, 18, 19]
+    durees: []
+    duree_estimee: {secondes: 7724.8, grille: '1', version_tache: 1, run: 2026-10-23_094723_temoin_parfait,
+      lire: 1048.5, chercher: 718.8, ecrire: 5469.5, agir: 488.1}
+  dvh24_la_quinzaine_de_gaelle_pour_yohan:
+    version_tache: 1
+    etiquettes: [calcul, dates_et_echeances, volume, document, regle_peu_visible]
+    rome: {code: C1501, intitule: Gérance immobilière}
+    sections_manuel: [3, 13, 14, 15, 17]
+    durees: []
+    duree_estimee: {secondes: 7482.5, grille: '1', version_tache: 1, run: 2026-10-23_100312_temoin_parfait,
+      lire: 1257.0, chercher: 258.9, ecrire: 5621.1, agir: 345.6}
+  dvh25_le_sud_pendant_le_conge_de_solene:
+    version_tache: 1
+    etiquettes: [calcul, dates_et_echeances, volume, document, regle_peu_visible, piege]
+    rome: {code: C1502, intitule: Gestion locative immobilière}
+    sections_manuel: [3, 4, 5, 7, 9, 10, 11]
+    durees: []
+    duree_estimee: {secondes: 8598.9, grille: '1', version_tache: 1, run: 2026-10-23_101638_temoin_parfait,
+      lire: 1079.7, chercher: 532.9, ecrire: 6287.4, agir: 698.9}
+  dvh26_la_rentree_de_melanie_sabatier:
+    version_tache: 1
+    etiquettes: [dates_et_echeances, volume, document, regle_peu_visible]
+    rome: {code: C1501, intitule: Gérance immobilière}
+    sections_manuel: [2, 3, 13, 14, 15]
+    durees: []
+    duree_estimee: {secondes: 14564.0, grille: '1', version_tache: 1, run: 2026-10-23_103014_temoin_parfait,
+      lire: 948.9, chercher: 148.3, ecrire: 11753.7, agir: 1713.1}
+  dvh27_la_cloture_de_septembre_des_coproprietes:
+    version_tache: 1
+    etiquettes: [calcul, dates_et_echeances, volume, document, regle_peu_visible]
+    rome: {code: M1608, intitule: Secrétariat comptable}
+    sections_manuel: [13, 14, 15]
+    durees: []
+    duree_estimee: {secondes: 14429.4, grille: '1', version_tache: 1, run: 2026-10-23_104131_temoin_parfait,
+      lire: 894.5, chercher: 91.6, ecrire: 12808.4, agir: 634.9}
+  dvh28_le_mois_de_cedric_pour_elodie:
+    version_tache: 1
+    etiquettes: [calcul, dates_et_echeances, volume, document, regle_peu_visible]
+    rome: {code: C1502, intitule: Gestion locative immobilière}
+    sections_manuel: [3, 4, 5, 6, 7, 9, 12, 17]
+    durees: []
+    duree_estimee: {secondes: 15343.9, grille: '1', version_tache: 1, run: 2026-10-23_105209_temoin_parfait,
+      lire: 1536.3, chercher: 943.0, ecrire: 11854.7, agir: 1009.9}
+  dvh29_la_rentree_de_maelle_carriere:
+    version_tache: 1
+    etiquettes: [dates_et_echeances, volume, document, regle_peu_visible, piege]
+    rome: {code: C1501, intitule: Gérance immobilière}
+    sections_manuel: [2, 3, 7, 13, 15, 16]
+    durees: []
+    duree_estimee: {secondes: 14587.3, grille: '1', version_tache: 1, run: 2026-10-23_111827_temoin_parfait,
+      lire: 1557.2, chercher: 476.6, ecrire: 11570.5, agir: 983.0}

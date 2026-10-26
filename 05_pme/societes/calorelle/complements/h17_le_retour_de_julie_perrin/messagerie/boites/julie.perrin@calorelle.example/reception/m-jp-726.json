@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-726",
+  "de": {
+    "nom": "Sandrine Gauthier",
+    "adresse": "sandrine.gauthier@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Votre devis DV-2026-017",
+  "date": "2026-12-28T16:00:00+01:00",
+  "corps": "Bonjour Madame Perrin,\n\nVotre devis DV-2026-017 pour la pompe à chaleur nous convient, mais un autre installateur nous propose 5 % de moins. Si vous nous accordez cette remise, nous signons.\n\nSandrine Gauthier, 55 rue Haute, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

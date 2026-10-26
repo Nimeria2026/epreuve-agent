@@ -1,0 +1,8 @@
+# Fiche fournisseur Calorelle. Données FICTIVES.
+nom: "Papeterie du Val"
+activite: "fournitures de bureau"
+adresse: "13 zone d'activité de la Courtine, 45999 Valmont-sur-Loire (FICTIF)"
+telephone: "02 61 91 20 13"
+courriel_facturation: "factures@papeterie-du-val.example"
+iban: "FR76 9999 9614 9245 1707 2558 626 (FICTIF)"
+conditions: "paiement à réception"

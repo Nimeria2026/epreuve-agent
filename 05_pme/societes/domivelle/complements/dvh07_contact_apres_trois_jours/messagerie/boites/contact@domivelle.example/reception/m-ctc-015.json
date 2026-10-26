@@ -1,0 +1,29 @@
+{
+  "identifiant": "m-ctc-015",
+  "de": {
+    "nom": "Lucie Benoît",
+    "adresse": "lucie.benoit@courriel.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Mon dossier pour le T3 n01-06",
+  "date": "2026-06-04T15:35:00+02:00",
+  "corps": "Bonjour,\n\nVoici mon dossier : contrat de travail et trois derniers bulletins de salaire.\n\nLucie Benoît",
+  "pieces_jointes": [
+    {
+      "nom": "contrat_de_travail.pdf",
+      "fichier": "pieces/m-ctc-015/contrat_de_travail.pdf",
+      "taille_octets": 735
+    },
+    {
+      "nom": "bulletins_de_salaire.pdf",
+      "fichier": "pieces/m-ctc-015/bulletins_de_salaire.pdf",
+      "taille_octets": 737
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

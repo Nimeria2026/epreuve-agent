@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-covi-005",
+  "de": {
+    "nom": "Lætitia Garnier",
+    "adresse": "laetitia.garnier@negovelle.example"
+  },
+  "a": [
+    "corinne.vidal@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "TR : Livraison sur chantier de la commande CO-2026-02031",
+  "date": "2026-07-03T11:50:00+02:00",
+  "corps": "Corinne,\n\nUne demande d'adresse de chantier pour Besson Rénovation (c-0330), à toi pour l'appel.\n\nLætitia\n\n-------- Message transféré --------\nDe : Laurent Baillet <laurent.baillet@besson-renovation.example>\nObjet : Livraison sur chantier de la commande CO-2026-02031\n\nBonjour,\n\nPourriez-vous livrer notre commande CO-2026-02031 sur notre chantier, 8 rue des Écoles, 36999 Laubrissac ?\n\nMerci,\nLaurent Baillet\nBesson Rénovation",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

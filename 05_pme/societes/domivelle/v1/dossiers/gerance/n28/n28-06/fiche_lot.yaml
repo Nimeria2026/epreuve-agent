@@ -1,0 +1,24 @@
+# Fiche du lot n28-06. Données FICTIVES.
+lot: n28-06
+adresse: 126 avenue Pasteur, 18999 Saint-Aubrin-des-Bois (FICTIF)
+type: maison T5
+surface_m2: 111
+locataire:
+  nom: M. Hervé Millet
+  courriel: herve.millet@courriel.example
+  telephone: 06 39 98 88 75
+  entree: '2024-08-16'
+bail:
+  signature: '2024-08-16'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 1 047,00 €
+  depot_de_garantie: 1 021,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T2
+dpe:
+  classe: D
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

@@ -1,0 +1,25 @@
+# Fiche du client c-0262 de Négovelle. Données FICTIVES.
+code: c-0262
+nom: Chauffage Clerc
+type: artisan
+adresse: 1 rue Saint-Martin, 36999 Vendrigny (FICTIF)
+telephone: 02 61 91 81 82
+secteur: est
+commercial: fabrice.mercier
+administration_des_ventes: benoit.faure
+contacts:
+- nom: Gilles Humbert
+  fonction: gérant
+  courriel: gilles.humbert@chauffage-clerc.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 1 rue Saint-Martin, 36999 Vendrigny (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2015-06-01'
+limite_encours_euros: 4000.0
+livraisons_partielles: false
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

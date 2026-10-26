@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-732",
+  "de": {
+    "nom": "Jean André",
+    "adresse": "jean.andre@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Mon devis pour la chaudière",
+  "date": "2026-12-21T09:00:00+01:00",
+  "corps": "Bonjour Madame Perrin,\n\nVous deviez m'envoyer le devis de la chaudière avant votre congé : je ne l'ai pas reçu. Elle est encore tombée en panne ce week-end, et j'aimerais faire les travaux en janvier.\n\nJean André, 100 rue de la Loire, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

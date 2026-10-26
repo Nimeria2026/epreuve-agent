@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-hm-510",
+  "de": {
+    "nom": "Solaire Express",
+    "adresse": "offres@solaire-express.example"
+  },
+  "a": [
+    "helene.marchal@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devenez revendeur",
+  "date": "2026-11-16T08:00:00+01:00",
+  "corps": "Madame,\n\nDevenez revendeur de nos panneaux solaires : remise de lancement de 30 % jusqu'au 30 novembre.\n\nSolaire Express (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

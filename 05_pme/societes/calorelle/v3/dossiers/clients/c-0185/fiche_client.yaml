@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0185"
+nom: "Valérie Perrot"
+type: "particulier"
+adresse: "65 rue de la Loire, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "valerie.perrot@courriel.example"
+telephone: "06 39 98 50 49"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2019-01-12"
+  mois_anniversaire: "janvier"
+  derniere_visite: "2026-01-06"

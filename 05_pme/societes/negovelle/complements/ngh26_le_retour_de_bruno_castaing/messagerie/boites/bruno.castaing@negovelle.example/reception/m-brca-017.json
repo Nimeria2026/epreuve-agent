@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-017",
+  "de": {
+    "nom": "Samir Ouali",
+    "adresse": "samir.ouali@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Délai de paiement",
+  "date": "2026-08-17T15:20:00+02:00",
+  "corps": "Bruno, pour décision : Couverture Cosson voudrait 90 jours.\n\nSamir\n\n----- Message transféré -----\nDe : Didier Allard <didier.allard@couverture-cosson.example>\nObjet : Délai de paiement\n\nBonjour,\n\nNous voudrions régler nos factures à 90 jours date de facture, comme nos autres fournisseurs.\n\nDidier Allard\nCouverture Cosson",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

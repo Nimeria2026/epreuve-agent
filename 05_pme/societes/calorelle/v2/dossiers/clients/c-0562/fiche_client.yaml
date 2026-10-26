@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0562"
+nom: "Odile Gauthier"
+type: "particulier"
+adresse: "116 rue des Écoles, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "odile.gauthier@courriel.example"
+telephone: "06 39 98 51 33"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité Plus"
+  depuis: "2022-03-04"
+  mois_anniversaire: "mars"
+  derniere_visite: "2026-03-17"

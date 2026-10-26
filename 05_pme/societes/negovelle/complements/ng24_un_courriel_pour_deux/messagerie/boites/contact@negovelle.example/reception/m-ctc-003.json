@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-003",
+  "de": {
+    "nom": "Protection de la Croisette",
+    "adresse": "commandes@protection-de-la-croisette.example"
+  },
+  "a": [
+    "contact@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Nos nouveaux gants anticoupure",
+  "date": "2026-07-03T17:14:00+02:00",
+  "corps": "Bonjour,\n\nNous lançons une gamme de gants anticoupure et aimerions vous la présenter. Seriez-vous disponible pour un rendez-vous la semaine du 13 juillet ?\n\nService commercial\nProtection de la Croisette",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

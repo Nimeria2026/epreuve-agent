@@ -1,0 +1,68 @@
+{
+  "numero": "CO-2026-02092",
+  "client": "c-0076",
+  "reference_client": null,
+  "cree_le": "2026-07-14T10:06:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "12 parc d'activités de la Gare, 36999 Vaumoreau-sur-Indre (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "OUT-12033",
+      "libelle": "Scie à métaux 300 mm",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 30.25,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 29.04,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 58.08
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 58.08,
+  "total_tva_euros": 11.62,
+  "total_ttc_euros": 69.7,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": "CO-2026-02091",
+  "livraisons": [
+    "BL-2026-01912"
+  ],
+  "facture": "FC-2026-1479",
+  "historique": [
+    {
+      "date": "2026-07-14T10:06:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": "reliquat de CO-2026-02091"
+    },
+    {
+      "date": "2026-07-20T09:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "validee",
+      "detail": "réassort reçu"
+    },
+    {
+      "date": "2026-07-21T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01912"
+    },
+    {
+      "date": "2026-07-21T11:40:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01912"
+    },
+    {
+      "date": "2026-07-31T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1479"
+    }
+  ]
+}

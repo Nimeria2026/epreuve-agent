@@ -1,0 +1,28 @@
+# Fiche du client c-0020 de Négovelle. Données FICTIVES.
+code: c-0020
+nom: Mairie de Brissonne
+type: collectivite
+adresse: 12 rue des Forges, 36999 Brissonne (FICTIF)
+telephone: 02 61 91 89 37
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Sandrine Doré
+  fonction: responsable des services techniques
+  courriel: sandrine.dore@mairie-de-brissonne.example
+- nom: François Baudouin
+  fonction: secrétaire de mairie
+  courriel: francois.baudouin@mairie-de-brissonne.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 12 rue des Forges, 36999 Brissonne (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2008-09-01'
+limite_encours_euros: 6500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

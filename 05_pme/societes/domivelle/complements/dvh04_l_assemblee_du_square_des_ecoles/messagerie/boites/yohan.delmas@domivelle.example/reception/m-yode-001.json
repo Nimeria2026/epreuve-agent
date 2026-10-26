@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-yode-001",
+  "de": {
+    "nom": "Caroline Maréchal",
+    "adresse": "caroline.marechal@messagerie.example"
+  },
+  "a": [
+    "yohan.delmas@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Question pour la prochaine assemblée générale",
+  "date": "2026-06-03T20:41:00+02:00",
+  "corps": "Monsieur Delmas,\n\nCopropriétaire du lot 2 de la Résidence Le Square des Écoles, je vous notifie, par ce courriel à l'adresse du syndic, une question à porter à l'ordre du jour de la prochaine assemblée générale : la création d'un local à vélos dans l'ancien local technique du rez-de-chaussée. Projet de résolution : « L'assemblée générale décide la création d'un local à vélos dans l'ancien local technique et charge le syndic de faire établir deux devis pour la prochaine assemblée. »\n\nCaroline Maréchal",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-rejo-008",
+  "de": {
+    "nom": "Nathalie Brunet",
+    "adresse": "nathalie.brunet@negovelle.example"
+  },
+  "a": [
+    "remi.joly@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Forets tordus",
+  "date": "2026-08-07T16:38:00+02:00",
+  "corps": "Rémi, un de mes dossiers ouverts, à reprendre.\n\nNathalie\n\n----- Message transféré -----\nDe : Yvette Rocher <yvette.rocher@cazenave-travaux-publics.example>\nDate : 2026-07-24T17:00:00+02:00\nObjet : Forets tordus\n\nBonjour,\n\nVotre chauffeur a noté sur le bon BL-2026-01886, à la livraison de ce matin, un carton percé et 3 forets ELP-10710 tordus. Merci de faire le nécessaire.\n\nYvette Rocher\nCazenave Travaux publics",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

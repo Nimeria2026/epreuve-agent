@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-902",
+  "de": {
+    "nom": "Syndic de la Résidence des Grèves",
+    "adresse": "contact@syndic-de-la-residence-des-greves-273.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis : pompes de circulation",
+  "date": "2027-01-28T10:30:00+01:00",
+  "corps": "Bonjour,\n\nLes deux pompes de circulation de la chaufferie collective ont quinze ans. Pouvez-vous nous faire un devis pour les remplacer ?\n\nLe syndic de la Résidence des Grèves, 3 rue du Moulin (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

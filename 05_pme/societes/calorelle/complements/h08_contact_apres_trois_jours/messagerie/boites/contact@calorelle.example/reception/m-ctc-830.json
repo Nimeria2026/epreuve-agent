@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-830",
+  "de": {
+    "nom": "Établissements Dubois",
+    "adresse": "contact@etablissements-dubois-20.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Entretien de la climatisation des bureaux",
+  "date": "2026-11-01T17:40:00+01:00",
+  "corps": "Bonjour,\n\nPouvez-vous nous faire un devis pour l'entretien des quatre climatiseurs de nos bureaux ?\n\nÉtablissements Dubois (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

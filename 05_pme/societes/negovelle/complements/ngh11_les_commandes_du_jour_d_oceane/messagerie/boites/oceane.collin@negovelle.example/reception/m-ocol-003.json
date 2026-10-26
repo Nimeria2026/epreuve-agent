@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ocol-003",
+  "de": {
+    "nom": "Hugo Gonnet",
+    "adresse": "hugo.gonnet@services-techniques-de-fontclavier.example"
+  },
+  "a": [
+    "oceane.collin@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-04T08:40:00+02:00",
+  "corps": "Bonjour Océane,\n\nMerci de nous livrer au siège :\n- 24 x FIX-11641, Goujon d'ancrage M16x140, boîte de 50\n- 6 x CON-11486, Mousse polyuréthane coupe-feu, 750 ml\n\nCordialement,\nHugo Gonnet\nServices techniques de Fontclavier",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

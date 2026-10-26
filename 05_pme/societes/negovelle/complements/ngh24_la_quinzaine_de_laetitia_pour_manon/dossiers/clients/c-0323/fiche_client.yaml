@@ -1,0 +1,28 @@
+# Fiche du client c-0323 de Négovelle. Données FICTIVES.
+code: c-0323
+nom: Gay Industrie
+type: pme
+adresse: 1 zone d'activités des Grands Prés, 36999 Vaumoreau-sur-Indre (FICTIF)
+telephone: 02 61 91 73 69
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Béatrice Gervais
+  fonction: responsable des achats
+  courriel: beatrice.gervais@gay-industrie.example
+- nom: Manon Boisson
+  fonction: responsable de maintenance
+  courriel: manon.boisson@gay-industrie.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 1 zone d'activités des Grands Prés, 36999 Vaumoreau-sur-Indre (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2020-05-01'
+limite_encours_euros: 2000.0
+livraisons_partielles: false
+substitution_acceptee: false
+statut: bloque
+motif_blocage: 'contentieux : chèque impayé du 24 juillet 2026'

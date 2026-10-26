@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-608",
+  "de": {
+    "nom": "Nettoyage du Pré-Carré",
+    "adresse": "facturation@nettoyage-du-pre-carre.example"
+  },
+  "a": [
+    "comptabilite@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture 2026-1140, Résidence Les Jardins de la Halle",
+  "date": "2026-07-31T15:30:00+02:00",
+  "corps": "Bonjour,\n\nCi-jointe notre facture n° 2026-1140 du 31 juillet 2026 pour le nettoyage des parties communes de la Résidence Les Jardins de la Halle en juillet : 1 380,00 € TTC, échéance le 31 août 2026.\n\nNettoyage du Pré-Carré",
+  "pieces_jointes": [
+    {
+      "nom": "facture_2026-1140.pdf",
+      "fichier": "pieces/m-cpt-608/facture_2026-1140.pdf",
+      "taille_octets": 905
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

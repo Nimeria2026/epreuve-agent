@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-laga-006",
+  "de": {
+    "nom": "Hugo Clerc",
+    "adresse": "hugo.clerc@serrurerie-maurin.example"
+  },
+  "a": [
+    "laetitia.garnier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Retour de mètres ruban",
+  "date": "2026-07-04T10:10:00+02:00",
+  "corps": "Bonjour,\n\nDans notre livraison BL-2026-01844 de vendredi, nous voudrions vous retourner les 2 mètres ruban OUT-11339, que nous avons commandés en double. Ils n'ont pas été ouverts.\n\nHugo Clerc\nSerrurerie Maurin",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,59 @@
+{
+  "numero": "BL-2026-01767",
+  "commande": "CO-2026-01918",
+  "client": "c-0251",
+  "date_expedition": "2026-06-29",
+  "date_livraison": "2026-06-29",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "21 zone d'activités des Grands Prés, 36999 Vaumoreau-sur-Indre (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "CON-10628",
+      "libelle": "Disque abrasif auto-agrippant 150 mm, grain 240, boîte de 25",
+      "quantite": 6
+    },
+    {
+      "reference": "ELE-11127",
+      "libelle": "Câble R2V 5G 10 mm², couronne de 100 m",
+      "quantite": 2
+    },
+    {
+      "reference": "ELE-11576",
+      "libelle": "Disjoncteur phase-neutre 20 A, courbe D",
+      "quantite": 6
+    },
+    {
+      "reference": "OUT-10718",
+      "libelle": "Jeu de clés mâles Torx, 10 pièces",
+      "quantite": 1
+    },
+    {
+      "reference": "OUT-11420",
+      "libelle": "Niveau à bulle de maçon 100 cm",
+      "quantite": 2
+    },
+    {
+      "reference": "OUT-11453",
+      "libelle": "Niveau à bulle de maçon 30 cm",
+      "quantite": 3
+    },
+    {
+      "reference": "VIS-11763",
+      "libelle": "Vis à bois tête fraisée 4,5x25, inox A2, boîte de 100",
+      "quantite": 2
+    },
+    {
+      "reference": "VIS-13274",
+      "libelle": "Vis à bois tête fraisée 6x30, inox A2, boîte de 200",
+      "quantite": 4
+    }
+  ],
+  "reserves": null,
+  "signataire": "Françoise Foucault",
+  "statut": "livre"
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-deba-003",
+  "de": {
+    "nom": "Bruno Castaing",
+    "adresse": "bruno.castaing@negovelle.example"
+  },
+  "a": [
+    "denis.barthe@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Notes de frais de juin visées",
+  "date": "2026-07-06T17:30:00+02:00",
+  "corps": "Denis,\n\nLes notes de frais de juin sont visées, à régler avec la paie : Fabrice Mercier 173,39 €, Laurent Gimenez 113,20 €, Samir Ouali 136,00 €. Elles sont rangées dans direction/notes_de_frais/2026-06/.\n\nBruno",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

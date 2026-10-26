@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-tg-807",
+  "de": {
+    "nom": "Karim Benali",
+    "adresse": "karim.benali@calorelle.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "DV-2026-013 accepté : à planifier",
+  "date": "2026-12-14T16:00:00+01:00",
+  "corps": "Marc,\n\nLe syndic de la Résidence de Brenneval du 17 rue des Lilas (c-0304) a accepté le devis DV-2026-013, la rénovation de la chaufferie collective. Il faut deux techniciens de chaudière gaz, une matinée, et pas avant le lundi 4 janvier : les résidents sont absents pendant les fêtes. Peux-tu la planifier et prévenir le syndic ?\n\nKarim (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,59 @@
+{
+  "numero": "BL-2026-01699",
+  "commande": "CO-2026-01850",
+  "client": "c-0040",
+  "date_expedition": "2026-06-25",
+  "date_livraison": "2026-06-25",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "34 zone industrielle des Brandes, 36999 Laubrissac (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "ELE-13462",
+      "libelle": "Tube LED T8 600 mm, 18 W",
+      "quantite": 10
+    },
+    {
+      "reference": "ELP-11028",
+      "libelle": "Foret métal HSS 3 mm, étui de 5",
+      "quantite": 1
+    },
+    {
+      "reference": "ELP-11470",
+      "libelle": "Meuleuse d'angle 180 mm, 900 W",
+      "quantite": 2
+    },
+    {
+      "reference": "ENT-10318",
+      "libelle": "Chiffon d'essuyage non tissé, carton de 5 kg",
+      "quantite": 12
+    },
+    {
+      "reference": "OUT-11870",
+      "libelle": "Scie de carreleur 350 mm",
+      "quantite": 4
+    },
+    {
+      "reference": "PLB-11175",
+      "libelle": "Flexible inox femelle-femelle 15x21 100 cm",
+      "quantite": 10
+    },
+    {
+      "reference": "PRO-11878",
+      "libelle": "Tee-shirt de travail gris, taille S",
+      "quantite": 3
+    },
+    {
+      "reference": "VIS-10392",
+      "libelle": "Boulon tête hexagonale M6x80, inox A2, sachet de 10",
+      "quantite": 1
+    }
+  ],
+  "reserves": null,
+  "signataire": "Roger Auger",
+  "statut": "livre"
+}

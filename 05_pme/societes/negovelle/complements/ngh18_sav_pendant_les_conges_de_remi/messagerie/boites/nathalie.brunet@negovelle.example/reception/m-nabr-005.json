@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-nabr-005",
+  "de": {
+    "nom": "Aurélie Combes",
+    "adresse": "aurelie.combes@peinture-bodin.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Livraison BL-2026-01700 incomplète",
+  "date": "2026-07-02T09:30:00+02:00",
+  "corps": "Bonjour,\n\nNotre livraison express BL-2026-01700 du jeudi 25 juin, par Transports Delorme, est arrivée avec un colis sur deux : les 2 rouleaux de papier abrasif CON-11633 manquaient. Le chauffeur l'a noté sur le récépissé. Votre facture de juin les compte pourtant.\n\nMerci de faire le nécessaire.\n\nAurélie Combes\nPeinture Bodin",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

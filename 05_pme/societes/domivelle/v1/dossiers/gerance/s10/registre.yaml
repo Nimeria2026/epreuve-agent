@@ -1,0 +1,154 @@
+# Registre des lots en gestion, s10. Données FICTIVES.
+immeuble: s10
+nature: immeuble collectif
+adresse: 95 rue des Jardins, 18999 Chantebrune (FICTIF)
+secteur: sud
+gestionnaire: Solène Audoin
+distance_agence_km: 13
+annee_construction: 1970
+gardien: false
+copropriete_du_syndic: cp42
+lots:
+- lot: s10-01
+  type: T3
+  surface_m2: 60
+  etage: 0
+  proprietaire: p-0557
+  locataire: Mme Anne Fleury
+  entree: '2013-12-21'
+  loyer_hors_charges: 510,00 €
+  provision_sur_charges: 31,00 €
+  depot_de_garantie: 392,00 €
+  revision: chaque 21 décembre
+  trimestre_irl: T3
+  dpe: D
+- lot: s10-02
+  type: T3
+  surface_m2: 70
+  etage: 0
+  proprietaire: p-0558
+  locataire: Mme Camille Raymond
+  entree: '2021-05-30'
+  loyer_hors_charges: 625,00 €
+  provision_sur_charges: 103,00 €
+  depot_de_garantie: 556,00 €
+  revision: chaque 30 mai
+  trimestre_irl: T1
+  dpe: D
+- lot: s10-03
+  type: T1
+  surface_m2: 31
+  etage: 0
+  proprietaire: p-0559
+  locataire: Mme Corinne Raymond
+  entree: '2021-10-05'
+  loyer_hors_charges: 253,00 €
+  provision_sur_charges: 40,00 €
+  depot_de_garantie: 230,00 €
+  revision: chaque 5 octobre
+  trimestre_irl: T2
+  dpe: E
+- lot: s10-04
+  type: T3
+  surface_m2: 69
+  etage: 0
+  proprietaire: p-0560
+  locataire: Mme Fabienne Barbier
+  entree: '2018-02-08'
+  loyer_hors_charges: 660,00 €
+  provision_sur_charges: 34,00 €
+  depot_de_garantie: 550,00 €
+  revision: chaque 8 février
+  trimestre_irl: T4
+  dpe: E
+- lot: s10-05
+  type: T2
+  surface_m2: 45
+  etage: 1
+  proprietaire: p-0561
+  locataire: Mme Pauline Boulanger
+  entree: '2015-02-23'
+  loyer_hors_charges: 397,00 €
+  provision_sur_charges: 85,00 €
+  depot_de_garantie: 311,00 €
+  revision: chaque 23 février
+  trimestre_irl: T4
+  dpe: D
+- lot: s10-06
+  type: T2
+  surface_m2: 47
+  etage: 1
+  proprietaire: p-0528
+  locataire: M. Pascal Ferrand
+  entree: '2014-03-05'
+  loyer_hors_charges: 425,00 €
+  provision_sur_charges: 42,00 €
+  depot_de_garantie: 327,00 €
+  revision: chaque 5 mars
+  trimestre_irl: T4
+  dpe: F
+- lot: s10-07
+  type: T1
+  surface_m2: 31
+  etage: 1
+  proprietaire: p-0529
+  locataire: M. Antoine Charpentier
+  entree: '2015-01-08'
+  loyer_hors_charges: 251,00 €
+  provision_sur_charges: 49,00 €
+  depot_de_garantie: 197,00 €
+  revision: chaque 8 janvier
+  trimestre_irl: T3
+  dpe: E
+- lot: s10-08
+  type: T2
+  surface_m2: 46
+  etage: 1
+  proprietaire: p-0562
+  locataire: M. Hugo Couturier
+  entree: '2012-09-29'
+  loyer_hors_charges: 383,00 €
+  provision_sur_charges: 31,00 €
+  depot_de_garantie: 289,00 €
+  revision: chaque 29 septembre
+  trimestre_irl: T2
+  dpe: E
+- lot: s10-09
+  type: T2
+  surface_m2: 38
+  etage: 2
+  proprietaire: p-0514
+  locataire: M. Hervé Vasseur
+  entree: '2018-12-21'
+  loyer_hors_charges: 323,00 €
+  provision_sur_charges: 112,00 €
+  depot_de_garantie: 275,00 €
+  revision: chaque 21 décembre
+  trimestre_irl: T3
+  dpe: C
+- lot: s10-10
+  type: T1
+  surface_m2: 33
+  etage: 2
+  proprietaire: p-0563
+  locataire: Mme Sophie Bouchet
+  entree: '2020-03-27'
+  loyer_hors_charges: 312,00 €
+  provision_sur_charges: 88,00 €
+  depot_de_garantie: 271,00 €
+  revision: chaque 27 mars
+  trimestre_irl: T4
+  dpe: A
+- lot: s10-11
+  type: T2
+  surface_m2: 50
+  etage: 2
+  proprietaire: p-0564
+  locataire: Mme Fabienne Legrand
+  entree: '2022-09-14'
+  loyer_hors_charges: 473,00 €
+  provision_sur_charges: 47,00 €
+  depot_de_garantie: 440,00 €
+  revision: chaque 14 septembre
+  trimestre_irl: T2
+  dpe: E

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-006",
+  "de": {
+    "nom": "Robert Sauvage",
+    "adresse": "robert.sauvage@rigaud-agencement.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-02T14:08:00+02:00",
+  "corps": "Bonjour,\n\nVoici notre commande, à livrer au siège :\n\n- 8 x QUI-10024, Arrêt de volet automatique, noir\n- 20 x QUI-10244, Butoir de porte magnétique, laiton\n\nMerci de nous confirmer la livraison.\n\nCordialement,\nRobert Sauvage\nRigaud Agencement",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

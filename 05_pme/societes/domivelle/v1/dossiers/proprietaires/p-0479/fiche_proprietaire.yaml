@@ -1,0 +1,12 @@
+# Fiche du propriétaire p-0479, mandant de Domivelle. Données FICTIVES.
+code: p-0479
+nom: SCI Le Parc des Ormes Invest
+adresse: 24 rue de la Poste, 18999 Montclavel-sur-Cher (FICTIF)
+courriel: gestion@sci-le-parc-des-ormes-invest.example
+telephone: 06 39 98 85 08
+iban: FR76 9999 9113 7391 1056 1156 810 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- n33-02
+- n37-06
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

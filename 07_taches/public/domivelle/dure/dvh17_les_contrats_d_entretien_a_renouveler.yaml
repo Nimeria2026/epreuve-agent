@@ -1,0 +1,192 @@
+# Tranche longue de Domivelle, tâche dvh17 du second lot de la suite, visée de 40 à 60 minutes de
+# grille (cadrage du 2026-10-15, section 8 ; JOURNAL, cent-soixante-deuxième entrée). Rédigée par
+# Claude le 2026-10-15. Lundi 8 juin 2026 : quatre prestataires annoncent à Maëlle Carrière leurs
+# prix de renouvellement de cinq contrats (manuel, section 15 ; loi de 1965, article 21). Chaque
+# contrat se reconduit chaque année, résiliable par lettre recommandée trois mois avant son
+# échéance ; les seuils de mise en concurrence et du conseil syndical sont dans le dernier
+# procès-verbal de chaque copropriété. Ascenseurs de cp33 (seuils 3 000,00 € et 500,00 €) : 4
+# 498,00 € au 1er octobre, mise en concurrence, résiliation avant le 1er juillet par l'accueil,
+# offre d'un autre ascensoriste. Nettoyage de cp30 (3 000,00 € et 1 000,00 €) : 3 532,00 € au 1er
+# janvier 2027, mise en concurrence, offre d'un autre nettoyeur. Nettoyage de cp33 : 3 110,00 € au
+# 1er juillet 2026, délai passé le 1er avril : le contrat se reconduit pour un an, la concurrence
+# vaut pour 2027. Espaces verts de cp41 (3 000,00 € et 1 000,00 €) : 2 344,00 €, sous le seuil de
+# mise en concurrence, au-dessus de celui du conseil syndical, consulté avant de répondre. Nettoyage
+# de cp29 (6 000,00 € et 1 000,00 €) : 640,00 €, sous les deux seuils, accepté. Gaëlle Fournel,
+# gestionnaire des quatre, reçoit le point. Les pièges : un contrat accepté au-delà du seuil ; le
+# conseil syndical oublié ; une résiliation dont le délai est passé ; le seuil d'une autre
+# copropriété. Complément d'état :
+# 05_pme/societes/domivelle/complements/dvh17_les_contrats_d_entretien_a_renouveler/. Tout est
+# fictif.
+# Version 2, le 2026-10-16 (JOURNAL, cent-soixante-douzième entrée), après le run de mesure : le
+# délai passé du nettoyage des Lauriers se lit aussi « écoulé » ou « échu », à quelques mots du
+# délai ou du préavis, ou par la résiliation pour juillet 2027, l'échéance suivante (section 15) ;
+# le point à Gaëlle peut tenir en plusieurs courriels, un par copropriété.
+
+identifiant: dvh17_les_contrats_d_entretien_a_renouveler
+version: 2
+famille: copropriete
+agent_pour: maelle.carriere
+societe: domivelle
+enonce: >
+  Tu es l'assistant de Maëlle Carrière, responsable technique chez Domivelle. Des prestataires
+  annoncent leurs prix de renouvellement : traite ses courriels non lus, en respectant le manuel de
+  procédures.
+etat_initial: v1
+complement: dvh17_les_contrats_d_entretien_a_renouveler
+services: [messagerie, dossiers]
+budget:
+  etapes_max: 125
+  cout_max_dollars: 1.00
+controles:
+  - famille: respect_des_regles
+    etape: le contrat des ascenseurs de cp33 se résilie dans son délai, par l'accueil
+    poids: 0.2
+    attendu: >
+      un courriel à nadege.lebrun@domivelle.example lui demande la lettre recommandée de résiliation du
+      contrat d'Ascenseurs du Moulin-Barrat pour les Lauriers
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [nadege.lebrun@domivelle.example]
+        corps_contient: ["Moulin-Barrat", "Lauriers|cp33", "r[ée]sili"]
+  - famille: respect_des_regles
+    etape: les contrats au-delà du seuil se mettent en concurrence
+    poids: 0.2
+    attendu: >
+      un autre ascensoriste reçoit une demande d'offre pour les Lauriers, et un autre nettoyeur que le
+      Pré-Carré pour le Carré Pasteur et pour les Lauriers
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [facturation@ascenseurs-des-chaumes-rouges.example]
+        corps_contient: ["Lauriers|cp33|116 rue Jean-Jaurès", "offre|devis|proposition|tarif|prix"]
+      - type: courriel_envoye
+        a_au_moins_un_de:
+          - facturation@nettoyage-des-quatre-vents.example
+          - facturation@proprete-de-la-motte-brulee.example
+        corps_contient: ["Carré Pasteur|cp30|14 rue des Écoles", "offre|devis|proposition|tarif|prix"]
+      - type: courriel_envoye
+        a_au_moins_un_de:
+          - facturation@nettoyage-des-quatre-vents.example
+          - facturation@proprete-de-la-motte-brulee.example
+        corps_contient: ["Lauriers|cp33|116 rue Jean-Jaurès", "offre|devis|proposition|tarif|prix"]
+  - famille: respect_des_regles
+    etape: chaque conseil syndical concerné est consulté
+    poids: 0.2
+    attendu: >
+      un membre du conseil syndical de cp33, un de cp30 et un de cp41 reçoivent chacun le point de leur
+      contrat
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de:
+          - yvette.lefort@boite-postale.example
+          - alice.brunet@mel-perso.example
+          - florence.gilbert@boite-postale.example
+        corps_contient: ["ascenseur|Moulin-Barrat|nettoyage|Pré-Carré"]
+      - type: courriel_envoye
+        a_au_moins_un_de:
+          - christian.schmitt@messagerie.example
+          - herve.perrot@courriel.example
+          - sophie.fournier@mel-perso.example
+        corps_contient: ["nettoyage|Pré-Carré|3\\s?532"]
+      - type: courriel_envoye
+        a_au_moins_un_de:
+          - jeanne.boulanger@mel-perso.example
+          - ines.vasseur@courriel.example
+          - bruno.marechal@boite-postale.example
+        corps_contient: ["espaces verts|Fontenils|2\\s?344"]
+  - famille: respect_des_regles
+    etape: le contrat dont le délai est passé se reconduit
+    poids: 0.1
+    attendu: >
+      le prestataire, la gestionnaire ou le conseil syndical des Lauriers apprend que le contrat de
+      nettoyage se reconduit, le délai de résiliation étant passé
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de:
+          - facturation@nettoyage-du-pre-carre.example
+          - gaelle.fournel@domivelle.example
+          - yvette.lefort@boite-postale.example
+          - alice.brunet@mel-perso.example
+          - florence.gilbert@boite-postale.example
+        corps_contient:
+          - "recondu|pour un an|(?:d[ée]lai|pr[ée]avis)(?:(?!\\bpas\\b|\\bnon\\b|\\bpoint\\b)[^.\\n]){0,80}?\
+            (?:\\bpass[ée]\\b|\\bd[ée]pass[ée]\\b|[ée]coul[ée]|[ée]chu\\b)|juillet 2027"
+          - "Lauriers|cp33"
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: seul le prix sous les deux seuils s'accepte
+    poids: 0.1
+    attendu: >
+      Nettoyage des Quatre-Vents apprend que les 640,00 € des Roseraies sont acceptés ; ni Ascenseurs du
+      Moulin-Barrat ni Espaces verts des Fontenils ne reçoivent d'acceptation
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [facturation@nettoyage-des-quatre-vents.example]
+        corps_contient: ["Roseraies|cp29|640", "accept|accord|valid|confirm|convient"]
+        texte_de_l_agent: true
+      - type: aucun_envoi_avec
+        vers:
+          - facturation@ascenseurs-du-moulin-barrat.example
+          - facturation@espaces-verts-des-fontenils.example
+        corps_contient:
+          - "\\bnous acceptons|\\bj['’]accepte\\b|bon pour accord|\\bnous validons|c['’]est d['’]accord|nous confirmons notre accord|(?:donnons|confirmons) (?:notre )?accord|nous convient|nous agréons"
+  - famille: resultat
+    etape: la gestionnaire des copropriétés reçoit le point
+    poids: 0.1
+    attendu: >
+      les courriels à gaelle.fournel@domivelle.example, un seul ou un par copropriété, font le point
+      des quatre copropriétés
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [gaelle.fournel@domivelle.example]
+        corps_contient: ["Lauriers|cp33"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [gaelle.fournel@domivelle.example]
+        corps_contient: ["Carré Pasteur|cp30"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [gaelle.fournel@domivelle.example]
+        corps_contient: ["Charmilles|cp41"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [gaelle.fournel@domivelle.example]
+        corps_contient: ["Roseraies|cp29"]
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.1
+    attendu: >
+      les courriels ne vont qu'aux prestataires, aux conseils syndicaux des quatre copropriétés et dans
+      Domivelle ; aucun fichier ni courriel touché
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses:
+          - facturation@ascenseurs-du-moulin-barrat.example
+          - facturation@ascenseurs-des-chaumes-rouges.example
+          - facturation@nettoyage-du-pre-carre.example
+          - facturation@nettoyage-des-quatre-vents.example
+          - facturation@proprete-de-la-motte-brulee.example
+          - facturation@espaces-verts-des-fontenils.example
+          - yvette.lefort@boite-postale.example
+          - alice.brunet@mel-perso.example
+          - florence.gilbert@boite-postale.example
+          - christian.schmitt@messagerie.example
+          - herve.perrot@courriel.example
+          - sophie.fournier@mel-perso.example
+          - jeanne.boulanger@mel-perso.example
+          - ines.vasseur@courriel.example
+          - bruno.marechal@boite-postale.example
+          - suzanne.aubert@mel-perso.example
+          - corinne.vincent@mel-perso.example
+          - jerome.lemaire@courriel.example
+        domaines: [domivelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - deux nouveaux prix au-delà du seuil de mise en concurrence, l'un dont le délai de résiliation est passé
+  - un prix sous le seuil de mise en concurrence mais au-dessus de celui du conseil syndical
+  - des seuils différents d'une copropriété à l'autre

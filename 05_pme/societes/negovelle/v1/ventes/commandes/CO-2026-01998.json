@@ -1,0 +1,95 @@
+{
+  "numero": "CO-2026-01998",
+  "client": "c-0325",
+  "reference_client": null,
+  "cree_le": "2026-07-02T09:10:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "express",
+  "livraison": {
+    "code": "L1",
+    "adresse": "14 zone industrielle des Brandes, 36999 Vaumoreau-sur-Indre (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-10310",
+      "libelle": "Colle polyuréthane, bidon de 5 l",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 25.1,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 24.1,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 96.4
+    },
+    {
+      "reference": "OUT-11568",
+      "libelle": "Niveau à bulle tubulaire 40 cm",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 66.75,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 64.08,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 192.24
+    },
+    {
+      "reference": "PLB-11241",
+      "libelle": "Flexible inox mâle-femelle 15x21 200 cm",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 7.9,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 7.58,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 90.96
+    },
+    {
+      "reference": "QUI-11094",
+      "libelle": "Charnière à lames 30 mm, acier zingué",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 12.15,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 11.66,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 69.96
+    }
+  ],
+  "port_ht_euros": 25.0,
+  "total_ht_euros": 474.56,
+  "total_tva_euros": 94.91,
+  "total_ttc_euros": 569.47,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01847"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-02T09:10:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-02T09:12:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-02T16:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01847"
+    },
+    {
+      "date": "2026-07-03T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01847"
+    }
+  ]
+}

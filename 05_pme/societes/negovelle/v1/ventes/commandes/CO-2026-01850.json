@@ -1,0 +1,145 @@
+{
+  "numero": "CO-2026-01850",
+  "client": "c-0040",
+  "reference_client": null,
+  "cree_le": "2026-06-24T09:10:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "34 zone industrielle des Brandes, 36999 Laubrissac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-13462",
+      "libelle": "Tube LED T8 600 mm, 18 W",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 11.75,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 10.81,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 108.1
+    },
+    {
+      "reference": "ELP-11028",
+      "libelle": "Foret métal HSS 3 mm, étui de 5",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 28.35,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 26.08,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 26.08
+    },
+    {
+      "reference": "ELP-11470",
+      "libelle": "Meuleuse d'angle 180 mm, 900 W",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 125.9,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 115.83,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 231.66
+    },
+    {
+      "reference": "ENT-10318",
+      "libelle": "Chiffon d'essuyage non tissé, carton de 5 kg",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 24.65,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 22.68,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 272.16
+    },
+    {
+      "reference": "OUT-11870",
+      "libelle": "Scie de carreleur 350 mm",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 11.1,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 10.21,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 40.84
+    },
+    {
+      "reference": "PLB-11175",
+      "libelle": "Flexible inox femelle-femelle 15x21 100 cm",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 13.9,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 12.79,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 127.9
+    },
+    {
+      "reference": "PRO-11878",
+      "libelle": "Tee-shirt de travail gris, taille S",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 13.9,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 12.79,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 38.37
+    },
+    {
+      "reference": "VIS-10392",
+      "libelle": "Boulon tête hexagonale M6x80, inox A2, sachet de 10",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 15.2,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 13.98,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 13.98
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 859.09,
+  "total_tva_euros": 171.82,
+  "total_ttc_euros": 1030.91,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01699"
+  ],
+  "facture": "FC-2026-1034",
+  "historique": [
+    {
+      "date": "2026-06-24T09:10:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-24T09:12:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-25T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01699"
+    },
+    {
+      "date": "2026-06-25T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01699"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1034"
+    }
+  ]
+}

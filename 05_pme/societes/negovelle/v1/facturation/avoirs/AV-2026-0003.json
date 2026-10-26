@@ -1,0 +1,9 @@
+{
+  "numero": "AV-2026-0003",
+  "client": "c-0036",
+  "facture": "FC-2026-0632",
+  "date": "2026-06-04T10:30:00+02:00",
+  "montant_ttc_euros": 48.48,
+  "motif": "article cassé à la livraison",
+  "emis_par": "remi.joly"
+}

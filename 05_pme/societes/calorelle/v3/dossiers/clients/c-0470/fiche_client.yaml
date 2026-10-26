@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0470"
+nom: "Denis Rousseau"
+type: "particulier"
+adresse: "34 rue des Lilas, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "denis.rousseau@courriel.example"
+telephone: "06 39 98 51 11"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2025-03-10"
+  mois_anniversaire: "mars"
+  derniere_visite: "2026-03-11"

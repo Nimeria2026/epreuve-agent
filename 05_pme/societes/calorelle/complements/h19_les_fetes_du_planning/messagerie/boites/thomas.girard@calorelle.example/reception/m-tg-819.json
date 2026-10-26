@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-tg-819",
+  "de": {
+    "nom": "Alain Girard",
+    "adresse": "alain.girard@courriel.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Fin de mon contrat",
+  "date": "2026-12-17T20:15:00+01:00",
+  "corps": "Bonjour,\n\nJe souhaite résilier mon contrat d'entretien à sa date anniversaire, en janvier. Merci de ne pas prévoir de visite.\n\nAlain Girard, 75 rue du Moulin (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

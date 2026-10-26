@@ -1,0 +1,20 @@
+# Fiche de la copropriété cp36. Données FICTIVES.
+copropriete: cp36
+nom: Résidence Les Marronniers
+adresse: 29 rue du Château, 18999 Vernillac (FICTIF)
+lots_principaux: 56
+annee_construction: 1975
+ascenseur: true
+exercice: du lendemain du 30 juin au 30 juin
+gestionnaire: Gaëlle Fournel
+conseil_syndical:
+  president: Mme Hélène Weber
+  membres:
+  - Mme Sylvie Bourgeois
+  - Mme Sophie Carpentier
+seuil_mise_en_concurrence: 7 000,00 €
+seuil_consultation_du_conseil_syndical: 500,00 €
+assureur_de_l_immeuble: Mutuelle Carrelis (FICTIF)
+declaration_des_sinistres: sinistres@mutuelle-carrelis.example
+immeuble_en_gestion_locative: null
+fonds_de_travaux: 5 % du budget prévisionnel, aux tantièmes généraux, appelé avec chaque provision

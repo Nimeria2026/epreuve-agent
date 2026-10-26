@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-laga-b05",
+  "de": {
+    "nom": "Claude Chatelain",
+    "adresse": "claude.chatelain@paysage-mahe.example"
+  },
+  "a": [
+    "laetitia.garnier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Disponibilité",
+  "date": "2026-06-16T14:24:00+02:00",
+  "corps": "Bonjour,\n\nAvez-vous en stock la référence ELE-13307 ? Il m'en faudrait 5 pour la fin de semaine.\n\nMerci,\nClaude Chatelain",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

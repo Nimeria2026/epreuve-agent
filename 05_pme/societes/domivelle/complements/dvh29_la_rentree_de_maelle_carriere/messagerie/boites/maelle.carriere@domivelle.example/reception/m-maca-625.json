@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-maca-625",
+  "de": {
+    "nom": "Gaëlle Fournel",
+    "adresse": "gaelle.fournel@domivelle.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "L'état des sinistres de mes copropriétés",
+  "date": "2026-09-04T17:15:00+02:00",
+  "corps": "Maëlle,\n\nPour préparer mes assemblées d'automne, peux-tu me faire l'état des sinistres de l'année dans mes copropriétés : pour chacun, la date, ce qui s'est passé, l'assureur et où il en est, avec ce qui reste à faire ?\n\nGaëlle",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

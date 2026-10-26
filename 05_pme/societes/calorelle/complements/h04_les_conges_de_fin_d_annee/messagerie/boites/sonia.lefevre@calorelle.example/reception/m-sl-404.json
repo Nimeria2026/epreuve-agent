@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-404",
+  "de": {
+    "nom": "Lucas Fontaine",
+    "adresse": "lucas.fontaine@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Congés",
+  "date": "2026-11-01T19:05:00+01:00",
+  "corps": "Bonjour Sonia,\n\nJe voudrais poser du lundi 28 au jeudi 31 décembre, pendant que le magasin tourne au ralenti.\n\nLucas (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

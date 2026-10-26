@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0088"
+nom: "Claire Fabre"
+type: "particulier"
+adresse: "3 rue des Écoles, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "claire.fabre@courriel.example"
+telephone: "06 39 98 40 88"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité Plus"
+  depuis: "2024-03-04"
+  mois_anniversaire: "mars"
+  derniere_visite: "2026-03-12"

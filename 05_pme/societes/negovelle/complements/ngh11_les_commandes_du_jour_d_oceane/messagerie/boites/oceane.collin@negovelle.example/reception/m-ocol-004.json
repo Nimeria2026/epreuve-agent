@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ocol-004",
+  "de": {
+    "nom": "André Lacour",
+    "adresse": "andre.lacour@chauffage-combes.example"
+  },
+  "a": [
+    "oceane.collin@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-05T18:15:00+02:00",
+  "corps": "Bonjour Océane,\n\nMerci de nous livrer au siège :\n- 12 x PLB-12417, Robinet d'arrêt de machine à laver 20x27\n- 6 x PLB-10473, Collier de fixation tube 12 mm, sachet de 10\n\nCordialement,\nAndré Lacour\nChauffage Combes",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-isro-004",
+  "de": {
+    "nom": "Cabinet Morin Expertise",
+    "adresse": "contact@cabinet-morin-expertise.example"
+  },
+  "a": [
+    "isabelle.royer@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Couverture Gallet : relevé de compte",
+  "date": "2026-07-03T16:40:00+02:00",
+  "corps": "Madame,\n\nEn charge de la comptabilité de Couverture Gallet, nous préparons sa situation de juin. Merci de nous adresser le relevé de son compte chez vous et la liste de ses factures non réglées.\n\nCordialement,\nCabinet Morin Expertise",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

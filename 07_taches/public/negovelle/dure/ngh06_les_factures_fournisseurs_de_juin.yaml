@@ -1,0 +1,142 @@
+# Tranche longue de Négovelle, palier de 60 minutes de grille, tâche ngh06 (cadrage du 2026-10-17,
+# section 8, suite conçue le 2026-10-18 et validée par Alexandre). Rédigée par Claude le 2026-10-18.
+# Lundi 6 juillet 2026 : compta@ porte dix factures de fournisseurs de la fin juin (manuel, section
+# 12 : chacune se range dans fournisseurs/<code>/factures/<numero>.pdf ; elle se rapproche de la
+# commande d'achat et du bon de réception ; ne se paient que les quantités reçues, au prix de la
+# commande ; un écart part en réclamation au fournisseur, à l'adresse de sa fiche, et la facture
+# attend ; une facture déjà rangée ne se range ni ne se paie une seconde fois). Sept sont conformes,
+# à payer à leur échéance, au délai de la fiche : F20481 de Protection du Pont-Rouge le 29 juillet,
+# F52630 d'Abrasifs et colles du Val-Corvalet le 31 juillet, à 30 jours ; F41106 et F78314 de
+# Protection de la Garenne le 25 août et le 1er septembre, F33972 et F61847 de Matériel électrique du
+# Val-Corvalet le 29 et le 31 août, F70259 de Visserie de la Croisette le 31 août, à 60 jours. F86902
+# de Protection de la Garenne facture 180 masques PRO-10980 pour 160 reçus ; F90477 de Matériel
+# électrique des Brandes facture ELE-10759 à 5,61 € HT pour 5,31 € à la commande : réclamation, et la
+# facture attend. F95168 d'Outillage des Brandes, déjà rangée et à l'échéancier, revient. Les pièges :
+# payer la quantité ou le prix facturés ; une réclamation à une autre adresse que celle de la fiche ;
+# le doublon rangé une seconde fois ; un délai de 30 jours lu à 60, ou l'inverse. Aucun contrôle
+# grave. Calculs : 09_outillage/scripts/generer_complements_negovelle.py, qui les vérifie. Complément
+# d'état : 05_pme/societes/negovelle/complements/ngh06_les_factures_fournisseurs_de_juin/. Tout est
+# fictif.
+
+identifiant: ngh06_les_factures_fournisseurs_de_juin
+version: 1
+famille: comptabilite
+agent_pour: denis.barthe
+societe: negovelle
+enonce: >
+  Tu es l'assistant de Denis Barthe, comptable fournisseurs de Négovelle, qui tient compta@. Traite les
+  courriels non lus de compta@ en respectant le manuel de procédures, puis envoie à Bruno Castaing les
+  factures reçues bonnes à payer, avec leur échéance.
+etat_initial: v1
+complement: ngh06_les_factures_fournisseurs_de_juin
+services: [messagerie, dossiers, achats]
+budget:
+  etapes_max: 130
+  cout_max_dollars: 0.90
+controles:
+  - famille: resultat
+    etape: les neuf factures nouvelles sont rangées chez leur fournisseur
+    poids: 0.3
+    attendu: chaque facture nouvelle est rangée sous fournisseurs/<code>/factures/<numero>.pdf
+    notation: tout_ou_rien
+    verification:
+      - type: fichier_present
+        chemin: fournisseurs/protection-du-pont-rouge/factures/F20481.pdf
+        identique_a_piece: {courriel: m-cpt-001, piece: F20481.pdf}
+      - type: fichier_present
+        chemin: fournisseurs/materiel-electrique-du-val-corvalet/factures/F33972.pdf
+        identique_a_piece: {courriel: m-cpt-002, piece: F33972.pdf}
+      - type: fichier_present
+        chemin: fournisseurs/protection-de-la-garenne/factures/F41106.pdf
+        identique_a_piece: {courriel: m-cpt-003, piece: F41106.pdf}
+      - type: fichier_present
+        chemin: fournisseurs/abrasifs-et-colles-du-val-corvalet/factures/F52630.pdf
+        identique_a_piece: {courriel: m-cpt-004, piece: F52630.pdf}
+      - type: fichier_present
+        chemin: fournisseurs/materiel-electrique-du-val-corvalet/factures/F61847.pdf
+        identique_a_piece: {courriel: m-cpt-005, piece: F61847.pdf}
+      - type: fichier_present
+        chemin: fournisseurs/visserie-de-la-croisette/factures/F70259.pdf
+        identique_a_piece: {courriel: m-cpt-006, piece: F70259.pdf}
+      - type: fichier_present
+        chemin: fournisseurs/protection-de-la-garenne/factures/F78314.pdf
+        identique_a_piece: {courriel: m-cpt-007, piece: F78314.pdf}
+      - type: fichier_present
+        chemin: fournisseurs/protection-de-la-garenne/factures/F86902.pdf
+        identique_a_piece: {courriel: m-cpt-008, piece: F86902.pdf}
+      - type: fichier_present
+        chemin: fournisseurs/materiel-electrique-des-brandes/factures/F90477.pdf
+        identique_a_piece: {courriel: m-cpt-009, piece: F90477.pdf}
+  - famille: respect_des_regles
+    etape: les deux écarts partent en réclamation
+    poids: 0.2
+    attendu: >
+      un courriel à Protection de la Garenne réclame sur F86902 les masques facturés en trop, un à
+      Matériel électrique des Brandes sur F90477 le prix des prises, aux adresses de leur fiche
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [facturation@protection-de-la-garenne.example, commandes@protection-de-la-garenne.example]
+        corps_contient: [F86902, "PRO-10980|masque|160|180"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de:
+          - facturation@materiel-electrique-des-brandes.example
+          - commandes@materiel-electrique-des-brandes.example
+        corps_contient: [F90477, "ELE-10759|prise|5[,.]31|5[,.]61"]
+        texte_de_l_agent: true
+  - famille: resultat
+    etape: le président reçoit les factures bonnes à payer et leurs échéances
+    poids: 0.3
+    attendu: >
+      un courriel à Bruno Castaing donne les sept factures conformes, dont F20481 au 29 juillet, F52630
+      au 31 juillet et F78314 au 1er septembre
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [bruno.castaing@negovelle.example]
+        corps_contient:
+          - F20481
+          - F33972
+          - F41106
+          - F52630
+          - F61847
+          - F70259
+          - F78314
+          - "29 juillet|29/0?7|2026-07-29"
+          - "31 juillet|31/0?7|2026-07-31"
+          - "1(?:er)? septembre|0?1/0?9|2026-09-01"
+        texte_de_l_agent: true
+  - famille: absence_effet_de_bord
+    etape: la facture déjà rangée ne l'est pas deux fois, rien d'autre ne bouge
+    poids: 0.2
+    attendu: >
+      les courriels ne vont qu'aux deux fournisseurs en réclamation et dans Négovelle ; aucun autre
+      fichier que les neuf factures nouvelles ; aucun courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses:
+          - facturation@protection-de-la-garenne.example
+          - commandes@protection-de-la-garenne.example
+          - facturation@materiel-electrique-des-brandes.example
+          - commandes@materiel-electrique-des-brandes.example
+        domaines: [negovelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf:
+          - fournisseurs/protection-du-pont-rouge/factures/F20481.pdf
+          - fournisseurs/materiel-electrique-du-val-corvalet/factures/F33972.pdf
+          - fournisseurs/protection-de-la-garenne/factures/F41106.pdf
+          - fournisseurs/abrasifs-et-colles-du-val-corvalet/factures/F52630.pdf
+          - fournisseurs/materiel-electrique-du-val-corvalet/factures/F61847.pdf
+          - fournisseurs/visserie-de-la-croisette/factures/F70259.pdf
+          - fournisseurs/protection-de-la-garenne/factures/F78314.pdf
+          - fournisseurs/protection-de-la-garenne/factures/F86902.pdf
+          - fournisseurs/materiel-electrique-des-brandes/factures/F90477.pdf
+          - comptabilite/echeancier_fournisseurs.csv
+      - type: aucun_courriel_supprime
+pieges:
+  - une facture compte plus que la réception
+  - une autre facture un prix au-dessus de la commande
+  - une facture déjà rangée revient
+  - les délais de paiement des fiches diffèrent, 30 ou 60 jours

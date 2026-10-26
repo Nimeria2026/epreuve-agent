@@ -1,0 +1,34 @@
+{
+  "identifiant": "m-brca-001",
+  "de": {
+    "nom": "Hugo Valadier",
+    "adresse": "hugo.valadier@messagerie-perso.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Mes documents pour mon arrivée",
+  "date": "2026-07-03T18:10:00+02:00",
+  "corps": "Bonjour Monsieur Castaing,\n\nComme convenu, je commence le lundi 13 juillet comme préparateur de commandes, auprès de Gilles Poirier. Vous trouverez ci-joints mon contrat signé, la copie de ma pièce d'identité et mon RIB pour la paie.\n\nBien cordialement,\nHugo Valadier",
+  "pieces_jointes": [
+    {
+      "nom": "contrat_de_travail.pdf",
+      "fichier": "pieces/m-brca-001/contrat_de_travail.pdf",
+      "taille_octets": 808
+    },
+    {
+      "nom": "piece_identite.pdf",
+      "fichier": "pieces/m-brca-001/piece_identite.pdf",
+      "taille_octets": 739
+    },
+    {
+      "nom": "rib.pdf",
+      "fichier": "pieces/m-brca-001/rib.pdf",
+      "taille_octets": 782
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

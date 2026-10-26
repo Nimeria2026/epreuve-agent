@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-018",
+  "de": {
+    "nom": "Isabelle Royer",
+    "adresse": "isabelle.royer@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Imprimerie Gay : ton accord pour débloquer CO-2026-02045 ?",
+  "date": "2026-08-18T09:40:00+02:00",
+  "corps": "Bruno,\n\nLa commande CO-2026-02045 d'Imprimerie Gay (c-0117), 10 détecteurs de fumée, 218,40 € TTC, attend depuis le 27 juillet : son encours dépasse sa limite. Le client promet de régler ses factures échues fin août ; une promesse ne me suffit pas pour débloquer. Je ne débloque que sur ton accord écrit : me le donnes-tu ?\n\nIsabelle",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

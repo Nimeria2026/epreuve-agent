@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-806",
+  "de": {
+    "nom": "Camille Guérin",
+    "adresse": "camille.guerin@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Plus d'eau chaude",
+  "date": "2026-11-23T07:45:00+01:00",
+  "corps": "Bonjour,\n\nNous n'avons plus d'eau chaude depuis ce matin ; la chaudière affiche un code d'erreur. Nous avons le contrat Sérénité Plus.\n\nCamille Guérin, 19 rue des Lilas, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

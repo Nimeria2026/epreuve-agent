@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-sl-818",
+  "de": {
+    "nom": "Papeterie du Val",
+    "adresse": "factures@papeterie-du-val.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture PV-26-0412",
+  "date": "2026-11-21T09:00:00+01:00",
+  "corps": "Bonjour,\n\nVoici notre facture PV-26-0412 du 21 novembre 2026, 38,40 € TTC : ramettes et classeurs.\n\nPapeterie du Val (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "pv-26-0412.pdf",
+      "fichier": "pieces/m-sl-818/pv-26-0412.pdf",
+      "taille_octets": 1039
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

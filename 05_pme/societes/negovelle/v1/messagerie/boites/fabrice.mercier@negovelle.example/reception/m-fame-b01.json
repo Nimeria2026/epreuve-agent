@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-fame-b01",
+  "de": {
+    "nom": "Bernard Maurin",
+    "adresse": "bernard.maurin@plomberie-besson.example"
+  },
+  "a": [
+    "fabrice.mercier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Copie de facture",
+  "date": "2026-06-24T11:32:00+02:00",
+  "corps": "Bonjour,\n\nPouvez-vous me renvoyer la facture de mai ? Je ne la retrouve pas.\n\nCordialement,\nBernard Maurin",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-tg-809",
+  "de": {
+    "nom": "Sandrine Fontaine",
+    "adresse": "sandrine.fontaine@courriel.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Visite du 31 décembre",
+  "date": "2026-12-19T09:00:00+01:00",
+  "corps": "Bonjour,\n\nVous pouvez annuler la visite du 31 décembre pour le thermostat : il refonctionne depuis que j'ai changé les piles.\n\nSandrine Fontaine, 38 avenue des Tilleuls (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

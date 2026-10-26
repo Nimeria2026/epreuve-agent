@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-rejo-003",
+  "de": {
+    "nom": "Bruno Castaing",
+    "adresse": "bruno.castaing@negovelle.example"
+  },
+  "a": [
+    "remi.joly@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Geste commercial, Menuiserie Parmentier",
+  "date": "2026-07-06T08:00:00+02:00",
+  "corps": "Rémi,\n\nJ'accorde à Menuiserie Parmentier (c-0049) un geste commercial de 60,00 € TTC sur sa facture de juin, FC-2026-1043, pour le désagrément de la livraison du 29 juin. Fais l'avoir et préviens le client.\n\nBruno",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cema-108",
+  "de": {
+    "nom": "Élise Marchand",
+    "adresse": "elise.marchand@courriel.example"
+  },
+  "a": [
+    "cedric.maillard@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Candidature pour le T2 de la rue de l'Église",
+  "date": "2026-06-06T12:05:00+02:00",
+  "corps": "Bonjour,\n\nJ'ai vu que le T2 du 46 rue de l'Église, lot c12-02, était à louer. Je suis infirmière, en CDI, et je voudrais le visiter et déposer un dossier.\n\nÉlise Marchand",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

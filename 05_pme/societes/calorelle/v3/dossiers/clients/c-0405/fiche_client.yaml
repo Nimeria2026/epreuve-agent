@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0405"
+nom: "Syndic de la Résidence des Tilleuls"
+type: "syndic"
+adresse: "2 avenue des Tilleuls, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "syndic@residence-des-tilleuls.example"
+telephone: "02 61 91 34 05"
+charge_d_affaires: "karim.benali"
+contrat:
+  formule: "Sérénité Plus"
+  depuis: "2020-11-02"
+  mois_anniversaire: "novembre"
+  derniere_visite: "2025-11-20"

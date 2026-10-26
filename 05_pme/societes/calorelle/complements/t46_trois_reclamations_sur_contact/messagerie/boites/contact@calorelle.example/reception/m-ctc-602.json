@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-602",
+  "de": {
+    "nom": "Établissements Faure",
+    "adresse": "contact@etablissements-faure-131.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Rendez-vous manqué, réclamation",
+  "date": "2026-11-02T07:40:00+01:00",
+  "corps": "Bonjour,\n\nVotre technicien devait venir le mercredi 28 octobre à 14 h pour un réglage de la chaudière de nos bureaux. Personne n'est venu et personne ne nous a prévenus : un salarié a attendu tout l'après-midi. Nous vous demandons des explications.\n\nLa direction des Établissements Faure, 26 avenue des Tilleuls, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-013",
+  "de": {
+    "nom": "Philippe Fleurot",
+    "adresse": "philippe.fleurot@plomberie-billard.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Retour de chevilles",
+  "date": "2026-08-03T09:45:00+02:00",
+  "corps": "Bonjour,\n\nNous vous rapportons 3 boîtes de chevilles FIX-10065 de la livraison du 21 juillet, BL-2026-01905, dont nous n'avons pas besoin.\n\nPhilippe Fleurot\nPlomberie Billard",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

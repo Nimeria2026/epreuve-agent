@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01741",
+  "commande": "CO-2026-01892",
+  "client": "c-0064",
+  "date_expedition": "2026-06-26",
+  "date_livraison": "2026-06-26",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "27 avenue Pasteur, 36999 Brissonne (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "PLB-10685",
+      "libelle": "Coude PVC 30° 110 mm",
+      "quantite": 12
+    }
+  ],
+  "reserves": null,
+  "signataire": "Philippe Fleurot",
+  "statut": "livre"
+}

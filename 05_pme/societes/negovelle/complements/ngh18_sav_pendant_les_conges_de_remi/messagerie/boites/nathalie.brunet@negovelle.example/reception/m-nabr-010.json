@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-nabr-010",
+  "de": {
+    "nom": "Gilles Poirier",
+    "adresse": "gilles.poirier@negovelle.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Contrôle des retours revenus au quai",
+  "date": "2026-07-03T17:15:00+02:00",
+  "corps": "Bonjour,\n\nContrôlés cet après-midi :\n- Cazenave Maintenance, BL-2026-01674 : 4 poubelles ENT-10783, neuves, dans leur emballage d'origine.\n- Guyot Travaux publics, BL-2026-01720 : 12 clés mixtes de 27 mm OUT-10441, reprises jeudi par la camionnette, neuves. Ce sont bien des 27 mm qui sont parties au lieu des 26 mm commandées : l'erreur est à la préparation.\n\nRien d'autre n'est revenu.\n\nGilles",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-b04",
+  "de": {
+    "nom": "Catherine Simon",
+    "adresse": "catherine.simon@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Horaires d'ouverture",
+  "date": "2026-08-20T18:04:00+02:00",
+  "corps": "Bonjour,\n\nÊtes-vous ouverts le samedi matin ?\n\nCatherine Simon (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

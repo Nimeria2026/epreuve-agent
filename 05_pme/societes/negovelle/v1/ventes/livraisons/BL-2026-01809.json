@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01809",
+  "commande": "CO-2026-01960",
+  "client": "c-0328",
+  "date_expedition": "2026-07-01",
+  "date_livraison": "2026-07-01",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "32 zone d'activités des Grands Prés, 36999 Vaumoreau-sur-Indre (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "OUT-12098",
+      "libelle": "Scie à plâtre 300 mm",
+      "quantite": 6
+    }
+  ],
+  "reserves": null,
+  "signataire": "Monique Bellanger",
+  "statut": "livre"
+}

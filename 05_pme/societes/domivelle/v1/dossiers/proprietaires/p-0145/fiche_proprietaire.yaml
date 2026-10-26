@@ -1,0 +1,12 @@
+# Fiche du propriétaire p-0145, mandant de Domivelle. Données FICTIVES.
+code: p-0145
+nom: Mme Nathalie Laporte
+adresse: 13 rue des Lilas, 18999 Montclavel-sur-Cher (FICTIF)
+courriel: nathalie.laporte@messagerie.example
+telephone: 06 39 98 64 72
+iban: FR76 9999 9487 3050 0583 7061 433 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- c14-04
+- c14-12
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

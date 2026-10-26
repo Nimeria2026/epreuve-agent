@@ -1,0 +1,19 @@
+# Fiche du lot c27-14. Données FICTIVES.
+lot: c27-14
+adresse: 86 rue de la Croix-Blanche, 18999 Montclavel-sur-Cher (FICTIF)
+type: T2
+surface_m2: 45
+locataire:
+  nom: M. Jacques Schmitt
+  courriel: jacques.schmitt@courriel.example
+  telephone: 06 39 98 77 15
+  entree: '2020-05-26'
+bail:
+  signature: '2020-05-26'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 453,00 €
+  depot_de_garantie: 394,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T1
+dpe:
+  classe: E

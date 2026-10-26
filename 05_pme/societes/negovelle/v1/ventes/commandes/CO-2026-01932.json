@@ -1,0 +1,145 @@
+{
+  "numero": "CO-2026-01932",
+  "client": "c-0128",
+  "reference_client": null,
+  "cree_le": "2026-06-29T09:10:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "119 rue du Moulin, 36999 Mérolles-en-Brenne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-11290",
+      "libelle": "Câble U1000 R2V 2x 6 mm², couronne de 100 m",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 101.6,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 97.54,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 1170.48
+    },
+    {
+      "reference": "ELE-12842",
+      "libelle": "Projecteur LED 150 W, à détecteur",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 112.4,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 107.9,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 1294.8
+    },
+    {
+      "reference": "ELP-10179",
+      "libelle": "Disque diamant polyvalent 230 mm",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 86.8,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 83.33,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 333.32
+    },
+    {
+      "reference": "ELP-11478",
+      "libelle": "Meuleuse d'angle 230 mm, 1200 W",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 173.45,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 166.51,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 333.02
+    },
+    {
+      "reference": "OUT-12956",
+      "libelle": "Truelle ronde 220 mm",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 19.25,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 18.48,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 36.96
+    },
+    {
+      "reference": "PRO-10955",
+      "libelle": "Gants de manutention enduits nitrile, taille 11",
+      "quantite": 24,
+      "prix_tarif_ht_euros": 3.7,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 3.55,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 85.2
+    },
+    {
+      "reference": "QUI-12302",
+      "libelle": "Paumelle 60 mm, inox, sachet de 4",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 17.1,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 16.42,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 65.68
+    },
+    {
+      "reference": "VIS-13707",
+      "libelle": "Vis à tôle tête cylindrique 3,5x9,5, inox A2, boîte de 100",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 11.7,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 11.23,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 67.38
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 3386.84,
+  "total_tva_euros": 677.37,
+  "total_ttc_euros": 4064.21,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01781"
+  ],
+  "facture": "FC-2026-1116",
+  "historique": [
+    {
+      "date": "2026-06-29T09:10:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-29T09:12:00+02:00",
+      "par": "oceane.collin",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-30T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01781"
+    },
+    {
+      "date": "2026-06-30T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01781"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1116"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "numero": "CO-2026-01992",
+  "client": "c-0048",
+  "reference_client": null,
+  "cree_le": "2026-07-02T09:10:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "express",
+  "livraison": {
+    "code": "L1",
+    "adresse": "1 avenue Pasteur, 36999 Ardillac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-10343",
+      "libelle": "Colle pour carrelage, tube de 125 ml",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 43.3,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 41.57,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 41.57
+    },
+    {
+      "reference": "ELE-10620",
+      "libelle": "Boîte de dérivation à encastrer 150 mm",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 10.05,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 10.05,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 60.3
+    },
+    {
+      "reference": "ELE-12980",
+      "libelle": "Rallonge électrique de chantier IP44 25 m",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 17.3,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 16.61,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 16.61
+    },
+    {
+      "reference": "OUT-12449",
+      "libelle": "Spatule japonaise 100 mm",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 15.7,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 15.07,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 150.7
+    },
+    {
+      "reference": "OUT-12646",
+      "libelle": "Tournevis Phillips n° 5",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 7.6,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 7.3,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 21.9
+    },
+    {
+      "reference": "VIS-10530",
+      "libelle": "Boulon tête hexagonale M8x80, zingué, sachet de 25",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 15.45,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 14.83,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 29.66
+    }
+  ],
+  "port_ht_euros": 25.0,
+  "total_ht_euros": 345.74,
+  "total_tva_euros": 69.15,
+  "total_ttc_euros": 414.89,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01841"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-02T09:10:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-02T09:12:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-02T16:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01841"
+    },
+    {
+      "date": "2026-07-03T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01841"
+    }
+  ]
+}

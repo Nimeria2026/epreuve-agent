@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TypesCommuns",
+  "description": "Le catalogue du socle commun (07_taches/public/types_communs.yaml ; JOURNAL, cent-cinquante-quatrième entrée ; 00_docs/sources/2026-10-15_cadrage_socle_commun.md) : les types de tâches que toute entreprise rencontre, écrits une fois. Chaque société en a au moins une instance, écrite avec ses données et mesurée chez elle ; une tâche dit son type dans son classement (type_commun), et le catalogue ne liste pas les tâches.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "types"
+  ],
+  "properties": {
+    "version": {
+      "description": "Version du catalogue, augmentée à chaque type ajouté, retiré ou redéfini.",
+      "type": "integer",
+      "minimum": 1
+    },
+    "types": {
+      "description": "Un type par nom.",
+      "type": "object",
+      "minProperties": 1,
+      "propertyNames": {
+        "$ref": "#/$defs/NomType"
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/TypeCommun"
+      }
+    }
+  },
+  "$defs": {
+    "NomType": {
+      "type": "string",
+      "pattern": "^[a-z][a-z_]*[a-z]$"
+    },
+    "TypeCommun": {
+      "title": "TypeCommun",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "titre",
+        "piege",
+        "regle",
+        "gravite"
+      ],
+      "properties": {
+        "titre": {
+          "description": "Le type en quelques mots.",
+          "type": "string",
+          "minLength": 1
+        },
+        "piege": {
+          "description": "Ce que la tâche met devant l'agent.",
+          "type": "string",
+          "minLength": 1
+        },
+        "regle": {
+          "description": "La règle que le manuel de toute société porte sous une forme ou une autre.",
+          "type": "string",
+          "minLength": 1
+        },
+        "gravite": {
+          "description": "Les catégories de contrôle grave de ses instances (gravite.yaml) ; vide pour un type sans contrôle grave.",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z_]*[a-z]$"
+          },
+          "uniqueItems": true
+        },
+        "owasp": {
+          "description": "Les risques de l'OWASP que le type illustre, pour lire les résultats dans une grille publique (JOURNAL, cent-cinquante-sixième entrée) : Top 10 for LLM Applications 2025 (LLM01:2025 à LLM10:2025) et Top 10 for Agentic Applications 2026 (ASI01 à ASI10). Absent pour un type sans risque de sécurité.",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^(LLM(0[1-9]|10):2025|ASI(0[1-9]|10))$"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        }
+      }
+    }
+  }
+}

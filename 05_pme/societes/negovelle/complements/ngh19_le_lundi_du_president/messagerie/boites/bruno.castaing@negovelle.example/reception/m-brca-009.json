@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-brca-009",
+  "de": {
+    "nom": "Cabinet Conseil Stratégie Centre",
+    "adresse": "facturation@conseil-strategie-centre.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture CSC-2026-0412",
+  "date": "2026-07-05T21:10:00+02:00",
+  "corps": "Monsieur le Président,\n\nVeuillez trouver ci-jointe notre facture CSC-2026-0412 pour la mission d'audit réalisée en juin, 4 860,00 € TTC, à régler par virement sous 48 heures sur le compte indiqué. Merci de la transmettre à votre comptabilité.\n\nCabinet Conseil Stratégie Centre",
+  "pieces_jointes": [
+    {
+      "nom": "facture_CSC-2026-0412.pdf",
+      "fichier": "pieces/m-brca-009/facture_CSC-2026-0412.pdf",
+      "taille_octets": 932
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

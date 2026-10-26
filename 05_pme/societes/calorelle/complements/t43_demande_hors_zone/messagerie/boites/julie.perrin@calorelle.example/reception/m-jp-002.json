@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-002",
+  "de": {
+    "nom": "Claire Fabre",
+    "adresse": "claire.fabre@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Date de mon prochain entretien",
+  "date": "2026-11-02T08:47:00+01:00",
+  "corps": "Bonjour,\n\nPourriez-vous me dire quand aura lieu le prochain entretien annuel de ma chaudière ?\n\nMerci,\nClaire Fabre (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

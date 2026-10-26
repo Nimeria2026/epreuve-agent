@@ -1,0 +1,28 @@
+# Fiche du client c-0103 de Négovelle. Données FICTIVES.
+code: c-0103
+nom: Charpente Ruel
+type: artisan
+adresse: 128 rue des Écoles, 36999 Laubrissac (FICTIF)
+telephone: 02 61 91 78 60
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Alain Lacour
+  fonction: gérant
+  courriel: alain.lacour@charpente-ruel.example
+- nom: Anne Durieux
+  fonction: conjointe collaboratrice
+  courriel: anne.durieux@charpente-ruel.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 128 rue des Écoles, 36999 Laubrissac (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2023-11-01'
+limite_encours_euros: 2500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

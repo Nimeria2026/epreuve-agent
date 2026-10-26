@@ -1,0 +1,8 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0103"
+nom: "Philippe Vincent"
+type: "particulier"
+adresse: "16 avenue des Tilleuls, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "philippe.vincent@courriel.example"
+telephone: "06 39 98 50 27"
+charge_d_affaires: "julie.perrin"

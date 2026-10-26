@@ -1,0 +1,28 @@
+# Fiche du client c-0099 de Négovelle. Données FICTIVES.
+code: c-0099
+nom: Transports Hamel
+type: pme
+adresse: 3 zone d'activités des Grands Prés, 36999 Mérolles-en-Brenne (FICTIF)
+telephone: 02 61 91 85 75
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Geneviève Toussaint
+  fonction: responsable des achats
+  courriel: genevieve.toussaint@transports-hamel.example
+- nom: Sylvie Chatelain
+  fonction: responsable de maintenance
+  courriel: sylvie.chatelain@transports-hamel.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 3 zone d'activités des Grands Prés, 36999 Mérolles-en-Brenne (FICTIF)
+categorie_remise: A
+delai_paiement: 60_jours_date_de_facture
+client_depuis: '2009-06-01'
+limite_encours_euros: 6500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

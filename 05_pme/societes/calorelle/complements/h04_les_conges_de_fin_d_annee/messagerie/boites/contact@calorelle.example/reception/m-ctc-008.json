@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-008",
+  "de": {
+    "nom": "Mairie de Brenneval",
+    "adresse": "marches@mairie-brenneval.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Question sur le marché d'entretien des bâtiments communaux",
+  "date": "2026-11-02T08:44:00+01:00",
+  "corps": "Bonjour,\n\nLa commune prépare le renouvellement de son marché d'entretien des chaudières des bâtiments communaux. Souhaitez-vous recevoir le dossier de consultation ?\n\nService des marchés, mairie de Brenneval (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

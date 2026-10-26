@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-904",
+  "de": {
+    "nom": "Sonia Lefèvre",
+    "adresse": "sonia.lefevre@calorelle.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Pompe à chaleur en défaut",
+  "date": "2026-11-09T11:30:00+01:00",
+  "corps": "Marc, un dépannage arrivé sur contact@.\nSonia\n\n----- Message transféré -----\nIdentifiant : m-ctc-904\nDe : Michel Martin <michel.martin@courriel.example>\nÀ : contact@calorelle.example\nCc : (aucun)\nDate : 2026-11-09T11:15:00+01:00\nObjet : Pompe à chaleur en défaut\nPièces jointes : (aucune)\n\nBonjour,\n\nNotre pompe à chaleur affiche un défaut et ne chauffe plus. Je travaille mardi et serai absent toute la journée ; ensuite je suis là.\n\nMichel Martin, 25 rue du Moulin (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

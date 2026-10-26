@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-501",
+  "de": {
+    "nom": "Agnès Martin",
+    "adresse": "agnes.martin@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Chaudière en panne",
+  "date": "2026-11-02T07:05:00+01:00",
+  "corps": "Bonjour,\n\nMa chaudière s'est arrêtée cette nuit : plus de chauffage. J'ai le contrat Sérénité Plus.\n\nAgnès Martin, 67 chemin des Vignes (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

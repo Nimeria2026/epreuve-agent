@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-020",
+  "de": {
+    "nom": "Marc Renard",
+    "adresse": "m.renard@ducros-travaux-publics.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande pour le chantier",
+  "date": "2026-07-03T13:45:00+02:00",
+  "corps": "Bonjour,\n\nJe suis conducteur de travaux chez Ducros Travaux publics. Pour notre chantier, merci de nous livrer au siège :\n\n- 20 x FIX-10106, Cheville métallique à expansion M6x32, boîte de 25\n\nCordialement,\nMarc Renard\nDucros Travaux publics",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-019",
+  "de": {
+    "nom": "Inès Langlais",
+    "adresse": "ines.langlais@peinture-herve.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande urgente",
+  "date": "2026-07-03T11:30:00+02:00",
+  "corps": "Bonjour,\n\nIl nous faut d'urgence, à livrer au siège :\n\n- 24 x CON-10008, Bombe de peinture antirouille, blanc, aérosol de 400 ml\n\nMerci de faire au plus vite.\n\nInès Langlais\nPeinture Hervé",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

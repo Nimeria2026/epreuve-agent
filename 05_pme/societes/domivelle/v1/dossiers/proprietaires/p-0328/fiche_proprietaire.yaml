@@ -1,0 +1,11 @@
+# Fiche du propriétaire p-0328, mandant de Domivelle. Données FICTIVES.
+code: p-0328
+nom: M. Xavier Boisseau
+adresse: 90 rue de la Croix-Blanche, 18999 Vernillac (FICTIF)
+courriel: xavier.boisseau@mel-perso.example
+telephone: 06 39 98 67 74
+iban: FR76 9999 9220 3214 8998 9108 907 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- n11-04
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

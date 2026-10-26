@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-612",
+  "de": {
+    "nom": "Établissements Perrot",
+    "adresse": "contact@etablissements-perrot-220.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Climatisation de l'accueil",
+  "date": "2026-11-02T08:05:00+01:00",
+  "corps": "Bonjour,\n\nNous attendons votre devis pour le climatiseur du bureau d'accueil, vu jeudi avec M. Haddad.\n\nLa direction des Établissements Perrot (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

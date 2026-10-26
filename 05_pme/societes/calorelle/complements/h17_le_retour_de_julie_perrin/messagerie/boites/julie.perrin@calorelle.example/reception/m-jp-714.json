@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-714",
+  "de": {
+    "nom": "Patrick Boyer",
+    "adresse": "patrick.boyer@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Votre devis pour le ballon",
+  "date": "2026-12-10T18:00:00+01:00",
+  "corps": "Bonjour Madame Perrin,\n\nNous acceptons votre devis DV-2026-014 pour le ballon thermodynamique. Quand pourrez-vous l'installer ?\n\nPatrick Boyer, 66 rue de la Loire, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

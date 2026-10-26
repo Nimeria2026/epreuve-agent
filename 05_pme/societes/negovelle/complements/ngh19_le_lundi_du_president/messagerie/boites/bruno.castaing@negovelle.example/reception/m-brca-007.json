@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-007",
+  "de": {
+    "nom": "Isabelle Royer",
+    "adresse": "isabelle.royer@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Plâtrerie Boutin, CO-2026-02046",
+  "date": "2026-07-06T08:15:00+02:00",
+  "corps": "Bruno,\n\nAurélie m'écrit que tu es d'accord pour débloquer CO-2026-02046 de Plâtrerie Boutin (c-0202), au-delà de sa limite d'encours. Le manuel me demande ton accord écrit : me le confirmes-tu ? Je débloquerai dès que je l'aurai.\n\nIsabelle",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

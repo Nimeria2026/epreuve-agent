@@ -1,0 +1,28 @@
+# Fiche du client c-0092 de Négovelle. Données FICTIVES.
+code: c-0092
+nom: Plâtrerie Salmon
+type: artisan
+adresse: 96 rue des Écoles, 36999 Laubrissac (FICTIF)
+telephone: 02 61 91 61 58
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Jeanne Morel
+  fonction: gérante
+  courriel: jeanne.morel@platrerie-salmon.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 96 rue des Écoles, 36999 Laubrissac (FICTIF)
+- code: L2
+  libelle: chantier déclaré
+  adresse: 65 rue de l'Église, 36999 Vendrigny (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2022-04-01'
+limite_encours_euros: 4000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

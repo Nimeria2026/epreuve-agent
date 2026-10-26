@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-001",
+  "de": {
+    "nom": "Plomberie du Moulin-Barrat",
+    "adresse": "facturation@plomberie-du-moulin-barrat.example"
+  },
+  "a": [
+    "comptabilite@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture 2026-0412",
+  "date": "2026-06-02T17:05:00+02:00",
+  "corps": "Bonjour,\n\nCi-jointe notre facture n° 2026-0412 du 2 juin 2026 pour le lot n02-05, 69 rue du Four à Vernillac : 245,00 € TTC, échéance le 30 juin 2026.\n\nPlomberie du Moulin-Barrat",
+  "pieces_jointes": [
+    {
+      "nom": "facture_2026-0412.pdf",
+      "fichier": "pieces/m-cpt-001/facture_2026-0412.pdf",
+      "taille_octets": 903
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

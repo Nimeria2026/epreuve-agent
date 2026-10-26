@@ -1,0 +1,170 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FicheCandidat",
+  "description": "Le système mesuré. Un candidat qui n'est pas classable (témoin, humain, non évaluable, publication non permise ou non vérifiée) n'apparaît jamais dans un classement. « ? » signifie inconnu, et le rapport le montre ; null signifie sans objet.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "identifiant",
+    "nom",
+    "version",
+    "origine",
+    "division",
+    "branchement",
+    "editeur",
+    "url",
+    "modeles",
+    "cout_mesurable",
+    "conditions_utilisation"
+  ],
+  "properties": {
+    "identifiant": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$"
+    },
+    "nom": {
+      "type": "string",
+      "minLength": 1
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "origine": {
+      "type": "string",
+      "enum": [
+        "fait_main",
+        "pret_a_l_emploi",
+        "temoin",
+        "humain"
+      ],
+      "description": "fait_main : orchestration du projet ; pret_a_l_emploi : produit d'un éditeur ; temoin : comportement connu d'avance, pour vérifier le banc ; humain : une personne au poste humain, pour mesurer la durée humaine des tâches (JOURNAL, cent-vingt-et-unième entrée)."
+    },
+    "division": {
+      "anyOf": [
+        {
+          "type": "string",
+          "enum": [
+            "a_modele_egal",
+            "systeme_complet"
+          ]
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Division de classement ; null pour un témoin ou un humain, jamais classés."
+    },
+    "branchement": {
+      "type": "string",
+      "enum": [
+        "mcp",
+        "interface",
+        "aucun"
+      ],
+      "description": "mcp : mesurable ; interface : mesurable en partie ; aucun : non évaluable."
+    },
+    "editeur": {
+      "type": "string",
+      "minLength": 1
+    },
+    "url": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "uri"
+        },
+        {
+          "$ref": "#/$defs/Inconnu"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "modeles": {
+      "anyOf": [
+        {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ModeleCandidat"
+          }
+        },
+        {
+          "$ref": "#/$defs/Inconnu"
+        }
+      ]
+    },
+    "cout_mesurable": {
+      "type": "boolean",
+      "description": "Vrai si le coût par tâche se mesure (jetons et prix connus)."
+    },
+    "conditions_utilisation": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/ConditionsUtilisation"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Obligatoires pour un produit prêt à l'emploi ; null pour un candidat fait main ou un témoin."
+    }
+  },
+  "$defs": {
+    "Inconnu": {
+      "const": "?",
+      "description": "Valeur inconnue ; le rapport la montre comme telle."
+    },
+    "ModeleCandidat": {
+      "title": "ModeleCandidat",
+      "description": "Un modèle utilisé par le candidat.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "nom",
+        "fournisseur"
+      ],
+      "properties": {
+        "nom": {
+          "type": "string",
+          "minLength": 1
+        },
+        "fournisseur": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "ConditionsUtilisation": {
+      "title": "ConditionsUtilisation",
+      "description": "Conditions d'utilisation lues avant toute publication nommée (clause DeWitt, BRIEF §3).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "url",
+        "lues_le",
+        "publication_permise"
+      ],
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "lues_le": {
+          "type": "string",
+          "format": "date"
+        },
+        "publication_permise": {
+          "type": "string",
+          "enum": [
+            "oui",
+            "non",
+            "?"
+          ],
+          "description": "Les conditions permettent-elles de publier des résultats nommés ?"
+        }
+      }
+    }
+  }
+}

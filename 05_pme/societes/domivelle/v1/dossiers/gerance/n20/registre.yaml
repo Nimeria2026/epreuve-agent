@@ -1,0 +1,71 @@
+# Registre des lots en gestion, n20. Données FICTIVES.
+immeuble: n20
+nature: groupe de maisons
+adresse: 12 rue Jean-Jaurès, 18999 Vernillac (FICTIF)
+secteur: nord
+gestionnaire: Élodie Chauvin
+distance_agence_km: 12
+annee_construction: 2014
+gardien: false
+copropriete_du_syndic: null
+lots:
+- lot: n20-01
+  type: maison T3
+  surface_m2: 85
+  proprietaire: p-0375
+  locataire: M. Guy Jourdan
+  entree: '2022-09-22'
+  loyer_hors_charges: 749,00 €
+  provision_sur_charges: 18,00 €
+  depot_de_garantie: 697,00 €
+  revision: chaque 22 septembre
+  trimestre_irl: T2
+  dpe: B
+- lot: n20-02
+  type: maison T4
+  surface_m2: 92
+  proprietaire: p-0376
+  locataire: Mme Sophie Chabert
+  entree: '2017-05-04'
+  loyer_hors_charges: 882,00 €
+  provision_sur_charges: 7,00 €
+  depot_de_garantie: 720,00 €
+  revision: chaque 4 mai
+  trimestre_irl: T1
+  dpe: D
+- lot: n20-03
+  type: maison T3
+  surface_m2: 81
+  proprietaire: p-0377
+  locataire: M. François Couturier
+  entree: '2021-06-30'
+  loyer_hors_charges: 763,00 €
+  provision_sur_charges: 16,00 €
+  depot_de_garantie: 694,00 €
+  revision: chaque 30 juin
+  trimestre_irl: T1
+  dpe: C
+- lot: n20-04
+  type: maison T5
+  surface_m2: 105
+  proprietaire: p-0329
+  locataire: M. Vincent Bertin
+  entree: '2023-03-08'
+  loyer_hors_charges: 859,00 €
+  provision_sur_charges: 20,00 €
+  depot_de_garantie: 799,00 €
+  revision: chaque 8 mars
+  trimestre_irl: T4
+  dpe: E
+- lot: n20-05
+  type: maison T5
+  surface_m2: 100
+  proprietaire: p-0376
+  locataire: Mme Laure Vincent
+  entree: '2016-03-04'
+  loyer_hors_charges: 828,00 €
+  provision_sur_charges: 13,00 €
+  depot_de_garantie: 662,00 €
+  revision: chaque 4 mars
+  trimestre_irl: T4
+  dpe: B

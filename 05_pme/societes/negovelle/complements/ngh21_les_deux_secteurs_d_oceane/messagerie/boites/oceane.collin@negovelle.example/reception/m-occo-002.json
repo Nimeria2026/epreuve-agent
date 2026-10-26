@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-occo-002",
+  "de": {
+    "nom": "Fabrice Chartier",
+    "adresse": "fabrice.chartier@peinture-tixier.example"
+  },
+  "a": [
+    "oceane.collin@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-06T07:10:00+02:00",
+  "corps": "Bonjour,\n\nVoici notre commande, à livrer au siège :\n- 4 x CON-11028, Disque abrasif à lamelles 115 mm, grain 80, boîte de 25\n- 10 x OUT-12507, Spatule à enduire 150 mm\n\nMerci,\nFabrice Chartier\nPeinture Tixier",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

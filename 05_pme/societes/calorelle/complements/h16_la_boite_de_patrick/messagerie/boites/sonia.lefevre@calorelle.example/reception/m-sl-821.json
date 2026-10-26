@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-821",
+  "de": {
+    "nom": "Florian Masson",
+    "adresse": "florian.masson@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Mes congés de fin d'année",
+  "date": "2026-11-22T19:10:00+01:00",
+  "corps": "Sonia,\n\nPeux-tu me redire ce que j'ai de posé comme congés d'ici la fin de l'année ? Et qui sera là entre Noël et le jour de l'an, que je voie si je peux prendre quelques jours ?\n\nFlorian (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

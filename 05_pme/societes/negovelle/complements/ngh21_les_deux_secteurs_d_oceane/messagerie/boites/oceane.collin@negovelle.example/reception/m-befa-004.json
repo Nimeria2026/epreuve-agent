@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-befa-004",
+  "de": {
+    "nom": "Françoise Hamel",
+    "adresse": "francoise.hamel@menuiserie-industrielle-chatelain.example"
+  },
+  "a": [
+    "benoit.faure@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande urgente",
+  "date": "2026-07-06T06:40:00+02:00",
+  "corps": "Bonjour Benoît,\n\nIl nous faut d'urgence :\n- 6 x PLB-12449, Robinet d'arrêt quart de tour 20x27\n\nPouvez-vous la faire partir aujourd'hui ?\n\nFrançoise Hamel\nMenuiserie industrielle Chatelain",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

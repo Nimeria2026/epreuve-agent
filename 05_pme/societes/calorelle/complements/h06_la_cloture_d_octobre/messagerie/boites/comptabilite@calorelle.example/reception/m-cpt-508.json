@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-508",
+  "de": {
+    "nom": "Informatique des Grèves",
+    "adresse": "compta@informatique-des-greves.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture IG-2026-0412",
+  "date": "2026-10-30T16:05:00+01:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-joint notre facture IG-2026-0412 du 30 octobre 2026 pour les deux ordinateurs portables livrés le même jour, 1 874,40 € TTC, payable à réception.\n\nService comptable, Informatique des Grèves (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "IG-2026-0412.pdf",
+      "fichier": "pieces/m-cpt-508/IG-2026-0412.pdf",
+      "taille_octets": 1107
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

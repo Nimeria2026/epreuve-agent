@@ -1,0 +1,17 @@
+# Budget prévisionnel de l'exercice en cours, voté, copropriété cp23. Données FICTIVES.
+copropriete: cp23
+exercice: '2026'
+total: 28 800,00 €
+postes:
+  nettoyage des parties communes: 6 336,00 €
+  espaces verts: 2 304,00 €
+  électricité des parties communes: 2 592,00 €
+  eau: 4 032,00 €
+  assurance de l'immeuble: 3 168,00 €
+  honoraires du syndic: 5 184,00 €
+  entretien et petites réparations: 2 880,00 €
+  ascenseur, contrat et électricité: 2 304,00 €
+repartition:
+  charges générales, aux tantièmes généraux: 26 496,00 €
+  ascenseur, aux tantièmes d'ascenseur: 2 304,00 €
+appel: un quart du budget, exigible le premier jour de chaque trimestre

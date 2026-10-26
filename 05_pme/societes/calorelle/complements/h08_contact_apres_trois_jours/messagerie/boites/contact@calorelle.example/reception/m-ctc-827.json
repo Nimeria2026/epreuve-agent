@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-827",
+  "de": {
+    "nom": "Syndic de la Résidence du Clos-Fargeau",
+    "adresse": "contact@syndic-de-la-residence-du-clos-fargeau-3.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Radiateurs du hall",
+  "date": "2026-11-01T09:30:00+01:00",
+  "corps": "Bonjour,\n\nNous souhaitons un devis pour remplacer les quatre radiateurs du hall d'entrée.\n\nLe syndic de la Résidence du Clos-Fargeau, 35 rue des Lilas (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

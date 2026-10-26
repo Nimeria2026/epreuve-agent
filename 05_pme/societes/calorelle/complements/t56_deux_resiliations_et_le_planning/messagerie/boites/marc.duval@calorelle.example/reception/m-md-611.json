@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-611",
+  "de": {
+    "nom": "Julie Perrin",
+    "adresse": "julie.perrin@calorelle.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Deux résiliations",
+  "date": "2026-11-02T08:45:00+01:00",
+  "corps": "Marc,\n\nDeux clients résilient leur contrat d'entretien. Je leur ai répondu ce matin ; à toi de voir ce que cela change au planning.\n\n- Gilles Bonnet (c-0413), Sérénité Plus depuis le 13 décembre 2019 : sa lettre de résiliation est arrivée ce matin, lundi 2 novembre.\n- Gilles Rousseau (c-0352), Sérénité depuis le 2 novembre 2018 : sa lettre de résiliation est arrivée le lundi 26 octobre ; je ne l'ai vue qu'aujourd'hui.\n\nPeux-tu me dire ce que tu as fait ?\n\nJulie (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

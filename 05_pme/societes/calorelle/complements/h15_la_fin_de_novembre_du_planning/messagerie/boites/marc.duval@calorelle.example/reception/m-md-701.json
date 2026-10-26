@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-701",
+  "de": {
+    "nom": "Hélène Marchal",
+    "adresse": "helene.marchal@calorelle.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Le point de novembre",
+  "date": "2026-11-27T17:20:00+01:00",
+  "corps": "Marc,\n\nLundi, fais le point des visites annuelles de novembre : chaque contrat dont le mois anniversaire est novembre a-t-il eu sa visite ? Les comptes rendus rangés dans le dossier de chaque client le disent. Les visites qui n'ont pas été faites, reprends-les dans la première quinzaine de décembre ; prépare aussi les visites des contrats de décembre. Tu appelleras toi-même les clients pour fixer le jour, comme d'habitude. Envoie-moi le point lundi : ce qui est fait, ce qui reste, et ce que tu as planifié, avec le compte des visites de novembre faites sur celles qui étaient dues.\n\nVoici la liste des contrats de novembre et de décembre, tirée du logiciel des contrats le 2 novembre. La colonne de l'appareil reprend le contrat d'origine ; un appareil remplacé depuis n'y est pas mis à jour.\n\nCode | Client | Formule | Mois anniversaire | Appareil\nc-0039 | Michel Girard | Sérénité | novembre | chaudière gaz murale\nc-0062 | Établissements Perrot | Sérénité Plus | novembre | chaudière gaz au sol\nc-0066 | Camille Martin | Sérénité | novembre | chaudière gaz murale\nc-0080 | Catherine Dupont | Sérénité | novembre | chaudière gaz au sol\nc-0085 | Michel Martin | Sérénité Plus | novembre | pompe à chaleur air-eau\nc-0120 | Sophie Vincent | Sérénité | novembre | chaudière gaz murale\nc-0135 | Jean Dupont | Sérénité | novembre | chaudière gaz murale\nc-0191 | Christophe Gauthier | Sérénité Plus | novembre | chaudière gaz au sol\nc-0307 | Établissements Simon | Sérénité | novembre | chaudière gaz au sol\nc-0352 | Gilles Rousseau | Sérénité | novembre | chaudière gaz murale\nc-0405 | Syndic de la Résidence des Tilleuls | Sérénité Plus | novembre | chaudière collective gaz\nc-0536 | Commune de Brenneval | Sérénité Plus | novembre | chaudière fioul de l'école\nc-0589 | Établissements Michel | Sérénité | novembre | chaudière gaz au sol\nc-0115 | Hélène Chevalier | Sérénité | décembre | chaudière gaz murale\nc-0121 | Établissements Michel | Sérénité Plus | décembre | pompe à chaleur air-eau\nc-0131 | Établissements Faure | Sérénité | décembre | chaudière fioul\nc-0377 | Michel Moreau | Sérénité | décembre | chaudière gaz murale\nc-0381 | Manon Vincent | Sérénité Plus | décembre | chaudière fioul\nc-0413 | Gilles Bonnet | Sérénité Plus | décembre | chaudière gaz murale\nc-0442 | Pierre François | Sérénité | décembre | chaudière gaz murale\n\nHélène (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

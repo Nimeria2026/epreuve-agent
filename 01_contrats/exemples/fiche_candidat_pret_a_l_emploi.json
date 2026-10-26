@@ -1,0 +1,17 @@
+{
+  "identifiant": "agent_exemple",
+  "nom": "Agent Exemple",
+  "version": "2.3",
+  "origine": "pret_a_l_emploi",
+  "division": "systeme_complet",
+  "branchement": "mcp",
+  "editeur": "Éditeur fictif",
+  "url": "https://editeur.example/agent",
+  "modeles": "?",
+  "cout_mesurable": false,
+  "conditions_utilisation": {
+    "url": "https://editeur.example/conditions",
+    "lues_le": "2026-10-05",
+    "publication_permise": "?"
+  }
+}

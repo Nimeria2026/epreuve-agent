@@ -1,0 +1,15 @@
+# Budget prévisionnel de l'exercice en cours, voté, copropriété cp24. Données FICTIVES.
+copropriete: cp24
+exercice: '2026'
+total: 16 500,00 €
+postes:
+  nettoyage des parties communes: 3 946,00 €
+  espaces verts: 1 435,00 €
+  électricité des parties communes: 1 614,00 €
+  eau: 2 511,00 €
+  assurance de l'immeuble: 1 973,00 €
+  honoraires du syndic: 3 228,00 €
+  entretien et petites réparations: 1 793,00 €
+repartition:
+  charges générales, aux tantièmes généraux: 16 500,00 €
+appel: un quart du budget, exigible le premier jour de chaque trimestre

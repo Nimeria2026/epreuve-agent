@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0036"
+nom: "Hélène Legrand"
+type: "particulier"
+adresse: "32 place du Marché, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "helene.legrand@courriel.example"
+telephone: "06 39 98 50 07"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité Plus"
+  depuis: "2024-09-20"
+  mois_anniversaire: "septembre"
+  derniere_visite: "2026-09-18"

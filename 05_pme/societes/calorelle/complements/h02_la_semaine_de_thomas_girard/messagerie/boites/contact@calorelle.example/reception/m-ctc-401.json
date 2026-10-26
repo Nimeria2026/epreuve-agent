@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-401",
+  "de": {
+    "nom": "Christophe Gauthier",
+    "adresse": "christophe.gauthier@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Plus de chauffage",
+  "date": "2026-11-02T08:12:00+01:00",
+  "corps": "Bonjour,\n\nNotre chaudière gaz s'est arrêtée cette nuit et ne redémarre plus. Nous avons le contrat Sérénité Plus. Je suis chez moi toute la semaine.\n\nChristophe Gauthier\n105 rue Haute, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

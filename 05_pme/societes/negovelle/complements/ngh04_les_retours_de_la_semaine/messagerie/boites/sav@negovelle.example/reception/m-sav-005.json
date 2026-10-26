@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-005",
+  "de": {
+    "nom": "Philippe Durieux",
+    "adresse": "philippe.durieux@peinture-bruneau.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Vis en trop",
+  "date": "2026-07-03T08:45:00+02:00",
+  "corps": "Bonjour,\n\nLes 4 boîtes de vis à bois 3x30 bichromatées de la livraison BL-2026-01713 du 25 juin sont en trop. Je vous les ai déposées ce matin, intactes. Vous pouvez les reprendre ?\n\nPhilippe Durieux\nPeinture Bruneau",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

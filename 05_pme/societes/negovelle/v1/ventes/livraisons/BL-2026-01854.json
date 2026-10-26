@@ -1,0 +1,44 @@
+{
+  "numero": "BL-2026-01854",
+  "commande": "CO-2026-02005",
+  "client": "c-0262",
+  "date_expedition": "2026-07-03",
+  "date_livraison": "2026-07-03",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "1 rue Saint-Martin, 36999 Vendrigny (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "CON-12147",
+      "libelle": "Ruban adhésif de masquage 25 mm, rouleau de 33 m",
+      "quantite": 24
+    },
+    {
+      "reference": "ENT-10465",
+      "libelle": "Lavette microfibre bleue, paquet de 10",
+      "quantite": 5
+    },
+    {
+      "reference": "ENT-10767",
+      "libelle": "Poubelle de tri 50 l",
+      "quantite": 4
+    },
+    {
+      "reference": "FIX-11412",
+      "libelle": "Crochet en S à visser 40 mm, sachet de 10",
+      "quantite": 5
+    },
+    {
+      "reference": "PLB-10130",
+      "libelle": "Bonde à grille 32 mm",
+      "quantite": 5
+    }
+  ],
+  "reserves": "2 colis livrés sur 3",
+  "signataire": "Gilles Humbert",
+  "statut": "livre"
+}

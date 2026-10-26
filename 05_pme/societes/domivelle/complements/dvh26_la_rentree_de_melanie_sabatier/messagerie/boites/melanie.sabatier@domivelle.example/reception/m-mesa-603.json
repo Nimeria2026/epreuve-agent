@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-mesa-603",
+  "de": {
+    "nom": "Yohan Delmas",
+    "adresse": "yohan.delmas@domivelle.example"
+  },
+  "a": [
+    "melanie.sabatier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Assemblée extraordinaire du Domaine des Saules, à notifier",
+  "date": "2026-08-26T11:30:00+02:00",
+  "corps": "Mélanie,\n\nL'assemblée générale extraordinaire du Domaine des Saules (cp03) est arrêtée : jeudi 8 octobre 2026 à 18 h 30, à la salle des fêtes de Montclavel-sur-Cher. Ordre du jour :\n1. Élection du président de séance\n2. Remplacement des portes des garages : trois devis, conditions essentielles en annexe\n3. Appels de fonds des travaux\n\nLa convocation, le formulaire de vote par correspondance et les annexes sont rangés dans coproprietes/cp03/assemblee_2026-10-08/. Peux-tu la notifier à ton retour ?\n\nYohan",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

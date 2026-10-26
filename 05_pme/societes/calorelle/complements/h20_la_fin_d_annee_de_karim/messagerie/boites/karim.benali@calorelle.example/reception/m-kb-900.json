@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-900",
+  "de": {
+    "nom": "Hélène Marchal",
+    "adresse": "helene.marchal@calorelle.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "La fin de l'année",
+  "date": "2026-12-29T18:30:00+01:00",
+  "corps": "Karim,\n\nAvant de fermer l'année, j'ai besoin de six choses de ta part, d'ici demain soir.\n\n1. Le bilan de tes devis de 2026, à jour de ce que tu enregistres aujourd'hui : une ligne par devis, avec son numéro, le client, le montant TTC et son statut ; puis combien tu en as établi, combien sont acceptés, refusés, en attente de réponse, en brouillon et abandonnés ; le montant TTC des acceptés et celui des devis en attente ; enfin la part des acceptés parmi les devis qui ont eu une réponse, en pourcentage arrondi à l'unité. Donne-moi aussi ces chiffres séparément pour les syndics et pour les communes, et rappelle-moi ceux de tes devis de 2025 pour comparer. Le logiciel de facturation fait foi.\n2. Pour préparer 2027, envoie à Marc, pour son retour le 4 janvier, la liste de tes clients sous contrat d'entretien, avec le mois de leur visite annuelle, sans ceux dont le contrat prend fin avant leur prochaine visite ; signale-lui aussi les visites de 2026 que les fiches ne montrent pas faites.\n3. J'ai validé hier DV-2026-021, la chaudière collective du Clos-Fargeau du chemin des Vignes : tu peux l'envoyer.\n4. La liste de tes devis qu'il restera à relancer, avec la date à partir de laquelle chacun pourra l'être.\n5. À chaque commune sous contrat, le récapitulatif de son année 2026 : la date de sa visite d'entretien et ses devis de l'année, avec leur suite.\n6. Le nombre de tes contrats d'entretien au 1er janvier 2027, par formule, et ce qu'ils rapporteront sur l'année, au prix d'aujourd'hui.\n\nLes remises, les devis au-delà de 10 000 € et les conditions de paiement restent pour moi, comme toujours. Julie est absente jusqu'au 31 : ce qui arrive pour ses clients vient chez moi. Marc est en congé jusqu'au 1er janvier, et Thomas tient le planning : c'est à lui que tu passes les chantiers et les visites à fixer.\n\nHélène (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-pare-604",
+  "de": {
+    "nom": "Solène Audoin",
+    "adresse": "solene.audoin@domivelle.example"
+  },
+  "a": [
+    "pascale.renaud@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Révision du 17 août, s35-10",
+  "date": "2026-07-31T16:50:00+02:00",
+  "corps": "Pascale,\n\nLe loyer de M. Roger Maréchal, lot s35-10, se révise le lundi 17 août : 596,00 € × 148,37 ÷ 146,68, soit 602,87 € hors charges. Je lui écris la semaine prochaine.\n\nSolène",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

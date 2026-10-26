@@ -1,0 +1,90 @@
+{
+  "numero": "CO-2026-01843",
+  "client": "c-0275",
+  "reference_client": null,
+  "cree_le": "2026-06-23T09:10:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "4 zone d'activités des Grands Prés, 36999 Vaumoreau-sur-Indre (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-11420",
+      "libelle": "Mastic polyuréthane, cartouche de 310 ml, transparent",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 8.7,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 8.0,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 40.0
+    },
+    {
+      "reference": "ELE-11894",
+      "libelle": "Fil de terre vert-jaune 6 mm², couronne de 50 m",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 71.35,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 65.64,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 65.64
+    },
+    {
+      "reference": "ELP-11723",
+      "libelle": "Scie circulaire 190 mm, 1200 W",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 225.3,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 207.28,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 621.84
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 727.48,
+  "total_tva_euros": 145.5,
+  "total_ttc_euros": 872.98,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01692"
+  ],
+  "facture": "FC-2026-1254",
+  "historique": [
+    {
+      "date": "2026-06-23T09:10:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-23T09:12:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-24T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01692"
+    },
+    {
+      "date": "2026-06-24T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01692"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1254"
+    }
+  ]
+}

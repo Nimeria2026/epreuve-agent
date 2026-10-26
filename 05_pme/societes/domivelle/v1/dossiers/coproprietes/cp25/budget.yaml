@@ -1,0 +1,17 @@
+# Budget prévisionnel de l'exercice en cours, voté, copropriété cp25. Données FICTIVES.
+copropriete: cp25
+exercice: '2026'
+total: 13 500,00 €
+postes:
+  nettoyage des parties communes: 2 970,00 €
+  espaces verts: 1 080,00 €
+  électricité des parties communes: 1 215,00 €
+  eau: 1 890,00 €
+  assurance de l'immeuble: 1 485,00 €
+  honoraires du syndic: 2 430,00 €
+  entretien et petites réparations: 1 350,00 €
+  ascenseur, contrat et électricité: 1 080,00 €
+repartition:
+  charges générales, aux tantièmes généraux: 12 420,00 €
+  ascenseur, aux tantièmes d'ascenseur: 1 080,00 €
+appel: un quart du budget, exigible le premier jour de chaque trimestre

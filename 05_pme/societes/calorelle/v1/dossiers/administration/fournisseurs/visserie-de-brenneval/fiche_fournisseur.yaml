@@ -1,0 +1,8 @@
+# Fiche fournisseur Calorelle. Données FICTIVES.
+nom: "Visserie de Brenneval"
+activite: "visserie"
+adresse: "21 zone d'activité du Clos-Fargeau, 45999 Valmont-sur-Loire (FICTIF)"
+telephone: "02 61 91 20 18"
+courriel_facturation: "compta@visserie-de-brenneval.example"
+iban: "FR76 9999 9357 1684 3396 8454 414 (FICTIF)"
+conditions: "paiement à 30 jours fin de mois"

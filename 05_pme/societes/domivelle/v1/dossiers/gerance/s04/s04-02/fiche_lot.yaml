@@ -1,0 +1,24 @@
+# Fiche du lot s04-02. Données FICTIVES.
+lot: s04-02
+adresse: 138 chemin du Bois, 18999 Chantebrune (FICTIF)
+type: T2
+surface_m2: 39
+locataire:
+  nom: Mme Françoise Collin
+  courriel: francoise.collin@boite-postale.example
+  telephone: 06 39 98 88 30
+  entree: '2019-06-17'
+bail:
+  signature: '2019-06-17'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 359,00 €
+  depot_de_garantie: 312,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T1
+dpe:
+  classe: C
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

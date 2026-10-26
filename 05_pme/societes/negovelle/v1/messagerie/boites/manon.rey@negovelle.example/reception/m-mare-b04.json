@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-mare-b04",
+  "de": {
+    "nom": "Chantal Péron",
+    "adresse": "chantal.peron@tixier-renovation.example"
+  },
+  "a": [
+    "manon.rey@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Copie de facture",
+  "date": "2026-06-25T09:44:00+02:00",
+  "corps": "Bonjour,\n\nPouvez-vous me renvoyer la facture de mai ? Je ne la retrouve pas.\n\nCordialement,\nChantal Péron",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

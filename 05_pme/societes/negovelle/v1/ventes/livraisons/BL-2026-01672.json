@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01672",
+  "commande": "CO-2026-01823",
+  "client": "c-0173",
+  "date_expedition": "2026-06-24",
+  "date_livraison": "2026-06-24",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "126 rue de l'Église, 36999 Fontclavier (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "PLB-12196",
+      "libelle": "Raccord à sertir coude 90° 14 mm",
+      "quantite": 50
+    }
+  ],
+  "reserves": null,
+  "signataire": "Paul Valentin",
+  "statut": "livre"
+}

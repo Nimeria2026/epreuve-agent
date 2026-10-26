@@ -1,0 +1,141 @@
+# Registre des lots en gestion, s20. Données FICTIVES.
+immeuble: s20
+nature: immeuble collectif
+adresse: 121 rue des Jardins, 18999 Chantebrune (FICTIF)
+secteur: sud
+gestionnaire: Solène Audoin
+distance_agence_km: 14
+annee_construction: 2004
+gardien: false
+copropriete_du_syndic: null
+lots:
+- lot: s20-01
+  type: T3
+  surface_m2: 62
+  etage: 0
+  proprietaire: p-0624
+  locataire: Mme Nathalie Gauthier
+  entree: '2017-01-20'
+  loyer_hors_charges: 532,00 €
+  provision_sur_charges: 97,00 €
+  depot_de_garantie: 434,00 €
+  revision: chaque 20 janvier
+  trimestre_irl: T3
+  dpe: E
+- lot: s20-02
+  type: T2
+  surface_m2: 47
+  etage: 0
+  proprietaire: p-0625
+  locataire: M. Luc Camus
+  entree: '2012-12-16'
+  loyer_hors_charges: 403,00 €
+  provision_sur_charges: 83,00 €
+  depot_de_garantie: 304,00 €
+  revision: chaque 16 décembre
+  trimestre_irl: T3
+  dpe: F
+- lot: s20-03
+  type: T1
+  surface_m2: 33
+  etage: 0
+  proprietaire: p-0617
+  locataire: Mme Lucie Delattre
+  entree: '2025-04-30'
+  loyer_hors_charges: 298,00 €
+  provision_sur_charges: 116,00 €
+  depot_de_garantie: 291,00 €
+  revision: chaque 30 avril
+  trimestre_irl: T4
+  dpe: C
+- lot: s20-04
+  type: T2
+  surface_m2: 44
+  etage: 0
+  proprietaire: p-0585
+  locataire: M. Jacques Chabert
+  entree: '2024-05-16'
+  loyer_hors_charges: 349,00 €
+  provision_sur_charges: 118,00 €
+  depot_de_garantie: 332,00 €
+  revision: chaque 16 mai
+  trimestre_irl: T1
+  dpe: C
+- lot: s20-05
+  type: T1
+  surface_m2: 34
+  etage: 1
+  proprietaire: p-0574
+  locataire: M. Didier Bazin
+  entree: '2017-11-23'
+  loyer_hors_charges: 269,00 €
+  provision_sur_charges: 67,00 €
+  depot_de_garantie: 224,00 €
+  revision: chaque 23 novembre
+  trimestre_irl: T3
+  dpe: C
+- lot: s20-06
+  type: T4
+  surface_m2: 73
+  etage: 1
+  proprietaire: p-0624
+  locataire: M. André Gauthier
+  entree: '2013-12-24'
+  loyer_hors_charges: 686,00 €
+  provision_sur_charges: 114,00 €
+  depot_de_garantie: 528,00 €
+  revision: chaque 24 décembre
+  trimestre_irl: T3
+  dpe: D
+- lot: s20-07
+  type: T2
+  surface_m2: 48
+  etage: 1
+  proprietaire: p-0626
+  locataire: Mme Lucie Couturier
+  entree: '2018-05-27'
+  loyer_hors_charges: 375,00 €
+  provision_sur_charges: 50,00 €
+  depot_de_garantie: 312,00 €
+  revision: chaque 27 mai
+  trimestre_irl: T1
+  dpe: E
+- lot: s20-08
+  type: T2
+  surface_m2: 47
+  etage: 1
+  proprietaire: p-0627
+  locataire: Mme Brigitte Pichon
+  entree: '2021-07-26'
+  loyer_hors_charges: 423,00 €
+  provision_sur_charges: 62,00 €
+  depot_de_garantie: 385,00 €
+  revision: chaque 26 juillet
+  trimestre_irl: T1
+  dpe: C
+- lot: s20-09
+  type: T2
+  surface_m2: 50
+  etage: 2
+  proprietaire: p-0628
+  locataire: M. Sylvain Chevalier
+  entree: '2016-06-06'
+  loyer_hors_charges: 456,00 €
+  provision_sur_charges: 57,00 €
+  depot_de_garantie: 365,00 €
+  revision: chaque 6 juin
+  trimestre_irl: T1
+  dpe: D
+- lot: s20-10
+  type: T1
+  surface_m2: 34
+  etage: 2
+  proprietaire: p-0579
+  locataire: M. Alain Michaud
+  entree: '2024-06-26'
+  loyer_hors_charges: 298,00 €
+  provision_sur_charges: 91,00 €
+  depot_de_garantie: 291,00 €
+  revision: chaque 26 juin
+  trimestre_irl: T1
+  dpe: D

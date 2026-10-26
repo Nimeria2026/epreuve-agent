@@ -1,0 +1,19 @@
+# Fiche du lot c15-05. Données FICTIVES.
+lot: c15-05
+adresse: 41 rue de la Croix-Blanche, 18999 Montclavel-sur-Cher (FICTIF)
+type: T2
+surface_m2: 41
+locataire:
+  nom: M. Serge Delorme
+  courriel: serge.delorme@courriel.example
+  telephone: 06 39 98 77 11
+  entree: '2014-09-11'
+bail:
+  signature: '2014-09-11'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 450,00 €
+  depot_de_garantie: 353,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T2
+dpe:
+  classe: A

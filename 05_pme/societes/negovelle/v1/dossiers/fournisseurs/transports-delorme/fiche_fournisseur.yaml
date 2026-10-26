@@ -1,0 +1,10 @@
+# Fiche d'un fournisseur de Négovelle. Données FICTIVES.
+nom: Transports Delorme
+activite: transport de messagerie, livraisons express
+adresse: 20 zone d'activités des Grands Prés, 36999 Vendrigny (FICTIF)
+telephone: 02 61 91 79 14
+courriel_commandes: service-client@transports-delorme.example
+courriel_facturation: facturation@transports-delorme.example
+iban: FR76 9999 9243 2101 6501 6658 036 (FICTIF)
+conditions: paiement à 30 jours date de facture
+minimum_de_commande: aucun

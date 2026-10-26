@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-490",
+  "de": {
+    "nom": "Syndic de la Résidence de Mirelande",
+    "adresse": "contact@syndic-de-la-residence-de-mirelande-441.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Visite d'entretien de la chaufferie",
+  "date": "2026-03-06T10:15:00+01:00",
+  "corps": "Bonjour Monsieur Benali,\n\nMerci pour la visite d'hier ; nous avons bien reçu le compte rendu.\n\nLucas Morel, gestionnaire, Syndic de la Résidence de Mirelande, 53 place du Marché (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

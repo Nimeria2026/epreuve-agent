@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-aubo-020",
+  "de": {
+    "nom": "Bruno Castaing",
+    "adresse": "bruno.castaing@negovelle.example"
+  },
+  "a": [
+    "aurelie.bonnefoy@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Avant de partir",
+  "date": "2026-07-31T18:30:00+02:00",
+  "corps": "Aurélie,\n\nJe pars ce soir moi aussi, retour le lundi 24 août. Envoie-moi ce jour-là ta note de frais de juillet, avec ses justificatifs, et le point de ce qui attend ma décision dans tes clients.\n\nBruno",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

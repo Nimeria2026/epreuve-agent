@@ -1,0 +1,8 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0591"
+nom: "Pierre Blanchard"
+type: "particulier"
+adresse: "102 rue du Moulin, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "pierre.blanchard@courriel.example"
+telephone: "06 39 98 51 43"
+charge_d_affaires: "julie.perrin"

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-734",
+  "de": {
+    "nom": "Hélène Marchal",
+    "adresse": "helene.marchal@calorelle.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Tes deux devis à valider",
+  "date": "2026-12-16T18:00:00+01:00",
+  "corps": "Julie,\n\nTu m'avais laissé deux devis à valider avant ton départ.\n- DV-2026-020, la pompe à chaleur de Sophie Vincent : d'accord, il peut partir.\n- DV-2026-021, la pompe à chaleur des Établissements Lambert : pas d'accord en l'état. Ce sont leurs bureaux, et le devis est au taux d'un logement ; refais-le et renvoie-le-moi.\n\nHélène (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-sl-805",
+  "de": {
+    "nom": "Garage Bessière",
+    "adresse": "atelier@garage-bessiere.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Relance : facture GB-1021",
+  "date": "2026-11-20T16:30:00+01:00",
+  "corps": "Bonjour,\n\nSauf erreur de notre part, notre facture GB-1021 du 21 octobre, 614,40 € TTC, échue le 20 novembre, reste impayée. Nous vous la joignons de nouveau.\n\nGarage Bessière (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "GB-1021.pdf",
+      "fichier": "pieces/m-sl-805/GB-1021.pdf",
+      "taille_octets": 1095
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

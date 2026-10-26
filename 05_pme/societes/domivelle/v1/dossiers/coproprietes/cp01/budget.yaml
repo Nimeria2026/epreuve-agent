@@ -1,0 +1,17 @@
+# Budget prévisionnel de l'exercice en cours, voté, copropriété cp01. Données FICTIVES.
+copropriete: cp01
+exercice: '2026'
+total: 58 500,00 €
+postes:
+  nettoyage des parties communes: 12 870,00 €
+  espaces verts: 4 680,00 €
+  électricité des parties communes: 5 265,00 €
+  eau: 8 190,00 €
+  assurance de l'immeuble: 6 435,00 €
+  honoraires du syndic: 10 530,00 €
+  entretien et petites réparations: 5 850,00 €
+  ascenseur, contrat et électricité: 4 680,00 €
+repartition:
+  charges générales, aux tantièmes généraux: 53 820,00 €
+  ascenseur, aux tantièmes d'ascenseur: 4 680,00 €
+appel: un quart du budget, exigible le premier jour de chaque trimestre

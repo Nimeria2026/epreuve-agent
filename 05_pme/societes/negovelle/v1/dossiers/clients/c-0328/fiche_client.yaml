@@ -1,0 +1,28 @@
+# Fiche du client c-0328 de Négovelle. Données FICTIVES.
+code: c-0328
+nom: Quéré Rénovation
+type: entreprise
+adresse: 32 zone d'activités des Grands Prés, 36999 Vaumoreau-sur-Indre (FICTIF)
+telephone: 02 61 91 70 30
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Monique Bellanger
+  fonction: conductrice de travaux
+  courriel: monique.bellanger@quere-renovation.example
+- nom: Alice Desjardins
+  fonction: responsable des achats
+  courriel: alice.desjardins@quere-renovation.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 32 zone d'activités des Grands Prés, 36999 Vaumoreau-sur-Indre (FICTIF)
+categorie_remise: C
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2015-07-01'
+limite_encours_euros: 7000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

@@ -1,0 +1,11 @@
+lot;etage;tantiemes_generaux;coproprietaire;courriel;notification;adresse_postale
+1;0;868;M. Christian Fabre;christian.fabre@mel-perso.example;électronique;33 rue des Lilas, 18999 Sorlay-le-Haut (FICTIF)
+2;0;773;Mme Isabelle Meunier;isabelle.meunier@boite-postale.example;électronique;101 allée des Acacias, 18999 Chantebrune (FICTIF)
+3;0;978;M. Gilles Maréchal;gilles.marechal@mel-perso.example;voie postale;88 rue du Château, 18999 Sorlay-le-Haut (FICTIF)
+4;0;678;Mme Simone Delattre;simone.delattre@courriel.example;électronique;77 rue de la Fontaine, 18999 Chantebrune (FICTIF)
+5;1;946;Mme Hélène Jacquet;helene.jacquet@courriel.example;électronique;104 rue de la Fontaine, 18999 Montclavel-sur-Cher (FICTIF)
+6;1;1025;SCI Le Mail Patrimoine;gestion@sci-le-mail-patrimoine.example;électronique;71 rue du Lavoir, 18999 Montclavel-sur-Cher (FICTIF)
+7;1;1167;M. Pierre Fleury;pierre.fleury@messagerie.example;électronique;52 rue de la Croix-Blanche, 18999 Sorlay-le-Haut (FICTIF)
+8;1;1703;M. Patrice Leclerc;patrice.leclerc@courriel.example;électronique;132 rue des Écoles, 18999 Chantebrune (FICTIF)
+9;2;726;M. Bruno Barbier;bruno.barbier@boite-postale.example;électronique;76 rue des Jardins, 18999 Chantebrune (FICTIF)
+10;2;1136;M. Antoine Cordier;antoine.cordier@messagerie.example;électronique;112 rue des Peupliers, 18999 Chantebrune (FICTIF)

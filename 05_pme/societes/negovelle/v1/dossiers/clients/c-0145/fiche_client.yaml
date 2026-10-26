@@ -1,0 +1,28 @@
+# Fiche du client c-0145 de Négovelle. Données FICTIVES.
+code: c-0145
+nom: Services techniques de Fontclavier
+type: collectivite
+adresse: 33 rue du Château, 36999 Fontclavier (FICTIF)
+telephone: 02 61 91 77 91
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Hugo Gonnet
+  fonction: responsable des services techniques
+  courriel: hugo.gonnet@services-techniques-de-fontclavier.example
+- nom: Arnaud Ducros
+  fonction: secrétaire de mairie
+  courriel: arnaud.ducros@services-techniques-de-fontclavier.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 33 rue du Château, 36999 Fontclavier (FICTIF)
+categorie_remise: A
+delai_paiement: comptant
+client_depuis: '2026-04-02'
+limite_encours_euros: 2000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

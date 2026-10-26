@@ -1,0 +1,31 @@
+# Fiche du client c-0055 de Négovelle. Données FICTIVES.
+code: c-0055
+nom: Mairie de Ardillac
+type: collectivite
+adresse: 92 chemin du Bois, 36999 Ardillac (FICTIF)
+telephone: 02 61 91 81 23
+secteur: est
+commercial: fabrice.mercier
+administration_des_ventes: benoit.faure
+contacts:
+- nom: Sophie Rocher
+  fonction: responsable des services techniques
+  courriel: sophie.rocher@mairie-de-ardillac.example
+- nom: Michel Bunel
+  fonction: secrétaire de mairie
+  courriel: michel.bunel@mairie-de-ardillac.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 92 chemin du Bois, 36999 Ardillac (FICTIF)
+- code: L2
+  libelle: dépôt
+  adresse: 11 zone artisanale du Moulin, 36999 Vaumoreau-sur-Indre (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2019-05-01'
+limite_encours_euros: 2000.0
+livraisons_partielles: true
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

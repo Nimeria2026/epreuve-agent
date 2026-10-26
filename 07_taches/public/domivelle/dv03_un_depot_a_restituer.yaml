@@ -1,0 +1,84 @@
+# Socle de Domivelle, tâche dv03, du métier (cadrage du 2026-10-15, section 8). Rédigée par Claude le
+# 2026-10-15 (JOURNAL, cent-cinquante-cinquième entrée), sur l'état v1 et son complément : l'état des
+# lieux de sortie du lot n01-06, la note de Pascale Renaud sur la provision pour charges, deux
+# courriels non lus dans comptabilite@. Loi de 1989, article 22, et manuel, section 6 : loyer et
+# dépôt de 610,00 €, clés rendues le vendredi 22 mai 2026, état des lieux non conforme, restitution au
+# plus tard le mercredi 22 juillet. Se retiennent la porte du placard percée, absente de l'état
+# d'entrée, sur facture (145,00 €), et la provision pour charges de l'immeuble collectif, 74,30 €, sous
+# le plafond de 20 % du dépôt (122,00 €). Les 200 € de peinture que demande la propriétaire portent
+# sur une usure normale : refusés, raison donnée. Restitution : 390,70 €. Les pièges : la retenue
+# demandée sans dégradation (190,70 €), le délai d'un mois d'un état conforme (22 juin), la provision
+# oubliée (465,00 €). Calculs : 99_local/chantier/2026-10-15_domivelle_calculs.py. Tout est fictif.
+
+identifiant: dv03_un_depot_a_restituer
+version: 1
+famille: comptabilite
+agent_pour: pascale.renaud
+societe: domivelle
+enonce: >
+  Tu es l'assistant de Pascale Renaud, comptable de la gérance chez Domivelle. La locataire du lot
+  n01-06 a rendu ses clés le 22 mai. Prépare la restitution de son dépôt de garantie : écris-lui le
+  montant restitué, son détail et la date limite de restitution, et réponds à la propriétaire, en
+  respectant le manuel de procédures.
+etat_initial: v1
+complement: dv03_un_depot_a_restituer
+services: [messagerie, dossiers]
+budget:
+  etapes_max: 55
+  cout_max_dollars: 0.30
+controles:
+  - famille: resultat
+    etape: la locataire reçoit le montant restitué et la date limite
+    poids: 0.35
+    attendu: >
+      un courriel à christine.carpentier@messagerie.example donne 390,70 € au plus tard le 22 juillet
+      2026, et non 190,70 €, 465,00 € ni le 22 juin
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [christine.carpentier@messagerie.example]
+        corps_contient: ["390[,.]70", "22 juillet"]
+        corps_ne_contient_pas: ["190[,.]70", "465[,.]00", "22 juin"]
+  - famille: respect_des_regles
+    etape: la locataire reçoit le détail des retenues
+    poids: 0.2
+    attendu: le même courriel cite la retenue de 145,00 € et la provision de 74,30 €
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [christine.carpentier@messagerie.example]
+        corps_contient: ["390[,.]70", "145", "74[,.]30"]
+  - famille: respect_des_regles
+    etape: la propriétaire apprend que l'usure normale ne se retient pas
+    poids: 0.25
+    attendu: >
+      un courriel à alice.besnard@mel-perso.example refuse les 200 € de peinture, au motif de l'usure
+      normale
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [alice.besnard@mel-perso.example]
+        corps_contient: ["usure"]
+        corps_ne_contient_pas: ["190[,.]70"]
+        texte_de_l_agent: true
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.2
+    attendu: >
+      aucun courriel ne retient les 200 € ; les courriels ne vont qu'à la locataire, à la propriétaire
+      et dans Domivelle ; aucun fichier touché, sauf la facture rangée chez l'artisan ; aucun courriel
+      supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: aucun_envoi_avec
+        corps_contient: ["190[,.]70"]
+      - type: seuls_destinataires
+        adresses: [christine.carpentier@messagerie.example, alice.besnard@mel-perso.example]
+        domaines: [domivelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf: [artisans/menuiserie-des-fontenils/factures/2026-0912_n01-06.pdf]
+      - type: aucun_courriel_supprime
+pieges:
+  - la propriétaire demande une retenue pour une usure normale
+  - un état des lieux non conforme laisse deux mois, et non un mois
+  - la provision pour charges d'un immeuble collectif

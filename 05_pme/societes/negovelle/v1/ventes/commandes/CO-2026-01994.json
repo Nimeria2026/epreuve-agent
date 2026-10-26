@@ -1,0 +1,117 @@
+{
+  "numero": "CO-2026-01994",
+  "client": "c-0028",
+  "reference_client": null,
+  "cree_le": "2026-07-02T09:10:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "103 rue des Peupliers, 36999 Corvalet (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-10783",
+      "libelle": "Disque abrasif fibre 125 mm, grain 120, boîte de 25",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 37.9,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 36.38,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 436.56
+    },
+    {
+      "reference": "ELE-10228",
+      "libelle": "Ampoule LED GU10 12 W, 2700 K",
+      "quantite": 100,
+      "prix_tarif_ht_euros": 5.2,
+      "remise_pourcent": 8.8,
+      "prix_net_ht_euros": 4.74,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 474.0
+    },
+    {
+      "reference": "QUI-11437",
+      "libelle": "Cylindre européen 30x35 mm, 5 clés",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 63.75,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 61.2,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 367.2
+    },
+    {
+      "reference": "VIS-10506",
+      "libelle": "Boulon tête hexagonale M8x60, inox A2, sachet de 25",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 2.9,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 2.78,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 5.56
+    },
+    {
+      "reference": "VIS-12017",
+      "libelle": "Vis à bois tête fraisée 4,5x50, zinguée, boîte de 500",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 21.05,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 20.21,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 20.21
+    },
+    {
+      "reference": "VIS-12425",
+      "libelle": "Vis à bois tête fraisée 4x40, zinguée, boîte de 500",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 15.35,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 14.74,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 29.48
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 1333.01,
+  "total_tva_euros": 266.6,
+  "total_ttc_euros": 1599.61,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01843"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-02T09:10:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-02T09:12:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01843"
+    },
+    {
+      "date": "2026-07-03T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01843"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-laga-002",
+  "de": {
+    "nom": "Anne Bonneau",
+    "adresse": "anne.bonneau@serrurerie-lecoq.example"
+  },
+  "a": [
+    "laetitia.garnier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande de cylindres",
+  "date": "2026-07-03T16:10:00+02:00",
+  "corps": "Bonjour,\n\nNous avons besoin pour un chantier de :\n- 10 x QUI-11666, Cylindre européen 45x45 mm, 3 clés\n- 6 x QUI-10024, Arrêt de volet automatique, noir\n\nÀ livrer au siège. Merci de confirmer.\n\nAnne Bonneau\nSerrurerie Lecoq",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

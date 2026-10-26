@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-007",
+  "de": {
+    "nom": "Alain Coulon",
+    "adresse": "alain.coulon@garage-guillon.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Truelles neuves à reprendre",
+  "date": "2026-07-03T14:25:00+02:00",
+  "corps": "Bonjour,\n\nLes 2 truelles langue-de-chat (OUT-12899) de la livraison BL-2026-01739 du 26 juin ne nous servent pas, elles sont neuves. Je les ai rapportées ce midi au comptoir. Merci de nous les reprendre.\n\nAlain Coulon\nGarage Guillon",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

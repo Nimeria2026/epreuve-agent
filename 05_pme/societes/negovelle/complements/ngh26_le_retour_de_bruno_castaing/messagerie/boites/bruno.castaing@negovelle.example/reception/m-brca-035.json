@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-035",
+  "de": {
+    "nom": "Fabrice Mercier",
+    "adresse": "fabrice.mercier@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Un prix pour Plâtrerie Lagarde",
+  "date": "2026-08-20T15:45:00+02:00",
+  "corps": "Bruno,\n\nPlâtrerie Lagarde (c-0176) prendrait 30 boîtes de marqueurs bleus CON-11298 à 14,00 € HT au lieu de 21,25 €. C'est une fin de série, on peut descendre. Je saisis la commande dès que tu me réponds.\n\nFabrice",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-006",
+  "de": {
+    "nom": "Roger Pinson",
+    "adresse": "roger.pinson@gay-maintenance.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande pour le dépôt",
+  "date": "2026-07-06T06:25:00+02:00",
+  "corps": "Bonjour,\n\nPour notre dépôt : 12 boîtes de chevilles nylon 8x40 et 6 forets béton SDS-plus 12x160.\n\nRoger Pinson\nGay Maintenance",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

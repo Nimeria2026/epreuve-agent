@@ -1,0 +1,29 @@
+{
+  "identifiant": "m-brca-003",
+  "de": {
+    "nom": "Fabrice Mercier",
+    "adresse": "fabrice.mercier@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Note de frais de juillet",
+  "date": "2026-08-04T09:15:00+02:00",
+  "corps": "Bonjour Bruno,\n\nVoici ma note de frais de juillet, 305,70 €, et mes justificatifs. Le déjeuner du 8 juillet est celui que tu m'avais accordé.\n\nMerci,\nFabrice",
+  "pieces_jointes": [
+    {
+      "nom": "fabrice.mercier.md",
+      "fichier": "pieces/m-brca-003/fabrice.mercier.md",
+      "taille_octets": 758
+    },
+    {
+      "nom": "justificatifs_fabrice.mercier_2026-07.pdf",
+      "fichier": "pieces/m-brca-003/justificatifs_fabrice.mercier_2026-07.pdf",
+      "taille_octets": 780
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

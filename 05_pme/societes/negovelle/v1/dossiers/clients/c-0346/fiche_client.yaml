@@ -1,0 +1,31 @@
+# Fiche du client c-0346 de Négovelle. Données FICTIVES.
+code: c-0346
+nom: Transports Ducret
+type: pme
+adresse: 2 zone industrielle des Brandes, 36999 Laubrissac (FICTIF)
+telephone: 02 61 91 86 77
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Patrice Lagarde
+  fonction: responsable des achats
+  courriel: patrice.lagarde@transports-ducret.example
+- nom: Michel Toussaint
+  fonction: responsable de maintenance
+  courriel: michel.toussaint@transports-ducret.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 2 zone industrielle des Brandes, 36999 Laubrissac (FICTIF)
+- code: L2
+  libelle: dépôt
+  adresse: 19 zone artisanale du Moulin, 36999 Fontclavier (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2008-05-01'
+limite_encours_euros: 5500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

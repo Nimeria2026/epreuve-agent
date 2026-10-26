@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-032",
+  "de": {
+    "nom": "Samir Ouali",
+    "adresse": "samir.ouali@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Prix pour Couverture Grenier, CO-2026-02049",
+  "date": "2026-08-12T09:20:00+02:00",
+  "corps": "Bruno,\n\nCouverture Grenier (c-0327) refait son stock d'atelier ; brouillon CO-2026-02049 :\n\n- ELP-11420, Meuleuse d'angle 150 mm, 2000 W : 4 à 85,00 € HT au lieu de 124,00 €\n- QUI-13070, Verrou à baïonnette 80 mm, acier : 20 à 12,00 € HT au lieu de 19,01 €\n- PRO-11502, Pantalon de travail haute visibilité orange, taille 42 : 10 à 27,00 € HT au lieu de 32,60 €\n- OUT-12319, Serre-joint à une main 150 mm : 12 à 9,00 € HT au lieu de 11,05 €\n\nLa meuleuse est déréférencée et le verrou en fin de série.\n\nSamir",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

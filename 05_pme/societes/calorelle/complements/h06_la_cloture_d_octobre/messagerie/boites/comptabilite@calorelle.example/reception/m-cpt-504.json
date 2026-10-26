@@ -1,0 +1,29 @@
+{
+  "identifiant": "m-cpt-504",
+  "de": {
+    "nom": "Nicolas Blanc",
+    "adresse": "nicolas.blanc@calorelle.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Note de frais d'octobre",
+  "date": "2026-10-31T16:30:00+01:00",
+  "corps": "Bonjour Patrick,\n\nVoici ma note de frais d'octobre ; la note et les justificatifs sont joints.\n\n- 9 octobre : repas, chantier de Brenneval, 16,40 €\n- 9 octobre : trajet aller et retour au chantier de Brenneval, avec le fourgon de l'entreprise, 46 km à 0,45 €, 20,70 €\n- 23 octobre : péage, 7,80 €\n- 23 octobre : trajet aller et retour au dépôt de Distri-Clim Centre, avec ma voiture, 72 km à 0,45 €, 32,40 €\n\nMerci,\nNicolas (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "note_de_frais_octobre_Blanc.pdf",
+      "fichier": "pieces/m-cpt-504/note_de_frais_octobre_Blanc.pdf",
+      "taille_octets": 1096
+    },
+    {
+      "nom": "justificatifs_octobre_Blanc.pdf",
+      "fichier": "pieces/m-cpt-504/justificatifs_octobre_Blanc.pdf",
+      "taille_octets": 778
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

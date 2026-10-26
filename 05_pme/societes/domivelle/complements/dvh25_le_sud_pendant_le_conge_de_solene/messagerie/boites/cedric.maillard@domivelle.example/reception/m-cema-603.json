@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cema-603",
+  "de": {
+    "nom": "Jacques Chabert",
+    "adresse": "jacques.chabert@courriel.example"
+  },
+  "a": [
+    "cedric.maillard@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Mon préavis",
+  "date": "2026-09-05T11:15:00+02:00",
+  "corps": "Bonjour,\n\nJe vous informe que je quitterai mon logement du lot s20-04 à la fin de décembre : ce courriel vaut préavis.\n\nJacques Chabert",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

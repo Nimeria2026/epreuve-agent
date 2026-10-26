@@ -1,0 +1,31 @@
+# Fiche du client c-0160 de Négovelle. Données FICTIVES.
+code: c-0160
+nom: Parmentier Industrie
+type: pme
+adresse: 9 zone d'activités des Grands Prés, 36999 Ardillac (FICTIF)
+telephone: 02 61 91 92 82
+secteur: est
+commercial: fabrice.mercier
+administration_des_ventes: benoit.faure
+contacts:
+- nom: Noémie Lhomme
+  fonction: responsable des achats
+  courriel: noemie.lhomme@parmentier-industrie.example
+- nom: Léa Lemarchand
+  fonction: responsable de maintenance
+  courriel: lea.lemarchand@parmentier-industrie.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 9 zone d'activités des Grands Prés, 36999 Ardillac (FICTIF)
+- code: L2
+  libelle: dépôt
+  adresse: 37 zone industrielle des Brandes, 36999 Ardillac (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2013-12-01'
+limite_encours_euros: 3000.0
+livraisons_partielles: false
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

@@ -1,0 +1,25 @@
+# Fiche du client c-0011 de Négovelle. Données FICTIVES.
+code: c-0011
+nom: Peinture Lecoq
+type: artisan
+adresse: 70 rue Saint-Martin, 36999 Vaumoreau-sur-Indre (FICTIF)
+telephone: 02 61 91 92 37
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Bernard Guyot
+  fonction: gérant
+  courriel: bernard.guyot@peinture-lecoq.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 70 rue Saint-Martin, 36999 Vaumoreau-sur-Indre (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2011-10-01'
+limite_encours_euros: 1500.0
+livraisons_partielles: false
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

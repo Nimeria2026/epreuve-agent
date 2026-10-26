@@ -1,0 +1,24 @@
+# Fiche du lot c01-01. Données FICTIVES.
+lot: c01-01
+adresse: 139 rue des Écoles, 18999 Montclavel-sur-Cher (FICTIF)
+type: T3
+surface_m2: 68
+locataire:
+  nom: Mme Simone Joly
+  courriel: simone.joly@mel-perso.example
+  telephone: 06 39 98 66 81
+  entree: '2023-08-10'
+bail:
+  signature: '2023-08-10'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 745,00 €
+  depot_de_garantie: 710,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T2
+dpe:
+  classe: D
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

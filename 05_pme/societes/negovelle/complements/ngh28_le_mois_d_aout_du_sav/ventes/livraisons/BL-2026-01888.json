@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01888",
+  "commande": "CO-2026-02068",
+  "client": "c-0243",
+  "date_expedition": "2026-08-03",
+  "date_livraison": "2026-08-04",
+  "transport": {
+    "mode": "transporteur",
+    "transporteur": "transports-delorme",
+    "recepisse": "TD-413405"
+  },
+  "adresse": "36 zone industrielle des Brandes, 36999 Corvalet (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "VIS-10890",
+      "libelle": "Vis à bois tête fraisée 3,5x40, inox A2, boîte de 500",
+      "quantite": 10
+    },
+    {
+      "reference": "VIS-10751",
+      "libelle": "Vis à bois tête fraisée 3,5x25, bichromatée, boîte de 200",
+      "quantite": 15
+    }
+  ],
+  "reserves": "colis 2 sur 2 manquant : 15 boîtes de vis VIS-10751",
+  "signataire": "Florence Navarre",
+  "statut": "livre"
+}

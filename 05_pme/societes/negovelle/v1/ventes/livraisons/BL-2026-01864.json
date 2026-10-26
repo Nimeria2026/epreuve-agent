@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01864",
+  "commande": "CO-2026-02026",
+  "client": "c-0004",
+  "date_expedition": "2026-07-03",
+  "date_livraison": null,
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "25 rue de la Fontaine, 36999 Corvalet (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ELE-11127",
+      "libelle": "Câble R2V 5G 10 mm², couronne de 100 m",
+      "quantite": 2
+    },
+    {
+      "reference": "QUI-11347",
+      "libelle": "Coulisse de tiroir à galets 450 mm, la paire",
+      "quantite": 2
+    }
+  ],
+  "reserves": null,
+  "signataire": null,
+  "statut": "en_cours"
+}

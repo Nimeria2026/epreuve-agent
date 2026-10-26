@@ -1,0 +1,73 @@
+{
+  "numero": "CO-2026-01979",
+  "client": "c-0240",
+  "reference_client": null,
+  "cree_le": "2026-07-01T09:10:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "87 chemin des Prés, 36999 Fontclavier (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-10130",
+      "libelle": "Bombe de traçage, blanc, aérosol de 400 ml",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 6.35,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 6.35,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 31.75
+    },
+    {
+      "reference": "FIX-10245",
+      "libelle": "Cheville nylon 10x40, boîte de 200",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 12.5,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 12.0,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 48.0
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 94.75,
+  "total_tva_euros": 18.95,
+  "total_ttc_euros": 113.7,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01828"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-01T09:10:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-01T09:12:00+02:00",
+      "par": "oceane.collin",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-02T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01828"
+    },
+    {
+      "date": "2026-07-02T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01828"
+    }
+  ]
+}

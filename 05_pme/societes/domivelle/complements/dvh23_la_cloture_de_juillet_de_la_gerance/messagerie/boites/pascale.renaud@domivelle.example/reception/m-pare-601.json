@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-pare-601",
+  "de": {
+    "nom": "Cédric Maillard",
+    "adresse": "cedric.maillard@domivelle.example"
+  },
+  "a": [
+    "pascale.renaud@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Départ de Mme Navarro, c01-03",
+  "date": "2026-07-17T12:20:00+02:00",
+  "corps": "Pascale,\n\nMme Pauline Navarro a rendu les clés du lot c01-03 le mercredi 15 juillet ; l'état des lieux de sortie est conforme, il est dans le dossier du lot avec sa nouvelle adresse. Son dépôt de garantie est de 651,00 €. C'est un immeuble collectif : j'estime à 155,00 € le complément de ses charges de 2026.\n\nCédric",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

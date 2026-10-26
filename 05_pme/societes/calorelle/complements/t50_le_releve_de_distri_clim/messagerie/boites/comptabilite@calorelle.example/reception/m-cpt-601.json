@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cpt-601",
+  "de": {
+    "nom": "Distri-Clim Centre, service comptable",
+    "adresse": "compta@distri-clim-centre.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Relevé de compte au 31 octobre 2026",
+  "date": "2026-11-02T08:30:00+01:00",
+  "corps": "Bonjour,\n\nSauf erreur de notre part, les factures suivantes restent impayées à ce jour :\n- DC-5470 du 20/08/2026 : 912,00 € TTC ;\n- DC-5521 du 18/09/2026 : 1 284,00 € TTC ;\n- DC-5602 du 09/10/2026 : 1 788,00 € TTC ;\n- DC-5634 du 23/10/2026 : 642,00 € TTC ;\n- DC-5650 du 28/10/2026 : 1 116,00 € TTC.\nTotal : 5 742,00 € TTC.\n\nMerci de régulariser votre compte sous huitaine, ou de nous indiquer les règlements déjà effectués.\n\nLe service comptable de Distri-Clim Centre (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

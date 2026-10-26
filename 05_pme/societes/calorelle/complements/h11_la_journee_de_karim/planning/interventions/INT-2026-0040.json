@@ -1,0 +1,13 @@
+{
+  "numero": "INT-2026-0040",
+  "client": "c-0344",
+  "techniciens": [
+    "sebastien.noel"
+  ],
+  "debut": "2026-11-19T08:00:00+01:00",
+  "fin": "2026-11-19T10:00:00+01:00",
+  "nature": "depannage",
+  "objet": "Réparation de la pompe à chaleur de la médiathèque",
+  "statut": "planifiee",
+  "cree_par": "marc.duval"
+}

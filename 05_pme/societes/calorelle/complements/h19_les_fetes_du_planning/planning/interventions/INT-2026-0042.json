@@ -1,0 +1,13 @@
+{
+  "numero": "INT-2026-0042",
+  "client": "c-0312",
+  "techniciens": [
+    "kevin.lambert"
+  ],
+  "debut": "2026-12-23T13:30:00+01:00",
+  "fin": "2026-12-23T17:30:00+01:00",
+  "nature": "installation",
+  "objet": "Remplacement de la chaudière gaz",
+  "statut": "planifiee",
+  "cree_par": "marc.duval"
+}

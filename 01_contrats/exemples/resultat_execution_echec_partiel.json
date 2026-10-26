@@ -1,0 +1,47 @@
+{
+  "run": "2026-11-03_agent_seul_deepseek_v41_flash",
+  "tache": {
+    "identifiant": "t03_trier_boite_contact",
+    "version": 6
+  },
+  "repetition": 2,
+  "debut_utc": "2026-11-03T14:20:00Z",
+  "fin_utc": "2026-11-03T14:21:30Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.6,
+      "score": 0.75,
+      "detail": "6 courriels sur 8 transmis à la bonne personne"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 1,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 0,
+      "detail": "un courriel déjà lu a été transféré"
+    }
+  ],
+  "score": 0.65,
+  "reussie": false,
+  "etapes": 23,
+  "jetons": {
+    "entree": "?",
+    "entree_en_cache": "?",
+    "sortie": "?"
+  },
+  "cout_dollars": "?",
+  "energie_wh": null,
+  "duree_secondes": 90,
+  "journal": "journaux/t03_trier_boite_contact_r2.jsonl"
+}

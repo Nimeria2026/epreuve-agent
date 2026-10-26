@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cpt-607",
+  "de": {
+    "nom": "Mme Manon Perrot",
+    "adresse": "manon.perrot@mel-perso.example"
+  },
+  "a": [
+    "comptabilite@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Dépôt de garantie de M. Besnard, n01-07",
+  "date": "2026-07-29T18:15:00+02:00",
+  "corps": "Madame,\n\nM. Besnard a quitté mon appartement n01-07 le 24 juillet. En plus du mur du séjour, la moquette de la chambre est usée et je devrai la changer : retenez aussi 250,00 € sur son dépôt pour cela.\n\nMme Manon Perrot",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

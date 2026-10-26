@@ -1,0 +1,73 @@
+{
+  "numero": "CO-2026-01966",
+  "client": "c-0244",
+  "reference_client": null,
+  "cree_le": "2026-07-01T09:10:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "17 rue de la Fontaine, 36999 Ardillac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "VIS-11943",
+      "libelle": "Vis à bois tête fraisée 4,5x45, inox A2, boîte de 200",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 3.35,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 3.22,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 3.22
+    },
+    {
+      "reference": "VIS-13724",
+      "libelle": "Vis à tôle tête cylindrique 3,5x9,5, zinguée, boîte de 250",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 4.5,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 4.32,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 17.28
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 35.5,
+  "total_tva_euros": 7.1,
+  "total_ttc_euros": 42.6,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01815"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-01T09:10:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-01T09:12:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-02T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01815"
+    },
+    {
+      "date": "2026-07-02T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01815"
+    }
+  ]
+}

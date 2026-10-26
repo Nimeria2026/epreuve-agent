@@ -1,0 +1,25 @@
+# Fiche du client c-0247 de Négovelle. Données FICTIVES.
+code: c-0247
+nom: Serrurerie Grenier
+type: artisan
+adresse: 83 place du Marché, 36999 Saulvenne (FICTIF)
+telephone: 02 61 91 82 17
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Sophie Brochard
+  fonction: gérante
+  courriel: sophie.brochard@serrurerie-grenier.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 83 place du Marché, 36999 Saulvenne (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2014-11-01'
+limite_encours_euros: 3500.0
+livraisons_partielles: true
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

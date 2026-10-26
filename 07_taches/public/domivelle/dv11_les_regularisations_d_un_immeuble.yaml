@@ -1,0 +1,77 @@
+# Socle de Domivelle, tâche dv11, du métier (cadrage du 2026-10-15, section 8). Rédigée par Claude le
+# 2026-10-15 (JOURNAL, cent-cinquante-cinquième entrée), sur l'état v1 et son complément : le relevé
+# des charges 2025 de l'immeuble n21. Loi de 1989, article 23, décret n° 87-713 et manuel, section
+# 12 : récupérables, l'eau, l'électricité des parties communes, les espaces verts, l'ascenseur, la taxe
+# d'enlèvement des ordures ménagères, et le gardien à 75 %, qui assure l'entretien des parties communes
+# et l'élimination des rejets ; ni les honoraires du syndic ni l'assurance. 24 090,00 € répartis au
+# prorata des surfaces (1 187 m²), puis des jours d'occupation. Mme Sophie Martel (n21-12, 41 m²,
+# toute l'année) : 832,09 €, provisions 840,00 €, 7,91 € à rembourser. M. Pierre Durand (n21-18, 50 m²,
+# depuis le 8 novembre 2025, 54 jours) : 150,13 €, provisions 141,33 €, 8,80 € à payer. Les pièges : le
+# gardien compté en entier, les charges non récupérables, le prorata oublié. Calculs :
+# 99_local/chantier/2026-10-15_domivelle_calculs.py. Tout est fictif.
+
+identifiant: dv11_les_regularisations_d_un_immeuble
+version: 1
+famille: gestion_locative
+agent_pour: elodie.chauvin
+societe: domivelle
+enonce: >
+  Tu es l'assistant d'Élodie Chauvin, gestionnaire locative chez Domivelle. Le relevé des charges 2025
+  de l'immeuble n21 est arrivé : prépare la régularisation des charges de Mme Sophie Martel (n21-12) et
+  de M. Pierre Durand (n21-18), et envoie à chacun son décompte, en respectant le manuel de procédures.
+etat_initial: v1
+complement: dv11_les_regularisations_d_un_immeuble
+services: [messagerie, dossiers]
+budget:
+  etapes_max: 45
+  cout_max_dollars: 0.30
+controles:
+  - famille: resultat
+    etape: Mme Sophie Martel reçoit sa part et ce qui lui revient
+    poids: 0.3
+    attendu: un courriel à sophie.martel@mel-perso.example donne 832,09 € et 7,91 € à lui rembourser
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [sophie.martel@mel-perso.example]
+        corps_contient: ["832[,.]09", "7[,.]91"]
+        corps_ne_contient_pas: ["966[,.]80", "126[,.]80", "1 ?099[,.]78", "259[,.]78"]
+  - famille: resultat
+    etape: M. Pierre Durand reçoit sa part, au prorata de son occupation
+    poids: 0.3
+    attendu: un courriel à pierre.durand@mel-perso.example donne 150,13 € et 8,80 € à payer
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [pierre.durand@mel-perso.example]
+        corps_contient: ["150[,.]13", "8[,.]80"]
+        corps_ne_contient_pas: ["873[,.]41", "1 ?014[,.]74", "33[,.]10", "57[,.]09"]
+  - famille: respect_des_regles
+    etape: chaque décompte dit le mode de répartition
+    poids: 0.2
+    attendu: les deux courriels disent la répartition au prorata des surfaces
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [sophie.martel@mel-perso.example]
+        corps_contient: ["832[,.]09", "surface"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [pierre.durand@mel-perso.example]
+        corps_contient: ["150[,.]13", "surface"]
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.2
+    attendu: >
+      les courriels ne vont qu'aux deux locataires et dans Domivelle ; aucun fichier ni courriel touché
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses: [sophie.martel@mel-perso.example, pierre.durand@mel-perso.example]
+        domaines: [domivelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - le gardien n'est récupérable qu'à 75 %
+  - les honoraires du syndic et l'assurance ne se récupèrent pas
+  - un locataire est arrivé en cours d'année

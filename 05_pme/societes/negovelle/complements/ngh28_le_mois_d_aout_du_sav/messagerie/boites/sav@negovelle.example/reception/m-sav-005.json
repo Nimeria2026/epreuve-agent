@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-005",
+  "de": {
+    "nom": "Robert Billard",
+    "adresse": "robert.billard@electricite-lhomme.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Erreur de vis",
+  "date": "2026-08-10T07:50:00+02:00",
+  "corps": "Bonjour,\n\nNous avions commandé 10 boîtes de vis VIS-12760 ; la livraison du 29 juillet, BL-2026-01893, nous a apporté des VIS-10890. Votre chauffeur vient de les reprendre. Quand aurons-nous notre avoir ?\n\nRobert Billard\nÉlectricité Lhomme",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

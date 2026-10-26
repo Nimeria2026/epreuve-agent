@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-009",
+  "de": {
+    "nom": "Pierre Dumont",
+    "adresse": "pierre.dumont@charpente-allard.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-03T09:22:00+02:00",
+  "corps": "Bonjour,\n\nVoici notre commande, à livrer au siège :\n\n- 6 x VIS-10016, Boulon tête hexagonale M10x100, zingué, sachet de 10\n- 1 x OUT-10196, Caisse à outils à tiroirs 600 mm\n- 4 x FIX-10147, Cheville métallique à expansion M6x65, boîte de 50\n\nMerci de nous confirmer la livraison.\n\nCordialement,\nPierre Dumont\nCharpente Allard",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

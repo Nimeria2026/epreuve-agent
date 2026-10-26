@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-maca-607",
+  "de": {
+    "nom": "Propreté de la Motte-Brûlée",
+    "adresse": "facturation@proprete-de-la-motte-brulee.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Nouveau prix, Résidence Les Iris",
+  "date": "2026-08-26T09:00:00+02:00",
+  "corps": "Madame,\n\nÀ compter du 1er octobre 2026, le nettoyage des parties communes de la Résidence Les Iris passera de 4 905,00 € à 5 400,00 € TTC par an. Sauf avis contraire de votre part, nous continuerons au nouveau prix.\n\nPropreté de la Motte-Brûlée",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

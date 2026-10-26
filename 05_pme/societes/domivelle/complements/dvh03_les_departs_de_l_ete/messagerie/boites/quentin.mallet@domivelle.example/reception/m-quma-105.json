@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-quma-105",
+  "de": {
+    "nom": "Sandrine Laurent",
+    "adresse": "sandrine.laurent@mel-perso.example"
+  },
+  "a": [
+    "quentin.mallet@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Relocation du c20-09",
+  "date": "2026-06-06T16:05:00+02:00",
+  "corps": "Bonjour Monsieur Mallet,\n\nMon appartement du c20-09 se libère le 14 juillet. Je voudrais le relouer 820 € hors charges, le marché le permet. Pouvez-vous préparer l'annonce à ce prix ?\n\nSandrine Laurent",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

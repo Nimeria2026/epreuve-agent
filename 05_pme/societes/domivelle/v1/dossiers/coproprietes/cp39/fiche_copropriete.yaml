@@ -1,0 +1,20 @@
+# Fiche de la copropriété cp39. Données FICTIVES.
+copropriete: cp39
+nom: Résidence Le Parc des Ormes
+adresse: 119 chemin des Prés, 18999 Chantebrune (FICTIF)
+lots_principaux: 49
+annee_construction: 1975
+ascenseur: true
+exercice: du lendemain du 31 décembre au 31 décembre
+gestionnaire: Gaëlle Fournel
+conseil_syndical:
+  president: Mme Madeleine Pagès
+  membres:
+  - Mme Isabelle Noël
+  - M. Louis Roche
+seuil_mise_en_concurrence: 5 000,00 €
+seuil_consultation_du_conseil_syndical: 500,00 €
+assureur_de_l_immeuble: Mutuelle des Deux-Rives (FICTIF)
+declaration_des_sinistres: sinistres@mutuelle-des-deux-rives.example
+immeuble_en_gestion_locative: s11
+fonds_de_travaux: 5 % du budget prévisionnel, aux tantièmes généraux, appelé avec chaque provision

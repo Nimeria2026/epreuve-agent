@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-vete-404",
+  "de": {
+    "nom": "Yohan Delmas",
+    "adresse": "yohan.delmas@domivelle.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "M. Delattre, cp19 : échéancier",
+  "date": "2026-06-05T16:40:00+02:00",
+  "corps": "Véronique,\n\nLa mise en demeure de M. Michel Delattre, lot 4 du Grand Pré, est restée sans effet plus de trente jours : ses provisions de l'année sont exigibles (loi de 1965, article 19-2), 1 812,99 € en tout. Il demande un échéancier ; c'est toi qui décides. Je te propose six mensualités.\n\nYohan",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-004",
+  "de": {
+    "nom": "Inès Hervé",
+    "adresse": "ines.herve@couverture-ancelin.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Retour de cylindres",
+  "date": "2026-07-02T17:20:00+02:00",
+  "corps": "Bonjour,\n\nLe chantier pour lequel nous avions pris 6 cylindres 45x40 (QUI-11657, livraison BL-2026-01728 du 26 juin) est annulé. Je vous les ai rendus cet après-midi. Merci de les reprendre.\n\nInès Hervé\nCouverture Ancelin",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

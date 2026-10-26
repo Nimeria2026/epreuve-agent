@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-jp-718",
+  "de": {
+    "nom": "Marion Lemaire",
+    "adresse": "marion.lemaire@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Candidature : technicienne de maintenance",
+  "date": "2026-12-22T11:00:00+01:00",
+  "corps": "Madame,\n\nTechnicienne de maintenance en génie climatique, je me permets de vous adresser ma candidature. Mon CV est joint.\n\nMarion Lemaire (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "CV_Marion_Lemaire.pdf",
+      "fichier": "pieces/m-jp-718/CV_Marion_Lemaire.pdf",
+      "taille_octets": 801
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

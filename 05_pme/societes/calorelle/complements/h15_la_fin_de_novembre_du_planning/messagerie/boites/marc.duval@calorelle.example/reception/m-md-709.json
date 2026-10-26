@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-709",
+  "de": {
+    "nom": "Mairie de Brenneval",
+    "adresse": "contact@commune-de-brenneval-536.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Visite de la chaudière de l'école",
+  "date": "2026-11-27T11:30:00+01:00",
+  "corps": "Monsieur,\n\nLa visite annuelle de la chaudière de l'école, prévue en novembre par notre contrat, n'a pas encore eu lieu. Elle ne peut se faire qu'un mercredi après-midi, quand l'école n'a pas classe. Merci de nous appeler pour convenir du jour.\n\nLe secrétariat de mairie, Commune de Brenneval (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

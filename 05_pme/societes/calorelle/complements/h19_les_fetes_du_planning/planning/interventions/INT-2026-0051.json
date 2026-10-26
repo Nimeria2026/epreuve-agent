@@ -1,0 +1,13 @@
+{
+  "numero": "INT-2026-0051",
+  "client": "c-0121",
+  "techniciens": [
+    "mathieu.picard"
+  ],
+  "debut": "2026-12-09T08:00:00+01:00",
+  "fin": "2026-12-09T09:30:00+01:00",
+  "nature": "visite_annuelle",
+  "objet": "Visite d'entretien annuelle, pompe à chaleur",
+  "statut": "planifiee",
+  "cree_par": "marc.duval"
+}

@@ -1,0 +1,28 @@
+# Fiche du client c-0163 de Négovelle. Données FICTIVES.
+code: c-0163
+nom: Chauffage Toussaint
+type: artisan
+adresse: 103 chemin des Prés, 36999 Laubrissac (FICTIF)
+telephone: 02 61 91 73 03
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Julie Pelletier
+  fonction: gérante
+  courriel: julie.pelletier@chauffage-toussaint.example
+- nom: Henri Gay
+  fonction: conjoint collaborateur
+  courriel: henri.gay@chauffage-toussaint.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 103 chemin des Prés, 36999 Laubrissac (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2014-06-01'
+limite_encours_euros: 2500.0
+livraisons_partielles: true
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

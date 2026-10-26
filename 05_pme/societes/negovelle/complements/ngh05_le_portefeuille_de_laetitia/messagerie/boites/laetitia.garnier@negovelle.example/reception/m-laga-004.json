@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-laga-004",
+  "de": {
+    "nom": "Anne Cadiou",
+    "adresse": "anne.cadiou@rouxel-travaux-publics.example"
+  },
+  "a": [
+    "laetitia.garnier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande CO-2026-02016 : livraison sur chantier",
+  "date": "2026-07-06T06:10:00+02:00",
+  "corps": "Bonjour Lætitia,\n\nNotre commande CO-2026-02016, validée vendredi, pourrait-elle partir directement sur notre chantier, 12 rue des Écoles, 36999 Laubrissac ? Ce sera plus simple pour l'équipe.\n\nMerci,\nAnne Cadiou\nRouxel Travaux publics",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

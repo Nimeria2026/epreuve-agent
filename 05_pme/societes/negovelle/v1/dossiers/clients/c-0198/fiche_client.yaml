@@ -1,0 +1,28 @@
+# Fiche du client c-0198 de Négovelle. Données FICTIVES.
+code: c-0198
+nom: Plâtrerie Humbert
+type: artisan
+adresse: 24 avenue Pasteur, 36999 Corvalet (FICTIF)
+telephone: 02 61 91 78 78
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Arnaud Bunel
+  fonction: gérant
+  courriel: arnaud.bunel@platrerie-humbert.example
+- nom: Luc Maurin
+  fonction: conjoint collaborateur
+  courriel: luc.maurin@platrerie-humbert.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 24 avenue Pasteur, 36999 Corvalet (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2011-08-01'
+limite_encours_euros: 8500.0
+livraisons_partielles: false
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

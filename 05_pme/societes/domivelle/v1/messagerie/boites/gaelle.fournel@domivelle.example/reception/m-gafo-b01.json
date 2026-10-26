@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-gafo-b01",
+  "de": {
+    "nom": "SCI La Croix-Blanche",
+    "adresse": "gestion@sci-la-croix-blanche.example"
+  },
+  "a": [
+    "gaelle.fournel@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Procès-verbal reçu",
+  "date": "2026-05-19T14:51:00+02:00",
+  "corps": "Bonjour,\n\nMerci pour l'envoi du procès-verbal.\n\nSCI La Croix-Blanche",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

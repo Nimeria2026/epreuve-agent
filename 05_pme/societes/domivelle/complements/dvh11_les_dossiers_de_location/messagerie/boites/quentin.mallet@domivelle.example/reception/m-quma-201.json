@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-quma-201",
+  "de": {
+    "nom": "Laurent Olivier",
+    "adresse": "laurent.olivier@courriel.example"
+  },
+  "a": [
+    "quentin.mallet@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Mon T2 de la rue des Remparts",
+  "date": "2026-06-05T18:20:00+02:00",
+  "corps": "Bonjour,\n\nPour mon T2 du c02-17, envoyez-moi les dossiers des candidats, mais pas de famille avec de jeunes enfants : c'est un petit logement et les voisins sont âgés.\n\nLaurent Olivier",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

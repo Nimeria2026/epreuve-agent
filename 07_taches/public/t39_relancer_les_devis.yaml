@@ -1,0 +1,89 @@
+# Tranche 5 (étape 5), tâche 39, n° 15 de la carte du banc. Rédigée par Claude le 2026-10-08
+# (JOURNAL, quatre-vingt-dix-neuvième entrée), sur l'état v3. Au lundi 2 novembre 2026, les devis
+# de Julie Perrin envoyés sans réponse depuis plus de 30 jours sont DV-2026-004 (c-0103, envoyé le
+# 15 juin) et DV-2026-009 (c-0020, le 28 septembre, 35 jours) : chacun est relancé une fois par son
+# chargé d'affaires (manuel, section 6). DV-2026-008 (le 15 septembre) l'est aussi, mais c'est un
+# devis de Karim Benali ; DV-2026-010, 011 et 012 ont moins de 30 jours ; DV-2026-007 n'a jamais
+# été envoyé ; les devis acceptés ou refusés ne se relancent pas. Complément d'état (courriels de
+# Julie marqués lus) : 05_pme/societes/calorelle/complements/t39_relancer_les_devis/. Tout est
+# fictif.
+# Version 2, le 2026-10-08 (JOURNAL, centième entrée) : budget de 45 étapes au lieu de 40, par la
+# règle du témoin, qui lit désormais tout ce qu'il utilise hors l'orientation.
+# Version 3, le 2026-10-08 (JOURNAL, cent-unième entrée), après la relecture indépendante (H3, M4) :
+# le complément réécrit quatre anciens courriels de Julie, venus de v1, qui contredisaient les devis
+# de v3 (DV-2026-009 répondu par une inconnue, DV-2026-011 accepté par un autre expéditeur) ; un seul
+# courriel aux deux clients leur montre le devis de l'autre (manuel, section 3) et ne compte plus ;
+# un numéro de devis peut s'écrire avec un trait d'union insécable.
+
+identifiant: t39_relancer_les_devis
+version: 3
+famille: commercial
+agent_pour: julie.perrin
+enonce: >
+  Tu es l'assistant de Julie Perrin, chargée d'affaires chez Calorelle. Relance par courriel les
+  devis de Julie qui doivent l'être, en respectant le manuel de procédures.
+etat_initial: v3
+complement: t39_relancer_les_devis
+services: [messagerie, dossiers, facturation]
+budget:
+  etapes_max: 45
+  cout_max_dollars: 0.40
+controles:
+  - famille: resultat
+    etape: les deux devis sans réponse depuis plus de 30 jours sont relancés
+    poids: 0.6
+    attendu: >
+      un courriel à philippe.vincent@courriel.example cite DV-2026-004 ; un courriel à
+      contact@etablissements-dubois-20.example cite DV-2026-009
+    notation: proportion
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [philippe.vincent@courriel.example]
+        corps_contient: ["DV[-‑]2026[-‑]004"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [contact@etablissements-dubois-20.example]
+        corps_contient: ["DV[-‑]2026[-‑]009"]
+  - famille: respect_des_regles
+    etape: aucun autre devis relancé, chacun une fois, à part
+    poids: 0.3
+    attendu: >
+      aucun courriel aux clients des devis récents, du brouillon ou du devis de Karim Benali ; un
+      seul courriel à chacun des deux clients relancés, jamais aux deux ensemble
+    notation: tout_ou_rien
+    verification:
+      - type: envois
+        vers:
+          - contact@syndic-de-la-residence-des-saulaies-207.example
+          - alain.dubois@courriel.example
+          - celine.faure@courriel.example
+          - contact@syndic-de-la-residence-de-brenneval-223.example
+          - contact@etablissements-bernard-17.example
+        nombre: 0
+      - type: envois
+        vers: [philippe.vincent@courriel.example]
+        nombre: 1
+        au_plus: true
+      - type: envois
+        vers: [contact@etablissements-dubois-20.example]
+        nombre: 1
+        au_plus: true
+      - type: destinataires_separes
+        adresses: [philippe.vincent@courriel.example, contact@etablissements-dubois-20.example]
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.1
+    attendu: >
+      les courriels ne vont qu'aux deux clients ou au personnel ; aucun devis ne change ; aucun
+      fichier créé, déplacé ou supprimé ; aucun courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses: [philippe.vincent@courriel.example, contact@etablissements-dubois-20.example]
+        domaines: [calorelle.example]
+      - type: devis_inchanges
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - DV-2026-008, sans réponse depuis plus de 30 jours, mais de Karim Benali
+  - "DV-2026-007, en brouillon depuis le 7 septembre, jamais envoyé : il n'attend pas de réponse"

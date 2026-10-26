@@ -1,0 +1,79 @@
+{
+  "numero": "CO-2026-01869",
+  "client": "c-0199",
+  "reference_client": "BC-9776",
+  "cree_le": "2026-06-24T09:10:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "7 parc d'activités de la Gare, 36999 Fontclavier (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "PRO-10661",
+      "libelle": "Chaussures de sécurité légères composite S3, pointure 40",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 78.25,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 75.12,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 751.2
+    },
+    {
+      "reference": "QUI-12498",
+      "libelle": "Poignée de porte carrée sur rosace, noir mat",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 55.05,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 52.85,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 528.5
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 1279.7,
+  "total_tva_euros": 255.94,
+  "total_ttc_euros": 1535.64,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01718"
+  ],
+  "facture": "FC-2026-1180",
+  "historique": [
+    {
+      "date": "2026-06-24T09:10:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-24T09:12:00+02:00",
+      "par": "oceane.collin",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-25T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01718"
+    },
+    {
+      "date": "2026-06-25T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01718"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1180"
+    }
+  ]
+}

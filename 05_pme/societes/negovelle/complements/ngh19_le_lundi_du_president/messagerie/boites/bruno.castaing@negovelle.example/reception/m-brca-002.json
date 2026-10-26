@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-002",
+  "de": {
+    "nom": "Aurélie Bonnefoy",
+    "adresse": "aurelie.bonnefoy@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Prix pour Serrurerie Grenier, CO-2026-02043",
+  "date": "2026-07-03T15:45:00+02:00",
+  "corps": "Bruno,\n\nSerrurerie Grenier (c-0247) prendrait ces quatre articles si on lui fait ces prix, brouillon CO-2026-02043 :\n- ELE-10293, Appareil modulaire contacteur jour-nuit 25 A, 5 unités : 45,00 € HT au lieu de 63,80 € au tarif\n- CON-11028, Disque abrasif à lamelles 115 mm, grain 80, boîte de 25, 10 unités : 25,00 € HT au lieu de 33,50 € au tarif\n- ELE-12792, Projecteur LED 10 W, portable sur pied, 4 unités : 55,00 € HT au lieu de 107,45 € au tarif\n- QUI-12662, Serrure en applique horizontale, axe 50 mm, 10 unités : 22,50 € HT au lieu de 36,50 € au tarif\n\nPour les deux derniers, je sais que c'est bas, mais ils se vendent mal : on peut les traiter comme des fins de série, non ?\n\nAurélie",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

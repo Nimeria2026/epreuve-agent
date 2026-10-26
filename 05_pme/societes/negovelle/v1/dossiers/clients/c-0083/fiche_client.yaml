@@ -1,0 +1,28 @@
+# Fiche du client c-0083 de Négovelle. Données FICTIVES.
+code: c-0083
+nom: Services techniques de Vaumoreau-sur-Indre
+type: collectivite
+adresse: 15 avenue de la Gare, 36999 Vaumoreau-sur-Indre (FICTIF)
+telephone: 02 61 91 77 22
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Anne Valentin
+  fonction: responsable des services techniques
+  courriel: anne.valentin@services-techniques-de-vaumoreau-sur-indre.example
+- nom: Sophie Feuillet
+  fonction: secrétaire de mairie
+  courriel: sophie.feuillet@services-techniques-de-vaumoreau-sur-indre.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 15 avenue de la Gare, 36999 Vaumoreau-sur-Indre (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2018-04-01'
+limite_encours_euros: 3500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

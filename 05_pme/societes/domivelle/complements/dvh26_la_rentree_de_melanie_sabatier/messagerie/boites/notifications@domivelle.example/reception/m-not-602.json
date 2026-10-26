@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-not-602",
+  "de": {
+    "nom": "Jérôme Lainé",
+    "adresse": "jerome.laine@mel-perso.example"
+  },
+  "a": [
+    "notifications@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "RE: Notification du procès-verbal de l'assemblée générale du 7 juillet 2026, Les Charmilles",
+  "date": "2026-08-03T10:20:00+02:00",
+  "corps": "Madame,\n\nJe conteste la décision de l'assemblée du 7 juillet sur le local des poubelles, votée sans devis comparés. J'en saisirai le tribunal si rien ne change.\n\nJérôme Lainé, lot 2",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

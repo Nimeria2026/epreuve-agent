@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01850",
+  "commande": "CO-2026-02001",
+  "client": "c-0251",
+  "date_expedition": "2026-07-03",
+  "date_livraison": "2026-07-03",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "21 zone d'activités des Grands Prés, 36999 Vaumoreau-sur-Indre (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ELP-10032",
+      "libelle": "Batterie 18 V 3 Ah",
+      "quantite": 2
+    },
+    {
+      "reference": "PLB-12401",
+      "libelle": "Robinet d'arrêt de machine à laver 12x17",
+      "quantite": 12
+    }
+  ],
+  "reserves": null,
+  "signataire": "Françoise Foucault",
+  "statut": "livre"
+}

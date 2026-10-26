@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-605",
+  "de": {
+    "nom": "Vitrerie des Quatre-Vents",
+    "adresse": "facturation@vitrerie-des-quatre-vents.example"
+  },
+  "a": [
+    "comptabilite@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture 2026-1131, lot c13-12",
+  "date": "2026-07-24T16:10:00+02:00",
+  "corps": "Bonjour,\n\nCi-jointe notre facture n° 2026-1131 du 24 juillet 2026 pour le lot c13-12, 25 rue Saint-Martin, 18999 Montclavel-sur-Cher : remplacement d'un vitrage de la chambre, 132,00 € TTC, échéance le 25 septembre 2026.\n\nVitrerie des Quatre-Vents",
+  "pieces_jointes": [
+    {
+      "nom": "facture_2026-1131.pdf",
+      "fichier": "pieces/m-cpt-605/facture_2026-1131.pdf",
+      "taille_octets": 900
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

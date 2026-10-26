@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-904",
+  "de": {
+    "nom": "Patrick Boyer",
+    "adresse": "patrick.boyer@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Plus d'eau chaude",
+  "date": "2027-01-28T16:45:00+01:00",
+  "corps": "Bonjour,\n\nNous n'avons plus d'eau chaude depuis ce matin. Nous avons le contrat Sérénité Plus.\n\nPatrick Boyer, 66 rue de la Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

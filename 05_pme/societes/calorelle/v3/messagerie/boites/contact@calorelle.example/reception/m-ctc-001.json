@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-001",
+  "de": {
+    "nom": "Isabelle Garnier",
+    "adresse": "isabelle.garnier@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Demande de devis : remplacement de chaudière",
+  "date": "2026-10-31T18:22:00+01:00",
+  "corps": "Bonjour,\n\nMa chaudière au fioul a vingt-cinq ans. Je souhaite un devis pour la remplacer par une pompe à chaleur.\n\nIsabelle Garnier, 14 rue des Lilas, 45999 Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

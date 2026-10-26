@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-befa-b01",
+  "de": {
+    "nom": "Michel Foucault",
+    "adresse": "michel.foucault@services-techniques-de-saulvenne.example"
+  },
+  "a": [
+    "benoit.faure@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Disponibilité",
+  "date": "2026-07-03T13:56:00+02:00",
+  "corps": "Bonjour,\n\nAvez-vous en stock la référence VIS-11960 ? Il m'en faudrait 20 pour la fin de semaine.\n\nMerci,\nMichel Foucault",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

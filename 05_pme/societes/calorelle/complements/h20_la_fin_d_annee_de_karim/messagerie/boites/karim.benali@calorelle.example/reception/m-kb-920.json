@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-920",
+  "de": {
+    "nom": "Syndic de la Résidence de Brenneval",
+    "adresse": "contact@syndic-de-la-residence-de-brenneval-223.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Et une pompe à chaleur ?",
+  "date": "2026-12-21T10:15:00+01:00",
+  "corps": "Bonjour,\n\nAprès le refus de votre devis de rénovation, le conseil syndical se demande s'il ne vaudrait pas mieux passer à des pompes à chaleur air-eau. Quel taux de TVA s'appliquerait dans notre résidence, construite en 1978 ?\n\nLe syndic de la Résidence de Brenneval, 38 rue du Moulin (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-fame-003",
+  "de": {
+    "nom": "Sylvie Gabriel",
+    "adresse": "sylvie.gabriel@durieux-batiment.example"
+  },
+  "a": [
+    "fabrice.mercier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Chevilles pour le chantier de l'école",
+  "date": "2026-07-04T09:30:00+02:00",
+  "corps": "Bonjour Fabrice,\n\nPour le chantier de l'école d'Ardillac, il nous faut 200 boîtes de chevilles FIX-10735. Un concurrent nous les propose 15 % sous votre tarif : pouvez-vous nous faire ce prix ? Il nous faut une réponse cette semaine.\n\nCordialement,\n\nSylvie Gabriel\nDurieux Bâtiment",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

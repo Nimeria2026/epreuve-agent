@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-deba-b02",
+  "de": {
+    "nom": "Visserie des Tilleuls",
+    "adresse": "commandes@visserie-des-tilleuls.example"
+  },
+  "a": [
+    "denis.barthe@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Confirmation de commande",
+  "date": "2026-06-26T10:10:00+02:00",
+  "corps": "Bonjour,\n\nNous confirmons votre commande ; livraison prévue la semaine prochaine.\n\nLe service commandes\nVisserie des Tilleuls",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

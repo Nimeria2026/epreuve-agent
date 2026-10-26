@@ -1,0 +1,14 @@
+# Fiche du propriétaire p-0005, mandant de Domivelle. Données FICTIVES.
+code: p-0005
+nom: Mme Manon Perrot
+adresse: 52 rue de la Croix-Blanche, 18999 Vernillac (FICTIF)
+courriel: manon.perrot@mel-perso.example
+telephone: 06 39 98 73 59
+iban: FR76 9999 9222 7087 5444 9538 048 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- n01-07
+- n02-03
+- n02-06
+- n05-05
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

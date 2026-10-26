@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0188"
+nom: "Patrick François"
+type: "particulier"
+adresse: "70 impasse des Saules, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "patrick.francois@courriel.example"
+telephone: "06 39 98 50 50"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2019-05-23"
+  mois_anniversaire: "mai"
+  derniere_visite: "2026-05-07"

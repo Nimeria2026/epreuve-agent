@@ -1,0 +1,101 @@
+{
+  "numero": "CO-2026-01855",
+  "client": "c-0314",
+  "reference_client": "BC-3810",
+  "cree_le": "2026-06-24T09:10:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "33 zone artisanale du Moulin, 36999 Mérolles-en-Brenne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ENT-11355",
+      "libelle": "Seau rond 10 l",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 9.7,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 9.31,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 93.1
+    },
+    {
+      "reference": "PLB-10089",
+      "libelle": "Bonde de douche 60 mm",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 11.65,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 11.18,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 22.36
+    },
+    {
+      "reference": "PLB-11208",
+      "libelle": "Flexible inox femelle-femelle 15x21 50 cm",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 9.1,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 8.74,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 104.88
+    },
+    {
+      "reference": "VIS-10220",
+      "libelle": "Boulon tête hexagonale M12x40, zingué, sachet de 10",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 14.1,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 13.54,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 81.24
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 301.58,
+  "total_tva_euros": 60.32,
+  "total_ttc_euros": 361.9,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01704"
+  ],
+  "facture": "FC-2026-1290",
+  "historique": [
+    {
+      "date": "2026-06-24T09:10:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-24T09:12:00+02:00",
+      "par": "oceane.collin",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-25T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01704"
+    },
+    {
+      "date": "2026-06-25T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01704"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1290"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-819",
+  "de": {
+    "nom": "Référencement Plus",
+    "adresse": "contact@referencement-plus.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Votre entreprise en première page",
+  "date": "2026-10-31T08:00:00+01:00",
+  "corps": "Bonjour,\n\nVotre site n'apparaît pas en première page des moteurs de recherche. Pour 99 € par mois, nous vous y plaçons.\n\nRéférencement Plus (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

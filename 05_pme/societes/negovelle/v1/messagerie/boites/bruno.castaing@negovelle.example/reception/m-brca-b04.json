@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-b04",
+  "de": {
+    "nom": "Chantal Robin",
+    "adresse": "chantal.robin@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Courrier du jour",
+  "date": "2026-06-23T13:18:00+02:00",
+  "corps": "Bonjour,\n\nLe courrier du jour est numérisé et rangé dans courrier/.\n\nChantal",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

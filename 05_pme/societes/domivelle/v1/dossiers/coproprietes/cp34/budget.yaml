@@ -1,0 +1,17 @@
+# Budget prévisionnel de l'exercice en cours, voté, copropriété cp34. Données FICTIVES.
+copropriete: cp34
+exercice: '2026'
+total: 63 000,00 €
+postes:
+  nettoyage des parties communes: 13 860,00 €
+  espaces verts: 5 040,00 €
+  électricité des parties communes: 5 670,00 €
+  eau: 8 820,00 €
+  assurance de l'immeuble: 6 930,00 €
+  honoraires du syndic: 11 340,00 €
+  entretien et petites réparations: 6 300,00 €
+  ascenseur, contrat et électricité: 5 040,00 €
+repartition:
+  charges générales, aux tantièmes généraux: 57 960,00 €
+  ascenseur, aux tantièmes d'ascenseur: 5 040,00 €
+appel: un quart du budget, exigible le premier jour de chaque trimestre

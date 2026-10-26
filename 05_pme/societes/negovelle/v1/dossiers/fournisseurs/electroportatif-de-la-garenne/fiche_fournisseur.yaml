@@ -1,0 +1,10 @@
+# Fiche d'un fournisseur de Négovelle. Données FICTIVES.
+nom: Électroportatif de la Garenne
+activite: distributeur d'outillage électroportatif
+adresse: 11 zone d'activités des Grands Prés, 36999 Vaumoreau-sur-Indre (FICTIF)
+telephone: 02 61 91 71 18
+courriel_commandes: commandes@electroportatif-de-la-garenne.example
+courriel_facturation: facturation@electroportatif-de-la-garenne.example
+iban: FR76 9999 9570 1531 5607 1217 768 (FICTIF)
+conditions: paiement à 30 jours date de facture
+minimum_de_commande: 150,00 € HT

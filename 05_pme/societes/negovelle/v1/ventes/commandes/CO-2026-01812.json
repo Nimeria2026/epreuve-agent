@@ -1,0 +1,79 @@
+{
+  "numero": "CO-2026-01812",
+  "client": "c-0027",
+  "reference_client": null,
+  "cree_le": "2026-06-22T09:10:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "124 rue des Jardins, 36999 Laubrissac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ENT-10138",
+      "libelle": "Balai brosse coco 80 cm",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 20.95,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 20.95,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 41.9
+    },
+    {
+      "reference": "PLB-10563",
+      "libelle": "Collier de fixation tube 25 mm, sachet de 25",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 10.1,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 10.1,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 30.3
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 87.2,
+  "total_tva_euros": 17.44,
+  "total_ttc_euros": 104.64,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01661"
+  ],
+  "facture": "FC-2026-1022",
+  "historique": [
+    {
+      "date": "2026-06-22T09:10:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-22T09:12:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-23T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01661"
+    },
+    {
+      "date": "2026-06-23T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01661"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1022"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-001",
+  "de": {
+    "nom": "Abrasifs et colles des Hautes-Bornes",
+    "adresse": "facturation@abrasifs-et-colles-des-hautes-bornes.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture F51207",
+  "date": "2026-07-27T09:10:00+02:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-jointe notre facture F51207 du 20 juillet 2026, pour votre commande CA-2026-0302 :\n- CON-10040, Bombe de peinture antirouille, jaune fluo, aérosol de 400 ml : 120 x 2,77 € HT = 332,40 €\n- CON-12156, Ruban adhésif de masquage 38 mm, rouleau de 33 m : 120 x 7,15 € HT = 858,00 €\n\nTotal HT : 1 190,40 € ; TVA 20 % : 238,08 € ; total TTC : 1 428,48 €. Paiement à 30 jours date de facture.\n\nService facturation\nAbrasifs et colles des Hautes-Bornes",
+  "pieces_jointes": [
+    {
+      "nom": "F51207.pdf",
+      "fichier": "pieces/m-cpt-001/F51207.pdf",
+      "taille_octets": 903
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

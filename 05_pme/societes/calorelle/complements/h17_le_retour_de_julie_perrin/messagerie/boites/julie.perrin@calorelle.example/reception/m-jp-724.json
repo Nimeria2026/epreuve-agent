@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-724",
+  "de": {
+    "nom": "Nathalie Guérin",
+    "adresse": "nathalie.guerin@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Passer au contrat Sérénité Plus",
+  "date": "2026-12-28T09:00:00+01:00",
+  "corps": "Bonjour,\n\nAprès la panne de l'hiver dernier, je voudrais passer au contrat Sérénité Plus à partir du 15 janvier. Quel sera le supplément ?\n\nNathalie Guérin, 29 rue Haute, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

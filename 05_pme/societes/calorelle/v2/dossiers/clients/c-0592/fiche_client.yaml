@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0592"
+nom: "Philippe Boyer"
+type: "particulier"
+adresse: "71 place du Marché, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "philippe.boyer@courriel.example"
+telephone: "06 39 98 51 44"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2019-03-05"
+  mois_anniversaire: "mars"
+  derniere_visite: "2026-03-10"

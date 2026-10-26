@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-tg-800",
+  "de": {
+    "nom": "Marc Duval",
+    "adresse": "marc.duval@calorelle.example"
+  },
+  "a": [
+    "thomas.girard@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Le planning pendant mon congé",
+  "date": "2026-12-18T17:30:00+01:00",
+  "corps": "Thomas,\n\nJe suis en congé du lundi 21 décembre au vendredi 1er janvier ; mes courriels sont renvoyés vers ta boîte, et Hélène t'a délégué le planning et l'accès aux dossiers des clients. Tu ne prends pas d'intervention toi-même ces deux semaines.\n\nCe qu'il faut savoir :\n- Julie est absente jusqu'au 31 décembre : les suites de ses clients vont à Hélène ; Karim est là.\n- Les visites de janvier restent à poser : Bernadette Lemoine (c-0217, chaudière gaz), les Établissements Dupont (c-0587, chaudière fioul, le matin seulement), Camille Garnier (c-0511, chaudière gaz), Gilles Robin (c-0521, pompe à chaleur, le mardi ou le jeudi seulement), Aurélie Garnier (c-0034, chaudière gaz) et Alain Girard (c-0195, chaudière gaz).\n- Les comptes rendus se rangent au dossier du client, sous interventions/AAAA-MM-JJ_entretien.pdf pour une visite, AAAA-MM-JJ_depannage.pdf pour un dépannage. Ceux de toutes les interventions de décembre doivent y être à mon retour : vérifie-les, et demande au technicien ceux qui manquent.\n- Aujourd'hui, envoie à toute l'équipe, en un seul courriel, le planning de la semaine du 28 décembre, celle où nous serons le moins nombreux : une ligne par intervention, avec le jour, l'heure, le client et le technicien, sans dire pourquoi un collègue est absent.\n- Le reste est au planning, posé avant mon départ.\n\nÀ mon retour, le lundi 4 janvier, envoie-moi le point de ce qui a changé.\n\nMarc (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

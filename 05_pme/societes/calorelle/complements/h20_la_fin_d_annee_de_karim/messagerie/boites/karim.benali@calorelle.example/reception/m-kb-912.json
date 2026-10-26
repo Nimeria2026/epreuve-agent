@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-912",
+  "de": {
+    "nom": "Mathieu Picard",
+    "adresse": "mathieu.picard@calorelle.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Note de visite : mairie du Pré-Bouvreuil",
+  "date": "2026-12-22T17:30:00+01:00",
+  "corps": "Karim,\n\nLa mairie du Pré-Bouvreuil, 54 rue du Moulin (c-0347), pour ton devis : une pompe à chaleur air-eau de 12 kW, la dépose de l'ancienne chaudière, 16 m de tuyauterie, le raccordement électrique, la mise en service, 20 h de main-d'œuvre et deux thermostats d'ambiance connectés, un par étage.\n\nMathieu (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-420",
+  "de": {
+    "nom": "Hélène Marchal",
+    "adresse": "helene.marchal@calorelle.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "RE: Devis DV-2026-014 à valider",
+  "date": "2026-11-02T08:52:00+01:00",
+  "corps": "Julie,\n\nJ'ai relu le devis DV-2026-014 de Patrick Lefebvre : c'est d'accord, tu peux l'envoyer.\n\nHélène (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01808",
+  "commande": "CO-2026-01959",
+  "client": "c-0335",
+  "date_expedition": "2026-07-01",
+  "date_livraison": "2026-07-01",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "16 zone artisanale du Moulin, 36999 Ardillac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "OUT-12343",
+      "libelle": "Serre-joint à une main 500 mm",
+      "quantite": 2
+    }
+  ],
+  "reserves": null,
+  "signataire": "Denis Noblet",
+  "statut": "livre"
+}

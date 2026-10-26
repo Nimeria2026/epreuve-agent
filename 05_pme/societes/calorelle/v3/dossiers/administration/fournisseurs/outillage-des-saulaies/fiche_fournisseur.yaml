@@ -1,0 +1,8 @@
+# Fiche fournisseur Calorelle. Données FICTIVES.
+nom: "Outillage des Saulaies"
+activite: "outillage"
+adresse: "57 zone d'activité des Grèves, 45999 Valmont-sur-Loire (FICTIF)"
+telephone: "02 61 91 20 40"
+courriel_facturation: "compta@outillage-des-saulaies.example"
+iban: "FR76 9999 9412 3217 0351 9278 865 (FICTIF)"
+conditions: "paiement à 30 jours fin de mois"

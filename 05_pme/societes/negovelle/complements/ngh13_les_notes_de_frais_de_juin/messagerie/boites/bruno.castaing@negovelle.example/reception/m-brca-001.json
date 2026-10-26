@@ -1,0 +1,29 @@
+{
+  "identifiant": "m-brca-001",
+  "de": {
+    "nom": "Fabrice Mercier",
+    "adresse": "fabrice.mercier@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Note de frais de juin",
+  "date": "2026-07-03T17:10:00+02:00",
+  "corps": "Bonjour Bruno,\n\nVoici ma note de frais de juin, 251,18 €, et mes justificatifs. Le déjeuner du 18 juin était avec le gérant d'Électricité Noblet. J'ai remis la nuit du 19 mai à Vendrigny, je ne suis pas sûr de l'avoir comptée.\n\n| Date | Nature | Lieu | Montant TTC | Justificatif |\n|---|---|---|---|---|\n| 3 juin 2026 | repas en tournée | Vendrigny | 17,40 € | oui |\n| 9 juin 2026 | péage | Ardillac | 7,39 € | oui |\n| 18 juin 2026 | repas avec un client, Électricité Noblet | Vendrigny | 58,60 € | oui |\n| 24 juin 2026 | nuit d'hôtel | Ardillac | 96,50 € | oui |\n| 19 mai 2026 | nuit d'hôtel | Vendrigny | 71,29 € | oui |\n\nMerci,\nFabrice",
+  "pieces_jointes": [
+    {
+      "nom": "fabrice.mercier.md",
+      "fichier": "pieces/m-brca-001/fabrice.mercier.md",
+      "taille_octets": 498
+    },
+    {
+      "nom": "justificatifs_fabrice.mercier_2026-06.pdf",
+      "fichier": "pieces/m-brca-001/justificatifs_fabrice.mercier_2026-06.pdf",
+      "taille_octets": 777
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

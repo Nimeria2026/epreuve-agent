@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-003",
+  "de": {
+    "nom": "Jean Grenier",
+    "adresse": "jean.grenier@maconnerie-simonet.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Retour d'articles",
+  "date": "2026-08-03T14:00:00+02:00",
+  "corps": "Bonjour,\n\nNous avons trop commandé : nous vous rapportons 4 boulons VIS-10236 et 5 boîtes de chevilles FIX-10988 de la livraison du 22 juillet, BL-2026-01891, non utilisés.\n\nJean Grenier\nMaçonnerie Simonet",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

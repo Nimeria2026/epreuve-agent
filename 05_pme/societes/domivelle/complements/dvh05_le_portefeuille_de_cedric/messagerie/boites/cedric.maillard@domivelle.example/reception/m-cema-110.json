@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cema-110",
+  "de": {
+    "nom": "Mme Monique Pichon",
+    "adresse": "monique.pichon@boite-postale.example"
+  },
+  "a": [
+    "cedric.maillard@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Mon locataire du c19-04",
+  "date": "2026-06-07T11:15:00+02:00",
+  "corps": "Bonjour,\n\nMme Lesage, ma locataire du c19-04, m'a dit ne plus être assurée. Est-ce exact ? Que pouvons-nous faire ?\n\nMonique Pichon",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

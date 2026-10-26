@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01909",
+  "commande": "CO-2026-02089",
+  "client": "c-0123",
+  "date_expedition": "2026-07-22",
+  "date_livraison": "2026-07-23",
+  "transport": {
+    "mode": "transporteur",
+    "transporteur": "transports-delorme",
+    "recepisse": "TD-412501"
+  },
+  "adresse": "13 avenue de la Gare, 36999 Ardillac (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "QUI-10334",
+      "libelle": "Cadenas acier 60 mm, 2 clés",
+      "quantite": 6
+    },
+    {
+      "reference": "FIX-11453",
+      "libelle": "Crochet en S à visser 80 mm, sachet de 10",
+      "quantite": 10
+    }
+  ],
+  "reserves": "colis 2 sur 2 écrasé : 3 cadenas QUI-10334 cassés",
+  "signataire": "Paul Barre",
+  "statut": "livre"
+}

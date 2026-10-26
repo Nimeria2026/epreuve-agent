@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0300"
+nom: "Julien Girard"
+type: "particulier"
+adresse: "46 chemin des Vignes, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "julien.girard@courriel.example"
+telephone: "06 39 98 50 73"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité Plus"
+  depuis: "2023-09-27"
+  mois_anniversaire: "septembre"
+  derniere_visite: "2026-09-14"

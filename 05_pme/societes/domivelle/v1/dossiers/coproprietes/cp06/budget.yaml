@@ -1,0 +1,17 @@
+# Budget prévisionnel de l'exercice en cours, voté, copropriété cp06. Données FICTIVES.
+copropriete: cp06
+exercice: '2026'
+total: 42 500,00 €
+postes:
+  nettoyage des parties communes: 9 350,00 €
+  espaces verts: 3 400,00 €
+  électricité des parties communes: 3 825,00 €
+  eau: 5 950,00 €
+  assurance de l'immeuble: 4 675,00 €
+  honoraires du syndic: 7 650,00 €
+  entretien et petites réparations: 4 250,00 €
+  ascenseur, contrat et électricité: 3 400,00 €
+repartition:
+  charges générales, aux tantièmes généraux: 39 100,00 €
+  ascenseur, aux tantièmes d'ascenseur: 3 400,00 €
+appel: un quart du budget, exigible le premier jour de chaque trimestre

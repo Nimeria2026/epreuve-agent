@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-805",
+  "de": {
+    "nom": "Thomas Girard",
+    "adresse": "thomas.girard@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Candidature d'Inès Vidal",
+  "date": "2026-11-02T07:30:00+01:00",
+  "corps": "Salut Sonia,\n\nInès Vidal, rencontrée au salon de l'apprentissage, dit avoir envoyé samedi sa candidature sur contact@. Tu peux me la transférer, que je la rappelle ?\n\nThomas (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

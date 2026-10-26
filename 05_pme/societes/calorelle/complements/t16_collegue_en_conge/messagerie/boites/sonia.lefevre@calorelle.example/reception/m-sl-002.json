@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-002",
+  "de": {
+    "nom": "Sandrine Blanchard",
+    "adresse": "sandrine.blanchard@courriel.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Joindre Julie Perrin",
+  "date": "2026-11-10T08:35:00+01:00",
+  "corps": "Bonjour Madame Lefèvre,\n\nJ'essaie de joindre Julie Perrin depuis vendredi au sujet du passage de mon contrat Sérénité en Sérénité Plus, sans réponse. Est-elle absente ? Jusqu'à quand ? Merci de me dire à qui m'adresser.\n\nSandrine Blanchard, 105 rue Haute, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

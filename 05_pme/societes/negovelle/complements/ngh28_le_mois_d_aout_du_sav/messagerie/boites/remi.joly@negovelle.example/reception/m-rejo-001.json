@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-rejo-001",
+  "de": {
+    "nom": "Nathalie Brunet",
+    "adresse": "nathalie.brunet@negovelle.example"
+  },
+  "a": [
+    "remi.joly@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Mes dossiers pendant mon absence",
+  "date": "2026-08-07T17:30:00+02:00",
+  "corps": "Rémi,\n\nJe suis absente à partir de lundi, jusqu'au vendredi 28 août. Je viens de te transférer mes treize dossiers de litige ouverts, que je n'ai pas eu le temps de traiter : tu les reprends jusqu'à mon retour. Laisse-moi, pour le 31 août, le point de ce que tu en as fait.\n\nNathalie",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

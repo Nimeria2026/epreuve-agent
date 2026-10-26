@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-006",
+  "de": {
+    "nom": "Visserie de la Croisette",
+    "adresse": "facturation@visserie-de-la-croisette.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture F70259",
+  "date": "2026-07-02T13:15:00+02:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-jointe notre facture F70259 du 2 juillet 2026, pour votre commande CA-2026-0331 :\n- VIS-10449, Boulon tête hexagonale M8x20, zingué, sachet de 10 : 100 x 10,39 € HT = 1 039,00 €\n- VIS-12637, Vis à bois tête fraisée 4x80, zinguée, boîte de 500 : 120 x 9,48 € HT = 1 137,60 €\n\nTotal HT : 2 176,60 € ; TVA 20 % : 435,32 € ; total TTC : 2 611,92 €. Paiement à 60 jours date de facture.\n\nService facturation\nVisserie de la Croisette",
+  "pieces_jointes": [
+    {
+      "nom": "F70259.pdf",
+      "fichier": "pieces/m-cpt-006/F70259.pdf",
+      "taille_octets": 800
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-007",
+  "de": {
+    "nom": "Monique Garnier",
+    "adresse": "monique.garnier@courriel.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Ascenseur en panne",
+  "date": "2026-06-08T07:52:00+02:00",
+  "corps": "Bonjour,\n\nL'ascenseur de la Résidence Le Moulin Neuf est en panne depuis ce matin, bloqué au 3e étage.\n\nMonique Garnier, lot 4",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

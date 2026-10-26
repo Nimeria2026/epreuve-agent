@@ -1,0 +1,44 @@
+{
+  "numero": "BL-2026-01678",
+  "commande": "CO-2026-01829",
+  "client": "c-0199",
+  "date_expedition": "2026-06-23",
+  "date_livraison": "2026-06-24",
+  "transport": {
+    "mode": "transporteur",
+    "transporteur": "transports-delorme",
+    "recepisse": "TD-511844"
+  },
+  "adresse": "7 parc d'activités de la Gare, 36999 Fontclavier (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "CON-11494",
+      "libelle": "Mousse polyuréthane expansive manuelle, 500 ml",
+      "quantite": 5
+    },
+    {
+      "reference": "CON-11943",
+      "libelle": "Ruban adhésif PVC 25 mm, rouleau de 50 m",
+      "quantite": 6
+    },
+    {
+      "reference": "ELE-10196",
+      "libelle": "Ampoule LED G9 6 W, 2700 K",
+      "quantite": 50
+    },
+    {
+      "reference": "PLB-12319",
+      "libelle": "Raccord à sertir réduction 20 mm",
+      "quantite": 10
+    },
+    {
+      "reference": "VIS-13217",
+      "libelle": "Vis à bois tête fraisée 6x25, inox A2, boîte de 100",
+      "quantite": 1
+    }
+  ],
+  "reserves": null,
+  "signataire": "Sylvain Lacour",
+  "statut": "livre"
+}

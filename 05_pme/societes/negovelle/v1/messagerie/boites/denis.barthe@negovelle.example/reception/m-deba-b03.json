@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-deba-b03",
+  "de": {
+    "nom": "Visserie de la Croisette",
+    "adresse": "commandes@visserie-de-la-croisette.example"
+  },
+  "a": [
+    "denis.barthe@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Fermeture estivale",
+  "date": "2026-06-25T13:00:00+02:00",
+  "corps": "Bonjour,\n\nNos bureaux seront fermés du 10 au 21 août.\n\nVisserie de la Croisette",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

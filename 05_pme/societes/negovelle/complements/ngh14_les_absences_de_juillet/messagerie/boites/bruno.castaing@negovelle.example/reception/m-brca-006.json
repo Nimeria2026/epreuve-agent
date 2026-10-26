@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-006",
+  "de": {
+    "nom": "Banque du Val d'Indre, service des crédits",
+    "adresse": "credits@banque-du-val-d-indre.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Demande de prêt de M. Laurent Gimenez",
+  "date": "2026-07-03T16:20:00+02:00",
+  "corps": "Monsieur,\n\nDans le cadre d'une demande de prêt immobilier de M. Laurent Gimenez, votre salarié, merci de nous transmettre une copie de son contrat de travail et de nous confirmer son salaire mensuel net.\n\nService des crédits\nBanque du Val d'Indre",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

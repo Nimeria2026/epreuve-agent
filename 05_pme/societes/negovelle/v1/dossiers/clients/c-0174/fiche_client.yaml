@@ -1,0 +1,31 @@
+# Fiche du client c-0174 de Négovelle. Données FICTIVES.
+code: c-0174
+nom: Bruneau Rénovation
+type: entreprise
+adresse: 9 zone artisanale du Moulin, 36999 Brissonne (FICTIF)
+telephone: 02 61 91 93 05
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Geneviève Bellanger
+  fonction: conductrice de travaux
+  courriel: genevieve.bellanger@bruneau-renovation.example
+- nom: Étienne Forestier
+  fonction: responsable des achats
+  courriel: etienne.forestier@bruneau-renovation.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 9 zone artisanale du Moulin, 36999 Brissonne (FICTIF)
+- code: L2
+  libelle: dépôt
+  adresse: 34 zone industrielle des Brandes, 36999 Saulvenne (FICTIF)
+categorie_remise: B
+delai_paiement: comptant
+client_depuis: '2026-04-06'
+limite_encours_euros: 26500.0
+livraisons_partielles: false
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

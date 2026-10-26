@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-laga-002",
+  "de": {
+    "nom": "Jacqueline Granger",
+    "adresse": "jacqueline.granger@menuiserie-delaunay.example"
+  },
+  "a": [
+    "laetitia.garnier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande express",
+  "date": "2026-08-10T07:40:00+02:00",
+  "corps": "Bonjour,\n\nCommande urgente, en express, pour demain sur notre chantier déclaré :\n\n- 12 x QUI-10881, Charnière invisible 80 mm, laiton\n- 4 x FIX-11616, Goujon d'ancrage M16x100, boîte de 50\n\nMerci de nous confirmer ce matin.\n\nJacqueline Granger\nMenuiserie Delaunay",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

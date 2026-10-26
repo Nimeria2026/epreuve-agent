@@ -1,0 +1,14 @@
+{
+  "numero": "INT-2026-0040",
+  "client": "c-0117",
+  "techniciens": [
+    "nicolas.blanc",
+    "kevin.lambert"
+  ],
+  "debut": "2027-01-12T08:00:00+01:00",
+  "fin": "2027-01-12T17:30:00+01:00",
+  "nature": "installation",
+  "objet": "Pose de la pompe à chaleur air-eau (DV-2026-006)",
+  "statut": "planifiee",
+  "cree_par": "marc.duval"
+}

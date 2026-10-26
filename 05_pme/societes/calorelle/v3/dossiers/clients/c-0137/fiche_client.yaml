@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0137"
+nom: "Pierre Legrand"
+type: "particulier"
+adresse: "60 allée des Peupliers, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "pierre.legrand@courriel.example"
+telephone: "06 39 98 50 37"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2021-10-07"
+  mois_anniversaire: "octobre"
+  derniere_visite: "2026-10-15"

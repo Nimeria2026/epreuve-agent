@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-gafo-b02",
+  "de": {
+    "nom": "Mme Sylvie Rey",
+    "adresse": "sylvie.rey@boite-postale.example"
+  },
+  "a": [
+    "gaelle.fournel@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Appel de fonds",
+  "date": "2026-05-24T08:13:00+02:00",
+  "corps": "Bonjour,\n\nJ'ai bien reçu l'appel de fonds du trimestre ; le virement est parti.\n\nMme Sylvie Rey",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-maca-604",
+  "de": {
+    "nom": "Mélanie Sabatier",
+    "adresse": "melanie.sabatier@domivelle.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Infiltration au parking",
+  "date": "2026-08-31T11:05:00+02:00",
+  "corps": "Maëlle,\n\nUne infiltration au parking du Parc Saint-Martin (cp27), à déclarer à l'assureur de l'immeuble, la Mutuelle des Deux-Rives je crois. Le courriel de M. Bazin suit.\n\nMélanie\n\n----- Message transféré -----\nDe : Dominique Bazin <dominique.bazin@boite-postale.example>\nDate : 19 août 2026\nObjet : Infiltration au parking\n\nBonjour,\n\nDepuis les orages de la semaine dernière, l'eau s'infiltre par le plafond du parking souterrain du Parc Saint-Martin, au-dessus de la place 12. Pouvez-vous faire le nécessaire ?\n\nDominique Bazin, lot 1",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,25 @@
+# Fiche du client c-0084 de Négovelle. Données FICTIVES.
+code: c-0084
+nom: Chauffage Genet
+type: artisan
+adresse: 93 rue du Four, 36999 Mérolles-en-Brenne (FICTIF)
+telephone: 02 61 91 72 14
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Brigitte Chevrier
+  fonction: gérante
+  courriel: brigitte.chevrier@chauffage-genet.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 93 rue du Four, 36999 Mérolles-en-Brenne (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2022-03-01'
+limite_encours_euros: 4000.0
+livraisons_partielles: true
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

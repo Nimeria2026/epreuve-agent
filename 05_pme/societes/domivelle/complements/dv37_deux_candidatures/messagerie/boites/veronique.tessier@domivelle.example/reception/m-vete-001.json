@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-vete-001",
+  "de": {
+    "nom": "Nadège Lebrun",
+    "adresse": "nadege.lebrun@domivelle.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Candidature, chargée de location",
+  "date": "2026-06-08T08:04:00+02:00",
+  "corps": "Véronique, une candidature arrivée sur contact@.\n\nNadège\n\n----- Message transféré -----\nDe : Manon Leclerc <manon.leclerc@courriel.example>\nObjet : Candidature, chargée de location\n\nMadame, Monsieur,\n\nJe vous adresse ma candidature à un poste de chargée de location. Mon CV est joint.\n\nManon Leclerc",
+  "pieces_jointes": [
+    {
+      "nom": "cv_manon_leclerc.pdf",
+      "fichier": "pieces/m-vete-001/cv_manon_leclerc.pdf",
+      "taille_octets": 758
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

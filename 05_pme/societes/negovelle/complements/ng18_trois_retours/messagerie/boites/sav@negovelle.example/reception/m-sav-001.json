@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-001",
+  "de": {
+    "nom": "Alice Barbe",
+    "adresse": "alice.barbe@guyot-travaux-publics.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Retour de clés mixtes",
+  "date": "2026-07-03T10:12:00+02:00",
+  "corps": "Bonjour,\n\nNous avons commandé trop de clés mixtes de 26 mm (OUT-10440) sur la livraison BL-2026-01720 du 26 juin. Nous vous en avons rapporté 5 ce matin au comptoir, jamais utilisées, dans leur emballage d'origine. Merci de nous les reprendre.\n\nAlice Barbe\nGuyot Travaux publics",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

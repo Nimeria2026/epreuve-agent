@@ -1,0 +1,48 @@
+{
+  "numero": "CO-2026-02045",
+  "client": "c-0117",
+  "reference_client": null,
+  "cree_le": "2026-07-27T09:30:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "32 parc d'activités de la Gare, 36999 Vendrigny (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-11796",
+      "libelle": "Détecteur de fumée autonome",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 16.7,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 16.7,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 167.0
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 182.0,
+  "total_tva_euros": 36.4,
+  "total_ttc_euros": 218.4,
+  "statut": "en_attente_deblocage",
+  "motif_attente": "encours dépassé : encours 14 457,52 € et commande 218,40 € TTC pour une limite de 14 500,00 €",
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-27T09:30:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": "commande du client"
+    },
+    {
+      "date": "2026-07-27T09:31:00+02:00",
+      "par": "benoit.faure",
+      "action": "mise_en_attente",
+      "detail": "encours dépassé"
+    }
+  ]
+}

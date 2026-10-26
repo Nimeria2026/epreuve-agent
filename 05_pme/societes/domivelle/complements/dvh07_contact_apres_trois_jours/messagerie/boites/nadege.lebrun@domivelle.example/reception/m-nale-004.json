@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-nale-004",
+  "de": {
+    "nom": "Répondeur de l'agence",
+    "adresse": "repondeur@domivelle.example"
+  },
+  "a": [
+    "nadege.lebrun@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Messages du week-end",
+  "date": "2026-06-08T07:30:00+02:00",
+  "corps": "Six messages laissés sur le répondeur de l'agence :\n\n1. Samedi 6 juin, 10 h 14 : « Bonjour, ici Mme Marechal, au T1 du 41 rue Jean-Jaurès à Saint-Aubrin. Le volet roulant de ma chambre est bloqué fermé. »\n2. Samedi 6 juin, 11 h 40 : « Manon Perrot, propriétaire à Vernillac. Je voudrais le détail des frais déduits de mon reversement de mai. »\n3. Samedi 6 juin, 15 h 02 : « Bonjour, agence Pixelia, nous refaisons les sites des administrateurs de biens, rappelez-nous. »\n4. Dimanche 7 juin, 9 h 20 : « Laurent Gauthier, président du conseil syndical des Peupliers : l'ascenseur est bloqué au rez-de-chaussée depuis hier. »\n5. Dimanche 7 juin, 18 h 05 : « Fabrice Bonnet, locataire à Chantebrune, 130 rue Émile-Zola. Mon loyer sera-t-il révisé en juillet ? »\n6. Dimanche 7 juin, 19 h 30 : « Odile Bigot, du conseil syndical du Square des Écoles : si l'assemblée a lieu le 30 juin, je ne pourrai pas venir. »",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

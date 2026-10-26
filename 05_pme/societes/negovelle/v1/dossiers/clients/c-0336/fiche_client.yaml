@@ -1,0 +1,28 @@
+# Fiche du client c-0336 de Négovelle. Données FICTIVES.
+code: c-0336
+nom: Garage Noblet
+type: pme
+adresse: 11 zone artisanale du Moulin, 36999 Laubrissac (FICTIF)
+telephone: 02 61 91 70 22
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Joël Thiery
+  fonction: responsable des achats
+  courriel: joel.thiery@garage-noblet.example
+- nom: Julie Langlais
+  fonction: responsable de maintenance
+  courriel: julie.langlais@garage-noblet.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 11 zone artisanale du Moulin, 36999 Laubrissac (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2023-03-01'
+limite_encours_euros: 7000.0
+livraisons_partielles: false
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-304",
+  "de": {
+    "nom": "Mairie de Sablonnet",
+    "adresse": "marches@mairie-de-sablonnet.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Avis d'appel public à la concurrence : entretien des chaufferies des écoles",
+  "date": "2026-11-02T07:21:00+01:00",
+  "corps": "Madame, Monsieur,\n\nLa commune de Sablonnet lance une consultation pour l'entretien des chaufferies de ses trois écoles (2027-2029). Le dossier de consultation est disponible sur demande ; remise des offres le 4 décembre 2026.\n\nService des marchés publics, Mairie de Sablonnet (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-615",
+  "de": {
+    "nom": "Syndic de la Résidence du Pré-Bouvreuil",
+    "adresse": "contact@syndic-de-la-residence-du-pre-bouvreuil-411.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Votre devis DV-2026-014",
+  "date": "2026-11-23T08:50:00+01:00",
+  "corps": "Bonjour Monsieur Benali,\n\nNous avons bien reçu votre devis DV-2026-014 pour la chaudière de la loge du gardien. Le conseil syndical est prêt à le signer si vous nous accordez une remise de 5 %, comme le fait notre autre prestataire.\n\nCordialement,\nLe syndic de la Résidence du Pré-Bouvreuil, 87 avenue des Tilleuls, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

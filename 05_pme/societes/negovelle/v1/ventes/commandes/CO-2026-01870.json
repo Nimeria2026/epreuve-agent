@@ -1,0 +1,123 @@
+{
+  "numero": "CO-2026-01870",
+  "client": "c-0094",
+  "reference_client": "BC-6492",
+  "cree_le": "2026-06-25T09:10:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "31 zone industrielle des Brandes, 36999 Ardillac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-12180",
+      "libelle": "Goulotte 60x16 mm, barre de 2 m",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 3.65,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 3.36,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 13.44
+    },
+    {
+      "reference": "ELE-12989",
+      "libelle": "Rallonge électrique de chantier IP44 5 m",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 72.1,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 66.33,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 331.65
+    },
+    {
+      "reference": "PLB-10506",
+      "libelle": "Collier de fixation tube 16 mm, sachet de 25",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 4.1,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 4.1,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 24.6
+    },
+    {
+      "reference": "PLB-10547",
+      "libelle": "Collier de fixation tube 22 mm, sachet de 25",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 6.35,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 5.84,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 11.68
+    },
+    {
+      "reference": "PLB-12637",
+      "libelle": "Réduction PVC 40x32 mm",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 4.0,
+      "remise_pourcent": 9.84,
+      "prix_net_ht_euros": 3.61,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 43.32
+    },
+    {
+      "reference": "QUI-11568",
+      "libelle": "Cylindre européen 40x35 mm, 3 clés",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 39.05,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 35.93,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 71.86
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 496.55,
+  "total_tva_euros": 99.31,
+  "total_ttc_euros": 595.86,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01719"
+  ],
+  "facture": "FC-2026-1085",
+  "historique": [
+    {
+      "date": "2026-06-25T09:10:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-25T09:12:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-26T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01719"
+    },
+    {
+      "date": "2026-06-26T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01719"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1085"
+    }
+  ]
+}

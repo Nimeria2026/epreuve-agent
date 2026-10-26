@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-elch-612",
+  "de": {
+    "nom": "Pascale Renaud",
+    "adresse": "pascale.renaud@domivelle.example"
+  },
+  "a": [
+    "elodie.chauvin@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Révisions d'octobre du nord",
+  "date": "2026-10-01T09:00:00+02:00",
+  "corps": "Élodie,\n\nComme chaque mois, les révisions de loyer de ton secteur pour octobre : n09-17 le 15, n06-05 le 19, n24-03 le 27. Envoie-moi les nouveaux loyers quand tu les auras écrits.\n\nPascale",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

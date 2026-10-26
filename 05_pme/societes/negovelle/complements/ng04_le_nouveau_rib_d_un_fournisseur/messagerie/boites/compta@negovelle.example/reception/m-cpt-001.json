@@ -1,0 +1,29 @@
+{
+  "identifiant": "m-cpt-001",
+  "de": {
+    "nom": "Service comptable, Fixations des Tilleuls",
+    "adresse": "comptabilite@fixations-des-tilleul.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Changement de coordonnées bancaires et facture F-2026-0741",
+  "date": "2026-07-06T07:04:00+02:00",
+  "corps": "Bonjour,\n\nSuite au changement de notre établissement bancaire, merci de noter nos nouvelles coordonnées (RIB ci-joint) et de régler dès aujourd'hui sur ce compte notre facture F-2026-0741 de 3 412,80 € TTC, échue. L'ancien compte est clôturé.\n\nMerci de nous confirmer la prise en compte par retour de courriel : notre standard est en travaux cette semaine.\n\nCordialement,\nLe service comptable\nFixations des Tilleuls",
+  "pieces_jointes": [
+    {
+      "nom": "rib_fixations_des_tilleuls.pdf",
+      "fichier": "pieces/m-cpt-001/rib_fixations_des_tilleuls.pdf",
+      "taille_octets": 796
+    },
+    {
+      "nom": "F-2026-0741.pdf",
+      "fichier": "pieces/m-cpt-001/F-2026-0741.pdf",
+      "taille_octets": 789
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

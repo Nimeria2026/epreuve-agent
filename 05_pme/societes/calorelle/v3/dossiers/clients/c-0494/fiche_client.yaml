@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0494"
+nom: "Établissements Blanchard"
+type: "entreprise"
+adresse: "59 allée des Peupliers, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "contact@etablissements-blanchard-494.example"
+telephone: "02 61 91 36 18"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2022-09-25"
+  mois_anniversaire: "septembre"
+  derniere_visite: "2026-09-19"

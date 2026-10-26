@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-004",
+  "de": {
+    "nom": "Inès Durieux",
+    "adresse": "ines.durieux@chevrier-maintenance.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Prix des flexibles",
+  "date": "2026-07-06T06:42:00+02:00",
+  "corps": "Bonjour,\n\nQuel est notre prix pour 30 flexibles PLB-11143, et pour 30 PLB-11078 ?\n\nMerci,\nInès Durieux\nChevrier Maintenance",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

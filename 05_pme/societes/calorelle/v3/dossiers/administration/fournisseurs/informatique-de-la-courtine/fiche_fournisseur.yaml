@@ -1,0 +1,8 @@
+# Fiche fournisseur Calorelle. Données FICTIVES.
+nom: "Informatique de la Courtine"
+activite: "informatique"
+adresse: "84 zone d'activité des Saulaies, 45999 Valmont-sur-Loire (FICTIF)"
+telephone: "02 61 91 20 35"
+courriel_facturation: "compta@informatique-de-la-courtine.example"
+iban: "FR76 9999 9115 6900 8284 5195 707 (FICTIF)"
+conditions: "paiement à 30 jours fin de mois"

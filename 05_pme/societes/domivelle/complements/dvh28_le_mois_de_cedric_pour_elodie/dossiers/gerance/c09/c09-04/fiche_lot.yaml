@@ -1,0 +1,19 @@
+# Fiche du lot c09-04. Données FICTIVES.
+lot: c09-04
+adresse: 50 rue des Forges, 18999 Montclavel-sur-Cher (FICTIF)
+type: maison T4
+surface_m2: 96
+locataire:
+  nom: M. Louis Camus
+  courriel: louis.camus@mel-perso.example
+  telephone: 06 39 98 77 26
+  entree: '2012-10-10'
+bail:
+  signature: '2012-10-10'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 974,00 €
+  depot_de_garantie: 735,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T2
+dpe:
+  classe: E

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-aubo-019",
+  "de": {
+    "nom": "Bruno Castaing",
+    "adresse": "bruno.castaing@negovelle.example"
+  },
+  "a": [
+    "aurelie.bonnefoy@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Ta note de frais de juin",
+  "date": "2026-07-07T18:05:00+02:00",
+  "corps": "Aurélie,\n\nTa note de juin est visée, réglée avec la paie de juillet. Retenu, ligne par ligne :\n- 4 juin, repas en tournée, Saulvenne : 15,90 €\n- 11 juin, péage, Fontclavier : 9,60 €\n- 17 juin, nuit d'hôtel, Vendrigny : 82,00 €\n- 30 juin, repas en tournée, Corvalet : 17,90 €\n\nTotal : 125,40 €.\n\nBruno",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

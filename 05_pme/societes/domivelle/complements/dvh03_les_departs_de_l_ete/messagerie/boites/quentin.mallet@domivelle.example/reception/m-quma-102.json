@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-quma-102",
+  "de": {
+    "nom": "Cédric Maillard",
+    "adresse": "cedric.maillard@domivelle.example"
+  },
+  "a": [
+    "quentin.mallet@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Fin de bail, lot c20-09",
+  "date": "2026-04-15T11:30:00+02:00",
+  "corps": "Bonjour Quentin,\n\nCongé reçu le mardi 14 avril pour le lot c20-09, Mme Josiane Joly, préavis de trois mois : fin du bail le mardi 14 juillet 2026. Pour l'état des lieux de sortie.\n\nCédric",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

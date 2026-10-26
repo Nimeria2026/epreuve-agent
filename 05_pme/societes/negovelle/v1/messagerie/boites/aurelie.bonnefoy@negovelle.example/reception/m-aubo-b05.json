@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-aubo-b05",
+  "de": {
+    "nom": "Anne Cosson",
+    "adresse": "anne.cosson@menuiserie-herve.example"
+  },
+  "a": [
+    "aurelie.bonnefoy@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande reçue, merci",
+  "date": "2026-06-23T12:27:00+02:00",
+  "corps": "Bonjour,\n\nLa livraison de ce matin est complète. Merci.\n\nAnne Cosson",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

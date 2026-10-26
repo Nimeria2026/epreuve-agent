@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-014",
+  "de": {
+    "nom": "Lucie Boutin",
+    "adresse": "lucie.boutin@chauffage-simonet.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Question sur une facture",
+  "date": "2026-07-25T10:30:00+02:00",
+  "corps": "Bonjour,\n\nNotre facture de juin compte un port de 15 € alors que la commande dépassait 300 € HT. Pouvez-vous vérifier ?\n\nLucie Boutin\nChauffage Simonet",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,59 @@
+{
+  "numero": "BL-2026-01681",
+  "commande": "CO-2026-01832",
+  "client": "c-0237",
+  "date_expedition": "2026-06-24",
+  "date_livraison": "2026-06-24",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "111 rue du Four, 36999 Vendrigny (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "ELE-10596",
+      "libelle": "Boîte de dérivation à embouts 220 mm",
+      "quantite": 6
+    },
+    {
+      "reference": "ELP-10604",
+      "libelle": "Foret béton SDS-plus 12x310 mm",
+      "quantite": 5
+    },
+    {
+      "reference": "FIX-11592",
+      "libelle": "Goujon d'ancrage M12x90, boîte de 25",
+      "quantite": 6
+    },
+    {
+      "reference": "PLB-10302",
+      "libelle": "Chauffe-eau électrique 300 l, vertical mural",
+      "quantite": 5
+    },
+    {
+      "reference": "PLB-12066",
+      "libelle": "Raccord laiton réduction mâle-femelle 15x21",
+      "quantite": 50
+    },
+    {
+      "reference": "PRO-11535",
+      "libelle": "Pantalon de travail haute visibilité orange, taille 52",
+      "quantite": 5
+    },
+    {
+      "reference": "QUI-12311",
+      "libelle": "Paumelle 60 mm, laiton, sachet de 2",
+      "quantite": 12
+    },
+    {
+      "reference": "QUI-13487",
+      "libelle": "Équerre d'assemblage 60 mm, zinguée, sachet de 10",
+      "quantite": 2
+    }
+  ],
+  "reserves": null,
+  "signataire": "Michel Clerc",
+  "statut": "livre"
+}

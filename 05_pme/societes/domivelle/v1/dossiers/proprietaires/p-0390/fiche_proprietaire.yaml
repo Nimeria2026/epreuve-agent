@@ -1,0 +1,12 @@
+# Fiche du propriétaire p-0390, mandant de Domivelle. Données FICTIVES.
+code: p-0390
+nom: Mme Béatrice Muller
+adresse: 32 rue du Pont, 18999 Saint-Aubrin-des-Bois (FICTIF)
+courriel: beatrice.muller@courriel.example
+telephone: 06 39 98 64 04
+iban: FR76 9999 9936 4238 3066 7117 715 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- n21-18
+- n25-21
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

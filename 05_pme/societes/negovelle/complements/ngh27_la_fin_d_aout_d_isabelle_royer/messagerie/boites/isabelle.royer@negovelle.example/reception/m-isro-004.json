@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-isro-004",
+  "de": {
+    "nom": "Bruno Castaing",
+    "adresse": "bruno.castaing@negovelle.example"
+  },
+  "a": [
+    "isabelle.royer@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "RE: Carrelage Grondin",
+  "date": "2026-08-24T15:20:00+02:00",
+  "corps": "Isabelle,\n\nNon. Carrelage Grondin est bloqué pour impayé : un client bloqué ne reçoit ni commande validée ni livraison, et je n'ai donné aucun accord, ni au téléphone ni par écrit. Rien ne part tant que le compte n'est pas réglé ; il reste suivi par toi.\n\nBruno",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

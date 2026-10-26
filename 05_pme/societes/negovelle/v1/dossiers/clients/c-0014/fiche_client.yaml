@@ -1,0 +1,31 @@
+# Fiche du client c-0014 de Négovelle. Données FICTIVES.
+code: c-0014
+nom: Gay Maintenance
+type: entreprise
+adresse: 22 zone d'activités des Grands Prés, 36999 Vendrigny (FICTIF)
+telephone: 02 61 91 68 87
+secteur: est
+commercial: fabrice.mercier
+administration_des_ventes: benoit.faure
+contacts:
+- nom: Roger Pinson
+  fonction: conducteur de travaux
+  courriel: roger.pinson@gay-maintenance.example
+- nom: Lucie Bruneau
+  fonction: responsable des achats
+  courriel: lucie.bruneau@gay-maintenance.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 22 zone d'activités des Grands Prés, 36999 Vendrigny (FICTIF)
+- code: L2
+  libelle: dépôt
+  adresse: 35 zone industrielle des Brandes, 36999 Corvalet (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2011-11-01'
+limite_encours_euros: 5500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

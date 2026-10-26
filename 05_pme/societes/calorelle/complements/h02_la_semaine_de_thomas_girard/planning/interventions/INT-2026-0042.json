@@ -1,0 +1,14 @@
+{
+  "numero": "INT-2026-0042",
+  "client": "c-0307",
+  "techniciens": [
+    "thomas.girard",
+    "enzo.caron"
+  ],
+  "debut": "2026-11-12T13:30:00+01:00",
+  "fin": "2026-11-12T15:00:00+01:00",
+  "nature": "visite_annuelle",
+  "objet": "Visite annuelle de la chaudière gaz, reportée du 9 novembre",
+  "statut": "planifiee",
+  "cree_par": "marc.duval"
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-008",
+  "de": {
+    "nom": "M. Patrice Gaillard",
+    "adresse": "patrice.gaillard@courriel.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Reversement de mai",
+  "date": "2026-06-08T08:03:00+02:00",
+  "corps": "Bonjour,\n\nJe ne retrouve pas le reversement du 10 mai sur mon compte. Pouvez-vous vérifier ?\n\nPatrice Gaillard",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-laga-008",
+  "de": {
+    "nom": "Corinne Vidal",
+    "adresse": "corinne.vidal@negovelle.example"
+  },
+  "a": [
+    "laetitia.garnier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Commande de robinetterie",
+  "date": "2026-08-10T07:38:00+02:00",
+  "corps": "Lætitia,\n\nManon étant absente jusqu'au 21, je te transfère sa commande du nord, arrivée dans commandes@.\n\nCorinne\n\n----- Message transféré -----\nDe : Maxime Combes <maxime.combes@auger-maintenance.example>\nDate : 7 août 2026, 10 h 15\nObjet : Commande de robinetterie\n\nBonjour,\n\nNotre commande :\n\n- 20 x PLB-12466, Robinet d'arrêt à boisseau sphérique 15x21\n- 10 x PLB-10400, Clapet anti-retour à battant 26x34\n\nLivraison standard au siège.\n\nCordialement,\n\nMaxime Combes\nAuger Maintenance",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

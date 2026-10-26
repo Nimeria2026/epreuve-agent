@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-705",
+  "de": {
+    "nom": "Camille Martin",
+    "adresse": "camille.martin@courriel.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Ma visite d'entretien",
+  "date": "2026-11-28T10:12:00+01:00",
+  "corps": "Bonjour Monsieur Duval,\n\nMon contrat d'entretien date de novembre, et personne n'est encore venu pour la visite de cette année. Pouvez-vous me dire quand vous passerez ?\n\nCamille Martin\n78 chemin des Vignes, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

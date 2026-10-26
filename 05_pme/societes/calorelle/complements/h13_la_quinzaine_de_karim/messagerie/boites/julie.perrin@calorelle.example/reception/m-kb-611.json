@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-611",
+  "de": {
+    "nom": "Syndic de la Résidence des Saulaies",
+    "adresse": "contact@syndic-de-la-residence-des-saulaies-106.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis pour une résidence de Vierzon",
+  "date": "2026-11-23T08:05:00+01:00",
+  "corps": "Bonjour Monsieur Benali,\n\nNotre cabinet gère aussi la Résidence du Parc, 4 rue de l'Yèvre, 18999 Vierzon-les-Prés, dans le Cher. Sa chaudière collective est à remplacer : pourriez-vous passer et nous faire un devis ?\n\nCordialement,\nLe syndic de la Résidence des Saulaies, 89 rue du Moulin, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

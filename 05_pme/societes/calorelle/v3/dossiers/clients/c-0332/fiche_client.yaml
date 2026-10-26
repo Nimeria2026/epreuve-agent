@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0332"
+nom: "Commune des Grèves"
+type: "collectivite"
+adresse: "7 rue de la Loire, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "contact@commune-des-greves-332.example"
+telephone: "02 61 91 35 79"
+charge_d_affaires: "karim.benali"
+contrat:
+  formule: "Sérénité"
+  depuis: "2025-03-17"
+  mois_anniversaire: "mars"
+  derniere_visite: "2026-03-08"

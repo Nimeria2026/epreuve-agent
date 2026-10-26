@@ -1,0 +1,8 @@
+# Fiche fournisseur Calorelle. Données FICTIVES.
+nom: "Transports du Pré-Bouvreuil"
+activite: "transports"
+adresse: "28 zone d'activité du Clos-Fargeau, 45999 Valmont-sur-Loire (FICTIF)"
+telephone: "02 61 91 20 31"
+courriel_facturation: "compta@transports-du-pre-bouvreuil.example"
+iban: "FR76 9999 9806 2867 8779 8336 576 (FICTIF)"
+conditions: "paiement à 30 jours fin de mois"

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-isro-017",
+  "de": {
+    "nom": "Monique Valentin",
+    "adresse": "monique.valentin@platrerie-martineau.example"
+  },
+  "a": [
+    "isabelle.royer@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Le geste annoncé",
+  "date": "2026-08-28T10:10:00+02:00",
+  "corps": "Bonjour,\n\nMme Bonnefoy nous a annoncé un geste de 10 % pour notre livraison en retard du 14 août. Comment apparaîtra-t-il ?\n\nMonique Valentin\nPlâtrerie Martineau",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

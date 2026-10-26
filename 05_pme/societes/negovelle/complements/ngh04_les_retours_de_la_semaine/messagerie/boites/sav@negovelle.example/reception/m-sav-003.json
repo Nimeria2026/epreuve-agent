@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-003",
+  "de": {
+    "nom": "Roger Boutin",
+    "adresse": "roger.boutin@electricite-rouxel.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Erreur sur nos hublots",
+  "date": "2026-07-02T16:05:00+02:00",
+  "corps": "Bonjour,\n\nSur le bon BL-2026-01763 du 29 juin, nous avions commandé 5 hublots étanches LED 8 W et nous avons reçu 5 hublots ronds, qui ne sont pas étanches. Votre chauffeur les reprend demain. Nous avons trouvé les étanches ailleurs : merci de nous faire un avoir.\n\nRoger Boutin\nÉlectricité Rouxel",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

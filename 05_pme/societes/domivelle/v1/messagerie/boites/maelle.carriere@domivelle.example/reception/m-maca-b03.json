@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-maca-b03",
+  "de": {
+    "nom": "Serrurerie de la Motte-Brûlée",
+    "adresse": "contact@serrurerie-de-la-motte-brulee.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Intervention terminée",
+  "date": "2026-05-27T13:17:00+02:00",
+  "corps": "Bonjour,\n\nL'intervention prévue est terminée ; la facture suivra.\n\nSerrurerie de la Motte-Brûlée",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

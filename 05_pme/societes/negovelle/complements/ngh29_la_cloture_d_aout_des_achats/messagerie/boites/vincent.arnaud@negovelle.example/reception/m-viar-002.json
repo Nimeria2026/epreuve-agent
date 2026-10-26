@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-viar-002",
+  "de": {
+    "nom": "Chantal Robin",
+    "adresse": "chantal.robin@negovelle.example"
+  },
+  "a": [
+    "vincent.arnaud@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Offre de Abrasifs et colles des Hautes-Bornes",
+  "date": "2026-08-06T09:15:00+02:00",
+  "corps": "Vincent, une offre de fournisseur pour toi.\n\nChantal\n\n----- Message transféré -----\nDe : Gérard Lebon <gerard.lebon@abrasifs-et-colles-des-hautes-bornes.example>\nDate : 2026-08-06T08:30:00+02:00\nObjet : Offre de rentrée\n\nBonjour,\n\nNotre tarif 2027 entrera en vigueur le 1er janvier 2027, avec une hausse moyenne de 3,5 % ; les commandes passées avant le 31 décembre restent au tarif actuel. Le nouveau catalogue suit en octobre.\n\nBien cordialement,\nGérard Lebon\nAbrasifs et colles des Hautes-Bornes",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

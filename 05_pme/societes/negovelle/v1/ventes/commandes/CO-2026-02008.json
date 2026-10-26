@@ -1,0 +1,73 @@
+{
+  "numero": "CO-2026-02008",
+  "client": "c-0241",
+  "reference_client": null,
+  "cree_le": "2026-07-02T09:10:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "express",
+  "livraison": {
+    "code": "L1",
+    "adresse": "72 impasse des Noyers, 36999 Brissonne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "PLB-11322",
+      "libelle": "Groupe de sécurité inox 20x27",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 19.2,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 19.2,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 19.2
+    },
+    {
+      "reference": "PLB-11951",
+      "libelle": "Pâte à joint pour filetage, pot de 500 g",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 5.7,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 5.7,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 17.1
+    }
+  ],
+  "port_ht_euros": 25.0,
+  "total_ht_euros": 61.3,
+  "total_tva_euros": 12.26,
+  "total_ttc_euros": 73.56,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01857"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-02T09:10:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-02T09:12:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-02T16:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01857"
+    },
+    {
+      "date": "2026-07-03T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01857"
+    }
+  ]
+}

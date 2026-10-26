@@ -1,0 +1,349 @@
+# Registre des lots en gestion, n22. Données FICTIVES.
+immeuble: n22
+nature: immeuble collectif
+adresse: 111 place du Marché, 18999 Vernillac (FICTIF)
+secteur: nord
+gestionnaire: Élodie Chauvin
+distance_agence_km: 9
+annee_construction: 1961
+gardien: false
+copropriete_du_syndic: null
+lots:
+- lot: n22-01
+  type: T2
+  surface_m2: 43
+  etage: 0
+  proprietaire: p-0392
+  locataire: M. Antoine Delorme
+  entree: '2019-08-27'
+  loyer_hors_charges: 362,00 €
+  provision_sur_charges: 30,00 €
+  depot_de_garantie: 315,00 €
+  revision: chaque 27 août
+  trimestre_irl: T2
+  dpe: D
+- lot: n22-02
+  type: T2
+  surface_m2: 49
+  etage: 0
+  proprietaire: p-0393
+  locataire: M. Pascal Raymond
+  entree: '2014-11-03'
+  loyer_hors_charges: 458,00 €
+  provision_sur_charges: 36,00 €
+  depot_de_garantie: 359,00 €
+  revision: chaque 3 novembre
+  trimestre_irl: T3
+  dpe: E
+- lot: n22-03
+  type: T2
+  surface_m2: 46
+  etage: 0
+  proprietaire: p-0394
+  locataire: M. Hugo Faure
+  entree: '2013-12-10'
+  loyer_hors_charges: 391,00 €
+  provision_sur_charges: 34,00 €
+  depot_de_garantie: 301,00 €
+  revision: chaque 10 décembre
+  trimestre_irl: T3
+  dpe: G
+- lot: n22-04
+  type: T1
+  surface_m2: 32
+  etage: 0
+  proprietaire: p-0336
+  locataire: M. Serge Labbé
+  entree: '2013-01-23'
+  loyer_hors_charges: 283,00 €
+  provision_sur_charges: 98,00 €
+  depot_de_garantie: 214,00 €
+  revision: chaque 23 janvier
+  trimestre_irl: T3
+  dpe: F
+- lot: n22-05
+  type: T3
+  surface_m2: 59
+  etage: 1
+  proprietaire: p-0395
+  locataire: Mme Agnès Weber
+  entree: '2024-03-22'
+  loyer_hors_charges: 541,00 €
+  provision_sur_charges: 87,00 €
+  depot_de_garantie: 515,00 €
+  revision: chaque 22 mars
+  trimestre_irl: T4
+  dpe: E
+- lot: n22-06
+  type: T1
+  surface_m2: 29
+  etage: 1
+  proprietaire: p-0396
+  locataire: M. Antoine Vincent
+  entree: '2025-12-07'
+  loyer_hors_charges: 238,00 €
+  provision_sur_charges: 58,00 €
+  depot_de_garantie: 238,00 €
+  revision: chaque 7 décembre
+  trimestre_irl: T3
+  dpe: F
+- lot: n22-07
+  type: T2
+  surface_m2: 42
+  etage: 1
+  proprietaire: p-0397
+  locataire: Mme Sylvie Picot
+  entree: '2014-03-17'
+  loyer_hors_charges: 402,00 €
+  provision_sur_charges: 67,00 €
+  depot_de_garantie: 309,00 €
+  revision: chaque 17 mars
+  trimestre_irl: T4
+  dpe: E
+- lot: n22-08
+  type: T1
+  surface_m2: 34
+  etage: 1
+  proprietaire: p-0351
+  locataire: M. Philippe Chabert
+  entree: '2022-07-20'
+  loyer_hors_charges: 279,00 €
+  provision_sur_charges: 44,00 €
+  depot_de_garantie: 260,00 €
+  revision: chaque 20 juillet
+  trimestre_irl: T1
+  dpe: B
+- lot: n22-09
+  type: T1
+  surface_m2: 29
+  etage: 2
+  proprietaire: p-0398
+  locataire: Mme Sophie Jourdan
+  entree: '2020-06-23'
+  loyer_hors_charges: 259,00 €
+  provision_sur_charges: 96,00 €
+  depot_de_garantie: 230,00 €
+  revision: chaque 23 juin
+  trimestre_irl: T1
+  dpe: D
+- lot: n22-10
+  type: T4
+  surface_m2: 76
+  etage: 2
+  proprietaire: p-0399
+  locataire: M. Frédéric Deschamps
+  entree: '2026-03-04'
+  loyer_hors_charges: 672,00 €
+  provision_sur_charges: 71,00 €
+  depot_de_garantie: 672,00 €
+  revision: chaque 4 mars
+  trimestre_irl: T4
+  dpe: E
+- lot: n22-11
+  type: T5
+  surface_m2: 109
+  etage: 2
+  proprietaire: p-0340
+  locataire: Mme Jacqueline Lejeune
+  entree: '2023-11-02'
+  loyer_hors_charges: 899,00 €
+  provision_sur_charges: 100,00 €
+  depot_de_garantie: 856,00 €
+  revision: chaque 2 novembre
+  trimestre_irl: T3
+  dpe: B
+- lot: n22-12
+  type: T4
+  surface_m2: 81
+  etage: 2
+  proprietaire: p-0400
+  locataire: M. Serge Mouton
+  entree: '2018-04-28'
+  loyer_hors_charges: 733,00 €
+  provision_sur_charges: 54,00 €
+  depot_de_garantie: 611,00 €
+  revision: chaque 28 avril
+  trimestre_irl: T4
+  dpe: E
+- lot: n22-13
+  type: T2
+  surface_m2: 47
+  etage: 3
+  proprietaire: p-0388
+  locataire: Mme Sophie Noël
+  entree: '2022-03-15'
+  loyer_hors_charges: 402,00 €
+  provision_sur_charges: 76,00 €
+  depot_de_garantie: 365,00 €
+  revision: chaque 15 mars
+  trimestre_irl: T4
+  dpe: E
+- lot: n22-14
+  type: T1
+  surface_m2: 33
+  etage: 3
+  proprietaire: p-0401
+  locataire: M. Antoine Bénard
+  entree: '2013-03-09'
+  loyer_hors_charges: 313,00 €
+  provision_sur_charges: 61,00 €
+  depot_de_garantie: 236,00 €
+  revision: chaque 9 mars
+  trimestre_irl: T4
+  dpe: E
+- lot: n22-15
+  type: T2
+  surface_m2: 49
+  etage: 3
+  proprietaire: p-0353
+  locataire: M. Marcel Carpentier
+  entree: '2019-11-03'
+  loyer_hors_charges: 392,00 €
+  provision_sur_charges: 117,00 €
+  depot_de_garantie: 341,00 €
+  revision: chaque 3 novembre
+  trimestre_irl: T3
+  dpe: D
+- lot: n22-16
+  type: T2
+  surface_m2: 41
+  etage: 3
+  proprietaire: p-0372
+  locataire: M. Jérôme Prévost
+  entree: '2018-10-11'
+  loyer_hors_charges: 351,00 €
+  provision_sur_charges: 71,00 €
+  depot_de_garantie: 299,00 €
+  revision: chaque 11 octobre
+  trimestre_irl: T2
+  dpe: D
+- lot: n22-17
+  type: T2
+  surface_m2: 40
+  etage: 4
+  proprietaire: p-0402
+  locataire: M. Laurent Roche
+  entree: '2020-06-13'
+  loyer_hors_charges: 371,00 €
+  provision_sur_charges: 38,00 €
+  depot_de_garantie: 330,00 €
+  revision: chaque 13 juin
+  trimestre_irl: T1
+  dpe: C
+- lot: n22-18
+  type: T1
+  surface_m2: 30
+  etage: 4
+  proprietaire: p-0403
+  locataire: M. Marcel Raymond
+  entree: '2020-12-10'
+  loyer_hors_charges: 251,00 €
+  provision_sur_charges: 62,00 €
+  depot_de_garantie: 223,00 €
+  revision: chaque 10 décembre
+  trimestre_irl: T3
+  dpe: E
+- lot: n22-19
+  type: T3
+  surface_m2: 66
+  etage: 4
+  proprietaire: p-0360
+  locataire: M. Sylvain Tanguy
+  entree: '2025-05-05'
+  loyer_hors_charges: 550,00 €
+  provision_sur_charges: 63,00 €
+  depot_de_garantie: 537,00 €
+  revision: chaque 5 mai
+  trimestre_irl: T1
+  dpe: D
+- lot: n22-20
+  type: T1
+  surface_m2: 28
+  etage: 4
+  proprietaire: p-0404
+  locataire: Mme Marion Leblanc
+  entree: '2018-12-09'
+  loyer_hors_charges: 258,00 €
+  provision_sur_charges: 74,00 €
+  depot_de_garantie: 220,00 €
+  revision: chaque 9 décembre
+  trimestre_irl: T3
+  dpe: E
+- lot: n22-21
+  type: T1
+  surface_m2: 32
+  etage: 5
+  proprietaire: p-0405
+  locataire: Mme Valérie Millet
+  entree: '2023-12-15'
+  loyer_hors_charges: 304,00 €
+  provision_sur_charges: 41,00 €
+  depot_de_garantie: 290,00 €
+  revision: chaque 15 décembre
+  trimestre_irl: T3
+  dpe: E
+- lot: n22-22
+  type: T5
+  surface_m2: 106
+  etage: 5
+  proprietaire: p-0382
+  locataire: Mme Béatrice Besnard
+  entree: '2019-03-09'
+  loyer_hors_charges: 907,00 €
+  provision_sur_charges: 81,00 €
+  depot_de_garantie: 772,00 €
+  revision: chaque 9 mars
+  trimestre_irl: T4
+  dpe: D
+- lot: n22-23
+  type: T2
+  surface_m2: 40
+  etage: 5
+  proprietaire: p-0406
+  locataire: Mme Sophie Meunier
+  entree: '2015-06-09'
+  loyer_hors_charges: 353,00 €
+  provision_sur_charges: 79,00 €
+  depot_de_garantie: 277,00 €
+  revision: chaque 9 juin
+  trimestre_irl: T1
+  dpe: D
+- lot: n22-24
+  type: T1
+  surface_m2: 32
+  etage: 5
+  proprietaire: p-0407
+  locataire: Mme Agnès Olivier
+  entree: '2022-03-01'
+  loyer_hors_charges: 277,00 €
+  provision_sur_charges: 40,00 €
+  depot_de_garantie: 252,00 €
+  revision: chaque 1er mars
+  trimestre_irl: T4
+  dpe: D
+- lot: n22-25
+  type: T4
+  surface_m2: 77
+  etage: 6
+  proprietaire: p-0364
+  locataire: M. Robert Leroux
+  entree: '2018-05-24'
+  loyer_hors_charges: 673,00 €
+  provision_sur_charges: 33,00 €
+  depot_de_garantie: 561,00 €
+  revision: chaque 24 mai
+  trimestre_irl: T1
+  dpe: D
+- lot: n22-26
+  type: T2
+  surface_m2: 46
+  etage: 6
+  proprietaire: p-0408
+  locataire: Mme Monique Hamon
+  entree: '2017-09-06'
+  loyer_hors_charges: 419,00 €
+  provision_sur_charges: 78,00 €
+  depot_de_garantie: 349,00 €
+  revision: chaque 6 septembre
+  trimestre_irl: T2
+  dpe: F

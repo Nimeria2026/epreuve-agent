@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cema-b04",
+  "de": {
+    "nom": "M. Claude Devaux",
+    "adresse": "claude.devaux@boite-postale.example"
+  },
+  "a": [
+    "cedric.maillard@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Provision sur charges",
+  "date": "2026-05-26T15:33:00+02:00",
+  "corps": "Bonjour,\n\nJ'aimerais comprendre la hausse de la provision sur charges de mon lot.\n\nMerci d'avance,\nM. Claude Devaux",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,49 @@
+{
+  "numero": "BL-2026-01671",
+  "commande": "CO-2026-01822",
+  "client": "c-0020",
+  "date_expedition": "2026-06-24",
+  "date_livraison": "2026-06-24",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "12 rue des Forges, 36999 Brissonne (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "CON-10669",
+      "libelle": "Disque abrasif auto-agrippant 150 mm, grain 60, boîte de 50",
+      "quantite": 10
+    },
+    {
+      "reference": "CON-11657",
+      "libelle": "Papier abrasif corindon, grain 120, rouleau de 25 m",
+      "quantite": 10
+    },
+    {
+      "reference": "ELE-12727",
+      "libelle": "Prise de courant double 2P+T, anthracite",
+      "quantite": 6
+    },
+    {
+      "reference": "OUT-11714",
+      "libelle": "Pince à bec long 160 mm",
+      "quantite": 1
+    },
+    {
+      "reference": "OUT-12931",
+      "libelle": "Truelle ronde 140 mm",
+      "quantite": 2
+    },
+    {
+      "reference": "QUI-11412",
+      "libelle": "Coulisse de tiroir à sortie totale 550 mm, la paire",
+      "quantite": 6
+    }
+  ],
+  "reserves": null,
+  "signataire": "Sandrine Doré",
+  "statut": "livre"
+}

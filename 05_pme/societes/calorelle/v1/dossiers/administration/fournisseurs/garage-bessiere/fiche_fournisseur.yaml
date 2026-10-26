@@ -1,0 +1,8 @@
+# Fiche fournisseur Calorelle. Données FICTIVES.
+nom: "Garage Bessière"
+activite: "entretien des véhicules"
+adresse: "15 zone d'activité du Pré-Bouvreuil, 45999 Valmont-sur-Loire (FICTIF)"
+telephone: "02 61 91 20 14"
+courriel_facturation: "atelier@garage-bessiere.example"
+iban: "FR76 9999 9764 4044 1242 4778 711 (FICTIF)"
+conditions: "paiement à 30 jours fin de mois"

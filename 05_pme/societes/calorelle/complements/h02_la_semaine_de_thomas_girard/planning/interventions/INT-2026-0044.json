@@ -1,0 +1,14 @@
+{
+  "numero": "INT-2026-0044",
+  "client": "c-0060",
+  "techniciens": [
+    "thomas.girard",
+    "enzo.caron"
+  ],
+  "debut": "2026-11-13T13:30:00+01:00",
+  "fin": "2026-11-13T17:30:00+01:00",
+  "nature": "installation",
+  "objet": "Remplacement de la chaudière fioul de l'atelier, seconde demi-journée",
+  "statut": "planifiee",
+  "cree_par": "marc.duval"
+}

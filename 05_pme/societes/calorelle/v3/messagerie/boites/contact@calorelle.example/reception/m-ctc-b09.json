@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-b09",
+  "de": {
+    "nom": "Frédéric Chevalier",
+    "adresse": "frederic.chevalier@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Bruit dans la chaudière",
+  "date": "2026-09-15T13:37:00+02:00",
+  "corps": "Bonjour,\n\nMa chaudière fait un bruit inhabituel, est-ce grave ?\n\nFrédéric Chevalier (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

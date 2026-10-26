@@ -1,0 +1,64 @@
+{
+  "numero": "CO-2026-02043",
+  "client": "c-0285",
+  "reference_client": null,
+  "cree_le": "2026-07-03T15:00:00+02:00",
+  "cree_par": "laurent.gimenez",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "119 rue des Vignes, 36999 Brissonne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "OUT-10155",
+      "libelle": "Caisse à outils plastique 700 mm",
+      "quantite": 20,
+      "prix_tarif_ht_euros": 39.15,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 37.58,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 751.6
+    },
+    {
+      "reference": "OUT-10163",
+      "libelle": "Caisse à outils à roulettes 500 mm",
+      "quantite": 8,
+      "prix_tarif_ht_euros": 27.4,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 26.3,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 210.4
+    },
+    {
+      "reference": "OUT-10196",
+      "libelle": "Caisse à outils à tiroirs 600 mm",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 28.35,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 27.22,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 326.64
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 1288.64,
+  "total_tva_euros": 257.73,
+  "total_ttc_euros": 1546.37,
+  "statut": "brouillon",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T15:00:00+02:00",
+      "par": "laurent.gimenez",
+      "action": "creee",
+      "detail": "prix du déstockage attendus"
+    }
+  ]
+}

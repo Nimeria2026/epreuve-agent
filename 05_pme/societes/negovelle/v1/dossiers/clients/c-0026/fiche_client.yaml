@@ -1,0 +1,28 @@
+# Fiche du client c-0026 de Négovelle. Données FICTIVES.
+code: c-0026
+nom: Serrurerie Rigaud
+type: artisan
+adresse: 136 place du Marché, 36999 Vaumoreau-sur-Indre (FICTIF)
+telephone: 02 61 91 62 45
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Anne Gonnet
+  fonction: gérante
+  courriel: anne.gonnet@serrurerie-rigaud.example
+- nom: Étienne Ducros
+  fonction: conjoint collaborateur
+  courriel: etienne.ducros@serrurerie-rigaud.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 136 place du Marché, 36999 Vaumoreau-sur-Indre (FICTIF)
+categorie_remise: C
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2019-03-01'
+limite_encours_euros: 3500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

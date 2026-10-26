@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-930",
+  "de": {
+    "nom": "Enzo Caron",
+    "adresse": "enzo.caron@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Mon calendrier du CFA",
+  "date": "2027-01-29T12:30:00+01:00",
+  "corps": "Sonia,\n\nVoici mes semaines au CFA jusqu'à l'été : du lundi 8 au vendredi 12 février, du lundi 22 au vendredi 26 mars, du lundi 26 au vendredi 30 avril.\n\nEnzo (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

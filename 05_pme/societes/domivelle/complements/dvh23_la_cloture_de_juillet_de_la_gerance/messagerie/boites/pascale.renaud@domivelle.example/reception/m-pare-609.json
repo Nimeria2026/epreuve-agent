@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-pare-609",
+  "de": {
+    "nom": "Cédric Maillard",
+    "adresse": "cedric.maillard@domivelle.example"
+  },
+  "a": [
+    "pascale.renaud@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Comptes de 2025 de c17",
+  "date": "2026-07-31T15:10:00+02:00",
+  "corps": "Pascale,\n\nLe syndic du 34 rue du Four (c17) a fait approuver les comptes de 2025 à l'assemblée du mardi 7 juillet ; son décompte m'est arrivé hier. M. Gaspard Viallet, parti du lot c17-18 le 28 novembre 2025 : sa part des charges récupérables de 2025, au prorata de ses 332 jours d'occupation, dépasse de 58,40 € les provisions qu'il a versées. Rien ne presse pour le reste de sa provision : on pourra le lui rendre avec les autres en fin d'année.\n\nCédric",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

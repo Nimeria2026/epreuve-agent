@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-047",
+  "de": {
+    "nom": "Fabrice Mercier",
+    "adresse": "fabrice.mercier@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Délai de paiement",
+  "date": "2026-08-22T09:40:00+02:00",
+  "corps": "Bruno, Mignot Agencement, déjà à 60 jours, en voudrait 90. Je te laisse répondre.\n\nFabrice\n\n----- Message transféré -----\nDe : Daniel Grondin <daniel.grondin@mignot-agencement.example>\nObjet : Délai de paiement\n\nBonjour,\n\nPouvez-vous porter notre délai de paiement à 90 jours date de facture ?\n\nDaniel Grondin\nMignot Agencement",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-004",
+  "de": {
+    "nom": "Serge Grenier",
+    "adresse": "serge.grenier@plomberie-desjardins.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande raccords et colliers",
+  "date": "2026-07-03T15:28:00+02:00",
+  "corps": "Bonjour,\n\nMerci de nous livrer 30 raccords à sertir applique 14 mm et 10 sachets de colliers de fixation 28 mm.\n\nSerge Grenier\nPlomberie Desjardins",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

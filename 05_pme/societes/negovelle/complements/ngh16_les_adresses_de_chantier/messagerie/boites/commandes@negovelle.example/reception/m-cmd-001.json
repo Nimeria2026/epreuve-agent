@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-001",
+  "de": {
+    "nom": "Étienne Quéré",
+    "adresse": "etienne.quere@serrurerie-cadiou.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-06T06:33:00+02:00",
+  "corps": "Bonjour,\n\nVoici notre commande, à livrer au siège :\n- 6 x VIS-10048, Boulon tête hexagonale M10x20, zingué, sachet de 25\n- 10 x FIX-10735, Cheville pour plaque de plâtre 5x32, boîte de 50\n\nMerci,\nÉtienne Quéré\nSerrurerie Cadiou",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

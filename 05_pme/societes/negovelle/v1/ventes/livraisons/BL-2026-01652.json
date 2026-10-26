@@ -1,0 +1,59 @@
+{
+  "numero": "BL-2026-01652",
+  "commande": "CO-2026-01803",
+  "client": "c-0158",
+  "date_expedition": "2026-06-22",
+  "date_livraison": "2026-06-23",
+  "transport": {
+    "mode": "transporteur",
+    "transporteur": "transports-delorme",
+    "recepisse": "TD-561836"
+  },
+  "adresse": "117 chemin des Prés, 36999 Corvalet (FICTIF)",
+  "colis": 3,
+  "lignes": [
+    {
+      "reference": "CON-11494",
+      "libelle": "Mousse polyuréthane expansive manuelle, 500 ml",
+      "quantite": 6
+    },
+    {
+      "reference": "ELE-13291",
+      "libelle": "Spot encastrable LED 5 W, 4000 K, aluminium brossé",
+      "quantite": 10
+    },
+    {
+      "reference": "ELP-10784",
+      "libelle": "Foret béton SDS-plus 6x110 mm",
+      "quantite": 4
+    },
+    {
+      "reference": "FIX-11576",
+      "libelle": "Goujon d'ancrage M12x75, boîte de 25",
+      "quantite": 1
+    },
+    {
+      "reference": "OUT-11633",
+      "libelle": "Pince multiprise 140 mm",
+      "quantite": 1
+    },
+    {
+      "reference": "PLB-12082",
+      "libelle": "Raccord laiton réduction mâle-femelle 26x34",
+      "quantite": 3
+    },
+    {
+      "reference": "PRO-10163",
+      "libelle": "Bottes de sécurité caoutchouc S5, pointure 47",
+      "quantite": 6
+    },
+    {
+      "reference": "QUI-10498",
+      "libelle": "Cadenas à combinaison 30 mm, 3 clés",
+      "quantite": 12
+    }
+  ],
+  "reserves": null,
+  "signataire": "Laurent Allard",
+  "statut": "livre"
+}

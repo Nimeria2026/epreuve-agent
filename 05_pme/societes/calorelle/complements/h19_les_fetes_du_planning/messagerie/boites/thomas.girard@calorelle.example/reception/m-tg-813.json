@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-tg-813",
+  "de": {
+    "nom": "Mathieu Picard",
+    "adresse": "mathieu.picard@calorelle.example"
+  },
+  "a": [
+    "thomas.girard@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Compte rendu : Résidence des Tilleuls",
+  "date": "2026-12-18T17:45:00+01:00",
+  "corps": "Thomas,\n\nLe compte rendu du dépannage de ce matin à la Résidence des Tilleuls (c-0405) : les pompes de circulation sont à changer, c'est prévu le 23 ; surtout, la chaudière collective est en fin de vie, il faudrait proposer au syndic un devis de remplacement.\n\nPour les Établissements Michel, j'ai rangé à leur dossier le compte rendu de ma visite du 9 décembre.\n\nMathieu (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "CR_Tilleuls.pdf",
+      "fichier": "pieces/m-tg-813/CR_Tilleuls.pdf",
+      "taille_octets": 1079
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

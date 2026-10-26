@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-006",
+  "de": {
+    "nom": "Alain Lacour",
+    "adresse": "alain.lacour@charpente-ruel.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Trop de boîtes de vis livrées",
+  "date": "2026-07-06T07:30:00+02:00",
+  "corps": "Bonjour,\n\nNous avons commandé 20 boîtes de vis à bois et vous nous en avez livré 30. Pouvez-vous reprendre les 10 en trop ?\n\nAlain Lacour\nCharpente Ruel",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

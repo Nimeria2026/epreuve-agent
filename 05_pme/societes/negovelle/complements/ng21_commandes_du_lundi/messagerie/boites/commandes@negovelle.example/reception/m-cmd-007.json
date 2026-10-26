@@ -1,0 +1,20 @@
+{
+  "identifiant": "m-cmd-007",
+  "de": {
+    "nom": "Jacques Pinson",
+    "adresse": "jacques.pinson@peinture-chevrier.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [
+    "fabrice.mercier@negovelle.example"
+  ],
+  "objet": "Prix pour 40 bombes de peinture",
+  "date": "2026-07-06T06:30:00+02:00",
+  "corps": "Bonjour,\n\nQuel serait votre prix pour 40 bombes de peinture antirouille grises ? Fabrice, je te mets en copie, tu peux t'en occuper directement ?\n\nJacques Pinson\nPeinture Chevrier",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

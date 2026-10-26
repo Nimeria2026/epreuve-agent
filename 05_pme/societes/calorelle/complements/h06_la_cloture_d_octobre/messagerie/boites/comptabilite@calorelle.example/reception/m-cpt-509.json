@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-509",
+  "de": {
+    "nom": "Électricité du Val-Mauvoir",
+    "adresse": "compta@electricite-du-val-mauvoir.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Avoir AV-1991",
+  "date": "2026-10-30T15:20:00+01:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-joint notre avoir AV-1991 du 30 octobre 2026, 48,00 € TTC, pour le disjoncteur différentiel livré en double et repris. Merci de le déduire du règlement de notre facture EVM-1984.\n\nService comptable, Électricité du Val-Mauvoir (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "AV-1991.pdf",
+      "fichier": "pieces/m-cpt-509/AV-1991.pdf",
+      "taille_octets": 1114
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

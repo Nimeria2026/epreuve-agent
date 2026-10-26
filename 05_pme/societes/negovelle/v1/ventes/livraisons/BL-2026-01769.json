@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01769",
+  "commande": "CO-2026-01920",
+  "client": "c-0257",
+  "date_expedition": "2026-06-30",
+  "date_livraison": "2026-06-30",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "6 zone industrielle des Brandes, 36999 Laubrissac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "PLB-12409",
+      "libelle": "Robinet d'arrêt de machine à laver 15x21",
+      "quantite": 1
+    },
+    {
+      "reference": "VIS-13299",
+      "libelle": "Vis à bois tête fraisée 6x35, bichromatée, boîte de 200",
+      "quantite": 1
+    }
+  ],
+  "reserves": null,
+  "signataire": "Christian Voisin",
+  "statut": "livre"
+}

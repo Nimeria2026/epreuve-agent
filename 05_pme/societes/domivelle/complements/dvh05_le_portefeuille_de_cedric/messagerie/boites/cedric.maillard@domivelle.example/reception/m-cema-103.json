@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cema-103",
+  "de": {
+    "nom": "Pascale Renaud",
+    "adresse": "pascale.renaud@domivelle.example"
+  },
+  "a": [
+    "cedric.maillard@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Révisions de juillet",
+  "date": "2026-06-05T11:30:00+02:00",
+  "corps": "Bonjour Cédric,\n\nAvant ton départ : quel loyer pour c08-12 au 1er juillet ? Et je vois que c06-04 n'a pas été révisé au 7 mars : faut-il rattraper ?\n\nPascale",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

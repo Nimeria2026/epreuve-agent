@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-004",
+  "de": {
+    "nom": "Sylvain Bouvier",
+    "adresse": "sylvain.bouvier@couverture-monnier.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Erreur de projecteurs",
+  "date": "2026-08-04T09:30:00+02:00",
+  "corps": "Bonjour,\n\nNous avions commandé 2 projecteurs 150 W ELE-12841 ; la livraison du 23 juillet, BL-2026-01892, nous a apporté 2 projecteurs 30 W ELE-12891. Merci de les reprendre.\n\nSylvain Bouvier\nCouverture Monnier",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

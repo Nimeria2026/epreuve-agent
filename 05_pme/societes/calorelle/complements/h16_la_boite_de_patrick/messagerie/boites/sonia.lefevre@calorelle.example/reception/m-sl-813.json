@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-813",
+  "de": {
+    "nom": "Romain Guérin",
+    "adresse": "romain.guerin@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Attestation pour ma banque",
+  "date": "2026-11-23T07:35:00+01:00",
+  "corps": "Sonia,\n\nMa banque me demande, pour mon prêt, une attestation de mon employeur : ma date d'entrée, mon contrat et mon salaire brut. Peux-tu me l'envoyer ? Merci.\n\nRomain (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

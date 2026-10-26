@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-nabr-001",
+  "de": {
+    "nom": "Christian Cosson",
+    "adresse": "christian.cosson@chatelain-maintenance.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Retour de poubelles",
+  "date": "2026-07-03T09:05:00+02:00",
+  "corps": "Bonjour,\n\nNous aimerions vous retourner 4 poubelles à couvercle basculant ENT-10783, livrées le 20 mai et réglées avec votre facture FC-2026-0848 de mai. Elles n'ont jamais servi.\n\nMerci de nous dire comment procéder.\n\nChristian Cosson\nChatelain Maintenance",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-706",
+  "de": {
+    "nom": "Agnès Robin",
+    "adresse": "agnes.robin@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis des radiateurs",
+  "date": "2026-12-11T16:45:00+01:00",
+  "corps": "Bonjour Madame Perrin,\n\nM. Girard est passé la semaine dernière pour mes radiateurs. Pouvez-vous m'envoyer le devis ?\n\nAgnès Robin, 95 rue des Lilas, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

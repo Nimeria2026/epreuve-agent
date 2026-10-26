@@ -1,0 +1,12 @@
+# Fiche du propriétaire p-0619, mandant de Domivelle. Données FICTIVES.
+code: p-0619
+nom: M. Marcel Couturier
+adresse: 29 rue Jean-Jaurès, 18999 Montclavel-sur-Cher (FICTIF)
+courriel: marcel.couturier@mel-perso.example
+telephone: 06 39 98 93 72
+iban: FR76 9999 9311 4504 7348 5602 390 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- s18-26
+- s25-16
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-815",
+  "de": {
+    "nom": "Communauté de communes du Val",
+    "adresse": "marches@cc-du-val.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Consultation : maintenance du chauffage des bâtiments intercommunaux",
+  "date": "2026-10-31T08:15:00+01:00",
+  "corps": "Bonjour,\n\nLa communauté de communes lance une consultation pour la maintenance des installations de chauffage de ses douze bâtiments. Le dossier est en ligne ; les offres sont attendues avant le 20 novembre.\n\nService des marchés publics, Communauté de communes du Val (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

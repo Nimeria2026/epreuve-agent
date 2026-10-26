@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-elch-b04",
+  "de": {
+    "nom": "Mme Corinne Vincent",
+    "adresse": "corinne.vincent@mel-perso.example"
+  },
+  "a": [
+    "elodie.chauvin@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Provision sur charges",
+  "date": "2026-06-05T16:04:00+02:00",
+  "corps": "Bonjour,\n\nJ'aimerais comprendre la hausse de la provision sur charges de mon lot.\n\nMerci d'avance,\nMme Corinne Vincent",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

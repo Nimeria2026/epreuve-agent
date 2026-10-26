@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-vete-b06",
+  "de": {
+    "nom": "SCI Les Bruyères Invest",
+    "adresse": "gestion@sci-les-bruyeres-invest.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Merci",
+  "date": "2026-05-30T10:56:00+02:00",
+  "corps": "Bonjour,\n\nMerci pour votre réponse rapide.\n\nSCI Les Bruyères Invest",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

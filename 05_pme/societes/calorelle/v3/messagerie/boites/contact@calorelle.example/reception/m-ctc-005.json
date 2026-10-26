@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-ctc-005",
+  "de": {
+    "nom": "Hugo Lefort",
+    "adresse": "hugo.lefort@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Candidature spontanée : technicien chauffagiste",
+  "date": "2026-11-02T07:40:00+01:00",
+  "corps": "Bonjour,\n\nTechnicien chauffagiste depuis six ans, je vous adresse ma candidature. Mon CV est joint.\n\nHugo Lefort (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "CV_Hugo_Lefort.pdf",
+      "fichier": "pieces/m-ctc-005/CV_Hugo_Lefort.pdf",
+      "taille_octets": 753
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

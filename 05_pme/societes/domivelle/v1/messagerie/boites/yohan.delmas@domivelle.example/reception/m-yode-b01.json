@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-yode-b01",
+  "de": {
+    "nom": "Mme Amandine Jourdan",
+    "adresse": "amandine.jourdan@courriel.example"
+  },
+  "a": [
+    "yohan.delmas@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Éclairage de l'entrée",
+  "date": "2026-05-24T15:07:00+02:00",
+  "corps": "Bonjour,\n\nL'éclairage du hall ne fonctionne plus depuis deux jours.\n\nMme Amandine Jourdan",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

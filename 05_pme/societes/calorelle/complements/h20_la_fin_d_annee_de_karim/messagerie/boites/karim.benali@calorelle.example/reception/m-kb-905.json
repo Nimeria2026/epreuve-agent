@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-905",
+  "de": {
+    "nom": "Syndic de la Résidence du Pré-Bouvreuil",
+    "adresse": "contact@syndic-de-la-residence-du-pre-bouvreuil-411.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Assemblée générale du 21 décembre",
+  "date": "2026-12-22T11:00:00+01:00",
+  "corps": "Bonjour,\n\nL'assemblée générale du 21 décembre a voté le remplacement de la chaudière de la loge du gardien, votre devis DV-2026-014, sous réserve d'une remise de 5 %. Merci de nous confirmer cette remise pour que nous puissions commander les travaux.\n\nLe syndic de la Résidence du Pré-Bouvreuil, 87 avenue des Tilleuls (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

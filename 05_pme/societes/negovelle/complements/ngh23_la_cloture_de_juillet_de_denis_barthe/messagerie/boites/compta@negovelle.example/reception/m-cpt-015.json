@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-015",
+  "de": {
+    "nom": "Service recouvrement",
+    "adresse": "recouvrement@relances-express.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture impayée, dernier avis avant poursuites",
+  "date": "2026-07-31T05:50:00+02:00",
+  "corps": "Madame, Monsieur,\n\nVotre facture reste impayée. Ouvrez sans tarder le document joint pour régulariser votre situation avant poursuites.\n\nService recouvrement",
+  "pieces_jointes": [
+    {
+      "nom": "avis_de_paiement.pdf",
+      "fichier": "pieces/m-cpt-015/avis_de_paiement.pdf",
+      "taille_octets": 767
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

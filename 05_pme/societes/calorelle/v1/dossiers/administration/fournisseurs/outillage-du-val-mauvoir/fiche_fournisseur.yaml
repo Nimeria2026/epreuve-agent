@@ -1,0 +1,8 @@
+# Fiche fournisseur Calorelle. Données FICTIVES.
+nom: "Outillage du Val-Mauvoir"
+activite: "outillage"
+adresse: "36 zone d'activité de Brenneval, 45999 Valmont-sur-Loire (FICTIF)"
+telephone: "02 61 91 20 32"
+courriel_facturation: "compta@outillage-du-val-mauvoir.example"
+iban: "FR76 9999 9938 5326 9962 3700 944 (FICTIF)"
+conditions: "paiement à 30 jours fin de mois"

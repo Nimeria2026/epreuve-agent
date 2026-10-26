@@ -1,0 +1,10 @@
+# Fiche d'un fournisseur de Négovelle. Données FICTIVES.
+nom: Visserie de la Croisette
+activite: fabricant de visserie et de boulonnerie
+adresse: 14 zone industrielle des Brandes, 36999 Vendrigny (FICTIF)
+telephone: 02 61 91 94 21
+courriel_commandes: commandes@visserie-de-la-croisette.example
+courriel_facturation: facturation@visserie-de-la-croisette.example
+iban: FR76 9999 9995 1997 0201 2823 304 (FICTIF)
+conditions: paiement à 60 jours date de facture
+minimum_de_commande: 250,00 € HT

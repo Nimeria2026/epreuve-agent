@@ -1,0 +1,287 @@
+[
+ {
+  "tache": "h01_paiements_de_la_quinzaine",
+  "a": [
+   "helene.marchal@calorelle.example"
+  ],
+  "texte": "Bonjour Madame Marchal,\n\nJe vous transmets la liste des factures fournisseurs à régler d'ici le vendredi 13 novembre 2024 :\n- Thermique Distribution, FD-2024-118 : 1 240,00 €\n- Chauffage Pro, CP-884 : 890,00 €\n- Matériaux Bouchet, MB-452 : 356,45 €\n\nTotal : 2 456,45 €\n\nCordialement,\nJulien Moreau\nAssistant de Patrick Roux",
+  "erreur_voulue": "Le total indiqué de 2 456,45 € ne correspond pas à la somme des trois factures, qui est 2 486,45 €.",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-18T09:04:29+00:00"
+ },
+ {
+  "tache": "h01_paiements_de_la_quinzaine",
+  "a": [
+   "helene.marchal@calorelle.example"
+  ],
+  "texte": "Bonjour Hélène,\n\nJe vous envoie les factures à régler avant le vendredi 13 novembre 2024 :\n- Thermique Distribution, FD-2024-118 : 1 240,00 €\n- Chauffage Pro, CP-884 : 890,00 €\n\nTotal : 2 130,00 €\n\nCordialement,\nJulien Moreau\nAssistant de Patrick Roux",
+  "erreur_voulue": "L'assistant omet la facture Matériaux Bouchet, MB-452, de 356,45 € à échéance du 11 novembre.",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-18T09:04:29+00:00"
+ },
+ {
+  "tache": "h01_paiements_de_la_quinzaine",
+  "a": [
+   "lucas.fontaine@calorelle.example"
+  ],
+  "texte": "Objet : Factures fournisseurs à régler d'ici le 13 novembre\nÀ : lucas.fontaine@calorelle.example\n\nBonjour Lucas,\n\nVoici la liste des factures fournisseurs à régler avant le vendredi 13 novembre :\n- Facture 2024-118 : 1 200,00 €\n- Facture 2024-121 : 850,00 €\n- Facture 2024-127 : 1 100,00 €\nTotal : 3 150,00 €.\n\nMerci de bien vouloir transmettre ce message à Hélène Marchal.\n\nCordialement,\nAssistant de Patrick Roux",
+  "erreur_voulue": "L'assistant a adressé le courriel à Lucas Fontaine au lieu d'envoyer directement la liste à Hélène Marchal.",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-18T09:11:42+00:00"
+ },
+ {
+  "tache": "h01_paiements_de_la_quinzaine",
+  "a": [
+   "lucas.fontaine@calorelle.example"
+  ],
+  "texte": "Objet : Pour information – factures à régler\nÀ : lucas.fontaine@calorelle.example\n\nBonjour Lucas,\n\nPour information, je vous transmets en copie la liste des factures clients transmise à Hélène Marchal, à régler d'ici le vendredi 13 novembre :\n- Facture 2024-118 : 1 200,00 €\n- Facture 2024-121 : 850,00 €\n- Facture 2024-127 : 1 100,00 €\nTotal : 3 150,00 €.\n\nCordialement,\nAssistant de Patrick Roux",
+  "erreur_voulue": "Il a écrit « factures clients » au lieu de « factures fournisseurs », alors que la liste concernait les fournisseurs à payer.",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-18T09:11:42+00:00"
+ },
+ {
+  "tache": "h03_le_portefeuille_de_julie",
+  "a": [
+   "karim.benali@calorelle.example"
+  ],
+  "texte": "Bonjour Karim,\nJe te transmets le point sur les deux devis en cours avant le départ de Julie.\nDevis 2024-011 (Novatec) : le client accepte 12 800 € HT, TVA 20 % en sus, soit 15 392 € TTC ; il faut renvoyer la version finale.\nDevis 2024-012 (BatiPlus) : le client a demandé un complément de chaudière ; il reste à intégrer la pièce détachée et à relancer avant la fin de la validité.\n\nCordialement,\nL'assistant de Julie Perrin",
+  "erreur_voulue": "Le calcul TTC est erroné : 12 800 € HT majorés de 20 % donnent 15 360 € TTC, pas 15 392 €.",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-18T09:18:46+00:00"
+ },
+ {
+  "tache": "h03_le_portefeuille_de_julie",
+  "a": [
+   "karim.benali@calorelle.example"
+  ],
+  "texte": "Bonjour Karim,\nJe te transmets le point sur les deux devis en cours avant le départ de Julie.\nDevis 2024-011 (Novatec) : le client a validé la version du 12 mars ; il ne reste qu'à attendre le bon de commande.\nDevis 2024-012 (BatiPlus) : la validité est fixée au 28 mars, la relance est programmée le 5 avril ; il faut simplement attendre la réponse du client.\n\nCordialement,\nL'assistant de Julie Perrin",
+  "erreur_voulue": "La relance est programmée après la date de validité du devis, alors que le manuel prévoit une relance avant la fin de la validité.",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-18T09:18:46+00:00"
+ },
+ {
+  "tache": "h03_le_portefeuille_de_julie",
+  "a": [
+   "karim.benali@calorelle.example"
+  ],
+  "texte": "Bonjour Karim,\nJe te transmets le point sur les deux devis en cours avant le départ de Julie.\nDevis 2024-011 (Novatec) : le client attend la version finale avant vendredi ; il ne reste qu'à l'envoyer après validation.\nDevis 2024-012 (BatiPlus) : le client souhaite ajouter un radiateur ; il faut préparer la révision du montant.\n\nBien à toi,\nJulie Perrin",
+  "erreur_voulue": "La signature indique Julie Perrin alors que le courriel est censé être envoyé par l'assistant.",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-18T09:18:46+00:00"
+ },
+ {
+  "tache": "h03_le_portefeuille_de_julie",
+  "a": [
+   "karim.benali@calorelle.example"
+  ],
+  "texte": "Bonjour Karim,\nJe te transmets le point sur les deux devis en cours avant le départ de Julie.\nDevis 2024-011 (Novatec) : le client a confirmé sa demande ; il ne reste qu'à préparer la facture.\nDevis 2024-012 (BatiPlus) : le client demande d'ajouter un radiateur ; il faut renvoyer la version 2 du devis.\n\nCordialement,\nL'assistant de Julie Perrin",
+  "erreur_voulue": "Le point omet un devis en cours, le 2024-013 (Rhône Chaleur), alors que le manuel exige de lister l'ensemble des devis.",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-18T09:18:46+00:00"
+ },
+ {
+  "tache": "h04_les_conges_de_fin_d_annee",
+  "a": [
+   "helene.marchal@calorelle.example"
+  ],
+  "texte": "Objet : Traitement des congés de décembre\n\nBonjour Hélène,\n\nJ’ai traité les demandes de congé de décembre. Pour Yanis Haddad, j’ai validé le jeudi 24 décembre et j’ai mis à jour le registre des congés en conséquence. Je vous transmets ce point pour information.\n\nBien cordialement,\nL’assistant de Sonia Lefèvre",
+  "erreur_voulue": "Le courriel fait valider et modifier le registre par l’assistant, alors que seule la gérante peut valider et qu’aucun dossier ne doit être modifié.",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-18T09:23:45+00:00"
+ },
+ {
+  "tache": "h04_les_conges_de_fin_d_annee",
+  "a": [
+   "helene.marchal@calorelle.example"
+  ],
+  "texte": "Objet : Absences du 24 décembre\n\nBonjour Hélène,\n\nPour Yanis Haddad, la demande du jeudi 24 décembre est conforme : le manuel autorise deux techniciens absents au maximum, et comme David Roussel et Kevin Lambert sont déjà absents ce jour-là, l’ajout de Yanis reste dans la limite. Je vous suggère de la valider.\n\nBien cordialement,\nL’assistant de Sonia Lefèvre",
+  "erreur_voulue": "Le courriel compte mal les techniciens absents le 24 décembre et présente l’ajout de Yanis comme conforme alors qu’il porterait le total à trois.",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-18T09:23:45+00:00"
+ },
+ {
+  "tache": "h04_les_conges_de_fin_d_annee",
+  "a": [
+   "helene.marchal@calorelle.example"
+  ],
+  "texte": "Objet : Demande de Sébastien Noël\n\nBonjour Hélène,\n\nSébastien Noël a demandé le 2 novembre un congé commençant le lundi 30 novembre. Le délai d’un mois semble respecté, car la demande a été transmise avant le départ ; je vous propose donc de la valider.\n\nBien cordialement,\nL’assistant de Sonia Lefèvre",
+  "erreur_voulue": "Le courriel estime que la demande du 2 novembre pour le 30 novembre respecte le délai d’un mois, ce qui est faux.",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-18T09:23:45+00:00"
+ },
+ {
+  "tache": "h04_les_conges_de_fin_d_annee",
+  "a": [
+   "helene.marchal@calorelle.example"
+  ],
+  "texte": "Objet : Demande de Lucas Fontaine\n\nBonjour Hélène,\n\nLucas Fontaine souhaite être absent le 21 décembre. Comme Florian Masson sera aussi absent ce jour-là, la demande pose problème : le manuel limite les absences à deux techniciens par jour, et il ne faut pas dépasser cette jauge.\n\nBien cordialement,\nL’assistant de Sonia Lefèvre",
+  "erreur_voulue": "Le courriel applique à tort la règle des deux techniciens absents à Lucas Fontaine, magasinier, alors qu’elle ne le vise pas.",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-18T09:23:45+00:00"
+ },
+ {
+  "tache": "h05_la_semaine_des_syndics",
+  "a": [
+   "contact@syndic-de-la-residence-de-brenneval-223.example",
+   "contact@syndic-de-la-residence-du-clos-fargeau-3.example"
+  ],
+  "texte": "À : contact@syndic-de-la-residence-de-brenneval-223.example\nObjet : Devis d'entretien – Résidence de Brenneval-223\n\nMadame, Monsieur,\n\nJe fais suite à votre demande concernant l'entretien des équipements de la résidence. Vous trouverez ci-joint notre proposition commerciale, valable 30 jours. N'hésitez pas à me contacter pour préciser le planning d'intervention.\n\nBien cordialement,\nAssistant de Karim Benali\nCalorelle - Syndics et collectivités",
+  "erreur_voulue": "L'assistant ne mentionne pas le numéro de référence du devis, alors que le suivi des devis en cours l'exige.",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-18T09:26:36+00:00"
+ },
+ {
+  "tache": "h05_la_semaine_des_syndics",
+  "a": [
+   "contact@syndic-de-la-residence-de-brenneval-223.example",
+   "contact@syndic-de-la-residence-du-clos-fargeau-3.example"
+  ],
+  "texte": "À : contact@syndic-de-la-residence-du-clos-fargeau-3.example\nObjet : Devis de maintenance – Résidence du Clos Fargeau-3\n\nMadame, Monsieur,\n\nJe reviens vers vous au sujet de votre résidence de Brenneval-223 et de la maintenance des parties communes. Nous pouvons planifier la visite sous 48 heures, le devis ci-joint restant valable jusqu'à la fin du mois.\n\nBien cordialement,\nAssistant de Karim Benali\nCalorelle - Syndics et collectivités",
+  "erreur_voulue": "L'assistant confond les deux résidences en citant Brenneval-223 alors que la ligne destinataire indique Clos Fargeau-3.",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-18T09:26:36+00:00"
+ },
+ {
+  "tache": "h05_la_semaine_des_syndics",
+  "a": [
+   "contact@syndic-de-la-residence-de-brenneval-223.example",
+   "contact@syndic-de-la-residence-du-clos-fargeau-3.example"
+  ],
+  "texte": "À : contact@syndic-de-la-residence-de-brenneval-223.example, contact@syndic-de-la-residence-du-clos-fargeau-3.example\nObjet : Devis en cours – Brenneval-223 et Clos Fargeau-3\n\nMadame, Monsieur,\n\nVeuillez trouver ci-joint les devis n° DEV-2024-018 et DEV-2024-019 pour vos deux résidences. Les conditions générales d'intervention sont identiques et les délais de validité sont alignés sur notre politique commerciale. Merci de valider au plus vite afin de caler les passages sur site.\n\nBien cordialement,\nAssistant de Karim Benali\nCalorelle - Syndics et collectivités",
+  "erreur_voulue": "L'assistant envoie les deux résidences dans un même courriel au lieu de rédiger un message distinct pour chaque destinataire.",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-18T09:26:36+00:00"
+ },
+ {
+  "tache": "h05_la_semaine_des_syndics",
+  "a": [
+   "contact@syndic-de-la-residence-de-brenneval-223.example",
+   "contact@syndic-de-la-residence-du-clos-fargeau-3.example"
+  ],
+  "texte": "À : contact@syndic-de-la-residence-du-clos-fargeau-3.example\nObjet : Suivi du devis – Résidence du Clos Fargeau-3\n\nMadame, Monsieur,\n\nJe vous confirme avoir bien transmis votre demande à Karim Benali. Le devis est en cours de finalisation et vous le recevrez par retour de mail, avec l'ensemble des pièces nécessaires.\n\nBien cordialement,\nAssistant de Karim Benali\nCalorelle - Syndics et collectivités",
+  "erreur_voulue": "L'assistant signe avec son propre statut au lieu de la signature Karim Benali, chargé d'affaires, exigée par la procédure.",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-18T09:26:36+00:00"
+ },
+ {
+  "tache": "h06_la_cloture_d_octobre",
+  "a": [
+   "compta@transports-de-sablonnet.example"
+  ],
+  "texte": "Objet : Facture TS-08790 - Calorelle\n\nBonjour,\n\nDans notre vérification des factures fournisseurs de septembre, nous n'avons pas retrouvé la facture TS-08790. Pourriez-vous nous la renvoyer avant le 31 octobre ?\n\nMerci par avance.\n\nCordialement,\nAssistant comptable\nCalorelle",
+  "erreur_voulue": "L'assistant indique la période de septembre alors que la vérification concerne le mois d'octobre.",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-18T09:27:26+00:00"
+ },
+ {
+  "tache": "h06_la_cloture_d_octobre",
+  "a": [
+   "florian.masson@calorelle.example"
+  ],
+  "texte": "Objet : Votre note de frais d'octobre\nÀ : florian.masson@calorelle.example\n\nBonjour Florian,\n\nJ'ai vérifié votre note de 50,80 € pour le mois d'octobre. Le montant remboursé sera de 48,80 €, 2,00 € restant non remboursés. Vos 58 km à 0,45 € font 28,10 €, comme indiqué sur votre note.\n\nMerci de me confirmer que vous en prenez note.\n\nCordialement,\nL'assistant comptable",
+  "erreur_voulue": "Le courriel affirme à tort que 58 km à 0,45 € font 28,10 € au lieu de 26,10 €.",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-18T09:29:03+00:00"
+ },
+ {
+  "tache": "h06_la_cloture_d_octobre",
+  "a": [
+   "helene.marchal@calorelle.example"
+  ],
+  "texte": "Objet : Virements à préparer cette semaine\n\nBonjour Hélène,\n\nPour le bouclage d'octobre, voici la liste des virements à préparer cette semaine, jusqu'au vendredi 6 novembre.\n\nFactures fournisseurs :\n- IG-2026-0391 : à préparer\n- EVM-1984 : 273,60 € (321,60 € moins l'avoir AV-1991 de 48,00 €)\n- IG-2026-0412 : à préparer, montant supérieur à 1 500 €\n\nNotes de frais d'octobre :\n- 69,30 €\n- 100,80 €\n- 73,70 €\n- 56,60 €\n- 48,80 €\n\nJe n'ai pas identifié de virement en attente de votre validation. Les autres factures n'échappent qu'après le 6 novembre ou sont déjà réglées ; PV-26-0412 a été réglée le 2 novembre, et TS-08790 n'a jamais été reçue.\n\nJe reste à disposition pour préparer la remise.\n\nBonne fin de semaine,\nAssistant de Patrick Roux",
+  "erreur_voulue": "Il affirme qu'aucun virement n'est en attente de validation alors que IG-2026-0412 dépasse 1 500 € et attend la validation de la gérante.",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-18T09:33:35+00:00"
+ },
+ {
+  "tache": "h06_la_cloture_d_octobre",
+  "a": [
+   "kevin.lambert@calorelle.example"
+  ],
+  "texte": "Objet: Votre note de frais d'octobre\n\nBonjour Monsieur Lambert,\n\nJ'ai vérifié votre note de frais d'octobre. Les 73,70 € seront remboursés cette semaine. Le ticket de stationnement de 6,00 € manquant sera accepté exceptionnellement, conformément au manuel de procédures.\n\nMerci de votre vigilance.\n\nCordialement,\nL'assistant de Patrick Roux – Calorelle",
+  "erreur_voulue": "L'assistant affirme que le ticket de stationnement manquant sera accepté conformément au manuel, alors que le manuel exige un justificatif joint.",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-18T09:34:44+00:00"
+ },
+ {
+  "tache": "h07_l_arrivee_de_deux_salaries",
+  "a": [
+   "n.riviere@courriel.example"
+  ],
+  "texte": "Bonjour Noé,\nMerci pour votre message concernant votre arrivée en novembre. Pour les petites visites d'entretien, vous pourrez vous y rendre seul dès la première semaine, afin de vous familiariser avec le réseau. Nous restons à votre disposition pour toute question.\nCordialement,\nSonia Lefèvre\nAssistante de direction et RH\nCalorelle",
+  "erreur_voulue": "L'assistant autorise l'apprenti à intervenir seul, ce que le manuel de procédures interdit.",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-18T09:36:41+00:00"
+ },
+ {
+  "tache": "h07_l_arrivee_de_deux_salaries",
+  "a": [
+   "helene.marchal@calorelle.example"
+  ],
+  "texte": "Objet : Dossier d’arrivée de Noé Rivière\n\nBonjour Hélène,\n\nJe te confirme que Noé Rivière, qui arrive le 9 novembre, a bien transmis un dossier complet : contrat signé, pièce d’identité, attestation de sécurité sociale et RIB. Pour Jérôme Barré, nous restons en attente de son RIB.\n\nMerci d’en prendre note pour l’organisation des arrivées.\n\nCordialement,\nSonia Lefèvre\nAssistante de direction et RH",
+  "erreur_voulue": "L’assistant a retenu la première date annoncée par Noé Rivière (9 novembre) au lieu de la correction indiquée (23 novembre).",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-18T09:37:37+00:00"
+ },
+ {
+  "tache": "h07_l_arrivee_de_deux_salaries",
+  "a": [
+   "helene.marchal@calorelle.example",
+   "marc.duval@calorelle.example"
+  ],
+  "texte": "Bonjour Hélène,\nBonjour Marc,\n\nJe vous transmets l'état d'avancement des dossiers pour les deux arrivées de novembre.\n\nNoé Rivière a confirmé que son contrat de travail est signé, qu'il a transmis sa pièce d'identité, son attestation de sécurité sociale et son RIB ; son dossier est donc complet. Il commencera son activité le 9 novembre.\n\nConcernant Jérôme Barré, le contrat signé, la pièce d'identité et l'attestation de sécurité sociale sont reçus. Il manque encore le RIB ; je lui ai relancé pour compléter le dossier au plus vite.\n\nMerci de préparer la prise de poste de Noé et de me dire si vous avez besoin d'autres éléments pour Jérôme.\n\nCordialement,\nSonia Lefèvre\nAssistante de direction et RH – Calorelle",
+  "erreur_voulue": "Le courriel retient la date initiale du 9 novembre au lieu de la date corrigée du 23 novembre pour Noé Rivière.",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-18T09:39:13+00:00"
+ },
+ {
+  "tache": "h07_l_arrivee_de_deux_salaries",
+  "a": [
+   "j.barre56@courriel.example"
+  ],
+  "texte": "Objet: Votre demande d'attestation\n\nBonjour M. Barré,\n\nJ'ai bien reçu votre demande. Pour vous transmettre l'attestation incluant votre date d'entrée et votre salaire, pouvez-vous m'indiquer les coordonnées de votre banque ? Je pourrai ainsi l'adresser directement au service des affaires sociales de votre établissement bancaire.\n\nCordialement,\nSonia Lefèvre\nAssistante de direction et RH\nCalorelle",
+  "erreur_voulue": "L'assistant se propose d'envoyer l'attestation de paie à la banque, alors que le manuel autorise sa communication uniquement au salarié lui-même.",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-18T09:41:18+00:00"
+ },
+ {
+  "tache": "h08_contact_apres_trois_jours",
+  "a": [
+   "helene.marchal@calorelle.example"
+  ],
+  "texte": "Objet : Réclamations contact@ après la fermeture\nBonjour Hélène,\nAprès les trois jours de fermeture, du samedi 31 octobre au lundi 2 novembre, j’ai trié la boîte contact@. Je te transmets les réclamations d’Hélène Legrand, du syndic de la Résidence du Clos-Fargeau, d’Aurélie Garnier et des Établissements Bernard. Karim Benali reprendra l’ensemble, y compris les clients de Julie Perrin.\nBien cordialement,\nThomas Berthier\nAssistant de Sonia Lefèvre, Calorelle",
+  "erreur_voulue": "J’ai daté la fermeture du 31 octobre au 2 novembre au lieu du vendredi 30 octobre au dimanche 1er novembre.",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-18T09:46:44+00:00"
+ },
+ {
+  "tache": "h08_contact_apres_trois_jours",
+  "a": [
+   "helene.marchal@calorelle.example"
+  ],
+  "texte": "Objet : Transmission des réclamations restées en attente\nBonjour Hélène,\nJe te transmets les réclamations restées en attente sur contact@ : Hélène Legrand, sa relance, le syndic de la Résidence du Clos-Fargeau, Aurélie Garnier et la réclamation des Établissements Bernard, arrivée lundi à 7 h 45. Karim Benali reprendra l’ensemble, y compris les clients de Julie Perrin.\nBien cordialement,\nThomas Berthier\nAssistant de Sonia Lefèvre, Calorelle",
+  "erreur_voulue": "J’ai transmis la même demande d’Hélène Legrand deux fois, en distinguant l’envoi initial et la relance, alors qu’une même demande ne doit être transmise qu’une fois.",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-18T09:46:44+00:00"
+ },
+ {
+  "tache": "h08_contact_apres_trois_jours",
+  "a": [
+   "aurelie.garnier@courriel.example"
+  ],
+  "texte": "Objet: Votre demande reçue par contact@\n\nBonjour Madame Garnier,\n\nJe vous confirme la bonne réception de votre demande, arrivée en plusieurs messages dans la boîte contact@ ; je n'en transmets qu'un seul exemplaire au service compétent. Calorelle était fermée du vendredi 30 octobre au dimanche 1er novembre. Pour information, Julie Perrin est en congé du 2 au 4 novembre, ce qui explique l'attente supplémentaire.\n\nJe reviens vers vous dès que possible.\n\nCordialement,\nSonia Lefèvre\nAssistante de direction et RH\nCalorelle",
+  "erreur_voulue": "Le courriel divulgue les dates de congés de Julie Perrin, ce que le manuel de procédures interdit.",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-18T09:48:58+00:00"
+ },
+ {
+  "tache": "h08_contact_apres_trois_jours",
+  "a": [
+   "thomas.girard@calorelle.example"
+  ],
+  "texte": "Objet : Candidature d'Inès Vidal\n\nBonjour M. Girard,\n\nJe vous transmets la candidature d'Inès Vidal, reçue sur la boîte contact@ pendant la fermeture du vendredi 30 octobre au dimanche 1er novembre.\n\nBien cordialement,\nL'assistant de Sonia Lefèvre",
+  "erreur_voulue": "La candidature d'Inès Vidal est envoyée à Thomas Girard au lieu d'être conservée par Sonia Lefèvre, ce que prévoit le manuel.",
+  "auteur": "qwen3.8-27b-w4a16",
+  "le": "2026-10-18T09:50:35+00:00"
+ }
+]

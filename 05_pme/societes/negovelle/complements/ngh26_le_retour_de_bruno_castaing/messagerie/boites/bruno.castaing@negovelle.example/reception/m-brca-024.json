@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-024",
+  "de": {
+    "nom": "Fabrice Mercier",
+    "adresse": "fabrice.mercier@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "La candidature d'Élise Marchand",
+  "date": "2026-08-21T18:20:00+02:00",
+  "corps": "Bruno,\n\nÉlise Marchand m'a dit qu'elle t'avait envoyé sa candidature de commerciale. Je la connais, elle a travaillé chez un concurrent : envoie-moi son CV et sa lettre, je te dirai ce que j'en pense.\n\nFabrice",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

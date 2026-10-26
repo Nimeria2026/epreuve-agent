@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01901",
+  "commande": "CO-2026-02081",
+  "client": "c-0236",
+  "date_expedition": "2026-07-27",
+  "date_livraison": "2026-07-28",
+  "transport": {
+    "mode": "transporteur",
+    "transporteur": "transports-delorme",
+    "recepisse": "TD-412977"
+  },
+  "adresse": "99 rue des Écoles, 36999 Fontclavier (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "VIS-11445",
+      "libelle": "Vis à bois tête fraisée 3x45, inox A2, boîte de 200",
+      "quantite": 15
+    }
+  ],
+  "reserves": null,
+  "signataire": "Camille Pelletier",
+  "statut": "livre"
+}

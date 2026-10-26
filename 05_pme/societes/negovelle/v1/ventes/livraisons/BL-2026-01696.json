@@ -1,0 +1,39 @@
+{
+  "numero": "BL-2026-01696",
+  "commande": "CO-2026-01847",
+  "client": "c-0282",
+  "date_expedition": "2026-06-25",
+  "date_livraison": "2026-06-25",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "33 zone industrielle des Brandes, 36999 Fontclavier (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "ELE-12964",
+      "libelle": "Rallonge électrique de chantier IP44 10 m",
+      "quantite": 3
+    },
+    {
+      "reference": "OUT-11233",
+      "libelle": "Marteau à panne fendue 500 g",
+      "quantite": 4
+    },
+    {
+      "reference": "PRO-11126",
+      "libelle": "Gants nitrile jetables non poudrés, taille 9, boîte de 100",
+      "quantite": 1
+    },
+    {
+      "reference": "VIS-12899",
+      "libelle": "Vis à bois tête fraisée 5x45, bichromatée, boîte de 500",
+      "quantite": 1
+    }
+  ],
+  "reserves": null,
+  "signataire": "Caroline Pasquet",
+  "statut": "livre"
+}

@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0080"
+nom: "Catherine Dupont"
+type: "particulier"
+adresse: "79 rue des Écoles, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "catherine.dupont@courriel.example"
+telephone: "06 39 98 50 19"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2020-11-02"
+  mois_anniversaire: "novembre"
+  derniere_visite: "2025-11-22"

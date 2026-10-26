@@ -1,0 +1,40 @@
+# Modèle de tâche, conforme au contrat 01_contrats/tache.schema.json (make tests le vérifie).
+# Copier ce fichier sous le nom tNN_nom_parlant.yaml et reprendre ce nom dans « identifiant ».
+# Les agents ne voient que « enonce ». Tout le reste sert à la remise à zéro et aux contrôles
+# (règle 5 du BRIEF : les agents ne voient jamais les contrôles).
+# Les noms, montants et dates ci-dessous sont des exemples fictifs.
+
+identifiant: modele_tache
+version: 1
+famille: administration          # métier, par exemple comptabilite ou relation_client
+agent_pour: patrick.roux         # identifiant d'une personne de l'organigramme
+enonce: >
+  Tu es l'assistant de Patrick Roux, comptable de Calorelle. Une facture fournisseur est arrivée
+  ce matin dans la boîte comptabilite@. Range-la en respectant le manuel de procédures.
+etat_initial: v1                 # version de 05_pme/societes/calorelle à charger
+services: [messagerie, dossiers] # services de la PME dont la tâche a besoin
+budget:
+  etapes_max: 20                 # appels d'outils au plus
+  cout_max_dollars: 0.30
+controles:                       # vérifiés sur l'état final de la PME ; poids de somme 1
+  - famille: resultat            # resultat, absence_effet_de_bord, respect_des_regles,
+                                 # budget, contenu ou provenance
+    etape: la facture est rangée dans le bon dossier
+    poids: 0.6
+    attendu: le fichier attendu existe dans le dossier du mois de la date de facture
+    notation: tout_ou_rien       # ou proportion : part des vérifications réussies
+    verification:                # vocabulaire : 01_contrats/tache.schema.json, « Verification »
+      - type: fichier_present
+        chemin: administration/factures_fournisseurs/2026-10/exemple_f-0001.pdf
+        identique_a_piece: {courriel: m-cpt-001, piece: Facture_F-2026-1187.pdf}
+  - famille: absence_effet_de_bord
+    etape: rien d'autre n'a changé
+    poids: 0.4
+    attendu: aucun autre fichier créé, déplacé ou supprimé ; aucun courriel envoyé
+    notation: tout_ou_rien
+    verification:
+      - type: aucun_autre_changement_de_fichier
+        sauf: [administration/factures_fournisseurs/2026-10/exemple_f-0001.pdf]
+      - type: envois
+        nombre: 0
+pieges: []                       # difficultés volontaires, en langage courant

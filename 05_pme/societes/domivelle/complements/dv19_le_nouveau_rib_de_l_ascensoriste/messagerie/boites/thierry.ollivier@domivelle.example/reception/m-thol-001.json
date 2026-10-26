@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-thol-001",
+  "de": {
+    "nom": "Ascenseurs des Chaumes-Rouges",
+    "adresse": "facturation@ascenseurs-des-chaumes-rouges.example"
+  },
+  "a": [
+    "thierry.ollivier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Changement de nos coordonnées bancaires",
+  "date": "2026-06-05T14:02:00+02:00",
+  "corps": "Monsieur Ollivier,\n\nNous changeons de banque au 1er juin. Merci de mettre à jour notre fiche avec le RIB ci-joint et de régler notre facture de juin, pour l'entretien des ascenseurs de vos copropriétés, sur ce nouveau compte. Pour toute question, appelez notre nouveau service comptable au 02 61 91 37 84.\n\nService facturation, Ascenseurs des Chaumes-Rouges",
+  "pieces_jointes": [
+    {
+      "nom": "rib_2026.pdf",
+      "fichier": "pieces/m-thol-001/rib_2026.pdf",
+      "taille_octets": 843
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

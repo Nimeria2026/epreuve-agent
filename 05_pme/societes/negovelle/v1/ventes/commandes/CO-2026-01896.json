@@ -1,0 +1,68 @@
+{
+  "numero": "CO-2026-01896",
+  "client": "c-0081",
+  "reference_client": "BC-8881",
+  "cree_le": "2026-06-25T09:10:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "83 rue des Remparts, 36999 Fontclavier (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-10293",
+      "libelle": "Appareil modulaire contacteur jour-nuit 25 A",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 63.8,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 61.25,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 245.0
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 260.0,
+  "total_tva_euros": 52.0,
+  "total_ttc_euros": 312.0,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01745"
+  ],
+  "facture": "FC-2026-1073",
+  "historique": [
+    {
+      "date": "2026-06-25T09:10:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-25T09:12:00+02:00",
+      "par": "oceane.collin",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-26T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01745"
+    },
+    {
+      "date": "2026-06-26T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01745"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1073"
+    }
+  ]
+}

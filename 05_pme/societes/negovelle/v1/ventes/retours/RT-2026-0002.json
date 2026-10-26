@@ -1,0 +1,15 @@
+{
+  "numero": "RT-2026-0002",
+  "livraison": "BL-2026-01671",
+  "client": "c-0020",
+  "date": "2026-06-26T14:12:00+02:00",
+  "lignes": [
+    {
+      "reference": "CON-10669",
+      "quantite": 1,
+      "etat": "revendable"
+    }
+  ],
+  "motif": "retour accepté, article conforme",
+  "enregistre_par": "remi.joly"
+}

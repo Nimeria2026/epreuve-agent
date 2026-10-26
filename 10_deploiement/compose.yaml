@@ -1,0 +1,31 @@
+# Le banc de l'Épreuve d'agent en conteneur (étape 8). Cadrage :
+# 00_docs/sources/2026-10-11_cadrage_etape8.md.
+#
+# Ne se lance pas seul : make conteneur RESEAU=... COMMANDE="...", par
+# 09_outillage/scripts/lancer_conteneur.sh, choisit l'image du commit, l'identité de qui lance, et
+# monte le .env et les tâches cachées s'ils existent.
+# Commandes ponctuelles seulement : rien ne reste allumé entre deux runs, rien n'écoute sur un port.
+
+name: poa
+
+x-banc: &banc
+  image: poa-banc:${POA_COMMIT:?image choisie par 09_outillage/scripts/lancer_conteneur.sh}
+  user: "${POA_UID:?}:${POA_GID:?}"
+  working_dir: /poa
+  # Un init en tête : EASE lance et arrête beaucoup de processus, et Ctrl-C doit les atteindre.
+  init: true
+  volumes:
+    - ../99_local:/poa/99_local
+
+services:
+  # Témoins, tests, rapports, rejeu du gardien : aucun réseau.
+  hors-ligne:
+    <<: *banc
+    network_mode: none
+  # Modèles servis par une API : DeepSeek, le juge, le simulateur de τ²-bench.
+  api:
+    <<: *banc
+  # Qwen servi par make qwen sur 127.0.0.1:30100 : le réseau de la machine.
+  machine:
+    <<: *banc
+    network_mode: host

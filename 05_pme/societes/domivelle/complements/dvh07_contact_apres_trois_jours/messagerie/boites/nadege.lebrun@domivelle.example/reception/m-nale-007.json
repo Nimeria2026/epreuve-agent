@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-nale-007",
+  "de": {
+    "nom": "Copieur de l'accueil",
+    "adresse": "copieur@domivelle.example"
+  },
+  "a": [
+    "nadege.lebrun@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Numérisation",
+  "date": "2026-06-08T08:42:00+02:00",
+  "corps": "Avis de taxe foncière 2026 envoyé par Mme Manon Perrot, propriétaire, compte p-0005 sur sa lettre d'accompagnement, reçu au courrier de ce matin.",
+  "pieces_jointes": [
+    {
+      "nom": "scan.pdf",
+      "fichier": "pieces/m-nale-007/scan.pdf",
+      "taille_octets": 743
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

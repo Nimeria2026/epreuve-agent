@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ocol-005",
+  "de": {
+    "nom": "Serge Lacour",
+    "adresse": "serge.lacour@chauffage-herve.example"
+  },
+  "a": [
+    "oceane.collin@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-06T06:30:00+02:00",
+  "corps": "Bonjour Océane,\n\nMerci de nous livrer au siège :\n- 5 x CON-12352, Ruban adhésif toilé gris 25 mm, rouleau de 10 m\n- 10 x VIS-12009, Vis à bois tête fraisée 4,5x50, zinguée, boîte de 100\n\nCordialement,\nSerge Lacour\nChauffage Hervé",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

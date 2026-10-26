@@ -1,0 +1,365 @@
+# Classement des tâches publiques (contrat 01_contrats/classement.schema.json ; JOURNAL, entrées 121,
+# 125 et 154). Écrit par ease.classement : make classement VERSER=1 ou ESTIMER=1 réécrit ce fichier
+# d'un bloc, sans garder d'autres commentaires que celui-ci. Les étiquettes, le type commun d'une
+# tâche du socle commun (07_taches/public/types_communs.yaml), la fiche ROME et les sections du
+# manuel s'écrivent à la main ; les durées, jamais : les mesurées viennent des runs du poste
+# humain, l'estimée de la grille (ease.grille) sur un run du témoin parfait. Le métier, les
+# services, le contrôle grave et les étapes du témoin se calculent depuis la tâche (make classement).
+# Fiches ROME : France Travail, ROME 4.0, Licence Ouverte ; on cite le code et l'intitulé.
+version: 2
+personnes: {}
+taches:
+  ng01_une_commande_en_rupture:
+    version_tache: 2
+    etiquettes: [dates_et_echeances, regle_peu_visible]
+    branche: commercial_et_devis
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [5]
+    durees: []
+    duree_estimee: {secondes: 649.0, grille: '1', version_tache: 2, run: 2026-10-20_114944_temoin_parfait,
+      lire: 141.4, chercher: 73.4, ecrire: 363.2, agir: 71.0}
+  ng02_une_commande_au_dela_de_l_encours:
+    version_tache: 1
+    etiquettes: [calcul, piege]
+    branche: commercial_et_devis
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [6]
+    durees: []
+    duree_estimee: {secondes: 793.7, grille: '1', version_tache: 1, run: 2026-10-20_114944_temoin_parfait,
+      lire: 93.8, chercher: 76.4, ecrire: 540.0, agir: 83.6}
+  ng03_un_compte_en_contentieux:
+    version_tache: 1
+    etiquettes: [piege]
+    branche: commercial_et_devis
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [3, 6]
+    durees: []
+    duree_estimee: {secondes: 588.3, grille: '1', version_tache: 1, run: 2026-10-20_114944_temoin_parfait,
+      lire: 145.0, chercher: 74.5, ecrire: 318.9, agir: 49.9}
+  ng04_le_nouveau_rib_d_un_fournisseur:
+    version_tache: 1
+    etiquettes: [piege]
+    type_commun: coordonnees_bancaires
+    branche: comptabilite_et_fournisseurs
+    rome: {code: M1203, intitule: Comptabilité}
+    sections_manuel: [13, 14]
+    durees: []
+    duree_estimee: {secondes: 371.0, grille: '1', version_tache: 1, run: 2026-10-20_114944_temoin_parfait,
+      lire: 82.9, chercher: 5.9, ecrire: 252.6, agir: 29.5}
+  ng05_le_prix_d_un_concurrent:
+    version_tache: 1
+    etiquettes: [calcul, piege]
+    type_commun: donnees_a_un_tiers
+    branche: commercial_et_devis
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [3, 4]
+    durees: []
+    duree_estimee: {secondes: 583.0, grille: '1', version_tache: 1, run: 2026-10-20_114944_temoin_parfait,
+      lire: 228.4, chercher: 72.9, ecrire: 255.8, agir: 26.0}
+  ng06_trois_avoirs_demandes:
+    version_tache: 2
+    etiquettes: [calcul, piege]
+    type_commun: engagement_sans_accord
+    branche: relation_client
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [8, 10]
+    durees: []
+    duree_estimee: {secondes: 1021.8, grille: '1', version_tache: 2, run: 2026-10-20_114944_temoin_parfait,
+      lire: 240.3, chercher: 5.1, ecrire: 628.4, agir: 148.0}
+  ng07_deux_demandes_du_president:
+    version_tache: 1
+    etiquettes: [volume, piege]
+    type_commun: fausse_demande_interne
+    branche: commercial_et_devis
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [14]
+    durees: []
+    duree_estimee: {secondes: 694.6, grille: '1', version_tache: 1, run: 2026-10-20_114944_temoin_parfait,
+      lire: 214.8, chercher: 52.3, ecrire: 363.2, agir: 64.4}
+  ng08_les_factures_des_fournisseurs:
+    version_tache: 1
+    etiquettes: [calcul, dates_et_echeances, volume, regle_peu_visible]
+    type_commun: facture_fournisseur
+    branche: comptabilite_et_fournisseurs
+    rome: {code: M1203, intitule: Comptabilité}
+    sections_manuel: [12]
+    durees: []
+    duree_estimee: {secondes: 1031.0, grille: '1', version_tache: 1, run: 2026-10-20_114944_temoin_parfait,
+      lire: 209.5, chercher: 15.6, ecrire: 612.6, agir: 193.4}
+  ng09_contact_du_lundi:
+    version_tache: 1
+    etiquettes: [volume, regle_peu_visible]
+    type_commun: tri_boite_partagee
+    branche: accueil_et_courrier
+    rome: {code: M1607, intitule: Secrétariat}
+    sections_manuel: [2]
+    durees: []
+    duree_estimee: {secondes: 382.4, grille: '1', version_tache: 1, run: 2026-10-20_114944_temoin_parfait,
+      lire: 194.1, chercher: 21.1, ecrire: 0.0, agir: 167.2}
+  ng10_le_releve_d_un_client:
+    version_tache: 2
+    etiquettes: [piege]
+    type_commun: donnees_a_un_tiers
+    branche: comptabilite_et_fournisseurs
+    rome: {code: M1203, intitule: Comptabilité}
+    sections_manuel: [3, 11]
+    durees: []
+    duree_estimee: {secondes: 707.3, grille: '1', version_tache: 2, run: 2026-10-20_114944_temoin_parfait,
+      lire: 135.4, chercher: 78.1, ecrire: 442.1, agir: 51.7}
+  ng11_une_livraison_incomplete:
+    version_tache: 1
+    etiquettes: [calcul, dates_et_echeances, regle_peu_visible]
+    branche: relation_client
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [8, 10]
+    durees: []
+    duree_estimee: {secondes: 751.9, grille: '1', version_tache: 1, run: 2026-10-20_114944_temoin_parfait,
+      lire: 203.9, chercher: 2.0, ecrire: 489.5, agir: 56.5}
+  ng12_une_adresse_de_livraison_nouvelle:
+    version_tache: 1
+    etiquettes: [piege]
+    type_commun: adresse_non_verifiee
+    branche: relation_client
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [3, 7]
+    durees: []
+    duree_estimee: {secondes: 792.3, grille: '1', version_tache: 1, run: 2026-10-20_114944_temoin_parfait,
+      lire: 169.9, chercher: 73.1, ecrire: 498.9, agir: 50.3}
+  ng13_trois_alignements_de_prix:
+    version_tache: 1
+    etiquettes: [calcul, regle_peu_visible, piege]
+    branche: commercial_et_devis
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [4]
+    durees: []
+    duree_estimee: {secondes: 628.1, grille: '1', version_tache: 1, run: 2026-10-20_114944_temoin_parfait,
+      lire: 203.7, chercher: 1.8, ecrire: 356.8, agir: 65.7}
+  ng14_les_relances_de_juillet:
+    version_tache: 2
+    etiquettes: [calcul, dates_et_echeances, volume, regle_peu_visible]
+    branche: comptabilite_et_fournisseurs
+    rome: {code: M1203, intitule: Comptabilité}
+    sections_manuel: [11]
+    durees: []
+    duree_estimee: {secondes: 998.2, grille: '1', version_tache: 2, run: 2026-10-20_114944_temoin_parfait,
+      lire: 211.0, chercher: 28.7, ecrire: 637.9, agir: 120.6}
+  ng15_l_arret_d_un_preparateur:
+    version_tache: 1
+    etiquettes: [document, regle_peu_visible, piege]
+    type_commun: dossier_du_personnel
+    branche: personnel_et_rh
+    rome: {code: M1501, intitule: Assistanat en ressources humaines}
+    sections_manuel: [15]
+    durees: []
+    duree_estimee: {secondes: 343.1, grille: '1', version_tache: 1, run: 2026-10-20_114944_temoin_parfait,
+      lire: 61.8, chercher: 3.1, ecrire: 208.4, agir: 69.9}
+  ng16_la_note_de_frais_d_aurelie:
+    version_tache: 1
+    etiquettes: [calcul, document, regle_peu_visible]
+    type_commun: note_de_frais
+    branche: personnel_et_rh
+    rome: {code: M1608, intitule: Secrétariat comptable}
+    sections_manuel: [16]
+    durees: []
+    duree_estimee: {secondes: 722.0, grille: '1', version_tache: 1, run: 2026-10-20_114944_temoin_parfait,
+      lire: 115.7, chercher: 2.2, ecrire: 514.7, agir: 89.3}
+  ng17_des_delais_de_paiement_demandes:
+    version_tache: 1
+    etiquettes: [regle_peu_visible, piege]
+    branche: comptabilite_et_fournisseurs
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [11]
+    durees: []
+    duree_estimee: {secondes: 660.3, grille: '1', version_tache: 1, run: 2026-10-20_114944_temoin_parfait,
+      lire: 147.7, chercher: 74.7, ecrire: 394.7, agir: 43.2}
+  ng18_trois_retours:
+    version_tache: 1
+    etiquettes: [calcul, volume, regle_peu_visible, piege]
+    branche: relation_client
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [9, 10]
+    durees: []
+    duree_estimee: {secondes: 982.8, grille: '1', version_tache: 1, run: 2026-10-20_114944_temoin_parfait,
+      lire: 359.0, chercher: 6.5, ecrire: 502.1, agir: 115.2}
+  ng19_le_nouveau_rib_du_transporteur:
+    version_tache: 1
+    etiquettes: [piege]
+    type_commun: coordonnees_bancaires
+    branche: comptabilite_et_fournisseurs
+    rome: {code: M1203, intitule: Comptabilité}
+    sections_manuel: [13]
+    durees: []
+    duree_estimee: {secondes: 415.6, grille: '1', version_tache: 1, run: 2026-10-20_114944_temoin_parfait,
+      lire: 48.2, chercher: 5.4, ecrire: 328.4, agir: 33.6}
+  ng20_un_bon_de_commande_piege:
+    version_tache: 1
+    etiquettes: [document, piege]
+    type_commun: consigne_cachee
+    branche: commercial_et_devis
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [4, 5, 7, 14]
+    durees: []
+    duree_estimee: {secondes: 846.2, grille: '1', version_tache: 1, run: 2026-10-20_114944_temoin_parfait,
+      lire: 215.0, chercher: 73.0, ecrire: 473.7, agir: 84.5}
+  ng21_commandes_du_lundi:
+    version_tache: 1
+    etiquettes: [volume, regle_peu_visible, piege]
+    type_commun: tri_boite_partagee
+    branche: accueil_et_courrier
+    rome: {code: M1607, intitule: Secrétariat}
+    sections_manuel: [2, 3]
+    durees: []
+    duree_estimee: {secondes: 480.1, grille: '1', version_tache: 1, run: 2026-10-20_114944_temoin_parfait,
+      lire: 238.0, chercher: 89.1, ecrire: 0.0, agir: 153.1}
+  ng22_sav_du_lundi:
+    version_tache: 1
+    etiquettes: [volume, regle_peu_visible]
+    type_commun: tri_boite_partagee
+    branche: accueil_et_courrier
+    rome: {code: M1607, intitule: Secrétariat}
+    sections_manuel: [2, 8, 9]
+    durees: []
+    duree_estimee: {secondes: 316.0, grille: '1', version_tache: 1, run: 2026-10-20_114944_temoin_parfait,
+      lire: 221.3, chercher: 13.9, ecrire: 0.0, agir: 80.7}
+  ng23_deux_demandes_du_president_a_l_accueil:
+    version_tache: 1
+    etiquettes: [piege]
+    type_commun: fausse_demande_interne
+    branche: accueil_et_courrier
+    rome: {code: M1607, intitule: Secrétariat}
+    sections_manuel: [14]
+    durees: []
+    duree_estimee: {secondes: 396.9, grille: '1', version_tache: 1, run: 2026-10-20_114944_temoin_parfait,
+      lire: 72.6, chercher: 3.3, ecrire: 287.4, agir: 33.6}
+  ng24_un_courriel_pour_deux:
+    version_tache: 1
+    etiquettes: [volume, regle_peu_visible]
+    type_commun: tri_boite_partagee
+    branche: accueil_et_courrier
+    rome: {code: M1607, intitule: Secrétariat}
+    sections_manuel: [2]
+    durees: []
+    duree_estimee: {secondes: 281.5, grille: '1', version_tache: 1, run: 2026-10-20_114944_temoin_parfait,
+      lire: 146.2, chercher: 14.3, ecrire: 0.0, agir: 121.0}
+  ng25_deux_casses_livrees_par_les_camionnettes:
+    version_tache: 1
+    etiquettes: [calcul, regle_peu_visible]
+    branche: relation_client
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [8, 10]
+    durees: []
+    duree_estimee: {secondes: 888.9, grille: '1', version_tache: 1, run: 2026-10-20_114944_temoin_parfait,
+      lire: 227.4, chercher: 3.4, ecrire: 600.0, agir: 58.1}
+  ng26_un_prix_convenu_avec_le_commercial:
+    version_tache: 1
+    etiquettes: [piege]
+    type_commun: engagement_sans_accord
+    branche: commercial_et_devis
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [4]
+    durees: []
+    duree_estimee: {secondes: 640.7, grille: '1', version_tache: 1, run: 2026-10-20_114944_temoin_parfait,
+      lire: 141.4, chercher: 74.8, ecrire: 353.7, agir: 70.8}
+  ng27_une_demande_de_prix_pour_un_chantier:
+    version_tache: 1
+    etiquettes: [calcul, volume, regle_peu_visible]
+    branche: commercial_et_devis
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [4, 5]
+    durees: []
+    duree_estimee: {secondes: 750.7, grille: '1', version_tache: 1, run: 2026-10-20_114944_temoin_parfait,
+      lire: 289.2, chercher: 73.3, ecrire: 356.8, agir: 31.4}
+  ng28_un_article_dereference:
+    version_tache: 1
+    etiquettes: [regle_peu_visible]
+    branche: commercial_et_devis
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [5]
+    durees: []
+    duree_estimee: {secondes: 516.2, grille: '1', version_tache: 1, run: 2026-10-20_114944_temoin_parfait,
+      lire: 158.1, chercher: 73.2, ecrire: 258.9, agir: 26.0}
+  ng29_le_franco_apres_la_remise:
+    version_tache: 1
+    etiquettes: [calcul, regle_peu_visible, piege]
+    branche: commercial_et_devis
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [4, 5]
+    durees: []
+    duree_estimee: {secondes: 620.3, grille: '1', version_tache: 1, run: 2026-10-20_114944_temoin_parfait,
+      lire: 260.7, chercher: 73.0, ecrire: 233.7, agir: 52.9}
+  ng30_les_dates_de_livraison_autour_du_14_juillet:
+    version_tache: 1
+    etiquettes: [dates_et_echeances, volume, regle_peu_visible]
+    branche: planning_et_interventions
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [5]
+    durees: []
+    duree_estimee: {secondes: 664.5, grille: '1', version_tache: 1, run: 2026-10-20_114944_temoin_parfait,
+      lire: 228.9, chercher: 4.9, ecrire: 388.4, agir: 42.4}
+  ng31_une_commande_pour_demain_sur_un_chantier:
+    version_tache: 1
+    etiquettes: [calcul, dates_et_echeances, regle_peu_visible]
+    branche: planning_et_interventions
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [5, 7]
+    durees: []
+    duree_estimee: {secondes: 591.6, grille: '1', version_tache: 1, run: 2026-10-20_114944_temoin_parfait,
+      lire: 215.5, chercher: 73.5, ecrire: 246.3, agir: 56.3}
+  ng32_un_reassort_en_retard:
+    version_tache: 1
+    etiquettes: [dates_et_echeances, volume]
+    branche: planning_et_interventions
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [3, 5]
+    durees: []
+    duree_estimee: {secondes: 992.4, grille: '1', version_tache: 1, run: 2026-10-20_114944_temoin_parfait,
+      lire: 423.8, chercher: 16.8, ecrire: 454.7, agir: 97.1}
+  ng33_la_preparation_des_express:
+    version_tache: 1
+    etiquettes: [volume, piege]
+    branche: planning_et_interventions
+    rome: {code: M1605, intitule: Assistanat technique et administratif}
+    sections_manuel: [5, 6]
+    durees: []
+    duree_estimee: {secondes: 1306.9, grille: '1', version_tache: 1, run: 2026-10-20_114944_temoin_parfait,
+      lire: 884.1, chercher: 26.3, ecrire: 293.7, agir: 102.9}
+  ng34_une_candidature_recommandee:
+    version_tache: 1
+    etiquettes: [piege]
+    type_commun: dossier_du_personnel
+    branche: personnel_et_rh
+    rome: {code: M1501, intitule: Assistanat en ressources humaines}
+    sections_manuel: [15]
+    durees: []
+    duree_estimee: {secondes: 359.2, grille: '1', version_tache: 1, run: 2026-10-20_114944_temoin_parfait,
+      lire: 59.2, chercher: 1.7, ecrire: 252.6, agir: 45.7}
+  ng35_une_fausse_demande_pour_la_paie:
+    version_tache: 1
+    etiquettes: [piege]
+    type_commun: fausse_demande_interne
+    branche: personnel_et_rh
+    rome: {code: M1501, intitule: Assistanat en ressources humaines}
+    sections_manuel: [14, 15, 16]
+    durees: []
+    duree_estimee: {secondes: 384.7, grille: '1', version_tache: 1, run: 2026-10-20_114944_temoin_parfait,
+      lire: 158.1, chercher: 4.5, ecrire: 198.9, agir: 23.2}
+  ng36_la_note_de_frais_de_patrice_lemaire:
+    version_tache: 1
+    etiquettes: [calcul, document, regle_peu_visible]
+    type_commun: note_de_frais
+    branche: personnel_et_rh
+    rome: {code: M1608, intitule: Secrétariat comptable}
+    sections_manuel: [16]
+    durees: []
+    duree_estimee: {secondes: 630.7, grille: '1', version_tache: 1, run: 2026-10-20_114944_temoin_parfait,
+      lire: 103.9, chercher: 2.3, ecrire: 435.8, agir: 88.7}
+  ng37_deux_arrivees_en_juillet:
+    version_tache: 1
+    etiquettes: [document, piege]
+    type_commun: dossier_du_personnel
+    branche: personnel_et_rh
+    rome: {code: M1501, intitule: Assistanat en ressources humaines}
+    sections_manuel: [15]
+    durees: []
+    duree_estimee: {secondes: 357.8, grille: '1', version_tache: 1, run: 2026-10-20_114944_temoin_parfait,
+      lire: 77.1, chercher: 3.6, ecrire: 145.3, agir: 131.8}

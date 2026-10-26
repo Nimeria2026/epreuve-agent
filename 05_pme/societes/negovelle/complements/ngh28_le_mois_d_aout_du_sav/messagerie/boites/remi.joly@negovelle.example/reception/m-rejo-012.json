@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-rejo-012",
+  "de": {
+    "nom": "Nathalie Brunet",
+    "adresse": "nathalie.brunet@negovelle.example"
+  },
+  "a": [
+    "remi.joly@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Robinets rouillés",
+  "date": "2026-08-07T16:42:00+02:00",
+  "corps": "Rémi, un de mes dossiers ouverts, à reprendre.\n\nNathalie\n\n----- Message transféré -----\nDe : Anne Gonnet <anne.gonnet@serrurerie-rigaud.example>\nDate : 2026-07-30T16:20:00+02:00\nObjet : Robinets rouillés\n\nBonjour,\n\nLa livraison de ce matin, BL-2026-01899, est arrivée dans un carton mouillé : 4 robinets PLB-12401 sont rouillés. Nous avons écrit la réserve sur le récépissé.\n\nAnne Gonnet\nSerrurerie Rigaud",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

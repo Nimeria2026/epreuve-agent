@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-901",
+  "de": {
+    "nom": "Valérie Perrot",
+    "adresse": "valerie.perrot@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis climatisation",
+  "date": "2027-01-28T09:10:00+01:00",
+  "corps": "Bonjour,\n\nJe voudrais un devis pour climatiser mon séjour, avant l'été.\n\nValérie Perrot, 65 rue de la Loire, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,10 @@
+# Fiche d'un fournisseur de Négovelle. Données FICTIVES.
+nom: Abrasifs et colles du Val-Corvalet
+activite: fabricant de consommables d'atelier
+adresse: 1 zone d'activités des Grands Prés, 36999 Saulvenne (FICTIF)
+telephone: 02 61 91 72 29
+courriel_commandes: commandes@abrasifs-et-colles-du-val-corvalet.example
+courriel_facturation: facturation@abrasifs-et-colles-du-val-corvalet.example
+iban: FR76 9999 9488 3370 3026 5710 316 (FICTIF)
+conditions: paiement à 30 jours date de facture
+minimum_de_commande: 300,00 € HT

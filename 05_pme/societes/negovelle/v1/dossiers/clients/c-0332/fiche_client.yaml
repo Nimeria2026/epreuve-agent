@@ -1,0 +1,28 @@
+# Fiche du client c-0332 de Négovelle. Données FICTIVES.
+code: c-0332
+nom: Base de loisirs de Saulvenne
+type: collectivite
+adresse: 121 rue des Lilas, 36999 Saulvenne (FICTIF)
+telephone: 02 61 91 99 64
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Brigitte Lelièvre
+  fonction: responsable des services techniques
+  courriel: brigitte.lelievre@base-de-loisirs-de-saulvenne.example
+- nom: Marcel Foucault
+  fonction: secrétaire de mairie
+  courriel: marcel.foucault@base-de-loisirs-de-saulvenne.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 121 rue des Lilas, 36999 Saulvenne (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2010-03-01'
+limite_encours_euros: 2000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

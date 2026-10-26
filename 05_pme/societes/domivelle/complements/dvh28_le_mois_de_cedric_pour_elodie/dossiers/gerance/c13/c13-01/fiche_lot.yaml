@@ -1,0 +1,19 @@
+# Fiche du lot c13-01. Données FICTIVES.
+lot: c13-01
+adresse: 25 rue Saint-Martin, 18999 Montclavel-sur-Cher (FICTIF)
+type: T3
+surface_m2: 66
+locataire:
+  nom: M. Guy Coste
+  courriel: guy.coste@courriel.example
+  telephone: 06 39 98 77 23
+  entree: '2023-10-24'
+bail:
+  signature: '2023-10-24'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 637,00 €
+  depot_de_garantie: 607,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T2
+dpe:
+  classe: E

@@ -1,0 +1,10 @@
+# Fiche d'un fournisseur de Négovelle. Données FICTIVES.
+nom: Électroportatif de la Croisette
+activite: distributeur d'outillage électroportatif
+adresse: 39 parc d'activités de la Gare, 36999 Fontclavier (FICTIF)
+telephone: 02 61 91 68 30
+courriel_commandes: commandes@electroportatif-de-la-croisette.example
+courriel_facturation: facturation@electroportatif-de-la-croisette.example
+iban: FR76 9999 9223 8722 1143 4806 806 (FICTIF)
+conditions: paiement à 45 jours fin de mois
+minimum_de_commande: 150,00 € HT

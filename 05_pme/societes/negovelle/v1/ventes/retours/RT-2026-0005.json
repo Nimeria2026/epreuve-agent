@@ -1,0 +1,15 @@
+{
+  "numero": "RT-2026-0005",
+  "livraison": "BL-2026-01781",
+  "client": "c-0128",
+  "date": "2026-07-02T14:15:00+02:00",
+  "lignes": [
+    {
+      "reference": "ELE-11290",
+      "quantite": 1,
+      "etat": "rebut"
+    }
+  ],
+  "motif": "article abîmé au transport",
+  "enregistre_par": "remi.joly"
+}

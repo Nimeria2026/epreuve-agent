@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0548"
+nom: "Jean André"
+type: "particulier"
+adresse: "100 rue de la Loire, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "jean.andre@courriel.example"
+telephone: "06 39 98 51 28"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2021-10-24"
+  mois_anniversaire: "octobre"
+  derniere_visite: "2026-10-15"

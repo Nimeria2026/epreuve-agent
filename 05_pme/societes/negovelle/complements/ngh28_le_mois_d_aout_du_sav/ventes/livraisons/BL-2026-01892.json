@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01892",
+  "commande": "CO-2026-02072",
+  "client": "c-0135",
+  "date_expedition": "2026-07-23",
+  "date_livraison": "2026-07-23",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "37 avenue Pasteur, 36999 Saulvenne (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "ELE-12891",
+      "libelle": "Projecteur LED 30 W, à détecteur",
+      "quantite": 2
+    }
+  ],
+  "reserves": null,
+  "signataire": "Sylvain Bouvier",
+  "statut": "livre"
+}

@@ -1,0 +1,29 @@
+{
+  "identifiant": "m-brca-021",
+  "de": {
+    "nom": "Kévin Lebrun",
+    "adresse": "kevin.lebrun@messagerie-perso.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Candidature : préparateur de commandes",
+  "date": "2026-08-20T20:15:00+02:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ma candidature au poste de préparateur de commandes, mon CV et ma lettre.\n\nBien cordialement,\nKévin Lebrun",
+  "pieces_jointes": [
+    {
+      "nom": "cv.pdf",
+      "fichier": "pieces/m-brca-021/cv.pdf",
+      "taille_octets": 776
+    },
+    {
+      "nom": "lettre.md",
+      "fichier": "pieces/m-brca-021/lettre.md",
+      "taille_octets": 319
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

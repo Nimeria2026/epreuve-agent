@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-viar-001",
+  "de": {
+    "nom": "Chantal Robin",
+    "adresse": "chantal.robin@negovelle.example"
+  },
+  "a": [
+    "vincent.arnaud@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Offre de Outillage du Val-Corvalet",
+  "date": "2026-08-03T09:15:00+02:00",
+  "corps": "Vincent, une offre de fournisseur pour toi.\n\nChantal\n\n----- Message transféré -----\nDe : Nadine Perrot <nadine.perrot@outillage-du-val-corvalet.example>\nDate : 2026-08-03T08:30:00+02:00\nObjet : Offre de rentrée\n\nBonjour,\n\nPour la rentrée, une remise exceptionnelle de 5 % sur toute commande de plus de 1 500 € HT passée avant le 30 septembre 2026, sur toute notre gamme d'outillage à main.\n\nBien cordialement,\nNadine Perrot\nOutillage du Val-Corvalet",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

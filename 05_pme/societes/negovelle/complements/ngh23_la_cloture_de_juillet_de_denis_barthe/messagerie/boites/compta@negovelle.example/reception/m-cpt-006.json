@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-006",
+  "de": {
+    "nom": "Outillage du Val-Corvalet",
+    "adresse": "facturation@outillage-du-val-corvalet.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture F29514",
+  "date": "2026-07-29T10:30:00+02:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-jointe notre facture F29514 du 15 juillet 2026, pour votre commande CA-2026-0305 :\n- OUT-10465, Clé mixte 30 mm : 400 x 10,55 € HT = 4 220,00 €\n- OUT-11127, Marteau de menuisier 200 g : 20 x 16,49 € HT = 329,80 €\n\nTotal HT : 4 549,80 € ; TVA 20 % : 909,96 € ; total TTC : 5 459,76 €. Paiement à 45 jours fin de mois.\n\nService facturation\nOutillage du Val-Corvalet",
+  "pieces_jointes": [
+    {
+      "nom": "F29514.pdf",
+      "fichier": "pieces/m-cpt-006/F29514.pdf",
+      "taille_octets": 893
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

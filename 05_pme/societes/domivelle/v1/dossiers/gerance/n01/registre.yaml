@@ -1,0 +1,189 @@
+# Registre des lots en gestion, n01. Données FICTIVES.
+immeuble: n01
+nature: immeuble collectif
+adresse: 41 rue des Vignes, 18999 Vernillac (FICTIF)
+secteur: nord
+gestionnaire: Élodie Chauvin
+distance_agence_km: 9
+annee_construction: 1972
+gardien: false
+copropriete_du_syndic: null
+lots:
+- lot: n01-01
+  type: T4
+  surface_m2: 75
+  etage: 0
+  proprietaire: p-0001
+  locataire: Mme Denise Langlois
+  entree: '2019-02-19'
+  loyer_hors_charges: 654,00 €
+  provision_sur_charges: 77,00 €
+  depot_de_garantie: 557,00 €
+  revision: chaque 19 février
+  trimestre_irl: T4
+  dpe: C
+- lot: n01-02
+  type: T1
+  surface_m2: 31
+  etage: 0
+  proprietaire: p-0002
+  locataire: M. Serge Fabre
+  entree: '2015-11-28'
+  loyer_hors_charges: 265,00 €
+  provision_sur_charges: 92,00 €
+  depot_de_garantie: 212,00 €
+  revision: chaque 28 novembre
+  trimestre_irl: T3
+  dpe: C
+- lot: n01-03
+  type: T3
+  surface_m2: 69
+  etage: 0
+  proprietaire: p-0002
+  locataire: Mme Agnès Fournier
+  entree: '2015-09-22'
+  loyer_hors_charges: 553,00 €
+  provision_sur_charges: 32,00 €
+  depot_de_garantie: 442,00 €
+  revision: chaque 22 septembre
+  trimestre_irl: T2
+  dpe: C
+- lot: n01-04
+  type: T1
+  surface_m2: 33
+  etage: 0
+  proprietaire: p-0003
+  locataire: M. Jacques Lejeune
+  entree: '2021-02-17'
+  loyer_hors_charges: 265,00 €
+  provision_sur_charges: 51,00 €
+  depot_de_garantie: 236,00 €
+  revision: chaque 17 février
+  trimestre_irl: T4
+  dpe: E
+- lot: n01-05
+  type: T5
+  surface_m2: 92
+  etage: 1
+  proprietaire: p-0004
+  locataire: Mme Aurélie Leroux
+  entree: '2015-07-12'
+  loyer_hors_charges: 723,00 €
+  provision_sur_charges: 104,00 €
+  depot_de_garantie: 578,00 €
+  revision: chaque 12 juillet
+  trimestre_irl: T1
+  dpe: C
+- lot: n01-06
+  type: T3
+  surface_m2: 66
+  etage: 1
+  proprietaire: p-0004
+  locataire: vacant
+  loyer_hors_charges: 610,00 €
+  provision_sur_charges: 41,00 €
+  dpe: D
+- lot: n01-07
+  type: T3
+  surface_m2: 69
+  etage: 1
+  proprietaire: p-0005
+  locataire: M. Pierre Besnard
+  entree: '2025-12-21'
+  loyer_hors_charges: 645,00 €
+  provision_sur_charges: 65,00 €
+  depot_de_garantie: 645,00 €
+  revision: chaque 21 décembre
+  trimestre_irl: T3
+  dpe: F
+- lot: n01-08
+  type: T3
+  surface_m2: 59
+  etage: 1
+  proprietaire: p-0006
+  locataire: M. Christian Paris
+  entree: '2018-07-14'
+  loyer_hors_charges: 481,00 €
+  provision_sur_charges: 49,00 €
+  depot_de_garantie: 409,00 €
+  revision: chaque 14 juillet
+  trimestre_irl: T1
+  dpe: A
+- lot: n01-09
+  type: T1
+  surface_m2: 30
+  etage: 2
+  proprietaire: p-0007
+  locataire: Mme Amandine Rousset
+  entree: '2018-01-13'
+  loyer_hors_charges: 267,00 €
+  provision_sur_charges: 65,00 €
+  depot_de_garantie: 222,00 €
+  revision: chaque 13 janvier
+  trimestre_irl: T3
+  dpe: C
+- lot: n01-10
+  type: T1
+  surface_m2: 29
+  etage: 2
+  proprietaire: p-0008
+  locataire: M. Maxime Leclerc
+  entree: '2016-06-03'
+  loyer_hors_charges: 252,00 €
+  provision_sur_charges: 119,00 €
+  depot_de_garantie: 202,00 €
+  revision: chaque 3 juin
+  trimestre_irl: T1
+  dpe: E
+- lot: n01-11
+  type: T2
+  surface_m2: 44
+  etage: 2
+  proprietaire: p-0002
+  locataire: Mme Josiane Simon
+  entree: '2023-12-22'
+  loyer_hors_charges: 360,00 €
+  provision_sur_charges: 58,00 €
+  depot_de_garantie: 343,00 €
+  revision: chaque 22 décembre
+  trimestre_irl: T3
+  dpe: D
+- lot: n01-12
+  type: T2
+  surface_m2: 50
+  etage: 2
+  proprietaire: p-0009
+  locataire: Mme Agnès Lemaire
+  entree: '2017-12-12'
+  loyer_hors_charges: 439,00 €
+  provision_sur_charges: 80,00 €
+  depot_de_garantie: 366,00 €
+  revision: chaque 12 décembre
+  trimestre_irl: T3
+  dpe: E
+- lot: n01-13
+  type: T2
+  surface_m2: 43
+  etage: 3
+  proprietaire: p-0004
+  locataire: Mme Corinne Mathieu
+  entree: '2020-11-14'
+  loyer_hors_charges: 409,00 €
+  provision_sur_charges: 51,00 €
+  depot_de_garantie: 364,00 €
+  revision: chaque 14 novembre
+  trimestre_irl: T3
+  dpe: F
+- lot: n01-14
+  type: T3
+  surface_m2: 64
+  etage: 3
+  proprietaire: p-0010
+  locataire: M. Gérard Moreau
+  entree: '2013-01-22'
+  loyer_hors_charges: 529,00 €
+  provision_sur_charges: 115,00 €
+  depot_de_garantie: 399,00 €
+  revision: chaque 22 janvier
+  trimestre_irl: T3
+  dpe: E

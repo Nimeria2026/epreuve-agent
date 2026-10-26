@@ -1,0 +1,8 @@
+# Fiche fournisseur Calorelle. Données FICTIVES.
+nom: "Visserie des Hautes-Fresnes"
+activite: "visserie"
+adresse: "72 zone d'activité de Brenneval, 45999 Valmont-sur-Loire (FICTIF)"
+telephone: "02 61 91 20 45"
+courriel_facturation: "compta@visserie-des-hautes-fresnes.example"
+iban: "FR76 9999 9866 8433 3539 8126 370 (FICTIF)"
+conditions: "paiement à 30 jours fin de mois"

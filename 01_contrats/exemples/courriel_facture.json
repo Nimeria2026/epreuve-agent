@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-001",
+  "de": {
+    "nom": "Thermopièces Loire",
+    "adresse": "factures@thermopieces-loire.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture F-2026-1187",
+  "date": "2026-11-02T07:48:00+01:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-jointe notre facture F-2026-1187 du 30 octobre 2026.\n\nCordialement,\nService facturation, Thermopièces Loire (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "Facture_F-2026-1187.pdf",
+      "fichier": "pieces/m-cpt-001/Facture_F-2026-1187.pdf",
+      "taille_octets": 1834
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

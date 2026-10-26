@@ -1,0 +1,79 @@
+{
+  "numero": "CO-2026-01811",
+  "client": "c-0316",
+  "reference_client": null,
+  "cree_le": "2026-06-22T09:10:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "78 rue des Jardins, 36999 Corvalet (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "QUI-11698",
+      "libelle": "Cylindre européen 50x30 mm, 3 clés",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 46.6,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 44.74,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 134.22
+    },
+    {
+      "reference": "QUI-12172",
+      "libelle": "Paumelle 120 mm, inox, sachet de 4",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 8.25,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 7.92,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 15.84
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 165.06,
+  "total_tva_euros": 33.01,
+  "total_ttc_euros": 198.07,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01660"
+  ],
+  "facture": "FC-2026-1292",
+  "historique": [
+    {
+      "date": "2026-06-22T09:10:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-22T09:12:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-23T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01660"
+    },
+    {
+      "date": "2026-06-23T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01660"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1292"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-rejo-001",
+  "de": {
+    "nom": "Nathalie Brunet",
+    "adresse": "nathalie.brunet@negovelle.example"
+  },
+  "a": [
+    "remi.joly@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Litige Gautier Bâtiment, BL-2026-01758",
+  "date": "2026-07-06T07:45:00+02:00",
+  "corps": "Rémi,\n\nJe pars en congé ce midi et je n'aurai pas le temps de faire l'avoir du litige de Gautier Bâtiment (c-0210) : livraison BL-2026-01758 du 29 juin, par Transports Delorme. Un colis manquait ; leur chauffeur l'a noté en réserve sur le récépissé, qui est au bon de livraison. J'ai déjà écrit au transporteur. Peux-tu faire l'avoir et prévenir le client ?\n\nMerci,\nNathalie",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

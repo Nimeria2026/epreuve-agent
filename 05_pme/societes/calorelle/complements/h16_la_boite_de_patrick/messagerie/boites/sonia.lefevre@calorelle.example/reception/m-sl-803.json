@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-sl-803",
+  "de": {
+    "nom": "Robinetterie du Val-Mauvoir",
+    "adresse": "compta@robinetterie-du-val-mauvoir.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Votre facture RVM-2611",
+  "date": "2026-11-20T10:20:00+01:00",
+  "corps": "Bonjour,\n\nCi-joint notre facture RVM-2611 du 18 novembre 2026, 1 656,00 € TTC : vannes et robinetterie de chaufferie.\n\nRobinetterie du Val-Mauvoir (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "RVM-2611.pdf",
+      "fichier": "pieces/m-sl-803/RVM-2611.pdf",
+      "taille_octets": 1067
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

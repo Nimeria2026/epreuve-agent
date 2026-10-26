@@ -1,0 +1,67 @@
+{
+  "numero": "CO-2026-02013",
+  "client": "c-0246",
+  "reference_client": null,
+  "cree_le": "2026-07-03T09:10:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "137 rue du Château, 36999 Vaumoreau-sur-Indre (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-10065",
+      "libelle": "Bombe de peinture antirouille, rouge fluo, aérosol de 500 ml",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 5.05,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 4.85,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 58.2
+    },
+    {
+      "reference": "QUI-10530",
+      "libelle": "Cadenas à combinaison 50 mm, 3 clés",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 37.95,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 36.43,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 109.29
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 182.49,
+  "total_tva_euros": 36.5,
+  "total_ttc_euros": 218.99,
+  "statut": "expediee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01860"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T09:10:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T09:12:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T16:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01860"
+    }
+  ]
+}

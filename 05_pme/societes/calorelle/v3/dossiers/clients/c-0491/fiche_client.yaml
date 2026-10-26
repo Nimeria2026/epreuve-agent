@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0491"
+nom: "Pierre Mercier"
+type: "particulier"
+adresse: "59 rue du Moulin, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "pierre.mercier@courriel.example"
+telephone: "06 39 98 51 17"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2023-09-22"
+  mois_anniversaire: "septembre"
+  derniere_visite: "2026-09-03"

@@ -1,0 +1,28 @@
+# Fiche du client c-0196 de Négovelle. Données FICTIVES.
+code: c-0196
+nom: Menuiserie Delaunay
+type: artisan
+adresse: 61 rue des Forges, 36999 Saulvenne (FICTIF)
+telephone: 02 61 91 88 10
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Jacqueline Granger
+  fonction: gérante
+  courriel: jacqueline.granger@menuiserie-delaunay.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 61 rue des Forges, 36999 Saulvenne (FICTIF)
+- code: L2
+  libelle: chantier déclaré
+  adresse: 6 rue de la Halle, 36999 Corvalet (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2015-08-01'
+limite_encours_euros: 7500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

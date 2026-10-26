@@ -1,0 +1,34 @@
+{
+  "numero": "BL-2026-01772",
+  "commande": "CO-2026-01923",
+  "client": "c-0114",
+  "date_expedition": "2026-06-30",
+  "date_livraison": "2026-06-30",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "10 zone industrielle des Brandes, 36999 Vendrigny (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "CON-11372",
+      "libelle": "Mastic hybride MS polymère, cartouche de 310 ml, blanc",
+      "quantite": 48
+    },
+    {
+      "reference": "ENT-10302",
+      "libelle": "Chiffon d'essuyage coton de couleur, carton de 5 kg",
+      "quantite": 10
+    },
+    {
+      "reference": "FIX-10457",
+      "libelle": "Cheville nylon 5x40, boîte de 50",
+      "quantite": 10
+    }
+  ],
+  "reserves": null,
+  "signataire": "François Pasquet",
+  "statut": "livre"
+}

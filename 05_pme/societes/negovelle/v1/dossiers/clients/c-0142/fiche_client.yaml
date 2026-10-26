@@ -1,0 +1,25 @@
+# Fiche du client c-0142 de Négovelle. Données FICTIVES.
+code: c-0142
+nom: Maçonnerie Lelièvre
+type: artisan
+adresse: 48 avenue Pasteur, 36999 Fontclavier (FICTIF)
+telephone: 02 61 91 87 68
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Arnaud Baudouin
+  fonction: gérant
+  courriel: arnaud.baudouin@maconnerie-lelievre.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 48 avenue Pasteur, 36999 Fontclavier (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2011-09-01'
+limite_encours_euros: 3000.0
+livraisons_partielles: false
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

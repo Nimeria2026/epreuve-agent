@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-maca-103",
+  "de": {
+    "nom": "Alice Vasseur",
+    "adresse": "alice.vasseur@mel-perso.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "La fuite du Clos des Forges",
+  "date": "2026-06-07T18:25:00+02:00",
+  "corps": "Bonjour,\n\nJ'apprends la fuite de la colonne. Le conseil syndical ne veut pas de dépense imprévue : attendons la prochaine assemblée pour décider des travaux.\n\nAlice Vasseur, présidente du conseil syndical du Clos des Forges",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

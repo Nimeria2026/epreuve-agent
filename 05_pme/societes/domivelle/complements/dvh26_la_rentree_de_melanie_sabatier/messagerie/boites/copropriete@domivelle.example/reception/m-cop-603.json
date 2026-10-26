@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cop-603",
+  "de": {
+    "nom": "Claude Maillot",
+    "adresse": "claude.maillot@boite-postale.example"
+  },
+  "a": [
+    "copropriete@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Notre assemblée",
+  "date": "2026-08-13T17:45:00+02:00",
+  "corps": "Bonjour,\n\nLe conseil syndical du Clos Fleuri voudrait savoir quand Mme Fournel compte réunir l'assemblée pour les travaux de la chaufferie.\n\nClaude Maillot, président du conseil syndical",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

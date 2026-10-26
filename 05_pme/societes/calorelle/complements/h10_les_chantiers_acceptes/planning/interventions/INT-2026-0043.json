@@ -1,0 +1,14 @@
+{
+  "numero": "INT-2026-0043",
+  "client": "c-0282",
+  "techniciens": [
+    "david.roussel",
+    "kevin.lambert"
+  ],
+  "debut": "2026-11-13T08:00:00+01:00",
+  "fin": "2026-11-13T12:00:00+01:00",
+  "nature": "installation",
+  "objet": "Remplacement d'une chaudière gaz murale",
+  "statut": "planifiee",
+  "cree_par": "marc.duval"
+}

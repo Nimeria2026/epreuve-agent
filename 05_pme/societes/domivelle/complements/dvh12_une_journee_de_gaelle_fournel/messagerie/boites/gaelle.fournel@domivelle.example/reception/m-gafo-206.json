@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-gafo-206",
+  "de": {
+    "nom": "Bruno Chapuis",
+    "adresse": "bruno.chapuis@boite-postale.example"
+  },
+  "a": [
+    "gaelle.fournel@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Question pour la prochaine assemblée",
+  "date": "2026-06-02T08:30:00+02:00",
+  "corps": "Madame,\n\nJe vous notifie, pour la prochaine assemblée générale des Charmilles, la question suivante : l'installation d'un abri à vélos fermé dans la cour, sur devis à présenter.\n\nBruno Chapuis, lot 1",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-601",
+  "de": {
+    "nom": "Syndic de la Résidence de Brenneval",
+    "adresse": "contact@syndic-de-la-residence-de-brenneval-223.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Votre devis DV-2026-012",
+  "date": "2026-11-21T10:05:00+01:00",
+  "corps": "Bonjour Monsieur Benali,\n\nLe conseil syndical a examiné votre devis DV-2026-012 pour la chaufferie. Une autre entreprise nous propose une offre proche : si vous nous consentez une remise de 8 %, nous présenterons la vôtre à l'assemblée de samedi.\n\nCordialement,\nLe syndic de la Résidence de Brenneval, 38 rue du Moulin, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

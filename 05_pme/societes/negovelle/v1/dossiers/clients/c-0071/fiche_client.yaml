@@ -1,0 +1,25 @@
+# Fiche du client c-0071 de Négovelle. Données FICTIVES.
+code: c-0071
+nom: Menuiserie Gabriel
+type: artisan
+adresse: 73 chemin des Prés, 36999 Brissonne (FICTIF)
+telephone: 02 61 91 77 33
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: André Ducros
+  fonction: gérant
+  courriel: andre.ducros@menuiserie-gabriel.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 73 chemin des Prés, 36999 Brissonne (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2008-05-01'
+limite_encours_euros: 1500.0
+livraisons_partielles: false
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

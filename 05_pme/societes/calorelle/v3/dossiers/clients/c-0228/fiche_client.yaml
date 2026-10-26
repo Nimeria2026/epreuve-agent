@@ -1,0 +1,8 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0228"
+nom: "Pierre Laurent"
+type: "particulier"
+adresse: "71 allée des Peupliers, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "pierre.laurent@courriel.example"
+telephone: "06 39 98 50 57"
+charge_d_affaires: "julie.perrin"

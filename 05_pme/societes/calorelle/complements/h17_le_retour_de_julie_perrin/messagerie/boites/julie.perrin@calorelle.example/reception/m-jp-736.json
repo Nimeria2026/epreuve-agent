@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-736",
+  "de": {
+    "nom": "Hélène Legrand",
+    "adresse": "helene.legrand@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture FC-2026-0471",
+  "date": "2026-12-22T16:30:00+01:00",
+  "corps": "Madame Perrin,\n\nVotre technicien est venu le 17 décembre pour notre chaudière, mais sans la pièce : il doit revenir. Je reçois la facture FC-2026-0471, 49,50 € pour ce déplacement. Notre contrat Sérénité Plus comprend le dépannage, et je ne trouve pas normal de payer un déplacement pour rien : pouvez-vous l'annuler ?\n\nHélène Legrand, 32 place du Marché, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

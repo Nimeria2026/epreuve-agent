@@ -1,0 +1,90 @@
+{
+  "numero": "CO-2026-01846",
+  "client": "c-0194",
+  "reference_client": null,
+  "cree_le": "2026-06-24T09:10:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "135 place du Marché, 36999 Ardillac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-10212",
+      "libelle": "Ampoule LED G9 9 W, 2700 K",
+      "quantite": 20,
+      "prix_tarif_ht_euros": 7.1,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 7.1,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 142.0
+    },
+    {
+      "reference": "OUT-12450",
+      "libelle": "Spatule japonaise 150 mm",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 12.0,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 12.0,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 48.0
+    },
+    {
+      "reference": "VIS-10988",
+      "libelle": "Vis à bois tête fraisée 3,5x50, zinguée, boîte de 100",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 19.45,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 19.45,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 77.8
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 282.8,
+  "total_tva_euros": 56.56,
+  "total_ttc_euros": 339.36,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01695"
+  ],
+  "facture": "FC-2026-1175",
+  "historique": [
+    {
+      "date": "2026-06-24T09:10:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-24T09:12:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-25T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01695"
+    },
+    {
+      "date": "2026-06-25T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01695"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1175"
+    }
+  ]
+}

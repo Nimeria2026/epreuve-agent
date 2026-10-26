@@ -1,0 +1,83 @@
+# Registre des lots en gestion, n14. Données FICTIVES.
+immeuble: n14
+nature: groupe de maisons
+adresse: 58 rue de la Halle, 18999 Vernillac (FICTIF)
+secteur: nord
+gestionnaire: Élodie Chauvin
+distance_agence_km: 10
+annee_construction: 1983
+gardien: false
+copropriete_du_syndic: null
+lots:
+- lot: n14-01
+  type: maison T3
+  surface_m2: 84
+  proprietaire: p-0343
+  locataire: M. Paul Aubert
+  entree: '2012-07-04'
+  loyer_hors_charges: 762,00 €
+  provision_sur_charges: 14,00 €
+  depot_de_garantie: 575,00 €
+  revision: chaque 4 juillet
+  trimestre_irl: T1
+  dpe: F
+- lot: n14-02
+  type: maison T5
+  surface_m2: 120
+  proprietaire: p-0320
+  locataire: Mme Madeleine Prévost
+  entree: '2024-03-31'
+  loyer_hors_charges: 1 079,00 €
+  provision_sur_charges: 16,00 €
+  depot_de_garantie: 1 028,00 €
+  revision: chaque 31 mars
+  trimestre_irl: T4
+  dpe: B
+- lot: n14-03
+  type: maison T5
+  surface_m2: 118
+  proprietaire: p-0344
+  locataire: Mme Valérie Boisseau
+  entree: '2025-07-13'
+  loyer_hors_charges: 970,00 €
+  provision_sur_charges: 8,00 €
+  depot_de_garantie: 970,00 €
+  revision: chaque 13 juillet
+  trimestre_irl: T1
+  dpe: D
+- lot: n14-04
+  type: maison T5
+  surface_m2: 115
+  proprietaire: p-0345
+  locataire: M. Michel Raymond
+  entree: '2013-09-24'
+  loyer_hors_charges: 1 026,00 €
+  provision_sur_charges: 17,00 €
+  depot_de_garantie: 789,00 €
+  revision: chaque 24 septembre
+  trimestre_irl: T2
+  dpe: E
+- lot: n14-05
+  type: maison T5
+  surface_m2: 110
+  proprietaire: p-0346
+  locataire: Mme Brigitte Vincent
+  entree: '2016-11-01'
+  loyer_hors_charges: 1 036,00 €
+  provision_sur_charges: 13,00 €
+  depot_de_garantie: 846,00 €
+  revision: chaque 1er novembre
+  trimestre_irl: T3
+  dpe: C
+- lot: n14-06
+  type: maison T3
+  surface_m2: 71
+  proprietaire: p-0347
+  locataire: M. Olivier Fontaine
+  entree: '2021-12-18'
+  loyer_hors_charges: 579,00 €
+  provision_sur_charges: 17,00 €
+  depot_de_garantie: 526,00 €
+  revision: chaque 18 décembre
+  trimestre_irl: T3
+  dpe: D

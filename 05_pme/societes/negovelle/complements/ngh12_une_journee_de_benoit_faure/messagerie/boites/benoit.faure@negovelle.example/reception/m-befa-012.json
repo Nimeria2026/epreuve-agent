@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-befa-012",
+  "de": {
+    "nom": "Roger Baudouin",
+    "adresse": "roger.baudouin@fleurot-et-fils.example"
+  },
+  "a": [
+    "benoit.faure@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-06T07:31:00+02:00",
+  "corps": "Bonjour Benoît,\n\nMerci de nous livrer au siège :\n- 2 x ELP-11380, Meuleuse d'angle 125 mm, 2000 W\n- 2 x ELP-11429, Meuleuse d'angle 150 mm, 750 W\n\nCordialement,\nRoger Baudouin\nFleurot et Fils",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

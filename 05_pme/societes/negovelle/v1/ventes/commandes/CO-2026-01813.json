@@ -1,0 +1,90 @@
+{
+  "numero": "CO-2026-01813",
+  "client": "c-0047",
+  "reference_client": null,
+  "cree_le": "2026-06-22T09:10:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "3 avenue de la Gare, 36999 Laubrissac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-12204",
+      "libelle": "Ruban adhésif de masquage 50 mm, rouleau de 25 m",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 7.05,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 6.77,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 40.62
+    },
+    {
+      "reference": "VIS-13119",
+      "libelle": "Vis à bois tête fraisée 6x16, bichromatée, boîte de 200",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 22.65,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 21.74,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 43.48
+    },
+    {
+      "reference": "VIS-13919",
+      "libelle": "Vis à tôle tête cylindrique 4,2x25, zinguée, boîte de 100",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 4.35,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 4.18,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 25.08
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 124.18,
+  "total_tva_euros": 24.84,
+  "total_ttc_euros": 149.02,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01662"
+  ],
+  "facture": "FC-2026-1041",
+  "historique": [
+    {
+      "date": "2026-06-22T09:10:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-22T09:12:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-23T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01662"
+    },
+    {
+      "date": "2026-06-23T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01662"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1041"
+    }
+  ]
+}

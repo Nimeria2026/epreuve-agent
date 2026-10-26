@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01883",
+  "commande": "CO-2026-02063",
+  "client": "c-0292",
+  "date_expedition": "2026-07-20",
+  "date_livraison": "2026-07-21",
+  "transport": {
+    "mode": "transporteur",
+    "transporteur": "transports-delorme",
+    "recepisse": "TD-411950"
+  },
+  "adresse": "102 rue du Lavoir, 36999 Mérolles-en-Brenne (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "PLB-11200",
+      "libelle": "Flexible inox femelle-femelle 15x21 40 cm",
+      "quantite": 20
+    },
+    {
+      "reference": "VIS-10236",
+      "libelle": "Boulon tête hexagonale M12x60, inox A2, sachet de 10",
+      "quantite": 10
+    }
+  ],
+  "reserves": null,
+  "signataire": "Françoise Daniel",
+  "statut": "livre"
+}

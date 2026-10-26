@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0066"
+nom: "Camille Martin"
+type: "particulier"
+adresse: "78 chemin des Vignes, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "camille.martin@courriel.example"
+telephone: "06 39 98 50 15"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2019-11-15"
+  mois_anniversaire: "novembre"
+  derniere_visite: "2025-11-12"

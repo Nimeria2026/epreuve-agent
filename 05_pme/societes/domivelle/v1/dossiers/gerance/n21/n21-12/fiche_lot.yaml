@@ -1,0 +1,24 @@
+# Fiche du lot n21-12. Données FICTIVES.
+lot: n21-12
+adresse: 65 rue Émile-Zola, 18999 Vernillac (FICTIF)
+type: T2
+surface_m2: 41
+locataire:
+  nom: Mme Sophie Martel
+  courriel: sophie.martel@mel-perso.example
+  telephone: 06 39 98 65 06
+  entree: '2014-03-12'
+bail:
+  signature: '2014-03-12'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 365,00 €
+  depot_de_garantie: 281,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T4
+dpe:
+  classe: E
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

@@ -1,0 +1,8 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0238"
+nom: "Rémi Garnier"
+type: "particulier"
+adresse: "9 chemin des Vignes, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "remi.garnier@courriel.example"
+telephone: "06 39 98 50 60"
+charge_d_affaires: "julie.perrin"

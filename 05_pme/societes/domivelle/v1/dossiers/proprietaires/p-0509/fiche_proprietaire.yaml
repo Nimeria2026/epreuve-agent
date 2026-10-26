@@ -1,0 +1,11 @@
+# Fiche du propriétaire p-0509, mandant de Domivelle. Données FICTIVES.
+code: p-0509
+nom: Mme Christine Charpentier
+adresse: 58 rue du Lavoir, 18999 Montclavel-sur-Cher (FICTIF)
+courriel: christine.charpentier@mel-perso.example
+telephone: 06 39 98 73 40
+iban: FR76 9999 9951 5185 8809 9052 023 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- n38-02
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

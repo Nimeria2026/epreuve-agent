@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-019",
+  "de": {
+    "nom": "Denis Chevalier",
+    "adresse": "denis.chevalier@mel-perso.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Procès-verbal de la Résidence Le Clos Saint-Roch",
+  "date": "2026-06-05T08:09:00+02:00",
+  "corps": "Bonjour,\n\nEn tant que président du conseil syndical de la Résidence Le Clos Saint-Roch, je n'ai toujours pas reçu le procès-verbal de notre dernière assemblée.\n\nDenis Chevalier",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

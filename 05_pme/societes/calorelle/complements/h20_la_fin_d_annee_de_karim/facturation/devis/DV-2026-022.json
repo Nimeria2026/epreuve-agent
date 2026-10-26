@@ -1,0 +1,32 @@
+{
+  "numero": "DV-2026-022",
+  "client": "c-0402",
+  "objet": "Désembouage de l'installation de chauffage",
+  "lignes": [
+    {
+      "code": "DES-01",
+      "libelle": "Désembouage de l'installation de chauffage",
+      "quantite": 1,
+      "prix_unitaire_ht_euros": 420,
+      "taux_tva": 10,
+      "montant_ht_euros": 420
+    },
+    {
+      "code": "MO-01",
+      "libelle": "Main-d'œuvre de technicien",
+      "quantite": 4,
+      "prix_unitaire_ht_euros": 58,
+      "taux_tva": 10,
+      "montant_ht_euros": 232
+    }
+  ],
+  "remise_pourcent": 0,
+  "total_ht_euros": 652,
+  "total_tva_euros": 65.2,
+  "total_ttc_euros": 717.2,
+  "statut": "brouillon",
+  "cree_le": "2026-12-28T10:00:00+01:00",
+  "cree_par": "karim.benali",
+  "envoye_le": null,
+  "reponse_le": null
+}

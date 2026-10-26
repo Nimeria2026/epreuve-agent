@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-rejo-011",
+  "de": {
+    "nom": "Nathalie Brunet",
+    "adresse": "nathalie.brunet@negovelle.example"
+  },
+  "a": [
+    "remi.joly@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Livraison incomplète",
+  "date": "2026-08-07T16:41:00+02:00",
+  "corps": "Rémi, un de mes dossiers ouverts, à reprendre.\n\nNathalie\n\n----- Message transféré -----\nDe : Julien Moulin <julien.moulin@charpente-dumont.example>\nDate : 2026-07-24T18:00:00+02:00\nObjet : Livraison incomplète\n\nBonjour,\n\nNotre livraison de ce jour, BL-2026-01898, est arrivée avec deux colis sur trois : il manque 3 boîtes de goujons FIX-11576 et 2 hublots ELE-12213. Le chauffeur du transporteur l'a noté sur son récépissé.\n\nJulien Moulin\nCharpente Dumont",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

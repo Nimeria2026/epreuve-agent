@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0258"
+nom: "Philippe Bonnet"
+type: "particulier"
+adresse: "58 rue Haute, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "philippe.bonnet@courriel.example"
+telephone: "06 39 98 50 64"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2018-09-21"
+  mois_anniversaire: "septembre"
+  derniere_visite: "2026-09-17"

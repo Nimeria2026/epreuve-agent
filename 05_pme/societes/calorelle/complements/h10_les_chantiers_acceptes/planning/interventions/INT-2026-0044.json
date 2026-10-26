@@ -1,0 +1,13 @@
+{
+  "numero": "INT-2026-0044",
+  "client": "c-0346",
+  "techniciens": [
+    "romain.guerin"
+  ],
+  "debut": "2026-11-13T08:00:00+01:00",
+  "fin": "2026-11-13T10:00:00+01:00",
+  "nature": "mise_en_service",
+  "objet": "Mise en service de la chaudière gaz de l'atelier",
+  "statut": "planifiee",
+  "cree_par": "marc.duval"
+}

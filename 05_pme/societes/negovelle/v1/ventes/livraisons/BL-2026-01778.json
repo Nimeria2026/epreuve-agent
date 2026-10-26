@@ -1,0 +1,44 @@
+{
+  "numero": "BL-2026-01778",
+  "commande": "CO-2026-01929",
+  "client": "c-0044",
+  "date_expedition": "2026-06-30",
+  "date_livraison": "2026-06-30",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "29 parc d'activités de la Gare, 36999 Ardillac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "OUT-12498",
+      "libelle": "Spatule japonaise 80 mm",
+      "quantite": 2
+    },
+    {
+      "reference": "PLB-12801",
+      "libelle": "Tube PER 16 mm, gainé bleu, couronne de 100 m",
+      "quantite": 3
+    },
+    {
+      "reference": "PLB-12866",
+      "libelle": "Tube PER 20 mm, gainé bleu, couronne de 100 m",
+      "quantite": 3
+    },
+    {
+      "reference": "QUI-11584",
+      "libelle": "Cylindre européen 40x40 mm, 3 clés",
+      "quantite": 1
+    },
+    {
+      "reference": "VIS-12041",
+      "libelle": "Vis à bois tête fraisée 4,5x60, inox A2, boîte de 500",
+      "quantite": 5
+    }
+  ],
+  "reserves": null,
+  "signataire": "Louis Lagarde",
+  "statut": "livre"
+}

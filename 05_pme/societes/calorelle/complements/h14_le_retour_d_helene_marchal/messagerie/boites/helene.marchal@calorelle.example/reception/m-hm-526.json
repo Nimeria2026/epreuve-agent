@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-hm-526",
+  "de": {
+    "nom": "Syndic de la Résidence de Brenneval",
+    "adresse": "contact@syndic-de-la-residence-de-brenneval-304.example"
+  },
+  "a": [
+    "helene.marchal@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Réclamation : la visite d'entretien bâclée",
+  "date": "2026-11-21T10:30:00+01:00",
+  "corps": "Madame Marchal,\n\nLa visite d'entretien de la chaufferie, le 5 octobre, a été faite en vingt minutes, et la chaudière s'est mise en sécurité deux fois depuis. Nous attendons que Calorelle reprenne ce travail.\n\nLe syndic de la Résidence de Brenneval, 17 rue des Lilas (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-befa-002",
+  "de": {
+    "nom": "Bruno Castaing",
+    "adresse": "bruno.castaing@negovelle.example"
+  },
+  "a": [
+    "benoit.faure@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "commandes@ pendant les congés de Corinne",
+  "date": "2026-07-24T18:00:00+02:00",
+  "corps": "Benoît,\n\nCorinne est en congé du lundi 27 juillet au vendredi 7 août. Tu tiens commandes@ pendant ce temps, comme elle : chaque commande va à l'administration des ventes du secteur du client, que donne sa fiche, et tu saisis toi-même celles de l'est ; le reste suit le tableau du manuel pour contact@ (section 2). Les adresses ponctuelles attendront son retour. Laisse-lui, pour le lundi 10 août, le point de ce que tu as fait.\n\nBruno",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

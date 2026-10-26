@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-isro-001",
+  "de": {
+    "nom": "Manon Rey",
+    "adresse": "manon.rey@negovelle.example"
+  },
+  "a": [
+    "isabelle.royer@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Paysage Crozet, CO-2026-02042",
+  "date": "2026-07-06T07:20:00+02:00",
+  "corps": "Isabelle,\n\nPaysage Crozet (c-0028) me dit avoir réglé vendredi sa facture de mai, FC-2026-0626. Peux-tu débloquer sa commande CO-2026-02042 ?\n\nManon",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

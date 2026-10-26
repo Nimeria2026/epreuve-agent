@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-aubo-009",
+  "de": {
+    "nom": "Laure Morel",
+    "adresse": "laure.morel@dufour-batiment.example"
+  },
+  "a": [
+    "aurelie.bonnefoy@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Délai de paiement",
+  "date": "2026-08-14T17:00:00+02:00",
+  "corps": "Bonjour,\n\nL'été est difficile pour notre trésorerie : pouvez-vous passer notre délai de 60 à 90 jours, à partir de la facture d'août ?\n\nCordialement,\n\nLaure Morel\nDufour Bâtiment",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

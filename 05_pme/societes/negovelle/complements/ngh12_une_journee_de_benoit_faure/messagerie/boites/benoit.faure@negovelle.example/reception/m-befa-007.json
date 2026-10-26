@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-befa-007",
+  "de": {
+    "nom": "Léa Morel",
+    "adresse": "lea.morel@menuiserie-barbe.example"
+  },
+  "a": [
+    "benoit.faure@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande de charnières",
+  "date": "2026-07-06T06:35:00+02:00",
+  "corps": "Bonjour,\n\nVoici notre commande, à livrer au siège :\n- 12 x QUI-10645, Charnière de meuble à visser 50 mm, laiton\n- 10 x QUI-10767, Charnière invisible 30 mm, inox\n\nMerci,\nLéa Morel\nMenuiserie Barbe",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

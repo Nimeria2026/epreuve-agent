@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-thol-603",
+  "de": {
+    "nom": "Gaëlle Fournel",
+    "adresse": "gaelle.fournel@domivelle.example"
+  },
+  "a": [
+    "thierry.ollivier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Frais de M. Baudin",
+  "date": "2026-09-29T09:45:00+02:00",
+  "corps": "Thierry,\n\nLes 53,90 € de frais de la mise en demeure de M. Baudin (cp29, lot 2) : mets-les simplement dans les charges générales de l'exercice, ce sera plus simple que de les lui réclamer.\n\nGaëlle",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

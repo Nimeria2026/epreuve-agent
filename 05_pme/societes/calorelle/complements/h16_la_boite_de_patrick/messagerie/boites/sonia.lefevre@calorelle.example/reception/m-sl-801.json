@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-801",
+  "de": {
+    "nom": "Hélène Marchal",
+    "adresse": "helene.marchal@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "La comptabilité cette semaine",
+  "date": "2026-11-23T08:15:00+01:00",
+  "corps": "Sonia,\n\nPatrick est en arrêt maladie jusqu'au vendredi 27 novembre ; il reprend lundi 30. Depuis jeudi midi, ses courriels de comptabilite@ arrivent dans ta boîte. Tiens la comptabilité cette semaine : range les factures reçues, vérifie les notes de frais contre le barème et signale les écarts, et réponds aux fournisseurs. Soumets-moi les virements de novembre au-delà de 1 500 €, avec leur total. Pour le reste, prépare à Patrick, pour son retour, le point de ce qui est fait et de ce qu'il aura à payer d'ici la fin du mois, puis en décembre, avec pour chaque virement les coordonnées de la fiche du fournisseur. Dis-moi aussi le total des virements faits aux fournisseurs du 1er au 20 novembre, d'après le relevé que Patrick a rangé. Et contact@, comme chaque lundi.\n\nHélène (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

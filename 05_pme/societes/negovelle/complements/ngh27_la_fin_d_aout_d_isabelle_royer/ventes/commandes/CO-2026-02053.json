@@ -1,0 +1,59 @@
+{
+  "numero": "CO-2026-02053",
+  "client": "c-0333",
+  "reference_client": null,
+  "cree_le": "2026-08-24T09:30:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "29 rue des Forges, 36999 Fontclavier (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-11551",
+      "libelle": "Papier abrasif carbure de silicium, grain 180, rouleau de 25 m",
+      "quantite": 30,
+      "prix_tarif_ht_euros": 52.9,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 48.67,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 1460.1
+    },
+    {
+      "reference": "VIS-11666",
+      "libelle": "Vis à bois tête fraisée 4,5x16, bichromatée, boîte de 500",
+      "quantite": 22,
+      "prix_tarif_ht_euros": 21.25,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 19.55,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 430.1
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 1890.2,
+  "total_tva_euros": 378.04,
+  "total_ttc_euros": 2268.24,
+  "statut": "en_attente_deblocage",
+  "motif_attente": "encours dépassé : encours 1 198,44 € et commande 2 268,24 € TTC pour une limite de 3 000,00 €",
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-08-24T09:30:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": "commande du client"
+    },
+    {
+      "date": "2026-08-24T09:31:00+02:00",
+      "par": "oceane.collin",
+      "action": "mise_en_attente",
+      "detail": "encours dépassé"
+    }
+  ]
+}

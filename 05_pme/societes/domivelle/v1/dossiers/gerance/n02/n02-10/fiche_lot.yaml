@@ -1,0 +1,24 @@
+# Fiche du lot n02-10. Données FICTIVES.
+lot: n02-10
+adresse: 69 rue du Four, 18999 Vernillac (FICTIF)
+type: T5
+surface_m2: 99
+locataire:
+  nom: M. Claude Tissier
+  courriel: claude.tissier@messagerie.example
+  telephone: 06 39 98 78 19
+  entree: '2016-08-17'
+bail:
+  signature: '2016-08-17'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 816,00 €
+  depot_de_garantie: 666,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T2
+dpe:
+  classe: F
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

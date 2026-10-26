@@ -1,0 +1,90 @@
+{
+  "numero": "CO-2026-01897",
+  "client": "c-0109",
+  "reference_client": "BC-2968",
+  "cree_le": "2026-06-26T09:10:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "14 zone artisanale du Moulin, 36999 Ardillac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-12417",
+      "libelle": "Interrupteur différentiel 63 A 30 mA, type Hpi",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 116.85,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 107.5,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 215.0
+    },
+    {
+      "reference": "QUI-12768",
+      "libelle": "Serrure à larder bec-de-cane, axe 40 mm",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 18.85,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 17.34,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 86.7
+    },
+    {
+      "reference": "VIS-13495",
+      "libelle": "Vis à bois tête fraisée 6x60, bichromatée, boîte de 100",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 20.5,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 18.86,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 188.6
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 490.3,
+  "total_tva_euros": 98.06,
+  "total_ttc_euros": 588.36,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01746"
+  ],
+  "facture": "FC-2026-1098",
+  "historique": [
+    {
+      "date": "2026-06-26T09:10:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-26T09:12:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-29T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01746"
+    },
+    {
+      "date": "2026-06-29T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01746"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1098"
+    }
+  ]
+}

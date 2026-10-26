@@ -1,0 +1,29 @@
+{
+  "identifiant": "m-cpt-401",
+  "de": {
+    "nom": "Romain Guérin",
+    "adresse": "romain.guerin@calorelle.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Note de frais d'octobre",
+  "date": "2026-11-02T07:40:00+01:00",
+  "corps": "Bonjour Patrick,\n\nVoici ma note de frais d'octobre ; la note et les justificatifs sont joints.\n\n- 6 octobre : repas, journée de chantier, 18,40 €\n- 14 octobre : repas, formation chez Thermopièces Loire, 27,90 €\n- 14 octobre : trajet aller et retour pour la formation, avec ma voiture, 132 km à 0,45 €, 59,40 €\n- 14 octobre : stationnement, 4,50 €\n- 21 octobre : repas avec un client, au salon de la rénovation énergétique, 23,50 €\n- 21 octobre : trajet aller et retour pour le salon, avec ma voiture, 96 km à 0,60 €, 57,60 €\n- 21 octobre : péage, 9,80 €\n\nPour le 21, j'ai compté 0,60 € du kilomètre, comme le barème des impôts. Et Thomas m'a dit que le repas avec un client passait en entier.\n\nMerci,\nRomain (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "note_de_frais_octobre_Guerin.pdf",
+      "fichier": "pieces/m-cpt-401/note_de_frais_octobre_Guerin.pdf",
+      "taille_octets": 1295
+    },
+    {
+      "nom": "justificatifs_octobre_Guerin.pdf",
+      "fichier": "pieces/m-cpt-401/justificatifs_octobre_Guerin.pdf",
+      "taille_octets": 796
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

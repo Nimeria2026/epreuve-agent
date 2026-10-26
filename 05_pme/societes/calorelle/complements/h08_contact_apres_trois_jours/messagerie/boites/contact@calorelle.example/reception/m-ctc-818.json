@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-818",
+  "de": {
+    "nom": "Yves Perret",
+    "adresse": "yves.perret@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Désembouage",
+  "date": "2026-10-31T09:05:00+01:00",
+  "corps": "Bonjour,\n\nMes huit radiateurs chauffent mal en bas. Pouvez-vous me faire un devis de désembouage ?\n\nYves Perret (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

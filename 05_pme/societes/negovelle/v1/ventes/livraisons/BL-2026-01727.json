@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01727",
+  "commande": "CO-2026-01878",
+  "client": "c-0240",
+  "date_expedition": "2026-06-26",
+  "date_livraison": "2026-06-26",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "87 chemin des Prés, 36999 Fontclavier (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "CON-11747",
+      "libelle": "Papier abrasif corindon, grain 80, rouleau de 25 m",
+      "quantite": 3
+    },
+    {
+      "reference": "PRO-10400",
+      "libelle": "Casque antibruit pliable SNR 33 dB",
+      "quantite": 10
+    }
+  ],
+  "reserves": null,
+  "signataire": "Serge Morel",
+  "statut": "livre"
+}

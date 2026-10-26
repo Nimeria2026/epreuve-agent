@@ -1,0 +1,31 @@
+# Fiche du client c-0042 de Négovelle. Données FICTIVES.
+code: c-0042
+nom: Serrurerie Baillet
+type: artisan
+adresse: 54 rue des Peupliers, 36999 Vendrigny (FICTIF)
+telephone: 02 61 91 61 40
+secteur: est
+commercial: fabrice.mercier
+administration_des_ventes: benoit.faure
+contacts:
+- nom: Léa Forestier
+  fonction: gérante
+  courriel: lea.forestier@serrurerie-baillet.example
+- nom: Pierre Legendre
+  fonction: conjoint collaborateur
+  courriel: pierre.legendre@serrurerie-baillet.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 54 rue des Peupliers, 36999 Vendrigny (FICTIF)
+- code: L2
+  libelle: chantier déclaré
+  adresse: 25 avenue de la Gare, 36999 Fontclavier (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2012-01-01'
+limite_encours_euros: 5500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

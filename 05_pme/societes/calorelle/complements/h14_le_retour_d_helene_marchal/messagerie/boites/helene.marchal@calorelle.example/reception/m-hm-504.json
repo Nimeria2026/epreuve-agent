@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-hm-504",
+  "de": {
+    "nom": "Syndic de la Résidence des Grèves",
+    "adresse": "contact@syndic-de-la-residence-des-greves-273.example"
+  },
+  "a": [
+    "helene.marchal@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Désembouage du réseau de la résidence",
+  "date": "2026-11-10T09:15:00+01:00",
+  "corps": "Madame Marchal,\n\nLe conseil syndical souhaite faire désembouer le réseau de chauffage de la résidence au printemps. Pouvez-vous nous adresser un devis ?\n\nLe syndic de la Résidence des Grèves, 3 rue du Moulin (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

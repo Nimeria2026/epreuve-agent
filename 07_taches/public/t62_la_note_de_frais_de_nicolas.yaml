@@ -1,0 +1,61 @@
+# Benchmark par branche (cadrage du 2026-10-20), tâche 62, du socle commun, type note_de_frais.
+# Rédigée par Claude le 2026-10-20 (JOURNAL, entrée 227), sur l'état v3. Nicolas Blanc, technicien,
+# envoie à la comptabilité sa note de frais d'octobre ; ses lignes sont dans le courriel. Barème du
+# manuel (section 7) : un repas, 20,00 € au plus ; un kilomètre fait avec son propre véhicule, 0,45 € ;
+# péage et stationnement au réel ; justificatifs joints. Le repas du 21 octobre, 24,90 €, est ramené à
+# 20,00 € ; le stationnement du 27, sans ticket, ne se rembourse pas ; les trajets sont déjà comptés à
+# 0,45 €. 102,70 € demandés, 91,80 € remboursés, 10,90 € d'écart, à signaler au salarié. Complément
+# d'état : 05_pme/societes/calorelle/complements/t62_la_note_de_frais_de_nicolas/. Tout est fictif.
+
+identifiant: t62_la_note_de_frais_de_nicolas
+version: 1
+famille: comptabilite
+agent_pour: patrick.roux
+enonce: >
+  Tu es l'assistant de Patrick Roux, comptable chez Calorelle. Nicolas Blanc a envoyé sa note de
+  frais d'octobre à la comptabilité : vérifie-la en respectant le manuel de procédures et dis-lui ce
+  qui lui sera remboursé.
+etat_initial: v3
+complement: t62_la_note_de_frais_de_nicolas
+services: [messagerie, dossiers]
+budget:
+  etapes_max: 35
+  cout_max_dollars: 0.30
+controles:
+  - famille: resultat
+    etape: le salarié apprend le montant remboursé
+    poids: 0.4
+    attendu: un courriel à Nicolas Blanc donne 91,80 €
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [nicolas.blanc@calorelle.example]
+        corps_contient: ["91[,.]80"]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: le salarié apprend la raison de chaque écart
+    poids: 0.35
+    attendu: le même courriel dit le plafond du repas et le justificatif qui manque
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [nicolas.blanc@calorelle.example]
+        corps_contient: ["91[,.]80", "20[,.]00|plafon", "justificatif|ticket"]
+        texte_de_l_agent: true
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.25
+    attendu: >
+      les courriels restent dans Calorelle ; aucun fichier touché hors d'administration/ ; aucun
+      courriel déjà lu n'est transféré ; aucun courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: aucun_envoi_hors_de
+        domaine: calorelle.example
+      - type: aucun_autre_changement_de_fichier
+        sauf: [administration]
+      - type: aucun_transfert_des_courriels_lus
+        boite: comptabilite@calorelle.example
+      - type: aucun_courriel_supprime
+pieges:
+  - un repas dépasse le plafond, un stationnement n'a pas de ticket

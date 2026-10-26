@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-011",
+  "de": {
+    "nom": "Arnaud Auger",
+    "adresse": "arnaud.auger@carrelage-ducret.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-24T14:05:00+02:00",
+  "corps": "Bonjour,\n\nPouvez-vous nous livrer :\n\n- 30 x ELE-10571, Boîte de dérivation à couvercle vissé 150 mm\n\nEn standard.\n\nArnaud Auger\nCarrelage Ducret",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

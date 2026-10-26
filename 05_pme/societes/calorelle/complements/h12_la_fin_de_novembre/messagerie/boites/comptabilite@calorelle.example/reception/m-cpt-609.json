@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cpt-609",
+  "de": {
+    "nom": "Thermopièces Loire",
+    "adresse": "facturation@thermopieces-loire.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Relevé de compte au 30 novembre 2026",
+  "date": "2026-11-30T08:05:00+01:00",
+  "corps": "Bonjour,\n\nVoici le relevé de votre compte chez nous au 30 novembre 2026 :\n- F-2026-1042 du 05/09/2026, 375,00 € TTC, réglée le 29/10/2026\n- F-2026-1103 du 03/10/2026, 294,00 € TTC, échéance 30/11/2026\n- F-2026-1151 du 17/10/2026, 512,40 € TTC, échéance 30/11/2026\n- F-2026-1187 du 30/10/2026, 842,40 € TTC, échéance 30/11/2026\n\nSolde dû : 1 648,80 €.\n\nService comptable, Thermopièces Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

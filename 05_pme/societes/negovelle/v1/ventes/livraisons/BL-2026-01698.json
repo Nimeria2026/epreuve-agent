@@ -1,0 +1,34 @@
+{
+  "numero": "BL-2026-01698",
+  "commande": "CO-2026-01849",
+  "client": "c-0299",
+  "date_expedition": "2026-06-25",
+  "date_livraison": "2026-06-25",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "37 zone industrielle des Brandes, 36999 Saulvenne (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "CON-11241",
+      "libelle": "Dégrippant au PTFE, aérosol de 400 ml",
+      "quantite": 3
+    },
+    {
+      "reference": "FIX-10155",
+      "libelle": "Cheville métallique à expansion M8x32, boîte de 25",
+      "quantite": 10
+    },
+    {
+      "reference": "FIX-11429",
+      "libelle": "Crochet en S à visser 50 mm, sachet de 25",
+      "quantite": 6
+    }
+  ],
+  "reserves": null,
+  "signataire": "Guy Simonet",
+  "statut": "livre"
+}

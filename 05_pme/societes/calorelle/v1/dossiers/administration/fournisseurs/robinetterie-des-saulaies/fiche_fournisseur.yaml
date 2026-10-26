@@ -1,0 +1,8 @@
+# Fiche fournisseur Calorelle. Données FICTIVES.
+nom: "Robinetterie des Saulaies"
+activite: "robinetterie"
+adresse: "34 zone d'activité du Val-Mauvoir, 45999 Valmont-sur-Loire (FICTIF)"
+telephone: "02 61 91 20 30"
+courriel_facturation: "compta@robinetterie-des-saulaies.example"
+iban: "FR76 9999 9216 7282 8270 9196 773 (FICTIF)"
+conditions: "paiement à 30 jours fin de mois"

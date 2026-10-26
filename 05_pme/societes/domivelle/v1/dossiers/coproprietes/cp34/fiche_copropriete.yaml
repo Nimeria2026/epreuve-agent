@@ -1,0 +1,20 @@
+# Fiche de la copropriété cp34. Données FICTIVES.
+copropriete: cp34
+nom: Résidence Les Magnolias
+adresse: 38 rue de l'Église, 18999 Vernillac (FICTIF)
+lots_principaux: 35
+annee_construction: 1968
+ascenseur: true
+exercice: du lendemain du 31 décembre au 31 décembre
+gestionnaire: Gaëlle Fournel
+conseil_syndical:
+  president: Mme Caroline Millet
+  membres:
+  - M. Joël Rivière
+  - Mme Hélène Millet
+seuil_mise_en_concurrence: 4 000,00 €
+seuil_consultation_du_conseil_syndical: 500,00 €
+assureur_de_l_immeuble: Mutuelle des Deux-Rives (FICTIF)
+declaration_des_sinistres: sinistres@mutuelle-des-deux-rives.example
+immeuble_en_gestion_locative: null
+fonds_de_travaux: 5 % du budget prévisionnel, aux tantièmes généraux, appelé avec chaque provision

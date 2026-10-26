@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-601",
+  "de": {
+    "nom": "Manon Faure",
+    "adresse": "manon.faure@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Réclamation après la visite d'entretien",
+  "date": "2026-11-02T07:12:00+01:00",
+  "corps": "Bonjour,\n\nDepuis la visite d'entretien de juin, ma chaudière fait un claquement à chaque démarrage, et le technicien a laissé des traces de suie sur le mur de la cuisine. Je suis mécontente du travail fait sous mon contrat Sérénité et j'attends que vous repreniez cela.\n\nManon Faure, 105 rue des Lilas, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

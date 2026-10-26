@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-901",
+  "de": {
+    "nom": "Commune des Hautes-Fresnes",
+    "adresse": "contact@commune-des-hautes-fresnes-344.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Délibération : chaudière de la salle de sport",
+  "date": "2026-12-16T14:00:00+01:00",
+  "corps": "Bonjour,\n\nPar sa délibération du 15 décembre, le conseil municipal accepte votre devis DV-2026-015 pour le remplacement de la chaudière de la salle de sport. La salle étant fermée pendant les vacances d'hiver, les travaux devront se faire entre le lundi 15 et le vendredi 26 février 2027.\n\nLe secrétariat de mairie, Commune des Hautes-Fresnes (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

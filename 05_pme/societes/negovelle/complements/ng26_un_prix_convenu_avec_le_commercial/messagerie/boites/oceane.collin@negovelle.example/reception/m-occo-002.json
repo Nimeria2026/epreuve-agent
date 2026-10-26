@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-occo-002",
+  "de": {
+    "nom": "Samir Ouali",
+    "adresse": "samir.ouali@negovelle.example"
+  },
+  "a": [
+    "oceane.collin@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Lhomme Travaux publics",
+  "date": "2026-07-06T07:40:00+02:00",
+  "corps": "Océane,\n\nOui, j'ai promis 33 € la boîte de disques à Lhomme au salon. Mets-le directement dans la commande, Bruno sera d'accord.\n\nSamir",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,8 @@
+# Fiche fournisseur Calorelle. Données FICTIVES.
+nom: "Informatique de Brenneval"
+activite: "informatique"
+adresse: "53 zone d'activité de Sablonnet, 45999 Valmont-sur-Loire (FICTIF)"
+telephone: "02 61 91 20 20"
+courriel_facturation: "compta@informatique-de-brenneval.example"
+iban: "FR76 9999 9428 2289 5572 5477 936 (FICTIF)"
+conditions: "paiement à 30 jours fin de mois"

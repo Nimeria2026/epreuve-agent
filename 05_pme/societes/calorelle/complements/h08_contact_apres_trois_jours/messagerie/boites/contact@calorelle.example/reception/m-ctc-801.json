@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-801",
+  "de": {
+    "nom": "Pauline Masse",
+    "adresse": "pauline.masse@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis pompe à chaleur",
+  "date": "2026-10-29T18:05:00+01:00",
+  "corps": "Bonjour,\n\nNous voudrions remplacer la chaudière fioul de notre maison de Valmont, 110 m², par une pompe à chaleur. Pouvez-vous établir un devis ?\n\nPauline Masse (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

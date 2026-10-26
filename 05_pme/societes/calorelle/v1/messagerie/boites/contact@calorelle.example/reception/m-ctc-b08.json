@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-b08",
+  "de": {
+    "nom": "Laurent Guérin",
+    "adresse": "laurent.guerin@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Rendez-vous confirmé",
+  "date": "2026-09-14T18:39:00+02:00",
+  "corps": "Bonjour,\n\nJe confirme le rendez-vous de jeudi pour l'entretien.\n\nLaurent Guérin (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

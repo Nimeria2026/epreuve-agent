@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0223"
+nom: "Syndic de la Résidence de Brenneval"
+type: "syndic"
+adresse: "38 rue du Moulin, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "contact@syndic-de-la-residence-de-brenneval-223.example"
+telephone: "02 61 91 35 56"
+charge_d_affaires: "karim.benali"
+contrat:
+  formule: "Sérénité Plus"
+  depuis: "2021-04-18"
+  mois_anniversaire: "avril"
+  derniere_visite: "2026-04-18"

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-lagi-b03",
+  "de": {
+    "nom": "Brigitte Gautier",
+    "adresse": "brigitte.gautier@menuiserie-boisson.example"
+  },
+  "a": [
+    "laurent.gimenez@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Horaires du comptoir cet été",
+  "date": "2026-06-22T09:13:00+02:00",
+  "corps": "Bonjour,\n\nLe comptoir reste-t-il ouvert en août ?\n\nBrigitte Gautier",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-610",
+  "de": {
+    "nom": "Thomas Girard",
+    "adresse": "thomas.girard@calorelle.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Tilleuls : correction de ma note",
+  "date": "2026-11-23T07:40:00+01:00",
+  "corps": "Karim,\n\nJ'ai mal noté la tuyauterie des Tilleuls : la chaudière neuve se pose au fond de la chaufferie, il faut 20 mètres de tuyauterie, pas 12. Le reste de ma note ne change pas.\n\nThomas (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,79 @@
+{
+  "numero": "CO-2026-02063",
+  "client": "c-0292",
+  "reference_client": null,
+  "cree_le": "2026-07-19T10:00:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "102 rue du Lavoir, 36999 Mérolles-en-Brenne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "PLB-11200",
+      "libelle": "Flexible inox femelle-femelle 15x21 40 cm",
+      "quantite": 20,
+      "prix_tarif_ht_euros": 12.95,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 12.95,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 259.0
+    },
+    {
+      "reference": "VIS-10236",
+      "libelle": "Boulon tête hexagonale M12x60, inox A2, sachet de 10",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 12.2,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 12.2,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 122.0
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 381.0,
+  "total_tva_euros": 76.2,
+  "total_ttc_euros": 457.2,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01883"
+  ],
+  "facture": "FC-2026-1454",
+  "historique": [
+    {
+      "date": "2026-07-19T10:00:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": "commande du client"
+    },
+    {
+      "date": "2026-07-19T10:05:00+02:00",
+      "par": "oceane.collin",
+      "action": "validee",
+      "detail": "stock réservé"
+    },
+    {
+      "date": "2026-07-20T16:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01883"
+    },
+    {
+      "date": "2026-07-21T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01883"
+    },
+    {
+      "date": "2026-07-31T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1454"
+    }
+  ]
+}

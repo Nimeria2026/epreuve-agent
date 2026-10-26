@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-923",
+  "de": {
+    "nom": "Syndic de la Résidence de Brenneval",
+    "adresse": "contact@syndic-de-la-residence-de-brenneval-304.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Date des travaux",
+  "date": "2026-12-24T10:00:00+01:00",
+  "corps": "Bonjour,\n\nPouvez-vous nous confirmer la date de la rénovation de notre chaufferie, votre devis DV-2026-013 ? Nous devons prévenir les résidents.\n\nLe syndic de la Résidence de Brenneval, 17 rue des Lilas (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

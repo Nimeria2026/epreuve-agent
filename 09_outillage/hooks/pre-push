@@ -1,0 +1,27 @@
+#!/bin/sh
+# Crochet git avant chaque poussée, activé par « make installer-hooks » : la fin d'un lot. Lance
+# make tests puis make qualite au premier plan, sous les yeux de qui pousse, et refuse la poussée
+# si l'un échoue (ADR 0007, JOURNAL entrée 254). Sur main, l'intégration continue ne relance que
+# la garde et make qualite ; tous les tests à la demande (JOURNAL, entrée 255).
+# Contournement délibéré : git push --no-verify (à réserver à une urgence, et à noter dans
+# JOURNAL.md).
+racine="$(git rev-parse --show-toplevel)" || exit 1
+cd "$racine" || exit 1
+
+if ! command -v uv >/dev/null 2>&1; then
+    echo "Crochet avant poussée : uv introuvable, tests non lancés ; l'intégration continue les lancera." >&2
+    exit 0
+fi
+echo "Crochet avant poussée : make tests, tous les tests, plusieurs minutes."
+if ! make --no-print-directory tests; then
+    echo "" >&2
+    echo "Poussée refusée : les tests échouent (détail ci-dessus, ou make tests)." >&2
+    exit 1
+fi
+echo "Crochet avant poussée : tests verts ; make qualite, ruff, pyright strict, Biome et tsc."
+if ! make --no-print-directory qualite; then
+    echo "" >&2
+    echo "Poussée refusée : le contrôle du code échoue (détail ci-dessus, ou make qualite)." >&2
+    exit 1
+fi
+echo "Crochet avant poussée : tests et qualité verts."

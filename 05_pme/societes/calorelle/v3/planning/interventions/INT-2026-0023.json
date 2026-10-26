@@ -1,0 +1,13 @@
+{
+  "numero": "INT-2026-0023",
+  "client": "c-0534",
+  "techniciens": [
+    "yanis.haddad"
+  ],
+  "debut": "2026-11-05T15:30:00+01:00",
+  "fin": "2026-11-05T17:30:00+01:00",
+  "nature": "depannage",
+  "objet": "Dépannage : ventilation de l'atelier en panne",
+  "statut": "planifiee",
+  "cree_par": "donnees_initiales"
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-722",
+  "de": {
+    "nom": "Damien Leclerc",
+    "adresse": "damien.leclerc@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis chaudière",
+  "date": "2026-12-24T10:30:00+01:00",
+  "corps": "Bonjour,\n\nJe cherche un chauffagiste pour remplacer la chaudière de ma maison, 12 rue des Saules, 41999 Romorantel-sur-Sauldre, dans le Loir-et-Cher. Pouvez-vous passer faire un devis ?\n\nDamien Leclerc (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

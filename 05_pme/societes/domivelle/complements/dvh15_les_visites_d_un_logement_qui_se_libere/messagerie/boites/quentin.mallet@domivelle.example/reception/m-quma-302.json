@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-quma-302",
+  "de": {
+    "nom": "Mme Marion Labbé",
+    "adresse": "marion.labbe@mel-perso.example"
+  },
+  "a": [
+    "quentin.mallet@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Visites de mon appartement",
+  "date": "2026-06-06T12:15:00+02:00",
+  "corps": "Bonjour,\n\nPour les visites, je suis là le samedi 20 juin de 9 h à 12 h, le dimanche 21 juin toute la journée, le mercredi 24 juin de 18 h à 19 h, et le mardi 14 juillet toute la journée. Pour l'état des lieux, je préfère une fin d'après-midi.\n\nMarion Labbé, lot c04-03",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

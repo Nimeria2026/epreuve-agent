@@ -1,0 +1,8 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0092"
+nom: "Syndic de la Résidence des Hautes-Fresnes"
+type: "syndic"
+adresse: "26 place du Marché, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "contact@syndic-de-la-residence-des-hautes-fresnes-92.example"
+telephone: "02 61 91 35 23"
+charge_d_affaires: "karim.benali"

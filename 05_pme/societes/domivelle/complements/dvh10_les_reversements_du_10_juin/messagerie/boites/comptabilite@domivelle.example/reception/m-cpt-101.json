@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-101",
+  "de": {
+    "nom": "Serrurerie des Quatre-Vents",
+    "adresse": "facturation@serrurerie-des-quatre-vents.example"
+  },
+  "a": [
+    "comptabilite@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture 2026-0815, lot s04-13",
+  "date": "2026-06-04T09:30:00+02:00",
+  "corps": "Bonjour,\n\nCi-joint notre facture 2026-0815 pour le remplacement du cylindre de la porte d'entrée du lot s04-13, 186,00 € TTC, échéance le 30 juin 2026.\n\nSerrurerie des Quatre-Vents",
+  "pieces_jointes": [
+    {
+      "nom": "facture_2026-0815.pdf",
+      "fichier": "pieces/m-cpt-101/facture_2026-0815.pdf",
+      "taille_octets": 815
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,34 @@
+{
+  "numero": "BL-2026-01737",
+  "commande": "CO-2026-01888",
+  "client": "c-0035",
+  "date_expedition": "2026-06-26",
+  "date_livraison": "2026-06-26",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "7 avenue de la Gare, 36999 Ardillac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ENT-10114",
+      "libelle": "Balai brosse coco 30 cm",
+      "quantite": 1
+    },
+    {
+      "reference": "FIX-11216",
+      "libelle": "Collier de fixation 40 mm, sachet de 10",
+      "quantite": 2
+    },
+    {
+      "reference": "QUI-13503",
+      "libelle": "Équerre d'assemblage 60 mm, zinguée, sachet de 4",
+      "quantite": 12
+    }
+  ],
+  "reserves": null,
+  "signataire": "Marcel Barbe",
+  "statut": "livre"
+}

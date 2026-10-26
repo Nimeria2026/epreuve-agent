@@ -1,0 +1,17 @@
+# Budget prévisionnel de l'exercice en cours, voté, copropriété cp33. Données FICTIVES.
+copropriete: cp33
+exercice: '2026'
+total: 43 200,00 €
+postes:
+  nettoyage des parties communes: 9 504,00 €
+  espaces verts: 3 456,00 €
+  électricité des parties communes: 3 888,00 €
+  eau: 6 048,00 €
+  assurance de l'immeuble: 4 752,00 €
+  honoraires du syndic: 7 776,00 €
+  entretien et petites réparations: 4 320,00 €
+  ascenseur, contrat et électricité: 3 456,00 €
+repartition:
+  charges générales, aux tantièmes généraux: 39 744,00 €
+  ascenseur, aux tantièmes d'ascenseur: 3 456,00 €
+appel: un quart du budget, exigible le premier jour de chaque trimestre

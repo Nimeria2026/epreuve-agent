@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-befa-014",
+  "de": {
+    "nom": "Corinne Pinson",
+    "adresse": "corinne.pinson@peinture-peron.example"
+  },
+  "a": [
+    "benoit.faure@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-06T07:55:00+02:00",
+  "corps": "Bonjour Benoît,\n\nMerci de nous livrer au siège :\n- 10 x OUT-12409, Spatule de peintre 200 mm\n- 6 x OUT-12507, Spatule à enduire 150 mm\n\nCordialement,\nCorinne Pinson\nPeinture Péron",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

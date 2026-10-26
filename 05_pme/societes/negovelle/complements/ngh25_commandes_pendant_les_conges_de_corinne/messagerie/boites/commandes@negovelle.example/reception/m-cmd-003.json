@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-003",
+  "de": {
+    "nom": "Denis Noblet",
+    "adresse": "denis.noblet@dore-et-fils.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande pour le chantier",
+  "date": "2026-07-24T17:30:00+02:00",
+  "corps": "Bonjour,\n\nPour notre chantier déclaré :\n\n- 24 x VIS-12841, Vis à bois tête fraisée 5x35, inox A2, boîte de 500\n- 4 x ELE-11298, Câble U1000 R2V 2x 6 mm², couronne de 25 m\n\nEn standard.\n\nDenis Noblet\nDoré et Fils",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,13 @@
+{
+  "numero": "INT-2026-0055",
+  "client": "c-0062",
+  "techniciens": [
+    "romain.guerin"
+  ],
+  "debut": "2026-12-16T13:30:00+01:00",
+  "fin": "2026-12-16T15:00:00+01:00",
+  "nature": "depannage",
+  "objet": "Chaudière gaz en défaut de pression",
+  "statut": "planifiee",
+  "cree_par": "marc.duval"
+}

@@ -1,0 +1,139 @@
+{
+  "numero": "CO-2026-01999",
+  "client": "c-0005",
+  "reference_client": null,
+  "cree_le": "2026-07-02T09:10:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "132 rue des Chênes, 36999 Fontclavier (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-11249",
+      "libelle": "Dégrippant au PTFE, aérosol de 500 ml",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 8.45,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 8.11,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 81.1
+    },
+    {
+      "reference": "ELE-13389",
+      "libelle": "Tableau électrique 4 rangée(s), 18 modules",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 91.65,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 87.98,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 87.98
+    },
+    {
+      "reference": "ELP-11698",
+      "libelle": "Ponceuse à bande 600 W",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 88.5,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 84.96,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 169.92
+    },
+    {
+      "reference": "OUT-11323",
+      "libelle": "Mètre ruban 8 m, ruban de 16 mm",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 17.9,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 17.18,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 171.8
+    },
+    {
+      "reference": "OUT-12719",
+      "libelle": "Tournevis Torx n° 2",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 8.85,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 8.5,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 102.0
+    },
+    {
+      "reference": "PRO-11527",
+      "libelle": "Pantalon de travail haute visibilité orange, taille 50",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 35.65,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 35.65,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 35.65
+    },
+    {
+      "reference": "VIS-10694",
+      "libelle": "Vis à bois tête fraisée 3,5x16, bichromatée, boîte de 500",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 7.6,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 7.3,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 14.6
+    },
+    {
+      "reference": "VIS-13462",
+      "libelle": "Vis à bois tête fraisée 6x50, bichromatée, boîte de 500",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 23.8,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 22.85,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 274.2
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 937.25,
+  "total_tva_euros": 187.45,
+  "total_ttc_euros": 1124.7,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01848"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-02T09:10:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-02T09:12:00+02:00",
+      "par": "oceane.collin",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01848"
+    },
+    {
+      "date": "2026-07-03T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01848"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01896",
+  "commande": "CO-2026-02076",
+  "client": "c-0002",
+  "date_expedition": "2026-07-22",
+  "date_livraison": "2026-07-23",
+  "transport": {
+    "mode": "transporteur",
+    "transporteur": "transports-delorme",
+    "recepisse": "TD-412230"
+  },
+  "adresse": "122 chemin du Bois, 36999 Fontclavier (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "ELE-11396",
+      "libelle": "Câble téléphonique 2 paire(s), couronne de 25 m",
+      "quantite": 4
+    }
+  ],
+  "reserves": null,
+  "signataire": "Luc Lecoq",
+  "statut": "livre"
+}

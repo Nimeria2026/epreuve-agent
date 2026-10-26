@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-003",
+  "de": {
+    "nom": "Agnès Roche",
+    "adresse": "agnes.roche@courriel.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Visite du T2 rue du Pont",
+  "date": "2026-06-08T07:15:00+02:00",
+  "corps": "Bonjour,\n\nJe suis intéressée par l'appartement c02-17 que vous louez. Puis-je le visiter cette semaine ?\n\nAgnès Roche",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

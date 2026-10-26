@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-laga-001",
+  "de": {
+    "nom": "Suzanne Rigaud",
+    "adresse": "suzanne.rigaud@electricite-chatelain.example"
+  },
+  "a": [
+    "laetitia.garnier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande de matériel électrique",
+  "date": "2026-07-06T07:20:00+02:00",
+  "corps": "Bonjour,\n\nMerci de nous livrer au siège :\n\n- 2 x ELE-11453, Disjoncteur bipolaire 10 A, courbe D\n- 2 x ELE-12384, Interrupteur différentiel 40 A 30 mA, type AC\n- 15 x ELE-12327, Interrupteur de volet roulant, anthracite\n\nNotre commande dépasse 300 € HT : merci de la livrer franco de port, comme le prévoient vos conditions.\n\nCordialement,\nSuzanne Rigaud\nÉlectricité Chatelain",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

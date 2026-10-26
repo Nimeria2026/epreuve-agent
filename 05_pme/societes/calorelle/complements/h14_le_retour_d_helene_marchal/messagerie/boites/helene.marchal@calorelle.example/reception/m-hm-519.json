@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-hm-519",
+  "de": {
+    "nom": "Patrick Roux",
+    "adresse": "patrick.roux@calorelle.example"
+  },
+  "a": [
+    "helene.marchal@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Virements à valider : la liste du 19 novembre",
+  "date": "2026-11-19T11:10:00+01:00",
+  "corps": "Hélène,\n\nCette liste remplace celle du 12. GCC-2026-077 a été réglée le 13, après ton accord au téléphone. Restent à valider pour ton retour :\n- DC-5602, Distri-Clim Centre, 1 788,00 €, échéance le 30 novembre ;\n- FHF-26-150, Fumisterie des Hautes-Fresnes, 2 040,00 €, échue le 14 novembre ;\n- DC-5661, Distri-Clim Centre, 3 120,00 €, échéance le 30 novembre ;\n- F-2026-1220, Thermopièces Loire, 1 932,00 €, échéance le 30 novembre ;\n- OS-2026-301, Outillage de Sablonnet, 1 644,00 €, échue.\n\nL'échéancier est à jour au 19 novembre. Dis-moi aussi le total que tu valides, pour la trésorerie de la semaine.\n\nPatrick (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

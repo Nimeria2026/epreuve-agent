@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0242"
+nom: "Patrick Faure"
+type: "particulier"
+adresse: "62 avenue des Tilleuls, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "patrick.faure@courriel.example"
+telephone: "06 39 98 50 61"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2018-10-25"
+  mois_anniversaire: "octobre"
+  derniere_visite: "2026-10-08"

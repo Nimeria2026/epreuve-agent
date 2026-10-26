@@ -1,0 +1,28 @@
+# Fiche du client c-0147 de Négovelle. Données FICTIVES.
+code: c-0147
+nom: Communauté de communes du Val de Vaumoreau
+type: collectivite
+adresse: 73 avenue de la Gare, 36999 Vaumoreau-sur-Indre (FICTIF)
+telephone: 02 61 91 68 02
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Henri Allard
+  fonction: responsable des services techniques
+  courriel: henri.allard@communaute-de-communes-du-val-de-vaumoreau.example
+- nom: Aurélie Achard
+  fonction: secrétaire de mairie
+  courriel: aurelie.achard@communaute-de-communes-du-val-de-vaumoreau.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 73 avenue de la Gare, 36999 Vaumoreau-sur-Indre (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2014-08-01'
+limite_encours_euros: 4000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

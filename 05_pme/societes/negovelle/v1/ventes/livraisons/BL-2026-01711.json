@@ -1,0 +1,39 @@
+{
+  "numero": "BL-2026-01711",
+  "commande": "CO-2026-01862",
+  "client": "c-0287",
+  "date_expedition": "2026-06-25",
+  "date_livraison": "2026-06-25",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "11 zone artisanale du Moulin, 36999 Ardillac (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "ELE-11372",
+      "libelle": "Câble téléphonique 1 paire(s), couronne de 25 m",
+      "quantite": 6
+    },
+    {
+      "reference": "PLB-10293",
+      "libelle": "Chauffe-eau électrique 200 l, vertical sur socle",
+      "quantite": 6
+    },
+    {
+      "reference": "PRO-10244",
+      "libelle": "Bouchons d'oreille détectables, boîte de 200",
+      "quantite": 5
+    },
+    {
+      "reference": "VIS-12417",
+      "libelle": "Vis à bois tête fraisée 4x40, zinguée, boîte de 200",
+      "quantite": 12
+    }
+  ],
+  "reserves": null,
+  "signataire": "Christian Cosson",
+  "statut": "livre"
+}

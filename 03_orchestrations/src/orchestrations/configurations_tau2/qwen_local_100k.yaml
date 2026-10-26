@@ -1,0 +1,14 @@
+# Agent de reproduction τ²-bench (reproduction_tau2) sur Qwen 3.8 27B, servi par
+# make qwen CONTEXTE=102400. Comme configurations_tau2/qwen_local.yaml, sauf le délai d'un appel :
+# 3 600 s, pour qu'un tour puisse remplir le contexte, comme configurations/qwen_local_100k.yaml.
+# Pour les tâches que la limite de 40 960 jetons a coupées (JOURNAL, deux-cent-vingt-sixième entrée).
+role: agent
+modele: qwen3.8-27b-w4a16
+adresse: http://127.0.0.1:30100/v1
+cle_env: null
+parametres:
+  temperature: 0.0
+  tool_choice: auto
+raisonnement_renvoye: null
+delai_appel_secondes: 3600
+tours_max: 100

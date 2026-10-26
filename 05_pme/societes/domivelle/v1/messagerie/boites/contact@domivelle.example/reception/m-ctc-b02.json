@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-b02",
+  "de": {
+    "nom": "SCI Le Cours des Remparts Invest",
+    "adresse": "gestion@sci-le-cours-des-remparts-invest.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Merci",
+  "date": "2026-05-21T16:38:00+02:00",
+  "corps": "Bonjour,\n\nMerci pour votre réponse rapide.\n\nSCI Le Cours des Remparts Invest",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

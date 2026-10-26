@@ -1,0 +1,13 @@
+{
+  "numero": "INT-2026-0052",
+  "client": "c-0131",
+  "techniciens": [
+    "romain.guerin"
+  ],
+  "debut": "2026-12-11T08:00:00+01:00",
+  "fin": "2026-12-11T09:30:00+01:00",
+  "nature": "visite_annuelle",
+  "objet": "Visite d'entretien annuelle, chaudière fioul",
+  "statut": "planifiee",
+  "cree_par": "marc.duval"
+}

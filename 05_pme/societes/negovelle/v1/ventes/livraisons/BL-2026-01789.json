@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01789",
+  "commande": "CO-2026-01940",
+  "client": "c-0078",
+  "date_expedition": "2026-06-30",
+  "date_livraison": "2026-06-30",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "34 rue Saint-Martin, 36999 Laubrissac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "PLB-11323",
+      "libelle": "Joint caoutchouc 12x17, sachet de 10",
+      "quantite": 5
+    },
+    {
+      "reference": "VIS-10302",
+      "libelle": "Boulon tête hexagonale M6x20, inox A2, sachet de 10",
+      "quantite": 12
+    }
+  ],
+  "reserves": null,
+  "signataire": "Suzanne Rigaud",
+  "statut": "livre"
+}

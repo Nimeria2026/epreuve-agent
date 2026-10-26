@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-befa-011",
+  "de": {
+    "nom": "Delphine Salmon",
+    "adresse": "delphine.salmon@mairie-de-vendrigny.example"
+  },
+  "a": [
+    "benoit.faure@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-06T07:20:00+02:00",
+  "corps": "Bonjour Benoît,\n\nMerci de nous livrer au siège :\n- 4 x PLB-11102, Flexible inox de douche 50 cm\n- 6 x FIX-10808, Cheville pour plaque de plâtre 6x45, boîte de 100\n\nCordialement,\nDelphine Salmon\nMairie de Vendrigny",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

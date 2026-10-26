@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0586"
+nom: "Commune du Val-Mauvoir"
+type: "collectivite"
+adresse: "114 rue des Lilas, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "contact@commune-du-val-mauvoir-586.example"
+telephone: "02 61 91 36 39"
+charge_d_affaires: "karim.benali"
+contrat:
+  formule: "Sérénité Plus"
+  depuis: "2019-09-14"
+  mois_anniversaire: "septembre"
+  derniere_visite: "2026-09-15"

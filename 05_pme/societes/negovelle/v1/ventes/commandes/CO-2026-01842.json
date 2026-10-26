@@ -1,0 +1,145 @@
+{
+  "numero": "CO-2026-01842",
+  "client": "c-0025",
+  "reference_client": null,
+  "cree_le": "2026-06-23T09:10:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "119 rue des Chênes, 36999 Mérolles-en-Brenne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-10538",
+      "libelle": "Disque abrasif auto-agrippant 125 mm, grain 40, boîte de 25",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 41.2,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 37.9,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 113.7
+    },
+    {
+      "reference": "CON-11960",
+      "libelle": "Ruban adhésif PVC 38 mm, rouleau de 50 m",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 1.65,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 1.52,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 6.08
+    },
+    {
+      "reference": "ELE-10955",
+      "libelle": "Câble H07V-K 6 mm², couronne de 50 m",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 102.5,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 94.3,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 94.3
+    },
+    {
+      "reference": "ENT-10342",
+      "libelle": "Distributeur de papier toilette, blanc",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 19.45,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 17.89,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 35.78
+    },
+    {
+      "reference": "FIX-10081",
+      "libelle": "Cheville métallique à expansion M5x45, boîte de 25",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 7.15,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 6.58,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 6.58
+    },
+    {
+      "reference": "FIX-10130",
+      "libelle": "Cheville métallique à expansion M6x45, boîte de 50",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 17.1,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 15.73,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 15.73
+    },
+    {
+      "reference": "QUI-10244",
+      "libelle": "Butoir de porte magnétique, laiton",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 6.55,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 6.03,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 36.18
+    },
+    {
+      "reference": "QUI-12972",
+      "libelle": "Verrou de sûreté 80 mm, inox",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 14.7,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 13.52,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 81.12
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 389.47,
+  "total_tva_euros": 77.89,
+  "total_ttc_euros": 467.36,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01691"
+  ],
+  "facture": "FC-2026-1020",
+  "historique": [
+    {
+      "date": "2026-06-23T09:10:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-23T09:12:00+02:00",
+      "par": "oceane.collin",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-24T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01691"
+    },
+    {
+      "date": "2026-06-24T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01691"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1020"
+    }
+  ]
+}

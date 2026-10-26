@@ -1,0 +1,29 @@
+{
+  "identifiant": "m-elch-610",
+  "de": {
+    "nom": "Mathis Royer",
+    "adresse": "mathis.royer@messagerie.example"
+  },
+  "a": [
+    "elodie.chauvin@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Candidature pour le logement c15-13",
+  "date": "2026-10-11T19:00:00+02:00",
+  "corps": "Bonjour,\n\nJe souhaite louer le logement vacant c15-13. Vous trouverez ci-joint ma pièce d'identité et mes trois derniers bulletins de salaire.\n\nMathis Royer",
+  "pieces_jointes": [
+    {
+      "nom": "piece_identite_royer.pdf",
+      "fichier": "pieces/m-elch-610/piece_identite_royer.pdf",
+      "taille_octets": 740
+    },
+    {
+      "nom": "bulletins_salaire_royer.pdf",
+      "fichier": "pieces/m-elch-610/bulletins_salaire_royer.pdf",
+      "taille_octets": 770
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

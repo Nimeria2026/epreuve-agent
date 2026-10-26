@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-009",
+  "de": {
+    "nom": "Alice Pinson",
+    "adresse": "alice.pinson@couverture-lecoq.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Prix des sacs",
+  "date": "2026-07-06T06:57:00+02:00",
+  "corps": "Bonjour Samir,\n\nPouvez-vous me donner votre prix pour 10 rouleaux de sacs ENT-11118 ?\n\nMerci,\nAlice Pinson\nCouverture Lecoq",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

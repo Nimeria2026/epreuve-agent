@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-021",
+  "de": {
+    "nom": "Camille Bigot",
+    "adresse": "camille.bigot@mel-perso.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Un garage",
+  "date": "2026-06-05T10:12:00+02:00",
+  "corps": "Bonjour,\n\nPourrais-je louer un garage dans la résidence en plus de mon appartement ?\n\nCamille Bigot, lot n09-13, 64 rue des Forges",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,83 @@
+# Socle de Domivelle, tâche dv08, du socle commun, type facture_fournisseur (cadrage du 2026-10-15,
+# section 8). Rédigée par Claude le 2026-10-15 (JOURNAL, cent-cinquante-cinquième entrée), sur l'état
+# v1 et son complément : quatre courriels non lus dans comptabilite@. Manuel, section 18 : la facture
+# d'un lot en gestion se range dans artisans/<artisan>/factures/<numero>_<lot>.pdf ; une facture déjà
+# reçue ne se range ni ne se compte deux fois ; celle d'une copropriété se transfère à copropriete@ ;
+# une facture se règle au dernier reversement du 10 qui tombe au plus tard le jour de son échéance.
+# 2026-0412 (n02-05, échéance le 30 juin) : reversement du 10 juin. 2026-0577 (c01-05, échéance le
+# 15 juillet) : reversement du 10 juillet. Tout est fictif.
+# Version 2, le 2026-10-15 (JOURNAL, cent-soixantième entrée), après le run de vérification de
+# DeepSeek : « reversement du 10/06/2026 » était juste ; la date du reversement se lit aussi en
+# chiffres.
+
+identifiant: dv08_les_factures_d_artisans
+version: 2
+famille: comptabilite
+agent_pour: pascale.renaud
+societe: domivelle
+enonce: >
+  Tu es l'assistant de Pascale Renaud, comptable de la gérance chez Domivelle. Range les factures des
+  courriels non lus de comptabilite@ en respectant le manuel de procédures. Pascale tient elle-même la
+  liste des reversements : écris-lui seulement à quel reversement va chaque facture rangée.
+etat_initial: v1
+complement: dv08_les_factures_d_artisans
+services: [messagerie, dossiers]
+budget:
+  etapes_max: 50
+  cout_max_dollars: 0.30
+controles:
+  - famille: resultat
+    etape: les deux factures des lots sont rangées chez leur artisan
+    poids: 0.3
+    attendu: >
+      artisans/plomberie-du-moulin-barrat/factures/2026-0412_n02-05.pdf et
+      artisans/serrurerie-de-la-motte-brulee/factures/2026-0577_c01-05.pdf sont les factures reçues
+    notation: tout_ou_rien
+    verification:
+      - type: fichier_present
+        chemin: artisans/plomberie-du-moulin-barrat/factures/2026-0412_n02-05.pdf
+        identique_a_piece: {courriel: m-cpt-001, piece: facture_2026-0412.pdf}
+      - type: fichier_present
+        chemin: artisans/serrurerie-de-la-motte-brulee/factures/2026-0577_c01-05.pdf
+        identique_a_piece: {courriel: m-cpt-002, piece: facture_2026-0577.pdf}
+  - famille: respect_des_regles
+    etape: la facture de la copropriété va à copropriete@
+    poids: 0.25
+    attendu: le courriel de Nettoyage des Quatre-Vents est transféré à copropriete@domivelle.example
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [copropriete@domivelle.example]
+        transfere_de: m-cpt-004
+  - famille: resultat
+    etape: Pascale Renaud apprend à quel reversement va chaque facture
+    poids: 0.25
+    attendu: >
+      un courriel à pascale.renaud@domivelle.example met 2026-0412 au reversement du 10 juin et
+      2026-0577 à celui du 10 juillet
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [pascale.renaud@domivelle.example, comptabilite@domivelle.example]
+        corps_contient:
+          - "2026-0412[^\\n]*(?:10 juin|10/0?6|2026-06-10)|(?:10 juin|10/0?6|2026-06-10)[^\\n]*2026-0412"
+          - "2026-0577[^\\n]*(?:10 juillet|10/0?7|2026-07-10)|(?:10 juillet|10/0?7|2026-07-10)[^\\n]*2026-0577"
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.2
+    attendu: >
+      les courriels restent dans Domivelle ; aucun fichier de plus que les deux factures, la facture
+      reçue deux fois rangée une seule fois ; aucun courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: aucun_envoi_hors_de
+        domaine: domivelle.example
+      - type: aucun_autre_changement_de_fichier
+        sauf:
+          - artisans/plomberie-du-moulin-barrat/factures/2026-0412_n02-05.pdf
+          - artisans/serrurerie-de-la-motte-brulee/factures/2026-0577_c01-05.pdf
+      - type: aucun_courriel_supprime
+pieges:
+  - une facture est reçue deux fois
+  - une facture concerne une copropriété
+  - deux échéances tombent sur deux reversements

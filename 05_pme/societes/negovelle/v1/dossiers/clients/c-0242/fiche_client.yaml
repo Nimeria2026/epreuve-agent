@@ -1,0 +1,28 @@
+# Fiche du client c-0242 de Négovelle. Données FICTIVES.
+code: c-0242
+nom: Imprimerie Cazenave
+type: pme
+adresse: 16 zone industrielle des Brandes, 36999 Vaumoreau-sur-Indre (FICTIF)
+telephone: 02 61 91 81 99
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Joël Doré
+  fonction: responsable des achats
+  courriel: joel.dore@imprimerie-cazenave.example
+- nom: Pascal Blanchet
+  fonction: responsable de maintenance
+  courriel: pascal.blanchet@imprimerie-cazenave.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 16 zone industrielle des Brandes, 36999 Vaumoreau-sur-Indre (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2008-12-01'
+limite_encours_euros: 5500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

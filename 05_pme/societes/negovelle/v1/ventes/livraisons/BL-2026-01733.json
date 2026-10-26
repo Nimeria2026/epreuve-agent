@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01733",
+  "commande": "CO-2026-01884",
+  "client": "c-0173",
+  "date_expedition": "2026-06-25",
+  "date_livraison": "2026-06-26",
+  "transport": {
+    "mode": "transporteur",
+    "transporteur": "transports-delorme",
+    "recepisse": "TD-183437"
+  },
+  "adresse": "126 rue de l'Église, 36999 Fontclavier (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "VIS-12923",
+      "libelle": "Vis à bois tête fraisée 5x45, zinguée, boîte de 200",
+      "quantite": 4
+    }
+  ],
+  "reserves": null,
+  "signataire": "Paul Valentin",
+  "statut": "livre"
+}

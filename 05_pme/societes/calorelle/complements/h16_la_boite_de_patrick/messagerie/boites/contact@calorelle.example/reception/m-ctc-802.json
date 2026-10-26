@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-802",
+  "de": {
+    "nom": "Commune des Saulaies, services techniques",
+    "adresse": "contact@commune-des-saulaies-399.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Consultation : chaufferie de la mairie",
+  "date": "2026-11-20T17:30:00+01:00",
+  "corps": "Bonjour,\n\nLa commune lance une consultation pour la rénovation de la chaufferie de la mairie. Le dossier est à retirer avant le 11 décembre.\n\nServices techniques, Commune des Saulaies (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

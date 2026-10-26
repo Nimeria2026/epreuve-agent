@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-b06",
+  "de": {
+    "nom": "Lucie Becker",
+    "adresse": "lucie.becker@vaillant-batiment.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande reçue, merci",
+  "date": "2026-06-15T15:56:00+02:00",
+  "corps": "Bonjour,\n\nLa livraison de ce matin est complète. Merci.\n\nLucie Becker",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

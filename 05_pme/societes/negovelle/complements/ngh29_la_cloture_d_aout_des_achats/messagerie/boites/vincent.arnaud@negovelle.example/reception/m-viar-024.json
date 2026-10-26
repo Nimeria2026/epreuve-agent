@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-viar-024",
+  "de": {
+    "nom": "Agence Visibilis",
+    "adresse": "contact@visibilis-web.example"
+  },
+  "a": [
+    "vincent.arnaud@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Votre site en première page",
+  "date": "2026-08-29T11:00:00+02:00",
+  "corps": "Bonjour,\n\nVotre site n'apparaît pas en première page des moteurs de recherche. Notre agence vous propose un audit gratuit, puis un accompagnement à partir de 290 € HT par mois.\n\nL'équipe Visibilis",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

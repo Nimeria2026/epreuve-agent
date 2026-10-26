@@ -1,0 +1,34 @@
+{
+  "numero": "BL-2026-01742",
+  "commande": "CO-2026-01893",
+  "client": "c-0323",
+  "date_expedition": "2026-06-26",
+  "date_livraison": "2026-06-26",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "1 zone d'activités des Grands Prés, 36999 Vaumoreau-sur-Indre (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ENT-10408",
+      "libelle": "Essuie-mains en papier plié, carton de 12",
+      "quantite": 10
+    },
+    {
+      "reference": "OUT-11813",
+      "libelle": "Pince étau 160 mm",
+      "quantite": 2
+    },
+    {
+      "reference": "PRO-11404",
+      "libelle": "Masque FFP3, boîte de 10",
+      "quantite": 1
+    }
+  ],
+  "reserves": null,
+  "signataire": "Béatrice Gervais",
+  "statut": "livre"
+}

@@ -1,0 +1,101 @@
+{
+  "numero": "CO-2026-01841",
+  "client": "c-0263",
+  "reference_client": null,
+  "cree_le": "2026-06-23T09:10:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "109 rue des Lilas, 36999 Ardillac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-12008",
+      "libelle": "Goulotte 12x12 mm, barre de 2 m",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 3.3,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 3.3,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 3.3
+    },
+    {
+      "reference": "ELP-10751",
+      "libelle": "Foret béton SDS-plus 5x160 mm",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 9.45,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 9.45,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 18.9
+    },
+    {
+      "reference": "VIS-10114",
+      "libelle": "Boulon tête hexagonale M10x60, zingué, sachet de 10",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 9.0,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 9.0,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 45.0
+    },
+    {
+      "reference": "VIS-12458",
+      "libelle": "Vis à bois tête fraisée 4x45, zinguée, boîte de 200",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 16.6,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 16.6,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 199.2
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 281.4,
+  "total_tva_euros": 56.28,
+  "total_ttc_euros": 337.68,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01690"
+  ],
+  "facture": "FC-2026-1242",
+  "historique": [
+    {
+      "date": "2026-06-23T09:10:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-23T09:12:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-24T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01690"
+    },
+    {
+      "date": "2026-06-24T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01690"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1242"
+    }
+  ]
+}

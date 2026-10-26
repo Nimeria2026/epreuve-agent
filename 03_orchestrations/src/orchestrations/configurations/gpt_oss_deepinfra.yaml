@@ -1,0 +1,16 @@
+# gpt-oss-120b d'OpenAI, poids ouverts, servi par DeepInfra (nom d'API openai/gpt-oss-120b), à toute
+# heure. Clé dans la variable DEEPINFRA_API_KEY, ou dans le fichier .env à la racine du dépôt, hors
+# git. Cadrage : 00_docs/sources/2026-10-13_cadrage_gpt_oss_120b.md (JOURNAL, entrée 120).
+role: agent
+modele: openai/gpt-oss-120b
+adresse: https://api.deepinfra.com/v1/openai
+cle_env: DEEPINFRA_API_KEY
+# Le seul paramètre : l'effort de raisonnement de l'éditeur, medium, écrit parce que DeepInfra ne
+# dit pas ce qu'il applique sans lui (décision d'Alexandre du 2026-10-13).
+parametres:
+  reasoning_effort: medium
+# OpenAI demande de garder le raisonnement tant que le tour précédent est un appel d'outil ;
+# DeepInfra l'accepte dans reasoning_content. Le champ où il le rend : « ? » jusqu'à l'essai.
+raisonnement_renvoye: reasoning_content
+delai_appel_secondes: 300
+tours_max: 60

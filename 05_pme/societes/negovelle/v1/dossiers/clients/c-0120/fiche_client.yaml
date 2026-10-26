@@ -1,0 +1,31 @@
+# Fiche du client c-0120 de Négovelle. Données FICTIVES.
+code: c-0120
+nom: Services techniques de Vendrigny
+type: collectivite
+adresse: 88 rue des Écoles, 36999 Vendrigny (FICTIF)
+telephone: 02 61 91 73 95
+secteur: est
+commercial: fabrice.mercier
+administration_des_ventes: benoit.faure
+contacts:
+- nom: Aurélie Cazenave
+  fonction: responsable des services techniques
+  courriel: aurelie.cazenave@services-techniques-de-vendrigny.example
+- nom: Robert Rigaud
+  fonction: secrétaire de mairie
+  courriel: robert.rigaud@services-techniques-de-vendrigny.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 88 rue des Écoles, 36999 Vendrigny (FICTIF)
+- code: L2
+  libelle: dépôt
+  adresse: 35 zone artisanale du Moulin, 36999 Vendrigny (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2016-02-01'
+limite_encours_euros: 3500.0
+livraisons_partielles: false
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

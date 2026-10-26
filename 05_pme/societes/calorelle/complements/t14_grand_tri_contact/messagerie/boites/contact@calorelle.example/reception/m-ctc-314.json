@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-314",
+  "de": {
+    "nom": "Bernard Chassagne",
+    "adresse": "b.chassagne@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Chaudière collective de notre copropriété",
+  "date": "2026-11-02T08:18:00+01:00",
+  "corps": "Bonjour,\n\nPrésident du conseil syndical de la résidence Les Acacias, je cherche un devis pour remplacer notre chaudière collective ; notre syndic nous laisse consulter les entreprises.\n\nBernard Chassagne (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

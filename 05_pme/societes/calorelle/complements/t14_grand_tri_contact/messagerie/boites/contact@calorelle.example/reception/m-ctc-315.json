@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-315",
+  "de": {
+    "nom": "Hugo Bertin",
+    "adresse": "hugo.bertin@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Climatisation pour mon cabinet",
+  "date": "2026-11-02T08:24:00+01:00",
+  "corps": "Bonjour,\n\nKinésithérapeute, je voudrais climatiser mon cabinet (deux salles). Pouvez-vous me faire un devis ?\n\nHugo Bertin (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

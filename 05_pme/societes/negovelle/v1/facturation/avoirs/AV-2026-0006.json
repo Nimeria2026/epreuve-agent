@@ -1,0 +1,9 @@
+{
+  "numero": "AV-2026-0006",
+  "client": "c-0129",
+  "facture": "FC-2026-0709",
+  "date": "2026-06-09T10:30:00+02:00",
+  "montant_ttc_euros": 86.94,
+  "motif": "erreur de référence à la préparation",
+  "emis_par": "remi.joly"
+}

@@ -1,0 +1,25 @@
+# Fiche du client c-0047 de Négovelle. Données FICTIVES.
+code: c-0047
+nom: Maçonnerie Auger
+type: artisan
+adresse: 3 avenue de la Gare, 36999 Laubrissac (FICTIF)
+telephone: 02 61 91 99 69
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Léa Gonnet
+  fonction: gérante
+  courriel: lea.gonnet@maconnerie-auger.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 3 avenue de la Gare, 36999 Laubrissac (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2017-06-01'
+limite_encours_euros: 3000.0
+livraisons_partielles: false
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

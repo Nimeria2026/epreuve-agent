@@ -1,0 +1,19 @@
+# Fiche du lot c22-04. Données FICTIVES.
+lot: c22-04
+adresse: 47 rue Émile-Zola, 18999 Montclavel-sur-Cher (FICTIF)
+type: maison T4
+surface_m2: 85
+locataire:
+  nom: M. Jérôme Thibault
+  courriel: jerome.thibault@courriel.example
+  telephone: 06 39 98 78 02
+  entree: '2018-03-28'
+bail:
+  signature: '2018-03-28'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 896,00 €
+  depot_de_garantie: 747,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T4
+dpe:
+  classe: D

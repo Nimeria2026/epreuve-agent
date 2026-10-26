@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-902",
+  "de": {
+    "nom": "Sonia Lefèvre",
+    "adresse": "sonia.lefevre@calorelle.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Chaudière en sécurité",
+  "date": "2026-11-09T09:45:00+01:00",
+  "corps": "Marc, un dépannage arrivé sur contact@.\nSonia\n\n----- Message transféré -----\nIdentifiant : m-ctc-902\nDe : Nathalie André <nathalie.andre@courriel.example>\nÀ : contact@calorelle.example\nCc : (aucun)\nDate : 2026-11-09T09:30:00+01:00\nObjet : Chaudière en sécurité\nPièces jointes : (aucune)\n\nBonjour,\n\nMa chaudière gaz se met en sécurité toutes les heures depuis hier soir. Je suis joignable toute la semaine.\n\nNathalie André, 14 allée des Peupliers (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

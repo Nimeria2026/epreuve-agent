@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-013",
+  "de": {
+    "nom": "Aurélie Chevrier",
+    "adresse": "aurelie.chevrier@sauvage-batiment.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande (renvoi)",
+  "date": "2026-07-03T08:40:00+02:00",
+  "corps": "Bonjour,\n\nSans réponse de votre part, je vous renvoie au cas où notre commande d'hier, la même :\n\n- 5 x ELP-10261, Disque à tronçonner métal 115 mm, boîte de 25\n- 2 x CON-10310, Colle polyuréthane, bidon de 5 l\n\nCordialement,\nAurélie Chevrier\nSauvage Bâtiment",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-015",
+  "de": {
+    "nom": "Vincent Ducret",
+    "adresse": "vincent.ducret@guyot-et-fils.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Retour de lames",
+  "date": "2026-08-07T11:50:00+02:00",
+  "corps": "Bonjour,\n\nNous voudrions rendre 5 étuis de lames de cutter OUT-10775 de la livraison du 27 juillet, BL-2026-01907, non ouverts.\n\nVincent Ducret\nGuyot et Fils",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

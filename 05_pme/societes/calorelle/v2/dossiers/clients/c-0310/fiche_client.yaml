@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0310"
+nom: "Odile Garnier"
+type: "particulier"
+adresse: "85 impasse des Saules, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "odile.garnier@courriel.example"
+telephone: "06 39 98 50 76"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2024-01-17"
+  mois_anniversaire: "janvier"
+  derniere_visite: "2026-01-16"

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cpt-607",
+  "de": {
+    "nom": "Échafaudages de Brenneval",
+    "adresse": "compta@echafaudages-de-brenneval.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Relevé de compte au 30 novembre 2026",
+  "date": "2026-11-27T17:05:00+01:00",
+  "corps": "Bonjour,\n\nVoici le relevé de votre compte chez nous au 30 novembre 2026 :\n- EB-26-0457 du 28/09/2026, 456,00 € TTC, réglée le 29/10/2026\n- EB-26-0519 du 04/11/2026, 576,00 € TTC, échéance 04/12/2026\n\nSolde dû : 576,00 €.\n\nService comptable, Échafaudages de Brenneval (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

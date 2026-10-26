@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-laga-011",
+  "de": {
+    "nom": "Corinne Vidal",
+    "adresse": "corinne.vidal@negovelle.example"
+  },
+  "a": [
+    "laetitia.garnier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Commande",
+  "date": "2026-08-10T07:41:00+02:00",
+  "corps": "Lætitia,\n\nManon étant absente jusqu'au 21, je te transfère sa commande du nord, arrivée dans commandes@.\n\nCorinne\n\n----- Message transféré -----\nDe : Paul Hardy <paul.hardy@paysage-guyot.example>\nDate : 8 août 2026, 9 h 10\nObjet : Commande\n\nBonjour Manon,\n\nVoici notre commande :\n\n- 12 x CON-10146, Bombe de traçage, gris, aérosol de 400 ml\n- 30 x FIX-11159, Collier de fixation 22 mm, sachet de 50\n\nLivraison standard au siège.\n\nMerci,\n\nPaul Hardy\nPaysage Guyot",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,29 @@
+{
+  "identifiant": "m-vete-410",
+  "de": {
+    "nom": "Cédric Maillard",
+    "adresse": "cedric.maillard@domivelle.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Note de frais, mai",
+  "date": "2026-06-05T18:45:00+02:00",
+  "corps": "Véronique,\n\nVoici ma note de frais de mai, avec ma voiture :\n\n| Date | Objet | Immeuble | Kilomètres | Stationnement |\n|---|---|---|---|---|\n| 21 avril 2026 | visite technique | c01 | 6 | 3,50 € |\n| 6 mai 2026 | état des lieux | c08 | 8 | 0,00 € |\n| 19 mai 2026 | visite | c12 | 6 | 2,80 € |\n\nSoit 20 km à 0,40 €, 8,00 €, et 6,30 € de stationnement : 14,30 €. Les deux tickets sont joints.\n\nCédric",
+  "pieces_jointes": [
+    {
+      "nom": "note_de_frais_cedric_maillard_2026-05.pdf",
+      "fichier": "pieces/m-vete-410/note_de_frais_cedric_maillard_2026-05.pdf",
+      "taille_octets": 755
+    },
+    {
+      "nom": "ticket_stationnement_2026-05-19.pdf",
+      "fichier": "pieces/m-vete-410/ticket_stationnement_2026-05-19.pdf",
+      "taille_octets": 762
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

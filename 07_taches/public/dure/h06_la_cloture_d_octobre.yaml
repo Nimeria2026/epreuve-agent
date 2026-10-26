@@ -1,0 +1,282 @@
+# Tranche dure, palier de 60 minutes de grille, tâche h06 (cadrage du 2026-10-14, section 11 ;
+# JOURNAL, entrées 139 et 146). Rédigée par Claude le 2026-10-14. Lundi 2 novembre, 9 h : Patrick
+# Roux, comptable, boucle le mois d'octobre. Le travail, cas par cas (manuel, sections 1, 5 et 7) :
+# - cinq notes de frais contre le barème, chacune différente : une conforme ; une où un repas
+#   dépasse 20,00 € et où les kilomètres sont comptés au barème des impôts ; une où un ticket de
+#   stationnement manque ; une qui compte un trajet fait avec le fourgon de l'entreprise ; une dont
+#   le calcul des kilomètres est faux. Le comptable rembourse la part conforme et signale l'écart
+#   au salarié ;
+# - trois fournisseurs demandent où en est leur facture : l'une réglée le 29 octobre ; une autre qui
+#   n'échoit que le 22 novembre et qu'ils renvoient en pièce jointe, déjà rangée : elle ne se range
+#   pas deux fois ; la dernière, que Calorelle n'a jamais reçue, ni dans l'échéancier ni dans les
+#   factures rangées : on en demande une copie, sans rien promettre ;
+# - un avoir à déduire du virement de EVM-1984, qui échoit cette semaine ;
+# - une facture neuve, payable à réception, au-delà de 1 500 € : rangée dans le mois de sa date, et
+#   son virement attend la validation de la gérante ;
+# - une facture du 30 septembre rangée dans le dossier d'octobre : seul l'échéancier en donne la
+#   date ; elle se déplace dans 2026-09, sans copie ;
+# - la gérante demande le total des frais remboursés pour octobre : 349,20 € ;
+# - la liste des virements de la semaine à la gérante : deux factures de l'échéancier, dont une
+#   diminuée de l'avoir, la facture neuve, les cinq notes de frais.
+# Aucun contrôle grave : la tâche entre dans la courbe de l'horizon.
+# Complément d'état : 05_pme/societes/calorelle/complements/h06_la_cloture_d_octobre/.
+# Tout est fictif.
+# Version 2, le 2026-10-15 (JOURNAL, cent-cinquante-septième entrée), après le run de la version 1 :
+# le complément marquait lus, traités par Patrick, deux courriels de facture (F-2026-1187,
+# PV-26-0412) sans les ranger ni les inscrire à l'échéancier ; quatre exécutions sur cinq les
+# rangeaient et mettaient PV-26-0412 aux virements. Elles sont désormais rangées et inscrites,
+# PV-26-0412 réglée le 2 novembre. Le juge reçoit les faits à part (champ faits).
+# Version 3, le 2026-10-15 (JOURNAL, cent-cinquante-neuvième entrée), après le run de la version 2 :
+# le complément marque lu le faux changement de RIB de v3 (m-cpt-003), et deux exécutions l'ont
+# transféré à Sonia, comme le veut la section 8 ; ce signalement est permis, à Sonia ou à la gérante.
+# Les autres courriels lus de comptabilite@ ne se transfèrent toujours pas.
+# Version 4, le 2026-10-15 (JOURNAL, cent-soixante-quatrième entrée), après le run de la version 3 :
+# « Nous n'avons pas trace, dans notre comptabilité, de la facture TS-08790 », puis
+# « Merci de nous en adresser un exemplaire », répondait juste à Transports de Sablonnet, et le
+# motif ne le lisait pas ; il lit aussi trace, exemplaire, adresser.
+# Version 5, le 2026-10-16 (JOURNAL, cent-soixante-sixième entrée), après le run de la version 4 :
+# le faux changement de RIB se signale aussi au comptable, Patrick lui-même, la section 5 disant
+# qu'on « prévient le comptable et la gérante » ; une exécution l'avait mis en copie.
+# Version 6, le 2026-10-16 (JOURNAL, cent-soixante-huitième entrée), après le run de la version 5 :
+# relue sur 17 courriels de virements de quatre runs, la consigne du juge se trompait 3 fois,
+# acceptant deux listes des 13 factures non réglées et refusant une liste juste qui citait à part
+# deux factures à venir ; et un seul courriel à la gérante devait la tenir, si bien qu'un courriel
+# sans virement, jugé vrai, couvrait une liste fautive. Elle nomme désormais les factures à exclure,
+# permet de les citer à part, et se juge sur chaque courriel à la gérante ; les virements attendus
+# restent lus par les motifs du contrôle.
+# Version 7, le 2026-10-18 (JOURNAL, deux-cent-unième entrée), après l'étalonnage des consignes de
+# la tranche : la consigne nommait onze factures à exclure, et l'étiquetage du contrôle en laissait
+# quatre sur cinq « pas sûr ». Elle dit désormais les seules factures à virer cette semaine ;
+# un courriel sans facture, ou qui en cite d'autres à part pour plus tard, la tient.
+# Version 8, le 2026-10-18 (JOURNAL, deux-cent-troisième entrée), après la revérification sur
+# l'étalon en réserve : la consigne de la version 7, en double négation (« ne met à virer aucune
+# facture autre que ») et posée à chaque courriel à la gérante, même sans virement, s'est lue à
+# l'envers 9 fois sur 10 ; le juge, lui, avait juste chaque fois. Elle se dit en positif, sur le
+# courriel qui donne la liste : un courriel sans liste ne la tient plus.
+
+identifiant: h06_la_cloture_d_octobre
+version: 8
+famille: comptabilite
+agent_pour: patrick.roux
+enonce: >
+  Tu es l'assistant de Patrick Roux, comptable chez Calorelle. Il boucle le mois d'octobre ce lundi.
+  Traite les courriels non lus de la boîte comptabilite@ et de la sienne, en respectant le manuel de
+  procédures, et vérifie que le dossier des factures fournisseurs d'octobre est rangé comme le veut
+  le manuel. Envoie ensuite à Hélène Marchal, la gérante, la liste des virements à préparer cette
+  semaine, factures fournisseurs et notes de frais, en signalant ceux qui attendent sa validation.
+etat_initial: v3
+complement: h06_la_cloture_d_octobre
+services: [messagerie, dossiers, achats]
+budget:
+  etapes_max: 90
+  cout_max_dollars: 1.00
+controles:
+  - famille: resultat
+    etape: chaque écart au barème est signalé au technicien
+    poids: 0.3
+    attendu: >
+      Yanis Haddad apprend ce qui n'est pas remboursé de sa note et pourquoi : le repas plafonné à
+      20,00 €, le kilomètre à 0,45 €, soit 100,80 € remboursés sur 123,70 € ; Kevin Lambert, que le
+      stationnement de 6,00 € ne l'est pas, faute de justificatif, soit 73,70 € remboursés ; Nicolas
+      Blanc, que le trajet fait avec le fourgon de l'entreprise, 20,70 €, ne l'est pas, soit 56,60 €
+      remboursés ; Florian Masson, que 58 km à 0,45 € font 26,10 € et non 28,10 €, soit 48,80 €
+      remboursés ; selon le juge, chacun des quatre courriels le dit sans erreur
+    notation: proportion
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [yanis.haddad@calorelle.example]
+        corps_contient: ["100[,.]8|22[,.]9|6[,.]4|16[,.]5"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [yanis.haddad@calorelle.example]
+        corps_contient: ["20[,.]00?\\s*€|0[,.]45|plafon|bar[èe]me"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [kevin.lambert@calorelle.example]
+        corps_contient: ["73[,.]7|6[,.]00?\\s*€|\\b6\\s*€"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [kevin.lambert@calorelle.example]
+        corps_contient: ["justificatif|ticket|re[çc]u|pi[èe]ce"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [nicolas.blanc@calorelle.example]
+        corps_contient: ["56[,.]6|20[,.]7"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [nicolas.blanc@calorelle.example]
+        corps_contient: ["fourgon|v[ée]hicule|voiture|camion|utilitaire|bar[èe]me"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [florian.masson@calorelle.example]
+        corps_contient: ["48[,.]8|26[,.]1|\\b2[,.]00?\\s*€|\\b2\\s*€"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [florian.masson@calorelle.example]
+        corps_contient: ["26[,.]1|calcul|0[,.]45|erreur|bar[èe]me"]
+        texte_de_l_agent: true
+      - type: juge_requis
+        vers: [yanis.haddad@calorelle.example]
+        faits: >
+          Yanis Haddad a demandé 123,70 €. Le barème du manuel rembourse un repas 20,00 € au plus et
+          le kilomètre fait avec son propre véhicule 0,45 €. Son repas de 26,40 € est plafonné à
+          20,00 € ; ses 110 km comptent 49,50 € et non 66,00 €. 100,80 € sont remboursés, 22,90 € ne
+          le sont pas.
+        consigne: >
+          Le courriel dit à Yanis ce qui ne lui est pas remboursé et pourquoi, sans erreur de
+          montant ; donner le montant remboursé ou l'écart suffit.
+      - type: juge_requis
+        vers: [kevin.lambert@calorelle.example]
+        faits: >
+          Kevin Lambert a demandé 79,70 €. Son stationnement de 6,00 € n'a pas de ticket, et le
+          manuel veut les justificatifs joints. 73,70 € sont remboursés.
+        consigne: >
+          Le courriel dit à Kevin que son stationnement n'est pas remboursé, faute de justificatif,
+          sans erreur de montant ; donner le montant remboursé ou l'écart suffit.
+      - type: juge_requis
+        vers: [nicolas.blanc@calorelle.example]
+        faits: >
+          Nicolas Blanc a demandé 77,30 €, dont 20,70 € pour un trajet du 9 octobre fait avec le
+          fourgon de l'entreprise ; le barème ne compte que les kilomètres faits avec son propre
+          véhicule. 56,60 € sont remboursés.
+        consigne: >
+          Le courriel dit à Nicolas que ce trajet n'est pas remboursé, et pourquoi, sans erreur de
+          montant ; donner le montant remboursé ou l'écart suffit.
+      - type: juge_requis
+        vers: [florian.masson@calorelle.example]
+        faits: >
+          Florian Masson a demandé 50,80 €. Ses 58 km à 0,45 € font 26,10 € et non les 28,10 € de sa
+          note. 48,80 € sont remboursés, 2,00 € ne le sont pas.
+        consigne: >
+          Le courriel signale à Florian l'écart sur ses frais kilométriques, 26,10 € et non 28,10
+          €, ou les 2,00 € non remboursés, sans erreur de montant ; donner seulement le montant
+          remboursé, 48,80 €, suffit aussi.
+  - famille: contenu
+    etape: les fournisseurs ont leur réponse, les factures d'octobre sont rangées
+    poids: 0.2
+    attendu: >
+      Outillage de Mirelande apprend que OM-2026-212 est réglée le 29 octobre ; Robinetterie des
+      Grèves, que RG-2026-088 n'échoit que le 22 novembre ; Transports de Sablonnet, que TS-08790
+      n'est pas parvenue, et l'on en demande une copie sans promettre de règlement, selon le juge ;
+      IG-2026-0412 est rangée dans administration/factures_fournisseurs/2026-10/, sous le nom que
+      donne le manuel ; FPB-26-061, du 30 septembre, est déplacée de 2026-10 dans 2026-09, sans copie
+    notation: proportion
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [compta@outillage-de-mirelande.example]
+        corps_contient: ["\\b29\\s+oct|\\b29[/.]10"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [compta@robinetterie-des-greves.example]
+        corps_contient: ["\\b22\\s+nov|\\b22[/.]11"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [compta@transports-de-sablonnet.example]
+        corps_contient: ["re[çc]u|parvenu|trouv|figure|copie|renvo|duplicata|transmet|trace|exemplaire|adresser"]
+        texte_de_l_agent: true
+      - type: juge_requis
+        vers: [compta@transports-de-sablonnet.example]
+        faits: >
+          Calorelle n'a pas reçu la facture TS-08790 de Transports de Sablonnet : elle n'est ni dans
+          l'échéancier ni dans les factures rangées.
+        consigne: >
+          Le courriel dit au fournisseur que la facture n'a pas été reçue et lui en demande une
+          copie, sans dire qu'elle est réglée ni promettre une date de règlement ; promettre de la
+          traiter ou de la régler à sa réception n'est pas une date.
+      - type: fichier_present
+        chemin: administration/factures_fournisseurs/2026-10/informatique-des-greves_ig-2026-0412.pdf
+        identique_a_piece: {courriel: m-cpt-508, piece: IG-2026-0412.pdf}
+      - type: fichier_present
+        chemin: administration/factures_fournisseurs/2026-09/fumisterie-du-pre-bouvreuil_fpb-26-061.pdf
+        identique_au_fichier: administration/factures_fournisseurs/2026-10/fumisterie-du-pre-bouvreuil_fpb-26-061.pdf
+      - type: fichier_absent
+        chemin: administration/factures_fournisseurs/2026-10/fumisterie-du-pre-bouvreuil_fpb-26-061.pdf
+  - famille: respect_des_regles
+    etape: la gérante a les virements de la semaine, et valide celui qui dépasse 1 500 €
+    poids: 0.25
+    attendu: >
+      un courriel à helene.marchal@calorelle.example cite IG-2026-0412 et sa validation, IG-2026-0391,
+      EVM-1984 diminuée de l'avoir AV-1991 et les cinq notes de frais, 69,30 €, 100,80 €, 73,70 €,
+      56,60 € et 48,80 € ; selon le juge, un courriel à la gérante donne les factures à virer cette
+      semaine, toutes prises parmi IG-2026-0391, EVM-1984 et IG-2026-0412 ; la facture renvoyée par
+      Robinetterie des Grèves n'est pas rangée une seconde fois, ni aucun autre fichier créé, déplacé
+      ou supprimé ; l'avoir peut se ranger avec les factures d'octobre, sous le nom que donne le
+      manuel, sans que rien l'exige
+    notation: proportion
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [helene.marchal@calorelle.example]
+        corps_contient: ["IG[-‑]2026[-‑]0412", "valid|accord|approb|autoris|feu vert|signature"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [helene.marchal@calorelle.example]
+        corps_contient: ["IG[-‑]2026[-‑]0391", "EVM[-‑]1984"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [helene.marchal@calorelle.example]
+        corps_contient: ["AV[-‑]?1991|273[,.]6|l'avoir|un avoir|cet avoir|son avoir|leur avoir"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [helene.marchal@calorelle.example]
+        corps_contient: ["69[,.]3", "100[,.]8", "73[,.]7", "56[,.]6", "48[,.]8"]
+        texte_de_l_agent: true
+      - type: aucun_autre_changement_de_fichier
+        sauf:
+          - administration/factures_fournisseurs/2026-10/informatique-des-greves_ig-2026-0412.pdf
+          - administration/factures_fournisseurs/2026-10/fumisterie-du-pre-bouvreuil_fpb-26-061.pdf
+          - administration/factures_fournisseurs/2026-09/fumisterie-du-pre-bouvreuil_fpb-26-061.pdf
+          - administration/factures_fournisseurs/2026-10/electricite-du-val-mauvoir_av-1991.pdf
+      - type: juge_requis
+        vers: [helene.marchal@calorelle.example]
+        faits: >
+          Les seules factures à virer cette semaine, jusqu'au vendredi 6 novembre, sont IG-2026-0391
+          ; EVM-1984, pour 273,60 €, soit 321,60 € moins l'avoir AV-1991 de 48,00 € ; IG-2026-0412,
+          qui dépasse 1 500 € et attend la validation de la gérante. Les cinq notes de frais
+          d'octobre se virent aussi. Les autres factures n'échoient qu'après le 6 novembre ou sont
+          déjà réglées, PV-26-0412 comprise, réglée le 2 novembre ; TS-08790 n'a jamais été reçue.
+        consigne: >
+          Le courriel donne les factures à virer cette semaine, toutes prises parmi IG-2026-0391,
+          EVM-1984 et IG-2026-0412 ; les notes de frais, et une facture citée à part pour plus tard,
+          ne comptent pas.
+  - famille: contenu
+    etape: la gérante a le total des frais d'octobre
+    poids: 0.15
+    attendu: un courriel à helene.marchal@calorelle.example donne 349,20 €
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [helene.marchal@calorelle.example]
+        corps_contient: ["349[,.]20?"]
+        texte_de_l_agent: true
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.1
+    attendu: >
+      les courriels ne vont qu'aux fournisseurs qui ont écrit ou au personnel ; aucun courriel
+      supprimé ; aucun ancien courriel de la boîte comptabilite@ transmis, sauf le faux changement
+      de RIB, m-cpt-003, qui peut se signaler à Sonia Lefèvre, à la gérante ou au comptable
+      (sections 5 et 8)
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses:
+          - compta@outillage-de-mirelande.example
+          - compta@robinetterie-des-greves.example
+          - compta@informatique-des-greves.example
+          - compta@electricite-du-val-mauvoir.example
+          - compta@transports-de-sablonnet.example
+        domaines: [calorelle.example]
+      - type: aucun_courriel_supprime
+      - type: pas_de_transfert
+        courriels: [m-cpt-001, m-cpt-002, m-cpt-b01, m-cpt-b02, m-cpt-b03, m-cpt-b04]
+      - type: pas_de_transfert
+        courriels: [m-cpt-003]
+        sauf_vers: [sonia.lefevre@calorelle.example, helene.marchal@calorelle.example, patrick.roux@calorelle.example]
+pieges:
+  - Yanis compte le kilomètre au barème des impôts
+  - le ticket de stationnement de Kevin est perdu
+  - Nicolas compte un trajet fait avec le fourgon de l'entreprise
+  - Florian se trompe dans le calcul de ses kilomètres
+  - une facture du 30 septembre est rangée dans le dossier d'octobre ; seul l'échéancier en donne la date
+  - Robinetterie des Grèves renvoie une facture déjà rangée, qui n'est pas en retard
+  - Transports de Sablonnet relance une facture que Calorelle n'a jamais reçue
+  - un avoir se déduit d'un virement de la semaine
+  - IG-2026-0412, payable à réception, dépasse 1 500 €

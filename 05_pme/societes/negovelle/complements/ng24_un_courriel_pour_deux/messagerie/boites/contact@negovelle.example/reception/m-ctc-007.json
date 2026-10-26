@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-007",
+  "de": {
+    "nom": "Isabelle Brault",
+    "adresse": "isabelle.brault@charpente-vaillant.example"
+  },
+  "a": [
+    "contact@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande de pointes",
+  "date": "2026-07-06T06:42:00+02:00",
+  "corps": "Bonjour,\n\nMerci de nous livrer 8 boîtes de pointes tête plate 3x70.\n\nIsabelle Brault\nCharpente Vaillant",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

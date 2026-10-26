@@ -1,0 +1,68 @@
+{
+  "numero": "CO-2026-02081",
+  "client": "c-0236",
+  "reference_client": null,
+  "cree_le": "2026-07-26T10:00:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "99 rue des Écoles, 36999 Fontclavier (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "VIS-11445",
+      "libelle": "Vis à bois tête fraisée 3x45, inox A2, boîte de 200",
+      "quantite": 15,
+      "prix_tarif_ht_euros": 15.0,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 15.0,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 225.0
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 240.0,
+  "total_tva_euros": 48.0,
+  "total_ttc_euros": 288.0,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01901"
+  ],
+  "facture": "FC-2026-1471",
+  "historique": [
+    {
+      "date": "2026-07-26T10:00:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": "commande du client"
+    },
+    {
+      "date": "2026-07-26T10:05:00+02:00",
+      "par": "oceane.collin",
+      "action": "validee",
+      "detail": "stock réservé"
+    },
+    {
+      "date": "2026-07-27T16:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01901"
+    },
+    {
+      "date": "2026-07-28T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01901"
+    },
+    {
+      "date": "2026-07-31T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1471"
+    }
+  ]
+}

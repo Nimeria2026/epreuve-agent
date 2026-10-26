@@ -1,0 +1,145 @@
+{
+  "numero": "CO-2026-01820",
+  "client": "c-0091",
+  "reference_client": null,
+  "cree_le": "2026-06-22T09:10:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "56 rue des Jardins, 36999 Laubrissac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-11616",
+      "libelle": "Papier abrasif carbure de silicium, grain 80, rouleau de 25 m",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 50.2,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 50.2,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 200.8
+    },
+    {
+      "reference": "ELE-11796",
+      "libelle": "Détecteur de fumée autonome",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 16.7,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 16.03,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 16.03
+    },
+    {
+      "reference": "ELP-11061",
+      "libelle": "Foret métal HSS 4 mm, étui de 2",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 7.7,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 7.39,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 14.78
+    },
+    {
+      "reference": "FIX-11870",
+      "libelle": "Tige filetée M16, longueur 1 m, zinguée",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 8.8,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 8.45,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 33.8
+    },
+    {
+      "reference": "FIX-11902",
+      "libelle": "Tige filetée M6, longueur 1 m, brute",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 11.25,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 10.8,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 10.8
+    },
+    {
+      "reference": "OUT-10824",
+      "libelle": "Lime carrée 200 mm, taille demi-douce",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 19.6,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 18.82,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 37.64
+    },
+    {
+      "reference": "PLB-11363",
+      "libelle": "Joint caoutchouc 20x27, sachet de 50",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 4.35,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 4.18,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 4.18
+    },
+    {
+      "reference": "PLB-11992",
+      "libelle": "Raccord laiton droit mâle-femelle 12x17",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 3.8,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 3.65,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 3.65
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 321.68,
+  "total_tva_euros": 64.34,
+  "total_ttc_euros": 386.02,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01669"
+  ],
+  "facture": "FC-2026-1082",
+  "historique": [
+    {
+      "date": "2026-06-22T09:10:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-22T09:12:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-23T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01669"
+    },
+    {
+      "date": "2026-06-23T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01669"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1082"
+    }
+  ]
+}

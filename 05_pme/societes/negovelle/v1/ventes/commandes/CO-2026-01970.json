@@ -1,0 +1,139 @@
+{
+  "numero": "CO-2026-01970",
+  "client": "c-0303",
+  "reference_client": "BC-2505",
+  "cree_le": "2026-07-01T09:10:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "21 zone artisanale du Moulin, 36999 Brissonne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-11143",
+      "libelle": "Disque abrasif à lamelles 125 mm, grain 80, boîte de 50",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 39.55,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 37.97,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 189.85
+    },
+    {
+      "reference": "ELE-11763",
+      "libelle": "Domino 2,5 mm², barrette de 12",
+      "quantite": 20,
+      "prix_tarif_ht_euros": 2.3,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 2.21,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 44.2
+    },
+    {
+      "reference": "ELE-13364",
+      "libelle": "Tableau électrique 2 rangée(s), 18 modules",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 74.75,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 71.76,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 430.56
+    },
+    {
+      "reference": "ELP-11077",
+      "libelle": "Foret métal HSS 4,5 mm, étui de 10",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 24.15,
+      "remise_pourcent": 5.92,
+      "prix_net_ht_euros": 22.72,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 272.64
+    },
+    {
+      "reference": "FIX-12147",
+      "libelle": "Équerre de fixation 120x80x40 mm, galvanisée",
+      "quantite": 50,
+      "prix_tarif_ht_euros": 4.25,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 4.08,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 204.0
+    },
+    {
+      "reference": "FIX-12450",
+      "libelle": "Équerre de fixation 80x80x40 mm, zinguée",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 4.05,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 3.89,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 19.45
+    },
+    {
+      "reference": "OUT-10294",
+      "libelle": "Ciseau à bois 34 mm",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 21.9,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 21.02,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 42.04
+    },
+    {
+      "reference": "VIS-11135",
+      "libelle": "Vis à bois tête fraisée 3,5x80, inox A2, boîte de 200",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 17.8,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 17.09,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 68.36
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 1271.1,
+  "total_tva_euros": 254.22,
+  "total_ttc_euros": 1525.32,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01819"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-01T09:10:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-01T09:12:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-02T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01819"
+    },
+    {
+      "date": "2026-07-02T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01819"
+    }
+  ]
+}

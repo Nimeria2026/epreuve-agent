@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-740",
+  "de": {
+    "nom": "Établissements Lambert",
+    "adresse": "contact@etablissements-lambert-60.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis de la pompe à chaleur",
+  "date": "2026-12-28T10:00:00+01:00",
+  "corps": "Madame Perrin,\n\nNous attendons toujours votre devis pour la pompe à chaleur de nos bureaux. Notre conseil se réunit le 8 janvier.\n\nÉtablissements Lambert, 106 rue du Moulin, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

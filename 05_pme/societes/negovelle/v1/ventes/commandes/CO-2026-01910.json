@@ -1,0 +1,112 @@
+{
+  "numero": "CO-2026-01910",
+  "client": "c-0096",
+  "reference_client": null,
+  "cree_le": "2026-06-26T09:10:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "47 rue du Moulin, 36999 Mérolles-en-Brenne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-11069",
+      "libelle": "Câble R2V 3G 2,5 mm², couronne de 100 m",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 102.5,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 98.4,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 98.4
+    },
+    {
+      "reference": "ELE-13323",
+      "libelle": "Spot encastrable LED 7 W, 3000 K, blanc",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 13.6,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 13.06,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 26.12
+    },
+    {
+      "reference": "ENT-11224",
+      "libelle": "Sacs à gravats 120 l, paquet de 25",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 7.95,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 7.95,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 39.75
+    },
+    {
+      "reference": "OUT-12033",
+      "libelle": "Scie à métaux 300 mm",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 30.25,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 29.04,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 145.2
+    },
+    {
+      "reference": "VIS-11796",
+      "libelle": "Vis à bois tête fraisée 4,5x30, bichromatée, boîte de 100",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 7.25,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 6.96,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 20.88
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 330.35,
+  "total_tva_euros": 66.07,
+  "total_ttc_euros": 396.42,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01759"
+  ],
+  "facture": "FC-2026-1087",
+  "historique": [
+    {
+      "date": "2026-06-26T09:10:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-26T09:12:00+02:00",
+      "par": "oceane.collin",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-29T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01759"
+    },
+    {
+      "date": "2026-06-29T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01759"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1087"
+    }
+  ]
+}

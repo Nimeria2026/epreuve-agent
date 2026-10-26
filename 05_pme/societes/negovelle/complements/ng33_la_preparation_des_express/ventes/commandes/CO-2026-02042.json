@@ -1,0 +1,59 @@
+{
+  "numero": "CO-2026-02042",
+  "client": "c-0068",
+  "reference_client": null,
+  "cree_le": "2026-07-06T07:17:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "express",
+  "livraison": {
+    "code": "L1",
+    "adresse": "97 rue des Forges, 36999 Ardillac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-11372",
+      "libelle": "Mastic hybride MS polymère, cartouche de 310 ml, blanc",
+      "quantite": 24,
+      "prix_tarif_ht_euros": 13.7,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 12.6,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 302.4
+    },
+    {
+      "reference": "FIX-10457",
+      "libelle": "Cheville nylon 5x40, boîte de 50",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 9.5,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 8.74,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 87.4
+    }
+  ],
+  "port_ht_euros": 25.0,
+  "total_ht_euros": 414.8,
+  "total_tva_euros": 82.96,
+  "total_ttc_euros": 497.76,
+  "statut": "validee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-06T07:17:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-06T07:20:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": ""
+    }
+  ]
+}

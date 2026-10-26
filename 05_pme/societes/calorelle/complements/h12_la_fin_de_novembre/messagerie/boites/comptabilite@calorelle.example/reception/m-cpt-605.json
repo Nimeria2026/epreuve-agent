@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cpt-605",
+  "de": {
+    "nom": "Robinetterie des Grèves",
+    "adresse": "compta@robinetterie-des-greves.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Relevé de compte au 30 novembre 2026",
+  "date": "2026-11-27T11:00:00+01:00",
+  "corps": "Bonjour,\n\nVoici le relevé de votre compte chez nous au 30 novembre 2026 :\n- RG-2026-088 du 23/10/2026, 151,20 € TTC, échéance 22/11/2026, réglée en partie le 19/11/2026 : 115,20 €, reste dû 36,00 €\n\nSolde dû : 36,00 €.\n\nService comptable, Robinetterie des Grèves (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

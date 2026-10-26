@@ -1,0 +1,13 @@
+{
+  "numero": "INT-2026-0041",
+  "client": "c-0003",
+  "techniciens": [
+    "romain.guerin"
+  ],
+  "debut": "2026-12-08T08:00:00+01:00",
+  "fin": "2026-12-08T12:00:00+01:00",
+  "nature": "installation",
+  "objet": "Remplacement de la pompe de circulation de la chaufferie",
+  "statut": "planifiee",
+  "cree_par": "marc.duval"
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-824",
+  "de": {
+    "nom": "Enzo Caron",
+    "adresse": "enzo.caron@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Absent mardi et mercredi",
+  "date": "2026-11-22T20:30:00+01:00",
+  "corps": "Sonia,\n\nJe serai au CFA mardi 24 et mercredi 25 novembre pour mon examen de mi-parcours. Peux-tu prévenir le planning ?\n\nEnzo (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

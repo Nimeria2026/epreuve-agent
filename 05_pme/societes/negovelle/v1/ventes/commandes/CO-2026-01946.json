@@ -1,0 +1,62 @@
+{
+  "numero": "CO-2026-01946",
+  "client": "c-0018",
+  "reference_client": null,
+  "cree_le": "2026-06-30T09:10:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "37 parc d'activités de la Gare, 36999 Saulvenne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "QUI-10596",
+      "libelle": "Charnière de meuble à visser 30 mm, inox",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 4.9,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 4.7,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 28.2
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 43.2,
+  "total_tva_euros": 8.64,
+  "total_ttc_euros": 51.84,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01795"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-06-30T09:10:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-30T09:12:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-01T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01795"
+    },
+    {
+      "date": "2026-07-01T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01795"
+    }
+  ]
+}

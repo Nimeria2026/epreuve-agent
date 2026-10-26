@@ -1,0 +1,49 @@
+{
+  "numero": "BL-2026-01784",
+  "commande": "CO-2026-01935",
+  "client": "c-0229",
+  "date_expedition": "2026-06-29",
+  "date_livraison": "2026-06-30",
+  "transport": {
+    "mode": "transporteur",
+    "transporteur": "transports-delorme",
+    "recepisse": "TD-435564"
+  },
+  "adresse": "63 rue des Forges, 36999 Vendrigny (FICTIF)",
+  "colis": 3,
+  "lignes": [
+    {
+      "reference": "CON-11061",
+      "libelle": "Disque abrasif à lamelles 125 mm, grain 180, boîte de 10",
+      "quantite": 1
+    },
+    {
+      "reference": "ELE-11633",
+      "libelle": "Disjoncteur tétrapolaire 16 A, courbe C",
+      "quantite": 12
+    },
+    {
+      "reference": "ELE-11780",
+      "libelle": "Domino 6 mm², barrette de 12",
+      "quantite": 6
+    },
+    {
+      "reference": "QUI-12662",
+      "libelle": "Serrure en applique horizontale, axe 50 mm",
+      "quantite": 1
+    },
+    {
+      "reference": "VIS-13903",
+      "libelle": "Vis à tôle tête cylindrique 4,2x19, zinguée, boîte de 100",
+      "quantite": 12
+    },
+    {
+      "reference": "VIS-14034",
+      "libelle": "Vis à tôle tête cylindrique 4,8x9,5, zinguée, boîte de 250",
+      "quantite": 1
+    }
+  ],
+  "reserves": null,
+  "signataire": "Agnès Durieux",
+  "statut": "livre"
+}

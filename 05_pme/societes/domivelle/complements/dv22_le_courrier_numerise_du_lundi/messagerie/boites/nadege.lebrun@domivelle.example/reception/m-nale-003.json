@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-nale-003",
+  "de": {
+    "nom": "Copieur de l'accueil",
+    "adresse": "copieur@domivelle.example"
+  },
+  "a": [
+    "nadege.lebrun@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Numérisation",
+  "date": "2026-06-08T08:42:00+02:00",
+  "corps": "Avis d'échéance de la Mutuelle Carrelis pour l'assurance de l'immeuble de la Résidence Les Lauriers, 116 rue Jean-Jaurès à Vernillac, reçu au courrier de ce matin.",
+  "pieces_jointes": [
+    {
+      "nom": "scan.pdf",
+      "fichier": "pieces/m-nale-003/scan.pdf",
+      "taille_octets": 802
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

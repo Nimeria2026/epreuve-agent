@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cop-610",
+  "de": {
+    "nom": "Nathalie Rousseau",
+    "adresse": "nathalie.rousseau@courriel.example"
+  },
+  "a": [
+    "copropriete@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Une question pour l'assemblée du Domaine des Saules",
+  "date": "2026-08-27T19:10:00+02:00",
+  "corps": "Bonjour,\n\nLocataire de l'appartement du lot 7 du Domaine des Saules, je voudrais que l'assemblée du 8 octobre examine l'éclairage du parking, trop faible le soir.\n\nNathalie Rousseau",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

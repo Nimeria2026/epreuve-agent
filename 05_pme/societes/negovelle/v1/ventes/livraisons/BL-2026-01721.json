@@ -1,0 +1,44 @@
+{
+  "numero": "BL-2026-01721",
+  "commande": "CO-2026-01872",
+  "client": "c-0311",
+  "date_expedition": "2026-06-26",
+  "date_livraison": "2026-06-26",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "2 parc d'activités de la Gare, 36999 Vendrigny (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "ELE-11241",
+      "libelle": "Câble U1000 R2V 2x 1,5 mm², couronne de 50 m",
+      "quantite": 10
+    },
+    {
+      "reference": "ELP-11568",
+      "libelle": "Perceuse-visseuse 18 V, 2 batterie(s) 2 Ah, coffret",
+      "quantite": 2
+    },
+    {
+      "reference": "FIX-11412",
+      "libelle": "Crochet en S à visser 40 mm, sachet de 10",
+      "quantite": 6
+    },
+    {
+      "reference": "PRO-11698",
+      "libelle": "Polo haute visibilité jaune, taille XXL",
+      "quantite": 2
+    },
+    {
+      "reference": "VIS-10914",
+      "libelle": "Vis à bois tête fraisée 3,5x45, bichromatée, boîte de 100",
+      "quantite": 1
+    }
+  ],
+  "reserves": null,
+  "signataire": "Éric Gallet",
+  "statut": "livre"
+}

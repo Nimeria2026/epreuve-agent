@@ -1,0 +1,73 @@
+{
+  "numero": "CO-2026-02001",
+  "client": "c-0251",
+  "reference_client": "BC-6228",
+  "cree_le": "2026-07-02T09:10:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "21 zone d'activités des Grands Prés, 36999 Vaumoreau-sur-Indre (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELP-10032",
+      "libelle": "Batterie 18 V 3 Ah",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 147.0,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 135.24,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 270.48
+    },
+    {
+      "reference": "PLB-12401",
+      "libelle": "Robinet d'arrêt de machine à laver 12x17",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 12.55,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 11.55,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 138.6
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 409.08,
+  "total_tva_euros": 81.82,
+  "total_ttc_euros": 490.9,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01850"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-02T09:10:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-02T09:12:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01850"
+    },
+    {
+      "date": "2026-07-03T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01850"
+    }
+  ]
+}

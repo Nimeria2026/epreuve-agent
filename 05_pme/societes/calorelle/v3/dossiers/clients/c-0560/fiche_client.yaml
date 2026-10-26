@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0560"
+nom: "Catherine Muller"
+type: "particulier"
+adresse: "111 allée des Peupliers, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "catherine.muller@courriel.example"
+telephone: "06 39 98 51 32"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2018-02-15"
+  mois_anniversaire: "février"
+  derniere_visite: "2026-02-27"

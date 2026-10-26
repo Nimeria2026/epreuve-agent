@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cpt-608",
+  "de": {
+    "nom": "Nettoyage de Mirelande",
+    "adresse": "compta@nettoyage-de-mirelande.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Relevé de compte au 30 novembre 2026",
+  "date": "2026-11-30T07:40:00+01:00",
+  "corps": "Bonjour,\n\nVoici le relevé de votre compte chez nous au 30 novembre 2026 :\n- NM-26-1010 du 20/10/2026, 252,00 € TTC, réglée le 19/11/2026\n- NM-26-1077 du 30/10/2026, 252,00 € TTC, échéance 29/11/2026, impayée\n\nSolde dû : 252,00 €.\n\nService comptable, Nettoyage de Mirelande (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

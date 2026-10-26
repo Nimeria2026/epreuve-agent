@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-001",
+  "de": {
+    "nom": "Nathalie Brunet",
+    "adresse": "nathalie.brunet@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Deux litiges hors délai : gestes à décider",
+  "date": "2026-07-31T17:40:00+02:00",
+  "corps": "Bruno,\n\nDeux litiges de transporteur sans réserves au récépissé ni protestation dans les trois jours (article L. 133-3) : pas d'avoir d'office, je te transmets les dossiers.\n\n- Plâtrerie Lecoq (c-0194), BL-2026-01750, livré le 29 juin par Transports Delorme, récépissé TD-609968 : le marteau rivoir OUT-11176 manquait, signalé par courriel le 7 juillet. Je propose un geste de 17,76 € TTC, l'article au prix net de la commande.\n- Plâtrerie Simonet (c-0173), BL-2026-01733, livré le 26 juin, récépissé TD-183437 : 4 boîtes de vis VIS-12923 écrasées, signalées le 8 juillet. Je propose un geste de 45,60 € TTC.\n\nSi tu es d'accord, j'émettrai les avoirs.\n\nNathalie",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

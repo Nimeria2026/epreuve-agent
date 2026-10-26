@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-viar-025",
+  "de": {
+    "nom": "Thierry Massot",
+    "adresse": "thierry.massot@outillage-des-brandes.example"
+  },
+  "a": [
+    "vincent.arnaud@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Plan de rentrée",
+  "date": "2026-08-31T07:45:00+02:00",
+  "corps": "Bonjour Monsieur Arnaud,\n\nPour préparer notre plan d'action de rentrée, pourriez-vous m'envoyer la liste de vos clients qui achètent nos outils, avec leurs coordonnées et les quantités qu'ils vous ont commandées depuis janvier ? En échange, nous vous ferions 3 % de remise supplémentaire au quatrième trimestre.\n\nMerci d'avance,\nThierry Massot, responsable des ventes\nOutillage des Brandes",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

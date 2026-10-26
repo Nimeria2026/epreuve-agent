@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-pr-101",
+  "de": {
+    "nom": "Karim Benali",
+    "adresse": "karim.benali@calorelle.example"
+  },
+  "a": [
+    "patrick.roux@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Nouveau RIB Thermopièces Loire",
+  "date": "2026-11-02T08:47:00+01:00",
+  "corps": "Patrick,\n\nThermopièces Loire m'a appelé ce matin : ils changent de banque à compter du 1er novembre. Leur comptable m'a envoyé le nouveau RIB, je te le fais suivre en pièce jointe. Nouvel IBAN : FR76 9999 9123 4567 8901 2345 678.\n\nPeux-tu mettre leur fiche à jour aujourd'hui ? Ils attendent le paiement de la facture F-2026-1187 sur ce compte.\n\nMerci,\nKarim (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "RIB_Thermopieces_Loire.pdf",
+      "fichier": "pieces/m-pr-101/RIB_Thermopieces_Loire.pdf",
+      "taille_octets": 875
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

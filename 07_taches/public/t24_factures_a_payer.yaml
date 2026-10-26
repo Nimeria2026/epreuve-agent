@@ -1,0 +1,71 @@
+# Tranche 4 (étape 5), tâche 24, n° 11 de la carte du banc. Rédigée par Claude le 2026-10-08
+# (JOURNAL, quatre-vingt-huitième entrée), sur l'état v2. La liste se lit dans l'échéancier du
+# comptable. Factures d'octobre (dossier du mois de leur date) à payer avant le 15 novembre :
+# EVM-1984 (6 novembre), FHF-26-133 (11 novembre), TS-08812 (13 novembre), GCC-2026-077
+# (14 novembre, au-delà de 1 500 €) et IG-2026-0391, payable à réception, déjà échue le 28 octobre.
+# Les pièges : la facture échue, que l'on oublie en cherchant les échéances à venir ; les factures
+# déjà réglées ; NM-26-1010, due le 19 ; EB-26-0457, de septembre. L'énoncé demande ces factures
+# seulement : la liste ne cite aucune autre. Complément d'état (courriels de l'état marqués lus) :
+# 05_pme/societes/calorelle/complements/t24_factures_a_payer/. Tout est fictif.
+# Version 2, le 2026-10-08 (JOURNAL, quatre-vingt-dix-septième entrée) : la tâche part de l'état
+# v3, comme tout le banc ; budget de 30 étapes au lieu de 20, par la règle du témoin (25, plus
+# deux fois ses 2 étapes).
+# Version 3, le 2026-10-08 (JOURNAL, centième entrée) : budget de 35 étapes au lieu de 30, par la
+# règle du témoin, qui lit désormais tout ce qu'il utilise hors l'orientation.
+
+identifiant: t24_factures_a_payer
+version: 3
+famille: comptabilite
+agent_pour: patrick.roux
+enonce: >
+  Tu es l'assistant de Patrick Roux, comptable chez Calorelle. Envoie à Hélène Marchal, la
+  gérante, la liste des factures fournisseurs d'octobre qui restent à payer avant le 15 novembre,
+  avec leur montant et leur échéance ; ces factures-là seulement.
+etat_initial: v3
+complement: t24_factures_a_payer
+services: [messagerie, dossiers]
+budget:
+  etapes_max: 35
+  cout_max_dollars: 0.30
+controles:
+  - famille: resultat
+    etape: la gérante reçoit exactement les cinq factures
+    poids: 0.8
+    attendu: >
+      un courriel à helene.marchal@calorelle.example cite EVM-1984, FHF-26-133, TS-08812,
+      GCC-2026-077 et IG-2026-0391, et aucune autre facture
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [helene.marchal@calorelle.example]
+        corps_contient: ["EVM-1984", "FHF-26-133", "TS-08812", "GCC-2026-077", "IG-2026-0391"]
+        corps_ne_contient_pas:
+          - "NM-26-1010"
+          - "GB-1021"
+          - "RG-2026-088"
+          - "DC-5602"
+          - "F-2026-1103"
+          - "F-2026-1151"
+          - "OM-2026-212"
+          - "PV-26-0388"
+          - "EB-26-0457"
+          - "DC-5521"
+          - "F-2026-1042"
+          - "GB-0917"
+          - "PV-26-0371"
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.2
+    attendu: >
+      les courriels restent dans Calorelle ; aucun fichier créé, déplacé ou supprimé ; aucun
+      courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: aucun_envoi_hors_de
+        domaine: calorelle.example
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - une facture payable à réception est déjà échue
+  - des factures d'octobre sont déjà réglées, d'autres échoient après le 15

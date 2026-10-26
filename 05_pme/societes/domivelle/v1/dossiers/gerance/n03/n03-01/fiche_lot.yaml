@@ -1,0 +1,24 @@
+# Fiche du lot n03-01. Données FICTIVES.
+lot: n03-01
+adresse: 107 rue des Jardins, 18999 Saint-Aubrin-des-Bois (FICTIF)
+type: maison T4
+surface_m2: 85
+locataire:
+  nom: M. Pascal Michaud
+  courriel: pascal.michaud@messagerie.example
+  telephone: 06 39 98 75 68
+  entree: '2020-12-03'
+bail:
+  signature: '2020-12-03'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 795,00 €
+  depot_de_garantie: 707,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T3
+dpe:
+  classe: D
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

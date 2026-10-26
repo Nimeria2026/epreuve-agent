@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-301",
+  "de": {
+    "nom": "Nicolas Mercadier",
+    "adresse": "n.mercadier@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis pompe à chaleur",
+  "date": "2026-11-02T07:02:00+01:00",
+  "corps": "Bonjour,\n\nNous voudrions remplacer la chaudière fioul de notre maison (120 m²) par une pompe à chaleur. Pouvez-vous établir un devis ?\n\nNicolas Mercadier (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

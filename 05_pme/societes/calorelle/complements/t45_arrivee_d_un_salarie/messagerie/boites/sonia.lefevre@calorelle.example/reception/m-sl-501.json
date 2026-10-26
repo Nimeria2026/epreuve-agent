@@ -1,0 +1,34 @@
+{
+  "identifiant": "m-sl-501",
+  "de": {
+    "nom": "Maxime Besson",
+    "adresse": "maxime.besson@courriel.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Mes documents pour mon arrivée",
+  "date": "2026-11-02T07:45:00+01:00",
+  "corps": "Bonjour Madame Lefèvre,\n\nComme convenu lors de mon entretien, je commence chez Calorelle le lundi 23 novembre, comme technicien. Voici mon contrat signé, la copie de ma pièce d'identité et mon RIB.\n\nM. Duval m'a dit qu'il aimerait voir mon contrat avant mon premier jour : pouvez-vous le lui transmettre ?\n\nBien cordialement,\nMaxime Besson (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "contrat_de_travail_Besson.pdf",
+      "fichier": "pieces/m-sl-501/contrat_de_travail_Besson.pdf",
+      "taille_octets": 961
+    },
+    {
+      "nom": "piece_identite_Besson.pdf",
+      "fichier": "pieces/m-sl-501/piece_identite_Besson.pdf",
+      "taille_octets": 772
+    },
+    {
+      "nom": "rib_Besson.pdf",
+      "fichier": "pieces/m-sl-501/rib_Besson.pdf",
+      "taille_octets": 799
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

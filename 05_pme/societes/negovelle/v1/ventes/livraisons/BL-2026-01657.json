@@ -1,0 +1,34 @@
+{
+  "numero": "BL-2026-01657",
+  "commande": "CO-2026-01808",
+  "client": "c-0273",
+  "date_expedition": "2026-06-23",
+  "date_livraison": "2026-06-23",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "9 parc d'activités de la Gare, 36999 Saulvenne (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "ELE-12523",
+      "libelle": "Interrupteur va-et-vient, blanc",
+      "quantite": 6
+    },
+    {
+      "reference": "ELE-12939",
+      "libelle": "Rallonge électrique 2P+T 25 m",
+      "quantite": 5
+    },
+    {
+      "reference": "OUT-11257",
+      "libelle": "Mètre ruban 10 m, ruban de 19 mm",
+      "quantite": 10
+    }
+  ],
+  "reserves": null,
+  "signataire": "Aurélie Chevrier",
+  "statut": "livre"
+}

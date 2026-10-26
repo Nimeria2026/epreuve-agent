@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ocol-010",
+  "de": {
+    "nom": "Pierre Simonet",
+    "adresse": "pierre.simonet@chauffage-grondin.example"
+  },
+  "a": [
+    "oceane.collin@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-06T07:51:00+02:00",
+  "corps": "Bonjour Océane,\n\nMerci de nous livrer au siège :\n- 20 x ELE-10343, Appareil modulaire télérupteur 20 A\n- 6 x ELE-10734, Collier de serrage 200x3,6 mm, sachet de 100\n\nCordialement,\nPierre Simonet\nChauffage Grondin",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

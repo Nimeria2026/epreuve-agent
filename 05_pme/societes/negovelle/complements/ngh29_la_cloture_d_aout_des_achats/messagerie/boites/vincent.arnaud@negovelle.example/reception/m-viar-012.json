@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-viar-012",
+  "de": {
+    "nom": "Benoît Faure",
+    "adresse": "benoit.faure@negovelle.example"
+  },
+  "a": [
+    "vincent.arnaud@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Question sur PLB-12809",
+  "date": "2026-08-28T11:45:00+02:00",
+  "corps": "Vincent,\n\nPlomberie Guillon me demande 60 PLB-12809 pour la mi-septembre, et le logiciel n'en a pas assez. Ta commande du début août est-elle arrivée ?\n\nBenoît",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

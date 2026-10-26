@@ -1,0 +1,39 @@
+{
+  "numero": "BL-2026-01764",
+  "commande": "CO-2026-01915",
+  "client": "c-0301",
+  "date_expedition": "2026-06-29",
+  "date_livraison": "2026-06-29",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "13 zone d'activités des Grands Prés, 36999 Corvalet (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "CON-11249",
+      "libelle": "Dégrippant au PTFE, aérosol de 500 ml",
+      "quantite": 2
+    },
+    {
+      "reference": "ELE-11037",
+      "libelle": "Câble R2V 3G 1,5 mm², couronne de 50 m",
+      "quantite": 1
+    },
+    {
+      "reference": "FIX-11469",
+      "libelle": "Goujon d'ancrage M10x100, boîte de 25",
+      "quantite": 10
+    },
+    {
+      "reference": "OUT-12188",
+      "libelle": "Scie égoïne 500 mm",
+      "quantite": 1
+    }
+  ],
+  "reserves": null,
+  "signataire": "Maxime Combes",
+  "statut": "livre"
+}

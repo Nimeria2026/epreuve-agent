@@ -1,0 +1,19 @@
+# Fiche du lot c08-05. Données FICTIVES.
+lot: c08-05
+adresse: 4 rue du Château, 18999 Montclavel-sur-Cher (FICTIF)
+type: T2
+surface_m2: 44
+locataire:
+  nom: Mme Manon Roche
+  courriel: manon.roche@courriel.example
+  telephone: 06 39 98 77 01
+  entree: '2023-10-13'
+bail:
+  signature: '2023-10-13'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 412,00 €
+  depot_de_garantie: 392,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T2
+dpe:
+  classe: E

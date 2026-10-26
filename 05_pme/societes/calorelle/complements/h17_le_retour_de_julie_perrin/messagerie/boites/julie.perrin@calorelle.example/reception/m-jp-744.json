@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-744",
+  "de": {
+    "nom": "Camille Garnier",
+    "adresse": "camille.garnier@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Ma visite d'entretien",
+  "date": "2026-12-30T09:00:00+01:00",
+  "corps": "Bonjour,\n\nJe serai absente du lundi 4 au vendredi 22 janvier. Pouvez-vous faire ma visite d'entretien en février plutôt ?\n\nCamille Garnier, 14 rue du Moulin, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

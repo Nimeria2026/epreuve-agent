@@ -1,0 +1,68 @@
+{
+  "numero": "CO-2026-01934",
+  "client": "c-0131",
+  "reference_client": null,
+  "cree_le": "2026-06-29T09:10:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "21 zone d'activités des Grands Prés, 36999 Fontclavier (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "OUT-12482",
+      "libelle": "Spatule japonaise 40 mm",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 11.75,
+      "remise_pourcent": 5.92,
+      "prix_net_ht_euros": 11.05,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 66.3
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 81.3,
+  "total_tva_euros": 16.26,
+  "total_ttc_euros": 97.56,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01783"
+  ],
+  "facture": "FC-2026-1119",
+  "historique": [
+    {
+      "date": "2026-06-29T09:10:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-29T09:12:00+02:00",
+      "par": "oceane.collin",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-30T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01783"
+    },
+    {
+      "date": "2026-06-30T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01783"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1119"
+    }
+  ]
+}

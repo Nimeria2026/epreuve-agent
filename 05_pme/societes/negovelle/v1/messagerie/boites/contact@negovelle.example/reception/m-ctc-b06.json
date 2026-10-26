@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-b06",
+  "de": {
+    "nom": "Bruno Castaing",
+    "adresse": "bruno.castaing@negovelle.example"
+  },
+  "a": [
+    "contact@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Inventaire tournant",
+  "date": "2026-06-18T10:21:00+02:00",
+  "corps": "Bonjour à tous,\n\nL'inventaire tournant de la visserie se fait jeudi après-midi.\n\nBruno",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

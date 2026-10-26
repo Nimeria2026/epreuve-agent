@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-004",
+  "de": {
+    "nom": "Sylvie Gabriel",
+    "adresse": "sylvie.gabriel@durieux-batiment.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-02T10:02:00+02:00",
+  "corps": "Bonjour,\n\nVoici notre commande, à livrer au siège :\n\n- 4 x ELP-10212, Disque à tronçonner béton 230 mm, boîte de 10\n- 3 x OUT-10016, Burin plat 200 mm\n- 2 x PRO-10065, Bottes de sécurité PVC S5, pointure 43\n\nMerci de nous confirmer la livraison.\n\nCordialement,\nSylvie Gabriel\nDurieux Bâtiment",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

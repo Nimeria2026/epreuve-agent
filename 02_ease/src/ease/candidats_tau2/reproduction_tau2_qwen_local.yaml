@@ -1,0 +1,48 @@
+# L'agent de reproduction τ²-bench (03_orchestrations, reproduction_tau2) sur Qwen 3.8 27B, servi
+# sur le poste d'Alexandre par make qwen, pour le contrôle de la règle 4 (étape 7) : make mesure-tau2.
+# Réglages, versions et sources : 00_docs/sources/2026-10-05_reglages_des_modeles.md ; température 0
+# et tool_choice auto, ceux de l'agent de τ²-bench 1.0.1.
+fiche:
+  identifiant: reproduction_tau2_qwen_local
+  nom: Agent de reproduction τ²-bench sur Qwen 3.8 27B (W4A16, en local)
+  version: "0.1.0"
+  origine: fait_main
+  division: a_modele_egal
+  branchement: mcp
+  editeur: Épreuve d'agent
+  url: null
+  modeles:
+    - nom: qwen3.8-27b-w4a16
+      fournisseur: local
+  # Les jetons se comptent, mais l'électricité n'est relevée que pour la carte : pas de prix.
+  cout_mesurable: false
+  conditions_utilisation: null
+configuration:
+  modeles:
+    - role: agent
+      nom: qwen3.8-27b-w4a16
+      fournisseur: local
+      version_renvoyee: "?"
+      parametres:
+        temperature: 0.0
+        tool_choice: auto
+      tarif: null
+# Relevé du 2026-10-05 : vLLM par /version, système d'après infra/moteur.md de Nimeria.
+machine:
+  systeme: Ubuntu 24.04
+  processeur: "?"
+  carte_graphique: NVIDIA GeForce RTX 3090
+  service_modele: vLLM 0.27.1
+lancement:
+  module: orchestrations.reproduction_tau2
+  arguments: [--configuration, 03_orchestrations/src/orchestrations/configurations_tau2/qwen_local.yaml]
+  delai_secondes: 3600
+  # Le serveur lancé par make qwen doit répondre ici avant un run.
+  sonde: http://127.0.0.1:30100/version
+  # Le contexte que le serveur doit annoncer, vérifié avant le run (cadrage du second Qwen local).
+  contexte_serveur: 40960
+  creneau: null
+  energie: nvidia_smi
+  empreinte_de:
+    - 03_orchestrations/src/orchestrations/reproduction_tau2.py
+    - 03_orchestrations/src/orchestrations/configurations_tau2/qwen_local.yaml

@@ -1,0 +1,13 @@
+# Fiche du propriétaire p-0107, mandant de Domivelle. Données FICTIVES.
+code: p-0107
+nom: M. René Jourdan
+adresse: 39 rue du Château, 18999 Montclavel-sur-Cher (FICTIF)
+courriel: rene.jourdan@mel-perso.example
+telephone: 06 39 98 94 96
+iban: FR76 9999 9462 2197 1546 3439 120 (FICTIF)
+comptes_rendus: par courrier
+lots:
+- c10-15
+- c12-10
+- c12-22
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

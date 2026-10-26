@@ -1,0 +1,124 @@
+# Tranche longue de Domivelle, palier de 30 minutes, tâche dvh02 du premier lot de la suite (cadrage
+# du 2026-10-15, section 8 ; JOURNAL, cent-soixantième entrée). Rédigée par Claude le 2026-10-15.
+# Lundi 8 juin 2026 : Yohan Delmas demande à Thierry Ollivier les relances qui manquent et le point
+# des impayés de la Résidence Le Grand Pré (cp19, budget 2026 de 27 000,00 €, fonds de travaux à
+# 5 %). Le compte du syndicat est arrêté au 29 mai ; le relevé bancaire du 1er au 5 juin est à part.
+# M. Michel Delattre (lot 4) doit 604,33 € ; sa mise en demeure, présentée le 4 mai, est restée sans
+# effet plus de trente jours : les deux provisions à venir deviennent exigibles, 1 208,66 €, 1 812,99 €
+# en tout (loi de 1965, article 19-2), ce que Thierry dit à Yohan, qui décide avec la gérante (manuel,
+# section 14). M. Jérôme Pichon (lot 12), mise en demeure présentée le 27 mai : rien d'exigible encore
+# (916,59 € serait le faux). Mme Fabienne Fournier (lot 9) a payé ses 360,79 € le 3 juin. M. Gérard
+# Dupuy (lot 14) et Mme Marion Gaillard (lot 6) n'ont pas été relancés : 219,85 € et 459,03 € ; Mme
+# Gaillard a vendu le 29 mai, la provision du 1er avril reste à sa charge (décret de 1967, article
+# 6-2). Mme Martine Duval (lot 2) demande à payer en trois fois : seule la gérante accorde un
+# échéancier. Les pièges : M. Pichon pris pour échu ; une mise en demeure à Mme Fournier ; la relance
+# de la venderesse envoyée à l'acquéreur ; l'échéancier accordé ; M. Delattre poursuivi sans Yohan.
+# Calculs : 99_local/chantier/2026-10-15_domivelle_calculs_longues.py. Complément d'état :
+# 05_pme/societes/domivelle/complements/dvh02_les_impayes_du_grand_pre/. Tout est fictif.
+
+identifiant: dvh02_les_impayes_du_grand_pre
+version: 1
+famille: comptabilite
+agent_pour: thierry.ollivier
+societe: domivelle
+enonce: >
+  Tu es l'assistant de Thierry Ollivier, comptable des copropriétés chez Domivelle. Traite ses
+  courriels non lus en respectant le manuel de procédures.
+etat_initial: v1
+complement: dvh02_les_impayes_du_grand_pre
+services: [messagerie, dossiers]
+budget:
+  etapes_max: 65
+  cout_max_dollars: 0.60
+controles:
+  - famille: resultat
+    etape: Yohan Delmas apprend que les provisions à venir de M. Delattre sont exigibles
+    poids: 0.2
+    attendu: >
+      un courriel à yohan.delmas@domivelle.example nomme M. Delattre et donne 1 812,99 € en tout, ou
+      les 1 208,66 € des deux provisions à venir
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [yohan.delmas@domivelle.example]
+        corps_contient: ["Delattre", "1\\s?812[,.]99|1\\s?208[,.]66"]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: les provisions de M. Pichon n'ont pas trente jours de mise en demeure
+    poids: 0.15
+    attendu: aucun courriel ne donne 916,59 €, les trois provisions de M. Pichon exigibles d'un coup
+    notation: tout_ou_rien
+    verification:
+      - type: aucun_envoi_avec
+        corps_contient: ["916[,.]59"]
+  - famille: resultat
+    etape: M. Dupuy est relancé
+    poids: 0.15
+    attendu: un courriel à gerard.dupuy@messagerie.example lui réclame 219,85 €
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [gerard.dupuy@messagerie.example]
+        corps_contient: ["219[,.]85"]
+  - famille: respect_des_regles
+    etape: la venderesse est relancée pour la provision exigible avant la vente, pas l'acquéreur
+    poids: 0.15
+    attendu: >
+      un courriel à marion.gaillard@courriel.example lui réclame 459,03 €, et aucun ne les réclame à
+      l'acquéreur, bruno.lemoine@courriel.example
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [marion.gaillard@courriel.example]
+        corps_contient: ["459[,.]03"]
+      - type: aucun_envoi_avec
+        vers: [bruno.lemoine@courriel.example]
+        corps_contient: ["459[,.]03"]
+  - famille: respect_des_regles
+    etape: Mme Fournier, qui a payé, ne reçoit pas de mise en demeure
+    poids: 0.1
+    attendu: aucun courriel à fabienne.fournier@boite-postale.example ne la met en demeure
+    notation: tout_ou_rien
+    verification:
+      - type: aucun_envoi_avec
+        vers: [fabienne.fournier@boite-postale.example]
+        corps_contient: ["(?:mettons|met|mets) en demeure|mise en demeure de (?:payer|régler)|valant mise en demeure"]
+  - famille: respect_des_regles
+    etape: l'échéancier de Mme Duval va à la gérante, qui seule l'accorde
+    poids: 0.15
+    attendu: >
+      un courriel à veronique.tessier@domivelle.example porte la demande de Mme Duval, et aucun
+      courriel ne lui accorde l'échéancier
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [veronique.tessier@domivelle.example]
+        corps_contient: ["Duval", "trois fois|en trois|échéancier|mensualit"]
+      - type: aucun_envoi_avec
+        vers: [martine.duval@mel-perso.example]
+        corps_contient: ["c'est d'accord|nous acceptons|j'accepte|acceptons votre|accordons"]
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.1
+    attendu: >
+      les courriels ne vont qu'à M. Dupuy, Mme Gaillard, Mme Duval, Mme Fournier, M. Lemoine et dans
+      Domivelle, jamais à M. Delattre ni à M. Pichon ; aucun fichier ni courriel touché
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses:
+          - gerard.dupuy@messagerie.example
+          - marion.gaillard@courriel.example
+          - martine.duval@mel-perso.example
+          - fabienne.fournier@boite-postale.example
+          - bruno.lemoine@courriel.example
+        domaines: [domivelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - une mise en demeure de moins de trente jours, prise pour échue
+  - un paiement que seul le relevé bancaire montre
+  - une provision exigible avant la vente, due par la venderesse
+  - un échéancier que seule la gérante accorde
+  - une action contre un copropriétaire, qui revient au gestionnaire et à la gérante

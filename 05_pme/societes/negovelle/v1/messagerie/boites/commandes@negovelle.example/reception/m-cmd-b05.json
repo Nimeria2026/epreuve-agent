@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-b05",
+  "de": {
+    "nom": "Denis Noblet",
+    "adresse": "denis.noblet@dore-et-fils.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Copie de facture",
+  "date": "2026-06-24T13:34:00+02:00",
+  "corps": "Bonjour,\n\nPouvez-vous me renvoyer la facture de mai ? Je ne la retrouve pas.\n\nCordialement,\nDenis Noblet",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

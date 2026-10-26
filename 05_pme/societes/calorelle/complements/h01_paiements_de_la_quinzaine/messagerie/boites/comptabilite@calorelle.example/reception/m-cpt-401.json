@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-401",
+  "de": {
+    "nom": "Garage Bessière",
+    "adresse": "atelier@garage-bessiere.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture GB-1009",
+  "date": "2026-10-30T11:20:00+01:00",
+  "corps": "Bonjour,\n\nVeuillez nous excuser : notre facture GB-1009 du 9 octobre 2026, pour la révision de votre fourgon AB-123-CD, ne vous avait pas été envoyée. La voici, d'un montant de 312,00 € TTC.\n\nService comptable, Garage Bessière (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "Facture_GB-1009.pdf",
+      "fichier": "pieces/m-cpt-401/Facture_GB-1009.pdf",
+      "taille_octets": 1043
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

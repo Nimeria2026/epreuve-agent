@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0404"
+nom: "Rémi Fontaine"
+type: "particulier"
+adresse: "113 rue Haute, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "remi.fontaine@courriel.example"
+telephone: "06 39 98 50 96"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité Plus"
+  depuis: "2023-10-01"
+  mois_anniversaire: "octobre"
+  derniere_visite: "2026-10-21"

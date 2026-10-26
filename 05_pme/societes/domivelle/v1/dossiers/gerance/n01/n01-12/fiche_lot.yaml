@@ -1,0 +1,24 @@
+# Fiche du lot n01-12. Données FICTIVES.
+lot: n01-12
+adresse: 41 rue des Vignes, 18999 Vernillac (FICTIF)
+type: T2
+surface_m2: 50
+locataire:
+  nom: Mme Agnès Lemaire
+  courriel: agnes.lemaire@courriel.example
+  telephone: 06 39 98 80 01
+  entree: '2017-12-12'
+bail:
+  signature: '2017-12-12'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 439,00 €
+  depot_de_garantie: 366,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T3
+dpe:
+  classe: E
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

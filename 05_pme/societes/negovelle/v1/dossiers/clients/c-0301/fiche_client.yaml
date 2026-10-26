@@ -1,0 +1,28 @@
+# Fiche du client c-0301 de Négovelle. Données FICTIVES.
+code: c-0301
+nom: Auger Maintenance
+type: entreprise
+adresse: 13 zone d'activités des Grands Prés, 36999 Corvalet (FICTIF)
+telephone: 02 61 91 97 86
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Maxime Combes
+  fonction: conducteur de travaux
+  courriel: maxime.combes@auger-maintenance.example
+- nom: Jean Gabriel
+  fonction: responsable des achats
+  courriel: jean.gabriel@auger-maintenance.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 13 zone d'activités des Grands Prés, 36999 Corvalet (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2025-10-01'
+limite_encours_euros: 13000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

@@ -1,0 +1,48 @@
+# L'agent seul (03_orchestrations) sur Qwen 3.8 27B, servi sur le poste d'Alexandre par
+# make qwen CONTEXTE=102400 : le même modèle que agent_seul_qwen_local, avec un contexte de 102 400
+# jetons au lieu de 40 960, sous les 105 503 que tient le cache de la carte (cadrage du second Qwen
+# local, 00_docs/sources/2026-10-20_cadrage_second_qwen_local.md). Délais allongés (choix S1).
+# Réglages, versions et sources : 00_docs/sources/2026-10-05_reglages_des_modeles.md.
+fiche:
+  identifiant: agent_seul_qwen_local_100k
+  nom: Agent seul sur Qwen 3.8 27B (W4A16, en local, contexte de 102 400 jetons)
+  version: "0.1.0"
+  origine: fait_main
+  division: a_modele_egal
+  branchement: mcp
+  editeur: Épreuve d'agent
+  url: null
+  modeles:
+    - nom: qwen3.8-27b-w4a16
+      fournisseur: local
+  # Les jetons se comptent, mais l'électricité n'est pas encore mesurée : pas de prix.
+  cout_mesurable: false
+  conditions_utilisation: null
+configuration:
+  modeles:
+    - role: agent
+      nom: qwen3.8-27b-w4a16
+      fournisseur: local
+      version_renvoyee: "?"
+      parametres: {}
+      tarif: null
+# Relevé du 2026-10-05 : vLLM par /version, système d'après infra/moteur.md de Nimeria.
+machine:
+  systeme: Ubuntu 24.04
+  processeur: "?"
+  carte_graphique: NVIDIA GeForce RTX 3090
+  service_modele: vLLM 0.27.1, contexte de 102 400 jetons
+lancement:
+  module: orchestrations.agent_seul
+  arguments: [--configuration, 03_orchestrations/src/orchestrations/configurations/qwen_local_100k.yaml]
+  delai_secondes: 7200
+  # Le serveur lancé par make qwen doit répondre ici avant un run.
+  sonde: http://127.0.0.1:30100/version
+  # Le contexte que le serveur doit annoncer, vérifié avant le run (cadrage du second Qwen local).
+  contexte_serveur: 102400
+  creneau: null
+  # Électricité de la carte graphique relevée pendant chaque exécution (un minimum).
+  energie: nvidia_smi
+  empreinte_de:
+    - 03_orchestrations/src/orchestrations/consignes/agent_seul.md
+    - 03_orchestrations/src/orchestrations/configurations/qwen_local_100k.yaml

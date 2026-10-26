@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01687",
+  "commande": "CO-2026-01838",
+  "client": "c-0347",
+  "date_expedition": "2026-06-24",
+  "date_livraison": "2026-06-24",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "1 zone d'activités des Grands Prés, 36999 Vendrigny (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "QUI-12058",
+      "libelle": "Paumelle 100 mm, laiton, sachet de 10",
+      "quantite": 1
+    }
+  ],
+  "reserves": null,
+  "signataire": "Amandine Durieux",
+  "statut": "livre"
+}

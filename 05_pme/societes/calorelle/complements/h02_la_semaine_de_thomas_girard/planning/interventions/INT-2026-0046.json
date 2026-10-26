@@ -1,0 +1,13 @@
+{
+  "numero": "INT-2026-0046",
+  "client": "c-0069",
+  "techniciens": [
+    "romain.guerin"
+  ],
+  "debut": "2026-11-13T08:00:00+01:00",
+  "fin": "2026-11-13T10:00:00+01:00",
+  "nature": "depannage",
+  "objet": "Dépannage : brûleur fioul en sécurité",
+  "statut": "planifiee",
+  "cree_par": "marc.duval"
+}

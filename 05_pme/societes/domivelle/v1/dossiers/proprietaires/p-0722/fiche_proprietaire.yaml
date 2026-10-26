@@ -1,0 +1,12 @@
+# Fiche du propriétaire p-0722, mandant de Domivelle. Données FICTIVES.
+code: p-0722
+nom: M. Julien Langlois
+adresse: 71 place du Marché, 18999 Chantebrune (FICTIF)
+courriel: julien.langlois@mel-perso.example
+telephone: 06 39 98 69 14
+iban: FR76 9999 9659 4695 4269 2444 441 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- s36-10
+- s38-08
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

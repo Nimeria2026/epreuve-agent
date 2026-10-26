@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-725",
+  "de": {
+    "nom": "Aurélie Garnier",
+    "adresse": "aurelie.garnier@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Fin de mon contrat d'entretien",
+  "date": "2026-12-28T11:20:00+01:00",
+  "corps": "Bonjour,\n\nJe ne souhaite pas renouveler mon contrat Sérénité Plus : je le résilie par ce courriel. Merci de me confirmer qu'il prend fin à sa prochaine échéance.\n\nAurélie Garnier, 83 rue des Écoles, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

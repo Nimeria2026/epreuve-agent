@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-brca-001",
+  "de": {
+    "nom": "Océane Collin",
+    "adresse": "oceane.collin@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Arrêt de travail",
+  "date": "2026-07-05T19:40:00+02:00",
+  "corps": "Bonjour Bruno,\n\nJe me suis blessée au genou ce week-end : je suis arrêtée du lundi 6 au vendredi 24 juillet. L'avis est joint. Désolée pour le secteur.\n\nOcéane",
+  "pieces_jointes": [
+    {
+      "nom": "avis_arret_de_travail.pdf",
+      "fichier": "pieces/m-brca-001/avis_arret_de_travail.pdf",
+      "taille_octets": 822
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

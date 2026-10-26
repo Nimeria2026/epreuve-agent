@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0257"
+nom: "Pierre Simon"
+type: "particulier"
+adresse: "79 rue Haute, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "pierre.simon@courriel.example"
+telephone: "06 39 98 50 63"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2021-02-06"
+  mois_anniversaire: "février"
+  derniere_visite: "2026-02-04"

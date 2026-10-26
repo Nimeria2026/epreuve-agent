@@ -1,0 +1,13 @@
+# DeepSeek V4.1 Flash par le compte officiel (nom d'API deepseek-flash), en heures creuses.
+# Clé dans la variable DEEPSEEK_API_KEY, ou dans le fichier .env à la racine du dépôt, hors git.
+# Réglages de l'éditeur : raisonnement actif, effort high ; aucun paramètre ajouté.
+role: agent
+modele: deepseek-flash
+adresse: https://api.deepseek.com
+cle_env: DEEPSEEK_API_KEY
+parametres: {}
+# Avec des outils, DeepSeek exige qu'on lui renvoie le raisonnement de chaque tour précédent
+# (https://api-docs.deepseek.com/guides/thinking_mode, consulté le 2026-10-05).
+raisonnement_renvoye: reasoning_content
+delai_appel_secondes: 300
+tours_max: 60

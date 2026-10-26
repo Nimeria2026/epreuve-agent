@@ -1,0 +1,59 @@
+{
+  "numero": "BL-2026-01813",
+  "commande": "CO-2026-01964",
+  "client": "c-0306",
+  "date_expedition": "2026-07-01",
+  "date_livraison": "2026-07-01",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "57 rue des Peupliers, 36999 Fontclavier (FICTIF)",
+  "colis": 3,
+  "lignes": [
+    {
+      "reference": "CON-10645",
+      "libelle": "Disque abrasif auto-agrippant 150 mm, grain 40, boîte de 25",
+      "quantite": 3
+    },
+    {
+      "reference": "CON-11608",
+      "libelle": "Papier abrasif carbure de silicium, grain 60, rouleau de 50 m",
+      "quantite": 4
+    },
+    {
+      "reference": "ELP-10351",
+      "libelle": "Embout de vissage PH2, étui de 25",
+      "quantite": 3
+    },
+    {
+      "reference": "ENT-10147",
+      "libelle": "Balai d'atelier 40 cm",
+      "quantite": 1
+    },
+    {
+      "reference": "ENT-11159",
+      "libelle": "Sacs poubelle 50 l, noirs, rouleau de 20",
+      "quantite": 10
+    },
+    {
+      "reference": "FIX-12425",
+      "libelle": "Équerre de fixation 80x60x40 mm, zinguée",
+      "quantite": 100
+    },
+    {
+      "reference": "PLB-10204",
+      "libelle": "Bouchon de visite PVC 32 mm",
+      "quantite": 2
+    },
+    {
+      "reference": "PLB-10571",
+      "libelle": "Collier de fixation tube 28 mm, sachet de 10",
+      "quantite": 4
+    }
+  ],
+  "reserves": null,
+  "signataire": "André Blanchet",
+  "statut": "livre"
+}

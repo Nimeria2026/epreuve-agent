@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-419",
+  "de": {
+    "nom": "Établissements Michel",
+    "adresse": "contact@etablissements-michel-121.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis climatisation des bureaux",
+  "date": "2026-11-02T08:44:00+01:00",
+  "corps": "Bonjour Madame Perrin,\n\nSuite au passage de votre technicien vendredi, pouvez-vous nous adresser le devis pour la climatisation de nos bureaux ?\n\nCordialement,\nÉtablissements Michel (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

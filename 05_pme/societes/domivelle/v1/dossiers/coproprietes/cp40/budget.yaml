@@ -1,0 +1,17 @@
+# Budget prévisionnel de l'exercice en cours, voté, copropriété cp40. Données FICTIVES.
+copropriete: cp40
+exercice: '2026'
+total: 44 000,00 €
+postes:
+  nettoyage des parties communes: 9 680,00 €
+  espaces verts: 3 520,00 €
+  électricité des parties communes: 3 960,00 €
+  eau: 6 160,00 €
+  assurance de l'immeuble: 4 840,00 €
+  honoraires du syndic: 7 920,00 €
+  entretien et petites réparations: 4 400,00 €
+  ascenseur, contrat et électricité: 3 520,00 €
+repartition:
+  charges générales, aux tantièmes généraux: 40 480,00 €
+  ascenseur, aux tantièmes d'ascenseur: 3 520,00 €
+appel: un quart du budget, exigible le premier jour de chaque trimestre

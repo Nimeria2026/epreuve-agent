@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0511"
+nom: "Camille Garnier"
+type: "particulier"
+adresse: "14 rue du Moulin, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "camille.garnier@courriel.example"
+telephone: "06 39 98 51 21"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2018-01-15"
+  mois_anniversaire: "janvier"
+  derniere_visite: "2026-01-22"

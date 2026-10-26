@@ -1,0 +1,28 @@
+# Fiche du client c-0024 de Négovelle. Données FICTIVES.
+code: c-0024
+nom: Plâtrerie Desjardins
+type: artisan
+adresse: 35 rue de la Halle, 36999 Corvalet (FICTIF)
+telephone: 02 61 91 98 26
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Alain Mignot
+  fonction: gérant
+  courriel: alain.mignot@platrerie-desjardins.example
+- nom: Sylvain Belin
+  fonction: conjoint collaborateur
+  courriel: sylvain.belin@platrerie-desjardins.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 35 rue de la Halle, 36999 Corvalet (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2016-02-01'
+limite_encours_euros: 5500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

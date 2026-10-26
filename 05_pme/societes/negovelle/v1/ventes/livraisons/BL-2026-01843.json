@@ -1,0 +1,49 @@
+{
+  "numero": "BL-2026-01843",
+  "commande": "CO-2026-01994",
+  "client": "c-0028",
+  "date_expedition": "2026-07-03",
+  "date_livraison": "2026-07-03",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "103 rue des Peupliers, 36999 Corvalet (FICTIF)",
+  "colis": 3,
+  "lignes": [
+    {
+      "reference": "CON-10783",
+      "libelle": "Disque abrasif fibre 125 mm, grain 120, boîte de 25",
+      "quantite": 12
+    },
+    {
+      "reference": "ELE-10228",
+      "libelle": "Ampoule LED GU10 12 W, 2700 K",
+      "quantite": 100
+    },
+    {
+      "reference": "QUI-11437",
+      "libelle": "Cylindre européen 30x35 mm, 5 clés",
+      "quantite": 6
+    },
+    {
+      "reference": "VIS-10506",
+      "libelle": "Boulon tête hexagonale M8x60, inox A2, sachet de 25",
+      "quantite": 2
+    },
+    {
+      "reference": "VIS-12017",
+      "libelle": "Vis à bois tête fraisée 4,5x50, zinguée, boîte de 500",
+      "quantite": 1
+    },
+    {
+      "reference": "VIS-12425",
+      "libelle": "Vis à bois tête fraisée 4x40, zinguée, boîte de 500",
+      "quantite": 2
+    }
+  ],
+  "reserves": null,
+  "signataire": "Serge Rigaud",
+  "statut": "livre"
+}

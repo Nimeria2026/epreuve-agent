@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-008",
+  "de": {
+    "nom": "Julie Maurin",
+    "adresse": "julie.maurin@cazenave-renovation.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-06T06:54:00+02:00",
+  "corps": "Bonjour,\n\nVoici notre commande, à livrer au siège :\n- 2 x ELP-11380, Meuleuse d'angle 125 mm, 2000 W\n- 10 x OUT-12449, Spatule japonaise 100 mm\n- 4 x VIS-13683, Vis à tôle tête cylindrique 3,5x25, inox A2, boîte de 100\n\nMerci,\nJulie Maurin\nCazenave Rénovation",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

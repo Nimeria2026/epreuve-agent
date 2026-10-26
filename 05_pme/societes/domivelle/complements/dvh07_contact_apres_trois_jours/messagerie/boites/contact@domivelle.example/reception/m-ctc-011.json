@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-011",
+  "de": {
+    "nom": "Arnaud Royer",
+    "adresse": "arnaud.royer@courriel.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Attestation de loyer pour la CAF",
+  "date": "2026-06-04T08:50:00+02:00",
+  "corps": "Bonjour,\n\nPouvez-vous me faire une attestation de loyer pour la CAF ?\n\nArnaud Royer, lot s02-08",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

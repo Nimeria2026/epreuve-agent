@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01828",
+  "commande": "CO-2026-01979",
+  "client": "c-0240",
+  "date_expedition": "2026-07-02",
+  "date_livraison": "2026-07-02",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "87 chemin des Prés, 36999 Fontclavier (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "CON-10130",
+      "libelle": "Bombe de traçage, blanc, aérosol de 400 ml",
+      "quantite": 5
+    },
+    {
+      "reference": "FIX-10245",
+      "libelle": "Cheville nylon 10x40, boîte de 200",
+      "quantite": 4
+    }
+  ],
+  "reserves": null,
+  "signataire": "Serge Morel",
+  "statut": "livre"
+}

@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01913",
+  "commande": "CO-2026-02093",
+  "client": "c-0130",
+  "date_expedition": "2026-07-24",
+  "date_livraison": "2026-07-24",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "23 rue du Château, 36999 Vaumoreau-sur-Indre (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "ELE-13233",
+      "libelle": "Réglette LED 1200 mm, 36 W",
+      "quantite": 10
+    }
+  ],
+  "reserves": null,
+  "signataire": "René Valentin",
+  "statut": "livre"
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-003",
+  "de": {
+    "nom": "Jacques Ruel",
+    "adresse": "jacques.ruel@mairie-de-laubrissac.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Bon de commande des services techniques",
+  "date": "2026-07-03T15:22:00+02:00",
+  "corps": "Bonjour,\n\nVoici notre commande pour la salle des fêtes : 6 projecteurs LED 30 W et 2 couronnes de câble R2V 3G 1,5 mm².\n\nJacques Ruel\nMairie de Laubrissac",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,29 @@
+{
+  "identifiant": "m-vete-608",
+  "de": {
+    "nom": "Nadège Lebrun",
+    "adresse": "nadege.lebrun@domivelle.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Lettre recommandée électronique : congé, s01-08",
+  "date": "2026-08-10T09:15:00+02:00",
+  "corps": "Véronique,\n\nUne autre lettre recommandée électronique, reçue ce lundi 10 août : M. Vincent Hamon, locataire du lot s01-08, donne congé. Il est muté à Lyon par son employeur et demande un préavis d'un mois ; l'attestation de son employeur est jointe à sa lettre.\n\nNadège",
+  "pieces_jointes": [
+    {
+      "nom": "lettre_recommandee_electronique_s01-08.pdf",
+      "fichier": "pieces/m-vete-608/lettre_recommandee_electronique_s01-08.pdf",
+      "taille_octets": 758
+    },
+    {
+      "nom": "attestation_employeur_s01-08.pdf",
+      "fichier": "pieces/m-vete-608/attestation_employeur_s01-08.pdf",
+      "taille_octets": 753
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

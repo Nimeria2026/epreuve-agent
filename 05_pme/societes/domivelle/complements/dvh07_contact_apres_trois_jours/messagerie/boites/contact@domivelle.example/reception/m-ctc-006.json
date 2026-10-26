@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-006",
+  "de": {
+    "nom": "Étienne Lebon",
+    "adresse": "etienne.lebon@messagerie.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Appel de fonds de juillet, Résidence Les Cèdres",
+  "date": "2026-06-03T11:30:00+02:00",
+  "corps": "Bonjour,\n\nCopropriétaire du lot 1 de la Résidence Les Cèdres, je voudrais savoir si l'appel de fonds de juillet inclura les travaux votés en mars.\n\nÉtienne Lebon",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

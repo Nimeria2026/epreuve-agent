@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-402",
+  "de": {
+    "nom": "Transports de Sablonnet",
+    "adresse": "compta@transports-de-sablonnet.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Duplicata de notre facture TS-08812",
+  "date": "2026-10-30T15:05:00+01:00",
+  "corps": "Bonjour,\n\nÀ la demande de votre magasinier, voici un duplicata de notre facture TS-08812 du 14 octobre 2026, d'un montant de 114,00 € TTC.\n\nService comptable, Transports de Sablonnet (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "TS-08812_duplicata.pdf",
+      "fichier": "pieces/m-cpt-402/TS-08812_duplicata.pdf",
+      "taille_octets": 1110
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

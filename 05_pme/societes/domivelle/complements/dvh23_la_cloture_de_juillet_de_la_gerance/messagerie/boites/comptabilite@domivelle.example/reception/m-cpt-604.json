@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cpt-604",
+  "de": {
+    "nom": "M. François Michaud",
+    "adresse": "francois.michaud@boite-postale.example"
+  },
+  "a": [
+    "comptabilite@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Mon reversement du 10 juillet",
+  "date": "2026-07-24T10:40:00+02:00",
+  "corps": "Madame,\n\nMon reversement du 10 juillet ne comprend pas le loyer de juin de mon appartement c01-07. Mon locataire m'assure pourtant l'avoir payé. Pouvez-vous vérifier ?\n\nM. François Michaud",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

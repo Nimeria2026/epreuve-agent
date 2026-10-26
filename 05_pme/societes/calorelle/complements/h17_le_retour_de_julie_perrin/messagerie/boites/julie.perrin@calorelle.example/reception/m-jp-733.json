@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-733",
+  "de": {
+    "nom": "Michel Martin",
+    "adresse": "michel.martin@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Ajouter le thermostat",
+  "date": "2026-12-19T10:20:00+01:00",
+  "corps": "Bonjour,\n\nPour le devis des trois radiateurs que vous prépariez, je prends aussi le thermostat connecté dont j'avais parlé à M. Lambert. Pouvez-vous l'ajouter ?\n\nMichel Martin, 25 rue du Moulin, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

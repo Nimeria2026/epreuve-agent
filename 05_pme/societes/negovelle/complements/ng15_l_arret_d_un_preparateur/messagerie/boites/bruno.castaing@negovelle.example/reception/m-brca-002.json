@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-002",
+  "de": {
+    "nom": "Gilles Poirier",
+    "adresse": "gilles.poirier@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Steven",
+  "date": "2026-07-06T07:35:00+02:00",
+  "corps": "Bruno,\n\nSteven n'est pas venu ce matin. Tu sais ce qu'il a ? Je dois savoir pour combien de temps, pour organiser les préparations.\n\nGilles",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

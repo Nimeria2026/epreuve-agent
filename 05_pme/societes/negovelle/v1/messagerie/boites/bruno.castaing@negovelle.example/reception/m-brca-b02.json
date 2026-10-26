@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-b02",
+  "de": {
+    "nom": "Caroline Daniel",
+    "adresse": "caroline.daniel@office-public-de-l-habitat-du-val-de-vaumoreau.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Horaires du comptoir cet été",
+  "date": "2026-07-01T10:49:00+02:00",
+  "corps": "Bonjour,\n\nLe comptoir reste-t-il ouvert en août ?\n\nCaroline Daniel",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

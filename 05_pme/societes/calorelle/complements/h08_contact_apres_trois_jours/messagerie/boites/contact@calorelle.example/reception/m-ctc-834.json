@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-834",
+  "de": {
+    "nom": "ThermoMarque France",
+    "adresse": "partenaires@thermomarque.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devenez installateur partenaire",
+  "date": "2026-11-02T07:00:00+01:00",
+  "corps": "Bonjour,\n\nRejoignez notre réseau d'installateurs partenaires de pompes à chaleur : formation offerte, visibilité sur notre site et remises sur le matériel.\n\nThermoMarque France (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

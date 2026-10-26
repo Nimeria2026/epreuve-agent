@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-006",
+  "de": {
+    "nom": "Samir Ouali",
+    "adresse": "samir.ouali@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Prix pour Charpente Hoarau, CO-2026-02043",
+  "date": "2026-08-05T16:05:00+02:00",
+  "corps": "Bruno,\n\nCharpente Hoarau (c-0306) nous prend du déstockage. Brouillon CO-2026-02043 ; les prix qu'il faudrait :\n\n- ELP-11665, Ponceuse orbitale 400 W : 5 à 50,00 € HT au lieu de 93,10 €\n- QUI-12417, Poignée de porte béquille sur rosace, aluminium : 30 à 20,00 € HT au lieu de 35,75 €\n- QUI-12752, Serrure en applique à fouillot, axe 60 mm : 12 à 24,00 € HT au lieu de 40,16 €\n- QUI-12989, Verrou à baïonnette 100 mm, inox : 20 à 17,00 € HT au lieu de 22,55 €\n\nLa ponceuse est déréférencée et la poignée en fin de série. La serrure QUI-12752 est démodée, on n'en vend presque plus : autant la traiter comme une fin de série.\n\nSamir",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

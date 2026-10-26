@@ -1,0 +1,19 @@
+# Fiche du lot s36-07. Données FICTIVES.
+lot: s36-07
+adresse: 82 impasse des Noyers, 18999 Sorlay-le-Haut (FICTIF)
+type: T4
+surface_m2: 78
+locataire:
+  nom: M. Julien Michaud
+  courriel: julien.michaud@messagerie.example
+  telephone: 06 39 98 78 01
+  entree: '2020-09-22'
+bail:
+  signature: '2020-09-22'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 695,00 €
+  depot_de_garantie: 618,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T2
+dpe:
+  classe: D

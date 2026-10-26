@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-621",
+  "de": {
+    "nom": "Sébastien Noël",
+    "adresse": "sebastien.noel@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Congés",
+  "date": "2026-11-02T07:30:00+01:00",
+  "corps": "Bonjour Sonia,\n\nJe voudrais poser mes congés du lundi 16 au vendredi 20 novembre. Tu peux me confirmer ?\n\nSébastien (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

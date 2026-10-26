@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-008",
+  "de": {
+    "nom": "Protection de la Garenne",
+    "adresse": "facturation@protection-de-la-garenne.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture F86902",
+  "date": "2026-07-01T15:15:00+02:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-jointe notre facture F86902 du 1er juillet 2026, pour votre commande CA-2026-0324 :\n- PRO-10980, Gants de manutention enduits polyuréthane, taille 10 : 180 x 4,10 € HT = 738,00 €\n- PRO-11518, Pantalon de travail haute visibilité orange, taille 46 : 12 x 26,28 € HT = 315,36 €\n- PRO-12090, Veste de travail softshell noire, taille S : 2 x 46,67 € HT = 93,34 €\n\nTotal HT : 1 146,70 € ; TVA 20 % : 229,34 € ; total TTC : 1 376,04 €. Paiement à 60 jours date de facture.\n\nService facturation\nProtection de la Garenne",
+  "pieces_jointes": [
+    {
+      "nom": "F86902.pdf",
+      "fichier": "pieces/m-cpt-008/F86902.pdf",
+      "taille_octets": 800
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

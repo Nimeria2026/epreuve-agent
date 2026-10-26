@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01812",
+  "commande": "CO-2026-01963",
+  "client": "c-0076",
+  "date_expedition": "2026-07-01",
+  "date_livraison": "2026-07-01",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "12 parc d'activités de la Gare, 36999 Vaumoreau-sur-Indre (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ENT-10163",
+      "libelle": "Balai d'atelier 60 cm",
+      "quantite": 6
+    },
+    {
+      "reference": "PLB-10244",
+      "libelle": "Chauffe-eau électrique 100 l, horizontal",
+      "quantite": 12
+    }
+  ],
+  "reserves": null,
+  "signataire": "Sylvain Legendre",
+  "statut": "livre"
+}

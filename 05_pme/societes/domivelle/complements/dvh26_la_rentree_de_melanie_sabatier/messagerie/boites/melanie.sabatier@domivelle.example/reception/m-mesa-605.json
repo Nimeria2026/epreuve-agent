@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-mesa-605",
+  "de": {
+    "nom": "Yohan Delmas",
+    "adresse": "yohan.delmas@domivelle.example"
+  },
+  "a": [
+    "melanie.sabatier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Ravalement du Square des Écoles",
+  "date": "2026-08-27T15:00:00+02:00",
+  "corps": "Mélanie,\n\nMaçonnerie des Chaumes-Rouges demande quand elle pourra commencer le ravalement du Square des Écoles (cp22), voté le 2 juillet à la majorité de l'article 25. Peux-tu donner la date à Maëlle à ton retour ?\n\nYohan",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

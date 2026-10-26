@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-414",
+  "de": {
+    "nom": "Pierre Legrand",
+    "adresse": "pierre.legrand@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis pour notre maison de Touraine",
+  "date": "2026-11-01T18:40:00+01:00",
+  "corps": "Bonjour Madame Perrin,\n\nVous entretenez notre chaudière à Valmont depuis des années. Nous venons d'acheter une maison au 4 rue du Lavoir, 37999 Chanceaux-les-Vignes, en Indre-et-Loire, et voudrions y faire poser une pompe à chaleur cet hiver. Pouvez-vous passer et nous faire un devis ?\n\nCordialement,\nPierre Legrand (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

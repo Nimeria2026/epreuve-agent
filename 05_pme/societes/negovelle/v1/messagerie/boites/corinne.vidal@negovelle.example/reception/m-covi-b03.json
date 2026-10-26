@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-covi-b03",
+  "de": {
+    "nom": "Jérôme Ancelin",
+    "adresse": "jerome.ancelin@serrurerie-fleurot.example"
+  },
+  "a": [
+    "corinne.vidal@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Horaires du comptoir cet été",
+  "date": "2026-06-24T16:13:00+02:00",
+  "corps": "Bonjour,\n\nLe comptoir reste-t-il ouvert en août ?\n\nJérôme Ancelin",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

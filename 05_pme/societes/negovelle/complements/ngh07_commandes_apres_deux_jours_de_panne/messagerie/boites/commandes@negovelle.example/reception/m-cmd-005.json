@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-005",
+  "de": {
+    "nom": "Christine Maurin",
+    "adresse": "christine.maurin@quere-batiment.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-02T11:15:00+02:00",
+  "corps": "Bonjour,\n\nVoici notre commande, à livrer au siège :\n\n- 10 x VIS-10195, Boulon tête hexagonale M12x30, zingué, sachet de 10\n- 8 x FIX-10130, Cheville métallique à expansion M6x45, boîte de 50\n\nMerci de nous confirmer la livraison.\n\nCordialement,\nChristine Maurin\nQuéré Bâtiment",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

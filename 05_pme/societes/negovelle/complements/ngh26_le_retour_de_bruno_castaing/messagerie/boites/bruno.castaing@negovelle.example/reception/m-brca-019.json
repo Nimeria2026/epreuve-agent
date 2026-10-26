@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-019",
+  "de": {
+    "nom": "Laurent Gimenez",
+    "adresse": "laurent.gimenez@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Prix pour Services techniques de Corvalet, CO-2026-02047",
+  "date": "2026-08-18T11:00:00+02:00",
+  "corps": "Bruno,\n\nLes Services techniques de Corvalet (c-0089) préparent les travaux des écoles ; brouillon CO-2026-02047 :\n\n- ELE-12400, Interrupteur différentiel 40 A 30 mA, type Hpi : 4 à 70,00 € HT au lieu de 85,49 €\n- CON-11339, Marqueur de chantier rouge, boîte de 10 : 24 à 14,00 € HT au lieu de 16,95 €\n- ELP-10057, Disque diamant béton 115 mm : 12 à 80,00 € HT au lieu de 98,29 €\n\nLes interrupteurs ELE-12400 sont en fin de série.\n\nLaurent",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

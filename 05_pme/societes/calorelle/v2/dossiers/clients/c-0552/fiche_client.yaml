@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0552"
+nom: "Sandrine Gauthier"
+type: "particulier"
+adresse: "55 rue Haute, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "sandrine.gauthier@courriel.example"
+telephone: "06 39 98 51 30"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2022-09-21"
+  mois_anniversaire: "septembre"
+  derniere_visite: "2026-09-17"

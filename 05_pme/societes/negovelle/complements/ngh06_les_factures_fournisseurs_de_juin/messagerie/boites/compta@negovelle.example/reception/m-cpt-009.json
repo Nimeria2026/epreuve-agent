@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-009",
+  "de": {
+    "nom": "Matériel électrique des Brandes",
+    "adresse": "facturation@materiel-electrique-des-brandes.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture F90477",
+  "date": "2026-07-02T16:15:00+02:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-jointe notre facture F90477 du 2 juillet 2026, pour votre commande CA-2026-0337 :\n- ELE-10490, Boîte d'encastrement simple 67 mm : 50 x 1,72 € HT = 86,00 €\n- ELE-10759, Collier de serrage 300x3,6 mm, sachet de 100 : 60 x 5,61 € HT = 336,60 €\n- ELE-10996, Câble H07V-U 2,5 mm², couronne de 50 m : 12 x 38,41 € HT = 460,92 €\n- ELE-11862, Fil de terre vert-jaune 25 mm², couronne de 100 m : 12 x 28,60 € HT = 343,20 €\n- ELE-11959, Gaine ICTA 25 mm, couronne de 50 m : 60 x 11,47 € HT = 688,20 €\n- ELE-12891, Projecteur LED 30 W, à détecteur : 9 x 38,37 € HT = 345,33 €\n\nTotal HT : 2 260,25 € ; TVA 20 % : 452,05 € ; total TTC : 2 712,30 €. Paiement à 60 jours date de facture.\n\nService facturation\nMatériel électrique des Brandes",
+  "pieces_jointes": [
+    {
+      "nom": "F90477.pdf",
+      "fichier": "pieces/m-cpt-009/F90477.pdf",
+      "taille_octets": 807
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

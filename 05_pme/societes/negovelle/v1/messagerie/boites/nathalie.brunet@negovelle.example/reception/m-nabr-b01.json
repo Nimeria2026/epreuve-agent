@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-nabr-b01",
+  "de": {
+    "nom": "Sandrine Delaunay",
+    "adresse": "sandrine.delaunay@cosson-renovation.example"
+  },
+  "a": [
+    "nathalie.brunet@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande reçue, merci",
+  "date": "2026-07-03T10:48:00+02:00",
+  "corps": "Bonjour,\n\nLa livraison de ce matin est complète. Merci.\n\nSandrine Delaunay",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

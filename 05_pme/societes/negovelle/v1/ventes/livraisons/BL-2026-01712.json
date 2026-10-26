@@ -1,0 +1,59 @@
+{
+  "numero": "BL-2026-01712",
+  "commande": "CO-2026-01863",
+  "client": "c-0165",
+  "date_expedition": "2026-06-25",
+  "date_livraison": "2026-06-25",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "11 parc d'activités de la Gare, 36999 Ardillac (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "CON-11233",
+      "libelle": "Disque abrasif à lamelles 150 mm, grain 80, boîte de 10",
+      "quantite": 1
+    },
+    {
+      "reference": "ELE-10555",
+      "libelle": "Boîte d'encastrement étanche 85 mm",
+      "quantite": 10
+    },
+    {
+      "reference": "FIX-10734",
+      "libelle": "Cheville pour plaque de plâtre 5x32, boîte de 100",
+      "quantite": 12
+    },
+    {
+      "reference": "OUT-10236",
+      "libelle": "Ciseau à bois 16 mm",
+      "quantite": 4
+    },
+    {
+      "reference": "OUT-12090",
+      "libelle": "Scie à plâtre 250 mm",
+      "quantite": 1
+    },
+    {
+      "reference": "PLB-11020",
+      "libelle": "Coude cuivre à souder 90° 16 mm, sachet de 5",
+      "quantite": 10
+    },
+    {
+      "reference": "PRO-10930",
+      "libelle": "Gants de manutention cuir fleur, taille 7",
+      "quantite": 10
+    },
+    {
+      "reference": "VIS-11649",
+      "libelle": "Vis à bois tête fraisée 3x80, zinguée, boîte de 500",
+      "quantite": 5
+    }
+  ],
+  "reserves": null,
+  "signataire": "Patrice Chevrier",
+  "statut": "livre"
+}

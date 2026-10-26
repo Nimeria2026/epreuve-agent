@@ -1,0 +1,13 @@
+{
+  "numero": "INT-2026-0003",
+  "client": "c-0263",
+  "techniciens": [
+    "romain.guerin"
+  ],
+  "debut": "2026-11-02T10:00:00+01:00",
+  "fin": "2026-11-02T12:00:00+01:00",
+  "nature": "depannage",
+  "objet": "Dépannage : chaudière gaz en sécurité, plus de chauffage",
+  "statut": "planifiee",
+  "cree_par": "donnees_initiales"
+}

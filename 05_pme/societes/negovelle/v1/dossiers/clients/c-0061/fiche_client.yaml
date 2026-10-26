@@ -1,0 +1,25 @@
+# Fiche du client c-0061 de Négovelle. Données FICTIVES.
+code: c-0061
+nom: Paysage Mahé
+type: artisan
+adresse: 105 rue du Pont, 36999 Mérolles-en-Brenne (FICTIF)
+telephone: 02 61 91 96 08
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Claude Chatelain
+  fonction: gérant
+  courriel: claude.chatelain@paysage-mahe.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 105 rue du Pont, 36999 Mérolles-en-Brenne (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2025-04-01'
+limite_encours_euros: 5000.0
+livraisons_partielles: false
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

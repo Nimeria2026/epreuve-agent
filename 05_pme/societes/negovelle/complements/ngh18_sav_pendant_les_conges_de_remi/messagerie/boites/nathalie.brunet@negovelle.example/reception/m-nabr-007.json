@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-nabr-007",
+  "de": {
+    "nom": "Philippe Becker",
+    "adresse": "philippe.becker@entreprise-hardy.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Ponceuse cassée",
+  "date": "2026-07-03T08:50:00+02:00",
+  "corps": "Bonjour,\n\nL'une des 3 ponceuses ELP-11666 de notre livraison BL-2026-01697 du jeudi 25 juin a le carter fendu. Nous l'avons vu en la sortant de son carton lundi, et nous avons envoyé hier une lettre recommandée au transporteur. Pouvez-vous nous la remplacer ou nous faire un avoir ?\n\nPhilippe Becker\nEntreprise Hardy",
+  "pieces_jointes": [
+    {
+      "nom": "protestation_transports_delorme_2026-07-02.pdf",
+      "fichier": "pieces/m-nabr-007/protestation_transports_delorme_2026-07-02.pdf",
+      "taille_octets": 1009
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

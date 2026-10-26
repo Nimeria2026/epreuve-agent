@@ -1,0 +1,73 @@
+{
+  "numero": "CO-2026-02082",
+  "client": "c-0275",
+  "reference_client": null,
+  "cree_le": "2026-08-04T10:00:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "4 zone d'activités des Grands Prés, 36999 Vaumoreau-sur-Indre (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-10881",
+      "libelle": "Disque abrasif fibre 150 mm, grain 120, boîte de 50",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 30.15,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 27.74,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 277.4
+    },
+    {
+      "reference": "VIS-12204",
+      "libelle": "Vis à bois tête fraisée 4x20, bichromatée, boîte de 500",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 15.9,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 14.63,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 146.3
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 423.7,
+  "total_tva_euros": 84.74,
+  "total_ttc_euros": 508.44,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01902"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-08-04T10:00:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": "commande du client"
+    },
+    {
+      "date": "2026-08-04T10:05:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": "stock réservé"
+    },
+    {
+      "date": "2026-08-05T16:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01902"
+    },
+    {
+      "date": "2026-08-06T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01902"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0120"
+nom: "Sophie Vincent"
+type: "particulier"
+adresse: "39 place du Marché, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "sophie.vincent@courriel.example"
+telephone: "06 39 98 50 31"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2019-11-12"
+  mois_anniversaire: "novembre"
+  derniere_visite: "2025-11-08"

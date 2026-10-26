@@ -1,0 +1,24 @@
+# Fiche du lot n13-01. Données FICTIVES.
+lot: n13-01
+adresse: 2 rue Jean-Jaurès, 18999 Vernillac (FICTIF)
+type: maison T5
+surface_m2: 112
+locataire:
+  nom: Mme Émilie Leclerc
+  courriel: emilie.leclerc@mel-perso.example
+  telephone: 06 39 98 83 36
+  entree: '2025-05-22'
+bail:
+  signature: '2025-05-22'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 970,00 €
+  depot_de_garantie: 946,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T1
+dpe:
+  classe: C
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

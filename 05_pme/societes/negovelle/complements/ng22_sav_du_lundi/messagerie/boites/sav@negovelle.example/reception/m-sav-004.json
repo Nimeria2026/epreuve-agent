@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-004",
+  "de": {
+    "nom": "Jérôme Boutin",
+    "adresse": "jerome.boutin@services-techniques-de-ardillac.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Livraison incomplète",
+  "date": "2026-07-03T14:18:00+02:00",
+  "corps": "Bonjour,\n\nIl manque deux boîtes de chevilles sur la livraison de vendredi, alors que le bon les mentionne. Le chauffeur est reparti avant que nous ayons compté.\n\nJérôme Boutin\nServices techniques de Ardillac",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

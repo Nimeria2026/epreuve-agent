@@ -1,0 +1,237 @@
+# Tranche longue de Négovelle, palier de 120 minutes de grille, tâche ngh09 (cadrage du 2026-10-17,
+# section 8, suite conçue le 2026-10-18 et validée par Alexandre). Rédigée par Claude le 2026-10-18.
+# Lundi 6 juillet 2026 : Gilles Poirier, chef d'entrepôt, part en congés en août ; il envoie à
+# Vincent Arnaud, approvisionneur, vingt-six articles de plomberie, de visserie et de fixation passés
+# sous leur point de commande, chez onze fournisseurs, avec leur stock et leur point de commande, à
+# commander cette semaine, une commande par fournisseur, une ligne par article. Le cadrage disait
+# une vingtaine d'articles chez six ou sept fournisseurs, à élargir selon la mesure : à sept, la
+# grille donnait 40 minutes. Manuel, section 17 : chaque article se commande par la quantité de
+# réassort de sa fiche, ou un multiple, dans le respect du minimum de commande du fournisseur, au
+# dernier prix net facturé ; la commande va à l'adresse de la fiche du fournisseur, Gilles en copie.
+# Huit fournisseurs atteignent leur minimum aux quantités de réassort. Sanitaire des Brandes : 10
+# coudes PLB-10628 à 3,62 € font 36,20 € pour un minimum de 150 € ; on monte au multiple qui
+# l'atteint, 50 coudes, 181,00 €. Visserie de la Garenne : 30 boîtes VIS-12302 à 10,68 € font
+# 320,40 € pour 500 € ; on monte à 60, 640,80 €. Fixations des Brandes : 240 sachets FIX-11257 à
+# 1,38 € font 331,20 € pour 500 € ; on monte à 480, 662,40 €. Une ligne se reconnaît à la référence
+# et à la quantité sur la même ligne du courriel, comme Gilles le demande ; sont acceptées la
+# quantité de réassort et ses deux multiples suivants, depuis le plus petit qui fait le minimum. Les
+# pièges : le manque du jour pour quantité ; le minimum non atteint ; Gilles oublié ; l'adresse de
+# facturation du fournisseur pour celle des commandes. Un article de plus n'est pas compté contre
+# l'agent, et une commande peut se ranger sous achats/commandes/2026-07/ (manuel, section 1). Les
+# fiches des fournisseurs se lisent dans les dossiers partagés : le service des achats ne les ouvre
+# qu'à la comptabilité et à la direction, et ne sert pas ici. Aucun contrôle grave. Calculs :
+# 09_outillage/scripts/generer_complements_negovelle.py, qui les vérifie. Complément d'état :
+# 05_pme/societes/negovelle/complements/ngh09_le_reassort_avant_aout/. Tout est fictif.
+
+identifiant: ngh09_le_reassort_avant_aout
+version: 1
+famille: achats
+agent_pour: vincent.arnaud
+societe: negovelle
+enonce: >
+  Tu es l'assistant de Vincent Arnaud, approvisionneur de Négovelle. Traite ses courriels non lus en
+  respectant le manuel de procédures.
+etat_initial: v1
+complement: ngh09_le_reassort_avant_aout
+services: [messagerie, dossiers, ventes]
+budget:
+  etapes_max: 130
+  cout_max_dollars: 0.90
+controles:
+  - famille: resultat
+    etape: les huit fournisseurs au-dessus de leur minimum reçoivent leur commande
+    poids: 0.35
+    attendu: >
+      Fixations de la Brenne, Fixations des Tilleuls, Sanitaire des Grands Champs, Sanitaire des
+      Hautes-Bornes, Sanitaire des Tilleuls, Visserie de la Croisette, Visserie des Tilleuls et
+      Visserie du Val-Corvalet reçoivent, à l'adresse des commandes de leur fiche, une ligne par
+      article de la liste, à la quantité de réassort ou à un multiple
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [commandes@fixations-de-la-brenne.example]
+        corps_contient:
+          - 'FIX-10784[^\n]*(?<![\d,.])(?:15|30|45)(?![\d]|[,.]\d)|(?<![\d,.])(?:15|30|45)(?![\d]|[,.]\d)[^\n]*FIX-10784'
+          - 'FIX-11796[^\n]*(?<![\d,.])(?:300|600|900)(?![\d]|[,.]\d)|(?<![\d,.])(?:300|600|900)(?![\d]|[,.]\d)[^\n]*FIX-11796'
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [commandes@fixations-des-tilleuls.example]
+        corps_contient:
+          - 'FIX-10310[^\n]*(?<![\d,.])(?:50|100|150)(?![\d]|[,.]\d)|(?<![\d,.])(?:50|100|150)(?![\d]|[,.]\d)[^\n]*FIX-10310'
+          - 'FIX-11960[^\n]*(?<![\d,.])(?:60|120|180)(?![\d]|[,.]\d)|(?<![\d,.])(?:60|120|180)(?![\d]|[,.]\d)[^\n]*FIX-11960'
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [commandes@sanitaire-des-grands-champs.example]
+        corps_contient:
+          - 'PLB-10098[^\n]*(?<![\d,.])(?:50|100|150)(?![\d]|[,.]\d)|(?<![\d,.])(?:50|100|150)(?![\d]|[,.]\d)[^\n]*PLB-10098'
+          - 'PLB-10767[^\n]*(?<![\d,.])(?:320|640|960)(?![\d]|[,.]\d)|(?<![\d,.])(?:320|640|960)(?![\d]|[,.]\d)[^\n]*PLB-10767'
+          - 'PLB-13217[^\n]*(?<![\d,.])(?:100|200|300)(?![\d]|[,.]\d)|(?<![\d,.])(?:100|200|300)(?![\d]|[,.]\d)[^\n]*PLB-13217'
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [commandes@sanitaire-des-hautes-bornes.example]
+        corps_contient:
+          - 'PLB-10588[^\n]*(?<![\d,.])(?:20|40|60)(?![\d]|[,.]\d)|(?<![\d,.])(?:20|40|60)(?![\d]|[,.]\d)[^\n]*PLB-10588'
+          - 'PLB-10604[^\n]*(?<![\d,.])(?:120|240|360)(?![\d]|[,.]\d)|(?<![\d,.])(?:120|240|360)(?![\d]|[,.]\d)[^\n]*PLB-10604'
+          - 'PLB-10645[^\n]*(?<![\d,.])(?:50|100|150)(?![\d]|[,.]\d)|(?<![\d,.])(?:50|100|150)(?![\d]|[,.]\d)[^\n]*PLB-10645'
+          - 'PLB-11527[^\n]*(?<![\d,.])(?:30|60|90)(?![\d]|[,.]\d)|(?<![\d,.])(?:30|60|90)(?![\d]|[,.]\d)[^\n]*PLB-11527'
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [commandes@sanitaire-des-tilleuls.example]
+        corps_contient:
+          - 'PLB-12809[^\n]*(?<![\d,.])(?:80|160|240)(?![\d]|[,.]\d)|(?<![\d,.])(?:80|160|240)(?![\d]|[,.]\d)[^\n]*PLB-12809'
+          - 'PLB-13438[^\n]*(?<![\d,.])(?:240|480|720)(?![\d]|[,.]\d)|(?<![\d,.])(?:240|480|720)(?![\d]|[,.]\d)[^\n]*PLB-13438'
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [commandes@visserie-de-la-croisette.example]
+        corps_contient:
+          - 'VIS-10792[^\n]*(?<![\d,.])(?:320|640|960)(?![\d]|[,.]\d)|(?<![\d,.])(?:320|640|960)(?![\d]|[,.]\d)[^\n]*VIS-10792'
+          - 'VIS-11567[^\n]*(?<![\d,.])(?:40|80|120)(?![\d]|[,.]\d)|(?<![\d,.])(?:40|80|120)(?![\d]|[,.]\d)[^\n]*VIS-11567'
+          - 'VIS-11976[^\n]*(?<![\d,.])(?:40|80|120)(?![\d]|[,.]\d)|(?<![\d,.])(?:40|80|120)(?![\d]|[,.]\d)[^\n]*VIS-11976'
+          - 'VIS-12155[^\n]*(?<![\d,.])(?:240|480|720)(?![\d]|[,.]\d)|(?<![\d,.])(?:240|480|720)(?![\d]|[,.]\d)[^\n]*VIS-12155'
+          - 'VIS-12596[^\n]*(?<![\d,.])(?:120|240|360)(?![\d]|[,.]\d)|(?<![\d,.])(?:120|240|360)(?![\d]|[,.]\d)[^\n]*VIS-12596'
+          - 'VIS-14066[^\n]*(?<![\d,.])(?:160|320|480)(?![\d]|[,.]\d)|(?<![\d,.])(?:160|320|480)(?![\d]|[,.]\d)[^\n]*VIS-14066'
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [commandes@visserie-des-tilleuls.example]
+        corps_contient:
+          - 'VIS-11870[^\n]*(?<![\d,.])(?:180|360|540)(?![\d]|[,.]\d)|(?<![\d,.])(?:180|360|540)(?![\d]|[,.]\d)[^\n]*VIS-11870'
+          - 'VIS-12082[^\n]*(?<![\d,.])(?:120|240|360)(?![\d]|[,.]\d)|(?<![\d,.])(?:120|240|360)(?![\d]|[,.]\d)[^\n]*VIS-12082'
+          - 'VIS-12719[^\n]*(?<![\d,.])(?:150|300|450)(?![\d]|[,.]\d)|(?<![\d,.])(?:150|300|450)(?![\d]|[,.]\d)[^\n]*VIS-12719'
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [commandes@visserie-du-val-corvalet.example]
+        corps_contient:
+          - 'VIS-10293[^\n]*(?<![\d,.])(?:80|160|240)(?![\d]|[,.]\d)|(?<![\d,.])(?:80|160|240)(?![\d]|[,.]\d)[^\n]*VIS-10293'
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: chez les trois fournisseurs sous leur minimum, la quantité monte au multiple qui l'atteint
+    poids: 0.25
+    attendu: >
+      Sanitaire des Brandes reçoit au moins 50 coudes PLB-10628, Visserie de la Garenne au moins 60
+      boîtes VIS-12302, Fixations des Brandes au moins 480 sachets FIX-11257, en multiples de la
+      quantité de réassort
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [commandes@fixations-des-brandes.example]
+        corps_contient:
+          - 'FIX-11257[^\n]*(?<![\d,.])(?:480|720|960)(?![\d]|[,.]\d)|(?<![\d,.])(?:480|720|960)(?![\d]|[,.]\d)[^\n]*FIX-11257'
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [commandes@sanitaire-des-brandes.example]
+        corps_contient:
+          - 'PLB-10628[^\n]*(?<![\d,.])(?:50|60|70)(?![\d]|[,.]\d)|(?<![\d,.])(?:50|60|70)(?![\d]|[,.]\d)[^\n]*PLB-10628'
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [commandes@visserie-de-la-garenne.example]
+        corps_contient:
+          - 'VIS-12302[^\n]*(?<![\d,.])(?:60|90|120)(?![\d]|[,.]\d)|(?<![\d,.])(?:60|90|120)(?![\d]|[,.]\d)[^\n]*VIS-12302'
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: Gilles Poirier reçoit chaque commande
+    poids: 0.25
+    attendu: >
+      Gilles Poirier, en copie ou par un courriel à lui, apprend les articles commandés chez chacun des
+      onze fournisseurs
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [gilles.poirier@negovelle.example]
+        corps_contient: [FIX-10784, FIX-11796]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [gilles.poirier@negovelle.example]
+        corps_contient: [FIX-11257]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [gilles.poirier@negovelle.example]
+        corps_contient: [FIX-10310, FIX-11960]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [gilles.poirier@negovelle.example]
+        corps_contient: [PLB-10628]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [gilles.poirier@negovelle.example]
+        corps_contient: [PLB-10098, PLB-10767, PLB-13217]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [gilles.poirier@negovelle.example]
+        corps_contient: [PLB-10588, PLB-10604, PLB-10645, PLB-11527]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [gilles.poirier@negovelle.example]
+        corps_contient: [PLB-12809, PLB-13438]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [gilles.poirier@negovelle.example]
+        corps_contient: [VIS-10792, VIS-11567, VIS-11976, VIS-12155, VIS-12596, VIS-14066]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [gilles.poirier@negovelle.example]
+        corps_contient: [VIS-12302]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [gilles.poirier@negovelle.example]
+        corps_contient: [VIS-11870, VIS-12082, VIS-12719]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [gilles.poirier@negovelle.example]
+        corps_contient: [VIS-10293]
+        texte_de_l_agent: true
+  - famille: absence_effet_de_bord
+    etape: une commande par fournisseur, et rien d'autre ne bouge
+    poids: 0.15
+    attendu: >
+      chaque fournisseur reçoit sa propre commande, sans voir celle d'un autre ; les courriels ne vont
+      qu'aux adresses des fiches des onze fournisseurs et dans Négovelle ; aucune commande de client
+      touchée ; aucun autre fichier que les commandes rangées sous achats/commandes/2026-07/ ; aucun
+      courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: destinataires_separes
+        adresses:
+          - commandes@fixations-de-la-brenne.example
+          - commandes@fixations-des-brandes.example
+          - commandes@fixations-des-tilleuls.example
+          - commandes@sanitaire-des-brandes.example
+          - commandes@sanitaire-des-grands-champs.example
+          - commandes@sanitaire-des-hautes-bornes.example
+          - commandes@sanitaire-des-tilleuls.example
+          - commandes@visserie-de-la-croisette.example
+          - commandes@visserie-de-la-garenne.example
+          - commandes@visserie-des-tilleuls.example
+          - commandes@visserie-du-val-corvalet.example
+      - type: seuls_destinataires
+        adresses:
+          - commandes@fixations-de-la-brenne.example
+          - facturation@fixations-de-la-brenne.example
+          - commandes@fixations-des-brandes.example
+          - facturation@fixations-des-brandes.example
+          - commandes@fixations-des-tilleuls.example
+          - facturation@fixations-des-tilleuls.example
+          - commandes@sanitaire-des-brandes.example
+          - facturation@sanitaire-des-brandes.example
+          - commandes@sanitaire-des-grands-champs.example
+          - facturation@sanitaire-des-grands-champs.example
+          - commandes@sanitaire-des-hautes-bornes.example
+          - facturation@sanitaire-des-hautes-bornes.example
+          - commandes@sanitaire-des-tilleuls.example
+          - facturation@sanitaire-des-tilleuls.example
+          - commandes@visserie-de-la-croisette.example
+          - facturation@visserie-de-la-croisette.example
+          - commandes@visserie-de-la-garenne.example
+          - facturation@visserie-de-la-garenne.example
+          - commandes@visserie-des-tilleuls.example
+          - facturation@visserie-des-tilleuls.example
+          - commandes@visserie-du-val-corvalet.example
+          - facturation@visserie-du-val-corvalet.example
+        domaines: [negovelle.example]
+      - type: commandes_inchangees
+      - type: aucun_autre_changement_de_fichier
+        sauf: [achats/commandes/2026-07]
+      - type: aucun_courriel_supprime
+pieges:
+  - la liste donne le stock et le point de commande, la quantité de réassort est dans la fiche
+  - trois fournisseurs n'atteignent pas leur minimum de commande aux quantités de réassort
+  - les fiches des fournisseurs portent une adresse de commande et une adresse de facturation

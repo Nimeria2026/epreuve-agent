@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-937",
+  "de": {
+    "nom": "Commune du Pré-Bouvreuil",
+    "adresse": "contact@commune-du-pre-bouvreuil-279.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "RE: Rencontre avec Mme Marchal",
+  "date": "2027-02-01T08:58:00+01:00",
+  "corps": "Madame,\n\nSi Mme Marchal peut le mercredi 17 février à 14 h, M. le maire viendra à cette heure-là : merci de nous le confirmer.\n\nLe secrétariat de la mairie du Pré-Bouvreuil (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

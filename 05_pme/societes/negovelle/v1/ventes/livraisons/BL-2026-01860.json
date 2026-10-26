@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01860",
+  "commande": "CO-2026-02013",
+  "client": "c-0246",
+  "date_expedition": "2026-07-03",
+  "date_livraison": null,
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "137 rue du Château, 36999 Vaumoreau-sur-Indre (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "CON-10065",
+      "libelle": "Bombe de peinture antirouille, rouge fluo, aérosol de 500 ml",
+      "quantite": 12
+    },
+    {
+      "reference": "QUI-10530",
+      "libelle": "Cadenas à combinaison 50 mm, 3 clés",
+      "quantite": 3
+    }
+  ],
+  "reserves": null,
+  "signataire": null,
+  "statut": "en_cours"
+}

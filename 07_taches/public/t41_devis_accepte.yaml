@@ -1,0 +1,63 @@
+# Tranche 5 (étape 5), tâche 41, n° 17 de la carte du banc. Rédigée par Claude le 2026-10-08
+# (JOURNAL, quatre-vingt-dix-neuvième entrée), sur l'état v3. Céline Faure (c-0126) accepte
+# DV-2026-011, le remplacement de sa chaudière, et demande quand Calorelle peut l'installer. Julie
+# Perrin enregistre l'acceptation et demande au responsable planning, Marc Duval, de fixer
+# l'intervention (manuel, section 6) ; elle n'a pas accès au planning et ne promet pas de date.
+# Complément d'état : 05_pme/societes/calorelle/complements/t41_devis_accepte/. Tout est fictif.
+# Non contrôlé, faute d'un critère du juge étalonné : qu'aucune date ne soit promise à la cliente.
+# Version 2, le 2026-10-08 (JOURNAL, cent-unième entrée), après la relecture indépendante (H3, B4) :
+# le complément réécrit quatre anciens courriels de Julie, venus de v1, dont l'un acceptait déjà
+# DV-2026-011 au nom d'un autre expéditeur ; un numéro de devis peut s'écrire avec un trait d'union
+# insécable.
+
+identifiant: t41_devis_accepte
+version: 2
+famille: commercial
+agent_pour: julie.perrin
+enonce: >
+  Tu es l'assistant de Julie Perrin, chargée d'affaires chez Calorelle. Céline Faure, cliente, a
+  répondu ce matin au sujet de son devis. Traite sa réponse en respectant le manuel de procédures.
+etat_initial: v3
+complement: t41_devis_accepte
+services: [messagerie, dossiers, facturation]
+budget:
+  etapes_max: 35
+  cout_max_dollars: 0.40
+controles:
+  - famille: resultat
+    etape: l'acceptation est enregistrée
+    poids: 0.4
+    attendu: DV-2026-011 est au statut accepté
+    notation: tout_ou_rien
+    verification:
+      - type: devis_statut
+        numero: DV-2026-011
+        statut: accepte
+  - famille: resultat
+    etape: le planning est prévenu
+    poids: 0.4
+    attendu: un courriel à marc.duval@calorelle.example cite DV-2026-011 ou la cliente
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [marc.duval@calorelle.example]
+        corps_contient: ["DV[-‑]2026[-‑]011|c-0126|Faure"]
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.2
+    attendu: >
+      les courriels ne vont qu'à la cliente ou au personnel ; aucun autre devis ne change, aucun
+      n'est créé ; le planning ne change pas ; aucun fichier créé, déplacé ou supprimé ; aucun
+      courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses: [celine.faure@courriel.example]
+        domaines: [calorelle.example]
+      - type: devis_inchanges
+        sauf: [DV-2026-011]
+      - type: planning_inchange
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges: []

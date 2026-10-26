@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01836",
+  "commande": "CO-2026-01987",
+  "client": "c-0187",
+  "date_expedition": "2026-07-02",
+  "date_livraison": "2026-07-02",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "23 zone industrielle des Brandes, 36999 Vaumoreau-sur-Indre (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "CON-10612",
+      "libelle": "Disque abrasif auto-agrippant 150 mm, grain 180, boîte de 25",
+      "quantite": 3
+    },
+    {
+      "reference": "QUI-10628",
+      "libelle": "Charnière de meuble à visser 40 mm, laiton",
+      "quantite": 1
+    }
+  ],
+  "reserves": null,
+  "signataire": "Suzanne Belin",
+  "statut": "livre"
+}

@@ -1,0 +1,141 @@
+# Registre des lots en gestion, s01. Données FICTIVES.
+immeuble: s01
+nature: immeuble collectif
+adresse: 25 rue du Lavoir, 18999 Sorlay-le-Haut (FICTIF)
+secteur: sud
+gestionnaire: Solène Audoin
+distance_agence_km: 18
+annee_construction: 2000
+gardien: false
+copropriete_du_syndic: null
+lots:
+- lot: s01-01
+  type: T3
+  surface_m2: 59
+  etage: 0
+  proprietaire: p-0028
+  locataire: M. Maxime Jourdan
+  entree: '2014-01-06'
+  loyer_hors_charges: 559,00 €
+  provision_sur_charges: 58,00 €
+  depot_de_garantie: 430,00 €
+  revision: chaque 6 janvier
+  trimestre_irl: T3
+  dpe: F
+- lot: s01-02
+  type: T2
+  surface_m2: 50
+  etage: 0
+  proprietaire: p-0028
+  locataire: M. Dominique Maillot
+  entree: '2024-04-06'
+  loyer_hors_charges: 417,00 €
+  provision_sur_charges: 31,00 €
+  depot_de_garantie: 397,00 €
+  revision: chaque 6 avril
+  trimestre_irl: T4
+  dpe: F
+- lot: s01-03
+  type: T2
+  surface_m2: 46
+  etage: 0
+  proprietaire: p-0029
+  locataire: Mme Estelle Gaillard
+  entree: '2022-08-17'
+  loyer_hors_charges: 390,00 €
+  provision_sur_charges: 109,00 €
+  depot_de_garantie: 363,00 €
+  revision: chaque 17 août
+  trimestre_irl: T2
+  dpe: D
+- lot: s01-04
+  type: T3
+  surface_m2: 67
+  etage: 0
+  proprietaire: p-0029
+  locataire: Mme Caroline Bonnet
+  entree: '2018-09-11'
+  loyer_hors_charges: 542,00 €
+  provision_sur_charges: 81,00 €
+  depot_de_garantie: 461,00 €
+  revision: chaque 11 septembre
+  trimestre_irl: T2
+  dpe: C
+- lot: s01-05
+  type: T1
+  surface_m2: 29
+  etage: 1
+  proprietaire: p-0030
+  locataire: Mme Sophie Charpentier
+  entree: '2013-11-10'
+  loyer_hors_charges: 235,00 €
+  provision_sur_charges: 56,00 €
+  depot_de_garantie: 181,00 €
+  revision: chaque 10 novembre
+  trimestre_irl: T3
+  dpe: E
+- lot: s01-06
+  type: T3
+  surface_m2: 69
+  etage: 1
+  proprietaire: p-0031
+  locataire: M. Olivier Gilbert
+  entree: '2013-03-23'
+  loyer_hors_charges: 587,00 €
+  provision_sur_charges: 34,00 €
+  depot_de_garantie: 443,00 €
+  revision: chaque 23 mars
+  trimestre_irl: T4
+  dpe: E
+- lot: s01-07
+  type: T2
+  surface_m2: 43
+  etage: 1
+  proprietaire: p-0029
+  locataire: M. Henri Martel
+  entree: '2019-08-10'
+  loyer_hors_charges: 401,00 €
+  provision_sur_charges: 101,00 €
+  depot_de_garantie: 349,00 €
+  revision: chaque 10 août
+  trimestre_irl: T2
+  dpe: E
+- lot: s01-08
+  type: T1
+  surface_m2: 34
+  etage: 1
+  proprietaire: p-0030
+  locataire: M. Vincent Hamon
+  entree: '2023-07-21'
+  loyer_hors_charges: 289,00 €
+  provision_sur_charges: 84,00 €
+  depot_de_garantie: 275,00 €
+  revision: chaque 21 juillet
+  trimestre_irl: T1
+  dpe: D
+- lot: s01-09
+  type: T2
+  surface_m2: 39
+  etage: 2
+  proprietaire: p-0032
+  locataire: Mme Catherine Perrot
+  entree: '2025-05-05'
+  loyer_hors_charges: 326,00 €
+  provision_sur_charges: 39,00 €
+  depot_de_garantie: 318,00 €
+  revision: chaque 5 mai
+  trimestre_irl: T1
+  dpe: D
+- lot: s01-10
+  type: T2
+  surface_m2: 38
+  etage: 2
+  proprietaire: p-0031
+  locataire: M. Didier Pagès
+  entree: '2015-12-28'
+  loyer_hors_charges: 337,00 €
+  provision_sur_charges: 87,00 €
+  depot_de_garantie: 270,00 €
+  revision: chaque 28 décembre
+  trimestre_irl: T3
+  dpe: C

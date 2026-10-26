@@ -1,0 +1,95 @@
+# Registre des lots en gestion, n06. Données FICTIVES.
+immeuble: n06
+nature: groupe de maisons
+adresse: 32 place du Marché, 18999 Vernillac (FICTIF)
+secteur: nord
+gestionnaire: Élodie Chauvin
+distance_agence_km: 8
+annee_construction: 1989
+gardien: false
+copropriete_du_syndic: null
+lots:
+- lot: n06-01
+  type: maison T5
+  surface_m2: 107
+  proprietaire: p-0297
+  locataire: Mme Corinne Laporte
+  entree: '2016-11-15'
+  loyer_hors_charges: 964,00 €
+  provision_sur_charges: 17,00 €
+  depot_de_garantie: 787,00 €
+  revision: chaque 15 novembre
+  trimestre_irl: T3
+  dpe: C
+- lot: n06-02
+  type: maison T5
+  surface_m2: 116
+  proprietaire: p-0298
+  locataire: M. Éric Sanchez
+  entree: '2025-10-04'
+  loyer_hors_charges: 972,00 €
+  provision_sur_charges: 17,00 €
+  depot_de_garantie: 972,00 €
+  revision: chaque 4 octobre
+  trimestre_irl: T2
+  dpe: D
+- lot: n06-03
+  type: maison T5
+  surface_m2: 112
+  proprietaire: p-0299
+  locataire: M. Xavier Schmitt
+  entree: '2015-04-19'
+  loyer_hors_charges: 916,00 €
+  provision_sur_charges: 6,00 €
+  depot_de_garantie: 718,00 €
+  revision: chaque 19 avril
+  trimestre_irl: T4
+  dpe: F
+- lot: n06-04
+  type: maison T3
+  surface_m2: 82
+  proprietaire: p-0298
+  locataire: Mme Delphine Lévêque
+  entree: '2014-03-13'
+  loyer_hors_charges: 663,00 €
+  provision_sur_charges: 5,00 €
+  depot_de_garantie: 510,00 €
+  revision: chaque 13 mars
+  trimestre_irl: T4
+  dpe: E
+- lot: n06-05
+  type: maison T5
+  surface_m2: 117
+  proprietaire: p-0300
+  locataire: Mme Nathalie Chauvet
+  entree: '2018-10-19'
+  loyer_hors_charges: 1 028,00 €
+  provision_sur_charges: 8,00 €
+  depot_de_garantie: 875,00 €
+  revision: chaque 19 octobre
+  trimestre_irl: T2
+  dpe: D
+- lot: n06-06
+  type: maison T3
+  surface_m2: 78
+  proprietaire: p-0008
+  locataire: M. Denis Lucas
+  entree: '2025-10-04'
+  loyer_hors_charges: 706,00 €
+  provision_sur_charges: 12,00 €
+  depot_de_garantie: 706,00 €
+  revision: chaque 4 octobre
+  trimestre_irl: T2
+  dpe: B
+- lot: n06-07
+  type: maison T3
+  surface_m2: 76
+  proprietaire: p-0014
+  locataire: Mme Estelle Legrand
+  entree: '2024-05-09'
+  loyer_hors_charges: 600,00 €
+  provision_sur_charges: 0,00 €
+  depot_de_garantie: 571,00 €
+  revision: chaque 9 mai
+  trimestre_irl: T1
+  dpe: E

@@ -1,0 +1,19 @@
+# Fiche du lot c15-04. Données FICTIVES.
+lot: c15-04
+adresse: 41 rue de la Croix-Blanche, 18999 Montclavel-sur-Cher (FICTIF)
+type: T3
+surface_m2: 57
+locataire:
+  nom: M. Laurent Faure
+  courriel: laurent.faure@messagerie.example
+  telephone: 06 39 98 74 74
+  entree: '2023-08-23'
+bail:
+  signature: '2023-08-23'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 586,00 €
+  depot_de_garantie: 558,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T2
+dpe:
+  classe: D

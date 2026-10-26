@@ -1,0 +1,28 @@
+# Fiche du client c-0009 de Négovelle. Données FICTIVES.
+code: c-0009
+nom: Mairie de Corvalet
+type: collectivite
+adresse: 110 avenue de la Gare, 36999 Corvalet (FICTIF)
+telephone: 02 61 91 95 66
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Fabrice Legendre
+  fonction: responsable des services techniques
+  courriel: fabrice.legendre@mairie-de-corvalet.example
+- nom: Philippe Chatelain
+  fonction: secrétaire de mairie
+  courriel: philippe.chatelain@mairie-de-corvalet.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 110 avenue de la Gare, 36999 Corvalet (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2022-05-01'
+limite_encours_euros: 5000.0
+livraisons_partielles: true
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-isro-005",
+  "de": {
+    "nom": "Aurélie Bonnefoy",
+    "adresse": "aurelie.bonnefoy@negovelle.example"
+  },
+  "a": [
+    "isabelle.royer@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Plâtrerie Boutin",
+  "date": "2026-07-06T07:30:00+02:00",
+  "corps": "Isabelle,\n\nJ'ai eu Bruno au téléphone vendredi soir : il est d'accord pour débloquer la commande de Plâtrerie Boutin, CO-2026-02046. Tu peux y aller ?\n\nAurélie",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

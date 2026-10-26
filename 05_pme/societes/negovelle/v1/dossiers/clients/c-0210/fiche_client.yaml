@@ -1,0 +1,28 @@
+# Fiche du client c-0210 de Négovelle. Données FICTIVES.
+code: c-0210
+nom: Gautier Bâtiment
+type: entreprise
+adresse: 2 parc d'activités de la Gare, 36999 Vaumoreau-sur-Indre (FICTIF)
+telephone: 02 61 91 68 34
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Antoine Guyot
+  fonction: conducteur de travaux
+  courriel: antoine.guyot@gautier-batiment.example
+- nom: Jeanne Brochard
+  fonction: responsable des achats
+  courriel: jeanne.brochard@gautier-batiment.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 2 parc d'activités de la Gare, 36999 Vaumoreau-sur-Indre (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2018-04-01'
+limite_encours_euros: 5500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

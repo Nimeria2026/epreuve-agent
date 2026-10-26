@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cop-002",
+  "de": {
+    "nom": "Pierre Cordier",
+    "adresse": "pierre.cordier@mel-perso.example"
+  },
+  "a": [
+    "copropriete@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Procès-verbal du 27 mai",
+  "date": "2026-06-07T18:40:00+02:00",
+  "corps": "Bonjour,\n\nJe n'ai pas reçu le procès-verbal de l'assemblée du 27 mai de la Résidence La Croix-Blanche. Pouvez-vous me l'envoyer ? Je suis propriétaire du lot 6.\n\nPierre Cordier",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

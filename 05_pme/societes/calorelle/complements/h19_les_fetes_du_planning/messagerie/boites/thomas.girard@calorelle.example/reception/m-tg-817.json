@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-tg-817",
+  "de": {
+    "nom": "Bernard Lefort",
+    "adresse": "bernard.lefort@courriel.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Chaudière en panne",
+  "date": "2026-12-20T11:00:00+01:00",
+  "corps": "Bonjour,\n\nUn voisin m'a donné votre adresse. Notre chaudière gaz ne démarre plus depuis hier soir. Pouvez-vous passer cette semaine ?\n\nBernard Lefort, 8 rue de la Gare, 41999 Saint-Aignan-des-Prés (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

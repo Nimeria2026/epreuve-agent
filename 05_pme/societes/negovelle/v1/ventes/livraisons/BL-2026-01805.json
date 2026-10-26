@@ -1,0 +1,49 @@
+{
+  "numero": "BL-2026-01805",
+  "commande": "CO-2026-01956",
+  "client": "c-0169",
+  "date_expedition": "2026-07-01",
+  "date_livraison": "2026-07-01",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "12 rue de l'Église, 36999 Ardillac (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "CON-11078",
+      "libelle": "Disque abrasif à lamelles 125 mm, grain 240, boîte de 25",
+      "quantite": 2
+    },
+    {
+      "reference": "CON-11241",
+      "libelle": "Dégrippant au PTFE, aérosol de 400 ml",
+      "quantite": 2
+    },
+    {
+      "reference": "CON-11616",
+      "libelle": "Papier abrasif carbure de silicium, grain 80, rouleau de 25 m",
+      "quantite": 4
+    },
+    {
+      "reference": "ENT-11372",
+      "libelle": "Seau rond 20 l",
+      "quantite": 2
+    },
+    {
+      "reference": "PRO-10245",
+      "libelle": "Bouchons d'oreille détectables, boîte de 50",
+      "quantite": 1
+    },
+    {
+      "reference": "QUI-11625",
+      "libelle": "Cylindre européen 45x30 mm, 3 clés",
+      "quantite": 4
+    }
+  ],
+  "reserves": null,
+  "signataire": "Valérie Clerc",
+  "statut": "livre"
+}

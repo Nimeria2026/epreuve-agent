@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cema-301",
+  "de": {
+    "nom": "Pascale Renaud",
+    "adresse": "pascale.renaud@domivelle.example"
+  },
+  "a": [
+    "cedric.maillard@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Révisions de juillet, c16 et c27",
+  "date": "2026-06-05T11:50:00+02:00",
+  "corps": "Cédric,\n\nPeux-tu préparer les révisions de loyer de juillet de c16 et de c27 et me donner les nouveaux loyers ? En reprenant mes comptes, j'ai aussi trouvé des révisions oubliées : c16-15 n'a été révisé ni en mars 2025 ni en mars 2026, son loyer est toujours de 504,00 € ; c16-07 n'a pas été révisé en avril 2026, c27-27 pas en mars 2026, c16-18 pas en avril 2026.\n\nPascale",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

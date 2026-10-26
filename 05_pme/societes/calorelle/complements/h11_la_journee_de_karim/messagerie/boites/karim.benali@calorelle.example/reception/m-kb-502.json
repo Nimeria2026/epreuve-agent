@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-502",
+  "de": {
+    "nom": "Claire Vasseur",
+    "adresse": "c.vasseur@syndic-de-la-residence-de-mirelande-441.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Résidence de Mirelande : reprise de la gestion",
+  "date": "2026-11-16T18:20:00+01:00",
+  "corps": "Bonjour Monsieur Benali,\n\nJe reprends depuis ce mois-ci la gestion de la Résidence de Mirelande, après le départ de mon collègue Lucas Morel. Le conseil syndical se réunit jeudi : pourriez-vous m'envoyer à cette adresse le contrat d'entretien de la chaufferie et le compte rendu de votre dernière visite ? L'adresse contact@ n'est plus relevée depuis la réorganisation de nos services.\n\nBien cordialement,\nClaire Vasseur, gestionnaire, Syndic de la Résidence de Mirelande (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

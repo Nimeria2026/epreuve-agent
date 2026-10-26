@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01782",
+  "commande": "CO-2026-01933",
+  "client": "c-0220",
+  "date_expedition": "2026-06-30",
+  "date_livraison": "2026-06-30",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "28 zone artisanale du Moulin, 36999 Brissonne (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ELE-12237",
+      "libelle": "Hublot rond LED 12 W",
+      "quantite": 5
+    }
+  ],
+  "reserves": null,
+  "signataire": "Henri Vallet",
+  "statut": "livre"
+}

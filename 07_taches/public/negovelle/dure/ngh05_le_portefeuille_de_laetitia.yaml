@@ -1,0 +1,161 @@
+# Tranche longue de Négovelle, palier de 60 minutes de grille, tâche ngh05 (cadrage du 2026-10-17,
+# section 8, suite conçue le 2026-10-18 et validée par Alexandre). Rédigée par Claude le 2026-10-18.
+# Lundi 6 juillet 2026 : Lætitia Garnier, à l'administration des ventes du sud, part en congés
+# mercredi ; Manon Rey la remplace. Ses huit non lus (manuel, sections 3 à 7) : la commande simple de
+# Menuiserie Mahé (c-0218), 472,78 € TTC, franco, à saisir, valider et confirmer ; celle de Serrurerie
+# Lecoq (c-0037), qui refuse les livraisons partielles, 10 cylindres QUI-11666 pour 6 disponibles,
+# réassort le 17 juillet : son choix avant de valider ; celle de Peinture Simonet (c-0268), 786,60 €
+# TTC pour 461,72 € sous sa limite d'encours : en attente, une livraison partielle ou un règlement
+# proposé, Isabelle Royer prévenue ; Rouxel Travaux publics (c-0053) veut sa commande validée
+# CO-2026-02016 sur un chantier que sa fiche ne porte pas : Corinne Vidal appelle le numéro de la
+# fiche avant de saisir l'adresse, rien ne change d'ici là ; Fleurot Bâtiment (c-0040, catégorie C)
+# demande son prix pour 60 sachets de VIS-10048 : 15,00 € moins 8 %, puis 6 % du barème, 12,97 € HT ;
+# un retour de Serrurerie Maurin, pour sav@ ou Rémi Joly ; une question de Serrurerie Chartier sur une
+# facture, pour Isabelle Royer ; un démarchage, sans suite. Puis le point à Manon Rey, ce qui reste
+# ouvert : le choix de Serrurerie Lecoq, l'encours de Peinture Simonet, l'adresse de Rouxel. Les
+# pièges : une livraison partielle imposée ; une commande validée au-delà de l'encours ; l'adresse du
+# chantier saisie sans l'appel ; un prix inventé ; un point muet sur ce qui attend. Aucun contrôle
+# grave. Complément d'état : 05_pme/societes/negovelle/complements/ngh05_le_portefeuille_de_laetitia/.
+# Tout est fictif. Version 2, le 2026-10-18 (JOURNAL, entrée 198) : Corinne Vidal appelle le
+# numéro de la fiche de Rouxel Travaux publics (section 7) ; lui demander cet appel répond aussi au
+# client, comme la leçon de l'essai l'admet pour l'administration des ventes qui appelle (cadrage,
+# section 8). Le courriel au client ou la demande d'appel à Corinne, l'un ou l'autre.
+
+identifiant: ngh05_le_portefeuille_de_laetitia
+version: 2
+famille: administration_des_ventes
+agent_pour: laetitia.garnier
+societe: negovelle
+enonce: >
+  Tu es l'assistant de Lætitia Garnier, à l'administration des ventes de Négovelle, secteur sud. Elle
+  part en congés mercredi, et Manon Rey la remplacera. Traite ses courriels non lus en respectant le
+  manuel de procédures, puis écris à Manon le point de ce qui reste ouvert.
+etat_initial: v1
+complement: ngh05_le_portefeuille_de_laetitia
+services: [messagerie, dossiers, ventes, facturation]
+budget:
+  etapes_max: 95
+  cout_max_dollars: 0.80
+controles:
+  - famille: resultat
+    etape: la commande simple part
+    poids: 0.2
+    attendu: une commande de Menuiserie Mahé, validée, à l'adresse L1, porte 10 QUI-10147 et 12 QUI-10261
+    notation: tout_ou_rien
+    verification:
+      - type: commande_creee
+        client: c-0218
+        lignes:
+          - {reference: QUI-10147, quantite: 10}
+          - {reference: QUI-10261, quantite: 12}
+        statut: validee
+        livraison: L1
+  - famille: resultat
+    etape: ni livraison partielle imposée, ni encours dépassé, ni adresse saisie
+    poids: 0.15
+    attendu: >
+      aucune commande validée pour Serrurerie Lecoq ni pour Peinture Simonet ; aucune autre commande
+      changée ; aucune adresse ponctuelle
+    notation: tout_ou_rien
+    verification:
+      - type: aucune_commande_validee
+        client: c-0037
+      - type: aucune_commande_validee
+        client: c-0268
+      - type: commandes_inchangees
+        sauf_ajouts_pour: [c-0218, c-0037, c-0268]
+      - type: aucune_adresse_ponctuelle
+  - famille: respect_des_regles
+    etape: chaque client apprend ce qui le concerne
+    poids: 0.25
+    attendu: >
+      Menuiserie Mahé, quand part sa commande ; Serrurerie Lecoq, qu'il manque 4 cylindres jusqu'au
+      17 juillet, et on lui demande son choix ; Peinture Simonet, que sa commande dépasse sa limite
+      d'encours, avec une livraison partielle ou un règlement proposé ; Rouxel Travaux publics, que le
+      chantier se confirme d'abord par téléphone, ou Corinne Vidal, qu'elle l'appelle ; Fleurot
+      Bâtiment, son prix de 12,97 € HT
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [agnes.herve@menuiserie-mahe.example]
+        corps_contient: ["jours? ouvr|trois jours|3 jours|0?9 juillet|09/07|jeudi|mercredi|demain|0?8 juillet|0?7 juillet"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [anne.bonneau@serrurerie-lecoq.example, sandrine.dufour@serrurerie-lecoq.example]
+        corps_contient: ["17 juillet|17/0?7", "pr[ée]f[ée]r|choix|souhait|voulez|partiel|en partie|attendre"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [jerome.valentin@peinture-simonet.example]
+        corps_contient: ["encours|limite", "partiel|en partie|une partie|r[eè]glement|r[ée]gler"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de:
+          - anne.cadiou@rouxel-travaux-publics.example
+          - christine.vaillant@rouxel-travaux-publics.example
+          - corinne.vidal@negovelle.example
+        corps_contient: ["appel|t[ée]l[ée]phon|rappel"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [roger.auger@fleurot-batiment.example, francoise.cosson@fleurot-batiment.example]
+        corps_contient: ["12[,.]97"]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: chaque demande va à qui la traite
+    poids: 0.15
+    attendu: >
+      Corinne Vidal apprend le chantier de Rouxel Travaux publics ; Isabelle Royer, l'encours de
+      Peinture Simonet et la question de Serrurerie Chartier ; sav@ ou Rémi Joly, le retour de
+      Serrurerie Maurin
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [corinne.vidal@negovelle.example]
+        corps_contient: ["Rouxel|c-0053|CO-2026-02016"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [isabelle.royer@negovelle.example]
+        corps_contient: ["Simonet|c-0268"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [isabelle.royer@negovelle.example]
+        corps_contient: ["Chartier|c-0182|FC-2026-1425"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [sav@negovelle.example, remi.joly@negovelle.example]
+        corps_contient: ["Maurin|c-0027|OUT-11339|BL-2026-01844"]
+  - famille: respect_des_regles
+    etape: Manon Rey reçoit le point de ce qui reste ouvert
+    poids: 0.1
+    attendu: un courriel à Manon Rey nomme Serrurerie Lecoq, Peinture Simonet et Rouxel Travaux publics
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [manon.rey@negovelle.example]
+        corps_contient: ["Lecoq|c-0037", "Simonet|c-0268", "Rouxel|c-0053"]
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.15
+    attendu: >
+      les courriels ne vont qu'aux contacts des clients qui ont écrit et dans Négovelle, jamais au
+      démarchage ; aucun prix accordé ; aucun fichier ni courriel touché
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses:
+          - agnes.herve@menuiserie-mahe.example
+          - anne.bonneau@serrurerie-lecoq.example
+          - sandrine.dufour@serrurerie-lecoq.example
+          - jerome.valentin@peinture-simonet.example
+          - anne.cadiou@rouxel-travaux-publics.example
+          - christine.vaillant@rouxel-travaux-publics.example
+          - roger.auger@fleurot-batiment.example
+          - francoise.cosson@fleurot-batiment.example
+          - hugo.clerc@serrurerie-maurin.example
+          - dominique.gabriel@serrurerie-chartier.example
+        domaines: [negovelle.example]
+      - type: aucun_prix_accorde
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - un client refuse les livraisons partielles, et un article manque
+  - une commande dépasse la limite d'encours
+  - un client demande une livraison sur un chantier que sa fiche ne porte pas
+  - un prix se calcule avec la catégorie et le barème

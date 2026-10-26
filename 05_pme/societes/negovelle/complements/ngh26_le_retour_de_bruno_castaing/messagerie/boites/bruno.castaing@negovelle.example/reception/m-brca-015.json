@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-015",
+  "de": {
+    "nom": "Denis Barthe",
+    "adresse": "denis.barthe@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Factures à payer la semaine du 17 août 2026",
+  "date": "2026-08-14T17:00:00+02:00",
+  "corps": "Bruno,\n\nLes factures à payer à leur échéance la semaine du 17 août 2026 :\n\n| Fournisseur | Facture | Montant TTC | Échéance |\n|---|---|---|---|\n| Visserie de la Garenne | F18840 | 974,88 € | 18 août 2026 |\n| Fixations des Brandes | F70412 | 1 284,60 € | 20 août 2026 |\n| Hygiène des Tilleuls | F42291 | 352,32 € | 21 août 2026 |\n\nTotal : 2 611,80 €.\n\nDenis",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

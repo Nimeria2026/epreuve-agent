@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-gafo-004",
+  "de": {
+    "nom": "Antoine Leroux",
+    "adresse": "antoine.leroux@courriel.example"
+  },
+  "a": [
+    "gaelle.fournel@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Une question pour notre prochaine assemblée",
+  "date": "2026-06-06T11:02:00+02:00",
+  "corps": "Madame Fournel,\n\nJe souhaite que soit inscrite à l'ordre du jour de notre prochaine assemblée la question du remplacement des boîtes aux lettres du hall, abîmées et trop petites pour les colis.\n\nAntoine Leroux, lot 6, Résidence Les Charmilles",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-e01",
+  "de": {
+    "nom": "Sonia Lefèvre",
+    "adresse": "sonia.lefevre@calorelle.example"
+  },
+  "a": [
+    "helene.marchal@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Demandes de congé de décembre",
+  "date": "2026-10-29T10:15:00+01:00",
+  "corps": "Hélène,\n\nDeux demandes de congé pour décembre, à valider :\n- Kevin Lambert, du mardi 22 au jeudi 24 décembre ;\n- Mathieu Picard, du lundi 28 au jeudi 31 décembre.\n\nSonia (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

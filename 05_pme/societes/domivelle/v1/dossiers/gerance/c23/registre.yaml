@@ -1,0 +1,154 @@
+# Registre des lots en gestion, c23. Données FICTIVES.
+immeuble: c23
+nature: immeuble collectif
+adresse: 41 rue de la Fontaine, 18999 Montclavel-sur-Cher (FICTIF)
+secteur: centre
+gestionnaire: Cédric Maillard
+distance_agence_km: 1
+annee_construction: 2013
+gardien: false
+copropriete_du_syndic: cp03
+lots:
+- lot: c23-01
+  type: T2
+  surface_m2: 38
+  etage: 0
+  proprietaire: p-0226
+  locataire: M. Claude Jacob
+  entree: '2015-12-12'
+  loyer_hors_charges: 396,00 €
+  provision_sur_charges: 105,00 €
+  depot_de_garantie: 317,00 €
+  revision: chaque 12 décembre
+  trimestre_irl: T3
+  dpe: E
+- lot: c23-02
+  type: T1
+  surface_m2: 28
+  etage: 0
+  proprietaire: p-0227
+  locataire: M. Jean Weber
+  entree: '2014-01-12'
+  loyer_hors_charges: 268,00 €
+  provision_sur_charges: 115,00 €
+  depot_de_garantie: 206,00 €
+  revision: chaque 12 janvier
+  trimestre_irl: T3
+  dpe: E
+- lot: c23-03
+  type: T3
+  surface_m2: 66
+  etage: 0
+  proprietaire: p-0172
+  locataire: M. Gilles Royer
+  entree: '2022-10-06'
+  loyer_hors_charges: 658,00 €
+  provision_sur_charges: 117,00 €
+  depot_de_garantie: 612,00 €
+  revision: chaque 6 octobre
+  trimestre_irl: T2
+  dpe: F
+- lot: c23-04
+  type: T4
+  surface_m2: 79
+  etage: 0
+  proprietaire: p-0228
+  locataire: M. Gilles Germain
+  entree: '2018-12-04'
+  loyer_hors_charges: 740,00 €
+  provision_sur_charges: 69,00 €
+  depot_de_garantie: 630,00 €
+  revision: chaque 4 décembre
+  trimestre_irl: T3
+  dpe: D
+- lot: c23-05
+  type: T2
+  surface_m2: 38
+  etage: 1
+  proprietaire: p-0229
+  locataire: M. Laurent Ferrand
+  entree: '2021-08-16'
+  loyer_hors_charges: 370,00 €
+  provision_sur_charges: 44,00 €
+  depot_de_garantie: 336,00 €
+  revision: chaque 16 août
+  trimestre_irl: T2
+  dpe: D
+- lot: c23-06
+  type: T2
+  surface_m2: 47
+  etage: 1
+  proprietaire: p-0230
+  locataire: Mme Amandine Weber
+  entree: '2021-09-12'
+  loyer_hors_charges: 482,00 €
+  provision_sur_charges: 58,00 €
+  depot_de_garantie: 438,00 €
+  revision: chaque 12 septembre
+  trimestre_irl: T2
+  dpe: B
+- lot: c23-07
+  type: T2
+  surface_m2: 47
+  etage: 1
+  proprietaire: p-0231
+  locataire: Mme Caroline Fabre
+  entree: '2013-11-21'
+  loyer_hors_charges: 470,00 €
+  provision_sur_charges: 69,00 €
+  depot_de_garantie: 362,00 €
+  revision: chaque 21 novembre
+  trimestre_irl: T3
+  dpe: E
+- lot: c23-08
+  type: T3
+  surface_m2: 59
+  etage: 1
+  proprietaire: p-0229
+  locataire: Mme Corinne Langlois
+  entree: '2025-05-24'
+  loyer_hors_charges: 598,00 €
+  provision_sur_charges: 111,00 €
+  depot_de_garantie: 583,00 €
+  revision: chaque 24 mai
+  trimestre_irl: T1
+  dpe: C
+- lot: c23-09
+  type: T3
+  surface_m2: 59
+  etage: 2
+  proprietaire: p-0197
+  locataire: Mme Nathalie Fabre
+  entree: '2024-04-07'
+  loyer_hors_charges: 600,00 €
+  provision_sur_charges: 95,00 €
+  depot_de_garantie: 571,00 €
+  revision: chaque 7 avril
+  trimestre_irl: T4
+  dpe: D
+- lot: c23-10
+  type: T3
+  surface_m2: 65
+  etage: 2
+  proprietaire: p-0232
+  locataire: Mme Hélène Régnier
+  entree: '2020-05-27'
+  loyer_hors_charges: 620,00 €
+  provision_sur_charges: 58,00 €
+  depot_de_garantie: 539,00 €
+  revision: chaque 27 mai
+  trimestre_irl: T1
+  dpe: D
+- lot: c23-11
+  type: T2
+  surface_m2: 46
+  etage: 2
+  proprietaire: p-0233
+  locataire: Mme Manon Bouchet
+  entree: '2026-03-20'
+  loyer_hors_charges: 465,00 €
+  provision_sur_charges: 112,00 €
+  depot_de_garantie: 465,00 €
+  revision: chaque 20 mars
+  trimestre_irl: T4
+  dpe: C

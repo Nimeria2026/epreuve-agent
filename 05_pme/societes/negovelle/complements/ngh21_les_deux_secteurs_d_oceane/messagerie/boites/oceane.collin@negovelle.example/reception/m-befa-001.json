@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-befa-001",
+  "de": {
+    "nom": "Louis Quéré",
+    "adresse": "louis.quere@couverture-gautier.example"
+  },
+  "a": [
+    "benoit.faure@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-03T15:40:00+02:00",
+  "corps": "Bonjour Benoît,\n\nVoici notre commande, à livrer au siège :\n- 4 x ELP-10236, Disque à tronçonner inox 115 mm, boîte de 25\n- 6 x VIS-11813, Vis à bois tête fraisée 4,5x30, inox A2, boîte de 200\n\nMerci,\nLouis Quéré\nCouverture Gautier",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-brca-046",
+  "de": {
+    "nom": "Ibrahim Diallo",
+    "adresse": "ibrahim.diallo@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Arrêt de travail",
+  "date": "2026-08-19T08:05:00+02:00",
+  "corps": "Bonjour Bruno,\n\nVoici mon avis d'arrêt de travail, du 19 août 2026 au 21 août 2026 : gastro-entérite.\n\nIbrahim",
+  "pieces_jointes": [
+    {
+      "nom": "avis_arret_de_travail.pdf",
+      "fichier": "pieces/m-brca-046/avis_arret_de_travail.pdf",
+      "taille_octets": 838
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

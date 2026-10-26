@@ -1,0 +1,8 @@
+# Fiche fournisseur Calorelle. Données FICTIVES.
+nom: "Transports des Saulaies"
+activite: "transports"
+adresse: "53 zone d'activité de Sablonnet, 45999 Valmont-sur-Loire (FICTIF)"
+telephone: "02 61 91 20 34"
+courriel_facturation: "compta@transports-des-saulaies.example"
+iban: "FR76 9999 9366 6407 1362 0621 696 (FICTIF)"
+conditions: "paiement à 30 jours fin de mois"

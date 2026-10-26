@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-b02",
+  "de": {
+    "nom": "Établissements Garnier",
+    "adresse": "contact@etablissements-garnier.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis climatisation des bureaux",
+  "date": "2026-10-19T15:02:00+02:00",
+  "corps": "Bonjour,\n\nPouvez-vous ajouter une unité dans la salle de réunion ?\n\nÉtablissements Garnier (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

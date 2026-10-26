@@ -1,0 +1,167 @@
+# Tranche longue de Domivelle, tâche dvh21 du second lot de la suite, visée de plus de 70 minutes de
+# grille (cadrage du 2026-10-15, section 8 ; JOURNAL, cent-soixante-deuxième entrée). Rédigée par
+# Claude le 2026-10-15. Lundi 8 juin 2026 : Cédric Maillard prépare les révisions de loyer de
+# juillet des immeubles c16 et c27, et quatre révisions de printemps oubliées que lui signale
+# Pascale Renaud (manuel, sections 4 et 8 ; loi de 1989, article 17-1). Juillet, à l'IRL du 1er
+# trimestre, le dernier publié (146,6 / 145,47) : c16-04, 838,46 € ; c16-08, 478,69 € ; c16-12,
+# 684,27 € ; c16-19, 485,74 € ; c27-09, 332,56 € ; c27-19, 419,23 € ; c27-21, première révision,
+# 870,71 €. c27-17, classe F, ne se révise pas : son locataire, qui demande de combien son loyer
+# augmente, l'apprend (442,41 € serait le faux). Oubliées en 2026, à l'IRL du 4e trimestre, celui de
+# leur date (145,78 / 144,64), effet au jour de la demande, le 8 juin, sans rappel : c16-15,
+# 507,97 €, sa révision de mars 2025, plus d'un an après, étant perdue ; c16-07, 682,34 € ; c27-27,
+# 422,30 €. c16-18, classe F, ne se révise pas. Les pièges : un logement F révisé ; un rappel des
+# mois passés ; la révision de 2025 appliquée ; l'indice d'un autre trimestre. Calculs :
+# 99_local/chantier/2026-10-15_domivelle_calculs_longues.py. Complément d'état :
+# 05_pme/societes/domivelle/complements/dvh21_les_revisions_de_juillet_de_c16_et_c27/. Tout est
+# fictif.
+# Version 2, le 2026-10-15 (JOURNAL, cent-soixante-cinquième entrée), après le run de vérification de
+# DeepSeek : « à compter de la présente », la formule des lettres, dit aussi l'effet au jour de la
+# demande.
+# Version 3, le 2026-10-16 (JOURNAL, cent-soixante-douzième entrée), après le run de mesure : « au
+# jour de la présente demande » le dit de même.
+
+identifiant: dvh21_les_revisions_de_juillet_de_c16_et_c27
+version: 3
+famille: gestion_locative
+agent_pour: cedric.maillard
+societe: domivelle
+enonce: >
+  Tu es l'assistant de Cédric Maillard, gestionnaire locatif du secteur centre chez Domivelle.
+  Prépare les révisions de loyer de juillet des immeubles c16 et c27 et traite ses courriels non lus,
+  en respectant le manuel de procédures.
+etat_initial: v1
+complement: dvh21_les_revisions_de_juillet_de_c16_et_c27
+services: [messagerie, dossiers]
+budget:
+  etapes_max: 115
+  cout_max_dollars: 1.00
+controles:
+  - famille: resultat
+    etape: les révisions de juillet
+    poids: 0.25
+    attendu: >
+      chaque locataire révisé en juillet reçoit son nouveau loyer : 838,46 €, 478,69 €, 684,27 €, 485,74
+      €, 332,56 €, 419,23 € et 870,71 €
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [jean.huet@messagerie.example]
+        corps_contient: ["838[,.]46"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [julie.lebon@mel-perso.example]
+        corps_contient: ["478[,.]69"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [florence.laine@boite-postale.example]
+        corps_contient: ["684[,.]27"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [louis.tissier@mel-perso.example]
+        corps_contient: ["485[,.]74"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [ines.pasquier@boite-postale.example]
+        corps_contient: ["332[,.]56"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [maxime.brun@messagerie.example]
+        corps_contient: ["419[,.]23"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [valerie.roy@mel-perso.example]
+        corps_contient: ["870[,.]71"]
+  - famille: respect_des_regles
+    etape: les logements de classe F ne se révisent pas
+    poids: 0.15
+    attendu: >
+      le locataire de c27-17 apprend que son loyer reste de 439,00 €, et aucun courriel ne donne 442,41 €
+      ni ne révise c16-18
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [laurent.huet@courriel.example]
+        corps_contient: ["439|\\bF\\b|ne (?:se )?r[ée]vis|pas (?:de )?r[ée]vis"]
+        texte_de_l_agent: true
+      - type: aucun_envoi_avec
+        corps_contient: ["442[,.]41"]
+      - type: aucun_envoi_avec
+        vers: [serge.rousset@courriel.example]
+        corps_contient: ["507[,.]97"]
+  - famille: respect_des_regles
+    etape: les révisions oubliées prennent effet au jour de la demande
+    poids: 0.2
+    attendu: >
+      Mme Aubert apprend 507,97 €, Mme Moreau 682,34 € et Mme Germain 422,30 €, chacune à compter du 8
+      juin
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [monique.aubert@messagerie.example]
+        corps_contient: ["507[,.]97", "(?<!\\d)8 juin|0?8/0?6|aujourd['’]hui|ce jour|(?:compter|partir|date|jour) de (?:la présente|ce courriel|cette demande)"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [martine.moreau@courriel.example]
+        corps_contient: ["682[,.]34", "(?<!\\d)8 juin|0?8/0?6|aujourd['’]hui|ce jour|(?:compter|partir|date|jour) de (?:la présente|ce courriel|cette demande)"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [manon.germain@boite-postale.example]
+        corps_contient: ["422[,.]30", "(?<!\\d)8 juin|0?8/0?6|aujourd['’]hui|ce jour|(?:compter|partir|date|jour) de (?:la présente|ce courriel|cette demande)"]
+        texte_de_l_agent: true
+  - famille: resultat
+    etape: Pascale Renaud reçoit les nouveaux loyers
+    poids: 0.2
+    attendu: un courriel à pascale.renaud@domivelle.example donne les dix nouveaux loyers
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [pascale.renaud@domivelle.example, comptabilite@domivelle.example]
+        corps_contient:
+          - "838[,.]46"
+          - "478[,.]69"
+          - "684[,.]27"
+          - "485[,.]74"
+          - "332[,.]56"
+          - "419[,.]23"
+          - "870[,.]71"
+          - "507[,.]97"
+          - "682[,.]34"
+          - "422[,.]30"
+  - famille: respect_des_regles
+    etape: chaque lettre donne le calcul
+    poids: 0.1
+    attendu: >
+      les lettres à Mme Roy et à Mme Aubert donnent les indices du calcul, 146,6 et 145,47 pour l'une,
+      145,78 et 144,64 pour l'autre
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [valerie.roy@mel-perso.example]
+        corps_contient: ["146[,.]6", "145[,.]47"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [monique.aubert@messagerie.example]
+        corps_contient: ["145[,.]78", "144[,.]64"]
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.1
+    attendu: >
+      les courriels ne vont qu'aux locataires des deux immeubles et dans Domivelle ; aucun fichier ni
+      courriel touché
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses:
+          - jean.huet@messagerie.example
+          - martine.moreau@courriel.example
+          - julie.lebon@mel-perso.example
+          - florence.laine@boite-postale.example
+          - monique.aubert@messagerie.example
+          - serge.rousset@courriel.example
+          - louis.tissier@mel-perso.example
+          - ines.pasquier@boite-postale.example
+          - laurent.huet@courriel.example
+          - maxime.brun@messagerie.example
+          - valerie.roy@mel-perso.example
+          - manon.germain@boite-postale.example
+        domaines: [domivelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - deux logements de classe F, dont l'un à réviser en juillet
+  - trois révisions oubliées, dont l'une deux années de suite
+  - une première révision

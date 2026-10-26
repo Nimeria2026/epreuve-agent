@@ -1,0 +1,44 @@
+{
+  "numero": "BL-2026-01818",
+  "commande": "CO-2026-01969",
+  "client": "c-0087",
+  "date_expedition": "2026-07-02",
+  "date_livraison": "2026-07-02",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "28 parc d'activités de la Gare, 36999 Ardillac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "CON-10685",
+      "libelle": "Disque abrasif auto-agrippant 150 mm, grain 80, boîte de 50",
+      "quantite": 4
+    },
+    {
+      "reference": "OUT-10138",
+      "libelle": "Caisse à outils plastique 400 mm",
+      "quantite": 6
+    },
+    {
+      "reference": "QUI-12539",
+      "libelle": "Poignée de porte droite sur rosace, laiton",
+      "quantite": 5
+    },
+    {
+      "reference": "VIS-13748",
+      "libelle": "Vis à tôle tête cylindrique 3,9x13, zinguée, boîte de 100",
+      "quantite": 12
+    },
+    {
+      "reference": "VIS-13846",
+      "libelle": "Vis à tôle tête cylindrique 3,9x9,5, zinguée, boîte de 250",
+      "quantite": 1
+    }
+  ],
+  "reserves": null,
+  "signataire": "Bernard Drouet",
+  "statut": "livre"
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-maca-201",
+  "de": {
+    "nom": "Ascenseurs du Moulin-Barrat",
+    "adresse": "facturation@ascenseurs-du-moulin-barrat.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Résidence Les Lauriers : tarif au 1er octobre 2026",
+  "date": "2026-06-02T10:00:00+02:00",
+  "corps": "Madame,\n\nLe contrat d'entretien des ascenseurs de la Résidence Les Lauriers arrive à son échéance annuelle le 1er octobre 2026. La hausse du prix des pièces nous conduit à le porter de 4 284,00 € à 4 498,00 € TTC par an à compter de cette date.\n\nAscenseurs du Moulin-Barrat",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

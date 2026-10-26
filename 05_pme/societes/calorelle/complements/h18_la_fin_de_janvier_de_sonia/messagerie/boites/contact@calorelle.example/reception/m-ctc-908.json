@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-908",
+  "de": {
+    "nom": "Commune des Grèves",
+    "adresse": "contact@commune-des-greves-332.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Salle des fêtes froide",
+  "date": "2027-01-29T16:10:00+01:00",
+  "corps": "Bonjour,\n\nDepuis l'intervention de décembre, la salle des fêtes ne dépasse pas 15 degrés les jours de location. Les habitants se plaignent auprès du maire, qui attend une réponse de Calorelle.\n\nLe secrétariat de la mairie des Grèves (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

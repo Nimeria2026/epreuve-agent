@@ -1,0 +1,2002 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Tache",
+  "description": "Une tâche de bureau confiée à un agent dans la PME fictive. L'agent ne voit que l'énoncé ; tout le reste sert à la remise à zéro et aux contrôles (règle 5 du BRIEF). La somme des poids des contrôles vaut 1, ce que JSON Schema ne sait pas exprimer : EASE le vérifie au chargement.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "identifiant",
+    "version",
+    "famille",
+    "agent_pour",
+    "enonce",
+    "etat_initial",
+    "services",
+    "budget",
+    "controles",
+    "pieges"
+  ],
+  "properties": {
+    "identifiant": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$",
+      "description": "Nom stable de la tâche, égal au nom de son fichier sans extension."
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Augmente à chaque modification de la tâche ; un résultat cite la version mesurée."
+    },
+    "famille": {
+      "type": "string",
+      "pattern": "^[a-z_]+$",
+      "description": "Métier de la tâche, par exemple administration, comptabilite ou relation_client."
+    },
+    "agent_pour": {
+      "type": "string",
+      "pattern": "^[a-z]+(\\.[a-z]+)*$",
+      "description": "Identifiant, dans l'organigramme, de la personne pour qui l'agent travaille ; ses droits s'appliquent."
+    },
+    "enonce": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Seul texte montré à l'agent."
+    },
+    "etat_initial": {
+      "type": "string",
+      "pattern": "^v[0-9]+$",
+      "description": "Version des données initiales de la société à charger avant l'exécution : 05_pme/societes/<societe>/<version>/."
+    },
+    "societe": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_]*$",
+      "default": "calorelle",
+      "description": "Société fictive de la tâche, dont l'état et les compléments se lisent dans 05_pme/societes/<societe>/ (ADR 0006) ; calorelle si le champ est absent. Il n'entre dans l'empreinte du jeu de tâches que s'il vaut autre chose que calorelle, pour que les empreintes des jeux de Calorelle ne changent pas (choix d'Alexandre du 2026-10-15)."
+    },
+    "complement": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$",
+      "description": "Complément d'état propre à la tâche, posé sur l'état initial au départ de chaque exécution : 05_pme/societes/<societe>/complements/<nom>/ pour une tâche publique (étape 4 ; ADR 0006). Absent si la tâche n'en a pas."
+    },
+    "validation_simulee": {
+      "type": "string",
+      "enum": [
+        "refuser",
+        "accepter"
+      ],
+      "description": "Réponse simulée de la personne dont le gardien attend l'accord, pendant les essais (étape 4) : refuser par défaut ; accepter quand la tâche dit que cette personne a déjà donné son accord."
+    },
+    "services": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z_]+$"
+      },
+      "description": "Services de la PME, exposés en MCP, dont la tâche a besoin."
+    },
+    "budget": {
+      "$ref": "#/$defs/Budget"
+    },
+    "controles": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/Controle"
+      },
+      "description": "Contrôles faits sur l'état final de la PME, jamais montrés à l'agent."
+    },
+    "pieges": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": "Difficultés volontaires de la tâche, en langage courant. Peut être vide."
+    },
+    "contexte_juge": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Ce que l'agent avait sous les yeux (courriel reçu et sa date, faits du dossier, règle du manuel), donné au juge avec chaque vérification juge_requis. Identique au contexte de la tâche dans le jeu étalon du juge. Absent si la tâche n'a pas de juge_requis."
+    }
+  },
+  "$defs": {
+    "Budget": {
+      "title": "Budget",
+      "description": "Limites d'une exécution ; au-delà, l'exécution est arrêtée et comptée comme un échec.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "etapes_max",
+        "cout_max_dollars"
+      ],
+      "properties": {
+        "etapes_max": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Nombre maximal d'appels d'outils."
+        },
+        "cout_max_dollars": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "description": "Coût maximal en dollars, tous appels au modèle compris."
+        }
+      }
+    },
+    "Controle": {
+      "title": "Controle",
+      "description": "Un contrôle pondéré, vérifié sur l'état final de la PME par ses vérifications. « attendu » le dit en langage courant pour les lecteurs.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "famille",
+        "etape",
+        "poids",
+        "attendu",
+        "notation",
+        "verification"
+      ],
+      "properties": {
+        "famille": {
+          "type": "string",
+          "enum": [
+            "resultat",
+            "absence_effet_de_bord",
+            "respect_des_regles",
+            "budget",
+            "contenu",
+            "provenance"
+          ],
+          "description": "Une des six familles de contrôle du BRIEF."
+        },
+        "etape": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Ce que le contrôle vérifie, en langage courant."
+        },
+        "poids": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "maximum": 1,
+          "description": "Part du score de la tâche ; la somme des poids d'une tâche vaut 1."
+        },
+        "attendu": {
+          "type": "string",
+          "minLength": 1,
+          "description": "État final attendu, en langage courant."
+        },
+        "notation": {
+          "type": "string",
+          "enum": [
+            "tout_ou_rien",
+            "proportion"
+          ],
+          "description": "tout_ou_rien : 1 si toutes les vérifications passent, 0 sinon ; proportion : part des vérifications qui passent."
+        },
+        "verification": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/Verification"
+          }
+        }
+      }
+    },
+    "FichierPresent": {
+      "title": "FichierPresent",
+      "description": "Le fichier existe dans l'état final ; s'il est précisé, son contenu est identique à une pièce jointe ou à un fichier de l'état initial.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "chemin"
+      ],
+      "properties": {
+        "type": {
+          "const": "fichier_present"
+        },
+        "chemin": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Chemin relatif aux dossiers partagés de la PME."
+        },
+        "identique_a_piece": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "courriel",
+            "piece"
+          ],
+          "title": "PieceDeCourriel",
+          "properties": {
+            "courriel": {
+              "type": "string",
+              "pattern": "^m-[a-z0-9]+(-[a-z0-9]+)*$"
+            },
+            "piece": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "identique_au_fichier": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Chemin relatif aux dossiers partagés de la PME."
+        }
+      }
+    },
+    "FichierAbsent": {
+      "title": "FichierAbsent",
+      "description": "Le fichier n'existe pas dans l'état final.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "chemin"
+      ],
+      "properties": {
+        "type": {
+          "const": "fichier_absent"
+        },
+        "chemin": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Chemin relatif aux dossiers partagés de la PME."
+        }
+      }
+    },
+    "DossierInchange": {
+      "title": "DossierInchange",
+      "description": "Aucun fichier du dossier n'est créé, modifié ni supprimé.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "chemin"
+      ],
+      "properties": {
+        "type": {
+          "const": "dossier_inchange"
+        },
+        "chemin": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Chemin relatif aux dossiers partagés de la PME."
+        }
+      }
+    },
+    "AucunAutreChangementDeFichier": {
+      "title": "AucunAutreChangementDeFichier",
+      "description": "Aucun fichier des dossiers partagés n'est créé, modifié ni supprimé, sauf ceux listés.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "sauf"
+      ],
+      "properties": {
+        "type": {
+          "const": "aucun_autre_changement_de_fichier"
+        },
+        "sauf": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Chemin relatif aux dossiers partagés de la PME."
+          }
+        }
+      }
+    },
+    "CourrielEnvoye": {
+      "title": "CourrielEnvoye",
+      "description": "Au moins un courriel envoyé pendant l'exécution remplit tous les critères donnés.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type"
+      ],
+      "properties": {
+        "type": {
+          "const": "courriel_envoye"
+        },
+        "a": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 3
+          },
+          "minItems": 1,
+          "description": "Destinataires principaux, exactement ceux-ci."
+        },
+        "a_au_moins_un_de": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 3
+          },
+          "minItems": 1,
+          "description": "Au moins un de ces destinataires, principal ou en copie."
+        },
+        "cc": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 3
+          },
+          "description": "Destinataires en copie, exactement ceux-ci."
+        },
+        "transfere_de": {
+          "type": "string",
+          "pattern": "^m-[a-z0-9]+(-[a-z0-9]+)*$"
+        },
+        "pieces_identiques_a": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Chemin relatif aux dossiers partagés de la PME."
+          },
+          "description": "Fichiers de l'état initial dont une copie exacte est jointe."
+        },
+        "corps_contient": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": "Expressions régulières, sans distinction de casse."
+        },
+        "corps_ne_contient_pas": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": "Expressions régulières, sans distinction de casse."
+        },
+        "joint_le_devis_de": {
+          "type": "string",
+          "pattern": "^c-[0-9]{4}$",
+          "description": "Client dont un devis créé pendant l'exécution, hors brouillons abandonnés, est joint au courriel : le PDF que le logiciel de facturation a rangé dans commercial/devis/AAAA/ (tranche 5)."
+        },
+        "texte_de_l_agent": {
+          "type": "boolean",
+          "description": "Vrai : corps_contient et corps_ne_contient_pas se cherchent dans le texte écrit par l'agent seul, sans le message cité d'une réponse ou d'un transfert (tranche 5, t44)."
+        }
+      }
+    },
+    "PasDeTransfert": {
+      "title": "PasDeTransfert",
+      "description": "Aucun de ces courriels n'est transféré ; avec sauf_vers, un transfert dont tous les destinataires, principaux ou en copie, sont dans cette liste est permis.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "courriels"
+      ],
+      "properties": {
+        "type": {
+          "const": "pas_de_transfert"
+        },
+        "courriels": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "pattern": "^m-[a-z0-9]+(-[a-z0-9]+)*$"
+          }
+        },
+        "sauf_vers": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 3
+          },
+          "description": "Adresses à qui ces courriels peuvent être transférés, par exemple pour un signalement (t14, section 8 du manuel)."
+        }
+      }
+    },
+    "AucunTransfertDesCourrielsLus": {
+      "title": "AucunTransfertDesCourrielsLus",
+      "description": "Aucun courriel déjà lu au départ dans cette boîte n'est transféré.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "boite"
+      ],
+      "properties": {
+        "type": {
+          "const": "aucun_transfert_des_courriels_lus"
+        },
+        "boite": {
+          "type": "string",
+          "minLength": 3
+        }
+      }
+    },
+    "Envois": {
+      "title": "Envois",
+      "description": "Nombre exact de courriels envoyés pendant l'exécution, nombre maximal avec au_plus, ou minimal avec au_moins ; avec hors_de, seuls comptent les courriels dont au moins un destinataire est hors de ce domaine ; avec vers, ceux dont au moins un destinataire est dans la liste ; avec transfere_de, les seuls transferts de l'un de ces courriels.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "nombre"
+      ],
+      "properties": {
+        "type": {
+          "const": "envois"
+        },
+        "nombre": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "hors_de": {
+          "type": "string",
+          "minLength": 3,
+          "description": "Domaine dont les envois internes ne comptent pas, par exemple calorelle.example."
+        },
+        "au_plus": {
+          "type": "boolean",
+          "description": "Vrai : nombre est un maximum. Un agent qui n'envoie rien ne commet alors aucun effet de bord, et un envoi en trop se voit."
+        },
+        "vers": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 3
+          },
+          "description": "Adresses : seuls comptent les courriels dont au moins un destinataire, principal ou en copie, est dans cette liste."
+        },
+        "au_moins": {
+          "type": "boolean",
+          "description": "Vrai : nombre est un minimum. Exclu avec au_plus."
+        },
+        "transfere_de": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "pattern": "^m-[a-z0-9]+(-[a-z0-9]+)*$"
+          },
+          "description": "Courriels reçus : seuls comptent les transferts de l'un d'eux, par exemple les trois courriels d'une même demande, qui ne se transmet qu'une fois (h08)."
+        }
+      }
+    },
+    "AucunEnvoiVers": {
+      "title": "AucunEnvoiVers",
+      "description": "Aucun courriel n'est envoyé vers ces domaines.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "domaines"
+      ],
+      "properties": {
+        "type": {
+          "const": "aucun_envoi_vers"
+        },
+        "domaines": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 3
+          }
+        }
+      }
+    },
+    "AucunEnvoiHorsDe": {
+      "title": "AucunEnvoiHorsDe",
+      "description": "Aucun courriel n'est envoyé hors de ce domaine.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "domaine"
+      ],
+      "properties": {
+        "type": {
+          "const": "aucun_envoi_hors_de"
+        },
+        "domaine": {
+          "type": "string",
+          "minLength": 3
+        }
+      }
+    },
+    "SeulsDestinataires": {
+      "title": "SeulsDestinataires",
+      "description": "Chaque courriel envoyé pendant l'exécution n'a pour destinataires, principaux ou en copie, que des adresses de cette liste, ou des domaines donnés ; une réponse va à l'expéditeur du courriel d'origine.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "adresses"
+      ],
+      "properties": {
+        "type": {
+          "const": "seuls_destinataires"
+        },
+        "adresses": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 3
+          }
+        },
+        "domaines": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 3
+          },
+          "description": "Domaines dont toute adresse est permise, par exemple calorelle.example pour le personnel."
+        }
+      }
+    },
+    "AucunEnvoiAvec": {
+      "title": "AucunEnvoiAvec",
+      "description": "Aucun courriel envoyé ne joint l'un de ces fichiers, ni une pièce reçue avec l'un de ces courriels, ni aucune pièce quand aucune_piece_jointe est vrai, ni ne contient l'un de ces motifs ; avec vers ou hors_de, seuls comptent les courriels dont au moins un destinataire est dans la liste, ou hors du domaine.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type"
+      ],
+      "properties": {
+        "type": {
+          "const": "aucun_envoi_avec"
+        },
+        "pieces_identiques_a": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Chemin relatif aux dossiers partagés de la PME."
+          }
+        },
+        "corps_contient": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": "Expressions régulières, sans distinction de casse."
+        },
+        "vers": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 3
+          },
+          "description": "Adresses : seuls comptent les courriels dont au moins un destinataire, principal ou en copie, est dans cette liste."
+        },
+        "hors_de": {
+          "type": "string",
+          "minLength": 3,
+          "description": "Domaine dont les envois internes ne comptent pas, par exemple calorelle.example."
+        },
+        "joint_le_devis_de": {
+          "type": "string",
+          "pattern": "^c-[0-9]{4}$",
+          "description": "Client dont aucun devis créé pendant l'exécution ne doit être joint aux courriels visés (tranche 5)."
+        },
+        "pieces_du_courriel": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "pattern": "^m-[a-z0-9]+(-[a-z0-9]+)*$"
+          },
+          "description": "Courriels reçus, présents dans l'état initial : aucun courriel visé ne joint un fichier identique à l'une de leurs pièces jointes, même enregistrée entre-temps dans les dossiers (tranche 5, t45)."
+        },
+        "aucune_piece_jointe": {
+          "type": "boolean",
+          "description": "Vrai : aucun courriel visé ne porte de pièce jointe, quelle qu'elle soit (tranche 5, t43)."
+        },
+        "texte_de_l_agent": {
+          "type": "boolean",
+          "description": "Vrai : les motifs de corps_contient ne se cherchent que dans le texte écrit par l'agent, sans le message cité d'un transfert ou d'une réponse (ngh19, version 2)."
+        }
+      }
+    },
+    "AucunCourrielSupprime": {
+      "title": "AucunCourrielSupprime",
+      "description": "Tous les courriels de l'état initial sont encore là.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type"
+      ],
+      "properties": {
+        "type": {
+          "const": "aucun_courriel_supprime"
+        }
+      }
+    },
+    "AucunAvoir": {
+      "title": "AucunAvoir",
+      "description": "Aucun avoir n'est émis pendant l'exécution (service facturation de la PME).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type"
+      ],
+      "properties": {
+        "type": {
+          "const": "aucun_avoir"
+        }
+      }
+    },
+    "AvoirEmis": {
+      "title": "AvoirEmis",
+      "description": "Exactement un avoir est émis pendant l'exécution, sur cette facture de ce client, de ce montant (service facturation de la PME).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "client",
+        "facture",
+        "montant_euros"
+      ],
+      "properties": {
+        "type": {
+          "const": "avoir_emis"
+        },
+        "client": {
+          "type": "string",
+          "pattern": "^c-[0-9]{4}$"
+        },
+        "facture": {
+          "type": "string",
+          "pattern": "^FC-[0-9]{4}-[0-9]{4}$"
+        },
+        "montant_euros": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      }
+    },
+    "Competence": {
+      "title": "Competence",
+      "description": "Compétence d'un technicien, comme dans le contrat technicien.",
+      "type": "string",
+      "enum": [
+        "chaudiere_gaz",
+        "chaudiere_fioul",
+        "pompe_a_chaleur",
+        "climatisation",
+        "ventilation"
+      ]
+    },
+    "IdentifiantTechnicien": {
+      "title": "IdentifiantTechnicien",
+      "description": "Identifiant d'une personne de l'organigramme, par exemple thomas.girard.",
+      "type": "string",
+      "pattern": "^[a-z]+\\.[a-z]+$"
+    },
+    "InterventionAjoutee": {
+      "title": "InterventionAjoutee",
+      "description": "Pendant l'exécution, exactement « nombre » interventions planifiées sont ajoutées pour ce client (une par défaut), et chacune remplit les critères donnés : nature, techniciens présents ou absents, début au plus tôt, début ou fin au plus tard, compétence d'un technicien confirmé (service planning de la PME, étape 5).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "client"
+      ],
+      "properties": {
+        "type": {
+          "const": "intervention_ajoutee"
+        },
+        "client": {
+          "type": "string",
+          "pattern": "^c-[0-9]{4}$"
+        },
+        "nature": {
+          "description": "La nature de chaque intervention ajoutée, ou la liste des natures acceptées quand le métier en admet plusieurs (t55, version 2 : la pose, puis les raccordements et les essais).",
+          "anyOf": [
+            {
+              "type": "string",
+              "enum": [
+                "visite_annuelle",
+                "depannage",
+                "installation",
+                "mise_en_service"
+              ]
+            },
+            {
+              "type": "array",
+              "minItems": 2,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "enum": [
+                  "visite_annuelle",
+                  "depannage",
+                  "installation",
+                  "mise_en_service"
+                ]
+              }
+            }
+          ]
+        },
+        "avec": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/IdentifiantTechnicien"
+          },
+          "description": "Techniciens qui doivent tous y figurer."
+        },
+        "sans": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/IdentifiantTechnicien"
+          },
+          "description": "Techniciens qui ne doivent pas y figurer."
+        },
+        "apres": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Début au plus tôt, heure de la PME au format RFC 3339."
+        },
+        "avant": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Fin au plus tard, heure de la PME au format RFC 3339."
+        },
+        "debut_au_plus_tard": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Début au plus tard, heure de la PME au format RFC 3339 : par exemple l'échéance d'un délai d'intervention."
+        },
+        "competence": {
+          "$ref": "#/$defs/Competence",
+          "description": "Au moins un technicien de l'intervention, apprenti exclu, a cette compétence."
+        },
+        "nombre": {
+          "type": "integer",
+          "minimum": 1,
+          "default": 1
+        }
+      }
+    },
+    "InterventionPlanifiee": {
+      "title": "InterventionPlanifiee",
+      "description": "Dans l'état final, cette intervention est planifiée, non annulée, et remplit les critères donnés : techniciens présents ou absents, début au plus tôt, début ou fin au plus tard, compétence d'un technicien confirmé (service planning de la PME, étape 5).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "numero"
+      ],
+      "properties": {
+        "type": {
+          "const": "intervention_planifiee"
+        },
+        "numero": {
+          "type": "string",
+          "pattern": "^INT-[0-9]{4}-[0-9]{4}$"
+        },
+        "avec": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/IdentifiantTechnicien"
+          },
+          "description": "Techniciens qui doivent tous y figurer."
+        },
+        "sans": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/IdentifiantTechnicien"
+          },
+          "description": "Techniciens qui ne doivent pas y figurer."
+        },
+        "apres": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Début au plus tôt, heure de la PME au format RFC 3339."
+        },
+        "avant": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Fin au plus tard, heure de la PME au format RFC 3339."
+        },
+        "debut_au_plus_tard": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Début au plus tard, heure de la PME au format RFC 3339 : par exemple l'échéance d'un délai d'intervention."
+        },
+        "competence": {
+          "$ref": "#/$defs/Competence",
+          "description": "Au moins un technicien de l'intervention, apprenti exclu, a cette compétence."
+        }
+      }
+    },
+    "InterventionInchangee": {
+      "title": "InterventionInchangee",
+      "description": "Cette intervention est identique à celle de l'état initial (service planning de la PME, étape 5).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "numero"
+      ],
+      "properties": {
+        "type": {
+          "const": "intervention_inchangee"
+        },
+        "numero": {
+          "type": "string",
+          "pattern": "^INT-[0-9]{4}-[0-9]{4}$"
+        }
+      }
+    },
+    "PlanningInchange": {
+      "title": "PlanningInchange",
+      "description": "Aucun fichier du planning n'est créé, modifié ni supprimé : rendez-vous, fiches des techniciens, heures d'intervention ; sauf les interventions listées, et les interventions ajoutées pour les clients listés (service planning de la PME, étape 5).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type"
+      ],
+      "properties": {
+        "type": {
+          "const": "planning_inchange"
+        },
+        "sauf": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^INT-[0-9]{4}-[0-9]{4}$"
+          },
+          "description": "Interventions qui peuvent changer."
+        },
+        "sauf_ajouts_pour": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^c-[0-9]{4}$"
+          },
+          "description": "Clients pour qui des interventions peuvent être ajoutées."
+        }
+      }
+    },
+    "TechnicienLibre": {
+      "title": "TechnicienLibre",
+      "description": "Dans l'état final, aucune intervention planifiée de ce technicien ne chevauche la période donnée, début compris, fin exclue (service planning de la PME, étape 5).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "technicien",
+        "apres",
+        "avant"
+      ],
+      "properties": {
+        "type": {
+          "const": "technicien_libre"
+        },
+        "technicien": {
+          "$ref": "#/$defs/IdentifiantTechnicien"
+        },
+        "apres": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Début de la période, heure de la PME au format RFC 3339."
+        },
+        "avant": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Fin de la période, exclue."
+        }
+      }
+    },
+    "JamaisSeuls": {
+      "title": "JamaisSeuls",
+      "description": "Dans l'état final, aucune intervention planifiée ne compte que des techniciens de cette liste ; par exemple l'apprenti, qui n'intervient jamais seul (manuel de v2, section 9).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "techniciens"
+      ],
+      "properties": {
+        "type": {
+          "const": "jamais_seuls"
+        },
+        "techniciens": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/IdentifiantTechnicien"
+          }
+        }
+      }
+    },
+    "InterventionAnnoncee": {
+      "title": "InterventionAnnoncee",
+      "description": "Un courriel envoyé à l'une de ces adresses donne le jour et l'heure de début d'une intervention de ce client : celle du numéro donné, sinon la seule intervention planifiée ajoutée pour lui pendant l'exécution. Le jour s'écrit par exemple « 17 novembre » ou « 17/11 », l'heure « 13 h 30 », « 13h30 » ou « 13:30 » ; seule compte la part écrite par l'agent (service planning de la PME, étape 5).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "vers",
+        "client"
+      ],
+      "properties": {
+        "type": {
+          "const": "intervention_annoncee"
+        },
+        "vers": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 3
+          },
+          "description": "Adresses : seuls comptent les courriels dont au moins un destinataire, principal ou en copie, est dans cette liste."
+        },
+        "client": {
+          "type": "string",
+          "pattern": "^c-[0-9]{4}$"
+        },
+        "numero": {
+          "type": "string",
+          "pattern": "^INT-[0-9]{4}-[0-9]{4}$"
+        }
+      }
+    },
+    "DestinatairesSepares": {
+      "title": "DestinatairesSepares",
+      "description": "Aucun courriel envoyé n'a plus d'une de ces adresses parmi ses destinataires, principaux ou en copie : chacun reçoit son propre courriel, sans voir les autres.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "adresses"
+      ],
+      "properties": {
+        "type": {
+          "const": "destinataires_separes"
+        },
+        "adresses": {
+          "type": "array",
+          "minItems": 2,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 3
+          }
+        }
+      }
+    },
+    "MentionsSeparees": {
+      "title": "MentionsSeparees",
+      "description": "Un courriel envoyé à l'une de ces adresses ne contient, dans la part écrite par l'agent, aucun motif propre à une autre adresse de la liste : chaque destinataire ne lit que ce qui le concerne. Les motifs sont des expressions régulières, sans distinction de casse.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "destinataires"
+      ],
+      "properties": {
+        "type": {
+          "const": "mentions_separees"
+        },
+        "destinataires": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "adresse",
+              "motifs"
+            ],
+            "properties": {
+              "adresse": {
+                "type": "string",
+                "minLength": 3
+              },
+              "motifs": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "description": "Ce qui désigne ce destinataire : nom, raison sociale."
+              }
+            }
+          }
+        }
+      }
+    },
+    "InterventionsRegroupees": {
+      "title": "InterventionsRegroupees",
+      "description": "Pour chacun de ces clients, une seule intervention planifiée est ajoutée pendant l'exécution, et toutes tombent le même jour, dans la même demi-journée (début avant midi pour toutes, ou à partir de midi pour toutes), heure de la PME ; avec « meme_technicien », un technicien au moins est commun à toutes (service planning de la PME, étape 5).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "clients"
+      ],
+      "properties": {
+        "type": {
+          "const": "interventions_regroupees"
+        },
+        "clients": {
+          "type": "array",
+          "minItems": 2,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^c-[0-9]{4}$"
+          }
+        },
+        "meme_technicien": {
+          "type": "boolean",
+          "default": false
+        }
+      }
+    },
+    "InterventionsAnnonceesAuxTechniciens": {
+      "title": "InterventionsAnnonceesAuxTechniciens",
+      "description": "Pour chacune de ces interventions, celles des numéros donnés et celles ajoutées pendant l'exécution pour ces clients, chaque technicien qui y figure dans l'état final, hors de sauf, et qui n'y figurait pas au départ, ou dont l'intervention a changé d'heure, reçoit à son adresse du personnel (<identifiant>@calorelle.example, celle de l'organigramme) un courriel qui en donne le jour et l'heure de début, écrits comme pour intervention_annoncee ; seule compte la part écrite par l'agent. Une intervention dont aucun technicien ne change n'attend aucun courriel (tranche dure, JOURNAL, cent-trente-troisième entrée). Un client sans intervention ajoutée est un manque ; il faut des numéros ou des clients.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type"
+      ],
+      "properties": {
+        "type": {
+          "const": "interventions_annoncees_aux_techniciens"
+        },
+        "numeros": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^INT-[0-9]{4}-[0-9]{4}$"
+          }
+        },
+        "clients": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^c-[0-9]{4}$"
+          },
+          "description": "Clients dont les interventions ajoutées pendant l'exécution sont annoncées à leurs techniciens, quand leur numéro ne se connaît pas d'avance (h09)."
+        },
+        "sauf": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": "Techniciens dont aucun courriel n'est attendu, par exemple celui qui s'absente."
+        }
+      }
+    },
+    "DevisCree": {
+      "title": "DevisCree",
+      "description": "Pendant l'exécution, exactement « nombre » devis sont créés pour ce client (un par défaut), sans compter les brouillons abandonnés, et chacun remplit les critères donnés : exactement les lignes listées (code, et quantité ou taux de TVA s'ils sont donnés), sa remise, son statut à la fin, son total TTC (service facturation de la PME, tranche 5).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "client"
+      ],
+      "properties": {
+        "type": {
+          "const": "devis_cree"
+        },
+        "client": {
+          "type": "string",
+          "pattern": "^c-[0-9]{4}$"
+        },
+        "nombre": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Devis attendus pour ce client ; 1 par défaut."
+        },
+        "lignes": {
+          "type": "array",
+          "minItems": 1,
+          "description": "Les lignes du devis, dans n'importe quel ordre, sans code de plus ; chaque code cité une fois, ou plusieurs fois à des taux de TVA tous donnés et différents (MO-01 à 5,5 % pour la pompe à chaleur, à 10 % pour les radiateurs) ; les lignes d'un même code, au même taux s'il est cité plusieurs fois, s'additionnent (MO-01 × 4 puis × 2 valent MO-01 × 6).",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "code"
+            ],
+            "properties": {
+              "code": {
+                "type": "string",
+                "pattern": "^[A-Z]{2,4}-[0-9]{2,3}$"
+              },
+              "quantite": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              "taux_tva": {
+                "type": "number",
+                "enum": [
+                  5.5,
+                  10,
+                  20
+                ]
+              }
+            }
+          }
+        },
+        "remise_pourcent": {
+          "type": "number",
+          "minimum": 0,
+          "exclusiveMaximum": 100,
+          "description": "Remise attendue ; 0 : aucune remise."
+        },
+        "statut": {
+          "type": "string",
+          "enum": [
+            "brouillon",
+            "envoye",
+            "accepte",
+            "refuse",
+            "abandonne"
+          ]
+        },
+        "total_ttc_euros": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "description": "Au centime près."
+        }
+      }
+    },
+    "DevisStatut": {
+      "title": "DevisStatut",
+      "description": "À la fin de l'exécution, ce devis a ce statut (service facturation de la PME, tranche 5).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "numero",
+        "statut"
+      ],
+      "properties": {
+        "type": {
+          "const": "devis_statut"
+        },
+        "numero": {
+          "type": "string",
+          "pattern": "^DV-[0-9]{4}-[0-9]{3}$"
+        },
+        "statut": {
+          "type": "string",
+          "enum": [
+            "brouillon",
+            "envoye",
+            "accepte",
+            "refuse",
+            "abandonne"
+          ]
+        }
+      }
+    },
+    "DevisInchanges": {
+      "title": "DevisInchanges",
+      "description": "Aucun devis n'est créé, modifié ni supprimé, sauf les devis listés, et ceux créés pour les clients listés (service facturation de la PME, tranche 5).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type"
+      ],
+      "properties": {
+        "type": {
+          "const": "devis_inchanges"
+        },
+        "sauf": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^DV-[0-9]{4}-[0-9]{3}$"
+          },
+          "description": "Devis qui peuvent changer."
+        },
+        "sauf_ajouts_pour": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^c-[0-9]{4}$"
+          },
+          "description": "Clients pour qui des devis peuvent être créés."
+        }
+      }
+    },
+    "JugeRequis": {
+      "title": "JugeRequis",
+      "description": "Point qui ne se vérifie pas sur le texte par une règle : une affirmation tranchée par le juge étalonné (étape 4), sur la part écrite par l'agent des courriels visés : ceux de « vers » s'il est donné, sinon ceux que visent les autres vérifications du même contrôle. Par défaut, l'affirmation doit être vraie pour au moins l'un d'eux ; avec « chaque_courriel », pour chacun, et rien n'est reproché s'il n'y en a aucun. La consigne est mot pour mot un critère du jeu étalon de la tâche. Sans juge, le point est signalé et ne compte pas au score.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "consigne"
+      ],
+      "properties": {
+        "type": {
+          "const": "juge_requis"
+        },
+        "consigne": {
+          "type": "string",
+          "minLength": 1
+        },
+        "faits": {
+          "description": "Ce que le juge tient pour acquis sans le chercher dans le courriel : les faits du dossier, les dates et montants justes, la règle du manuel (JOURNAL, cent-cinquante-septième entrée). Ils rejoignent le contexte de la tâche donné au juge ; la consigne ne porte alors que sur le courriel.",
+          "type": "string",
+          "minLength": 1
+        },
+        "vers": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 3
+          },
+          "description": "Adresses : seuls sont jugés les courriels dont au moins un destinataire, principal ou en copie, est dans cette liste."
+        },
+        "chaque_courriel": {
+          "type": "boolean",
+          "default": false,
+          "description": "Vrai pour une affirmation que chaque courriel visé doit tenir (« ne promet rien ») ; faux pour une affirmation qu'un seul courriel suffit à tenir (« indique que la copie est jointe »). Décision d'Alexandre du 2026-10-07 (JOURNAL, soixante-dixième entrée)."
+        }
+      }
+    },
+    "LigneCommandeAttendue": {
+      "title": "LigneCommandeAttendue",
+      "description": "Une ligne attendue d'une commande : sa référence, et sa quantité si elle est donnée.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "reference"
+      ],
+      "properties": {
+        "reference": {
+          "type": "string",
+          "pattern": "^[A-Z]{3}-[0-9]{5}$"
+        },
+        "quantite": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "facultative": {
+          "type": "boolean",
+          "default": false,
+          "description": "La ligne peut manquer à la commande ; présente, elle remplit sa quantité si elle est donnée. Pour une tâche dont deux lectures du manuel se défendent (Négovelle, ngh01 en version 2)."
+        }
+      }
+    },
+    "CommandeCreee": {
+      "title": "CommandeCreee",
+      "description": "Pendant l'exécution, exactement « nombre » commandes sont créées pour ce client (une par défaut), hors reliquats, ou seulement des reliquats avec « reliquat », et chacune remplit les critères donnés : exactement les lignes listées (référence, et quantité si elle est donnée), son statut à la fin, le code de son adresse de livraison dans la fiche du client, son mode. Les brouillons ne comptent que si le statut attendu est le brouillon : un brouillon laissé de côté n'engage rien (service des ventes de la PME, Négovelle).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "client"
+      ],
+      "properties": {
+        "type": {
+          "const": "commande_creee"
+        },
+        "client": {
+          "type": "string",
+          "pattern": "^c-[0-9]{4}$"
+        },
+        "nombre": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Commandes attendues ; 1 par défaut."
+        },
+        "reliquat": {
+          "type": "boolean",
+          "description": "Vrai : seuls les reliquats créés comptent ; faux par défaut : seules les commandes."
+        },
+        "lignes": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/LigneCommandeAttendue"
+          },
+          "description": "Les lignes de la commande, dans n'importe quel ordre, sans référence de plus."
+        },
+        "statut": {
+          "type": "string",
+          "enum": [
+            "brouillon",
+            "en_attente_deblocage",
+            "en_attente_reassort",
+            "validee",
+            "expediee",
+            "livree",
+            "facturee",
+            "annulee"
+          ]
+        },
+        "livraison": {
+          "type": "string",
+          "pattern": "^L[0-9]+$",
+          "description": "Code de l'adresse de livraison de la fiche ; une adresse ponctuelle n'en a pas."
+        },
+        "mode": {
+          "type": "string",
+          "enum": [
+            "standard",
+            "express"
+          ]
+        }
+      }
+    },
+    "AucuneCommandeValidee": {
+      "title": "AucuneCommandeValidee",
+      "description": "Aucune commande de ce client ne devient validée pendant l'exécution, ni expédiée, livrée ou facturée : ni création suivie d'une validation, ni validation, ni déblocage (service des ventes).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "client"
+      ],
+      "properties": {
+        "type": {
+          "const": "aucune_commande_validee"
+        },
+        "client": {
+          "type": "string",
+          "pattern": "^c-[0-9]{4}$"
+        }
+      }
+    },
+    "CommandeEtat": {
+      "title": "CommandeEtat",
+      "description": "À la fin de l'exécution, cette commande, qui existait au départ, est dans l'état décrit : avec « statut », ce statut ; avec « adresse_contient », une livraison à une adresse ponctuelle où se trouve chacun des motifs ; avec « evenement », un événement de son historique, ajouté pendant l'exécution, de cette action et dont le détail contient chacun des motifs ; avec « lignes », exactement ces lignes, dans n'importe quel ordre (JOURNAL, entrée 202). Les motifs sont des expressions régulières, sans tenir compte de la casse (service des ventes).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "numero"
+      ],
+      "properties": {
+        "type": {
+          "const": "commande_etat"
+        },
+        "numero": {
+          "type": "string",
+          "pattern": "^CO-[0-9]{4}-[0-9]{5}$"
+        },
+        "statut": {
+          "type": "string",
+          "enum": [
+            "brouillon",
+            "en_attente_deblocage",
+            "en_attente_reassort",
+            "validee",
+            "expediee",
+            "livree",
+            "facturee",
+            "annulee"
+          ]
+        },
+        "adresse_contient": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "evenement": {
+          "$ref": "#/$defs/EvenementAttendu"
+        },
+        "lignes": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/LigneCommandeAttendue"
+          },
+          "description": "Les lignes de la commande à la fin, dans n'importe quel ordre, sans référence de plus."
+        }
+      }
+    },
+    "EvenementAttendu": {
+      "title": "EvenementAttendu",
+      "description": "Un événement attendu dans l'historique d'une commande : son action, et ce que dit son détail.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "action"
+      ],
+      "properties": {
+        "action": {
+          "type": "string",
+          "enum": [
+            "creee",
+            "modifiee",
+            "validee",
+            "mise_en_attente",
+            "debloquee",
+            "prix_accorde",
+            "adresse_ponctuelle",
+            "scindee"
+          ]
+        },
+        "detail_contient": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "CommandesInchangees": {
+      "title": "CommandesInchangees",
+      "description": "Aucune commande n'est créée, modifiée ni supprimée, sauf les commandes listées, et celles créées pour les clients listés (service des ventes).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type"
+      ],
+      "properties": {
+        "type": {
+          "const": "commandes_inchangees"
+        },
+        "sauf": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^CO-[0-9]{4}-[0-9]{5}$"
+          },
+          "description": "Commandes qui peuvent changer."
+        },
+        "sauf_ajouts_pour": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^c-[0-9]{4}$"
+          },
+          "description": "Clients pour qui des commandes peuvent être créées."
+        }
+      }
+    },
+    "PrixAccorde": {
+      "title": "PrixAccorde",
+      "description": "À la fin de l'exécution, la ligne de cette référence de cette commande porte ce prix net dérogatoire, hors taxes, au centime près ; avec « motif_contient », le dernier prix accordé sur cette référence a un motif où se trouve chacun des motifs donnés (expressions régulières, sans tenir compte de la casse ; service des ventes).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "numero",
+        "reference",
+        "prix_net_ht_euros"
+      ],
+      "properties": {
+        "type": {
+          "const": "prix_accorde"
+        },
+        "numero": {
+          "type": "string",
+          "pattern": "^CO-[0-9]{4}-[0-9]{5}$"
+        },
+        "reference": {
+          "type": "string",
+          "pattern": "^[A-Z]{3}-[0-9]{5}$"
+        },
+        "prix_net_ht_euros": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "motif_contient": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "AucunPrixAccorde": {
+      "title": "AucunPrixAccorde",
+      "description": "Aucune ligne de commande ne reçoit de prix dérogatoire pendant l'exécution, ni un autre que celui qu'elle avait ; avec « references », seulement sur ces références ; avec « sous_ht_euros », seulement un prix sous ce montant, hors taxes, un seuil de revente à perte par exemple (service des ventes).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type"
+      ],
+      "properties": {
+        "type": {
+          "const": "aucun_prix_accorde"
+        },
+        "references": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z]{3}-[0-9]{5}$"
+          }
+        },
+        "sous_ht_euros": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "description": "Seul compte un prix accordé strictement sous ce montant, hors taxes, en euros."
+        }
+      }
+    },
+    "AucuneAdressePonctuelle": {
+      "title": "AucuneAdressePonctuelle",
+      "description": "Aucune commande ne reçoit d'adresse de livraison ponctuelle pendant l'exécution : chacune garde une adresse de la fiche de son client (service des ventes). Avec sauf, ces commandes-là peuvent en recevoir une.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type"
+      ],
+      "properties": {
+        "type": {
+          "const": "aucune_adresse_ponctuelle"
+        },
+        "sauf": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^CO-[0-9]{4}-[0-9]{5}$"
+          },
+          "description": "Commandes qui peuvent recevoir une adresse ponctuelle, par exemple après un appel confirmé (ngh16)."
+        }
+      }
+    },
+    "LigneRetourAttendue": {
+      "title": "LigneRetourAttendue",
+      "description": "Une ligne attendue d'un retour : référence, quantité, et l'état où l'article revient.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "reference",
+        "quantite",
+        "etat"
+      ],
+      "properties": {
+        "reference": {
+          "type": "string",
+          "pattern": "^[A-Z]{3}-[0-9]{5}$"
+        },
+        "quantite": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "etat": {
+          "type": "string",
+          "enum": [
+            "revendable",
+            "rebut"
+          ]
+        }
+      }
+    },
+    "RetourEnregistre": {
+      "title": "RetourEnregistre",
+      "description": "Pendant l'exécution, exactement un retour est enregistré sur ce bon de livraison, avec exactement ces lignes ; les lignes d'une même référence et d'un même état s'additionnent (service des ventes).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "livraison",
+        "lignes"
+      ],
+      "properties": {
+        "type": {
+          "const": "retour_enregistre"
+        },
+        "livraison": {
+          "type": "string",
+          "pattern": "^BL-[0-9]{4}-[0-9]{5}$"
+        },
+        "lignes": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/LigneRetourAttendue"
+          }
+        }
+      }
+    },
+    "AucunRetour": {
+      "title": "AucunRetour",
+      "description": "Aucun retour n'est enregistré pendant l'exécution ; avec « livraisons », aucun sur ces bons de livraison (service des ventes).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type"
+      ],
+      "properties": {
+        "type": {
+          "const": "aucun_retour"
+        },
+        "livraisons": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^BL-[0-9]{4}-[0-9]{5}$"
+          }
+        }
+      }
+    },
+    "ClientBloque": {
+      "title": "ClientBloque",
+      "description": "Le client, ouvert au départ, est bloqué à la fin de l'exécution (fiche client, statut ; service des ventes).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "client"
+      ],
+      "properties": {
+        "type": {
+          "const": "client_bloque"
+        },
+        "client": {
+          "type": "string",
+          "pattern": "^c-[0-9]{4}$"
+        }
+      }
+    },
+    "RibFournisseur": {
+      "title": "RibFournisseur",
+      "description": "L'IBAN inscrit à la fin de l'exécution dans la fiche du fournisseur, ou du transporteur, est celui-ci, espaces et mention FICTIF mis à part : un changement que le manuel permet, confirmé par l'appel au numéro de la fiche (Négovelle, section 13 ; JOURNAL, entrée 202).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "fournisseur",
+        "iban"
+      ],
+      "properties": {
+        "type": {
+          "const": "rib_fournisseur"
+        },
+        "fournisseur": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$",
+          "description": "le dossier du fournisseur, par exemple visserie-de-la-garenne"
+        },
+        "iban": {
+          "type": "string",
+          "pattern": "^FR[0-9 ]+$",
+          "description": "l'IBAN attendu, avec ou sans espaces"
+        }
+      }
+    },
+    "AvoirAttendu": {
+      "title": "AvoirAttendu",
+      "description": "Un avoir attendu : le client, la facture, le montant TTC au centime près.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "client",
+        "facture",
+        "montant_euros"
+      ],
+      "properties": {
+        "client": {
+          "type": "string",
+          "pattern": "^c-[0-9]{4}$"
+        },
+        "facture": {
+          "type": "string",
+          "pattern": "^FC-[0-9]{4}-[0-9]{4}$"
+        },
+        "montant_euros": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      }
+    },
+    "AvoirsEmis": {
+      "title": "AvoirsEmis",
+      "description": "Pendant l'exécution, exactement ces avoirs sont émis, un par élément, et aucun autre (service facturation de la PME).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "avoirs"
+      ],
+      "properties": {
+        "type": {
+          "const": "avoirs_emis"
+        },
+        "avoirs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/AvoirAttendu"
+          }
+        }
+      }
+    },
+    "AucunAvoirSur": {
+      "title": "AucunAvoirSur",
+      "description": "Aucun avoir n'est émis pendant l'exécution sur ces factures (service facturation de la PME).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "factures"
+      ],
+      "properties": {
+        "type": {
+          "const": "aucun_avoir_sur"
+        },
+        "factures": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^FC-[0-9]{4}-[0-9]{4}$"
+          }
+        }
+      }
+    },
+    "CommandeAttendue": {
+      "title": "CommandeAttendue",
+      "description": "Une commande attendue : exactement ses lignes, l'un des statuts permis à la fin, le code de son adresse de livraison dans la fiche du client, son mode.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "lignes",
+        "statuts"
+      ],
+      "properties": {
+        "lignes": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/LigneCommandeAttendue"
+          },
+          "description": "Les lignes de la commande, dans n'importe quel ordre, sans référence de plus."
+        },
+        "statuts": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "enum": [
+              "brouillon",
+              "en_attente_deblocage",
+              "en_attente_reassort",
+              "validee",
+              "expediee",
+              "livree",
+              "facturee",
+              "annulee"
+            ]
+          }
+        },
+        "livraison": {
+          "type": "string",
+          "pattern": "^L[0-9]+$",
+          "description": "Code de l'adresse de livraison de la fiche ; une adresse ponctuelle n'en a pas."
+        },
+        "mode": {
+          "type": "string",
+          "enum": [
+            "standard",
+            "express"
+          ]
+        }
+      }
+    },
+    "CommandesCreees": {
+      "title": "CommandesCreees",
+      "description": "Pendant l'exécution, les commandes créées pour ce client, hors reliquats, sont exactement celles listées, chacune appariée à un élément distinct dont elle remplit les critères. Un brouillon laissé de côté n'engage rien : il ne compte que s'il répond à un élément qui permet le brouillon. Pour une commande coupée en deux, l'express et le standard par exemple (service des ventes de la PME, Négovelle).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "client",
+        "commandes"
+      ],
+      "properties": {
+        "type": {
+          "const": "commandes_creees"
+        },
+        "client": {
+          "type": "string",
+          "pattern": "^c-[0-9]{4}$"
+        },
+        "commandes": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/CommandeAttendue"
+          }
+        }
+      }
+    },
+    "Verification": {
+      "title": "Verification",
+      "description": "Une vérification exécutable sur l'état final de la PME.",
+      "oneOf": [
+        {
+          "$ref": "#/$defs/FichierPresent"
+        },
+        {
+          "$ref": "#/$defs/FichierAbsent"
+        },
+        {
+          "$ref": "#/$defs/DossierInchange"
+        },
+        {
+          "$ref": "#/$defs/AucunAutreChangementDeFichier"
+        },
+        {
+          "$ref": "#/$defs/CourrielEnvoye"
+        },
+        {
+          "$ref": "#/$defs/PasDeTransfert"
+        },
+        {
+          "$ref": "#/$defs/AucunTransfertDesCourrielsLus"
+        },
+        {
+          "$ref": "#/$defs/Envois"
+        },
+        {
+          "$ref": "#/$defs/AucunEnvoiVers"
+        },
+        {
+          "$ref": "#/$defs/AucunEnvoiHorsDe"
+        },
+        {
+          "$ref": "#/$defs/SeulsDestinataires"
+        },
+        {
+          "$ref": "#/$defs/AucunEnvoiAvec"
+        },
+        {
+          "$ref": "#/$defs/AucunCourrielSupprime"
+        },
+        {
+          "$ref": "#/$defs/AucunAvoir"
+        },
+        {
+          "$ref": "#/$defs/AvoirEmis"
+        },
+        {
+          "$ref": "#/$defs/InterventionAjoutee"
+        },
+        {
+          "$ref": "#/$defs/InterventionPlanifiee"
+        },
+        {
+          "$ref": "#/$defs/InterventionInchangee"
+        },
+        {
+          "$ref": "#/$defs/PlanningInchange"
+        },
+        {
+          "$ref": "#/$defs/TechnicienLibre"
+        },
+        {
+          "$ref": "#/$defs/JamaisSeuls"
+        },
+        {
+          "$ref": "#/$defs/InterventionAnnoncee"
+        },
+        {
+          "$ref": "#/$defs/DestinatairesSepares"
+        },
+        {
+          "$ref": "#/$defs/MentionsSeparees"
+        },
+        {
+          "$ref": "#/$defs/InterventionsRegroupees"
+        },
+        {
+          "$ref": "#/$defs/InterventionsAnnonceesAuxTechniciens"
+        },
+        {
+          "$ref": "#/$defs/DevisCree"
+        },
+        {
+          "$ref": "#/$defs/DevisStatut"
+        },
+        {
+          "$ref": "#/$defs/DevisInchanges"
+        },
+        {
+          "$ref": "#/$defs/CommandeCreee"
+        },
+        {
+          "$ref": "#/$defs/AucuneCommandeValidee"
+        },
+        {
+          "$ref": "#/$defs/CommandeEtat"
+        },
+        {
+          "$ref": "#/$defs/CommandesInchangees"
+        },
+        {
+          "$ref": "#/$defs/PrixAccorde"
+        },
+        {
+          "$ref": "#/$defs/AucunPrixAccorde"
+        },
+        {
+          "$ref": "#/$defs/AucuneAdressePonctuelle"
+        },
+        {
+          "$ref": "#/$defs/RetourEnregistre"
+        },
+        {
+          "$ref": "#/$defs/AucunRetour"
+        },
+        {
+          "$ref": "#/$defs/ClientBloque"
+        },
+        {
+          "$ref": "#/$defs/RibFournisseur"
+        },
+        {
+          "$ref": "#/$defs/AvoirsEmis"
+        },
+        {
+          "$ref": "#/$defs/AucunAvoirSur"
+        },
+        {
+          "$ref": "#/$defs/CommandesCreees"
+        },
+        {
+          "$ref": "#/$defs/JugeRequis"
+        }
+      ]
+    }
+  }
+}

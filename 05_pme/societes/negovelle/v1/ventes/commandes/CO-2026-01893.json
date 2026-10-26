@@ -1,0 +1,90 @@
+{
+  "numero": "CO-2026-01893",
+  "client": "c-0323",
+  "reference_client": "BC-7305",
+  "cree_le": "2026-06-25T09:10:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "1 zone d'activités des Grands Prés, 36999 Vaumoreau-sur-Indre (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ENT-10408",
+      "libelle": "Essuie-mains en papier plié, carton de 12",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 22.9,
+      "remise_pourcent": 5.92,
+      "prix_net_ht_euros": 21.54,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 215.4
+    },
+    {
+      "reference": "OUT-11813",
+      "libelle": "Pince étau 160 mm",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 25.0,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 24.0,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 48.0
+    },
+    {
+      "reference": "PRO-11404",
+      "libelle": "Masque FFP3, boîte de 10",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 32.9,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 32.9,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 32.9
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 311.3,
+  "total_tva_euros": 62.26,
+  "total_ttc_euros": 373.56,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01742"
+  ],
+  "facture": "FC-2026-1299",
+  "historique": [
+    {
+      "date": "2026-06-25T09:10:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-25T09:12:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-26T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01742"
+    },
+    {
+      "date": "2026-06-26T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01742"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1299"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-elch-601",
+  "de": {
+    "nom": "Cédric Maillard",
+    "adresse": "cedric.maillard@domivelle.example"
+  },
+  "a": [
+    "elodie.chauvin@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Le centre pendant mon congé",
+  "date": "2026-10-09T18:20:00+02:00",
+  "corps": "Élodie,\n\nMerci de reprendre le centre pendant mon congé, du lundi 12 au vendredi 30 octobre ; mon message d'absence renvoie vers toi.\n\n- Révisions d'octobre : c08-05 le 13, c19-09 le 16, c09-05 et c12-03 le 18, c02-03 le 22, c28-06 le 23, c13-01 le 24, c08-01 et c08-13 le 26, c25-18 le 28. Rien n'est encore écrit, et celle de c09-04, qui tombait le samedi 10, m'a échappé.\n- Congés : celui de M. Bourgeois (c05-07), reçu le jeudi 1er octobre, et celui de Mme Camus (c15-01), reçu le lundi 5 octobre, numérisés par Nadège, ne sont pas encore traités. M. Bourgeois invoque un nouvel emploi, Mme Camus une mutation, attestation de son employeur jointe.\n- Dépôts : M. Delorme (c15-05) a rendu les clés le mercredi 30 septembre, état des lieux conforme ; c'est un immeuble collectif, j'estime à 95,00 € le complément de ses charges de 2026. Mme Boisseau (c09-02) est partie le lundi 5 octobre ; Quentin t'écrit pour l'état des lieux. Le dépôt de M. Moreau (c11-02), parti le lundi 31 août après un état des lieux conforme, n'est pas encore rendu : Pascale attend mon feu vert.\n- Régularisations de 2025 de c27 : celles de Mme Duval (c27-03), de M. Lejeune (c27-07), de M. Verdier (c27-12), de M. Schmitt (c27-14) et de M. Pasquier (c27-18) se font le lundi 16 novembre. Le décompte du syndic est dans le dossier de l'immeuble, et les provisions versées en 2025 dans la note de Pascale qui l'accompagne.\n- Assurance : M. Laporte (c03-02) n'a pas répondu à ma demande d'attestation du 7 avril, et je n'ai pas fait de mise en demeure, pas plus que pour Mme Boulanger (c15-03), même demande du 7 avril. Mme Germain (c03-04) n'a rien envoyé depuis ma mise en demeure du mardi 8 septembre.\n\nCédric",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

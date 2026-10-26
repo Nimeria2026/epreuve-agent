@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-504",
+  "de": {
+    "nom": "Paul Ferrand",
+    "adresse": "paul.ferrand@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis climatisation",
+  "date": "2026-11-02T08:02:00+01:00",
+  "corps": "Bonjour,\n\nJe souhaite un devis pour climatiser deux chambres de ma maison.\n\nPaul Ferrand (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cema-001",
+  "de": {
+    "nom": "Chauffage des Fontenils",
+    "adresse": "facturation@chauffage-des-fontenils.example"
+  },
+  "a": [
+    "cedric.maillard@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis chaudière, lot c01-12",
+  "date": "2026-06-05T17:40:00+02:00",
+  "corps": "Bonjour Monsieur Maillard,\n\nSuite à notre visite de ce jour chez Mme Inès Lecomte, lot c01-12, 139 rue des Écoles, la chaudière est hors service et doit être remplacée : notre devis, 640,00 € TTC, est joint. Merci de nous confirmer la commande : nous pouvons intervenir mercredi 10 juin.\n\nService technique, Chauffage des Fontenils",
+  "pieces_jointes": [
+    {
+      "nom": "devis_c01-12.pdf",
+      "fichier": "pieces/m-cema-001/devis_c01-12.pdf",
+      "taille_octets": 857
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

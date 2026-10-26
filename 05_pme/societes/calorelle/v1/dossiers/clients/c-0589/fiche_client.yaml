@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0589"
+nom: "Établissements Michel"
+type: "entreprise"
+adresse: "25 chemin des Vignes, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "contact@etablissements-michel-589.example"
+telephone: "02 61 91 36 42"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2023-11-18"
+  mois_anniversaire: "novembre"
+  derniere_visite: "2025-11-10"

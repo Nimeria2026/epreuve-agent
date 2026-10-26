@@ -1,0 +1,117 @@
+{
+  "numero": "CO-2026-01943",
+  "client": "c-0340",
+  "reference_client": null,
+  "cree_le": "2026-06-30T09:10:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "express",
+  "livraison": {
+    "code": "L1",
+    "adresse": "108 rue des Chênes, 36999 Fontclavier (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-12376",
+      "libelle": "Ruban adhésif toilé gris 25 mm, rouleau de 50 m",
+      "quantite": 18,
+      "prix_tarif_ht_euros": 8.55,
+      "remise_pourcent": 5.92,
+      "prix_net_ht_euros": 8.04,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 144.72
+    },
+    {
+      "reference": "ELE-11339",
+      "libelle": "Câble souple H07RN-F 3G 1,5 mm², couronne de 25 m",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 118.25,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 113.52,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 1362.24
+    },
+    {
+      "reference": "ENT-10489",
+      "libelle": "Lavette microfibre jaune, paquet de 10",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 21.65,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 20.78,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 41.56
+    },
+    {
+      "reference": "FIX-11437",
+      "libelle": "Crochet en S à visser 60 mm, sachet de 10",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 3.6,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 3.6,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 43.2
+    },
+    {
+      "reference": "PLB-11763",
+      "libelle": "Mitigeur de douche, chromé",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 76.05,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 73.01,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 73.01
+    },
+    {
+      "reference": "PRO-11061",
+      "libelle": "Gants de soudeur cuir croûte, taille 11",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 14.65,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 14.06,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 84.36
+    }
+  ],
+  "port_ht_euros": 25.0,
+  "total_ht_euros": 1774.09,
+  "total_tva_euros": 354.82,
+  "total_ttc_euros": 2128.91,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01792"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-06-30T09:10:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-30T09:12:00+02:00",
+      "par": "oceane.collin",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-30T16:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01792"
+    },
+    {
+      "date": "2026-07-01T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01792"
+    }
+  ]
+}

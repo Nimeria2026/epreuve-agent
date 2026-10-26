@@ -1,0 +1,44 @@
+{
+  "numero": "BL-2026-01720",
+  "commande": "CO-2026-01871",
+  "client": "c-0179",
+  "date_expedition": "2026-06-26",
+  "date_livraison": "2026-06-26",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "23 zone industrielle des Brandes, 36999 Vendrigny (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ENT-10481",
+      "libelle": "Lavette microfibre bleue, paquet de 5",
+      "quantite": 5
+    },
+    {
+      "reference": "FIX-12400",
+      "libelle": "Équerre de fixation 80x40x40 mm, zinguée",
+      "quantite": 10
+    },
+    {
+      "reference": "OUT-10440",
+      "libelle": "Clé mixte 26 mm",
+      "quantite": 12
+    },
+    {
+      "reference": "OUT-13021",
+      "libelle": "Équerre de charpentier 500 mm",
+      "quantite": 2
+    },
+    {
+      "reference": "VIS-13511",
+      "libelle": "Vis à bois tête fraisée 6x60, bichromatée, boîte de 500",
+      "quantite": 5
+    }
+  ],
+  "reserves": null,
+  "signataire": "Alice Barbe",
+  "statut": "livre"
+}

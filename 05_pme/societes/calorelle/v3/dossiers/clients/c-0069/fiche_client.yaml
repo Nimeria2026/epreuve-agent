@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0069"
+nom: "Établissements Laurent"
+type: "entreprise"
+adresse: "81 rue des Lilas, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "contact@etablissements-laurent-69.example"
+telephone: "02 61 91 35 16"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité Plus"
+  depuis: "2025-01-09"
+  mois_anniversaire: "janvier"
+  derniere_visite: "2026-01-15"

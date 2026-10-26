@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cpt-b02",
+  "de": {
+    "nom": "LogiCompta Pro",
+    "adresse": "offres@logicompta-pro.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Votre comptabilité en trois clics",
+  "date": "2026-10-22T14:03:00+02:00",
+  "corps": "Découvrez notre logiciel de comptabilité, gratuit pendant un mois. Offre FICTIVE.",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-021",
+  "de": {
+    "nom": "Béatrice Bouchard",
+    "adresse": "beatrice.bouchard@bodin-batiments.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande, nouvelle adresse",
+  "date": "2026-07-03T15:10:00+02:00",
+  "corps": "Bonjour,\n\nMerci de nous livrer en express, à notre nouveau dépôt, 8 rue des Tanneurs, 36999 Laubrissac :\n\n- 12 x ELP-10097, Disque diamant béton 350 mm\n- 10 x ELP-10204, Disque à tronçonner béton 125 mm, boîte de 10\n\nCordialement,\nBéatrice Bouchard\nBodin Bâtiment",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-thol-602",
+  "de": {
+    "nom": "Yohan Delmas",
+    "adresse": "yohan.delmas@domivelle.example"
+  },
+  "a": [
+    "thierry.ollivier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Provision d'urgence des Violettes",
+  "date": "2026-09-28T11:10:00+02:00",
+  "corps": "Thierry,\n\nAux Violettes (cp16), Maëlle a commandé le 21 septembre, en urgence, la réfection de l'étanchéité de la toiture-terrasse, d'où venait l'infiltration chez Mme Boisseau : devis de Couverture des Rouches, 12 600,00 € TTC. Le conseil syndical a donné son avis le 25 septembre, et je convoque l'assemblée. Peux-tu appeler une provision de 6 300,00 €, la moitié du devis, aux tantièmes généraux, avec l'appel du 1er octobre ?\n\nYohan",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

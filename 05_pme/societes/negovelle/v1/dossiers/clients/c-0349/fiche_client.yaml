@@ -1,0 +1,25 @@
+# Fiche du client c-0349 de Négovelle. Données FICTIVES.
+code: c-0349
+nom: Menuiserie Pelletier
+type: artisan
+adresse: 43 avenue de la Gare, 36999 Fontclavier (FICTIF)
+telephone: 02 61 91 87 93
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Christian Drouet
+  fonction: gérant
+  courriel: christian.drouet@menuiserie-pelletier.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 43 avenue de la Gare, 36999 Fontclavier (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2013-07-01'
+limite_encours_euros: 1000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

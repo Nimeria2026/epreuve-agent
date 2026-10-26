@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-621",
+  "de": {
+    "nom": "Aurélie Lefebvre",
+    "adresse": "aurelie.lefebvre@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis thermostat et désembouage",
+  "date": "2026-11-02T08:00:00+01:00",
+  "corps": "Bonjour,\n\nM. Lambert est passé vendredi. Pouvez-vous m'envoyer un seul devis pour le thermostat connecté et le désembouage ? Ma maison date de 1989.\n\nAurélie Lefebvre (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

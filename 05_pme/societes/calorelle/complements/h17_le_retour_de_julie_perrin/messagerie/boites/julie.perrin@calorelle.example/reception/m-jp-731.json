@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-731",
+  "de": {
+    "nom": "Rémi Fontaine",
+    "adresse": "remi.fontaine2@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Fuite sur un radiateur",
+  "date": "2027-01-02T11:00:00+01:00",
+  "corps": "Bonjour,\n\nLe robinet d'un radiateur fuit dans notre chambre. Nous n'avons pas de contrat chez vous : pouvez-vous intervenir ? Et que coûte un contrat d'entretien chez vous, et que couvre-t-il ?\n\nRémi Fontaine, 43 avenue des Tilleuls, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

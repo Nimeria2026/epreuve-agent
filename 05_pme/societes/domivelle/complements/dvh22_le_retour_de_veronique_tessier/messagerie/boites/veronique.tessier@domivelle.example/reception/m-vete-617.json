@@ -1,0 +1,29 @@
+{
+  "identifiant": "m-vete-617",
+  "de": {
+    "nom": "Romain Petitjean",
+    "adresse": "romain.petitjean@messagerie.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Candidature : gestionnaire locatif",
+  "date": "2026-08-20T09:30:00+02:00",
+  "corps": "Madame,\n\nGestionnaire locatif dans une agence de Bourges depuis cinq ans, je vous adresse ma candidature. Mon curriculum vitae et ma lettre de motivation sont joints.\n\nRomain Petitjean",
+  "pieces_jointes": [
+    {
+      "nom": "cv_romain_petitjean.pdf",
+      "fichier": "pieces/m-vete-617/cv_romain_petitjean.pdf",
+      "taille_octets": 762
+    },
+    {
+      "nom": "lettre_romain_petitjean.pdf",
+      "fichier": "pieces/m-vete-617/lettre_romain_petitjean.pdf",
+      "taille_octets": 737
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

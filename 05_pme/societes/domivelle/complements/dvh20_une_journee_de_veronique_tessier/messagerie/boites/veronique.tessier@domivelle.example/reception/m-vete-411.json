@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-vete-411",
+  "de": {
+    "nom": "Nadège Lebrun",
+    "adresse": "nadege.lebrun@domivelle.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Lettre recommandée électronique : congé, n02-08",
+  "date": "2026-06-01T14:05:00+02:00",
+  "corps": "Véronique,\n\nUne autre lettre recommandée électronique, reçue ce lundi 1er juin : M. Hugo Hubert, locataire du lot n02-08, donne congé. Il écrit être muté et demande un préavis d'un mois, mais aucune attestation de son employeur n'est jointe. Je te transmets la lettre.\n\nNadège",
+  "pieces_jointes": [
+    {
+      "nom": "lettre_recommandee_electronique_n02-08.pdf",
+      "fichier": "pieces/m-vete-411/lettre_recommandee_electronique_n02-08.pdf",
+      "taille_octets": 756
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

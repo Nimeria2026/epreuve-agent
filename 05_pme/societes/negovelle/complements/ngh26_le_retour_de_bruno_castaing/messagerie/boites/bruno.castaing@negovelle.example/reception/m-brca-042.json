@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-042",
+  "de": {
+    "nom": "Rémi Joly",
+    "adresse": "remi.joly@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Couverture Besson : un geste ?",
+  "date": "2026-08-17T11:00:00+02:00",
+  "corps": "Bruno,\n\nCouverture Besson (c-0241) nous écrit seulement le 14 août pour le groupe de sécurité PLB-11322 qui manquait à la livraison du 3 juillet, BL-2026-01857. C'est bien après les trois jours : je pense qu'il faut un geste de ta part, 23,04 € TTC, l'article au prix net de la commande. Tu es d'accord ?\n\nRémi",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,14 @@
+{
+  "numero": "INT-2026-0029",
+  "client": "c-0307",
+  "techniciens": [
+    "kevin.lambert"
+  ],
+  "debut": "2026-11-09T13:30:00+01:00",
+  "fin": "2026-11-09T15:00:00+01:00",
+  "nature": "visite_annuelle",
+  "objet": "Visite annuelle du contrat Sérénité",
+  "statut": "annulee",
+  "motif_annulation": "Annulée à la demande du client, qui rappellera pour une autre date",
+  "cree_par": "donnees_initiales"
+}

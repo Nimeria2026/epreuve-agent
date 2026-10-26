@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-622",
+  "de": {
+    "nom": "Romain Guérin",
+    "adresse": "romain.guerin@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Demande de congés pour Noël",
+  "date": "2026-11-02T07:55:00+01:00",
+  "corps": "Bonjour Sonia,\n\nJe voudrais poser du lundi 21 au jeudi 24 décembre, avant ceux de la semaine suivante déjà validés. Merci de me dire si c'est bon.\n\nRomain (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

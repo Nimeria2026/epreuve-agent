@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-201",
+  "de": {
+    "nom": "Patrick Boyer",
+    "adresse": "patrick.boyer@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Pompe à chaleur en panne",
+  "date": "2026-11-10T15:40:00+01:00",
+  "corps": "Bonjour,\n\nNotre pompe à chaleur s'est mise en défaut ce midi : plus de chauffage ni d'eau chaude. Nous avons le contrat Sérénité Plus.\n\nJe suis en déplacement demain et jeudi ; je serai chez moi à partir de vendredi matin, 8 h.\n\nMerci de me dire quand votre technicien pourra passer.\n\nPatrick Boyer\n66 rue de la Loire, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

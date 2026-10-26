@@ -1,0 +1,12 @@
+# Fiche du propriétaire p-0589, mandant de Domivelle. Données FICTIVES.
+code: p-0589
+nom: Mme Sophie Bigot
+adresse: 27 rue des Remparts, 18999 Chantebrune (FICTIF)
+courriel: sophie.bigot@courriel.example
+telephone: 06 39 98 74 64
+iban: FR76 9999 9314 2087 6155 0472 913 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- s13-09
+- s18-10
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

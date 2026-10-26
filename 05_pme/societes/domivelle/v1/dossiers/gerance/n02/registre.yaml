@@ -1,0 +1,167 @@
+# Registre des lots en gestion, n02. Données FICTIVES.
+immeuble: n02
+nature: immeuble collectif
+adresse: 69 rue du Four, 18999 Vernillac (FICTIF)
+secteur: nord
+gestionnaire: Élodie Chauvin
+distance_agence_km: 12
+annee_construction: 1964
+gardien: false
+copropriete_du_syndic: null
+lots:
+- lot: n02-01
+  type: T2
+  surface_m2: 42
+  etage: 0
+  proprietaire: p-0010
+  locataire: M. Patrice Faure
+  entree: '2018-07-05'
+  loyer_hors_charges: 349,00 €
+  provision_sur_charges: 97,00 €
+  depot_de_garantie: 297,00 €
+  revision: chaque 5 juillet
+  trimestre_irl: T1
+  dpe: D
+- lot: n02-02
+  type: T1
+  surface_m2: 29
+  etage: 0
+  proprietaire: p-0011
+  locataire: Mme Corinne Bazin
+  entree: '2016-05-08'
+  loyer_hors_charges: 257,00 €
+  provision_sur_charges: 39,00 €
+  depot_de_garantie: 206,00 €
+  revision: chaque 8 mai
+  trimestre_irl: T1
+  dpe: D
+- lot: n02-03
+  type: T3
+  surface_m2: 56
+  etage: 0
+  proprietaire: p-0005
+  locataire: Mme Camille Buisson
+  entree: '2019-02-17'
+  loyer_hors_charges: 529,00 €
+  provision_sur_charges: 75,00 €
+  depot_de_garantie: 450,00 €
+  revision: chaque 17 février
+  trimestre_irl: T4
+  dpe: D
+- lot: n02-04
+  type: T2
+  surface_m2: 38
+  etage: 0
+  proprietaire: p-0012
+  locataire: M. Maxime Hubert
+  entree: '2016-09-29'
+  loyer_hors_charges: 350,00 €
+  provision_sur_charges: 86,00 €
+  depot_de_garantie: 286,00 €
+  revision: chaque 29 septembre
+  trimestre_irl: T2
+  dpe: E
+- lot: n02-05
+  type: T5
+  surface_m2: 99
+  etage: 1
+  proprietaire: p-0013
+  locataire: M. Bernard Lamy
+  entree: '2026-04-08'
+  loyer_hors_charges: 888,00 €
+  provision_sur_charges: 69,00 €
+  depot_de_garantie: 888,00 €
+  revision: chaque 8 avril
+  trimestre_irl: T4
+  dpe: E
+- lot: n02-06
+  type: T3
+  surface_m2: 61
+  etage: 1
+  proprietaire: p-0005
+  locataire: Mme Martine Raymond
+  entree: '2019-11-29'
+  loyer_hors_charges: 550,00 €
+  provision_sur_charges: 51,00 €
+  depot_de_garantie: 478,00 €
+  revision: chaque 29 novembre
+  trimestre_irl: T3
+  dpe: D
+- lot: n02-07
+  type: T1
+  surface_m2: 29
+  etage: 1
+  proprietaire: p-0004
+  locataire: Mme Julie Chabert
+  entree: '2023-04-13'
+  loyer_hors_charges: 258,00 €
+  provision_sur_charges: 47,00 €
+  depot_de_garantie: 240,00 €
+  revision: chaque 13 avril
+  trimestre_irl: T4
+  dpe: C
+- lot: n02-08
+  type: T2
+  surface_m2: 50
+  etage: 1
+  proprietaire: p-0008
+  locataire: M. Hugo Hubert
+  entree: '2023-11-02'
+  loyer_hors_charges: 457,00 €
+  provision_sur_charges: 41,00 €
+  depot_de_garantie: 435,00 €
+  revision: chaque 2 novembre
+  trimestre_irl: T3
+  dpe: B
+- lot: n02-09
+  type: T5
+  surface_m2: 101
+  etage: 2
+  proprietaire: p-0004
+  locataire: M. Albert Boisseau
+  entree: '2025-05-09'
+  loyer_hors_charges: 922,00 €
+  provision_sur_charges: 120,00 €
+  depot_de_garantie: 900,00 €
+  revision: chaque 9 mai
+  trimestre_irl: T1
+  dpe: D
+- lot: n02-10
+  type: T5
+  surface_m2: 99
+  etage: 2
+  proprietaire: p-0003
+  locataire: M. Claude Tissier
+  entree: '2016-08-17'
+  loyer_hors_charges: 816,00 €
+  provision_sur_charges: 83,00 €
+  depot_de_garantie: 666,00 €
+  revision: chaque 17 août
+  trimestre_irl: T2
+  dpe: F
+- lot: n02-11
+  type: T1
+  surface_m2: 30
+  etage: 2
+  proprietaire: p-0014
+  locataire: Mme Geneviève Bazin
+  entree: '2016-07-27'
+  loyer_hors_charges: 264,00 €
+  provision_sur_charges: 65,00 €
+  depot_de_garantie: 216,00 €
+  revision: chaque 27 juillet
+  trimestre_irl: T1
+  dpe: G
+- lot: n02-12
+  type: T4
+  surface_m2: 87
+  etage: 2
+  proprietaire: p-0015
+  locataire: Mme Claire Maillot
+  entree: '2020-02-01'
+  loyer_hors_charges: 686,00 €
+  provision_sur_charges: 80,00 €
+  depot_de_garantie: 597,00 €
+  revision: chaque 1er février
+  trimestre_irl: T4
+  dpe: D

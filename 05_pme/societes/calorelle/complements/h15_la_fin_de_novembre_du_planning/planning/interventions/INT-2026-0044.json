@@ -1,0 +1,14 @@
+{
+  "numero": "INT-2026-0044",
+  "client": "c-0274",
+  "techniciens": [
+    "nicolas.blanc",
+    "sebastien.noel"
+  ],
+  "debut": "2026-11-30T08:00:00+01:00",
+  "fin": "2026-11-30T12:00:00+01:00",
+  "nature": "installation",
+  "objet": "Pose de la climatisation de l'atelier, première demi-journée",
+  "statut": "planifiee",
+  "cree_par": "marc.duval"
+}

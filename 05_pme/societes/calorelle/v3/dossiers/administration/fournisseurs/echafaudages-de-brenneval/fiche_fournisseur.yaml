@@ -1,0 +1,8 @@
+# Fiche fournisseur Calorelle. Données FICTIVES.
+nom: "Échafaudages de Brenneval"
+activite: "échafaudages"
+adresse: "64 zone d'activité de la Courtine, 45999 Valmont-sur-Loire (FICTIF)"
+telephone: "02 61 91 20 36"
+courriel_facturation: "compta@echafaudages-de-brenneval.example"
+iban: "FR76 9999 9728 2770 8692 1602 395 (FICTIF)"
+conditions: "paiement à 30 jours fin de mois"

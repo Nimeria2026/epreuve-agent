@@ -1,0 +1,28 @@
+# Fiche du client c-0288 de Négovelle. Données FICTIVES.
+code: c-0288
+nom: Plâtrerie Martineau
+type: artisan
+adresse: 137 rue Saint-Martin, 36999 Saulvenne (FICTIF)
+telephone: 02 61 91 67 56
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Monique Valentin
+  fonction: gérante
+  courriel: monique.valentin@platrerie-martineau.example
+- nom: Sylvie Grenier
+  fonction: conjointe collaboratrice
+  courriel: sylvie.grenier@platrerie-martineau.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 137 rue Saint-Martin, 36999 Saulvenne (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2010-11-01'
+limite_encours_euros: 4000.0
+livraisons_partielles: true
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

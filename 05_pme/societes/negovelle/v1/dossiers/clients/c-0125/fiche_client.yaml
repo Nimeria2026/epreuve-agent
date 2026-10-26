@@ -1,0 +1,28 @@
+# Fiche du client c-0125 de Négovelle. Données FICTIVES.
+code: c-0125
+nom: Menuiserie Barbe
+type: artisan
+adresse: 132 impasse des Noyers, 36999 Vendrigny (FICTIF)
+telephone: 02 61 91 61 89
+secteur: est
+commercial: fabrice.mercier
+administration_des_ventes: benoit.faure
+contacts:
+- nom: Léa Morel
+  fonction: gérante
+  courriel: lea.morel@menuiserie-barbe.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 132 impasse des Noyers, 36999 Vendrigny (FICTIF)
+- code: L2
+  libelle: chantier déclaré
+  adresse: 46 rue de la Halle, 36999 Vendrigny (FICTIF)
+categorie_remise: C
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2016-12-01'
+limite_encours_euros: 1500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

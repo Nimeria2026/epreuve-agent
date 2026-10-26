@@ -1,0 +1,13 @@
+{
+  "numero": "INT-2026-0042",
+  "client": "c-0548",
+  "techniciens": [
+    "kevin.lambert"
+  ],
+  "debut": "2027-03-08T13:30:00+01:00",
+  "fin": "2027-03-08T15:30:00+01:00",
+  "nature": "mise_en_service",
+  "objet": "Mise en service de la chaudière gaz",
+  "statut": "planifiee",
+  "cree_par": "marc.duval"
+}

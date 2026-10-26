@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-pr-602",
+  "de": {
+    "nom": "Lucas Fontaine",
+    "adresse": "lucas.fontaine@calorelle.example"
+  },
+  "a": [
+    "patrick.roux@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Distri-Clim",
+  "date": "2026-11-30T08:25:00+01:00",
+  "corps": "Patrick,\n\nDistri-Clim m'a appelé : ma commande de pompes à chaleur pour le chantier de jeudi est bloquée tant qu'il leur manque un document de notre comptabilité, et ils parlent d'une facture échue. Tu peux régler ça vite ? Le chantier ne peut pas attendre. Et Outillage de Mirelande attend que la facture de la perceuse soit payée pour me livrer le reste de la commande : où en est-elle ?\n\nLucas (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

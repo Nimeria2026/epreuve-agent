@@ -1,0 +1,19 @@
+# Fiche du lot s29-03. Données FICTIVES.
+lot: s29-03
+adresse: 10 rue de l'Église, 18999 Sorlay-le-Haut (FICTIF)
+type: maison T3
+surface_m2: 80
+locataire:
+  nom: Mme Pauline Lainé
+  courriel: pauline.laine@boite-postale.example
+  telephone: 06 39 98 76 13
+  entree: '2012-09-12'
+bail:
+  signature: '2012-09-12'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 758,00 €
+  depot_de_garantie: 572,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T2
+dpe:
+  classe: D

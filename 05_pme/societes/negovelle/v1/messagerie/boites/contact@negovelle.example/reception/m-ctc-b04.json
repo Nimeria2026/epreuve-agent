@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-b04",
+  "de": {
+    "nom": "Alain Mignot",
+    "adresse": "alain.mignot@platrerie-desjardins.example"
+  },
+  "a": [
+    "contact@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Disponibilité",
+  "date": "2026-06-22T10:34:00+02:00",
+  "corps": "Bonjour,\n\nAvez-vous en stock la référence VIS-11715 ? Il m'en faudrait 10 pour la fin de semaine.\n\nMerci,\nAlain Mignot",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

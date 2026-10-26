@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-b01",
+  "de": {
+    "nom": "Léa Genet",
+    "adresse": "lea.genet@maconnerie-gallet.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande reçue, merci",
+  "date": "2026-07-02T15:10:00+02:00",
+  "corps": "Bonjour,\n\nLa livraison de ce matin est complète. Merci.\n\nLéa Genet",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

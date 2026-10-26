@@ -1,0 +1,49 @@
+{
+  "numero": "BL-2026-01852",
+  "commande": "CO-2026-02003",
+  "client": "c-0036",
+  "date_expedition": "2026-07-03",
+  "date_livraison": "2026-07-03",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "37 rue du Lavoir, 36999 Vendrigny (FICTIF)",
+  "colis": 3,
+  "lignes": [
+    {
+      "reference": "CON-12058",
+      "libelle": "Ruban adhésif aluminium 38 mm, rouleau de 33 m",
+      "quantite": 6
+    },
+    {
+      "reference": "ELE-10506",
+      "libelle": "Boîte d'encastrement triple 40 mm",
+      "quantite": 5
+    },
+    {
+      "reference": "ELP-11339",
+      "libelle": "Meuleuse d'angle 115 mm, 2000 W",
+      "quantite": 1
+    },
+    {
+      "reference": "FIX-12327",
+      "libelle": "Équerre de fixation 60x80x20 mm, galvanisée",
+      "quantite": 6
+    },
+    {
+      "reference": "PLB-11894",
+      "libelle": "Pâte à joint d'étanchéité eau, pot de 100 g",
+      "quantite": 2
+    },
+    {
+      "reference": "PLB-12074",
+      "libelle": "Raccord laiton réduction mâle-femelle 20x27",
+      "quantite": 6
+    }
+  ],
+  "reserves": null,
+  "signataire": "Delphine Salmon",
+  "statut": "livre"
+}

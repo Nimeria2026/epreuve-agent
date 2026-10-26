@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-b14",
+  "de": {
+    "nom": "Michel Bonnet",
+    "adresse": "michel.bonnet@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Attestation d'entretien",
+  "date": "2026-10-11T17:45:00+02:00",
+  "corps": "Bonjour,\n\nMon assurance me demande une attestation d'entretien.\n\nMichel Bonnet (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

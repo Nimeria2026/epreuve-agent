@@ -1,0 +1,59 @@
+{
+  "numero": "CO-2026-02048",
+  "client": "c-0272",
+  "reference_client": null,
+  "cree_le": "2026-08-10T09:30:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "2 rue du Moulin, 36999 Saulvenne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "PRO-10114",
+      "libelle": "Bottes de sécurité caoutchouc S5, pointure 40",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 62.0,
+      "remise_pourcent": 3.0,
+      "prix_net_ht_euros": 60.14,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 721.68
+    },
+    {
+      "reference": "OUT-12229",
+      "libelle": "Serre-joint à pompe 400 mm",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 31.95,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 31.95,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 191.7
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 913.38,
+  "total_tva_euros": 182.68,
+  "total_ttc_euros": 1096.06,
+  "statut": "en_attente_deblocage",
+  "motif_attente": "encours dépassé : encours 1 093,29 € et commande 1 096,06 € TTC pour une limite de 2 000,00 €",
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-08-10T09:30:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": "commande du client"
+    },
+    {
+      "date": "2026-08-10T09:31:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "mise_en_attente",
+      "detail": "encours dépassé"
+    }
+  ]
+}

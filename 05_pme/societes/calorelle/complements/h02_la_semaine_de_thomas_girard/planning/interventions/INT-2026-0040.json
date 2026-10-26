@@ -1,0 +1,13 @@
+{
+  "numero": "INT-2026-0040",
+  "client": "c-0405",
+  "techniciens": [
+    "thomas.girard"
+  ],
+  "debut": "2026-11-10T08:00:00+01:00",
+  "fin": "2026-11-10T09:30:00+01:00",
+  "nature": "visite_annuelle",
+  "objet": "Visite annuelle des deux chaudières fioul de la chaufferie",
+  "statut": "planifiee",
+  "cree_par": "marc.duval"
+}

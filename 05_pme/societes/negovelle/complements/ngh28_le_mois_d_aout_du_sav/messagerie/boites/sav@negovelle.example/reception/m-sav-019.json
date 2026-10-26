@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-019",
+  "de": {
+    "nom": "Sylvain Legendre",
+    "adresse": "sylvain.legendre@hardy-travaux-publics.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Scies manquantes",
+  "date": "2026-08-06T16:50:00+02:00",
+  "corps": "Bonjour,\n\nNous avions commandé 6 scies à métaux OUT-12033. La livraison du 16 juillet, BL-2026-01911, n'en apportait que 4, et nous n'avons jamais reçu les 2 autres. Merci de nous faire un avoir pour elles.\n\nSylvain Legendre\nHardy Travaux publics",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

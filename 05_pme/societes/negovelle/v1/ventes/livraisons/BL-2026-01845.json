@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01845",
+  "commande": "CO-2026-01996",
+  "client": "c-0114",
+  "date_expedition": "2026-07-03",
+  "date_livraison": "2026-07-03",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "10 zone industrielle des Brandes, 36999 Vendrigny (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ENT-10097",
+      "libelle": "Balai brosse PVC 50 cm",
+      "quantite": 3
+    },
+    {
+      "reference": "ENT-11004",
+      "libelle": "Sacs poubelle 130 l, transparents, rouleau de 10",
+      "quantite": 4
+    }
+  ],
+  "reserves": null,
+  "signataire": "François Pasquet",
+  "statut": "livre"
+}

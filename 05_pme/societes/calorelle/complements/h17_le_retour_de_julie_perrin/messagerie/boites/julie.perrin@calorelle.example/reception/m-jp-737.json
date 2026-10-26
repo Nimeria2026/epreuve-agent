@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-737",
+  "de": {
+    "nom": "Alain Bonnet",
+    "adresse": "alain.bonnet@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Pose de la pompe à chaleur",
+  "date": "2026-12-29T18:00:00+01:00",
+  "corps": "Bonjour,\n\nOn nous avait dit que la pompe à chaleur serait posée en janvier. Savez-vous quel jour ? Je dois prendre ma journée.\n\nAlain Bonnet, 8 rue Haute, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

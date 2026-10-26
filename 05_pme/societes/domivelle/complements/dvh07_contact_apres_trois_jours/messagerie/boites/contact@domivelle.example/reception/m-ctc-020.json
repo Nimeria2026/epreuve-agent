@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-ctc-020",
+  "de": {
+    "nom": "Recommandé électronique certifié",
+    "adresse": "envoi@lre-certifiee.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Lettre recommandée électronique de Mme Aurélie Brunet",
+  "date": "2026-06-05T09:30:00+02:00",
+  "corps": "Vous avez reçu une lettre recommandée électronique de Mme Aurélie Brunet, locataire du lot c01-15, déposée le 4 juin 2026. Objet : congé de son logement. La lettre est jointe.",
+  "pieces_jointes": [
+    {
+      "nom": "lettre_recommandee_brunet.pdf",
+      "fichier": "pieces/m-ctc-020/lettre_recommandee_brunet.pdf",
+      "taille_octets": 764
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

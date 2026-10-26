@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cop-003",
+  "de": {
+    "nom": "Julie Ferrand",
+    "adresse": "julie.ferrand@courriel.example"
+  },
+  "a": [
+    "copropriete@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Contrat de l'ascenseur",
+  "date": "2026-06-08T07:41:00+02:00",
+  "corps": "Bonjour,\n\nMembre du conseil syndical de la Résidence La Croix-Blanche, je voudrais consulter le contrat d'entretien de notre ascenseur avant la prochaine réunion du conseil.\n\nJulie Ferrand",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

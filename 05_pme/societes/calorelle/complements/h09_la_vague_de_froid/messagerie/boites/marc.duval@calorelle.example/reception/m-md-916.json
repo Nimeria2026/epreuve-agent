@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-916",
+  "de": {
+    "nom": "Sonia Lefèvre",
+    "adresse": "sonia.lefevre@calorelle.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Absence de Yanis",
+  "date": "2026-11-09T18:00:00+01:00",
+  "corps": "Marc,\n\nYanis Haddad sera absent le jeudi 12 et le vendredi 13 novembre.\n\nSonia (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

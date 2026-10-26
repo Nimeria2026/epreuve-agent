@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cop-601",
+  "de": {
+    "nom": "Éric Texier",
+    "adresse": "eric.texier@courriel.example"
+  },
+  "a": [
+    "copropriete@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Mon appel du 1er octobre",
+  "date": "2026-08-06T14:20:00+02:00",
+  "corps": "Bonjour,\n\nPouvez-vous me dire le montant de mon appel de charges du 1er octobre pour le lot 2 du Prieuré ? Je voudrais le prévoir.\n\nÉric Texier",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

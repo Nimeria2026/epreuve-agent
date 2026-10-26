@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-hm-501",
+  "de": {
+    "nom": "Patrick Roux",
+    "adresse": "patrick.roux@calorelle.example"
+  },
+  "a": [
+    "helene.marchal@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Virements à valider",
+  "date": "2026-11-12T10:05:00+01:00",
+  "corps": "Hélène,\n\nDeux virements au-delà de 1 500 € attendent ta validation :\n- GCC-2026-077, Gaines et conduits de la Courtine, 1 608,00 €, échéance le 14 novembre ;\n- DC-5602, Distri-Clim Centre, 1 788,00 €, échéance le 30 novembre.\n\nPatrick (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

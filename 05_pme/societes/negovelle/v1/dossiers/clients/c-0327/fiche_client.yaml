@@ -1,0 +1,31 @@
+# Fiche du client c-0327 de Négovelle. Données FICTIVES.
+code: c-0327
+nom: Couverture Grenier
+type: artisan
+adresse: 114 rue du Château, 36999 Mérolles-en-Brenne (FICTIF)
+telephone: 02 61 91 74 01
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Roger Gallet
+  fonction: gérant
+  courriel: roger.gallet@couverture-grenier.example
+- nom: Jacques Lagarde
+  fonction: conjoint collaborateur
+  courriel: jacques.lagarde@couverture-grenier.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 114 rue du Château, 36999 Mérolles-en-Brenne (FICTIF)
+- code: L2
+  libelle: chantier déclaré
+  adresse: 102 avenue de la Gare, 36999 Ardillac (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2012-01-01'
+limite_encours_euros: 2000.0
+livraisons_partielles: false
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

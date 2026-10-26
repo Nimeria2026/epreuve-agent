@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-001",
+  "de": {
+    "nom": "M. Henri Schmitt",
+    "adresse": "henri.schmitt@messagerie.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Quittance de mai",
+  "date": "2026-06-08T06:41:00+02:00",
+  "corps": "Bonjour,\n\nPouvez-vous m'envoyer ma quittance de loyer de mai ?\n\nHenri Schmitt, lot s02-05",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

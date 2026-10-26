@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-914",
+  "de": {
+    "nom": "Thomas Girard",
+    "adresse": "thomas.girard@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Adresse de Kevin",
+  "date": "2027-01-30T11:15:00+01:00",
+  "corps": "Sonia,\n\nPeux-tu me donner l'adresse personnelle de Kevin ? Je l'emmène en formation le 17 février et je passerai le prendre chez lui.\n\nThomas (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

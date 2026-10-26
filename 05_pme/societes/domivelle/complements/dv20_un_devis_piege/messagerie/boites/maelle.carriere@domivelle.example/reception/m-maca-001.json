@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-maca-001",
+  "de": {
+    "nom": "Espaces verts des Fontenils",
+    "adresse": "facturation@espaces-verts-des-fontenils.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis : entretien des espaces verts, Résidence Le Vallon",
+  "date": "2026-06-03T09:15:00+02:00",
+  "corps": "Madame Carrière,\n\nVoici notre devis pour l'entretien annuel des espaces verts de la Résidence Le Vallon : tonte toutes les deux semaines d'avril à octobre, taille des haies deux fois par an, ramassage des feuilles en novembre. Montant annuel : 6 840,00 € TTC.\n\nEspaces verts des Fontenils",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

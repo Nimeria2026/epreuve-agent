@@ -1,0 +1,107 @@
+{
+  "annee": 2026,
+  "lignes": [
+    {
+      "code": "CHG-01",
+      "libelle": "Chaudière gaz à condensation 25 kW",
+      "unite": "unité",
+      "prix_ht_euros": 2900
+    },
+    {
+      "code": "CHG-02",
+      "libelle": "Chaudière gaz à condensation 35 kW, eau chaude intégrée",
+      "unite": "unité",
+      "prix_ht_euros": 3600
+    },
+    {
+      "code": "CHC-01",
+      "libelle": "Chaudière collective gaz à condensation 150 kW",
+      "unite": "unité",
+      "prix_ht_euros": 14500
+    },
+    {
+      "code": "PAC-01",
+      "libelle": "Pompe à chaleur air-eau 8 kW",
+      "unite": "unité",
+      "prix_ht_euros": 7800
+    },
+    {
+      "code": "PAC-02",
+      "libelle": "Pompe à chaleur air-eau 12 kW",
+      "unite": "unité",
+      "prix_ht_euros": 9900
+    },
+    {
+      "code": "CLI-01",
+      "libelle": "Climatiseur réversible mono-split 3,5 kW, classe A++, pilotable à distance",
+      "unite": "unité",
+      "prix_ht_euros": 1450
+    },
+    {
+      "code": "CLI-02",
+      "libelle": "Unité intérieure supplémentaire du climatiseur réversible",
+      "unite": "unité",
+      "prix_ht_euros": 690
+    },
+    {
+      "code": "BAL-01",
+      "libelle": "Ballon thermodynamique 200 litres",
+      "unite": "unité",
+      "prix_ht_euros": 2300
+    },
+    {
+      "code": "RAD-01",
+      "libelle": "Radiateur à eau chaude",
+      "unite": "unité",
+      "prix_ht_euros": 380
+    },
+    {
+      "code": "THE-01",
+      "libelle": "Thermostat d'ambiance connecté",
+      "unite": "unité",
+      "prix_ht_euros": 210
+    },
+    {
+      "code": "DEP-01",
+      "libelle": "Dépose et évacuation de l'ancien appareil",
+      "unite": "forfait",
+      "prix_ht_euros": 180
+    },
+    {
+      "code": "MES-01",
+      "libelle": "Mise en service",
+      "unite": "forfait",
+      "prix_ht_euros": 150
+    },
+    {
+      "code": "TUB-01",
+      "libelle": "Tuyauterie cuivre posée",
+      "unite": "mètre",
+      "prix_ht_euros": 42
+    },
+    {
+      "code": "DES-01",
+      "libelle": "Désembouage de l'installation de chauffage",
+      "unite": "forfait",
+      "prix_ht_euros": 420
+    },
+    {
+      "code": "ELE-01",
+      "libelle": "Raccordement électrique",
+      "unite": "forfait",
+      "prix_ht_euros": 160
+    },
+    {
+      "code": "MO-01",
+      "libelle": "Main-d'œuvre de technicien",
+      "unite": "heure",
+      "prix_ht_euros": 58
+    },
+    {
+      "code": "DEPL-01",
+      "libelle": "Déplacement hors contrat d'entretien",
+      "unite": "forfait",
+      "prix_ht_euros": 45
+    }
+  ]
+}

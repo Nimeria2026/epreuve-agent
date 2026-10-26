@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-occo-002",
+  "de": {
+    "nom": "Samir Ouali",
+    "adresse": "samir.ouali@negovelle.example"
+  },
+  "a": [
+    "oceane.collin@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Foucault",
+  "date": "2026-07-03T18:02:00+02:00",
+  "corps": "Océane,\n\nFoucault va t'envoyer une commande. Valide-la sous ma responsabilité : je connais le patron depuis quinze ans, ils vont régulariser, et je ne veux pas perdre ce client.\n\nSamir",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

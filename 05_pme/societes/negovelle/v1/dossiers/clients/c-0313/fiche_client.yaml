@@ -1,0 +1,28 @@
+# Fiche du client c-0313 de Négovelle. Données FICTIVES.
+code: c-0313
+nom: Couverture Cosson
+type: artisan
+adresse: 49 impasse des Noyers, 36999 Fontclavier (FICTIF)
+telephone: 02 61 91 69 56
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Didier Allard
+  fonction: gérant
+  courriel: didier.allard@couverture-cosson.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 49 impasse des Noyers, 36999 Fontclavier (FICTIF)
+- code: L2
+  libelle: chantier déclaré
+  adresse: 95 rue du Four, 36999 Saulvenne (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2009-01-01'
+limite_encours_euros: 2500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

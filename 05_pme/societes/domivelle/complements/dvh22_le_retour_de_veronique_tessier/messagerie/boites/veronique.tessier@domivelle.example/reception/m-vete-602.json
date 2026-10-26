@@ -1,0 +1,29 @@
+{
+  "identifiant": "m-vete-602",
+  "de": {
+    "nom": "Cédric Maillard",
+    "adresse": "cedric.maillard@domivelle.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Ma note de frais de juillet",
+  "date": "2026-07-31T18:10:00+02:00",
+  "corps": "Véronique,\n\nVoici ma note de frais de juillet, avec ma voiture :\n\n| Date | Objet | Immeuble | Kilomètres | Stationnement, péage ou repas |\n|---|---|---|---|---|\n| 2 juillet 2026 | visite | c10 | 12 | 0,00 € |\n| 9 juillet 2026 | état des lieux | c21 | 10 | stationnement 1,80 € |\n| 16 juillet 2026 | visite technique | c27 | 12 | stationnement 2,50 € |\n| 23 juillet 2026 | déjeuner avec le plombier de c27 | - | 0 | repas 18,90 € |\n\nSoit 34 km à 0,40 €, 13,60 €, 4,30 € de stationnement et 18,90 € de repas : 36,80 €. Le ticket du 9 juillet est joint ; celui du 16, je l'ai perdu.\n\nCédric",
+  "pieces_jointes": [
+    {
+      "nom": "note_de_frais_cedric_maillard_2026-07.pdf",
+      "fichier": "pieces/m-vete-602/note_de_frais_cedric_maillard_2026-07.pdf",
+      "taille_octets": 759
+    },
+    {
+      "nom": "ticket_stationnement_2026-07-09.pdf",
+      "fichier": "pieces/m-vete-602/ticket_stationnement_2026-07-09.pdf",
+      "taille_octets": 765
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

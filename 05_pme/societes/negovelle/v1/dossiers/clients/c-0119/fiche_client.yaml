@@ -1,0 +1,28 @@
+# Fiche du client c-0119 de Négovelle. Données FICTIVES.
+code: c-0119
+nom: Peinture Chevrier
+type: artisan
+adresse: 114 rue du Moulin, 36999 Vendrigny (FICTIF)
+telephone: 02 61 91 74 77
+secteur: est
+commercial: fabrice.mercier
+administration_des_ventes: benoit.faure
+contacts:
+- nom: Jacques Pinson
+  fonction: gérant
+  courriel: jacques.pinson@peinture-chevrier.example
+- nom: Gilles Lagarde
+  fonction: conjoint collaborateur
+  courriel: gilles.lagarde@peinture-chevrier.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 114 rue du Moulin, 36999 Vendrigny (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2020-07-01'
+limite_encours_euros: 5500.0
+livraisons_partielles: true
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

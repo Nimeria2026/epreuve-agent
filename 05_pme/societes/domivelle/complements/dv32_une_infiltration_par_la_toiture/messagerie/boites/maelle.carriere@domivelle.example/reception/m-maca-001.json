@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-maca-001",
+  "de": {
+    "nom": "Sylvie Régnier",
+    "adresse": "sylvie.regnier@messagerie.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Infiltration par le toit",
+  "date": "2026-06-05T18:20:00+02:00",
+  "corps": "Madame Carrière,\n\nAvec l'orage de jeudi, l'eau est entrée par le toit : le plafond de ma chambre est mouillé et taché. Le couvreur est venu bâcher le toit cet après-midi. Que dois-je faire ? Faut-il que je déclare le sinistre à mon assureur ?\n\nSylvie Régnier, lot 18, Résidence Le Belvédère",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

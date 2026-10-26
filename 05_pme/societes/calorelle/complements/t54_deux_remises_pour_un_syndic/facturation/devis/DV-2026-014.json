@@ -1,0 +1,32 @@
+{
+  "numero": "DV-2026-014",
+  "client": "c-0180",
+  "objet": "Désembouage de l'installation collective",
+  "lignes": [
+    {
+      "code": "DES-01",
+      "libelle": "Désembouage de l'installation de chauffage",
+      "quantite": 2,
+      "prix_unitaire_ht_euros": 420,
+      "taux_tva": 10,
+      "montant_ht_euros": 840
+    },
+    {
+      "code": "MO-01",
+      "libelle": "Main-d'œuvre de technicien",
+      "quantite": 6,
+      "prix_unitaire_ht_euros": 58,
+      "taux_tva": 10,
+      "montant_ht_euros": 348
+    }
+  ],
+  "remise_pourcent": 0,
+  "total_ht_euros": 1188,
+  "total_tva_euros": 118.8,
+  "total_ttc_euros": 1306.8,
+  "statut": "envoye",
+  "cree_le": "2026-10-21T10:00:00+02:00",
+  "cree_par": "karim.benali",
+  "envoye_le": "2026-10-22T11:00:00+02:00",
+  "reponse_le": null
+}

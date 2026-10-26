@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-006",
+  "de": {
+    "nom": "Alice Cazenave",
+    "adresse": "alice.cazenave@chauffage-mahe.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Retour de forets",
+  "date": "2026-08-06T11:00:00+02:00",
+  "corps": "Bonjour,\n\nNous voudrions vous rendre 4 forets ELP-11298 de la livraison du 2 juillet, BL-2026-01894, que nous n'avons pas utilisés.\n\nAlice Cazenave\nChauffage Mahé",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

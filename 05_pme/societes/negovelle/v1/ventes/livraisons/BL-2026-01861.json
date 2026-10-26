@@ -1,0 +1,39 @@
+{
+  "numero": "BL-2026-01861",
+  "commande": "CO-2026-02018",
+  "client": "c-0023",
+  "date_expedition": "2026-07-03",
+  "date_livraison": null,
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "48 rue du Four, 36999 Vendrigny (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "FIX-12107",
+      "libelle": "Équerre de fixation 120x60x20 mm, zinguée",
+      "quantite": 10
+    },
+    {
+      "reference": "OUT-12229",
+      "libelle": "Serre-joint à pompe 400 mm",
+      "quantite": 10
+    },
+    {
+      "reference": "OUT-12547",
+      "libelle": "Spatule à enduire 60 mm",
+      "quantite": 2
+    },
+    {
+      "reference": "VIS-11004",
+      "libelle": "Vis à bois tête fraisée 3,5x50, zinguée, boîte de 500",
+      "quantite": 10
+    }
+  ],
+  "reserves": null,
+  "signataire": null,
+  "statut": "en_cours"
+}

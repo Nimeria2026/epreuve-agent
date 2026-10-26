@@ -1,0 +1,25 @@
+# Fiche du client c-0027 de Négovelle. Données FICTIVES.
+code: c-0027
+nom: Serrurerie Maurin
+type: artisan
+adresse: 124 rue des Jardins, 36999 Laubrissac (FICTIF)
+telephone: 02 61 91 63 28
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Hugo Clerc
+  fonction: gérant
+  courriel: hugo.clerc@serrurerie-maurin.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 124 rue des Jardins, 36999 Laubrissac (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2022-05-01'
+limite_encours_euros: 5000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

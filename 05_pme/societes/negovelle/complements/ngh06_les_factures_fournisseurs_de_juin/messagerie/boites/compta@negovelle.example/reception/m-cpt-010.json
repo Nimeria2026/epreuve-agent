@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-010",
+  "de": {
+    "nom": "Outillage des Brandes",
+    "adresse": "facturation@outillage-des-brandes.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture F95168 (nouvel envoi)",
+  "date": "2026-07-03T17:40:00+02:00",
+  "corps": "Bonjour,\n\nN'ayant pas reçu d'accusé de réception, nous vous adressons de nouveau notre facture F95168 du 11 juin, 2 708,64 € TTC, à échéance du 14 août.\n\nService facturation\nOutillage des Brandes",
+  "pieces_jointes": [
+    {
+      "nom": "F95168.pdf",
+      "fichier": "pieces/m-cpt-010/F95168.pdf",
+      "taille_octets": 883
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

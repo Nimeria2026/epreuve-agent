@@ -1,0 +1,79 @@
+{
+  "numero": "CO-2026-02071",
+  "client": "c-0227",
+  "reference_client": null,
+  "cree_le": "2026-07-20T10:00:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "83 chemin du Bois, 36999 Fontclavier (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "VIS-10236",
+      "libelle": "Boulon tête hexagonale M12x60, inox A2, sachet de 10",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 12.2,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 11.71,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 117.1
+    },
+    {
+      "reference": "FIX-10988",
+      "libelle": "Cheville à frapper 8x40, boîte de 100",
+      "quantite": 20,
+      "prix_tarif_ht_euros": 8.65,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 8.3,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 166.0
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 298.1,
+  "total_tva_euros": 59.62,
+  "total_ttc_euros": 357.72,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01891"
+  ],
+  "facture": "FC-2026-1461",
+  "historique": [
+    {
+      "date": "2026-07-20T10:00:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": "commande du client"
+    },
+    {
+      "date": "2026-07-20T10:05:00+02:00",
+      "par": "oceane.collin",
+      "action": "validee",
+      "detail": "stock réservé"
+    },
+    {
+      "date": "2026-07-21T16:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01891"
+    },
+    {
+      "date": "2026-07-22T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01891"
+    },
+    {
+      "date": "2026-07-31T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1461"
+    }
+  ]
+}

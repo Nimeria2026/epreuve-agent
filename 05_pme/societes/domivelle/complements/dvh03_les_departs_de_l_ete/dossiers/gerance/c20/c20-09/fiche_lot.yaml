@@ -1,0 +1,19 @@
+# Fiche du lot c20-09. Données FICTIVES.
+lot: c20-09
+adresse: 115 rue des Lilas, 18999 Montclavel-sur-Cher (FICTIF)
+type: T4
+surface_m2: 75
+locataire:
+  nom: Mme Josiane Joly
+  courriel: josiane.joly@mel-perso.example
+  telephone: 06 39 98 74 62
+  entree: '2018-06-04'
+bail:
+  signature: '2018-06-04'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 743,00 €
+  depot_de_garantie: 619,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T1
+dpe:
+  classe: F

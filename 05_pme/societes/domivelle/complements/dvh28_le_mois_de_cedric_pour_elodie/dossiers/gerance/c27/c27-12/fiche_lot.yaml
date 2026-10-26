@@ -1,0 +1,19 @@
+# Fiche du lot c27-12. Données FICTIVES.
+lot: c27-12
+adresse: 86 rue de la Croix-Blanche, 18999 Montclavel-sur-Cher (FICTIF)
+type: T3
+surface_m2: 64
+locataire:
+  nom: M. Vincent Verdier
+  courriel: vincent.verdier@boite-postale.example
+  telephone: 06 39 98 77 28
+  entree: '2019-08-02'
+bail:
+  signature: '2019-08-02'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 701,00 €
+  depot_de_garantie: 610,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T2
+dpe:
+  classe: C

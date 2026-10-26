@@ -1,0 +1,24 @@
+# Fiche du lot s02-08. Données FICTIVES.
+lot: s02-08
+adresse: 130 rue Émile-Zola, 18999 Chantebrune (FICTIF)
+type: T1
+surface_m2: 33
+locataire:
+  nom: M. Arnaud Royer
+  courriel: arnaud.royer@courriel.example
+  telephone: 06 39 98 81 76
+  entree: '2016-08-25'
+bail:
+  signature: '2016-08-25'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 293,00 €
+  depot_de_garantie: 239,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T2
+dpe:
+  classe: D
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

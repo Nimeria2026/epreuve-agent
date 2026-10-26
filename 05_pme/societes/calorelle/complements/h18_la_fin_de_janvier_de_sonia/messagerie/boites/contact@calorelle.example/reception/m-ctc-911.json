@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-911",
+  "de": {
+    "nom": "Fumisterie du Clos-Fargeau",
+    "adresse": "compta@fumisterie-du-clos-fargeau.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Nos nouvelles coordonnées bancaires",
+  "date": "2027-01-30T09:15:00+01:00",
+  "corps": "Bonjour,\n\nNotre société change de banque au 1er février. Merci de régler désormais nos factures sur notre nouveau compte : FR76 9999 9771 0034 5521 8800 417.\n\nFumisterie du Clos-Fargeau (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

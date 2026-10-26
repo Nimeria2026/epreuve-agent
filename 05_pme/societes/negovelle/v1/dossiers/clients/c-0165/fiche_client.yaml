@@ -1,0 +1,28 @@
+# Fiche du client c-0165 de Négovelle. Données FICTIVES.
+code: c-0165
+nom: Rouxel et Fils
+type: entreprise
+adresse: 11 parc d'activités de la Gare, 36999 Ardillac (FICTIF)
+telephone: 02 61 91 89 36
+secteur: est
+commercial: fabrice.mercier
+administration_des_ventes: benoit.faure
+contacts:
+- nom: Patrice Chevrier
+  fonction: conducteur de travaux
+  courriel: patrice.chevrier@rouxel-et-fils.example
+- nom: Jean Baillet
+  fonction: responsable des achats
+  courriel: jean.baillet@rouxel-et-fils.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 11 parc d'activités de la Gare, 36999 Ardillac (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2025-07-01'
+limite_encours_euros: 5000.0
+livraisons_partielles: true
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

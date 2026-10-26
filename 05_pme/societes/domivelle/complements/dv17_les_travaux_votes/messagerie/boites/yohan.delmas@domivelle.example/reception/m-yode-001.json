@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-yode-001",
+  "de": {
+    "nom": "Couverture du Gué-Morin",
+    "adresse": "facturation@couverture-du-gue-morin.example"
+  },
+  "a": [
+    "yohan.delmas@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Résidence Les Bruyères : démarrage des chantiers",
+  "date": "2026-06-05T11:36:00+02:00",
+  "corps": "Monsieur Delmas,\n\nNous pouvons commencer les deux chantiers votés le 12 mai à la Résidence Les Bruyères, l'étanchéité de la toiture-terrasse et l'isolation des combles, dès le lundi 15 juin. Merci de nous confirmer que nous pouvons démarrer les deux à cette date.\n\nCouverture du Gué-Morin",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

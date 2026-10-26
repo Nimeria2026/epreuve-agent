@@ -1,0 +1,49 @@
+{
+  "numero": "BL-2026-01744",
+  "commande": "CO-2026-01895",
+  "client": "c-0178",
+  "date_expedition": "2026-06-26",
+  "date_livraison": "2026-06-26",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "7 zone industrielle des Brandes, 36999 Vaumoreau-sur-Indre (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "ELE-10685",
+      "libelle": "Collier de serrage 100x4,8 mm, sachet de 100",
+      "quantite": 6
+    },
+    {
+      "reference": "ELE-11559",
+      "libelle": "Disjoncteur phase-neutre 16 A, courbe D",
+      "quantite": 2
+    },
+    {
+      "reference": "ENT-10244",
+      "libelle": "Balai à franges 80 cm",
+      "quantite": 2
+    },
+    {
+      "reference": "PRO-11314",
+      "libelle": "Manchettes anticoupure 35 cm",
+      "quantite": 3
+    },
+    {
+      "reference": "QUI-10710",
+      "libelle": "Charnière de meuble à visser 80 mm, laiton",
+      "quantite": 2
+    },
+    {
+      "reference": "VIS-13038",
+      "libelle": "Vis à bois tête fraisée 5x70, bichromatée, boîte de 200",
+      "quantite": 4
+    }
+  ],
+  "reserves": null,
+  "signataire": "Aurélie Valentin",
+  "statut": "livre"
+}

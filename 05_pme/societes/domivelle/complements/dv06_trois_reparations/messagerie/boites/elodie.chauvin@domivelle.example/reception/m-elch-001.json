@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-elch-001",
+  "de": {
+    "nom": "Mme Camille Buisson",
+    "adresse": "camille.buisson@mel-perso.example"
+  },
+  "a": [
+    "elodie.chauvin@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Plus d'eau chaude",
+  "date": "2026-06-01T08:15:00+02:00",
+  "corps": "Bonjour,\n\nDepuis samedi, notre chauffe-eau ne chauffe plus du tout : nous n'avons que de l'eau froide.\n\nCamille Buisson, lot n02-03",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

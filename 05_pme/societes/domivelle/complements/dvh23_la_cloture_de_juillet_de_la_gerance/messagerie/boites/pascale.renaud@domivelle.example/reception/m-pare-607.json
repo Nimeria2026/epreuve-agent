@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-pare-607",
+  "de": {
+    "nom": "Quentin Mallet",
+    "adresse": "quentin.mallet@domivelle.example"
+  },
+  "a": [
+    "pascale.renaud@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Ma note de frais de juillet",
+  "date": "2026-08-03T08:40:00+02:00",
+  "corps": "Pascale,\n\nJ'ai envoyé ma note de frais de juillet à Véronique vendredi soir, mais elle est partie sans la viser. Tu peux me la régler avec la paie de juillet ? C'est 29,50 €.\n\nQuentin",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

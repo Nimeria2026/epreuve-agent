@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-viar-b01",
+  "de": {
+    "nom": "Outillage du Moulin-Neuf",
+    "adresse": "commandes@outillage-du-moulin-neuf.example"
+  },
+  "a": [
+    "vincent.arnaud@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Nouveau tarif au 1er septembre",
+  "date": "2026-06-30T14:31:00+02:00",
+  "corps": "Bonjour,\n\nVous trouverez notre tarif de rentrée dans notre prochain envoi.\n\nOutillage du Moulin-Neuf",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-isro-001",
+  "de": {
+    "nom": "Guy Fleurot",
+    "adresse": "guy.fleurot@electricite-chartier.example"
+  },
+  "a": [
+    "isabelle.royer@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Notre commande CO-2026-02043",
+  "date": "2026-07-06T07:30:00+02:00",
+  "corps": "Madame,\n\nNotre commande CO-2026-02043 est bloquée. Nous réglerons notre facture FC-2026-0708 en fin de semaine, c'est promis : pouvez-vous la libérer dès aujourd'hui ?\n\nGuy Fleurot\nÉlectricité Chartier",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

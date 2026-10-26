@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-822",
+  "de": {
+    "nom": "Établissements Bernard",
+    "adresse": "contact@etablissements-bernard-17.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Double règlement de FC-2026-0402",
+  "date": "2026-11-20T15:45:00+01:00",
+  "corps": "Bonjour,\n\nNous vous avons réglé deux fois votre facture FC-2026-0402 de 2 120,00 €, par deux virements, le 17 et le 18 novembre. Merci de nous rembourser le second.\n\nÉtablissements Bernard, comptabilité (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

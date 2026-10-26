@@ -1,0 +1,28 @@
+# Fiche du client c-0270 de Négovelle. Données FICTIVES.
+code: c-0270
+nom: Imprimerie Drouet
+type: pme
+adresse: 8 zone d'activités des Grands Prés, 36999 Vaumoreau-sur-Indre (FICTIF)
+telephone: 02 61 91 82 39
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Robert Martineau
+  fonction: responsable des achats
+  courriel: robert.martineau@imprimerie-drouet.example
+- nom: Isabelle Ruel
+  fonction: responsable de maintenance
+  courriel: isabelle.ruel@imprimerie-drouet.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 8 zone d'activités des Grands Prés, 36999 Vaumoreau-sur-Indre (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2023-04-01'
+limite_encours_euros: 4500.0
+livraisons_partielles: false
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

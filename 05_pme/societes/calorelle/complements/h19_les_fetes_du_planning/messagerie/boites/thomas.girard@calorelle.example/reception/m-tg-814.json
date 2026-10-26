@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-tg-814",
+  "de": {
+    "nom": "Antoine Leroy",
+    "adresse": "antoine.leroy@calorelle.example"
+  },
+  "a": [
+    "thomas.girard@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Compte rendu : Hélène Legrand",
+  "date": "2026-12-17T17:30:00+01:00",
+  "corps": "Thomas,\n\nLe compte rendu du dépannage de ce matin chez Hélène Legrand (c-0036) : l'électrode d'allumage est hors d'usage, je n'avais pas la pièce ; Lucas la commande, il faudra y retourner. La cliente demande aussi un devis pour un thermostat connecté.\n\nAntoine (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "CR_Legrand.pdf",
+      "fichier": "pieces/m-tg-814/CR_Legrand.pdf",
+      "taille_octets": 1023
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

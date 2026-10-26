@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-aubo-016",
+  "de": {
+    "nom": "Denis Salmon",
+    "adresse": "denis.salmon@moulin-renovation.example"
+  },
+  "a": [
+    "aurelie.bonnefoy@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Nouveau chantier",
+  "date": "2026-08-20T14:00:00+02:00",
+  "corps": "Bonjour Aurélie,\n\nNous ouvrons un chantier à Corvalet, 4 rue des Tanneurs, du 1er au 30 septembre. Pouvez-vous y livrer nos prochaines commandes ?\n\nCordialement,\n\nDenis Salmon\nMoulin Rénovation",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

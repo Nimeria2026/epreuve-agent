@@ -1,0 +1,49 @@
+{
+  "numero": "BL-2026-01667",
+  "commande": "CO-2026-01818",
+  "client": "c-0174",
+  "date_expedition": "2026-06-23",
+  "date_livraison": "2026-06-23",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "9 zone artisanale du Moulin, 36999 Brissonne (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "CON-12245",
+      "libelle": "Ruban adhésif double face 25 mm, rouleau de 25 m",
+      "quantite": 60
+    },
+    {
+      "reference": "ENT-10147",
+      "libelle": "Balai d'atelier 40 cm",
+      "quantite": 6
+    },
+    {
+      "reference": "PLB-12695",
+      "libelle": "Siphon de douche 32 mm",
+      "quantite": 10
+    },
+    {
+      "reference": "QUI-11559",
+      "libelle": "Cylindre européen 40x30 mm, 3 clés",
+      "quantite": 10
+    },
+    {
+      "reference": "QUI-12850",
+      "libelle": "Serrure à larder à cylindre, axe 40 mm",
+      "quantite": 1
+    },
+    {
+      "reference": "VIS-11184",
+      "libelle": "Vis à bois tête fraisée 3x16, inox A2, boîte de 500",
+      "quantite": 5
+    }
+  ],
+  "reserves": null,
+  "signataire": "Geneviève Bellanger",
+  "statut": "livre"
+}

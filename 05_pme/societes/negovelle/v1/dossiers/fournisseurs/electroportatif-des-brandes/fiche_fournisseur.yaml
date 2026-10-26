@@ -1,0 +1,10 @@
+# Fiche d'un fournisseur de Négovelle. Données FICTIVES.
+nom: Électroportatif des Brandes
+activite: distributeur d'outillage électroportatif
+adresse: 6 zone industrielle des Brandes, 36999 Laubrissac (FICTIF)
+telephone: 02 61 91 86 13
+courriel_commandes: commandes@electroportatif-des-brandes.example
+courriel_facturation: facturation@electroportatif-des-brandes.example
+iban: FR76 9999 9562 8915 3696 4723 487 (FICTIF)
+conditions: paiement à 30 jours date de facture
+minimum_de_commande: 150,00 € HT

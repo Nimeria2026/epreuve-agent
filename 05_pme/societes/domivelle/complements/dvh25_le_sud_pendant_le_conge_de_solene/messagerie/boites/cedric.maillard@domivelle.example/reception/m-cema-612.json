@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cema-612",
+  "de": {
+    "nom": "Pierre Martel",
+    "adresse": "pierre.martel@messagerie.example"
+  },
+  "a": [
+    "cedric.maillard@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "De l'eau coule du plafond",
+  "date": "2026-09-07T07:35:00+02:00",
+  "corps": "Bonjour,\n\nDepuis cette nuit, de l'eau coule sans arrêt du plafond de ma salle de bains ; elle vient sans doute de l'appartement du dessus. J'ai mis une bassine. Pouvez-vous envoyer quelqu'un vite ?\n\nPierre Martel, lot c25-09, 2e étage",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

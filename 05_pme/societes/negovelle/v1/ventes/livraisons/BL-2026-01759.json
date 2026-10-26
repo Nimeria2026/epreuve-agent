@@ -1,0 +1,44 @@
+{
+  "numero": "BL-2026-01759",
+  "commande": "CO-2026-01910",
+  "client": "c-0096",
+  "date_expedition": "2026-06-29",
+  "date_livraison": "2026-06-29",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "47 rue du Moulin, 36999 Mérolles-en-Brenne (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "ELE-11069",
+      "libelle": "Câble R2V 3G 2,5 mm², couronne de 100 m",
+      "quantite": 1
+    },
+    {
+      "reference": "ELE-13323",
+      "libelle": "Spot encastrable LED 7 W, 3000 K, blanc",
+      "quantite": 2
+    },
+    {
+      "reference": "ENT-11224",
+      "libelle": "Sacs à gravats 120 l, paquet de 25",
+      "quantite": 5
+    },
+    {
+      "reference": "OUT-12033",
+      "libelle": "Scie à métaux 300 mm",
+      "quantite": 5
+    },
+    {
+      "reference": "VIS-11796",
+      "libelle": "Vis à bois tête fraisée 4,5x30, bichromatée, boîte de 100",
+      "quantite": 3
+    }
+  ],
+  "reserves": null,
+  "signataire": "Roger Boisson",
+  "statut": "livre"
+}

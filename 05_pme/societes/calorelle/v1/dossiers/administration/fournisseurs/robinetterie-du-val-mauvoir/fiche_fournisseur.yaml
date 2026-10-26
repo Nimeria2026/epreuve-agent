@@ -1,0 +1,8 @@
+# Fiche fournisseur Calorelle. Données FICTIVES.
+nom: "Robinetterie du Val-Mauvoir"
+activite: "robinetterie"
+adresse: "72 zone d'activité du Val-Mauvoir, 45999 Valmont-sur-Loire (FICTIF)"
+telephone: "02 61 91 20 44"
+courriel_facturation: "compta@robinetterie-du-val-mauvoir.example"
+iban: "FR76 9999 9388 0350 2688 4602 548 (FICTIF)"
+conditions: "paiement à 30 jours fin de mois"

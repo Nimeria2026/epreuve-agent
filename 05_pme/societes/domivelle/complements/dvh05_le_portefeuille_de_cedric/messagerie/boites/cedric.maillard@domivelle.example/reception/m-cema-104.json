@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cema-104",
+  "de": {
+    "nom": "Laurent Faure",
+    "adresse": "laurent.faure@messagerie.example"
+  },
+  "a": [
+    "cedric.maillard@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Fuite sous l'évier",
+  "date": "2026-06-07T21:10:00+02:00",
+  "corps": "Bonjour,\n\nDepuis ce soir, l'eau coule sans arrêt sous l'évier de la cuisine, au raccord du tuyau : j'ai mis une bassine et coupé l'eau de la cuisine quand je peux, mais elle continue de couler dès que je la rouvre. Pouvez-vous envoyer quelqu'un ?\n\nLaurent Faure, lot c15-04",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

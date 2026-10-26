@@ -1,0 +1,28 @@
+# Fiche du client c-0248 de Négovelle. Données FICTIVES.
+code: c-0248
+nom: Serrurerie Foucault
+type: artisan
+adresse: 114 place du Marché, 36999 Ardillac (FICTIF)
+telephone: 02 61 91 96 99
+secteur: est
+commercial: fabrice.mercier
+administration_des_ventes: benoit.faure
+contacts:
+- nom: Vincent Tixier
+  fonction: gérant
+  courriel: vincent.tixier@serrurerie-foucault.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 114 place du Marché, 36999 Ardillac (FICTIF)
+- code: L2
+  libelle: chantier déclaré
+  adresse: 72 rue des Remparts, 36999 Laubrissac (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2024-09-01'
+limite_encours_euros: 2000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

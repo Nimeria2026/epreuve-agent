@@ -1,0 +1,13 @@
+{
+  "numero": "INT-2026-0041",
+  "client": "c-0089",
+  "techniciens": [
+    "romain.guerin"
+  ],
+  "debut": "2027-01-14T08:00:00+01:00",
+  "fin": "2027-01-14T12:00:00+01:00",
+  "nature": "installation",
+  "objet": "Pose du ballon thermodynamique (DV-2026-014)",
+  "statut": "planifiee",
+  "cree_par": "marc.duval"
+}

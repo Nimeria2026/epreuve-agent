@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-maca-614",
+  "de": {
+    "nom": "Couverture des Rouches",
+    "adresse": "facturation@couverture-des-rouches.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Toiture du lot c22-04",
+  "date": "2026-09-03T17:00:00+02:00",
+  "corps": "Madame,\n\nMme Thibault, propriétaire de la maison c22-04, nous a donné son accord par téléphone pour la réfection de la toiture, 2 400,00 € TTC. Nous attendons votre bon de commande pour commencer lundi 14 septembre.\n\nCouverture des Rouches",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

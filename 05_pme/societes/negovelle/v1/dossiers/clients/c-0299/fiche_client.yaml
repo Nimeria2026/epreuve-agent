@@ -1,0 +1,28 @@
+# Fiche du client c-0299 de Négovelle. Données FICTIVES.
+code: c-0299
+nom: Boulay Maintenance
+type: entreprise
+adresse: 37 zone industrielle des Brandes, 36999 Saulvenne (FICTIF)
+telephone: 02 61 91 95 17
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Guy Simonet
+  fonction: conducteur de travaux
+  courriel: guy.simonet@boulay-maintenance.example
+- nom: Luc Billard
+  fonction: responsable des achats
+  courriel: luc.billard@boulay-maintenance.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 37 zone industrielle des Brandes, 36999 Saulvenne (FICTIF)
+categorie_remise: C
+delai_paiement: 60_jours_date_de_facture
+client_depuis: '2010-12-01'
+limite_encours_euros: 5500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

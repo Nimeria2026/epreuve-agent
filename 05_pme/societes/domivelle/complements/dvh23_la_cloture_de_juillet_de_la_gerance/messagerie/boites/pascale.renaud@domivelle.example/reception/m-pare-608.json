@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-pare-608",
+  "de": {
+    "nom": "Cédric Maillard",
+    "adresse": "cedric.maillard@domivelle.example"
+  },
+  "a": [
+    "pascale.renaud@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Régularisation 2025 de c14-04",
+  "date": "2026-07-31T11:30:00+02:00",
+  "corps": "Pascale,\n\nVoici la régularisation des charges de 2025 de M. Philippe Cordier, lot c14-04, à porter à son compte ; je lui envoie le décompte la semaine prochaine. Sa part, d'après le décompte du syndic de l'immeuble :\n\n| Nature | Répartition | Part du lot |\n|---|---|---|\n| eau froide | au compteur | 296,40 € |\n| ascenseur, entretien | tantièmes de l'ascenseur | 168,00 € |\n| entretien des parties communes | tantièmes généraux | 232,80 € |\n| gardien, salaire et charges | tantièmes généraux | 512,00 € |\n| honoraires du syndic | tantièmes généraux | 141,60 € |\n| assurance de l'immeuble | tantièmes généraux | 88,20 € |\n\nTotal : 1 439,00 €, pour 1 164,00 € de provisions versées en 2025 (douze fois 97,00 €) : il doit 275,00 €. Le gardien de c14 fait l'entretien des parties communes et sort les poubelles.\n\nCédric",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

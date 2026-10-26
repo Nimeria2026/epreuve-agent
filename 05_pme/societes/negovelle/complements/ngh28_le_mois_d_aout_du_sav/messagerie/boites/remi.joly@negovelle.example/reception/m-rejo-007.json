@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-rejo-007",
+  "de": {
+    "nom": "Nathalie Brunet",
+    "adresse": "nathalie.brunet@negovelle.example"
+  },
+  "a": [
+    "remi.joly@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Une boîte manquante",
+  "date": "2026-08-07T16:37:00+02:00",
+  "corps": "Rémi, un de mes dossiers ouverts, à reprendre.\n\nNathalie\n\n----- Message transféré -----\nDe : Lucie Belin <lucie.belin@syndicat-intercommunal-des-eaux-de-la-brenne.example>\nDate : 2026-07-28T10:00:00+02:00\nObjet : Une boîte manquante\n\nBonjour,\n\nIl manque une boîte de goujons FIX-11519 dans la livraison d'hier, BL-2026-01885. Pouvez-vous nous l'avoir ?\n\nLucie Belin\nSyndicat intercommunal des eaux de la Brenne",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

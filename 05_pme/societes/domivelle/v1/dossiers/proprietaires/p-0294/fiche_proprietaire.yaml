@@ -1,0 +1,11 @@
+# Fiche du propriétaire p-0294, mandant de Domivelle. Données FICTIVES.
+code: p-0294
+nom: Mme Julie Coste
+adresse: 113 rue du Pont, 18999 Saint-Aubrin-des-Bois (FICTIF)
+courriel: julie.coste@messagerie.example
+telephone: 06 39 98 82 38
+iban: FR76 9999 9889 6392 3235 4505 246 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- n05-16
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

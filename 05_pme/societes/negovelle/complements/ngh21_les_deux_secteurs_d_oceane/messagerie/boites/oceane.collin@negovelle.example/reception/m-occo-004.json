@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-occo-004",
+  "de": {
+    "nom": "Fabienne Barre",
+    "adresse": "fabienne.barre@menuiserie-navarre.example"
+  },
+  "a": [
+    "oceane.collin@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-06T07:20:00+02:00",
+  "corps": "Bonjour Océane,\n\nVoici notre commande, à livrer au siège :\n- 3 x ELE-12384, Interrupteur différentiel 40 A 30 mA, type AC\n- 4 x QUI-11274, Coulisse de tiroir à fermeture amortie 300 mm, la paire\n\nMerci,\nFabienne Barre\nMenuiserie Navarre",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

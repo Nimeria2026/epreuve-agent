@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-739",
+  "de": {
+    "nom": "Nathalie André",
+    "adresse": "nathalie.andre@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Dépannage le samedi ?",
+  "date": "2026-12-27T11:00:00+01:00",
+  "corps": "Bonjour,\n\nPas de panne pour l'instant, mais je me pose la question pour cet hiver : si notre chaudière tombe en panne un samedi, notre contrat Sérénité Plus nous garantit-il un dépannage dans le week-end ?\n\nNathalie André, 14 allée des Peupliers, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

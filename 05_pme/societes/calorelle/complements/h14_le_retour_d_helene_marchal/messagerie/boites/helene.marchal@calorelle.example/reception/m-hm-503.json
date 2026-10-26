@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-hm-503",
+  "de": {
+    "nom": "Établissements Mercier",
+    "adresse": "contact@etablissements-mercier-168.example"
+  },
+  "a": [
+    "helene.marchal@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Climatisation de notre salle de réunion",
+  "date": "2026-11-09T14:00:00+01:00",
+  "corps": "Madame Marchal,\n\nNous voudrions faire climatiser notre salle de réunion avant l'été. Pouvez-vous nous envoyer quelqu'un pour un devis ?\n\nÉtablissements Mercier (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

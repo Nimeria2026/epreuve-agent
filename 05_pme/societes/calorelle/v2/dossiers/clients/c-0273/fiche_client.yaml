@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0273"
+nom: "Syndic de la Résidence des Grèves"
+type: "syndic"
+adresse: "3 rue du Moulin, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "contact@syndic-de-la-residence-des-greves-273.example"
+telephone: "02 61 91 35 67"
+charge_d_affaires: "karim.benali"
+contrat:
+  formule: "Sérénité"
+  depuis: "2018-10-10"
+  mois_anniversaire: "octobre"
+  derniere_visite: "2026-10-06"

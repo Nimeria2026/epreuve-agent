@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-404",
+  "de": {
+    "nom": "Alain Dubois",
+    "adresse": "alain.dubois@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Votre nouveau devis",
+  "date": "2026-11-02T07:40:00+01:00",
+  "corps": "Bonjour Madame Perrin,\n\nEn mars, vous m'aviez fait un devis de pompe à chaleur que j'avais refusé ; celui que vous m'avez envoyé le 12 octobre est nettement plus cher. Pouvez-vous m'expliquer d'où vient la différence ?\n\nCordialement,\nAlain Dubois (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

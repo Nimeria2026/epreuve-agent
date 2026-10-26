@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-616",
+  "de": {
+    "nom": "Commune des Saulaies",
+    "adresse": "contact@commune-des-saulaies-399.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Consultation : chauffage de l'école maternelle",
+  "date": "2026-11-20T18:50:00+01:00",
+  "corps": "Bonjour Monsieur Benali,\n\nLa commune consulte trois entreprises pour remplacer la chaudière fioul de l'école maternelle par une pompe à chaleur. Les offres sont à remettre au secrétariat de la mairie au plus tard le lundi 30 novembre à 12 h. M. Picard a fait la visite technique lundi : merci de nous adresser votre devis.\n\nCordialement,\nLe secrétariat de la mairie des Saulaies (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

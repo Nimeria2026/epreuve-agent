@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-008",
+  "de": {
+    "nom": "Éric Mignot",
+    "adresse": "eric.mignot@charpente-humbert.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Disques en trop",
+  "date": "2026-07-03T16:40:00+02:00",
+  "corps": "Bonjour,\n\nNous avons 2 boîtes de disques à lamelles (CON-11176) en trop sur la livraison BL-2026-01806 du 1er juillet. Elles sont neuves. Je peux vous les rapporter mercredi ?\n\nÉric Mignot\nCharpente Humbert",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

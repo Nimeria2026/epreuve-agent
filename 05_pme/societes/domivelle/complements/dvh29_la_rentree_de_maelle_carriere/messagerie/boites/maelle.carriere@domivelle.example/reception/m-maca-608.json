@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-maca-608",
+  "de": {
+    "nom": "Ascenseurs du Moulin-Barrat",
+    "adresse": "facturation@ascenseurs-du-moulin-barrat.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Contrat d'entretien, Résidence Les Hortensias",
+  "date": "2026-08-28T14:00:00+02:00",
+  "corps": "Madame,\n\nÀ compter du 1er janvier 2027, l'entretien des ascenseurs de la Résidence Les Hortensias passera de 3 735,00 € à 4 200,00 € TTC par an. Merci de nous confirmer votre accord.\n\nAscenseurs du Moulin-Barrat",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-504",
+  "de": {
+    "nom": "Commune des Grèves",
+    "adresse": "contact@commune-des-greves-332.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Prochaine visite d'entretien",
+  "date": "2026-11-17T08:10:00+01:00",
+  "corps": "Bonjour Monsieur Benali,\n\nNous préparons le calendrier des travaux de l'école pour 2027. À quelle date aura lieu la prochaine visite d'entretien de la chaufferie ? Pourriez-vous aussi nous renvoyer une copie de notre contrat d'entretien ? Nous ne retrouvons plus la nôtre.\n\nCordialement,\nLe secrétariat de la mairie des Grèves (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

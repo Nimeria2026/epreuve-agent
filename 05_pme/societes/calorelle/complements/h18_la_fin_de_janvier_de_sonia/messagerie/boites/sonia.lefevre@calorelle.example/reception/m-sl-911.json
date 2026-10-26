@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-sl-911",
+  "de": {
+    "nom": "Jade Lemoine",
+    "adresse": "jade.lemoine@courriel.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Mon contrat d'apprentissage",
+  "date": "2027-01-29T15:00:00+01:00",
+  "corps": "Bonjour Madame Lefèvre,\n\nVoici mon contrat d'apprentissage signé. Je commence chez vous le lundi 1er mars, après ma période au CFA. Mon alternance me ramène ensuite au CFA du lundi 15 au vendredi 26 mars, puis du lundi 12 au vendredi 23 avril.\n\nJade Lemoine (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "contrat_apprentissage_Lemoine.pdf",
+      "fichier": "pieces/m-sl-911/contrat_apprentissage_Lemoine.pdf",
+      "taille_octets": 818
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

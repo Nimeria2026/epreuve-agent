@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0063"
+nom: "Établissements François"
+type: "entreprise"
+adresse: "52 rue du Moulin, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "contact@etablissements-francois-63.example"
+telephone: "02 61 91 35 14"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2020-01-01"
+  mois_anniversaire: "janvier"
+  derniere_visite: "2026-01-25"

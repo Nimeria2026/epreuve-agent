@@ -1,0 +1,28 @@
+# Fiche du client c-0209 de Négovelle. Données FICTIVES.
+code: c-0209
+nom: Chauffage Gonnet
+type: artisan
+adresse: 44 place du Marché, 36999 Vaumoreau-sur-Indre (FICTIF)
+telephone: 02 61 91 88 94
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Geneviève Dufour
+  fonction: gérante
+  courriel: genevieve.dufour@chauffage-gonnet.example
+- nom: Denise Delaunay
+  fonction: conjointe collaboratrice
+  courriel: denise.delaunay@chauffage-gonnet.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 44 place du Marché, 36999 Vaumoreau-sur-Indre (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2015-05-01'
+limite_encours_euros: 1000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

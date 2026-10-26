@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-642",
+  "de": {
+    "nom": "Sonia Lefèvre",
+    "adresse": "sonia.lefevre@calorelle.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Climatisation de la salle de réunion",
+  "date": "2026-11-09T08:48:00+01:00",
+  "corps": "Marc, une autre demande de dépannage arrivée ce matin.\nSonia\n\n----- Message transféré -----\nIdentifiant : m-ctc-642\nDe : Établissements Vincent <contact@etablissements-vincent-141.example>\nÀ : contact@calorelle.example\nCc : (aucun)\nDate : 2026-11-09T08:25:00+01:00\nObjet : Climatisation de la salle de réunion\nPièces jointes : (aucune)\n\nBonjour,\n\nLe climatiseur réversible de notre salle de réunion ne chauffe plus. Nos bureaux sont fermés jusqu'à mercredi : merci de venir à partir du jeudi 12 novembre.\n\nLa direction des Établissements Vincent, 41 avenue des Tilleuls, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": "m-ctc-642"
+}

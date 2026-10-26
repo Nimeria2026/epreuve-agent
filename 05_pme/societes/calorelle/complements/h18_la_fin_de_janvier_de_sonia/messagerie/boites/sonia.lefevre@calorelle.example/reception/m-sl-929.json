@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-929",
+  "de": {
+    "nom": "Florian Masson",
+    "adresse": "florian.masson@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Une autre date",
+  "date": "2027-01-30T08:30:00+01:00",
+  "corps": "Sonia,\n\nHélène m'a dit non pour le 17 février. Alors je demande le lundi 15 février.\n\nFlorian (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

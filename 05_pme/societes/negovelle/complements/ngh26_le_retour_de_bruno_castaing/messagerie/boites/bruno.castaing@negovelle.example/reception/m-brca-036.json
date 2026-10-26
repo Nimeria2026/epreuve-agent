@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-036",
+  "de": {
+    "nom": "Samir Ouali",
+    "adresse": "samir.ouali@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Un geste pour Couverture Grenier",
+  "date": "2026-08-20T09:00:00+02:00",
+  "corps": "Bruno,\n\nCouverture Grenier (c-0327) a reçu sa livraison du 6 août le 7, un jour de retard, et a dû décaler une équipe. Je voudrais leur proposer un geste de 30,00 € HT sur la facture d'août. Tu es d'accord ?\n\nSamir",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

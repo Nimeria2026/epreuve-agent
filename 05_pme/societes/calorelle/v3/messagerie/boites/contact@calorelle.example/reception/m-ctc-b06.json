@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-b06",
+  "de": {
+    "nom": "Alain Muller",
+    "adresse": "alain.muller@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture de l'entretien",
+  "date": "2026-09-05T17:43:00+02:00",
+  "corps": "Bonjour,\n\nPourriez-vous me renvoyer la facture de mon dernier entretien ?\n\nAlain Muller (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

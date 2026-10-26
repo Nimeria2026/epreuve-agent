@@ -1,0 +1,8 @@
+# Fiche fournisseur Calorelle. Données FICTIVES.
+nom: "Informatique des Hautes-Fresnes"
+activite: "informatique"
+adresse: "51 zone d'activité du Val-Mauvoir, 45999 Valmont-sur-Loire (FICTIF)"
+telephone: "02 61 91 20 27"
+courriel_facturation: "compta@informatique-des-hautes-fresnes.example"
+iban: "FR76 9999 9433 1837 8657 8726 253 (FICTIF)"
+conditions: "paiement à 30 jours fin de mois"

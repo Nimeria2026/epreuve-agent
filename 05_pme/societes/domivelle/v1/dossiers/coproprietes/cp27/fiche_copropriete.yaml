@@ -1,0 +1,20 @@
+# Fiche de la copropriété cp27. Données FICTIVES.
+copropriete: cp27
+nom: Résidence Le Parc Saint-Martin
+adresse: 83 rue de la Croix-Blanche, 18999 Montclavel-sur-Cher (FICTIF)
+lots_principaux: 34
+annee_construction: 1988
+ascenseur: true
+exercice: du lendemain du 31 décembre au 31 décembre
+gestionnaire: Gaëlle Fournel
+conseil_syndical:
+  president: Mme Corinne Ferrand
+  membres:
+  - M. Julien Rey
+  - Mme Jacqueline Robin
+seuil_mise_en_concurrence: 5 000,00 €
+seuil_consultation_du_conseil_syndical: 1 000,00 €
+assureur_de_l_immeuble: Mutuelle Carrelis (FICTIF)
+declaration_des_sinistres: sinistres@mutuelle-carrelis.example
+immeuble_en_gestion_locative: c10
+fonds_de_travaux: 5 % du budget prévisionnel, aux tantièmes généraux, appelé avec chaque provision

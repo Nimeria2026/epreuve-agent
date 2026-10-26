@@ -1,0 +1,145 @@
+{
+  "numero": "CO-2026-01858",
+  "client": "c-0167",
+  "reference_client": null,
+  "cree_le": "2026-06-24T09:10:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "1 zone d'activités des Grands Prés, 36999 Mérolles-en-Brenne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-10767",
+      "libelle": "Disque abrasif fibre 115 mm, grain 80, boîte de 25",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 8.65,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 7.96,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 15.92
+    },
+    {
+      "reference": "ENT-10587",
+      "libelle": "Nettoyant détartrant sanitaire, bidon de 5 l",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 20.2,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 18.58,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 37.16
+    },
+    {
+      "reference": "FIX-10685",
+      "libelle": "Cheville nylon 8x60, boîte de 200",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 8.65,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 7.96,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 23.88
+    },
+    {
+      "reference": "FIX-10767",
+      "libelle": "Cheville pour plaque de plâtre 5x52, boîte de 100",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 14.1,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 14.1,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 28.2
+    },
+    {
+      "reference": "PLB-10359",
+      "libelle": "Clapet anti-retour laiton 15x21",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 20.0,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 18.4,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 36.8
+    },
+    {
+      "reference": "PLB-12858",
+      "libelle": "Tube PER 16 mm, nu, couronne de 50 m",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 28.5,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 26.22,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 26.22
+    },
+    {
+      "reference": "PRO-10171",
+      "libelle": "Bottes de sécurité fourrées S5, pointure 38",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 41.25,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 37.95,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 37.95
+    },
+    {
+      "reference": "QUI-12940",
+      "libelle": "Verrou de sûreté 60 mm, acier",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 13.9,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 12.79,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 51.16
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 272.29,
+  "total_tva_euros": 54.46,
+  "total_ttc_euros": 326.75,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01707"
+  ],
+  "facture": "FC-2026-1151",
+  "historique": [
+    {
+      "date": "2026-06-24T09:10:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-24T09:12:00+02:00",
+      "par": "oceane.collin",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-25T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01707"
+    },
+    {
+      "date": "2026-06-25T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01707"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1151"
+    }
+  ]
+}

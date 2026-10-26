@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-pare-605",
+  "de": {
+    "nom": "Quentin Mallet",
+    "adresse": "quentin.mallet@domivelle.example"
+  },
+  "a": [
+    "pascale.renaud@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "État des lieux de sortie, n01-07",
+  "date": "2026-07-27T17:45:00+02:00",
+  "corps": "Pascale,\n\nL'état des lieux de sortie de M. Pierre Besnard, lot n01-07, s'est fait le vendredi 24 juillet : un trou dans le mur du séjour, qui n'était pas à l'entrée. Le devis de Peinture des Rouches, 180,00 €, est rangé dans le dossier du lot avec l'état des lieux.\n\nQuentin",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

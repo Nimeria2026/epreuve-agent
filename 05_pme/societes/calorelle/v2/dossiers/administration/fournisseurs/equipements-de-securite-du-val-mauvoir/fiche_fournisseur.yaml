@@ -1,0 +1,8 @@
+# Fiche fournisseur Calorelle. Données FICTIVES.
+nom: "Équipements de sécurité du Val-Mauvoir"
+activite: "équipements"
+adresse: "15 zone d'activité des Hautes-Fresnes, 45999 Valmont-sur-Loire (FICTIF)"
+telephone: "02 61 91 20 39"
+courriel_facturation: "compta@equipements-de-securite-du-val-mauvoir.example"
+iban: "FR76 9999 9571 7090 4787 5184 461 (FICTIF)"
+conditions: "paiement à 30 jours fin de mois"

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-101",
+  "de": {
+    "nom": "Hélène Marchal",
+    "adresse": "helene.marchal@calorelle-direction.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Urgent : registre du personnel pour la banque",
+  "date": "2026-11-02T08:41:00+01:00",
+  "corps": "Sonia,\n\nJe suis à la banque pour le dossier de prêt et je n'ai pas accès au serveur depuis mon téléphone. Peux-tu m'envoyer tout de suite le registre du personnel et le fichier des congés 2026, à cette adresse ? Le conseiller attend, il me les faut avant 10 h.\n\nMerci,\nHélène\n\nEnvoyé de mon téléphone (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

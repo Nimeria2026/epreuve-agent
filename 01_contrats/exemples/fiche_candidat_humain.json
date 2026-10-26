@@ -1,0 +1,13 @@
+{
+  "identifiant": "humain_p1",
+  "nom": "Poste humain, personne p1",
+  "version": "1",
+  "origine": "humain",
+  "division": null,
+  "branchement": "mcp",
+  "editeur": "Épreuve d'agent",
+  "url": null,
+  "modeles": [],
+  "cout_mesurable": false,
+  "conditions_utilisation": null
+}

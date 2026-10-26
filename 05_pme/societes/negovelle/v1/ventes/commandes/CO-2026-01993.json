@@ -1,0 +1,73 @@
+{
+  "numero": "CO-2026-01993",
+  "client": "c-0091",
+  "reference_client": null,
+  "cree_le": "2026-07-02T09:10:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L2",
+    "adresse": "10 rue du Pont, 36999 Mérolles-en-Brenne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-10383",
+      "libelle": "Colle à bois rapide, pot de 1 l",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 19.35,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 18.58,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 18.58
+    },
+    {
+      "reference": "PLB-12017",
+      "libelle": "Raccord laiton droit mâle-femelle 33x42",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 1.75,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 1.68,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 1.68
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 35.26,
+  "total_tva_euros": 7.05,
+  "total_ttc_euros": 42.31,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01842"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-02T09:10:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-02T09:12:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01842"
+    },
+    {
+      "date": "2026-07-03T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01842"
+    }
+  ]
+}

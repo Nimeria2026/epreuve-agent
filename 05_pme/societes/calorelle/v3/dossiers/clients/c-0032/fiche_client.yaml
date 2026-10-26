@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0032"
+nom: "Nathalie Guérin"
+type: "particulier"
+adresse: "29 rue Haute, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "nathalie.guerin@courriel.example"
+telephone: "06 39 98 50 05"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2019-05-03"
+  mois_anniversaire: "mai"
+  derniere_visite: "2026-05-26"

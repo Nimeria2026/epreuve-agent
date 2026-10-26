@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cpt-b03",
+  "de": {
+    "nom": "Outillage des Tilleuls",
+    "adresse": "commandes@outillage-des-tilleuls.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Fermeture estivale",
+  "date": "2026-06-24T12:54:00+02:00",
+  "corps": "Bonjour,\n\nNos bureaux seront fermés du 10 au 21 août.\n\nOutillage des Tilleuls",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

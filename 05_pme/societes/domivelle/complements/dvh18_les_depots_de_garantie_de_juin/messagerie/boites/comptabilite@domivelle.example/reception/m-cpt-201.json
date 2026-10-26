@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cpt-201",
+  "de": {
+    "nom": "M. Pierre Vidal",
+    "adresse": "pierre.vidal@mel-perso.example"
+  },
+  "a": [
+    "comptabilite@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Dépôt de Mme Boulanger, s03-04",
+  "date": "2026-06-04T18:00:00+02:00",
+  "corps": "Bonjour,\n\nPour le dépôt de garantie de Mme Boulanger, retenez aussi 250,00 € pour repeindre la chambre : les peintures ne sont plus fraîches.\n\nPierre Vidal",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

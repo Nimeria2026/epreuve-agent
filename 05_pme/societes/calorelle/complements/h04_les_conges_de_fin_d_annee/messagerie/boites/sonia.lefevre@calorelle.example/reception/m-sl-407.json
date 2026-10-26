@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-407",
+  "de": {
+    "nom": "Hélène Marchal",
+    "adresse": "helene.marchal@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "RE: Demandes de congé de décembre",
+  "date": "2026-11-02T08:40:00+01:00",
+  "corps": "Sonia,\n\nPour les deux demandes de jeudi : d'accord pour Kevin ; non pour Mathieu, nous aurions trois techniciens absents la dernière semaine. Préviens-les, et donne à Marc les nouvelles absences de décembre. S'il en est arrivé d'autres depuis, envoie-les-moi.\n\nHélène (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

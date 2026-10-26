@@ -1,0 +1,15 @@
+# Budget prévisionnel de l'exercice en cours, voté, copropriété cp29. Données FICTIVES.
+copropriete: cp29
+exercice: 2026-2027
+total: 9 000,00 €
+postes:
+  nettoyage des parties communes: 2 152,00 €
+  espaces verts: 783,00 €
+  électricité des parties communes: 880,00 €
+  eau: 1 370,00 €
+  assurance de l'immeuble: 1 076,00 €
+  honoraires du syndic: 1 761,00 €
+  entretien et petites réparations: 978,00 €
+repartition:
+  charges générales, aux tantièmes généraux: 9 000,00 €
+appel: un quart du budget, exigible le premier jour de chaque trimestre

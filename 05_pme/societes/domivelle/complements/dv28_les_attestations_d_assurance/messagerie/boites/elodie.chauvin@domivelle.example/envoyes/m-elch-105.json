@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-elch-105",
+  "de": {
+    "nom": "Élodie Chauvin",
+    "adresse": "elodie.chauvin@domivelle.example"
+  },
+  "a": [
+    "genevieve.bazin@courriel.example"
+  ],
+  "cc": [],
+  "objet": "Votre attestation d'assurance 2026",
+  "date": "2026-04-14T10:25:00+02:00",
+  "corps": "Bonjour,\n\nComme chaque année, merci de m'envoyer l'attestation de votre assurance habitation pour 2026, pour votre logement du lot n02-11 (loi du 6 juillet 1989, article 7, g).\n\nBien cordialement,\nÉlodie Chauvin, gestionnaire locative, Domivelle",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

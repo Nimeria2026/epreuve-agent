@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-hm-518",
+  "de": {
+    "nom": "Karim Benali",
+    "adresse": "karim.benali@calorelle.example"
+  },
+  "a": [
+    "helene.marchal@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Deux demandes de remise",
+  "date": "2026-11-18T09:30:00+01:00",
+  "corps": "Hélène,\n\nDeux syndics demandent une remise pour signer :\n- le syndic de la Résidence de Brenneval du 38 rue du Moulin (c-0223), 5 % sur DV-2026-012, demandé le 16 novembre ;\n- le syndic de la Résidence des Saulaies du 96 place du Marché (c-0207), 8 % sur DV-2026-008, demandé le 17 novembre.\n\nJe ne leur ai rien promis.\n\nKarim (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

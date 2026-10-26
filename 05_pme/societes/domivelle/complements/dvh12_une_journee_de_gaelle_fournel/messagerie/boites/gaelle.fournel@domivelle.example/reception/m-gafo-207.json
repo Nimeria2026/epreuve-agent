@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-gafo-207",
+  "de": {
+    "nom": "Inès Gaillard",
+    "adresse": "ines.gaillard@courriel.example"
+  },
+  "a": [
+    "gaelle.fournel@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Joindre M. Bourdon",
+  "date": "2026-06-06T10:20:00+02:00",
+  "corps": "Bonjour,\n\nJe voudrais joindre M. Bourdon, propriétaire du lot 6 des Lauriers, pour lui proposer de racheter sa cave. Pouvez-vous me donner son téléphone ou son adresse électronique ?\n\nInès Gaillard, lot 2",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

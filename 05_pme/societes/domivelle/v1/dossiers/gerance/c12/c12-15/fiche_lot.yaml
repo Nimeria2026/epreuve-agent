@@ -1,0 +1,24 @@
+# Fiche du lot c12-15. Données FICTIVES.
+lot: c12-15
+adresse: 46 rue de l'Église, 18999 Montclavel-sur-Cher (FICTIF)
+type: T3
+surface_m2: 56
+locataire:
+  nom: M. Robert Charpentier
+  courriel: robert.charpentier@boite-postale.example
+  telephone: 06 39 98 99 70
+  entree: '2019-07-04'
+bail:
+  signature: '2019-07-04'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 532,00 €
+  depot_de_garantie: 463,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T1
+dpe:
+  classe: D
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

@@ -1,0 +1,25 @@
+# Fiche du client c-0203 de Négovelle. Données FICTIVES.
+code: c-0203
+nom: Couverture Gallet
+type: artisan
+adresse: 14 rue du Château, 36999 Mérolles-en-Brenne (FICTIF)
+telephone: 02 61 91 62 16
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Albert Cazenave
+  fonction: gérant
+  courriel: albert.cazenave@couverture-gallet.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 14 rue du Château, 36999 Mérolles-en-Brenne (FICTIF)
+categorie_remise: A
+delai_paiement: comptant
+client_depuis: '2026-04-17'
+limite_encours_euros: 3500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

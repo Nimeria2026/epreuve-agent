@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-918",
+  "de": {
+    "nom": "Sonia Lefèvre",
+    "adresse": "sonia.lefevre@calorelle.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: VMC en panne",
+  "date": "2026-11-10T08:50:00+01:00",
+  "corps": "Marc, un dépannage arrivé sur contact@.\nSonia\n\n----- Message transféré -----\nIdentifiant : m-ctc-918\nDe : Anne Bonnet <anne.bonnet@courriel.example>\nÀ : contact@calorelle.example\nCc : (aucun)\nDate : 2026-11-10T08:45:00+01:00\nObjet : VMC en panne\nPièces jointes : (aucune)\n\nBonjour,\n\nNotre VMC ne tourne plus et la buée envahit la salle de bains.\n\nAnne Bonnet, 12 avenue des Tilleuls (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

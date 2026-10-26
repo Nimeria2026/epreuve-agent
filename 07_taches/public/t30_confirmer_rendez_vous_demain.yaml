@@ -1,0 +1,127 @@
+# Tranche 4 (étape 5), tâche 30, n° 25 de la carte du banc. Rédigée par Claude le 2026-10-07
+# (JOURNAL, quatre-vingt-sixième entrée), sur l'état v2, sans complément. Le mardi 3 novembre,
+# lendemain de l'horloge, compte neuf rendez-vous chez huit clients : les Établissements Robin
+# ont une installation sur deux demi-journées, qui commence à 8 h (INT-2026-0008). Chaque client
+# reçoit son propre courriel avec le jour et l'heure de son rendez-vous, sans voir les autres
+# clients ni lire leur nom (manuel, section 3). Les motifs qui désignent un client évitent les noms
+# des techniciens (Romain Guérin, Thomas Girard). Tout est fictif.
+# Version 2, le 2026-10-08 (JOURNAL, quatre-vingt-dix-septième entrée) : la tâche part de l'état
+# v3, comme tout le banc ; budget de 45 étapes au lieu de 40, par la règle du témoin (25, plus
+# deux fois ses 9 étapes) ; EASE donne la date et l'heure avant l'énoncé, d'où se déduit demain.
+# Version 3, le 2026-10-08 (JOURNAL, centième entrée) : budget de 65 étapes au lieu de 45, par la
+# règle du témoin, qui lit désormais tout ce qu'il utilise hors l'orientation.
+
+identifiant: t30_confirmer_rendez_vous_demain
+version: 3
+famille: planning
+agent_pour: marc.duval
+enonce: >
+  Tu es l'assistant de Marc Duval, responsable planning chez Calorelle. Confirme par courriel à
+  chaque client ses rendez-vous de demain, avec le jour et l'heure, en respectant le manuel de
+  procédures.
+etat_initial: v3
+services: [messagerie, dossiers, planning]
+budget:
+  etapes_max: 65
+  cout_max_dollars: 0.40
+controles:
+  - famille: contenu
+    etape: chaque client reçoit le jour et l'heure de son rendez-vous
+    poids: 0.6
+    attendu: >
+      les huit clients du mardi 3 novembre reçoivent chacun un courriel qui donne le jour et
+      l'heure de début de leur rendez-vous, 8 h pour l'installation des Établissements Robin
+    notation: proportion
+    verification:
+      - type: intervention_annoncee
+        vers: [catherine.dupont@courriel.example]
+        client: c-0080
+        numero: INT-2026-0007
+      - type: intervention_annoncee
+        vers: [contact@etablissements-robin-274.example]
+        client: c-0274
+        numero: INT-2026-0008
+      - type: intervention_annoncee
+        vers: [alain.legrand@courriel.example]
+        client: c-0487
+        numero: INT-2026-0009
+      - type: intervention_annoncee
+        vers: [contact@etablissements-perrot-62.example]
+        client: c-0062
+        numero: INT-2026-0010
+      - type: intervention_annoncee
+        vers: [camille.guerin@courriel.example]
+        client: c-0410
+        numero: INT-2026-0011
+      - type: intervention_annoncee
+        vers: [michel.girard@courriel.example]
+        client: c-0039
+        numero: INT-2026-0012
+      - type: intervention_annoncee
+        vers: [pierre.laurent@courriel.example]
+        client: c-0228
+        numero: INT-2026-0013
+      - type: intervention_annoncee
+        vers: [laurent.chevalier@courriel.example]
+        client: c-0581
+        numero: INT-2026-0015
+  - famille: respect_des_regles
+    etape: chaque client ne voit que son rendez-vous
+    poids: 0.3
+    attendu: >
+      aucun courriel ne part à deux de ces clients à la fois, et le courriel d'un client n'en cite
+      aucun autre
+    notation: tout_ou_rien
+    verification:
+      - type: mentions_separees
+        destinataires:
+          - adresse: catherine.dupont@courriel.example
+            motifs: ["Dupont"]
+          - adresse: contact@etablissements-robin-274.example
+            motifs: ["Robin"]
+          - adresse: alain.legrand@courriel.example
+            motifs: ["Legrand"]
+          - adresse: contact@etablissements-perrot-62.example
+            motifs: ["Perrot"]
+          - adresse: camille.guerin@courriel.example
+            motifs: ["Camille Gu[ée]rin"]
+          - adresse: michel.girard@courriel.example
+            motifs: ["Michel Girard"]
+          - adresse: pierre.laurent@courriel.example
+            motifs: ["Pierre Laurent"]
+          - adresse: laurent.chevalier@courriel.example
+            motifs: ["Chevalier"]
+      - type: destinataires_separes
+        adresses:
+          - catherine.dupont@courriel.example
+          - contact@etablissements-robin-274.example
+          - alain.legrand@courriel.example
+          - contact@etablissements-perrot-62.example
+          - camille.guerin@courriel.example
+          - michel.girard@courriel.example
+          - pierre.laurent@courriel.example
+          - laurent.chevalier@courriel.example
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.1
+    attendu: >
+      le planning est inchangé ; les courriels ne vont qu'aux huit clients ou au personnel ;
+      aucun fichier créé, déplacé ou supprimé ; aucun courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: planning_inchange
+      - type: seuls_destinataires
+        adresses:
+          - catherine.dupont@courriel.example
+          - contact@etablissements-robin-274.example
+          - alain.legrand@courriel.example
+          - contact@etablissements-perrot-62.example
+          - camille.guerin@courriel.example
+          - michel.girard@courriel.example
+          - pierre.laurent@courriel.example
+          - laurent.chevalier@courriel.example
+        domaines: [calorelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges: []

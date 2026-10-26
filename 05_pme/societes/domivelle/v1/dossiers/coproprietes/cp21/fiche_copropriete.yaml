@@ -1,0 +1,20 @@
+# Fiche de la copropriété cp21. Données FICTIVES.
+copropriete: cp21
+nom: Résidence Les Bruyères
+adresse: 136 boulevard du Cher, 18999 Montclavel-sur-Cher (FICTIF)
+lots_principaux: 46
+annee_construction: 2007
+ascenseur: true
+exercice: du lendemain du 31 décembre au 31 décembre
+gestionnaire: Yohan Delmas
+conseil_syndical:
+  president: M. Bruno Bazin
+  membres:
+  - Mme Chantal Lucas
+  - M. Arnaud Couturier
+seuil_mise_en_concurrence: 8 000,00 €
+seuil_consultation_du_conseil_syndical: 1 000,00 €
+assureur_de_l_immeuble: Mutuelle des Deux-Rives (FICTIF)
+declaration_des_sinistres: sinistres@mutuelle-des-deux-rives.example
+immeuble_en_gestion_locative: null
+fonds_de_travaux: 5 % du budget prévisionnel, aux tantièmes généraux, appelé avec chaque provision

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-811",
+  "de": {
+    "nom": "Distri-Clim Centre, service comptable",
+    "adresse": "compta@distri-clim-centre.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "M. Roux",
+  "date": "2026-11-23T08:40:00+01:00",
+  "corps": "Bonjour,\n\nNous n'arrivons pas à joindre M. Roux depuis jeudi. Est-il malade ? Quand rentre-t-il ? Nos factures DC-5602 et DC-5661 échoient le 30 novembre. Pouvez-vous aussi nous dire quand a été réglée DC-5521 ? Notre banque ne retrouve pas le virement.\n\nDistri-Clim Centre (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

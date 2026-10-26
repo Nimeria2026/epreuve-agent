@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cpt-506",
+  "de": {
+    "nom": "Outillage de Mirelande",
+    "adresse": "compta@outillage-de-mirelande.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture OM-2026-212",
+  "date": "2026-10-30T09:50:00+01:00",
+  "corps": "Bonjour,\n\nPouvez-vous nous confirmer le règlement de notre facture OM-2026-212 du 2 octobre, 184,80 € TTC ?\n\nService comptable, Outillage de Mirelande (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

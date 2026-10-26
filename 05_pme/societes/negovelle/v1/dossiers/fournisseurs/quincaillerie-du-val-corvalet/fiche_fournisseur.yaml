@@ -1,0 +1,10 @@
+# Fiche d'un fournisseur de Négovelle. Données FICTIVES.
+nom: Quincaillerie du Val-Corvalet
+activite: fabricant de quincaillerie de bâtiment
+adresse: 18 zone industrielle des Brandes, 36999 Brissonne (FICTIF)
+telephone: 02 61 91 70 53
+courriel_commandes: commandes@quincaillerie-du-val-corvalet.example
+courriel_facturation: facturation@quincaillerie-du-val-corvalet.example
+iban: FR76 9999 9545 8430 3526 7006 848 (FICTIF)
+conditions: paiement à 30 jours date de facture
+minimum_de_commande: 500,00 € HT

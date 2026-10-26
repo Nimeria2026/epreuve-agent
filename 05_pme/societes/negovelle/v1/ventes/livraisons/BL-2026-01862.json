@@ -1,0 +1,59 @@
+{
+  "numero": "BL-2026-01862",
+  "commande": "CO-2026-02020",
+  "client": "c-0112",
+  "date_expedition": "2026-07-03",
+  "date_livraison": null,
+  "transport": {
+    "mode": "transporteur",
+    "transporteur": "transports-delorme",
+    "recepisse": "TD-107985"
+  },
+  "adresse": "32 zone d'activités des Grands Prés, 36999 Laubrissac (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "CON-12302",
+      "libelle": "Ruban adhésif double face 48 mm, rouleau de 50 m",
+      "quantite": 18
+    },
+    {
+      "reference": "CON-12368",
+      "libelle": "Ruban adhésif toilé gris 25 mm, rouleau de 33 m",
+      "quantite": 2
+    },
+    {
+      "reference": "FIX-11706",
+      "libelle": "Goujon d'ancrage M8x140, boîte de 25",
+      "quantite": 5
+    },
+    {
+      "reference": "PRO-10685",
+      "libelle": "Chaussures de sécurité légères composite S3, pointure 43",
+      "quantite": 2
+    },
+    {
+      "reference": "QUI-12466",
+      "libelle": "Poignée de porte carrée sur plaque, noir mat",
+      "quantite": 12
+    },
+    {
+      "reference": "VIS-12499",
+      "libelle": "Vis à bois tête fraisée 4x50, zinguée, boîte de 200",
+      "quantite": 10
+    },
+    {
+      "reference": "VIS-12654",
+      "libelle": "Vis à bois tête fraisée 5x16, bichromatée, boîte de 500",
+      "quantite": 1
+    },
+    {
+      "reference": "VIS-13013",
+      "libelle": "Vis à bois tête fraisée 5x60, inox A2, boîte de 500",
+      "quantite": 6
+    }
+  ],
+  "reserves": null,
+  "signataire": null,
+  "statut": "en_cours"
+}

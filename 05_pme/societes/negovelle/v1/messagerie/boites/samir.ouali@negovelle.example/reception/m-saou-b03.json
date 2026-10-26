@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-saou-b03",
+  "de": {
+    "nom": "Madeleine Coulon",
+    "adresse": "madeleine.coulon@lhomme-batiment.example"
+  },
+  "a": [
+    "samir.ouali@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande reçue, merci",
+  "date": "2026-06-25T14:39:00+02:00",
+  "corps": "Bonjour,\n\nLa livraison de ce matin est complète. Merci.\n\nMadeleine Coulon",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

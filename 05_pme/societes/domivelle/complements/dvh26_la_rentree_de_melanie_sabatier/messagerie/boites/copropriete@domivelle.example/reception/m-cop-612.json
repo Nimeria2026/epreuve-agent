@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cop-612",
+  "de": {
+    "nom": "François Hébert",
+    "adresse": "francois.hebert@boite-postale.example"
+  },
+  "a": [
+    "copropriete@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Procès-verbal de la dernière assemblée",
+  "date": "2026-08-17T15:30:00+02:00",
+  "corps": "Bonjour,\n\nPouvez-vous m'envoyer le procès-verbal de la dernière assemblée des Marronniers ? Je ne le retrouve plus.\n\nFrançois Hébert, lot 4",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

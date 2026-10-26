@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-910",
+  "de": {
+    "nom": "Thomas Girard",
+    "adresse": "thomas.girard@calorelle.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Enzo",
+  "date": "2026-11-09T17:45:00+01:00",
+  "corps": "Marc,\n\nEnzo n'a pas cours cette semaine : donne-lui des dépannages de chaudières gaz, qu'il se fasse la main. Il connaît bien les chaudières murales.\n\nThomas (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

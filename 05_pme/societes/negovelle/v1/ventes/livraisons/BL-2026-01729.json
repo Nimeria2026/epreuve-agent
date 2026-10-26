@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01729",
+  "commande": "CO-2026-01880",
+  "client": "c-0040",
+  "date_expedition": "2026-06-26",
+  "date_livraison": "2026-06-26",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "34 zone industrielle des Brandes, 36999 Laubrissac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ELE-11911",
+      "libelle": "Gaine ICTA 16 mm, couronne de 50 m",
+      "quantite": 4
+    },
+    {
+      "reference": "VIS-14173",
+      "libelle": "Écrou hexagonal M5, zingué, sachet de 50",
+      "quantite": 1
+    }
+  ],
+  "reserves": null,
+  "signataire": "Roger Auger",
+  "statut": "livre"
+}

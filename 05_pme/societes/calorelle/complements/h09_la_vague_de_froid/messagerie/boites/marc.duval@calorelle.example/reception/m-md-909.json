@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-909",
+  "de": {
+    "nom": "Syndic de la Résidence des Saulaies",
+    "adresse": "contact@syndic-de-la-residence-des-saulaies-207.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Chaufferie de la résidence",
+  "date": "2026-11-09T15:05:00+01:00",
+  "corps": "Bonjour Monsieur Duval,\n\nLes radiateurs des étages restent tièdes depuis samedi ; la chaufferie gaz tourne. Merci d'intervenir avant vendredi soir.\n\nLe syndic de la Résidence des Saulaies, 96 place du Marché (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

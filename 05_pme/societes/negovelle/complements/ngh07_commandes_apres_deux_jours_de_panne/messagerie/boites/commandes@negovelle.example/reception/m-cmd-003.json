@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-003",
+  "de": {
+    "nom": "Nathalie Baudouin",
+    "adresse": "nathalie.baudouin@platrerie-toussaint.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-02T09:30:00+02:00",
+  "corps": "Bonjour,\n\nVoici notre commande, à livrer au siège :\n\n- 4 x OUT-10228, Ciseau à bois 14 mm\n- 12 x CON-10334, Colle pour carrelage, cartouche de 310 ml\n- 6 x FIX-10016, Cheville métallique à expansion M4x32, boîte de 50\n\nMerci de nous confirmer la livraison.\n\nCordialement,\nNathalie Baudouin\nPlâtrerie Toussaint",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,10 @@
+# Fiche d'un fournisseur de Négovelle. Données FICTIVES.
+nom: Abrasifs et colles des Grands Champs
+activite: fabricant de consommables d'atelier
+adresse: 3 zone d'activités des Grands Prés, 36999 Laubrissac (FICTIF)
+telephone: 02 61 91 85 53
+courriel_commandes: commandes@abrasifs-et-colles-des-grands-champs.example
+courriel_facturation: facturation@abrasifs-et-colles-des-grands-champs.example
+iban: FR76 9999 9129 4496 8002 7195 315 (FICTIF)
+conditions: paiement à 30 jours date de facture
+minimum_de_commande: 250,00 € HT

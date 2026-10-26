@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-thol-601",
+  "de": {
+    "nom": "Véronique Tessier",
+    "adresse": "veronique.tessier@domivelle.example"
+  },
+  "a": [
+    "thierry.ollivier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Clôture de septembre",
+  "date": "2026-09-29T17:30:00+02:00",
+  "corps": "Thierry,\n\nPour la clôture de septembre : les appels du 1er octobre du Panorama, du Bocage et des Roseraies sont à envoyer demain, un courriel par copropriétaire avec le détail de son appel, et le suivi des impayés est à mettre à jour. Envoie-moi ensuite le point, avec les décisions qui m'attendent.\n\nVéronique",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

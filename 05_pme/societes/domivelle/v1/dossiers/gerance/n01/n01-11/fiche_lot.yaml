@@ -1,0 +1,24 @@
+# Fiche du lot n01-11. Données FICTIVES.
+lot: n01-11
+adresse: 41 rue des Vignes, 18999 Vernillac (FICTIF)
+type: T2
+surface_m2: 44
+locataire:
+  nom: Mme Josiane Simon
+  courriel: josiane.simon@mel-perso.example
+  telephone: 06 39 98 65 42
+  entree: '2023-12-22'
+bail:
+  signature: '2023-12-22'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 360,00 €
+  depot_de_garantie: 343,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T3
+dpe:
+  classe: D
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

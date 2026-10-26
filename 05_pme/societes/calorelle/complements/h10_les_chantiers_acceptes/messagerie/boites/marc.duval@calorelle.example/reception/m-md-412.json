@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-412",
+  "de": {
+    "nom": "Karim Benali",
+    "adresse": "karim.benali@calorelle.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "DV-2026-018 accepté : le ballon du stade",
+  "date": "2026-11-02T08:35:00+01:00",
+  "corps": "Marc,\n\nLa Commune du Pré-Bouvreuil, celle de la mairie annexe du 54 rue du Moulin, a accepté DV-2026-018 : la pose d'un ballon thermodynamique de 200 litres aux vestiaires du stade. Une demi-journée, 4 heures, un technicien des pompes à chaleur. Le ballon doit être posé au plus tard le vendredi 6 novembre : les vestiaires rouvrent le lundi 9.\n\nPeux-tu me dire quand tu l'as mis ?\n\nKarim (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

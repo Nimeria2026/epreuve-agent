@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-aubo-010",
+  "de": {
+    "nom": "Julie Dumont",
+    "adresse": "julie.dumont@charpente-langlais.example"
+  },
+  "a": [
+    "aurelie.bonnefoy@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande pour le chantier",
+  "date": "2026-08-17T07:50:00+02:00",
+  "corps": "Bonjour Aurélie,\n\nVoici notre commande, à livrer sur notre chantier déclaré, en livraison standard :\n- 30 x FIX-12351, Équerre de fixation 60x80x40 mm, zinguée\n- 12 x FIX-11780, Scellement chimique époxy, cartouche de 300 ml\n\nMerci de nous confirmer,\n\nJulie Dumont\nCharpente Langlais",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

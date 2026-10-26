@@ -1,0 +1,25 @@
+# Fiche du client c-0130 de Négovelle. Données FICTIVES.
+code: c-0130
+nom: Électricité Morel
+type: artisan
+adresse: 23 rue du Château, 36999 Vaumoreau-sur-Indre (FICTIF)
+telephone: 02 61 91 91 09
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: René Valentin
+  fonction: gérant
+  courriel: rene.valentin@electricite-morel.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 23 rue du Château, 36999 Vaumoreau-sur-Indre (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2013-05-01'
+limite_encours_euros: 3500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

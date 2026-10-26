@@ -1,0 +1,29 @@
+{
+  "identifiant": "m-cpt-611",
+  "de": {
+    "nom": "Nicolas Blanc",
+    "adresse": "nicolas.blanc@calorelle.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Note de frais d'octobre",
+  "date": "2026-11-02T07:35:00+01:00",
+  "corps": "Bonjour Patrick,\n\nVoici ma note de frais d'octobre, la note et les tickets sont joints :\n\n- 6 octobre : repas, chantier de Brenneval, 18,50 € (ticket joint)\n- 14 octobre : trajet avec mon véhicule, aller-retour au dépôt de Thermopièces Loire, 64 km, 28,80 €\n- 14 octobre : péage, 7,40 € (ticket joint)\n- 21 octobre : repas, 24,90 € (ticket joint)\n- 27 octobre : stationnement, 6,00 € (pas de ticket, l'horodateur était en panne)\n- 27 octobre : trajet avec mon véhicule, 38 km, 17,10 €\n\nTotal : 102,70 €.\n\nMerci,\nNicolas (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "note_de_frais_octobre_Blanc.pdf",
+      "fichier": "pieces/m-cpt-611/note_de_frais_octobre_Blanc.pdf",
+      "taille_octets": 1234
+    },
+    {
+      "nom": "tickets_octobre_Blanc.pdf",
+      "fichier": "pieces/m-cpt-611/tickets_octobre_Blanc.pdf",
+      "taille_octets": 776
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

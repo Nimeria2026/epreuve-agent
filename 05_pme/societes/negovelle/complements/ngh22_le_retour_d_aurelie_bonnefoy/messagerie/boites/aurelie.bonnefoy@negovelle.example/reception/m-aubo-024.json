@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-aubo-024",
+  "de": {
+    "nom": "Cabinet Ravel, expertise comptable",
+    "adresse": "compta@cabinet-ravel.example"
+  },
+  "a": [
+    "aurelie.bonnefoy@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Imprimerie Barbe : relevé de compte",
+  "date": "2026-08-13T14:50:00+02:00",
+  "corps": "Madame,\n\nNous tenons la comptabilité d'Imprimerie Barbe. Pour la clôture de son exercice, merci de nous adresser le relevé de ses factures non réglées et de ses conditions de paiement.\n\nCabinet Ravel",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-ctc-012",
+  "de": {
+    "nom": "Électricité du Pré-Carré",
+    "adresse": "facturation@electricite-du-pre-carre.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture 2026-0702",
+  "date": "2026-06-04T09:40:00+02:00",
+  "corps": "Bonjour,\n\nCi-jointe notre facture n° 2026-0702 pour le lot c01-11 : 184,00 € TTC, échéance le 3 juillet.\n\nÉlectricité du Pré-Carré",
+  "pieces_jointes": [
+    {
+      "nom": "facture_2026-0702.pdf",
+      "fichier": "pieces/m-ctc-012/facture_2026-0702.pdf",
+      "taille_octets": 766
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,19 @@
+# Fiche du lot c25-09. Données FICTIVES.
+lot: c25-09
+adresse: 70 rue Émile-Zola, 18999 Montclavel-sur-Cher (FICTIF)
+type: T4
+surface_m2: 86
+locataire:
+  nom: M. Pierre Martel
+  courriel: pierre.martel@messagerie.example
+  telephone: 06 39 98 76 15
+  entree: '2014-11-19'
+bail:
+  signature: '2014-11-19'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 887,00 €
+  depot_de_garantie: 696,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T3
+dpe:
+  classe: E

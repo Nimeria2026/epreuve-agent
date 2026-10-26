@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-919",
+  "de": {
+    "nom": "Thomas Girard",
+    "adresse": "thomas.girard@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Relevé d'heures de janvier",
+  "date": "2027-01-29T17:00:00+01:00",
+  "corps": "Sonia,\n\nVoici le relevé des heures des techniciens en janvier, semaine par semaine (semaines du lundi 4, du lundi 11, du lundi 18 et du lundi 25 janvier) :\n\n- Antoine Leroy : 21 h, 35 h, 35 h, 35 h\n- David Roussel : 35 h, 36 h, 35 h, 35 h\n- Florian Masson : 35 h, 35 h, 46 h, 35 h\n- Kevin Lambert : 35 h, 39 h, 35 h, 44 h\n- Mathieu Picard : 35 h, 35 h, 35 h, 35 h\n- Nicolas Blanc : 35 h, 35 h, 35 h, 35 h\n- Romain Guérin : 38 h, 35 h, 35 h, 41 h\n- Sébastien Noël : 35 h, 35 h, 35 h, 35 h\n- Yanis Haddad : 35 h, 7 h, 35 h, 35 h\n\nThomas (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-vete-609",
+  "de": {
+    "nom": "Dominique Fournier",
+    "adresse": "dominique.fournier@mel-perso.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Échéancier, Le Parc Saint-Martin",
+  "date": "2026-08-11T16:30:00+02:00",
+  "corps": "Madame la gérante,\n\nJe vous demande de pouvoir régler en quatre fois ce que je dois au syndicat du Parc Saint-Martin.\n\nM. Dominique Fournier, lot 4",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

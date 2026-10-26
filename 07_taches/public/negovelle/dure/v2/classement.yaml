@@ -1,0 +1,75 @@
+# Classement des tâches publiques (contrat 01_contrats/classement.schema.json ; JOURNAL, entrées 121,
+# 125 et 154). Écrit par ease.classement : make classement VERSER=1 ou ESTIMER=1 réécrit ce fichier
+# d'un bloc, sans garder d'autres commentaires que celui-ci. Les étiquettes, le type commun d'une
+# tâche du socle commun (07_taches/public/types_communs.yaml), la fiche ROME et les sections du
+# manuel s'écrivent à la main ; les durées, jamais : les mesurées viennent des runs du poste
+# humain, l'estimée de la grille (ease.grille) sur un run du témoin parfait. Le métier, les
+# services, le contrôle grave et les étapes du témoin se calculent depuis la tâche (make classement).
+# Fiches ROME : France Travail, ROME 4.0, Licence Ouverte ; on cite le code et l'intitulé.
+version: 2
+personnes: {}
+taches:
+  ngh22_le_retour_d_aurelie_bonnefoy:
+    version_tache: 1
+    etiquettes: [calcul, dates_et_echeances, volume, regle_peu_visible]
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [2, 3, 4, 5, 6, 7, 10, 11, 16]
+    durees: []
+    duree_estimee: {secondes: 7644.3, grille: '1', version_tache: 1, run: 2026-10-23_125252_temoin_parfait,
+      lire: 1535.3, chercher: 191.6, ecrire: 5488.4, agir: 429.0}
+  ngh23_la_cloture_de_juillet_de_denis_barthe:
+    version_tache: 1
+    etiquettes: [calcul, dates_et_echeances, volume, document, regle_peu_visible]
+    rome: {code: M1203, intitule: Comptabilité}
+    sections_manuel: [1, 12, 13, 14, 16]
+    durees: []
+    duree_estimee: {secondes: 7276.3, grille: '1', version_tache: 1, run: 2026-10-23_150759_temoin_parfait,
+      lire: 1486.1, chercher: 100.6, ecrire: 4800.0, agir: 889.6}
+  ngh24_la_quinzaine_de_laetitia_pour_manon:
+    version_tache: 1
+    etiquettes: [calcul, dates_et_echeances, volume, regle_peu_visible]
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [2, 3, 4, 5, 6, 7, 15]
+    durees: []
+    duree_estimee: {secondes: 7349.4, grille: '1', version_tache: 1, run: 2026-10-23_125233_temoin_parfait,
+      lire: 1964.9, chercher: 177.3, ecrire: 4446.3, agir: 760.9}
+  ngh25_commandes_pendant_les_conges_de_corinne:
+    version_tache: 1
+    etiquettes: [calcul, dates_et_echeances, volume, regle_peu_visible, piege]
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [2, 3, 5, 6, 7, 14]
+    durees: []
+    duree_estimee: {secondes: 7296.6, grille: '1', version_tache: 1, run: 2026-10-23_130817_temoin_parfait,
+      lire: 1681.8, chercher: 192.7, ecrire: 4758.9, agir: 663.2}
+  ngh26_le_retour_de_bruno_castaing:
+    version_tache: 1
+    etiquettes: [calcul, dates_et_echeances, volume, document, regle_peu_visible]
+    rome: {code: M1604, intitule: Assistanat de direction}
+    sections_manuel: [4, 6, 8, 10, 11, 12, 15, 16]
+    durees: []
+    duree_estimee: {secondes: 14554.4, grille: '1', version_tache: 1, run: 2026-10-23_134053_temoin_parfait,
+      lire: 2794.3, chercher: 247.4, ecrire: 10127.4, agir: 1385.4}
+  ngh27_la_fin_d_aout_d_isabelle_royer:
+    version_tache: 1
+    etiquettes: [calcul, dates_et_echeances, volume, regle_peu_visible]
+    rome: {code: M1203, intitule: Comptabilité}
+    sections_manuel: [3, 6, 10, 11]
+    durees: []
+    duree_estimee: {secondes: 14526.1, grille: '1', version_tache: 1, run: 2026-10-23_135743_temoin_parfait,
+      lire: 1698.4, chercher: 460.0, ecrire: 11216.8, agir: 1150.8}
+  ngh28_le_mois_d_aout_du_sav:
+    version_tache: 1
+    etiquettes: [calcul, dates_et_echeances, volume, regle_peu_visible]
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [2, 8, 9, 10, 15]
+    durees: []
+    duree_estimee: {secondes: 15130.3, grille: '1', version_tache: 1, run: 2026-10-23_142048_temoin_parfait,
+      lire: 2628.2, chercher: 124.4, ecrire: 10790.5, agir: 1587.2}
+  ngh29_la_cloture_d_aout_des_achats:
+    version_tache: 1
+    etiquettes: [calcul, volume, regle_peu_visible, piege]
+    rome: {code: M1101, intitule: Achats}
+    sections_manuel: [1, 2, 3, 4, 12, 13, 14, 17]
+    durees: []
+    duree_estimee: {secondes: 14683.8, grille: '1', version_tache: 1, run: 2026-10-23_150759_temoin_parfait,
+      lire: 2513.4, chercher: 48.0, ecrire: 10632.6, agir: 1489.7}

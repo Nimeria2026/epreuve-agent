@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-007",
+  "de": {
+    "nom": "Hervé Legendre",
+    "adresse": "herve.legendre@services-techniques-de-brissonne.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Retour de pantalons",
+  "date": "2026-08-07T09:00:00+02:00",
+  "corps": "Bonjour,\n\nTrois pantalons PRO-11641 de la livraison du 20 juillet, BL-2026-01895, ne vont pas à nos agents : nous les avons sortis de leur emballage pour les essayer. Pouvons-nous vous les rendre ?\n\nHervé Legendre\nServices techniques de Brissonne",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-tg-815",
+  "de": {
+    "nom": "Kevin Lambert",
+    "adresse": "kevin.lambert@calorelle.example"
+  },
+  "a": [
+    "thomas.girard@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Malade",
+  "date": "2026-12-21T08:40:00+01:00",
+  "corps": "Thomas,\n\nJe suis malade : je fais ma visite de cet après-midi avec Enzo, mais je serai absent du mardi 22 au jeudi 24 décembre inclus.\n\nKevin (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

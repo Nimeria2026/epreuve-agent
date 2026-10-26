@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-maca-002",
+  "de": {
+    "nom": "Couverture des Rouches",
+    "adresse": "facturation@couverture-des-rouches.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Résidence Le Belvédère : bâchage et devis",
+  "date": "2026-06-08T07:45:00+02:00",
+  "corps": "Bonjour,\n\nNous avons bâché vendredi le versant nord du toit de la Résidence Le Belvédère, 78 rue de la Poste ; la facture suit. Notre devis pour la réfection de ce versant est joint : 8 640,00 € TTC. Pouvons-nous commencer le lundi 22 juin ?\n\nService technique, Couverture des Rouches",
+  "pieces_jointes": [
+    {
+      "nom": "devis_toiture_cp26.pdf",
+      "fichier": "pieces/m-maca-002/devis_toiture_cp26.pdf",
+      "taille_octets": 860
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

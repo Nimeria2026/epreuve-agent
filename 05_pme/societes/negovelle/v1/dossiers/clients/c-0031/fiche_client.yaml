@@ -1,0 +1,25 @@
+# Fiche du client c-0031 de Négovelle. Données FICTIVES.
+code: c-0031
+nom: Paysage Dumont
+type: artisan
+adresse: 100 rue du Pont, 36999 Brissonne (FICTIF)
+telephone: 02 61 91 70 48
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Sandrine Clerc
+  fonction: gérante
+  courriel: sandrine.clerc@paysage-dumont.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 100 rue du Pont, 36999 Brissonne (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2012-03-01'
+limite_encours_euros: 4000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

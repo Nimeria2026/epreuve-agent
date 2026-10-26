@@ -1,0 +1,28 @@
+# Fiche du client c-0157 de Négovelle. Données FICTIVES.
+code: c-0157
+nom: Ruel Industrie
+type: pme
+adresse: 23 zone d'activités des Grands Prés, 36999 Saulvenne (FICTIF)
+telephone: 02 61 91 84 25
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Laure Gay
+  fonction: responsable des achats
+  courriel: laure.gay@ruel-industrie.example
+- nom: Marcel Ruel
+  fonction: responsable de maintenance
+  courriel: marcel.ruel@ruel-industrie.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 23 zone d'activités des Grands Prés, 36999 Saulvenne (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2023-12-01'
+limite_encours_euros: 4000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

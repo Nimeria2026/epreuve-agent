@@ -1,0 +1,29 @@
+{
+  "identifiant": "m-brca-025",
+  "de": {
+    "nom": "Sébastien Roux",
+    "adresse": "sebastien.roux@messagerie-perso.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Candidature : chauffeur-livreur",
+  "date": "2026-08-22T09:30:00+02:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ma candidature au poste de chauffeur-livreur, mon CV et ma lettre.\n\nBien cordialement,\nSébastien Roux",
+  "pieces_jointes": [
+    {
+      "nom": "cv.pdf",
+      "fichier": "pieces/m-brca-025/cv.pdf",
+      "taille_octets": 771
+    },
+    {
+      "nom": "lettre.md",
+      "fichier": "pieces/m-brca-025/lettre.md",
+      "taille_octets": 307
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01718",
+  "commande": "CO-2026-01869",
+  "client": "c-0199",
+  "date_expedition": "2026-06-25",
+  "date_livraison": "2026-06-25",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "7 parc d'activités de la Gare, 36999 Fontclavier (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "PRO-10661",
+      "libelle": "Chaussures de sécurité légères composite S3, pointure 40",
+      "quantite": 10
+    },
+    {
+      "reference": "QUI-12498",
+      "libelle": "Poignée de porte carrée sur rosace, noir mat",
+      "quantite": 10
+    }
+  ],
+  "reserves": null,
+  "signataire": "Sylvain Lacour",
+  "statut": "livre"
+}

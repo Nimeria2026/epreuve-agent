@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01716",
+  "commande": "CO-2026-01867",
+  "client": "c-0348",
+  "date_expedition": "2026-06-25",
+  "date_livraison": "2026-06-25",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "48 rue de la Poste, 36999 Corvalet (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ELE-11127",
+      "libelle": "Câble R2V 5G 10 mm², couronne de 100 m",
+      "quantite": 12
+    },
+    {
+      "reference": "OUT-10571",
+      "libelle": "Clé à pipe débouchée 14 mm",
+      "quantite": 1
+    }
+  ],
+  "reserves": null,
+  "signataire": "Éric Voisin",
+  "statut": "livre"
+}

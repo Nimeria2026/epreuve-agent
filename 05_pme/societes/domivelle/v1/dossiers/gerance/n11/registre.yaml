@@ -1,0 +1,55 @@
+# Registre des lots en gestion, n11. Données FICTIVES.
+immeuble: n11
+nature: groupe de maisons
+adresse: 74 rue Saint-Martin, 18999 Vernillac (FICTIF)
+secteur: nord
+gestionnaire: Élodie Chauvin
+distance_agence_km: 12
+annee_construction: 1989
+gardien: false
+copropriete_du_syndic: null
+lots:
+- lot: n11-01
+  type: maison T3
+  surface_m2: 76
+  proprietaire: p-0326
+  locataire: Mme Nathalie Weber
+  entree: '2025-03-28'
+  loyer_hors_charges: 728,00 €
+  provision_sur_charges: 0,00 €
+  depot_de_garantie: 710,00 €
+  revision: chaque 28 mars
+  trimestre_irl: T4
+  dpe: B
+- lot: n11-02
+  type: maison T5
+  surface_m2: 119
+  proprietaire: p-0282
+  locataire: Mme Sylvie Leroux
+  entree: '2015-08-08'
+  loyer_hors_charges: 977,00 €
+  provision_sur_charges: 13,00 €
+  depot_de_garantie: 782,00 €
+  revision: chaque 8 août
+  trimestre_irl: T2
+  dpe: E
+- lot: n11-03
+  type: maison T4
+  surface_m2: 95
+  proprietaire: p-0327
+  locataire: vacant
+  loyer_hors_charges: 871,00 €
+  provision_sur_charges: 1,00 €
+  dpe: E
+- lot: n11-04
+  type: maison T3
+  surface_m2: 83
+  proprietaire: p-0328
+  locataire: M. Arnaud Leblanc
+  entree: '2016-04-21'
+  loyer_hors_charges: 666,00 €
+  provision_sur_charges: 16,00 €
+  depot_de_garantie: 533,00 €
+  revision: chaque 21 avril
+  trimestre_irl: T4
+  dpe: E

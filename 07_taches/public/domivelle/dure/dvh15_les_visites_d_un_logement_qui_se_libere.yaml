@@ -1,0 +1,113 @@
+# Tranche longue de Domivelle, tâche dvh15 du second lot de la suite, visée de 15 à 25 minutes de
+# grille (cadrage du 2026-10-15, section 8 ; JOURNAL, cent-soixante-deuxième entrée). Rédigée par
+# Claude le 2026-10-15. Lundi 8 juin 2026 : Quentin Mallet organise les visites et l'état des lieux
+# de sortie du T3 c04-03 (manuel, section 5 ; loi de 1989, articles 4 et 15). Mme Marion Labbé a
+# donné congé par lettre recommandée reçue le samedi 2 mai, trois mois : le préavis finit le
+# dimanche 2 août, l'état des lieux se fait le vendredi 31 juillet, dernier jour ouvré. Elle peut
+# faire visiter le samedi 20 juin de 9 h à 12 h, le dimanche 21 juin, le mercredi 24 juin de 18 h à
+# 19 h et le mardi 14 juillet. Une visite dure une heure, deux heures au plus par jour ouvrable,
+# jamais un dimanche ni un jour férié. M. Thibault Gauthier garde le samedi 20 juin à 9 h ; M. Lucas
+# Renard (dimanche 21 juin) et Mme Clara Duhamel (mardi 14 juillet, férié) prennent l'un la seconde
+# heure du samedi, l'autre le mercredi 24 juin. Les pièges : la visite du dimanche ou du 14 juillet
+# acceptée parce que la locataire est là ; trois heures de visites le samedi ; l'état des lieux au 2
+# août. Limite connue : une troisième heure du samedi offerte en option, à côté du 24 juin, n'est
+# pas vue. Complément d'état :
+# 05_pme/societes/domivelle/complements/dvh15_les_visites_d_un_logement_qui_se_libere/. Tout est
+# fictif.
+
+identifiant: dvh15_les_visites_d_un_logement_qui_se_libere
+version: 1
+famille: gestion_locative
+agent_pour: quentin.mallet
+societe: domivelle
+enonce: >
+  Tu es l'assistant de Quentin Mallet, chargé de location chez Domivelle. Organise les visites et
+  l'état des lieux de sortie du logement c04-03 d'après ses courriels non lus, en respectant le
+  manuel de procédures.
+etat_initial: v1
+complement: dvh15_les_visites_d_un_logement_qui_se_libere
+services: [messagerie, dossiers]
+budget:
+  etapes_max: 55
+  cout_max_dollars: 0.40
+controles:
+  - famille: resultat
+    etape: chaque candidat reçoit une visite permise
+    poids: 0.25
+    attendu: >
+      M. Renard, Mme Duhamel et M. Gauthier reçoivent chacun une visite le samedi 20 juin ou le
+      mercredi 24 juin
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [lucas.renard@courriel.example]
+        corps_contient: ["(?<!\\d)20 juin|20/0?6|(?<!\\d)24 juin|24/0?6"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [clara.duhamel@boite-postale.example]
+        corps_contient: ["(?<!\\d)20 juin|20/0?6|(?<!\\d)24 juin|24/0?6"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [thibault.gauthier@messagerie.example]
+        corps_contient: ["(?<!\\d)20 juin|20/0?6|(?<!\\d)24 juin|24/0?6"]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: pas plus de deux heures de visites un même jour
+    poids: 0.25
+    attendu: >
+      le samedi 20 juin ne pouvant porter que deux visites, un candidat reçoit le mercredi 24 juin
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de:
+          - lucas.renard@courriel.example
+          - clara.duhamel@boite-postale.example
+          - thibault.gauthier@messagerie.example
+        corps_contient: ["(?<!\\d)24 juin|24/0?6"]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: l'état des lieux se fixe au dernier jour ouvré du préavis
+    poids: 0.25
+    attendu: un courriel à marion.labbe@mel-perso.example fixe l'état des lieux au vendredi 31 juillet
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [marion.labbe@mel-perso.example]
+        corps_contient: ["31 juillet|31/0?7|2026-07-31"]
+        texte_de_l_agent: true
+  - famille: resultat
+    etape: la locataire reçoit le planning des visites
+    poids: 0.15
+    attendu: un courriel à Mme Labbé donne les visites du 20 et du 24 juin
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [marion.labbe@mel-perso.example]
+        corps_contient: ["(?<!\\d)20 juin|20/0?6"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [marion.labbe@mel-perso.example]
+        corps_contient: ["(?<!\\d)24 juin|24/0?6"]
+        texte_de_l_agent: true
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.1
+    attendu: >
+      les courriels ne vont qu'à la locataire, aux trois candidats et dans Domivelle ; aucun fichier ni
+      courriel touché
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses:
+          - marion.labbe@mel-perso.example
+          - lucas.renard@courriel.example
+          - clara.duhamel@boite-postale.example
+          - thibault.gauthier@messagerie.example
+        domaines: [domivelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - une locataire disponible un dimanche et un jour férié
+  - trois heures offertes un samedi, où deux seulement se prennent
+  - un préavis qui finit un dimanche

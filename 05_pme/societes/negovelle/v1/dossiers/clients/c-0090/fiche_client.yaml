@@ -1,0 +1,28 @@
+# Fiche du client c-0090 de Négovelle. Données FICTIVES.
+code: c-0090
+nom: Services techniques de Brissonne
+type: collectivite
+adresse: 21 rue des Lilas, 36999 Brissonne (FICTIF)
+telephone: 02 61 91 78 82
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Hervé Legendre
+  fonction: responsable des services techniques
+  courriel: herve.legendre@services-techniques-de-brissonne.example
+- nom: Daniel Voisin
+  fonction: secrétaire de mairie
+  courriel: daniel.voisin@services-techniques-de-brissonne.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 21 rue des Lilas, 36999 Brissonne (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2014-02-01'
+limite_encours_euros: 2000.0
+livraisons_partielles: false
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

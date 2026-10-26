@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01832",
+  "commande": "CO-2026-01983",
+  "client": "c-0268",
+  "date_expedition": "2026-07-02",
+  "date_livraison": "2026-07-02",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "105 rue des Jardins, 36999 Laubrissac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ELE-11118",
+      "libelle": "Câble R2V 5G 1,5 mm², couronne de 25 m",
+      "quantite": 1
+    },
+    {
+      "reference": "PLB-11960",
+      "libelle": "Raccord laiton coude mâle-femelle 15x21",
+      "quantite": 60
+    }
+  ],
+  "reserves": null,
+  "signataire": "Jérôme Valentin",
+  "statut": "livre"
+}

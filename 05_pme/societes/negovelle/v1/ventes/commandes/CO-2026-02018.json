@@ -1,0 +1,89 @@
+{
+  "numero": "CO-2026-02018",
+  "client": "c-0023",
+  "reference_client": null,
+  "cree_le": "2026-07-03T09:10:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "48 rue du Four, 36999 Vendrigny (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "FIX-12107",
+      "libelle": "Équerre de fixation 120x60x20 mm, zinguée",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 3.85,
+      "remise_pourcent": 10.76,
+      "prix_net_ht_euros": 3.44,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 34.4
+    },
+    {
+      "reference": "OUT-12229",
+      "libelle": "Serre-joint à pompe 400 mm",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 31.95,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 31.95,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 319.5
+    },
+    {
+      "reference": "OUT-12547",
+      "libelle": "Spatule à enduire 60 mm",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 16.15,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 16.15,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 32.3
+    },
+    {
+      "reference": "VIS-11004",
+      "libelle": "Vis à bois tête fraisée 3,5x50, zinguée, boîte de 500",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 9.6,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 8.83,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 88.3
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 474.5,
+  "total_tva_euros": 94.9,
+  "total_ttc_euros": 569.4,
+  "statut": "expediee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01861"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T09:10:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T09:12:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T16:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01861"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "identifiant": "m-vete-402",
+  "de": {
+    "nom": "Élodie Chauvin",
+    "adresse": "elodie.chauvin@domivelle.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Ma note de frais de mai",
+  "date": "2026-06-04T18:05:00+02:00",
+  "corps": "Véronique,\n\nVoici ma note de frais de mai, avec ma voiture :\n\n| Date | Objet | Immeuble | Kilomètres | Stationnement |\n|---|---|---|---|---|\n| 28 avril 2026 | visite | n04 | 26 | 0,00 € |\n| 5 mai 2026 | visite technique | n05 | 24 | 2,00 € |\n| 12 mai 2026 | état des lieux de sortie | n12 | 30 | 0,00 € |\n| 20 mai 2026 | visite | n17 | 24 | 0,00 € |\n\nSoit 104 km à 0,40 €, 41,60 €, et 2,00 € de stationnement : 43,60 €. Le ticket du 5 mai est joint.\n\nÉlodie",
+  "pieces_jointes": [
+    {
+      "nom": "note_de_frais_elodie_chauvin_2026-05.pdf",
+      "fichier": "pieces/m-vete-402/note_de_frais_elodie_chauvin_2026-05.pdf",
+      "taille_octets": 754
+    },
+    {
+      "nom": "ticket_stationnement_2026-05-05.pdf",
+      "fichier": "pieces/m-vete-402/ticket_stationnement_2026-05-05.pdf",
+      "taille_octets": 760
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

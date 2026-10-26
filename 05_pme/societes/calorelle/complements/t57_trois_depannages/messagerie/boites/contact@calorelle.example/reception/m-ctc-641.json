@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-641",
+  "de": {
+    "nom": "Rémi Fontaine",
+    "adresse": "remi.fontaine@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Pompe à chaleur en défaut",
+  "date": "2026-11-09T08:10:00+01:00",
+  "corps": "Bonjour,\n\nNotre pompe à chaleur est en défaut depuis ce matin : plus de chauffage. Nous avons le contrat Sérénité Plus. Nous sommes à la maison toute la semaine.\n\nRémi Fontaine, 113 rue Haute, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

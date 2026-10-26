@@ -1,0 +1,43 @@
+# L'agent seul (03_orchestrations) sur DeepSeek V4.1 Flash, par l'API de DeepInfra : un contrôle
+# du fournisseur, pas une référence (JOURNAL, entrée 120). Servi en fp8 chez DeepInfra ; ses
+# résultats ne remplacent pas ceux du compte officiel de DeepSeek.
+# Réglages, prix et sources : 00_docs/sources/2026-10-05_reglages_des_modeles.md.
+fiche:
+  identifiant: agent_seul_deepseek_flash_deepinfra
+  nom: Agent seul sur DeepSeek V4.1 Flash (DeepInfra), contrôle du fournisseur
+  version: "0.1.0"
+  origine: fait_main
+  division: a_modele_egal
+  branchement: mcp
+  editeur: Épreuve d'agent
+  url: null
+  modeles:
+    - nom: deepseek-ai/DeepSeek-V4.1-Flash
+      fournisseur: DeepInfra
+  cout_mesurable: true
+  conditions_utilisation: null
+configuration:
+  modeles:
+    - role: agent
+      nom: deepseek-ai/DeepSeek-V4.1-Flash
+      fournisseur: DeepInfra
+      version_renvoyee: "?"
+      parametres: {}
+      # Prix affiché avec une remise de 30 % le 2026-10-13 (0,20 $, 0,006 $ et 0,60 $ sans elle).
+      tarif:
+        entree_dollars_par_million: 0.14
+        entree_en_cache_dollars_par_million: 0.004
+        sortie_dollars_par_million: 0.42
+        source: https://deepinfra.com/deepseek-ai/DeepSeek-V4.1-Flash
+        releve_le: "2026-10-13"
+machine: null
+lancement:
+  module: orchestrations.agent_seul
+  arguments: [--configuration, 03_orchestrations/src/orchestrations/configurations/deepseek_flash_deepinfra.yaml]
+  delai_secondes: 3600
+  sonde: null
+  creneau: null
+  energie: null
+  empreinte_de:
+    - 03_orchestrations/src/orchestrations/consignes/agent_seul.md
+    - 03_orchestrations/src/orchestrations/configurations/deepseek_flash_deepinfra.yaml

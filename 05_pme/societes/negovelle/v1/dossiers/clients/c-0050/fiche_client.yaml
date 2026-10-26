@@ -1,0 +1,31 @@
+# Fiche du client c-0050 de Négovelle. Données FICTIVES.
+code: c-0050
+nom: Menuiserie industrielle Delaunay
+type: pme
+adresse: 29 zone d'activités des Grands Prés, 36999 Mérolles-en-Brenne (FICTIF)
+telephone: 02 61 91 84 15
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Didier Boutin
+  fonction: responsable des achats
+  courriel: didier.boutin@menuiserie-industrielle-delaunay.example
+- nom: Manon Valentin
+  fonction: responsable de maintenance
+  courriel: manon.valentin@menuiserie-industrielle-delaunay.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 29 zone d'activités des Grands Prés, 36999 Mérolles-en-Brenne (FICTIF)
+- code: L2
+  libelle: dépôt
+  adresse: 13 zone d'activités des Grands Prés, 36999 Vendrigny (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2008-02-01'
+limite_encours_euros: 6500.0
+livraisons_partielles: false
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

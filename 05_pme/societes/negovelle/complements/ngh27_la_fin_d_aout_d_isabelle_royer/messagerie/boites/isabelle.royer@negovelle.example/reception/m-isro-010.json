@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-isro-010",
+  "de": {
+    "nom": "Fabrice Mercier",
+    "adresse": "fabrice.mercier@negovelle.example"
+  },
+  "a": [
+    "isabelle.royer@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Carrelage Grondin",
+  "date": "2026-08-28T16:40:00+02:00",
+  "corps": "Isabelle,\n\nCarrelage Grondin attend toujours ses 30 boîtes de vis, CO-2026-02054. Bruno m'avait dit oui en juillet : débloque-la, s'il te plaît, ils me relancent tous les jours.\n\nFabrice",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

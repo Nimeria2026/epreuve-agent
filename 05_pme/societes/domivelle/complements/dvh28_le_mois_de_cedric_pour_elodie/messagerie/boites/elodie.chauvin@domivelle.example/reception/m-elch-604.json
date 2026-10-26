@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-elch-604",
+  "de": {
+    "nom": "Claude Blondel",
+    "adresse": "claude.blondel@messagerie.example"
+  },
+  "a": [
+    "elodie.chauvin@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Mon départ",
+  "date": "2026-10-10T10:00:00+02:00",
+  "corps": "Bonjour,\n\nJe vous préviens que je quitte ma maison du lot c11-04 : je donne mon préavis par ce courriel, pour partir à la fin de janvier.\n\nClaude Blondel",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

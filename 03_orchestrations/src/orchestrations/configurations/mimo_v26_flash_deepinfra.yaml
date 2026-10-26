@@ -1,0 +1,20 @@
+# Xiaomi MiMo-V2.6-Flash par DeepInfra (nom d'API XiaomiMiMo/MiMo-V2.6-Flash). Essai décidé par
+# Alexandre le 2026-10-21 (JOURNAL, deux-cent-trente-troisième entrée) : tranche publique, un essai
+# puis cinq, hors du constat. Clé dans la variable DEEPINFRA_API_KEY, ou dans le fichier .env à la
+# racine du dépôt, hors git.
+# Réglages de l'éditeur : température 1,0 et top_p 0,95 (« Recommended sampling », fiche du modèle,
+# https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Flash-RL, consultée le 2026-10-21).
+role: agent
+modele: XiaomiMiMo/MiMo-V2.6-Flash
+adresse: https://api.deepinfra.com/v1/openai
+cle_env: DEEPINFRA_API_KEY
+parametres:
+  temperature: 1.0
+  top_p: 0.95
+# Xiaomi recommande de garder tout le raisonnement des tours précédents dans les messages, pour les
+# meilleures performances (https://mimo.mi.com/docs/en-US/quick-start/faq/api-integration,
+# consulté le 2026-10-21). DeepInfra le rend et le reprend dans reasoning_content (vérifié le
+# 2026-10-21 par deux appels, outil compris).
+raisonnement_renvoye: reasoning_content
+delai_appel_secondes: 600
+tours_max: 60

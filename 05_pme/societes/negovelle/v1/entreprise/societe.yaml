@@ -1,0 +1,5 @@
+# Paramètres de Négovelle pour les services communs de la PME (contrat parametres_societe ;
+# ADR 0006). Un état sans ce fichier est celui de Calorelle. Tout est fictif.
+nom: Négovelle
+domaine: negovelle.example
+dossier_fiches_fournisseurs: fournisseurs

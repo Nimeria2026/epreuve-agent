@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-tg-825",
+  "de": {
+    "nom": "Manon Vincent",
+    "adresse": "manon.vincent@courriel.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Compte rendu de ma visite",
+  "date": "2026-12-19T12:00:00+01:00",
+  "corps": "Bonjour,\n\nPouvez-vous m'envoyer le compte rendu de la visite d'entretien du 15 décembre ? À mon adresse du cabinet, manon.vincent@cabinet-vincent-45.example, s'il vous plaît : c'est pour mon assurance.\n\nManon Vincent, 113 avenue des Tilleuls (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

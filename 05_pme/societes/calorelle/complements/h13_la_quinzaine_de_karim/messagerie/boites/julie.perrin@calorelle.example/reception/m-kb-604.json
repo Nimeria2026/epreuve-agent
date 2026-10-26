@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-604",
+  "de": {
+    "nom": "Syndic de la Résidence du Clos-Fargeau",
+    "adresse": "contact@syndic-de-la-residence-du-clos-fargeau-3.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Date du remplacement de la pompe",
+  "date": "2026-11-21T17:10:00+01:00",
+  "corps": "Bonjour Monsieur Benali,\n\nNous devons prévenir les résidents de la coupure de chauffage : à quelle date viendrez-vous remplacer la pompe de circulation de la chaufferie, comme convenu en septembre ?\n\nCordialement,\nLe syndic de la Résidence du Clos-Fargeau, 35 rue des Lilas, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

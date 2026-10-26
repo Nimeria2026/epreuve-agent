@@ -1,0 +1,31 @@
+# Fiche du client c-0220 de Négovelle. Données FICTIVES.
+code: c-0220
+nom: Chauveau et Fils
+type: entreprise
+adresse: 28 zone artisanale du Moulin, 36999 Brissonne (FICTIF)
+telephone: 02 61 91 72 30
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Henri Vallet
+  fonction: conducteur de travaux
+  courriel: henri.vallet@chauveau-et-fils.example
+- nom: Sophie Ancelin
+  fonction: responsable des achats
+  courriel: sophie.ancelin@chauveau-et-fils.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 28 zone artisanale du Moulin, 36999 Brissonne (FICTIF)
+- code: L2
+  libelle: chantier déclaré
+  adresse: 6 rue des Forges, 36999 Saulvenne (FICTIF)
+categorie_remise: C
+delai_paiement: 60_jours_date_de_facture
+client_depuis: '2015-07-01'
+limite_encours_euros: 9500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

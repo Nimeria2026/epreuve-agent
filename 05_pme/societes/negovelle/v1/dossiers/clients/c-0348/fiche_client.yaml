@@ -1,0 +1,25 @@
+# Fiche du client c-0348 de Négovelle. Données FICTIVES.
+code: c-0348
+nom: Plâtrerie Mabille
+type: artisan
+adresse: 48 rue de la Poste, 36999 Corvalet (FICTIF)
+telephone: 02 61 91 68 18
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Éric Voisin
+  fonction: gérant
+  courriel: eric.voisin@platrerie-mabille.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 48 rue de la Poste, 36999 Corvalet (FICTIF)
+categorie_remise: A
+delai_paiement: comptant
+client_depuis: '2026-03-27'
+limite_encours_euros: 3000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

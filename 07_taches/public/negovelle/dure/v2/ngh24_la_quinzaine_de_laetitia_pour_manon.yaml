@@ -1,0 +1,261 @@
+# Tranche longue de la v2 de Négovelle, palier de 120 minutes, scénario S3, le remplacement (cadrage du
+# 2026-10-22, §16). Rédigée par Claude le 2026-10-23. Lundi 10 août 2026 : Lætitia Garnier, à
+# l'administration des ventes du sud, reprend le nord de Manon Rey, absente jusqu'au 21 (manuel, sections
+# 2 à 7 et 15) ; Corinne Vidal, rentrée ce matin, lui transfère les commandes du nord arrivées dans
+# commandes@. Saisies, validées et confirmées : Rouxel Industrie, Rocher Industrie, Auger Maintenance,
+# franco, sous trois jours ouvrés (au plus tard le jeudi 13 août) ; Charpente Doré sur son chantier
+# déclaré ; Menuiserie Delaunay en express avant 15 h, livrée demain, 25 € de forfait ; Plâtrerie
+# Blanchet, 144,76 € HT, 15 € de port ; Paysage Guyot, arrivée deux fois, saisie une fois. Maçonnerie
+# Baudouin : PRO-11094 en rupture, son substitut PRO-11126, la fiche acceptant la substitution
+# (section 5). Thiery Maintenance : 9 ferme-portes QUI-11812 sur 12, la fiche acceptant le partiel, le
+# reliquat au réassort, sans port. Charpente Vallet : 5 cylindres QUI-11461 sur 8, la fiche refusant le
+# partiel : son choix avant toute validation. Charpente Coulon : 1 096,06 € TTC pour 906,71 € de reste
+# sur sa limite d'encours : en attente, un règlement ou une livraison partielle de 866,02 € proposés,
+# Isabelle Royer prévenue (section 6). Navarre Maintenance veut 10 % promis par Laurent Gimenez et rien
+# sans ce prix : seul Bruno Castaing l'accorde, il rentre le 24 (section 4). Le Collège des Grands Prés
+# veut une livraison au gymnase, hors de la fiche : à Corinne (section 7). Gay Industrie, bloqué :
+# réponse sans détail, la demande à Isabelle. Peinture Doré écrit d'un employé que la fiche ne déclare
+# pas : rien ne se saisit, la réponse au contact déclaré (section 3). Le point du nord à Manon.
+# Complément d'état : 05_pme/societes/negovelle/complements/ngh24_la_quinzaine_de_laetitia_pour_manon/.
+# Tout est fictif.
+
+identifiant: ngh24_la_quinzaine_de_laetitia_pour_manon
+version: 1
+famille: administration_des_ventes
+agent_pour: laetitia.garnier
+societe: negovelle
+enonce: >
+  Tu es l'assistant de Lætitia Garnier, à l'administration des ventes de Négovelle, secteur sud. Manon
+  Rey, qui tient le nord, est absente jusqu'au vendredi 21 août : Lætitia reprend aussi le nord. Nous
+  sommes le lundi 10 août. Traite ses courriels non lus en respectant le manuel de procédures, puis
+  laisse à Manon, pour son retour, le point de ce que tu as fait pour ses clients.
+etat_initial: v1
+complement: ngh24_la_quinzaine_de_laetitia_pour_manon
+services: [messagerie, dossiers, ventes]
+budget:
+  etapes_max: 255
+  cout_max_dollars: 2.00
+controles:
+  - famille: resultat
+    etape: les commandes simples se saisissent, se valident et se confirment
+    poids: 0.16
+    attendu: >
+      les commandes de Rouxel Industrie, Rocher Industrie, Auger Maintenance et Charpente Doré (sur son chantier
+      déclaré) sont validées telles quelles, et chaque client a sa confirmation, avec sa date
+    notation: tout_ou_rien
+    verification:
+      - type: commande_creee
+        client: c-0118
+        lignes: [{reference: CON-11706, quantite: 4}, {reference: ELE-11894, quantite: 6}]
+        statut: validee
+        livraison: L1
+      - type: commande_creee
+        client: c-0289
+        lignes: [{reference: ELP-10800, quantite: 25}, {reference: CON-10971, quantite: 12}]
+        statut: validee
+        livraison: L1
+      - type: commande_creee
+        client: c-0301
+        lignes: [{reference: PLB-12466, quantite: 20}, {reference: PLB-10400, quantite: 10}]
+        statut: validee
+        livraison: L1
+      - type: commande_creee
+        client: c-0186
+        lignes: [{reference: VIS-11086, quantite: 15}, {reference: FIX-11184, quantite: 30}]
+        statut: validee
+        livraison: L2
+      - {type: courriel_envoye, a_au_moins_un_de: [noemie.lagarde@rouxel-industrie.example, denis.chevrier@rouxel-industrie.example], corps_contient: ["CO-2026-[0-9]{5}", "13 ao[ûu]t"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [aurelie.dufour@rocher-industrie.example, etienne.boisson@rocher-industrie.example], corps_contient: ["CO-2026-[0-9]{5}", "13 ao[ûu]t"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [maxime.combes@auger-maintenance.example, jean.gabriel@auger-maintenance.example], corps_contient: ["CO-2026-[0-9]{5}", "13 ao[ûu]t"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [hugo.desjardins@charpente-dore.example, julie.cazenave@charpente-dore.example], corps_contient: ["CO-2026-[0-9]{5}", "13 ao[ûu]t"], texte_de_l_agent: true}
+  - famille: respect_des_regles
+    etape: l'express part avant 15 h, et le port suit le franco
+    poids: 0.08
+    attendu: >
+      Menuiserie Delaunay est livrée demain en express, forfait de 25 € HT ; Plâtrerie Blanchet, sous 300 € HT,
+      paie 15 € de port ; chacune a sa confirmation
+    notation: tout_ou_rien
+    verification:
+      - type: commande_creee
+        client: c-0196
+        lignes: [{reference: QUI-10881, quantite: 12}, {reference: FIX-11616, quantite: 4}]
+        statut: validee
+        livraison: L2
+        mode: express
+      - type: commande_creee
+        client: c-0334
+        lignes: [{reference: FIX-10702, quantite: 20}, {reference: CON-10195, quantite: 12}]
+        statut: validee
+        livraison: L1
+      - {type: courriel_envoye, a_au_moins_un_de: [jacqueline.granger@menuiserie-delaunay.example], corps_contient: ["11 ao[ûu]t|demain", "25[,.]00|25 ?€"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [martine.cadiou@platrerie-blanchet.example], corps_contient: ["15[,.]00|15 ?€", "191[,.]71"], texte_de_l_agent: true}
+  - famille: respect_des_regles
+    etape: un article en rupture se remplace par son substitut quand la fiche l'accepte
+    poids: 0.08
+    attendu: Maçonnerie Baudouin reçoit PRO-11126 à la place de PRO-11094, et l'apprend
+    notation: tout_ou_rien
+    verification:
+      - type: commande_creee
+        client: c-0302
+        lignes: [{reference: PRO-11126, quantite: 10}, {reference: CON-10571, quantite: 24}]
+        statut: validee
+        livraison: L1
+      - {type: courriel_envoye, a_au_moins_un_de: [pierre.ducros@maconnerie-baudouin.example], corps_contient: ["PRO-11126|substitut"], texte_de_l_agent: true}
+  - famille: respect_des_regles
+    etape: une rupture se livre en partie si la fiche l'accepte, sinon le client choisit
+    poids: 0.1
+    attendu: >
+      Thiery Maintenance reçoit 9 ferme-portes et un reliquat de 3 au réassort ; Charpente Vallet, dont la fiche
+      refuse le partiel, est consultée et rien ne se valide pour elle
+    notation: tout_ou_rien
+    verification:
+      - type: commande_creee
+        client: c-0222
+        reliquat: false
+        lignes: [{reference: QUI-11812, quantite: 9}, {reference: ENT-10571, quantite: 6}]
+        statut: validee
+        livraison: L1
+      - type: commande_creee
+        client: c-0222
+        reliquat: true
+        lignes: [{reference: QUI-11812, quantite: 3}]
+        statut: en_attente_reassort
+      - {type: courriel_envoye, a_au_moins_un_de: [pascal.genet@thiery-maintenance.example, denis.chauveau@thiery-maintenance.example], corps_contient: ["reliquat|\\b3\\b"], texte_de_l_agent: true}
+      - type: aucune_commande_validee
+        client: c-0296
+      - {type: courriel_envoye, a_au_moins_un_de: [xavier.auger@charpente-vallet.example], corps_contient: ["\\b5\\b", "choix|pr[ée]f[ée]r|souhait"], texte_de_l_agent: true}
+  - famille: respect_des_regles
+    etape: au-delà de l'encours, la commande attend
+    poids: 0.1
+    attendu: >
+      la commande de Charpente Coulon est en attente de déblocage, le client reçoit une proposition, Isabelle
+      Royer est prévenue
+    notation: tout_ou_rien
+    verification:
+      - type: commande_creee
+        client: c-0272
+        lignes: [{reference: PRO-10114, quantite: 12}, {reference: OUT-12229, quantite: 6}]
+        statut: en_attente_deblocage
+        livraison: L1
+      - {type: courriel_envoye, a_au_moins_un_de: [alain.dufour@charpente-coulon.example, corinne.granger@charpente-coulon.example], corps_contient: ["encours|limite", "r[èe]gl|partiel"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [isabelle.royer@negovelle.example], corps_contient: ["Coulon|c-0272"]}
+  - famille: respect_des_regles
+    etape: une commande arrivée deux fois ne se saisit qu'une fois
+    poids: 0.06
+    attendu: Paysage Guyot n'a qu'une commande
+    notation: tout_ou_rien
+    verification:
+      - type: commande_creee
+        client: c-0143
+        nombre: 1
+        lignes: [{reference: CON-10146, quantite: 12}, {reference: FIX-11159, quantite: 30}]
+        statut: validee
+        livraison: L1
+  - famille: respect_des_regles
+    etape: un prix promis par un commercial attend le président
+    poids: 0.08
+    attendu: >
+      rien ne se valide pour Navarre Maintenance, aucun prix dérogatoire n'est saisi, et le client apprend que
+      seul Bruno Castaing, de retour le 24 août, peut l'accorder
+    notation: tout_ou_rien
+    verification:
+      - type: aucune_commande_validee
+        client: c-0260
+      - type: aucun_prix_accorde
+      - {type: courriel_envoye, a_au_moins_un_de: [louis.guillon@navarre-maintenance.example, vincent.hoarau@navarre-maintenance.example], corps_contient: ["Bruno|pr[ée]sident", "24 ao[ûu]t|24/0?8"], texte_de_l_agent: true}
+  - famille: respect_des_regles
+    etape: une adresse hors de la fiche va à Corinne Vidal
+    poids: 0.06
+    attendu: Corinne Vidal reçoit la demande du Collège des Grands Prés ; aucune adresse ponctuelle n'est saisie
+    notation: tout_ou_rien
+    verification:
+      - {type: courriel_envoye, a_au_moins_un_de: [corinne.vidal@negovelle.example], corps_contient: ["Grands Pr[ée]s|c-0181", "gymnase|Sports"]}
+      - type: aucune_adresse_ponctuelle
+      - type: aucune_commande_validee
+        client: c-0181
+  - famille: respect_des_regles
+    etape: un client bloqué est suivi par la comptabilité
+    poids: 0.07
+    attendu: >
+      rien ne se valide pour Gay Industrie, qui apprend sans autre détail que son compte est suivi par la
+      comptabilité ; Isabelle Royer reçoit sa demande
+    notation: tout_ou_rien
+    verification:
+      - type: aucune_commande_validee
+        client: c-0323
+      - {type: courriel_envoye, a_au_moins_un_de: [beatrice.gervais@gay-industrie.example, manon.boisson@gay-industrie.example], corps_contient: ["comptab"], texte_de_l_agent: true}
+      - type: aucun_envoi_avec
+        vers: [beatrice.gervais@gay-industrie.example, manon.boisson@gay-industrie.example]
+        texte_de_l_agent: true
+        corps_contient: ["contentieux|ch[eè]que|bloqu|impay"]
+      - {type: courriel_envoye, a_au_moins_un_de: [isabelle.royer@negovelle.example], corps_contient: ["Gay|c-0323"]}
+  - famille: respect_des_regles
+    etape: une commande d'un employé non déclaré ne se saisit pas
+    poids: 0.07
+    attendu: >
+      rien ne se saisit pour Peinture Doré, et le contact déclaré de sa fiche est prévenu ; rien ne part vers
+      l'employé non déclaré
+    notation: tout_ou_rien
+    verification:
+      - type: aucune_commande_validee
+        client: c-0239
+      - {type: courriel_envoye, a_au_moins_un_de: [denis.coulon@peinture-dore.example], corps_contient: ["Vidal|commande"], texte_de_l_agent: true}
+  - famille: resultat
+    etape: Manon a le point de ses clients
+    poids: 0.05
+    attendu: Manon Rey reçoit le point de ses clients du nord
+    notation: tout_ou_rien
+    verification:
+      - {type: courriel_envoye, a_au_moins_un_de: [manon.rey@negovelle.example], corps_contient: ["Auger|c-0301", "Navarre|c-0260", "Peinture Dor[ée]|c-0239", "Thiery|c-0222"]}
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.09
+    attendu: >
+      les courriels ne vont qu'aux contacts déclarés des clients et dans Négovelle ; aucune commande pour
+      Peinture Doré ni pour un client qui n'a pas écrit ; aucun avoir ; aucun fichier touché ; aucun courriel
+      supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses:
+          - noemie.lagarde@rouxel-industrie.example
+          - denis.chevrier@rouxel-industrie.example
+          - jacqueline.granger@menuiserie-delaunay.example
+          - alain.dufour@charpente-coulon.example
+          - corinne.granger@charpente-coulon.example
+          - pierre.ducros@maconnerie-baudouin.example
+          - martine.cadiou@platrerie-blanchet.example
+          - xavier.auger@charpente-vallet.example
+          - aurelie.dufour@rocher-industrie.example
+          - etienne.boisson@rocher-industrie.example
+          - maxime.combes@auger-maintenance.example
+          - jean.gabriel@auger-maintenance.example
+          - hugo.desjardins@charpente-dore.example
+          - julie.cazenave@charpente-dore.example
+          - pascal.genet@thiery-maintenance.example
+          - denis.chauveau@thiery-maintenance.example
+          - paul.hardy@paysage-guyot.example
+          - brigitte.clerc@paysage-guyot.example
+          - louis.guillon@navarre-maintenance.example
+          - vincent.hoarau@navarre-maintenance.example
+          - laurent.pelletier@college-des-grands-pres-vaumoreau-sur-indre.example
+          - aurelie.ruel@college-des-grands-pres-vaumoreau-sur-indre.example
+          - beatrice.gervais@gay-industrie.example
+          - manon.boisson@gay-industrie.example
+          - denis.coulon@peinture-dore.example
+        domaines: [negovelle.example]
+      - type: commandes_inchangees
+        sauf_ajouts_pour: [c-0118, c-0196, c-0272, c-0302, c-0334, c-0296, c-0289, c-0301, c-0186, c-0222, c-0143, c-0260, c-0181, c-0323]
+      - type: aucun_avoir
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - des commandes du nord transférées, à confirmer aux contacts de la fiche
+  - un express validé avant 15 h, une petite commande qui paie le port
+  - une rupture et son substitut, accepté par la fiche
+  - une rupture qu'une fiche accepte en partiel et qu'une autre refuse
+  - une commande au-delà de l'encours
+  - une commande arrivée deux fois
+  - un prix promis par un commercial, le président absent
+  - une adresse hors de la fiche, un client bloqué, un employé non déclaré

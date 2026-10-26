@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-607",
+  "de": {
+    "nom": "Solaire Express",
+    "adresse": "offres@solaire-express.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Vos clients méritent le solaire",
+  "date": "2026-11-02T08:50:00+01:00",
+  "corps": "Bonjour,\n\nDevenez revendeur de nos panneaux solaires : remise de lancement de 30 % jusqu'au 30 novembre. Répondez à ce courriel pour recevoir notre catalogue.\n\nSolaire Express (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

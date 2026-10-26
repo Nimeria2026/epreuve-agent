@@ -1,0 +1,11 @@
+# Fiche du propriétaire p-0354, mandant de Domivelle. Données FICTIVES.
+code: p-0354
+nom: M. Gérard Lainé
+adresse: 16 rue du Four, 18999 Montclavel-sur-Cher (FICTIF)
+courriel: gerard.laine@mel-perso.example
+telephone: 06 39 98 85 38
+iban: FR76 9999 9528 9005 7674 0097 331 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- n16-04
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

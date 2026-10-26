@@ -1,0 +1,64 @@
+{
+  "numero": "CO-2026-02046",
+  "client": "c-0018",
+  "reference_client": null,
+  "cree_le": "2026-07-03T15:00:00+02:00",
+  "cree_par": "aurelie.bonnefoy",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "37 parc d'activités de la Gare, 36999 Saulvenne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "OUT-10146",
+      "libelle": "Caisse à outils plastique 500 mm",
+      "quantite": 8,
+      "prix_tarif_ht_euros": 36.25,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 34.8,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 278.4
+    },
+    {
+      "reference": "OUT-10204",
+      "libelle": "Caisse à outils à tiroirs 700 mm",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 28.6,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 27.46,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 164.76
+    },
+    {
+      "reference": "OUT-11812",
+      "libelle": "Pince étau 140 mm",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 24.1,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 23.14,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 231.4
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 674.56,
+  "total_tva_euros": 134.91,
+  "total_ttc_euros": 809.47,
+  "statut": "brouillon",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T15:00:00+02:00",
+      "par": "aurelie.bonnefoy",
+      "action": "creee",
+      "detail": "prix du déstockage attendus"
+    }
+  ]
+}

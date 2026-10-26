@@ -1,0 +1,131 @@
+# Registre des lots en gestion, n16. Données FICTIVES.
+immeuble: n16
+nature: groupe de maisons
+adresse: 78 rue des Écoles, 18999 Vernillac (FICTIF)
+secteur: nord
+gestionnaire: Élodie Chauvin
+distance_agence_km: 8
+annee_construction: 1975
+gardien: false
+copropriete_du_syndic: null
+lots:
+- lot: n16-01
+  type: maison T3
+  surface_m2: 73
+  proprietaire: p-0351
+  locataire: Mme Fabienne Cordier
+  entree: '2017-06-28'
+  loyer_hors_charges: 571,00 €
+  provision_sur_charges: 13,00 €
+  depot_de_garantie: 476,00 €
+  revision: chaque 28 juin
+  trimestre_irl: T1
+  dpe: D
+- lot: n16-02
+  type: maison T5
+  surface_m2: 112
+  proprietaire: p-0338
+  locataire: Mme Florence Royer
+  entree: '2025-02-10'
+  loyer_hors_charges: 1 060,00 €
+  provision_sur_charges: 2,00 €
+  depot_de_garantie: 1 034,00 €
+  revision: chaque 10 février
+  trimestre_irl: T4
+  dpe: C
+- lot: n16-03
+  type: maison T4
+  surface_m2: 89
+  proprietaire: p-0353
+  locataire: Mme Amandine Fleury
+  entree: '2016-06-24'
+  loyer_hors_charges: 742,00 €
+  provision_sur_charges: 19,00 €
+  depot_de_garantie: 606,00 €
+  revision: chaque 24 juin
+  trimestre_irl: T1
+  dpe: D
+- lot: n16-04
+  type: maison T3
+  surface_m2: 74
+  proprietaire: p-0354
+  locataire: Mme Alice Pasquier
+  entree: '2019-01-16'
+  loyer_hors_charges: 593,00 €
+  provision_sur_charges: 6,00 €
+  depot_de_garantie: 505,00 €
+  revision: chaque 16 janvier
+  trimestre_irl: T3
+  dpe: F
+- lot: n16-05
+  type: maison T5
+  surface_m2: 100
+  proprietaire: p-0355
+  locataire: Mme Valérie Boulanger
+  entree: '2021-11-27'
+  loyer_hors_charges: 935,00 €
+  provision_sur_charges: 9,00 €
+  depot_de_garantie: 850,00 €
+  revision: chaque 27 novembre
+  trimestre_irl: T3
+  dpe: D
+- lot: n16-06
+  type: maison T5
+  surface_m2: 120
+  proprietaire: p-0356
+  locataire: Mme Julie Martel
+  entree: '2023-07-15'
+  loyer_hors_charges: 1 000,00 €
+  provision_sur_charges: 1,00 €
+  depot_de_garantie: 952,00 €
+  revision: chaque 15 juillet
+  trimestre_irl: T1
+  dpe: E
+- lot: n16-07
+  type: maison T3
+  surface_m2: 74
+  proprietaire: p-0357
+  locataire: Mme Pauline Tanguy
+  entree: '2019-09-14'
+  loyer_hors_charges: 689,00 €
+  provision_sur_charges: 4,00 €
+  depot_de_garantie: 599,00 €
+  revision: chaque 14 septembre
+  trimestre_irl: T2
+  dpe: E
+- lot: n16-08
+  type: maison T5
+  surface_m2: 107
+  proprietaire: p-0358
+  locataire: M. Claude Verdier
+  entree: '2022-09-01'
+  loyer_hors_charges: 985,00 €
+  provision_sur_charges: 12,00 €
+  depot_de_garantie: 916,00 €
+  revision: chaque 1er septembre
+  trimestre_irl: T2
+  dpe: D
+- lot: n16-09
+  type: maison T4
+  surface_m2: 100
+  proprietaire: p-0359
+  locataire: Mme Émilie Brun
+  entree: '2012-10-14'
+  loyer_hors_charges: 816,00 €
+  provision_sur_charges: 16,00 €
+  depot_de_garantie: 616,00 €
+  revision: chaque 14 octobre
+  trimestre_irl: T2
+  dpe: C
+- lot: n16-10
+  type: maison T3
+  surface_m2: 79
+  proprietaire: p-0360
+  locataire: Mme Lucie Fleury
+  entree: '2014-02-05'
+  loyer_hors_charges: 708,00 €
+  provision_sur_charges: 19,00 €
+  depot_de_garantie: 545,00 €
+  revision: chaque 5 février
+  trimestre_irl: T4
+  dpe: E

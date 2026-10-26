@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-ctc-004",
+  "de": {
+    "nom": "Plomberie du Moulin-Barrat",
+    "adresse": "facturation@plomberie-du-moulin-barrat.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture 2026-0874, lot n02-05",
+  "date": "2026-06-08T07:05:00+02:00",
+  "corps": "Bonjour,\n\nCi-jointe notre facture n° 2026-0874 pour le lot n02-05 : 212,00 € TTC, échéance le 30 juin.\n\nService facturation, Plomberie du Moulin-Barrat",
+  "pieces_jointes": [
+    {
+      "nom": "facture_2026-0874.pdf",
+      "fichier": "pieces/m-ctc-004/facture_2026-0874.pdf",
+      "taille_octets": 787
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,8 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0094"
+nom: "Alain Dubois"
+type: "particulier"
+adresse: "5 rue de la Loire, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "alain.dubois@courriel.example"
+telephone: "06 39 98 50 25"
+charge_d_affaires: "julie.perrin"

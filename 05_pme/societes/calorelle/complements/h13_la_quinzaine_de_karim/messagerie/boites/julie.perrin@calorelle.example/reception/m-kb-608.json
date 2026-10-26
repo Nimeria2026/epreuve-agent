@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-608",
+  "de": {
+    "nom": "Commune des Grèves",
+    "adresse": "contact@commune-des-greves-332.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis pour la salle des fêtes",
+  "date": "2026-11-20T18:40:00+01:00",
+  "corps": "Bonjour Monsieur Benali,\n\nVotre technicien est passé mardi à la salle des fêtes. Pouvez-vous nous adresser le devis du remplacement de la chaudière et du désembouage des radiateurs ? Le conseil municipal se réunit le 3 décembre.\n\nCordialement,\nLe secrétariat de la mairie des Grèves (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

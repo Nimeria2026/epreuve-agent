@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-820",
+  "de": {
+    "nom": "Établissements Martin",
+    "adresse": "contact@etablissements-martin-346.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Climatisation de la salle informatique",
+  "date": "2026-10-31T07:40:00+01:00",
+  "corps": "Bonjour,\n\nLa climatisation de notre salle informatique ne refroidit plus depuis hier soir. Il nous faut quelqu'un rapidement.\n\nÉtablissements Martin (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

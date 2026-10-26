@@ -1,0 +1,29 @@
+{
+  "identifiant": "m-brca-004",
+  "de": {
+    "nom": "Laurent Gimenez",
+    "adresse": "laurent.gimenez@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Note de frais de juillet",
+  "date": "2026-08-04T18:30:00+02:00",
+  "corps": "Bonjour Bruno,\n\nVoici ma note de frais de juillet, 256,40 €, et mes justificatifs. Le 9 juillet, le véhicule de service était au contrôle technique : j'ai pris ma voiture, 86 km au barème. Le déjeuner du 30 juillet avec Navarre Maintenance, je n'ai pas eu le temps de te le demander avant. Je n'ai plus le ticket du stationnement du 23.\n\nMerci,\nLaurent",
+  "pieces_jointes": [
+    {
+      "nom": "laurent.gimenez.md",
+      "fichier": "pieces/m-brca-004/laurent.gimenez.md",
+      "taille_octets": 795
+    },
+    {
+      "nom": "justificatifs_laurent.gimenez_2026-07.pdf",
+      "fichier": "pieces/m-brca-004/justificatifs_laurent.gimenez_2026-07.pdf",
+      "taille_octets": 812
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

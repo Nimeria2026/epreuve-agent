@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cpt-611",
+  "de": {
+    "nom": "Transports de Sablonnet",
+    "adresse": "compta@transports-de-sablonnet.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Relevé de compte au 30 novembre 2026",
+  "date": "2026-11-27T12:10:00+01:00",
+  "corps": "Bonjour,\n\nVoici le relevé de votre compte chez nous au 30 novembre 2026 :\n- TS-08812 du 14/10/2026, 114,00 € TTC, réglée le 12/11/2026, après son échéance : indemnité forfaitaire pour frais de recouvrement, 40,00 €\n- TS-08907 du 09/11/2026, 132,00 € TTC, échéance 09/12/2026\n\nSolde dû : 172,00 €.\n\nService comptable, Transports de Sablonnet (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

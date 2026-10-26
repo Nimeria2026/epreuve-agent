@@ -1,0 +1,75 @@
+{
+  "numero": "CO-2026-02047",
+  "client": "c-0038",
+  "reference_client": null,
+  "cree_le": "2026-07-03T15:00:00+02:00",
+  "cree_par": "aurelie.bonnefoy",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "11 chemin du Bois, 36999 Saulvenne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "OUT-10179",
+      "libelle": "Caisse à outils à roulettes 700 mm",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 24.3,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 24.3,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 121.5
+    },
+    {
+      "reference": "OUT-10147",
+      "libelle": "Caisse à outils plastique 600 mm",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 47.3,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 47.3,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 189.2
+    },
+    {
+      "reference": "OUT-11845",
+      "libelle": "Pince étau 300 mm",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 27.8,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 27.8,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 166.8
+    },
+    {
+      "reference": "OUT-11078",
+      "libelle": "Marteau de coffreur 500 g",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 34.2,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 34.2,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 205.2
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 682.7,
+  "total_tva_euros": 136.54,
+  "total_ttc_euros": 819.24,
+  "statut": "brouillon",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T15:00:00+02:00",
+      "par": "aurelie.bonnefoy",
+      "action": "creee",
+      "detail": "prix du déstockage attendus"
+    }
+  ]
+}

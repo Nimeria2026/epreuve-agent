@@ -1,0 +1,44 @@
+{
+  "numero": "BL-2026-01851",
+  "commande": "CO-2026-02002",
+  "client": "c-0259",
+  "date_expedition": "2026-07-03",
+  "date_livraison": "2026-07-03",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "135 rue des Jardins, 36999 Fontclavier (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ELE-10122",
+      "libelle": "Ampoule LED E27 12 W, 4000 K",
+      "quantite": 50
+    },
+    {
+      "reference": "FIX-10449",
+      "libelle": "Cheville nylon 5x40, boîte de 200",
+      "quantite": 3
+    },
+    {
+      "reference": "PLB-12376",
+      "libelle": "Raccord à sertir té 20 mm",
+      "quantite": 5
+    },
+    {
+      "reference": "VIS-12507",
+      "libelle": "Vis à bois tête fraisée 4x50, zinguée, boîte de 500",
+      "quantite": 1
+    },
+    {
+      "reference": "VIS-13666",
+      "libelle": "Vis à tôle tête cylindrique 3,5x19, inox A2, boîte de 250",
+      "quantite": 5
+    }
+  ],
+  "reserves": null,
+  "signataire": "Fabrice Chartier",
+  "statut": "livre"
+}

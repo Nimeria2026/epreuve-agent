@@ -1,0 +1,145 @@
+{
+  "numero": "CO-2026-01868",
+  "client": "c-0347",
+  "reference_client": null,
+  "cree_le": "2026-06-24T09:10:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "1 zone d'activités des Grands Prés, 36999 Vendrigny (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-10310",
+      "libelle": "Appareil modulaire minuterie d'escalier",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 54.05,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 54.05,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 54.05
+    },
+    {
+      "reference": "ELE-10685",
+      "libelle": "Collier de serrage 100x4,8 mm, sachet de 100",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 7.35,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 7.35,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 36.75
+    },
+    {
+      "reference": "FIX-11674",
+      "libelle": "Goujon d'ancrage M8x100, boîte de 25",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 35.1,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 35.1,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 35.1
+    },
+    {
+      "reference": "OUT-12311",
+      "libelle": "Serre-joint à une main 1000 mm",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 35.85,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 35.85,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 35.85
+    },
+    {
+      "reference": "PLB-11273",
+      "libelle": "Flexible inox mâle-femelle 15x21 60 cm",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 13.3,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 13.3,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 53.2
+    },
+    {
+      "reference": "PLB-12678",
+      "libelle": "Siphon d'évier 40 mm",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 17.85,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 17.85,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 35.7
+    },
+    {
+      "reference": "PRO-11878",
+      "libelle": "Tee-shirt de travail gris, taille S",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 13.9,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 13.9,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 69.5
+    },
+    {
+      "reference": "VIS-10980",
+      "libelle": "Vis à bois tête fraisée 3,5x50, inox A2, boîte de 100",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 3.5,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 3.5,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 7.0
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 327.15,
+  "total_tva_euros": 65.43,
+  "total_ttc_euros": 392.58,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01717"
+  ],
+  "facture": "FC-2026-1321",
+  "historique": [
+    {
+      "date": "2026-06-24T09:10:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-24T09:12:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-25T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01717"
+    },
+    {
+      "date": "2026-06-25T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01717"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1321"
+    }
+  ]
+}

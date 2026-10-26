@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-aubo-002",
+  "de": {
+    "nom": "Josiane Drouet",
+    "adresse": "josiane.drouet@peinture-vallet.example"
+  },
+  "a": [
+    "aurelie.bonnefoy@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Ruban et disques",
+  "date": "2026-08-05T14:30:00+02:00",
+  "corps": "Bonjour,\n\nQuel serait notre prix pour 12 rouleaux de ruban double face CON-12221 et 4 boîtes de disques à lamelles CON-11004 ?\n\nCordialement,\n\nJosiane Drouet\nPeinture Vallet",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

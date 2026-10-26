@@ -1,0 +1,10 @@
+# Fiche d'un fournisseur de Négovelle. Données FICTIVES.
+nom: Protection de la Croisette
+activite: fabricant d'équipements de protection individuelle
+adresse: 14 parc d'activités de la Gare, 36999 Ardillac (FICTIF)
+telephone: 02 61 91 91 69
+courriel_commandes: commandes@protection-de-la-croisette.example
+courriel_facturation: facturation@protection-de-la-croisette.example
+iban: FR76 9999 9016 4700 0064 1453 920 (FICTIF)
+conditions: paiement à 45 jours fin de mois
+minimum_de_commande: 300,00 € HT

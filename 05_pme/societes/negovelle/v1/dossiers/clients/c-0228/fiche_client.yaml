@@ -1,0 +1,28 @@
+# Fiche du client c-0228 de Négovelle. Données FICTIVES.
+code: c-0228
+nom: Durieux Bâtiment
+type: entreprise
+adresse: 38 zone artisanale du Moulin, 36999 Vendrigny (FICTIF)
+telephone: 02 61 91 74 62
+secteur: est
+commercial: fabrice.mercier
+administration_des_ventes: benoit.faure
+contacts:
+- nom: Sylvie Gabriel
+  fonction: conductrice de travaux
+  courriel: sylvie.gabriel@durieux-batiment.example
+- nom: Josiane Gautier
+  fonction: responsable des achats
+  courriel: josiane.gautier@durieux-batiment.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 38 zone artisanale du Moulin, 36999 Vendrigny (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2016-03-01'
+limite_encours_euros: 11500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

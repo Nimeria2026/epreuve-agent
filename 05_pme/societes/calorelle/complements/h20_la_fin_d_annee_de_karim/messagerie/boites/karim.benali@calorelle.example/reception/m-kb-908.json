@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-908",
+  "de": {
+    "nom": "Syndic de la Résidence des Grèves",
+    "adresse": "contact@syndic-de-la-residence-des-greves-273.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Sérénité Plus, et les radiateurs du hall",
+  "date": "2026-12-21T11:30:00+01:00",
+  "corps": "Bonjour,\n\nNous souhaitons passer notre contrat d'entretien à la formule Sérénité Plus à compter du 1er janvier 2027 : combien cela nous coûtera-t-il pour l'année en cours ?\n\nPar ailleurs, votre technicien est venu le 18 décembre voir les radiateurs des parties communes : pouvez-vous nous adresser le devis ?\n\nLe syndic de la Résidence des Grèves, 3 rue du Moulin (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

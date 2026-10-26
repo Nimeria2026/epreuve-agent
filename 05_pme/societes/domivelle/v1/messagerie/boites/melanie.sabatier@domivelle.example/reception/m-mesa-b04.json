@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-mesa-b04",
+  "de": {
+    "nom": "Mme Agnès Clément",
+    "adresse": "agnes.clement@boite-postale.example"
+  },
+  "a": [
+    "melanie.sabatier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Éclairage de l'entrée",
+  "date": "2026-06-07T11:00:00+02:00",
+  "corps": "Bonjour,\n\nL'éclairage du hall ne fonctionne plus depuis deux jours.\n\nMme Agnès Clément",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

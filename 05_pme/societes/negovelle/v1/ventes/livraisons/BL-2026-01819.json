@@ -1,0 +1,59 @@
+{
+  "numero": "BL-2026-01819",
+  "commande": "CO-2026-01970",
+  "client": "c-0303",
+  "date_expedition": "2026-07-02",
+  "date_livraison": "2026-07-02",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "21 zone artisanale du Moulin, 36999 Brissonne (FICTIF)",
+  "colis": 3,
+  "lignes": [
+    {
+      "reference": "CON-11143",
+      "libelle": "Disque abrasif à lamelles 125 mm, grain 80, boîte de 50",
+      "quantite": 5
+    },
+    {
+      "reference": "ELE-11763",
+      "libelle": "Domino 2,5 mm², barrette de 12",
+      "quantite": 20
+    },
+    {
+      "reference": "ELE-13364",
+      "libelle": "Tableau électrique 2 rangée(s), 18 modules",
+      "quantite": 6
+    },
+    {
+      "reference": "ELP-11077",
+      "libelle": "Foret métal HSS 4,5 mm, étui de 10",
+      "quantite": 12
+    },
+    {
+      "reference": "FIX-12147",
+      "libelle": "Équerre de fixation 120x80x40 mm, galvanisée",
+      "quantite": 50
+    },
+    {
+      "reference": "FIX-12450",
+      "libelle": "Équerre de fixation 80x80x40 mm, zinguée",
+      "quantite": 5
+    },
+    {
+      "reference": "OUT-10294",
+      "libelle": "Ciseau à bois 34 mm",
+      "quantite": 2
+    },
+    {
+      "reference": "VIS-11135",
+      "libelle": "Vis à bois tête fraisée 3,5x80, inox A2, boîte de 200",
+      "quantite": 4
+    }
+  ],
+  "reserves": null,
+  "signataire": "Philippe Becker",
+  "statut": "livre"
+}

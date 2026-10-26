@@ -1,0 +1,34 @@
+{
+  "numero": "BL-2026-01775",
+  "commande": "CO-2026-01926",
+  "client": "c-0044",
+  "date_expedition": "2026-06-29",
+  "date_livraison": "2026-06-30",
+  "transport": {
+    "mode": "transporteur",
+    "transporteur": "transports-delorme",
+    "recepisse": "TD-899848"
+  },
+  "adresse": "29 parc d'activités de la Gare, 36999 Ardillac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "OUT-10538",
+      "libelle": "Clé à molette 375 mm",
+      "quantite": 4
+    },
+    {
+      "reference": "PRO-10008",
+      "libelle": "Bonnet de travail gris",
+      "quantite": 12
+    },
+    {
+      "reference": "PRO-10563",
+      "libelle": "Chaussettes de travail d'hiver, pointures 43-46",
+      "quantite": 12
+    }
+  ],
+  "reserves": null,
+  "signataire": "Louis Lagarde",
+  "statut": "livre"
+}

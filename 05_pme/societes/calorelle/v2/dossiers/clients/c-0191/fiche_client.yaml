@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0191"
+nom: "Christophe Gauthier"
+type: "particulier"
+adresse: "105 rue Haute, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "christophe.gauthier@courriel.example"
+telephone: "06 39 98 50 51"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité Plus"
+  depuis: "2020-11-23"
+  mois_anniversaire: "novembre"
+  derniere_visite: "2025-11-23"

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-006",
+  "de": {
+    "nom": "Serge Morel",
+    "adresse": "serge.morel@charpente-quere.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Casques antibruit",
+  "date": "2026-07-03T10:02:00+02:00",
+  "corps": "Bonjour,\n\n3 des 10 casques antibruit (PRO-10400) de la livraison BL-2026-01727 du 26 juin sont en trop. Je les ai laissés hier à votre comptoir. Merci de les reprendre.\n\nSerge Morel\nCharpente Quéré",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

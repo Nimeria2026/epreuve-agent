@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-715",
+  "de": {
+    "nom": "Michel Martin",
+    "adresse": "michel.martin@courriel.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Compte rendu de la visite",
+  "date": "2026-11-28T14:45:00+01:00",
+  "corps": "Bonjour,\n\nPourriez-vous m'envoyer le compte rendu de la visite d'entretien du 2 novembre ? Mon assurance me le demande.\n\nMichel Martin\n25 rue du Moulin, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

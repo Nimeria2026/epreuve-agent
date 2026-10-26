@@ -1,0 +1,28 @@
+# Fiche du client c-0256 de Négovelle. Données FICTIVES.
+code: c-0256
+nom: Office de tourisme du Val de Vaumoreau
+type: collectivite
+adresse: 100 rue du Château, 36999 Vaumoreau-sur-Indre (FICTIF)
+telephone: 02 61 91 88 68
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Caroline Feuillet
+  fonction: responsable des services techniques
+  courriel: caroline.feuillet@office-de-tourisme-du-val-de-vaumoreau.example
+- nom: Odile Baudry
+  fonction: secrétaire de mairie
+  courriel: odile.baudry@office-de-tourisme-du-val-de-vaumoreau.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 100 rue du Château, 36999 Vaumoreau-sur-Indre (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2023-05-01'
+limite_encours_euros: 2000.0
+livraisons_partielles: false
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

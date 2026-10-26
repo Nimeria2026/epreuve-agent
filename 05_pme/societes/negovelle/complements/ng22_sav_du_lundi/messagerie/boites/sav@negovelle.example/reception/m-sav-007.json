@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-007",
+  "de": {
+    "nom": "Daniel Bodin",
+    "adresse": "daniel.bodin@carrelage-chevrier.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Mauvais croisillons livrés",
+  "date": "2026-07-06T07:36:00+02:00",
+  "corps": "Bonjour,\n\nVous nous avez livré des croisillons de 3 mm au lieu des 5 mm commandés. Merci de les reprendre et de nous envoyer les bons.\n\nDaniel Bodin\nCarrelage Chevrier",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

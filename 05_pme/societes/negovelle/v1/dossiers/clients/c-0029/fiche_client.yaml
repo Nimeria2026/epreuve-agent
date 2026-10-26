@@ -1,0 +1,31 @@
+# Fiche du client c-0029 de Négovelle. Données FICTIVES.
+code: c-0029
+nom: Imprimerie Quéré
+type: pme
+adresse: 25 parc d'activités de la Gare, 36999 Fontclavier (FICTIF)
+telephone: 02 61 91 82 49
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Chantal Pinson
+  fonction: responsable des achats
+  courriel: chantal.pinson@imprimerie-quere.example
+- nom: Gilles Crozet
+  fonction: responsable de maintenance
+  courriel: gilles.crozet@imprimerie-quere.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 25 parc d'activités de la Gare, 36999 Fontclavier (FICTIF)
+- code: L2
+  libelle: dépôt
+  adresse: 26 parc d'activités de la Gare, 36999 Corvalet (FICTIF)
+categorie_remise: B
+delai_paiement: comptant
+client_depuis: '2026-04-12'
+limite_encours_euros: 4500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

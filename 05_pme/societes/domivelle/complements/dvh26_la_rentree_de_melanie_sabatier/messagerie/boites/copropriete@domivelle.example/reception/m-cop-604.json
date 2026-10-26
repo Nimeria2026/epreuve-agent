@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cop-604",
+  "de": {
+    "nom": "Dominique Bazin",
+    "adresse": "dominique.bazin@boite-postale.example"
+  },
+  "a": [
+    "copropriete@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Infiltration au parking",
+  "date": "2026-08-19T08:30:00+02:00",
+  "corps": "Bonjour,\n\nDepuis les orages de la semaine dernière, l'eau s'infiltre par le plafond du parking souterrain du Parc Saint-Martin, au-dessus de la place 12. Pouvez-vous faire le nécessaire ?\n\nDominique Bazin, lot 1",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

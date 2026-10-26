@@ -1,0 +1,13 @@
+{
+  "numero": "INT-2026-0058",
+  "client": "c-0263",
+  "techniciens": [
+    "sebastien.noel"
+  ],
+  "debut": "2027-01-01T08:00:00+01:00",
+  "fin": "2027-01-01T09:30:00+01:00",
+  "nature": "mise_en_service",
+  "objet": "Mise en service de la pompe à chaleur posée le 15 décembre",
+  "statut": "planifiee",
+  "cree_par": "marc.duval"
+}

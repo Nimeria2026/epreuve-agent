@@ -1,0 +1,10 @@
+# Fiche d'un fournisseur de Négovelle. Données FICTIVES.
+nom: Outillage du Val-Corvalet
+activite: fabricant d'outillage à main
+adresse: 39 zone d'activités des Grands Prés, 36999 Brissonne (FICTIF)
+telephone: 02 61 91 70 18
+courriel_commandes: commandes@outillage-du-val-corvalet.example
+courriel_facturation: facturation@outillage-du-val-corvalet.example
+iban: FR76 9999 9288 8509 5202 2463 811 (FICTIF)
+conditions: paiement à 45 jours fin de mois
+minimum_de_commande: 500,00 € HT

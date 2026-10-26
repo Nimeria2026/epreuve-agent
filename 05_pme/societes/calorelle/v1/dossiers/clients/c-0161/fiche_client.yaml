@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0161"
+nom: "Établissements Boyer"
+type: "entreprise"
+adresse: "60 rue des Écoles, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "contact@etablissements-boyer-161.example"
+telephone: "02 61 91 35 43"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2021-02-24"
+  mois_anniversaire: "février"
+  derniere_visite: "2026-02-24"

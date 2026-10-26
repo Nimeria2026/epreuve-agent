@@ -1,0 +1,15 @@
+{
+  "id": "florian.masson",
+  "nom": "Florian Masson",
+  "competences": [
+    "ventilation",
+    "climatisation"
+  ],
+  "apprenti": false,
+  "indisponibilites": [
+    {
+      "debut": "2026-11-23T00:00:00+01:00",
+      "fin": "2026-11-28T00:00:00+01:00"
+    }
+  ]
+}

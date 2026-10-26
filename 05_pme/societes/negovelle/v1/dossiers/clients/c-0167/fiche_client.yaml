@@ -1,0 +1,28 @@
+# Fiche du client c-0167 de Négovelle. Données FICTIVES.
+code: c-0167
+nom: Voisin et Fils
+type: entreprise
+adresse: 1 zone d'activités des Grands Prés, 36999 Mérolles-en-Brenne (FICTIF)
+telephone: 02 61 91 65 24
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Claude Langlais
+  fonction: conducteur de travaux
+  courriel: claude.langlais@voisin-et-fils.example
+- nom: Inès Bouchard
+  fonction: responsable des achats
+  courriel: ines.bouchard@voisin-et-fils.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 1 zone d'activités des Grands Prés, 36999 Mérolles-en-Brenne (FICTIF)
+categorie_remise: C
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2023-06-01'
+limite_encours_euros: 6000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

@@ -1,0 +1,95 @@
+# Registre des lots en gestion, c05. Données FICTIVES.
+immeuble: c05
+nature: groupe de maisons
+adresse: 69 allée des Acacias, 18999 Montclavel-sur-Cher (FICTIF)
+secteur: centre
+gestionnaire: Cédric Maillard
+distance_agence_km: 6
+annee_construction: 1979
+gardien: false
+copropriete_du_syndic: null
+lots:
+- lot: c05-01
+  type: maison T5
+  surface_m2: 100
+  proprietaire: p-0059
+  locataire: M. Robert Chevalier
+  entree: '2020-12-20'
+  loyer_hors_charges: 1 067,00 €
+  provision_sur_charges: 7,00 €
+  depot_de_garantie: 948,00 €
+  revision: chaque 20 décembre
+  trimestre_irl: T3
+  dpe: E
+- lot: c05-02
+  type: maison T5
+  surface_m2: 103
+  proprietaire: p-0046
+  locataire: Mme Estelle Rolland
+  entree: '2025-07-05'
+  loyer_hors_charges: 982,00 €
+  provision_sur_charges: 20,00 €
+  depot_de_garantie: 982,00 €
+  revision: chaque 5 juillet
+  trimestre_irl: T1
+  dpe: E
+- lot: c05-03
+  type: maison T5
+  surface_m2: 117
+  proprietaire: p-0060
+  locataire: M. Michel Weber
+  entree: '2024-09-03'
+  loyer_hors_charges: 1 134,00 €
+  provision_sur_charges: 8,00 €
+  depot_de_garantie: 1 106,00 €
+  revision: chaque 3 septembre
+  trimestre_irl: T2
+  dpe: D
+- lot: c05-04
+  type: maison T3
+  surface_m2: 77
+  proprietaire: p-0035
+  locataire: M. Hugo Lemaire
+  entree: '2018-09-08'
+  loyer_hors_charges: 820,00 €
+  provision_sur_charges: 13,00 €
+  depot_de_garantie: 698,00 €
+  revision: chaque 8 septembre
+  trimestre_irl: T2
+  dpe: B
+- lot: c05-05
+  type: maison T5
+  surface_m2: 119
+  proprietaire: p-0061
+  locataire: Mme Yvette Buisson
+  entree: '2014-10-28'
+  loyer_hors_charges: 1 210,00 €
+  provision_sur_charges: 9,00 €
+  depot_de_garantie: 949,00 €
+  revision: chaque 28 octobre
+  trimestre_irl: T2
+  dpe: C
+- lot: c05-06
+  type: maison T3
+  surface_m2: 70
+  proprietaire: p-0062
+  locataire: Mme Odile Olivier
+  entree: '2021-11-26'
+  loyer_hors_charges: 744,00 €
+  provision_sur_charges: 0,00 €
+  depot_de_garantie: 676,00 €
+  revision: chaque 26 novembre
+  trimestre_irl: T3
+  dpe: C
+- lot: c05-07
+  type: maison T5
+  surface_m2: 117
+  proprietaire: p-0063
+  locataire: M. Julien Bourgeois
+  entree: '2018-04-10'
+  loyer_hors_charges: 1 168,00 €
+  provision_sur_charges: 14,00 €
+  depot_de_garantie: 973,00 €
+  revision: chaque 10 avril
+  trimestre_irl: T4
+  dpe: D

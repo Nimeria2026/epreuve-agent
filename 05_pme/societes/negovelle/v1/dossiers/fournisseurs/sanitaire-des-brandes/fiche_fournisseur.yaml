@@ -1,0 +1,10 @@
+# Fiche d'un fournisseur de Négovelle. Données FICTIVES.
+nom: Sanitaire des Brandes
+activite: fabricant de raccords et de robinetterie
+adresse: 9 parc d'activités de la Gare, 36999 Vaumoreau-sur-Indre (FICTIF)
+telephone: 02 61 91 91 25
+courriel_commandes: commandes@sanitaire-des-brandes.example
+courriel_facturation: facturation@sanitaire-des-brandes.example
+iban: FR76 9999 9269 0843 5758 1292 373 (FICTIF)
+conditions: paiement à 60 jours date de facture
+minimum_de_commande: 150,00 € HT

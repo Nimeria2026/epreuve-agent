@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-nabr-002",
+  "de": {
+    "nom": "Vincent Mabille",
+    "adresse": "vincent.mabille@menuiserie-industrielle-gay.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Ponceuses en trop",
+  "date": "2026-07-03T10:40:00+02:00",
+  "corps": "Bonjour,\n\nSur les 10 ponceuses orbitales ELP-11657 de la livraison BL-2026-01686 du 24 juin, que vous aviez commandées spécialement pour notre atelier, 4 ne nous servent finalement pas. Elles sont neuves, dans leurs cartons : pouvez-vous les reprendre ?\n\nVincent Mabille\nMenuiserie industrielle Gay",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

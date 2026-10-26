@@ -1,0 +1,8 @@
+# Fiche fournisseur Calorelle. Données FICTIVES.
+nom: "Visserie de Mirelande"
+activite: "visserie"
+adresse: "78 zone d'activité de Mirelande, 45999 Valmont-sur-Loire (FICTIF)"
+telephone: "02 61 91 20 48"
+courriel_facturation: "compta@visserie-de-mirelande.example"
+iban: "FR76 9999 9835 2062 5108 4251 564 (FICTIF)"
+conditions: "paiement à 30 jours fin de mois"

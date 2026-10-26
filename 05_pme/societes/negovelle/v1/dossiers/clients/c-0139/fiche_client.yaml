@@ -1,0 +1,28 @@
+# Fiche du client c-0139 de Négovelle. Données FICTIVES.
+code: c-0139
+nom: Moulin Rénovation
+type: entreprise
+adresse: 15 parc d'activités de la Gare, 36999 Saulvenne (FICTIF)
+telephone: 02 61 91 93 97
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Denis Salmon
+  fonction: conducteur de travaux
+  courriel: denis.salmon@moulin-renovation.example
+- nom: Xavier Baudry
+  fonction: responsable des achats
+  courriel: xavier.baudry@moulin-renovation.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 15 parc d'activités de la Gare, 36999 Saulvenne (FICTIF)
+categorie_remise: B
+delai_paiement: 60_jours_date_de_facture
+client_depuis: '2020-10-01'
+limite_encours_euros: 5500.0
+livraisons_partielles: false
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

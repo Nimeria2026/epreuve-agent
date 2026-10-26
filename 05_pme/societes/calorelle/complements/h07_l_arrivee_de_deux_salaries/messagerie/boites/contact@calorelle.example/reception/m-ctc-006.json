@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-006",
+  "de": {
+    "nom": "Syndic de la Résidence des Tilleuls",
+    "adresse": "syndic@residence-des-tilleuls.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Réclamation : chaufferie en panne pour la troisième fois",
+  "date": "2026-11-02T08:02:00+01:00",
+  "corps": "Bonjour,\n\nLa chaufferie de la résidence est tombée en panne pour la troisième fois en un mois, malgré votre contrat Sérénité Plus. Les résidents sont sans chauffage. Nous attendons une réponse rapide.\n\nLe syndic de la Résidence des Tilleuls, client c-0405 (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

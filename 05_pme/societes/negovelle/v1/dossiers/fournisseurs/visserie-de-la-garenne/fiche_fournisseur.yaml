@@ -1,0 +1,10 @@
+# Fiche d'un fournisseur de Négovelle. Données FICTIVES.
+nom: Visserie de la Garenne
+activite: fabricant de visserie et de boulonnerie
+adresse: 19 parc d'activités de la Gare, 36999 Ardillac (FICTIF)
+telephone: 02 61 91 98 43
+courriel_commandes: commandes@visserie-de-la-garenne.example
+courriel_facturation: facturation@visserie-de-la-garenne.example
+iban: FR76 9999 9134 1375 5239 6884 835 (FICTIF)
+conditions: paiement à 60 jours date de facture
+minimum_de_commande: 500,00 € HT

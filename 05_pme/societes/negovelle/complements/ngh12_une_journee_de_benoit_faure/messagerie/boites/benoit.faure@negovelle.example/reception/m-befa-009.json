@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-befa-009",
+  "de": {
+    "nom": "Étienne Lecoq",
+    "adresse": "etienne.lecoq@platrerie-hoarau.example"
+  },
+  "a": [
+    "benoit.faure@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-06T07:05:00+02:00",
+  "corps": "Bonjour Benoît,\n\nMerci de nous livrer au siège :\n- 12 x FIX-10735, Cheville pour plaque de plâtre 5x32, boîte de 50\n- 8 x FIX-10816, Cheville pour plaque de plâtre 6x45, boîte de 50\n\nCordialement,\nÉtienne Lecoq\nPlâtrerie Hoarau",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-yode-001",
+  "de": {
+    "nom": "Laure Prévost",
+    "adresse": "laure.prevost@mel-perso.example"
+  },
+  "a": [
+    "yohan.delmas@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Date de notre assemblée générale",
+  "date": "2026-06-05T18:22:00+02:00",
+  "corps": "Bonjour Monsieur Delmas,\n\nPour l'assemblée générale de la Résidence Le Bocage, le conseil syndical propose le mardi 30 juin à 18 h, à la salle des fêtes de Montclavel ; à défaut, le jeudi 9 juillet à la même heure. Les convocations peuvent partir dès lundi. Merci de nous dire quelle date vous retenez.\n\nLaure Prévost, présidente du conseil syndical",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

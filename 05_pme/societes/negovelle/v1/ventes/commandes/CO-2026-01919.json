@@ -1,0 +1,101 @@
+{
+  "numero": "CO-2026-01919",
+  "client": "c-0079",
+  "reference_client": null,
+  "cree_le": "2026-06-26T09:10:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "standard",
+  "livraison": {
+    "code": "L2",
+    "adresse": "1 rue du Château, 36999 Corvalet (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "FIX-10579",
+      "libelle": "Cheville nylon 6x50, boîte de 50",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 5.95,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 5.71,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 11.42
+    },
+    {
+      "reference": "OUT-12008",
+      "libelle": "Scie à dos 500 mm",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 15.05,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 14.45,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 144.5
+    },
+    {
+      "reference": "PLB-12131",
+      "libelle": "Raccord à sertir applique 12 mm",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 6.4,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 6.14,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 24.56
+    },
+    {
+      "reference": "QUI-11829",
+      "libelle": "Ferme-porte à glissière, force EN 2 à 5",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 90.45,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 86.83,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 86.83
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 282.31,
+  "total_tva_euros": 56.46,
+  "total_ttc_euros": 338.77,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01768"
+  ],
+  "facture": "FC-2026-1071",
+  "historique": [
+    {
+      "date": "2026-06-26T09:10:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-26T09:12:00+02:00",
+      "par": "oceane.collin",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-29T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01768"
+    },
+    {
+      "date": "2026-06-29T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01768"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1071"
+    }
+  ]
+}

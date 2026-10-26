@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-909",
+  "de": {
+    "nom": "Thomas Girard",
+    "adresse": "thomas.girard@calorelle.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Note de visite : Résidence des Grèves",
+  "date": "2026-12-21T17:00:00+01:00",
+  "corps": "Karim,\n\nMa note de la visite du 18 décembre à la Résidence des Grèves, 3 rue du Moulin (c-0273), pour ton devis :\n- six radiateurs à eau chaude à remplacer dans les parties communes ;\n- un désembouage de l'installation ;\n- 12 m de tuyauterie cuivre ;\n- 10 h de main-d'œuvre.\nL'immeuble date de 1985 ; ce sont des logements.\n\nThomas (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,13 @@
+{
+  "numero": "INT-2026-0040",
+  "client": "c-0076",
+  "techniciens": [
+    "nicolas.blanc"
+  ],
+  "debut": "2026-12-01T08:00:00+01:00",
+  "fin": "2026-12-01T12:00:00+01:00",
+  "nature": "installation",
+  "objet": "Remplacement de la pompe de circulation de la chaufferie",
+  "statut": "planifiee",
+  "cree_par": "marc.duval"
+}

@@ -1,0 +1,34 @@
+{
+  "numero": "BL-2026-01705",
+  "commande": "CO-2026-01856",
+  "client": "c-0178",
+  "date_expedition": "2026-06-24",
+  "date_livraison": "2026-06-25",
+  "transport": {
+    "mode": "transporteur",
+    "transporteur": "transports-delorme",
+    "recepisse": "TD-310208"
+  },
+  "adresse": "7 zone industrielle des Brandes, 36999 Vaumoreau-sur-Indre (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "OUT-13152",
+      "libelle": "Équerre de menuisier 600 mm",
+      "quantite": 2
+    },
+    {
+      "reference": "PRO-10391",
+      "libelle": "Casque antibruit pliable SNR 27 dB",
+      "quantite": 2
+    },
+    {
+      "reference": "VIS-13699",
+      "libelle": "Vis à tôle tête cylindrique 3,5x25, zinguée, boîte de 250",
+      "quantite": 3
+    }
+  ],
+  "reserves": null,
+  "signataire": "Aurélie Valentin",
+  "statut": "livre"
+}

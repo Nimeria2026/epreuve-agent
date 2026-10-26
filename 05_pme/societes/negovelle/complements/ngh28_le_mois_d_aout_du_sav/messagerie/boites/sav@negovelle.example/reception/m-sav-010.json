@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-010",
+  "de": {
+    "nom": "René Crozet",
+    "adresse": "rene.crozet@entreprise-drouet.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Colis manquant",
+  "date": "2026-08-06T17:40:00+02:00",
+  "corps": "Bonjour,\n\nNotre livraison d'aujourd'hui, BL-2026-01902, n'avait qu'un colis sur deux : il manque les 10 disques CON-10881. Le livreur l'a écrit sur son récépissé.\n\nRené Crozet\nEntreprise Drouet",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

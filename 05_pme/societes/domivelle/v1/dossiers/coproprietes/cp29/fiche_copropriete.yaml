@@ -1,0 +1,20 @@
+# Fiche de la copropriété cp29. Données FICTIVES.
+copropriete: cp29
+nom: Résidence Les Roseraies
+adresse: 112 place du Marché, 18999 Montclavel-sur-Cher (FICTIF)
+lots_principaux: 10
+annee_construction: 1970
+ascenseur: false
+exercice: du lendemain du 31 mars au 31 mars
+gestionnaire: Gaëlle Fournel
+conseil_syndical:
+  president: M. Jérôme Lemaire
+  membres:
+  - Mme Corinne Vincent
+  - Mme Suzanne Aubert
+seuil_mise_en_concurrence: 6 000,00 €
+seuil_consultation_du_conseil_syndical: 1 000,00 €
+assureur_de_l_immeuble: Assurances Brévalle (FICTIF)
+declaration_des_sinistres: sinistres@assurances-brevalle.example
+immeuble_en_gestion_locative: c04
+fonds_de_travaux: 5 % du budget prévisionnel, aux tantièmes généraux, appelé avec chaque provision

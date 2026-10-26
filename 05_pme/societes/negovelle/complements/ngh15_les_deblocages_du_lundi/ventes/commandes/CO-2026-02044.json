@@ -1,0 +1,70 @@
+{
+  "numero": "CO-2026-02044",
+  "client": "c-0157",
+  "reference_client": null,
+  "cree_le": "2026-07-03T14:00:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "23 zone d'activités des Grands Prés, 36999 Saulvenne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "FIX-10735",
+      "libelle": "Cheville pour plaque de plâtre 5x32, boîte de 50",
+      "quantite": 40,
+      "prix_tarif_ht_euros": 15.85,
+      "remise_pourcent": 8.8,
+      "prix_net_ht_euros": 14.46,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 578.4
+    },
+    {
+      "reference": "VIS-13683",
+      "libelle": "Vis à tôle tête cylindrique 3,5x25, inox A2, boîte de 100",
+      "quantite": 30,
+      "prix_tarif_ht_euros": 11.0,
+      "remise_pourcent": 8.8,
+      "prix_net_ht_euros": 10.03,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 300.9
+    },
+    {
+      "reference": "FIX-10808",
+      "libelle": "Cheville pour plaque de plâtre 6x45, boîte de 100",
+      "quantite": 20,
+      "prix_tarif_ht_euros": 6.85,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 6.58,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 131.6
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 1010.9,
+  "total_tva_euros": 202.18,
+  "total_ttc_euros": 1213.08,
+  "statut": "en_attente_deblocage",
+  "motif_attente": "encours dépassé : encours 3 229,58 € et commande 1 213,08 € TTC pour une limite de 4 000,00 €",
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T14:00:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": "commande du client"
+    },
+    {
+      "date": "2026-07-03T14:02:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "mise_en_attente",
+      "detail": "encours dépassé"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-thol-001",
+  "de": {
+    "nom": "Yohan Delmas",
+    "adresse": "yohan.delmas@domivelle.example"
+  },
+  "a": [
+    "thierry.ollivier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Le Grand Pré : les impayés",
+  "date": "2026-06-05T17:40:00+02:00",
+  "corps": "Bonjour Thierry,\n\nJeudi, je vois le conseil syndical du Grand Pré. Peux-tu envoyer les relances qui manquent et me faire le point des impayés de la copropriété ?\n\nMerci,\nYohan",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

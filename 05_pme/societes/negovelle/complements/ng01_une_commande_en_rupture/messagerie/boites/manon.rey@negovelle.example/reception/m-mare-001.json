@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-mare-001",
+  "de": {
+    "nom": "Étienne Quéré",
+    "adresse": "etienne.quere@serrurerie-cadiou.example"
+  },
+  "a": [
+    "manon.rey@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande pour le chantier de l'école de Corvalet",
+  "date": "2026-07-06T07:42:00+02:00",
+  "corps": "Bonjour Manon,\n\nVoici notre commande pour le chantier de l'école de Corvalet, à livrer au siège comme d'habitude :\n\n- 40 x QUI-11175, Charnière à lames 60 mm, laiton\n- 10 x QUI-12833, Serrure à larder à condamnation, axe 45 mm\n- 6 x QUI-11469, Cylindre européen 30x45 mm, 5 clés\n\nMerci de me confirmer ce qui part et quand.\n\nCordialement,\nÉtienne Quéré\nSerrurerie Cadiou",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

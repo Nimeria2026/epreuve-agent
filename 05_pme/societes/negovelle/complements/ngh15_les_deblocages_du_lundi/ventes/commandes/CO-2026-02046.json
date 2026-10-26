@@ -1,0 +1,59 @@
+{
+  "numero": "CO-2026-02046",
+  "client": "c-0202",
+  "reference_client": null,
+  "cree_le": "2026-07-03T14:00:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "117 avenue Pasteur, 36999 Saulvenne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "FIX-10816",
+      "libelle": "Cheville pour plaque de plâtre 6x45, boîte de 50",
+      "quantite": 40,
+      "prix_tarif_ht_euros": 14.55,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 14.55,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 582.0
+    },
+    {
+      "reference": "FIX-10808",
+      "libelle": "Cheville pour plaque de plâtre 6x45, boîte de 100",
+      "quantite": 30,
+      "prix_tarif_ht_euros": 6.85,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 6.58,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 197.4
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 779.4,
+  "total_tva_euros": 155.88,
+  "total_ttc_euros": 935.28,
+  "statut": "en_attente_deblocage",
+  "motif_attente": "encours dépassé : encours 1 840,11 € et commande 935,28 € TTC pour une limite de 2 500,00 €",
+  "reliquat_de": null,
+  "livraisons": [],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T14:00:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": "commande du client"
+    },
+    {
+      "date": "2026-07-03T14:02:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "mise_en_attente",
+      "detail": "encours dépassé"
+    }
+  ]
+}

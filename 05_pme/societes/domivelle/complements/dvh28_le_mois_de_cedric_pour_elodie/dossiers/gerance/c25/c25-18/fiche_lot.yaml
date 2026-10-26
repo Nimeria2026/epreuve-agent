@@ -1,0 +1,19 @@
+# Fiche du lot c25-18. Données FICTIVES.
+lot: c25-18
+adresse: 70 rue Émile-Zola, 18999 Montclavel-sur-Cher (FICTIF)
+type: T4
+surface_m2: 83
+locataire:
+  nom: Mme Sophie Fleury
+  courriel: sophie.fleury@boite-postale.example
+  telephone: 06 39 98 77 03
+  entree: '2025-10-28'
+bail:
+  signature: '2025-10-28'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 829,00 €
+  depot_de_garantie: 829,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T2
+dpe:
+  classe: E

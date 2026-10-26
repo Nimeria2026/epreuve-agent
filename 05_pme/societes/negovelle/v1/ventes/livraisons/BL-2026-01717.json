@@ -1,0 +1,59 @@
+{
+  "numero": "BL-2026-01717",
+  "commande": "CO-2026-01868",
+  "client": "c-0347",
+  "date_expedition": "2026-06-25",
+  "date_livraison": "2026-06-25",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "1 zone d'activités des Grands Prés, 36999 Vendrigny (FICTIF)",
+  "colis": 3,
+  "lignes": [
+    {
+      "reference": "ELE-10310",
+      "libelle": "Appareil modulaire minuterie d'escalier",
+      "quantite": 1
+    },
+    {
+      "reference": "ELE-10685",
+      "libelle": "Collier de serrage 100x4,8 mm, sachet de 100",
+      "quantite": 5
+    },
+    {
+      "reference": "FIX-11674",
+      "libelle": "Goujon d'ancrage M8x100, boîte de 25",
+      "quantite": 1
+    },
+    {
+      "reference": "OUT-12311",
+      "libelle": "Serre-joint à une main 1000 mm",
+      "quantite": 1
+    },
+    {
+      "reference": "PLB-11273",
+      "libelle": "Flexible inox mâle-femelle 15x21 60 cm",
+      "quantite": 4
+    },
+    {
+      "reference": "PLB-12678",
+      "libelle": "Siphon d'évier 40 mm",
+      "quantite": 2
+    },
+    {
+      "reference": "PRO-11878",
+      "libelle": "Tee-shirt de travail gris, taille S",
+      "quantite": 5
+    },
+    {
+      "reference": "VIS-10980",
+      "libelle": "Vis à bois tête fraisée 3,5x50, inox A2, boîte de 100",
+      "quantite": 2
+    }
+  ],
+  "reserves": null,
+  "signataire": "Amandine Durieux",
+  "statut": "livre"
+}

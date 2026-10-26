@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-deba-002",
+  "de": {
+    "nom": "Bruno Castaing",
+    "adresse": "bruno.castaing@negovelle.example"
+  },
+  "a": [
+    "denis.barthe@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Avant mon départ",
+  "date": "2026-07-30T19:00:00+02:00",
+  "corps": "Denis,\n\nJe pars demain soir, retour le lundi 24 août. Envoie-moi demain la liste des factures à payer à leur échéance pendant mon absence, semaine par semaine : celles qui tombent du 3 au 9 août, du 10 au 16, et du 17 au 23. Pour chacune, le fournisseur, le numéro, le montant TTC et l'échéance, et le total de chaque semaine : je signerai les virements avant de partir. Mets à part celles qui attendent, et donne-moi aussi celles arrivées cette semaine qui tombent après mon retour, avec leur échéance. Dis-moi enfin ce que la paie de juillet règle en notes de frais.\n\nBruno",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

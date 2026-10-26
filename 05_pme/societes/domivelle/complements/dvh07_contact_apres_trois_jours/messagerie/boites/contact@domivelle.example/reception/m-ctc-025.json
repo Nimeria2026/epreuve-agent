@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-025",
+  "de": {
+    "nom": "Formations Immo Plus",
+    "adresse": "contact@formations-immo-plus.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Formation loi ALUR : dernières places",
+  "date": "2026-06-06T11:00:00+02:00",
+  "corps": "Formation en ligne sur la loi ALUR : dernières places à -20 % !",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

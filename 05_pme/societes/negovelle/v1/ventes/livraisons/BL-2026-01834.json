@@ -1,0 +1,59 @@
+{
+  "numero": "BL-2026-01834",
+  "commande": "CO-2026-01985",
+  "client": "c-0273",
+  "date_expedition": "2026-07-02",
+  "date_livraison": "2026-07-02",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "33 zone industrielle des Brandes, 36999 Brissonne (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "ELE-13307",
+      "libelle": "Spot encastrable LED 5 W, 4000 K, noir",
+      "quantite": 2
+    },
+    {
+      "reference": "ELP-10310",
+      "libelle": "Disque à tronçonner pierre 125 mm, boîte de 25",
+      "quantite": 6
+    },
+    {
+      "reference": "ELP-11600",
+      "libelle": "Perforateur SDS-plus 1,7 J, sans fil 18 V, nu",
+      "quantite": 2
+    },
+    {
+      "reference": "ENT-11224",
+      "libelle": "Sacs à gravats 120 l, paquet de 25",
+      "quantite": 12
+    },
+    {
+      "reference": "OUT-12940",
+      "libelle": "Truelle ronde 180 mm",
+      "quantite": 2
+    },
+    {
+      "reference": "PRO-10898",
+      "libelle": "Gants de manutention anticoupure niveau F, taille 8",
+      "quantite": 12
+    },
+    {
+      "reference": "PRO-11445",
+      "libelle": "Pantalon de travail coupe droite bleu marine, taille 44",
+      "quantite": 1
+    },
+    {
+      "reference": "VIS-13528",
+      "libelle": "Vis à bois tête fraisée 6x60, zinguée, boîte de 200",
+      "quantite": 6
+    }
+  ],
+  "reserves": null,
+  "signataire": "Aurélie Chevrier",
+  "statut": "livre"
+}

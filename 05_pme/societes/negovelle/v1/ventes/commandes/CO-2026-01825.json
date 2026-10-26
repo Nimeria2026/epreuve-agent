@@ -1,0 +1,101 @@
+{
+  "numero": "CO-2026-01825",
+  "client": "c-0257",
+  "reference_client": null,
+  "cree_le": "2026-06-23T09:10:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "6 zone industrielle des Brandes, 36999 Laubrissac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-11437",
+      "libelle": "Mastic silicone neutre, cartouche de 310 ml, noir",
+      "quantite": 72,
+      "prix_tarif_ht_euros": 4.6,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 4.42,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 318.24
+    },
+    {
+      "reference": "ENT-10783",
+      "libelle": "Poubelle à couvercle basculant 30 l",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 24.05,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 23.09,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 277.08
+    },
+    {
+      "reference": "PLB-12980",
+      "libelle": "Tube PVC évacuation 125 mm, barre de 2 m",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 24.8,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 23.81,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 95.24
+    },
+    {
+      "reference": "VIS-11028",
+      "libelle": "Vis à bois tête fraisée 3,5x60, inox A2, boîte de 100",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 13.25,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 12.72,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 50.88
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 741.44,
+  "total_tva_euros": 148.29,
+  "total_ttc_euros": 889.73,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01674"
+  ],
+  "facture": "FC-2026-1236",
+  "historique": [
+    {
+      "date": "2026-06-23T09:10:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-23T09:12:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-24T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01674"
+    },
+    {
+      "date": "2026-06-24T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01674"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1236"
+    }
+  ]
+}

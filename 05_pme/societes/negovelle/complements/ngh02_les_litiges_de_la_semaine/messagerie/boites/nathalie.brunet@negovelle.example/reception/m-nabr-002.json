@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-nabr-002",
+  "de": {
+    "nom": "Éric Gallet",
+    "adresse": "eric.gallet@collet-travaux-publics.example"
+  },
+  "a": [
+    "nathalie.brunet@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Poignées abîmées, livraison BL-2026-01799",
+  "date": "2026-07-02T15:35:00+02:00",
+  "corps": "Bonjour,\n\nEn déballant hier notre livraison BL-2026-01799 du mercredi 1er juillet, nous avons trouvé deux poignées de porte QUI-12401 à la plaque pliée, le carton écrasé. Nous avons envoyé ce matin au transporteur une lettre recommandée de protestation, dont la copie est jointe. Les deux poignées sont à votre disposition.\n\nMerci de nous en tenir compte.\n\nÉric Gallet\nCollet Travaux publics",
+  "pieces_jointes": [
+    {
+      "nom": "protestation_transports_delorme_2026-07-02.pdf",
+      "fichier": "pieces/m-nabr-002/protestation_transports_delorme_2026-07-02.pdf",
+      "taille_octets": 1062
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

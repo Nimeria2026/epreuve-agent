@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sav-018",
+  "de": {
+    "nom": "Delphine Chauveau",
+    "adresse": "delphine.chauveau@peinture-maurin.example"
+  },
+  "a": [
+    "sav@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Toujours pas d'avoir",
+  "date": "2026-08-07T14:05:00+02:00",
+  "corps": "Bonjour,\n\nNous attendons toujours votre avoir pour les 10 disques CON-10489 qui manquaient à la livraison du 16 juillet, BL-2026-01910 : le livreur l'avait noté sur son récépissé, et votre facture de juillet nous compte les disques. Pouvez-vous le faire ?\n\nDelphine Chauveau\nPeinture Maurin",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-viar-026",
+  "de": {
+    "nom": "Service comptabilité",
+    "adresse": "facturation@quincaillerie-des-brandes.example"
+  },
+  "a": [
+    "vincent.arnaud@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Changement de coordonnées bancaires",
+  "date": "2026-08-31T07:52:00+02:00",
+  "corps": "Madame, Monsieur,\n\nÀ compter du 1er septembre 2026, nos règlements sont à effectuer sur notre nouveau compte : IBAN FR76 9999 9418 2265 7730 9154 062, dont vous trouverez le RIB ci-joint. Merci de mettre à jour nos coordonnées dans votre fichier des fournisseurs dès aujourd'hui, et de nous le confirmer par retour.\n\nLe service comptabilité\nQuincaillerie des Brandes",
+  "pieces_jointes": [
+    {
+      "nom": "rib_nouveau_compte.pdf",
+      "fichier": "pieces/m-viar-026/rib_nouveau_compte.pdf",
+      "taille_octets": 810
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

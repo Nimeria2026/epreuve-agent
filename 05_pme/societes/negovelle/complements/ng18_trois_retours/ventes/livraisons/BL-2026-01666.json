@@ -1,0 +1,59 @@
+{
+  "numero": "BL-2026-01666",
+  "commande": "CO-2026-01817",
+  "client": "c-0208",
+  "date_expedition": "2026-06-23",
+  "date_livraison": "2026-06-23",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "35 rue du Château, 36999 Vendrigny (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "ELE-11780",
+      "libelle": "Domino 6 mm², barrette de 12",
+      "quantite": 3
+    },
+    {
+      "reference": "ELE-12972",
+      "libelle": "Rallonge électrique de chantier IP44 15 m",
+      "quantite": 12
+    },
+    {
+      "reference": "OUT-10408",
+      "libelle": "Clé mixte 20 mm",
+      "quantite": 1
+    },
+    {
+      "reference": "OUT-11870",
+      "libelle": "Scie de carreleur 350 mm",
+      "quantite": 1
+    },
+    {
+      "reference": "PRO-11616",
+      "libelle": "Pantalon de travail multipoches noir, taille 38",
+      "quantite": 10
+    },
+    {
+      "reference": "QUI-11323",
+      "libelle": "Coulisse de tiroir à galets 300 mm, la paire",
+      "quantite": 10
+    },
+    {
+      "reference": "VIS-11690",
+      "libelle": "Vis à bois tête fraisée 4,5x16, zinguée, boîte de 100",
+      "quantite": 6
+    },
+    {
+      "reference": "VIS-12376",
+      "libelle": "Vis à bois tête fraisée 4x40, bichromatée, boîte de 100",
+      "quantite": 4
+    }
+  ],
+  "reserves": null,
+  "signataire": "Laurent Gautier",
+  "statut": "livre"
+}

@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01710",
+  "commande": "CO-2026-01861",
+  "client": "c-0008",
+  "date_expedition": "2026-06-25",
+  "date_livraison": "2026-06-25",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "37 parc d'activités de la Gare, 36999 Vaumoreau-sur-Indre (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "FIX-10106",
+      "libelle": "Cheville métallique à expansion M6x32, boîte de 25",
+      "quantite": 4
+    },
+    {
+      "reference": "OUT-12237",
+      "libelle": "Serre-joint à pompe 500 mm",
+      "quantite": 2
+    }
+  ],
+  "reserves": null,
+  "signataire": "Alain Coulon",
+  "statut": "livre"
+}

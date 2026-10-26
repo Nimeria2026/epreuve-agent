@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-602",
+  "de": {
+    "nom": "Hélène Marchal",
+    "adresse": "helene.marchal@calorelle.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Remise sur DV-2026-013",
+  "date": "2026-11-02T08:10:00+01:00",
+  "corps": "Karim,\n\nSuite à ton message de vendredi : j'accorde 5 % de remise sur DV-2026-013, les radiateurs du 41 chemin des Vignes. Refais le devis avec la remise et envoie-le au syndic. Aucune autre remise sans mon accord.\n\nHélène (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

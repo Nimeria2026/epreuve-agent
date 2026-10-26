@@ -1,0 +1,31 @@
+# Fiche du client c-0187 de Négovelle. Données FICTIVES.
+code: c-0187
+nom: Boutin Rénovation
+type: entreprise
+adresse: 23 zone industrielle des Brandes, 36999 Vaumoreau-sur-Indre (FICTIF)
+telephone: 02 61 91 80 70
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Suzanne Belin
+  fonction: conductrice de travaux
+  courriel: suzanne.belin@boutin-renovation.example
+- nom: Jacqueline Navarre
+  fonction: responsable des achats
+  courriel: jacqueline.navarre@boutin-renovation.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 23 zone industrielle des Brandes, 36999 Vaumoreau-sur-Indre (FICTIF)
+- code: L2
+  libelle: chantier déclaré
+  adresse: 84 rue de l'Église, 36999 Ardillac (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2018-05-01'
+limite_encours_euros: 16500.0
+livraisons_partielles: true
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-rejo-009",
+  "de": {
+    "nom": "Nathalie Brunet",
+    "adresse": "nathalie.brunet@negovelle.example"
+  },
+  "a": [
+    "remi.joly@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Casques fendus",
+  "date": "2026-08-07T16:39:00+02:00",
+  "corps": "Rémi, un de mes dossiers ouverts, à reprendre.\n\nNathalie\n\n----- Message transféré -----\nDe : Françoise Mahé <francoise.mahe@imprimerie-becker.example>\nDate : 2026-08-03T09:40:00+02:00\nObjet : Casques fendus\n\nBonjour,\n\nEn ouvrant la livraison de votre camionnette du 29 juillet, BL-2026-01887, nous avons trouvé deux casques PRO-10441 fendus. Rien n'avait été noté sur le bon.\n\nFrançoise Mahé\nImprimerie Becker",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,120 @@
+# Tranche longue de Domivelle, tâche dvh16 du second lot de la suite, visée de 40 à 60 minutes de
+# grille (cadrage du 2026-10-15, section 8 ; JOURNAL, cent-soixante-deuxième entrée). Rédigée par
+# Claude le 2026-10-15. Lundi 8 juin 2026 : quatre propriétaires du nord veulent relouer cinq
+# logements, Élodie Chauvin leur répond (manuel, sections 4, 6, 8 et 10 ; loi de 1989, articles 6,
+# 17, 17-1 et 22 ; décret n° 2015-1437). n04-08, classe G : ne se reloue pas, ni vide ni meublé, et
+# ne part pas à Quentin Mallet ; n12-02, classe D, du même propriétaire : 320,00 €, libre. n17-06,
+# classe F : la SCI Le Panorama en veut 465,00 €, le loyer reste au plus le dernier appliqué,
+# 405,00 €. n16-04, maison classée F : M. Gérard Lainé la veut révisée de l'IRL, elle reste à
+# 593,00 €. n21-18, classe D : Mme Béatrice Muller fixe 450,00 €, libre, mais son dépôt de deux
+# mois, 900,00 €, revient à un mois hors charges, et les relevés de compte qu'elle veut demander aux
+# candidats ne sont pas dans la liste. Quentin reçoit les quatre logements qui se relouent, loyer et
+# dépôt. Les pièges : le G proposé à Quentin ; le loyer d'un F augmenté ou révisé ; le dépôt de deux
+# mois ; une pièce hors liste. Complément d'état :
+# 05_pme/societes/domivelle/complements/dvh16_cinq_logements_a_relouer/. Tout est fictif.
+
+identifiant: dvh16_cinq_logements_a_relouer
+version: 1
+famille: gestion_locative
+agent_pour: elodie.chauvin
+societe: domivelle
+enonce: >
+  Tu es l'assistant d'Élodie Chauvin, gestionnaire locative du secteur nord chez Domivelle. Des
+  propriétaires veulent relouer : traite ses courriels non lus et transmets à Quentin Mallet ce qui
+  se reloue, en respectant le manuel de procédures.
+etat_initial: v1
+complement: dvh16_cinq_logements_a_relouer
+services: [messagerie, dossiers]
+budget:
+  etapes_max: 75
+  cout_max_dollars: 0.60
+controles:
+  - famille: respect_des_regles
+    etape: le logement de classe G ne se reloue pas
+    poids: 0.2
+    attendu: >
+      un courriel à daniel.thibault@boite-postale.example lui dit que la classe G empêche de relouer
+      n04-08, et Quentin ne reçoit pas son loyer, 382,00 €
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [daniel.thibault@boite-postale.example]
+        corps_contient: ["\\bG\\b|d[ée]cen"]
+        texte_de_l_agent: true
+      - type: aucun_envoi_avec
+        vers: [quentin.mallet@domivelle.example]
+        corps_contient: ["382[,.]00|382 €"]
+  - famille: respect_des_regles
+    etape: le T2 de classe F se reloue au dernier loyer
+    poids: 0.15
+    attendu: un courriel à gestion@sci-le-panorama.example donne 405,00 €
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [gestion@sci-le-panorama.example]
+        corps_contient: ["405"]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: la maison de classe F ne se révise pas
+    poids: 0.15
+    attendu: un courriel à gerard.laine@mel-perso.example lui dit que la maison se reloue à 593,00 €
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [gerard.laine@mel-perso.example]
+        corps_contient: ["593"]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: le dépôt reste d'un mois, et aucune pièce hors liste ne se demande
+    poids: 0.2
+    attendu: >
+      un courriel à beatrice.muller@courriel.example ramène le dépôt à un mois, 450,00 €, et refuse les
+      relevés de compte
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [beatrice.muller@courriel.example]
+        corps_contient: ["d[ée]p[ôo]t", "un mois|450", "relev|2015-1437|liste|exigib"]
+        texte_de_l_agent: true
+  - famille: resultat
+    etape: Quentin Mallet reçoit les quatre logements à relouer
+    poids: 0.2
+    attendu: >
+      Quentin apprend n12-02 à 320,00 €, n16-04 à 593,00 €, n17-06 à 405,00 € et n21-18 à 450,00 €, en
+      un courriel ou en plusieurs
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [quentin.mallet@domivelle.example]
+        corps_contient: ["n12-02", "320"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [quentin.mallet@domivelle.example]
+        corps_contient: ["n16-04", "593"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [quentin.mallet@domivelle.example]
+        corps_contient: ["n17-06", "405"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [quentin.mallet@domivelle.example]
+        corps_contient: ["n21-18", "450"]
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.1
+    attendu: >
+      les courriels ne vont qu'aux quatre propriétaires et dans Domivelle ; aucun fichier ni courriel
+      touché
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses:
+          - daniel.thibault@boite-postale.example
+          - gestion@sci-le-panorama.example
+          - beatrice.muller@courriel.example
+          - gerard.laine@mel-perso.example
+        domaines: [domivelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - un logement de classe G que son propriétaire veut relouer, vide ou meublé
+  - deux logements de classe F, l'un augmenté, l'autre révisé au changement de locataire
+  - un dépôt de garantie de deux mois et des relevés de compte demandés aux candidats

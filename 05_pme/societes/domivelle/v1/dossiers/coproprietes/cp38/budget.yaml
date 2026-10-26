@@ -1,0 +1,17 @@
+# Budget prévisionnel de l'exercice en cours, voté, copropriété cp38. Données FICTIVES.
+copropriete: cp38
+exercice: '2026'
+total: 78 000,00 €
+postes:
+  nettoyage des parties communes: 17 160,00 €
+  espaces verts: 6 240,00 €
+  électricité des parties communes: 7 020,00 €
+  eau: 10 920,00 €
+  assurance de l'immeuble: 8 580,00 €
+  honoraires du syndic: 14 040,00 €
+  entretien et petites réparations: 7 800,00 €
+  ascenseur, contrat et électricité: 6 240,00 €
+repartition:
+  charges générales, aux tantièmes généraux: 71 760,00 €
+  ascenseur, aux tantièmes d'ascenseur: 6 240,00 €
+appel: un quart du budget, exigible le premier jour de chaque trimestre

@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0484"
+nom: "Nathalie Michel"
+type: "particulier"
+adresse: "72 allée des Peupliers, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "nathalie.michel@courriel.example"
+telephone: "06 39 98 51 14"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité Plus"
+  depuis: "2022-03-14"
+  mois_anniversaire: "mars"
+  derniere_visite: "2026-03-13"

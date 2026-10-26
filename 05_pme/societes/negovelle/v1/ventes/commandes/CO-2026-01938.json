@@ -1,0 +1,90 @@
+{
+  "numero": "CO-2026-01938",
+  "client": "c-0077",
+  "reference_client": null,
+  "cree_le": "2026-06-29T09:10:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "23 parc d'activités de la Gare, 36999 Ardillac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "OUT-12580",
+      "libelle": "Spatule à reboucher 250 mm",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 16.2,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 15.55,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 62.2
+    },
+    {
+      "reference": "VIS-13430",
+      "libelle": "Vis à bois tête fraisée 6x45, inox A2, boîte de 500",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 3.4,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 3.26,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 16.3
+    },
+    {
+      "reference": "VIS-13862",
+      "libelle": "Vis à tôle tête cylindrique 4,2x13, inox A2, boîte de 250",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 9.1,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 8.74,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 34.96
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 128.46,
+  "total_tva_euros": 25.69,
+  "total_ttc_euros": 154.15,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01787"
+  ],
+  "facture": "FC-2026-1069",
+  "historique": [
+    {
+      "date": "2026-06-29T09:10:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-29T09:12:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-30T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01787"
+    },
+    {
+      "date": "2026-06-30T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01787"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1069"
+    }
+  ]
+}

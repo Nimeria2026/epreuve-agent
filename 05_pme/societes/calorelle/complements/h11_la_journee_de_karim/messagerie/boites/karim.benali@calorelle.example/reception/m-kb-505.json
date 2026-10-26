@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-505",
+  "de": {
+    "nom": "Syndic de la Résidence des Saulaies",
+    "adresse": "contact@syndic-de-la-residence-des-saulaies-450.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Plus d'eau chaude au bâtiment B",
+  "date": "2026-11-17T08:40:00+01:00",
+  "corps": "Bonjour Monsieur Benali,\n\nDepuis ce matin, plus d'eau chaude au bâtiment B : la chaudière collective affiche un défaut. Pouvez-vous envoyer quelqu'un ? Et, pour notre assemblée, à quelle date a eu lieu votre dernière visite d'entretien de la chaufferie ?\n\nCordialement,\nLe syndic de la Résidence des Saulaies, 30 chemin des Vignes (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

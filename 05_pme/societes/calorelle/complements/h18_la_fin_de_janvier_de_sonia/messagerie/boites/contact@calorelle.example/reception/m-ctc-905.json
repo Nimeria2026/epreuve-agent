@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-ctc-905",
+  "de": {
+    "nom": "Robinetterie des Grèves, comptabilité",
+    "adresse": "compta@robinetterie-des-greves.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture RG-27-0031",
+  "date": "2027-01-29T08:20:00+01:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-joint notre facture RG-27-0031 du 26 janvier 2027.\n\nRobinetterie des Grèves (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "RG-27-0031.pdf",
+      "fichier": "pieces/m-ctc-905/RG-27-0031.pdf",
+      "taille_octets": 1050
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

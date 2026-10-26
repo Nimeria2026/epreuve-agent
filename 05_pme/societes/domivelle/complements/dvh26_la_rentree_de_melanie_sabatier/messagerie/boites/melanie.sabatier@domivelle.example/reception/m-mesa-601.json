@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-mesa-601",
+  "de": {
+    "nom": "Gaëlle Fournel",
+    "adresse": "gaelle.fournel@domivelle.example"
+  },
+  "a": [
+    "melanie.sabatier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Assemblée des Roseraies, à ton retour",
+  "date": "2026-08-21T16:15:00+02:00",
+  "corps": "Mélanie,\n\nÀ ton retour : l'assemblée générale annuelle des Roseraies (cp29), exercice clos le 31 mars, se tiendra le mardi 22 septembre 2026 à 18 h 30, à la salle du conseil de la mairie de Montclavel-sur-Cher ; si les délais ne le permettent plus, le jeudi 24 septembre, même heure, même salle, que j'ai aussi réservée.\n\nOrdre du jour : 1. élection du président de séance ; 2. approbation des comptes de l'exercice clos le 31 mars 2026 ; 3. budget prévisionnel de l'exercice 2027-2028 ; 4. cotisation au fonds de travaux ; 5. renouvellement du conseil syndical.\n\nLe formulaire de vote et les annexes, comptes et budget avec leurs comparatifs, sont dans coproprietes/cp29/assemblee_2026-09/. Rédige la convocation avec la date retenue.\n\nGaëlle",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

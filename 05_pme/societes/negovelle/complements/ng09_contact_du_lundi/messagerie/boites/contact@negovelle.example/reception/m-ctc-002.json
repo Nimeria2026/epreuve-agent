@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-002",
+  "de": {
+    "nom": "Louis Lagarde",
+    "adresse": "louis.lagarde@dufour-maintenance.example"
+  },
+  "a": [
+    "contact@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Disponibilité de cylindres",
+  "date": "2026-07-04T08:05:00+02:00",
+  "corps": "Bonjour,\n\nAvez-vous en stock 12 cylindres européens 45x50 mm, 5 clés ? Et à quel prix pour nous ?\n\nLouis Lagarde\nDufour Maintenance",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

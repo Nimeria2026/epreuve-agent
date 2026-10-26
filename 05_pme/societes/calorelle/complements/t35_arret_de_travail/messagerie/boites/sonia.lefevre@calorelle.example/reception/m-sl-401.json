@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-sl-401",
+  "de": {
+    "nom": "Yanis Haddad",
+    "adresse": "yanis.haddad@calorelle.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Arrêt de travail",
+  "date": "2026-11-02T07:20:00+01:00",
+  "corps": "Bonjour Sonia,\n\nJe t'envoie mon arrêt de travail, du lundi 2 au vendredi 6 novembre inclus. Désolé pour le planning.\n\nYanis (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "arret_de_travail_Haddad.pdf",
+      "fichier": "pieces/m-sl-401/arret_de_travail_Haddad.pdf",
+      "taille_octets": 799
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

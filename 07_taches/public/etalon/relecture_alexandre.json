@@ -1,0 +1,282 @@
+[
+ {
+  "texte": "f1bbeb725707",
+  "critere": "5921bad04aaa",
+  "humain": "vrai",
+  "juge": "faux",
+  "decision": "etiquette_fausse",
+  "le": "2026-10-06T11:27:29+00:00"
+ },
+ {
+  "texte": "bbfd1d947668",
+  "critere": "5921bad04aaa",
+  "humain": "faux",
+  "juge": "vrai",
+  "decision": "juge_errone",
+  "le": "2026-10-06T11:28:30+00:00"
+ },
+ {
+  "texte": "aa54cf03afe6",
+  "critere": "a70f85482bf6",
+  "humain": "vrai",
+  "juge": "faux",
+  "decision": "juge_errone",
+  "le": "2026-10-06T11:29:32+00:00"
+ },
+ {
+  "texte": "de83e66b0e12",
+  "critere": "48e41a287150",
+  "humain": "faux",
+  "juge": "vrai",
+  "decision": "juge_errone",
+  "le": "2026-10-06T11:30:16+00:00"
+ },
+ {
+  "texte": "fbebf263fb8c",
+  "critere": "5921bad04aaa",
+  "humain": "vrai",
+  "juge": "faux",
+  "decision": "etiquette_fausse",
+  "le": "2026-10-06T11:30:41+00:00"
+ },
+ {
+  "texte": "cd5b25ffe0a5",
+  "critere": "a70f85482bf6",
+  "humain": "vrai",
+  "juge": "faux",
+  "decision": "etiquette_fausse",
+  "le": "2026-10-06T11:31:21+00:00"
+ },
+ {
+  "texte": "f824971a322f",
+  "critere": "0a5072333f52",
+  "humain": "faux",
+  "juge": "vrai",
+  "decision": "juge_errone",
+  "le": "2026-10-06T11:31:50+00:00"
+ },
+ {
+  "texte": "f824971a322f",
+  "critere": "5684fcb991b8",
+  "humain": "faux",
+  "juge": "vrai",
+  "decision": "etiquette_fausse",
+  "le": "2026-10-06T11:32:39+00:00"
+ },
+ {
+  "texte": "8c2afec7905a",
+  "critere": "6934183eb4f5",
+  "humain": "vrai",
+  "juge": "faux",
+  "decision": "juge_errone",
+  "le": "2026-10-06T11:33:38+00:00"
+ },
+ {
+  "texte": "908e8bd9d812",
+  "critere": "6934183eb4f5",
+  "humain": "vrai",
+  "juge": "faux",
+  "decision": "etiquette_fausse",
+  "le": "2026-10-06T11:35:27+00:00"
+ },
+ {
+  "texte": "70ef45eb42d4",
+  "critere": "0a5072333f52",
+  "humain": "faux",
+  "juge": "vrai",
+  "decision": "juge_errone",
+  "le": "2026-10-06T11:35:57+00:00"
+ },
+ {
+  "texte": "82a42a23494a",
+  "critere": "0a5072333f52",
+  "humain": "faux",
+  "juge": "vrai",
+  "decision": "juge_errone",
+  "le": "2026-10-06T11:36:12+00:00"
+ },
+ {
+  "texte": "fd861b703005",
+  "critere": "0a5072333f52",
+  "humain": "faux",
+  "juge": "vrai",
+  "decision": "juge_errone",
+  "le": "2026-10-06T11:36:35+00:00"
+ },
+ {
+  "texte": "32b665b108be",
+  "critere": "11232fd7480a",
+  "humain": "vrai",
+  "juge": "faux",
+  "decision": "juge_errone",
+  "le": "2026-10-06T11:36:51+00:00"
+ },
+ {
+  "texte": "86959125f9ee",
+  "critere": "48e41a287150",
+  "humain": "faux",
+  "juge": "vrai",
+  "decision": "juge_errone",
+  "le": "2026-10-06T11:37:31+00:00"
+ },
+ {
+  "texte": "b07a29072c0f",
+  "critere": "0a5072333f52",
+  "humain": "faux",
+  "juge": "vrai",
+  "decision": "juge_errone",
+  "le": "2026-10-06T11:37:57+00:00"
+ },
+ {
+  "texte": "bd79574ff0b2",
+  "critere": "48e41a287150",
+  "humain": "faux",
+  "juge": "vrai",
+  "decision": "juge_errone",
+  "le": "2026-10-06T11:38:34+00:00"
+ },
+ {
+  "texte": "3cafc9fd4302",
+  "critere": "0a5072333f52",
+  "humain": "faux",
+  "juge": "vrai",
+  "decision": "juge_errone",
+  "le": "2026-10-06T11:38:54+00:00"
+ },
+ {
+  "texte": "73de1f72e200",
+  "critere": "bc0157ffdf4c",
+  "humain": "vrai",
+  "juge": "faux",
+  "decision": "juge_errone",
+  "le": "2026-10-06T12:55:47+00:00"
+ },
+ {
+  "texte": "b34de907caf0",
+  "critere": "bc0157ffdf4c",
+  "humain": "vrai",
+  "juge": "faux",
+  "decision": "juge_errone",
+  "le": "2026-10-06T12:56:27+00:00"
+ },
+ {
+  "texte": "d621cff414b1",
+  "critere": "bc0157ffdf4c",
+  "humain": "vrai",
+  "juge": "faux",
+  "decision": "juge_errone",
+  "le": "2026-10-06T12:56:59+00:00"
+ },
+ {
+  "texte": "d4bb76e2d516",
+  "critere": "bc0157ffdf4c",
+  "humain": "vrai",
+  "juge": "faux",
+  "decision": "juge_errone",
+  "le": "2026-10-06T12:57:18+00:00"
+ },
+ {
+  "texte": "908e8bd9d812",
+  "critere": "0c7b49a5ebf3",
+  "humain": "vrai",
+  "juge": "faux",
+  "decision": "etiquette_fausse",
+  "le": "2026-10-06T12:57:54+00:00"
+ },
+ {
+  "texte": "ea26a185bffd",
+  "critere": "05ed2b144034",
+  "humain": "vrai",
+  "juge": "faux",
+  "decision": "juge_errone",
+  "le": "2026-10-07T15:18:45+00:00"
+ },
+ {
+  "texte": "e98a60d9d8dc",
+  "critere": "05ed2b144034",
+  "humain": "vrai",
+  "juge": "faux",
+  "decision": "juge_errone",
+  "le": "2026-10-07T15:19:27+00:00"
+ },
+ {
+  "texte": "56c9d7f01e1f",
+  "critere": "05ed2b144034",
+  "humain": "vrai",
+  "juge": "faux",
+  "decision": "juge_errone",
+  "le": "2026-10-07T15:20:03+00:00"
+ },
+ {
+  "texte": "ee1f61815ff1",
+  "critere": "05ed2b144034",
+  "humain": "vrai",
+  "juge": "faux",
+  "decision": "juge_errone",
+  "le": "2026-10-07T15:20:45+00:00"
+ },
+ {
+  "texte": "37c1e68e2787",
+  "critere": "05ed2b144034",
+  "humain": "vrai",
+  "juge": "faux",
+  "decision": "juge_errone",
+  "le": "2026-10-07T15:22:04+00:00"
+ },
+ {
+  "texte": "44ee6365bbcb",
+  "critere": "05ed2b144034",
+  "humain": "vrai",
+  "juge": "faux",
+  "decision": "etiquette_fausse",
+  "le": "2026-10-07T15:22:21+00:00"
+ },
+ {
+  "texte": "38f36dcb6b8f",
+  "critere": "05ed2b144034",
+  "humain": "vrai",
+  "juge": "faux",
+  "decision": "juge_errone",
+  "le": "2026-10-07T15:22:44+00:00"
+ },
+ {
+  "texte": "e78394901dc7",
+  "critere": "05ed2b144034",
+  "humain": "vrai",
+  "juge": "faux",
+  "decision": "etiquette_fausse",
+  "le": "2026-10-07T15:22:55+00:00"
+ },
+ {
+  "texte": "3bd90be522ae",
+  "critere": "05ed2b144034",
+  "humain": "vrai",
+  "juge": "faux",
+  "decision": "juge_errone",
+  "le": "2026-10-07T15:23:26+00:00"
+ },
+ {
+  "texte": "f824971a322f",
+  "critere": "bb3902ff5f0e",
+  "humain": "faux",
+  "juge": "vrai",
+  "decision": "etiquette_fausse",
+  "le": "2026-10-09T14:33:25+00:00"
+ },
+ {
+  "texte": "908e8bd9d812",
+  "critere": "b81fb3268bbc",
+  "humain": "vrai",
+  "juge": "faux",
+  "decision": "etiquette_fausse",
+  "le": "2026-10-09T14:34:10+00:00"
+ },
+ {
+  "texte": "892742e41ada",
+  "critere": "f68af6a6761a",
+  "humain": "faux",
+  "juge": "vrai",
+  "decision": "etiquette_fausse",
+  "le": "2026-10-09T15:22:30+00:00"
+ }
+]

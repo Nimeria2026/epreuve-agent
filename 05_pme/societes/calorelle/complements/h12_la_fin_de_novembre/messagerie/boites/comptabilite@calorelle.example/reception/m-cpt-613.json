@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cpt-613",
+  "de": {
+    "nom": "Visserie de Brenneval",
+    "adresse": "compta@visserie-de-brenneval.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Relevé de compte au 30 novembre 2026",
+  "date": "2026-11-30T07:55:00+01:00",
+  "corps": "Bonjour,\n\nVoici le relevé du compte de Calorial SARL, 4 rue des Tanneurs, 45999 Valmont-sur-Loire, chez nous au 30 novembre 2026 :\n- VB-26-0412 du 06/11/2026, 86,40 € TTC, échéance 31/12/2026\n- VB-26-0450 du 19/11/2026, 132,00 € TTC, échéance 31/12/2026\n\nSolde dû : 218,40 €.\n\nService comptable, Visserie de Brenneval (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

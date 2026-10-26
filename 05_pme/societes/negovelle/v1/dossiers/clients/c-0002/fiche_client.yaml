@@ -1,0 +1,28 @@
+# Fiche du client c-0002 de Négovelle. Données FICTIVES.
+code: c-0002
+nom: Peinture Forestier
+type: artisan
+adresse: 122 chemin du Bois, 36999 Fontclavier (FICTIF)
+telephone: 02 61 91 72 04
+secteur: ouest
+commercial: samir.ouali
+administration_des_ventes: oceane.collin
+contacts:
+- nom: Luc Lecoq
+  fonction: gérant
+  courriel: luc.lecoq@peinture-forestier.example
+- nom: Alice Drouet
+  fonction: conjointe collaboratrice
+  courriel: alice.drouet@peinture-forestier.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 122 chemin du Bois, 36999 Fontclavier (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2016-09-01'
+limite_encours_euros: 4500.0
+livraisons_partielles: false
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ocol-009",
+  "de": {
+    "nom": "Joël Mabille",
+    "adresse": "joel.mabille@charpente-peron.example"
+  },
+  "a": [
+    "oceane.collin@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-06T07:38:00+02:00",
+  "corps": "Bonjour Océane,\n\nMerci de nous livrer au siège :\n- 3 x OUT-12605, Spatule à reboucher 80 mm\n- 8 x VIS-12245, Vis à bois tête fraisée 4x25, bichromatée, boîte de 500\n\nCordialement,\nJoël Mabille\nCharpente Péron",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

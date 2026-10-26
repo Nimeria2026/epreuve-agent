@@ -1,0 +1,19 @@
+# Fiche du lot s04-07. Données FICTIVES.
+lot: s04-07
+adresse: 138 chemin du Bois, 18999 Chantebrune (FICTIF)
+type: T3
+surface_m2: 68
+locataire:
+  nom: Mme Chantal Barbier
+  courriel: chantal.barbier@courriel.example
+  telephone: 06 39 98 71 07
+  entree: '2016-01-20'
+bail:
+  signature: '2016-01-20'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 608,00 €
+  depot_de_garantie: 486,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T3
+dpe:
+  classe: C

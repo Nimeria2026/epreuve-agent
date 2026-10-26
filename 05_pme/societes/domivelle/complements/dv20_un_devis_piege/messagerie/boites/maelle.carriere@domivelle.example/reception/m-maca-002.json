@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-maca-002",
+  "de": {
+    "nom": "Espaces verts de la Garenne-Aubry",
+    "adresse": "facturation@espaces-verts-de-la-garenne-aubry.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis : entretien des espaces verts, Résidence Le Vallon",
+  "date": "2026-06-04T10:15:00+02:00",
+  "corps": "Madame Carrière,\n\nVoici notre devis pour l'entretien annuel des espaces verts de la Résidence Le Vallon : tonte toutes les deux semaines d'avril à octobre, taille des haies et des arbustes deux fois par an, désherbage des allées. Montant annuel : 7 320,00 € TTC.\n\nEspaces verts de la Garenne-Aubry",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

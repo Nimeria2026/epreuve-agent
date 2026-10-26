@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-603",
+  "de": {
+    "nom": "Électricité du Pré-Carré",
+    "adresse": "facturation@electricite-du-pre-carre.example"
+  },
+  "a": [
+    "comptabilite@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture 2026-1124, lot s02-05",
+  "date": "2026-07-17T16:10:00+02:00",
+  "corps": "Bonjour,\n\nCi-jointe notre facture n° 2026-1124 du 17 juillet 2026 pour le lot s02-05, 130 rue Émile-Zola, 18999 Chantebrune : remplacement d'une prise de la cuisine et de son boîtier, 241,20 € TTC, échéance le 10 septembre 2026.\n\nÉlectricité du Pré-Carré",
+  "pieces_jointes": [
+    {
+      "nom": "facture_2026-1124.pdf",
+      "fichier": "pieces/m-cpt-603/facture_2026-1124.pdf",
+      "taille_octets": 916
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

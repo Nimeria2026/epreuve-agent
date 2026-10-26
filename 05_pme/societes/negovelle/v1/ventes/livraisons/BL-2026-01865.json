@@ -1,0 +1,44 @@
+{
+  "numero": "BL-2026-01865",
+  "commande": "CO-2026-02028",
+  "client": "c-0050",
+  "date_expedition": "2026-07-03",
+  "date_livraison": null,
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "29 zone d'activités des Grands Prés, 36999 Mérolles-en-Brenne (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ELE-11265",
+      "libelle": "Câble U1000 R2V 2x 10 mm², couronne de 50 m",
+      "quantite": 4
+    },
+    {
+      "reference": "ELE-13372",
+      "libelle": "Tableau électrique 3 rangée(s), 13 modules",
+      "quantite": 12
+    },
+    {
+      "reference": "ELP-10914",
+      "libelle": "Foret métal HSS 11 mm, étui de 10",
+      "quantite": 4
+    },
+    {
+      "reference": "ENT-10432",
+      "libelle": "Essuie-mains en rouleau industriel, carton de 12",
+      "quantite": 1
+    },
+    {
+      "reference": "PLB-13462",
+      "libelle": "Vanne à boisseau sphérique femelle-femelle 20x27",
+      "quantite": 6
+    }
+  ],
+  "reserves": null,
+  "signataire": null,
+  "statut": "en_cours"
+}

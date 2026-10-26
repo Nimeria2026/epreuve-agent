@@ -1,0 +1,79 @@
+{
+  "numero": "CO-2026-01830",
+  "client": "c-0054",
+  "reference_client": "BC-2640",
+  "cree_le": "2026-06-23T09:10:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "10 parc d'activités de la Gare, 36999 Mérolles-en-Brenne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-10375",
+      "libelle": "Colle à bois rapide, cartouche de 310 ml",
+      "quantite": 3,
+      "prix_tarif_ht_euros": 14.0,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 14.0,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 42.0
+    },
+    {
+      "reference": "ELE-10931",
+      "libelle": "Câble H07V-K 2,5 mm², couronne de 25 m",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 384.75,
+      "remise_pourcent": 5.92,
+      "prix_net_ht_euros": 361.97,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 2171.82
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 2213.82,
+  "total_tva_euros": 442.76,
+  "total_ttc_euros": 2656.58,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01679"
+  ],
+  "facture": "FC-2026-1048",
+  "historique": [
+    {
+      "date": "2026-06-23T09:10:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-23T09:12:00+02:00",
+      "par": "oceane.collin",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-24T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01679"
+    },
+    {
+      "date": "2026-06-24T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01679"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1048"
+    }
+  ]
+}

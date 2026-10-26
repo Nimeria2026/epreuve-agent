@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01679",
+  "commande": "CO-2026-01830",
+  "client": "c-0054",
+  "date_expedition": "2026-06-24",
+  "date_livraison": "2026-06-24",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "10 parc d'activités de la Gare, 36999 Mérolles-en-Brenne (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "CON-10375",
+      "libelle": "Colle à bois rapide, cartouche de 310 ml",
+      "quantite": 3
+    },
+    {
+      "reference": "ELE-10931",
+      "libelle": "Câble H07V-K 2,5 mm², couronne de 25 m",
+      "quantite": 6
+    }
+  ],
+  "reserves": null,
+  "signataire": "Simone Parmentier",
+  "statut": "livre"
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-pare-001",
+  "de": {
+    "nom": "Éric Lemaire",
+    "adresse": "eric.lemaire@boite-postale.example"
+  },
+  "a": [
+    "pascale.renaud@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Mon reversement de mai",
+  "date": "2026-06-06T15:20:00+02:00",
+  "corps": "Bonjour Madame Renaud,\n\nMon reversement du 10 mai, 1 440,90 €, est bien plus bas que celui d'avril, 2 120,54 €, alors que mes quatre appartements sont loués. Pouvez-vous m'expliquer la différence ?\n\nÉric Lemaire",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

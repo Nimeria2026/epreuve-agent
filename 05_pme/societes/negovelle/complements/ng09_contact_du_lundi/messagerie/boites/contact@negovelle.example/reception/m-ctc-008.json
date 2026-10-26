@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-008",
+  "de": {
+    "nom": "Didier Boutin",
+    "adresse": "didier.boutin@menuiserie-industrielle-delaunay.example"
+  },
+  "a": [
+    "contact@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Question sur la facture de juin",
+  "date": "2026-07-06T06:35:00+02:00",
+  "corps": "Bonjour,\n\nLa facture de juin porte un montant plus élevé que nos bons de livraison. Pouvez-vous vérifier ?\n\nDidier Boutin\nMenuiserie industrielle Delaunay",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

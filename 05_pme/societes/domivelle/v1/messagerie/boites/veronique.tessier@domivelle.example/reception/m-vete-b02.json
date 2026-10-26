@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-vete-b02",
+  "de": {
+    "nom": "M. André Delattre",
+    "adresse": "andre.delattre@messagerie.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Merci",
+  "date": "2026-05-19T14:40:00+02:00",
+  "corps": "Bonjour,\n\nMerci pour votre réponse rapide.\n\nM. André Delattre",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

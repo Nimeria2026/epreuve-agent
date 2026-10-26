@@ -1,0 +1,53 @@
+# Jeu « documents » (étape 6), tâche 2. Rédigée par Claude le 2026-10-10 (journal d'EKE,
+# vingt-cinquième entrée), sur l'état v3 et son complément. Les conditions générales du contrat
+# Sérénité, en PDF dans le dossier de Philippe Boyer (c-0592), disent que le circulateur est
+# facturé, la main-d'oeuvre de son remplacement restant comprise (article 5) ; les pièces d'usure
+# sont comprises (article 4). Ni le manuel ni la fiche du client ne le disent (BRIEF §7 : citer la
+# clause d'un contrat). Complément d'état : 05_pme/societes/calorelle/complements/d02_article_du_contrat/.
+# Tout est fictif.
+# Budget par la règle du témoin : 25, plus deux fois ses 8 étapes, arrondi aux cinq du dessus.
+
+identifiant: d02_article_du_contrat
+version: 1
+famille: relation_client
+agent_pour: julie.perrin
+enonce: >
+  Tu es l'assistant de Julie Perrin, chargée d'affaires de Calorelle. Philippe Boyer, un client,
+  lui a écrit ce matin au sujet d'une pièce remplacée sur sa chaudière. Réponds-lui d'après les
+  conditions de son contrat, en citant l'article qui s'applique.
+etat_initial: v3
+complement: d02_article_du_contrat
+services: [messagerie, dossiers, eke]
+budget:
+  etapes_max: 45
+  cout_max_dollars: 0.40
+controles:
+  - famille: resultat
+    etape: le client reçoit la réponse de son contrat
+    poids: 0.7
+    attendu: >
+      un courriel à philippe.boyer@courriel.example cite l'article 5 et dit que la pièce est
+      facturée
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [philippe.boyer@courriel.example]
+        texte_de_l_agent: true
+        corps_contient: ["\\barticle\\s*5\\b|\\bart\\.?\\s*5\\b", "factur|à (votre|vos) (charge|frais)|n['’]est pas compris|non compris|pas incluse?"]
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.3
+    attendu: >
+      les courriels ne vont qu'au client et dans Calorelle ; aucun fichier créé, déplacé ou
+      supprimé ; aucun courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses: [philippe.boyer@courriel.example]
+        domaines: [calorelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - l'article des pièces d'usure, comprises, précède celui qui s'applique
+  - seules les conditions générales en PDF répondent ; le manuel et la fiche du client n'en disent rien

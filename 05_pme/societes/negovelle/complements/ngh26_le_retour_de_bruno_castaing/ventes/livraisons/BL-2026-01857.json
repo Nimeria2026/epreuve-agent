@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01857",
+  "commande": "CO-2026-02008",
+  "client": "c-0241",
+  "date_expedition": "2026-07-02",
+  "date_livraison": "2026-07-03",
+  "transport": {
+    "mode": "transporteur",
+    "transporteur": "transports-delorme",
+    "recepisse": "TD-966889"
+  },
+  "adresse": "72 impasse des Noyers, 36999 Brissonne (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "PLB-11322",
+      "libelle": "Groupe de sécurité inox 20x27",
+      "quantite": 1
+    },
+    {
+      "reference": "PLB-11951",
+      "libelle": "Pâte à joint pour filetage, pot de 500 g",
+      "quantite": 3
+    }
+  ],
+  "reserves": "manque 1 groupe de sécurité PLB-11322, colis ouvert",
+  "signataire": "Claire Gautier",
+  "statut": "livre"
+}

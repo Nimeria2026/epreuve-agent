@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-b20",
+  "de": {
+    "nom": "Bernard Lemoine",
+    "adresse": "b.lemoine@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Copie de mon contrat d'entretien",
+  "date": "2026-10-30T16:40:00+01:00",
+  "corps": "Bonjour,\n\nJ'ai égaré mon contrat d'entretien. Pourriez-vous m'en envoyer une copie ?\n\nBien cordialement,\nBernard Lemoine\n8 allée des Peupliers, 45999 Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

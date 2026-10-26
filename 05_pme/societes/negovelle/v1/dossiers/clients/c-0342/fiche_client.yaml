@@ -1,0 +1,28 @@
+# Fiche du client c-0342 de Négovelle. Données FICTIVES.
+code: c-0342
+nom: Carrelage Péron
+type: artisan
+adresse: 32 rue de la Poste, 36999 Ardillac (FICTIF)
+telephone: 02 61 91 65 06
+secteur: est
+commercial: fabrice.mercier
+administration_des_ventes: benoit.faure
+contacts:
+- nom: Anne Dumont
+  fonction: gérante
+  courriel: anne.dumont@carrelage-peron.example
+- nom: Jean Pelletier
+  fonction: conjoint collaborateur
+  courriel: jean.pelletier@carrelage-peron.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 32 rue de la Poste, 36999 Ardillac (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2015-04-01'
+limite_encours_euros: 4500.0
+livraisons_partielles: true
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

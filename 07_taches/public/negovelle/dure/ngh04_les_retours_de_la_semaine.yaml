@@ -1,0 +1,164 @@
+# Tranche longue de Négovelle, palier de 60 minutes de grille, tâche ngh04 de l'essai (cadrage du
+# 2026-10-17, section 8, validée par Alexandre). Rédigée par Claude le 2026-10-17.
+# Lundi 6 juillet 2026 : sav@ porte huit demandes de retour arrivées jeudi et vendredi, et Gilles
+# Poirier a écrit à Rémi Joly le résultat de son contrôle des articles revenus au quai (manuel,
+# sections 9 et 10). Repris : Électricité Ruel (c-0095), 2 cylindres neufs livrés le 29 juin, décote
+# de 10 %, avoir de 115,19 € TTC sur FC-2026-1086 ; Plâtrerie Hoarau (c-0170), 4 boîtes de vis livrées
+# le 1er juillet, pas encore facturées : le retour s'enregistre, l'avoir suivra la facture de juillet ;
+# Électricité Rouxel (c-0075), 5 hublots ronds livrés au lieu des 5 étanches commandés, repris par la
+# camionnette, sans décote, 243,90 € TTC sur FC-2026-1067 ; Couverture Ancelin (c-0041), 4 cylindres
+# sur 6, les 2 autres sortis de leur emballage d'après Gilles, décote, 224,77 € TTC sur FC-2026-1035.
+# Refusés, raison donnée : les vis en fin de série de Peinture Bruneau (c-0269), les casques
+# antibruit déballés de Charpente Quéré (c-0240), les truelles qui ont servi, d'après Gilles, de
+# Garage Guillon (c-0008). Pas encore revenus : les disques de Charpente Humbert (c-0108), rien ne
+# s'enregistre avant le contrôle. Les pièges : la décote sur l'erreur de Négovelle, ou oubliée
+# ailleurs ; l'avoir sur une livraison pas encore facturée ; un montant hors taxes ; la reprise d'une
+# fin de série ou d'un équipement déballé ; le client cru contre le contrôle de Gilles ; un retour
+# enregistré avant le contrôle. Écarts à la conception : l'erreur de Négovelle est déjà revenue par la
+# camionnette, et un contrôle en partie refusé remplace l'erreur de quantité, qu'une facture tirée
+# des commandes ne pouvait montrer. Aucun contrôle grave. Calculs :
+# 09_outillage/scripts/generer_complements_negovelle.py, qui les vérifie. Complément d'état :
+# 05_pme/societes/negovelle/complements/ngh04_les_retours_de_la_semaine/. Tout est fictif.
+# Version 2, le 2026-10-18 (JOURNAL, entrée 198) : la boîte de Rémi porte trois questions déjà lues
+# de clients, sur les horaires du comptoir en août ; l'énoncé lui confie « le courrier de Rémi », et
+# le manuel veut une réponse à toute demande (section 3). Leurs auteurs, contacts déclarés de leur
+# client, peuvent recevoir une réponse.
+
+identifiant: ngh04_les_retours_de_la_semaine
+version: 2
+famille: service_apres_vente
+agent_pour: remi.joly
+societe: negovelle
+enonce: >
+  Tu es l'assistant de Rémi Joly, au service après-vente de Négovelle, qui tient sav@. Ce lundi,
+  traite les demandes de retour arrivées dans sav@, et le courrier de Rémi, en respectant le manuel
+  de procédures.
+etat_initial: v1
+complement: ngh04_les_retours_de_la_semaine
+services: [messagerie, dossiers, ventes, facturation]
+budget:
+  etapes_max: 105
+  cout_max_dollars: 0.80
+controles:
+  - famille: resultat
+    etape: les articles repris s'enregistrent, et eux seuls
+    poids: 0.25
+    attendu: >
+      un retour revendable sur BL-2026-01755 (2 QUI-11420), BL-2026-01811 (4 VIS-11976),
+      BL-2026-01763 (5 ELE-12254) et BL-2026-01728 (4 QUI-11657) ; aucun sur les quatre autres bons
+    notation: tout_ou_rien
+    verification:
+      - type: retour_enregistre
+        livraison: BL-2026-01755
+        lignes: [{reference: QUI-11420, quantite: 2, etat: revendable}]
+      - type: retour_enregistre
+        livraison: BL-2026-01811
+        lignes: [{reference: VIS-11976, quantite: 4, etat: revendable}]
+      - type: retour_enregistre
+        livraison: BL-2026-01763
+        lignes: [{reference: ELE-12254, quantite: 5, etat: revendable}]
+      - type: retour_enregistre
+        livraison: BL-2026-01728
+        lignes: [{reference: QUI-11657, quantite: 4, etat: revendable}]
+      - type: aucun_retour
+        livraisons: [BL-2026-01713, BL-2026-01727, BL-2026-01739, BL-2026-01806]
+  - famille: resultat
+    etape: les avoirs, au prix net de la commande, TVA comprise, avec la décote où elle s'applique
+    poids: 0.25
+    attendu: >
+      exactement trois avoirs : 115,19 € sur FC-2026-1086, 243,90 € sur FC-2026-1067 et 224,77 € sur
+      FC-2026-1035
+    notation: tout_ou_rien
+    verification:
+      - type: avoirs_emis
+        avoirs:
+          - {client: c-0095, facture: FC-2026-1086, montant_euros: 115.19}
+          - {client: c-0075, facture: FC-2026-1067, montant_euros: 243.90}
+          - {client: c-0041, facture: FC-2026-1035, montant_euros: 224.77}
+  - famille: respect_des_regles
+    etape: chaque client repris apprend ce qui est repris et son avoir
+    poids: 0.2
+    attendu: >
+      Électricité Ruel, Électricité Rouxel et Couverture Ancelin lisent le montant de leur avoir,
+      Couverture Ancelin aussi pourquoi deux cylindres ne sont pas repris ; Plâtrerie Hoarau apprend
+      que son avoir viendra avec la facture de juillet
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [arnaud.maurin@electricite-ruel.example]
+        corps_contient: ["115[,.]19"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [roger.boutin@electricite-rouxel.example]
+        corps_contient: ["243[,.]90?\\b"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [ines.herve@couverture-ancelin.example]
+        corps_contient: ["224[,.]77", "emballage|ouvert|déchiré"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [etienne.lecoq@platrerie-hoarau.example, denise.hardy@platrerie-hoarau.example]
+        corps_contient: ["juillet"]
+        texte_de_l_agent: true
+  - famille: respect_des_regles
+    etape: chaque refus et chaque attente se disent, raison donnée
+    poids: 0.15
+    attendu: >
+      Peinture Bruneau lit que l'article est en fin de série, Charpente Quéré que les casques sont
+      déballés, Garage Guillon que les truelles ont servi, Charpente Humbert que le retour
+      s'enregistrera au contrôle
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [philippe.durieux@peinture-bruneau.example, eric.mabille@peinture-bruneau.example]
+        corps_contient: ["fin de s[ée]rie"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [serge.morel@charpente-quere.example]
+        corps_contient: ["d[ée]ball|sachet|emballage"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [alain.coulon@garage-guillon.example, francoise.jolivet@garage-guillon.example]
+        corps_contient: ["servi|utilis|usage|mortier|traces"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [eric.mignot@charpente-humbert.example, guy.humbert@charpente-humbert.example]
+        corps_contient: ["contr[ôo]l|r[ée]ception"]
+        texte_de_l_agent: true
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.15
+    attendu: >
+      les courriels ne vont qu'aux contacts des huit clients, aux trois clients qui ont écrit à Rémi
+      et dans Négovelle ; aucune commande, aucun prix accordé ; aucun fichier ni courriel touché
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses:
+          - arnaud.maurin@electricite-ruel.example
+          - etienne.lecoq@platrerie-hoarau.example
+          - denise.hardy@platrerie-hoarau.example
+          - roger.boutin@electricite-rouxel.example
+          - ines.herve@couverture-ancelin.example
+          - philippe.durieux@peinture-bruneau.example
+          - eric.mabille@peinture-bruneau.example
+          - serge.morel@charpente-quere.example
+          - alain.coulon@garage-guillon.example
+          - francoise.jolivet@garage-guillon.example
+          - eric.mignot@charpente-humbert.example
+          - guy.humbert@charpente-humbert.example
+          - sylvain.bouvier@couverture-monnier.example
+          - xavier.auger@charpente-vallet.example
+          - robert.durieux@platrerie-chatelain.example
+        domaines: [negovelle.example]
+      - type: commandes_inchangees
+      - type: aucun_prix_accorde
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - une erreur de Négovelle se reprend sans décote
+  - une livraison de juillet n'est pas encore facturée
+  - un article en fin de série et un équipement de protection déballé ne se reprennent pas
+  - le contrôle de Gilles Poirier contredit un client, et en refuse une partie d'un autre
+  - un article pas encore revenu ne s'enregistre pas

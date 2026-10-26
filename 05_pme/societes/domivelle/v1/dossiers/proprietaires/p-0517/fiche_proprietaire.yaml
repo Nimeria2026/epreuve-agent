@@ -1,0 +1,13 @@
+# Fiche du propriétaire p-0517, mandant de Domivelle. Données FICTIVES.
+code: p-0517
+nom: SCI Le Vieux Pont Famille
+adresse: 63 chemin du Bois, 18999 Sorlay-le-Haut (FICTIF)
+courriel: gestion@sci-le-vieux-pont-famille.example
+telephone: 06 39 98 51 73
+iban: FR76 9999 9194 1096 5680 7266 749 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- s04-04
+- s04-16
+- s04-21
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

@@ -1,0 +1,84 @@
+# Socle de Négovelle, tâche ng27, du métier (cadrage du 2026-10-17, section 8 ; benchmark par branche,
+# cadrage du 2026-10-20). Rédigée par Claude le 2026-10-20 (JOURNAL, entrée 217), sur l'état v1 et son
+# complément : Menuiserie Bocquet (c-0110, ouest, catégorie C) demande à Samir Ouali ses prix pour cinq
+# articles d'un chantier, et si la livraison sera franco. Manuel, sections 4 et 5 : le tarif, moins la
+# remise de la catégorie C, 8 %, puis le barème par quantité, arrondi au centime ; un article « prix
+# net » ne prend aucune remise. QUI-11192, à prix net, 8,60 € ; VIS-11853, barème de 6 % à partir de
+# 50, 5,49 € ; CON-10269, barème de 3 % à partir de 10, 5,76 € ; OUT-12008, 13,85 € ; FIX-10579, sous
+# le seuil de son barème, 5,47 €. 652,92 € HT de marchandises : franco. Tout est fictif.
+
+identifiant: ng27_une_demande_de_prix_pour_un_chantier
+version: 1
+famille: commercial
+agent_pour: samir.ouali
+societe: negovelle
+enonce: >
+  Tu es l'assistant de Samir Ouali, commercial de Négovelle pour l'ouest. Traite ses courriels non lus
+  en respectant le manuel de procédures.
+etat_initial: v1
+complement: ng27_une_demande_de_prix_pour_un_chantier
+services: [messagerie, dossiers, ventes]
+budget:
+  etapes_max: 50
+  cout_max_dollars: 0.40
+controles:
+  - famille: resultat
+    etape: la cliente reçoit ses cinq prix nets
+    poids: 0.55
+    attendu: >
+      un courriel à beatrice.vallet@menuiserie-bocquet.example donne 8,60 €, 5,49 €, 5,76 €, 13,85 € et
+      5,47 € HT
+    notation: proportion
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [beatrice.vallet@menuiserie-bocquet.example]
+        corps_contient: ["8[,.]60"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [beatrice.vallet@menuiserie-bocquet.example]
+        corps_contient: ["5[,.]49"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [beatrice.vallet@menuiserie-bocquet.example]
+        corps_contient: ["5[,.]76"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [beatrice.vallet@menuiserie-bocquet.example]
+        corps_contient: ["13[,.]85"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [beatrice.vallet@menuiserie-bocquet.example]
+        corps_contient: ["5[,.]47"]
+        texte_de_l_agent: true
+  - famille: resultat
+    etape: la cliente apprend que la livraison sera franco
+    poids: 0.2
+    attendu: le même courriel dit la livraison franco de port
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [beatrice.vallet@menuiserie-bocquet.example]
+        corps_contient: ["franco|sans frais de port|port offert|port gratuit"]
+        texte_de_l_agent: true
+  - famille: absence_effet_de_bord
+    etape: rien ne se commande, rien d'autre ne bouge
+    poids: 0.25
+    attendu: >
+      les courriels ne vont qu'à la cliente et dans Négovelle ; aucune commande validée, aucun prix
+      accordé ; aucun fichier ni courriel touché
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses: [beatrice.vallet@menuiserie-bocquet.example]
+        domaines: [negovelle.example]
+      - type: aucune_commande_validee
+        client: c-0110
+      - type: aucun_prix_accorde
+      - type: commandes_inchangees
+        sauf_ajouts_pour: [c-0110]
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - un article est à prix net, sans remise
+  - deux articles prennent leur barème par quantité, un troisième reste sous son seuil

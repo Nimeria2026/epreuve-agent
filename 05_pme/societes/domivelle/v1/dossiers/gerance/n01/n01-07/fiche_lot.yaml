@@ -1,0 +1,24 @@
+# Fiche du lot n01-07. Données FICTIVES.
+lot: n01-07
+adresse: 41 rue des Vignes, 18999 Vernillac (FICTIF)
+type: T3
+surface_m2: 69
+locataire:
+  nom: M. Pierre Besnard
+  courriel: pierre.besnard@courriel.example
+  telephone: 06 39 98 63 96
+  entree: '2025-12-21'
+bail:
+  signature: '2025-12-21'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 645,00 €
+  depot_de_garantie: 645,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T3
+dpe:
+  classe: F
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

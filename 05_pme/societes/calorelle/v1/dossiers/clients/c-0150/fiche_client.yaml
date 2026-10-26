@@ -1,0 +1,8 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0150"
+nom: "Anne Lambert"
+type: "particulier"
+adresse: "61 avenue des Tilleuls, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "anne.lambert@courriel.example"
+telephone: "06 39 98 50 40"
+charge_d_affaires: "julie.perrin"

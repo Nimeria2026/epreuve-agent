@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-elch-004",
+  "de": {
+    "nom": "Mme Julie Chabert",
+    "adresse": "julie.chabert@mel-perso.example"
+  },
+  "a": [
+    "elodie.chauvin@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Volet roulant bloqué",
+  "date": "2026-06-03T19:30:00+02:00",
+  "corps": "Bonjour,\n\nLe volet roulant de ma chambre est bloqué fermé depuis hier soir.\n\nJulie Chabert, lot n02-07",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

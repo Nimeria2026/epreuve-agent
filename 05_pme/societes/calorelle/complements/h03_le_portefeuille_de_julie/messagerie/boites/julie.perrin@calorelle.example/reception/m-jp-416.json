@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-416",
+  "de": {
+    "nom": "Laurent Blanchard",
+    "adresse": "laurent.blanchard@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis pour la climatisation",
+  "date": "2026-11-02T08:02:00+01:00",
+  "corps": "Bonjour Madame Perrin,\n\nM. Noël est passé jeudi pour la climatisation du salon et de la chambre. Pouvez-vous m'envoyer le devis ? La maison date de 2004 et nous y habitons ; je signerai l'attestation sur le devis.\n\nCordialement,\nLaurent Blanchard (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

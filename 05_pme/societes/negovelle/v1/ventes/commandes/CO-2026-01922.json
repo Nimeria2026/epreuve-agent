@@ -1,0 +1,101 @@
+{
+  "numero": "CO-2026-01922",
+  "client": "c-0066",
+  "reference_client": null,
+  "cree_le": "2026-06-29T09:10:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "74 rue de l'Église, 36999 Vendrigny (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-10873",
+      "libelle": "Conduit IRL 50 mm, barre de 2 m",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 3.7,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 3.4,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 17.0
+    },
+    {
+      "reference": "FIX-11576",
+      "libelle": "Goujon d'ancrage M12x75, boîte de 25",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 27.0,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 24.84,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 49.68
+    },
+    {
+      "reference": "OUT-10612",
+      "libelle": "Clé à pipe débouchée 20 mm",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 15.85,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 14.58,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 145.8
+    },
+    {
+      "reference": "QUI-11649",
+      "libelle": "Cylindre européen 45x35 mm, 5 clés",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 38.0,
+      "remise_pourcent": 8.0,
+      "prix_net_ht_euros": 34.96,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 209.76
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 422.24,
+  "total_tva_euros": 84.45,
+  "total_ttc_euros": 506.69,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01771"
+  ],
+  "facture": "FC-2026-1059",
+  "historique": [
+    {
+      "date": "2026-06-29T09:10:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-29T09:12:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-30T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01771"
+    },
+    {
+      "date": "2026-06-30T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01771"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1059"
+    }
+  ]
+}

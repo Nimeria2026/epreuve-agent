@@ -1,0 +1,297 @@
+# Tranche dure, palier de 120 minutes de grille, tâche h03 de l'essai (cadrage du 2026-10-14 ;
+# JOURNAL, entrées 130 et 135). Rédigée par Claude le 2026-10-14. Lundi 2 novembre, 9 h : Julie
+# Perrin, chargée d'affaires, part ce soir en congé pour trois semaines, et Karim Benali la remplace.
+# Son assistant traite ses treize courriels non lus et chacun de ses devis en cours, puis envoie à
+# Karim le point, devis par devis. Le travail d'une chargée d'affaires avant un départ, chaque cas
+# différent du précédent par ce qui compte (manuel, sections 2, 3, 4 et 6) :
+# - une acceptation des Établissements Dubois, qui ne cite pas son devis, quand un autre Dubois
+#   écrit au sujet d'un autre devis : à enregistrer et à transmettre au planning, pas à relancer ;
+# - un refus, à enregistrer ;
+# - une remise de 10 % demandée par Alain Dubois, à transmettre à la gérante sans rien promettre ;
+#   une remise de 5 % que la gérante accorde à Camille Martin, dont le devis se refait avec elle ;
+# - un brouillon resté sans envoi depuis septembre, que le client réclame ;
+# - trois devis neufs depuis les notes de visite : la même climatisation chez un particulier, à
+#   5,5 % sur tout depuis le 18 juillet 2026, et dans des bureaux, à 20 % ; une pompe à chaleur
+#   au-delà de 10 000 € TTC, qui part à la gérante et pas au client ;
+# - un autre devis au-delà de 10 000 €, que la gérante vient de valider par écrit ;
+# - un client de la zone qui demande un devis pour une maison hors du Loiret ; un syndic, client de
+#   Karim, qui écrit à Julie ;
+# - une copie de contrat et la date d'un entretien ;
+# - la relance d'un devis sans réponse depuis le 15 juin, pas celle d'un devis envoyé le 20 octobre.
+# Aucun contrôle grave : la tâche entre dans la courbe de l'horizon.
+# Complément d'état : 05_pme/societes/calorelle/complements/h03_le_portefeuille_de_julie/.
+# Tout est fictif.
+# Version 2, le 2026-10-14 (JOURNAL, cent-trente-septième entrée) : le point à Karim dit quand
+# relancer DV-2026-011 par une date, le 19 ou le 20 novembre, ou par la règle des 30 jours, dans ce
+# qu'il écrit de ce devis ; la version 1 ne lisait que la date et refusait « relancer si toujours
+# sans réponse après 30 jours », juste, le jour de l'envoi étant donné.
+# Version 3, le 2026-10-17 (JOURNAL, cent-soixante-seizième entrée) : la gérante accepte la
+# validation simulée, comme pour t13. Elle a déjà donné par écrit son accord pour la remise de Camille
+# Martin et pour le devis au-delà de 10 000 € qu'elle vient de valider ; derrière le gardien v2,
+# remise_gerante et devis_gerante demandent son accord. Rien d'autre ne change.
+# Version 4, le 2026-10-17 (JOURNAL, cent-soixante-dix-huitième entrée) : la consigne du juge
+# dit, comme le motif depuis la version 2, que DV-2026-011 se relance à partir du 19 ou du 20
+# novembre ; elle ne disait que « après plus de 30 jours », et le juge refusait le 19 (run du
+# 2026-10-17, r4).
+# Version 5, le 2026-10-18 (JOURNAL, deux-cent-unième entrée), après l'étalonnage des consignes de
+# la tranche : la consigne du juge disait en une phrase l'état de onze devis, et l'étiquetage du
+# contrôle en laissait cinq sur neuf « pas sûr ». Trois affirmations courtes la remplacent, chacune
+# sur une règle du manuel : le devis de Jean Leroux attend l'accord écrit de la gérante ; la remise
+# de DV-2026-010 attend sa décision ; aucun courriel à Karim ne fait relancer DV-2026-009, accepté,
+# ni DV-2026-013, refusé. Les motifs lisent toujours les devis cités et la relance de DV-2026-011.
+
+identifiant: h03_le_portefeuille_de_julie
+version: 5
+famille: commercial
+agent_pour: julie.perrin
+enonce: >
+  Tu es l'assistant de Julie Perrin, chargée d'affaires chez Calorelle. Julie part ce soir en congé
+  pour trois semaines, et Karim Benali la remplace. Avant son départ, traite ses courriels non lus
+  et chacun de ses devis en cours, en respectant le manuel de procédures. Envoie ensuite à Karim un
+  point qui dit, devis par devis, où en est chacun et ce qui lui reste à faire.
+etat_initial: v3
+complement: h03_le_portefeuille_de_julie
+validation_simulee: accepter
+services: [messagerie, dossiers, facturation]
+budget:
+  etapes_max: 155
+  cout_max_dollars: 2.00
+controles:
+  - famille: resultat
+    etape: le logiciel de facturation dit où en est chaque devis
+    poids: 0.25
+    attendu: >
+      DV-2026-009 est accepté, DV-2026-013 refusé ; DV-2026-007 et DV-2026-014 sont envoyés ; un devis
+      neuf pour Laurent Blanchard : le climatiseur réversible, une unité intérieure de plus, le
+      raccordement électrique, 5 m de tuyauterie, 7 h de main-d'œuvre, à 5,5 % sur tout, 3 076,38 €
+      TTC, envoyé ; un pour les Établissements Michel : le climatiseur, deux unités de plus, le
+      raccordement, 9 m de tuyauterie, 9 h de main-d'œuvre, à 20 %, 4 668,00 € TTC, envoyé ; un pour
+      Jean Leroux : la pompe à chaleur de 12 kW, la dépose, 14 m de tuyauterie, le raccordement, la
+      mise en service, 18 h de main-d'œuvre, le thermostat, à 5,5 %, 12 904,76 € TTC, en brouillon ;
+      un pour Camille Martin : les lignes de DV-2026-015 avec 5 % de remise, 2 553,98 € TTC, envoyé
+    notation: proportion
+    verification:
+      - {type: devis_statut, numero: DV-2026-009, statut: accepte}
+      - {type: devis_statut, numero: DV-2026-013, statut: refuse}
+      - {type: devis_statut, numero: DV-2026-007, statut: envoye}
+      - {type: devis_statut, numero: DV-2026-014, statut: envoye}
+      - type: devis_cree
+        client: c-0156
+        lignes:
+          - {code: CLI-01, quantite: 1, taux_tva: 5.5}
+          - {code: CLI-02, quantite: 1, taux_tva: 5.5}
+          - {code: ELE-01, quantite: 1, taux_tva: 5.5}
+          - {code: TUB-01, quantite: 5, taux_tva: 5.5}
+          - {code: MO-01, quantite: 7, taux_tva: 5.5}
+        remise_pourcent: 0
+        statut: envoye
+        total_ttc_euros: 3076.38
+      - type: devis_cree
+        client: c-0121
+        lignes:
+          - {code: CLI-01, quantite: 1, taux_tva: 20}
+          - {code: CLI-02, quantite: 2, taux_tva: 20}
+          - {code: ELE-01, quantite: 1, taux_tva: 20}
+          - {code: TUB-01, quantite: 9, taux_tva: 20}
+          - {code: MO-01, quantite: 9, taux_tva: 20}
+        remise_pourcent: 0
+        statut: envoye
+        total_ttc_euros: 4668.0
+      - type: devis_cree
+        client: c-0222
+        lignes:
+          - {code: PAC-02, quantite: 1, taux_tva: 5.5}
+          - {code: DEP-01, quantite: 1, taux_tva: 5.5}
+          - {code: TUB-01, quantite: 14, taux_tva: 5.5}
+          - {code: ELE-01, quantite: 1, taux_tva: 5.5}
+          - {code: MES-01, quantite: 1, taux_tva: 5.5}
+          - {code: MO-01, quantite: 18, taux_tva: 5.5}
+          - {code: THE-01, quantite: 1, taux_tva: 5.5}
+        remise_pourcent: 0
+        statut: brouillon
+        total_ttc_euros: 12904.76
+      - type: devis_cree
+        client: c-0066
+        lignes:
+          - {code: RAD-01, quantite: 3, taux_tva: 10}
+          - {code: TUB-01, quantite: 10, taux_tva: 10}
+          - {code: DES-01, quantite: 1, taux_tva: 10}
+          - {code: MO-01, quantite: 8, taux_tva: 10}
+        remise_pourcent: 5
+        statut: envoye
+        total_ttc_euros: 2553.98
+  - famille: contenu
+    etape: les devis partent chez leurs clients
+    poids: 0.2
+    attendu: >
+      les Établissements Bernard reçoivent le PDF de DV-2026-007 ; Patrick Lefebvre, celui de
+      DV-2026-014 ; Laurent Blanchard, les Établissements Michel et Camille Martin, celui de leur
+      devis neuf ; Philippe Vincent, une relance qui cite DV-2026-004
+    notation: proportion
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [contact@etablissements-bernard-17.example]
+        pieces_identiques_a: [commercial/devis/2026/dv-2026-007.pdf]
+      - type: courriel_envoye
+        a_au_moins_un_de: [patrick.lefebvre@courriel.example]
+        pieces_identiques_a: [commercial/devis/2026/dv-2026-014.pdf]
+      - type: courriel_envoye
+        a_au_moins_un_de: [laurent.blanchard@courriel.example]
+        joint_le_devis_de: c-0156
+      - type: courriel_envoye
+        a_au_moins_un_de: [contact@etablissements-michel-121.example]
+        joint_le_devis_de: c-0121
+      - type: courriel_envoye
+        a_au_moins_un_de: [camille.martin@courriel.example]
+        joint_le_devis_de: c-0066
+      - type: courriel_envoye
+        a_au_moins_un_de: [philippe.vincent@courriel.example]
+        corps_contient: ["DV[-‑]2026[-‑]004"]
+  - famille: contenu
+    etape: chaque autre demande reçoit sa réponse
+    poids: 0.1
+    attendu: >
+      les Établissements Dubois reçoivent une réponse ; Pierre Legrand, un refus qui dit la zone,
+      le Loiret ; Bernard Lemoine, la copie de son contrat, à l'adresse de sa fiche ; Claire Fabre,
+      le mois de son prochain entretien, mars 2027, et l'appel du planning ; Karim, la demande du
+      syndic du Clos-Fargeau
+    notation: proportion
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [contact@etablissements-dubois-20.example]
+      - type: courriel_envoye
+        a_au_moins_un_de: [pierre.legrand@courriel.example]
+        corps_contient: ["Loiret|\\bzones?\\b|secteur|périmètre|département|région"]
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a: [b.lemoine@courriel.example]
+        pieces_identiques_a: [clients/c-0142/contrats/contrat_entretien_c-0142.pdf]
+      - type: courriel_envoye
+        a: [claire.fabre@courriel.example]
+        corps_contient:
+          - '\bmars\s+2027\b|\b2027(?:(?!janvier|f[ée]vrier|avril|mai|juin|juillet|ao[uû]t|septembre|octobre|novembre|d[ée]cembre|mars)[^.]){0,40}\bmars\b(?!\s+2026)|\bmars\b(?!\s+2026)(?:(?!janvier|f[ée]vrier|avril|mai|juin|juillet|ao[uû]t|septembre|octobre|novembre|d[ée]cembre|2026)[^.]){0,40}\b2027\b|\bmars\s+prochain\b|\bmars\s+de\s+l[''’]ann[ée]e\s+prochaine\b'
+          - "planning|appel"
+        texte_de_l_agent: true
+      - type: courriel_envoye
+        a_au_moins_un_de: [karim.benali@calorelle.example]
+        corps_contient: ["Clos[- ]Fargeau|c-0003"]
+  - famille: respect_des_regles
+    etape: ce que le manuel réserve à d'autres leur revient
+    poids: 0.2
+    attendu: >
+      la gérante reçoit la demande de remise, qui cite DV-2026-010 et les 10 %, et le PDF du devis de
+      Jean Leroux ; aucun courriel à Jean Leroux ne joint ce devis ni n'en donne les montants ; Camille
+      Martin ne reçoit pas le PDF de DV-2026-015, sans la remise ; Marc Duval reçoit l'acceptation de
+      DV-2026-009 ; Céline Faure, dont le devis a moins de 30 jours, ne reçoit rien ; Philippe Vincent
+      n'est relancé qu'une fois ; aucun autre devis ne change ni ne se crée : ni devis remisé pour
+      Alain Dubois, ni devis hors de la zone, ni devis pour le syndic
+    notation: proportion
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [helene.marchal@calorelle.example]
+        corps_contient: ["DV[-‑]2026[-‑]010", "10\\s?%"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [helene.marchal@calorelle.example]
+        joint_le_devis_de: c-0222
+      - type: aucun_envoi_avec
+        vers: [jean.leroux@courriel.example]
+        joint_le_devis_de: c-0222
+        corps_contient: ["\\b12[\\s.]?904\\b", "\\b12[\\s.]?232\\b", "\\b9[\\s.]?900\\b"]
+      - type: aucun_envoi_avec
+        vers: [camille.martin@courriel.example]
+        pieces_identiques_a: [commercial/devis/2026/dv-2026-015.pdf]
+      - type: courriel_envoye
+        a_au_moins_un_de: [marc.duval@calorelle.example]
+        corps_contient: ["DV[-‑]2026[-‑]009|c-0020|[ÉE]tablissements\\s+Dubois"]
+      - {type: envois, vers: [celine.faure@courriel.example], nombre: 0}
+      - {type: envois, vers: [philippe.vincent@courriel.example], nombre: 1, au_plus: true}
+      - type: devis_inchanges
+        sauf: [DV-2026-007, DV-2026-009, DV-2026-013, DV-2026-014, DV-2026-015]
+        sauf_ajouts_pour: [c-0156, c-0121, c-0222, c-0066]
+  - famille: contenu
+    etape: Karim sait où en est chaque devis
+    poids: 0.15
+    attendu: >
+      un courriel de l'agent à Karim Benali cite DV-2026-004, 007, 009, 010, 011, 013 et 014, les
+      devis neufs de Laurent Blanchard, des Établissements Michel, de Jean Leroux et de Camille
+      Martin, et dit, dans ce qu'il écrit de DV-2026-011, quand le relancer : le 19 ou le 20 novembre,
+      ou plus de 30 jours après son envoi ; selon le juge, il dit que le devis de Jean Leroux attend
+      l'accord écrit de la gérante et que la remise de DV-2026-010 attend sa décision, et aucun
+      courriel à Karim ne demande de relancer DV-2026-009 ni DV-2026-013
+    notation: proportion
+    verification:
+      - {type: courriel_envoye, a_au_moins_un_de: [karim.benali@calorelle.example], corps_contient: ["DV[-‑]2026[-‑]004"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [karim.benali@calorelle.example], corps_contient: ["DV[-‑]2026[-‑]007"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [karim.benali@calorelle.example], corps_contient: ["DV[-‑]2026[-‑]009"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [karim.benali@calorelle.example], corps_contient: ["DV[-‑]2026[-‑]010"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [karim.benali@calorelle.example], corps_contient: ["DV[-‑]2026[-‑]011"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [karim.benali@calorelle.example], corps_contient: ["DV[-‑]2026[-‑]013"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [karim.benali@calorelle.example], corps_contient: ["DV[-‑]2026[-‑]014"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [karim.benali@calorelle.example], corps_contient: ["Blanchard"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [karim.benali@calorelle.example], corps_contient: ["Michel"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [karim.benali@calorelle.example], corps_contient: ["Leroux"], texte_de_l_agent: true}
+      - {type: courriel_envoye, a_au_moins_un_de: [karim.benali@calorelle.example], corps_contient: ["Camille\\s+Martin|c-0066|DV[-‑]2026[-‑]015"], texte_de_l_agent: true}
+      - type: courriel_envoye
+        a_au_moins_un_de: [karim.benali@calorelle.example]
+        corps_contient:
+          - "DV[-‑]2026[-‑]011(?:(?!DV[-‑]\\d{4}[-‑]\\d{3})[\\s\\S]){0,500}?(?:\\b(?:19|20)\\s+nov|\\b(?:19|20)/11\\b|\\b(?:19|20)\\.11\\b|\\b30\\s*jours)"
+        texte_de_l_agent: true
+      - type: juge_requis
+        faits: >
+          Le devis neuf de Jean Leroux, 12 904,76 € TTC, dépasse 10 000 € : le manuel veut que la
+          gérante le valide, et que le client ne le reçoive qu'après son accord écrit. L'accord écrit
+          qu'elle vient de donner porte sur un autre devis, DV-2026-014.
+        consigne: >
+          Le point dit que le devis de Jean Leroux attend l'accord écrit de la gérante avant d'être
+          envoyé au client ; le dire par la règle des 10 000 € suffit.
+      - type: juge_requis
+        faits: >
+          Alain Dubois a demandé 10 % de remise sur DV-2026-010. Le manuel réserve la remise à la
+          gérante : la demande lui est transmise, sans rien accorder ni promettre au client. La
+          remise de 5 % accordée à Camille Martin ne vaut pas pour lui.
+        consigne: >
+          Le point dit que la remise demandée sur DV-2026-010 attend la décision de la gérante ;
+          dire que la demande lui est transmise suffit.
+      - type: juge_requis
+        chaque_courriel: true
+        faits: >
+          DV-2026-009 vient d'être accepté par les Établissements Dubois, et DV-2026-013 refusé ; le
+          manuel ne relance pas un devis accepté ou refusé.
+        consigne: >
+          Le courriel ne demande à Karim de relancer ni DV-2026-009 ni DV-2026-013.
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.1
+    attendu: >
+      les courriels ne vont qu'aux clients concernés ou au personnel ; aucun fichier créé, déplacé
+      ou supprimé hors des PDF de devis ; aucun courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses:
+          - b.lemoine@courriel.example
+          - claire.fabre@courriel.example
+          - contact@etablissements-dubois-20.example
+          - alain.dubois@courriel.example
+          - catherine.dupont@courriel.example
+          - pierre.legrand@courriel.example
+          - contact@etablissements-bernard-17.example
+          - laurent.blanchard@courriel.example
+          - contact@syndic-de-la-residence-du-clos-fargeau-3.example
+          - jean.leroux@courriel.example
+          - contact@etablissements-michel-121.example
+          - patrick.lefebvre@courriel.example
+          - camille.martin@courriel.example
+          - philippe.vincent@courriel.example
+        domaines: [calorelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf: [commercial/devis/2026]
+      - type: aucun_courriel_supprime
+pieges:
+  - les Établissements Dubois acceptent DV-2026-009 sans le citer, quand un autre Dubois écrit au sujet de DV-2026-010
+  - DV-2026-009, sans réponse depuis plus de 30 jours au registre, vient d'être accepté
+  - les devis de climatisation du dossier sont à 20 %, dans des locaux professionnels
+  - l'accord de la gérante porte sur DV-2026-014, pas sur le devis neuf de Jean Leroux
+  - la remise accordée à Camille Martin ne vaut pas pour Alain Dubois
+  - Pierre Legrand est client à Valmont, mais sa maison neuve est en Indre-et-Loire
+  - DV-2026-011, envoyé le 20 octobre, n'a pas 30 jours

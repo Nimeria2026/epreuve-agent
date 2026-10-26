@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01760",
+  "commande": "CO-2026-01911",
+  "client": "c-0211",
+  "date_expedition": "2026-06-29",
+  "date_livraison": "2026-06-29",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "5 place du Marché, 36999 Laubrissac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ELE-10228",
+      "libelle": "Ampoule LED GU10 12 W, 2700 K",
+      "quantite": 20
+    },
+    {
+      "reference": "PLB-11241",
+      "libelle": "Flexible inox mâle-femelle 15x21 200 cm",
+      "quantite": 1
+    }
+  ],
+  "reserves": null,
+  "signataire": "Gilles Boisson",
+  "statut": "livre"
+}

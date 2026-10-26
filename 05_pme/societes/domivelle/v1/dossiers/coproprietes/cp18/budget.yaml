@@ -1,0 +1,17 @@
+# Budget prévisionnel de l'exercice en cours, voté, copropriété cp18. Données FICTIVES.
+copropriete: cp18
+exercice: '2026'
+total: 29 700,00 €
+postes:
+  nettoyage des parties communes: 6 534,00 €
+  espaces verts: 2 376,00 €
+  électricité des parties communes: 2 673,00 €
+  eau: 4 158,00 €
+  assurance de l'immeuble: 3 267,00 €
+  honoraires du syndic: 5 346,00 €
+  entretien et petites réparations: 2 970,00 €
+  ascenseur, contrat et électricité: 2 376,00 €
+repartition:
+  charges générales, aux tantièmes généraux: 27 324,00 €
+  ascenseur, aux tantièmes d'ascenseur: 2 376,00 €
+appel: un quart du budget, exigible le premier jour de chaque trimestre

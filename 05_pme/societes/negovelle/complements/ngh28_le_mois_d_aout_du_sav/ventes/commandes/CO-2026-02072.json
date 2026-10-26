@@ -1,0 +1,68 @@
+{
+  "numero": "CO-2026-02072",
+  "client": "c-0135",
+  "reference_client": null,
+  "cree_le": "2026-07-22T10:00:00+02:00",
+  "cree_par": "laetitia.garnier",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "37 avenue Pasteur, 36999 Saulvenne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-12841",
+      "libelle": "Projecteur LED 150 W, sans détecteur",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 46.2,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 46.2,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 92.4
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 107.4,
+  "total_tva_euros": 21.48,
+  "total_ttc_euros": 128.88,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01892"
+  ],
+  "facture": "FC-2026-1462",
+  "historique": [
+    {
+      "date": "2026-07-22T10:00:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "creee",
+      "detail": "commande du client"
+    },
+    {
+      "date": "2026-07-22T10:05:00+02:00",
+      "par": "laetitia.garnier",
+      "action": "validee",
+      "detail": "stock réservé"
+    },
+    {
+      "date": "2026-07-23T16:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01892"
+    },
+    {
+      "date": "2026-07-23T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01892"
+    },
+    {
+      "date": "2026-07-31T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1462"
+    }
+  ]
+}

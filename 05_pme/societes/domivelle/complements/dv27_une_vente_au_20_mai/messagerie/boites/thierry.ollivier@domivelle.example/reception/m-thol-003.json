@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-thol-003",
+  "de": {
+    "nom": "Claude Laporte",
+    "adresse": "claude.laporte@boite-postale.example"
+  },
+  "a": [
+    "thierry.ollivier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Votre relance du 2 juin",
+  "date": "2026-06-07T17:55:00+02:00",
+  "corps": "Monsieur Ollivier,\n\nJ'ai vendu mon appartement, le lot 5, le 20 mai : votre relance du 2 juin doit aller à l'acquéreuse, Mme Royer, pas à moi. Et qui paiera la provision du troisième trimestre, et celle du ravalement appelée en août ?\n\nClaude Laporte",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

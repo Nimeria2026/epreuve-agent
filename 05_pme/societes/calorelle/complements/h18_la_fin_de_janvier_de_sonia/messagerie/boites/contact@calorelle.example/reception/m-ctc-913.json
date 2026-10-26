@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-913",
+  "de": {
+    "nom": "Hélène Bernard",
+    "adresse": "helene.bernard@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Panne, et un devis",
+  "date": "2027-01-30T18:20:00+01:00",
+  "corps": "Bonjour,\n\nNotre pompe à chaleur s'est mise en sécurité ce soir et ne redémarre pas. Par la même occasion, nous voudrions un devis pour un ballon thermodynamique.\n\nHélène Bernard, 110 impasse des Saules (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

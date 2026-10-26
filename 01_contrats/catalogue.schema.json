@@ -1,0 +1,273 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Catalogue",
+  "description": "Le catalogue d'une PME de négoce (Négovelle, cadrage du 2026-10-17), tel que le service de ventes le garde dans ventes/catalogue.json : chaque article, son prix, ce qu'il coûte, son stock. Données fictives.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "annee_tarif",
+    "conditions",
+    "articles"
+  ],
+  "properties": {
+    "annee_tarif": {
+      "type": "integer",
+      "minimum": 2000
+    },
+    "conditions": {
+      "description": "Les conditions générales de vente que le logiciel applique à chaque commande.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "remises_categories",
+        "port_standard_ht_euros",
+        "franco_a_partir_de_ht_euros",
+        "forfait_express_ht_euros",
+        "taux_tva_port"
+      ],
+      "properties": {
+        "remises_categories": {
+          "description": "Remise en pour cent de chaque catégorie de client, sur le prix du tarif.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "A",
+            "B",
+            "C"
+          ],
+          "properties": {
+            "A": {
+              "type": "number",
+              "minimum": 0,
+              "exclusiveMaximum": 100
+            },
+            "B": {
+              "type": "number",
+              "minimum": 0,
+              "exclusiveMaximum": 100
+            },
+            "C": {
+              "type": "number",
+              "minimum": 0,
+              "exclusiveMaximum": 100
+            }
+          }
+        },
+        "port_standard_ht_euros": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Port d'une commande standard sous le franco."
+        },
+        "franco_a_partir_de_ht_euros": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Montant des lignes, hors taxes, à partir duquel une commande standard part sans port."
+        },
+        "forfait_express_ht_euros": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Port d'une commande express, quel que soit son montant."
+        },
+        "taux_tva_port": {
+          "type": "number",
+          "enum": [
+            5.5,
+            10,
+            20
+          ],
+          "description": "En pour cent."
+        }
+      }
+    },
+    "articles": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/Article"
+      }
+    }
+  },
+  "$defs": {
+    "Article": {
+      "title": "Article",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "reference",
+        "libelle",
+        "famille",
+        "unite",
+        "conditionnement",
+        "prix_vente_ht_euros",
+        "prix_net",
+        "bareme_quantite",
+        "taux_tva",
+        "achat",
+        "stock_physique",
+        "point_de_commande",
+        "quantite_reassort",
+        "reassort",
+        "statut",
+        "substituts"
+      ],
+      "properties": {
+        "reference": {
+          "type": "string",
+          "pattern": "^[A-Z]{3}-[0-9]{5}$",
+          "description": "Référence du catalogue, par exemple VIS-01482."
+        },
+        "libelle": {
+          "type": "string",
+          "minLength": 1
+        },
+        "famille": {
+          "type": "string",
+          "pattern": "^[a-z_]+$",
+          "description": "Une des familles du catalogue, par exemple visserie."
+        },
+        "unite": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Unité de vente, par exemple boîte de 100."
+        },
+        "conditionnement": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Une commande en demande un multiple."
+        },
+        "prix_vente_ht_euros": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "description": "Prix du tarif général, avant toute remise."
+        },
+        "prix_net": {
+          "type": "boolean",
+          "description": "Vrai pour un article qui ne prend aucune remise."
+        },
+        "bareme_quantite": {
+          "type": "array",
+          "description": "Remises par quantité commandée sur une ligne, seuils croissants ; la plus haute atteinte s'applique.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "a_partir_de",
+              "remise_pourcent"
+            ],
+            "properties": {
+              "a_partir_de": {
+                "type": "integer",
+                "minimum": 2
+              },
+              "remise_pourcent": {
+                "type": "number",
+                "exclusiveMinimum": 0,
+                "exclusiveMaximum": 100
+              }
+            }
+          }
+        },
+        "taux_tva": {
+          "type": "number",
+          "enum": [
+            5.5,
+            10,
+            20
+          ],
+          "description": "En pour cent."
+        },
+        "achat": {
+          "description": "Ce que l'article coûte : de quoi calculer le seuil de revente à perte.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "fournisseur",
+            "prix_net_facture_ht_euros",
+            "avantages_financiers_pourcent",
+            "transport_unitaire_ht_euros"
+          ],
+          "properties": {
+            "fournisseur": {
+              "type": "string",
+              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+              "description": "Dossier de la fiche du fournisseur, lue par le service des achats."
+            },
+            "prix_net_facture_ht_euros": {
+              "type": "number",
+              "exclusiveMinimum": 0,
+              "description": "Prix unitaire net de la dernière facture d'achat."
+            },
+            "avantages_financiers_pourcent": {
+              "type": "number",
+              "minimum": 0,
+              "exclusiveMaximum": 100,
+              "description": "Autres avantages financiers du fournisseur, en pour cent du prix unitaire net."
+            },
+            "transport_unitaire_ht_euros": {
+              "type": "number",
+              "minimum": 0,
+              "description": "Part du transport d'achat, par unité."
+            }
+          }
+        },
+        "stock_physique": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Unités en rayon ; le réservé se calcule sur les commandes validées."
+        },
+        "point_de_commande": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "quantite_reassort": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "reassort": {
+          "anyOf": [
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "quantite",
+                "date_prevue"
+              ],
+              "properties": {
+                "quantite": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "date_prevue": {
+                  "type": "string",
+                  "format": "date"
+                }
+              }
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Réassort commandé au fournisseur, ou null."
+        },
+        "statut": {
+          "type": "string",
+          "enum": [
+            "courant",
+            "fin_de_serie",
+            "dereference"
+          ]
+        },
+        "substituts": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z]{3}-[0-9]{5}$",
+            "description": "Référence du catalogue, par exemple VIS-01482."
+          },
+          "description": "Articles qui peuvent le remplacer, avec l'accord du client."
+        }
+      }
+    }
+  }
+}

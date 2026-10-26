@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-b02",
+  "de": {
+    "nom": "Jeanne Morel",
+    "adresse": "jeanne.morel@platrerie-salmon.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Copie de facture",
+  "date": "2026-07-01T13:47:00+02:00",
+  "corps": "Bonjour,\n\nPouvez-vous me renvoyer la facture de mai ? Je ne la retrouve pas.\n\nCordialement,\nJeanne Morel",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

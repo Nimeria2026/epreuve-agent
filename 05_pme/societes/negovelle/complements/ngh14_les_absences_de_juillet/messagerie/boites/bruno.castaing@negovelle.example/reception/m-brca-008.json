@@ -1,0 +1,29 @@
+{
+  "identifiant": "m-brca-008",
+  "de": {
+    "nom": "Sarah Morin",
+    "adresse": "sarah.morin@messagerie-perso.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Candidature : chauffeur-livreur",
+  "date": "2026-07-05T21:10:00+02:00",
+  "corps": "Bonjour,\n\nTitulaire du permis C, je me permets de vous proposer ma candidature comme chauffeur-livreur. Mon CV et ma lettre sont joints.\n\nSarah Morin",
+  "pieces_jointes": [
+    {
+      "nom": "cv.pdf",
+      "fichier": "pieces/m-brca-008/cv.pdf",
+      "taille_octets": 790
+    },
+    {
+      "nom": "lettre.md",
+      "fichier": "pieces/m-brca-008/lettre.md",
+      "taille_octets": 91
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

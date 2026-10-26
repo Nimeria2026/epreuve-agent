@@ -1,0 +1,84 @@
+{
+  "numero": "CO-2026-01978",
+  "client": "c-0160",
+  "reference_client": null,
+  "cree_le": "2026-07-01T09:10:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "9 zone d'activités des Grands Prés, 36999 Ardillac (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ENT-10155",
+      "libelle": "Balai d'atelier 50 cm",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 6.45,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 6.45,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 12.9
+    },
+    {
+      "reference": "ENT-11290",
+      "libelle": "Savon d'atelier en gel, pot de 3 l",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 6.0,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 6.0,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 24.0
+    },
+    {
+      "reference": "FIX-12302",
+      "libelle": "Équerre de fixation 60x40x40 mm, zinguée",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 3.55,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 3.55,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 21.3
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 73.2,
+  "total_tva_euros": 14.64,
+  "total_ttc_euros": 87.84,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01827"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-01T09:10:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-01T09:12:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-02T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01827"
+    },
+    {
+      "date": "2026-07-02T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01827"
+    }
+  ]
+}

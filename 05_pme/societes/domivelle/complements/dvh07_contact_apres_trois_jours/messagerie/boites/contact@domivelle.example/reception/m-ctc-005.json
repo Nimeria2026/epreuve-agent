@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-005",
+  "de": {
+    "nom": "Henri Martel",
+    "adresse": "henri.martel@mel-perso.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Plus d'eau chaude",
+  "date": "2026-06-03T10:02:00+02:00",
+  "corps": "Bonjour,\n\nMon chauffe-eau ne donne plus d'eau chaude depuis hier soir.\n\nHenri Martel",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

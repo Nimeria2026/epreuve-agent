@@ -1,0 +1,44 @@
+{
+  "numero": "BL-2026-01807",
+  "commande": "CO-2026-01958",
+  "client": "c-0196",
+  "date_expedition": "2026-07-01",
+  "date_livraison": "2026-07-01",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "6 rue de la Halle, 36999 Corvalet (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "FIX-10106",
+      "libelle": "Cheville métallique à expansion M6x32, boîte de 25",
+      "quantite": 10
+    },
+    {
+      "reference": "PLB-13038",
+      "libelle": "Tube PVC évacuation 50 mm, barre de 2 m",
+      "quantite": 5
+    },
+    {
+      "reference": "VIS-11812",
+      "libelle": "Vis à bois tête fraisée 4,5x30, bichromatée, boîte de 500",
+      "quantite": 10
+    },
+    {
+      "reference": "VIS-12270",
+      "libelle": "Vis à bois tête fraisée 4x25, zinguée, boîte de 200",
+      "quantite": 12
+    },
+    {
+      "reference": "VIS-12360",
+      "libelle": "Vis à bois tête fraisée 4x35, zinguée, boîte de 200",
+      "quantite": 2
+    }
+  ],
+  "reserves": null,
+  "signataire": "Jacqueline Granger",
+  "statut": "livre"
+}

@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-maca-610",
+  "de": {
+    "nom": "Chauffage des Fontenils",
+    "adresse": "facturation@chauffage-des-fontenils.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Chaufferie du Clos Fleuri",
+  "date": "2026-09-03T16:20:00+02:00",
+  "corps": "Madame,\n\nNous sommes passés à la chaufferie de la Résidence Le Clos Fleuri, en panne depuis le 2 septembre : le brûleur de la chaudière collective est à remplacer, 4 800,00 € TTC, devis joint. Nous pouvons intervenir dès demain si vous nous retournez le devis signé : c'est urgent, l'hiver arrive.\n\nChauffage des Fontenils",
+  "pieces_jointes": [
+    {
+      "nom": "devis_chaufferie_clos_fleuri.pdf",
+      "fichier": "pieces/m-maca-610/devis_chaufferie_clos_fleuri.pdf",
+      "taille_octets": 900
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

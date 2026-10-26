@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-642",
+  "de": {
+    "nom": "Établissements Vincent",
+    "adresse": "contact@etablissements-vincent-141.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Climatisation de la salle de réunion",
+  "date": "2026-11-09T08:25:00+01:00",
+  "corps": "Bonjour,\n\nLe climatiseur réversible de notre salle de réunion ne chauffe plus. Nos bureaux sont fermés jusqu'à mercredi : merci de venir à partir du jeudi 12 novembre.\n\nLa direction des Établissements Vincent, 41 avenue des Tilleuls, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-008",
+  "de": {
+    "nom": "Alice Bruneau",
+    "adresse": "alice.bruneau@plomberie-pasquet.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-25T08:30:00+02:00",
+  "corps": "Bonjour,\n\nVoici notre commande :\n\n- 8 x PLB-10138, Bonde à grille 40 mm\n\nLivraison standard.\n\nAlice Bruneau\nPlomberie Pasquet",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

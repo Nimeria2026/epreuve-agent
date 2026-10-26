@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-014",
+  "de": {
+    "nom": "Hygiène du Pont-Rouge",
+    "adresse": "facturation@hygiene-du-pont-rouge.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Changement de nos coordonnées bancaires",
+  "date": "2026-07-30T17:20:00+02:00",
+  "corps": "Bonjour,\n\nNous changeons de banque au 1er août. Merci de régler désormais nos factures, à commencer par F13467 du 12 juin, sur notre nouveau compte : FR76 9999 9871 4402 6630 1958 271 (FICTIF). Notre nouveau RIB est en pièce jointe.\n\nService facturation\nHygiène du Pont-Rouge",
+  "pieces_jointes": [
+    {
+      "nom": "rib_hygiene_du_pont_rouge.pdf",
+      "fichier": "pieces/m-cpt-014/rib_hygiene_du_pont_rouge.pdf",
+      "taille_octets": 783
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

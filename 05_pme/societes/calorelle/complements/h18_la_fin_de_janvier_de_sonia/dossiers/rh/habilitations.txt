@@ -1,0 +1,19 @@
+Habilitations des techniciens de Calorelle. Document FICTIF, confidentiel.
+Tenu par Sonia Lefèvre. L'habilitation électrique se renouvelle par un recyclage avant son échéance ;
+l'attestation d'aptitude à manipuler les fluides frigorigènes, que demandent les interventions de
+climatisation, aussi. Un technicien dont l'habilitation est échue ne fait plus d'intervention
+électrique jusqu'à son recyclage : ni installation, ni mise en service ; une visite d'entretien ou un dépannage
+reste possible.
+
+| Technicien | Habilitation électrique, échéance | Fluides frigorigènes, échéance |
+|---|---|---|
+| Antoine Leroy | 10 août 2027 | sans objet |
+| David Roussel | 20 janvier 2028 | sans objet |
+| Florian Masson | 30 juin 2027 | 14 mars 2031 |
+| Kevin Lambert | 2 mars 2027 | sans objet |
+| Mathieu Picard | 5 mai 2029 | sans objet |
+| Nicolas Blanc | 18 avril 2027 | 9 septembre 2029 |
+| Romain Guérin | 11 février 2028 | sans objet |
+| Sébastien Noël | 1er septembre 2027 | 30 avril 2027 |
+| Thomas Girard | 3 octobre 2028 | sans objet |
+| Yanis Haddad | 15 juin 2027 | 22 mai 2027 |

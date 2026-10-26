@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-503",
+  "de": {
+    "nom": "Agnès Martin",
+    "adresse": "agnes.martin@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "URGENT chaudière",
+  "date": "2026-11-02T08:31:00+01:00",
+  "corps": "Troisième message ce matin pour ma chaudière en panne. Quelqu'un peut-il me répondre ?\n\nAgnès Martin, 67 chemin des Vignes (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

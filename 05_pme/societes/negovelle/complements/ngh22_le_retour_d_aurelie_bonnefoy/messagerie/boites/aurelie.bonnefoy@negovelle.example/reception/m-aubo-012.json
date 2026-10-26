@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-aubo-012",
+  "de": {
+    "nom": "Joël Thiery",
+    "adresse": "joel.thiery@garage-noblet.example"
+  },
+  "a": [
+    "aurelie.bonnefoy@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande de rentrée",
+  "date": "2026-08-18T10:20:00+02:00",
+  "corps": "Bonjour Aurélie,\n\nPouvez-vous nous livrer cette semaine 10 poubelles à pédale ENT-10800 et 5 cartons d'essuie-mains ENT-10408 ? Comme d'habitude.\n\nCordialement,\n\nJoël Thiery\nGarage Noblet",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,24 @@
+# Fiche du lot c04-03. Données FICTIVES.
+lot: c04-03
+adresse: 112 place du Marché, 18999 Montclavel-sur-Cher (FICTIF)
+type: T3
+surface_m2: 59
+locataire:
+  nom: Mme Marion Labbé
+  courriel: marion.labbe@mel-perso.example
+  telephone: 06 39 98 65 61
+  entree: '2016-04-11'
+bail:
+  signature: '2016-04-11'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 621,00 €
+  depot_de_garantie: 497,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T4
+dpe:
+  classe: D
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

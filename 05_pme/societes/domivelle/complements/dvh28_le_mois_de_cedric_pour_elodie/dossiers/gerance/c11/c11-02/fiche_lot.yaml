@@ -1,0 +1,19 @@
+# Fiche du lot c11-02. Données FICTIVES.
+lot: c11-02
+adresse: 24 rue de la Halle, 18999 Montclavel-sur-Cher (FICTIF)
+type: maison T5
+surface_m2: 109
+locataire:
+  nom: M. Marcel Moreau
+  courriel: marcel.moreau@boite-postale.example
+  telephone: 06 39 98 77 13
+  entree: '2015-07-17'
+bail:
+  signature: '2015-07-17'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 1 110,00 €
+  depot_de_garantie: 888,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T1
+dpe:
+  classe: E

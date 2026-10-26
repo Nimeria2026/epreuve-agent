@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-810",
+  "de": {
+    "nom": "Martine Lopez",
+    "adresse": "martine.lopez@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Chaudière en panne",
+  "date": "2026-10-30T10:20:00+01:00",
+  "corps": "Bonjour,\n\nMa chaudière s'est mise en sécurité cette nuit et ne redémarre plus. Pouvez-vous venir ? J'habite 9 rue des Saules, à Valmont.\n\nMartine Lopez (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

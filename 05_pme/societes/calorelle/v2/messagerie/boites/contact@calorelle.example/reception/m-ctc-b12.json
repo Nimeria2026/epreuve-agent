@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-b12",
+  "de": {
+    "nom": "Catherine Garnier",
+    "adresse": "catherine.garnier@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Demande de devis pour un ballon",
+  "date": "2026-10-03T17:05:00+02:00",
+  "corps": "Bonjour,\n\nJe voudrais un devis pour remplacer mon ballon d'eau chaude.\n\nCatherine Garnier (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

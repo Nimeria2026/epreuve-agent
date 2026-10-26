@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-005",
+  "de": {
+    "nom": "Fixations des Hautes-Bornes",
+    "adresse": "facturation@fixations-des-hautes-bornes.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture F83204 (deuxième envoi)",
+  "date": "2026-07-06T07:30:00+02:00",
+  "corps": "Bonjour,\n\nSauf erreur, nous n'avons pas eu d'accusé de réception : voici de nouveau notre facture F83204.\n\nVeuillez trouver ci-jointe notre facture F83204 du 30 juin 2026, pour votre commande CA-2026-0307 :\n- FIX-10081, Cheville métallique à expansion M5x45, boîte de 25 : 40 x 5,05 € HT = 202,00 €\n- FIX-11176, Collier de fixation 25 mm, sachet de 50 : 60 x 2,61 € HT = 156,60 €\n\nTotal HT : 358,60 € ; TVA 20 % : 71,72 € ; total TTC : 430,32 €. Paiement à 30 jours date de facture.\n\nService facturation\nFixations des Hautes-Bornes",
+  "pieces_jointes": [
+    {
+      "nom": "F83204.pdf",
+      "fichier": "pieces/m-cpt-005/F83204.pdf",
+      "taille_octets": 801
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

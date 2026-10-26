@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0277"
+nom: "Michel Faure"
+type: "particulier"
+adresse: "27 rue Haute, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "michel.faure@courriel.example"
+telephone: "06 39 98 50 70"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité"
+  depuis: "2019-10-03"
+  mois_anniversaire: "octobre"
+  derniere_visite: "2026-10-14"

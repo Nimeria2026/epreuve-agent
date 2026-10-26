@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cop-613",
+  "de": {
+    "nom": "Béatrice Brun",
+    "adresse": "beatrice.brun@mel-perso.example"
+  },
+  "a": [
+    "copropriete@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Date de l'assemblée des Hortensias",
+  "date": "2026-08-28T18:00:00+02:00",
+  "corps": "Bonjour,\n\nQuand aura lieu cette année l'assemblée des Hortensias ? Je voudrais prévoir de m'y rendre.\n\nBéatrice Brun, lot 7",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

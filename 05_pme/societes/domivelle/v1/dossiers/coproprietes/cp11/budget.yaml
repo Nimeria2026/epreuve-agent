@@ -1,0 +1,17 @@
+# Budget prévisionnel de l'exercice en cours, voté, copropriété cp11. Données FICTIVES.
+copropriete: cp11
+exercice: '2026'
+total: 81 600,00 €
+postes:
+  nettoyage des parties communes: 17 952,00 €
+  espaces verts: 6 528,00 €
+  électricité des parties communes: 7 344,00 €
+  eau: 11 424,00 €
+  assurance de l'immeuble: 8 976,00 €
+  honoraires du syndic: 14 688,00 €
+  entretien et petites réparations: 8 160,00 €
+  ascenseur, contrat et électricité: 6 528,00 €
+repartition:
+  charges générales, aux tantièmes généraux: 75 072,00 €
+  ascenseur, aux tantièmes d'ascenseur: 6 528,00 €
+appel: un quart du budget, exigible le premier jour de chaque trimestre

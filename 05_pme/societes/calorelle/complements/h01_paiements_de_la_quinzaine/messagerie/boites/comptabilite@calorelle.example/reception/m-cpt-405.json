@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-405",
+  "de": {
+    "nom": "Électricité du Clos-Fargeau",
+    "adresse": "compta@electricite-du-clos-fargeau.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture ECF-2026-118",
+  "date": "2026-11-02T07:52:00+01:00",
+  "corps": "Bonjour,\n\nVoici notre facture ECF-2026-118 du 16 octobre 2026 pour le raccordement électrique de deux pompes à chaleur, 1 512,00 € TTC.\n\nService comptable, Électricité du Clos-Fargeau (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "ECF-2026-118.pdf",
+      "fichier": "pieces/m-cpt-405/ECF-2026-118.pdf",
+      "taille_octets": 1082
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

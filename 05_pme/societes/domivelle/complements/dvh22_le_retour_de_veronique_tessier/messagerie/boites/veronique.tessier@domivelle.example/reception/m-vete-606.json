@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-vete-606",
+  "de": {
+    "nom": "Sylvie Charpentier",
+    "adresse": "sylvie.charpentier@mel-perso.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Demande d'échéancier, Résidence Les Pins, lot 2",
+  "date": "2026-08-05T09:40:00+02:00",
+  "corps": "Madame,\n\nJe ne peux pas régler d'un coup ce que me réclame le syndicat de la Résidence Les Pins depuis la mise en demeure. Je vous demande de l'étaler sur six mois.\n\nMme Sylvie Charpentier",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

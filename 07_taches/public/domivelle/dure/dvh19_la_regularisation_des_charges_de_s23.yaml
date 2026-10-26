@@ -1,0 +1,142 @@
+# Tranche longue de Domivelle, tâche dvh19 du second lot de la suite, visée de plus de 70 minutes de
+# grille (cadrage du 2026-10-15, section 8 ; JOURNAL, cent-soixante-deuxième entrée). Rédigée par
+# Claude le 2026-10-15. Lundi 8 juin 2026 : Solène Audoin fait la régularisation des charges 2025 de
+# l'immeuble s23, qui est aussi la Résidence Le Panorama (cp43), dont l'assemblée du 30 avril a
+# approuvé les comptes (manuel, sections 6 et 12 ; loi de 1989, articles 22 et 23 ; décret n°
+# 87-713). Récupérables, aux tantièmes généraux : nettoyage, espaces verts, électricité des parties
+# communes, eau au compteur général, 9 852,00 € ; ni l'assurance, ni les honoraires du syndic, ni la
+# toiture-terrasse, ni la cotisation au fonds de travaux. Cinq locataires de l'année entière ; Mme
+# Huet depuis le 13 mai et Mme Étienne depuis le 11 juillet, au prorata de leurs jours ; M. Collet
+# et Mme Roux, partis en 2025, sur la provision gardée sur leur dépôt, dont le solde était dû au 30
+# mai : un mois de retard commencé, 10 % de leur loyer de majoration (216,85 € et 94,76 € ; 168,85 €
+# et 58,76 € sans la majoration). La part d'un lot s'arrondit nature par nature ou sur le total :
+# 340,01 € ou 340,00 €, 13,84 € ou 13,83 €, 141,72 € ou 141,73 €, tous admis. Toutes les charges aux
+# tantièmes donneraient 2 501,81 € pour s23-07. Les pièges : une charge non récupérable reprise ;
+# une année entière à une arrivée en cours d'année ; un ancien locataire oublié ; la majoration
+# oubliée. Calculs : 99_local/chantier/2026-10-15_domivelle_calculs_longues.py. Complément d'état :
+# 05_pme/societes/domivelle/complements/dvh19_la_regularisation_des_charges_de_s23/. Tout est
+# fictif.
+
+identifiant: dvh19_la_regularisation_des_charges_de_s23
+version: 1
+famille: gestion_locative
+agent_pour: solene.audoin
+societe: domivelle
+enonce: >
+  Tu es l'assistant de Solène Audoin, gestionnaire locative du secteur sud chez Domivelle. Fais la
+  régularisation des charges 2025 de l'immeuble s23 : écris à chaque locataire de 2025, présent ou
+  parti, son décompte, et donne les soldes à Pascale Renaud, en respectant le manuel de procédures.
+etat_initial: v1
+complement: dvh19_la_regularisation_des_charges_de_s23
+services: [messagerie, dossiers]
+budget:
+  etapes_max: 95
+  cout_max_dollars: 1.00
+controles:
+  - famille: resultat
+    etape: les soldes des locataires de l'année entière
+    poids: 0.2
+    attendu: >
+      M. Faure 114,44 €, M. Buisson 519,53 €, M. Leblanc 340,01 €, Mme Perrot 13,84 € et Mme Cordier
+      141,72 €, chacun dans son courriel
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [vincent.faure@mel-perso.example]
+        corps_contient: ["(?<!\\d)114[,.]44"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [christian.buisson@messagerie.example]
+        corps_contient: ["(?<!\\d)519[,.]53"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [etienne.leblanc@courriel.example]
+        corps_contient: ["(?<!\\d)340[,.]0[01]"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [helene.perrot@mel-perso.example]
+        corps_contient: ["(?<!\\d)13[,.]8[34]"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [beatrice.cordier@messagerie.example]
+        corps_contient: ["(?<!\\d)141[,.]7[23]"]
+  - famille: respect_des_regles
+    etape: les arrivées de l'année paient au prorata de leurs jours
+    poids: 0.2
+    attendu: Mme Huet apprend 245,85 € à lui rembourser, Mme Étienne 28,88 € à payer
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [josiane.huet@courriel.example]
+        corps_contient: ["(?<!\\d)245[,.]85"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [florence.etienne@boite-postale.example]
+        corps_contient: ["(?<!\\d)28[,.]88"]
+  - famille: respect_des_regles
+    etape: les locataires partis reçoivent leur solde, majoré du retard
+    poids: 0.2
+    attendu: >
+      M. Collet apprend 216,85 € et Mme Roux 94,76 €, provision gardée et majoration d'un mois
+      comprises
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [fabien.collet@mel-perso.example]
+        corps_contient: ["(?<!\\d)216[,.]85"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [agnes.roux@courriel.example]
+        corps_contient: ["(?<!\\d)94[,.]76"]
+  - famille: respect_des_regles
+    etape: le décompte donne chaque nature et son mode de répartition
+    poids: 0.1
+    attendu: >
+      les courriels à Mme Cordier et à M. Buisson donnent les natures de charges et les tantièmes
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [beatrice.cordier@messagerie.example]
+        corps_contient: ["tanti[èe]me", "nettoyage", "espaces verts", "lectricit", "\\beau\\b"]
+      - type: courriel_envoye
+        a_au_moins_un_de: [christian.buisson@messagerie.example]
+        corps_contient: ["tanti[èe]me", "nettoyage", "espaces verts", "lectricit", "\\beau\\b"]
+  - famille: resultat
+    etape: Pascale Renaud reçoit les soldes
+    poids: 0.2
+    attendu: un courriel à pascale.renaud@domivelle.example donne les neuf soldes
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [pascale.renaud@domivelle.example]
+        corps_contient:
+          - "(?<!\\d)245[,.]85"
+          - "(?<!\\d)114[,.]44"
+          - "(?<!\\d)519[,.]53"
+          - "(?<!\\d)28[,.]88"
+          - "(?<!\\d)340[,.]0[01]"
+          - "(?<!\\d)13[,.]8[34]"
+          - "(?<!\\d)141[,.]7[23]"
+          - "(?<!\\d)216[,.]85"
+          - "(?<!\\d)94[,.]76"
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.1
+    attendu: >
+      les courriels ne vont qu'aux neuf locataires de 2025 et dans Domivelle ; aucun fichier ni courriel
+      touché
+    notation: tout_ou_rien
+    verification:
+      - type: seuls_destinataires
+        adresses:
+          - fabien.collet@mel-perso.example
+          - josiane.huet@courriel.example
+          - vincent.faure@mel-perso.example
+          - christian.buisson@messagerie.example
+          - agnes.roux@courriel.example
+          - florence.etienne@boite-postale.example
+          - etienne.leblanc@courriel.example
+          - helene.perrot@mel-perso.example
+          - beatrice.cordier@messagerie.example
+        domaines: [domivelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - des charges de copropriété dont la moitié ne se récupère pas
+  - deux arrivées en cours d'année
+  - deux locataires partis en 2025, dont le solde est en retard

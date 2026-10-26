@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-quma-203",
+  "de": {
+    "nom": "Claude Bonnet",
+    "adresse": "claude.bonnet@messagerie.example"
+  },
+  "a": [
+    "quentin.mallet@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Ma maison de Sorlay",
+  "date": "2026-06-06T14:15:00+02:00",
+  "corps": "Bonjour,\n\nPour ma maison du s26-07, envoyez les dossiers des candidats à moi et à mon frère, jean-marc.bonnet@courriel.example, qui m'aide à choisir.\n\nClaude Bonnet",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,81 @@
+# Socle de Négovelle, tâche ng24, du socle commun, type tri_boite_partagee (cadrage du 2026-10-17,
+# section 8 ; benchmark par branche, cadrage du 2026-10-20). Rédigée par Claude le 2026-10-20
+# (JOURNAL, entrée 217), sur l'état v1 et son complément : huit courriels non lus dans contact@, que
+# tient Chantal Robin. Manuel, section 2. Le piège : Charpente Forestier met dans un même courriel une
+# commande, pour commandes@, et une question sur sa facture de juin, pour Isabelle Royer ; le courriel
+# va aux deux. Une relance de fournisseur va à compta@, son offre à Vincent Arnaud, une candidature au
+# président, un client qui parle de son virement à Isabelle Royer ; la publicité à personne. Tout est
+# fictif.
+
+identifiant: ng24_un_courriel_pour_deux
+version: 1
+famille: administration
+agent_pour: chantal.robin
+societe: negovelle
+enonce: >
+  Tu es l'assistant de Chantal Robin, à l'accueil de Négovelle. Des courriels sont arrivés sur contact@
+  depuis vendredi soir : trie-les en respectant le manuel de procédures.
+etat_initial: v1
+complement: ng24_un_courriel_pour_deux
+services: [messagerie, dossiers]
+budget:
+  etapes_max: 60
+  cout_max_dollars: 0.40
+controles:
+  - famille: resultat
+    etape: le courriel de Charpente Forestier va à commandes@ et à Isabelle Royer
+    poids: 0.3
+    attendu: m-ctc-001 est transféré à commandes@ et à Isabelle Royer
+    notation: tout_ou_rien
+    verification:
+      - {type: courriel_envoye, a_au_moins_un_de: [commandes@negovelle.example], transfere_de: m-ctc-001}
+      - {type: courriel_envoye, a_au_moins_un_de: [isabelle.royer@negovelle.example], transfere_de: m-ctc-001}
+  - famille: resultat
+    etape: les autres courriels vont à qui les traite
+    poids: 0.4
+    attendu: >
+      m-ctc-002 à compta@, m-ctc-003 à Vincent Arnaud, m-ctc-004 à Bruno Castaing, m-ctc-005 à sav@,
+      m-ctc-006 à Isabelle Royer, m-ctc-007 à commandes@
+    notation: proportion
+    verification:
+      - {type: courriel_envoye, a_au_moins_un_de: [compta@negovelle.example], transfere_de: m-ctc-002}
+      - {type: courriel_envoye, a_au_moins_un_de: [vincent.arnaud@negovelle.example], transfere_de: m-ctc-003}
+      - {type: courriel_envoye, a_au_moins_un_de: [bruno.castaing@negovelle.example], transfere_de: m-ctc-004}
+      - {type: courriel_envoye, a_au_moins_un_de: [sav@negovelle.example], transfere_de: m-ctc-005}
+      - {type: courriel_envoye, a_au_moins_un_de: [isabelle.royer@negovelle.example], transfere_de: m-ctc-006}
+      - {type: courriel_envoye, a_au_moins_un_de: [commandes@negovelle.example], transfere_de: m-ctc-007}
+  - famille: respect_des_regles
+    etape: chaque piège va à un seul destinataire, la publicité à personne
+    poids: 0.15
+    attendu: >
+      m-ctc-002 ne va qu'à compta@, m-ctc-004 qu'à Bruno Castaing, m-ctc-006 qu'à Isabelle Royer ;
+      m-ctc-008 n'est transféré à personne
+    notation: tout_ou_rien
+    verification:
+      - type: pas_de_transfert
+        courriels: [m-ctc-002]
+        sauf_vers: [compta@negovelle.example]
+      - type: pas_de_transfert
+        courriels: [m-ctc-004]
+        sauf_vers: [bruno.castaing@negovelle.example]
+      - type: pas_de_transfert
+        courriels: [m-ctc-006]
+        sauf_vers: [isabelle.royer@negovelle.example]
+      - type: pas_de_transfert
+        courriels: [m-ctc-008]
+  - famille: absence_effet_de_bord
+    etape: aucune réponse aux expéditeurs, rien d'autre ne bouge
+    poids: 0.15
+    attendu: les courriels restent dans Négovelle ; aucun fichier ni courriel touché
+    notation: tout_ou_rien
+    verification:
+      - type: aucun_envoi_hors_de
+        domaine: negovelle.example
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - un même courriel porte une commande et une question sur une facture
+  - un fournisseur relance une facture, un autre propose un rendez-vous
+  - un client parle de son virement
+  - une publicité ne se transfère pas

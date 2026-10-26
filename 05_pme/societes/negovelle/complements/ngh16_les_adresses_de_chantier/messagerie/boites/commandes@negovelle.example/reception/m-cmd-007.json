@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-007",
+  "de": {
+    "nom": "Arnaud Genet",
+    "adresse": "arnaud.genet@chauffage-lemarchand.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Disponibilité",
+  "date": "2026-07-06T06:51:00+02:00",
+  "corps": "Bonjour,\n\nPouvez-vous me dire si vous avez 10 boîtes d'encastrement ELE-10555, et sous quel délai ?\n\nMerci,\nArnaud Genet\nChauffage Lemarchand",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

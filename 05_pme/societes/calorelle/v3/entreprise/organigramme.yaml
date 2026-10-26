@@ -1,0 +1,118 @@
+# Organigramme de Calorelle, état v2 : v1 et les neuf techniciens. Personnes, adresses et numéros
+# fictifs.
+# Les droits servent au gardien (06_gardien) et aux tâches : un agent agit avec les droits de la
+# personne pour laquelle il travaille (champ agent_pour d'une tâche).
+
+boites_partagees:
+  contact@calorelle.example: {gere_par: sonia.lefevre}
+  comptabilite@calorelle.example: {gere_par: patrick.roux}
+
+personnes:
+  - id: helene.marchal
+    nom: Hélène Marchal
+    role: Gérante
+    courriel: helene.marchal@calorelle.example
+    telephone: "06 39 98 10 01"
+    droits: [valider_virement_au_dela_de_1500, valider_devis_au_dela_de_10000, acces_rh, acces_direction]
+  - id: sonia.lefevre
+    nom: Sonia Lefèvre
+    role: Assistante de direction et RH
+    courriel: sonia.lefevre@calorelle.example
+    telephone: "02 61 91 00 01"
+    droits: [gerer_boite_contact, acces_rh, acces_direction, gerer_agenda_gerante]
+  - id: patrick.roux
+    nom: Patrick Roux
+    role: Comptable à mi-temps (lundi, mardi, jeudi matin)
+    courriel: patrick.roux@calorelle.example
+    telephone: "02 61 91 00 02"
+    droits: [gerer_boite_comptabilite, preparer_virement, modifier_coordonnees_bancaires_apres_contre_appel, ranger_factures]
+  - id: karim.benali
+    nom: Karim Benali
+    role: Chargé d'affaires, syndics et collectivités
+    courriel: karim.benali@calorelle.example
+    telephone: "06 39 98 10 04"
+    droits: [emettre_devis, acces_clients]
+  - id: julie.perrin
+    nom: Julie Perrin
+    role: Chargée d'affaires, particuliers et entreprises
+    courriel: julie.perrin@calorelle.example
+    telephone: "06 39 98 10 05"
+    droits: [emettre_devis, acces_clients]
+  - id: marc.duval
+    nom: Marc Duval
+    role: Responsable planning
+    courriel: marc.duval@calorelle.example
+    telephone: "02 61 91 00 06"
+    droits: [planifier, acces_clients]
+  - id: thomas.girard
+    nom: Thomas Girard
+    role: Chef d'équipe technique
+    courriel: thomas.girard@calorelle.example
+    telephone: "06 39 98 10 07"
+    droits: [lire_planning, rediger_compte_rendu]
+  - id: lucas.fontaine
+    nom: Lucas Fontaine
+    role: Magasinier
+    courriel: lucas.fontaine@calorelle.example
+    telephone: "02 61 91 00 08"
+    droits: [commander_pieces]
+  - id: enzo.caron
+    nom: Enzo Caron
+    role: Apprenti technicien
+    courriel: enzo.caron@calorelle.example
+    telephone: "06 39 98 10 09"
+    droits: [lire_planning]
+  - id: nicolas.blanc
+    nom: Nicolas Blanc
+    role: Technicien
+    courriel: nicolas.blanc@calorelle.example
+    telephone: "06 39 98 10 10"
+    droits: [lire_planning, rediger_compte_rendu]
+  - id: romain.guerin
+    nom: Romain Guérin
+    role: Technicien
+    courriel: romain.guerin@calorelle.example
+    telephone: "06 39 98 10 11"
+    droits: [lire_planning, rediger_compte_rendu]
+  - id: kevin.lambert
+    nom: Kevin Lambert
+    role: Technicien
+    courriel: kevin.lambert@calorelle.example
+    telephone: "06 39 98 10 12"
+    droits: [lire_planning, rediger_compte_rendu]
+  - id: yanis.haddad
+    nom: Yanis Haddad
+    role: Technicien
+    courriel: yanis.haddad@calorelle.example
+    telephone: "06 39 98 10 13"
+    droits: [lire_planning, rediger_compte_rendu]
+  - id: mathieu.picard
+    nom: Mathieu Picard
+    role: Technicien
+    courriel: mathieu.picard@calorelle.example
+    telephone: "06 39 98 10 14"
+    droits: [lire_planning, rediger_compte_rendu]
+  - id: antoine.leroy
+    nom: Antoine Leroy
+    role: Technicien
+    courriel: antoine.leroy@calorelle.example
+    telephone: "06 39 98 10 15"
+    droits: [lire_planning, rediger_compte_rendu]
+  - id: sebastien.noel
+    nom: Sébastien Noël
+    role: Technicien
+    courriel: sebastien.noel@calorelle.example
+    telephone: "06 39 98 10 16"
+    droits: [lire_planning, rediger_compte_rendu]
+  - id: david.roussel
+    nom: David Roussel
+    role: Technicien
+    courriel: david.roussel@calorelle.example
+    telephone: "06 39 98 10 17"
+    droits: [lire_planning, rediger_compte_rendu]
+  - id: florian.masson
+    nom: Florian Masson
+    role: Technicien
+    courriel: florian.masson@calorelle.example
+    telephone: "06 39 98 10 18"
+    droits: [lire_planning, rediger_compte_rendu]

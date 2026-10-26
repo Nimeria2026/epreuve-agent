@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-md-704",
+  "de": {
+    "nom": "Sonia Lefèvre",
+    "adresse": "sonia.lefevre@calorelle.example"
+  },
+  "a": [
+    "marc.duval@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Pompe à chaleur en panne",
+  "date": "2026-11-27T17:55:00+01:00",
+  "corps": "Marc, je n'avais pas vu cette demande arrivée hier sur contact@, désolée.\nSonia\n\n----- Message transféré -----\nIdentifiant : m-ctc-701\nDe : Gilles Robin <gilles.robin@courriel.example>\nÀ : contact@calorelle.example\nCc : (aucun)\nDate : 2026-11-26T15:40:00+01:00\nObjet : Pompe à chaleur en panne\nPièces jointes : (aucune)\n\nBonjour,\n\nNotre pompe à chaleur s'est mise en défaut cet après-midi et ne redémarre plus ; la maison refroidit. Nous avons le contrat Sérénité Plus. Je suis chez moi tous les jours.\n\nGilles Robin\n76 allée des Peupliers, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": "m-ctc-701"
+}

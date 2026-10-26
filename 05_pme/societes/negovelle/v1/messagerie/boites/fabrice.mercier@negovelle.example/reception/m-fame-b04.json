@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-fame-b04",
+  "de": {
+    "nom": "Chantal Péron",
+    "adresse": "chantal.peron@tixier-renovation.example"
+  },
+  "a": [
+    "fabrice.mercier@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Horaires du comptoir cet été",
+  "date": "2026-06-19T15:31:00+02:00",
+  "corps": "Bonjour,\n\nLe comptoir reste-t-il ouvert en août ?\n\nChantal Péron",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

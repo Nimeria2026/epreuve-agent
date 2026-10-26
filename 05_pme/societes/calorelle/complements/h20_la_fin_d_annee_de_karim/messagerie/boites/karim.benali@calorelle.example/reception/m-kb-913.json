@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-913",
+  "de": {
+    "nom": "Syndic de la Résidence du Lac",
+    "adresse": "syndic.residence-du-lac@courriel.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Demande de devis",
+  "date": "2026-12-23T10:00:00+01:00",
+  "corps": "Bonjour,\n\nNous cherchons une entreprise pour remplacer la chaudière collective de notre résidence, 12 rue de Tours, 37999 Bléré-sur-Cher. Pouvez-vous passer en janvier pour un devis ?\n\nLe syndic de la Résidence du Lac (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

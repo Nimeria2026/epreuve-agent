@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-003",
+  "de": {
+    "nom": "Camille Rivière",
+    "adresse": "camille.riviere@courriel.example"
+  },
+  "a": [
+    "contact@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Visite du T2 du 4 rue du Château",
+  "date": "2026-06-07T11:30:00+02:00",
+  "corps": "Bonjour,\n\nJ'ai vu votre annonce pour le T2 du 4 rue du Château, à Montclavel. Puis-je le visiter cette semaine ?\n\nCamille Rivière",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

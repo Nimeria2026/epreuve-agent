@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-005",
+  "de": {
+    "nom": "Sophie Billard",
+    "adresse": "sophie.billard@plomberie-lagarde.example"
+  },
+  "a": [
+    "contact@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Retour d'un mitigeur",
+  "date": "2026-07-06T06:28:00+02:00",
+  "corps": "Bonjour,\n\nNous voudrions vous retourner un mitigeur d'évier commandé en trop, jamais déballé.\n\nSophie Billard\nPlomberie Lagarde",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

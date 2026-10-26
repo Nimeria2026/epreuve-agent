@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-befa-b02",
+  "de": {
+    "nom": "Sandrine Doré",
+    "adresse": "sandrine.dore@mairie-de-brissonne.example"
+  },
+  "a": [
+    "benoit.faure@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande reçue, merci",
+  "date": "2026-06-29T09:18:00+02:00",
+  "corps": "Bonjour,\n\nLa livraison de ce matin est complète. Merci.\n\nSandrine Doré",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

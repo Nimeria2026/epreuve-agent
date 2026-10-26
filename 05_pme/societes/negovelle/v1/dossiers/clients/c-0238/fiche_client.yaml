@@ -1,0 +1,25 @@
+# Fiche du client c-0238 de Négovelle. Données FICTIVES.
+code: c-0238
+nom: Serrurerie Langlais
+type: artisan
+adresse: 127 rue des Chênes, 36999 Saulvenne (FICTIF)
+telephone: 02 61 91 80 36
+secteur: sud
+commercial: aurelie.bonnefoy
+administration_des_ventes: laetitia.garnier
+contacts:
+- nom: Dominique Humbert
+  fonction: gérant
+  courriel: dominique.humbert@serrurerie-langlais.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 127 rue des Chênes, 36999 Saulvenne (FICTIF)
+categorie_remise: C
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2012-03-01'
+limite_encours_euros: 3500.0
+livraisons_partielles: true
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

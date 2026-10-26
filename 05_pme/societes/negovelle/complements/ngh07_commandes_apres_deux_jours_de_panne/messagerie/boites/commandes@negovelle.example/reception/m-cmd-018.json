@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-018",
+  "de": {
+    "nom": "François Delaunay",
+    "adresse": "francois.delaunay@noblet-agencement.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande",
+  "date": "2026-07-03T10:15:00+02:00",
+  "corps": "Bonjour,\n\nVoici notre commande, à livrer au siège :\n\n- 20 x QUI-10212, Butoir de porte au sol, inox\n- 6 x CON-10277, Colle de montage, pot de 1 l\n\nMerci de nous confirmer la livraison.\n\nCordialement,\nFrançois Delaunay\nNoblet Agencement",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-rejo-003",
+  "de": {
+    "nom": "Nathalie Brunet",
+    "adresse": "nathalie.brunet@negovelle.example"
+  },
+  "a": [
+    "remi.joly@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "TR: Cylindres abîmés",
+  "date": "2026-08-07T16:33:00+02:00",
+  "corps": "Rémi, un de mes dossiers ouverts, à reprendre.\n\nNathalie\n\n----- Message transféré -----\nDe : Brigitte Ruel <brigitte.ruel@serrurerie-gonnet.example>\nDate : 2026-07-24T08:30:00+02:00\nObjet : Cylindres abîmés\n\nBonjour,\n\nLivraison du 23 juillet, BL-2026-01881 : un carton éventré, deux cylindres QUI-11674 faussés, inutilisables. Nous l'avons écrit sur le récépissé du transporteur.\n\nBrigitte Ruel\nSerrurerie Gonnet",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

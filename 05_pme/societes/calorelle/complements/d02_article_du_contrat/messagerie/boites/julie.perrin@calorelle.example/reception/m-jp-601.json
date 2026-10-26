@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-601",
+  "de": {
+    "nom": "Philippe Boyer",
+    "adresse": "philippe.boyer@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Pièce changée sur ma chaudière",
+  "date": "2026-11-02T08:12:00+01:00",
+  "corps": "Bonjour Madame Perrin,\n\nLors du dépannage de jeudi dernier, votre technicien a remplacé le circulateur de ma chaudière. Cette pièce est-elle comprise dans mon contrat Sérénité, ou vais-je devoir la payer ?\n\nMerci de votre réponse,\nPhilippe Boyer (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

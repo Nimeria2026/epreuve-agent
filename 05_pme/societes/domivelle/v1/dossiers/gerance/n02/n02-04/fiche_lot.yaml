@@ -1,0 +1,24 @@
+# Fiche du lot n02-04. Données FICTIVES.
+lot: n02-04
+adresse: 69 rue du Four, 18999 Vernillac (FICTIF)
+type: T2
+surface_m2: 38
+locataire:
+  nom: M. Maxime Hubert
+  courriel: maxime.hubert@messagerie.example
+  telephone: 06 39 98 50 67
+  entree: '2016-09-29'
+bail:
+  signature: '2016-09-29'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 350,00 €
+  depot_de_garantie: 286,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T2
+dpe:
+  classe: E
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-745",
+  "de": {
+    "nom": "Agnès Dubois",
+    "adresse": "agnes.dubois@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis pour un poêle",
+  "date": "2026-12-26T10:00:00+01:00",
+  "corps": "Bonjour Madame Perrin,\n\nPourriez-vous me faire un devis pour un poêle à granulés dans mon salon ?\n\nAgnès Dubois, 71 rue de la Loire, Valmont-sur-Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

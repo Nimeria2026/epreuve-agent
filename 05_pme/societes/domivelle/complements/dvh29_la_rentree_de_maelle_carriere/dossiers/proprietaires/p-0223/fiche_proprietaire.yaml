@@ -1,0 +1,11 @@
+# Fiche du propriétaire p-0223, mandant de Domivelle. Données FICTIVES.
+code: p-0223
+nom: Mme Madeleine Thibault
+adresse: 5 rue des Remparts, 18999 Vernillac (FICTIF)
+courriel: madeleine.thibault@mel-perso.example
+telephone: 06 39 98 78 11
+iban: FR76 9999 9372 5508 1146 2290 613 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- c22-04
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

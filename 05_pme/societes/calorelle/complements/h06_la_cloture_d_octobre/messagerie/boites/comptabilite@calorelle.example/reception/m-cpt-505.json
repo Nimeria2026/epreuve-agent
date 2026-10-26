@@ -1,0 +1,29 @@
+{
+  "identifiant": "m-cpt-505",
+  "de": {
+    "nom": "Florian Masson",
+    "adresse": "florian.masson@calorelle.example"
+  },
+  "a": [
+    "comptabilite@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Note de frais d'octobre",
+  "date": "2026-11-02T08:05:00+01:00",
+  "corps": "Bonjour Patrick,\n\nVoici ma note de frais d'octobre ; la note et les justificatifs sont joints.\n\n- 12 octobre : repas, visite annuelle à Sablonnet, 18,70 €\n- 12 octobre : trajet aller et retour à Sablonnet, avec ma voiture, 58 km à 0,45 €, 28,10 €\n- 12 octobre : stationnement, 4,00 €\n\nMerci,\nFlorian (FICTIF)",
+  "pieces_jointes": [
+    {
+      "nom": "note_de_frais_octobre_Masson.pdf",
+      "fichier": "pieces/m-cpt-505/note_de_frais_octobre_Masson.pdf",
+      "taille_octets": 967
+    },
+    {
+      "nom": "justificatifs_octobre_Masson.pdf",
+      "fichier": "pieces/m-cpt-505/justificatifs_octobre_Masson.pdf",
+      "taille_octets": 787
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

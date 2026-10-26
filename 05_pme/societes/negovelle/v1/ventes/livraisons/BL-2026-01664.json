@@ -1,0 +1,59 @@
+{
+  "numero": "BL-2026-01664",
+  "commande": "CO-2026-01815",
+  "client": "c-0173",
+  "date_expedition": "2026-06-23",
+  "date_livraison": "2026-06-23",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "126 rue de l'Église, 36999 Fontclavier (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "CON-10931",
+      "libelle": "Disque abrasif fibre 150 mm, grain 80, boîte de 10",
+      "quantite": 3
+    },
+    {
+      "reference": "CON-12008",
+      "libelle": "Ruban adhésif aluminium 19 mm, rouleau de 25 m",
+      "quantite": 12
+    },
+    {
+      "reference": "FIX-11078",
+      "libelle": "Collier de fixation 14 mm, sachet de 50",
+      "quantite": 2
+    },
+    {
+      "reference": "FIX-11494",
+      "libelle": "Goujon d'ancrage M10x140, boîte de 25",
+      "quantite": 1
+    },
+    {
+      "reference": "PLB-10130",
+      "libelle": "Bonde à grille 32 mm",
+      "quantite": 12
+    },
+    {
+      "reference": "PLB-11167",
+      "libelle": "Flexible inox femelle-femelle 12x17 80 cm",
+      "quantite": 5
+    },
+    {
+      "reference": "PLB-12809",
+      "libelle": "Tube PER 16 mm, gainé bleu, couronne de 25 m",
+      "quantite": 10
+    },
+    {
+      "reference": "VIS-13487",
+      "libelle": "Vis à bois tête fraisée 6x50, zinguée, boîte de 500",
+      "quantite": 12
+    }
+  ],
+  "reserves": null,
+  "signataire": "Paul Valentin",
+  "statut": "livre"
+}

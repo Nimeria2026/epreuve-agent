@@ -1,0 +1,24 @@
+# Fiche du lot n21-18. Données FICTIVES.
+lot: n21-18
+adresse: 65 rue Émile-Zola, 18999 Vernillac (FICTIF)
+type: T2
+surface_m2: 50
+locataire:
+  nom: M. Pierre Durand
+  courriel: pierre.durand@mel-perso.example
+  telephone: 06 39 98 57 65
+  entree: '2025-11-08'
+bail:
+  signature: '2025-11-08'
+  duree: trois ans, renouvelable
+  loyer_hors_charges: 405,00 €
+  depot_de_garantie: 405,00 €
+  revision: chaque année à la date anniversaire du bail, selon l'IRL
+  trimestre_irl: T3
+dpe:
+  classe: D
+  etabli_le: '2022-05-12'
+documents:
+- bail.pdf
+- etat_des_lieux_entree.md
+- dpe.pdf

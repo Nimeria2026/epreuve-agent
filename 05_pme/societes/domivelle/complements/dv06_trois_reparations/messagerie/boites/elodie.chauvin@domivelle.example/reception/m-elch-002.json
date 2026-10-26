@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-elch-002",
+  "de": {
+    "nom": "Chauffage des Fontenils",
+    "adresse": "facturation@chauffage-des-fontenils.example"
+  },
+  "a": [
+    "elodie.chauvin@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Devis D-2026-188, lot n02-03",
+  "date": "2026-06-02T16:40:00+02:00",
+  "corps": "Madame Chauvin,\n\nSuite à notre passage au lot n02-03, voici notre devis pour le remplacement du chauffe-eau électrique : 1 180,00 € TTC. Nous pouvons intervenir sous trois jours après votre commande.\n\nChauffage des Fontenils",
+  "pieces_jointes": [
+    {
+      "nom": "devis_D-2026-188.pdf",
+      "fichier": "pieces/m-elch-002/devis_D-2026-188.pdf",
+      "taille_octets": 850
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,13 @@
+# Fiche client Calorelle. Données FICTIVES.
+code: "c-0071"
+nom: "Agnès Martin"
+type: "particulier"
+adresse: "67 chemin des Vignes, 45999 Valmont-sur-Loire (FICTIF)"
+courriel: "agnes.martin@courriel.example"
+telephone: "06 39 98 50 17"
+charge_d_affaires: "julie.perrin"
+contrat:
+  formule: "Sérénité Plus"
+  depuis: "2025-05-27"
+  mois_anniversaire: "mai"
+  derniere_visite: "2026-05-10"

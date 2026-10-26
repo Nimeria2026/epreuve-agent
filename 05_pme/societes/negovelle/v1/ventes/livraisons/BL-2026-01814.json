@@ -1,0 +1,44 @@
+{
+  "numero": "BL-2026-01814",
+  "commande": "CO-2026-01965",
+  "client": "c-0224",
+  "date_expedition": "2026-06-30",
+  "date_livraison": "2026-07-01",
+  "transport": {
+    "mode": "transporteur",
+    "transporteur": "transports-delorme",
+    "recepisse": "TD-571064"
+  },
+  "adresse": "13 parc d'activités de la Gare, 36999 Ardillac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ELE-13446",
+      "libelle": "Tube LED T8 1500 mm, 9 W",
+      "quantite": 2
+    },
+    {
+      "reference": "FIX-11176",
+      "libelle": "Collier de fixation 25 mm, sachet de 50",
+      "quantite": 2
+    },
+    {
+      "reference": "FIX-12090",
+      "libelle": "Équerre de fixation 120x40x40 mm, galvanisée",
+      "quantite": 10
+    },
+    {
+      "reference": "OUT-13152",
+      "libelle": "Équerre de menuisier 600 mm",
+      "quantite": 12
+    },
+    {
+      "reference": "PRO-11028",
+      "libelle": "Gants de manutention hiver, taille 11",
+      "quantite": 2
+    }
+  ],
+  "reserves": null,
+  "signataire": "Roger Baudouin",
+  "statut": "livre"
+}

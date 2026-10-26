@@ -1,0 +1,28 @@
+# Fiche du client c-0264 de Négovelle. Données FICTIVES.
+code: c-0264
+nom: Chauffage Chevrier
+type: artisan
+adresse: 53 rue des Peupliers, 36999 Vendrigny (FICTIF)
+telephone: 02 61 91 66 58
+secteur: est
+commercial: fabrice.mercier
+administration_des_ventes: benoit.faure
+contacts:
+- nom: Marion Cordonnier
+  fonction: gérante
+  courriel: marion.cordonnier@chauffage-chevrier.example
+- nom: Hélène Barre
+  fonction: conjointe collaboratrice
+  courriel: helene.barre@chauffage-chevrier.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 53 rue des Peupliers, 36999 Vendrigny (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2014-08-01'
+limite_encours_euros: 1500.0
+livraisons_partielles: true
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

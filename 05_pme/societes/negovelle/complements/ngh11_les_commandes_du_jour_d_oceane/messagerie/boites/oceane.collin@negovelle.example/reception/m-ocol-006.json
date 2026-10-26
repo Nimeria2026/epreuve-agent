@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ocol-006",
+  "de": {
+    "nom": "Maxime Cosson",
+    "adresse": "maxime.cosson@voisin-agencernent.example"
+  },
+  "a": [
+    "oceane.collin@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Urgent : commande CO-2026-02019",
+  "date": "2026-07-06T07:03:00+02:00",
+  "corps": "Bonjour Océane,\n\nChangement de programme pour notre commande CO-2026-02019 de vendredi : merci de la faire partir aujourd'hui en express, à notre nouveau dépôt, 5 rue de la Tuilerie, 36999 Mérolles-en-Brenne. Notre siège ferme pour travaux. Le supplément de port ne pose pas de problème.\n\nMerci de me confirmer par retour.\n\nMaxime Cosson\nVoisin Agencement",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

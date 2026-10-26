@@ -1,0 +1,100 @@
+{
+  "numero": "CO-2026-02028",
+  "client": "c-0050",
+  "reference_client": "BC-9145",
+  "cree_le": "2026-07-03T09:10:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "29 zone d'activités des Grands Prés, 36999 Mérolles-en-Brenne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "ELE-11265",
+      "libelle": "Câble U1000 R2V 2x 10 mm², couronne de 50 m",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 378.75,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 378.75,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 1515.0
+    },
+    {
+      "reference": "ELE-13372",
+      "libelle": "Tableau électrique 3 rangée(s), 13 modules",
+      "quantite": 12,
+      "prix_tarif_ht_euros": 117.6,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 117.6,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 1411.2
+    },
+    {
+      "reference": "ELP-10914",
+      "libelle": "Foret métal HSS 11 mm, étui de 10",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 29.75,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 29.75,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 119.0
+    },
+    {
+      "reference": "ENT-10432",
+      "libelle": "Essuie-mains en rouleau industriel, carton de 12",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 54.35,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 54.35,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 54.35
+    },
+    {
+      "reference": "PLB-13462",
+      "libelle": "Vanne à boisseau sphérique femelle-femelle 20x27",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 30.6,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 30.6,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 183.6
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 3283.15,
+  "total_tva_euros": 656.63,
+  "total_ttc_euros": 3939.78,
+  "statut": "expediee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01865"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-03T09:10:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T09:12:00+02:00",
+      "par": "oceane.collin",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T16:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01865"
+    }
+  ]
+}

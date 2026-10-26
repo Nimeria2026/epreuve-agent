@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-maca-b02",
+  "de": {
+    "nom": "Vitrerie des Quatre-Vents",
+    "adresse": "contact@vitrerie-des-quatre-vents.example"
+  },
+  "a": [
+    "maelle.carriere@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Accès au local technique",
+  "date": "2026-05-19T15:22:00+02:00",
+  "corps": "Bonjour,\n\nPouvez-vous nous confirmer le code d'accès au local technique ?\n\nVitrerie des Quatre-Vents",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

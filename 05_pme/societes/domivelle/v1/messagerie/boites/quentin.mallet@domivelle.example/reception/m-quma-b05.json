@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-quma-b05",
+  "de": {
+    "nom": "Nadège Lebrun",
+    "adresse": "nadege.lebrun@domivelle.example"
+  },
+  "a": [
+    "quentin.mallet@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Imprimante du premier étage",
+  "date": "2026-06-07T16:38:00+02:00",
+  "corps": "Bonjour,\n\nL'imprimante du premier étage est réparée.\n\nNadège",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

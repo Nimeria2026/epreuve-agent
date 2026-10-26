@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-906",
+  "de": {
+    "nom": "Céline Faure",
+    "adresse": "celine.faure@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Ma nouvelle chaudière fait du bruit",
+  "date": "2027-01-29T11:00:00+01:00",
+  "corps": "Bonjour,\n\nLa chaudière que vous avez posée le 19 janvier fait un bruit de sifflement chaque matin. Ce n'est pas ce que j'attendais d'un appareil neuf, et j'aimerais que quelqu'un s'en occupe vite.\n\nCéline Faure, 24 rue de la Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

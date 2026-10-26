@@ -1,0 +1,12 @@
+# Fiche du propriétaire p-0235, mandant de Domivelle. Données FICTIVES.
+code: p-0235
+nom: Mme Estelle Texier
+adresse: 41 boulevard du Cher, 18999 Montclavel-sur-Cher (FICTIF)
+courriel: estelle.texier@mel-perso.example
+telephone: 06 39 98 76 26
+iban: FR76 9999 9157 4420 8836 2017 553 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- c24-03
+- c25-09
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

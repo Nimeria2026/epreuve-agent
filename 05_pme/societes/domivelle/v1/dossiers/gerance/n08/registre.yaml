@@ -1,0 +1,79 @@
+# Registre des lots en gestion, n08. Données FICTIVES.
+immeuble: n08
+nature: groupe de maisons
+adresse: 53 rue du Four, 18999 Vernillac (FICTIF)
+secteur: nord
+gestionnaire: Élodie Chauvin
+distance_agence_km: 10
+annee_construction: 1970
+gardien: false
+copropriete_du_syndic: null
+lots:
+- lot: n08-01
+  type: maison T3
+  surface_m2: 76
+  proprietaire: p-0302
+  locataire: Mme Laure Marie
+  entree: '2020-08-17'
+  loyer_hors_charges: 650,00 €
+  provision_sur_charges: 4,00 €
+  depot_de_garantie: 578,00 €
+  revision: chaque 17 août
+  trimestre_irl: T2
+  dpe: D
+- lot: n08-02
+  type: maison T5
+  surface_m2: 120
+  proprietaire: p-0298
+  locataire: vacant
+  loyer_hors_charges: 1 008,00 €
+  provision_sur_charges: 4,00 €
+  dpe: C
+- lot: n08-03
+  type: maison T3
+  surface_m2: 74
+  proprietaire: p-0303
+  locataire: M. Philippe Couturier
+  entree: '2020-04-28'
+  loyer_hors_charges: 577,00 €
+  provision_sur_charges: 3,00 €
+  depot_de_garantie: 502,00 €
+  revision: chaque 28 avril
+  trimestre_irl: T4
+  dpe: D
+- lot: n08-04
+  type: maison T5
+  surface_m2: 111
+  proprietaire: p-0304
+  locataire: M. Dominique Chabert
+  entree: '2017-05-04'
+  loyer_hors_charges: 1 043,00 €
+  provision_sur_charges: 20,00 €
+  depot_de_garantie: 851,00 €
+  revision: chaque 4 mai
+  trimestre_irl: T1
+  dpe: E
+- lot: n08-05
+  type: maison T5
+  surface_m2: 111
+  proprietaire: p-0305
+  locataire: Mme Nathalie Roy
+  entree: '2014-06-26'
+  loyer_hors_charges: 992,00 €
+  provision_sur_charges: 12,00 €
+  depot_de_garantie: 778,00 €
+  revision: chaque 26 juin
+  trimestre_irl: T1
+  dpe: C
+- lot: n08-06
+  type: maison T3
+  surface_m2: 73
+  proprietaire: p-0306
+  locataire: M. René Picot
+  entree: '2021-03-31'
+  loyer_hors_charges: 588,00 €
+  provision_sur_charges: 16,00 €
+  depot_de_garantie: 523,00 €
+  revision: chaque 31 mars
+  trimestre_irl: T4
+  dpe: B

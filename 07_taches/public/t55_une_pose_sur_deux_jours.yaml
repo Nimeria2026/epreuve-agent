@@ -1,0 +1,89 @@
+# Benchmark par branche (cadrage du 2026-10-20), tâche 55, du métier. Rédigée par Claude le
+# 2026-10-20 (JOURNAL, entrée 227), sur l'état v3. Agnès Robin (c-0086) a accepté DV-2026-013, une pompe
+# à chaleur air-eau à la place de sa chaudière au fioul. Julie Perrin demande à Marc Duval de planifier
+# la pose : deux jours pleins qui se suivent, la maison ne pouvant rester qu'une nuit sans chauffage,
+# avec un technicien qui pose les pompes à chaleur ; la cliente est là à partir du mardi 10 novembre et
+# veut la pose au plus tôt. Le mercredi 11 novembre est férié (manuel, section 9) : les deux premiers
+# jours qui se suivent sont le jeudi 12 et le vendredi 13, quatre demi-journées. Thomas Girard propose
+# de laisser l'apprenti seul le second jour : un apprenti n'intervient jamais seul (section 9). La
+# cliente et les techniciens reçoivent les jours et les heures. Complément d'état :
+# 05_pme/societes/calorelle/complements/t55_une_pose_sur_deux_jours/. Tout est fictif.
+# Version 2, le 2026-10-23 (JOURNAL, entrée 262), après le lot de Qwen : le second jour, il ne reste
+# que les raccordements et les essais, ce que le métier appelle aussi une mise en service ; le contrôle 1
+# accepte installation ou mise en service pour chacune des quatre demi-journées, jamais une visite
+# ni un dépannage.
+
+identifiant: t55_une_pose_sur_deux_jours
+version: 2
+famille: planning
+agent_pour: marc.duval
+enonce: >
+  Tu es l'assistant de Marc Duval, responsable planning chez Calorelle. Julie Perrin lui demande de
+  planifier un chantier : fais-le en respectant le manuel de procédures, et préviens qui doit l'être.
+etat_initial: v3
+complement: t55_une_pose_sur_deux_jours
+services: [messagerie, dossiers, planning]
+budget:
+  etapes_max: 50
+  cout_max_dollars: 0.40
+controles:
+  - famille: resultat
+    etape: la pose occupe le jeudi 12 et le vendredi 13, avec un poseur de pompes à chaleur
+    poids: 0.35
+    attendu: >
+      quatre interventions ajoutées pour c-0086, installation ou mise en service, entre le jeudi 12
+      novembre à 8 h et le vendredi 13 à 17 h 30, chacune avec un technicien confirmé des pompes à chaleur
+    notation: tout_ou_rien
+    verification:
+      - type: intervention_ajoutee
+        client: c-0086
+        nature: [installation, mise_en_service]
+        nombre: 4
+        competence: pompe_a_chaleur
+        apres: "2026-11-12T08:00:00+01:00"
+        avant: "2026-11-13T17:30:00+01:00"
+  - famille: respect_des_regles
+    etape: l'apprenti n'est jamais seul
+    poids: 0.25
+    attendu: aucune intervention planifiée ne compte Enzo Caron seul
+    notation: tout_ou_rien
+    verification:
+      - type: jamais_seuls
+        techniciens: [enzo.caron]
+  - famille: contenu
+    etape: la cliente connaît les deux jours
+    poids: 0.15
+    attendu: un courriel à agnes.robin@courriel.example donne le jeudi 12 et le vendredi 13 novembre
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a_au_moins_un_de: [agnes.robin@courriel.example]
+        corps_contient: ["12 novembre|jeudi 12|12/11", "13 novembre|vendredi 13|13/11"]
+        texte_de_l_agent: true
+  - famille: contenu
+    etape: chaque technicien connaît ses demi-journées
+    poids: 0.1
+    attendu: chaque technicien de la pose reçoit le jour et l'heure de chacune de ses demi-journées
+    notation: tout_ou_rien
+    verification:
+      - type: interventions_annoncees_aux_techniciens
+        clients: [c-0086]
+  - famille: absence_effet_de_bord
+    etape: rien d'autre ne bouge
+    poids: 0.15
+    attendu: >
+      le reste du planning est inchangé ; les courriels ne vont qu'à la cliente et au personnel ; aucun
+      fichier ni courriel touché
+    notation: tout_ou_rien
+    verification:
+      - type: planning_inchange
+        sauf_ajouts_pour: [c-0086]
+      - type: seuls_destinataires
+        adresses: [agnes.robin@courriel.example]
+        domaines: [calorelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - le mardi 10 et le jeudi 12 ne se suivent pas, le 11 novembre est férié
+  - le chef d'équipe propose de laisser l'apprenti seul le second jour

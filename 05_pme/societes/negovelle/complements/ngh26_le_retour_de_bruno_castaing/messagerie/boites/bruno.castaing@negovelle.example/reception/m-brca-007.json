@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-007",
+  "de": {
+    "nom": "Denis Barthe",
+    "adresse": "denis.barthe@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Factures à payer la semaine du 10 août 2026",
+  "date": "2026-08-07T17:00:00+02:00",
+  "corps": "Bruno,\n\nLes factures à payer à leur échéance la semaine du 10 août 2026 :\n\n| Fournisseur | Facture | Montant TTC | Échéance |\n|---|---|---|---|\n| Fixations des Brandes | F70388 | 862,40 € | 12 août 2026 |\n| Sanitaire des Tilleuls | F31207 | 1 415,16 € | 13 août 2026 |\n| Outillage du Moulin-Neuf | F55923 | 638,52 € | 14 août 2026 |\n\nTotal : 2 916,08 €.\n\nDenis",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

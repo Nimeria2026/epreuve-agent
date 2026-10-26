@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-sl-923",
+  "de": {
+    "nom": "Commune du Pré-Bouvreuil",
+    "adresse": "contact@commune-du-pre-bouvreuil-279.example"
+  },
+  "a": [
+    "sonia.lefevre@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Rencontre avec Mme Marchal",
+  "date": "2027-01-30T10:30:00+01:00",
+  "corps": "Madame,\n\nM. le maire souhaite rencontrer Mme Marchal avant la remise des offres pour l'école élémentaire, un après-midi de la semaine du 15 février, sauf le lundi. Quel jour lui convient ?\n\nLe secrétariat de la mairie du Pré-Bouvreuil (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

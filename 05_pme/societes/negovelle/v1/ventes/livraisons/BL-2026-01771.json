@@ -1,0 +1,39 @@
+{
+  "numero": "BL-2026-01771",
+  "commande": "CO-2026-01922",
+  "client": "c-0066",
+  "date_expedition": "2026-06-30",
+  "date_livraison": "2026-06-30",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "74 rue de l'Église, 36999 Vendrigny (FICTIF)",
+  "colis": 2,
+  "lignes": [
+    {
+      "reference": "ELE-10873",
+      "libelle": "Conduit IRL 50 mm, barre de 2 m",
+      "quantite": 5
+    },
+    {
+      "reference": "FIX-11576",
+      "libelle": "Goujon d'ancrage M12x75, boîte de 25",
+      "quantite": 2
+    },
+    {
+      "reference": "OUT-10612",
+      "libelle": "Clé à pipe débouchée 20 mm",
+      "quantite": 10
+    },
+    {
+      "reference": "QUI-11649",
+      "libelle": "Cylindre européen 45x35 mm, 5 clés",
+      "quantite": 6
+    }
+  ],
+  "reserves": null,
+  "signataire": "Chantal Hamel",
+  "statut": "livre"
+}

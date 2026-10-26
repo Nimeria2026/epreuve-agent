@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cema-105",
+  "de": {
+    "nom": "Fabrice Aubert",
+    "adresse": "fabrice.aubert@courriel.example"
+  },
+  "a": [
+    "cedric.maillard@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Volet roulant bloqué",
+  "date": "2026-06-05T14:20:00+02:00",
+  "corps": "Bonjour,\n\nLe volet roulant du séjour est bloqué en position basse depuis lundi. J'ai fait venir la Menuiserie des Fontenils pour un devis, qu'elle vous envoie.\n\nFabrice Aubert, lot c27-01",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

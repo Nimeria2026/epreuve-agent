@@ -1,0 +1,31 @@
+# Fiche du client c-0181 de Négovelle. Données FICTIVES.
+code: c-0181
+nom: Collège des Grands Prés, Vaumoreau-sur-Indre
+type: collectivite
+adresse: 7 boulevard de l'Indre, 36999 Vaumoreau-sur-Indre (FICTIF)
+telephone: 02 61 91 77 01
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Laurent Pelletier
+  fonction: responsable des services techniques
+  courriel: laurent.pelletier@college-des-grands-pres-vaumoreau-sur-indre.example
+- nom: Aurélie Ruel
+  fonction: secrétaire de mairie
+  courriel: aurelie.ruel@college-des-grands-pres-vaumoreau-sur-indre.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 7 boulevard de l'Indre, 36999 Vaumoreau-sur-Indre (FICTIF)
+- code: L2
+  libelle: dépôt
+  adresse: 16 zone d'activités des Grands Prés, 36999 Laubrissac (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2010-07-01'
+limite_encours_euros: 2500.0
+livraisons_partielles: true
+substitution_acceptee: true
+statut: ouvert
+motif_blocage: null

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-gafo-201",
+  "de": {
+    "nom": "Jeanne Weber",
+    "adresse": "jeanne.weber@mel-perso.example"
+  },
+  "a": [
+    "gaelle.fournel@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Mon appel du 1er juillet",
+  "date": "2026-06-05T09:15:00+02:00",
+  "corps": "Bonjour Madame,\n\nCombien devrai-je verser le 1er juillet pour mon lot 1 du Carré Pasteur ? Et dois-je payer l'ascenseur, alors que je suis au rez-de-chaussée ?\n\nJeanne Weber",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

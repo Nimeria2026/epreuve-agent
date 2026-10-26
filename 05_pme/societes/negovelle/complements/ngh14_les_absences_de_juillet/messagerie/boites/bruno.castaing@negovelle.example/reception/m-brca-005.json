@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-brca-005",
+  "de": {
+    "nom": "Gilles Poirier",
+    "adresse": "gilles.poirier@negovelle.example"
+  },
+  "a": [
+    "bruno.castaing@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Poste de préparateur",
+  "date": "2026-07-06T07:15:00+02:00",
+  "corps": "Bruno,\n\nAs-tu reçu des candidatures pour le poste de préparateur, ou pour celui de chauffeur ? Envoie-les-moi, que je les regarde avant les entretiens.\n\nGilles",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

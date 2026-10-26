@@ -1,0 +1,62 @@
+{
+  "numero": "CO-2026-01961",
+  "client": "c-0240",
+  "reference_client": null,
+  "cree_le": "2026-06-30T09:10:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "87 chemin des Prés, 36999 Fontclavier (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "PLB-10849",
+      "libelle": "Coude PVC 87° 50 mm",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 2.25,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 2.16,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 4.32
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 19.32,
+  "total_tva_euros": 3.86,
+  "total_ttc_euros": 23.18,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01810"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-06-30T09:10:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-30T09:12:00+02:00",
+      "par": "oceane.collin",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-01T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01810"
+    },
+    {
+      "date": "2026-07-01T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01810"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-320",
+  "de": {
+    "nom": "LeadsChauffage",
+    "adresse": "partenariats@leads-chauffage.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Proposition de partenariat",
+  "date": "2026-11-02T08:53:00+01:00",
+  "corps": "Recevez 50 demandes de devis qualifiées par mois. Premier mois offert. Offre (FICTIF).",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

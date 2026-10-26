@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-cmd-001",
+  "de": {
+    "nom": "Gérard Vaillant",
+    "adresse": "gerard.vaillant@mairie-de-vaumoreau-sur-indre.example"
+  },
+  "a": [
+    "commandes@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Commande d'ampoules pour l'école",
+  "date": "2026-07-03T15:10:00+02:00",
+  "corps": "Bonjour,\n\nPour l'école Jules-Ferry, merci de nous livrer 20 ampoules LED B22 9 W et 10 tubes LED T8 de 600 mm.\n\nGérard Vaillant\nMairie de Vaumoreau-sur-Indre, services techniques",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

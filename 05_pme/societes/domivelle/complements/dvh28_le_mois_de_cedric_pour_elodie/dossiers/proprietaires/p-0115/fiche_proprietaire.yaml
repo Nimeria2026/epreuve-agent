@@ -1,0 +1,12 @@
+# Fiche du propriétaire p-0115, mandant de Domivelle. Données FICTIVES.
+code: p-0115
+nom: M. Frédéric Pasquier
+adresse: 3 place du Marché, 18999 Montclavel-sur-Cher (FICTIF)
+courriel: frederic.pasquier@boite-postale.example
+telephone: 06 39 98 77 33
+iban: FR76 9999 9548 2271 9036 1184 470 (FICTIF)
+comptes_rendus: par courriel
+lots:
+- c11-08
+- c13-20
+mandat_de_gestion: en cours, honoraires de gestion selon le mandat

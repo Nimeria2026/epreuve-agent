@@ -1,0 +1,106 @@
+{
+  "numero": "CO-2026-02005",
+  "client": "c-0262",
+  "reference_client": null,
+  "cree_le": "2026-07-02T09:10:00+02:00",
+  "cree_par": "benoit.faure",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "1 rue Saint-Martin, 36999 Vendrigny (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-12147",
+      "libelle": "Ruban adhésif de masquage 25 mm, rouleau de 33 m",
+      "quantite": 24,
+      "prix_tarif_ht_euros": 7.45,
+      "remise_pourcent": 6.88,
+      "prix_net_ht_euros": 6.94,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 166.56
+    },
+    {
+      "reference": "ENT-10465",
+      "libelle": "Lavette microfibre bleue, paquet de 10",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 13.45,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 12.91,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 64.55
+    },
+    {
+      "reference": "ENT-10767",
+      "libelle": "Poubelle de tri 50 l",
+      "quantite": 4,
+      "prix_tarif_ht_euros": 45.4,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 43.58,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 174.32
+    },
+    {
+      "reference": "FIX-11412",
+      "libelle": "Crochet en S à visser 40 mm, sachet de 10",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 4.55,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 4.37,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 21.85
+    },
+    {
+      "reference": "PLB-10130",
+      "libelle": "Bonde à grille 32 mm",
+      "quantite": 5,
+      "prix_tarif_ht_euros": 13.2,
+      "remise_pourcent": 4.0,
+      "prix_net_ht_euros": 12.67,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 63.35
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 490.63,
+  "total_tva_euros": 98.13,
+  "total_ttc_euros": 588.76,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01854"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-07-02T09:10:00+02:00",
+      "par": "benoit.faure",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-02T09:12:00+02:00",
+      "par": "benoit.faure",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-07-03T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01854"
+    },
+    {
+      "date": "2026-07-03T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01854"
+    }
+  ]
+}

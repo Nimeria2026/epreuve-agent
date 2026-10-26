@@ -1,0 +1,25 @@
+# Fiche du client c-0246 de Négovelle. Données FICTIVES.
+code: c-0246
+nom: Paysage Hamel
+type: artisan
+adresse: 137 rue du Château, 36999 Vaumoreau-sur-Indre (FICTIF)
+telephone: 02 61 91 82 90
+secteur: nord
+commercial: laurent.gimenez
+administration_des_ventes: manon.rey
+contacts:
+- nom: Robert Hamel
+  fonction: gérant
+  courriel: robert.hamel@paysage-hamel.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 137 rue du Château, 36999 Vaumoreau-sur-Indre (FICTIF)
+categorie_remise: B
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2015-03-01'
+limite_encours_euros: 4500.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

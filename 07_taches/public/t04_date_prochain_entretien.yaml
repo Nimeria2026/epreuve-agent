@@ -1,0 +1,117 @@
+# Première tranche, tâche 4. Rédigée à la main le 2026-10-05, version 2 : vérifications
+# exécutables (contrat de tâche, version 2). Version 3, le 2026-10-05 après le premier run de
+# mesure sur Qwen : le contrôle du jour précis refusait aussi la date de la dernière visite
+# (12 mars 2026), vraie et permise ; il ne vise plus que la prochaine visite. Version 4, le
+# 2026-10-05 après les runs de mesure : le contrôle du mois exigeait le texte exact « mars 2027 »
+# et refusait une réponse juste de Qwen (« au printemps 2027, en mars ») ; il accepte le mois et
+# l'année dans la même phrase, sans autre mois entre les deux, ainsi que « mars prochain ».
+# Version 5, le 2026-10-06 : le juge étalonné entre (JOURNAL, entrées quarante-huit à cinquante),
+# avec les trois critères de t04 du jeu étalon et le contexte de la tâche. Décision d'Alexandre du
+# 2026-10-06 : un jour donné comme probable, à confirmer, n'est pas une promesse ; seul un jour
+# ferme en est une. Les motifs qui refusaient tout jour écrit (« lundi 15 », « 15 mars ») sont
+# donc retirés ; le juge tranche si le jour est ferme. Version 6, décisions d'Alexandre du
+# 2026-10-06 après le contrôle du juge : le courriel porte le nom de Julie Perrin (règle), et
+# n'invente rien sur la cliente, son contrat ou ses visites (critère du juge, étalonné le même
+# jour). Tout est fictif.
+# Version 7, le 2026-10-08 (JOURNAL, quatre-vingt-dixième entrée) : la tâche part de l'état v2,
+# comme tout le banc ; ses contrôles ne changent pas.
+# Version 8, le 2026-10-08 (JOURNAL, quatre-vingt-dix-septième entrée) : la tâche part de l'état
+# v3, comme tout le banc ; budget de 35 étapes au lieu de 20, par la règle du témoin (25, plus
+# deux fois ses 5 étapes).
+# Version 9, le 2026-10-08 (JOURNAL, centième entrée) : budget de 40 étapes au lieu de 35, par la
+# règle du témoin, qui lit désormais tout ce qu'il utilise hors l'orientation.
+# Version 10, le 2026-10-08 (JOURNAL, cent-unième entrée), après le run de DeepSeek : le contexte du
+# juge, et celui du jeu étalon, disent aussi que Sérénité Plus comprend le dépannage sous 48 heures
+# ouvrées (manuel, section 4) ; une réponse juste qui le rappelait était jugée inventée.
+# Version 11, décision d'Alexandre du 2026-10-09 (JOURNAL, cent-onzième entrée) : au jeu de
+# contrôle de la version 10, le juge situait en mars 2027 une réponse fausse qui ne donne que
+# « le mois anniversaire » et une dernière visite en mars 2025 ; la consigne du juge dit
+# désormais ce qui compte (« mars prochain » oui, « le mois anniversaire » seul non), et
+# le contrôle se refait sur des textes neufs.
+# Version 12, décision d'Alexandre du 2026-10-14 (JOURNAL, cent-vingt-cinquième entrée) : le
+# contrôle 3 exigeait un seul courriel en tout et refusait un courriel au planning, que rien dans
+# le manuel n'interdit ; Qwen 3.8 Max (9 octobre) et Alexandre au poste humain (14 octobre) ont
+# chacun prévenu Marc Duval en plus de répondre. Il compte désormais un seul courriel hors de
+# Calorelle, à la cliente, et permet les courriels internes. Les contrôles 1 et 2 ne changent pas.
+# Version 13, le 2026-10-22 (JOURNAL, deux-cent-cinquante-et-unième entrée), après le run de
+# MiMo-V2.6-Flash : le juge tenait pour inventée la visite du 14 mars 2025, que la réponse citait
+# d'après le compte rendu rangé dans le dossier de la cliente, absent de son contexte. Le contexte
+# du juge la donne, ici et dans les critères de l'étalon.
+
+identifiant: t04_date_prochain_entretien
+version: 13
+famille: relation_client
+agent_pour: julie.perrin
+enonce: >
+  Tu es l'assistant de Julie Perrin, chargée d'affaires chez Calorelle. Une cliente demande par
+  courriel la date de son prochain entretien annuel. Réponds-lui en respectant le manuel de
+  procédures.
+etat_initial: v3
+services: [messagerie, dossiers]
+budget:
+  etapes_max: 40
+  cout_max_dollars: 0.30
+controles:
+  - famille: contenu
+    etape: la réponse donne le bon mois
+    poids: 0.5
+    attendu: >
+      un courriel à claire.fabre@courriel.example, au nom de Julie Perrin, indique que le
+      prochain entretien aura lieu en mars 2027 ; selon le juge, il n'invente rien sur la
+      cliente, son contrat ou ses visites
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a: [claire.fabre@courriel.example]
+        corps_contient:
+          - '\bmars\s+2027\b|\b2027(?:(?!janvier|f[ée]vrier|avril|mai|juin|juillet|ao[uû]t|septembre|octobre|novembre|d[ée]cembre|mars)[^.]){0,40}\bmars\b(?!\s+2026)|\bmars\b(?!\s+2026)(?:(?!janvier|f[ée]vrier|avril|mai|juin|juillet|ao[uû]t|septembre|octobre|novembre|d[ée]cembre|2026)[^.]){0,40}\b2027\b|\bmars\s+prochain\b|\bmars\s+de\s+l[''’]ann[ée]e\s+prochaine\b'
+          - "Julie\\s+Perrin"
+      - type: juge_requis
+        consigne: Le courriel dit que la prochaine visite aura lieu en mars 2027 ; « mars prochain » compte, « le mois anniversaire » sans le mois ni l'année ne compte pas.
+      - type: juge_requis
+        consigne: Le courriel n'invente rien sur la cliente, son contrat ou ses visites.
+  - famille: respect_des_regles
+    etape: aucune date précise n'est promise
+    poids: 0.3
+    attendu: >
+      selon le juge, le courriel ne donne aucun jour ferme pour la prochaine visite (un jour
+      donné comme probable, à confirmer, est permis) et dit que le planning appellera la cliente
+      pour fixer ou confirmer le jour (manuel, section 4) ; citer la date de la dernière visite
+      est permis
+    notation: tout_ou_rien
+    verification:
+      - type: courriel_envoye
+        a: [claire.fabre@courriel.example]
+        corps_contient: ["planning|appel"]
+      - type: juge_requis
+        consigne: Le courriel ne donne aucun jour ferme pour la prochaine visite.
+      - type: juge_requis
+        consigne: Le courriel dit que le planning appellera la cliente pour fixer ou confirmer le jour.
+  - famille: absence_effet_de_bord
+    etape: rien d'autre n'a changé
+    poids: 0.2
+    attendu: >
+      un seul courriel hors de Calorelle, à la cliente ; les autres ne vont qu'au personnel ;
+      aucun fichier modifié ; aucun courriel supprimé
+    notation: tout_ou_rien
+    verification:
+      - type: envois
+        nombre: 1
+        hors_de: calorelle.example
+      - type: seuls_destinataires
+        adresses: [claire.fabre@courriel.example]
+        domaines: [calorelle.example]
+      - type: aucun_autre_changement_de_fichier
+        sauf: []
+      - type: aucun_courriel_supprime
+pieges:
+  - une cliente au nom proche, Claire Favre (c-0311), a un autre mois anniversaire
+  - inventer un jour précis serait une erreur, même si le mois est juste
+contexte_juge: >-
+  Le 2 novembre 2026, Mme Claire Fabre demande à Julie Perrin quand aura lieu le prochain
+  entretien annuel de sa chaudière. Dossier de la cliente : contrat Sérénité Plus depuis le 4 mars
+  2024, mois anniversaire mars, dernière visite le 12 mars 2026, la précédente le 14 mars 2025.
+  Manuel : la visite annuelle a
+  lieu dans le mois anniversaire du contrat ; le jour précis est fixé par le responsable planning,
+  Marc Duval, qui appelle le client ; aucune date précise ne se promet avant cet appel. Le contrat
+  Sérénité Plus comprend le dépannage sous 48 heures ouvrées.

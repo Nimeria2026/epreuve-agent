@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-mesa-606",
+  "de": {
+    "nom": "Thierry Ollivier",
+    "adresse": "thierry.ollivier@domivelle.example"
+  },
+  "a": [
+    "melanie.sabatier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Appels de travaux du 1er octobre",
+  "date": "2026-08-28T16:40:00+02:00",
+  "corps": "Mélanie,\n\nÀ ton retour : pour préparer les appels du 1er octobre, y a-t-il des appels de fonds de travaux votés cet été que je n'ai pas encore ?\n\nThierry",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-903",
+  "de": {
+    "nom": "Commune du Pré-Bouvreuil",
+    "adresse": "contact@commune-du-pre-bouvreuil-279.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Consultation : chaufferie de l'école",
+  "date": "2027-01-28T14:00:00+01:00",
+  "corps": "Bonjour,\n\nLa commune consulte pour le remplacement de la chaudière de l'école élémentaire. Le dossier est à retirer en mairie, les offres sont attendues avant le 5 mars.\n\nLe secrétariat de la mairie du Pré-Bouvreuil (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

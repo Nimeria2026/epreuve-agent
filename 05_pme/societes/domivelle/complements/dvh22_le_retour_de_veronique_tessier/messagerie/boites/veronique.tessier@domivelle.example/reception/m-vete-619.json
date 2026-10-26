@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-vete-619",
+  "de": {
+    "nom": "Mme Anne Gauthier",
+    "adresse": "anne.gauthier@messagerie.example"
+  },
+  "a": [
+    "veronique.tessier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Mon dépôt de garantie",
+  "date": "2026-08-17T17:25:00+02:00",
+  "corps": "Madame,\n\nJ'ai rendu les clés de la maison du lot n03-05 le 30 juin, après un état des lieux sans aucune réserve, et je n'ai toujours pas reçu mon dépôt de garantie. Ma nouvelle adresse figure sur l'état des lieux : 12 rue des Tilleuls, 18999 Saint-Aubrin. Quand vais-je être remboursée ?\n\nMme Anne Gauthier",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

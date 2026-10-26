@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01829",
+  "commande": "CO-2026-01980",
+  "client": "c-0314",
+  "date_expedition": "2026-07-02",
+  "date_livraison": "2026-07-02",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "33 zone artisanale du Moulin, 36999 Mérolles-en-Brenne (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "ELP-10441",
+      "libelle": "Embout de vissage T10, étui de 25",
+      "quantite": 12
+    },
+    {
+      "reference": "ELP-11012",
+      "libelle": "Foret métal HSS 3 mm, étui de 10",
+      "quantite": 2
+    }
+  ],
+  "reserves": null,
+  "signataire": "Béatrice Bouchard",
+  "statut": "livre"
+}

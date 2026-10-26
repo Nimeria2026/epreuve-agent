@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-cpt-001",
+  "de": {
+    "nom": "Outillage des Tilleuls",
+    "adresse": "facturation@outillage-des-tilleuls.example"
+  },
+  "a": [
+    "compta@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Facture F31744",
+  "date": "2026-07-02T10:15:00+02:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-jointe notre facture F31744 du 2 juillet 2026, pour votre commande CA-2026-0312 :\n- OUT-10008, Burin plat 150 mm : 60 x 7,39 € HT = 443,40 €\n- OUT-11911, Scie à bûches 250 mm : 24 x 20,85 € HT = 500,40 €\n\nTotal HT : 943,80 € ; TVA 20 % : 188,76 € ; total TTC : 1 132,56 €. Paiement à 45 jours fin de mois.\n\nService facturation\nOutillage des Tilleuls",
+  "pieces_jointes": [
+    {
+      "nom": "F31744.pdf",
+      "fichier": "pieces/m-cpt-001/F31744.pdf",
+      "taille_octets": 798
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

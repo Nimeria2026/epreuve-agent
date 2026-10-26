@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-mesa-001",
+  "de": {
+    "nom": "Yohan Delmas",
+    "adresse": "yohan.delmas@domivelle.example"
+  },
+  "a": [
+    "melanie.sabatier@domivelle.example"
+  ],
+  "cc": [],
+  "objet": "Assemblée de la Résidence Le Bocage, à convoquer",
+  "date": "2026-06-08T08:25:00+02:00",
+  "corps": "Mélanie,\n\nL'assemblée générale de la Résidence Le Bocage (cp05) est arrêtée : jeudi 9 juillet 2026 à 18 h, à la salle des fêtes de Montclavel. Ordre du jour :\n1. Élection du président de séance\n2. Approbation des comptes de l'exercice clos le 31 mars 2026\n3. Budget prévisionnel de l'exercice 2027-2028\n4. Renouvellement du conseil syndical\n5. Ravalement de la façade sur rue : devis et conditions essentielles en annexe\n\nLa convocation, le formulaire de vote par correspondance et les annexes sont rangés dans coproprietes/cp05/assemblee_2026-07-09/. Peux-tu notifier la convocation aujourd'hui ?\n\nYohan",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

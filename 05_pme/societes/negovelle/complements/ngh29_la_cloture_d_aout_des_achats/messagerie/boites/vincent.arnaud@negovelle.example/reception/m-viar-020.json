@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-viar-020",
+  "de": {
+    "nom": "Service comptabilité",
+    "adresse": "facturation@hygiene-des-tilleuls.example"
+  },
+  "a": [
+    "vincent.arnaud@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Relance : facture F-7731",
+  "date": "2026-08-27T14:10:00+02:00",
+  "corps": "Bonjour,\n\nSauf erreur de notre part, notre facture F-7731 du 30 juin, 1 245,60 € TTC, échue le 15 août, reste impayée. Merci de nous indiquer la date de son règlement.\n\nLe service comptabilité\nHygiène des Tilleuls",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

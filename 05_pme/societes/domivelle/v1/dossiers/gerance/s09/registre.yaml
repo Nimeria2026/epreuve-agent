@@ -1,0 +1,47 @@
+# Registre des lots en gestion, s09. Données FICTIVES.
+immeuble: s09
+nature: groupe de maisons
+adresse: 136 rue du Moulin, 18999 Chantebrune (FICTIF)
+secteur: sud
+gestionnaire: Solène Audoin
+distance_agence_km: 9
+annee_construction: 2015
+gardien: false
+copropriete_du_syndic: null
+lots:
+- lot: s09-01
+  type: maison T4
+  surface_m2: 104
+  proprietaire: p-0554
+  locataire: Mme Catherine Lebon
+  entree: '2019-05-08'
+  loyer_hors_charges: 866,00 €
+  provision_sur_charges: 15,00 €
+  depot_de_garantie: 737,00 €
+  revision: chaque 8 mai
+  trimestre_irl: T1
+  dpe: D
+- lot: s09-02
+  type: maison T5
+  surface_m2: 106
+  proprietaire: p-0555
+  locataire: Mme Brigitte Robin
+  entree: '2024-12-25'
+  loyer_hors_charges: 937,00 €
+  provision_sur_charges: 6,00 €
+  depot_de_garantie: 914,00 €
+  revision: chaque 25 décembre
+  trimestre_irl: T3
+  dpe: C
+- lot: s09-03
+  type: maison T4
+  surface_m2: 96
+  proprietaire: p-0556
+  locataire: M. Pascal Pichon
+  entree: '2020-11-01'
+  loyer_hors_charges: 809,00 €
+  provision_sur_charges: 0,00 €
+  depot_de_garantie: 719,00 €
+  revision: chaque 1er novembre
+  trimestre_irl: T3
+  dpe: E

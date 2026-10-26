@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-kb-902",
+  "de": {
+    "nom": "Commune des Grèves",
+    "adresse": "contact@commune-des-greves-332.example"
+  },
+  "a": [
+    "karim.benali@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Salle des fêtes",
+  "date": "2026-12-17T10:00:00+01:00",
+  "corps": "Bonjour,\n\nLe conseil municipal a accepté le 16 décembre votre devis DV-2026-018 pour la chaudière de la salle des fêtes. La salle est louée pour les fêtes jusqu'au dimanche 10 janvier : aucun travail avant le lundi 11 janvier.\n\nLa mairie des Grèves (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

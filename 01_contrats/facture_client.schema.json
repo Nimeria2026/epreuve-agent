@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FactureClient",
+  "description": "Une facture de Calorelle à un client, telle que le service facturation de la PME la garde. Données fictives.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "numero",
+    "client",
+    "date",
+    "objet",
+    "montant_ttc_euros",
+    "payee"
+  ],
+  "properties": {
+    "numero": {
+      "type": "string",
+      "pattern": "^FC-[0-9]{4}-[0-9]{4}$",
+      "description": "Par exemple FC-2026-0412."
+    },
+    "client": {
+      "type": "string",
+      "pattern": "^c-[0-9]{4}$",
+      "description": "Code du client, celui de sa fiche."
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "objet": {
+      "type": "string",
+      "minLength": 1
+    },
+    "montant_ttc_euros": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "payee": {
+      "type": "boolean"
+    }
+  }
+}

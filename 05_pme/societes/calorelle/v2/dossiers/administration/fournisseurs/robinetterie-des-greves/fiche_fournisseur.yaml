@@ -1,0 +1,8 @@
+# Fiche fournisseur Calorelle. Données FICTIVES.
+nom: "Robinetterie des Grèves"
+activite: "robinetterie"
+adresse: "57 zone d'activité de Sablonnet, 45999 Valmont-sur-Loire (FICTIF)"
+telephone: "02 61 91 20 46"
+courriel_facturation: "compta@robinetterie-des-greves.example"
+iban: "FR76 9999 9937 6484 5187 8872 957 (FICTIF)"
+conditions: "paiement à 30 jours"

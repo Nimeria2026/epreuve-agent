@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01714",
+  "commande": "CO-2026-01865",
+  "client": "c-0224",
+  "date_expedition": "2026-06-25",
+  "date_livraison": "2026-06-25",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "13 parc d'activités de la Gare, 36999 Ardillac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "CON-10359",
+      "libelle": "Colle vinylique, tube de 125 ml",
+      "quantite": 5
+    },
+    {
+      "reference": "ELE-12441",
+      "libelle": "Interrupteur double va-et-vient, blanc",
+      "quantite": 2
+    }
+  ],
+  "reserves": null,
+  "signataire": "Roger Baudouin",
+  "statut": "livre"
+}

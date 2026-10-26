@@ -1,0 +1,20 @@
+{
+  "name": "@poa/gardien",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Gardien : passerelle MCP entre EASE et les serveurs de la PME, qui trace chaque appel et applique des règles",
+  "type": "module",
+  "bin": {
+    "poa-gardien": "./src/principal.ts"
+  },
+  "scripts": {
+    "start": "node src/principal.ts",
+    "test": "node --test --test-reporter=spec \"tests/**/*.test.ts\"",
+    "types": "tsc --noEmit -p ."
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.0",
+    "@poa/commun": "workspace:*",
+    "yaml": "^2.8.0"
+  }
+}

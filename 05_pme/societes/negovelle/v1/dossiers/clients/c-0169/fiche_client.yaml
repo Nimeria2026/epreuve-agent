@@ -1,0 +1,28 @@
+# Fiche du client c-0169 de Négovelle. Données FICTIVES.
+code: c-0169
+nom: Paysage Monnier
+type: artisan
+adresse: 12 rue de l'Église, 36999 Ardillac (FICTIF)
+telephone: 02 61 91 81 37
+secteur: est
+commercial: fabrice.mercier
+administration_des_ventes: benoit.faure
+contacts:
+- nom: Valérie Clerc
+  fonction: gérante
+  courriel: valerie.clerc@paysage-monnier.example
+- nom: Julien Bonneau
+  fonction: conjoint collaborateur
+  courriel: julien.bonneau@paysage-monnier.example
+adresses_livraison:
+- code: L1
+  libelle: siège
+  adresse: 12 rue de l'Église, 36999 Ardillac (FICTIF)
+categorie_remise: A
+delai_paiement: 30_jours_date_de_facture
+client_depuis: '2025-03-01'
+limite_encours_euros: 4000.0
+livraisons_partielles: true
+substitution_acceptee: false
+statut: ouvert
+motif_blocage: null

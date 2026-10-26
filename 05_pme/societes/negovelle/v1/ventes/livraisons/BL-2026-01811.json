@@ -1,0 +1,29 @@
+{
+  "numero": "BL-2026-01811",
+  "commande": "CO-2026-01962",
+  "client": "c-0170",
+  "date_expedition": "2026-07-01",
+  "date_livraison": "2026-07-01",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "130 chemin du Bois, 36999 Vendrigny (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "OUT-12596",
+      "libelle": "Spatule à reboucher 40 mm",
+      "quantite": 2
+    },
+    {
+      "reference": "VIS-11976",
+      "libelle": "Vis à bois tête fraisée 4,5x50, bichromatée, boîte de 200",
+      "quantite": 4
+    }
+  ],
+  "reserves": null,
+  "signataire": "Étienne Lecoq",
+  "statut": "livre"
+}

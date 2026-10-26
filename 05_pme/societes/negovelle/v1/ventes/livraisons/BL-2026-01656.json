@@ -1,0 +1,24 @@
+{
+  "numero": "BL-2026-01656",
+  "commande": "CO-2026-01807",
+  "client": "c-0144",
+  "date_expedition": "2026-06-23",
+  "date_livraison": "2026-06-23",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "85 rue du Four, 36999 Laubrissac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "FIX-10833",
+      "libelle": "Cheville à frapper 5x30, boîte de 100",
+      "quantite": 2
+    }
+  ],
+  "reserves": null,
+  "signataire": "Josiane Drouet",
+  "statut": "livre"
+}

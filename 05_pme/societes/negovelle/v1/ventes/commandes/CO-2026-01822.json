@@ -1,0 +1,123 @@
+{
+  "numero": "CO-2026-01822",
+  "client": "c-0020",
+  "reference_client": null,
+  "cree_le": "2026-06-23T09:10:00+02:00",
+  "cree_par": "manon.rey",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "12 rue des Forges, 36999 Brissonne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "CON-10669",
+      "libelle": "Disque abrasif auto-agrippant 150 mm, grain 60, boîte de 50",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 32.45,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 32.45,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 324.5
+    },
+    {
+      "reference": "CON-11657",
+      "libelle": "Papier abrasif corindon, grain 120, rouleau de 25 m",
+      "quantite": 10,
+      "prix_tarif_ht_euros": 47.7,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 47.7,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 477.0
+    },
+    {
+      "reference": "ELE-12727",
+      "libelle": "Prise de courant double 2P+T, anthracite",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 20.7,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 20.7,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 124.2
+    },
+    {
+      "reference": "OUT-11714",
+      "libelle": "Pince à bec long 160 mm",
+      "quantite": 1,
+      "prix_tarif_ht_euros": 29.35,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 29.35,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 29.35
+    },
+    {
+      "reference": "OUT-12931",
+      "libelle": "Truelle ronde 140 mm",
+      "quantite": 2,
+      "prix_tarif_ht_euros": 23.8,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 23.8,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 47.6
+    },
+    {
+      "reference": "QUI-11412",
+      "libelle": "Coulisse de tiroir à sortie totale 550 mm, la paire",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 11.25,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 11.25,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 67.5
+    }
+  ],
+  "port_ht_euros": 0.0,
+  "total_ht_euros": 1070.15,
+  "total_tva_euros": 214.03,
+  "total_ttc_euros": 1284.18,
+  "statut": "facturee",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01671"
+  ],
+  "facture": "FC-2026-1016",
+  "historique": [
+    {
+      "date": "2026-06-23T09:10:00+02:00",
+      "par": "manon.rey",
+      "action": "creee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-23T09:12:00+02:00",
+      "par": "manon.rey",
+      "action": "validee",
+      "detail": ""
+    },
+    {
+      "date": "2026-06-24T07:30:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01671"
+    },
+    {
+      "date": "2026-06-24T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01671"
+    },
+    {
+      "date": "2026-06-30T18:00:00+02:00",
+      "par": "isabelle.royer",
+      "action": "facturee",
+      "detail": "FC-2026-1016"
+    }
+  ]
+}

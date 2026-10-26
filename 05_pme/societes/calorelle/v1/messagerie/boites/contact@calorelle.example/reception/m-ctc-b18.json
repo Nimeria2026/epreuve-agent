@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-b18",
+  "de": {
+    "nom": "Anne Legrand",
+    "adresse": "anne.legrand@courriel.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Salon de l'habitat",
+  "date": "2026-10-27T11:02:00+01:00",
+  "corps": "Bonjour,\n\nSerez-vous présents au salon de l'habitat ? Invitation FICTIVE.\n\nAnne Legrand (FICTIF)",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

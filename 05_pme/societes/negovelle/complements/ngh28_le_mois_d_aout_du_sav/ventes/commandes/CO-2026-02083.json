@@ -1,0 +1,62 @@
+{
+  "numero": "CO-2026-02083",
+  "client": "c-0141",
+  "reference_client": null,
+  "cree_le": "2026-08-04T10:00:00+02:00",
+  "cree_par": "oceane.collin",
+  "mode": "standard",
+  "livraison": {
+    "code": "L1",
+    "adresse": "36 rue des Lilas, 36999 Mérolles-en-Brenne (FICTIF)"
+  },
+  "lignes": [
+    {
+      "reference": "PRO-10424",
+      "libelle": "Casque antibruit serre-tête SNR 30 dB",
+      "quantite": 6,
+      "prix_tarif_ht_euros": 43.05,
+      "remise_pourcent": 0.0,
+      "prix_net_ht_euros": 43.05,
+      "prix_derogatoire": false,
+      "taux_tva": 20,
+      "montant_ht_euros": 258.3
+    }
+  ],
+  "port_ht_euros": 15.0,
+  "total_ht_euros": 273.3,
+  "total_tva_euros": 54.66,
+  "total_ttc_euros": 327.96,
+  "statut": "livree",
+  "motif_attente": null,
+  "reliquat_de": null,
+  "livraisons": [
+    "BL-2026-01903"
+  ],
+  "facture": null,
+  "historique": [
+    {
+      "date": "2026-08-04T10:00:00+02:00",
+      "par": "oceane.collin",
+      "action": "creee",
+      "detail": "commande du client"
+    },
+    {
+      "date": "2026-08-04T10:05:00+02:00",
+      "par": "oceane.collin",
+      "action": "validee",
+      "detail": "stock réservé"
+    },
+    {
+      "date": "2026-08-05T16:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "expediee",
+      "detail": "BL-2026-01903"
+    },
+    {
+      "date": "2026-08-05T11:00:00+02:00",
+      "par": "gilles.poirier",
+      "action": "livree",
+      "detail": "BL-2026-01903"
+    }
+  ]
+}

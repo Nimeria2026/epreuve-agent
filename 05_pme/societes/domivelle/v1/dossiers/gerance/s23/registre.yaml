@@ -1,0 +1,102 @@
+# Registre des lots en gestion, s23. Données FICTIVES.
+immeuble: s23
+nature: immeuble collectif
+adresse: 40 rue de la Halle, 18999 Chantebrune (FICTIF)
+secteur: sud
+gestionnaire: Solène Audoin
+distance_agence_km: 8
+annee_construction: 1969
+gardien: false
+copropriete_du_syndic: cp43
+lots:
+- lot: s23-01
+  type: T3
+  surface_m2: 55
+  etage: 0
+  proprietaire: p-0640
+  locataire: Mme Josiane Huet
+  entree: '2025-05-13'
+  loyer_hors_charges: 494,00 €
+  provision_sur_charges: 104,00 €
+  depot_de_garantie: 482,00 €
+  revision: chaque 13 mai
+  trimestre_irl: T1
+  dpe: E
+- lot: s23-02
+  type: T2
+  surface_m2: 49
+  etage: 0
+  proprietaire: p-0646
+  locataire: M. Vincent Faure
+  entree: '2024-12-09'
+  loyer_hors_charges: 453,00 €
+  provision_sur_charges: 73,00 €
+  depot_de_garantie: 442,00 €
+  revision: chaque 9 décembre
+  trimestre_irl: T3
+  dpe: E
+- lot: s23-03
+  type: T3
+  surface_m2: 62
+  etage: 0
+  proprietaire: p-0605
+  locataire: M. Christian Buisson
+  entree: '2019-04-09'
+  loyer_hors_charges: 555,00 €
+  provision_sur_charges: 37,00 €
+  depot_de_garantie: 472,00 €
+  revision: chaque 9 avril
+  trimestre_irl: T4
+  dpe: D
+- lot: s23-04
+  type: T2
+  surface_m2: 43
+  etage: 0
+  proprietaire: p-0647
+  locataire: Mme Florence Étienne
+  entree: '2025-07-11'
+  loyer_hors_charges: 368,00 €
+  provision_sur_charges: 51,00 €
+  depot_de_garantie: 368,00 €
+  revision: chaque 11 juillet
+  trimestre_irl: T1
+  dpe: F
+- lot: s23-05
+  type: T3
+  surface_m2: 60
+  etage: 1
+  proprietaire: p-0648
+  locataire: M. Étienne Leblanc
+  entree: '2020-11-20'
+  loyer_hors_charges: 481,00 €
+  provision_sur_charges: 106,00 €
+  depot_de_garantie: 428,00 €
+  revision: chaque 20 novembre
+  trimestre_irl: T3
+  dpe: C
+- lot: s23-06
+  type: T3
+  surface_m2: 65
+  etage: 1
+  proprietaire: p-0590
+  locataire: Mme Hélène Perrot
+  entree: '2024-07-31'
+  loyer_hors_charges: 603,00 €
+  provision_sur_charges: 83,00 €
+  depot_de_garantie: 588,00 €
+  revision: chaque 31 juillet
+  trimestre_irl: T1
+  dpe: F
+- lot: s23-07
+  type: T4
+  surface_m2: 74
+  etage: 1
+  proprietaire: p-0649
+  locataire: Mme Béatrice Cordier
+  entree: '2019-06-18'
+  loyer_hors_charges: 628,00 €
+  provision_sur_charges: 84,00 €
+  depot_de_garantie: 546,00 €
+  revision: chaque 18 juin
+  trimestre_irl: T1
+  dpe: G

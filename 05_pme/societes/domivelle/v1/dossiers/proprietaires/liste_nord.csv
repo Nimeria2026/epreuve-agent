@@ -1,0 +1,248 @@
+code;nom;lots
+p-0001;SCI Les Cèdres;n01-01 n04-03 n05-03
+p-0002;M. Albert Perrot;n01-02 n01-03 n01-11 n03-04 n05-17
+p-0003;Mme Sylvie Laurent;n01-04 n02-10 n07-06
+p-0004;Mme Alice Besnard;n01-05 n01-06 n01-13 n02-07 n02-09
+p-0005;Mme Manon Perrot;n01-07 n02-03 n02-06 n05-05
+p-0006;Mme Denise Bourdon;n01-08 n04-01 n05-01 n05-14
+p-0007;M. Didier Leroux;n01-09 n04-05 n07-01
+p-0008;M. Claude Devaux;n01-10 n02-08 n06-06
+p-0009;M. Étienne Bourdon;n01-12 n05-06
+p-0010;Mme Denise Labbé;n01-14 n02-01 n03-03
+p-0011;Mme Alice Pagès;n02-02 n03-06
+p-0012;Mme Camille Jacob;n02-04
+p-0013;Mme Josiane Texier;n02-05 n05-11
+p-0014;M. Luc Faure;n02-11 n03-01 n03-02 n06-07
+p-0015;SCI Le Bocage;n02-12 n04-09
+p-0016;Mme Christine Langlois;n03-05 n04-06 n05-12
+p-0281;M. Éric Berthier;n04-02 n05-07
+p-0282;Mme Caroline Courtois;n04-04 n04-14 n11-02
+p-0283;M. Albert Godard;n04-07 n04-13 n05-04 n13-02
+p-0284;M. Daniel Thibault;n04-08 n12-02
+p-0285;M. Serge Texier;n04-10 n12-11
+p-0286;Mme Amandine Courtois;n04-11 n09-02 n10-06
+p-0287;M. Joël Lejeune;n04-12 n07-05 n09-05 n12-12
+p-0288;Mme Inès Gaillard;n05-02
+p-0289;Mme Catherine Rolland;n05-08
+p-0290;M. Maxime Dupuy;n05-09
+p-0291;Mme Florence Gilbert;n05-10
+p-0292;Mme Camille Noël;n05-13
+p-0293;Mme Alice Brunet;n05-15 n07-02
+p-0294;Mme Julie Coste;n05-16
+p-0295;Mme Martine Texier;n05-18 n09-09
+p-0296;Mme Valérie Godard;n05-19
+p-0297;Mme Béatrice Olivier;n06-01
+p-0298;Mme Catherine Bourdon;n06-02 n06-04 n08-02
+p-0299;M. Claude Michaud;n06-03 n07-03 n09-08 n09-19
+p-0300;M. Xavier Aubert;n06-05 n09-11
+p-0301;Mme Florence Baudin;n07-04 n13-04
+p-0302;M. Maxime Lévêque;n08-01
+p-0303;M. Hugo Meunier;n08-03
+p-0304;M. Gilles Aubert;n08-04
+p-0305;M. Éric Lesage;n08-05
+p-0306;Mme Sylvie Bertin;n08-06
+p-0307;Mme Alice Chapuis;n09-01
+p-0308;Mme Amandine Legrand;n09-03
+p-0309;SCI Le Carré Pasteur Invest;n09-04
+p-0310;Mme Amandine Colas;n09-06 n09-10
+p-0311;Mme Corinne Millet;n09-07
+p-0312;Mme Caroline Olivier;n09-12
+p-0313;M. Denis Bonnet;n09-13
+p-0314;Mme Béatrice Garnier;n09-14 n15-05
+p-0315;M. Sylvain Ferrand;n09-15
+p-0316;M. Gérard Simon;n09-16 n18-02
+p-0317;Mme Émilie Blondel;n09-17
+p-0318;M. Hugo Bouchet;n09-18
+p-0319;M. Gérard Lebon;n09-20
+p-0320;M. Sylvain Ferry;n09-21 n14-02 n19-01
+p-0321;M. Hervé Buisson;n10-01
+p-0322;Mme Sylvie Jourdan;n10-02
+p-0323;SCI Les Marronniers;n10-03 n10-07
+p-0324;M. Joël Gomez;n10-04
+p-0325;M. Xavier Rivière;n10-05
+p-0326;Mme Monique Lacroix;n11-01 n18-08
+p-0327;Mme Sandrine Germain;n11-03
+p-0328;M. Xavier Boisseau;n11-04
+p-0329;M. Bernard Carpentier;n12-01 n20-04
+p-0330;Mme Laure Gaillard;n12-03
+p-0331;SCI Les Jardins de la Halle Invest;n12-04
+p-0332;Mme Madeleine Chapuis;n12-05
+p-0333;M. Daniel Rousset;n12-06
+p-0334;M. Jean Fabre;n12-07
+p-0335;Mme Corinne Julien;n12-08 n21-04
+p-0336;M. Roger Fabre;n12-09 n22-04
+p-0337;M. Sylvain Garnier;n12-10
+p-0338;M. François Vasseur;n12-13 n13-03 n16-02
+p-0339;M. Luc Jourdan;n13-01 n15-02
+p-0340;Mme Monique Jacquet;n13-05 n22-11
+p-0341;Mme Catherine Maillot;n13-06
+p-0342;Mme Pauline Sanchez;n13-07
+p-0343;M. Xavier Tanguy;n14-01
+p-0344;Mme Léa Lacroix;n14-03
+p-0345;M. François Coste;n14-04
+p-0346;M. Bernard Laurent;n14-05
+p-0347;M. Étienne Brunet;n14-06 n21-09
+p-0348;Mme Béatrice Jacquet;n15-01 n21-17
+p-0349;Mme Simone Vincent;n15-03 n18-05
+p-0350;Mme Christine Leclerc;n15-04
+p-0351;Mme Valérie Langlois;n15-06 n16-01 n22-08
+p-0352;Mme Suzanne Poirier;n15-07
+p-0353;SCI Le Clos des Vignes;n16-03 n22-15
+p-0354;M. Gérard Lainé;n16-04
+p-0355;M. Gilles Rousset;n16-05
+p-0356;Mme Suzanne Durand;n16-06
+p-0357;M. Paul Fleury;n16-07
+p-0358;Mme Delphine Masse;n16-08 n18-07 n21-08
+p-0359;M. René Maillot;n16-09
+p-0360;M. Éric Delattre;n16-10 n22-19 n24-07
+p-0361;M. Joël Carpentier;n17-01 n18-04 n24-01
+p-0362;M. Jacques Brun;n17-02
+p-0363;SCI Le Square des Écoles Famille;n17-03
+p-0364;Mme Yvette Hébert;n17-04 n22-25
+p-0365;Mme Aurélie Giraud;n17-05
+p-0366;SCI Le Panorama;n17-06
+p-0367;M. Julien Chapuis;n17-07
+p-0368;Mme Aurélie Picot;n17-08
+p-0369;Mme Sophie Millet;n18-01
+p-0370;Mme Yvette Carpentier;n18-03
+p-0371;M. Arnaud Buisson;n18-06
+p-0372;M. Robert Lejeune;n18-09 n22-16
+p-0373;Mme Geneviève Lemaire;n19-02 n21-02
+p-0374;Mme Odile Labbé;n19-03
+p-0375;Mme Monique Poirier;n20-01
+p-0376;Mme Sylvie Ferry;n20-02 n20-05
+p-0377;M. Daniel Moreau;n20-03
+p-0378;M. Maxime Tanguy;n21-01
+p-0379;SCI Les Lauriers Famille;n21-03 n21-19
+p-0380;Mme Manon Michaud;n21-05 n25-06
+p-0381;Mme Amandine Lamy;n21-06 n26-04
+p-0382;M. Jérôme Delorme;n21-07 n22-22
+p-0383;M. Albert Petitjean;n21-10 n23-03 n23-05
+p-0384;SCI Les Glycines;n21-11 n25-03
+p-0385;SCI Les Charmilles Famille;n21-12
+p-0386;Mme Isabelle Vasseur;n21-13
+p-0387;Mme Sylvie Navarro;n21-14
+p-0388;Mme Hélène Raymond;n21-15 n22-13
+p-0389;SCI Les Terrasses du Cher Invest;n21-16 n25-17 n27-06 n27-08
+p-0390;Mme Béatrice Muller;n21-18 n25-21
+p-0391;M. Louis Laurent;n21-20 n23-08
+p-0392;M. Joël Vallée;n22-01
+p-0393;Mme Alice Picot;n22-02 n26-10
+p-0394;Mme Émilie Godard;n22-03
+p-0395;Mme Émilie Carpentier;n22-05
+p-0396;Mme Lucie Rolland;n22-06
+p-0397;Mme Suzanne Vallée;n22-07
+p-0398;M. Robert Faure;n22-09
+p-0399;M. Jacques Julien;n22-10
+p-0400;M. Maxime Bourdon;n22-12
+p-0401;Mme Chantal Fournier;n22-14 n28-04
+p-0402;SCI Le Moulin Neuf;n22-17 n27-07 n28-05
+p-0403;M. Antoine Lacroix;n22-18
+p-0404;M. Dominique Lecomte;n22-20
+p-0405;SCI Les Roseraies;n22-21
+p-0406;M. Gilles Julien;n22-23
+p-0407;M. Laurent Brun;n22-24
+p-0408;M. Jean Bourdon;n22-26 n24-03
+p-0409;M. Étienne Jourdan;n23-01 n26-03
+p-0410;SCI Les Bruyères Invest;n23-02
+p-0411;M. Michel Lacroix;n23-04 n23-07
+p-0412;M. Dominique Poirier;n23-06
+p-0413;M. Claude Giraud;n24-02
+p-0414;Mme Manon Chabert;n24-04
+p-0415;Mme Claire Rousset;n24-05
+p-0416;M. Denis Dupuy;n24-06
+p-0417;SCI Les Aubépines;n24-08 n25-15
+p-0418;Mme Béatrice Lacroix;n25-01
+p-0419;M. Bruno Pagès;n25-02 n25-16 n32-04
+p-0420;Mme Geneviève Chauvet;n25-04
+p-0421;M. Henri Vasseur;n25-05
+p-0422;M. Serge Poirier;n25-07 n28-03
+p-0423;M. Serge Lemaire;n25-08
+p-0424;M. Éric Muller;n25-09
+p-0425;M. Michel Boulanger;n25-10
+p-0426;Mme Émilie Lefort;n25-11
+p-0427;Mme Julie Fabre;n25-12 n29-08 n30-02
+p-0428;M. Claude Lacroix;n25-13 n30-06
+p-0429;Mme Nathalie Rolland;n25-14 n26-05 n30-03
+p-0430;M. Bernard Germain;n25-18 n26-06
+p-0431;M. François Laporte;n25-19
+p-0432;SCI Le Clos Fleuri Invest;n25-20 n33-01
+p-0433;Mme Isabelle Bourdon;n26-01 n31-05
+p-0434;Mme Léa Laurent;n26-02 n31-07
+p-0435;M. Arnaud Pichon;n26-07
+p-0436;M. Louis Perrot;n26-08 n29-04
+p-0437;M. Marcel Maréchal;n26-09
+p-0438;Mme Inès Chevalier;n27-01 n36-07
+p-0439;Mme Catherine Vidal;n27-02 n30-04 n35-01
+p-0440;M. François Mathieu;n27-03
+p-0441;M. Bruno Roy;n27-04
+p-0442;Mme Lucie Bourgeois;n27-05 n31-10
+p-0443;Mme Lucie Labbé;n27-09
+p-0444;Mme Marion Sanchez;n27-10 n36-14
+p-0445;M. Henri Bourgeois;n27-11 n28-01 n35-04
+p-0446;M. Christian Masse;n27-12 n32-02
+p-0447;M. Henri Camus;n27-13
+p-0448;Mme Caroline Lesage;n27-14 n30-12 n31-12
+p-0449;Mme Manon Lemaire;n27-15 n29-02 n36-08
+p-0450;M. Claude Bourdon;n27-16
+p-0451;M. Jacques Joly;n27-17 n31-02
+p-0452;M. Philippe Perret;n28-02 n30-08 n37-07
+p-0453;M. Patrice Chevalier;n28-06 n31-04
+p-0454;SCI Le Cours des Remparts Invest;n28-07
+p-0455;SCI Le Vallon Invest;n29-01
+p-0456;SCI Le Prieuré;n29-03
+p-0457;M. Jérôme Aubert;n29-05 n34-03 n36-01
+p-0458;SCI Le Parc des Ormes Famille;n29-06
+p-0459;Mme Caroline Bouchet;n29-07
+p-0460;M. Bruno Fontaine;n29-09 n29-10
+p-0461;M. Serge Hubert;n29-11 n31-15
+p-0462;M. Laurent Texier;n30-01
+p-0463;M. Daniel Giraud;n30-05 n32-06
+p-0464;Mme Florence Duval;n30-07
+p-0465;M. Dominique Aubert;n30-09 n32-01
+p-0466;Mme Monique Langlois;n30-10
+p-0467;Mme Monique Navarro;n30-11
+p-0468;Mme Claire Vasseur;n30-13 n32-05 n37-05
+p-0469;M. Maxime Cordier;n30-14
+p-0470;Mme Christine Renard;n31-01
+p-0471;Mme Sophie Meyer;n31-03
+p-0472;M. Pascal Jacob;n31-06
+p-0473;Mme Aurélie Marie;n31-08
+p-0474;M. Denis Hébert;n31-09
+p-0475;M. Arnaud Fontaine;n31-11 n34-01
+p-0476;SCI Les Jardins de la Halle;n31-13
+p-0477;Mme Sylvie Noël;n31-14
+p-0478;Mme Denise Tanguy;n32-03 n35-07
+p-0479;SCI Le Parc des Ormes Invest;n33-02 n37-06
+p-0480;SCI Le Clos du Lavoir Invest;n33-03
+p-0481;Mme Brigitte Lacroix;n34-02
+p-0482;Mme Émilie Rolland;n35-02 n35-08 n36-06
+p-0483;M. Sylvain Lefort;n35-03
+p-0484;M. Jacques Bourgeois;n35-05
+p-0485;M. François Lamy;n35-06
+p-0486;Mme Amandine Perrot;n36-02 n36-10
+p-0487;M. Daniel Marchand;n36-03
+p-0488;Mme Émilie Brunet;n36-04
+p-0489;Mme Josiane Meyer;n36-05
+p-0490;M. Philippe Jacob;n36-09
+p-0491;M. Pierre Gilbert;n36-11
+p-0492;Mme Monique Petitjean;n36-12
+p-0493;M. André Noël;n36-13 n37-01
+p-0494;M. Gilles Bénard;n36-15 n36-16
+p-0495;Mme Nathalie Hubert;n36-17 n37-02
+p-0496;M. Gérard Ferry;n36-18
+p-0497;M. Paul Buisson;n36-19
+p-0498;Mme Brigitte Pasquier;n36-20 n36-21
+p-0499;M. Didier Ferry;n36-22
+p-0500;Mme Estelle Guillot;n36-23
+p-0501;M. Paul Bonnet;n37-03
+p-0502;Mme Alice Gilbert;n37-04
+p-0503;Mme Simone Barbier;n37-08
+p-0504;Mme Brigitte Perrot;n37-09
+p-0505;M. Étienne Lacroix;n37-10
+p-0506;Mme Hélène Pasquier;n37-11
+p-0507;M. Robert Leclerc;n37-12
+p-0508;M. Julien Couturier;n38-01
+p-0509;Mme Christine Charpentier;n38-02
+p-0510;Mme Jeanne Garnier;n38-03
+p-0511;Mme Suzanne Bonnet;n38-04

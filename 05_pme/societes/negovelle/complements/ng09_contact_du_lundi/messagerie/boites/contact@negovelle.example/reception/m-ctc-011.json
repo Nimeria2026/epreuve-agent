@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-ctc-011",
+  "de": {
+    "nom": "Alexis Brochard",
+    "adresse": "alexis.brochard@mel-perso.example"
+  },
+  "a": [
+    "contact@negovelle.example"
+  ],
+  "cc": [],
+  "objet": "Candidature au poste de préparateur",
+  "date": "2026-07-06T06:50:00+02:00",
+  "corps": "Madame, Monsieur,\n\nJe vous adresse ma candidature au poste de préparateur de commandes. Mon CV est joint.\n\nAlexis Brochard",
+  "pieces_jointes": [
+    {
+      "nom": "cv_alexis_brochard.pdf",
+      "fichier": "pieces/m-ctc-011/cv_alexis_brochard.pdf",
+      "taille_octets": 765
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

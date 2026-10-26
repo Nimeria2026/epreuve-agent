@@ -1,0 +1,34 @@
+{
+  "numero": "BL-2026-01663",
+  "commande": "CO-2026-01814",
+  "client": "c-0053",
+  "date_expedition": "2026-06-23",
+  "date_livraison": "2026-06-23",
+  "transport": {
+    "mode": "flotte",
+    "transporteur": null,
+    "recepisse": null
+  },
+  "adresse": "32 zone d'activités des Grands Prés, 36999 Laubrissac (FICTIF)",
+  "colis": 1,
+  "lignes": [
+    {
+      "reference": "CON-11821",
+      "libelle": "Papier abrasif toile, grain 180, rouleau de 50 m",
+      "quantite": 5
+    },
+    {
+      "reference": "VIS-11135",
+      "libelle": "Vis à bois tête fraisée 3,5x80, inox A2, boîte de 200",
+      "quantite": 5
+    },
+    {
+      "reference": "VIS-11894",
+      "libelle": "Vis à bois tête fraisée 4,5x40, inox A2, boîte de 500",
+      "quantite": 6
+    }
+  ],
+  "reserves": null,
+  "signataire": "Anne Cadiou",
+  "statut": "livre"
+}

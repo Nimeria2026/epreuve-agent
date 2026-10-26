@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-jp-201",
+  "de": {
+    "nom": "Denis Vincent",
+    "adresse": "denis.vincent@courriel.example"
+  },
+  "a": [
+    "julie.perrin@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Passage en Sérénité Plus",
+  "date": "2026-11-02T08:05:00+01:00",
+  "corps": "Bonjour Madame Perrin,\n\nJe souhaite passer de la formule Sérénité à la formule Sérénité Plus à partir du 1er décembre, pour bénéficier du dépannage rapide cet hiver. Combien dois-je payer pour cette année ?\n\nCordialement,\nDenis Vincent, 91 rue de la Loire (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

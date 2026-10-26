@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-308",
+  "de": {
+    "nom": "Transports de Sablonnet",
+    "adresse": "compta@transports-de-sablonnet.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Relance : facture TS-08812",
+  "date": "2026-11-02T07:44:00+01:00",
+  "corps": "Bonjour,\n\nNotre facture TS-08812 du 14 octobre arrive à échéance le 13 novembre. Merci de nous confirmer sa mise en paiement.\n\nService comptable, Transports de Sablonnet (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

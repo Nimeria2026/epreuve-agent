@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-ctc-310",
+  "de": {
+    "nom": "Syndic de la Résidence du Clos-Fargeau",
+    "adresse": "contact@syndic-de-la-residence-du-clos-fargeau-402.example"
+  },
+  "a": [
+    "contact@calorelle.example"
+  ],
+  "cc": [],
+  "objet": "Réclamation : visite d'octobre",
+  "date": "2026-11-02T07:57:00+01:00",
+  "corps": "Madame, Monsieur,\n\nNous contestons la visite d'entretien d'octobre : le technicien n'est resté que vingt minutes pour une chaufferie de trente logements. Nous attendons vos explications.\n\nLe syndic de la Résidence du Clos-Fargeau, 63 impasse des Saules (FICTIF)",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

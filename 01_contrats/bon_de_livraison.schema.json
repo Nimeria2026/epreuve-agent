@@ -1,0 +1,160 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BonDeLivraison",
+  "description": "Un bon de livraison de Négovelle, tel que le service de ventes le garde dans ventes/livraisons/ : ce qui est parti, comment, et ce que le client a écrit en le recevant. Données fictives.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "numero",
+    "commande",
+    "client",
+    "date_expedition",
+    "date_livraison",
+    "transport",
+    "adresse",
+    "colis",
+    "lignes",
+    "reserves",
+    "signataire",
+    "statut"
+  ],
+  "properties": {
+    "numero": {
+      "type": "string",
+      "pattern": "^BL-[0-9]{4}-[0-9]{5}$",
+      "description": "Par exemple BL-2026-01544."
+    },
+    "commande": {
+      "type": "string",
+      "pattern": "^CO-[0-9]{4}-[0-9]{5}$",
+      "description": "Par exemple CO-2026-01873."
+    },
+    "client": {
+      "type": "string",
+      "pattern": "^c-[0-9]{4}$",
+      "description": "Code du client, celui de sa fiche."
+    },
+    "date_expedition": {
+      "type": "string",
+      "format": "date"
+    },
+    "date_livraison": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "transport": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "mode",
+        "transporteur",
+        "recepisse"
+      ],
+      "properties": {
+        "mode": {
+          "type": "string",
+          "enum": [
+            "flotte",
+            "transporteur"
+          ]
+        },
+        "transporteur": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+              "description": "Dossier de la fiche du fournisseur, lue par le service des achats."
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "La fiche du transporteur, null pour la flotte de la PME."
+        },
+        "recepisse": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Numéro du récépissé du transporteur, ou null."
+        }
+      }
+    },
+    "adresse": {
+      "type": "string",
+      "minLength": 1
+    },
+    "colis": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "lignes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "reference",
+          "libelle",
+          "quantite"
+        ],
+        "properties": {
+          "reference": {
+            "type": "string",
+            "pattern": "^[A-Z]{3}-[0-9]{5}$",
+            "description": "Référence du catalogue, par exemple VIS-01482."
+          },
+          "libelle": {
+            "type": "string",
+            "minLength": 1
+          },
+          "quantite": {
+            "type": "integer",
+            "minimum": 1
+          }
+        }
+      }
+    },
+    "reserves": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Réserves portées au récépissé ou au bon à la livraison, mot pour mot, ou null."
+    },
+    "signataire": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "statut": {
+      "type": "string",
+      "enum": [
+        "en_cours",
+        "livre",
+        "refuse"
+      ]
+    }
+  }
+}
