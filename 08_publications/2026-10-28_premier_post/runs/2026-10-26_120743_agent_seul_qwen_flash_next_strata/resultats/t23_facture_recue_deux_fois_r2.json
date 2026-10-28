@@ -1,0 +1,41 @@
+{
+  "run": "2026-10-26_120743_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "t23_facture_recue_deux_fois",
+    "version": 2
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-26T14:08:12.901850Z",
+  "fin_utc": "2026-10-26T14:08:56.433415Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 15,
+  "jetons": {
+    "entree": 47874,
+    "entree_en_cache": 41584,
+    "sortie": 2428
+  },
+  "cout_dollars": "?",
+  "energie_wh": 2.808089986420229,
+  "duree_secondes": 43.53156126199974,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t23_facture_recue_deux_fois_r2.jsonl"
+}

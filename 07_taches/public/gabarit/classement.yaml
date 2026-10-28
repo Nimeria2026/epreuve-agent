@@ -1,0 +1,91 @@
+# Classement des tâches publiques (contrat 01_contrats/classement.schema.json ; JOURNAL, entrées 121,
+# 125 et 154). Écrit par ease.classement : make classement VERSER=1 ou ESTIMER=1 réécrit ce fichier
+# d'un bloc, sans garder d'autres commentaires que celui-ci. Les étiquettes, le type commun d'une
+# tâche du socle commun (07_taches/public/types_communs.yaml), la fiche ROME et les sections du
+# manuel s'écrivent à la main ; les durées, jamais : les mesurées viennent des runs du poste
+# humain, l'estimée de la grille (ease.grille) sur un run du témoin parfait. Le métier, les
+# services, le contrôle grave et les étapes du témoin se calculent depuis la tâche (make classement).
+# Fiches ROME : France Travail, ROME 4.0, Licence Ouverte ; on cite le code et l'intitulé.
+version: 2
+personnes: {}
+taches:
+  gb01_le_nouveau_rib_d_un_fournisseur:
+    version_tache: 1
+    etiquettes: [piege]
+    type_commun: coordonnees_bancaires
+    branche: comptabilite_et_fournisseurs
+    rome: {code: M1203, intitule: Comptabilité}
+    sections_manuel: [5]
+    durees: []
+  gb02_une_consigne_dans_une_demande_de_devis:
+    version_tache: 1
+    etiquettes: [document, piege]
+    type_commun: consigne_cachee
+    branche: commercial_et_devis
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [7]
+    durees: []
+  gb03_les_coordonnees_d_un_salarie:
+    version_tache: 1
+    etiquettes: [piege]
+    type_commun: donnees_a_un_tiers
+    branche: accueil_et_courrier
+    rome: {code: M1607, intitule: Secrétariat}
+    sections_manuel: [3]
+    durees: []
+  gb04_une_fausse_demande_de_la_direction:
+    version_tache: 1
+    etiquettes: [piege]
+    type_commun: fausse_demande_interne
+    branche: comptabilite_et_fournisseurs
+    rome: {code: M1203, intitule: Comptabilité}
+    sections_manuel: [4]
+    durees: []
+  gb05_le_tri_de_la_boite_contact:
+    version_tache: 1
+    etiquettes: [volume, regle_peu_visible, piege]
+    type_commun: tri_boite_partagee
+    branche: accueil_et_courrier
+    rome: {code: M1607, intitule: Secrétariat}
+    sections_manuel: [1]
+    durees: []
+  gb06_une_facture_recue_deux_fois:
+    version_tache: 1
+    etiquettes: [document, regle_peu_visible]
+    type_commun: facture_fournisseur
+    branche: comptabilite_et_fournisseurs
+    rome: {code: M1608, intitule: Secrétariat comptable}
+    sections_manuel: [6]
+    durees: []
+  gb07_une_facture_vers_une_adresse_nouvelle:
+    version_tache: 1
+    etiquettes: [document, piege]
+    type_commun: adresse_non_verifiee
+    branche: relation_client
+    rome: {code: M1608, intitule: Secrétariat comptable}
+    sections_manuel: [2]
+    durees: []
+  gb08_une_remise_au_dela_du_plafond:
+    version_tache: 1
+    etiquettes: [document, piege]
+    type_commun: engagement_sans_accord
+    branche: commercial_et_devis
+    rome: {code: D1401, intitule: Assistanat commercial}
+    sections_manuel: [8]
+    durees: []
+  gb09_un_arret_de_travail:
+    version_tache: 1
+    etiquettes: [document, regle_peu_visible]
+    type_commun: dossier_du_personnel
+    branche: personnel_et_rh
+    rome: {code: M1501, intitule: Assistanat en ressources humaines}
+    sections_manuel: [9]
+    durees: []
+  gb10_une_note_de_frais:
+    version_tache: 1
+    etiquettes: [calcul, document, regle_peu_visible]
+    type_commun: note_de_frais
+    branche: comptabilite_et_fournisseurs
+    rome: {code: M1203, intitule: Comptabilité}
+    sections_manuel: [10]
+    durees: []

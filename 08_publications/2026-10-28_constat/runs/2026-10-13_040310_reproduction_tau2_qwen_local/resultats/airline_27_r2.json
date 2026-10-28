@@ -1,0 +1,33 @@
+{
+  "run": "2026-10-13_040310_reproduction_tau2_qwen_local",
+  "tache": {
+    "identifiant": "airline_27",
+    "version": 1
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-13T12:41:02.375112Z",
+  "fin_utc": "2026-10-13T12:42:20.410820Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 1.0,
+      "score": 1.0,
+      "detail": "τ²-bench : récompense 1 ; fin user_stop ; base égale à la cible ; phrases dites 0 sur 0"
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 15,
+  "jetons": {
+    "entree": 111246,
+    "entree_en_cache": "?",
+    "sortie": 2585
+  },
+  "cout_dollars": "?",
+  "energie_wh": 5.259366021064594,
+  "duree_secondes": 78.0357043039985,
+  "journal": "journaux/airline_27_r2.jsonl"
+}

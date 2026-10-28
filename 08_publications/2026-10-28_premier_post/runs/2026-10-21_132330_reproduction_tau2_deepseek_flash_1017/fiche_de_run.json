@@ -1,0 +1,105 @@
+{
+ "identifiant": "2026-10-21_132330_reproduction_tau2_deepseek_flash_1017",
+ "debut_utc": "2026-10-21T13:23:30.384342Z",
+ "fin_utc": "2026-10-21T13:29:00.684845Z",
+ "statut": "interrompu",
+ "raison_interruption": "MCPError : τ²-bench n'a pas rendu de simulation",
+ "code": {
+  "commit": "d680b8bcf96b3c09ec511772b97f6f87bf3b1e89",
+  "modifications_non_commitees": false
+ },
+ "candidat": {
+  "identifiant": "reproduction_tau2_deepseek_flash_1017",
+  "version": "0.1.0"
+ },
+ "configuration": {
+  "modeles": [
+   {
+    "role": "agent",
+    "nom": "deepseek-flash",
+    "fournisseur": "DeepSeek",
+    "version_renvoyee": "?",
+    "parametres": {
+     "temperature": 0.0,
+     "tool_choice": "auto"
+    },
+    "tarif": {
+     "entree_dollars_par_million": 0.15,
+     "entree_en_cache_dollars_par_million": 0.003,
+     "sortie_dollars_par_million": 0.6,
+     "source": "https://api-docs.deepseek.com/quick_start/pricing",
+     "releve_le": "2026-10-21"
+    }
+   }
+  ]
+ },
+ "empreinte_prompts": "sha256:f87f050f50212f80f17a87343e90550fb564a8f6345a3da3ea8dfbc4f53a9f58",
+ "jeu_taches": {
+  "nom": "tau2_airline_verified",
+  "taches": [
+   {
+    "identifiant": "airline_45",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_46",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_47",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_48",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_49",
+    "version": 1,
+    "empreinte_complement": null
+   }
+  ],
+  "empreinte": "sha256:0b0fd8d36d758156c00dccb8663aa1ac0f40ef17c24962782671761830a86226"
+ },
+ "etat_pme": {
+  "version": "v1",
+  "empreinte": "sha256:34cc7486acb05b494f6bc24108e5a3f99cb45c8b4a496a3bbeef60e808103e83",
+  "societe": null
+ },
+ "regles_gardien": null,
+ "repetitions": 5,
+ "machine": null,
+ "juge": null,
+ "banc_public": {
+  "nom": "tau2_bench",
+  "version": "1.0.1",
+  "domaine": "airline",
+  "jeu": "verified",
+  "simulateur": {
+   "modele": "openrouter/google/gemini-2.5-flash",
+   "fournisseur": "OpenRouter",
+   "parametres": {
+    "temperature": 0.0
+   },
+   "tarif": {
+    "entree_dollars_par_million": 0.3,
+    "entree_en_cache_dollars_par_million": 0.03,
+    "sortie_dollars_par_million": 2.5,
+    "source": "https://openrouter.ai/google/gemini-2.5-flash",
+    "releve_le": "2026-10-10"
+   },
+   "jetons": {
+    "entree": "?",
+    "entree_en_cache": "?",
+    "sortie": "?",
+    "dont_reflexion": "?"
+   },
+   "cout_dollars": "?",
+   "cout_annonce_dollars": "?"
+  }
+ }
+}

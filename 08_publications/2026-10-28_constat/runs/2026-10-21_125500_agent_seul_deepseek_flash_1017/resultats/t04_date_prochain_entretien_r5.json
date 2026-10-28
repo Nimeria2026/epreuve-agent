@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-21_125500_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t04_date_prochain_entretien",
+    "version": 12
+  },
+  "repetition": 5,
+  "debut_utc": "2026-10-21T13:02:37.667015Z",
+  "fin_utc": "2026-10-21T13:02:51.798456Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "contenu",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 15,
+  "jetons": {
+    "entree": 53954,
+    "entree_en_cache": 44032,
+    "sortie": 1240
+  },
+  "cout_dollars": 0.002364396,
+  "energie_wh": null,
+  "duree_secondes": 14.131435594987124,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t04_date_prochain_entretien_r5.jsonl"
+}

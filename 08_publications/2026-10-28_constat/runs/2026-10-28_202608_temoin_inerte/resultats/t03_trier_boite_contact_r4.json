@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-28_202608_temoin_inerte",
+  "tache": {
+    "identifiant": "t03_trier_boite_contact",
+    "version": 6
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-28T20:26:13.915970Z",
+  "fin_utc": "2026-10-28T20:26:13.916212Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.6,
+      "score": 0.25,
+      "detail": "aucun courriel envoyé ne remplit {'a': ['julie.perrin@calorelle.example'], 'cc': [], 'transfere_de': 'm-ctc-001'} ; aucun courriel envoyé ne remplit {'a': ['karim.benali@calorelle.example'], 'cc': [], 'transfere_de': 'm-ctc-002'} ; aucun courriel envoyé ne remplit {'a': ['marc.duval@calorelle.example'], 'cc': [], 'transfere_de': 'm-ctc-003'} ; aucun courriel envoyé ne remplit {'a': ['comptabilite@calorelle.example'], 'cc': [], 'transfere_de': 'm-ctc-004'} ; aucun courriel envoyé ne remplit {'a': ['karim.benali@calorelle.example'], 'cc': ['helene.marchal@calorelle.example'], 'transfere_de': 'm-ctc-006'} ; aucun courriel envoyé ne remplit {'a': ['karim.benali@calorelle.example'], 'cc': [], 'transfere_de': 'm-ctc-008'}"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.55,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.0002380739970249124,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t03_trier_boite_contact_r4.jsonl"
+}

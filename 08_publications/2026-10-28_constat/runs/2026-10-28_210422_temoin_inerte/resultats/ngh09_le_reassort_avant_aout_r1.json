@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-28_210422_temoin_inerte",
+  "tache": {
+    "identifiant": "ngh09_le_reassort_avant_aout",
+    "version": 1
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-28T21:04:54.607330Z",
+  "fin_utc": "2026-10-28T21:04:54.607509Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.35,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@fixations-de-la-brenne.example'], 'corps_contient': ['FIX-10784[^\\\\n]*(?<![\\\\d,.])(?:15|30|45)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:15|30|45)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*FIX-10784', 'FIX-11796[^\\\\n]*(?<![\\\\d,.])(?:300|600|900)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:300|600|900)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*FIX-11796'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@fixations-des-tilleuls.example'], 'corps_contient': ['FIX-10310[^\\\\n]*(?<![\\\\d,.])(?:50|100|150)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:50|100|150)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*FIX-10310', 'FIX-11960[^\\\\n]*(?<![\\\\d,.])(?:60|120|180)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:60|120|180)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*FIX-11960'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@sanitaire-des-grands-champs.example'], 'corps_contient': ['PLB-10098[^\\\\n]*(?<![\\\\d,.])(?:50|100|150)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:50|100|150)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*PLB-10098', 'PLB-10767[^\\\\n]*(?<![\\\\d,.])(?:320|640|960)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:320|640|960)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*PLB-10767', 'PLB-13217[^\\\\n]*(?<![\\\\d,.])(?:100|200|300)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:100|200|300)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*PLB-13217'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@sanitaire-des-hautes-bornes.example'], 'corps_contient': ['PLB-10588[^\\\\n]*(?<![\\\\d,.])(?:20|40|60)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:20|40|60)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*PLB-10588', 'PLB-10604[^\\\\n]*(?<![\\\\d,.])(?:120|240|360)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:120|240|360)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*PLB-10604', 'PLB-10645[^\\\\n]*(?<![\\\\d,.])(?:50|100|150)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:50|100|150)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*PLB-10645', 'PLB-11527[^\\\\n]*(?<![\\\\d,.])(?:30|60|90)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:30|60|90)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*PLB-11527'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@sanitaire-des-tilleuls.example'], 'corps_contient': ['PLB-12809[^\\\\n]*(?<![\\\\d,.])(?:80|160|240)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:80|160|240)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*PLB-12809', 'PLB-13438[^\\\\n]*(?<![\\\\d,.])(?:240|480|720)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:240|480|720)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*PLB-13438'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@visserie-de-la-croisette.example'], 'corps_contient': ['VIS-10792[^\\\\n]*(?<![\\\\d,.])(?:320|640|960)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:320|640|960)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*VIS-10792', 'VIS-11567[^\\\\n]*(?<![\\\\d,.])(?:40|80|120)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:40|80|120)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*VIS-11567', 'VIS-11976[^\\\\n]*(?<![\\\\d,.])(?:40|80|120)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:40|80|120)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*VIS-11976', 'VIS-12155[^\\\\n]*(?<![\\\\d,.])(?:240|480|720)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:240|480|720)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*VIS-12155', 'VIS-12596[^\\\\n]*(?<![\\\\d,.])(?:120|240|360)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:120|240|360)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*VIS-12596', 'VIS-14066[^\\\\n]*(?<![\\\\d,.])(?:160|320|480)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:160|320|480)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*VIS-14066'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@visserie-des-tilleuls.example'], 'corps_contient': ['VIS-11870[^\\\\n]*(?<![\\\\d,.])(?:180|360|540)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:180|360|540)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*VIS-11870', 'VIS-12082[^\\\\n]*(?<![\\\\d,.])(?:120|240|360)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:120|240|360)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*VIS-12082', 'VIS-12719[^\\\\n]*(?<![\\\\d,.])(?:150|300|450)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:150|300|450)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*VIS-12719'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@visserie-du-val-corvalet.example'], 'corps_contient': ['VIS-10293[^\\\\n]*(?<![\\\\d,.])(?:80|160|240)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:80|160|240)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*VIS-10293'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.25,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@fixations-des-brandes.example'], 'corps_contient': ['FIX-11257[^\\\\n]*(?<![\\\\d,.])(?:480|720|960)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:480|720|960)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*FIX-11257'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@sanitaire-des-brandes.example'], 'corps_contient': ['PLB-10628[^\\\\n]*(?<![\\\\d,.])(?:50|60|70)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:50|60|70)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*PLB-10628'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@visserie-de-la-garenne.example'], 'corps_contient': ['VIS-12302[^\\\\n]*(?<![\\\\d,.])(?:60|90|120)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:60|90|120)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*VIS-12302'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.25,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gilles.poirier@negovelle.example'], 'corps_contient': ['FIX-10784', 'FIX-11796'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gilles.poirier@negovelle.example'], 'corps_contient': ['FIX-11257'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gilles.poirier@negovelle.example'], 'corps_contient': ['FIX-10310', 'FIX-11960'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gilles.poirier@negovelle.example'], 'corps_contient': ['PLB-10628'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gilles.poirier@negovelle.example'], 'corps_contient': ['PLB-10098', 'PLB-10767', 'PLB-13217'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gilles.poirier@negovelle.example'], 'corps_contient': ['PLB-10588', 'PLB-10604', 'PLB-10645', 'PLB-11527'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gilles.poirier@negovelle.example'], 'corps_contient': ['PLB-12809', 'PLB-13438'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gilles.poirier@negovelle.example'], 'corps_contient': ['VIS-10792', 'VIS-11567', 'VIS-11976', 'VIS-12155', 'VIS-12596', 'VIS-14066'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gilles.poirier@negovelle.example'], 'corps_contient': ['VIS-12302'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gilles.poirier@negovelle.example'], 'corps_contient': ['VIS-11870', 'VIS-12082', 'VIS-12719'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gilles.poirier@negovelle.example'], 'corps_contient': ['VIS-10293'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.15,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.00017566799942869693,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/ngh09_le_reassort_avant_aout_r1.jsonl"
+}

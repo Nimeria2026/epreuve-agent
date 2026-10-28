@@ -1,0 +1,1 @@
+{"etape": 1, "horodatage_utc": "2026-10-28T20:23:11.977871Z", "outil": "envoyer", "arguments": {"a": ["helene.chevalier@courriel.example", "famille.chevalier@courriel.example"], "objet": "Votre visite", "texte": "Bonjour Madame Chevalier,\n\nC'est noté : votre visite est avancée au jeudi 10 décembre à 9 h.\n\nSonia"}, "resultat": "Envoyé : m-env-001", "erreur": null}

@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-28_210422_temoin_inerte",
+  "tache": {
+    "identifiant": "ngh06_les_factures_fournisseurs_de_juin",
+    "version": 1
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-28T21:04:43.948373Z",
+  "fin_utc": "2026-10-28T21:04:43.948546Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 0.0,
+      "detail": "absent : fournisseurs/protection-du-pont-rouge/factures/F20481.pdf ; absent : fournisseurs/materiel-electrique-du-val-corvalet/factures/F33972.pdf ; absent : fournisseurs/protection-de-la-garenne/factures/F41106.pdf ; absent : fournisseurs/abrasifs-et-colles-du-val-corvalet/factures/F52630.pdf ; absent : fournisseurs/materiel-electrique-du-val-corvalet/factures/F61847.pdf ; absent : fournisseurs/visserie-de-la-croisette/factures/F70259.pdf ; absent : fournisseurs/protection-de-la-garenne/factures/F78314.pdf ; absent : fournisseurs/protection-de-la-garenne/factures/F86902.pdf ; absent : fournisseurs/materiel-electrique-des-brandes/factures/F90477.pdf"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['facturation@protection-de-la-garenne.example', 'commandes@protection-de-la-garenne.example'], 'corps_contient': ['F86902', 'PRO-10980|masque|160|180'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['facturation@materiel-electrique-des-brandes.example', 'commandes@materiel-electrique-des-brandes.example'], 'corps_contient': ['F90477', 'ELE-10759|prise|5[,.]31|5[,.]61'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 3,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['bruno.castaing@negovelle.example'], 'corps_contient': ['F20481', 'F33972', 'F41106', 'F52630', 'F61847', 'F70259', 'F78314', '29 juillet|29/0?7|2026-07-29', '31 juillet|31/0?7|2026-07-31', '1(?:er)? septembre|0?1/0?9|2026-09-01'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.2,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.00016970599972410128,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/ngh06_les_factures_fournisseurs_de_juin_r1.jsonl"
+}

@@ -1,0 +1,34 @@
+{
+  "run": "2026-10-21_104842_reproduction_tau2_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "airline_29",
+    "version": 1
+  },
+  "repetition": 5,
+  "debut_utc": "2026-10-21T12:09:31.203838Z",
+  "fin_utc": "2026-10-21T12:10:27.430530Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 1.0,
+      "score": 1.0,
+      "detail": "τ²-bench : récompense 1 ; fin user_stop ; base égale à la cible ; phrases dites 0 sur 0"
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 15,
+  "jetons": {
+    "entree": 120477,
+    "entree_en_cache": 116096,
+    "sortie": 6349
+  },
+  "cout_dollars": 0.004814838,
+  "energie_wh": null,
+  "duree_secondes": 56.22668759501539,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/airline_29_r5.jsonl"
+}

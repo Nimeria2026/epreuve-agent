@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-23_003934_agent_seul_qwen_local_100k",
+  "tache": {
+    "identifiant": "t47_un_message_vocal_pour_deux_demandes",
+    "version": 1
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-23T01:17:48.655834Z",
+  "fin_utc": "2026-10-23T01:19:42.198780Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.6,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 13,
+  "jetons": {
+    "entree": 40968,
+    "entree_en_cache": "?",
+    "sortie": 4384
+  },
+  "cout_dollars": "?",
+  "energie_wh": 7.797262935949388,
+  "duree_secondes": 113.54294094198849,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t47_un_message_vocal_pour_deux_demandes_r3.jsonl"
+}

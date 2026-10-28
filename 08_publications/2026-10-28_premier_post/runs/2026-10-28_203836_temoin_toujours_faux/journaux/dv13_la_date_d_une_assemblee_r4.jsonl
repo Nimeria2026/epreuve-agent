@@ -1,0 +1,2 @@
+{"etape": 1, "horodatage_utc": "2026-10-28T20:39:07.413559Z", "outil": "repondre", "arguments": {"identifiant": "m-yode-001", "texte": "Nous retenons le mardi 30 juin.\n\nBien cordialement,\nYohan Delmas, gestionnaire de copropriété, Domivelle"}, "resultat": "Réponse envoyée : m-env-001", "erreur": null}
+{"etape": 2, "horodatage_utc": "2026-10-28T20:39:07.429437Z", "outil": "envoyer", "arguments": {"a": ["melanie.sabatier@domivelle.example"], "objet": "Convocations cp05", "texte": "AG le 30 juin.\n\nYohan"}, "resultat": "Envoyé : m-env-002", "erreur": null}

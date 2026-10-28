@@ -1,0 +1,41 @@
+{
+  "run": "2026-10-28_202125_temoin_toujours_faux",
+  "tache": {
+    "identifiant": "t24_factures_a_payer",
+    "version": 3
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-28T20:22:13.231308Z",
+  "fin_utc": "2026-10-28T20:22:13.264200Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.8,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['EVM-1984', 'FHF-26-133', 'TS-08812', 'GCC-2026-077', 'IG-2026-0391'], 'corps_ne_contient_pas': ['NM-26-1010', 'GB-1021', 'RG-2026-088', 'DC-5602', 'F-2026-1103', 'F-2026-1151', 'OM-2026-212', 'PV-26-0388', 'EB-26-0457', 'DC-5521', 'F-2026-1042', 'GB-0917', 'PV-26-0371']}"
+    },
+    {
+      "numero": 2,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "envoi hors de calorelle.example : m-env-001"
+    }
+  ],
+  "score": 0.0,
+  "reussie": false,
+  "etapes": 1,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.0328874699989683,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t24_factures_a_payer_r1.jsonl"
+}

@@ -1,0 +1,47 @@
+{
+  "run": "2026-10-09_220655_agent_seul_qwen_local",
+  "tache": {
+    "identifiant": "t04_date_prochain_entretien",
+    "version": 11
+  },
+  "repetition": 5,
+  "debut_utc": "2026-10-09T22:33:26.381848Z",
+  "fin_utc": "2026-10-09T22:34:16.911935Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "contenu",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 12,
+  "jetons": {
+    "entree": 61144,
+    "entree_en_cache": "?",
+    "sortie": 1467
+  },
+  "cout_dollars": "?",
+  "energie_wh": 3.433520913038838,
+  "duree_secondes": 50.530083274999924,
+  "journal": "journaux/t04_date_prochain_entretien_r5.jsonl"
+}

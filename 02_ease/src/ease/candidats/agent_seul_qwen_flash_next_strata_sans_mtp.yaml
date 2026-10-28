@@ -1,0 +1,49 @@
+# Diagnostic, jamais publié ni assemblé avec les runs officiels (identifiant à part ; JOURNAL,
+# entrée 333) : agent_seul_qwen_flash_next_strata, même configuration, avec Strata lancé à la main
+# sans le brouillon MTP (le préréglage flash-next l'active ; sa fiche,
+# 02_ease/src/ease/moteurs/strata_flash_next.md, ne vaut donc pas pour ces runs). Mesuré seulement
+# sur les tâches où des appels se sont perdus.
+fiche:
+  identifiant: agent_seul_qwen_flash_next_strata_sans_mtp
+  nom: Diagnostic de Flash-Next par Strata, sans le brouillon MTP
+  version: "0.1.0"
+  origine: fait_main
+  division: a_modele_egal
+  branchement: mcp
+  editeur: Épreuve d'agent
+  url: null
+  modeles:
+    - nom: qwen3.8-flash-next-iq3_s
+      fournisseur: local
+  # Les jetons se comptent ; l'électricité n'est relevée que pour la carte, pas la mémoire vive.
+  cout_mesurable: false
+  conditions_utilisation: null
+configuration:
+  modeles:
+    - role: agent
+      nom: qwen3.8-flash-next-iq3_s
+      fournisseur: local
+      version_renvoyee: "?"
+      parametres:
+        temperature: 1.0
+        top_p: 0.95
+        top_k: 20
+      tarif: null
+# Relevé de l'essai du 2026-10-25 (journal du moteur) : Strata 0.2.4.2, contexte de 131 072 jetons.
+machine:
+  systeme: Ubuntu 24.04
+  processeur: "?"
+  carte_graphique: NVIDIA GeForce RTX 3090
+  service_modele: Strata 0.2.4.2, contexte de 131 072 jetons, brouillon MTP coupé
+lancement:
+  module: orchestrations.agent_seul
+  arguments: [--configuration, 03_orchestrations/src/orchestrations/configurations/qwen_flash_next_strata.yaml]
+  delai_secondes: 7200
+  # Pas de sonde tant que l'adresse que Strata réserve à son état n'est pas relevée : make essai
+  # montre d'abord que le serveur répond.
+  sonde: null
+  creneau: null
+  energie: nvidia_smi
+  empreinte_de:
+    - 03_orchestrations/src/orchestrations/consignes/agent_seul.md
+    - 03_orchestrations/src/orchestrations/configurations/qwen_flash_next_strata.yaml

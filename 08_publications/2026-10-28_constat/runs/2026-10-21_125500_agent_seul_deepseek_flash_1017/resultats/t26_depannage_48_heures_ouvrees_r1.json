@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-21_125500_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t26_depannage_48_heures_ouvrees",
+    "version": 3
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-21T13:51:07.149922Z",
+  "fin_utc": "2026-10-21T13:51:28.595673Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 17,
+  "jetons": {
+    "entree": 109740,
+    "entree_en_cache": 98432,
+    "sortie": 2564
+  },
+  "cout_dollars": 0.003529896,
+  "energie_wh": null,
+  "duree_secondes": 21.445746870012954,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t26_depannage_48_heures_ouvrees_r1.jsonl"
+}

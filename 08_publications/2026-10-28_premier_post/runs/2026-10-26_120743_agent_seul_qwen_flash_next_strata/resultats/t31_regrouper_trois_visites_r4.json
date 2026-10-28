@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-26_120743_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "t31_regrouper_trois_visites",
+    "version": 4
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-26T15:17:03.472747Z",
+  "fin_utc": "2026-10-26T15:19:22.530641Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 30,
+  "jetons": {
+    "entree": 174297,
+    "entree_en_cache": 156697,
+    "sortie": 7654
+  },
+  "cout_dollars": "?",
+  "energie_wh": 9.027871123540965,
+  "duree_secondes": 139.0578892960002,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t31_regrouper_trois_visites_r4.jsonl"
+}

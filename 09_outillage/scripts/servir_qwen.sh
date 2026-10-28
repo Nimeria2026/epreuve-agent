@@ -9,7 +9,8 @@
 #   - raisonnement laissé actif, réglage de l'éditeur (Nimeria le coupe pour son extraction) ;
 #   - port 30100 et écoute sur 127.0.0.1 seulement : jamais de confusion avec le serveur de
 #     Nimeria (30000), et rien d'ouvert au réseau.
-# Réglages relevés et sources : 00_docs/sources/2026-10-05_reglages_des_modeles.md.
+# Réglages relevés et sources : 00_docs/sources/2026-10-05_reglages_des_modeles.md. Fiche officielle
+# du moteur : 02_ease/src/ease/moteurs/vllm_qwen_27b.md.
 #
 #   bash 09_outillage/scripts/servir_qwen.sh            # affiche la commande, ne lance rien
 #   bash 09_outillage/scripts/servir_qwen.sh --lancer   # la lance, au premier plan (Ctrl-C pour arrêter)
@@ -19,7 +20,8 @@
 # (agent_seul_qwen_local_100k ; JOURNAL, deux-cent-vingt-sixième entrée). Les candidats d'avant le
 # demandent plus petit (make qwen CONTEXTE=40960). Le cache de 4,4 Go tient 105 503 jetons : au-delà,
 # vLLM refuse de démarrer. Chaque candidat vérifie le contexte annoncé avant son run.
-# Codes de refus : 2 modèle ou vLLM introuvable, 4 carte déjà occupée, 5 port déjà pris.
+# Codes de refus : 2 modèle ou vLLM introuvable, 4 carte déjà occupée, 5 port déjà pris, 6 vLLM ou
+# modèle différents de la fiche (verifier_qwen.py).
 set -euo pipefail
 
 MODELE="${POA_QWEN_MODELE:-$HOME/modeles/Qwen3.8-27B-W4A16-AutoRound}"
@@ -52,6 +54,10 @@ fi
 
 [ -d "$MODELE" ] || { echo "REFUS : modèle introuvable : $MODELE (POA_QWEN_MODELE)" >&2; exit 2; }
 [ -x "$VENV/bin/vllm" ] || { echo "REFUS : vLLM introuvable : $VENV/bin/vllm (POA_VLLM_VENV)" >&2; exit 2; }
+
+# Garde 0 : les versions de l'environnement de vLLM, que partage le serveur de Nimeria, et le modèle
+# doivent être ceux de la fiche (JOURNAL, entrée 301).
+python3 "$(dirname "$0")/verifier_qwen.py" --modele "$MODELE" --venv "$VENV" || exit 6
 
 # Garde 1 : la carte doit être libre. Le serveur de Nimeria (cqfds-vllm) ou un autre modèle
 # déjà chargé ferait échouer le démarrage, ou pire, mesurer sous une mémoire amputée.

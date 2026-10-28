@@ -1,0 +1,41 @@
+{
+  "run": "2026-10-21_125500_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t01_ranger_facture_fournisseur",
+    "version": 7
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-21T12:55:00.892526Z",
+  "fin_utc": "2026-10-21T12:55:20.856308Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.6,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 18,
+  "jetons": {
+    "entree": 63236,
+    "entree_en_cache": 55296,
+    "sortie": 2605
+  },
+  "cout_dollars": 0.002919888,
+  "energie_wh": null,
+  "duree_secondes": 19.963776778022293,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t01_ranger_facture_fournisseur_r1.jsonl"
+}

@@ -8,7 +8,7 @@
 :root {
   --nuit: #0f1e30; --papier: #faf8f4; --sur-nuit: #e9eef3; --sur-sombre: #c3cdd7; --sur-sombre-2: #9fb0c0;
   --sur-sombre-4: #7f91a3; --ambre-vif: #f6a623; --vert-vif: #8fd3b1; --brique-vif: #f08a6a;
-  --filet: rgba(255,255,255,.10); --carte: rgba(255,255,255,.035); --s1: #3987e5; --s2: #c98500;
+  --filet: rgba(255,255,255,.10); --carte: rgba(255,255,255,.035); --s1: #3987e5; --s2: #c2418d; --s3: #008300;
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html, body { width: 1080px; height: 1350px; background: var(--nuit); }
@@ -82,7 +82,7 @@ svg text { font-family: InterMarque, Inter, sans-serif; }
 svg text.mono { font-family: PlexMarque, 'DejaVu Sans Mono', monospace; font-weight: 500; }
 .hors-donnees { font: inherit; color: inherit; }
 
-/* Le constat : un tableau de deux colonnes, une par modèle, une ligne par question. */
+/* Le constat : un tableau d'une colonne par modèle, une ligne par question, ses écarts paire par paire. */
 .constat { margin-top: 34px; display: flex; flex-direction: column; }
 .constat .entete, .constat .rang { display: grid; grid-template-columns: 300px 1fr 40px 1fr; align-items: center; column-gap: 14px; }
 .constat .entete { padding-bottom: 14px; border-bottom: 1px solid var(--filet); align-items: start; }
@@ -97,3 +97,29 @@ svg text.mono { font-family: PlexMarque, 'DejaVu Sans Mono', monospace; font-wei
 .constat .egal { font-family: Newsreader, Georgia, serif; font-size: 42px; color: var(--ambre-vif); text-align: center; }
 .preuve { margin-top: 40px; display: flex; flex-direction: column; gap: 26px; }
 .preuve .carte .chiffres { gap: 40px; }
+
+/* Trois modèles (JOURNAL, entrée 338) : des cartes plus serrées, les écarts sous chaque ligne. */
+.cartes.trois { gap: 16px; margin-top: 34px; }
+.cartes.trois .carte { padding: 18px 30px 16px; }
+.cartes.trois .valeur { font-size: 72px; }
+.cartes.trois .leg { font-size: 19px; margin-top: 6px; }
+.cartes.trois .fleche { padding-top: 26px; }
+.constat .paires { grid-column: 1 / -1; font-size: 16px; color: var(--sur-sombre-2); margin-top: 8px; line-height: 1.4; }
+.constat .paires .oui { color: var(--sur-nuit); font-weight: 600; }
+.constat .paires .non { color: var(--ambre-vif); font-family: Newsreader, Georgia, serif; font-size: 22px; }
+.preuve.trois { gap: 16px; margin-top: 30px; }
+.preuve.trois .carte { padding: 18px 30px 16px; }
+.preuve.trois .valeur { font-size: 64px; }
+.constat.trois { margin-top: 26px; }
+.constat.trois .entete { padding-bottom: 10px; }
+.constat.trois .entete small { font-size: 13px; }
+.constat.trois .rang { padding: 11px 0 9px; }
+.constat.trois .quoi { font-size: 20px; }
+.constat.trois .quoi small { font-size: 14px; margin-top: 2px; }
+.constat.trois .v { font-size: 38px; }
+.constat.trois .v.long { font-size: 23px; }
+.constat.trois .f { font-size: 12.5px; margin-top: 4px; }
+.constat.trois .paires { font-size: 14.5px; margin-top: 5px; }
+.preuve.trois .valeur { font-size: 54px; }
+.preuve.trois .chiffres { margin-top: 8px; }
+.message.serre { font-size: 33px; margin-top: 26px; }

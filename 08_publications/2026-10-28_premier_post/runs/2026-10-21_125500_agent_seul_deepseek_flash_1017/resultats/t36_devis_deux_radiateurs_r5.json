@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-21_125500_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t36_devis_deux_radiateurs",
+    "version": 2
+  },
+  "repetition": 5,
+  "debut_utc": "2026-10-21T14:23:11.987710Z",
+  "fin_utc": "2026-10-21T14:23:37.348619Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 21,
+  "jetons": {
+    "entree": 149607,
+    "entree_en_cache": 137984,
+    "sortie": 2221
+  },
+  "cout_dollars": 0.003490002,
+  "energie_wh": null,
+  "duree_secondes": 25.360903857043013,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t36_devis_deux_radiateurs_r5.jsonl"
+}

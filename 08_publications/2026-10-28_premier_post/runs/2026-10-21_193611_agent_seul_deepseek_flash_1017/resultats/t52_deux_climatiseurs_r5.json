@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-21_193611_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t52_deux_climatiseurs",
+    "version": 1
+  },
+  "repetition": 5,
+  "debut_utc": "2026-10-21T19:54:17.504911Z",
+  "fin_utc": "2026-10-21T19:54:44.167682Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.35,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.35,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 32,
+  "jetons": {
+    "entree": 172182,
+    "entree_en_cache": 158720,
+    "sortie": 3672
+  },
+  "cout_dollars": 0.0046986599999999995,
+  "energie_wh": null,
+  "duree_secondes": 26.66276606201427,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t52_deux_climatiseurs_r5.jsonl"
+}

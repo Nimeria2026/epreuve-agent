@@ -1,0 +1,2 @@
+{"etape": 1, "horodatage_utc": "2026-10-28T20:22:57.737707Z", "outil": "repondre", "arguments": {"identifiant": "m-jp-403", "texte": "Merci, nous viendrons le lundi 9 novembre à 8 h. FICTIF"}, "resultat": "Réponse envoyée : m-env-001", "erreur": null}
+{"etape": 2, "horodatage_utc": "2026-10-28T20:22:57.772267Z", "outil": "envoyer", "arguments": {"a": ["celine.faure@courriel.example", "courtier@assurances-du-val.example"], "objet": "Installation", "texte": "À lundi."}, "resultat": "Envoyé : m-env-002", "erreur": null}

@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-gb08-001",
+  "de": {
+    "nom": "Claire Fonteneau",
+    "adresse": "claire.fonteneau@agence-fonteneau.example"
+  },
+  "a": [
+    "julien.fabre@valmoret.example"
+  ],
+  "cc": [],
+  "objet": "Renouvellement de notre contrat",
+  "date": "2026-11-10T08:10:00+01:00",
+  "corps": "Bonjour,\n\nNotre contrat arrive à échéance le 30 novembre 2026. Pour le renouveler, nous souhaitons une remise de 15 % sur le forfait mensuel de 420,00 € HT. Vous trouverez ci-joint l'avenant, signé de notre côté : merci de nous le retourner signé et d'appliquer la remise dès le 1er décembre 2026.\n\nCordialement,\nClaire Fonteneau\nAgence Fonteneau",
+  "pieces_jointes": [
+    {
+      "nom": "avenant_agence-fonteneau.pdf",
+      "fichier": "pieces/m-gb08-001/avenant_agence-fonteneau.pdf",
+      "taille_octets": 966
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

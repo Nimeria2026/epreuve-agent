@@ -1,0 +1,1 @@
+{"etape": 1, "horodatage_utc": "2026-10-28T20:22:38.952412Z", "outil": "envoyer", "arguments": {"a": ["helene.marchal@calorelle.example"], "cc": ["noah.bertrand@courriel.example"], "objet": "Accès de Noah", "texte": "- commun/\n- clients/\n- rh/"}, "resultat": "Envoyé : m-env-001", "erreur": null}

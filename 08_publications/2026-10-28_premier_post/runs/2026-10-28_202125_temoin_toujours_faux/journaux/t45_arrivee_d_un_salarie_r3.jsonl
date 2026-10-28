@@ -1,0 +1,1 @@
+{"etape": 1, "horodatage_utc": "2026-10-28T20:23:06.542800Z", "outil": "transferer", "arguments": {"boite": "sonia.lefevre@calorelle.example", "identifiant": "m-sl-501", "a": ["marc.duval@calorelle.example"], "cc": ["paie@cabinet-du-val.example"], "commentaire": "Voici le contrat de Maxime, qui arrive le 23 novembre."}, "resultat": "Transféré : m-env-001", "erreur": null}

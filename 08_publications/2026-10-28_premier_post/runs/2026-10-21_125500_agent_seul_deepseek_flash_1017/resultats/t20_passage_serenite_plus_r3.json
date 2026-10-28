@@ -1,0 +1,41 @@
+{
+  "run": "2026-10-21_125500_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t20_passage_serenite_plus",
+    "version": 3
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-21T13:39:37.850525Z",
+  "fin_utc": "2026-10-21T13:40:00.107302Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "contenu",
+      "poids": 0.7,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 15,
+  "jetons": {
+    "entree": 93601,
+    "entree_en_cache": 82176,
+    "sortie": 2771
+  },
+  "cout_dollars": 0.0036228779999999995,
+  "energie_wh": null,
+  "duree_secondes": 22.256771475018468,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t20_passage_serenite_plus_r3.jsonl"
+}

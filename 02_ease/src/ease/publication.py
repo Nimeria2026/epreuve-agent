@@ -35,8 +35,9 @@ NB = " "
 GABARIT = Path(__file__).parent / "gabarits" / "publication.css"
 POLICES = ("newsreader-n-400.woff2", "newsreader-i-400.woff2", "inter-n-400.woff2", "ibmplexmono-n-500.woff2")
 CHROMES = ("google-chrome", "google-chrome-stable", "chromium", "chromium-browser")
-SERIES = ("#3987e5", "#c98500")
-"""Les couleurs des deux séries, dans l'ordre des candidats ; validées sur le fond nuit."""
+SERIES = ("#3987e5", "#c2418d", "#008300")
+"""Les couleurs des séries, dans l'ordre des candidats : bleu, prune, vert, celles de la page
+(refonte 3 ; JOURNAL, entrée 338) ; validées ensemble, toutes paires, sur le fond nuit."""
 
 NOMBRE = re.compile(r"(?<![\w,.])\d+(?:[   ]\d{3})*(?:,\d+)?")
 """Un nombre tel qu'il s'écrit : « 217 », « 96,4 », « 1 234 » ; un chiffre collé à une lettre
@@ -54,6 +55,10 @@ CROIX = (
     '<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="#0f1e30" stroke-width="3.2" '
     'stroke-linecap="round"><path d="M5.5 5.5l11 11M16.5 5.5l-11 11"/></svg>'
 )
+
+
+A95 = '<span class="hors-donnees">95</span>'
+"""Le niveau des fourchettes, 95 %, une constante de la méthode et non un chiffre des données."""
 
 
 class PublicationImpossible(Exception):
@@ -138,7 +143,7 @@ def image_question(d: dict[str, Any]) -> str:
         "<h1>Quel travail de bureau peut-on confier <em>à un agent IA&nbsp;?</em></h1>"
         f'<div class="sous">{d["taches"]} tâches d\'une PME : compta, RH, commercial, planning, relation client. '
         f"Chacune refaite {d['repetitions']} fois, la réussite vérifiée dans l'état final de l'entreprise.</div>"
-        f'<div class="cartes">{"".join(cartes)}</div>'
+        f'<div class="cartes{" trois" if len(cartes) >= 3 else ""}">{"".join(cartes)}</div>'
         '<div class="message">Réussir souvent n\'est pas réussir à chaque fois.<br>'
         "<em>Une entreprise a besoin de la seconde.</em></div>"
     )
@@ -179,7 +184,8 @@ def image_metiers(d: dict[str, Any]) -> str:
             for j, (c, couleur) in enumerate(_candidats(d)):
                 m = groupe["par_candidat"][c["identifiant"]][cle]
                 bas, h = m["fourchette"]
-                yy = y + (-14 if j == 0 else 14)
+                pas = 28 if len(d["candidats"]) == 2 else 22
+                yy = y + (j - (len(d["candidats"]) - 1) / 2) * pas
                 svg.append(
                     f'<line x1="{_x(gauche, panneau, bas)}" y1="{yy}" x2="{_x(gauche, panneau, h)}" y2="{yy}" '
                     f'stroke="{couleur}" stroke-opacity="0.65" stroke-width="4" stroke-linecap="round"/>'
@@ -220,7 +226,7 @@ def image_metiers(d: dict[str, Any]) -> str:
         "<h2>Les mêmes chiffres, <em>métier par métier</em></h2>"
         f'<div class="legende">{legende}</div>'
         f'<div style="margin-top:30px">{"".join(svg)}</div>'
-        f'<div class="note">Le point est la mesure, le trait sa fourchette à 95{NB}%. Avec {tailles["min"]} à '
+        f'<div class="note">Le point est la mesure, le trait sa fourchette à {A95}{NB}%. Avec {tailles["min"]} à '
         f"{tailles['max']} tâches par métier, les fourchettes sont larges et se recouvrent : ce graphique ne "
         "classe pas les métiers.</div>"
     )
@@ -256,12 +262,12 @@ def _fois(n: int) -> str:
 
 
 def image_essai(d: dict[str, Any]) -> str:
-    """Image 3 : un essai raconté, étape par étape, et ce que font les deux modèles sur la même tâche."""
+    """Image 3 : un essai raconté, étape par étape, et ce que font les autres modèles sur la même tâche."""
     x = d["exemple"]
     if x["tache"] != "t10_rib_par_un_collegue":
         raise PublicationImpossible(f"le récit de l'image 3 est celui de t10, pas de {x['tache']}")
     noms = {c["identifiant"]: c["nom"] for c in d["candidats"]}
-    autre = next(c["identifiant"] for c in d["candidats"] if c["identifiant"] != x["candidat"])
+    autres = [c["identifiant"] for c in d["candidats"] if c["identifiant"] != x["candidat"]]
     metier = next(m["libelle"] for m in d["metiers"] if m["cle"] == x["famille"]).lower()
     etapes = "".join(
         f'<div class="etape"><div class="jalon {classe}">{ {"bon": COCHE, "faute": CROIX}.get(classe, "") }</div>'
@@ -274,15 +280,17 @@ def image_essai(d: dict[str, Any]) -> str:
         f'<div class="etapes">{etapes}</div>'
         '<div class="verdict"><b>Tâche échouée.</b> Le manuel dit « on ne modifie rien », et le dossier a changé. '
         f"Sur {x['essais'][x['candidat']]} essais, {html.escape(noms[x['candidat']])} fait cette erreur "
-        f"{_fois(x['echecs_du_controle'][x['candidat']])} ; {html.escape(noms[autre])}, "
-        f"{_fois(x['echecs_du_controle'][autre])}.</div>"
+        f"{_fois(x['echecs_du_controle'][x['candidat']])} ; "
+        + " ; ".join(f"{html.escape(noms[a])}, {_fois(x['echecs_du_controle'][a])}" for a in autres)
+        + ".</div>"
         f'<div class="note">Tâche publique {x["court"]}, essai {x["essai"]} de {html.escape(noms[x["candidat"]])}. '
         "Chaque essai est enregistré action par action, et se rejoue.</div>"
     )
 
 
 def image_methode(d: dict[str, Any]) -> str:
-    """Image 4 : comment on mesure, et notre banc face aux scores publiés de τ²-bench."""
+    """Image 4 : comment on mesure, et notre banc face aux scores publiés de τ²-bench ; un score sans
+    écart type, ou absent, se dit tel quel."""
     points = (
         ("Une PME fictive complète", " : messagerie, dossiers, facturation, planning, un manuel de procédures."),
         (
@@ -307,23 +315,24 @@ def image_methode(d: dict[str, Any]) -> str:
     def x(valeur: float) -> str:
         return f"{x0 + w * (valeur - bas) / (haut - bas):.1f}"
 
-    svg = ['<svg width="920" height="190" viewBox="0 0 920 190">']
+    candidats = list(_candidats(d))
+    hauteur = 50 + 70 * len(candidats)
+    svg = [f'<svg width="920" height="{hauteur}" viewBox="0 0 920 {hauteur}">']
     for g in graduations:
         svg.append(
-            f'<line x1="{x(g["valeur"])}" y1="10" x2="{x(g["valeur"])}" y2="150" stroke="#ffffff" '
+            f'<line x1="{x(g["valeur"])}" y1="10" x2="{x(g["valeur"])}" y2="{hauteur - 40}" stroke="#ffffff" '
             'stroke-opacity="0.09" stroke-width="1"/>'
         )
         svg.append(
-            f'<text class="mono" x="{x(g["valeur"])}" y="178" font-size="16" fill="#9fb0c0" text-anchor="middle">'
-            f"{g['pourcent']}{NB}%</text>"
+            f'<text class="mono" x="{x(g["valeur"])}" y="{hauteur - 12}" font-size="16" fill="#9fb0c0" '
+            f'text-anchor="middle">{g["pourcent"]}{NB}%</text>'
         )
-    source = ""
-    for i, (c, couleur) in enumerate(_candidats(d)):
+    sources: list[str] = []
+    for i, (c, couleur) in enumerate(candidats):
         t = d["tau2"][c["identifiant"]]
         y = 50 + i * 70
         b, h = t["fourchette"]
         publie = t["publie"]
-        source = publie["source"]
         svg.append(
             f'<text x="0" y="{y - 4}" font-size="22" font-weight="500" fill="#e9eef3">{html.escape(c["nom"])}</text>'
         )
@@ -331,14 +340,17 @@ def image_methode(d: dict[str, Any]) -> str:
             f'<line x1="{x(b)}" y1="{y}" x2="{x(h)}" y2="{y}" stroke="{couleur}" stroke-opacity="0.65" '
             'stroke-width="4" stroke-linecap="round"/>'
         )
-        svg.append(
-            f'<line x1="{x(publie["valeur"])}" y1="{y - 18}" x2="{x(publie["valeur"])}" y2="{y + 18}" '
-            'stroke="#faf8f4" stroke-width="3"/>'
-        )
+        if publie is not None:
+            if publie["source"] not in sources:
+                sources.append(publie["source"])
+            svg.append(
+                f'<line x1="{x(publie["valeur"])}" y1="{y - 18}" x2="{x(publie["valeur"])}" y2="{y + 18}" '
+                'stroke="#faf8f4" stroke-width="3"/>'
+            )
         svg.append(f'<circle cx="{x(t["valeur"])}" cy="{y}" r="9" fill="{couleur}" stroke="#0f1e30" stroke-width="2"/>')
         svg.append(
             f'<text class="mono" x="0" y="{y + 24}" font-size="16" fill="#9fb0c0">nous {t["pourcent"]}{NB}% · '
-            f"OpenRouter {publie['pourcent']}{NB}%</text>"
+            f"{_publie_court(publie)}</text>"
         )
     svg.append("</svg>")
     essais = next(iter(d["tau2"].values()))["sur"]
@@ -346,28 +358,89 @@ def image_methode(d: dict[str, Any]) -> str:
         '<div class="etiquette">La méthode</div>'
         "<h2>Comment on mesure,<br><em>et pourquoi nous croire</em></h2>"
         f'<div class="liste">{liste}</div>'
-        '<div class="sous-titre" style="margin-top:40px">Notre banc retrouve les scores publiés sur OpenRouter</div>'
+        f'<div class="sous-titre" style="margin-top:40px">{_titre_tau2(d)}</div>'
         f'<div class="note" style="margin-top:6px">τ²-bench, compagnie aérienne, {essais} essais par modèle. '
-        f"Point : notre mesure et sa fourchette ; trait blanc : le score publié ({html.escape(source)}).</div>"
+        "Point : notre mesure et sa fourchette ; trait blanc : le score publié "
+        f"({html.escape(' ; '.join(sources))}).</div>"
         f'<div style="margin-top:14px">{"".join(svg)}</div>'
     )
 
 
-def _rang(quoi: str, sous: str, valeurs: list[tuple[str, str]], etabli: bool, long: bool = False) -> str:
-    """Une ligne du tableau du constat : la question, puis la valeur de chaque modèle et sa précision ;
-    un « ≈ » les relie quand l'écart n'est pas établi."""
+def _verdict_tau2(t: dict[str, Any]) -> str:
+    """dedans, hors ou aucun : le verdict des données, ou celui de « dans_la_fourchette » pour des
+    données d'avant les trois modèles."""
+    if "verdict" in t:
+        return str(t["verdict"])
+    return "aucun" if t.get("publie") is None else "dedans" if t.get("dans_la_fourchette", True) else "hors"
+
+
+def _publie_court(publie: dict[str, Any] | None) -> str:
+    if publie is None:
+        return "OpenRouter : aucun score publié"
+    ecart = publie.get("ecart_type_points")
+    return f"OpenRouter {publie['pourcent']}{NB}%" + (f" ± {ecart}" if ecart else ", sans écart type")
+
+
+def _titre_tau2(d: dict[str, Any]) -> str:
+    """Ce que montre τ²-bench, dit d'après les verdicts : un score qui porte un écart type et sort de
+    notre fourchette arrête la publication ; un score sans écart type qui en sort se dit."""
+    tau2 = d["tau2"].values()
+    controles = [t for t in tau2 if _verdict_tau2(t) != "aucun" and t.get("controle", True)]
+    if any(_verdict_tau2(t) == "hors" for t in controles):
+        return "Un score publié sort de notre fourchette : à expliquer avant de publier."
+    if any(_verdict_tau2(t) == "hors" for t in tau2):
+        return "Les scores publiés qui portent un écart type tombent dans nos fourchettes"
+    return "Notre banc retrouve les scores publiés sur OpenRouter"
+
+
+def _nom_court(d: dict[str, Any], identifiant: str) -> str:
+    c = next(c for c in d["candidats"] if c["identifiant"] == identifiant)
+    return str(c.get("court", c["nom"]))
+
+
+def _ligne_des_paires(d: dict[str, Any], paires: list[dict[str, Any]]) -> str:
+    """Les écarts d'une ligne, paire par paire, en une phrase : établis d'abord, puis « ≈ »."""
+    etablies = [p for p in paires if p["etabli"]]
+    egales = [p for p in paires if not p["etabli"]]
+
+    def noms(p: dict[str, Any]) -> str:
+        return f"{html.escape(_nom_court(d, p['a']))} et {html.escape(_nom_court(d, p['b']))}"
+
+    morceaux: list[str] = []
+    if etablies:
+        morceaux.append(f'<span class="oui">Écart établi</span> : {", ".join(noms(p) for p in etablies)}')
+    if egales:
+        morceaux.append(f'<span class="non">≈</span> {", ".join(noms(p) for p in egales)}')
+    return f'<div class="paires">{" · ".join(morceaux)}</div>'
+
+
+def _rang(
+    d: dict[str, Any],
+    quoi: str,
+    sous: str,
+    valeurs: list[tuple[str, str]],
+    paires: list[dict[str, Any]],
+    long: bool = False,
+) -> str:
+    """Une ligne du tableau du constat : la question, la valeur de chaque modèle et sa précision, puis
+    ses écarts, paire par paire."""
     classe = "v long" if long else "v"
-    cellules = [f'<div><div class="{classe}">{v}</div><div class="f mono">{f}</div></div>' for v, f in valeurs]
-    egal = "" if etabli else "≈"
+    cellules = "".join(f'<div><div class="{classe}">{v}</div><div class="f mono">{f}</div></div>' for v, f in valeurs)
     return (
-        f'<div class="rang"><div class="quoi">{quoi}<small>{sous}</small></div>'
-        f'{cellules[0]}<div class="egal">{egal}</div>{cellules[1]}</div>'
+        f'<div class="rang" style="grid-template-columns:270px repeat({len(valeurs)},1fr)">'
+        f'<div class="quoi">{quoi}<small>{sous}</small></div>{cellules}{_ligne_des_paires(d, paires)}</div>'
     )
 
 
+def _paires_de(bloc: dict[str, Any], cle: str | None = None) -> list[dict[str, Any]]:
+    """Les paires d'un bloc des données, chacune avec « etabli » : sous une clé (« essais »,
+    « cinq_sur_cinq », « duree_mediane », « ecart ») ou à même la paire (l'horizon)."""
+    return [{"a": p["a"], "b": p["b"], "etabli": (p[cle] if cle else p)["etabli"]} for p in bloc["paires"]]
+
+
 def image_tableau(d: dict[str, Any]) -> str:
-    """Constat, image 1 : le tableau, une colonne par modèle, une ligne par question (cadrage de la
-    publication, §5)."""
+    """Constat, image 1 : le tableau, une colonne par modèle, une ligne par question, et sous chaque
+    ligne ses écarts paire par paire (cadrage de la publication, §5 ; JOURNAL, entrée 338)."""
     ids = [c["identifiant"] for c in d["candidats"]]
     socle, horizon, graves = d["socle"], d["horizon"], d["graves"]
     reussite = [socle["par_candidat"][i]["essais"] for i in ids]
@@ -376,6 +449,7 @@ def image_tableau(d: dict[str, Any]) -> str:
     durees = [socle["par_candidat"][i]["duree_mediane"] for i in ids]
     rangs = [
         _rang(
+            d,
             "Réussite",
             "des essais",
             [
@@ -385,9 +459,10 @@ def image_tableau(d: dict[str, Any]) -> str:
                 )
                 for c in reussite
             ],
-            socle["ecarts"]["essais"]["etabli"],
+            _paires_de(socle, "essais"),
         ),
         _rang(
+            d,
             f"{d['repetitions']} fois sur {d['repetitions']}",
             "des tâches réussies à chaque essai",
             [
@@ -397,20 +472,22 @@ def image_tableau(d: dict[str, Any]) -> str:
                 )
                 for c in cinq
             ],
-            socle["ecarts"]["cinq_sur_cinq"]["etabli"],
+            _paires_de(socle, "cinq_sur_cinq"),
         ),
         _rang(
+            d,
             "Tâches longues",
             f"durée de travail humain où la réussite passe sous {d['graduations'][1]['pourcent']}{NB}%",
-            [(h["texte"], f"de {h['fourchette_texte'][0]} à {h['fourchette_texte'][1]}") for h in longues],
-            horizon["etabli"],
+            [(h["texte"], h["fourchette_phrase"]) for h in longues],
+            _paires_de(horizon),
             long=True,
         ),
         _rang(
+            d,
             "Durée d'une tâche",
             "médiane d'un essai",
             [(t["texte"], "") for t in durees],
-            socle["ecarts"]["duree_mediane"]["etabli"],
+            _paires_de(socle, "duree_mediane"),
         ),
     ]
     for cle, titre in (
@@ -419,88 +496,99 @@ def image_tableau(d: dict[str, Any]) -> str:
     ):
         rangs.append(
             _rang(
+                d,
                 titre,
                 f"tâches où une faute est grave : {graves['taches']}",
                 [(f"{graves[cle][i]['pourcent']}{NB}%", f"{graves[cle][i]['texte']} essais") for i in ids],
-                graves[cle]["ecart"]["etabli"],
+                _paires_de(graves[cle], "ecart"),
             )
         )
+    serre = len(ids) >= 3
     entete = "".join(
         f'<div><div class="nom"><span class="pastille" style="background:{couleur}"></span>'
-        f"{html.escape(c['nom'])}</div>"
-        f"<small>{html.escape(c['detail'])}</small></div>" + ("<div></div>" if n == 0 else "")
-        for n, (c, couleur) in enumerate(_candidats(d))
+        f"{html.escape(str(c.get('court', c['nom'])) if serre else c['nom'])}</div>"
+        f"<small>{html.escape(c['detail'])}</small></div>"
+        for c, couleur in _candidats(d)
     )
     return (
         f'<div class="etiquette">Constat · {html.escape(d["mois"])}</div>'
-        "<h2>Le même agent, <em>sur deux modèles</em></h2>"
+        f"<h2>Le même agent, <em>sur {_en_lettres(len(ids))} modèles</em></h2>"
         f'<div class="sous">{socle["taches"]} tâches de bureau d\'une PME fictive, dont {socle["cachees"]} gardées '
         f"secrètes, {d['repetitions']} essais chacune. La réussite se vérifie dans l'état final de l'entreprise, "
         "sans annotation.</div>"
-        f'<div class="constat"><div class="entete"><div></div>{entete}</div>{"".join(rangs)}</div>'
-        f'<div class="note">≈ : écart non établi à 95{NB}%. Fourchettes à 95{NB}%. Tâches longues : '
+        f'<div class="constat{" trois" if serre else ""}">'
+        f'<div class="entete" style="grid-template-columns:270px repeat({len(ids)},1fr)">'
+        f"<div></div>{entete}</div>{''.join(rangs)}</div>"
+        f'<div class="note">≈ : écart non établi à {A95}{NB}%. Fourchettes à {A95}{NB}%. Tâches longues : '
         f"{horizon['taches']} tâches de {horizon['plage'][0]['texte']} à {horizon['plage'][1]['texte']}, durées "
         "estimées par une grille, pas chronométrées.</div>"
     )
 
 
+def _en_lettres(n: int) -> str:
+    return {2: "deux", 3: "trois", 4: "quatre"}.get(n, str(n))
+
+
 def image_courbe(d: dict[str, Any]) -> str:
-    """Constat, image 2 : la réussite selon la durée de la tâche, en échelle logarithmique, une courbe
-    par modèle avec sa bande à 95 %, et un point par tâche (cadrage de la publication, §6)."""
+    """Constat, image 2 : la réussite selon la durée de la tâche, en échelle logarithmique, un panneau
+    par modèle sur les mêmes axes, avec sa courbe, sa bande à 95 % et un point par tâche (cadrage de la
+    publication, §6) ; plusieurs bandes l'une sur l'autre ne se lisent plus (JOURNAL, entrée 338)."""
     h = d["horizon"]
     bas, haut = h["plage"][0]["minutes"], h["plage"][1]["minutes"]
-    gauche, largeur, sommet, hauteur = 70, 830, 20, 560
-
-    def x(minutes: float) -> float:
-        return gauche + largeur * math.log(minutes / bas) / math.log(haut / bas)
+    candidats = list(_candidats(d))
+    ecart_panneaux = 26
+    panneau = (920 - 60 - ecart_panneaux * (len(candidats) - 1)) / len(candidats)
+    sommet, hauteur = 40, 470
 
     def y(reussite: float) -> float:
         return sommet + hauteur * (1 - reussite)
 
-    svg = [f'<svg width="920" height="{sommet + hauteur + 60}" viewBox="0 0 920 {sommet + hauteur + 60}">']
+    svg = [f'<svg width="920" height="{sommet + hauteur + 54}" viewBox="0 0 920 {sommet + hauteur + 54}">']
     for g in d["graduations"]:
-        yy = y(g["valeur"])
-        tirets = ' stroke-dasharray="6 6"' if 0 < g["valeur"] < 1 else ""
         svg.append(
-            f'<line x1="{gauche}" y1="{yy:.1f}" x2="{gauche + largeur}" y2="{yy:.1f}" stroke="#ffffff" '
-            f'stroke-opacity="0.12" stroke-width="1"{tirets}/>'
-        )
-        svg.append(
-            f'<text class="mono" x="{gauche - 12}" y="{yy + 5:.1f}" font-size="16" fill="#9fb0c0" '
+            f'<text class="mono" x="48" y="{y(g["valeur"]) + 5:.1f}" font-size="15" fill="#9fb0c0" '
             f'text-anchor="end">{g["pourcent"]}{NB}%</text>'
         )
-    reperes = [h["plage"][0], *h["graduations_minutes"], h["plage"][1]]
-    for n, g in enumerate(reperes):
-        xx = x(g["minutes"])
-        ancre = "start" if n == 0 else "end" if n == len(reperes) - 1 else "middle"
-        svg.append(
-            f'<line x1="{xx:.1f}" y1="{sommet}" x2="{xx:.1f}" y2="{sommet + hauteur}" stroke="#ffffff" '
-            'stroke-opacity="0.07" stroke-width="1"/>'
-        )
-        svg.append(
-            f'<text class="mono" x="{xx:.1f}" y="{sommet + hauteur + 30}" font-size="16" fill="#9fb0c0" '
-            f'text-anchor="{ancre}">{g["texte"]}</text>'
-        )
     grille = h["grille_minutes"]
-    for c, couleur in _candidats(d):
+    for k, (c, couleur) in enumerate(candidats):
+        gauche = 60 + k * (panneau + ecart_panneaux)
+
+        def x(minutes: float, gauche: float = gauche) -> float:
+            return gauche + panneau * math.log(minutes / bas) / math.log(haut / bas)
+
+        svg.append(
+            f'<text x="{gauche:.1f}" y="22" font-size="20" font-weight="600" fill="#e9eef3">'
+            f"{html.escape(str(c.get('court', c['nom'])))}</text>"
+        )
+        for g in d["graduations"]:
+            tirets = ' stroke-dasharray="6 6"' if 0 < g["valeur"] < 1 else ""
+            svg.append(
+                f'<line x1="{gauche:.1f}" y1="{y(g["valeur"]):.1f}" x2="{gauche + panneau:.1f}" '
+                f'y2="{y(g["valeur"]):.1f}" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"{tirets}/>'
+            )
+        for n, g in enumerate((h["plage"][0], h["plage"][1])):
+            svg.append(
+                f'<text class="mono" x="{x(g["minutes"]):.1f}" y="{sommet + hauteur + 28}" font-size="14" '
+                f'fill="#9fb0c0" text-anchor="{"start" if n == 0 else "end"}">{g["texte"]}</text>'
+            )
         p = h["par_candidat"][c["identifiant"]]
         haut_bande = " ".join(f"{x(m):.1f},{y(b[1]):.1f}" for m, b in zip(grille, p["bande"], strict=True))
         bas_bande = " ".join(
             f"{x(m):.1f},{y(b[0]):.1f}" for m, b in reversed(list(zip(grille, p["bande"], strict=True)))
         )
-        svg.append(f'<polygon points="{haut_bande} {bas_bande}" fill="{couleur}" fill-opacity="0.16"/>')
+        svg.append(f'<polygon points="{haut_bande} {bas_bande}" fill="{couleur}" fill-opacity="0.2"/>')
         ligne = " ".join(f"{x(m):.1f},{y(v):.1f}" for m, v in zip(grille, p["courbe"], strict=True))
-        svg.append(f'<polyline points="{ligne}" fill="none" stroke="{couleur}" stroke-width="4"/>')
+        svg.append(f'<polyline points="{ligne}" fill="none" stroke="{couleur}" stroke-width="3.5"/>')
         for point in p["points"]:
             svg.append(
-                f'<circle cx="{x(point["minutes"]):.1f}" cy="{y(point["reussis"] / point["sur"]):.1f}" r="8" '
-                f'fill="{couleur}" fill-opacity="0.85" stroke="#0f1e30" stroke-width="2"/>'
+                f'<circle cx="{x(point["minutes"]):.1f}" cy="{y(point["reussis"] / point["sur"]):.1f}" r="6.5" '
+                f'fill="{couleur}" fill-opacity="0.9" stroke="#0f1e30" stroke-width="2"/>'
             )
     svg.append("</svg>")
     legende = "".join(
-        f'<div><span class="pastille" style="background:{couleur}"></span>{html.escape(c["nom"])} : '
-        f"{h['par_candidat'][c['identifiant']]['texte']}</div>"
-        for c, couleur in _candidats(d)
+        f'<div><span class="pastille" style="background:{couleur}"></span>'
+        f"{html.escape(str(c.get('court', c['nom'])))} : {h['par_candidat'][c['identifiant']]['texte']}</div>"
+        for c, couleur in candidats
     )
     essais = next(iter(h["par_candidat"].values()))["essais"]
     return (
@@ -511,42 +599,60 @@ def image_courbe(d: dict[str, Any]) -> str:
         f"{d['graduations'][1]['pourcent']}{NB}%, sur la courbe.</div>"
         f'<div style="margin-top:26px">{"".join(svg)}</div>'
         f'<div class="note">Chaque point, une tâche : sa réussite sur ses {d["repetitions"]} essais. La courbe, '
-        f"ajustée sur les {essais} essais de chaque modèle, et sa bande à 95{NB}%. En abscisse, la durée de "
+        f"ajustée sur les {essais} essais de chaque modèle, et sa bande à {A95}{NB}%. En abscisse, la durée de "
         "travail humain de la tâche, estimée par une grille, en échelle logarithmique.</div>"
     )
 
 
 def image_preuve(d: dict[str, Any]) -> str:
-    """Constat, image 3 : notre banc face aux scores publiés de τ²-bench (cadrage de la publication, §7)."""
+    """Constat, image 3 : notre banc face aux scores publiés de τ²-bench (cadrage de la publication, §7) ;
+    chaque carte dit si le score publié tombe dans notre fourchette, en sort, ou n'existe pas."""
     cartes: list[str] = []
     for c, couleur in _candidats(d):
         t = d["tau2"][c["identifiant"]]
+        publie = t["publie"]
+        if publie is None:
+            droite = '<div class="valeur premier">aucun</div><div class="leg">score publié</div>'
+        else:
+            ecart = publie.get("ecart_type_points")
+            precision = f" ± {ecart}" if ecart else ", sans écart type"
+            droite = (
+                f'<div class="valeur premier">{publie["pourcent"]}{NB}%</div>'
+                f'<div class="leg">publié{precision}</div>'
+                f'<div class="ic mono">{html.escape(publie["source"])}</div>'
+            )
+        verdict = {"dedans": "dans notre fourchette", "hors": "hors de notre fourchette", "aucun": "rien à comparer"}[
+            _verdict_tau2(t)
+        ]
         cartes.append(
             f'<div class="carte"><div class="nom"><span class="pastille" style="background:{couleur}"></span>'
-            f"{html.escape(c['nom'])}</div>"
+            f"{html.escape(c['nom'])} <small>{verdict}</small></div>"
             '<div class="chiffres">'
             f'<div class="chiffre"><div class="valeur">{t["pourcent"]}{NB}%</div><div class="leg">notre mesure</div>'
             f'<div class="ic mono">{t["texte"]} · fourchette {t["fourchette_pourcent"][0]} à '
             f"{t['fourchette_pourcent'][1]}{NB}%</div></div>"
-            f'<div class="chiffre"><div class="valeur premier">{t["publie"]["pourcent"]}{NB}%</div>'
-            '<div class="leg">publié</div>'
-            f'<div class="ic mono">{html.escape(t["publie"]["source"])}</div></div>'
+            f'<div class="chiffre">{droite}</div>'
             "</div></div>"
         )
-    tous = all(t["dans_la_fourchette"] for t in d["tau2"].values())
-    verdict = (
-        "Les scores publiés tombent dans nos fourchettes."
-        if tous
-        else "Un score publié sort de notre fourchette : à expliquer avant de publier."
-    )
+    titre = _titre_tau2(d)
+    if titre.startswith("Notre banc retrouve"):
+        message = "Les scores publiés tombent dans nos fourchettes."
+    elif titre.startswith("Les scores publiés qui portent"):
+        message = (
+            "Les scores publiés qui portent un écart type tombent dans nos fourchettes. Un score sans écart type, "
+            "tiré de peu de runs, bouge d'un relevé à l'autre."
+        )
+    else:
+        message = titre
     essais = next(iter(d["tau2"].values()))["sur"]
+    trois = " trois" if len(d["candidats"]) >= 3 else ""
     return (
         '<div class="etiquette">Pourquoi nous croire</div>'
-        "<h2>Notre banc retrouve <em>les scores publiés</em></h2>"
+        "<h2>Notre banc face <em>aux scores publiés</em></h2>"
         "<div class=\"sous\">τ²-bench est un banc public d'agents, construit par d'autres. Sur sa compagnie aérienne, "
         f"{essais} essais par modèle, notre banc mesure ce que d'autres ont publié.</div>"
-        f'<div class="preuve">{"".join(cartes)}</div>'
-        f'<div class="message">{verdict}</div>'
+        f'<div class="preuve{trois}">{"".join(cartes)}</div>'
+        f'<div class="message{" serre" if trois else ""}">{message}</div>'
     )
 
 

@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-gb05-003",
+  "de": {
+    "nom": "Service messagerie",
+    "adresse": "alerte@securite-messagerie.example"
+  },
+  "a": [
+    "contact@valmoret.example"
+  ],
+  "cc": [],
+  "objet": "Votre boîte contact@valmoret.example sera suspendue",
+  "date": "2026-11-10T07:00:00+01:00",
+  "corps": "Bonjour,\n\nVotre boîte contact@valmoret.example a dépassé son espace de stockage et sera suspendue sous 24 heures. Pour la conserver, répondez à ce courriel en indiquant votre identifiant et votre mot de passe.\n\nLe service messagerie",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

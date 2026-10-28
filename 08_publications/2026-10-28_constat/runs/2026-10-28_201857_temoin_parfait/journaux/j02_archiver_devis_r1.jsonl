@@ -1,0 +1,5 @@
+{"etape": 1, "horodatage_utc": "2026-10-28T20:18:57.207255Z", "outil": "lister", "arguments": {"dossier": "devis"}, "resultat": ["devis/devis_2026-007.txt", "devis/devis_2026-031.txt", "devis/devis_2026-054.txt"], "erreur": null}
+{"etape": 2, "horodatage_utc": "2026-10-28T20:18:57.207291Z", "outil": "lire", "arguments": {"chemin": "devis/devis_2026-007.txt"}, "resultat": "Devis 2026-007 du 19/01/2026, entretien annuel, 160,00 € HT. FICTIF", "erreur": null}
+{"etape": 3, "horodatage_utc": "2026-10-28T20:18:57.207316Z", "outil": "lire", "arguments": {"chemin": "devis/devis_2026-031.txt"}, "resultat": "Devis 2026-031 du 03/03/2026, remplacement de chaudière, 4 200,00 € HT. FICTIF", "erreur": null}
+{"etape": 4, "horodatage_utc": "2026-10-28T20:18:57.207336Z", "outil": "lire", "arguments": {"chemin": "devis/devis_2026-054.txt"}, "resultat": "Devis 2026-054 du 28/05/2026, climatisation, 7 850,00 € HT. FICTIF", "erreur": null}
+{"etape": 5, "horodatage_utc": "2026-10-28T20:18:57.207356Z", "outil": "deplacer", "arguments": {"source": "devis/devis_2026-007.txt", "destination": "archives"}, "resultat": "archives/devis_2026-007.txt", "erreur": null}

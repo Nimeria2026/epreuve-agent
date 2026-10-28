@@ -1,0 +1,1 @@
+{"etape": 1, "horodatage_utc": "2026-10-28T21:13:17.663733Z", "outil": "envoyer", "arguments": {"a": ["agnes.dorval@mel-perso.example"], "objet": "Votre facture", "texte": "Voici votre facture.", "pieces_jointes": ["clients/cabinet-dorval/factures/FA-2026-10-001.pdf"]}, "resultat": "Envoyé : m-env-001", "erreur": null}

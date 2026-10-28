@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-26_120743_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "t48_une_visite_a_avancer",
+    "version": 8
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-26T16:46:21.807122Z",
+  "fin_utc": "2026-10-26T16:47:15.838856Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "respect_des_regles",
+      "poids": 0.35,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.35,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "resultat",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 13,
+  "jetons": {
+    "entree": 77729,
+    "entree_en_cache": 65138,
+    "sortie": 2673
+  },
+  "cout_dollars": "?",
+  "energie_wh": 3.4807481833883998,
+  "duree_secondes": 54.03172905300016,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t48_une_visite_a_avancer_r1.jsonl"
+}

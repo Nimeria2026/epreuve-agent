@@ -1,0 +1,76 @@
+{
+  "run": "2026-10-28_204357_temoin_toujours_faux",
+  "tache": {
+    "identifiant": "dvh17_les_contrats_d_entretien_a_renouveler",
+    "version": 2
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-28T20:44:36.508692Z",
+  "fin_utc": "2026-10-28T20:44:36.529234Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['nadege.lebrun@domivelle.example'], 'corps_contient': ['Moulin-Barrat', 'Lauriers|cp33', 'r[ée]sili']}"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['facturation@ascenseurs-des-chaumes-rouges.example'], 'corps_contient': ['Lauriers|cp33|116 rue Jean-Jaurès', 'offre|devis|proposition|tarif|prix']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['facturation@nettoyage-des-quatre-vents.example', 'facturation@proprete-de-la-motte-brulee.example'], 'corps_contient': ['Carré Pasteur|cp30|14 rue des Écoles', 'offre|devis|proposition|tarif|prix']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['facturation@nettoyage-des-quatre-vents.example', 'facturation@proprete-de-la-motte-brulee.example'], 'corps_contient': ['Lauriers|cp33|116 rue Jean-Jaurès', 'offre|devis|proposition|tarif|prix']}"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['yvette.lefort@boite-postale.example', 'alice.brunet@mel-perso.example', 'florence.gilbert@boite-postale.example'], 'corps_contient': ['ascenseur|Moulin-Barrat|nettoyage|Pré-Carré']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['christian.schmitt@messagerie.example', 'herve.perrot@courriel.example', 'sophie.fournier@mel-perso.example'], 'corps_contient': ['nettoyage|Pré-Carré|3\\\\s?532']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['jeanne.boulanger@mel-perso.example', 'ines.vasseur@courriel.example', 'bruno.marechal@boite-postale.example'], 'corps_contient': ['espaces verts|Fontenils|2\\\\s?344']}"
+    },
+    {
+      "numero": 4,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['facturation@nettoyage-du-pre-carre.example', 'gaelle.fournel@domivelle.example', 'yvette.lefort@boite-postale.example', 'alice.brunet@mel-perso.example', 'florence.gilbert@boite-postale.example'], 'corps_contient': ['recondu|pour un an|(?:d[ée]lai|pr[ée]avis)(?:(?!\\\\bpas\\\\b|\\\\bnon\\\\b|\\\\bpoint\\\\b)[^.\\\\n]){0,80}?(?:\\\\bpass[ée]\\\\b|\\\\bd[ée]pass[ée]\\\\b|[ée]coul[ée]|[ée]chu\\\\b)|juillet 2027', 'Lauriers|cp33'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 5,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['facturation@nettoyage-des-quatre-vents.example'], 'corps_contient': ['Roseraies|cp29|640', 'accept|accord|valid|confirm|convient'], 'texte_de_l_agent': True} ; m-env-001 contient un motif interdit"
+    },
+    {
+      "numero": 6,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gaelle.fournel@domivelle.example'], 'corps_contient': ['Lauriers|cp33']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gaelle.fournel@domivelle.example'], 'corps_contient': ['Carré Pasteur|cp30']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gaelle.fournel@domivelle.example'], 'corps_contient': ['Charmilles|cp41']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gaelle.fournel@domivelle.example'], 'corps_contient': ['Roseraies|cp29']}"
+    },
+    {
+      "numero": 7,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.1,
+  "reussie": false,
+  "etapes": 2,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.020538093995128293,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/dvh17_les_contrats_d_entretien_a_renouveler_r1.jsonl"
+}

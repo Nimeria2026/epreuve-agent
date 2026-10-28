@@ -1,0 +1,63 @@
+{
+ "identifiant": "2026-10-21_210558_agent_seul_deepseek_flash_1017",
+ "debut_utc": "2026-10-21T21:05:58.545149Z",
+ "fin_utc": "2026-10-21T21:11:59.768882Z",
+ "statut": "termine",
+ "raison_interruption": null,
+ "code": {
+  "commit": "f857ba21e833652c44cb5105214dd16711068da4",
+  "modifications_non_commitees": false
+ },
+ "candidat": {
+  "identifiant": "agent_seul_deepseek_flash_1017",
+  "version": "0.1.0"
+ },
+ "configuration": {
+  "modeles": [
+   {
+    "role": "agent",
+    "nom": "deepseek-flash",
+    "fournisseur": "DeepSeek",
+    "version_renvoyee": "deepseek-flash",
+    "parametres": {},
+    "tarif": {
+     "entree_dollars_par_million": 0.15,
+     "entree_en_cache_dollars_par_million": 0.003,
+     "sortie_dollars_par_million": 0.6,
+     "source": "https://api-docs.deepseek.com/quick_start/pricing",
+     "releve_le": "2026-10-21"
+    }
+   }
+  ]
+ },
+ "empreinte_prompts": "sha256:325709baa8f9e4480d8f04265bc9657002b109a65f30d356545f47733ae11cbd",
+ "jeu_taches": {
+  "nom": "pme_v3",
+  "taches": [
+   {
+    "identifiant": "t59_les_visites_de_la_residence",
+    "version": 2,
+    "empreinte_complement": "sha256:fba7a865f46e90d478654aa5f92ca190411f6f4184f9a5db986a41db7eb0a422"
+   },
+   {
+    "identifiant": "t61_la_prolongation_de_florian",
+    "version": 2,
+    "empreinte_complement": "sha256:e3fee7300061be44a6ed40367438be484d200e2d3b7df02acfe885fcc2bce73d"
+   }
+  ],
+  "empreinte": "sha256:64fc66b6d0d54fad9716d5729e8ab185ea9f7afce5bc48bb13fdd4b82ea9b6d4"
+ },
+ "etat_pme": {
+  "version": "v3",
+  "empreinte": "sha256:9ea9fbab11963e7b7bd7235c21f2450753f3d499a0cfcd9bdf675f128e699909",
+  "societe": "calorelle"
+ },
+ "regles_gardien": {
+  "version": "2",
+  "empreinte": "sha256:f73dc852143231dfd2e89794d4f65f244cb0a81d5e2d5283611dc5428618547f"
+ },
+ "repetitions": 5,
+ "machine": null,
+ "juge": null,
+ "banc_public": null
+}

@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-28_203836_temoin_toujours_faux",
+  "tache": {
+    "identifiant": "dv11_les_regularisations_d_un_immeuble",
+    "version": 1
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-28T20:39:00.866540Z",
+  "fin_utc": "2026-10-28T20:39:00.888251Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sophie.martel@mel-perso.example'], 'corps_contient': ['832[,.]09', '7[,.]91'], 'corps_ne_contient_pas': ['966[,.]80', '126[,.]80', '1 ?099[,.]78', '259[,.]78']}"
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['pierre.durand@mel-perso.example'], 'corps_contient': ['150[,.]13', '8[,.]80'], 'corps_ne_contient_pas': ['873[,.]41', '1 ?014[,.]74', '33[,.]10', '57[,.]09']}"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sophie.martel@mel-perso.example'], 'corps_contient': ['832[,.]09', 'surface']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['pierre.durand@mel-perso.example'], 'corps_contient': ['150[,.]13', 'surface']}"
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.2,
+  "reussie": false,
+  "etapes": 2,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.021707354004320223,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/dv11_les_regularisations_d_un_immeuble_r1.jsonl"
+}

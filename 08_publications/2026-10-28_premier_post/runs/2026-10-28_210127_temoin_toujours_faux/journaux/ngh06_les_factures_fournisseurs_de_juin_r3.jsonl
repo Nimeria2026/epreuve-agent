@@ -1,0 +1,1 @@
+{"etape": 1, "horodatage_utc": "2026-10-28T21:01:52.362334Z", "outil": "enregistrer_piece_jointe", "arguments": {"boite": "compta@negovelle.example", "identifiant": "m-cpt-010", "piece": "F95168.pdf", "dossier": "fournisseurs/outillage-des-brandes/factures"}, "resultat": null, "erreur": "un fichier existe déjà : fournisseurs/outillage-des-brandes/factures/F95168.pdf"}

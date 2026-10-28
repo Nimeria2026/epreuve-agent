@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-26_120743_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "t41_devis_accepte",
+    "version": 2
+  },
+  "repetition": 5,
+  "debut_utc": "2026-10-26T16:16:22.102353Z",
+  "fin_utc": "2026-10-26T16:17:19.634509Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 14,
+  "jetons": {
+    "entree": 87856,
+    "entree_en_cache": 82078,
+    "sortie": 2978
+  },
+  "cout_dollars": "?",
+  "energie_wh": 3.6871269267090256,
+  "duree_secondes": 57.532147379999515,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t41_devis_accepte_r5.jsonl"
+}

@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-26_210017_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "h01_paiements_de_la_quinzaine",
+    "version": 3
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-26T21:00:33.711302Z",
+  "fin_utc": "2026-10-26T21:06:17.309208Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.35,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 46,
+  "jetons": {
+    "entree": 227330,
+    "entree_en_cache": 211386,
+    "sortie": 22309
+  },
+  "cout_dollars": "?",
+  "energie_wh": 22.63938063169788,
+  "duree_secondes": 343.5979007909991,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h01_paiements_de_la_quinzaine_r2.jsonl"
+}

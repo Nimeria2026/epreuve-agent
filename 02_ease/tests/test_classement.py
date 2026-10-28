@@ -224,7 +224,7 @@ avec les tâches du benchmark par branche, dv21 à dv37, validées le 2026-10-20
 
 def test_chaque_type_commun_a_ses_instances_dans_chaque_societe() -> None:
     lus = socles()
-    assert set(lus) == {"calorelle", "domivelle", "negovelle"}
+    assert set(lus) == {"calorelle", "domivelle", "negovelle", "gabarit"}
     assert ecarts_types_communs(lire_types_communs(), lus) == []
     instances = instances_des_types(lus["domivelle"][0])
     assert {n: [i[:4] for i in ids] for n, ids in instances.items()} == INSTANCES_DOMIVELLE

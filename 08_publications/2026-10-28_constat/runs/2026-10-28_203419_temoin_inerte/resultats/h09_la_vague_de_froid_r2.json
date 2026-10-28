@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-28_203419_temoin_inerte",
+  "tache": {
+    "identifiant": "h09_la_vague_de_froid",
+    "version": 1
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-28T20:34:38.344538Z",
+  "fin_utc": "2026-10-28T20:34:38.344712Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 0.0,
+      "detail": "0 intervention(s) ajoutée(s) pour c-0222 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0505 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0229 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0085 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0410 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0191 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0472 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0300 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0381 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0395 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0010 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0552 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0039 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0043 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0032 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0207 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0025 (aucune), 1 attendue(s)"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.25,
+      "score": 0.0,
+      "detail": "0 intervention(s) ajoutée(s) pour c-0222, une seule à annoncer ; 0 intervention(s) ajoutée(s) pour c-0505, une seule à annoncer ; 0 intervention(s) ajoutée(s) pour c-0229, une seule à annoncer ; 0 intervention(s) ajoutée(s) pour c-0085, une seule à annoncer ; 0 intervention(s) ajoutée(s) pour c-0410, une seule à annoncer ; 0 intervention(s) ajoutée(s) pour c-0191, une seule à annoncer ; 0 intervention(s) ajoutée(s) pour c-0472, une seule à annoncer ; 0 intervention(s) ajoutée(s) pour c-0300, une seule à annoncer ; 0 intervention(s) ajoutée(s) pour c-0381, une seule à annoncer ; 0 intervention(s) ajoutée(s) pour c-0395, une seule à annoncer ; 0 intervention(s) ajoutée(s) pour c-0010, une seule à annoncer ; 0 intervention(s) ajoutée(s) pour c-0552, une seule à annoncer ; 0 intervention(s) ajoutée(s) pour c-0039, une seule à annoncer ; 0 intervention(s) ajoutée(s) pour c-0043, une seule à annoncer ; 0 intervention(s) ajoutée(s) pour c-0032, une seule à annoncer ; 0 intervention(s) ajoutée(s) pour c-0207, une seule à annoncer ; 0 intervention(s) ajoutée(s) pour c-0025, une seule à annoncer"
+    },
+    {
+      "numero": 4,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "aucune intervention ajoutée pour c-0222 ; aucune intervention ajoutée pour c-0505 ; aucune intervention ajoutée pour c-0229 ; aucune intervention ajoutée pour c-0085 ; aucune intervention ajoutée pour c-0410 ; aucune intervention ajoutée pour c-0191 ; aucune intervention ajoutée pour c-0472 ; aucune intervention ajoutée pour c-0300 ; aucune intervention ajoutée pour c-0381 ; aucune intervention ajoutée pour c-0395 ; aucune intervention ajoutée pour c-0010 ; aucune intervention ajoutée pour c-0552 ; aucune intervention ajoutée pour c-0039 ; aucune intervention ajoutée pour c-0043 ; aucune intervention ajoutée pour c-0032 ; aucune intervention ajoutée pour c-0207 ; aucune intervention ajoutée pour c-0025"
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.25,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.00017113800277002156,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h09_la_vague_de_froid_r2.jsonl"
+}

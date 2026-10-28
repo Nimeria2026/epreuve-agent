@@ -191,13 +191,18 @@ def test_auteur_et_relecteur_avec_un_modele_parfait_reussit_t01_a_t05_et_compte_
 
 
 def test_les_candidats_declares_se_lisent() -> None:
-    assert declarations() == [
+    # Le candidat d'une campagne, campagne_<nom>, ne vit que dans son clone (02_ease/README.md,
+    # « Brancher un agent externe ») : il s'ajoute à ceux de l'atelier sans changer ce test.
+    assert [d for d in declarations() if not d.startswith("campagne_")] == [
         "agent_seul_deepseek_flash",
         "agent_seul_deepseek_flash_1017",
         "agent_seul_deepseek_flash_deepinfra",
         "agent_seul_gpt_oss_deepinfra",
         "agent_seul_mimo_v26_flash_deepinfra",
         "agent_seul_minimax_m31_flash_openrouter",
+        "agent_seul_qwen_flash_next_strata",
+        "agent_seul_qwen_flash_next_strata_choix_outil",
+        "agent_seul_qwen_flash_next_strata_sans_mtp",
         "agent_seul_qwen_local",
         "agent_seul_qwen_local_100k",
         "agent_seul_qwen_max_gmi",

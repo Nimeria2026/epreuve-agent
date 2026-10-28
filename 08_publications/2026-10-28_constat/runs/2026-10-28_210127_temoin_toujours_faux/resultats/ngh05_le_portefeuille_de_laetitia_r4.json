@@ -1,0 +1,69 @@
+{
+  "run": "2026-10-28_210127_temoin_toujours_faux",
+  "tache": {
+    "identifiant": "ngh05_le_portefeuille_de_laetitia",
+    "version": 2
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-28T21:01:49.499521Z",
+  "fin_utc": "2026-10-28T21:01:49.578411Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "0 commande(s) créée(s) pour c-0218 (aucune), 1 attendue(s)"
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "commande(s) de c-0037 validée(s) : CO-2026-02042 ; modifié commandes/CO-2026-02016.json ; adresse ponctuelle : CO-2026-02016"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.25,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['agnes.herve@menuiserie-mahe.example'], 'corps_contient': ['jours? ouvr|trois jours|3 jours|0?9 juillet|09/07|jeudi|mercredi|demain|0?8 juillet|0?7 juillet'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['anne.bonneau@serrurerie-lecoq.example', 'sandrine.dufour@serrurerie-lecoq.example'], 'corps_contient': ['17 juillet|17/0?7', 'pr[ée]f[ée]r|choix|souhait|voulez|partiel|en partie|attendre'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['jerome.valentin@peinture-simonet.example'], 'corps_contient': ['encours|limite', 'partiel|en partie|une partie|r[eè]glement|r[ée]gler'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['anne.cadiou@rouxel-travaux-publics.example', 'christine.vaillant@rouxel-travaux-publics.example', 'corinne.vidal@negovelle.example'], 'corps_contient': ['appel|t[ée]l[ée]phon|rappel'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['roger.auger@fleurot-batiment.example', 'francoise.cosson@fleurot-batiment.example'], 'corps_contient': ['12[,.]97'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 4,
+      "famille": "respect_des_regles",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['corinne.vidal@negovelle.example'], 'corps_contient': ['Rouxel|c-0053|CO-2026-02016']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['isabelle.royer@negovelle.example'], 'corps_contient': ['Simonet|c-0268']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['isabelle.royer@negovelle.example'], 'corps_contient': ['Chartier|c-0182|FC-2026-1425']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sav@negovelle.example', 'remi.joly@negovelle.example'], 'corps_contient': ['Maurin|c-0027|OUT-11339|BL-2026-01844']}"
+    },
+    {
+      "numero": 5,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['manon.rey@negovelle.example'], 'corps_contient': ['Lecoq|c-0037', 'Simonet|c-0268', 'Rouxel|c-0053']}"
+    },
+    {
+      "numero": 6,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.15,
+  "reussie": false,
+  "etapes": 3,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.07888714699947741,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/ngh05_le_portefeuille_de_laetitia_r4.jsonl"
+}

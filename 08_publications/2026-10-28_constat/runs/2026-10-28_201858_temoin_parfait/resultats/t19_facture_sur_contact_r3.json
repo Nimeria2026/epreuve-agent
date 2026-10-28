@@ -1,0 +1,41 @@
+{
+  "run": "2026-10-28_201858_temoin_parfait",
+  "tache": {
+    "identifiant": "t19_facture_sur_contact",
+    "version": 2
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-28T20:19:38.323853Z",
+  "fin_utc": "2026-10-28T20:19:38.364196Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.6,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 3,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.040339314997254405,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t19_facture_sur_contact_r3.jsonl"
+}

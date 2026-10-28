@@ -231,6 +231,20 @@ def taches_negovelle_dure_v2(racine: Path | None = None) -> list[Tache]:
     return lire_taches(dossier_negovelle_dure_v2(racine), MOTIF_NEGOVELLE_DURE)
 
 
+MOTIF_GABARIT = "gb[0-9]*.yaml"
+
+
+def dossier_gabarit(racine: Path | None = None) -> Path:
+    """La société gabarit, base des campagnes (cadrage des interventions, section 11 ; JOURNAL,
+    entrée 312) : ses dix tâches communes gb01 à gb10, écrites par generer_gabarit.py, puis celles
+    du métier d'une campagne, gb11 et suivantes ; toutes portent societe: gabarit."""
+    return (racine or racine_depot()) / "07_taches" / "public" / "gabarit"
+
+
+def taches_gabarit(racine: Path | None = None) -> list[Tache]:
+    return lire_taches(dossier_gabarit(racine), MOTIF_GABARIT)
+
+
 JEUX = (
     "public",
     "documents",
@@ -242,10 +256,12 @@ JEUX = (
     "negovelle",
     "negovelle_dure",
     "negovelle_dure_v2",
+    "gabarit",
 )
 """Les jeux de tâches publiques : le socle de Calorelle, le jeu « documents » de l'étape 6, la
 tranche dure, la tranche longue de la v2 (hors de la v1), le socle de Domivelle, sa tranche longue
-et celle de sa v2, le socle de Négovelle, sa tranche longue et celle de sa v2."""
+et celle de sa v2, le socle de Négovelle, sa tranche longue et celle de sa v2, la société gabarit
+des campagnes."""
 
 
 def dossier_du_jeu(jeu: str, racine: Path | None = None) -> Path:
@@ -267,6 +283,8 @@ def dossier_du_jeu(jeu: str, racine: Path | None = None) -> Path:
         return dossier_negovelle_dure(racine)
     if jeu == "negovelle_dure_v2":
         return dossier_negovelle_dure_v2(racine)
+    if jeu == "gabarit":
+        return dossier_gabarit(racine)
     if jeu == "public":
         return (racine or racine_depot()) / "07_taches" / "public"
     raise ValueError(f"jeu inconnu : {jeu}")
@@ -291,6 +309,8 @@ def taches_du_jeu(jeu: str, racine: Path | None = None) -> list[Tache]:
         return taches_negovelle_dure(racine)
     if jeu == "negovelle_dure_v2":
         return taches_negovelle_dure_v2(racine)
+    if jeu == "gabarit":
+        return taches_gabarit(racine)
     return lire_taches(dossier_du_jeu(jeu, racine))
 
 

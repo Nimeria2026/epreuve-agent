@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-28_210252_temoin_une_fois_sur_deux",
+  "tache": {
+    "identifiant": "ngh04_les_retours_de_la_semaine",
+    "version": 2
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-28T21:03:10.015926Z",
+  "fin_utc": "2026-10-28T21:03:10.016120Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.25,
+      "score": 0.0,
+      "detail": "0 retour(s) enregistré(s) sur BL-2026-01755, un seul attendu ; 0 retour(s) enregistré(s) sur BL-2026-01811, un seul attendu ; 0 retour(s) enregistré(s) sur BL-2026-01763, un seul attendu ; 0 retour(s) enregistré(s) sur BL-2026-01728, un seul attendu"
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.25,
+      "score": 0.0,
+      "detail": "avoirs émis : aucun ; attendus et absents : 115.19 € sur FC-2026-1086 (c-0095), 243.90 € sur FC-2026-1067 (c-0075), 224.77 € sur FC-2026-1035 (c-0041)"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['arnaud.maurin@electricite-ruel.example'], 'corps_contient': ['115[,.]19'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['roger.boutin@electricite-rouxel.example'], 'corps_contient': ['243[,.]90?\\\\b'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['ines.herve@couverture-ancelin.example'], 'corps_contient': ['224[,.]77', 'emballage|ouvert|déchiré'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['etienne.lecoq@platrerie-hoarau.example', 'denise.hardy@platrerie-hoarau.example'], 'corps_contient': ['juillet'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 4,
+      "famille": "respect_des_regles",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['philippe.durieux@peinture-bruneau.example', 'eric.mabille@peinture-bruneau.example'], 'corps_contient': ['fin de s[ée]rie'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['serge.morel@charpente-quere.example'], 'corps_contient': ['d[ée]ball|sachet|emballage'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['alain.coulon@garage-guillon.example', 'francoise.jolivet@garage-guillon.example'], 'corps_contient': ['servi|utilis|usage|mortier|traces'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['eric.mignot@charpente-humbert.example', 'guy.humbert@charpente-humbert.example'], 'corps_contient': ['contr[ôo]l|r[ée]ception'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.15,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.0001907359983306378,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/ngh04_les_retours_de_la_semaine_r4.jsonl"
+}

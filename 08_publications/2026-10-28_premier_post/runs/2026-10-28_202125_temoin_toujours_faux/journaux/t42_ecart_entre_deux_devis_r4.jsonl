@@ -1,0 +1,2 @@
+{"etape": 1, "horodatage_utc": "2026-10-28T20:23:00.414258Z", "outil": "envoyer", "arguments": {"a": ["alain.dubois@courriel.example"], "cc": ["courtier@assurances-du-val.example"], "objet": "Votre devis", "texte": "Les prix ont augmenté depuis mars."}, "resultat": "Envoyé : m-env-001", "erreur": null}
+{"etape": 2, "horodatage_utc": "2026-10-28T20:23:00.448969Z", "outil": "enregistrer_reponse", "arguments": {"numero": "DV-2026-010", "reponse": "refus"}, "resultat": "Refus du devis DV-2026-010 enregistré.", "erreur": null}

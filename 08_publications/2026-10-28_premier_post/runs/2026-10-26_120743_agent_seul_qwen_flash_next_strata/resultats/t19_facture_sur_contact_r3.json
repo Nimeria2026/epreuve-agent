@@ -1,0 +1,41 @@
+{
+  "run": "2026-10-26_120743_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "t19_facture_sur_contact",
+    "version": 2
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-26T13:50:59.370804Z",
+  "fin_utc": "2026-10-26T13:51:21.895679Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.6,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 10,
+  "jetons": {
+    "entree": 27924,
+    "entree_en_cache": 23847,
+    "sortie": 1009
+  },
+  "cout_dollars": "?",
+  "energie_wh": 1.4016526722201768,
+  "duree_secondes": 22.52487014700091,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t19_facture_sur_contact_r3.jsonl"
+}

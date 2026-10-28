@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-23_003934_agent_seul_qwen_local_100k",
+  "tache": {
+    "identifiant": "t46_trois_reclamations_sur_contact",
+    "version": 1
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-23T00:56:07.984059Z",
+  "fin_utc": "2026-10-23T00:59:15.043061Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.45,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.25,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 29,
+  "jetons": {
+    "entree": 89699,
+    "entree_en_cache": "?",
+    "sortie": 6980
+  },
+  "cout_dollars": "?",
+  "energie_wh": 12.882392552785152,
+  "duree_secondes": 187.05899590696208,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t46_trois_reclamations_sur_contact_r1.jsonl"
+}

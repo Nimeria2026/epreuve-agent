@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-19_071004_agent_seul_qwen_local",
+  "tache": {
+    "identifiant": "h06_la_cloture_d_octobre",
+    "version": 8
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-19T14:59:33.188061Z",
+  "fin_utc": "2026-10-19T15:32:32.543488Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 0.8571428571428571,
+      "detail": "juge : faux, Le courriel dit au fournisseur que la facture n'a pas été reçue et lui en demande une copie, sans dire qu'elle est réglée ni promettre une date de règlement ; promettre de la traiter ou de la régler à sa réception n'est pas une date.\n"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.25,
+      "score": 0.8333333333333334,
+      "detail": "juge : faux, Le courriel donne les factures à virer cette semaine, toutes prises parmi IG-2026-0391, EVM-1984 et IG-2026-0412 ; les notes de frais, et une facture citée à part pour plus tard, ne comptent pas.\n"
+    },
+    {
+      "numero": 4,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.9297619047619048,
+  "reussie": false,
+  "etapes": 69,
+  "jetons": {
+    "entree": 269957,
+    "entree_en_cache": "?",
+    "sortie": 80283
+  },
+  "cout_dollars": "?",
+  "energie_wh": 137.1677581522079,
+  "duree_secondes": 1979.3554222780076,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h06_la_cloture_d_octobre_r2.jsonl"
+}

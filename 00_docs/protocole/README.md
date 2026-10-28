@@ -1,7 +1,14 @@
 # Protocole de mesure d'Épreuve d'agent
 
-Version 1, figée le 2026-10-26 (JOURNAL, deux-cent-quatre-vingtième entrée). Chaque constat dit la
-version du protocole qu'il applique ; la version change quand la méthode change.
+Version 1, figée le 2026-10-26 (journal public, entrée 1). Chaque constat dit la
+version du protocole qu'il applique ; la version change quand la méthode change. Le 2026-10-27, la
+configuration d'un troisième modèle mesuré, Qwen3.8-Flash-Next, s'y ajoute, sans rien changer à la
+méthode (journal public, entrée 2). Le 2026-10-28, sa rédaction se précise, sans rien changer non
+plus : la cinquième sorte de faute grave nommée dans le tableau de lecture, les renvois au journal
+public, les chemins complets des fichiers cités, ce que dit une fourchette sans aucun essai raté,
+ce que contrôle τ²-bench, pourquoi il garde, comme les fautes graves, la fourchette de Wilson, les
+tâches sur lesquelles se lit l'horizon, cachées comprises, et le contexte de Qwen 3.8 27B sur
+τ²-bench et sur l'horizon.
 
 ## 1. En une page
 
@@ -31,11 +38,12 @@ se comporte jamais deux fois pareil.
 | 5 sur 5 | la part des tâches réussies aux cinq essais : ce qu'il faut pour confier une tâche sans repasser derrière |
 | Tâches longues | jusqu'à quelle durée de travail humain l'agent réussit encore une fois sur deux ; cette durée est estimée, pas chronométrée |
 | Durée | le temps médian d'une exécution |
-| Fautes graves | les essais où l'agent cause un tort hors de l'exercice (une donnée qui sort, de l'argent engagé, une consigne piégée suivie, un envoi à un inconnu) ; sans gardien, puis avec le gardien, la passerelle qui bloque les gestes contraires aux règles de l'entreprise |
+| Fautes graves | les essais où l'agent cause un tort hors de l'exercice (une donnée qui sort, de l'argent engagé, une consigne piégée suivie, un envoi à un inconnu, une règle de sécurité non tenue) ; sans gardien, puis avec le gardien, la passerelle qui bloque les gestes contraires aux règles de l'entreprise |
 
 Les taux ont leur fourchette : la plage de valeurs compatible avec la mesure, à 95 % de confiance.
-Un écart entre deux agents ne s'affiche que si la fourchette de la différence exclut zéro ; sinon,
-le constat les relie par « ≈ ».
+Quand un agent ne rate aucun essai, la fourchette n'a pas de largeur (partie 5) : le constat écrit
+« aucun essai raté », ce qui ne dit pas qu'il ne ratera jamais. Un écart entre deux agents ne
+s'affiche que si la fourchette de la différence exclut zéro ; sinon, le constat les relie par « ≈ ».
 
 ### Ce que la mesure ne dit pas
 
@@ -54,7 +62,8 @@ le constat les relie par « ≈ ».
   contrôles automatiques trop étroits se découvrent aussi à la lecture des essais ; ils se
   corrigent par une nouvelle version de la tâche, et ses essais se refont.
 - Un chiffre vaut pour une configuration : le modèle et sa version, la façon dont il tourne (sur
-  une carte graphique ou par une API), les consignes de l'agent.
+  une carte graphique, avec ou sans la mémoire vive de la machine, ou par une API), les consignes
+  de l'agent.
 - Les tâches secrètes passent par l'API de DeepSeek quand on le mesure, et sa politique lui permet
   d'entraîner ses modèles sur ce qu'elle reçoit : une version de DeepSeek sortie après le 9 octobre
   2026 a pu les voir, comme la version 1017 mesurée ici (partie 7).
@@ -68,8 +77,8 @@ le constat les relie par « ≈ ».
 
 - Le banc se teste lui-même : quatre agents témoins, au comportement connu d'avance, doivent
   obtenir 100 %, 0 %, 50 % et 0 %.
-- Sur τ²-bench, un banc public construit par d'autres, nos mesures retrouvent, aux marges près,
-  les scores publiés pour les mêmes modèles, quand ces scores sont stables ; un écart se dit.
+- Sur τ²-bench, un banc public construit par d'autres, nos fourchettes contiennent les scores
+  publiés qui portent un écart type ; un score publié qui en sort se dit, avec sa date (partie 6).
 - Chaque essai est enregistré action par action et se rejoue ; chaque série d'essais a sa fiche,
   qui permet de la refaire.
 
@@ -139,8 +148,9 @@ pour le gardien, et 3 cachées.
 
 Les tâches cachées sont rangées hors du dépôt, au même contrat que les publiques, avec leurs
 témoins et leurs contrôles graves. Elles sont écrites et relues à part ; les rapports les comptent
-en bloc, sans jamais les nommer. Une orchestration réglée sur les tâches publiques se trahirait sur
-elles. Leur limite est dans la partie 7.
+en bloc, sans jamais les nommer ; seul l'horizon des tâches longues place chacune à sa durée, sans
+nom. Une orchestration réglée sur les tâches publiques se trahirait sur elles. Leur limite est
+dans la partie 7.
 
 Les contrôles graves sont listés à part, dans `07_taches/public/gravite.yaml` et
 `07_taches/public/dure/gravite.yaml` : des interdictions dont la violation ferait du tort hors de
@@ -154,7 +164,8 @@ modèles et leurs fournisseurs, leurs réglages, leurs prix avec leur source et 
 son délai, son créneau horaire. L'orchestration de référence, l'agent seul, est un modèle qui lit
 l'énoncé et appelle les outils jusqu'à dire qu'il a fini (`03_orchestrations/`).
 
-Un essai se déroule ainsi (`02_ease/src/ease/executeur.py`, `candidat_externe.py`, `relais.py`) :
+Un essai se déroule ainsi (`02_ease/src/ease/executeur.py`, `02_ease/src/ease/candidat_externe.py`,
+`02_ease/src/ease/relais.py`) :
 
 1. EASE remet l'état de l'entreprise à zéro, y pose le complément de la tâche, et lance les services
    dont elle a besoin, pour la personne qu'elle désigne. Avec le gardien, c'est lui qui lance les
@@ -294,7 +305,10 @@ fourchette à 95 % vient d'un bootstrap à deux niveaux : on tire les tâches av
 chaque tâche tirée, ses essais avec remise, et on recalcule le taux ; 10 000 tirages, une graine
 fixe (20261005), donc un résultat reproductible ; la fourchette va du 2,5e au 97,5e centile. Les
 essais d'une même tâche se ressemblent : une formule qui les croirait indépendants, comme celle de
-Wilson, donnerait une fourchette trop étroite.
+Wilson, donnerait une fourchette trop étroite. Quand un agent réussit tous ses essais, chaque tirage
+redonne 100 % : la fourchette n'a pas de largeur, et le constat écrit « aucun essai raté » plutôt
+qu'une plage. Cela ne dit pas qu'il ne ratera jamais : la mesure n'a vu aucun échec, sur un nombre
+d'essais que le constat donne.
 
 ### 5 sur 5
 
@@ -325,6 +339,10 @@ version 1) : le temps d'un employé du métier qui sait déjà quoi faire, sur l
 C'est une borne basse : ni hésitation, ni vérification, ni erreur, ni attente des pages. Aucune
 durée n'est chronométrée.
 
+L'horizon se lit sur la tranche dure (partie 2), sans ses trois pièges écrits pour le gardien :
+12 tâches, dont les 3 cachées. Les deux parts de Qwen 3.8 27B s'y prennent comme au socle (« Les
+essais retenus », plus haut).
+
 L'horizon suit la méthode de METR (Kwa et al., *Measuring AI Ability to Complete Long Software
 Tasks*). Chaque essai est un point, la durée de sa tâche en abscisse, en logarithme de base 2, sa
 réussite en ordonnée ; une courbe logistique est ajustée par maximum de vraisemblance, avec une
@@ -344,7 +362,13 @@ en donne la médiane, sur tous les essais de l'agent.
 Une exécution commet une faute grave quand elle manque l'un des contrôles graves de sa tâche
 (`02_ease/src/ease/gravite.py`). Le constat donne la part des exécutions fautives sur les tâches à
 contrôle grave, sans gardien puis avec, sur les mêmes tâches. Elle se lit à côté de la réussite et
-ne se moyenne jamais avec elle. Sa fourchette est celle de Wilson.
+ne se moyenne jamais avec elle. Sa fourchette est celle de Wilson, sur les exécutions. Le bootstrap
+n'en donne aucune à un agent qui ne commet aucune faute, comme DeepSeek dans le constat d'octobre
+2026 ; Wilson en donne une. Elle croit les exécutions indépendantes, alors que les fautes se
+concentrent sur quelques tâches : elle est donc plus étroite qu'elle ne devrait, et se lit comme un
+ordre de grandeur. Ce n'est pas elle qui dit si un écart est établi : l'écart entre deux agents, et
+celui d'un même agent sans puis avec le gardien, ont leur fourchette par le bootstrap des écarts,
+sur les mêmes tâches, comme les autres taux.
 
 Le gardien a ses propres chiffres : ses refus, et parmi eux les blocages à tort probables, que
 `make rejouer-gardien` repère en rejouant les appels des séries passées devant ses règles, sans
@@ -390,16 +414,27 @@ aérienne », 50 tâches à cinq essais, EASE mesure les modèles du banc avec 
 τ²-bench et compare sa mesure au score publié sur OpenRouter (simulateur gemini-2.5-flash, runs des
 90 derniers jours). Relevés du 2026-10-26 :
 
-| Modèle | Notre mesure | Fourchette à 95 % | Score publié |
+| Modèle | Notre mesure | Fourchette de Wilson | Score publié |
 |---|---|---|---|
 | DeepSeek V4.1 Flash, avant 1017 | 189 sur 250, 75,6 % | 69,9 à 80,5 % | 75,8 % |
 | DeepSeek V4.1 Flash 1017 | 204 sur 250, 81,6 % | 76,3 à 85,9 % | 73,3 %, sans écart type |
 | Qwen 3.8 27B | 187 sur 250, 74,8 % | 69,1 à 79,8 % | 78,0 % |
+| Qwen3.8-Flash-Next | 200 sur 250, 80,0 % | 74,6 à 84,5 % | aucun (relevé du 2026-10-27) |
+
+Qwen3.8-Flash-Next n'a pas de score publié sur ce classement : seule y figure Qwen3.8 Flash, l'API
+de Qwen, à 71,3 %, sans écart type, dont rien ne dit qu'elle sert les mêmes poids ni la même
+quantification. Sa ligne donne notre mesure et ne contrôle rien.
+
+Notre fourchette, ici, est celle de Wilson sur les 250 essais (`02_ease/src/ease/donnees_publication.py`).
+Elle croit les essais indépendants, alors que ceux d'une même tâche se ressemblent (partie 5) :
+elle est plus étroite qu'elle ne devrait. Un score publié qui en sort de quelques points ne suffit
+donc pas à dire que le banc se trompe. Qwen 3.8 27B y est servi à 40 960 jetons : si l'un de ses
+essais y était coupé par le contexte, le calcul s'arrêterait (`contexte_plus_court`).
 
 Ce contrôle juge le banc, pas un modèle : il dit que notre harnais, notre format d'outils et notre
 simulateur reproduisent le banc des autres. Il repose sur les modèles dont le score publié porte un
-écart type ; leurs scores tombent dans nos fourchettes. Un score publié sans écart type vient de
-peu de runs et bouge : celui de DeepSeek 1017 valait 77,3 % le 21 octobre, 73,3 % le 26. Un score
+écart type ; leurs scores tombent dans nos fourchettes. Un score publié sans écart type ne dit pas
+sa marge, et il bouge : celui de DeepSeek 1017 valait 77,3 % le 21 octobre, 73,3 % le 26. Un score
 publié qui sort de notre fourchette se dit dans le constat, avec sa date. Le jour d'une
 publication, les scores publiés se gardent dans le dépôt, en instantané daté d'OpenRouter (JSON,
 sous licence CC BY 4.0), plutôt qu'en relevé à la main.
@@ -457,17 +492,25 @@ mêlent jamais à ceux d'une autre.
 réglages et les consignes de l'orchestration. Qwen 3.8 27B tourne en local, quantifié en W4A16, sur
 une RTX 3090, avec un contexte de 102 400 jetons ; les tâches mesurées avant l'élargissement l'ont
 été à 40 960 jetons, aucune coupée par le contexte (partie 5). DeepSeek V4.1 Flash, en version 1017
-depuis le 17 octobre 2026, tourne par son API officielle, aux heures creuses. Une autre configuration du même modèle
-peut donner d'autres chiffres.
+depuis le 17 octobre 2026, tourne par son API officielle, aux heures creuses. Qwen3.8-Flash-Next
+(125 milliards de paramètres, dont 6 actifs par jeton) tourne en local, quantifié en IQ3_S
+(GSQ-RCO, d'ISTA-DASLab) et servi par Strata 0.2.4.2, sur la même RTX 3090 et environ 50 Go de
+mémoire vive, avec un contexte de 131 072 jetons et les réglages de l'éditeur (température 1,0,
+top_p 0,95, top_k 20). Une autre configuration du même modèle peut donner d'autres chiffres.
 
 **DeepSeek a pu voir les tâches cachées.** Mesurer DeepSeek envoie les tâches cachées à son API,
 depuis le 2026-10-09 au moins, et sa politique lui permet d'entraîner ses modèles sur ce qu'elle
 reçoit. Une version de DeepSeek sortie après cette date a pu les apprendre ; un constat qui la
 mesure le dit. C'est le cas de la version 1017, sortie le 17 octobre 2026. Sur le socle, elle réussit
 99 essais sur 100 aux tâches cachées et 310 sur 315 aux publiques ; Qwen 3.8 27B, qui ne les a
-jamais reçues, 98 sur 100 et 284 sur 315. Les deux font mieux sur les cachées : rien n'y signale
-DeepSeek en particulier, mais les cachées semblent plus faciles que les publiques, ce qui affaiblit
-ce contrôle.
+jamais reçues, 98 sur 100 et 284 sur 315 ; Qwen3.8-Flash-Next, local lui aussi, 97 sur 100 et 291
+sur 315. Les trois font mieux sur les cachées : 98,0 % des essais contre 93,7 %, un écart de 1,7
+à 7,1 points en rééchantillonnant les tâches. Rien n'y signale DeepSeek en particulier : il est au
+plafond des deux côtés, et l'écart vient des deux modèles locaux et de 7 tâches publiques qui
+portent près de la moitié des échecs publics. La structure des tâches ne l'explique pas : les
+cachées ont autant d'étapes et de contrôles que les publiques, et plus de pièges. Cet écart
+affaiblit ce contrôle ; les écarts établis entre les modèles restent les mêmes sur les seules
+publiques.
 
 **Le gardien applique nos règles.** Elles sont écrites depuis le manuel de l'entreprise et fixées
 avant la mesure, mais ce qu'il bloque, et ce qu'il laisse passer, dépend de leur qualité autant que
@@ -527,7 +570,8 @@ n'écrit aucune fiche, et aucun de ses chiffres n'entre dans un rapport.
 
 ### Ce qui ne se refait pas ailleurs
 
-Les tâches cachées restent chez nous : leurs chiffres se lisent en bloc dans les rapports, et
+Les tâches cachées restent chez nous : leurs chiffres se lisent en bloc dans les rapports (l'horizon
+excepté, partie 2), et
 personne d'autre ne peut les refaire. Le juge demande une clé de l'API de DeepSeek ; les témoins
 s'en passent, ses verdicts sur leurs textes étant enregistrés dans le dépôt
 (`07_taches/public/etalon/verdicts_temoins.json`). Qwen 3.8 27B tourne chez nous sur une carte
@@ -571,7 +615,7 @@ failures are read one by one before its report.
 
 What checks the measurement: four witness agents with known behaviour must score 100 %, 0 %, 50 %
 and 0 %, and cheating witnesses 0 %; on τ²-bench, a public benchmark built by others, our
-measurements match the scores published for the same models within our intervals when those scores
-are stable, and any published score outside our interval is reported with its date; every attempt is
+intervals contain the published scores that come with a standard deviation, and any published score
+outside our interval is reported with its date; every attempt is
 logged action by action and can be replayed, and every series has a record that allows it to be
 run again.

@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-22_135719_agent_seul_qwen_local_100k",
+  "tache": {
+    "identifiant": "t18_candidature_spontanee",
+    "version": 2
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-22T18:17:59.204263Z",
+  "fin_utc": "2026-10-22T18:19:17.240088Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 12,
+  "jetons": {
+    "entree": 26138,
+    "entree_en_cache": "?",
+    "sortie": 3003
+  },
+  "cout_dollars": "?",
+  "energie_wh": 5.313616338306939,
+  "duree_secondes": 78.035819719953,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t18_candidature_spontanee_r4.jsonl"
+}

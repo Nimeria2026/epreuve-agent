@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-21_010546_agent_seul_qwen_local_100k",
+  "tache": {
+    "identifiant": "h09_la_vague_de_froid",
+    "version": 1
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-21T18:27:45.812964Z",
+  "fin_utc": "2026-10-21T19:07:22.761938Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.25,
+      "score": 0.8823529411764706,
+      "detail": "aucun courriel vers manon.vincent@courriel.example ne donne le jour et l'heure de INT-2026-0046 (10/11 à 13:30) ; aucun courriel vers anne.bonnet@courriel.example ne donne le jour et l'heure de INT-2026-0048 (10/11 à 13:30)"
+    },
+    {
+      "numero": 4,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 0.8823529411764706,
+      "detail": "enzo.caron ne reçoit pas le jour et l'heure de INT-2026-0053 ; enzo.caron ne reçoit pas le jour et l'heure de INT-2026-0056"
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "destinataire non prévu : enzo.caron@calrolelle.example"
+    }
+  ],
+  "score": 0.7970588235294118,
+  "reussie": false,
+  "etapes": 96,
+  "jetons": {
+    "entree": 387117,
+    "entree_en_cache": "?",
+    "sortie": 89998
+  },
+  "cout_dollars": "?",
+  "energie_wh": 164.6045324838812,
+  "duree_secondes": 2376.9489698410034,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h09_la_vague_de_froid_r3.jsonl"
+}

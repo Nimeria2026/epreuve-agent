@@ -1,0 +1,33 @@
+{
+  "run": "2026-10-13_040310_reproduction_tau2_qwen_local",
+  "tache": {
+    "identifiant": "airline_25",
+    "version": 1
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-13T12:25:20.646459Z",
+  "fin_utc": "2026-10-13T12:27:20.686996Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 1.0,
+      "score": 0.0,
+      "detail": "τ²-bench : récompense 0 ; fin user_stop ; base différente de la cible ; phrases dites 0 sur 0"
+    }
+  ],
+  "score": 0.0,
+  "reussie": false,
+  "etapes": 7,
+  "jetons": {
+    "entree": 42319,
+    "entree_en_cache": "?",
+    "sortie": 4759
+  },
+  "cout_dollars": "?",
+  "energie_wh": 8.11919930558303,
+  "duree_secondes": 120.04053076298442,
+  "journal": "journaux/airline_25_r2.jsonl"
+}

@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-23_003934_agent_seul_qwen_local_100k",
+  "tache": {
+    "identifiant": "t49_contact_pendant_le_conge_de_julie",
+    "version": 1
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-23T01:43:43.841820Z",
+  "fin_utc": "2026-10-23T01:45:56.888663Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.5,
+      "score": 0.5,
+      "detail": "aucun courriel envoyé ne remplit {'a': ['karim.benali@calorelle.example'], 'cc': [], 'transfere_de': 'm-ctc-621'} ; aucun courriel envoyé ne remplit {'a': ['karim.benali@calorelle.example'], 'cc': [], 'transfere_de': 'm-ctc-622'} ; aucun courriel envoyé ne remplit {'a': ['karim.benali@calorelle.example'], 'cc': ['helene.marchal@calorelle.example'], 'transfere_de': 'm-ctc-623'}"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 0.0,
+      "detail": "3 envoi(s) vers julie.perrin@calorelle.example pour 0 attendu(s)"
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.45,
+  "reussie": false,
+  "etapes": 24,
+  "jetons": {
+    "entree": 61989,
+    "entree_en_cache": "?",
+    "sortie": 4817
+  },
+  "cout_dollars": "?",
+  "energie_wh": 9.126225279719145,
+  "duree_secondes": 133.04683781904168,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t49_contact_pendant_le_conge_de_julie_r1.jsonl"
+}

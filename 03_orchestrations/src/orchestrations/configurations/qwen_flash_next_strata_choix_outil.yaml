@@ -1,0 +1,17 @@
+# Diagnostic, jamais publié (JOURNAL, entrée 333) : la configuration de qwen_flash_next_strata.yaml,
+# plus tool_choice: auto, que la reproduction de τ²-bench envoie et l'agent seul non. Sur τ²-bench,
+# aucun appel d'outil perdu par Strata ; sur Calorelle, un essai échoué sur deux du socle finit sur
+# un appel que le serveur a rendu comme du texte (entrée 332). Une seule différence avec la
+# configuration officielle, pour voir si elle suffit.
+role: agent
+modele: qwen3.8-flash-next-iq3_s
+adresse: http://127.0.0.1:30001/v1
+cle_env: STRATA_API_KEY
+parametres:
+  temperature: 1.0
+  top_p: 0.95
+  top_k: 20
+  tool_choice: auto
+raisonnement_renvoye: null
+delai_appel_secondes: 3600
+tours_max: 60

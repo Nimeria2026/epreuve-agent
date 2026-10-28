@@ -1,0 +1,14 @@
+# Agent de reproduction τ²-bench (reproduction_tau2) sur Qwen3.8-Flash-Next (IQ3_S), servi par
+# Strata (make strata). Comme configurations/qwen_flash_next_strata.yaml, avec les deux réglages que
+# l'agent de τ²-bench 1.0.1 envoie à chaque appel : température 0 et tool_choice auto ; ils
+# l'emportent sur ceux de l'éditeur, comme pour les autres modèles.
+role: agent
+modele: qwen3.8-flash-next-iq3_s
+adresse: http://127.0.0.1:30001/v1
+cle_env: STRATA_API_KEY
+parametres:
+  temperature: 0.0
+  tool_choice: auto
+raisonnement_renvoye: null
+delai_appel_secondes: 3600
+tours_max: 100

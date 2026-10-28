@@ -135,7 +135,12 @@ def ecarts_classement(classement: Classement, taches: Sequence[Tache]) -> list[s
 
 TYPES_COMMUNS = PUBLIC / "types_communs.yaml"
 
-SOCLES: dict[str, Path] = {SOCIETE: PUBLIC, "domivelle": PUBLIC / "domivelle", "negovelle": PUBLIC / "negovelle"}
+SOCLES: dict[str, Path] = {
+    SOCIETE: PUBLIC,
+    "domivelle": PUBLIC / "domivelle",
+    "negovelle": PUBLIC / "negovelle",
+    "gabarit": PUBLIC / "gabarit",
+}
 """Le dossier du socle de chaque société, avec son classement.yaml et son gravite.yaml : les
 instances des types communs s'y lisent. Une société neuve y ajoute le sien (JOURNAL,
 cent-cinquante-quatrième entrée)."""
@@ -442,10 +447,12 @@ def main(arguments: list[str] | None = None) -> int:
             "negovelle",
             "negovelle_dure",
             "negovelle_dure_v2",
+            "gabarit",
         ),
         default="public",
-        help="le socle de Calorelle, sa tranche dure, ceux de Domivelle, ou le socle de Négovelle, chacun avec son "
-        "classement ; les tranches longues de la v2 (dure_v2, domivelle_dure_v2, negovelle_dure_v2) à part",
+        help="le socle de Calorelle, sa tranche dure, ceux de Domivelle, le socle de Négovelle ou la société gabarit, "
+        "chacun avec son classement ; les tranches longues de la v2 (dure_v2, domivelle_dure_v2, negovelle_dure_v2) "
+        "à part",
     )
     analyse.add_argument(
         "--cachees",

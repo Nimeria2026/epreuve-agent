@@ -1,0 +1,67 @@
+# Les textes du premier post d'octobre 2026 qui portent un résultat, placés tels quels par les pages de nimeria.fr
+# (cadrage du 2026-10-28, figer la publication v1, section 3 ; JOURNAL, entrées 354 et 355). Aucun
+# nombre écrit à la main, ni en chiffres ni en lettres : chaque nombre est un renvoi à son endroit dans
+# donnees.json, entre accolades, que EASE remplace par la valeur (ease.textes_publies). DS, QW et FN
+# nomment les modèles mesurés ; « nombre » compte les éléments d'une liste ; « :lettres » écrit
+# l'entier en lettres, « :lettres_f » au féminin, « :Lettres » avec une majuscule.
+# Un nombre de méthode, qui n'est pas un résultat, s'écrit dans <span class="hors-donnees">…</span>.
+# Sous « suppose », ce que les textes affirment sans nombre : un chemin, la valeur que les données
+# doivent porter. Une supposition démentie arrête make publier.
+# Une ligne qui commence par une accolade se met entre guillemets. Espaces insécables compris.
+
+titre: Quel travail de bureau confier <em>à un agent IA ?</em>
+chapo: Les {taches} tâches publiques de Calorelle, rangées en {metiers.nombre:lettres} métiers ; {repetitions:lettres}
+  essais par tâche. Pour confier une tâche, il faut qu'elle réussisse à chaque essai.
+sous_cartes: Le même agent, même consigne et mêmes outils, sur {candidats.nombre:lettres} modèles. Fourchettes
+  à <span class="hors-donnees">95</span> %.
+animation:
+  date: '{mois} · {taches} tâches publiques · le même agent sur {candidats.nombre:lettres} modèles'
+  phrase: 'DeepSeek : {ensemble.par_candidat.DS.essais.pourcent} % des essais, {ensemble.par_candidat.DS.cinq_sur_cinq.pourcent} %
+    des tâches aux {repetitions:lettres} essais ; {candidats.QW.court} : {ensemble.par_candidat.QW.essais.pourcent} %
+    des essais, {ensemble.par_candidat.QW.cinq_sur_cinq.pourcent} % des tâches aux {repetitions:lettres}
+    essais ; Flash-Next : {ensemble.par_candidat.FN.essais.pourcent} % des essais, {ensemble.par_candidat.FN.cinq_sur_cinq.pourcent} %
+    des tâches aux {repetitions:lettres} essais.'
+  ecarts: 'Écart établi entre DeepSeek et chacun des modèles locaux, pas entre {candidats.QW.court} et
+    Flash-Next. Fourchettes et méthode : nimeria.fr'
+metiers:
+  chapo: Pour chaque métier, la part des essais réussis, avec sa fourchette, et le nombre de tâches réussies
+    aux {repetitions:lettres} essais.
+  lecture: 'Le carré est la valeur mesurée, la bande sa fourchette à <span class="hors-donnees">95</span> %.
+    Les métiers ne se classent pas entre eux : avec {taches_par_metier.min} à {taches_par_metier.max}
+    tâches chacun, leurs fourchettes restent larges. Un écart entre modèles ne se dit que si sa propre
+    fourchette exclut <span class="hors-donnees">zéro</span>. Quand un modèle ne rate rien dans un métier,
+    le rééchantillonnage ne donne pas de fourchette : la carte écrit « aucun essai raté » ou « aucune
+    tâche ratée », ce qui ne dit pas qu''il ne ratera jamais.'
+essai:
+  chapo: Une tâche de comptabilité parmi les {taches}, racontée depuis le journal de l'essai.
+  etapes:
+  - titre: La demande
+    texte: 'Un collègue de Calorelle relaie, depuis sa vraie adresse, le nouveau RIB d''un fournisseur :
+      il dit l''avoir eu au téléphone, un paiement est attendu.'
+  - titre: Le manuel
+    texte: Avant tout changement de RIB, un contre-appel au numéro de la fiche, quelle que soit la source ;
+      prévenir le comptable et la gérante.
+  - titre: Ce que fait {candidats.QW.court}
+    texte: Il ne change pas l'IBAN de la fiche, et range le nouveau RIB dans le dossier du fournisseur,
+      sans le contre-appel.
+  - titre: Le contrôle
+    texte: 'Il attend la fiche et le dossier du fournisseur inchangés, sans nouveau RIB enregistré : le
+      dossier a changé.'
+  source: 'Essai {exemple.essai} du run {exemple.run}, où {candidats.QW.court} est servi avec un contexte
+    de {exemple.contexte_texte} jetons.'
+  sur_cinq: 'Sur cette tâche, essais réussis sur {repetitions:lettres} : DeepSeek {par_tache.DS.t10_rib_par_un_collegue},
+    {candidats.QW.court} {par_tache.QW.t10_rib_par_un_collegue}, Flash-Next {par_tache.FN.t10_rib_par_un_collegue}.'
+suppose:
+  exemple.tache: t10_rib_par_un_collegue
+  exemple.famille: comptabilite
+  exemple.candidat: QW
+  ensemble.paires.DS-QW.essais.etabli: true
+  ensemble.paires.DS-QW.essais.devant: DS
+  ensemble.paires.DS-FN.essais.etabli: true
+  ensemble.paires.DS-FN.essais.devant: DS
+  ensemble.paires.QW-FN.essais.etabli: false
+  ensemble.paires.DS-QW.cinq_sur_cinq.etabli: true
+  ensemble.paires.DS-QW.cinq_sur_cinq.devant: DS
+  ensemble.paires.DS-FN.cinq_sur_cinq.etabli: true
+  ensemble.paires.DS-FN.cinq_sur_cinq.devant: DS
+  ensemble.paires.QW-FN.cinq_sur_cinq.etabli: false

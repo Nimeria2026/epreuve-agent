@@ -1,0 +1,1 @@
+{"etape": 1, "horodatage_utc": "2026-10-28T20:53:57.332598Z", "outil": "transferer", "arguments": {"identifiant": "m-brca-001", "a": ["gilles.poirier@negovelle.example"], "commentaire": "Gilles, Steven est en arrêt maladie."}, "resultat": "Transféré : m-env-001", "erreur": null}

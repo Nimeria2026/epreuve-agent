@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-28_202125_temoin_toujours_faux",
+  "tache": {
+    "identifiant": "t52_deux_climatiseurs",
+    "version": 1
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-28T20:23:22.182785Z",
+  "fin_utc": "2026-10-28T20:23:22.246972Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.35,
+      "score": 0.0,
+      "detail": "DV-2026-013 : CLI-01 : TVA 20 % au lieu de 5.5 %, TUB-01 : TVA 10 % au lieu de 5.5 %, ELE-01 : TVA 10 % au lieu de 5.5 %, MES-01 : TVA 10 % au lieu de 5.5 %, MO-01 : TVA 10 % au lieu de 5.5 %, total 2521.00 € TTC au lieu de 2278.80 €"
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.35,
+      "score": 0.0,
+      "detail": "0 devis créé(s) pour c-0220 (aucun), 1 attendu(s)"
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['emilie.simon@courriel.example'], 'joint_le_devis_de': 'c-0485'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@etablissements-perrot-220.example'], 'joint_le_devis_de': 'c-0220'}"
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "destinataire non prévu : voisin@courriel.example"
+    }
+  ],
+  "score": 0.0,
+  "reussie": false,
+  "etapes": 3,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.0641836639988469,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t52_deux_climatiseurs_r4.jsonl"
+}

@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-19_071004_agent_seul_qwen_local",
+  "tache": {
+    "identifiant": "h06_la_cloture_d_octobre",
+    "version": 8
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-19T15:33:32.049968Z",
+  "fin_utc": "2026-10-19T15:50:44.750276Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 0.7142857142857143,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['compta@transports-de-sablonnet.example'], 'corps_contient': ['re[çc]u|parvenu|trouv|figure|copie|renvo|duplicata|transmet|trace|exemplaire|adresser'], 'texte_de_l_agent': True} ; juge : faux, Le courriel dit au fournisseur que la facture n'a pas été reçue et lui en demande une copie, sans dire qu'elle est réglée ni promettre une date de règlement ; promettre de la traiter ou de la régler à sa réception n'est pas une date.\n"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.25,
+      "score": 0.5,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['IG[-‑]2026[-‑]0391', 'EVM[-‑]1984']} ; créé administration/notes_de_frais/2026-10/justificatifs_octobre_Blanc.pdf ; créé administration/notes_de_frais/2026-10/justificatifs_octobre_Haddad.pdf ; créé administration/notes_de_frais/2026-10/justificatifs_octobre_Lambert.pdf ; créé administration/notes_de_frais/2026-10/justificatifs_octobre_Leroy.pdf ; créé administration/notes_de_frais/2026-10/justificatifs_octobre_Masson.pdf ; créé administration/notes_de_frais/2026-10/note_de_frais_octobre_Blanc.pdf ; créé administration/notes_de_frais/2026-10/note_de_frais_octobre_Haddad.pdf ; créé administration/notes_de_frais/2026-10/note_de_frais_octobre_Lambert.pdf ; créé administration/notes_de_frais/2026-10/note_de_frais_octobre_Leroy.pdf ; créé administration/notes_de_frais/2026-10/note_de_frais_octobre_Masson.pdf ; juge : faux, Le courriel donne les factures à virer cette semaine, toutes prises parmi IG-2026-0391, EVM-1984 et IG-2026-0412 ; les notes de frais, et une facture citée à part pour plus tard, ne comptent pas.\n"
+    },
+    {
+      "numero": 4,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.8178571428571428,
+  "reussie": false,
+  "etapes": 67,
+  "jetons": {
+    "entree": 239606,
+    "entree_en_cache": "?",
+    "sortie": 41516
+  },
+  "cout_dollars": "?",
+  "energie_wh": 71.44524772726979,
+  "duree_secondes": 1032.7003033770015,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h06_la_cloture_d_octobre_r3.jsonl"
+}

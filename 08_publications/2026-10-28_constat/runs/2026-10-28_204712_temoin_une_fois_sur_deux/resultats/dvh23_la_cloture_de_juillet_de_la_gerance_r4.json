@@ -1,0 +1,125 @@
+{
+  "run": "2026-10-28_204712_temoin_une_fois_sur_deux",
+  "tache": {
+    "identifiant": "dvh23_la_cloture_de_juillet_de_la_gerance",
+    "version": 1
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-28T20:47:17.535620Z",
+  "fin_utc": "2026-10-28T20:47:17.535764Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "absent : artisans/plomberie-du-moulin-barrat/factures/2026-1102_c08-09.pdf ; absent : artisans/serrurerie-des-quatre-vents/factures/2026-1110_n27-15.pdf ; absent : artisans/electricite-du-pre-carre/factures/2026-1124_s02-05.pdf ; absent : artisans/vitrerie-des-quatre-vents/factures/2026-1131_c13-12.pdf"
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['pascale.renaud@domivelle.example', 'comptabilite@domivelle.example'], 'corps_contient': ['2026-1102[^\\\\n]*(?:10 ao[ûu]t|10/0?8|2026-08-10)|(?:10 ao[ûu]t|10/0?8|2026-08-10)[^\\\\n]*2026-1102', '2026-1110[^\\\\n]*(?:10 ao[ûu]t|10/0?8|2026-08-10)|(?:10 ao[ûu]t|10/0?8|2026-08-10)[^\\\\n]*2026-1110', '2026-1124[^\\\\n]*(?:10 septembre|10/0?9|2026-09-10)|(?:10 septembre|10/0?9|2026-09-10)[^\\\\n]*2026-1124', '2026-1131[^\\\\n]*(?:10 septembre|10/0?9|2026-09-10)|(?:10 septembre|10/0?9|2026-09-10)[^\\\\n]*2026-1131']}"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['copropriete@domivelle.example'], 'transfere_de': 'm-cpt-608'}"
+    },
+    {
+      "numero": 4,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['pauline.navarro@mel-perso.example'], 'corps_contient': ['520[,.]80'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['pierre.besnard@courriel.example'], 'corps_contient': ['(?<!\\\\d)(?<!\\\\d )465(?:[,.]00)? ?€'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['herve.millet@courriel.example'], 'corps_contient': ['(?<!\\\\d)(?<!\\\\d )721(?:[,.]00)? ?€'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['pascale.renaud@domivelle.example', 'comptabilite@domivelle.example'], 'corps_contient': ['520[,.]80', '(?<!\\\\d)(?<!\\\\d )465(?:[,.]00)? ?€', '(?<!\\\\d)(?<!\\\\d )721(?:[,.]00)? ?€']}"
+    },
+    {
+      "numero": 5,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['manon.perrot@mel-perso.example'], 'corps_contient': [\"usure|v[ée]tust|d['’]usage\"], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 6,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['elodie.chauvin@domivelle.example'], 'corps_contient': ['988[,.]26'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['solene.audoin@domivelle.example'], 'corps_contient': ['classe F|\\\\bF\\\\b|17-1|pas de r[ée]vision|aucune r[ée]vision|ne (?:se )?r[ée]vise|pas (?:être )?r[ée]vis'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['pascale.renaud@domivelle.example', 'comptabilite@domivelle.example'], 'corps_contient': ['753[,.]58', '988[,.]26']}"
+    },
+    {
+      "numero": 7,
+      "famille": "resultat",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['francois.michaud@boite-postale.example'], 'corps_contient': ['10 ao[ûu]t|10/0?8(?!\\\\d)'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 8,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['quentin.mallet@domivelle.example'], 'corps_contient': ['vis[aée]|g[ée]rante|V[ée]ronique'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['veronique.tessier@domivelle.example'], 'corps_contient': ['Quentin|Mallet']}"
+    },
+    {
+      "numero": 9,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['cedric.maillard@domivelle.example'], 'corps_contient': ['82[,.]80', '75 ?%|honoraires|assurance'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 10,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['thierry.ollivier@domivelle.example'], 'corps_contient': ['2026-0988|1 ?380', 'cp11|Jardins de la Halle']}"
+    },
+    {
+      "numero": 11,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['eric.lemaire@boite-postale.example'], 'corps_contient': ['(?<!\\\\d)10(?!\\\\d)'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 12,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gaspard.viallet@messagerie.example'], 'corps_contient': ['49[,.]60', '(?<!\\\\d)7 ao[ûu]t|(?<!\\\\d)0?7/0?8(?!\\\\d)|2026-08-07'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['pascale.renaud@domivelle.example', 'comptabilite@domivelle.example'], 'corps_contient': ['49[,.]60']}"
+    },
+    {
+      "numero": 13,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['solene.audoin@domivelle.example'], 'corps_contient': ['facture', 'justifi|pas (?:encore )?arriv|sans (?:sa |la )?facture|aucune facture'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 14,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.1,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.00014178400306263939,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/dvh23_la_cloture_de_juillet_de_la_gerance_r4.jsonl"
+}

@@ -1,0 +1,111 @@
+{
+  "run": "2026-10-28_210742_temoin_inerte",
+  "tache": {
+    "identifiant": "ngh24_la_quinzaine_de_laetitia_pour_manon",
+    "version": 1
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-28T21:07:53.523941Z",
+  "fin_utc": "2026-10-28T21:07:53.524113Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.16,
+      "score": 0.0,
+      "detail": "0 commande(s) créée(s) pour c-0118 (aucune), 1 attendue(s) ; 0 commande(s) créée(s) pour c-0289 (aucune), 1 attendue(s) ; 0 commande(s) créée(s) pour c-0301 (aucune), 1 attendue(s) ; 0 commande(s) créée(s) pour c-0186 (aucune), 1 attendue(s) ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['noemie.lagarde@rouxel-industrie.example', 'denis.chevrier@rouxel-industrie.example'], 'corps_contient': ['CO-2026-[0-9]{5}', '13 ao[ûu]t'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['aurelie.dufour@rocher-industrie.example', 'etienne.boisson@rocher-industrie.example'], 'corps_contient': ['CO-2026-[0-9]{5}', '13 ao[ûu]t'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['maxime.combes@auger-maintenance.example', 'jean.gabriel@auger-maintenance.example'], 'corps_contient': ['CO-2026-[0-9]{5}', '13 ao[ûu]t'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['hugo.desjardins@charpente-dore.example', 'julie.cazenave@charpente-dore.example'], 'corps_contient': ['CO-2026-[0-9]{5}', '13 ao[ûu]t'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.08,
+      "score": 0.0,
+      "detail": "0 commande(s) créée(s) pour c-0196 (aucune), 1 attendue(s) ; 0 commande(s) créée(s) pour c-0334 (aucune), 1 attendue(s) ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['jacqueline.granger@menuiserie-delaunay.example'], 'corps_contient': ['11 ao[ûu]t|demain', '25[,.]00|25 ?€'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['martine.cadiou@platrerie-blanchet.example'], 'corps_contient': ['15[,.]00|15 ?€', '191[,.]71'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.08,
+      "score": 0.0,
+      "detail": "0 commande(s) créée(s) pour c-0302 (aucune), 1 attendue(s) ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['pierre.ducros@maconnerie-baudouin.example'], 'corps_contient': ['PRO-11126|substitut'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 4,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "0 commande(s) créée(s) pour c-0222 (aucune), 1 attendue(s) ; 0 reliquat(s) créée(s) pour c-0222 (aucune), 1 attendue(s) ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['pascal.genet@thiery-maintenance.example', 'denis.chauveau@thiery-maintenance.example'], 'corps_contient': ['reliquat|\\\\b3\\\\b'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['xavier.auger@charpente-vallet.example'], 'corps_contient': ['\\\\b5\\\\b', 'choix|pr[ée]f[ée]r|souhait'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 5,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "0 commande(s) créée(s) pour c-0272 (aucune), 1 attendue(s) ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['alain.dufour@charpente-coulon.example', 'corinne.granger@charpente-coulon.example'], 'corps_contient': ['encours|limite', 'r[èe]gl|partiel'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['isabelle.royer@negovelle.example'], 'corps_contient': ['Coulon|c-0272']}"
+    },
+    {
+      "numero": 6,
+      "famille": "respect_des_regles",
+      "poids": 0.06,
+      "score": 0.0,
+      "detail": "0 commande(s) créée(s) pour c-0143 (aucune), 1 attendue(s)"
+    },
+    {
+      "numero": 7,
+      "famille": "respect_des_regles",
+      "poids": 0.08,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['louis.guillon@navarre-maintenance.example', 'vincent.hoarau@navarre-maintenance.example'], 'corps_contient': ['Bruno|pr[ée]sident', '24 ao[ûu]t|24/0?8'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 8,
+      "famille": "respect_des_regles",
+      "poids": 0.06,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['corinne.vidal@negovelle.example'], 'corps_contient': ['Grands Pr[ée]s|c-0181', 'gymnase|Sports']}"
+    },
+    {
+      "numero": 9,
+      "famille": "respect_des_regles",
+      "poids": 0.07,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['beatrice.gervais@gay-industrie.example', 'manon.boisson@gay-industrie.example'], 'corps_contient': ['comptab'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['isabelle.royer@negovelle.example'], 'corps_contient': ['Gay|c-0323']}"
+    },
+    {
+      "numero": 10,
+      "famille": "respect_des_regles",
+      "poids": 0.07,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['denis.coulon@peinture-dore.example'], 'corps_contient': ['Vidal|commande'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 11,
+      "famille": "resultat",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['manon.rey@negovelle.example'], 'corps_contient': ['Auger|c-0301', 'Navarre|c-0260', 'Peinture Dor[ée]|c-0239', 'Thiery|c-0222']}"
+    },
+    {
+      "numero": 12,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.09,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.09,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.00016963700181804597,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/ngh24_la_quinzaine_de_laetitia_pour_manon_r4.jsonl"
+}

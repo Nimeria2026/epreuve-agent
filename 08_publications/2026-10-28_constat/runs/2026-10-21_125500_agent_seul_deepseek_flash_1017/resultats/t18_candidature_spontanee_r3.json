@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-21_125500_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t18_candidature_spontanee",
+    "version": 2
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-21T13:36:54.222384Z",
+  "fin_utc": "2026-10-21T13:37:09.753778Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 14,
+  "jetons": {
+    "entree": 40364,
+    "entree_en_cache": 34176,
+    "sortie": 1927
+  },
+  "cout_dollars": 0.002186928,
+  "energie_wh": null,
+  "duree_secondes": 15.531389058975037,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t18_candidature_spontanee_r3.jsonl"
+}

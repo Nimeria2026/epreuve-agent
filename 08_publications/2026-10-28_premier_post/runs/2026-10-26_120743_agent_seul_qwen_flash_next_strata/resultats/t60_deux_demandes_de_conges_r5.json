@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-26_120743_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "t60_deux_demandes_de_conges",
+    "version": 3
+  },
+  "repetition": 5,
+  "debut_utc": "2026-10-26T18:51:44.002827Z",
+  "fin_utc": "2026-10-26T18:52:44.536625Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.25,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['romain.guerin@calorelle.example'], 'corps_contient': ['gérante|Hélène|Marchal'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.75,
+  "reussie": false,
+  "etapes": 13,
+  "jetons": {
+    "entree": 28613,
+    "entree_en_cache": 23643,
+    "sortie": 3683
+  },
+  "cout_dollars": "?",
+  "energie_wh": 3.969351428072455,
+  "duree_secondes": 60.533793552000134,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t60_deux_demandes_de_conges_r5.jsonl"
+}

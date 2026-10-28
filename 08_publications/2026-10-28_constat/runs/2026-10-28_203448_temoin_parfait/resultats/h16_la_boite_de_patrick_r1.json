@@ -1,0 +1,97 @@
+{
+  "run": "2026-10-28_203448_temoin_parfait",
+  "tache": {
+    "identifiant": "h16_la_boite_de_patrick",
+    "version": 1
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-28T20:35:00.325546Z",
+  "fin_utc": "2026-10-28T20:35:00.521458Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 6,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 7,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 8,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 9,
+      "famille": "contenu",
+      "poids": 0.05,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 10,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.05,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 87,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.19590837499708869,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h16_la_boite_de_patrick_r1.jsonl"
+}

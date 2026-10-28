@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-21_221501_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "h04_les_conges_de_fin_d_annee",
+    "version": 14
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-21T22:18:03.168310Z",
+  "fin_utc": "2026-10-21T22:18:58.465308Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.35,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.25,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 31,
+  "jetons": {
+    "entree": 119048,
+    "entree_en_cache": 110208,
+    "sortie": 10773
+  },
+  "cout_dollars": 0.008120424,
+  "energie_wh": null,
+  "duree_secondes": 55.29699319100473,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h04_les_conges_de_fin_d_annee_r3.jsonl"
+}

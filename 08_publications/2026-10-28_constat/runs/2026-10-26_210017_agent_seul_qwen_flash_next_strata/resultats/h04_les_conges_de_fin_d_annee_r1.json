@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-26_210017_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "h04_les_conges_de_fin_d_annee",
+    "version": 14
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-27T00:44:47.446522Z",
+  "fin_utc": "2026-10-27T00:47:12.006225Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.35,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.25,
+      "score": 0.6666666666666666,
+      "detail": "m-env-005 contient un motif interdit ; m-env-004 contient un motif interdit"
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.9166666666666666,
+  "reussie": false,
+  "etapes": 25,
+  "jetons": {
+    "entree": 84082,
+    "entree_en_cache": 74829,
+    "sortie": 9265
+  },
+  "cout_dollars": "?",
+  "energie_wh": 9.550558838406362,
+  "duree_secondes": 144.55969881000055,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h04_les_conges_de_fin_d_annee_r1.jsonl"
+}

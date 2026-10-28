@@ -1,0 +1,1 @@
+{"etape": 1, "horodatage_utc": "2026-10-28T20:22:50.558896Z", "outil": "envoyer", "arguments": {"a": ["alain.dubois@courriel.example", "celine.faure@courriel.example"], "cc": ["courtier@assurances-du-val.example"], "objet": "Relance", "texte": "Avez-vous pu étudier notre devis ?"}, "resultat": "Envoyé : m-env-001", "erreur": null}

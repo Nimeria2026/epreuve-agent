@@ -11,6 +11,7 @@ from typing import Any
 import pytest
 from ease.chargement import racine_depot
 from ease.contrats.tache import Tache
+from ease.gabarit import lire_monde
 from ease.gravite import lire_gravite
 from ease.pme import empreinte_complement
 from ease.rapport import (
@@ -28,7 +29,7 @@ from ease.rapport import (
     taux,
 )
 from ease.statistiques import intervalle_wilson
-from ease.taches import lire_taches, taches_domivelle_dure
+from ease.taches import lire_taches, taches_domivelle_dure, taches_gabarit, taches_negovelle
 
 NB = "\u00a0"
 EXEMPLES = racine_depot() / "01_contrats" / "exemples"
@@ -452,5 +453,8 @@ def test_le_rapport_nomme_la_pme_des_taches_et_leur_code() -> None:
     de chaque tâche, dvh11 et non dvh (JOURNAL, cent-soixante-dix-neuvième entrée)."""
     assert nom_de_la_pme(TACHES) == "Calorelle"
     assert nom_de_la_pme(taches_domivelle_dure()) == "Domivelle"
+    # Le nom que déclare l'état, accent compris ; celui des variables pour le gabarit.
+    assert nom_de_la_pme(taches_negovelle()) == "Négovelle"
+    assert nom_de_la_pme(taches_gabarit()) == lire_monde().nom
     codes = ["t01_classer_facture", "h03_le_portefeuille_de_julie", "dv04_x", "dvh11_les_dossiers_de_location"]
     assert [nom_court(i) for i in codes] == ["t01", "h03", "dv04", "dvh11"]

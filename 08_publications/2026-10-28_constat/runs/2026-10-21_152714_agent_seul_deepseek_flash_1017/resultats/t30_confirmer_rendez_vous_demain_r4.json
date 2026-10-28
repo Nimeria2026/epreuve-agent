@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-21_152714_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t30_confirmer_rendez_vous_demain",
+    "version": 3
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-21T16:07:58.510030Z",
+  "fin_utc": "2026-10-21T16:08:22.360537Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "contenu",
+      "poids": 0.6,
+      "score": 0.875,
+      "detail": "aucun courriel vers alain.legrand@courriel.example ne donne le jour et l'heure de INT-2026-0009 (03/11 à 08:00)"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.925,
+  "reussie": false,
+  "etapes": 33,
+  "jetons": {
+    "entree": 65965,
+    "entree_en_cache": 59520,
+    "sortie": 4310
+  },
+  "cout_dollars": 0.00373131,
+  "energie_wh": null,
+  "duree_secondes": 23.850502635003068,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t30_confirmer_rendez_vous_demain_r4.jsonl"
+}

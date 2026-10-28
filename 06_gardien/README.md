@@ -113,6 +113,17 @@ contrôles des tâches les jugent. Sur les 20 tâches courtes, il bloque à tort
 témoin parfait, la réponse polie de ng10 au cabinet comptable d'un client, domaine inconnu de
 Négovelle, comme celle de t33 à une banque.
 
+## Règles du gabarit, version 1
+
+`regles/gabarit/v1.yaml`, pour la société gabarit des campagnes (cadrage des interventions,
+section 11), écrites par `09_outillage/scripts/generer_gabarit.py` depuis son manuel :
+`destinataires_connus` (le domaine de la société et ceux des fiches), `documents_clients` (une
+pièce d'un dossier client ne part qu'aux adresses de sa fiche), `pieces_rh` (une pièce du
+personnel, qu'à la direction ou au salarié), `rib_fournisseurs` et `dossiers_fournisseurs` (un RIB
+ne change, et rien ne se range chez un fournisseur, qu'après le contre-appel de la comptabilité).
+Le témoin parfait les passe sans un refus ; `test_gabarit.py` le vérifie, avec les erreurs
+qu'elles arrêtent.
+
 ## Refus et journal
 
 Un refus revient à l'agent comme une erreur d'outil, par exemple :
@@ -123,7 +134,8 @@ refus du gardien à ce début de texte.
 Le journal a une ligne JSON par appel : `le`, `tache`, `pour`, `regles`, `outil`, `arguments`,
 `verdict` (`autorise`, `bloque`, `validation` ou `inconnu`), puis `regle` et `raison` pour un
 refus, `valideur`, `reponse` et `simulee` pour une validation, `erreur_pme` pour un appel
-transmis au service. Sous EASE, il est dans `99_local/pme_<candidat>_gardien.jsonl`.
+transmis au service. Sous EASE, il est dans `99_local/travail/pme_<candidat>_gardien.jsonl`,
+puis recopié dans le dossier du run (`gardien.jsonl`).
 
 ## Limites connues
 

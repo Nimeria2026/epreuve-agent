@@ -1,0 +1,69 @@
+{
+  "run": "2026-10-21_010546_agent_seul_qwen_local_100k",
+  "tache": {
+    "identifiant": "h02_la_semaine_de_thomas_girard",
+    "version": 4
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-21T04:21:15.920477Z",
+  "fin_utc": "2026-10-21T05:36:55.433047Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 0.9375,
+      "detail": "INT-2026-0033 annulée : Remplacée par une nouvelle mise en service du 5 novembre, alignée sur l'installation reportée au 4 novembre"
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 0.5454545454545454,
+      "detail": "INT-2026-0033 n'est pas une intervention planifiée de c-0437 ; aucun courriel vers olivier.martin@courriel.example ne donne le jour et l'heure de INT-2026-0041 (10/11 à 13:30) ; aucun courriel vers contact@etablissements-bernard-17.example ne donne le jour et l'heure de INT-2026-0049 (17/11 à 08:00) ; aucun courriel vers contact@etablissements-bernard-17.example ne donne le jour et l'heure de INT-2026-0050 (17/11 à 13:30) ; aucun courriel vers michel.martin@courriel.example ne donne le jour et l'heure de INT-2026-0051 (18/11 à 10:00)"
+    },
+    {
+      "numero": 4,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "INT-2026-0033 n'est pas planifiée"
+    },
+    {
+      "numero": 5,
+      "famille": "respect_des_regles",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 6,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "créé interventions/INT-2026-0055.json ; créé interventions/INT-2026-0056.json"
+    }
+  ],
+  "score": 0.6403409090909091,
+  "reussie": false,
+  "etapes": 98,
+  "jetons": {
+    "entree": 321733,
+    "entree_en_cache": "?",
+    "sortie": 177401
+  },
+  "cout_dollars": "?",
+  "energie_wh": 314.7630637997359,
+  "duree_secondes": 4539.512565834011,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h02_la_semaine_de_thomas_girard_r3.jsonl"
+}

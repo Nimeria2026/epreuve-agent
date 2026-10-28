@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-26_120743_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "t61_la_prolongation_de_florian",
+    "version": 2
+  },
+  "repetition": 5,
+  "debut_utc": "2026-10-26T18:58:28.494635Z",
+  "fin_utc": "2026-10-26T18:58:33.515563Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 0.0,
+      "detail": "absent : rh/arrets/prolongation_arret_Masson.pdf"
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['Florian|Masson', '20 novembre|20/11']}"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.25,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.4,
+  "reussie": false,
+  "etapes": 2,
+  "jetons": {
+    "entree": 5400,
+    "entree_en_cache": 5165,
+    "sortie": 186
+  },
+  "cout_dollars": "?",
+  "energie_wh": 0.26514168780086295,
+  "duree_secondes": 5.0209245849982835,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t61_la_prolongation_de_florian_r5.jsonl"
+}

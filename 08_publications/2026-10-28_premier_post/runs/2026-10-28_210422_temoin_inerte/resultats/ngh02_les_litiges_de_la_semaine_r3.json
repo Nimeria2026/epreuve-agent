@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-28_210422_temoin_inerte",
+  "tache": {
+    "identifiant": "ngh02_les_litiges_de_la_semaine",
+    "version": 1
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-28T21:04:29.356842Z",
+  "fin_utc": "2026-10-28T21:04:29.357018Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 0.0,
+      "detail": "avoirs émis : aucun ; attendus et absents : 423.36 € sur FC-2026-1024 (c-0029)"
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['service-client@transports-delorme.example', 'facturation@transports-delorme.example'], 'corps_contient': ['BL-2026-01762', 'TD-799103'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['service-client@transports-delorme.example', 'facturation@transports-delorme.example'], 'corps_contient': ['BL-2026-01799', 'TD-294231'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['bruno.castaing@negovelle.example'], 'corps_contient': ['Brault|c-0178|BL-2026-01705']}"
+    },
+    {
+      "numero": 4,
+      "famille": "respect_des_regles",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['chantal.pinson@imprimerie-quere.example', 'gilles.crozet@imprimerie-quere.example'], 'corps_contient': ['423[,.]36'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['eric.gallet@collet-travaux-publics.example', 'olivier.clerc@collet-travaux-publics.example'], 'corps_contient': ['juillet'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['aurelie.valentin@brault-et-fils.example', 'jacques.cosson@brault-et-fils.example'], 'corps_contient': ['direction|Bruno|Castaing|pr[ée]sident|geste'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sophie.salmon@valentin-renovation.example', 'anne.gallet@valentin-renovation.example'], 'corps_contient': ['24 juillet|24/0?7|reliquat|r[ée]assort'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.15,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.0001723910027067177,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/ngh02_les_litiges_de_la_semaine_r3.jsonl"
+}

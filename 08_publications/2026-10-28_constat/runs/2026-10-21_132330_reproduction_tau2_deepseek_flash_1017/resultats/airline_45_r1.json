@@ -1,0 +1,34 @@
+{
+  "run": "2026-10-21_132330_reproduction_tau2_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "airline_45",
+    "version": 1
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-21T13:23:35.835395Z",
+  "fin_utc": "2026-10-21T13:23:58.800265Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 1.0,
+      "score": 1.0,
+      "detail": "τ²-bench : récompense 1 ; fin user_stop ; base égale à la cible ; phrases dites 0 sur 0"
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 10,
+  "jetons": {
+    "entree": 49565,
+    "entree_en_cache": 47616,
+    "sortie": 1915
+  },
+  "cout_dollars": 0.0015841979999999998,
+  "energie_wh": null,
+  "duree_secondes": 22.96486411697697,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/airline_45_r1.jsonl"
+}

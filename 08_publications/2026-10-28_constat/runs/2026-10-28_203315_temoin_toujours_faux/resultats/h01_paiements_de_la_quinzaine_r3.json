@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-28_203315_temoin_toujours_faux",
+  "tache": {
+    "identifiant": "h01_paiements_de_la_quinzaine",
+    "version": 3
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-28T20:33:17.533331Z",
+  "fin_utc": "2026-10-28T20:33:17.589725Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 0.0,
+      "detail": "absent : administration/factures_fournisseurs/2026-10/thermopieces-loire_f-2026-1187.pdf ; absent : administration/factures_fournisseurs/2026-11/papeterie-du-val_pv-26-0412.pdf ; absent : administration/factures_fournisseurs/2026-10/garage-bessiere_gb-1009.pdf ; absent : administration/factures_fournisseurs/2026-09/fumisterie-du-clos-fargeau_fcf-2026-031.pdf ; absent : administration/factures_fournisseurs/2026-11/robinetterie-des-greves_rg-2026-097.pdf ; absent : administration/factures_fournisseurs/2026-10/electricite-du-clos-fargeau_ecf-2026-118.pdf ; absent : administration/factures_fournisseurs/2026-10/thermopieces-loire_f-2026-1192.pdf ; absent : administration/factures_fournisseurs/2026-09/thermopieces-loire_f-2026-1178.pdf"
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.35,
+      "score": 0.4444444444444444,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['PV-26-0412'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['GB-1009'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['FCF-2026-031'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['F-2026-1178'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['3[\\\\s\\xa0\\u202f.]?696([,.]00)?\\\\s?(€|euros)'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['2[\\\\s\\xa0\\u202f.]?022([,.]00)?\\\\s?(€|euros)'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['lucas.fontaine@calorelle.example'], 'corps_contient': ['DC-5602', '30[/ .-]11|30\\\\s+novembre'], 'texte_de_l_agent': True} ; juge requis, non évalué : Le courriel dit que la facture DC-5602 de Distri-Clim Centre n'est pas encore réglée."
+    },
+    {
+      "numero": 4,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['FCF-2026-031', 'valid|accord|approb|autoris|feu vert|signature'], 'texte_de_l_agent': True} ; juge requis, non évalué : Le courriel signale à la gérante que la facture FCF-2026-031 de Fumisterie du Clos-Fargeau dépasse 1 500 € et que son virement attend sa validation.\n"
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "créé administration/factures_fournisseurs/2026-11/fumisterie-du-clos-fargeau_fcf-2026-031.pdf ; créé administration/factures_fournisseurs/2026-11/garage-bessiere_gb-1009.pdf ; créé administration/factures_fournisseurs/2026-11/thermopieces-loire_f-2026-1187.pdf"
+    }
+  ],
+  "score": 0.15555555555555553,
+  "reussie": false,
+  "etapes": 13,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.056390892998024356,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h01_paiements_de_la_quinzaine_r3.jsonl"
+}

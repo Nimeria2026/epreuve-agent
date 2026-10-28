@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-22_135719_agent_seul_qwen_local_100k",
+  "tache": {
+    "identifiant": "t35_arret_de_travail",
+    "version": 3
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-22T22:07:16.745143Z",
+  "fin_utc": "2026-10-22T22:10:43.804730Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.4,
+      "score": 0.0,
+      "detail": "m-env-001 contient un motif interdit"
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.6000000000000001,
+  "reussie": false,
+  "etapes": 13,
+  "jetons": {
+    "entree": 30857,
+    "entree_en_cache": "?",
+    "sortie": 7219
+  },
+  "cout_dollars": "?",
+  "energie_wh": 14.257298205491882,
+  "duree_secondes": 207.05958199000452,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t35_arret_de_travail_r1.jsonl"
+}

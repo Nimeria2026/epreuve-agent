@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-28_204005_temoin_une_fois_sur_deux",
+  "tache": {
+    "identifiant": "dv22_le_courrier_numerise_du_lundi",
+    "version": 1
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-28T20:40:59.851908Z",
+  "fin_utc": "2026-10-28T20:40:59.852096Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.45,
+      "score": 0.0,
+      "detail": "absent : courrier/2026-06/2026-06-08_conge_n13-06.pdf ; absent : courrier/2026-06/2026-06-08_attestation-assurance_c04-03.pdf ; absent : courrier/2026-06/2026-06-08_avis-echeance_cp33.pdf ; absent : courrier/2026-06/2026-06-08_facture_s01-03.pdf ; absent : courrier/2026-06/2026-06-08_releve-eau_c08-12.pdf ; absent : courrier/2026-06/2026-06-08_autre_p-0259.pdf"
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.35,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['elodie.chauvin@domivelle.example'], 'transfere_de': 'm-nale-001'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['cedric.maillard@domivelle.example'], 'transfere_de': 'm-nale-002'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['copropriete@domivelle.example', 'thierry.ollivier@domivelle.example'], 'transfere_de': 'm-nale-003'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['comptabilite@domivelle.example', 'pascale.renaud@domivelle.example'], 'transfere_de': 'm-nale-004'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['cedric.maillard@domivelle.example'], 'transfere_de': 'm-nale-005'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['comptabilite@domivelle.example', 'pascale.renaud@domivelle.example'], 'transfere_de': 'm-nale-006'}"
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.2,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.0001844529979280196,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/dv22_le_courrier_numerise_du_lundi_r4.jsonl"
+}

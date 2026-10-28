@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-28_211337_temoin_inerte",
+  "tache": {
+    "identifiant": "gb05_le_tri_de_la_boite_contact",
+    "version": 1
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-28T21:13:44.878770Z",
+  "fin_utc": "2026-10-28T21:13:44.878945Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.6,
+      "score": 0.25,
+      "detail": "aucun courriel envoyé ne remplit {'a': ['julien.fabre@valmoret.example'], 'cc': [], 'transfere_de': 'm-gb05-001'} ; aucun courriel envoyé ne remplit {'a': ['comptabilite@valmoret.example'], 'cc': [], 'transfere_de': 'm-gb05-002'} ; aucun courriel envoyé ne remplit {'a': ['sandrine.collet@valmoret.example'], 'cc': ['helene.varenne@valmoret.example'], 'transfere_de': 'm-gb05-004'}"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.55,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.00017267300427192822,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/gb05_le_tri_de_la_boite_contact_r4.jsonl"
+}

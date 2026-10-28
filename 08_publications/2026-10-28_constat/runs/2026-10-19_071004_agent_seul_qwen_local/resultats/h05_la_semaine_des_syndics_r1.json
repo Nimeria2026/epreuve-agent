@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-19_071004_agent_seul_qwen_local",
+  "tache": {
+    "identifiant": "h05_la_semaine_des_syndics",
+    "version": 2
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-19T13:20:12.850812Z",
+  "fin_utc": "2026-10-19T13:36:41.042543Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.25,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.35,
+      "score": 0.8,
+      "detail": "2 envoi(s) vers contact@syndic-de-la-residence-du-clos-fargeau-3.example pour 1 au plus"
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.9299999999999999,
+  "reussie": false,
+  "etapes": 50,
+  "jetons": {
+    "entree": 144010,
+    "entree_en_cache": "?",
+    "sortie": 38312
+  },
+  "cout_dollars": "?",
+  "energie_wh": 68.3522840334135,
+  "duree_secondes": 988.1917251539999,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h05_la_semaine_des_syndics_r1.jsonl"
+}

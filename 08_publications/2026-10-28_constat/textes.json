@@ -1,0 +1,62 @@
+{
+ "titre": "Par API, l'agent réussit 77 tâches sur 83 à chaque essai. <em>En local, 61 avec Qwen 27B, 63 avec Flash-Next.</em>",
+ "controle_banc": "Sur τ²-bench, un banc public, notre fourchette contient le score publié de Qwen 27B, le seul des trois donné avec son écart type ; celui de DeepSeek en sort, et Flash-Next n'a pas de score publié.",
+ "cadre": "Le même agent, même consigne et mêmes outils, fait le travail de bureau de Calorelle, une PME fictive que nous avons écrite : comptabilité, RH, commercial, planning, relation client. Cinq essais par tâche ; la réussite se vérifie pour l'essentiel sur l'état final de l'entreprise.",
+ "constats": [
+  {
+   "etiquette": "Réussite",
+   "phrase": "DeepSeek est devant chacun des modèles locaux ; entre eux, l'écart n'est pas établi.",
+   "detail": "Sur 83 tâches courantes, dont 20 gardées secrètes, DeepSeek réussit 98,6 % des essais, Qwen 27B 92 % et Flash-Next 93,5 % : 6 essais ratés sur 415, 33 et 27. Les cinq essais d'une même tâche réussissent tous pour 92,8 % des tâches, 73,5 % et 75,9 %."
+  },
+  {
+   "etiquette": "Tâches longues",
+   "phrase": "Qwen 27B passe sous une chance sur <span class=\"hors-donnees\">deux</span> à 23 min de travail humain.",
+   "detail": "Sur 12 tâches longues, dont 3 secrètes, de 16 min à 1 h 30 estimées par une grille, DeepSeek reste au-dessus d'une chance sur <span class=\"hors-donnees\">deux</span> jusqu'au bout. La courbe de Flash-Next aussi, mais sa fourchette va de moins de 16 min à plus de 1 h 30 : la mesure ne dit pas où il s'arrête."
+  },
+  {
+   "etiquette": "Fautes graves",
+   "phrase": "Sur 125 essais : 0 chez DeepSeek, 12 chez Qwen 27B, 4 chez Flash-Next.",
+   "detail": "Ce sont les 25 tâches publiques où une faute grave est contrôlée. Avec notre gardien : 0, 7 et 2. Seul l'écart entre DeepSeek et Qwen 27B, sans gardien, est établi."
+  },
+  {
+   "etiquette": "Durée",
+   "phrase": "Sur la même carte, Flash-Next va environ trois fois plus vite que Qwen 27B.",
+   "detail": "63 s par exécution en médiane, contre 3 min 6 s ; DeepSeek, par l'API, 26 s."
+  },
+  {
+   "etiquette": "Le banc",
+   "phrase": "Sur τ²-bench, notre fourchette contient le score publié de Qwen 27B.",
+   "detail": "Celui de DeepSeek, publié sans écart type, sort de notre fourchette ; Flash-Next n'a pas de score publié."
+  }
+ ],
+ "gardien": {
+  "constat": "Les 12 fautes graves de Qwen 27B sans gardien et les 7 avec, comme les 4 et les 2 de Flash-Next, viennent de runs différents. L'écart entre sans et avec gardien n'est établi ni chez Qwen 27B, ni chez Flash-Next : chez Qwen 27B, 4 points, de −3,2 à 12. Le journal du gardien dit ce qu'il a fait, geste par geste.",
+  "apres": "Derrière lui, une faute d'argent passe encore, chez Flash-Next : le chiffrage d'un devis donné au syndic dans le texte d'une réponse, sans attendre l'accord de la gérante. Les autres fautes qui restent sont des fuites écrites dans le texte d'un courriel, vers un destinataire que les règles laissent passer : 7 chez Qwen 27B, 1 chez Flash-Next. Le gardien ne lit pas les messages. Il bloque la réponse à une banque, à tort selon notre lecture, ce qui coûte une tâche aux trois modèles.",
+  "entree": "Ce qui passe encore est écrit dans le texte d'un message, qu'il ne lit pas : 7 essais chez Qwen 27B, 2 chez Flash-Next, dont une faute d'argent, le chiffrage d'un devis donné au syndic sans attendre l'accord de la gérante ; aucun chez DeepSeek. Avec si peu de cas, ni l'écart entre les modèles ni l'effet du gardien ne sont établis. Il bloque aussi une réponse à une banque, à tort selon notre lecture, ce qui coûte une tâche aux trois modèles.",
+  "runs": "Runs derrière le gardien, règles v2 : 5 de DeepSeek, 2 de Qwen 27B et 2 de Flash-Next, du 21 au 27 octobre 2026."
+ },
+ "tau2": {
+  "texte": "Sur τ²-bench, un banc public construit par d'autres, nous refaisons la mesure : ce contrôle juge notre banc, pas un modèle. Notre fourchette contient le score publié de Qwen 27B, le seul des trois donné avec son écart type. Un score publié sans écart type ne dit pas sa marge : celui de DeepSeek, relevé le 26 octobre 2026, sort de notre fourchette, plus étroite qu'elle ne devrait ; cela ne suffit pas à dire que notre banc se trompe. Flash-Next n'a pas de score publié : sa ligne donne notre mesure et ne contrôle rien.",
+  "note": "Compagnie aérienne de τ²-bench, 250 essais par modèle. Scores publiés : OpenRouter, relevés le 26 octobre 2026, et le 27 octobre 2026 pour Flash-Next. Notre fourchette est celle de Wilson, plus étroite qu'elle ne devrait sur des essais d'une même tâche (protocole, partie <span class=\"hors-donnees\">6</span>)."
+ },
+ "limites": [
+  "Une PME fictive, écrite par nous.",
+  "Des durées humaines estimées par une grille, pas chronométrées.",
+  "Sur 6 des 83 tâches, une partie des contrôles passe par un juge : DeepSeek V4.1 Flash, l'un des modèles mesurés, vérifié sur des réponses étiquetées à la main. Il juge aussi une partie des tâches longues, où il ne passe pas tout son contrôle (protocole, partie <span class=\"hors-donnees\">4</span>). Il peut se tromper.",
+  "Trois modèles sous la même orchestration : ce constat ne classe aucune orchestration.",
+  "Flash-Next tourne en local, la même carte et environ 50 Go de mémoire vive, compressé à 3 bits : ses chiffres valent pour ce poste, pas pour le modèle complet.",
+  "Qwen 27B est déclaré avec un contexte de 102 400 jetons. Sur les 83 tâches, 57 ont été mesurées avant que nous l'élargissions, à 40 960 jetons ; aucun de leurs essais n'a été coupé par le contexte.",
+  "Les 20 tâches secrètes ont été mieux réussies que les publiques, sans que leur structure suffise à l'expliquer : sur les 63 publiques seules, les tâches réussies à chaque essai passent à 92,1 % pour DeepSeek, 68,3 % pour Qwen 27B et 73 % pour Flash-Next, contre 92,8 %, 73,5 % et 75,9 % sur les 83. Les écarts établis entre les modèles restent les mêmes.",
+  "Les tâches secrètes passent par l'API de DeepSeek quand on le mesure : une version sortie après le <span class=\"hors-donnees\">9</span> octobre <span class=\"hors-donnees\">2026</span> a pu les voir. C'est le cas de la version mesurée, sortie le <span class=\"hors-donnees\">17</span> octobre <span class=\"hors-donnees\">2026</span>."
+ ],
+ "accueil": {
+  "chapo_mesure": "Le même agent, branché tour à tour sur trois modèles, face à 83 tâches de bureau, cinq essais chacune.",
+  "note_tableau": "Tâches ratées : écart établi entre DeepSeek et chacun des modèles locaux, pas d'écart établi entre Qwen 27B et Flash-Next. Fautes graves : sans garde-fou, seul l'écart entre DeepSeek et Qwen 27B est établi ; avec, aucun. « Établi » : la fourchette à <span class=\"hors-donnees\">95</span> % de l'écart ne passe pas par <span class=\"hors-donnees\">zéro</span>.",
+  "couts": [
+   "13 tâches de relation client, dont 3 secrètes, jugées pour l'essentiel sur l'état final de l'entreprise.",
+   "le gardien filtre les gestes de l'agent selon des règles écrites. Sur Qwen 27B : 12 fautes graves sans lui, 7 avec, sur 125 essais, un écart que la mesure n'établit pas.",
+   "une donnée qui sort vers quelqu'un qui ne doit pas la connaître : la faute grave la plus contrôlée, dans 15 des 25 tâches publiques.",
+   "Qwen 27B rate au moins une fois 22 tâches sur 83, DeepSeek 6."
+  ]
+ }
+}

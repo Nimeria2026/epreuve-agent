@@ -1,0 +1,40 @@
+{
+  "run": "2026-10-09_220655_agent_seul_qwen_local",
+  "tache": {
+    "identifiant": "t21_deux_resiliations",
+    "version": 3
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-10T04:39:50.285654Z",
+  "fin_utc": "2026-10-10T04:42:46.832681Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "contenu",
+      "poids": 0.8,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 19,
+  "jetons": {
+    "entree": 65514,
+    "entree_en_cache": "?",
+    "sortie": 6776
+  },
+  "cout_dollars": "?",
+  "energie_wh": 12.156097470208218,
+  "duree_secondes": 176.54702265000378,
+  "journal": "journaux/t21_deux_resiliations_r2.jsonl"
+}

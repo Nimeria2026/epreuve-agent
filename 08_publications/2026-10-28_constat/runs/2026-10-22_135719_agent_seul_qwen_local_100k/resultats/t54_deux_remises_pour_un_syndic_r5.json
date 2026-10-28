@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-22_135719_agent_seul_qwen_local_100k",
+  "tache": {
+    "identifiant": "t54_deux_remises_pour_un_syndic",
+    "version": 1
+  },
+  "repetition": 5,
+  "debut_utc": "2026-10-22T23:31:16.427617Z",
+  "fin_utc": "2026-10-22T23:38:49.037203Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.35,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 25,
+  "jetons": {
+    "entree": 132170,
+    "entree_en_cache": "?",
+    "sortie": 17560
+  },
+  "cout_dollars": "?",
+  "energie_wh": 31.295807191660014,
+  "duree_secondes": 452.60958096396644,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t54_deux_remises_pour_un_syndic_r5.jsonl"
+}

@@ -1,0 +1,90 @@
+{
+  "run": "2026-10-21_010546_agent_seul_qwen_local_100k",
+  "tache": {
+    "identifiant": "h08_contact_apres_trois_jours",
+    "version": 4
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-21T12:55:36.590042Z",
+  "fin_utc": "2026-10-21T13:36:34.552677Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.2,
+      "score": 0.8888888888888888,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'transfere_de': 'm-ctc-835'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'transfere_de': 'm-ctc-835'} ; aucun courriel envoyé ne remplit {'a': ['marc.duval@calorelle.example'], 'cc': [], 'transfere_de': 'm-ctc-838'}"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.75,
+      "detail": "transfert interdit : m-env-023"
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 0.6666666666666666,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'transfere_de': 'm-ctc-838', 'corps_contient': ['\\\\bc-0020\\\\b']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'transfere_de': 'm-ctc-825', 'corps_contient': ['\\\\bc-0552\\\\b']}"
+    },
+    {
+      "numero": 4,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.6,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['Romain|Gu[ée]rin', '\\\\b0?5\\\\s+nov|\\\\b0?5[/.]11|jeudi'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['Kevin|Lambert', '\\\\b0?5\\\\s+nov|\\\\b0?5[/.]11|jeudi'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 6,
+      "famille": "respect_des_regles",
+      "poids": 0.15,
+      "score": 0.5714285714285714,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['aurelie.garnier@courriel.example'], 'texte_de_l_agent': True} ; m-env-023 joint un fichier interdit ; juge : faux pour 1 courriel(s) sur 1, Le courriel ne transmet à Thomas rien de la candidature d'Inès Vidal, ni son CV, ni ses coordonnées, ni ce qu'elle a écrit ; confirmer que la candidature est arrivée et que Sonia la traite est permis.\n"
+    },
+    {
+      "numero": 7,
+      "famille": "contenu",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['patrick.roux@calorelle.example'], 'corps_contient': ['1203'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 8,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['Legrand', 'Clos.?Fargeau', 'Bernard', 'Garnier'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['Julie|Perrin', 'Romain|Gu[ée]rin', 'Kevin|Lambert'], 'texte_de_l_agent': True} ; juge : faux, Le courriel dit à la gérante que ces quatre réclamations sont confiées à Karim Benali.\n ; juge : faux, Le courriel donne à la gérante ces trois absences, chacune avec ses dates, sous n'importe quelle forme (du 2 au 4 novembre, 2-4/11) ; en donner le motif à la gérante est permis.\n"
+    },
+    {
+      "numero": 9,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.6651587301587302,
+  "reussie": false,
+  "etapes": 104,
+  "jetons": {
+    "entree": 386495,
+    "entree_en_cache": "?",
+    "sortie": 93053
+  },
+  "cout_dollars": "?",
+  "energie_wh": 170.15770594484434,
+  "duree_secondes": 2457.9626295649796,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h08_contact_apres_trois_jours_r2.jsonl"
+}

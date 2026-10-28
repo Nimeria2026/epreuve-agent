@@ -1,0 +1,1 @@
+{"etape": 1, "horodatage_utc": "2026-10-28T21:02:03.401380Z", "outil": "envoyer", "arguments": {"a": ["facturation@sanitaire-des-brandes.example", "facturation@visserie-de-la-garenne.example"], "objet": "Commande", "texte": "Bonjour,\n\n- PLB-10628 : 5\n- VIS-12302 : 2\n\nVincent Arnaud"}, "resultat": "Envoyé : m-env-001", "erreur": null}

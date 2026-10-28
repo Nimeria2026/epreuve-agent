@@ -1,0 +1,118 @@
+{
+  "run": "2026-10-28_204652_temoin_toujours_faux",
+  "tache": {
+    "identifiant": "dvh22_le_retour_de_veronique_tessier",
+    "version": 1
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-28T20:46:53.126088Z",
+  "fin_utc": "2026-10-28T20:46:53.160994Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['cedric.maillard@domivelle.example', 'elodie.chauvin@domivelle.example'], 'corps_contient': ['Leroux|n01-05', '(?<!\\\\d)4 novembre|(?<![\\\\d/])0?4/11(?!\\\\d)']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['cedric.maillard@domivelle.example', 'solene.audoin@domivelle.example'], 'corps_contient': ['Hamon|s01-08', '(?<!\\\\d)10 septembre|(?<![\\\\d/])10/0?9(?!\\\\d)']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['cedric.maillard@domivelle.example'], 'corps_contient': ['Carpentier|c01-07', '(?<!\\\\d)18 novembre|(?<![\\\\d/])18/11(?!\\\\d)']} ; m-env-001 contient un motif interdit"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['quentin.mallet@domivelle.example'], 'corps_contient': ['(?<!\\\\d)4 novembre|(?<![\\\\d/])0?4/11(?!\\\\d)']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['quentin.mallet@domivelle.example'], 'corps_contient': ['(?<!\\\\d)10 septembre|(?<![\\\\d/])10/0?9(?!\\\\d)']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['quentin.mallet@domivelle.example'], 'corps_contient': ['(?<!\\\\d)18 novembre|(?<![\\\\d/])18/11(?!\\\\d)']}"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['lea.fleury@boite-postale.example'], 'corps_contient': ['recommand|commissaire|main propre'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 4,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sylvie.charpentier@mel-perso.example'], 'corps_contient': ['205[,.]70', '(?<!\\\\d)10 septembre|(?<![\\\\d/])10/0?9(?!\\\\d)'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['thierry.ollivier@domivelle.example'], 'corps_contient': ['Charpentier', '205[,.]70|six']}"
+    },
+    {
+      "numero": 5,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['dominique.fournier@mel-perso.example'], 'corps_contient': ['2025|pr[ée]c[ée]dent|pas (?:été )?(?:tenu|respect|honor|pay)|manqu|impay'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['thierry.ollivier@domivelle.example'], 'corps_contient': ['Fournier']} ; m-env-003 contient un motif interdit"
+    },
+    {
+      "numero": 6,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['veronique.tessier@domivelle.example'], 'corps_contient': ['Rivi[èe]re', 'douze|12 (?:mensualit|mois|fois)']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['veronique.tessier@domivelle.example'], 'corps_contient': ['Aubert|c06-04', 'mandat|gestion']} ; m-env-002 contient un motif interdit"
+    },
+    {
+      "numero": 7,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['cedric.maillard@domivelle.example'], 'corps_contient': ['14[,.]60'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['solene.audoin@domivelle.example'], 'corps_contient': ['43[,.]80'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['quentin.mallet@domivelle.example'], 'corps_contient': ['29[,.]50'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['pascale.renaud@domivelle.example', 'comptabilite@domivelle.example'], 'corps_contient': ['14[,.]60', '43[,.]80', '29[,.]50']} ; absent : direction/notes_de_frais/2026-07/note_de_frais_cedric_maillard_2026-07.pdf ; absent : direction/notes_de_frais/2026-07/note_de_frais_solene_audoin_2026-07.pdf ; absent : direction/notes_de_frais/2026-07/note_de_frais_quentin_mallet_2026-07.pdf"
+    },
+    {
+      "numero": 8,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['cedric.maillard@domivelle.example'], 'corps_contient': ['repas|d[ée]jeuner', 'ticket|justificatif', 'registre|(?<!\\\\d)8 km|(?<!\\\\d)4 km'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['solene.audoin@domivelle.example'], 'corps_contient': ['juin', 'registre|42 km|21 km'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 9,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['eric.lemaire@boite-postale.example'], 'corps_contient': ['540', 'classe F|\\\\bF\\\\b|DPE|17'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 10,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "absent : rh/solene.audoin/arrets/2026-08-24_2026-08-28.pdf ; absent : rh/candidatures/ines.marchand/cv_ines_marchand.pdf ; absent : rh/candidatures/romain.petitjean/cv_romain_petitjean.pdf ; absent : rh/candidatures/romain.petitjean/lettre_romain_petitjean.pdf ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['cedric.maillard@domivelle.example'], 'corps_contient': ['Sol[èe]ne', '(?<!\\\\d)28 ao[ûu]t|(?<![\\\\d/])28/0?8(?!\\\\d)']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['nadege.lebrun@domivelle.example'], 'corps_contient': ['Sol[èe]ne']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['ines.marchand@courriel.example'], 'corps_contient': ['re[çc]u|r[ée]ception']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['romain.petitjean@messagerie.example'], 'corps_contient': ['re[çc]u|r[ée]ception']}"
+    },
+    {
+      "numero": 11,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['alice.besnard@mel-perso.example'], 'corps_contient': ['929[,.]16', '(?<!\\\\d)20 ao[ûu]t|(?<![\\\\d/])20/0?8(?!\\\\d)'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['cedric.maillard@domivelle.example', 'elodie.chauvin@domivelle.example'], 'corps_contient': ['929[,.]16']}"
+    },
+    {
+      "numero": 12,
+      "famille": "resultat",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['anne.gauthier@messagerie.example'], 'corps_contient': ['629[,.]50|67[,.]50'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['pascale.renaud@domivelle.example', 'comptabilite@domivelle.example'], 'corps_contient': ['629[,.]50']}"
+    },
+    {
+      "numero": 13,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "destinataire non prévu : francois.michaud@boite-postale.example"
+    }
+  ],
+  "score": 0.0,
+  "reussie": false,
+  "etapes": 5,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.03490353000233881,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/dvh22_le_retour_de_veronique_tessier_r1.jsonl"
+}

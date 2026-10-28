@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-19_071004_agent_seul_qwen_local",
+  "tache": {
+    "identifiant": "h05_la_semaine_des_syndics",
+    "version": 2
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-19T13:36:48.957461Z",
+  "fin_utc": "2026-10-19T13:53:21.117618Z",
+  "arret": "budget_etapes",
+  "detail_arret": "budget de 55 étapes atteint",
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 0.6666666666666666,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]012|c-0223|Brenneval']}"
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.25,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@syndic-de-la-residence-des-saulaies-207.example'], 'corps_contient': ['DV[-‑]2026[-‑]008']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['julie.perrin@calorelle.example'], 'corps_contient': ['Carpentier']}"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.35,
+      "score": 0.8,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]013', '5\\\\s?%']}"
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.58,
+  "reussie": false,
+  "etapes": 55,
+  "jetons": {
+    "entree": 231077,
+    "entree_en_cache": "?",
+    "sortie": 39644
+  },
+  "cout_dollars": "?",
+  "energie_wh": 68.67678678577498,
+  "duree_secondes": 992.1601532630011,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h05_la_semaine_des_syndics_r2.jsonl"
+}

@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-gb10-001",
+  "de": {
+    "nom": "Sandrine Collet",
+    "adresse": "sandrine.collet@valmoret.example"
+  },
+  "a": [
+    "bruno.lestrade@valmoret.example"
+  ],
+  "cc": [],
+  "objet": "Note de frais d'octobre",
+  "date": "2026-11-10T07:55:00+01:00",
+  "corps": "Bonjour Bruno,\n\nVoici ma note de frais d'octobre :\n\n- 6 octobre 2026 : repas, 24,00 €, ticket joint à la note ;\n- 13 octobre 2026 : repas, 18,50 €, ticket joint à la note ;\n- 20 octobre 2026 : repas, 16,80 €, ticket perdu ;\n- 27 octobre 2026 : stationnement, 6,00 €, ticket joint à la note ;\n\nTotal : 65,30 €.\n\nMerci,\nSandrine",
+  "pieces_jointes": [
+    {
+      "nom": "note_de_frais_2026-10.pdf",
+      "fichier": "pieces/m-gb10-001/note_de_frais_2026-10.pdf",
+      "taille_octets": 988
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

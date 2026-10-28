@@ -1,0 +1,34 @@
+{
+ "identifiant": "2026-10-28_211112_temoin_parfait",
+ "debut_utc": "2026-10-28T21:11:12.645151Z",
+ "fin_utc": "2026-10-28T21:11:41.446246Z",
+ "statut": "termine",
+ "raison_interruption": null,
+ "code": {
+  "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+  "modifications_non_commitees": true
+ },
+ "candidat": {
+  "identifiant": "temoin_parfait",
+  "version": "1"
+ },
+ "configuration": {
+  "modeles": []
+ },
+ "empreinte_prompts": null,
+ "jeu_taches": {
+  "nom": "negovelle_dure_cachees_v1",
+  "taches": [],
+  "empreinte": "sha256:d9b133f25efc3e9454fa7852de898941fff490bf8bca3467c38b36509e19a937"
+ },
+ "etat_pme": {
+  "version": "v1",
+  "empreinte": "sha256:45ce2d0ae1e61baf3243dd3280da41281d4e42b91c2e4e6e9da15bab46776ed1",
+  "societe": "negovelle"
+ },
+ "regles_gardien": null,
+ "repetitions": 4,
+ "machine": null,
+ "juge": null,
+ "banc_public": null
+}

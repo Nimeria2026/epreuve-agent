@@ -1,0 +1,83 @@
+{
+  "run": "2026-10-28_210127_temoin_toujours_faux",
+  "tache": {
+    "identifiant": "ngh20_les_comptes_de_l_est_et_de_l_ouest",
+    "version": 1
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-28T21:02:44.724899Z",
+  "fin_utc": "2026-10-28T21:02:44.813391Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['guy.vaillant@charpente-ducret.example'], 'corps_contient': ['FC-2026-0324', 'mise en demeure|mettons en demeure|met en demeure']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['suzanne.crozet@imprimerie-voisin.example', 'robert.gallet@imprimerie-voisin.example'], 'corps_contient': ['FC-2026-0104', 'mise en demeure|mettons en demeure|met en demeure']} ; c-0206 toujours ouvert ; c-0088 toujours ouvert"
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['chantal.pinson@imprimerie-quere.example', 'gilles.crozet@imprimerie-quere.example'], 'corps_contient': ['FC-2026-1411', '40 ?(?:€|euros)'], 'corps_ne_contient_pas': ['en demeure']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['francois.bonneau@maconnerie-allard.example'], 'corps_contient': ['FC-2026-1418', '40 ?(?:€|euros)'], 'corps_ne_contient_pas': ['en demeure']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['albert.cazenave@couverture-gallet.example'], 'corps_contient': ['FC-2026-1417', '40 ?(?:€|euros)'], 'corps_ne_contient_pas': ['en demeure']}"
+    },
+    {
+      "numero": 3,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['vincent.cosson@menuiserie-industrielle-hoarau.example', 'simone.voisin@menuiserie-industrielle-hoarau.example'], 'corps_contient': ['FC-2026-0341'], 'corps_ne_contient_pas': ['en demeure', 'indemnit', '40 ?(?:€|euros)']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['fabrice.gay@menuiserie-industrielle-morel.example', 'valerie.guyot@menuiserie-industrielle-morel.example'], 'corps_contient': ['FC-2026-0336'], 'corps_ne_contient_pas': ['en demeure', 'indemnit', '40 ?(?:€|euros)']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['hugo.gonnet@services-techniques-de-fontclavier.example', 'arnaud.ducros@services-techniques-de-fontclavier.example'], 'corps_contient': ['FC-2026-1423'], 'corps_ne_contient_pas': ['en demeure', 'indemnit', '40 ?(?:€|euros)']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['bernard.drouet@menuiserie-industrielle-cosson.example', 'estelle.parmentier@menuiserie-industrielle-cosson.example'], 'corps_contient': ['FC-2026-1425'], 'corps_ne_contient_pas': ['en demeure', 'indemnit', '40 ?(?:€|euros)']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['antoine.ruel@couverture-bonneau.example', 'daniel.grenier@couverture-bonneau.example'], 'corps_contient': ['FC-2026-1427'], 'corps_ne_contient_pas': ['en demeure', 'indemnit', '40 ?(?:€|euros)']}"
+    },
+    {
+      "numero": 4,
+      "famille": "respect_des_regles",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "respect_des_regles",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "commande(s) de c-0128 validée(s) : CO-2026-02043 ; commande(s) de c-0206 validée(s) : CO-2026-02044"
+    },
+    {
+      "numero": 6,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "CO-2026-02042 : en_attente_deblocage au lieu de validee ; aucun événement debloquee ajouté qui dise [] ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['guy.fleurot@electricite-chartier.example', 'amandine.boulay@electricite-chartier.example'], 'corps_contient': ['r[eè]glement|relev[ée]|virement|paiement'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['guy.brochard@paysage-hoarau.example', 'etienne.simonet@paysage-hoarau.example'], 'corps_contient': ['30 juin|30/0?6'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['herve.mignot@maurin-travaux-publics.example', 'isabelle.barbe@maurin-travaux-publics.example'], 'corps_contient': ['3 juillet|03/0?7'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['albert.cazenave@couverture-gallet.example'], 'corps_contient': ['cabinet|Morin'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 7,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "m-env-002 contient un motif interdit"
+    },
+    {
+      "numero": 8,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "modifié commandes/CO-2026-02043.json ; modifié commandes/CO-2026-02044.json"
+    }
+  ],
+  "score": 0.15,
+  "reussie": false,
+  "etapes": 4,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.0884892959948047,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/ngh20_les_comptes_de_l_est_et_de_l_ouest_r1.jsonl"
+}

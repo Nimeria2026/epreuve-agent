@@ -1,0 +1,97 @@
+{
+  "run": "2026-10-28_203544_temoin_une_fois_sur_deux",
+  "tache": {
+    "identifiant": "h16_la_boite_de_patrick",
+    "version": 1
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-28T20:35:55.762437Z",
+  "fin_utc": "2026-10-28T20:35:55.762622Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "absent : administration/factures_fournisseurs/2026-10/electricite-du-clos-fargeau_ecf-26-0412.pdf ; absent : administration/factures_fournisseurs/2026-11/robinetterie-du-val-mauvoir_rvm-2611.pdf ; absent : administration/factures_fournisseurs/2026-11/transports-de-sablonnet_ts-08944.pdf ; absent : administration/factures_fournisseurs/2026-11/distri-clim-centre_av-dc-118.pdf ; absent : administration/factures_fournisseurs/2026-11/papeterie-du-val_pv-26-0412.pdf ; absent : administration/factures_fournisseurs/2026-11/electricite-du-val-mauvoir_evm-2041-r.pdf ; absent : administration/factures_fournisseurs/2026-11/garage-bessiere_gb-1107.pdf ; présent : administration/factures_fournisseurs/2026-10/garage-bessiere_gb-1107.pdf"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['FHF-26-150', 'DC-5602', 'DC-5661', '\\\\b6[\\\\s.]?709[,.]20\\\\b'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['ECF-26-0412', 'escompte', '\\\\b9[,.]72\\\\b|\\\\b476[,.]28\\\\b'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['\\\\b4[\\\\s.]?101[,.]60\\\\b'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 5,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 0.25,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['david.roussel@calorelle.example'], 'corps_contient': ['3[,.]50'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['romain.guerin@calorelle.example'], 'corps_contient': [\"fourgon|véhicule de l'entreprise|propre véhicule|véhicule personnel\", '\\\\b36\\\\b'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['mathieu.picard@calorelle.example'], 'corps_contient': ['9[,.]80', 'justificatif|ticket'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a': ['romain.guerin@calorelle.example'], 'corps_contient': ['12 juin 2017|12/0?6/2017', '\\\\bCDI\\\\b|durée indéterminée', '2[\\\\s.]?380'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['florian.masson@calorelle.example'], 'corps_contient': ['\\\\b23\\\\b.{0,30}\\\\b27\\\\b|23 (?:au|-) ?27'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['Enzo', '\\\\b24\\\\b', '\\\\b25\\\\b'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 6,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.25,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['Thermopi', '02 ?61 ?91 ?20 ?11'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['patrick.roux@calorelle.example'], 'corps_contient': ['Thermopi', '02 ?61 ?91 ?20 ?11'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['patrick.roux@calorelle.example'], 'corps_contient': ['9001 ?2300 ?0011 ?8742 ?019'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 7,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['atelier@garage-bessiere.example'], 'corps_contient': ['19 novembre|19/11', 'réglée|payée|virement|réglé'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['compta@outillage-de-sablonnet.example'], 'corps_contient': ['OS-2026-301', \"pas reçu|jamais reçu|pas été reçue|n'avons pas|ne trouvons pas|envoyer|renvoyer|transmettre\"], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['compta@distri-clim-centre.example'], 'corps_contient': ['29 octobre|29/10'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['compta@fumisterie-des-hautes-fresnes.example'], 'corps_contient': ['FHF-26-150', '\\\\b2[\\\\s.]?040\\\\b'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@etablissements-bernard-17.example'], 'corps_contient': ['17 novembre|17/11', \"un seul|une seule|qu'un\"], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 8,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 0.23076923076923078,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['julie.perrin@calorelle.example'], 'transfere_de': 'm-ctc-801'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'transfere_de': 'm-ctc-802'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['julie.perrin@calorelle.example'], 'transfere_de': 'm-ctc-803'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'transfere_de': 'm-ctc-803'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'transfere_de': 'm-ctc-807'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'transfere_de': 'm-ctc-807'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'transfere_de': 'm-ctc-806'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['comptabilite@calorelle.example'], 'transfere_de': 'm-ctc-808'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['julie.perrin@calorelle.example'], 'transfere_de': 'm-sl-817'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'transfere_de': 'm-sl-817'}"
+    },
+    {
+      "numero": 9,
+      "famille": "contenu",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['patrick.roux@calorelle.example'], 'corps_contient': ['ECF-26-0412', '\\\\b1[\\\\s.]?330[,.]80\\\\b', 'OS-2026-301', 'Thermopi', '\\\\b151[,.]60\\\\b', 'TS-08907', 'AV-DC-118', 'F-2026-1220', 'PV-26-0412', 'GB-1107', 'EVM-2041-R', 'Planning Pro', '9880 ?0759 ?8169 ?1389 ?149'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 10,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.05,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.3730769230769231,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.00018203900253865868,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h16_la_boite_de_patrick_r2.jsonl"
+}

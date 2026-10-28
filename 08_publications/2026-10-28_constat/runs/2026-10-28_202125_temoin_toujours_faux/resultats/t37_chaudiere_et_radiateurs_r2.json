@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-28_202125_temoin_toujours_faux",
+  "tache": {
+    "identifiant": "t37_chaudiere_et_radiateurs",
+    "version": 2
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-28T20:22:45.853488Z",
+  "fin_utc": "2026-10-28T20:22:45.919282Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.6,
+      "score": 0.0,
+      "detail": "DV-2026-013 : CHG-01 : TVA 5.5 % au lieu de 20 %, ligne DEP-01 absente, ligne TUB-01 à 20 % absente, ligne MES-01 absente, ligne MO-01 à 20 % absente, RAD-01 : TVA 5.5 % au lieu de 10 %, ligne TUB-01 à 10 % absente, ligne MO-01 à 10 % absente, ligne en trop : MO-01 × 10 à 5.5 %, total 4473.20 € TTC au lieu de 5863.60 €"
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['patrick.francois@courriel.example'], 'joint_le_devis_de': 'c-0188'}"
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "destinataire non prévu : voisin@courriel.example"
+    }
+  ],
+  "score": 0.0,
+  "reussie": false,
+  "etapes": 3,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.06579031000001123,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t37_chaudiere_et_radiateurs_r2.jsonl"
+}

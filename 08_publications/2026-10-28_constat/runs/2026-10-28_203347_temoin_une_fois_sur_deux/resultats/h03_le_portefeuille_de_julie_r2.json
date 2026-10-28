@@ -1,0 +1,69 @@
+{
+  "run": "2026-10-28_203347_temoin_une_fois_sur_deux",
+  "tache": {
+    "identifiant": "h03_le_portefeuille_de_julie",
+    "version": 5
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-28T20:33:54.366113Z",
+  "fin_utc": "2026-10-28T20:33:54.366337Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.25,
+      "score": 0.0,
+      "detail": "DV-2026-009 : statut envoye, attendu accepte ; DV-2026-013 : statut envoye, attendu refuse ; DV-2026-007 : statut brouillon, attendu envoye ; DV-2026-014 : statut brouillon, attendu envoye ; 0 devis créé(s) pour c-0156 (aucun), 1 attendu(s) ; 0 devis créé(s) pour c-0121 (aucun), 1 attendu(s) ; 0 devis créé(s) pour c-0222 (aucun), 1 attendu(s) ; 0 devis créé(s) pour c-0066 (aucun), 1 attendu(s)"
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@etablissements-bernard-17.example'], 'pieces_identiques_a': ['commercial/devis/2026/dv-2026-007.pdf']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['patrick.lefebvre@courriel.example'], 'pieces_identiques_a': ['commercial/devis/2026/dv-2026-014.pdf']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['laurent.blanchard@courriel.example'], 'joint_le_devis_de': 'c-0156'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@etablissements-michel-121.example'], 'joint_le_devis_de': 'c-0121'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['camille.martin@courriel.example'], 'joint_le_devis_de': 'c-0066'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['philippe.vincent@courriel.example'], 'corps_contient': ['DV[-‑]2026[-‑]004']}"
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@etablissements-dubois-20.example']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['pierre.legrand@courriel.example'], 'corps_contient': ['Loiret|\\\\bzones?\\\\b|secteur|périmètre|département|région'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a': ['b.lemoine@courriel.example'], 'pieces_identiques_a': ['clients/c-0142/contrats/contrat_entretien_c-0142.pdf']} ; aucun courriel envoyé ne remplit {'a': ['claire.fabre@courriel.example'], 'corps_contient': [\"\\\\bmars\\\\s+2027\\\\b|\\\\b2027(?:(?!janvier|f[ée]vrier|avril|mai|juin|juillet|ao[uû]t|septembre|octobre|novembre|d[ée]cembre|mars)[^.]){0,40}\\\\bmars\\\\b(?!\\\\s+2026)|\\\\bmars\\\\b(?!\\\\s+2026)(?:(?!janvier|f[ée]vrier|avril|mai|juin|juillet|ao[uû]t|septembre|octobre|novembre|d[ée]cembre|2026)[^.]){0,40}\\\\b2027\\\\b|\\\\bmars\\\\s+prochain\\\\b|\\\\bmars\\\\s+de\\\\s+l['’]ann[ée]e\\\\s+prochaine\\\\b\", 'planning|appel'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'corps_contient': ['Clos[- ]Fargeau|c-0003']}"
+    },
+    {
+      "numero": 4,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 0.625,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]010', '10\\\\s?%']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'joint_le_devis_de': 'c-0222'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]009|c-0020|[ÉE]tablissements\\\\s+Dubois']}"
+    },
+    {
+      "numero": 5,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]004'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]007'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]009'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]010'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]011'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]013'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]014'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'corps_contient': ['Blanchard'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'corps_contient': ['Michel'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'corps_contient': ['Leroux'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'corps_contient': ['Camille\\\\s+Martin|c-0066|DV[-‑]2026[-‑]015'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]011(?:(?!DV[-‑]\\\\d{4}[-‑]\\\\d{3})[\\\\s\\\\S]){0,500}?(?:\\\\b(?:19|20)\\\\s+nov|\\\\b(?:19|20)/11\\\\b|\\\\b(?:19|20)\\\\.11\\\\b|\\\\b30\\\\s*jours)'], 'texte_de_l_agent': True} ; juge requis, non évalué : Le point dit que le devis de Jean Leroux attend l'accord écrit de la gérante avant d'être envoyé au client ; le dire par la règle des 10 000 € suffit.\n ; juge requis, non évalué : Le point dit que la remise demandée sur DV-2026-010 attend la décision de la gérante ; dire que la demande lui est transmise suffit.\n ; juge requis, non évalué : Le courriel ne demande à Karim de relancer ni DV-2026-009 ni DV-2026-013.\n"
+    },
+    {
+      "numero": 6,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.225,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.0002206799981649965,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h03_le_portefeuille_de_julie_r2.jsonl"
+}

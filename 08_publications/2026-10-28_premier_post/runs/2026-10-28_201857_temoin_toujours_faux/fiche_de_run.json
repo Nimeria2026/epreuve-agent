@@ -1,0 +1,45 @@
+{
+ "identifiant": "2026-10-28_201857_temoin_toujours_faux",
+ "debut_utc": "2026-10-28T20:18:57.212369Z",
+ "fin_utc": "2026-10-28T20:18:57.257539Z",
+ "statut": "termine",
+ "raison_interruption": null,
+ "code": {
+  "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+  "modifications_non_commitees": false
+ },
+ "candidat": {
+  "identifiant": "temoin_toujours_faux",
+  "version": "1"
+ },
+ "configuration": {
+  "modeles": []
+ },
+ "empreinte_prompts": null,
+ "jeu_taches": {
+  "nom": "jouet",
+  "taches": [
+   {
+    "identifiant": "j01_ranger_facture",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "j02_archiver_devis",
+    "version": 1,
+    "empreinte_complement": null
+   }
+  ],
+  "empreinte": "sha256:bc8f4396fd44132e03e9257dfbc553d4f0e89dac3c60db38ca93b1ade1dc616d"
+ },
+ "etat_pme": {
+  "version": "v1",
+  "empreinte": "sha256:06a5c6755cf4edd2141306e50fa65cbf33be2861082bc9d9fc3c19b5c6dccdb4",
+  "societe": "calorelle"
+ },
+ "regles_gardien": null,
+ "repetitions": 4,
+ "machine": null,
+ "juge": null,
+ "banc_public": null
+}

@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-21_152714_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t27_technicien_absent_demain",
+    "version": 4
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-21T15:57:01.348303Z",
+  "fin_utc": "2026-10-21T15:58:30.501987Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 31,
+  "jetons": {
+    "entree": 203443,
+    "entree_en_cache": 188032,
+    "sortie": 16094
+  },
+  "cout_dollars": 0.012532146000000001,
+  "energie_wh": null,
+  "duree_secondes": 89.15368007798679,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t27_technicien_absent_demain_r1.jsonl"
+}

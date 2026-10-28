@@ -1,0 +1,34 @@
+{
+  "run": "2026-10-27_141937_reproduction_tau2_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "airline_35",
+    "version": 1
+  },
+  "repetition": 5,
+  "debut_utc": "2026-10-27T14:41:56.789228Z",
+  "fin_utc": "2026-10-27T14:43:16.326040Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 1.0,
+      "score": 0.0,
+      "detail": "τ²-bench : récompense 0 ; fin user_stop ; base différente de la cible ; phrases dites 0 sur 0"
+    }
+  ],
+  "score": 0.0,
+  "reussie": false,
+  "etapes": 16,
+  "jetons": {
+    "entree": 91659,
+    "entree_en_cache": 85450,
+    "sortie": 4101
+  },
+  "cout_dollars": "?",
+  "energie_wh": 4.850367814198878,
+  "duree_secondes": 79.5368074539947,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/airline_35_r5.jsonl"
+}

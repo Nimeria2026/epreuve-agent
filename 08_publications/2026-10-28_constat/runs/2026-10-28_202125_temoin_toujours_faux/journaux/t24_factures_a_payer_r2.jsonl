@@ -1,0 +1,1 @@
+{"etape": 1, "horodatage_utc": "2026-10-28T20:22:13.709632Z", "outil": "envoyer", "arguments": {"a": ["helene.marchal@calorelle.example"], "cc": ["expert@comptable-du-val.example"], "objet": "Factures à payer", "texte": "EVM-1984, FHF-26-133, TS-08812, GCC-2026-077, NM-26-1010."}, "resultat": "Envoyé : m-env-001", "erreur": null}

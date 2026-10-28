@@ -1,0 +1,329 @@
+{
+ "identifiant": "2026-10-27_103013_reproduction_tau2_qwen_flash_next_strata",
+ "debut_utc": "2026-10-27T10:30:13.641999Z",
+ "fin_utc": "2026-10-27T14:17:07.166699Z",
+ "statut": "interrompu",
+ "raison_interruption": "MCPError : τ²-bench n'a pas rendu de simulation",
+ "code": {
+  "commit": "f9be7a5a1c8e83745c9998900420cf66ee731cf9",
+  "modifications_non_commitees": false
+ },
+ "candidat": {
+  "identifiant": "reproduction_tau2_qwen_flash_next_strata",
+  "version": "0.1.0"
+ },
+ "configuration": {
+  "modeles": [
+   {
+    "role": "agent",
+    "nom": "qwen3.8-flash-next-iq3_s",
+    "fournisseur": "local",
+    "version_renvoyee": "?",
+    "parametres": {
+     "temperature": 0.0,
+     "tool_choice": "auto"
+    },
+    "tarif": null
+   }
+  ]
+ },
+ "empreinte_prompts": "sha256:cb3ef59a621dcc8d9e58cbb8519660c45e46a858f96a5b4c1f19cd8022343e85",
+ "jeu_taches": {
+  "nom": "tau2_airline_verified",
+  "taches": [
+   {
+    "identifiant": "airline_0",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_1",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_2",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_3",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_4",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_5",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_6",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_7",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_8",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_9",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_10",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_11",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_12",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_13",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_14",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_15",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_16",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_17",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_18",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_19",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_20",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_21",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_22",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_23",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_24",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_25",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_26",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_27",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_28",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_29",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_30",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_31",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_32",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_33",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_34",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_35",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_36",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_37",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_38",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_39",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_40",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_41",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_42",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_43",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_44",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_45",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_46",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_47",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_48",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_49",
+    "version": 1,
+    "empreinte_complement": null
+   }
+  ],
+  "empreinte": "sha256:4bdd6a199dfa48713e91403c39cb369b5c76132fe88536e0c9f92ff1c5f9f02e"
+ },
+ "etat_pme": {
+  "version": "v1",
+  "empreinte": "sha256:34cc7486acb05b494f6bc24108e5a3f99cb45c8b4a496a3bbeef60e808103e83",
+  "societe": null
+ },
+ "regles_gardien": null,
+ "repetitions": 5,
+ "machine": {
+  "systeme": "Ubuntu 24.04",
+  "processeur": "?",
+  "carte_graphique": "NVIDIA GeForce RTX 3090",
+  "service_modele": "Strata 0.2.4.2, contexte de 131 072 jetons"
+ },
+ "juge": null,
+ "banc_public": {
+  "nom": "tau2_bench",
+  "version": "1.0.1",
+  "domaine": "airline",
+  "jeu": "verified",
+  "simulateur": {
+   "modele": "openrouter/google/gemini-2.5-flash",
+   "fournisseur": "OpenRouter",
+   "parametres": {
+    "temperature": 0.0
+   },
+   "tarif": {
+    "entree_dollars_par_million": 0.3,
+    "entree_en_cache_dollars_par_million": 0.03,
+    "sortie_dollars_par_million": 2.5,
+    "source": "https://openrouter.ai/google/gemini-2.5-flash",
+    "releve_le": "2026-10-10"
+   },
+   "jetons": {
+    "entree": "?",
+    "entree_en_cache": "?",
+    "sortie": "?",
+    "dont_reflexion": "?"
+   },
+   "cout_dollars": "?",
+   "cout_annonce_dollars": "?"
+  }
+ }
+}

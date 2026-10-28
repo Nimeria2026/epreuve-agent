@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-22_135719_agent_seul_qwen_local_100k",
+  "tache": {
+    "identifiant": "t30_confirmer_rendez_vous_demain",
+    "version": 3
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-22T21:05:38.771377Z",
+  "fin_utc": "2026-10-22T21:08:09.822215Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "contenu",
+      "poids": 0.6,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 32,
+  "jetons": {
+    "entree": 50606,
+    "entree_en_cache": "?",
+    "sortie": 5723
+  },
+  "cout_dollars": "?",
+  "energie_wh": 10.377926802428151,
+  "duree_secondes": 151.0508337119827,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t30_confirmer_rendez_vous_demain_r4.jsonl"
+}

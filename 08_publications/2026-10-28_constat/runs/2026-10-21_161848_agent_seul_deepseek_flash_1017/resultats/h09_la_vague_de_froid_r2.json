@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-21_161848_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "h09_la_vague_de_froid",
+    "version": 1
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-21T17:45:51.406666Z",
+  "fin_utc": "2026-10-21T17:48:11.214684Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.25,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 97,
+  "jetons": {
+    "entree": 457007,
+    "entree_en_cache": 424448,
+    "sortie": 33868
+  },
+  "cout_dollars": 0.026477993999999998,
+  "energie_wh": null,
+  "duree_secondes": 139.80801320099272,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h09_la_vague_de_froid_r2.jsonl"
+}

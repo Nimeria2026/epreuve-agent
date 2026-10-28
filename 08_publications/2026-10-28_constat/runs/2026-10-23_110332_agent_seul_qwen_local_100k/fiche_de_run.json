@@ -1,0 +1,48 @@
+{
+ "identifiant": "2026-10-23_110332_agent_seul_qwen_local_100k",
+ "debut_utc": "2026-10-23T11:03:32.968956Z",
+ "fin_utc": "2026-10-23T11:18:43.241432Z",
+ "statut": "termine",
+ "raison_interruption": null,
+ "code": {
+  "commit": "169ea7972aa3350511d862a949e85125b8846a2b",
+  "modifications_non_commitees": false
+ },
+ "candidat": {
+  "identifiant": "agent_seul_qwen_local_100k",
+  "version": "0.1.0"
+ },
+ "configuration": {
+  "modeles": [
+   {
+    "role": "agent",
+    "nom": "qwen3.8-27b-w4a16",
+    "fournisseur": "local",
+    "version_renvoyee": "qwen3.8-27b-w4a16",
+    "parametres": {},
+    "tarif": null
+   }
+  ]
+ },
+ "empreinte_prompts": "sha256:247c863a9a1495ba09b8a2eb90f533e716354b22a0194e7a73e043d5517f7cd4",
+ "jeu_taches": {
+  "nom": "pme_v3",
+  "taches": [],
+  "empreinte": "sha256:a1d3821257bd425275bb3e4e9ca88dffb6d89d63a78a4e06e143d9f447c60fee"
+ },
+ "etat_pme": {
+  "version": "v3",
+  "empreinte": "sha256:9ea9fbab11963e7b7bd7235c21f2450753f3d499a0cfcd9bdf675f128e699909",
+  "societe": "calorelle"
+ },
+ "regles_gardien": null,
+ "repetitions": 5,
+ "machine": {
+  "systeme": "Ubuntu 24.04",
+  "processeur": "?",
+  "carte_graphique": "NVIDIA GeForce RTX 3090",
+  "service_modele": "vLLM 0.27.1, contexte de 102 400 jetons"
+ },
+ "juge": null,
+ "banc_public": null
+}

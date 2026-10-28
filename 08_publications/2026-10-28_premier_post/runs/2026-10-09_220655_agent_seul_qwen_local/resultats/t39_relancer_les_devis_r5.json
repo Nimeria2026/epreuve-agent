@@ -1,0 +1,47 @@
+{
+  "run": "2026-10-09_220655_agent_seul_qwen_local",
+  "tache": {
+    "identifiant": "t39_relancer_les_devis",
+    "version": 3
+  },
+  "repetition": 5,
+  "debut_utc": "2026-10-10T13:46:49.074136Z",
+  "fin_utc": "2026-10-10T13:53:49.665403Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.6,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 34,
+  "jetons": {
+    "entree": 98086,
+    "entree_en_cache": "?",
+    "sortie": 15274
+  },
+  "cout_dollars": "?",
+  "energie_wh": 29.057245508946522,
+  "duree_secondes": 420.5912624969933,
+  "journal": "journaux/t39_relancer_les_devis_r5.jsonl"
+}

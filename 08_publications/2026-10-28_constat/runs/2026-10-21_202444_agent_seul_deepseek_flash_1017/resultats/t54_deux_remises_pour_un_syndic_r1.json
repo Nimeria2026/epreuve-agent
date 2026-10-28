@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-21_202444_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t54_deux_remises_pour_un_syndic",
+    "version": 1
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-21T20:24:45.350409Z",
+  "fin_utc": "2026-10-21T20:25:25.747712Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.35,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 31,
+  "jetons": {
+    "entree": 179246,
+    "entree_en_cache": 166144,
+    "sortie": 6593
+  },
+  "cout_dollars": 0.0064195319999999995,
+  "energie_wh": null,
+  "duree_secondes": 40.39729754300788,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t54_deux_remises_pour_un_syndic_r1.jsonl"
+}

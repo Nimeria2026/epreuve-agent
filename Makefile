@@ -7,10 +7,14 @@ PNPM ?= pnpm
 # pour les lancer un par un (JOURNAL, entrée 258).
 TRAVAILLEURS ?= auto
 GARDE := 09_outillage/garde/verifier_arborescence.py
+# Dans un dossier de campagne, ../<atelier>_campagnes/<nom>/, rien ne se publie, ne s'exporte, ne se
+# chiffre ni ne se sauvegarde comme l'atelier (cadrage des interventions, section 5).
+EN_CAMPAGNE := $(filter %_campagnes,$(notdir $(patsubst %/,%,$(dir $(CURDIR)))))
+HORS_CAMPAGNE = $(if $(EN_CAMPAGNE),@echo "REFUS : make $@ ne se lance pas dans une campagne (cadrage des interventions, section 5)." >&2; exit 7)
 CONTRATS := 09_outillage/scripts/generer_contrats.py
 
 .DEFAULT_GOAL := aide
-.PHONY: publier coffre sauvegarder exporter-public strata essai image conteneur aide installer contrats donnees tests temoins mesure mesure-tau2 humain classement journal qwen qualite formater verifier tests-garde installer-hooks verdicts-temoins controle ecrire-fausses fausses-qwen couverture rejouer-gardien rejouer-run complements
+.PHONY: publier coffre sauvegarder exporter-public strata opencode-cachees campagne cloture gabarit rapport-campagne essai image conteneur aide installer contrats donnees tests temoins mesure mesure-tau2 humain classement journal qwen qualite formater verifier tests-garde installer-hooks verdicts-temoins controle ecrire-fausses fausses-qwen couverture rejouer-gardien rejouer-run complements
 
 aide: ## Affiche la liste des commandes
 	@grep -E '^[a-z0-9-]+:.*## ' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*## "}; {printf "  make %-18s %s\n", $$1, $$2}'
@@ -22,6 +26,9 @@ installer: ## Installe les environnements Python (uv) et TypeScript (pnpm), apr�
 contrats: ## Régénère le code des contrats depuis les schémas de 01_contrats/
 	@$(UV) run --all-packages python $(CONTRATS)
 
+gabarit: ## Régénère la société gabarit depuis 05_pme/societes/gabarit/variables.yaml : état v1, tâches gb01 à gb10, compléments, gravité, classement, gardien (cadrage des interventions, section 11) [VERIFIER=1 : contrôle sans écrire]
+	@$(UV) run --all-packages python 09_outillage/scripts/generer_gabarit.py $(if $(VERIFIER),--verifier)
+
 donnees: ## Régénère les états initiaux des sociétés : v1, v2 et v3 de Calorelle, v1 de Domivelle, v1 de Négovelle
 	@$(UV) run --all-packages python 09_outillage/scripts/generer_donnees_v1.py
 	@$(UV) run --all-packages python 09_outillage/scripts/generer_donnees_v2.py
@@ -29,7 +36,7 @@ donnees: ## Régénère les états initiaux des sociétés : v1, v2 et v3 de Cal
 	@$(UV) run --all-packages python 09_outillage/scripts/generer_domivelle_v1.py
 	@$(UV) run --all-packages python 09_outillage/scripts/generer_negovelle_v1.py
 
-complements: ## Régénère les compléments d'état des tâches pièges t06 à t13
+complements: ## Régénère les compléments d'état des tâches de Calorelle : t06 à t45, d01 à d05, la tranche dure
 	@$(UV) run --all-packages python 09_outillage/scripts/generer_complements.py
 
 tests: ## Lance tous les tests : EASE, contrats, tâches, garde, PME
@@ -37,16 +44,19 @@ tests: ## Lance tous les tests : EASE, contrats, tâches, garde, PME
 	@$(PYTHON) -m unittest discover -s 09_outillage/garde/tests
 	@$(PNPM) --silent test
 
-temoins: ## Passe les quatre témoins sur le jouet, la PME, ses tâches cachées, le jeu documents, la tranche dure et sa part cachée (TERRAIN=jouet, pme, pme_cachees, documents, dure, dure_cachees, domivelle, domivelle_dure, domivelle_cachees, domivelle_dure_cachees, negovelle, negovelle_dure, negovelle_cachees ou negovelle_dure_cachees pour un seul)
+temoins: ## Passe les quatre témoins sur le jouet, la PME, ses tâches cachées, le jeu documents, la tranche dure et sa part cachée (TERRAIN=jouet, pme, pme_cachees, documents, dure, dure_cachees, domivelle, domivelle_dure, domivelle_cachees, domivelle_dure_cachees, negovelle, negovelle_dure, negovelle_cachees, negovelle_dure_cachees ou gabarit pour un seul)
 	@$(UV) run --all-packages python -m ease.temoins $(TERRAIN)
 
 qwen: ## Sert Qwen 3.8 27B pour l'agent (port 30100), au premier plan ; refuse si la carte est occupée [102 400 jetons par défaut, celui du Qwen des publications ; CONTEXTE=40960 pour les candidats d'avant]
 	@$(if $(CONTEXTE),POA_QWEN_CONTEXTE=$(CONTEXTE)) bash 09_outillage/scripts/servir_qwen.sh --lancer
 
-strata: ## Sert Qwen 3.8 Flash-Next (IQ3_S) par le moteur Strata (port 30001), au premier plan ; refuse si la carte est occupée ; un run à la fois
+opencode-cachees: ## La séance des tâches cachées sous opencode, sur Flash-Next servi par ce poste (make strata avant, à part ; refuse si un run tourne) ; dans opencode, Tab jusqu'à l'agent cachees
+	@bash 09_outillage/scripts/opencode_cachees.sh
+
+strata: ## Sert Qwen 3.8 Flash-Next (IQ3_S) par Strata, préréglage flash-next (port 30001), avec son moniteur, dans un terminal à part ; refuse si la carte, la mémoire vive ou le port manquent ; arrêt : strata launch --stop --preset flash-next ; un run à la fois
 	@bash 09_outillage/scripts/servir_strata.sh --lancer
 
-mesure: ## Mesure un candidat déclaré sur la PME : CANDIDAT=<identifiant> [TACHES=t01,t03] [REPETITIONS=5] [GARDIEN=1] [CACHEES=1 : publiques et cachées | CACHEES=seules ; avec JEU=dure, domivelle, domivelle_dure, negovelle ou negovelle_dure, la part cachée de ce jeu] [JEU=documents : le jeu de l'étape 6, avec EKE | JEU=dure : la tranche dure | JEU=domivelle, domivelle_dure, negovelle ou negovelle_dure : les autres sociétés]
+mesure: ## Mesure un candidat déclaré sur la PME : CANDIDAT=<identifiant> [TACHES=t01,t03] [REPETITIONS=5] [GARDIEN=1] [CACHEES=1 : publiques et cachées | CACHEES=seules ; avec JEU=dure, domivelle, domivelle_dure, negovelle ou negovelle_dure, la part cachée de ce jeu] [JEU=documents : le jeu de l'étape 6, avec EKE | JEU=dure : la tranche dure | JEU=domivelle, domivelle_dure, negovelle ou negovelle_dure : les autres sociétés | JEU=gabarit : la société gabarit d'une campagne]
 	@$(UV) run --all-packages python -m ease.mesure $(CANDIDAT) $(if $(TACHES),--taches $(TACHES)) $(if $(REPETITIONS),--repetitions $(REPETITIONS)) $(if $(GARDIEN),--gardien) $(if $(filter seules,$(CACHEES)),--cachees-seules,$(if $(CACHEES),--cachees)) $(if $(JEU),--jeu $(JEU))
 
 essai: ## Un essai de contrôle d'un candidat, depuis un poste : t01, une répétition (sonde, outils, réglages), avant ses lots : CANDIDAT=<identifiant>
@@ -57,8 +67,11 @@ humain: ## Poste humain : une personne fait les tâches dans le navigateur, chro
 	@echo "Poste humain : ouvrir http://127.0.0.1:$${POA_POSTE_HUMAIN_PORT:-30200} dans le navigateur, puis « Commencer »."
 	@$(UV) run --all-packages python -m ease.mesure humain_$(PERSONNE) --taches $(TACHES) --repetitions 1
 
-classement: ## Classement des tâches publiques : métier, services, contrôle grave, étiquettes, fiche ROME, durées humaines [VERSER=1 : verse les durées du poste humain] [ESTIMER=1 : calcule les durées estimées par la grille] [JEU=dure : la tranche dure | JEU=domivelle ou domivelle_dure : Domivelle | JEU=negovelle ou negovelle_dure : Négovelle] [CACHEES=1 : la part cachée du jeu, pour une séance qui peut la lire]
+classement: ## Classement des tâches publiques : métier, services, contrôle grave, étiquettes, fiche ROME, durées humaines [VERSER=1 : verse les durées du poste humain] [ESTIMER=1 : calcule les durées estimées par la grille] [JEU=dure : la tranche dure | JEU=domivelle ou domivelle_dure : Domivelle | JEU=negovelle ou negovelle_dure : Négovelle | JEU=gabarit : la société gabarit] [CACHEES=1 : la part cachée du jeu, pour une séance qui peut la lire]
 	@$(UV) run --all-packages python -m ease.classement $(if $(VERSER),--verser) $(if $(ESTIMER),--estimer) $(if $(JEU),--jeu $(JEU)) $(if $(CACHEES),--cachees)
+
+rapport-campagne: ## Rapport d'une campagne pour l'entreprise, en Markdown à compléter (cadrage des interventions, annexe C) : CANDIDATS=campagne_<nom>[,<référence>] [REPETITIONS=5] [GARDIEN=1] ; dans 99_local/rapports/, jamais par-dessus un rapport existant
+	@$(UV) run --all-packages python -m ease.rapport_campagne --candidats $(CANDIDATS) $(if $(REPETITIONS),--repetitions $(REPETITIONS)) $(if $(GARDIEN),--gardien)
 
 mesure-tau2: ## Mesure un candidat déclaré sur τ²-bench, airline : CANDIDAT=<identifiant> [JEU=verified] [TACHES=0,1,2] [REPETITIONS=5] [SIMULATEUR=gemini_2_5_flash]
 	@$(UV) run --all-packages python -m ease.mesure_tau2 $(CANDIDAT) $(if $(JEU),--jeu $(JEU)) $(if $(TACHES),--taches $(TACHES)) $(if $(REPETITIONS),--repetitions $(REPETITIONS)) $(if $(SIMULATEUR),--simulateur $(SIMULATEUR))
@@ -75,19 +88,30 @@ conteneur: ## Lance une commande dans le conteneur du banc : RESEAU=aucun|api|ma
 publication: ## Les données et les images d'une publication, dans 99_local/publication/<date>_<sujet>/ : SUJET=premier_post [SANS_PNG=1 : pages HTML seules]
 	@d=99_local/publication/$$(date +%Y-%m-%d)_$(SUJET) && $(UV) run --all-packages python -m ease.donnees_publication $(SUJET) --sortie $$d/donnees.json --video $$d/donnees_video.json && $(UV) run --all-packages python -m ease.publication $(SUJET) --donnees $$d/donnees.json --sortie $$d $(if $(SANS_PNG),--sans-png)
 
-publier: ## L'officiel d'une publication, dans 08_publications/<date>_<sujet>/ : SUJET=constat ou premier_post [DATE=AAAA-MM-JJ] ; témoins passés, manifeste écrit, runs réduits à leurs tâches publiques ; refuse un code non commité, hors de main ou sans étiquette du protocole
-	@$(UV) run --all-packages python -m ease.publier $(SUJET) $(if $(DATE),--date $(DATE))
+campagne: ## Ouvre une campagne pour une entreprise : un clone privé de l'atelier, hors de lui, sans dépôt distant, dans ../<atelier>_campagnes/NOM/ (cadrage des interventions) : NOM=<nom> [COMMIT=<commit de main>]
+	@$(PYTHON) 09_outillage/scripts/campagne.py --nom $(NOM) $(if $(COMMIT),--commit $(COMMIT))
+
+cloture: ## Clôt une campagne, depuis l'atelier : l'attestation de suppression à côté des campagnes, puis le dossier et ses postes supprimés, après le nom retapé (cadrage des interventions, annexe D) : NOM=<nom>
+	$(HORS_CAMPAGNE)
+	@$(PYTHON) 09_outillage/scripts/cloture.py --nom $(NOM)
+
+publier: ## L'officiel d'une publication, dans 08_publications/<date>_<sujet>/ : SUJET=constat ou premier_post [DATE=AAAA-MM-JJ] [TEMOINS_DE=<date>_<sujet> : les témoins de cette publication, même code] ; témoins passés, manifeste écrit, runs réduits à leurs tâches publiques ; refuse un code non commité, hors de main ou sans étiquette du protocole
+	$(HORS_CAMPAGNE)
+	@$(UV) run --all-packages python -m ease.publier $(SUJET) $(if $(DATE),--date $(DATE)) $(if $(TEMOINS_DE),--temoins-de $(TEMOINS_DE))
 
 coffre: ## Chiffre avec age, dans 12_coffre/, les tâches cachées, les verdicts du juge et les runs publiés entiers qui ont changé ; rien ne s'efface (ADR 0008)
+	$(HORS_CAMPAGNE)
 	@$(PYTHON) 09_outillage/scripts/coffre.py
 
 sauvegarder: ## Copie 99_local/, 07_taches/prive/ et la clé age dans le dossier chiffré (gocryptfs) de la clé USB, sans rien y effacer : CLE=/media/<utilisateur>/<clé> [INITIALISER=1 : la première fois]
+	$(HORS_CAMPAGNE)
 	@$(PYTHON) 09_outillage/scripts/sauvegarder.py $(CLE) $(if $(INITIALISER),--initialiser)
 
 exporter-public: ## L'export public d'un commit de l'atelier dans un dossier neuf, vérifié (tâches cachées, clés, interdits, garde), sans rien envoyer : [SORTIE=<dossier>] [COMMIT=HEAD]
+	$(HORS_CAMPAGNE)
 	@$(PYTHON) 09_outillage/scripts/exporter_public.py $(if $(SORTIE),--sortie $(SORTIE)) $(if $(COMMIT),--commit $(COMMIT))
 
-rapport: ## Rapport HTML des candidats déclarés, versions courantes des tâches, dans 99_local/rapports/ [REPETITIONS=5] [GARDIEN=1] [CANDIDATS=a,b] [JEU=documents | JEU=dure]
+rapport: ## Rapport HTML des candidats déclarés, versions courantes des tâches, dans 99_local/rapports/ [REPETITIONS=5] [GARDIEN=1] [CANDIDATS=a,b] [JEU=documents | JEU=dure | JEU=gabarit]
 	@$(UV) run --all-packages python -m ease.rapport $(if $(REPETITIONS),--repetitions $(REPETITIONS)) $(if $(GARDIEN),--gardien) $(if $(CANDIDATS),--candidats $(CANDIDATS)) $(if $(JEU),--jeu $(JEU))
 
 etalon: ## Construit le jeu étalon du juge (une seule fois) : 07_taches/public/etalon/textes.json [AJOUTER=1 : textes des tâches nouvelles] [JEU=dure : étalon et contrôle des consignes de la tranche]

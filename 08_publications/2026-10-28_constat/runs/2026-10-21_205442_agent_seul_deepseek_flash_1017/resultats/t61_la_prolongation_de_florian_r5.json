@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-21_205442_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t61_la_prolongation_de_florian",
+    "version": 2
+  },
+  "repetition": 5,
+  "debut_utc": "2026-10-21T21:05:35.425664Z",
+  "fin_utc": "2026-10-21T21:05:57.374284Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.25,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 17,
+  "jetons": {
+    "entree": 43916,
+    "entree_en_cache": 38656,
+    "sortie": 3298
+  },
+  "cout_dollars": 0.002883768,
+  "energie_wh": null,
+  "duree_secondes": 21.94861471495824,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t61_la_prolongation_de_florian_r5.jsonl"
+}

@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-23_003934_agent_seul_qwen_local_100k",
+  "tache": {
+    "identifiant": "t57_trois_depannages",
+    "version": 1
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-23T07:59:31.335029Z",
+  "fin_utc": "2026-10-23T08:11:37.485871Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.25,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "resultat",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 27,
+  "jetons": {
+    "entree": 151114,
+    "entree_en_cache": "?",
+    "sortie": 28663
+  },
+  "cout_dollars": "?",
+  "energie_wh": 50.26977587223549,
+  "duree_secondes": 726.1508358949795,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t57_trois_depannages_r4.jsonl"
+}

@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-26_120743_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "t36_devis_deux_radiateurs",
+    "version": 2
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-26T15:42:22.023922Z",
+  "fin_utc": "2026-10-26T15:43:20.056760Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 19,
+  "jetons": {
+    "entree": 128003,
+    "entree_en_cache": 112833,
+    "sortie": 2508
+  },
+  "cout_dollars": "?",
+  "energie_wh": 3.6179083410389956,
+  "duree_secondes": 58.0328329560034,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t36_devis_deux_radiateurs_r1.jsonl"
+}

@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-26_120743_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "t17_trois_courriels_meme_panne",
+    "version": 2
+  },
+  "repetition": 5,
+  "debut_utc": "2026-10-26T13:46:12.404521Z",
+  "fin_utc": "2026-10-26T13:46:52.933857Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 16,
+  "jetons": {
+    "entree": 40953,
+    "entree_en_cache": 35364,
+    "sortie": 2174
+  },
+  "cout_dollars": "?",
+  "energie_wh": 2.577417556161573,
+  "duree_secondes": 40.529332211997826,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t17_trois_courriels_meme_panne_r5.jsonl"
+}

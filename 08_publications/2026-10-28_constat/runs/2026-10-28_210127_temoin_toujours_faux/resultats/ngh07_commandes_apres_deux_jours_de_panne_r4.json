@@ -1,0 +1,69 @@
+{
+  "run": "2026-10-28_210127_temoin_toujours_faux",
+  "tache": {
+    "identifiant": "ngh07_commandes_apres_deux_jours_de_panne",
+    "version": 1
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-28T21:01:57.507419Z",
+  "fin_utc": "2026-10-28T21:01:57.733358Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.25,
+      "score": 0.0,
+      "detail": "0 commande(s) créée(s) pour c-0187 (aucune), 1 attendue(s) ; 0 commande(s) créée(s) pour c-0155 (aucune), 1 attendue(s) ; 0 commande(s) créée(s) pour c-0316 (aucune), 1 attendue(s) ; 0 commande(s) créée(s) pour c-0228 (aucune), 1 attendue(s) ; 0 commande(s) créée(s) pour c-0077 (aucune), 1 attendue(s) ; 0 commande(s) créée(s) pour c-0193 (aucune), 1 attendue(s) ; 0 commande(s) créée(s) pour c-0044 (aucune), 1 attendue(s) ; 0 commande(s) créée(s) pour c-0340 (aucune), 1 attendue(s) ; 0 commande(s) créée(s) pour c-0277 (aucune), 1 attendue(s) ; 0 commande(s) créée(s) pour c-0282 (aucune), 1 attendue(s) ; 0 commande(s) créée(s) pour c-0018 (aucune), 1 attendue(s) ; 2 commande(s) créée(s) pour c-0273 (CO-2026-02042, CO-2026-02043), 1 attendue(s) ; 0 commande(s) créée(s) pour c-0059 (aucune), 1 attendue(s) ; CO-2026-02044 : ligne ENT-10040 absente, ligne ENT-10130 absente, ligne en trop : ELE-10326 × 2, ligne en trop : ELE-10057 × 40"
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "0 commande(s) créée(s) pour c-0042 (aucune), 1 attendue(s) ; 0 reliquat(s) créée(s) pour c-0042 (aucune), 1 attendue(s) ; créé commandes/CO-2026-02045.json"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['suzanne.belin@boutin-renovation.example', 'jacqueline.navarre@boutin-renovation.example'], 'corps_contient': ['jours? ouvr|trois jours|3 jours|0?9 juillet|09/07|jeudi|mercredi|demain|0?8 juillet|0?7 juillet'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sophie.salmon@valentin-renovation.example', 'anne.gallet@valentin-renovation.example'], 'corps_contient': ['jours? ouvr|trois jours|3 jours|0?9 juillet|09/07|jeudi|mercredi|demain|0?8 juillet|0?7 juillet'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['nathalie.baudouin@platrerie-toussaint.example'], 'corps_contient': ['jours? ouvr|trois jours|3 jours|0?9 juillet|09/07|jeudi|mercredi|demain|0?8 juillet|0?7 juillet'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sylvie.gabriel@durieux-batiment.example', 'josiane.gautier@durieux-batiment.example'], 'corps_contient': ['jours? ouvr|trois jours|3 jours|0?9 juillet|09/07|jeudi|mercredi|demain|0?8 juillet|0?7 juillet'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['christine.maurin@quere-batiment.example', 'henri.sauvage@quere-batiment.example'], 'corps_contient': ['jours? ouvr|trois jours|3 jours|0?9 juillet|09/07|jeudi|mercredi|demain|0?8 juillet|0?7 juillet'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['robert.sauvage@rigaud-agencement.example', 'laurent.humbert@rigaud-agencement.example'], 'corps_contient': ['jours? ouvr|trois jours|3 jours|0?9 juillet|09/07|jeudi|mercredi|demain|0?8 juillet|0?7 juillet'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['louis.lagarde@dufour-maintenance.example', 'lea.ernault@dufour-maintenance.example'], 'corps_contient': ['jours? ouvr|trois jours|3 jours|0?9 juillet|09/07|jeudi|mercredi|demain|0?8 juillet|0?7 juillet'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sandrine.sauvage@serrurerie-besson.example', 'nathalie.coulon@serrurerie-besson.example'], 'corps_contient': ['jours? ouvr|trois jours|3 jours|0?9 juillet|09/07|jeudi|mercredi|demain|0?8 juillet|0?7 juillet'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['pierre.dumont@charpente-allard.example'], 'corps_contient': ['jours? ouvr|trois jours|3 jours|0?9 juillet|09/07|jeudi|mercredi|demain|0?8 juillet|0?7 juillet'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['caroline.pasquet@bunel-et-fils.example', 'arnaud.fleurot@bunel-et-fils.example'], 'corps_contient': ['jours? ouvr|trois jours|3 jours|0?9 juillet|09/07|jeudi|mercredi|demain|0?8 juillet|0?7 juillet'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['ines.durieux@chevrier-maintenance.example', 'gerard.pinson@chevrier-maintenance.example'], 'corps_contient': ['jours? ouvr|trois jours|3 jours|0?9 juillet|09/07|jeudi|mercredi|demain|0?8 juillet|0?7 juillet'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['francoise.simonet@ateliers-billard.example', 'patrice.bouvier@ateliers-billard.example'], 'corps_contient': ['jours? ouvr|trois jours|3 jours|0?9 juillet|09/07|jeudi|mercredi|demain|0?8 juillet|0?7 juillet'], 'texte_de_l_agent': True} ; 2 envoi(s) vers aurelie.chevrier@sauvage-batiment.example, bruno.bonneau@sauvage-batiment.example pour 1 au plus"
+    },
+    {
+      "numero": 4,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['lea.forestier@serrurerie-baillet.example', 'pierre.legendre@serrurerie-baillet.example'], 'corps_contient': ['16 juillet|16/0?7'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sylvain.legendre@hardy-travaux-publics.example', 'denise.legendre@hardy-travaux-publics.example'], 'corps_contient': ['0?8 juillet|0?8/0?7', 'pr[ée]f[ée]r|choix|souhait|voulez|partiel|en partie|attendre'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['francois.delaunay@noblet-agencement.example', 'claire.crozet@noblet-agencement.example'], 'corps_contient': ['encours|limite', 'partiel|en partie|une partie|r[eè]glement|r[ée]gler'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['ines.langlais@peinture-herve.example'], 'corps_contient': ['comptabilit'], 'corps_ne_contient_pas': ['contentieux|impay|avocat|bloqu|f[ée]vrier|mars'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['delphine.navarre@ducros-travaux-publics.example', 'laure.legendre@ducros-travaux-publics.example'], 'corps_contient': ['Renard|m\\\\.renard|conducteur'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['beatrice.bouchard@bodin-batiment.example', 'dominique.hamel@bodin-batiment.example'], 'corps_contient': ['bodin-batiments|adresse|Tanneurs'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 5,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['isabelle.royer@negovelle.example'], 'transfere_de': 'm-cmd-022'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['isabelle.royer@negovelle.example'], 'corps_contient': ['Herv[ée]|c-0034']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['isabelle.royer@negovelle.example'], 'corps_contient': ['Noblet|c-0212'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sav@negovelle.example'], 'transfere_de': 'm-cmd-023'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['samir.ouali@negovelle.example'], 'transfere_de': 'm-cmd-024'}"
+    },
+    {
+      "numero": 6,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "destinataire non prévu : m.renard@ducros-travaux-publics.example"
+    }
+  ],
+  "score": 0.0,
+  "reussie": false,
+  "etapes": 16,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.22593586199946003,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/ngh07_commandes_apres_deux_jours_de_panne_r4.jsonl"
+}

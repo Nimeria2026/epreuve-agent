@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-21_161848_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "h05_la_semaine_des_syndics",
+    "version": 2
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-21T17:02:11.520324Z",
+  "fin_utc": "2026-10-21T17:03:10.126855Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.25,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.35,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 36,
+  "jetons": {
+    "entree": 250641,
+    "entree_en_cache": 235392,
+    "sortie": 9867
+  },
+  "cout_dollars": 0.008913725999999999,
+  "energie_wh": null,
+  "duree_secondes": 58.606526345945895,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h05_la_semaine_des_syndics_r3.jsonl"
+}

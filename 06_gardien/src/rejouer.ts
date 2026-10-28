@@ -7,13 +7,15 @@
 // de la tâche l'accepte (src/rejeu.ts). Le résumé compte les appels visés par règle et par issue ;
 // seuls les blocages à tort probables sont listés, tous les appels visés avec --detail. Les runs
 // des témoins sont laissés de côté, sauf avec --tous. Limites : l'agent n'aurait pas agi pareil
-// après un refus, et l'état est celui du départ (un courriel envoyé pendant le run n'y est pas).
-import { existsSync, readdirSync, readFileSync } from "node:fs";
+// après un refus, et l'état est celui du départ de la tâche, complément compris (un courriel envoyé
+// pendant le run n'y est pas).
+import { existsSync, mkdtempSync, readdirSync, readFileSync, rmSync } from "node:fs";
+import os from "node:os";
 import path from "node:path";
 import { parseArgs } from "node:util";
 import { parse } from "yaml";
 import { type Contexte, creerContexte, evaluer, lireRegles } from "./regles.ts";
-import { classer, type Issue, LIBELLES } from "./rejeu.ts";
+import { classer, etatDeDepart, type Issue, LIBELLES } from "./rejeu.ts";
 
 const RACINE = new URL("../../", import.meta.url).pathname;
 /** La société des runs rejoués : Calorelle, la seule du banc avant la seconde (ADR 0006). */
@@ -37,19 +39,26 @@ const JEUX: readonly [string, RegExp][] = [
   [path.join(RACINE, "07_taches", "public", "dure"), /^h\d+.*\.ya?ml$/u],
 ];
 
-/** Pour chaque tâche publique : la personne servie, et la réponse de sa validation simulée. */
-function lireTaches(): Map<string, { pour: string; validation: "accepter" | "refuser" }> {
-  const taches = new Map<string, { pour: string; validation: "accepter" | "refuser" }>();
+/** Pour chaque tâche publique : la personne servie, la réponse de sa validation simulée, son complément. */
+interface TacheRejouee {
+  pour: string;
+  validation: "accepter" | "refuser";
+  complement: string | null;
+}
+function lireTaches(): Map<string, TacheRejouee> {
+  const taches = new Map<string, TacheRejouee>();
   for (const [dossier, motif] of JEUX) {
     for (const nom of readdirSync(dossier).filter((n) => motif.test(n))) {
       const tache = parse(readFileSync(path.join(dossier, nom), "utf-8")) as {
         identifiant?: unknown;
         agent_pour?: unknown;
         validation_simulee?: unknown;
+        complement?: unknown;
       };
       if (typeof tache.identifiant === "string" && typeof tache.agent_pour === "string") {
         const validation = tache.validation_simulee === "accepter" ? "accepter" : "refuser";
-        taches.set(tache.identifiant, { pour: tache.agent_pour, validation });
+        const complement = typeof tache.complement === "string" ? tache.complement : null;
+        taches.set(tache.identifiant, { pour: tache.agent_pour, validation, complement });
       }
     }
   }
@@ -69,6 +78,9 @@ interface Ligne {
 
 const taches = lireTaches();
 const contextes = new Map<string, Contexte>();
+/** Les états de départ faits pour le rejeu, version et complément : copiés une fois, retirés à la fin. */
+const travail = mkdtempSync(path.join(os.tmpdir(), "poa-rejeu-"));
+const etats = new Map<string, string>();
 const compte = new Map<string, number>(); // « règle|issue » → appels visés
 let runs = 0;
 let executions = 0;
@@ -108,8 +120,15 @@ for (const run of existsSync(values.runs) ? readdirSync(values.runs).sort() : []
     }
     const pour = tache.pour;
     executions += 1;
-    const cle = `${etat}|${pour}`;
-    const contexte = contextes.get(cle) ?? creerContexte(etat, pour, regles);
+    const cleEtat = `${etat}|${tache.complement ?? ""}`;
+    const complement =
+      tache.complement === null
+        ? null
+        : path.join(RACINE, "05_pme", "societes", SOCIETE, "complements", tache.complement);
+    const depart = etats.get(cleEtat) ?? etatDeDepart(etat, complement, travail);
+    etats.set(cleEtat, depart);
+    const cle = `${depart}|${pour}`;
+    const contexte = contextes.get(cle) ?? creerContexte(depart, pour, regles);
     contextes.set(cle, contexte);
     for (const texte of readFileSync(journal, "utf-8")
       .split("\n")
@@ -130,6 +149,7 @@ for (const run of existsSync(values.runs) ? readdirSync(values.runs).sort() : []
   }
 }
 
+rmSync(travail, { recursive: true, force: true });
 const total = [...compte.values()].reduce((a, b) => a + b, 0);
 console.log(`\nRègles ${regles.version} : ${runs} runs, ${executions} exécutions, ${appels} appels rejoués.`);
 console.log(`Appels visés : ${total}.`);

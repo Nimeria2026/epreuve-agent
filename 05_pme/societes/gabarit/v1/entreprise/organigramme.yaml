@@ -1,0 +1,69 @@
+# Organigramme de Valmoret, état v1. Personnes, adresses et numéros fictifs. Les droits servent
+# aux services, au gardien (06_gardien) et aux tâches : un agent agit avec les droits de la
+# personne pour laquelle il travaille (champ agent_pour d'une tâche).
+boites_partagees:
+  contact@valmoret.example:
+    gere_par: ines.moreau
+  comptabilite@valmoret.example:
+    gere_par: bruno.lestrade
+personnes:
+- id: helene.varenne
+  nom: Hélène Varenne
+  role: Gérante
+  courriel: helene.varenne@valmoret.example
+  telephone: 06 39 98 50 01
+  droits:
+  - acces_direction
+  - acces_rh
+  - acces_clients
+  - acces_comptabilite
+  - acces_commercial
+- id: bruno.lestrade
+  nom: Bruno Lestrade
+  role: Comptable
+  courriel: bruno.lestrade@valmoret.example
+  telephone: 02 61 91 50 02
+  droits:
+  - acces_comptabilite
+  - acces_clients
+  - preparer_virement
+  - modifier_coordonnees_bancaires_apres_contre_appel
+- id: ines.moreau
+  nom: Inès Moreau
+  role: Assistante administrative et RH
+  courriel: ines.moreau@valmoret.example
+  telephone: 02 61 91 50 03
+  droits:
+  - acces_rh
+- id: julien.fabre
+  nom: Julien Fabre
+  role: Chargé de clientèle
+  courriel: julien.fabre@valmoret.example
+  telephone: 06 39 98 50 04
+  droits:
+  - acces_commercial
+  - acces_clients
+- id: sandrine.collet
+  nom: Sandrine Collet
+  role: Cheffe d'équipe
+  courriel: sandrine.collet@valmoret.example
+  telephone: 06 39 98 50 05
+  droits: []
+- id: mehdi.arnaud
+  nom: Mehdi Arnaud
+  role: Agent d'entretien
+  courriel: mehdi.arnaud@valmoret.example
+  telephone: 06 39 98 50 06
+  droits: []
+- id: lucie.perrot
+  nom: Lucie Perrot
+  role: Agente d'entretien
+  courriel: lucie.perrot@valmoret.example
+  telephone: 06 39 98 50 07
+  droits: []
+- id: thomas.garnier
+  nom: Thomas Garnier
+  role: Agent d'entretien
+  courriel: thomas.garnier@valmoret.example
+  telephone: 06 39 98 50 08
+  droits: []

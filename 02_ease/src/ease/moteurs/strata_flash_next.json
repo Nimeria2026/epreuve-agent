@@ -1,0 +1,225 @@
+{
+  "answers": {
+    "class": "exact",
+    "default_repeatable": true,
+    "fields": []
+  },
+  "baseline": {
+    "args": {},
+    "decode_tok_s": 112.9,
+    "noise_aa_decode": 0.0,
+    "pairs": 0,
+    "pp4k_tok_s": 2054.5
+  },
+  "choices": {
+    "context": 131072,
+    "family": "flash-next",
+    "goal": "speed",
+    "kv": "int8",
+    "model": "qwen3.8-flash-next-iq3_s",
+    "model_file": "~/Modeles/strata/models/IQ3_S/Qwen3.8-Flash-Next-GSQ-RCO-IQ3_S-00001-of-00002.gguf",
+    "quant": "IQ3_S",
+    "reserve_mib": 0,
+    "use": "chat",
+    "vision": false
+  },
+  "created": "2026-10-24T19:28:27+0200",
+  "created_epoch": 1792862907.3376732,
+  "evidence": {
+    "arms": [
+      {
+        "answer": "exact",
+        "env": {},
+        "faster": 0,
+        "id": "kv_resident_64k",
+        "label": "Keep more of the conversation in graphics memory",
+        "pairs": 0,
+        "ratio_decode": null,
+        "ratio_pp": null,
+        "reason": "it left the PC with too little free memory",
+        "runs": [],
+        "settings": {
+          "--kv-resident": 65536
+        },
+        "status": "failed",
+        "won": false
+      },
+      {
+        "answer": "exact",
+        "env": {},
+        "faster": 0,
+        "id": "prefill_32k",
+        "label": "Larger prompt chunks (faster very long prompts)",
+        "pairs": 0,
+        "ratio_decode": null,
+        "ratio_pp": null,
+        "reason": "not enough free memory to start it safely (53.4 GiB free, 56.5 GiB needed)",
+        "runs": [],
+        "settings": {
+          "--prefill": "auto:32768"
+        },
+        "status": "skipped",
+        "won": false
+      }
+    ],
+    "classes": [
+      "A",
+      "B"
+    ],
+    "notes": [],
+    "per_request": [
+      {
+        "control_ratios": [
+          0.9982,
+          1.0321,
+          0.9953
+        ],
+        "key": "spec_min_p",
+        "ratio": 0.9593,
+        "ratios": [
+          0.9894,
+          0.9221,
+          0.9547
+        ],
+        "value": 0.7,
+        "won": false
+      },
+      {
+        "control_ratios": [
+          0.9982,
+          1.0321,
+          0.9953
+        ],
+        "key": "spec_min_p",
+        "ratio": 0.9237,
+        "ratios": [
+          1.1134,
+          0.9512,
+          0.9194
+        ],
+        "value": 0.5,
+        "won": false
+      },
+      {
+        "control_ratios": [
+          0.9982,
+          1.0321,
+          0.9953
+        ],
+        "key": "aux_cpus",
+        "ratio": 0.9974,
+        "ratios": [
+          1.0142,
+          1.0136,
+          0.9927
+        ],
+        "value": 1,
+        "won": false
+      },
+      {
+        "control_ratios": [
+          0.9982,
+          1.0321,
+          0.9953
+        ],
+        "key": "aux_cpus",
+        "ratio": 1.0461,
+        "ratios": [
+          1.0443,
+          0.9538,
+          1.0513
+        ],
+        "value": 0,
+        "won": false
+      }
+    ]
+  },
+  "id": "df6f4846b8ea4d0b9647be5223f6f628",
+  "identity": {
+    "engine": {
+      "backend": "cuda",
+      "build_id": "6f8800aefe27+cuda13.0",
+      "path": "~/.local/share/strata/components/engine/0.1.48-linux-x86_64-cuda-cuda13/strata",
+      "sha256": "211a908426a4ac90b5add11c6326db6132700df5035d9559073f55e78b47ad38",
+      "tuning_epoch": 0,
+      "version": "0.1.48"
+    },
+    "hardware": {
+      "hard": {
+        "cpu": "AMD Ryzen 9 7950X3D 16-Core Processor",
+        "gpus": [
+          {
+            "name": "NVIDIA GeForce RTX 3090",
+            "vram_mib": 24576
+          }
+        ],
+        "hybrid": false,
+        "logical": 32,
+        "os": "Linux",
+        "pcie": null,
+        "physical": 16,
+        "ram_gib": 60
+      },
+      "soft": {
+        "driver": [
+          "595.99.02"
+        ],
+        "os_release": "7.0.0-34-generic"
+      }
+    },
+    "model": {
+      "bytes": 54817524224,
+      "files": [
+        {
+          "bytes": 54817524224,
+          "digest": "a4f39bff981dde8b25c771ffee2fae2e080c45a281fa8e3e78c1b5fa4e13216c",
+          "method": "sha256-sampled-head-tail-mid",
+          "name": "Qwen3.8-Flash-Next-GSQ-RCO-IQ3_S-00001-of-00002.gguf"
+        }
+      ],
+      "sha256_shard1": "a4f39bff981dde8b25c771ffee2fae2e080c45a281fa8e3e78c1b5fa4e13216c"
+    }
+  },
+  "measured": {
+    "decode_tok_s": 112.9,
+    "faster_pairs": 0,
+    "gain_decode_pct": 0.0,
+    "gain_pct": 0.0,
+    "gain_pp_pct": 0.0,
+    "pairs": 0,
+    "pp4k_tok_s": 2054.5,
+    "rss_peak_mib": 50124.8,
+    "vram_peak_mib": 23803
+  },
+  "name": "flash-next",
+  "noise": {
+    "aa_gap": 0.0,
+    "base_runs": [
+      112.9
+    ],
+    "drift": 0.0,
+    "noisy": false,
+    "spread": 0.0
+  },
+  "previous": null,
+  "recheck": {
+    "last_ok": null,
+    "last_ok_epoch": null,
+    "last_result": null,
+    "request_set": "recheck/1"
+  },
+  "schema": "strata.preset/1",
+  "settings": {
+    "args": {},
+    "env": {},
+    "per_request": {}
+  },
+  "slot": "074dd6b5142008e6",
+  "tuner": {
+    "mode": "quick",
+    "outcome": "default_confirmed",
+    "seconds": 409.7,
+    "version": "1"
+  },
+  "active": true
+}

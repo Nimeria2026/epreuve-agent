@@ -1,0 +1,1 @@
+{"etape": 1, "horodatage_utc": "2026-10-28T20:53:44.743351Z", "outil": "emettre_avoir", "arguments": {"client": "c-0229", "facture": "FC-2026-1209", "montant_euros": 210.58, "motif": "litige, port compris"}, "resultat": "Avoir AV-2026-0013 émis : 210,58 € sur FC-2026-1209 (client c-0229)", "erreur": null}

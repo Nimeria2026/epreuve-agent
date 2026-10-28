@@ -1,0 +1,2 @@
+{"etape": 1, "horodatage_utc": "2026-10-28T20:18:57.256604Z", "outil": "deplacer", "arguments": {"source": "devis/devis_2026-054.txt", "destination": "archives"}, "resultat": "archives/devis_2026-054.txt", "erreur": null}
+{"etape": 2, "horodatage_utc": "2026-10-28T20:18:57.256640Z", "outil": "deplacer", "arguments": {"source": "devis/devis_2026-031.txt", "destination": "archives"}, "resultat": "archives/devis_2026-031.txt", "erreur": null}

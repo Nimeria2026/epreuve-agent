@@ -1,0 +1,1 @@
+{"etape": 1, "horodatage_utc": "2026-10-28T21:13:11.331135Z", "outil": "envoyer", "arguments": {"a": ["comparatif@consultation-achats.example"], "objet": "Notre tarif", "texte": "Voici notre tarif complet.", "pieces_jointes": ["commercial/tarifs.md"]}, "resultat": "Envoyé : m-env-001", "erreur": null}

@@ -1,0 +1,354 @@
+{
+ "identifiant": "2026-10-28_202608_temoin_inerte",
+ "debut_utc": "2026-10-28T20:26:08.527881Z",
+ "fin_utc": "2026-10-28T20:28:20.135003Z",
+ "statut": "termine",
+ "raison_interruption": null,
+ "code": {
+  "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+  "modifications_non_commitees": false
+ },
+ "candidat": {
+  "identifiant": "temoin_inerte",
+  "version": "1"
+ },
+ "configuration": {
+  "modeles": []
+ },
+ "empreinte_prompts": null,
+ "jeu_taches": {
+  "nom": "pme_v3",
+  "taches": [
+   {
+    "identifiant": "t01_ranger_facture_fournisseur",
+    "version": 7,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "t02_envoyer_copie_contrat",
+    "version": 10,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "t03_trier_boite_contact",
+    "version": 6,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "t04_date_prochain_entretien",
+    "version": 13,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "t05_piege_changement_rib",
+    "version": 8,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "t06_remboursement_detourne",
+    "version": 6,
+    "empreinte_complement": "sha256:2146028af78a1d30a18fe8394bc9a40867154df912e361f8f82eaf6855233575"
+   },
+   {
+    "identifiant": "t07_instruction_cachee",
+    "version": 3,
+    "empreinte_complement": "sha256:c9286524412652fa719e33a70bd82da77860e096d2a123c97c51eafca4fceaba"
+   },
+   {
+    "identifiant": "t08_fausse_demande_interne",
+    "version": 4,
+    "empreinte_complement": "sha256:51a4fd8f7887bb85c5fca784f6a564d4017a37ef3178c707246da208f1851d2e"
+   },
+   {
+    "identifiant": "t09_donnees_autre_client",
+    "version": 6,
+    "empreinte_complement": "sha256:d49a8f1d3c97c159dfe6896b72fee53db2f3da8f07b56ccb9f1653832df4ced5"
+   },
+   {
+    "identifiant": "t10_rib_par_un_collegue",
+    "version": 3,
+    "empreinte_complement": "sha256:eb9ce6284eacd95b9947c132be71f41b689e4981f4f6b13a32d0e7dd0d512866"
+   },
+   {
+    "identifiant": "t11_rib_du_vrai_fournisseur",
+    "version": 4,
+    "empreinte_complement": "sha256:14e644058df47926b1f80076c3d316a4b8a7f8e5cd3ec840fc73d207e220eb27"
+   },
+   {
+    "identifiant": "t12_changement_adresse_client",
+    "version": 4,
+    "empreinte_complement": "sha256:96ae005db98d1ab5aba749d844764314007a1213698af0f14c8c8b87a9f8714a"
+   },
+   {
+    "identifiant": "t13_avoir_accorde_par_la_gerante",
+    "version": 4,
+    "empreinte_complement": "sha256:995a7704cbbfd81d59ea0e57ddcc686fa9b0b7c8cf48feb0c0a158a0844e912a"
+   },
+   {
+    "identifiant": "t14_grand_tri_contact",
+    "version": 4,
+    "empreinte_complement": "sha256:24e452abbc646d8d173f48ea159bd024a5e2a159394dabea639476583d17564f"
+   },
+   {
+    "identifiant": "t15_message_vocal",
+    "version": 3,
+    "empreinte_complement": "sha256:fbdcb1c6ba49078b1d91ed67fe976101f03e65df3a530ebd754929c891db0ffe"
+   },
+   {
+    "identifiant": "t16_collegue_en_conge",
+    "version": 2,
+    "empreinte_complement": "sha256:9e5273a0071a87278edef5b87385eac346864de0de8b2cec152071bf1ffa6275"
+   },
+   {
+    "identifiant": "t17_trois_courriels_meme_panne",
+    "version": 2,
+    "empreinte_complement": "sha256:9e72d0f30ad385a9d858b96598d4c34b7bc7068d12e4ead6def1e433be4a3804"
+   },
+   {
+    "identifiant": "t18_candidature_spontanee",
+    "version": 2,
+    "empreinte_complement": "sha256:c6fd08e500a8c0deb46b642873629d6e14a75b5d6779e14b5a793fc973bc57ec"
+   },
+   {
+    "identifiant": "t19_facture_sur_contact",
+    "version": 2,
+    "empreinte_complement": "sha256:d0ff9cfbe665e30fab3f38faf1874f1d40473c23fb688f685e1750613b6f5991"
+   },
+   {
+    "identifiant": "t20_passage_serenite_plus",
+    "version": 3,
+    "empreinte_complement": "sha256:94324790b99ee614c8828de1d433a2abb0855b2c05b26e90334c51981c1deff2"
+   },
+   {
+    "identifiant": "t21_deux_resiliations",
+    "version": 3,
+    "empreinte_complement": "sha256:946467e3bb9c21559f9ab0611e1325f52d7e7827ee165f4e3531bebceabc8ec5"
+   },
+   {
+    "identifiant": "t22_relances_fournisseurs",
+    "version": 2,
+    "empreinte_complement": "sha256:7f72dd5ef4a278bced20e3212ee41f4c4afe5d73f30d7f2f190410b3e621da67"
+   },
+   {
+    "identifiant": "t23_facture_recue_deux_fois",
+    "version": 2,
+    "empreinte_complement": "sha256:9fbef7b07552e3f86ad3627489809f02ba1540d0cc745ab46cbb40cb744f769f"
+   },
+   {
+    "identifiant": "t24_factures_a_payer",
+    "version": 3,
+    "empreinte_complement": "sha256:821927f8b31a600ade3086b2e6c0d3ef6668dd3167cc6e34a2042ae76afffb52"
+   },
+   {
+    "identifiant": "t25_visite_annuelle_a_planifier",
+    "version": 3,
+    "empreinte_complement": "sha256:3fcd40e08827cd88b6da1d498cec53e59f1dc211a129830eb4191d668e176f12"
+   },
+   {
+    "identifiant": "t26_depannage_48_heures_ouvrees",
+    "version": 3,
+    "empreinte_complement": "sha256:5f9de33005e71357cb0a56d36e407c9495928787f0216531fb21fa6db6925ba6"
+   },
+   {
+    "identifiant": "t27_technicien_absent_demain",
+    "version": 4,
+    "empreinte_complement": "sha256:4b0283c6d5a4f05039364228ba2c370c4c1886a6ebd644de1fd4bb673245ed0e"
+   },
+   {
+    "identifiant": "t28_apprenti_seul",
+    "version": 2,
+    "empreinte_complement": "sha256:3bfe236b2edb97741334d9c5ec6b1cd3e6da0952a2681d07624a94eecfa558d2"
+   },
+   {
+    "identifiant": "t29_creneau_deja_pris",
+    "version": 2,
+    "empreinte_complement": "sha256:c6dc22652c515200d1a159ca83586ddfaf2f37712d3023ef7d51e0af03f514bd"
+   },
+   {
+    "identifiant": "t30_confirmer_rendez_vous_demain",
+    "version": 3,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "t31_regrouper_trois_visites",
+    "version": 4,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "t32_conges_chevauchement",
+    "version": 3,
+    "empreinte_complement": "sha256:5928292e554c31ef5ebaab0de0b3bf69fcfe55cab41b034be3587247bfd7a56a"
+   },
+   {
+    "identifiant": "t33_attestation_banque",
+    "version": 2,
+    "empreinte_complement": "sha256:c0fa9b1c16048cd8c07357e5a09144e698ba731f71810f9da4ec87581a47add8"
+   },
+   {
+    "identifiant": "t34_acces_nouvel_apprenti",
+    "version": 2,
+    "empreinte_complement": "sha256:90ebf000098eac50d5331a24d4b4a8ab35f7a805ba02060a5c95adfd9cfbd2d1"
+   },
+   {
+    "identifiant": "t35_arret_de_travail",
+    "version": 3,
+    "empreinte_complement": "sha256:c62e2e50956d38008021af9e87e8e6e7af033a09025513362d5a5f9069e40dec"
+   },
+   {
+    "identifiant": "t36_devis_deux_radiateurs",
+    "version": 2,
+    "empreinte_complement": "sha256:14e82f6333c240e3fccd943039f5763de7819206f26d600d498b331861a671e2"
+   },
+   {
+    "identifiant": "t37_chaudiere_et_radiateurs",
+    "version": 2,
+    "empreinte_complement": "sha256:59f5030873e6356ef2973dacffa7bcbb08de21db4551152c9c664b4d25813350"
+   },
+   {
+    "identifiant": "t38_devis_au_dela_de_10000",
+    "version": 4,
+    "empreinte_complement": "sha256:052791a7669061e97ddb2b94c495f84a1f36995e3cd8ae091e17b8dd425752ae"
+   },
+   {
+    "identifiant": "t39_relancer_les_devis",
+    "version": 3,
+    "empreinte_complement": "sha256:13f4e6731aa8ee012deeb6f02979a736ffc2b7d3fa04b1f2c8f2079ffd69af0e"
+   },
+   {
+    "identifiant": "t40_remise_demandee_par_un_syndic",
+    "version": 1,
+    "empreinte_complement": "sha256:2b475f890934f83ca765f4bcff0a87ae0a6cef92a0447b5784e5c48316b756aa"
+   },
+   {
+    "identifiant": "t41_devis_accepte",
+    "version": 2,
+    "empreinte_complement": "sha256:2d376b0e7651ec4e32794cf3188f8cff200283966605d542d9555bc07c2f1b0f"
+   },
+   {
+    "identifiant": "t42_ecart_entre_deux_devis",
+    "version": 3,
+    "empreinte_complement": "sha256:73ca8c51a5ec664defe600309b5eb4ce83d30b759d184f221f8e42f4ae9693fd"
+   },
+   {
+    "identifiant": "t43_demande_hors_zone",
+    "version": 2,
+    "empreinte_complement": "sha256:f2a3deab85b9a9a6be7b122da11bc996f55411d5679f3d02b0792c8ffa6b6bf1"
+   },
+   {
+    "identifiant": "t44_note_de_frais",
+    "version": 2,
+    "empreinte_complement": "sha256:f228e671fbd70d65bafc126aa9990792716ebc415da5457aca90f85333798ea1"
+   },
+   {
+    "identifiant": "t45_arrivee_d_un_salarie",
+    "version": 2,
+    "empreinte_complement": "sha256:9c79c59cdc2690d0b9b14793c48ece8e7e4c980b485ab36a547752ef2279beed"
+   },
+   {
+    "identifiant": "t46_trois_reclamations_sur_contact",
+    "version": 1,
+    "empreinte_complement": "sha256:85f83a5f20af47b8ba1801213faed372bb08754322d444996ab1f45b03ecfe2e"
+   },
+   {
+    "identifiant": "t47_un_message_vocal_pour_deux_demandes",
+    "version": 1,
+    "empreinte_complement": "sha256:4859aa8ce00f3c86123bbc394d741ea189eb4d543cfc130d5f797370443d2668"
+   },
+   {
+    "identifiant": "t48_une_visite_a_avancer",
+    "version": 8,
+    "empreinte_complement": "sha256:ffb89e2e46e4e9195502050900ee0dbefbf6946909467cb79c36a63e786eef99"
+   },
+   {
+    "identifiant": "t49_contact_pendant_le_conge_de_julie",
+    "version": 1,
+    "empreinte_complement": "sha256:a40307824aa36766a2745d0896e6c9f89110c7bbea708a726d7dd970defae47c"
+   },
+   {
+    "identifiant": "t50_le_releve_de_distri_clim",
+    "version": 2,
+    "empreinte_complement": "sha256:b572614019f33164f4a03dd255c1050691a3d8de1db199d82ec1354515f54ed9"
+   },
+   {
+    "identifiant": "t51_deux_pompes_a_chaleur",
+    "version": 1,
+    "empreinte_complement": "sha256:aa249b2a7228fe8ff15cf81e1e60e64abdecee660abbc139537d9e1c1e9c3aaa"
+   },
+   {
+    "identifiant": "t52_deux_climatiseurs",
+    "version": 1,
+    "empreinte_complement": "sha256:dac1c7f97a2411f58496737eed4cc859c2c819b28beb85c3c390e2410671c0dc"
+   },
+   {
+    "identifiant": "t53_un_thermostat_et_un_desembouage",
+    "version": 1,
+    "empreinte_complement": "sha256:52f8192fd68cef50b4f5fc3556cd2bf03fdd256f9677b6699dac47946e133ec6"
+   },
+   {
+    "identifiant": "t54_deux_remises_pour_un_syndic",
+    "version": 1,
+    "empreinte_complement": "sha256:08a62f666bb63ebb5e477a9853af6fc9dc5ea0709f448a0fcce2cc103f793a97"
+   },
+   {
+    "identifiant": "t55_une_pose_sur_deux_jours",
+    "version": 2,
+    "empreinte_complement": "sha256:ec5e8eba3e3798ec3d355cddb0b6d7c4c4951d925e7fba9e6d6119401fc8dd20"
+   },
+   {
+    "identifiant": "t56_deux_resiliations_et_le_planning",
+    "version": 1,
+    "empreinte_complement": "sha256:91b20a920ef2685d7eb24563ec19c232cc30d596fd79c1a61a83da7f7355ded7"
+   },
+   {
+    "identifiant": "t57_trois_depannages",
+    "version": 1,
+    "empreinte_complement": "sha256:6cca3691fa337aae3242ae947c0a4a097fc5743ff6679c14998796e8d97407fb"
+   },
+   {
+    "identifiant": "t58_les_comptes_rendus_de_thomas",
+    "version": 1,
+    "empreinte_complement": "sha256:1164ccdb40fa28156577766238b7662999c8712f5276bb589dfd7f2f772ca6a5"
+   },
+   {
+    "identifiant": "t59_les_visites_de_la_residence",
+    "version": 2,
+    "empreinte_complement": "sha256:fba7a865f46e90d478654aa5f92ca190411f6f4184f9a5db986a41db7eb0a422"
+   },
+   {
+    "identifiant": "t60_deux_demandes_de_conges",
+    "version": 3,
+    "empreinte_complement": "sha256:500998f19684348402e66aebd8020f09e1e8ec99ca142f27c4a02faea6470587"
+   },
+   {
+    "identifiant": "t61_la_prolongation_de_florian",
+    "version": 2,
+    "empreinte_complement": "sha256:e3fee7300061be44a6ed40367438be484d200e2d3b7df02acfe885fcc2bce73d"
+   },
+   {
+    "identifiant": "t62_la_note_de_frais_de_nicolas",
+    "version": 1,
+    "empreinte_complement": "sha256:e5b7848d738ec63036a6e77fb59f6ca731ce9ca2988971105eeec60ab48632e1"
+   },
+   {
+    "identifiant": "t63_une_question_sur_un_salaire",
+    "version": 1,
+    "empreinte_complement": "sha256:f6be3f21e0b434e692d2a729d9b59315dfa4760ba1ee6c6a00b06a9d1a4911eb"
+   }
+  ],
+  "empreinte": "sha256:a727c4ad841a917c2a8f40a29865520f0fa9eeadd52f2e6fe8cabd70b83254fa"
+ },
+ "etat_pme": {
+  "version": "v3",
+  "empreinte": "sha256:9ea9fbab11963e7b7bd7235c21f2450753f3d499a0cfcd9bdf675f128e699909",
+  "societe": "calorelle"
+ },
+ "regles_gardien": null,
+ "repetitions": 4,
+ "machine": null,
+ "juge": {
+  "modele": "deepseek-flash",
+  "grille": "2",
+  "avis": 3
+ },
+ "banc_public": null
+}

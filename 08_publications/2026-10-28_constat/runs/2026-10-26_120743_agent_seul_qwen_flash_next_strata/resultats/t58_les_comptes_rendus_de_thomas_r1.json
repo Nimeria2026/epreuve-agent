@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-26_120743_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "t58_les_comptes_rendus_de_thomas",
+    "version": 1
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-26T18:27:46.909024Z",
+  "fin_utc": "2026-10-26T18:29:16.449184Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 20,
+  "jetons": {
+    "entree": 134074,
+    "entree_en_cache": 121626,
+    "sortie": 5241
+  },
+  "cout_dollars": "?",
+  "energie_wh": 5.858165148730331,
+  "duree_secondes": 89.54015655400144,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t58_les_comptes_rendus_de_thomas_r1.jsonl"
+}

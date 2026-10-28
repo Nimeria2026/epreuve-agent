@@ -1,0 +1,11 @@
+# Fiche du client Cabinet Dorval de Valmoret. Données FICTIVES.
+nom: Cabinet Dorval
+activite: cabinet d'avocats
+adresse: 3 place du Marché, 37999 Saint-Aubin-des-Vergnes (FICTIF)
+telephone: 02 61 91 51 01
+contacts:
+- nom: Madame Agnès Dorval
+  courriel: agnes.dorval@cabinet-dorval.example
+prestation: entretien des bureaux, trois passages par semaine
+forfait_mensuel_ht: 980.0
+client_depuis: '2025-01-01'

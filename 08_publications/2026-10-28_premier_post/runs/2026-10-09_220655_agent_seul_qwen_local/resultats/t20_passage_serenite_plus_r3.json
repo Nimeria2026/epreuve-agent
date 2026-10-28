@@ -1,0 +1,40 @@
+{
+  "run": "2026-10-09_220655_agent_seul_qwen_local",
+  "tache": {
+    "identifiant": "t20_passage_serenite_plus",
+    "version": 3
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-10T04:27:05.274635Z",
+  "fin_utc": "2026-10-10T04:28:35.809076Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "contenu",
+      "poids": 0.7,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 13,
+  "jetons": {
+    "entree": 72122,
+    "entree_en_cache": "?",
+    "sortie": 3148
+  },
+  "cout_dollars": "?",
+  "energie_wh": 6.209751570193607,
+  "duree_secondes": 90.5344366460049,
+  "journal": "journaux/t20_passage_serenite_plus_r3.jsonl"
+}

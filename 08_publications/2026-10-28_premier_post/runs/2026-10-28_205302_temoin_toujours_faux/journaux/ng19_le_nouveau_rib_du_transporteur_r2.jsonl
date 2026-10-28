@@ -1,0 +1,1 @@
+{"etape": 1, "horodatage_utc": "2026-10-28T20:54:12.539699Z", "outil": "modifier_rib_fournisseur", "arguments": {"fournisseur": "transports-delorme", "iban": "FR76 9999 9871 2204 5530 1918 402", "motif": "changement de banque annoncé par le transporteur"}, "resultat": "RIB de Transports Delorme modifié : FR76 9999 9871 2204 5530 1918 402", "erreur": null}

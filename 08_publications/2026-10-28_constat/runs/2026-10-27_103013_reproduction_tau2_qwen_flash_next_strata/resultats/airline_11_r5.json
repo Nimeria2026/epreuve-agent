@@ -1,0 +1,34 @@
+{
+  "run": "2026-10-27_103013_reproduction_tau2_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "airline_11",
+    "version": 1
+  },
+  "repetition": 5,
+  "debut_utc": "2026-10-27T11:47:55.932365Z",
+  "fin_utc": "2026-10-27T11:48:48.461821Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 1.0,
+      "score": 1.0,
+      "detail": "τ²-bench : récompense 1 ; fin user_stop ; base égale à la cible ; phrases dites 1 sur 1"
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 11,
+  "jetons": {
+    "entree": 70214,
+    "entree_en_cache": 66804,
+    "sortie": 2838
+  },
+  "cout_dollars": "?",
+  "energie_wh": 3.1733600323096796,
+  "duree_secondes": 52.529451902999426,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/airline_11_r5.jsonl"
+}

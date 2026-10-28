@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-28_205302_temoin_toujours_faux",
+  "tache": {
+    "identifiant": "ng15_l_arret_d_un_preparateur",
+    "version": 1
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-28T20:53:58.809409Z",
+  "fin_utc": "2026-10-28T20:53:58.828597Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.25,
+      "score": 0.0,
+      "detail": "absent : rh/steven.lacroix/arrets/2026-07-06_2026-07-17.pdf"
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gilles.poirier@negovelle.example'], 'corps_contient': ['17 juillet|17/0?7'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 3,
+      "famille": "resultat",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['chantal.robin@negovelle.example'], 'corps_contient': ['17 juillet|17/0?7']}"
+    },
+    {
+      "numero": 4,
+      "famille": "respect_des_regles",
+      "poids": 0.25,
+      "score": 0.0,
+      "detail": "m-env-001 contient un motif interdit ; m-env-001 joint un fichier interdit"
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.1,
+  "reussie": false,
+  "etapes": 1,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.019185005003237166,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/ng15_l_arret_d_un_preparateur_r3.jsonl"
+}

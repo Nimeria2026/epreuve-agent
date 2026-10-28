@@ -1,0 +1,63 @@
+{
+ "identifiant": "2026-10-20_104502_agent_seul_qwen_local",
+ "debut_utc": "2026-10-20T10:45:02.382446Z",
+ "fin_utc": "2026-10-20T12:43:07.117619Z",
+ "statut": "interrompu",
+ "raison_interruption": "KeyboardInterrupt",
+ "code": {
+  "commit": "7d9cb36ffab5864b549ea2e12a335f294f57f35c",
+  "modifications_non_commitees": false
+ },
+ "candidat": {
+  "identifiant": "agent_seul_qwen_local",
+  "version": "0.1.0"
+ },
+ "configuration": {
+  "modeles": [
+   {
+    "role": "agent",
+    "nom": "qwen3.8-27b-w4a16",
+    "fournisseur": "local",
+    "version_renvoyee": "?",
+    "parametres": {},
+    "tarif": null
+   }
+  ]
+ },
+ "empreinte_prompts": "sha256:1d2091fc11ac4b60cf43eee84abad5a22c4cb6f291bf859a1f2a2f8f6190f607",
+ "jeu_taches": {
+  "nom": "dure_v3",
+  "taches": [
+   {
+    "identifiant": "h01_paiements_de_la_quinzaine",
+    "version": 3,
+    "empreinte_complement": "sha256:04c7ec761e5737b816509273238d99cad5329b7ec6eaaeb601343d7075d2aedf"
+   },
+   {
+    "identifiant": "h04_les_conges_de_fin_d_annee",
+    "version": 10,
+    "empreinte_complement": "sha256:510e5110fd79a2c3c46ac5036561791315d8c7ae012f6b8e3de80dc8052e23bc"
+   }
+  ],
+  "empreinte": "sha256:7fcd166fae068d66c0d9e706cd4d249c28b45c9f10b3afe33d2e0819a1eb3e85"
+ },
+ "etat_pme": {
+  "version": "v3",
+  "empreinte": "sha256:9ea9fbab11963e7b7bd7235c21f2450753f3d499a0cfcd9bdf675f128e699909",
+  "societe": "calorelle"
+ },
+ "regles_gardien": null,
+ "repetitions": 5,
+ "machine": {
+  "systeme": "Ubuntu 24.04",
+  "processeur": "?",
+  "carte_graphique": "NVIDIA GeForce RTX 3090",
+  "service_modele": "vLLM 0.27.1"
+ },
+ "juge": {
+  "modele": "deepseek-flash",
+  "grille": "2",
+  "avis": 3
+ },
+ "banc_public": null
+}

@@ -1,0 +1,164 @@
+{
+ "identifiant": "2026-10-27_141937_reproduction_tau2_qwen_flash_next_strata",
+ "debut_utc": "2026-10-27T14:19:37.855428Z",
+ "fin_utc": "2026-10-27T15:46:24.576491Z",
+ "statut": "termine",
+ "raison_interruption": null,
+ "code": {
+  "commit": "f9be7a5a1c8e83745c9998900420cf66ee731cf9",
+  "modifications_non_commitees": false
+ },
+ "candidat": {
+  "identifiant": "reproduction_tau2_qwen_flash_next_strata",
+  "version": "0.1.0"
+ },
+ "configuration": {
+  "modeles": [
+   {
+    "role": "agent",
+    "nom": "qwen3.8-flash-next-iq3_s",
+    "fournisseur": "local",
+    "version_renvoyee": "qwen3.8-flash-next-iq3_s",
+    "parametres": {
+     "temperature": 0.0,
+     "tool_choice": "auto"
+    },
+    "tarif": null
+   }
+  ]
+ },
+ "empreinte_prompts": "sha256:cb3ef59a621dcc8d9e58cbb8519660c45e46a858f96a5b4c1f19cd8022343e85",
+ "jeu_taches": {
+  "nom": "tau2_airline_verified",
+  "taches": [
+   {
+    "identifiant": "airline_33",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_34",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_35",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_36",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_37",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_38",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_39",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_40",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_41",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_42",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_43",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_44",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_45",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_46",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_47",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_48",
+    "version": 1,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "airline_49",
+    "version": 1,
+    "empreinte_complement": null
+   }
+  ],
+  "empreinte": "sha256:a2f888381502dae1c04f78686b8370f90bb87110645795419a87a966f6b20953"
+ },
+ "etat_pme": {
+  "version": "v1",
+  "empreinte": "sha256:34cc7486acb05b494f6bc24108e5a3f99cb45c8b4a496a3bbeef60e808103e83",
+  "societe": null
+ },
+ "regles_gardien": null,
+ "repetitions": 5,
+ "machine": {
+  "systeme": "Ubuntu 24.04",
+  "processeur": "?",
+  "carte_graphique": "NVIDIA GeForce RTX 3090",
+  "service_modele": "Strata 0.2.4.2, contexte de 131 072 jetons"
+ },
+ "juge": null,
+ "banc_public": {
+  "nom": "tau2_bench",
+  "version": "1.0.1",
+  "domaine": "airline",
+  "jeu": "verified",
+  "simulateur": {
+   "modele": "openrouter/google/gemini-2.5-flash",
+   "fournisseur": "OpenRouter",
+   "parametres": {
+    "temperature": 0.0
+   },
+   "tarif": {
+    "entree_dollars_par_million": 0.3,
+    "entree_en_cache_dollars_par_million": 0.03,
+    "sortie_dollars_par_million": 2.5,
+    "source": "https://openrouter.ai/google/gemini-2.5-flash",
+    "releve_le": "2026-10-10"
+   },
+   "jetons": {
+    "entree": 372747,
+    "entree_en_cache": 31844,
+    "sortie": 15682,
+    "dont_reflexion": 0
+   },
+   "cout_dollars": 0.14243122,
+   "cout_annonce_dollars": 0.14243122000000005
+  }
+ }
+}

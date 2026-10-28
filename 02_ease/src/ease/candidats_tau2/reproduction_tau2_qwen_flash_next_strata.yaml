@@ -1,0 +1,50 @@
+# L'agent de reproduction τ²-bench (03_orchestrations, reproduction_tau2) sur Qwen3.8-Flash-Next
+# (IQ3_S), servi sur le poste d'Alexandre par Strata (make strata) : le pendant τ²-bench de
+# agent_seul_qwen_flash_next_strata ; fiche du moteur : 02_ease/src/ease/moteurs/strata_flash_next.md.
+# Copié de reproduction_tau2_qwen_local_100k. Température 0 et
+# tool_choice auto, ceux de l'agent de τ²-bench 1.0.1. Aucun score publié pour ce modèle sur
+# OpenRouter au 2026-10-26.
+fiche:
+  identifiant: reproduction_tau2_qwen_flash_next_strata
+  nom: Agent de reproduction τ²-bench sur Qwen3.8-Flash-Next (IQ3_S, en local par Strata)
+  version: "0.1.0"
+  origine: fait_main
+  division: a_modele_egal
+  branchement: mcp
+  editeur: Épreuve d'agent
+  url: null
+  modeles:
+    - nom: qwen3.8-flash-next-iq3_s
+      fournisseur: local
+  # Les jetons se comptent, mais l'électricité n'est relevée que pour la carte : pas de prix.
+  cout_mesurable: false
+  conditions_utilisation: null
+configuration:
+  modeles:
+    - role: agent
+      nom: qwen3.8-flash-next-iq3_s
+      fournisseur: local
+      version_renvoyee: "?"
+      parametres:
+        temperature: 0.0
+        tool_choice: auto
+      tarif: null
+# Relevé de l'essai du 2026-10-25 (journal du moteur) : Strata 0.2.4.2, contexte de 131 072 jetons.
+machine:
+  systeme: Ubuntu 24.04
+  processeur: "?"
+  carte_graphique: NVIDIA GeForce RTX 3090
+  service_modele: Strata 0.2.4.2, contexte de 131 072 jetons
+lancement:
+  module: orchestrations.reproduction_tau2
+  arguments: [--configuration, 03_orchestrations/src/orchestrations/configurations_tau2/qwen_flash_next_strata.yaml]
+  delai_secondes: 7200
+  # Pas de sonde tant que l'adresse que Strata réserve à son état n'est pas relevée.
+  sonde: null
+  creneau: null
+  energie: nvidia_smi
+  empreinte_de:
+    - 03_orchestrations/src/orchestrations/reproduction_tau2.py
+    - 03_orchestrations/src/orchestrations/configurations_tau2/qwen_flash_next_strata.yaml
+    # Le préréglage du moteur : un préréglage nouveau change l'empreinte, et les runs ne s'assemblent pas.
+    - 02_ease/src/ease/moteurs/strata_flash_next.json

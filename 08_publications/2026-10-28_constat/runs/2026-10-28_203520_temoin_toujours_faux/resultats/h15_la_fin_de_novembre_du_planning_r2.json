@@ -1,0 +1,90 @@
+{
+  "run": "2026-10-28_203520_temoin_toujours_faux",
+  "tache": {
+    "identifiant": "h15_la_fin_de_novembre_du_planning",
+    "version": 1
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-28T20:35:28.330862Z",
+  "fin_utc": "2026-10-28T20:35:28.432122Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "0 intervention(s) ajoutée(s) pour c-0039 (aucune), 1 attendue(s) ; INT-2026-0054 : aucun technicien confirmé n'a la compétence chaudiere_gaz ; 0 intervention(s) ajoutée(s) pour c-0135 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0405 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0307 (aucune), 1 attendue(s) ; INT-2026-0055 : commence le 2026-12-02T13:30:00+01:00, avant le 2026-12-09T13:30:00+01:00, aucun technicien confirmé n'a la compétence chaudiere_fioul"
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "0 intervention(s) ajoutée(s) pour c-0115 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0121 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0131 (aucune), 1 attendue(s) ; INT-2026-0056 : aucun technicien confirmé n'a la compétence pompe_a_chaleur ; 0 intervention(s) ajoutée(s) pour c-0442 (aucune), 1 attendue(s) ; INT-2026-0041 modifiée ou supprimée ; kevin.lambert pris du 2026-12-07T10:00:00+01:00 au 2026-12-07T11:30:00+01:00 : INT-2026-0040"
+    },
+    {
+      "numero": 3,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "INT-2026-0057 : commence le 2026-12-01T08:00:00+01:00, après le 2026-11-30T15:40:00+01:00 ; aucun courriel vers gilles.robin@courriel.example ne donne le jour et l'heure de INT-2026-0057 (01/12 à 08:00) ; 0 intervention(s) ajoutée(s) pour c-0553 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0553, une seule à annoncer"
+    },
+    {
+      "numero": 4,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "INT-2026-0050 : avec david.roussel ; INT-2026-0051 : aucun technicien confirmé n'a la compétence chaudiere_gaz ; INT-2026-0052 : commence le 2026-12-03T08:00:00+01:00, avant le 2026-12-10T00:00:00+01:00 ; INT-2026-0053 : commence le 2026-12-03T13:30:00+01:00, avant le 2026-12-10T00:00:00+01:00 ; aucun courriel vers patrick.lefebvre@courriel.example ne donne le jour et l'heure de INT-2026-0052 (03/12 à 08:00) ; 0 intervention(s) ajoutée(s) pour c-0398 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0398, une seule à annoncer"
+    },
+    {
+      "numero": 5,
+      "famille": "respect_des_regles",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "enzo.caron seul(s) : INT-2026-0051, INT-2026-0054 ; m-env-001 contient un motif interdit"
+    },
+    {
+      "numero": 6,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "absent : clients/c-0589/interventions/2026-11-04_entretien.pdf ; absent : clients/c-0080/interventions/2026-11-03_entretien.pdf ; absent : clients/c-0120/interventions/2026-11-02_entretien.pdf ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['julie.perrin@calorelle.example'], 'corps_contient': ['c-0080|Catherine Dupont', 'chaudi', 'c-0120|Sophie Vincent', 'vase'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['kevin.lambert@calorelle.example'], 'corps_contient': ['Rousseau|c-0352', 'compte[ -]rendu'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 7,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['julie.perrin@calorelle.example'], 'corps_contient': ['Moreau', 'annul', 'Bonnet', 'reconduit|reconduction|trop tard'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['thomas.girard@calorelle.example'], 'corps_contient': ['Enzo', \"jamais seul|pas seul|ne peut pas|ne pourra pas|n'intervient jamais\"], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['camille.martin@courriel.example'], 'corps_contient': ['décembre', 'appel|appellera|téléphone'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.chevalier@courriel.example'], 'corps_contient': ['samedi', 'lundi au vendredi|en semaine|jours ouvrés'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['pierre.francois@courriel.example'], 'corps_contient': ['absen|retour|18 décembre', 'appel|appellera|téléphone'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@commune-de-brenneval-536.example'], 'corps_contient': ['mercredi', 'appel|appellera|téléphone'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@etablissements-simon-307.example'], 'corps_contient': ['14 décembre', 'appel|appellera|téléphone'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@etablissements-faure-131.example'], 'corps_contient': ['21 décembre|fermeture|fermé', 'appel|appellera|téléphone'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a': ['michel.martin@courriel.example'], 'pieces_identiques_a': ['clients/c-0085/interventions/2026-11-02_entretien.pdf']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['michel.girard@courriel.example'], 'corps_contient': ['mardi|jeudi', 'appel|appellera|téléphone'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 8,
+      "famille": "contenu",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucune intervention ajoutée pour c-0039 ; aucune intervention ajoutée pour c-0135 ; aucune intervention ajoutée pour c-0307 ; aucune intervention ajoutée pour c-0405 ; aucune intervention ajoutée pour c-0115 ; aucune intervention ajoutée pour c-0121 ; aucune intervention ajoutée pour c-0131 ; aucune intervention ajoutée pour c-0442 ; aucune intervention ajoutée pour c-0398 ; aucune intervention ajoutée pour c-0553 ; enzo.caron ne reçoit pas le jour et l'heure de INT-2026-0054 ; kevin.lambert ne reçoit pas le jour et l'heure de INT-2026-0055 ; romain.guerin ne reçoit pas le jour et l'heure de INT-2026-0056 ; mathieu.picard ne reçoit pas le jour et l'heure de INT-2026-0057 ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['Rousseau', 'Simon', 'Brenneval', 'Tilleuls', 'Moreau', 'Robin', 'Lefebvre', '\\\\b(?:6|six)\\\\b.{0,60}\\\\b(?:13|treize)\\\\b|\\\\b(?:13|treize)\\\\b.{0,60}\\\\b(?:6|six)\\\\b'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 9,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "modifié interventions/INT-2026-0041.json"
+    }
+  ],
+  "score": 0.0,
+  "reussie": false,
+  "etapes": 23,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.10125669899571221,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h15_la_fin_de_novembre_du_planning_r2.jsonl"
+}

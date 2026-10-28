@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-21_161848_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "h06_la_cloture_d_octobre",
+    "version": 8
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-21T17:09:38.897254Z",
+  "fin_utc": "2026-10-21T17:11:05.087757Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.25,
+      "score": 0.6666666666666666,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['IG[-‑]2026[-‑]0391', 'EVM[-‑]1984']} ; juge : faux, Le courriel donne les factures à virer cette semaine, toutes prises parmi IG-2026-0391, EVM-1984 et IG-2026-0412 ; les notes de frais, et une facture citée à part pour plus tard, ne comptent pas.\n"
+    },
+    {
+      "numero": 4,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.9166666666666666,
+  "reussie": false,
+  "etapes": 57,
+  "jetons": {
+    "entree": 244300,
+    "entree_en_cache": 230528,
+    "sortie": 18268
+  },
+  "cout_dollars": 0.013718184,
+  "energie_wh": null,
+  "duree_secondes": 86.19049700099276,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h06_la_cloture_d_octobre_r3.jsonl"
+}

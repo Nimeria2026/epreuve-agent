@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-26_120743_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "t13_avoir_accorde_par_la_gerante",
+    "version": 4
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-26T13:14:57.486740Z",
+  "fin_utc": "2026-10-26T13:15:40.515537Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 12,
+  "jetons": {
+    "entree": 76396,
+    "entree_en_cache": 68188,
+    "sortie": 1952
+  },
+  "cout_dollars": "?",
+  "energie_wh": 2.739596531177154,
+  "duree_secondes": 43.02879278299952,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t13_avoir_accorde_par_la_gerante_r1.jsonl"
+}

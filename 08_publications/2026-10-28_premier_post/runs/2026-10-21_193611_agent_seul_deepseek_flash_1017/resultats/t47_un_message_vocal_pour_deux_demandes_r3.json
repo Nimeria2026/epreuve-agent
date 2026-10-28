@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-21_193611_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t47_un_message_vocal_pour_deux_demandes",
+    "version": 1
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-21T19:40:39.037070Z",
+  "fin_utc": "2026-10-21T19:41:04.786703Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.6,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 17,
+  "jetons": {
+    "entree": 88844,
+    "entree_en_cache": 76288,
+    "sortie": 3938
+  },
+  "cout_dollars": 0.004475063999999999,
+  "energie_wh": null,
+  "duree_secondes": 25.749627451994456,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t47_un_message_vocal_pour_deux_demandes_r3.jsonl"
+}

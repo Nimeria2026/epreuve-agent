@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-21_125500_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t17_trois_courriels_meme_panne",
+    "version": 2
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-21T13:34:49.375406Z",
+  "fin_utc": "2026-10-21T13:35:03.211203Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 19,
+  "jetons": {
+    "entree": 32621,
+    "entree_en_cache": 26496,
+    "sortie": 1932
+  },
+  "cout_dollars": 0.0021574380000000002,
+  "energie_wh": null,
+  "duree_secondes": 13.835793073987588,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t17_trois_courriels_meme_panne_r1.jsonl"
+}

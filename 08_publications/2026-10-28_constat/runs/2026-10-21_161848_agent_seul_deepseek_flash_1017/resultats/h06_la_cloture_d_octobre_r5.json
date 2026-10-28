@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-21_161848_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "h06_la_cloture_d_octobre",
+    "version": 8
+  },
+  "repetition": 5,
+  "debut_utc": "2026-10-21T17:14:23.412890Z",
+  "fin_utc": "2026-10-21T17:15:48.603585Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.25,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 58,
+  "jetons": {
+    "entree": 317863,
+    "entree_en_cache": 304000,
+    "sortie": 18022
+  },
+  "cout_dollars": 0.013804649999999998,
+  "energie_wh": null,
+  "duree_secondes": 85.19068960798904,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h06_la_cloture_d_octobre_r5.jsonl"
+}

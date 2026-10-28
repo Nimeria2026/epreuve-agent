@@ -19,11 +19,18 @@ from typing import Any
 import pytest
 from ease.candidat_externe import CandidatExterne, Lancement
 from ease.contrats.fiche_candidat import FicheCandidat
-from ease.contrats.fiche_de_run import Configuration, Modele
-from ease.executeur import ErreurOutil
+from ease.contrats.fiche_de_run import Configuration, Machine, Modele
+from ease.executeur import Consommation, DescriptionOutil, ErreurOutil, Outils
 from ease.fiches import lire_fiche_de_run, lire_resultat
 from ease.temoins_tau2 import TerrainTau2, mesurer, temoins, terrain_tau2
-from ease.terrain_tau2 import OUTIL_CLIENT, RESERVES, EnvironnementTau2, TacheTau2, lire_evaluation
+from ease.terrain_tau2 import (
+    OUTIL_CLIENT,
+    RESERVES,
+    EnvironnementTau2,
+    TacheTau2,
+    executer_une_fois,
+    lire_evaluation,
+)
 
 PLANCHER_SIERRA = [
     str(n) for n in (0, 1, 2, 4, 5, 6, 9, 10, 13, 26, 27, 28, 31, 34, 36, 38, 41, 43, 45, 46, 47, 48, 49)
@@ -196,3 +203,68 @@ def test_l_agent_seul_et_un_modele_simule_jouent_tau2_bench_par_le_relais(
     assert fiche_run.configuration.modeles[0].version_renvoyee == "modele-simule"
     resultat = lire_resultat(dossier / "resultats" / "airline_14_r1.json")
     assert resultat.etapes == 3 and resultat.jetons.entree != "?"
+
+
+class _ServeurSansNote(EnvironnementTau2):
+    """Un serveur de τ²-bench dont la clôture ne rend pas de note, comme le 2026-10-27 à airline_33,
+    quand le client simulé n'a pas répondu (JOURNAL, entrée 325). Aucun processus n'est lancé."""
+
+    def __init__(self, travail: Path) -> None:
+        super().__init__("sierra", travail=travail)
+        self.ouvertes: list[str] = []
+        self.clotures = 0
+
+    def ouvrir(self, tache: TacheTau2, execution: str, essai: int = 0) -> None:
+        del tache, essai
+        self.ouvertes.append(execution)
+
+    def enonce(self) -> str:
+        return "Un client appelle au sujet de sa réservation."
+
+    def outils(self) -> list[DescriptionOutil]:
+        return []
+
+    def fermer(self) -> Any:
+        self.clotures += 1
+        raise RuntimeError("τ²-bench n'a pas rendu de simulation")
+
+
+class _CandidatQuiParle:
+    """Un candidat sans modèle, qui rend la main sans geste."""
+
+    def __init__(self) -> None:
+        modele = Modele(role="agent", nom="aucun", fournisseur="local", version_renvoyee="?", parametres={}, tarif=None)
+        self.configuration = Configuration(modeles=[modele])
+        self.fiche = FicheCandidat(
+            identifiant="candidat_qui_parle",
+            nom="Candidat qui parle",
+            version="0.1.0",
+            origine="fait_main",
+            division="a_modele_egal",
+            branchement="mcp",
+            editeur="Épreuve d'agent",
+            url=None,
+            modeles="?",
+            cout_mesurable=False,
+            conditions_utilisation=None,
+        )
+        self.empreinte_prompts: str | None = None
+        self.machine: Machine | None = None
+
+    def executer(self, enonce: str, outils: Outils) -> Consommation:
+        del enonce, outils
+        return Consommation()
+
+
+RUN = "2026-10-27_103013_candidat_qui_parle"
+
+
+def test_une_cloture_sans_note_finit_en_erreur_technique_et_le_run_continue(tmp_path: Path) -> None:
+    (tmp_path / "journaux").mkdir()
+    serveur, candidat = _ServeurSansNote(tmp_path / "travail"), _CandidatQuiParle()
+    resultats = [executer_une_fois(candidat, serveur, TacheTau2(numero), RUN, 1, tmp_path) for numero in ("33", "34")]
+    assert serveur.clotures == 2 and len(serveur.ouvertes) == 2
+    for resultat in resultats:
+        assert resultat.arret == "erreur_technique" and not resultat.reussie
+        assert resultat.detail_arret is not None and "n'a pas rendu de simulation" in resultat.detail_arret
+        assert [c.score for c in resultat.controles] == [0.0]

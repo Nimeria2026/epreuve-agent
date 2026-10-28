@@ -1,0 +1,54 @@
+{
+  "run": "2026-10-09_220655_agent_seul_qwen_local",
+  "tache": {
+    "identifiant": "t27_technicien_absent_demain",
+    "version": 3
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-10T07:14:00.545407Z",
+  "fin_utc": "2026-10-10T07:39:06.286149Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 33,
+  "jetons": {
+    "entree": 108863,
+    "entree_en_cache": "?",
+    "sortie": 62126
+  },
+  "cout_dollars": "?",
+  "energie_wh": 104.34102772307095,
+  "duree_secondes": 1505.7407383000027,
+  "journal": "journaux/t27_technicien_absent_demain_r3.jsonl"
+}

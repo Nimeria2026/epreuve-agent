@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-23_113319_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t48_une_visite_a_avancer",
+    "version": 4
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-23T11:34:44.251297Z",
+  "fin_utc": "2026-10-23T11:35:12.105373Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "respect_des_regles",
+      "poids": 0.35,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.35,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "resultat",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 18,
+  "jetons": {
+    "entree": 81194,
+    "entree_en_cache": 70144,
+    "sortie": 2984
+  },
+  "cout_dollars": 0.003658332,
+  "energie_wh": null,
+  "duree_secondes": 27.854069816006813,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t48_une_visite_a_avancer_r4.jsonl"
+}

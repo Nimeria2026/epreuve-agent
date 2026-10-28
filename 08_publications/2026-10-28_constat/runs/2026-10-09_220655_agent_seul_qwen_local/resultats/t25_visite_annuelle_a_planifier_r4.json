@@ -1,0 +1,47 @@
+{
+  "run": "2026-10-09_220655_agent_seul_qwen_local",
+  "tache": {
+    "identifiant": "t25_visite_annuelle_a_planifier",
+    "version": 3
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-10T05:59:38.037927Z",
+  "fin_utc": "2026-10-10T06:02:06.580578Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 21,
+  "jetons": {
+    "entree": 164304,
+    "entree_en_cache": "?",
+    "sortie": 5075
+  },
+  "cout_dollars": "?",
+  "energie_wh": 10.208166937073027,
+  "duree_secondes": 148.5426470980019,
+  "journal": "journaux/t25_visite_annuelle_a_planifier_r4.jsonl"
+}

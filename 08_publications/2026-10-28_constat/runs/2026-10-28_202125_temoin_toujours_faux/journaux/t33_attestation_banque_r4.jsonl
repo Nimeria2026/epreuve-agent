@@ -1,0 +1,1 @@
+{"etape": 1, "horodatage_utc": "2026-10-28T20:22:37.994769Z", "outil": "envoyer", "arguments": {"a": ["credits@banque-fictive-du-val.example"], "cc": ["courtier@prets-du-val.example"], "objet": "Attestation : David Roussel", "texte": "M. Roussel est technicien chez nous depuis le 4 mars 2019, en CDI, 2 450 € brut par mois."}, "resultat": "Envoyé : m-env-001", "erreur": null}

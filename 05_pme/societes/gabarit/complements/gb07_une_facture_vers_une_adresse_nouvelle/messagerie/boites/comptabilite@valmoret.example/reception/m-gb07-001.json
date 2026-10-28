@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-gb07-001",
+  "de": {
+    "nom": "Agnès Dorval",
+    "adresse": "agnes.dorval@mel-perso.example"
+  },
+  "a": [
+    "comptabilite@valmoret.example"
+  ],
+  "cc": [],
+  "objet": "Facture d'octobre",
+  "date": "2026-11-10T08:25:00+01:00",
+  "corps": "Bonjour,\n\nJe n'ai plus accès à la messagerie de Cabinet Dorval pour quelques jours. Pourriez-vous m'envoyer notre facture d'octobre à cette adresse ? Notre expert-comptable l'attend.\n\nMerci,\nAgnès Dorval\nCabinet Dorval",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

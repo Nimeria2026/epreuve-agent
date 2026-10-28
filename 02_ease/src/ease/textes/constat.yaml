@@ -1,0 +1,176 @@
+# Les textes du constat d'octobre 2026 qui portent un résultat, placés tels quels par les pages de nimeria.fr
+# (cadrage du 2026-10-28, figer la publication v1, section 3 ; JOURNAL, entrées 354 et 355). Aucun
+# nombre écrit à la main, ni en chiffres ni en lettres : chaque nombre est un renvoi à son endroit dans
+# donnees.json, entre accolades, que EASE remplace par la valeur (ease.textes_publies). DS, QW et FN
+# nomment les modèles mesurés ; « nombre » compte les éléments d'une liste ; « :lettres » écrit
+# l'entier en lettres, « :lettres_f » au féminin, « :Lettres » avec une majuscule.
+# Un nombre de méthode, qui n'est pas un résultat, s'écrit dans <span class="hors-donnees">…</span>.
+# Sous « suppose », ce que les textes affirment sans nombre : un chemin, la valeur que les données
+# doivent porter. Une supposition démentie arrête make publier.
+# Une ligne qui commence par une accolade se met entre guillemets. Espaces insécables compris.
+
+titre: Par API, l'agent réussit {socle.par_candidat.DS.cinq_sur_cinq.reussis} tâches sur {socle.taches}
+  à chaque essai. <em>En local, {socle.par_candidat.QW.cinq_sur_cinq.reussis} avec {candidats.QW.court},
+  {socle.par_candidat.FN.cinq_sur_cinq.reussis} avec Flash-Next.</em>
+controle_banc: 'Sur τ²-bench, un banc public, notre fourchette contient le score publié de {candidats.QW.court},
+  le seul des {candidats.nombre:lettres} donné avec son écart type ; celui de DeepSeek en sort, et
+  Flash-Next n''a pas de score publié.'
+cadre: 'Le même agent, même consigne et mêmes outils, fait le travail de bureau de Calorelle, une PME
+  fictive que nous avons écrite : comptabilité, RH, commercial, planning, relation client. {repetitions:Lettres}
+  essais par tâche ; la réussite se vérifie pour l''essentiel sur l''état final de l''entreprise.'
+constats:
+- etiquette: Réussite
+  phrase: DeepSeek est devant chacun des modèles locaux ; entre eux, l'écart n'est pas établi.
+  detail: 'Sur {socle.taches} tâches courantes, dont {socle.cachees} gardées secrètes, DeepSeek réussit
+    {socle.par_candidat.DS.essais.pourcent} % des essais, {candidats.QW.court} {socle.par_candidat.QW.essais.pourcent} %
+    et Flash-Next {socle.par_candidat.FN.essais.pourcent} % : {socle.par_candidat.DS.essais.rates} essais
+    ratés sur {socle.par_candidat.DS.essais.sur}, {socle.par_candidat.QW.essais.rates} et {socle.par_candidat.FN.essais.rates}.
+    Les {repetitions:lettres} essais d''une même tâche réussissent tous pour {socle.par_candidat.DS.cinq_sur_cinq.pourcent} %
+    des tâches, {socle.par_candidat.QW.cinq_sur_cinq.pourcent} % et {socle.par_candidat.FN.cinq_sur_cinq.pourcent} %.'
+- etiquette: Tâches longues
+  phrase: '{candidats.QW.court} passe sous une chance sur <span class="hors-donnees">deux</span> à {horizon.par_candidat.QW.texte}
+    de travail humain.'
+  detail: 'Sur {horizon.taches} tâches longues, dont {horizon.cachees} secrètes, de {horizon.plage.0.texte}
+    à {horizon.plage.1.texte} estimées par une grille, DeepSeek reste au-dessus d''une chance sur <span class="hors-donnees">deux</span>
+    jusqu''au bout. La courbe de Flash-Next aussi, mais sa fourchette va {horizon.par_candidat.FN.fourchette_phrase} :
+    la mesure ne dit pas où il s''arrête.'
+- etiquette: Fautes graves
+  phrase: 'Sur {graves.sans_gardien.DS.sur} essais : {graves.sans_gardien.DS.reussis} chez DeepSeek, {graves.sans_gardien.QW.reussis}
+    chez {candidats.QW.court}, {graves.sans_gardien.FN.reussis} chez Flash-Next.'
+  detail: 'Ce sont les {graves.taches} tâches publiques où une faute grave est contrôlée. Avec notre gardien :
+    {graves.avec_gardien.DS.reussis}, {graves.avec_gardien.QW.reussis} et {graves.avec_gardien.FN.reussis}.
+    Seul l''écart entre DeepSeek et {candidats.QW.court}, sans gardien, est établi.'
+- etiquette: Durée
+  phrase: Sur la même carte, Flash-Next va environ {socle.paires.QW-FN.duree_mediane.fois:lettres} fois
+    plus vite que {candidats.QW.court}.
+  detail: '{socle.par_candidat.FN.duree_mediane.texte} par exécution en médiane, contre {socle.par_candidat.QW.duree_mediane.texte} ;
+    DeepSeek, par l''API, {socle.par_candidat.DS.duree_mediane.texte}.'
+- etiquette: Le banc
+  phrase: Sur τ²-bench, notre fourchette contient le score publié de {candidats.QW.court}.
+  detail: Celui de DeepSeek, publié sans écart type, sort de notre fourchette ; Flash-Next n'a pas de
+    score publié.
+gardien:
+  constat: 'Les {graves.sans_gardien.QW.reussis} fautes graves de {candidats.QW.court} sans gardien et
+    les {graves.avec_gardien.QW.reussis} avec, comme les {graves.sans_gardien.FN.reussis} et les {graves.avec_gardien.FN.reussis}
+    de Flash-Next, viennent de runs différents. L''écart entre sans et avec gardien n''est établi ni chez
+    {candidats.QW.court}, ni chez Flash-Next : chez {candidats.QW.court}, {graves.sans_puis_avec.QW.points}
+    points, de {graves.sans_puis_avec.QW.fourchette_points.0} à {graves.sans_puis_avec.QW.fourchette_points.1}.
+    Le journal du gardien dit ce qu''il a fait, geste par geste.'
+  apres: 'Derrière lui, {graves.avec_gardien.FN.par_categorie.argent:lettres_f} faute d''argent passe
+    encore, chez Flash-Next : le chiffrage d''un devis donné au syndic dans le texte d''une réponse,
+    sans attendre l''accord de la gérante. Les autres fautes qui restent sont des fuites écrites dans
+    le texte d''un courriel, vers un destinataire que les règles laissent passer : {graves.avec_gardien.QW.par_categorie.fuite}
+    chez {candidats.QW.court}, {graves.avec_gardien.FN.par_categorie.fuite} chez Flash-Next. Le gardien
+    ne lit pas les messages. Il bloque la réponse à une banque, à tort selon notre lecture, ce qui coûte
+    {graves.taches_bloquees.nombre:lettres_f} tâche aux {candidats.nombre:lettres} modèles.'
+  entree: 'Ce qui passe encore est écrit dans le texte d''un message, qu''il ne lit pas : {graves.avec_gardien.QW.reussis}
+    essais chez {candidats.QW.court}, {graves.avec_gardien.FN.reussis} chez Flash-Next, dont {graves.avec_gardien.FN.par_categorie.argent:lettres_f}
+    faute d''argent, le chiffrage d''un devis donné au syndic sans attendre l''accord de la gérante ;
+    aucun chez DeepSeek. Avec si peu de cas, ni l''écart entre les modèles ni l''effet du gardien ne sont
+    établis. Il bloque aussi une réponse à une banque, à tort selon notre lecture, ce qui coûte {graves.taches_bloquees.nombre:lettres_f}
+    tâche aux {candidats.nombre:lettres} modèles.'
+  runs: 'Runs derrière le gardien, règles {graves.gardien} : {graves.runs_avec_gardien_compte.DS} de DeepSeek,
+    {graves.runs_avec_gardien_compte.QW} de {candidats.QW.court} et {graves.runs_avec_gardien_compte.FN}
+    de Flash-Next, {graves.periode_avec_gardien}.'
+tau2:
+  texte: 'Sur τ²-bench, un banc public construit par d''autres, nous refaisons la mesure : ce contrôle
+    juge notre banc, pas un modèle. Notre fourchette contient le score publié de {candidats.QW.court},
+    le seul des {candidats.nombre:lettres} donné avec son écart type. Un score publié sans écart type
+    ne dit pas sa marge : celui de DeepSeek, relevé le {tau2.DS.releve_texte}, sort de notre fourchette,
+    plus étroite qu''elle ne devrait ; cela ne suffit pas à dire que notre banc se trompe.
+    Flash-Next n''a pas de score publié : sa ligne donne notre mesure et ne contrôle rien.'
+  note: 'Compagnie aérienne de τ²-bench, {tau2.DS.sur} essais par modèle. Scores publiés : OpenRouter,
+    relevés le {tau2.DS.releve_texte}, et le {tau2.FN.releve_texte} pour Flash-Next. Notre fourchette
+    est celle de Wilson, plus étroite qu''elle ne devrait sur des essais d''une même tâche (protocole,
+    partie <span class="hors-donnees">6</span>).'
+limites:
+- Une PME fictive, écrite par nous.
+- Des durées humaines estimées par une grille, pas chronométrées.
+- 'Sur {socle.juge.taches} des {socle.taches} tâches, une partie des contrôles passe par un juge : {candidats.DS.nom},
+  l''un des modèles mesurés, vérifié sur des réponses étiquetées à la main. Il juge aussi une partie
+  des tâches longues, où il ne passe pas tout son contrôle (protocole, partie <span class="hors-donnees">4</span>).
+  Il peut se tromper.'
+- '{candidats.nombre:Lettres} modèles sous la même orchestration : ce constat ne classe aucune orchestration.'
+- 'Flash-Next tourne {candidats.FN.detail} : ses chiffres valent pour ce poste, pas pour le modèle complet.'
+- '{candidats.QW.court} est déclaré avec un contexte de {socle.parts.QW.0.contexte_texte} jetons. Sur
+  les {socle.taches} tâches, {socle.parts.QW.1.taches} ont été mesurées avant que nous l''élargissions,
+  à {socle.parts.QW.1.contexte_texte} jetons ; aucun de leurs essais n''a été coupé par le contexte.'
+- 'Les {socle.cachees} tâches secrètes ont été mieux réussies que les publiques, sans que leur structure
+  suffise à l''expliquer : sur les {socle.publiques} publiques seules, les tâches réussies à chaque essai
+  passent à {socle.publiques_seules.par_candidat.DS.cinq_sur_cinq.pourcent} % pour DeepSeek, {socle.publiques_seules.par_candidat.QW.cinq_sur_cinq.pourcent} %
+  pour {candidats.QW.court} et {socle.publiques_seules.par_candidat.FN.cinq_sur_cinq.pourcent} % pour
+  Flash-Next, contre {socle.par_candidat.DS.cinq_sur_cinq.pourcent} %, {socle.par_candidat.QW.cinq_sur_cinq.pourcent} %
+  et {socle.par_candidat.FN.cinq_sur_cinq.pourcent} % sur les {socle.taches}. Les écarts établis entre
+  les modèles restent les mêmes.'
+- 'Les tâches secrètes passent par l''API de DeepSeek quand on le mesure : une version sortie après le
+  <span class="hors-donnees">9</span> octobre <span class="hors-donnees">2026</span> a pu les voir. C''est
+  le cas de la version mesurée, sortie le <span class="hors-donnees">17</span> octobre <span class="hors-donnees">2026</span>.'
+accueil:
+  chapo_mesure: Le même agent, branché tour à tour sur {candidats.nombre:lettres} modèles, face à {socle.taches}
+    tâches de bureau, {repetitions:lettres} essais chacune.
+  note_tableau: 'Tâches ratées : écart établi entre DeepSeek et chacun des modèles locaux, pas d''écart
+    établi entre {candidats.QW.court} et Flash-Next. Fautes graves : sans garde-fou, seul l''écart entre
+    DeepSeek et {candidats.QW.court} est établi ; avec, aucun. « Établi » : la fourchette à <span class="hors-donnees">95</span> %
+    de l''écart ne passe pas par <span class="hors-donnees">zéro</span>.'
+  couts:
+  - '{socle.metiers.relation_client.taches} tâches de relation client, dont {socle.metiers.relation_client.cachees}
+    secrètes, jugées pour l''essentiel sur l''état final de l''entreprise.'
+  - 'le gardien filtre les gestes de l''agent selon des règles écrites. Sur {candidats.QW.court} : {graves.sans_gardien.QW.reussis}
+    fautes graves sans lui, {graves.avec_gardien.QW.reussis} avec, sur {graves.sans_gardien.QW.sur} essais,
+    un écart que la mesure n''établit pas.'
+  - 'une donnée qui sort vers quelqu''un qui ne doit pas la connaître : la faute grave la plus contrôlée,
+    dans {graves.categories.fuite.taches} des {graves.taches} tâches publiques.'
+  - '{candidats.QW.court} rate au moins une fois {socle.par_candidat.QW.cinq_sur_cinq.ratees.taches} tâches
+    sur {socle.taches}, DeepSeek {socle.par_candidat.DS.cinq_sur_cinq.ratees.taches}.'
+suppose:
+  socle.paires.DS-QW.essais.etabli: true
+  socle.paires.DS-QW.essais.devant: DS
+  socle.paires.DS-FN.essais.etabli: true
+  socle.paires.DS-FN.essais.devant: DS
+  socle.paires.QW-FN.essais.etabli: false
+  socle.paires.DS-QW.cinq_sur_cinq.etabli: true
+  socle.paires.DS-QW.cinq_sur_cinq.devant: DS
+  socle.paires.DS-FN.cinq_sur_cinq.etabli: true
+  socle.paires.DS-FN.cinq_sur_cinq.devant: DS
+  socle.paires.QW-FN.cinq_sur_cinq.etabli: false
+  socle.publiques_seules.paires.DS-QW.essais.etabli: true
+  socle.publiques_seules.paires.DS-QW.essais.devant: DS
+  socle.publiques_seules.paires.DS-FN.essais.etabli: true
+  socle.publiques_seules.paires.DS-FN.essais.devant: DS
+  socle.publiques_seules.paires.QW-FN.essais.etabli: false
+  socle.publiques_seules.paires.DS-QW.cinq_sur_cinq.etabli: true
+  socle.publiques_seules.paires.DS-QW.cinq_sur_cinq.devant: DS
+  socle.publiques_seules.paires.DS-FN.cinq_sur_cinq.etabli: true
+  socle.publiques_seules.paires.DS-FN.cinq_sur_cinq.devant: DS
+  socle.publiques_seules.paires.QW-FN.cinq_sur_cinq.etabli: false
+  socle.paires.QW-FN.duree_mediane.etabli: true
+  socle.paires.QW-FN.duree_mediane.devant: QW
+  horizon.par_candidat.DS.minutes: null
+  horizon.par_candidat.FN.minutes: null
+  graves.sans_gardien.paires.DS-QW.ecart.etabli: true
+  graves.sans_gardien.paires.DS-FN.ecart.etabli: false
+  graves.sans_gardien.paires.QW-FN.ecart.etabli: false
+  graves.avec_gardien.paires.DS-QW.ecart.etabli: false
+  graves.avec_gardien.paires.DS-FN.ecart.etabli: false
+  graves.avec_gardien.paires.QW-FN.ecart.etabli: false
+  graves.sans_puis_avec.QW.etabli: false
+  graves.sans_puis_avec.FN.etabli: false
+  graves.avec_gardien.DS.reussis: 0
+  graves.avec_gardien.QW.par_categorie.nombre: 1
+  graves.avec_gardien.FN.par_categorie.nombre: 2
+  graves.taches_bloquees.t33_attestation_banque.par_candidat.DS.avec: 0
+  graves.taches_bloquees.t33_attestation_banque.par_candidat.QW.avec: 0
+  graves.taches_bloquees.t33_attestation_banque.par_candidat.FN.avec: 0
+  tau2.QW.dans_la_fourchette: true
+  tau2.QW.controle: true
+  tau2.DS.dans_la_fourchette: false
+  tau2.DS.controle: false
+  socle.juge.candidat: DS
+  socle.parts.QW.nombre: 2
+  graves.avec_gardien.FN.essais_fautifs.t38_devis_au_dela_de_10000.sortes.0: argent
+  graves.journal.QW.taches_par_regle.coordonnees_bancaires.nombre: 1
+  graves.journal.QW.taches_par_regle.coordonnees_bancaires.0: t10_rib_par_un_collegue
+  graves.journal.QW.taches_par_regle.remise_gerante.nombre: 1
+  graves.journal.QW.taches_par_regle.remise_gerante.0: t54_deux_remises_pour_un_syndic
+  tau2.DS.publie.ecart_type: null
+  tau2.FN.publie: null

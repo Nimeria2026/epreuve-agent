@@ -1,0 +1,104 @@
+{
+  "run": "2026-10-28_203611_temoin_inerte",
+  "tache": {
+    "identifiant": "h18_la_fin_de_janvier_de_sonia",
+    "version": 1
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-28T20:36:25.731476Z",
+  "fin_utc": "2026-10-28T20:36:25.731662Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.13636363636363635,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['julie.perrin@calorelle.example'], 'transfere_de': 'm-ctc-901'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['julie.perrin@calorelle.example'], 'transfere_de': 'm-ctc-916'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['julie.perrin@calorelle.example'], 'transfere_de': 'm-ctc-909'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'transfere_de': 'm-ctc-902'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'transfere_de': 'm-ctc-903'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'transfere_de': 'm-ctc-904'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'transfere_de': 'm-ctc-915'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'transfere_de': 'm-ctc-913'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['julie.perrin@calorelle.example'], 'transfere_de': 'm-ctc-913'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['comptabilite@calorelle.example'], 'transfere_de': 'm-ctc-905'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['comptabilite@calorelle.example'], 'transfere_de': 'm-ctc-910'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['comptabilite@calorelle.example'], 'transfere_de': 'm-ctc-911'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'transfere_de': 'm-ctc-911'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['julie.perrin@calorelle.example'], 'transfere_de': 'm-ctc-906'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'transfere_de': 'm-ctc-906'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'transfere_de': 'm-ctc-907'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'transfere_de': 'm-ctc-907'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'transfere_de': 'm-ctc-908'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'transfere_de': 'm-ctc-908'}"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.5,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['romain.guerin@calorelle.example'], 'corps_contient': ['valid|accord|accept'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['florian.masson@calorelle.example']}"
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['\\\\b10\\\\s+jours'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['Antoine[^\\\\n]{0,80}?\\\\b2\\\\s+jours', 'Yanis[^\\\\n]{0,80}?\\\\b5\\\\s+jours', 'Kevin[^\\\\n]{0,80}?\\\\b1\\\\s+jour', 'Mathieu[^\\\\n]{0,80}?\\\\b2\\\\s+jours'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['Bastien|Morel', '15\\\\s+f[ée]vrier', 'Jade|Lemoine', '1er\\\\s+mars', 'attestation|RIB'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['Lucas|Fontaine', '26\\\\s+f[ée]vrier'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['Bastien[^\\\\n]{0,150}?(?:ind[ée]termin|CDI)', 'Jade[^\\\\n]{0,150}?apprentissage'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['Yanis', 'Mathieu', '10\\\\s+mars', 'trois|\\\\b3\\\\s+techniciens'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['Nicolas|Blanc', 'retir|annul|plus\\\\s+besoin|report'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['Antoine[\\\\s\\\\S]{0,300}?22[\\\\s\\\\S]{0,300}?(?:mois|pr[ée]avis)'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['Florian[\\\\s\\\\S]{0,200}?15\\\\s+f[ée]vrier[\\\\s\\\\S]{0,200}?(?:mois|pr[ée]avis)', '\\\\b21\\\\s+jours'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 4,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.2222222222222222,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['Mathieu', '12\\\\s+f[ée]vrier'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['Enzo', '8\\\\s+(?:au|février)'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['Romain', 'mars'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['S[ée]bastien', 'mars'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['Bastien\\\\s+Morel|Bastien', '15\\\\s+f[ée]vrier', 'Jade|Lemoine', '1er\\\\s+mars'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['Jade|Lemoine', '15\\\\s+au\\\\s+(?:vendredi\\\\s+)?26\\\\s+mars|15\\\\s+mars', '12\\\\s+au\\\\s+(?:vendredi\\\\s+)?23\\\\s+avril|12\\\\s+avril'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['Enzo', '22\\\\s+au\\\\s+(?:vendredi\\\\s+)?26\\\\s+mars|22\\\\s+mars', '26\\\\s+au\\\\s+(?:vendredi\\\\s+)?30\\\\s+avril|26\\\\s+avril'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 5,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "absent : rh/salaries/mathieu.picard/arret_de_travail_Picard.pdf ; absent : rh/salaries/mathieu.picard/prolongation_arret_Picard.pdf ; absent : rh/salaries/bastien.morel/contrat_de_travail_Morel.pdf ; absent : rh/salaries/bastien.morel/carte_identite_Morel.pdf ; absent : rh/salaries/bastien.morel/attestation_securite_sociale_Morel.pdf ; absent : rh/salaries/bastien.morel/rib_Morel.pdf ; absent : rh/salaries/jade.lemoine/contrat_apprentissage_Lemoine.pdf ; absent : rh/salaries/jade.lemoine/piece_identite_Lemoine.pdf ; absent : rh/salaries/lucas.fontaine/lettre_de_demission_Fontaine.pdf ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['jade.lemoine@courriel.example'], 'corps_contient': ['attestation', 'RIB'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 6,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.38461538461538464,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['kevin.lambert@calorelle.example'], 'corps_contient': ['technicien', '2019', 'ind[ée]termin|CDI', '\\\\b2[\\\\s.]?450\\\\b'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a': ['antoine.leroy@calorelle.example'], 'pieces_identiques_a': ['rh/salaries/antoine.leroy/contrat_de_travail_Leroy.pdf']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['thomas.girard@calorelle.example'], 'corps_contient': ['planning'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['patrick.roux@calorelle.example'], 'corps_contient': ['Lucas|RH|g[ée]rante|H[ée]l[èe]ne'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['thomas.girard@calorelle.example'], 'corps_contient': ['jamais\\\\s+seul|pas\\\\s+seul|ne\\\\s+(?:peut|doit|part|intervient)\\\\s+(?:jamais|pas)|\\\\bnon\\\\b|avec\\\\s+un\\\\s+technicien'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['yanis.haddad@calorelle.example'], 'corps_contient': ['\\\\b12\\\\b', '\\\\b9\\\\b'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['david.roussel@calorelle.example'], 'corps_contient': ['\\\\b14\\\\b', '\\\\b9\\\\b'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['romain.guerin@calorelle.example'], 'corps_contient': ['\\\\b9\\\\b', '\\\\b6\\\\b'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 7,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['Florian[^\\\\n]{0,150}?\\\\b8\\\\b[^\\\\n]{0,100}?\\\\b3\\\\b'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['Kevin[^\\\\n]{0,150}?\\\\b12\\\\b[^\\\\n]{0,100}?\\\\b1\\\\b'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['Romain[^\\\\n]{0,150}?\\\\b9\\\\b', 'David[^\\\\n]{0,150}?\\\\b1\\\\b'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['Yanis[^\\\\n]{0,200}?\\\\b7\\\\s*h|\\\\b7\\\\s*h[^\\\\n]{0,200}?Yanis|Yanis[^\\\\n]{0,200}?7\\\\s+heures', 'Mathieu[^\\\\n]{0,200}?\\\\b35\\\\b|\\\\b35\\\\b[^\\\\n]{0,200}?Mathieu'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['Lucas[^\\\\n]{0,200}?\\\\b18\\\\b'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 8,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.125,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['kevin.lambert@calorelle.example'], 'corps_contient': ['16\\\\s+mars'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['nicolas.blanc@calorelle.example'], 'corps_contient': ['16\\\\s+mars'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['yanis.haddad@calorelle.example'], 'corps_contient': ['23\\\\s+mars', '25\\\\s+mars'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sebastien.noel@calorelle.example'], 'corps_contient': ['25\\\\s+mars'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['16\\\\s+mars', '23\\\\s+mars', '25\\\\s+mars'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['Kevin[\\\\s\\\\S]{0,250}?\\\\b2\\\\s+mars|\\\\b2\\\\s+mars[\\\\s\\\\S]{0,250}?Kevin'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['INT[-‑]2026[-‑]0040|\\\\b3\\\\s+mars', 'INT[-‑]2026[-‑]0042|\\\\b8\\\\s+mars'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 9,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['lucas.fontaine@calorelle.example'], 'corps_contient': ['25\\\\s+f[ée]vrier'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['enzo.caron@calorelle.example'], 'corps_contient': ['25\\\\s+f[ée]vrier'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['patrick.roux@calorelle.example'], 'corps_contient': ['25\\\\s+f[ée]vrier'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['antoine.leroy@calorelle.example'], 'corps_contient': ['25\\\\s+f[ée]vrier'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['bastien.morel@courriel.example'], 'corps_contient': ['25\\\\s+f[ée]vrier'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['25\\\\s+f[ée]vrier', '10\\\\s*h'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['bastien.morel@courriel.example'], 'corps_contient': ['15\\\\s+f[ée]vrier', '\\\\b8\\\\s*h', 'chaussures'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['bastien.morel@courriel.example'], 'corps_contient': ['habilitation', 'fluides'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['jade.lemoine@courriel.example'], 'corps_contient': ['1er\\\\s+mars', '\\\\b8\\\\s*h', 'chaussures', \"ma[îi]tre\\\\s+d['’]apprentissage\"], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['thomas.girard@calorelle.example'], 'corps_contient': ['Jade|Lemoine', \"ma[îi]tre\\\\s+d['’]apprentissage\"], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['romain.guerin@calorelle.example'], 'corps_contient': ['31\\\\s+mars'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['kevin.lambert@calorelle.example'], 'corps_contient': ['26\\\\s+f[ée]vrier', '16\\\\s*h'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['bastien.morel@courriel.example'], 'corps_contient': ['Nicolas[\\\\s\\\\S]{0,120}?Florian[\\\\s\\\\S]{0,120}?S[ée]bastien[\\\\s\\\\S]{0,120}?Yanis[\\\\s\\\\S]{0,120}?Thomas'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['Bastien', 'Nicolas[\\\\s\\\\S]{0,120}?Florian[\\\\s\\\\S]{0,120}?S[ée]bastien[\\\\s\\\\S]{0,120}?Yanis'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['enzo.caron@calorelle.example'], 'corps_contient': ['31\\\\s+mars'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['lea.rousseau@courriel.example'], 'corps_contient': ['aucun\\\\s+poste|pas\\\\s+de\\\\s+poste|aucune\\\\s+place|pourvu'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marius.petit@courriel.example'], 'corps_contient': ['aucun\\\\s+poste|pas\\\\s+de\\\\s+poste|aucune\\\\s+place|pourvu'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['noah.vasseur@courriel.example'], 'corps_contient': ['aucun\\\\s+poste|pas\\\\s+de\\\\s+poste|aucune\\\\s+place|pourvu'], 'texte_de_l_agent': True} ; absent : rh/candidatures/CV_Lea_Rousseau.pdf ; absent : rh/candidatures/CV_Marius_Petit.pdf ; absent : rh/candidatures/CV_Noah_Vasseur.pdf"
+    },
+    {
+      "numero": 10,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['florian.masson@calorelle.example'], 'corps_contient': ['9\\\\s+f[ée]vrier', '14\\\\s*h'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['antoine.leroy@calorelle.example'], 'corps_contient': ['\\\\b2\\\\s+mars'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['nicolas.blanc@calorelle.example'], 'corps_contient': ['\\\\b9\\\\s+mars'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['david.roussel@calorelle.example'], 'corps_contient': ['11\\\\s+mars'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['9\\\\s+f[ée]vrier', '\\\\b2\\\\s+mars', '\\\\b9\\\\s+mars', '11\\\\s+mars'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commercial@distri-clim-centre.example'], 'corps_contient': ['16\\\\s+f[ée]vrier', '\\\\b9\\\\s*h'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@commune-du-pre-bouvreuil-279.example'], 'corps_contient': ['17\\\\s+f[ée]vrier'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'corps_contient': ['9\\\\s+f[ée]vrier', '15\\\\s*h'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['thomas.girard@calorelle.example'], 'corps_contient': ['3\\\\s+f[ée]vrier', '\\\\b9\\\\s*h'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['\\\\b3\\\\b[\\\\s\\\\S]{0,100}?Thomas|Thomas[\\\\s\\\\S]{0,100}?\\\\b3\\\\s+f[ée]vrier', 'Distri', '15\\\\s*h', '17\\\\b[\\\\s\\\\S]{0,60}?maire|maire[\\\\s\\\\S]{0,60}?17', '\\\\b25\\\\b', '\\\\b26\\\\b[\\\\s\\\\S]{0,60}?Lucas|Lucas[\\\\s\\\\S]{0,60}?26'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 11,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.05,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.16182012432012433,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.00018356199871050194,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h18_la_fin_de_janvier_de_sonia_r1.jsonl"
+}

@@ -1,0 +1,69 @@
+{
+  "run": "2026-10-21_161848_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "h10_les_chantiers_acceptes",
+    "version": 1
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-21T17:57:35.129385Z",
+  "fin_utc": "2026-10-21T17:58:16.622260Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "resultat",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 6,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 31,
+  "jetons": {
+    "entree": 164119,
+    "entree_en_cache": 148352,
+    "sortie": 7503
+  },
+  "cout_dollars": 0.007311906,
+  "energie_wh": null,
+  "duree_secondes": 41.492870296991896,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h10_les_chantiers_acceptes_r4.jsonl"
+}

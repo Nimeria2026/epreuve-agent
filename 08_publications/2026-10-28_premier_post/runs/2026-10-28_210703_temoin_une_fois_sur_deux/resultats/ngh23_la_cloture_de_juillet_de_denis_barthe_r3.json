@@ -1,0 +1,104 @@
+{
+  "run": "2026-10-28_210703_temoin_une_fois_sur_deux",
+  "tache": {
+    "identifiant": "ngh23_la_cloture_de_juillet_de_denis_barthe",
+    "version": 1
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-28T21:07:10.580023Z",
+  "fin_utc": "2026-10-28T21:07:10.802387Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.14,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.12,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "resultat",
+      "poids": 0.18,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "resultat",
+      "poids": 0.06,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "respect_des_regles",
+      "poids": 0.08,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 6,
+      "famille": "respect_des_regles",
+      "poids": 0.08,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 7,
+      "famille": "respect_des_regles",
+      "poids": 0.06,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 8,
+      "famille": "respect_des_regles",
+      "poids": 0.06,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 9,
+      "famille": "respect_des_regles",
+      "poids": 0.07,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 10,
+      "famille": "resultat",
+      "poids": 0.03,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 11,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.12,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 139,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.22236114899715176,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/ngh23_la_cloture_de_juillet_de_denis_barthe_r3.jsonl"
+}

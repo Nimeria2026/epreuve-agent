@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-26_120743_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "t29_creneau_deja_pris",
+    "version": 2
+  },
+  "repetition": 5,
+  "debut_utc": "2026-10-26T15:02:59.275970Z",
+  "fin_utc": "2026-10-26T15:03:12.301572Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "contenu",
+      "poids": 0.5,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['camille.martin@courriel.example'], 'corps_contient': ['\\\\b12\\\\s+novembre|\\\\b12/11', '\\\\b13\\\\s*h\\\\s*30|\\\\b13:30']}"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.5,
+  "reussie": false,
+  "etapes": 4,
+  "jetons": {
+    "entree": 12058,
+    "entree_en_cache": 11050,
+    "sortie": 584
+  },
+  "cout_dollars": "?",
+  "energie_wh": 0.7338972081304616,
+  "duree_secondes": 13.025596815998142,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t29_creneau_deja_pris_r5.jsonl"
+}

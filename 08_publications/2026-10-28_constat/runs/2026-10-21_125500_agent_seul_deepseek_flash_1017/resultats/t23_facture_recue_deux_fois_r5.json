@@ -1,0 +1,41 @@
+{
+  "run": "2026-10-21_125500_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t23_facture_recue_deux_fois",
+    "version": 2
+  },
+  "repetition": 5,
+  "debut_utc": "2026-10-21T13:45:49.477689Z",
+  "fin_utc": "2026-10-21T13:46:18.229960Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 19,
+  "jetons": {
+    "entree": 60758,
+    "entree_en_cache": 53888,
+    "sortie": 4527
+  },
+  "cout_dollars": 0.003908363999999999,
+  "energie_wh": null,
+  "duree_secondes": 28.752265085000545,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t23_facture_recue_deux_fois_r5.jsonl"
+}

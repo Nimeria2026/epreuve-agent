@@ -1,0 +1,83 @@
+{
+  "run": "2026-10-28_203544_temoin_une_fois_sur_deux",
+  "tache": {
+    "identifiant": "h14_le_retour_d_helene_marchal",
+    "version": 1
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-28T20:35:51.468697Z",
+  "fin_utc": "2026-10-28T20:35:51.468880Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['patrick.roux@calorelle.example'], 'corps_contient': ['DC[-‑]5602'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['patrick.roux@calorelle.example'], 'corps_contient': ['FHF[-‑]26[-‑]150'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['patrick.roux@calorelle.example'], 'corps_contient': ['DC[-‑]5661'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['patrick.roux@calorelle.example'], 'corps_contient': ['\\\\b6[\\\\s.]?948\\\\b'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 0.2222222222222222,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['julie.perrin@calorelle.example'], 'corps_contient': [\"DV[-‑]2026[-‑]015(?:(?!DV[-‑]\\\\d{4}[-‑]\\\\d{3})[\\\\s\\\\S]){0,400}?(?:d['’]accord|accord|valid|peux\\\\s+l['’]envoyer|bon\\\\s+pour)\"], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['julie.perrin@calorelle.example'], 'corps_contient': [\"DV[-‑]2026[-‑]018(?:(?!DV[-‑]\\\\d{4}[-‑]\\\\d{3})[\\\\s\\\\S]){0,400}?(?:d['’]accord|accord|valid|peux\\\\s+l['’]envoyer|bon\\\\s+pour)\"], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['julie.perrin@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]016(?:(?!DV[-‑]\\\\d{4}[-‑]\\\\d{3})[\\\\s\\\\S]){0,400}?20\\\\s?%'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['julie.perrin@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]021(?:(?!DV[-‑]\\\\d{4}[-‑]\\\\d{3})[\\\\s\\\\S]){0,400}?20\\\\s?%'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]017(?:(?!DV[-‑]\\\\d{4}[-‑]\\\\d{3})[\\\\s\\\\S]){0,400}?20\\\\s?%'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]019(?:(?!DV[-‑]\\\\d{4}[-‑]\\\\d{3})[\\\\s\\\\S]){0,400}?\\\\b28\\\\b'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]020(?:(?!DV[-‑]\\\\d{4}[-‑]\\\\d{3})[\\\\s\\\\S]){0,400}?remise'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]012', 'DV[-‑]2026[-‑]008'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['julie.perrin@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]010', 'DV[-‑]2026[-‑]013', 'DV[-‑]2026[-‑]014'], 'texte_de_l_agent': True} ; juge requis, non évalué : Le courriel accorde la remise de 5 % sur DV-2026-012 et refuse celle de 8 % sur DV-2026-008.\n ; juge requis, non évalué : Le courriel accorde la remise de 4 % sur DV-2026-013 et refuse celles de DV-2026-010 et de DV-2026-014.\n"
+    },
+    {
+      "numero": 4,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['thomas.girard@calorelle.example'], 'corps_contient': ['jamais\\\\s+seul|pas\\\\s+seul|ne\\\\s+(?:peut|doit|part|intervient)\\\\s+(?:jamais|pas)|\\\\bnon\\\\b|accompagn|avec\\\\s+un\\\\s+technicien'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['patrick.roux@calorelle.example'], 'corps_contient': ['Kevin|Lambert', '\\\\b10[,.]00\\\\b|\\\\b10\\\\s?€|95[,.]40'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['kevin.lambert@calorelle.example'], 'corps_contient': ['95[,.]40|\\\\b10[,.]00\\\\b|\\\\b10\\\\s?€'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['florian.masson@calorelle.example']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['nicolas.blanc@calorelle.example']} ; juge requis, non évalué : Le courriel ne promet au salarié aucun remboursement de plus que ce que Patrick lui a versé.\n"
+    },
+    {
+      "numero": 5,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['julie.perrin@calorelle.example'], 'corps_contient': ['Petit']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['julie.perrin@calorelle.example'], 'corps_contient': ['Mercier']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['julie.perrin@calorelle.example'], 'corps_contient': ['Garnier|c-0034']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['julie.perrin@calorelle.example'], 'corps_contient': ['Nathalie\\\\s+Gu[ée]rin|c-0032']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'corps_contient': ['Gr[èe]ves|c-0273']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'corps_contient': ['Hautes[- ]Fresnes|c-0344']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'corps_contient': ['Brenneval|c-0304', 'r[ée]clam|visite|entretien|s[ée]curit']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'corps_contient': ['Pr[ée][- ]Bouvreuil|c-0279']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['Boyer|c-0089']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['Camille\\\\s+Martin|c-0066']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['Legrand|c-0036']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['comptabilite@calorelle.example'], 'corps_contient': ['PV[-‑]26[-‑]0450']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['comptabilite@calorelle.example'], 'corps_contient': ['F[-‑]2026[-‑]1103']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sonia.lefevre@calorelle.example'], 'corps_contient': ['Carpentier']}"
+    },
+    {
+      "numero": 6,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['bernard.petit@courriel.example']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@etablissements-mercier-168.example']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@syndic-de-la-residence-des-greves-273.example']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@syndic-de-la-residence-de-brenneval-304.example']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@commune-des-hautes-fresnes-344.example']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@commune-du-pre-bouvreuil-279.example']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['patrick.boyer@courriel.example']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['aurelie.garnier@courriel.example']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['nathalie.guerin@courriel.example']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['camille.martin@courriel.example']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.legrand@courriel.example'], 'corps_contient': ['\\\\bseptembre\\\\s+2027\\\\b|\\\\b2027(?:(?!janvier|f[ée]vrier|mars|avril|mai|juin|juillet|ao[uû]t|octobre|novembre|d[ée]cembre|septembre)[^.]){0,40}\\\\bseptembre\\\\b(?!\\\\s+2026)|\\\\bseptembre\\\\b(?!\\\\s+2026)(?:(?!janvier|f[ée]vrier|mars|avril|mai|juin|juillet|ao[uû]t|octobre|novembre|d[ée]cembre|2026)[^.]){0,40}\\\\b2027\\\\b|\\\\bseptembre\\\\s+prochain\\\\b', 'planning|appel'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 7,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['F[-‑]2026[-‑]1220'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['OS[-‑]2026[-‑]301'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]016'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]017'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]019'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]020'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]021'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 8,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.05,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.09444444444444444,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.00018105799972545356,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h14_le_retour_d_helene_marchal_r4.jsonl"
+}

@@ -17,6 +17,12 @@ Seul ce qu'un manifeste liste fonde un chiffre public. Le manifeste s'écrit ici
 
 La publication se construit dans 99_local/publication/, puis prend sa place d'un seul coup : une
 publication interrompue reste un brouillon et n'entre jamais dans 08_publications.
+
+    make publier SUJET=premier_post TEMOINS_DE=AAAA-MM-JJ_constat
+
+reprend le passage des témoins d'une publication écrite sur le même code (règle 2) : entre son
+commit et celui-ci, rien n'a changé de ce que les témoins mettent à l'épreuve (HORS_DES_TEMOINS),
+sinon refus ; le manifeste dit d'où viennent ses témoins (JOURNAL, entrée 362).
 """
 
 from __future__ import annotations
@@ -42,6 +48,7 @@ from ease.chargement import racine_depot
 from ease.donnees_publication import DOSSIER_TAU2, donnees_constat, donnees_premier_post, donnees_video
 from ease.jouet import TACHES_JOUET
 from ease.taches import JEUX, taches_du_jeu
+from ease.textes_publies import TextesImpossibles, textes_controles
 
 SUJETS = ("constat", "premier_post")
 
@@ -156,6 +163,11 @@ def empreinte_dossier(dossier: Path) -> str:
     return f"sha256:{somme.hexdigest()}"
 
 
+def empreinte_fichier(chemin: Path) -> str:
+    """L'empreinte d'un fichier de la publication, pour que la page qui le lit sache qu'il n'a pas changé."""
+    return f"sha256:{hashlib.sha256(chemin.read_bytes()).hexdigest()}"
+
+
 def signature(fiche: dict[str, Any]) -> str:
     """L'empreinte de ce que le rapport compare entre deux runs avant de les assembler (CHAMPS_SIGNATURE)."""
     champs = {c: fiche.get(c) for c in CHAMPS_SIGNATURE}
@@ -224,6 +236,45 @@ def _temoins(racine: Path) -> list[tuple[str, str, bool]]:
     return [(d.name, t.identifiant, conforme(t, r)) for t, d, r in passage_complet(racine / "99_local" / "runs")]
 
 
+HORS_DES_TEMOINS = (
+    "08_publications/",
+    "JOURNAL_PUBLIC.md",
+    "JOURNAL.md",
+    "00_docs/sources/",
+    "Makefile",
+    "02_ease/src/ease/publier.py",
+    "02_ease/tests/test_publier.py",
+)
+"""Ce que les témoins ne mettent pas à l'épreuve, et qui peut donc changer entre deux publications
+sans qu'ils se repassent : les publications, les journaux, les sources, et l'écriture d'une
+publication elle-même (le passage des témoins n'appelle ni make ni ce module)."""
+
+
+def temoins_repris(atelier: Path, racine: Path, publication: str) -> list[tuple[str, str, bool]]:
+    """Le passage des témoins d'une publication déjà écrite, repris pour une autre sur le même code :
+    les témoins vérifient le code, et entre son commit et HEAD n'a changé que ce qu'ils ne mettent pas
+    à l'épreuve (HORS_DES_TEMOINS), sinon refus. Ce passage était conforme, puisque la publication
+    s'est écrite (publier refuse un témoin en écart)."""
+    chemin = atelier / "08_publications" / publication / "manifeste.json"
+    if not chemin.is_file():
+        raise PublicationImpossible(f"aucune publication {publication} dont reprendre les témoins")
+    manifeste = cast(dict[str, Any], json.loads(chemin.read_text(encoding="utf-8")))
+    difference = _git("diff", "--name-only", str(manifeste["commit"]), "HEAD", dans=racine)
+    if difference.returncode != 0:
+        raise PublicationImpossible(f"git diff depuis {publication} : {difference.stderr.strip()}")
+    changes = [f for f in difference.stdout.splitlines() if f and not f.startswith(HORS_DES_TEMOINS)]
+    if changes:
+        raise PublicationImpossible(
+            f"le code a changé depuis {publication} ({len(changes)} fichier(s), dont {changes[0]}) : "
+            "les témoins se repassent"
+        )
+    lignes = cast(list[dict[str, Any]], manifeste["runs"])
+    passages = [(str(r["run"]), str(r["reference"]), True) for r in lignes if "temoin" in r["roles"]]
+    if not passages:
+        raise PublicationImpossible(f"{publication} ne liste aucun témoin")
+    return passages
+
+
 def publier(
     sujet: str,
     date: str,
@@ -231,6 +282,8 @@ def publier(
     atelier: Path,
     calculer: Callable[[], dict[str, Any]],
     temoins: Callable[[], Iterable[tuple[str, str, bool]]],
+    textes: Callable[[dict[str, Any]], dict[str, Any]] | None = None,
+    temoins_repris_de: str | None = None,
 ) -> Path:
     """Écrit la publication dans atelier/08_publications/<date>_<sujet>/ ; racine est le code qui la
     calcule, l'atelier ou un poste de mesure, dont 99_local est celui de l'atelier."""
@@ -247,6 +300,12 @@ def publier(
     if ecarts:
         raise PublicationImpossible(f"témoins en écart, le banc se trompe : {', '.join(ecarts)}")
     donnees = calculer()
+    ecrits: dict[str, Any] | None = None
+    if textes is not None:
+        try:
+            ecrits = textes(donnees)
+        except TextesImpossibles as erreur:
+            raise PublicationImpossible(f"textes refusés : {erreur}") from erreur
     retenus = runs_retenus(donnees)
     for run, temoin, _ in passages:
         retenus[run] = Retenu("runs", temoin, {"temoin"})
@@ -290,6 +349,9 @@ def publier(
     if sujet == "premier_post":
         _ecrire(brouillon / "donnees_video.json", donnees_video(donnees))
     _ecrire(brouillon / "cachees.json", cachees)
+    if ecrits is not None:
+        _ecrire(brouillon / "textes.json", ecrits)
+    empreintes = {f.name: empreinte_fichier(f) for f in sorted(brouillon.glob("*.json"))}
     _ecrire(
         brouillon / "manifeste.json",
         {
@@ -298,6 +360,8 @@ def publier(
             "produit_le": datetime.now(UTC).isoformat(timespec="seconds"),
             "commit": commit,
             "protocole": etiquette,
+            "empreintes": empreintes,
+            **({"temoins_repris_de": temoins_repris_de} if temoins_repris_de else {}),
             "runs": lignes,
         },
     )
@@ -330,6 +394,9 @@ def main(arguments: list[str] | None = None) -> int:
     analyse = argparse.ArgumentParser(prog="python -m ease.publier", description="L'officiel d'une publication.")
     analyse.add_argument("sujet", choices=SUJETS, help="la publication")
     analyse.add_argument("--date", default=datetime.now(UTC).date().isoformat(), help="AAAA-MM-JJ, aujourd'hui sinon")
+    analyse.add_argument(
+        "--temoins-de", default=None, help="AAAA-MM-JJ_sujet : reprendre les témoins de cette publication, même code"
+    )
     options = analyse.parse_args(arguments)
     racine = racine_depot()
     try:
@@ -340,7 +407,11 @@ def main(arguments: list[str] | None = None) -> int:
             racine,
             atelier,
             lambda: _calculer(options.sujet, racine),
-            lambda: _temoins(racine),
+            (lambda: temoins_repris(atelier, racine, options.temoins_de))
+            if options.temoins_de
+            else (lambda: _temoins(racine)),
+            lambda donnees: textes_controles(options.sujet, donnees),
+            options.temoins_de,
         )
     except PublicationImpossible as erreur:
         print(f"Publication refusée : {erreur}", file=sys.stderr)

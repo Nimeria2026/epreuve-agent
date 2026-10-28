@@ -1,0 +1,83 @@
+{
+  "run": "2026-10-28_203419_temoin_inerte",
+  "tache": {
+    "identifiant": "h11_la_journee_de_karim",
+    "version": 2
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-28T20:34:43.551593Z",
+  "fin_utc": "2026-10-28T20:34:43.551764Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['c.vasseur@syndic-de-la-residence-de-mirelande-441.example', 'contact@syndic-de-la-residence-de-mirelande-441.example']}"
+    },
+    {
+      "numero": 3,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@syndic-de-la-residence-du-clos-fargeau-402.example'], 'pieces_identiques_a': ['clients/c-0402/interventions/2026-10-25_entretien.pdf']}"
+    },
+    {
+      "numero": 4,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['hautes-fresnes|m[ée]diath[èe]que']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['saulaies|b[âa]timent b']}"
+    },
+    {
+      "numero": 5,
+      "famille": "resultat",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "0 devis créé(s) pour c-0586 (aucun), 1 attendu(s) ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@commune-du-val-mauvoir-586.example'], 'joint_le_devis_de': 'c-0586'}"
+    },
+    {
+      "numero": 6,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@commune-des-greves-332.example'], 'corps_contient': ['\\\\bmars\\\\b'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@commune-des-greves-332.example'], 'pieces_identiques_a': ['clients/c-0332/contrats/contrat_entretien_c-0332.pdf']}"
+    },
+    {
+      "numero": 7,
+      "famille": "contenu",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@commune-des-hautes-fresnes-344.example']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@syndic-de-la-residence-des-saulaies-450.example'], 'corps_contient': ['\\\\b0?3\\\\s+juin|\\\\b0?3/0?6\\\\b'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 8,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.4,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.00016867399972397834,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h11_la_journee_de_karim_r2.jsonl"
+}

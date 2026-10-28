@@ -1,0 +1,11 @@
+# Fiche du client Agence Fonteneau de Valmoret. Données FICTIVES.
+nom: Agence Fonteneau
+activite: agence immobilière
+adresse: 7 avenue de la République, 37999 Saint-Aubin-des-Vergnes (FICTIF)
+telephone: 02 61 91 51 03
+contacts:
+- nom: Madame Claire Fonteneau
+  courriel: claire.fonteneau@agence-fonteneau.example
+prestation: entretien de l'agence et de la vitrine, un passage par semaine
+forfait_mensuel_ht: 420.0
+client_depuis: '2023-01-01'

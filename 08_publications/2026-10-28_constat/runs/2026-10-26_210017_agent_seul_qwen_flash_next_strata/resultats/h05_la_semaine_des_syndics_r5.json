@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-26_210017_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "h05_la_semaine_des_syndics",
+    "version": 2
+  },
+  "repetition": 5,
+  "debut_utc": "2026-10-27T01:12:06.958948Z",
+  "fin_utc": "2026-10-27T01:15:31.518972Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.25,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.35,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 40,
+  "jetons": {
+    "entree": 183957,
+    "entree_en_cache": 170604,
+    "sortie": 13720
+  },
+  "cout_dollars": "?",
+  "energie_wh": 13.601133543584243,
+  "duree_secondes": 204.56002063398773,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h05_la_semaine_des_syndics_r5.jsonl"
+}

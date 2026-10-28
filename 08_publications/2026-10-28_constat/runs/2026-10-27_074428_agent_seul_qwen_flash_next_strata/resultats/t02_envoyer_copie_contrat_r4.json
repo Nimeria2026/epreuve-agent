@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-27_074428_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "t02_envoyer_copie_contrat",
+    "version": 10
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-27T07:45:47.588228Z",
+  "fin_utc": "2026-10-27T07:46:18.613575Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 11,
+  "jetons": {
+    "entree": 63214,
+    "entree_en_cache": 53179,
+    "sortie": 1369
+  },
+  "cout_dollars": "?",
+  "energie_wh": 1.9358879366031758,
+  "duree_secondes": 31.025342643999466,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t02_envoyer_copie_contrat_r4.jsonl"
+}

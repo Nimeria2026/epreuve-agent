@@ -1,0 +1,69 @@
+{
+  "run": "2026-10-21_010546_agent_seul_qwen_local_100k",
+  "tache": {
+    "identifiant": "h03_le_portefeuille_de_julie",
+    "version": 5
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-21T10:42:07.850742Z",
+  "fin_utc": "2026-10-21T11:06:02.467012Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.25,
+      "score": 0.625,
+      "detail": "DV-2026-016 : statut brouillon au lieu de envoye ; DV-2026-018 : statut brouillon au lieu de envoye ; DV-2026-019 : statut brouillon au lieu de envoye"
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 0.8666666666666667,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]011'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]011(?:(?!DV[-‑]\\\\d{4}[-‑]\\\\d{3})[\\\\s\\\\S]){0,500}?(?:\\\\b(?:19|20)\\\\s+nov|\\\\b(?:19|20)/11\\\\b|\\\\b(?:19|20)\\\\.11\\\\b|\\\\b30\\\\s*jours)'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 6,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.88625,
+  "reussie": false,
+  "etapes": 99,
+  "jetons": {
+    "entree": 270026,
+    "entree_en_cache": "?",
+    "sortie": 55310
+  },
+  "cout_dollars": "?",
+  "energie_wh": 99.26770303582883,
+  "duree_secondes": 1434.6162650660262,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h03_le_portefeuille_de_julie_r4.jsonl"
+}

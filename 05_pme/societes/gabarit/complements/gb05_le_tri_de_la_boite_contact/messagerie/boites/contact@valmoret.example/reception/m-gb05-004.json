@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-gb05-004",
+  "de": {
+    "nom": "Agnès Dorval",
+    "adresse": "agnes.dorval@cabinet-dorval.example"
+  },
+  "a": [
+    "contact@valmoret.example"
+  ],
+  "cc": [],
+  "objet": "Passage de vendredi",
+  "date": "2026-11-10T08:00:00+01:00",
+  "corps": "Bonjour,\n\nVendredi soir, les corbeilles de nos bureaux n'ont pas été vidées et les sanitaires n'ont pas été faits. C'est la deuxième fois ce mois-ci. Merci de faire le nécessaire.\n\nCordialement,\nAgnès Dorval\nCabinet Dorval",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

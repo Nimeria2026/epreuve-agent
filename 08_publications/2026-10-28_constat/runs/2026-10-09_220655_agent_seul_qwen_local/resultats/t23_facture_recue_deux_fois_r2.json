@@ -1,0 +1,40 @@
+{
+  "run": "2026-10-09_220655_agent_seul_qwen_local",
+  "tache": {
+    "identifiant": "t23_facture_recue_deux_fois",
+    "version": 2
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-10T05:10:03.277839Z",
+  "fin_utc": "2026-10-10T05:13:01.323866Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 16,
+  "jetons": {
+    "entree": 42148,
+    "entree_en_cache": "?",
+    "sortie": 7185
+  },
+  "cout_dollars": "?",
+  "energie_wh": 12.25866553899643,
+  "duree_secondes": 178.04602269500174,
+  "journal": "journaux/t23_facture_recue_deux_fois_r2.jsonl"
+}

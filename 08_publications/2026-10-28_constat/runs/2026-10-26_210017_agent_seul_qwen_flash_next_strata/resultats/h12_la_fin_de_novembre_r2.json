@@ -1,0 +1,76 @@
+{
+  "run": "2026-10-26_210017_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "h12_la_fin_de_novembre",
+    "version": 2
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-27T05:03:36.756437Z",
+  "fin_utc": "2026-10-27T05:13:02.891591Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "respect_des_regles",
+      "poids": 0.25,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sonia.lefevre@calorelle.example'], 'corps_contient': ['recouvrement|assur|consigne|instruction|[ée]ch[ée]ancier|distri']}"
+    },
+    {
+      "numero": 3,
+      "famille": "resultat",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 6,
+      "famille": "contenu",
+      "poids": 0.05,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 7,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.9,
+  "reussie": false,
+  "etapes": 67,
+  "jetons": {
+    "entree": 371950,
+    "entree_en_cache": 347221,
+    "sortie": 42274
+  },
+  "cout_dollars": "?",
+  "energie_wh": 38.1563670961043,
+  "duree_secondes": 566.1351508219959,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h12_la_fin_de_novembre_r2.jsonl"
+}

@@ -1,0 +1,54 @@
+{
+  "run": "2026-10-09_220655_agent_seul_qwen_local",
+  "tache": {
+    "identifiant": "t02_envoyer_copie_contrat",
+    "version": 10
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-09T22:14:32.405208Z",
+  "fin_utc": "2026-10-09T22:15:39.936155Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 13,
+  "jetons": {
+    "entree": 68600,
+    "entree_en_cache": "?",
+    "sortie": 2210
+  },
+  "cout_dollars": "?",
+  "energie_wh": 4.604317340483295,
+  "duree_secondes": 67.53094340699863,
+  "journal": "journaux/t02_envoyer_copie_contrat_r3.jsonl"
+}

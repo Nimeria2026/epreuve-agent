@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-26_120743_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "t37_chaudiere_et_radiateurs",
+    "version": 2
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-26T15:48:20.465808Z",
+  "fin_utc": "2026-10-26T15:49:33.003088Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.6,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 22,
+  "jetons": {
+    "entree": 161450,
+    "entree_en_cache": 147591,
+    "sortie": 3823
+  },
+  "cout_dollars": "?",
+  "energie_wh": 4.651630550364184,
+  "duree_secondes": 72.53727621299913,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t37_chaudiere_et_radiateurs_r1.jsonl"
+}

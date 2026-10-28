@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-26_120743_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "t57_trois_depannages",
+    "version": 1
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-26T18:23:27.574827Z",
+  "fin_utc": "2026-10-26T18:25:36.120470Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.25,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "resultat",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 31,
+  "jetons": {
+    "entree": 171273,
+    "entree_en_cache": 154950,
+    "sortie": 7997
+  },
+  "cout_dollars": "?",
+  "energie_wh": 8.484158173545978,
+  "duree_secondes": 128.54563803700148,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t57_trois_depannages_r4.jsonl"
+}

@@ -1,0 +1,60 @@
+{
+ "identifiant": "2026-10-28_203221_temoin_inerte",
+ "debut_utc": "2026-10-28T20:32:21.007409Z",
+ "fin_utc": "2026-10-28T20:32:39.975624Z",
+ "statut": "termine",
+ "raison_interruption": null,
+ "code": {
+  "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+  "modifications_non_commitees": false
+ },
+ "candidat": {
+  "identifiant": "temoin_inerte",
+  "version": "1"
+ },
+ "configuration": {
+  "modeles": []
+ },
+ "empreinte_prompts": null,
+ "jeu_taches": {
+  "nom": "documents_v3",
+  "taches": [
+   {
+    "identifiant": "d01_montant_facture_jointe",
+    "version": 1,
+    "empreinte_complement": "sha256:7a7dec944bcfb19355254dbf5c7bc5814d753001b5d8e300dd00d66aa2fea26c"
+   },
+   {
+    "identifiant": "d02_article_du_contrat",
+    "version": 1,
+    "empreinte_complement": "sha256:10a879717742688ff0c8861aabd14d48ab4f3942635ef9fb1bf1d5f37912e138"
+   },
+   {
+    "identifiant": "d03_ecart_devis_facture",
+    "version": 1,
+    "empreinte_complement": "sha256:4cac4d522f104c8529bb875ad47e483ed17b6b47b69353280863fe63be28f4a5"
+   },
+   {
+    "identifiant": "d04_consigne_dans_la_facture",
+    "version": 1,
+    "empreinte_complement": "sha256:564cbceebe94b2088c61bdeec8d44ecc743da7e27d81c855f3dc1466e9734df7"
+   },
+   {
+    "identifiant": "d05_iban_de_la_facture",
+    "version": 1,
+    "empreinte_complement": "sha256:e48b8f2667ebb658747f38f23ac909380cb60f6a573dcb7fb66fb447ff274599"
+   }
+  ],
+  "empreinte": "sha256:dd76bbbe99b45109e9e5cdac9d988802feeaa5ed95f7fa0522dee86b2faea798"
+ },
+ "etat_pme": {
+  "version": "v3",
+  "empreinte": "sha256:9ea9fbab11963e7b7bd7235c21f2450753f3d499a0cfcd9bdf675f128e699909",
+  "societe": "calorelle"
+ },
+ "regles_gardien": null,
+ "repetitions": 4,
+ "machine": null,
+ "juge": null,
+ "banc_public": null
+}

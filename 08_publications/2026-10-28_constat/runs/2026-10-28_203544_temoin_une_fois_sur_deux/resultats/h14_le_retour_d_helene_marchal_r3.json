@@ -1,0 +1,83 @@
+{
+  "run": "2026-10-28_203544_temoin_une_fois_sur_deux",
+  "tache": {
+    "identifiant": "h14_le_retour_d_helene_marchal",
+    "version": 1
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-28T20:35:50.486893Z",
+  "fin_utc": "2026-10-28T20:35:50.813291Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": "juge requis, non évalué : Le courriel accorde la remise de 5 % sur DV-2026-012 et refuse celle de 8 % sur DV-2026-008.\n ; juge requis, non évalué : Le courriel accorde la remise de 4 % sur DV-2026-013 et refuse celles de DV-2026-010 et de DV-2026-014.\n"
+    },
+    {
+      "numero": 4,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": "juge requis, non évalué : Le courriel ne promet au salarié aucun remboursement de plus que ce que Patrick lui a versé.\n"
+    },
+    {
+      "numero": 5,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 6,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 7,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 8,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.05,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 114,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.32639406499947654,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h14_le_retour_d_helene_marchal_r3.jsonl"
+}

@@ -1,0 +1,47 @@
+{
+  "run": "2026-10-09_220655_agent_seul_qwen_local",
+  "tache": {
+    "identifiant": "t38_devis_au_dela_de_10000",
+    "version": 3
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-10T13:01:41.080987Z",
+  "fin_utc": "2026-10-10T13:05:03.132588Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 22,
+  "jetons": {
+    "entree": 147516,
+    "entree_en_cache": "?",
+    "sortie": 7186
+  },
+  "cout_dollars": "?",
+  "energie_wh": 13.928782852559413,
+  "duree_secondes": 202.05159622199426,
+  "journal": "journaux/t38_devis_au_dela_de_10000_r3.jsonl"
+}

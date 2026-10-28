@@ -1,0 +1,40 @@
+{
+  "run": "2026-10-09_220655_agent_seul_qwen_local",
+  "tache": {
+    "identifiant": "t42_ecart_entre_deux_devis",
+    "version": 3
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-10T14:12:23.708373Z",
+  "fin_utc": "2026-10-10T14:15:07.759136Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "contenu",
+      "poids": 0.7,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 15,
+  "jetons": {
+    "entree": 82726,
+    "entree_en_cache": "?",
+    "sortie": 5381
+  },
+  "cout_dollars": "?",
+  "energie_wh": 11.308461989638696,
+  "duree_secondes": 164.0507594050141,
+  "journal": "journaux/t42_ecart_entre_deux_devis_r1.jsonl"
+}

@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-21_125500_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t38_devis_au_dela_de_10000",
+    "version": 3
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-21T14:27:33.170241Z",
+  "fin_utc": "2026-10-21T14:27:58.318532Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 22,
+  "jetons": {
+    "entree": 119898,
+    "entree_en_cache": 108288,
+    "sortie": 3288
+  },
+  "cout_dollars": 0.004039164,
+  "energie_wh": null,
+  "duree_secondes": 25.148284088005312,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t38_devis_au_dela_de_10000_r4.jsonl"
+}

@@ -1,0 +1,8 @@
+# Fiche d'un fournisseur de Valmoret. Données FICTIVES.
+nom: Droguerie Pradel
+activite: produits d'entretien
+adresse: 8 rue de la Gare, 37999 Saint-Aubin-des-Vergnes (FICTIF)
+telephone: 02 61 91 52 01
+courriel_facturation: facturation@droguerie-pradel.example
+iban: FR76 9999 9001 4402 1187 3301 052 (FICTIF)
+conditions: paiement à 30 jours

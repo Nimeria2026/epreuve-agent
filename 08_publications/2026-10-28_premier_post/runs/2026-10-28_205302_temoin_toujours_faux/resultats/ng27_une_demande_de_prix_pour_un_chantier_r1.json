@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-28_205302_temoin_toujours_faux",
+  "tache": {
+    "identifiant": "ng27_une_demande_de_prix_pour_un_chantier",
+    "version": 1
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-28T20:54:41.822451Z",
+  "fin_utc": "2026-10-28T20:54:41.840853Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.55,
+      "score": 0.4,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['beatrice.vallet@menuiserie-bocquet.example'], 'corps_contient': ['8[,.]60'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['beatrice.vallet@menuiserie-bocquet.example'], 'corps_contient': ['5[,.]49'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['beatrice.vallet@menuiserie-bocquet.example'], 'corps_contient': ['5[,.]76'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.25,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.67,
+  "reussie": false,
+  "etapes": 1,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.018398337997496128,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/ng27_une_demande_de_prix_pour_un_chantier_r1.jsonl"
+}

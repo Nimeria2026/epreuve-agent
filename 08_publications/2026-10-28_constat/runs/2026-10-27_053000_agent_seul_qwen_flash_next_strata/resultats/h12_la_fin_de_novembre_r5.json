@@ -1,0 +1,76 @@
+{
+  "run": "2026-10-27_053000_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "h12_la_fin_de_novembre",
+    "version": 2
+  },
+  "repetition": 5,
+  "debut_utc": "2026-10-27T05:50:54.318602Z",
+  "fin_utc": "2026-10-27T06:00:46.450022Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "respect_des_regles",
+      "poids": 0.25,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "resultat",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 6,
+      "famille": "contenu",
+      "poids": 0.05,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 7,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 71,
+  "jetons": {
+    "entree": 557872,
+    "entree_en_cache": 532769,
+    "sortie": 43228
+  },
+  "cout_dollars": "?",
+  "energie_wh": 39.783538885818366,
+  "duree_secondes": 592.131417045,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h12_la_fin_de_novembre_r5.jsonl"
+}

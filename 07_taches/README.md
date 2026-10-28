@@ -11,7 +11,7 @@ Les jeux de tâches : des données, pas du code.
   entrée). Ses contrôles graves sont dans son propre `gravite.yaml`. `make mesure JEU=documents`
   le mesure, `make temoins TERRAIN=documents` y passe les témoins.
 - `public/dure/` : la tranche dure, des tâches `hNN_nom_parlant.yaml` de 30, 60 et 120 minutes de
-  grille, faites d'un vrai travail enchaîné ; à part du socle des 45 tâches, avec son propre
+  grille, faites d'un vrai travail enchaîné ; à part du socle (t01 à t63), avec son propre
   `gravite.yaml` et son propre `classement.yaml` (cadrage du 2026-10-14, JOURNAL, cent-trentième
   entrée). `make mesure JEU=dure`, `make temoins TERRAIN=dure`, `make classement JEU=dure` et
   `make rapport JEU=dure`.
@@ -21,7 +21,8 @@ Les jeux de tâches : des données, pas du code.
   Leurs gestes sont dans `ease.solutions_dure` avec ceux de la tranche ; `make temoins
   TERRAIN=dure_v2`.
 - `public/negovelle/` : le socle de Négovelle, troisième société, négoce de gros (cadrage du
-  2026-10-17), vingt tâches `ngNN_nom_parlant.yaml` qui portent `societe: negovelle`, avec leur
+  2026-10-17), trente-sept tâches `ngNN_nom_parlant.yaml` (ng01 à ng37) qui portent
+  `societe: negovelle`, avec leur
   `gravite.yaml` et leur `classement.yaml` ; leurs compléments sont dans
   `05_pme/societes/negovelle/complements/`, écrits par
   `09_outillage/scripts/generer_complements_negovelle.py`. `make temoins TERRAIN=negovelle`,
@@ -31,6 +32,23 @@ Les jeux de tâches : des données, pas du code.
   `classement.yaml` ; aujourd'hui vingt et une, sept par palier, dont un piège ; douze portent un
   contrôle grave (cadrage du 2026-10-17, section 8). Mêmes compléments et même générateur que
   le socle. `make temoins TERRAIN=negovelle_dure`, `make classement JEU=negovelle_dure`.
+- `public/domivelle/` et `public/domivelle/dure/` : le socle de Domivelle, deuxième société,
+  administration de biens (cadrage du 2026-10-15), trente-sept tâches `dvNN_nom_parlant.yaml`, et
+  sa tranche longue, vingt et une tâches `dvhNN_nom_parlant.yaml`, chacun avec son `gravite.yaml` et
+  son `classement.yaml` ; compléments dans `05_pme/societes/domivelle/complements/`, écrits par
+  `09_outillage/scripts/generer_complements_domivelle.py`. `make temoins TERRAIN=domivelle` ou
+  `TERRAIN=domivelle_dure`, `make classement JEU=domivelle`.
+- `public/domivelle/dure/v2/` et `public/negovelle/dure/v2/` : la tranche longue de la v2 de ces
+  deux sociétés, dvh22 à dvh29 et ngh22 à ngh29, jeux `domivelle_dure_v2` et `negovelle_dure_v2`,
+  hors de la v1 comme `dure_v2` (JOURNAL, entrées 264 et 266).
+- `public/gabarit/` : la société gabarit des campagnes (cadrage des interventions, section 11),
+  dix tâches communes `gb01` à `gb10`, une par type du socle commun, qui portent
+  `societe: gabarit`, avec leur `gravite.yaml` et leur `classement.yaml`. Toutes sont écrites par
+  `09_outillage/scripts/generer_gabarit.py` depuis `05_pme/societes/gabarit/variables.yaml`
+  (`make gabarit`) ; les tâches du métier d'une campagne s'ajoutent à la main, `gb11` et suivantes.
+  `make temoins TERRAIN=gabarit`, `make classement JEU=gabarit`.
+- `public/etalon/` : le jeu étalon du juge, critères, réponses fausses écrites exprès, étiquettes
+  d'Alexandre et verdicts des témoins ; `etalon/dure/` pour la tranche. Détail dans son `README.md`.
 - `public/types_communs.yaml` : le catalogue du socle commun, les dix types de tâches que toute
   entreprise rencontre (fraude au RIB, consigne cachée, donnée demandée par un tiers, tri d'une
   boîte partagée, note de frais, etc.), chacun avec son piège, sa règle, sa gravité et, s'il en

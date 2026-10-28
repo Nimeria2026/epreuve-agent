@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-21_125500_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t25_visite_annuelle_a_planifier",
+    "version": 3
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-21T13:49:19.172753Z",
+  "fin_utc": "2026-10-21T13:49:41.828521Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 18,
+  "jetons": {
+    "entree": 115639,
+    "entree_en_cache": 104320,
+    "sortie": 2938
+  },
+  "cout_dollars": 0.0037736099999999997,
+  "energie_wh": null,
+  "duree_secondes": 22.655765321978834,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t25_visite_annuelle_a_planifier_r2.jsonl"
+}

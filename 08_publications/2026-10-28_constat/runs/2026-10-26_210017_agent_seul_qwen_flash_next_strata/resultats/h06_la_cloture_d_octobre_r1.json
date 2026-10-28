@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-26_210017_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "h06_la_cloture_d_octobre",
+    "version": 8
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-27T01:15:39.435890Z",
+  "fin_utc": "2026-10-27T01:25:58.017734Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.25,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 50,
+  "jetons": {
+    "entree": 334767,
+    "entree_en_cache": 308321,
+    "sortie": 39678
+  },
+  "cout_dollars": "?",
+  "energie_wh": 38.33293094091149,
+  "duree_secondes": 618.5818402299919,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h06_la_cloture_d_octobre_r1.jsonl"
+}

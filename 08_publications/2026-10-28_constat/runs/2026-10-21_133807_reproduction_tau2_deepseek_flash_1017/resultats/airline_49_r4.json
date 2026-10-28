@@ -1,0 +1,34 @@
+{
+  "run": "2026-10-21_133807_reproduction_tau2_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "airline_49",
+    "version": 1
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-21T13:39:11.484165Z",
+  "fin_utc": "2026-10-21T13:39:24.417241Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 1.0,
+      "score": 1.0,
+      "detail": "τ²-bench : récompense 1 ; fin user_stop ; base égale à la cible ; phrases dites 0 sur 0"
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 6,
+  "jetons": {
+    "entree": 28722,
+    "entree_en_cache": 27264,
+    "sortie": 1328
+  },
+  "cout_dollars": 0.001097292,
+  "energie_wh": null,
+  "duree_secondes": 12.93307134497445,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/airline_49_r4.jsonl"
+}

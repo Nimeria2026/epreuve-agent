@@ -1,0 +1,34 @@
+{
+ "identifiant": "2026-10-28_204913_temoin_inerte",
+ "debut_utc": "2026-10-28T20:49:13.694286Z",
+ "fin_utc": "2026-10-28T20:49:39.445904Z",
+ "statut": "termine",
+ "raison_interruption": null,
+ "code": {
+  "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+  "modifications_non_commitees": true
+ },
+ "candidat": {
+  "identifiant": "temoin_inerte",
+  "version": "1"
+ },
+ "configuration": {
+  "modeles": []
+ },
+ "empreinte_prompts": null,
+ "jeu_taches": {
+  "nom": "domivelle_cachees_v1",
+  "taches": [],
+  "empreinte": "sha256:62f7260a6188dbb710f1d7b17a571a611daa5d2e281a40e43ab94afbb3d49808"
+ },
+ "etat_pme": {
+  "version": "v1",
+  "empreinte": "sha256:827914ec6c291d69824707b9beadb952576ae8f21e5fb74dfb6f9fb9e6ca2b58",
+  "societe": "domivelle"
+ },
+ "regles_gardien": null,
+ "repetitions": 4,
+ "machine": null,
+ "juge": null,
+ "banc_public": null
+}

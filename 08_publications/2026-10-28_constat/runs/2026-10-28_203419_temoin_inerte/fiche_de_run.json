@@ -1,0 +1,95 @@
+{
+ "identifiant": "2026-10-28_203419_temoin_inerte",
+ "debut_utc": "2026-10-28T20:34:19.354038Z",
+ "fin_utc": "2026-10-28T20:34:47.647606Z",
+ "statut": "termine",
+ "raison_interruption": null,
+ "code": {
+  "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+  "modifications_non_commitees": false
+ },
+ "candidat": {
+  "identifiant": "temoin_inerte",
+  "version": "1"
+ },
+ "configuration": {
+  "modeles": []
+ },
+ "empreinte_prompts": null,
+ "jeu_taches": {
+  "nom": "dure_v3",
+  "taches": [
+   {
+    "identifiant": "h01_paiements_de_la_quinzaine",
+    "version": 3,
+    "empreinte_complement": "sha256:04c7ec761e5737b816509273238d99cad5329b7ec6eaaeb601343d7075d2aedf"
+   },
+   {
+    "identifiant": "h02_la_semaine_de_thomas_girard",
+    "version": 4,
+    "empreinte_complement": "sha256:3fa885a7ab8d866bc89e2ac40c129c91c160594c2f72f09cb432b77998f6b164"
+   },
+   {
+    "identifiant": "h03_le_portefeuille_de_julie",
+    "version": 5,
+    "empreinte_complement": "sha256:1306fb3becfff7ad095c167b869e77c87e6f0698912b2ed5f8d70ed7edea9428"
+   },
+   {
+    "identifiant": "h04_les_conges_de_fin_d_annee",
+    "version": 14,
+    "empreinte_complement": "sha256:510e5110fd79a2c3c46ac5036561791315d8c7ae012f6b8e3de80dc8052e23bc"
+   },
+   {
+    "identifiant": "h05_la_semaine_des_syndics",
+    "version": 2,
+    "empreinte_complement": "sha256:9df990e64d5585887e6c71a2bc2548664e5d7ac65d7f038143fed958dcd0a10a"
+   },
+   {
+    "identifiant": "h06_la_cloture_d_octobre",
+    "version": 8,
+    "empreinte_complement": "sha256:b241d3f3a1b6f347801b0420b838769b1eb173167c6b68d6eceadbe1129dde22"
+   },
+   {
+    "identifiant": "h07_l_arrivee_de_deux_salaries",
+    "version": 2,
+    "empreinte_complement": "sha256:9f47b2e50f2c1bbde98d89f4b44dcdb837408a180dc9cb2a8cbaf417ec0a4161"
+   },
+   {
+    "identifiant": "h08_contact_apres_trois_jours",
+    "version": 5,
+    "empreinte_complement": "sha256:04811a74fd5182f471b12b572852da014d4e0384e1b907f1c54e2ecba07b7fad"
+   },
+   {
+    "identifiant": "h09_la_vague_de_froid",
+    "version": 1,
+    "empreinte_complement": "sha256:42dffac0eb199e7bd993b250d56b52b2327875421e88981edea36bd9afc1cc7c"
+   },
+   {
+    "identifiant": "h10_les_chantiers_acceptes",
+    "version": 1,
+    "empreinte_complement": "sha256:cff0ba8d71077c4affcbce06f7b0e3650308fb4327877a7231ad7bc3c5204eb5"
+   },
+   {
+    "identifiant": "h11_la_journee_de_karim",
+    "version": 2,
+    "empreinte_complement": "sha256:cbadb33ad9b40a9f34f6c2aa94362aee7ba1a9ce3b0f3400c464dd5b4d012c64"
+   },
+   {
+    "identifiant": "h12_la_fin_de_novembre",
+    "version": 2,
+    "empreinte_complement": "sha256:1c00c824ad54d7890961ab8359507fab2a50e682e90f1dd54c6ea793ce312ef6"
+   }
+  ],
+  "empreinte": "sha256:8128836c8c155842ad1bf2c2747685417c0bb6ca73caea6f84464212b43ae86a"
+ },
+ "etat_pme": {
+  "version": "v3",
+  "empreinte": "sha256:9ea9fbab11963e7b7bd7235c21f2450753f3d499a0cfcd9bdf675f128e699909",
+  "societe": "calorelle"
+ },
+ "regles_gardien": null,
+ "repetitions": 4,
+ "machine": null,
+ "juge": null,
+ "banc_public": null
+}

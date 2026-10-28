@@ -1,0 +1,47 @@
+{
+  "run": "2026-10-09_220655_agent_seul_qwen_local",
+  "tache": {
+    "identifiant": "t31_regrouper_trois_visites",
+    "version": 3
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-10T10:29:26.243567Z",
+  "fin_utc": "2026-10-10T10:42:15.383205Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 32,
+  "jetons": {
+    "entree": 197817,
+    "entree_en_cache": "?",
+    "sortie": 29686
+  },
+  "cout_dollars": "?",
+  "energie_wh": 53.227237935158016,
+  "duree_secondes": 769.1396339350031,
+  "journal": "journaux/t31_regrouper_trois_visites_r3.jsonl"
+}

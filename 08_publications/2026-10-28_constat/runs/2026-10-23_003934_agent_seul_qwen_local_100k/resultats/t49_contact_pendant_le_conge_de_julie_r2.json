@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-23_003934_agent_seul_qwen_local_100k",
+  "tache": {
+    "identifiant": "t49_contact_pendant_le_conge_de_julie",
+    "version": 1
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-23T01:45:57.356088Z",
+  "fin_utc": "2026-10-23T01:49:13.915143Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 25,
+  "jetons": {
+    "entree": 77963,
+    "entree_en_cache": "?",
+    "sortie": 7542
+  },
+  "cout_dollars": "?",
+  "energie_wh": 13.54361589343415,
+  "duree_secondes": 196.55904963001376,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t49_contact_pendant_le_conge_de_julie_r2.jsonl"
+}

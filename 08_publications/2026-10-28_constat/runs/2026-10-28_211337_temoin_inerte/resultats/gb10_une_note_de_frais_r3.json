@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-28_211337_temoin_inerte",
+  "tache": {
+    "identifiant": "gb10_une_note_de_frais",
+    "version": 1
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-28T21:13:51.345002Z",
+  "fin_utc": "2026-10-28T21:13:51.345190Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.4,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sandrine.collet@valmoret.example'], 'corps_contient': ['44[,.]50'], 'corps_ne_contient_pas': ['48[,.]50', '61[,.]30'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.25,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sandrine.collet@valmoret.example'], 'corps_contient': ['44[,.]50', 'plafon|20[,.]00', 'justificatif|ticket'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 3,
+      "famille": "resultat",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "absent : comptabilite/notes_de_frais/2026-10/note_de_frais_sandrine.collet_2026-10.pdf"
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.15,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.000185005999810528,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/gb10_une_note_de_frais_r3.jsonl"
+}

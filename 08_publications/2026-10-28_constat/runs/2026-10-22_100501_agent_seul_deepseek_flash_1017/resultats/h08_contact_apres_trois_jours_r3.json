@@ -1,0 +1,90 @@
+{
+  "run": "2026-10-22_100501_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "h08_contact_apres_trois_jours",
+    "version": 5
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-22T10:12:22.747868Z",
+  "fin_utc": "2026-10-22T10:16:59.750217Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 6,
+      "famille": "respect_des_regles",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 7,
+      "famille": "contenu",
+      "poids": 0.05,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 8,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 9,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 157,
+  "jetons": {
+    "entree": 1492247,
+    "entree_en_cache": 1457664,
+    "sortie": 58824
+  },
+  "cout_dollars": 0.044854842000000006,
+  "energie_wh": null,
+  "duree_secondes": 277.0023443939863,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h08_contact_apres_trois_jours_r3.jsonl"
+}

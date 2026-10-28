@@ -1,0 +1,1597 @@
+{
+ "sujet": "premier_post",
+ "date": "2026-10-28",
+ "produit_le": "2026-10-28T21:16:51+00:00",
+ "commit": "c765b07f996b2c39bd58e97825f2109f22fc8998",
+ "protocole": "protocole-v1",
+ "empreintes": {
+  "cachees.json": "sha256:9f436c9756309eced9ae7b4ac2843c7db2f325c73d0f6e9ba1288ab92076f443",
+  "donnees.json": "sha256:6d357abce27c6a1c1059e288df62f1a5427a8d2237a070c4fd2ecb3632af8f5c",
+  "donnees_video.json": "sha256:55ec09f37fb997155838dada4d4c1339c501e6c33d72372a53e96efdd05b6ff0",
+  "textes.json": "sha256:819ef7fdf44960bb97b766d1012a59181ef3a15b0166ae4e815c599ebccb4cd0"
+ },
+ "temoins_repris_de": "2026-10-28_constat",
+ "runs": [
+  {
+   "run": "2026-10-09_220655_agent_seul_qwen_local",
+   "banc": "PME",
+   "roles": [
+    "socle"
+   ],
+   "reference": "agent_seul_qwen_local_100k",
+   "candidat": "agent_seul_qwen_local",
+   "contexte_servi": 40960,
+   "commit": "7524dea384686e6ab2412ac1af0f10ce99928e9c",
+   "modifications_non_commitees": false,
+   "signature": "sha256:b9867a8797127741ed90bc05cb04e690dd60c283197ac052d3c545a4d71f5ebc",
+   "taches_publiees": 45,
+   "taches_non_publiees": 18,
+   "empreinte_du_run": "sha256:30534a779122b67986d7128a8a59113ad4ea43870abbde7a17d22d6abb52870e",
+   "empreinte_publiee": "sha256:051845c808afee8edd566de7069aee726a197a7df64f728203ab33745273d5ab"
+  },
+  {
+   "run": "2026-10-10_203308_agent_seul_qwen_local",
+   "banc": "PME",
+   "roles": [
+    "socle"
+   ],
+   "reference": "agent_seul_qwen_local_100k",
+   "candidat": "agent_seul_qwen_local",
+   "contexte_servi": 40960,
+   "commit": "3420c93c056bd4a1d65bf22e49422ac24d0deab3",
+   "modifications_non_commitees": false,
+   "signature": "sha256:b9867a8797127741ed90bc05cb04e690dd60c283197ac052d3c545a4d71f5ebc",
+   "taches_publiees": 2,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:fddff3aea9d4e6ae0e35fc3daedad315cc39c4f1b9c347451af5081af699017e",
+   "empreinte_publiee": "sha256:44bd147f31202a35d78e069a0a751a1b335b59e61d27a88f78620726be42e737"
+  },
+  {
+   "run": "2026-10-13_040310_reproduction_tau2_qwen_local",
+   "banc": "τ²-bench",
+   "roles": [
+    "tau2"
+   ],
+   "reference": "agent_seul_qwen_local_100k",
+   "candidat": "reproduction_tau2_qwen_local",
+   "contexte_servi": 40960,
+   "commit": "c63dff1e2bcf3ad1622e1cbff0c99baae5e50d15",
+   "modifications_non_commitees": false,
+   "signature": "sha256:a1f80a958bf3f4b7fb728528310cf3dad90231effec4c1058a7ddb78ae9087bc",
+   "taches_publiees": 50,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:ff08d814a6bd194ee7101255ecd27bc99cbdc42174ee8cfc15e1066fa86369d8",
+   "empreinte_publiee": "sha256:8d8c9125fb0af1b407b8ae543e8080e13d0a832b62b2d39bb04ada863edb4058"
+  },
+  {
+   "run": "2026-10-21_104842_reproduction_tau2_deepseek_flash_1017",
+   "banc": "τ²-bench",
+   "roles": [
+    "tau2"
+   ],
+   "reference": "agent_seul_deepseek_flash_1017",
+   "candidat": "reproduction_tau2_deepseek_flash_1017",
+   "contexte_servi": null,
+   "commit": "d680b8bcf96b3c09ec511772b97f6f87bf3b1e89",
+   "modifications_non_commitees": false,
+   "signature": "sha256:114c5b386fe6fc0c0f642f3da93cd754c3a0b3d8fe673a0537f9b468af51f056",
+   "taches_publiees": 50,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:d3d189a43e0481513ccf3176a9a6dee8edc68d9ccce6b8a4720e75fe79035f84",
+   "empreinte_publiee": "sha256:4946da9f7def2e9b68f157b64a6810124e1c2b5bc2c9b0d88afc73e3719fedcf"
+  },
+  {
+   "run": "2026-10-21_125500_agent_seul_deepseek_flash_1017",
+   "banc": "PME",
+   "roles": [
+    "socle"
+   ],
+   "reference": "agent_seul_deepseek_flash_1017",
+   "candidat": "agent_seul_deepseek_flash_1017",
+   "contexte_servi": null,
+   "commit": "d680b8bcf96b3c09ec511772b97f6f87bf3b1e89",
+   "modifications_non_commitees": false,
+   "signature": "sha256:d84076ea7b1e7ebd55a31a7e7d1b0e59b5af7ada8b3236f7f50d5f22831a758d",
+   "taches_publiees": 45,
+   "taches_non_publiees": 20,
+   "empreinte_du_run": "sha256:4f94a1e9761a9a870ec3e7dd7e4a57876120401ce6945c06c787c301ab734572",
+   "empreinte_publiee": "sha256:6c40e0e1e6c8b67e1278bce9deb5e06bbca5cb5947049f7c34002c6b047f45e3"
+  },
+  {
+   "run": "2026-10-21_132330_reproduction_tau2_deepseek_flash_1017",
+   "banc": "τ²-bench",
+   "roles": [
+    "tau2"
+   ],
+   "reference": "agent_seul_deepseek_flash_1017",
+   "candidat": "reproduction_tau2_deepseek_flash_1017",
+   "contexte_servi": null,
+   "commit": "d680b8bcf96b3c09ec511772b97f6f87bf3b1e89",
+   "modifications_non_commitees": false,
+   "signature": "sha256:114c5b386fe6fc0c0f642f3da93cd754c3a0b3d8fe673a0537f9b468af51f056",
+   "taches_publiees": 5,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:549fe4d6ce94778d04dae82c22046b23732ce6b0fe662fec4003eec5b85f8f7c",
+   "empreinte_publiee": "sha256:171cca3988946007fb1a4f78f8f4ad35f1624de9349e6a9c4bad9e3530585a93"
+  },
+  {
+   "run": "2026-10-21_133321_reproduction_tau2_deepseek_flash_1017",
+   "banc": "τ²-bench",
+   "roles": [
+    "tau2"
+   ],
+   "reference": "agent_seul_deepseek_flash_1017",
+   "candidat": "reproduction_tau2_deepseek_flash_1017",
+   "contexte_servi": null,
+   "commit": "d680b8bcf96b3c09ec511772b97f6f87bf3b1e89",
+   "modifications_non_commitees": false,
+   "signature": "sha256:114c5b386fe6fc0c0f642f3da93cd754c3a0b3d8fe673a0537f9b468af51f056",
+   "taches_publiees": 2,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:82067eb7e79a877baa83b403803f6bb03d6b5e4dbe912ebf8990ccbe1d6a916b",
+   "empreinte_publiee": "sha256:6a59c664bf8dd2dc0ff10761534404ec6902cda2c625a2d63c6e540e6c36afa3"
+  },
+  {
+   "run": "2026-10-21_133807_reproduction_tau2_deepseek_flash_1017",
+   "banc": "τ²-bench",
+   "roles": [
+    "tau2"
+   ],
+   "reference": "agent_seul_deepseek_flash_1017",
+   "candidat": "reproduction_tau2_deepseek_flash_1017",
+   "contexte_servi": null,
+   "commit": "d680b8bcf96b3c09ec511772b97f6f87bf3b1e89",
+   "modifications_non_commitees": false,
+   "signature": "sha256:114c5b386fe6fc0c0f642f3da93cd754c3a0b3d8fe673a0537f9b468af51f056",
+   "taches_publiees": 1,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:247ebfc2ed7aeedc2d62ec201775b10b0ab378381c3c80b918a7ef72c0e9eaac",
+   "empreinte_publiee": "sha256:6269cd0fb001b523de0cb9176ad2d2ca3db89f821a45cfa1ce418a5fc568b782"
+  },
+  {
+   "run": "2026-10-21_193611_agent_seul_deepseek_flash_1017",
+   "banc": "PME",
+   "roles": [
+    "socle"
+   ],
+   "reference": "agent_seul_deepseek_flash_1017",
+   "candidat": "agent_seul_deepseek_flash_1017",
+   "contexte_servi": null,
+   "commit": "4ad9299c69c60096e479bdc8ad1e5cf793bbc8b9",
+   "modifications_non_commitees": false,
+   "signature": "sha256:d84076ea7b1e7ebd55a31a7e7d1b0e59b5af7ada8b3236f7f50d5f22831a758d",
+   "taches_publiees": 18,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:16850ecdef4e6e0414dc360860ca8c6b11651265e84cc5766a61cf19d2e12948",
+   "empreinte_publiee": "sha256:267ca60a0d3a4ae7a4a0697e53e08e437610db2635ad086e3b222d87d03dfeca"
+  },
+  {
+   "run": "2026-10-21_203647_agent_seul_deepseek_flash_1017",
+   "banc": "PME",
+   "roles": [
+    "socle"
+   ],
+   "reference": "agent_seul_deepseek_flash_1017",
+   "candidat": "agent_seul_deepseek_flash_1017",
+   "contexte_servi": null,
+   "commit": "9fdb0a0ab8b42269d9f34d9d7266637c4ff7e52c",
+   "modifications_non_commitees": false,
+   "signature": "sha256:d84076ea7b1e7ebd55a31a7e7d1b0e59b5af7ada8b3236f7f50d5f22831a758d",
+   "taches_publiees": 1,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:e9e8306897e939107611dbf7cb90fc8f03e4ba90ac19c688a9dba230fdfc8c8c",
+   "empreinte_publiee": "sha256:d757ba5eb2a117cffb57dec30954aa001384ddb26128fce774befd34f6052360"
+  },
+  {
+   "run": "2026-10-21_205442_agent_seul_deepseek_flash_1017",
+   "banc": "PME",
+   "roles": [
+    "socle"
+   ],
+   "reference": "agent_seul_deepseek_flash_1017",
+   "candidat": "agent_seul_deepseek_flash_1017",
+   "contexte_servi": null,
+   "commit": "f857ba21e833652c44cb5105214dd16711068da4",
+   "modifications_non_commitees": false,
+   "signature": "sha256:d84076ea7b1e7ebd55a31a7e7d1b0e59b5af7ada8b3236f7f50d5f22831a758d",
+   "taches_publiees": 5,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:755f64b2a6fc720aa6ecdfc079302837bc8f99d4e7efdea8be9e827703d31aa2",
+   "empreinte_publiee": "sha256:e6ff8819eb0e6286ea957b2966107a31ffbf67312f8c33ac74924949d0db9f5a"
+  },
+  {
+   "run": "2026-10-22_213526_agent_seul_deepseek_flash_1017",
+   "banc": "PME",
+   "roles": [
+    "socle"
+   ],
+   "reference": "agent_seul_deepseek_flash_1017",
+   "candidat": "agent_seul_deepseek_flash_1017",
+   "contexte_servi": null,
+   "commit": "2dc1d7e4818594ea7b84013a22e1e4521dfce3cf",
+   "modifications_non_commitees": false,
+   "signature": "sha256:d84076ea7b1e7ebd55a31a7e7d1b0e59b5af7ada8b3236f7f50d5f22831a758d",
+   "taches_publiees": 3,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:fab9b1e55b0bac998d6d3cff62f2341121bc1494f46f6dc90738f99b6d2a925b",
+   "empreinte_publiee": "sha256:938a0d3b9fc13090ddce3e8adbc68f6921f54d07b54f10b66af36ca0da5bbd92"
+  },
+  {
+   "run": "2026-10-23_003934_agent_seul_qwen_local_100k",
+   "banc": "PME",
+   "roles": [
+    "socle"
+   ],
+   "reference": "agent_seul_qwen_local_100k",
+   "candidat": "agent_seul_qwen_local_100k",
+   "contexte_servi": 102400,
+   "commit": "169ea7972aa3350511d862a949e85125b8846a2b",
+   "modifications_non_commitees": false,
+   "signature": "sha256:4d1157ef396d3572599d72fde41da889245f9b6609806188488b8f961078b4a8",
+   "taches_publiees": 19,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:e6e1d719a5bc749f72aaf417437d3c859c5849aed349aab010c20687218583b1",
+   "empreinte_publiee": "sha256:1f7e1c6e1896a14dda9b03789fdde717a92481fc7bee537bd1e502a04f6d51de"
+  },
+  {
+   "run": "2026-10-23_113319_agent_seul_deepseek_flash_1017",
+   "banc": "PME",
+   "roles": [
+    "socle"
+   ],
+   "reference": "agent_seul_deepseek_flash_1017",
+   "candidat": "agent_seul_deepseek_flash_1017",
+   "contexte_servi": null,
+   "commit": "da82bebc58d815a2dce445e7a3072021755ad392",
+   "modifications_non_commitees": false,
+   "signature": "sha256:d84076ea7b1e7ebd55a31a7e7d1b0e59b5af7ada8b3236f7f50d5f22831a758d",
+   "taches_publiees": 2,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:e5ecd56a2cc48934eda766c7dd61329d3f2f4acfb0b36efdabad6c3890c5492e",
+   "empreinte_publiee": "sha256:6b3a7dbb7f6cd6aaccb6f8728c4ec5ba257f40cd751daa7f46b702400cbd1c2f"
+  },
+  {
+   "run": "2026-10-23_113339_agent_seul_qwen_local_100k",
+   "banc": "PME",
+   "roles": [
+    "socle"
+   ],
+   "reference": "agent_seul_qwen_local_100k",
+   "candidat": "agent_seul_qwen_local_100k",
+   "contexte_servi": 102400,
+   "commit": "da82bebc58d815a2dce445e7a3072021755ad392",
+   "modifications_non_commitees": false,
+   "signature": "sha256:4d1157ef396d3572599d72fde41da889245f9b6609806188488b8f961078b4a8",
+   "taches_publiees": 5,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:d42fae60411f8ae744054d09e648eaae61b9d3e5db6571665f7e1ccf0348dadb",
+   "empreinte_publiee": "sha256:e1803326f3d819176892a4ded4b057ca2a8349b6f5d59b6f9f7d7843d5b4295a"
+  },
+  {
+   "run": "2026-10-23_135149_agent_seul_deepseek_flash_1017",
+   "banc": "PME",
+   "roles": [
+    "socle"
+   ],
+   "reference": "agent_seul_deepseek_flash_1017",
+   "candidat": "agent_seul_deepseek_flash_1017",
+   "contexte_servi": null,
+   "commit": "6d94edaa14942ac9844a6962033fa5c29a5860a7",
+   "modifications_non_commitees": false,
+   "signature": "sha256:d84076ea7b1e7ebd55a31a7e7d1b0e59b5af7ada8b3236f7f50d5f22831a758d",
+   "taches_publiees": 1,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:7ea164bbbf36b2859fae7bd75e35d0d4aa738da75ad56f421dc1261dc0d6d9b1",
+   "empreinte_publiee": "sha256:9a680f595fdccbc9c132ea9bb4260d413c8a9be0832cf0ebaa1c1799842888d6"
+  },
+  {
+   "run": "2026-10-23_170331_agent_seul_qwen_local_100k",
+   "banc": "PME",
+   "roles": [
+    "socle"
+   ],
+   "reference": "agent_seul_qwen_local_100k",
+   "candidat": "agent_seul_qwen_local_100k",
+   "contexte_servi": 102400,
+   "commit": "0049d0d9ed1a7f6570004aa8b05a494247dfdea6",
+   "modifications_non_commitees": false,
+   "signature": "sha256:4d1157ef396d3572599d72fde41da889245f9b6609806188488b8f961078b4a8",
+   "taches_publiees": 1,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:e8dde36a800c61ba37ad593352bc7bcbe572840e0ef0c2541439ce1fcc1f26f1",
+   "empreinte_publiee": "sha256:f47587efe9bdfa7e9b00cb2c1d6729e7fde930341c2fd70c3b7102c669b56b6f"
+  },
+  {
+   "run": "2026-10-23_180810_agent_seul_qwen_local_100k",
+   "banc": "PME",
+   "roles": [
+    "socle"
+   ],
+   "reference": "agent_seul_qwen_local_100k",
+   "candidat": "agent_seul_qwen_local_100k",
+   "contexte_servi": 102400,
+   "commit": "e118534189d922955f1268e68d0dfccdd5c8ee4a",
+   "modifications_non_commitees": false,
+   "signature": "sha256:4d1157ef396d3572599d72fde41da889245f9b6609806188488b8f961078b4a8",
+   "taches_publiees": 4,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:e2e7dff48a516ffb3fad837202b3d515428570a271f553437ae004085cd17794",
+   "empreinte_publiee": "sha256:1c8b570f2a710b13120c31abdffa67bec89a4e6559a9bc27631358ced8ca201f"
+  },
+  {
+   "run": "2026-10-26_120743_agent_seul_qwen_flash_next_strata",
+   "banc": "PME",
+   "roles": [
+    "socle"
+   ],
+   "reference": "agent_seul_qwen_flash_next_strata",
+   "candidat": "agent_seul_qwen_flash_next_strata",
+   "contexte_servi": null,
+   "commit": "f9be7a5a1c8e83745c9998900420cf66ee731cf9",
+   "modifications_non_commitees": false,
+   "signature": "sha256:6ce4a3bd4921cf32ce9dfffe777ce813cfb7bcec6a5f44b6f43aca648e78e6e8",
+   "taches_publiees": 63,
+   "taches_non_publiees": 20,
+   "empreinte_du_run": "sha256:ffbc2ab8c1c7cecafef58aea8744bb8337920ab0a1613427293c86f29e449eb8",
+   "empreinte_publiee": "sha256:a80c16c7ba3c280f2ef6292e7b50ca064b58e730229659bd654084ea1a439eab"
+  },
+  {
+   "run": "2026-10-27_103013_reproduction_tau2_qwen_flash_next_strata",
+   "banc": "τ²-bench",
+   "roles": [
+    "tau2"
+   ],
+   "reference": "agent_seul_qwen_flash_next_strata",
+   "candidat": "reproduction_tau2_qwen_flash_next_strata",
+   "contexte_servi": null,
+   "commit": "f9be7a5a1c8e83745c9998900420cf66ee731cf9",
+   "modifications_non_commitees": false,
+   "signature": "sha256:c3a2c3d609d84f55122be54edb16f61e4bf0877ff2caa396d8d2264dc136a6b4",
+   "taches_publiees": 50,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:0ce843df7e287ebe1b0c0db496a8b93b1ecd2bb8ba3bc0cfc43675f5be0f7a9f",
+   "empreinte_publiee": "sha256:859efe53df95768527ff9ca0c3e81440d201f8137d8bb9d3cf265ab51d550e75"
+  },
+  {
+   "run": "2026-10-27_141937_reproduction_tau2_qwen_flash_next_strata",
+   "banc": "τ²-bench",
+   "roles": [
+    "tau2"
+   ],
+   "reference": "agent_seul_qwen_flash_next_strata",
+   "candidat": "reproduction_tau2_qwen_flash_next_strata",
+   "contexte_servi": null,
+   "commit": "f9be7a5a1c8e83745c9998900420cf66ee731cf9",
+   "modifications_non_commitees": false,
+   "signature": "sha256:c3a2c3d609d84f55122be54edb16f61e4bf0877ff2caa396d8d2264dc136a6b4",
+   "taches_publiees": 17,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:d497707fc07b1f25f6123efe7da6b33aea1d5a99e8670c32c085d16e62ef3d0b",
+   "empreinte_publiee": "sha256:3f4639a7db4c7a2cdee35c33c0b566c929eba5b68734e52cee3b43cc9348fe4e"
+  },
+  {
+   "run": "2026-10-28_201857_temoin_inerte",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_inerte",
+   "candidat": "temoin_inerte",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": false,
+   "signature": "sha256:422edf022099ba2c378289dcf7acf55962d42a9fecf5f2681e80e5721932c6fd",
+   "taches_publiees": 2,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:7ec4f10e026824f292e5f217b5597134d5ccba353820828baac9e9e60a0fb8c8",
+   "empreinte_publiee": "sha256:18621b506f356229488f21def06e64695f254e4d40af0a2c43aacc18af5fdf8a"
+  },
+  {
+   "run": "2026-10-28_201857_temoin_parfait",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_parfait",
+   "candidat": "temoin_parfait",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": false,
+   "signature": "sha256:422edf022099ba2c378289dcf7acf55962d42a9fecf5f2681e80e5721932c6fd",
+   "taches_publiees": 2,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:6fcf8d0dbf062c7695af260bc6de52900d39209758de32af10199f7e978dfea0",
+   "empreinte_publiee": "sha256:42bdb260297d8552805572cfd3db3c113c5316e168385604e3a8da7fbf2ae225"
+  },
+  {
+   "run": "2026-10-28_201857_temoin_toujours_faux",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_toujours_faux",
+   "candidat": "temoin_toujours_faux",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": false,
+   "signature": "sha256:422edf022099ba2c378289dcf7acf55962d42a9fecf5f2681e80e5721932c6fd",
+   "taches_publiees": 2,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:bb33cc144a499c7150fc9a466bbdd38f9797ced1a746c7824a4b353120f89989",
+   "empreinte_publiee": "sha256:415d2aa975c80a7f3655a40c1d634137eadc69979b9d45291b1dde3b64802672"
+  },
+  {
+   "run": "2026-10-28_201857_temoin_une_fois_sur_deux",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_une_fois_sur_deux",
+   "candidat": "temoin_une_fois_sur_deux",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": false,
+   "signature": "sha256:422edf022099ba2c378289dcf7acf55962d42a9fecf5f2681e80e5721932c6fd",
+   "taches_publiees": 2,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:6e5de41e6213f3c4d9c108608107878bd8109b1a58117f37f8e7aee56d19adb6",
+   "empreinte_publiee": "sha256:72ede1d243686d29778ed9173b0c0bd582e885aacc914e83e837f8f30643b693"
+  },
+  {
+   "run": "2026-10-28_201858_temoin_parfait",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_parfait",
+   "candidat": "temoin_parfait",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": false,
+   "signature": "sha256:87ab0f35b35713a1ff9fc1e012b64f5bd005d9897a6f725f071b657fd51c10b1",
+   "taches_publiees": 63,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:a4f67266cc2571b45165b22bdbc60de343c70cd2d306dfa06b10080674720eea",
+   "empreinte_publiee": "sha256:e5fe9e141e6b7005c1eb5430ecc1b81409e2b9385ef70aae70b4b654fd4e46bb"
+  },
+  {
+   "run": "2026-10-28_202125_temoin_toujours_faux",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_toujours_faux",
+   "candidat": "temoin_toujours_faux",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": false,
+   "signature": "sha256:87ab0f35b35713a1ff9fc1e012b64f5bd005d9897a6f725f071b657fd51c10b1",
+   "taches_publiees": 63,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:b3b58b48692da5664e0c6fb3a9674be668dec6da8b29c1eb11475bd07a8717ac",
+   "empreinte_publiee": "sha256:c649437159d29964626127ae44f0f9ea6ec5b9724e7825bb01d6ae5057e249c2"
+  },
+  {
+   "run": "2026-10-28_202348_temoin_une_fois_sur_deux",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_une_fois_sur_deux",
+   "candidat": "temoin_une_fois_sur_deux",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": false,
+   "signature": "sha256:87ab0f35b35713a1ff9fc1e012b64f5bd005d9897a6f725f071b657fd51c10b1",
+   "taches_publiees": 63,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:0b7cab404d7768c9d63b65a65c35fe3a15d2a8661bbf98f8e80d1567717210c9",
+   "empreinte_publiee": "sha256:cb6aaea69e3b7934f27bed35b52cc826c6566857637f1513a02d44c5d0e9ebb8"
+  },
+  {
+   "run": "2026-10-28_202608_temoin_inerte",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_inerte",
+   "candidat": "temoin_inerte",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": false,
+   "signature": "sha256:87ab0f35b35713a1ff9fc1e012b64f5bd005d9897a6f725f071b657fd51c10b1",
+   "taches_publiees": 63,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:eec31ffefc85ccbe812561a57dfcb6b49826d7b446ead52b940a7c06abe1b045",
+   "empreinte_publiee": "sha256:536c101debb16486de18c23686de288691b297374fc034d029bac15ac965752e"
+  },
+  {
+   "run": "2026-10-28_202820_temoin_parfait",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_parfait",
+   "candidat": "temoin_parfait",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": false,
+   "signature": "sha256:87ab0f35b35713a1ff9fc1e012b64f5bd005d9897a6f725f071b657fd51c10b1",
+   "taches_publiees": 0,
+   "taches_non_publiees": 20,
+   "empreinte_du_run": "sha256:a28b668b0effe08bb8d65f440cb63c8517bebb8ef5329a8874886131c90847d2",
+   "empreinte_publiee": "sha256:73219d5c5811deb4bc8450295a63960fefa231c9849fa30f34043111afbf096f"
+  },
+  {
+   "run": "2026-10-28_202907_temoin_toujours_faux",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_toujours_faux",
+   "candidat": "temoin_toujours_faux",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": false,
+   "signature": "sha256:87ab0f35b35713a1ff9fc1e012b64f5bd005d9897a6f725f071b657fd51c10b1",
+   "taches_publiees": 0,
+   "taches_non_publiees": 20,
+   "empreinte_du_run": "sha256:288dd60f49c7a4d3c152bedec137c1a0488c48f7b37f1905df0eb32520b05d4b",
+   "empreinte_publiee": "sha256:b0b2ae989637eddee411036bbc65545280f5b343fd203fdb5aa40aba0beca7a5"
+  },
+  {
+   "run": "2026-10-28_202953_temoin_une_fois_sur_deux",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_une_fois_sur_deux",
+   "candidat": "temoin_une_fois_sur_deux",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": false,
+   "signature": "sha256:87ab0f35b35713a1ff9fc1e012b64f5bd005d9897a6f725f071b657fd51c10b1",
+   "taches_publiees": 0,
+   "taches_non_publiees": 20,
+   "empreinte_du_run": "sha256:845091d41b9aaab7b3bbe44c4ca17a50549ebabcadfd273b9fc1975a0d3ea2e5",
+   "empreinte_publiee": "sha256:b2082a1d2b5f2bfac0e7a6a27e9246712bcc7567a58162a116dc7aeafd99ea34"
+  },
+  {
+   "run": "2026-10-28_203038_temoin_inerte",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_inerte",
+   "candidat": "temoin_inerte",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": false,
+   "signature": "sha256:87ab0f35b35713a1ff9fc1e012b64f5bd005d9897a6f725f071b657fd51c10b1",
+   "taches_publiees": 0,
+   "taches_non_publiees": 20,
+   "empreinte_du_run": "sha256:1b3a8a7165bb9364fa6fab7db5ee79a5bca83727065db9361d88b4dea2f2902a",
+   "empreinte_publiee": "sha256:2918a81bf3a308b5b28f5ad5747242d9a2f62f81ca03653dfe8dd87aa0741281"
+  },
+  {
+   "run": "2026-10-28_203121_temoin_parfait",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_parfait",
+   "candidat": "temoin_parfait",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": false,
+   "signature": "sha256:87ab0f35b35713a1ff9fc1e012b64f5bd005d9897a6f725f071b657fd51c10b1",
+   "taches_publiees": 5,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:320a03de0f4f46a050802b8bc7b74648aa7b86f4a64ca1401f32981cbc2040e1",
+   "empreinte_publiee": "sha256:de7bfb8f7cfb472af96daa0244806703bdd0578c27399c6b2fcf62576bb1fe31"
+  },
+  {
+   "run": "2026-10-28_203141_temoin_toujours_faux",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_toujours_faux",
+   "candidat": "temoin_toujours_faux",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": false,
+   "signature": "sha256:87ab0f35b35713a1ff9fc1e012b64f5bd005d9897a6f725f071b657fd51c10b1",
+   "taches_publiees": 5,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:daa3613ceda9f101a3490f4585028b9521092a57a860bd10115deb878444d7b1",
+   "empreinte_publiee": "sha256:11cebe9bdcc319af832118711da75e4c57ab2a6229837c45c2fcb2390a0a21d7"
+  },
+  {
+   "run": "2026-10-28_203201_temoin_une_fois_sur_deux",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_une_fois_sur_deux",
+   "candidat": "temoin_une_fois_sur_deux",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": false,
+   "signature": "sha256:87ab0f35b35713a1ff9fc1e012b64f5bd005d9897a6f725f071b657fd51c10b1",
+   "taches_publiees": 5,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:d1ccb3464174ec5aadc752020e385a6d5a33951f91d09787bfdabafc34ecc1b8",
+   "empreinte_publiee": "sha256:3b12aac39929ff1961d48170430fec089454f19de2953725a46109c8499f0375"
+  },
+  {
+   "run": "2026-10-28_203221_temoin_inerte",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_inerte",
+   "candidat": "temoin_inerte",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": false,
+   "signature": "sha256:87ab0f35b35713a1ff9fc1e012b64f5bd005d9897a6f725f071b657fd51c10b1",
+   "taches_publiees": 5,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:b579a88b40d7e0765ecb6431475acabb18127f28a77f571f3236f5179c7e24f3",
+   "empreinte_publiee": "sha256:a9bfc89083ee6e30643679ed8395194894003a9db09dbc5c2ff9718b6e697fe5"
+  },
+  {
+   "run": "2026-10-28_203240_temoin_parfait",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_parfait",
+   "candidat": "temoin_parfait",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": false,
+   "signature": "sha256:87ab0f35b35713a1ff9fc1e012b64f5bd005d9897a6f725f071b657fd51c10b1",
+   "taches_publiees": 12,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:c8ab034c2c188b38997b30a0af1373fbfc8aac967ab00c4a2a398a1128bc84fe",
+   "empreinte_publiee": "sha256:b0f7a856c32a0663fd319ffc9488aad9daf617f63c5e09b491be38d06fbe82b5"
+  },
+  {
+   "run": "2026-10-28_203315_temoin_toujours_faux",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_toujours_faux",
+   "candidat": "temoin_toujours_faux",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": false,
+   "signature": "sha256:87ab0f35b35713a1ff9fc1e012b64f5bd005d9897a6f725f071b657fd51c10b1",
+   "taches_publiees": 12,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:c1a8d4a14f73f0e4872ce91661e196ef9ebe4892faf73879ebedc6747cd69db7",
+   "empreinte_publiee": "sha256:e9a9e62d3486308a8c9dd477aba3e5fb64c01f8b1f6b2d24999168c1cbd03758"
+  },
+  {
+   "run": "2026-10-28_203347_temoin_une_fois_sur_deux",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_une_fois_sur_deux",
+   "candidat": "temoin_une_fois_sur_deux",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": false,
+   "signature": "sha256:87ab0f35b35713a1ff9fc1e012b64f5bd005d9897a6f725f071b657fd51c10b1",
+   "taches_publiees": 12,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:bb0acee8e176b3c317327a9840b0fbae180c6e668e6ed42e931e2d095dcb1896",
+   "empreinte_publiee": "sha256:9cc4a247b5673f03cfdf92474611c5bf9a6f84ed247acca7411508555e24f5ad"
+  },
+  {
+   "run": "2026-10-28_203419_temoin_inerte",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_inerte",
+   "candidat": "temoin_inerte",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": false,
+   "signature": "sha256:87ab0f35b35713a1ff9fc1e012b64f5bd005d9897a6f725f071b657fd51c10b1",
+   "taches_publiees": 12,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:e7af8ea6e388974cf22e50eb586f772bb23adafd26fda537f3a412dec4f31bf2",
+   "empreinte_publiee": "sha256:fd115846d5b81ee2fb202bb2371e157d969f7370d2bd31b276aa69dac1f0bb76"
+  },
+  {
+   "run": "2026-10-28_203448_temoin_parfait",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_parfait",
+   "candidat": "temoin_parfait",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": false,
+   "signature": "sha256:87ab0f35b35713a1ff9fc1e012b64f5bd005d9897a6f725f071b657fd51c10b1",
+   "taches_publiees": 8,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:3df66fa8156da65a557fa153969b2d8609a2e8b3ab46384df977b6d5684cb42f",
+   "empreinte_publiee": "sha256:bd6aa2c55383bef3a4e0dad95d245d3907445d9daaf150483cafcb967da5bfc9"
+  },
+  {
+   "run": "2026-10-28_203520_temoin_toujours_faux",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_toujours_faux",
+   "candidat": "temoin_toujours_faux",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": false,
+   "signature": "sha256:87ab0f35b35713a1ff9fc1e012b64f5bd005d9897a6f725f071b657fd51c10b1",
+   "taches_publiees": 8,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:c83a97a68467484ae7d09dab8df74c12d92fdb000555fbc8c9145521dc87c5e2",
+   "empreinte_publiee": "sha256:9681a708add0f141a63b6c2c6520611d5ff44efa626b40a432c9d60a8987a2c8"
+  },
+  {
+   "run": "2026-10-28_203544_temoin_une_fois_sur_deux",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_une_fois_sur_deux",
+   "candidat": "temoin_une_fois_sur_deux",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": false,
+   "signature": "sha256:87ab0f35b35713a1ff9fc1e012b64f5bd005d9897a6f725f071b657fd51c10b1",
+   "taches_publiees": 8,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:86bc00584c98186eeea0ed11fdf9d08769c6c0ae170048a6a20750c6eb457625",
+   "empreinte_publiee": "sha256:f654b0298c5fd0d6952370621bf4fd854178a6714b657d7c0e29cdd4cae1e325"
+  },
+  {
+   "run": "2026-10-28_203611_temoin_inerte",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_inerte",
+   "candidat": "temoin_inerte",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": false,
+   "signature": "sha256:87ab0f35b35713a1ff9fc1e012b64f5bd005d9897a6f725f071b657fd51c10b1",
+   "taches_publiees": 8,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:1c60959c32379d3609632460072f810225f01a7ccef037138d7c64102a28326b",
+   "empreinte_publiee": "sha256:9b4e8f2d70af273ba012381f9a237ff95e38a784fef1365df978a7815c5ae648"
+  },
+  {
+   "run": "2026-10-28_203632_temoin_parfait",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_parfait",
+   "candidat": "temoin_parfait",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": false,
+   "signature": "sha256:87ab0f35b35713a1ff9fc1e012b64f5bd005d9897a6f725f071b657fd51c10b1",
+   "taches_publiees": 0,
+   "taches_non_publiees": 3,
+   "empreinte_du_run": "sha256:7ce427c0959d2502da0d01519edb578f7d548327e64553beb134752db882b2c7",
+   "empreinte_publiee": "sha256:e97a8e0a5197faccf16edd9e08a9d1a57d7467589fcb65260ff186fc9597fac7"
+  },
+  {
+   "run": "2026-10-28_203641_temoin_toujours_faux",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_toujours_faux",
+   "candidat": "temoin_toujours_faux",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": false,
+   "signature": "sha256:87ab0f35b35713a1ff9fc1e012b64f5bd005d9897a6f725f071b657fd51c10b1",
+   "taches_publiees": 0,
+   "taches_non_publiees": 3,
+   "empreinte_du_run": "sha256:4ec056c83b66399817c95011f181d6f272de030a373dcc9dffda8a93a1f62232",
+   "empreinte_publiee": "sha256:bcdc870519640945713236c53d2c6c254057c52c6aba6787e3869b2d583be327"
+  },
+  {
+   "run": "2026-10-28_203649_temoin_une_fois_sur_deux",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_une_fois_sur_deux",
+   "candidat": "temoin_une_fois_sur_deux",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": false,
+   "signature": "sha256:87ab0f35b35713a1ff9fc1e012b64f5bd005d9897a6f725f071b657fd51c10b1",
+   "taches_publiees": 0,
+   "taches_non_publiees": 3,
+   "empreinte_du_run": "sha256:c972541760ad365c05027968c5de246a19f1f43e3470b0dd2035f48ceb6b2f35",
+   "empreinte_publiee": "sha256:8048eefddecac78b2b662bd0aaafc9b7ea78fa9ca5cf13ea670f709758b30b44"
+  },
+  {
+   "run": "2026-10-28_203657_temoin_inerte",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_inerte",
+   "candidat": "temoin_inerte",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": false,
+   "signature": "sha256:87ab0f35b35713a1ff9fc1e012b64f5bd005d9897a6f725f071b657fd51c10b1",
+   "taches_publiees": 0,
+   "taches_non_publiees": 3,
+   "empreinte_du_run": "sha256:34a2c4bde6c2b2f49353d59731c7f01b460f5fa66aa90d349e06fe0735dd9ac4",
+   "empreinte_publiee": "sha256:ea1e0caf7bf3aa1e62038e4a5d467a253fd5d451ed436b48b1f2cfdca548e428"
+  },
+  {
+   "run": "2026-10-28_203704_temoin_parfait",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_parfait",
+   "candidat": "temoin_parfait",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": false,
+   "signature": "sha256:950fcb0ecd43048664714a5a64cd1caa165048099715f0cb390bd01c1303d93b",
+   "taches_publiees": 37,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:aa45ace3dcebc00528845ea2c42ee92cd66e99a8761d88cfcc1637498b75b4ff",
+   "empreinte_publiee": "sha256:f61413ae48f1e8e932ce0f3b261f3c94c9c3d239ce91f15306fb339ed3922c93"
+  },
+  {
+   "run": "2026-10-28_203836_temoin_toujours_faux",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_toujours_faux",
+   "candidat": "temoin_toujours_faux",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": false,
+   "signature": "sha256:950fcb0ecd43048664714a5a64cd1caa165048099715f0cb390bd01c1303d93b",
+   "taches_publiees": 37,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:44bb72ad7c2a0df681866925f85a071a46abb9ae5728daedc49ac4e75b7a8a9b",
+   "empreinte_publiee": "sha256:38e00d3a30ff43c135cbbc44b4678667ff1df36399e076f7ac504ea6bc821909"
+  },
+  {
+   "run": "2026-10-28_204005_temoin_une_fois_sur_deux",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_une_fois_sur_deux",
+   "candidat": "temoin_une_fois_sur_deux",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:950fcb0ecd43048664714a5a64cd1caa165048099715f0cb390bd01c1303d93b",
+   "taches_publiees": 37,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:f0afdfc380df875aca9289ea88cf2d73a03e57cfca056ec9f8f651d69bd1f54a",
+   "empreinte_publiee": "sha256:8332f5fdba1c110487fcf79b69bda0bc988a92a75d97a5f585d7c529f5f893b6"
+  },
+  {
+   "run": "2026-10-28_204136_temoin_inerte",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_inerte",
+   "candidat": "temoin_inerte",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:950fcb0ecd43048664714a5a64cd1caa165048099715f0cb390bd01c1303d93b",
+   "taches_publiees": 37,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:3c00f774df5ea7ad20c1794d2c1b18a3106f8cfb66c5f7fd047a4cf2539c8201",
+   "empreinte_publiee": "sha256:27267a1c76f2cf9c16334861aff505ed5e3bc931b0f59318373521de5b6311a6"
+  },
+  {
+   "run": "2026-10-28_204302_temoin_parfait",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_parfait",
+   "candidat": "temoin_parfait",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:950fcb0ecd43048664714a5a64cd1caa165048099715f0cb390bd01c1303d93b",
+   "taches_publiees": 21,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:1eac9027421de019678450488b1d61929d72e1e461a37660689ede886b755390",
+   "empreinte_publiee": "sha256:15361d0069aded614c424f0994918b0f1e36b2d72dbc736a4e71da8f9040da39"
+  },
+  {
+   "run": "2026-10-28_204357_temoin_toujours_faux",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_toujours_faux",
+   "candidat": "temoin_toujours_faux",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:950fcb0ecd43048664714a5a64cd1caa165048099715f0cb390bd01c1303d93b",
+   "taches_publiees": 21,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:e8dc380ec46907dde27a7b71c7c34da95d5d817192f17c5ea0360f8032452088",
+   "empreinte_publiee": "sha256:91704acb2f4b45860b7ef7c12ec2f20ec2eba3590c91561682b0c5435487a7fa"
+  },
+  {
+   "run": "2026-10-28_204447_temoin_une_fois_sur_deux",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_une_fois_sur_deux",
+   "candidat": "temoin_une_fois_sur_deux",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:950fcb0ecd43048664714a5a64cd1caa165048099715f0cb390bd01c1303d93b",
+   "taches_publiees": 21,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:8ee8ee7cfd4862446c3fc4c490b5b6a1fe4ed1ebf1f1551939118c207f42dfd7",
+   "empreinte_publiee": "sha256:c2838d5f39c34d6321f0ec3e11aba0a963a1992b6d6eb449cebc4d73693190ee"
+  },
+  {
+   "run": "2026-10-28_204538_temoin_inerte",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_inerte",
+   "candidat": "temoin_inerte",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:950fcb0ecd43048664714a5a64cd1caa165048099715f0cb390bd01c1303d93b",
+   "taches_publiees": 21,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:aed4866d529fd68314a2bd342f0c6f2294fa5ada9909a4850e26f47bbfbcaf24",
+   "empreinte_publiee": "sha256:d447d55ead43e5ed52ded8c958e7de06bb23e1c1d8d4d1c880341150b85ff5a2"
+  },
+  {
+   "run": "2026-10-28_204627_temoin_parfait",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_parfait",
+   "candidat": "temoin_parfait",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:950fcb0ecd43048664714a5a64cd1caa165048099715f0cb390bd01c1303d93b",
+   "taches_publiees": 8,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:9af11668f1e09e7713147dc49a5835145d8ab93a8906953f4a7dfdc0a957c3c7",
+   "empreinte_publiee": "sha256:1053b0b6990d3dffd041e5ae078e40bd505e956d3cd57ed254f590a5e761201b"
+  },
+  {
+   "run": "2026-10-28_204652_temoin_toujours_faux",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_toujours_faux",
+   "candidat": "temoin_toujours_faux",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:950fcb0ecd43048664714a5a64cd1caa165048099715f0cb390bd01c1303d93b",
+   "taches_publiees": 8,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:9024d24c1465a30c9ba705ec6fd7f5b7332ea950bd542cba234ea92d938ef2f2",
+   "empreinte_publiee": "sha256:d40bec0efcbbae86b196963de6498204680cc60307657875ee48110f361557ab"
+  },
+  {
+   "run": "2026-10-28_204712_temoin_une_fois_sur_deux",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_une_fois_sur_deux",
+   "candidat": "temoin_une_fois_sur_deux",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:950fcb0ecd43048664714a5a64cd1caa165048099715f0cb390bd01c1303d93b",
+   "taches_publiees": 8,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:6e27d83498c760bcebe840c31d25d3262fc3a198f8ad0f5b0b463beeabe5c020",
+   "empreinte_publiee": "sha256:e57af6c5d4181a4cbb354865a8fc230a90e36c7b819fbba0eb7714e868aa5d84"
+  },
+  {
+   "run": "2026-10-28_204734_temoin_inerte",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_inerte",
+   "candidat": "temoin_inerte",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:950fcb0ecd43048664714a5a64cd1caa165048099715f0cb390bd01c1303d93b",
+   "taches_publiees": 8,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:e7e4709b525da641fa6b4e05325f6cb7f36cef70059e8d62de1e1493201ac5ee",
+   "empreinte_publiee": "sha256:a2f0bf3534049fa91ec76ffbbaac3c4219512f877247420cb0c23f1dc30784a4"
+  },
+  {
+   "run": "2026-10-28_204752_temoin_parfait",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_parfait",
+   "candidat": "temoin_parfait",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:950fcb0ecd43048664714a5a64cd1caa165048099715f0cb390bd01c1303d93b",
+   "taches_publiees": 0,
+   "taches_non_publiees": 11,
+   "empreinte_du_run": "sha256:bd1ea67938194c05527fb0c9753ab5f462df59e3a133a02234223a2176481d59",
+   "empreinte_publiee": "sha256:d7c748d5c34e49647e3cfa5dba62a4ab97e319cbce4ea9782c14721582337f48"
+  },
+  {
+   "run": "2026-10-28_204820_temoin_toujours_faux",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_toujours_faux",
+   "candidat": "temoin_toujours_faux",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:950fcb0ecd43048664714a5a64cd1caa165048099715f0cb390bd01c1303d93b",
+   "taches_publiees": 0,
+   "taches_non_publiees": 11,
+   "empreinte_du_run": "sha256:50a2bceab184ee11ad87b235b8ccae70f0292bcf96f046a15e60192afd3b2263",
+   "empreinte_publiee": "sha256:fc45d9f93fbef7b89036915f3572e7505c14572dbf288a59da50185b2ceefdb5"
+  },
+  {
+   "run": "2026-10-28_204846_temoin_une_fois_sur_deux",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_une_fois_sur_deux",
+   "candidat": "temoin_une_fois_sur_deux",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:950fcb0ecd43048664714a5a64cd1caa165048099715f0cb390bd01c1303d93b",
+   "taches_publiees": 0,
+   "taches_non_publiees": 11,
+   "empreinte_du_run": "sha256:c4ee0b25299b5af7a348a690ff6cd99ad61c79337083141692424f39fa1907bd",
+   "empreinte_publiee": "sha256:a4bf543402cd5f69d191f7ab044abb8cd2beb43320091f691d7b09335376e3d3"
+  },
+  {
+   "run": "2026-10-28_204913_temoin_inerte",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_inerte",
+   "candidat": "temoin_inerte",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:950fcb0ecd43048664714a5a64cd1caa165048099715f0cb390bd01c1303d93b",
+   "taches_publiees": 0,
+   "taches_non_publiees": 11,
+   "empreinte_du_run": "sha256:200c3e8a89257f324f15a34977a0ce529bec210509ac276b3f23778bc8ce1a29",
+   "empreinte_publiee": "sha256:f574a0fc1bdd4f5199a6c6a6f18631e9ff88a719a77af8004646314175c71f81"
+  },
+  {
+   "run": "2026-10-28_204939_temoin_parfait",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_parfait",
+   "candidat": "temoin_parfait",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:950fcb0ecd43048664714a5a64cd1caa165048099715f0cb390bd01c1303d93b",
+   "taches_publiees": 0,
+   "taches_non_publiees": 6,
+   "empreinte_du_run": "sha256:f2b922417ecdfb0fe36f77b39a5c4836d178e0c1db7438db236424748e209bdc",
+   "empreinte_publiee": "sha256:124b3b44c28ec85e6ad18350ce25b0755f777fc8c6ff9f5f609288405c43beac"
+  },
+  {
+   "run": "2026-10-28_204955_temoin_toujours_faux",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_toujours_faux",
+   "candidat": "temoin_toujours_faux",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:950fcb0ecd43048664714a5a64cd1caa165048099715f0cb390bd01c1303d93b",
+   "taches_publiees": 0,
+   "taches_non_publiees": 6,
+   "empreinte_du_run": "sha256:9c5459842f449b9209d567bc3511dc1923ea875f83fff4ec2e6428744b44615f",
+   "empreinte_publiee": "sha256:942d79e4f4151d29bfb68968b940dc7e5649d8fa1eae2500174e424ac5bd50a0"
+  },
+  {
+   "run": "2026-10-28_205009_temoin_une_fois_sur_deux",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_une_fois_sur_deux",
+   "candidat": "temoin_une_fois_sur_deux",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:950fcb0ecd43048664714a5a64cd1caa165048099715f0cb390bd01c1303d93b",
+   "taches_publiees": 0,
+   "taches_non_publiees": 6,
+   "empreinte_du_run": "sha256:1ec2feb043e281a09c1506f9cf9c654455d24af3166902c25fa08d269f7fef33",
+   "empreinte_publiee": "sha256:940bad577b4ada6f89ffce3d99fe333fbffd220b75e553d731e793d6f8beb67b"
+  },
+  {
+   "run": "2026-10-28_205024_temoin_inerte",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_inerte",
+   "candidat": "temoin_inerte",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:950fcb0ecd43048664714a5a64cd1caa165048099715f0cb390bd01c1303d93b",
+   "taches_publiees": 0,
+   "taches_non_publiees": 6,
+   "empreinte_du_run": "sha256:3c2022e5f23777c1a854cd91810257807f3acf6fc0684d4a0fcbf8aa8a93b4ab",
+   "empreinte_publiee": "sha256:80608e3fe3238b21fa067b55b8cd25eeb2caa22e99583d9c074f5c05d1506c90"
+  },
+  {
+   "run": "2026-10-28_205038_temoin_parfait",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_parfait",
+   "candidat": "temoin_parfait",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:1f856ef3a27bba132472cdde0a424cc56851116b6a9eae64dc1e700309a891b2",
+   "taches_publiees": 37,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:a48f2e2f537042ca8aa7474117caa79175101fe736423a8cf244bffecf4cf0d3",
+   "empreinte_publiee": "sha256:0cd7a8ba19dc8436f1b46b0cc828f01803a3e995615d1084f98e1da751bc13cc"
+  },
+  {
+   "run": "2026-10-28_205302_temoin_toujours_faux",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_toujours_faux",
+   "candidat": "temoin_toujours_faux",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:1f856ef3a27bba132472cdde0a424cc56851116b6a9eae64dc1e700309a891b2",
+   "taches_publiees": 37,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:dd857144ad54df854470594db30c8b517201b9ae751113654fcc43a8ed5e9fef",
+   "empreinte_publiee": "sha256:db7d75be33d8b2ffa28d79ffa9c4af3b806028158e0e6d57d070ff27771986d0"
+  },
+  {
+   "run": "2026-10-28_205519_temoin_une_fois_sur_deux",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_une_fois_sur_deux",
+   "candidat": "temoin_une_fois_sur_deux",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:1f856ef3a27bba132472cdde0a424cc56851116b6a9eae64dc1e700309a891b2",
+   "taches_publiees": 37,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:4d8fa8deae065f61fa66ae64e6e7fd2b0feeb3d9e46f6d0b25ad91957744f440",
+   "empreinte_publiee": "sha256:7d416d91d25a349683180f258e7969760f4761feb3f3e8c43803e25a3a50c1f7"
+  },
+  {
+   "run": "2026-10-28_205735_temoin_inerte",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_inerte",
+   "candidat": "temoin_inerte",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:1f856ef3a27bba132472cdde0a424cc56851116b6a9eae64dc1e700309a891b2",
+   "taches_publiees": 37,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:adb4388313096d3f68e346793b522f5ab1b244bc96b9546674d9d032ff761540",
+   "empreinte_publiee": "sha256:120578708934cbbe3a52710811b181258109bcb5a5f9a7cd662def1ff96e1d70"
+  },
+  {
+   "run": "2026-10-28_205945_temoin_parfait",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_parfait",
+   "candidat": "temoin_parfait",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:1f856ef3a27bba132472cdde0a424cc56851116b6a9eae64dc1e700309a891b2",
+   "taches_publiees": 21,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:4903a2c0b971204418dcc70ece041c8b2eaf8666ec2c3e912da776e26573a262",
+   "empreinte_publiee": "sha256:ab34d4af395048b22a2b2cae448a7510c80a5b4e5e22ce71e7f42c499edeec95"
+  },
+  {
+   "run": "2026-10-28_210127_temoin_toujours_faux",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_toujours_faux",
+   "candidat": "temoin_toujours_faux",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:1f856ef3a27bba132472cdde0a424cc56851116b6a9eae64dc1e700309a891b2",
+   "taches_publiees": 21,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:085b61fc76741cca23605257b655befab99df9ac234acbefc8d7d8d277346fff",
+   "empreinte_publiee": "sha256:83763f2c4410d95b51f1fef97f4534f1736238fff4d1a6fdb8c6062eb2c0ef5d"
+  },
+  {
+   "run": "2026-10-28_210252_temoin_une_fois_sur_deux",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_une_fois_sur_deux",
+   "candidat": "temoin_une_fois_sur_deux",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:1f856ef3a27bba132472cdde0a424cc56851116b6a9eae64dc1e700309a891b2",
+   "taches_publiees": 21,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:2d5feb2b5d7608c9001930739f3a165ca2f298053df7b4828f49f9cecc6787f7",
+   "empreinte_publiee": "sha256:65e1aa10725975f5ab71ce29f35106c29d55ea71f364b6279fdb376ce392869f"
+  },
+  {
+   "run": "2026-10-28_210422_temoin_inerte",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_inerte",
+   "candidat": "temoin_inerte",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:1f856ef3a27bba132472cdde0a424cc56851116b6a9eae64dc1e700309a891b2",
+   "taches_publiees": 21,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:36adab86d1bcf6676e4807bcf5052588dd08f8f53ffecf3a1a9cd22069f8d037",
+   "empreinte_publiee": "sha256:b347857b8bb77c13443f698c1cd68ffd11be2f8708008fb32876ede1d09aafad"
+  },
+  {
+   "run": "2026-10-28_210541_temoin_parfait",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_parfait",
+   "candidat": "temoin_parfait",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:1f856ef3a27bba132472cdde0a424cc56851116b6a9eae64dc1e700309a891b2",
+   "taches_publiees": 8,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:f0e4c03eb9aab49f0a84fe408b2e7184430b33a4cb24e6dae4b372a71d8e4347",
+   "empreinte_publiee": "sha256:a32b77f50c89f2c54817ed0f06fb68b092a354e3a5f2adab0229016e31b722e0"
+  },
+  {
+   "run": "2026-10-28_210630_temoin_toujours_faux",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_toujours_faux",
+   "candidat": "temoin_toujours_faux",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:1f856ef3a27bba132472cdde0a424cc56851116b6a9eae64dc1e700309a891b2",
+   "taches_publiees": 8,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:59b3abffc1be19e2cf0e9b76e4969ec2c9f694545f44e45e19b22343d83215e9",
+   "empreinte_publiee": "sha256:b6a80f96c480a7b83cad95e888afe32523b13b630dd1b5e931d583718c19a35a"
+  },
+  {
+   "run": "2026-10-28_210703_temoin_une_fois_sur_deux",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_une_fois_sur_deux",
+   "candidat": "temoin_une_fois_sur_deux",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:1f856ef3a27bba132472cdde0a424cc56851116b6a9eae64dc1e700309a891b2",
+   "taches_publiees": 8,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:142a1ce74b8fd1485174016a320d54ff6d5b307eadf3faa130abd0a4bb4178a7",
+   "empreinte_publiee": "sha256:356a20de217d4de81768c98cd8a7324bfc5f22d46654500f909c0373fda5906d"
+  },
+  {
+   "run": "2026-10-28_210742_temoin_inerte",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_inerte",
+   "candidat": "temoin_inerte",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:1f856ef3a27bba132472cdde0a424cc56851116b6a9eae64dc1e700309a891b2",
+   "taches_publiees": 8,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:48ca176278744631b2e165b5c06369e4f12546a10100e6f9ab93a749fc0607fc",
+   "empreinte_publiee": "sha256:0c6cb2160d18fd0e5bc018250f0929b96a9465ec20be14fc7f3cb5aef2c9b443"
+  },
+  {
+   "run": "2026-10-28_210813_temoin_parfait",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_parfait",
+   "candidat": "temoin_parfait",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:1f856ef3a27bba132472cdde0a424cc56851116b6a9eae64dc1e700309a891b2",
+   "taches_publiees": 0,
+   "taches_non_publiees": 12,
+   "empreinte_du_run": "sha256:3a5ca7b5c3f040df559ee9a2984054bca4f80fb0d39bcba1be736b6720b5068b",
+   "empreinte_publiee": "sha256:5174135eb15ff36269f99901dedec8e6bf8ca8a3e18cabc6f2f22517ec43760b"
+  },
+  {
+   "run": "2026-10-28_210900_temoin_toujours_faux",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_toujours_faux",
+   "candidat": "temoin_toujours_faux",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:1f856ef3a27bba132472cdde0a424cc56851116b6a9eae64dc1e700309a891b2",
+   "taches_publiees": 0,
+   "taches_non_publiees": 12,
+   "empreinte_du_run": "sha256:3980d9f24aa991a5b0c8b54ff7704187d498dabe890bd1b3e27509145213d6c9",
+   "empreinte_publiee": "sha256:e98e14ae0caec7683a516196cdaa03f1deb03ad32fb1bd9f08dc6246a81deac5"
+  },
+  {
+   "run": "2026-10-28_210945_temoin_une_fois_sur_deux",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_une_fois_sur_deux",
+   "candidat": "temoin_une_fois_sur_deux",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:1f856ef3a27bba132472cdde0a424cc56851116b6a9eae64dc1e700309a891b2",
+   "taches_publiees": 0,
+   "taches_non_publiees": 12,
+   "empreinte_du_run": "sha256:72dd9092871f5b5bb4c59e2b30901442abffea5c2e2d006d401dc9ffd36e19d5",
+   "empreinte_publiee": "sha256:fdcb0984244c55a3529bc1846a2644c83b04246b1559f6c7662d707206db1568"
+  },
+  {
+   "run": "2026-10-28_211029_temoin_inerte",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_inerte",
+   "candidat": "temoin_inerte",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:1f856ef3a27bba132472cdde0a424cc56851116b6a9eae64dc1e700309a891b2",
+   "taches_publiees": 0,
+   "taches_non_publiees": 12,
+   "empreinte_du_run": "sha256:cf694cb49ad41f53e653ff6b752519c128539b6b54db7a3c52df876d5bdcf914",
+   "empreinte_publiee": "sha256:ed9829bbd7fe56318d3ea9708eb6f9c1579c6a3308a6212d4f52e2f2db47dd80"
+  },
+  {
+   "run": "2026-10-28_211112_temoin_parfait",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_parfait",
+   "candidat": "temoin_parfait",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:1f856ef3a27bba132472cdde0a424cc56851116b6a9eae64dc1e700309a891b2",
+   "taches_publiees": 0,
+   "taches_non_publiees": 6,
+   "empreinte_du_run": "sha256:0e05d8e2f64a8fc932448a96178528fe38f7eaaba100e720a22ecc9290f5341e",
+   "empreinte_publiee": "sha256:304362d44bfba6d94cd341f27623dd5cf4b499d7cd16b43f95d7c4017c940b2d"
+  },
+  {
+   "run": "2026-10-28_211141_temoin_toujours_faux",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_toujours_faux",
+   "candidat": "temoin_toujours_faux",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:1f856ef3a27bba132472cdde0a424cc56851116b6a9eae64dc1e700309a891b2",
+   "taches_publiees": 0,
+   "taches_non_publiees": 6,
+   "empreinte_du_run": "sha256:9dc00faae94c19b6ef294e6e57b9fcc825d9ac6bb49988e97c9f1d1e72818f07",
+   "empreinte_publiee": "sha256:44bfdf1b6934b02103ebe2422cd273741e3b3f22b7a5f21c1d56501dd10bd33e"
+  },
+  {
+   "run": "2026-10-28_211205_temoin_une_fois_sur_deux",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_une_fois_sur_deux",
+   "candidat": "temoin_une_fois_sur_deux",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:1f856ef3a27bba132472cdde0a424cc56851116b6a9eae64dc1e700309a891b2",
+   "taches_publiees": 0,
+   "taches_non_publiees": 6,
+   "empreinte_du_run": "sha256:a719d811ae7665e4aa8011f497de7cf97e589b641bbd58ce80d7b9e78a106790",
+   "empreinte_publiee": "sha256:bf1ee61f8590a634008dc256ef45cd78e7eb8ecd683d28549945d80b69a9c096"
+  },
+  {
+   "run": "2026-10-28_211230_temoin_inerte",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_inerte",
+   "candidat": "temoin_inerte",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:1f856ef3a27bba132472cdde0a424cc56851116b6a9eae64dc1e700309a891b2",
+   "taches_publiees": 0,
+   "taches_non_publiees": 6,
+   "empreinte_du_run": "sha256:47aa4dd025bbeb16901e17bd1312e2b54223ad1bd3a86359a72976746df29788",
+   "empreinte_publiee": "sha256:e8c68f1355247e0528230d6964b40d3b4bdc5d3467d551c832c6d5485d86cf09"
+  },
+  {
+   "run": "2026-10-28_211253_temoin_parfait",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_parfait",
+   "candidat": "temoin_parfait",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:adff8feca7765816f8c8fecc0c2913fbc94d440db7f9b13a0fc59c048a816927",
+   "taches_publiees": 10,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:8e7adff66b9b06917b64c611fe35d5077aa3ae10acc88b1b838ed8de8b4bc8ca",
+   "empreinte_publiee": "sha256:33563bd48735217d134ca0fbc8f69b6fc0d71fb77d867f846e1f4f090db2dc14"
+  },
+  {
+   "run": "2026-10-28_211308_temoin_toujours_faux",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_toujours_faux",
+   "candidat": "temoin_toujours_faux",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:adff8feca7765816f8c8fecc0c2913fbc94d440db7f9b13a0fc59c048a816927",
+   "taches_publiees": 10,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:f364e7b45c8cace20bd0f2b01648e4ecc2ded679a36fb6ee3d8d75d863ee16d6",
+   "empreinte_publiee": "sha256:794f5ecfc053ba4f88b90be3eccd228f78b5372fb6d709108c335230104fe6b6"
+  },
+  {
+   "run": "2026-10-28_211322_temoin_une_fois_sur_deux",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_une_fois_sur_deux",
+   "candidat": "temoin_une_fois_sur_deux",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:adff8feca7765816f8c8fecc0c2913fbc94d440db7f9b13a0fc59c048a816927",
+   "taches_publiees": 10,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:1d9ee3f2e811f18515b537972acc06260ec67b0230de92ee2a5a8d16ca2d8b4e",
+   "empreinte_publiee": "sha256:333f6e6935d124e0364551cff35375a8d7c3a4ff7a84a83d7c14cbdcff4f8e32"
+  },
+  {
+   "run": "2026-10-28_211337_temoin_inerte",
+   "banc": "PME",
+   "roles": [
+    "temoin"
+   ],
+   "reference": "temoin_inerte",
+   "candidat": "temoin_inerte",
+   "contexte_servi": null,
+   "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+   "modifications_non_commitees": true,
+   "signature": "sha256:adff8feca7765816f8c8fecc0c2913fbc94d440db7f9b13a0fc59c048a816927",
+   "taches_publiees": 10,
+   "taches_non_publiees": 0,
+   "empreinte_du_run": "sha256:83eb50da17b854eaced216fbb02d9c4392d9b73da6bc479ba172f498f442ee83",
+   "empreinte_publiee": "sha256:ad9becda8a857cb9b1a8cfbd46b927eb834ca056e8809da15f9398ef11ee013d"
+  }
+ ]
+}

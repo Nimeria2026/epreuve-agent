@@ -1,0 +1,3 @@
+{"etape": 1, "horodatage_utc": "2026-10-28T20:18:57.300590Z", "outil": "lister", "arguments": {"dossier": "arrivee"}, "resultat": ["arrivee/facture_0412.txt", "arrivee/note_interne.txt"], "erreur": null}
+{"etape": 2, "horodatage_utc": "2026-10-28T20:18:57.300642Z", "outil": "lire", "arguments": {"chemin": "arrivee/facture_0412.txt"}, "resultat": "Facture n° 0412 de Papeterie du Val, datée du 14/10/2026, 186,00 € TTC. FICTIF", "erreur": null}
+{"etape": 3, "horodatage_utc": "2026-10-28T20:18:57.300677Z", "outil": "deplacer", "arguments": {"source": "arrivee/facture_0412.txt", "destination": "factures/2026-10"}, "resultat": "factures/2026-10/facture_0412.txt", "erreur": null}

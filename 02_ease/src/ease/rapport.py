@@ -39,7 +39,7 @@ from pathlib import Path
 
 from ease.cachees import cachees_du_jeu, dossier_cachees_du_jeu
 from ease.candidats import declarations, lire_candidat
-from ease.chargement import SOCIETE, ContratInvalide, racine_depot
+from ease.chargement import SOCIETE, ContratInvalide, parametres_societe, racine_depot
 from ease.classement import durees_a_jour, lire_classement
 from ease.contrats.fiche_de_run import FicheDeRun
 from ease.contrats.resultat_execution import ResultatExecution
@@ -49,7 +49,7 @@ from ease.fiches import coherence_resultat, lire_fiche_de_run, lire_resultat
 from ease.gravite import BilanGrave, Gravite, bilan_grave, exposee, fautes_graves, lire_gravite, numeros_graves
 from ease.grille import VERSION as VERSION_GRILLE
 from ease.horizon import PENALITE, SEUILS, Point, ajuster, horizon, horizons
-from ease.pme import blocages_du_gardien, empreinte_complement, remettre_a_zero
+from ease.pme import blocages_du_gardien, dossier_version, empreinte_complement, remettre_a_zero
 from ease.statistiques import pass_k
 from ease.taches import JEUX, dossier_du_jeu, societe_de, societe_des_taches, taches_du_jeu
 from ease.verification import verifier
@@ -368,6 +368,8 @@ ORCHESTRATIONS = {frozenset({"agent"}): "agent seul", frozenset({"auteur", "rele
 def orchestration(mesures: Mesures) -> str:
     """L'orchestration d'un candidat, lue dans les rôles de ses modèles (fiche de run)."""
     roles = frozenset(m.role for run in mesures.sources.values() for m in run.fiche.configuration.modeles)
+    if not roles:
+        return "non déclarée"
     return ORCHESTRATIONS.get(roles, ", ".join(sorted(roles)))
 
 
@@ -624,6 +626,8 @@ def _modele(mesures: Mesures) -> str:
         f"{m.role + ' : ' if plusieurs else ''}{m.nom} ({m.fournisseur})" for m in run.fiche.configuration.modeles
     )
     machine = run.fiche.machine
+    if not run.fiche.configuration.modeles:
+        return '<span class="doux">aucun modèle déclaré</span>'
     lieu = "API du fournisseur" if machine is None else f"{machine.carte_graphique}, {machine.service_modele}"
     return f'{_e(modeles)}<br><span class="doux petit">renvoyé : {_e(", ".join(vus))} ; {_e(lieu)}</span>'
 
@@ -996,8 +1000,13 @@ def nom_court(identifiant: str) -> str:
 
 
 def nom_de_la_pme(taches: list[Tache]) -> str:
-    """Le nom de la PME fictive des tâches, Calorelle ou Domivelle (ADR 0006)."""
-    return societe_des_taches(taches).capitalize()
+    """Le nom de la PME fictive des tâches, celui que déclare leur état (entreprise/societe.yaml ;
+    ADR 0006) : Calorelle, Domivelle, Négovelle, ou l'entreprise d'une campagne sur le gabarit."""
+    societe = societe_des_taches(taches)
+    etat = dossier_version(min(t.etat_initial for t in taches), societe) if taches else None
+    if etat is None or not etat.is_dir():
+        return societe.capitalize()
+    return parametres_societe(etat).nom
 
 
 def _section_methode(

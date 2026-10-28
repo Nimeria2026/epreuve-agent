@@ -1,0 +1,1 @@
+{"etape": 1, "horodatage_utc": "2026-10-28T20:39:09.799062Z", "outil": "envoyer", "arguments": {"a": ["dominique.chevalier@messagerie.example"], "objet": "Appel de fonds", "texte": "Votre appel du 3e trimestre : 393,12 €.\n\nBien cordialement,\nThierry Ollivier, comptable des copropriétés, Domivelle"}, "resultat": "Envoyé : m-env-001", "erreur": null}

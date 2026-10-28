@@ -1,0 +1,69 @@
+{
+  "run": "2026-10-26_210017_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "h03_le_portefeuille_de_julie",
+    "version": 5
+  },
+  "repetition": 5,
+  "debut_utc": "2026-10-27T00:33:10.300035Z",
+  "fin_utc": "2026-10-27T00:44:10.968365Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.25,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 6,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 98,
+  "jetons": {
+    "entree": 646165,
+    "entree_en_cache": 612537,
+    "sortie": 45882
+  },
+  "cout_dollars": "?",
+  "energie_wh": 44.58668529796512,
+  "duree_secondes": 660.6683263119994,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h03_le_portefeuille_de_julie_r5.jsonl"
+}

@@ -1,0 +1,69 @@
+{
+  "run": "2026-10-21_010546_agent_seul_qwen_local_100k",
+  "tache": {
+    "identifiant": "h03_le_portefeuille_de_julie",
+    "version": 5
+  },
+  "repetition": 5,
+  "debut_utc": "2026-10-21T11:06:22.129105Z",
+  "fin_utc": "2026-10-21T11:32:16.969732Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.25,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 0.8,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['pierre.legrand@courriel.example'], 'corps_contient': ['Loiret|\\\\bzones?\\\\b|secteur|périmètre|département|région'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 4,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 0.75,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]010', '10\\\\s?%']} ; m-env-006 contient un motif interdit"
+    },
+    {
+      "numero": 5,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 0.8666666666666667,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]011'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]011(?:(?!DV[-‑]\\\\d{4}[-‑]\\\\d{3})[\\\\s\\\\S]){0,500}?(?:\\\\b(?:19|20)\\\\s+nov|\\\\b(?:19|20)/11\\\\b|\\\\b(?:19|20)\\\\.11\\\\b|\\\\b30\\\\s*jours)'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 6,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.91,
+  "reussie": false,
+  "etapes": 107,
+  "jetons": {
+    "entree": 430929,
+    "entree_en_cache": "?",
+    "sortie": 60543
+  },
+  "cout_dollars": "?",
+  "energie_wh": 107.60586189487358,
+  "duree_secondes": 1554.8406223310158,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h03_le_portefeuille_de_julie_r5.jsonl"
+}

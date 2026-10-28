@@ -25,10 +25,12 @@ Contenu :
 - `calorelle/` : Calorelle, la PME du banc depuis l'étape 2 ; états v1, v2 et v3.
 - `domivelle/` : Domivelle, administration de biens ; état v1.
 - `negovelle/` : Négovelle, négoce de gros ; état v1, avec `ventes/` pour le service des ventes.
+- `gabarit/` : la société gabarit des campagnes, réglée par `variables.yaml` ; état v1 et
+  compléments écrits par `make gabarit` (cadrage des interventions, section 11).
 
 ## Licence
 
-Les données des sociétés fictives (Calorelle, Domivelle, Négovelle) sont sous licence Creative
+Les données des sociétés fictives (Calorelle, Domivelle, Négovelle, le gabarit) sont sous licence Creative
 Commons Attribution, Partage dans les mêmes conditions 4.0 International (CC BY-SA 4.0,
 https://creativecommons.org/licenses/by-sa/4.0/deed.fr) : libres de reprise, y compris
 commerciale, à condition de citer « Alexandre Do, Épreuve d'agent » et de publier toute version

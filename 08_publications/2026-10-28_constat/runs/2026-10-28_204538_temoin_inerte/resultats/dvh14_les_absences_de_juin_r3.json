@@ -1,0 +1,69 @@
+{
+  "run": "2026-10-28_204538_temoin_inerte",
+  "tache": {
+    "identifiant": "dvh14_les_absences_de_juin",
+    "version": 1
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-28T20:46:10.328282Z",
+  "fin_utc": "2026-10-28T20:46:10.328466Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "absent : rh/yohan.delmas/arrets/2026-06-08_2026-06-17.pdf ; absent : rh/solene.audoin/arrets/2026-06-10_2026-06-24.pdf"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gaelle.fournel@domivelle.example'], 'corps_contient': ['(?<!\\\\d)17 juin|17/0?6|2026-06-17']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['cedric.maillard@domivelle.example'], 'corps_contient': ['(?<!\\\\d)24 juin|24/0?6|2026-06-24', 'sud|Solène|Audoin']}"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['melanie.sabatier@domivelle.example'], 'corps_contient': ['Yohan|Delmas', '(?<!\\\\d)17 juin|17/0?6|2026-06-17']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['nadege.lebrun@domivelle.example'], 'corps_contient': ['Yohan|Delmas']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['nadege.lebrun@domivelle.example'], 'corps_contient': ['Solène|Audoin']}"
+    },
+    {
+      "numero": 4,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "respect_des_regles",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "absent : rh/candidatures/agathe.lemoine/cv_agathe_lemoine.pdf ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['agathe.lemoine@mel-perso.example'], 'corps_contient': ['re[çc]u|réception']}"
+    },
+    {
+      "numero": 6,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.30000000000000004,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.00018165799701819196,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/dvh14_les_absences_de_juin_r3.jsonl"
+}

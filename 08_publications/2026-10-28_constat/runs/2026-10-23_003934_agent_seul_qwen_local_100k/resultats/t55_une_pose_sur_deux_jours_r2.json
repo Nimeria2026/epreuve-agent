@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-23_003934_agent_seul_qwen_local_100k",
+  "tache": {
+    "identifiant": "t55_une_pose_sur_deux_jours",
+    "version": 1
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-23T04:38:40.999003Z",
+  "fin_utc": "2026-10-23T05:13:03.430542Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.35,
+      "score": 0.0,
+      "detail": "INT-2026-0042 : nature mise_en_service au lieu de installation ; INT-2026-0043 : nature mise_en_service au lieu de installation"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.25,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.65,
+  "reussie": false,
+  "etapes": 33,
+  "jetons": {
+    "entree": 106461,
+    "entree_en_cache": "?",
+    "sortie": 84103
+  },
+  "cout_dollars": "?",
+  "energie_wh": 143.00371488479573,
+  "duree_secondes": 2062.4315336090513,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t55_une_pose_sur_deux_jours_r2.jsonl"
+}

@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-23_003934_agent_seul_qwen_local_100k",
+  "tache": {
+    "identifiant": "t61_la_prolongation_de_florian",
+    "version": 2
+  },
+  "repetition": 5,
+  "debut_utc": "2026-10-23T10:36:56.794067Z",
+  "fin_utc": "2026-10-23T10:39:46.345703Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.25,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 14,
+  "jetons": {
+    "entree": 25419,
+    "entree_en_cache": "?",
+    "sortie": 5923
+  },
+  "cout_dollars": "?",
+  "energie_wh": 11.66104327822975,
+  "duree_secondes": 169.55162842595018,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t61_la_prolongation_de_florian_r5.jsonl"
+}

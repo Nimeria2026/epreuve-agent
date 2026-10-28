@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-22_213526_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t60_deux_demandes_de_conges",
+    "version": 3
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-22T21:41:29.037029Z",
+  "fin_utc": "2026-10-22T21:42:06.807391Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.25,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 18,
+  "jetons": {
+    "entree": 47090,
+    "entree_en_cache": 41088,
+    "sortie": 5647
+  },
+  "cout_dollars": 0.004411764,
+  "energie_wh": null,
+  "duree_secondes": 37.770356756984256,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t60_deux_demandes_de_conges_r4.jsonl"
+}

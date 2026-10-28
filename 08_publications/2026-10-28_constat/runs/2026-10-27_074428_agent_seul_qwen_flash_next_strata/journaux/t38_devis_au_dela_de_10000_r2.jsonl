@@ -1,0 +1,2 @@
+{"etape": 1, "horodatage_utc": "2026-10-27T09:54:21.916805Z", "outil": "lister", "arguments": {}, "resultat": "clients/\ncommercial/\ncommun/", "erreur": null}
+{"etape": 2, "horodatage_utc": "2026-10-27T09:54:21.923041Z", "outil": "lister_courriels", "arguments": {}, "resultat": "m-kb-101 | 2026-11-02T08:20:00+01:00 | Syndic de la Résidence des Grèves <contact@syndic-de-la-residence-des-greves-273.example> | Devis pour la chaufferie | non lu | 0 pièce(s) jointe(s)", "erreur": null}

@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-21_125500_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t44_note_de_frais",
+    "version": 2
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-21T14:39:51.751173Z",
+  "fin_utc": "2026-10-21T14:40:17.902288Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 18,
+  "jetons": {
+    "entree": 55829,
+    "entree_en_cache": 49920,
+    "sortie": 4305
+  },
+  "cout_dollars": 0.00361911,
+  "energie_wh": null,
+  "duree_secondes": 26.151110795035493,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t44_note_de_frais_r2.jsonl"
+}

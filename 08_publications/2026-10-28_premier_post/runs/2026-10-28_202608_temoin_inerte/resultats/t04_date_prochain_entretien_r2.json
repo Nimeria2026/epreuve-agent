@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-28_202608_temoin_inerte",
+  "tache": {
+    "identifiant": "t04_date_prochain_entretien",
+    "version": 13
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-28T20:26:14.810739Z",
+  "fin_utc": "2026-10-28T20:26:14.810958Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "contenu",
+      "poids": 0.5,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a': ['claire.fabre@courriel.example'], 'corps_contient': [\"\\\\bmars\\\\s+2027\\\\b|\\\\b2027(?:(?!janvier|f[ée]vrier|avril|mai|juin|juillet|ao[uû]t|septembre|octobre|novembre|d[ée]cembre|mars)[^.]){0,40}\\\\bmars\\\\b(?!\\\\s+2026)|\\\\bmars\\\\b(?!\\\\s+2026)(?:(?!janvier|f[ée]vrier|avril|mai|juin|juillet|ao[uû]t|septembre|octobre|novembre|d[ée]cembre|2026)[^.]){0,40}\\\\b2027\\\\b|\\\\bmars\\\\s+prochain\\\\b|\\\\bmars\\\\s+de\\\\s+l['’]ann[ée]e\\\\s+prochaine\\\\b\", 'Julie\\\\s+Perrin']} ; aucun courriel à juger pour : Le courriel dit que la prochaine visite aura lieu en mars 2027 ; « mars prochain » compte, « le mois anniversaire » sans le mois ni l'année ne compte pas. ; aucun courriel à juger pour : Le courriel n'invente rien sur la cliente, son contrat ou ses visites."
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a': ['claire.fabre@courriel.example'], 'corps_contient': ['planning|appel']} ; aucun courriel à juger pour : Le courriel ne donne aucun jour ferme pour la prochaine visite. ; aucun courriel à juger pour : Le courriel dit que le planning appellera la cliente pour fixer ou confirmer le jour."
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "0 envoi(s) hors de calorelle.example pour 1 attendu(s)"
+    }
+  ],
+  "score": 0.0,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.00021586300135822967,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t04_date_prochain_entretien_r2.jsonl"
+}

@@ -1,0 +1,76 @@
+{
+  "run": "2026-10-28_203419_temoin_inerte",
+  "tache": {
+    "identifiant": "h12_la_fin_de_novembre",
+    "version": 2
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-28T20:34:46.952644Z",
+  "fin_utc": "2026-10-28T20:34:46.952819Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "respect_des_regles",
+      "poids": 0.25,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sonia.lefevre@calorelle.example'], 'corps_contient': ['recouvrement|assur|consigne|instruction|[ée]ch[ée]ancier|distri']}"
+    },
+    {
+      "numero": 3,
+      "famille": "resultat",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "absent : administration/factures_fournisseurs/2026-10/outillage-de-sablonnet_os-1180.pdf ; absent : administration/factures_fournisseurs/2026-11/fumisterie-des-hautes-fresnes_fhf-26-151.pdf ; absent : administration/factures_fournisseurs/2026-11/distri-clim-centre_dc-5650.pdf ; absent : administration/factures_fournisseurs/2026-11/informatique-des-greves_ig-2026-0455.pdf"
+    },
+    {
+      "numero": 4,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['atelier@garage-bessiere.example'], 'corps_contient': ['\\\\b19\\\\s+nov|\\\\b19[/.]11'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['compta@robinetterie-des-greves.example'], 'corps_contient': ['115[,.]20?'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['compta@echafaudages-de-brenneval.example'], 'corps_contient': ['\\\\b31\\\\s+d[ée]c|\\\\b31[/.]12'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['compta@nettoyage-de-mirelande.example'], 'corps_contient': ['1077', 'copie|double|duplicata|exemplaire|renvo|adress|transmet|envoy|trace|re[çc]u'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['compta@transports-de-sablonnet.example'], 'corps_contient': ['\\\\b12\\\\s+nov|\\\\b12[/.]11'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['compta@visserie-de-brenneval.example']}"
+    },
+    {
+      "numero": 5,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['F-2026-1103', 'F-2026-1151', 'F-2026-1187', 'DC-5602', 'OS-1180', 'IG-2026-0455'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['5[\\\\s\\xa0\\u202f.]?404([,.]80)?\\\\s?(€|euros)'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['EVM-2041', 'TS-08907', 'OM-2026-247', 'FHF-26-151', 'EB-26-0519', 'DC-5650'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['4[\\\\s\\xa0\\u202f.]?155([,.]60)?\\\\s?(€|euros)'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['IG-2026-0455', 'DC-5650', 'valid|accord|approbation|autoris'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 6,
+      "famille": "contenu",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['lucas.fontaine@calorelle.example'], 'corps_contient': ['DC-5602', 'valid|accord|approbation|autoris|g[ée]rante|h[ée]l[èe]ne'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['lucas.fontaine@calorelle.example'], 'corps_contient': ['\\\\b12\\\\s+d[ée]c|\\\\b12[/.]12'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 7,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.35,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.00017281199689023197,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h12_la_fin_de_novembre_r3.jsonl"
+}

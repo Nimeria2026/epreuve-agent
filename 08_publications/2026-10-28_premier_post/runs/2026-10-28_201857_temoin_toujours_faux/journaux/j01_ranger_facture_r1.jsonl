@@ -1,0 +1,2 @@
+{"etape": 1, "horodatage_utc": "2026-10-28T20:18:57.253178Z", "outil": "deplacer", "arguments": {"source": "arrivee/facture_0412.txt", "destination": "factures/2026-09"}, "resultat": "factures/2026-09/facture_0412.txt", "erreur": null}
+{"etape": 2, "horodatage_utc": "2026-10-28T20:18:57.253226Z", "outil": "deplacer", "arguments": {"source": "arrivee/note_interne.txt", "destination": "factures/2026-10"}, "resultat": "factures/2026-10/note_interne.txt", "erreur": null}

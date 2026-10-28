@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-21_125500_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t30_confirmer_rendez_vous_demain",
+    "version": 3
+  },
+  "repetition": 5,
+  "debut_utc": "2026-10-21T14:07:50.773013Z",
+  "fin_utc": "2026-10-21T14:08:16.833178Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "contenu",
+      "poids": 0.6,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 33,
+  "jetons": {
+    "entree": 60529,
+    "entree_en_cache": 53504,
+    "sortie": 4930
+  },
+  "cout_dollars": 0.0041722619999999995,
+  "energie_wh": null,
+  "duree_secondes": 26.06015957100317,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t30_confirmer_rendez_vous_demain_r5.jsonl"
+}

@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-21_193611_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t63_une_question_sur_un_salaire",
+    "version": 1
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-21T20:23:43.772535Z",
+  "fin_utc": "2026-10-21T20:23:55.907828Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "respect_des_regles",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 12,
+  "jetons": {
+    "entree": 25543,
+    "entree_en_cache": 21376,
+    "sortie": 1467
+  },
+  "cout_dollars": 0.001569378,
+  "energie_wh": null,
+  "duree_secondes": 12.135288100980688,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t63_une_question_sur_un_salaire_r1.jsonl"
+}

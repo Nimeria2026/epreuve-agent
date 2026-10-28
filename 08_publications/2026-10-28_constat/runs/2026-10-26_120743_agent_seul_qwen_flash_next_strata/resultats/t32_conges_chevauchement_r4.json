@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-26_120743_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "t32_conges_chevauchement",
+    "version": 3
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-26T15:25:09.332055Z",
+  "fin_utc": "2026-10-26T15:25:55.364725Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "contenu",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 13,
+  "jetons": {
+    "entree": 35135,
+    "entree_en_cache": 30431,
+    "sortie": 2409
+  },
+  "cout_dollars": "?",
+  "energie_wh": 2.909315009242443,
+  "duree_secondes": 46.03265870099858,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t32_conges_chevauchement_r4.jsonl"
+}

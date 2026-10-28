@@ -1,0 +1,1 @@
+{"etape": 1, "horodatage_utc": "2026-10-28T20:23:45.897923Z", "outil": "envoyer", "arguments": {"a": ["nicolas.blanc@calorelle.example", "nicolas.blanc@courriel.example"], "objet": "Note de frais", "texte": "Ta note est remboursée en entier : 102,70 €."}, "resultat": "Envoyé : m-env-001", "erreur": null}

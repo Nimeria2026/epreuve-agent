@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-28_205519_temoin_une_fois_sur_deux",
+  "tache": {
+    "identifiant": "ng14_les_relances_de_juillet",
+    "version": 2
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-28T20:56:11.446107Z",
+  "fin_utc": "2026-10-28T20:56:11.446296Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.25,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['serge.barre@maconnerie-gabriel.example'], 'corps_contient': ['FC-2026-0105', 'mise en demeure|mettons en demeure|met en demeure']} ; c-0091 toujours ouvert"
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gerard.dufour@peron-renovation.example'], 'corps_contient': ['FC-2026-1420', '40 ?(?:€|euros)'], 'corps_ne_contient_pas': ['en demeure']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['joel.daniel@peron-renovation.example'], 'corps_contient': ['FC-2026-1420']}"
+    },
+    {
+      "numero": 3,
+      "famille": "resultat",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sandrine.delaunay@cosson-renovation.example'], 'corps_contient': ['FC-2026-0304'], 'corps_ne_contient_pas': ['en demeure', 'indemnit', '40 ?(?:€|euros)']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['jeanne.monnier@cosson-renovation.example'], 'corps_contient': ['FC-2026-0304']}"
+    },
+    {
+      "numero": 4,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.35,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.00018663799710338935,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/ng14_les_relances_de_juillet_r2.jsonl"
+}

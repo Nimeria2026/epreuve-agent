@@ -1,0 +1,1 @@
+{"etape": 1, "horodatage_utc": "2026-10-28T20:21:27.428458Z", "outil": "envoyer", "arguments": {"a": ["b.lemoine@courriel.example"], "objet": "Copie de votre contrat d'entretien", "texte": "Bonjour, voici la copie de votre contrat Sérénité Plus.", "pieces_jointes": ["clients/c-0217/contrats/contrat_entretien_c-0217.pdf"]}, "resultat": "Envoyé : m-env-001", "erreur": null}

@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-28_204136_temoin_inerte",
+  "tache": {
+    "identifiant": "dv02_les_revisions_du_1er_juillet",
+    "version": 2
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-28T20:41:40.140897Z",
+  "fin_utc": "2026-10-28T20:41:40.141091Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.25,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['pauline.navarro@mel-perso.example'], 'corps_contient': ['689[,.]31']}"
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.25,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['maxime.carpentier@mel-perso.example'], 'corps_contient': ['621[,.]40'], 'corps_ne_contient_pas': ['619[,.]78']}"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['ines.lecomte@courriel.example'], 'corps_contient': ['556[,.]35', '8 juin|08/06'], 'corps_ne_contient_pas': ['13[,.]05']}"
+    },
+    {
+      "numero": 4,
+      "famille": "resultat",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['pascale.renaud@domivelle.example', 'comptabilite@domivelle.example'], 'corps_contient': ['689[,.]31', '621[,.]40', '556[,.]35'], 'corps_ne_contient_pas': ['544[,.]19', '545[,.]62', '619[,.]78']}"
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.1,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.00019003399938810617,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/dv02_les_revisions_du_1er_juillet_r3.jsonl"
+}

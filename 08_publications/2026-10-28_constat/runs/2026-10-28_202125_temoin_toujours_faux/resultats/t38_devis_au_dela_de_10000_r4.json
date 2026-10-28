@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-28_202125_temoin_toujours_faux",
+  "tache": {
+    "identifiant": "t38_devis_au_dela_de_10000",
+    "version": 4
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-28T20:22:49.877871Z",
+  "fin_utc": "2026-10-28T20:22:49.942545Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.4,
+      "score": 0.0,
+      "detail": "DV-2026-013 : statut envoye au lieu de brouillon"
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'joint_le_devis_de': 'c-0273'}"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "m-env-001 joint un fichier interdit"
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "destinataire non prévu : copropriete@saulaies-gestion.example"
+    }
+  ],
+  "score": 0.0,
+  "reussie": false,
+  "etapes": 3,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.0646710009968956,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t38_devis_au_dela_de_10000_r4.jsonl"
+}

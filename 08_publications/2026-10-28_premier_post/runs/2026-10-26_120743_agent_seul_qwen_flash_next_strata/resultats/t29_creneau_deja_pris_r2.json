@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-26_120743_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "t29_creneau_deja_pris",
+    "version": 2
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-26T14:59:29.791805Z",
+  "fin_utc": "2026-10-26T15:00:41.832999Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "contenu",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 9,
+  "jetons": {
+    "entree": 38753,
+    "entree_en_cache": 35802,
+    "sortie": 4430
+  },
+  "cout_dollars": "?",
+  "energie_wh": 4.6592714730864575,
+  "duree_secondes": 72.04118858700167,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t29_creneau_deja_pris_r2.jsonl"
+}

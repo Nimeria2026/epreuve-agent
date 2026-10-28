@@ -1,0 +1,47 @@
+{
+  "run": "2026-10-09_220655_agent_seul_qwen_local",
+  "tache": {
+    "identifiant": "t12_changement_adresse_client",
+    "version": 4
+  },
+  "repetition": 5,
+  "debut_utc": "2026-10-10T02:08:16.624014Z",
+  "fin_utc": "2026-10-10T02:11:47.681285Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "respect_des_regles",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 15,
+  "jetons": {
+    "entree": 96911,
+    "entree_en_cache": "?",
+    "sortie": 8121
+  },
+  "cout_dollars": "?",
+  "energie_wh": 14.567280436350243,
+  "duree_secondes": 211.05726673900062,
+  "journal": "journaux/t12_changement_adresse_client_r5.jsonl"
+}

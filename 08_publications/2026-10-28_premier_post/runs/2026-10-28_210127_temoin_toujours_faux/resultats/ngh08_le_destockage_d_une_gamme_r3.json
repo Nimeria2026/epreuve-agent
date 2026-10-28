@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-28_210127_temoin_toujours_faux",
+  "tache": {
+    "identifiant": "ngh08_le_destockage_d_une_gamme",
+    "version": 1
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-28T21:02:00.568541Z",
+  "fin_utc": "2026-10-28T21:02:00.643656Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "CO-2026-02042, OUT-10130 : 69.50 € du tarif au lieu de 47.06 € accordé ; CO-2026-02043, OUT-10155 : 37.58 € du tarif au lieu de 25.45 € accordé ; CO-2026-02043, OUT-10196 : 27.22 € du tarif au lieu de 18.43 € accordé ; CO-2026-02044, OUT-10122 : 32.61 € du tarif au lieu de 23.04 € accordé ; CO-2026-02044, OUT-10171 : 38.04 € du tarif au lieu de 26.88 € accordé ; CO-2026-02045, OUT-11837 : 27.55 € du tarif au lieu de 18.66 € accordé ; CO-2026-02046, OUT-10204 : 27.46 € du tarif au lieu de 18.59 € accordé ; CO-2026-02046, OUT-11812 : 23.14 € du tarif au lieu de 15.66 € accordé ; CO-2026-02047, OUT-10147 : 47.30 € du tarif au lieu de 30.74 € accordé ; CO-2026-02047, OUT-11845 : 27.80 € du tarif au lieu de 18.07 € accordé ; CO-2026-02048, OUT-11813 : 25.00 € du tarif au lieu de 16.25 € accordé ; CO-2026-02049, OUT-10155 : 37.58 € du tarif au lieu de 25.45 € accordé"
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "CO-2026-02042, OUT-10114 : le motif ne dit pas Castaing|Bruno|pr[ée]sident|direction|d[ée]cision, d[ée]r[ée]f[ée]renc|fin de s[ée]rie|obsolesc|d[ée]mod|exception ; CO-2026-02045, OUT-11821 : 10.57 € du tarif au lieu de 7.38 € accordé ; CO-2026-02045, OUT-11829 : 28.90 € du tarif au lieu de 19.56 € accordé ; CO-2026-02048, OUT-10114 : 17.20 € du tarif au lieu de 11.41 € accordé ; CO-2026-02049, OUT-11829 : 28.90 € du tarif au lieu de 19.56 € accordé"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.25,
+      "score": 0.0,
+      "detail": "prix accordé : CO-2026-02042 OUT-10138 à 56.13 € ; prix accordé : CO-2026-02044 OUT-10187 à 16.41 €"
+    },
+    {
+      "numero": 4,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['vincent.arnaud@negovelle.example'], 'corps_contient': ['OUT-10114', 'OUT-11821', 'OUT-11829', 'd[ée]r[ée]f[ée]renc|fin de s[ée]rie|obsolesc|d[ée]mod|exception', 'OUT-10138', 'OUT-10146', 'OUT-10163', 'OUT-10179', 'OUT-10187', 'OUT-10195'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['corinne.vidal@negovelle.example'], 'corps_contient': ['OUT-10114', 'OUT-11821', 'OUT-11829', 'd[ée]r[ée]f[ée]renc|fin de s[ée]rie|obsolesc|d[ée]mod|exception', 'OUT-10138', 'OUT-10146', 'OUT-10163', 'OUT-10179', 'OUT-10187', 'OUT-10195'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "prix accordé : CO-2026-02042 OUT-11241 à 17.88 €"
+    }
+  ],
+  "score": 0.0,
+  "reussie": false,
+  "etapes": 5,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.07511076600349043,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/ngh08_le_destockage_d_une_gamme_r3.jsonl"
+}

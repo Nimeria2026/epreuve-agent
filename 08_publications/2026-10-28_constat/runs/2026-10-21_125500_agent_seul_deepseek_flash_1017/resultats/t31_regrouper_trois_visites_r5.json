@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-21_125500_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t31_regrouper_trois_visites",
+    "version": 4
+  },
+  "repetition": 5,
+  "debut_utc": "2026-10-21T14:11:49.049168Z",
+  "fin_utc": "2026-10-21T14:13:13.319956Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 23,
+  "jetons": {
+    "entree": 248599,
+    "entree_en_cache": 233856,
+    "sortie": 15304
+  },
+  "cout_dollars": 0.012095418,
+  "energie_wh": null,
+  "duree_secondes": 84.27078210096806,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t31_regrouper_trois_visites_r5.jsonl"
+}

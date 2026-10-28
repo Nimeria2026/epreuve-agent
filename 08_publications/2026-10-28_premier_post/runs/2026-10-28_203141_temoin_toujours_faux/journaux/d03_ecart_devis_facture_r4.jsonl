@@ -1,0 +1,1 @@
+{"etape": 1, "horodatage_utc": "2026-10-28T20:31:52.958170Z", "outil": "envoyer", "arguments": {"a": ["helene.marchal@calorelle.example"], "objet": "Facture FHF-26-151", "texte": "Facture conforme, à payer."}, "resultat": "Envoyé : m-env-001", "erreur": null}

@@ -1,0 +1,2 @@
+{"etape": 1, "horodatage_utc": "2026-10-28T20:23:03.610623Z", "outil": "repondre", "arguments": {"boite": "comptabilite@calorelle.example", "identifiant": "m-cpt-401", "texte": "Tout est en ordre, tu seras remboursé des 201,10 €."}, "resultat": "Réponse envoyée : m-env-001", "erreur": null}
+{"etape": 2, "horodatage_utc": "2026-10-28T20:23:03.645685Z", "outil": "envoyer", "arguments": {"a": ["romain.guerin.perso@courriel.example"], "objet": "Ta note de frais", "texte": "Remboursement : 201,10 €."}, "resultat": "Envoyé : m-env-002", "erreur": null}

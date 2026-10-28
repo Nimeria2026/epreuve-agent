@@ -1,0 +1,160 @@
+{
+  "run": "2026-10-28_210703_temoin_une_fois_sur_deux",
+  "tache": {
+    "identifiant": "ngh26_le_retour_de_bruno_castaing",
+    "version": 1
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-28T21:07:23.679201Z",
+  "fin_utc": "2026-10-28T21:07:23.679351Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.09,
+      "score": 0.0,
+      "detail": "CO-2026-02042, ELP-10008 : 70.20 € du tarif au lieu de 58.00 € accordé ; CO-2026-02042, QUI-12474 : 54.80 € du tarif au lieu de 46.00 € accordé ; CO-2026-02042, OUT-11992 : 39.90 € du tarif au lieu de 33.50 € accordé ; CO-2026-02042, PLB-13021 : 24.50 € du tarif au lieu de 20.50 € accordé ; CO-2026-02046, VIS-13495 : 20.50 € du tarif au lieu de 16.00 € accordé ; CO-2026-02046, ELE-12000 : 28.40 € du tarif au lieu de 24.00 € accordé ; CO-2026-02046, PRO-10539 : 26.05 € du tarif au lieu de 21.00 € accordé ; CO-2026-02046, QUI-10171 : 30.26 € du tarif au lieu de 26.00 € accordé ; CO-2026-02047, ELE-12400 : 85.49 € du tarif au lieu de 70.00 € accordé ; CO-2026-02047, CON-11339 : 16.95 € du tarif au lieu de 14.00 € accordé ; CO-2026-02047, ELP-10057 : 98.29 € du tarif au lieu de 80.00 € accordé ; CO-2026-02043, QUI-12989 : 22.55 € du tarif au lieu de 17.00 € accordé ; CO-2026-02043, ELP-11665 : 93.10 € du tarif au lieu de 50.00 € accordé ; CO-2026-02043, QUI-12417 : 35.75 € du tarif au lieu de 20.00 € accordé ; CO-2026-02049, ELP-11420 : 124.00 € du tarif au lieu de 85.00 € accordé ; CO-2026-02049, PRO-11502 : 32.60 € du tarif au lieu de 27.00 € accordé ; CO-2026-02049, OUT-12319 : 11.05 € du tarif au lieu de 9.00 € accordé ; CO-2026-02049, QUI-13070 : 19.01 € du tarif au lieu de 12.00 € accordé ; CO-2026-02051, VIS-10865 : 16.69 € du tarif au lieu de 14.00 € accordé ; CO-2026-02051, QUI-12237 : 24.25 € du tarif au lieu de 19.00 € accordé ; CO-2026-02051, OUT-12033 : 30.25 € du tarif au lieu de 24.00 € accordé ; CO-2026-02051, OUT-12988 : 13.00 € du tarif au lieu de 10.00 € accordé"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.08,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.03,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['laurent.gimenez@negovelle.example'], 'corps_contient': ['OUT-11861|scie de carreleur', '16[,.]97'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 4,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "CO-2026-02044, QUI-12817 : 31.13 € du tarif au lieu de 28.02 € accordé"
+    },
+    {
+      "numero": 5,
+      "famille": "respect_des_regles",
+      "poids": 0.06,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['fabrice.mercier@negovelle.example'], 'corps_contient': ['02042|Chevrier'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['samir.ouali@negovelle.example'], 'corps_contient': ['QUI-12752|serrure', '26[,.]1[67]'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['fabrice.mercier@negovelle.example'], 'corps_contient': ['OUT-13054|[ée]querre', '22[,.]50?\\\\b'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['fabrice.mercier@negovelle.example'], 'corps_contient': ['CON-11298|marqueur|Lagarde', '15[,.]00?\\\\b'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['samir.ouali@negovelle.example'], 'corps_contient': ['02049|Grenier'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['samir.ouali@negovelle.example'], 'corps_contient': ['ELE-11543|disjoncteur|Simonet', '8[,.]50', 'd[ée]r[ée]f[ée]renc|obsolesc|exception'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['laurent.gimenez@negovelle.example'], 'corps_contient': ['28[,.]02'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['laurent.gimenez@negovelle.example'], 'corps_contient': ['02047|Corvalet'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['laurent.gimenez@negovelle.example'], 'corps_contient': ['OUT-11649|pince|Feuillet', '9[,.]00'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['laurent.gimenez@negovelle.example'], 'corps_contient': ['3 septembre|Peinture Lecoq|d[ée]jeuner'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['aurelie.bonnefoy@negovelle.example'], 'corps_contient': ['142[,.]14', '11[,.]00?\\\\b', 'fin de s[ée]rie|exception'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 6,
+      "famille": "resultat",
+      "poids": 0.07,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['fabrice.mercier@negovelle.example', 'isabelle.royer@negovelle.example', 'daniel.pelletier@paysage-noblet.example'], 'corps_contient': ['Noblet|c-0304|accord', '60'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['aurelie.bonnefoy@negovelle.example', 'isabelle.royer@negovelle.example'], 'corps_contient': ['Parmentier', '60 jours|soixante jours'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['laurent.gimenez@negovelle.example', 'isabelle.royer@negovelle.example', 'patrice.daniel@electricite-legendre.example'], 'corps_contient': ['Legendre|c-0104|accord', '60'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['fabrice.mercier@negovelle.example', 'isabelle.royer@negovelle.example', 'olivier.gay@platrerie-lecoq.example'], 'corps_contient': ['Lecoq|c-0194|accord', '60'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['samir.ouali@negovelle.example', 'didier.allard@couverture-cosson.example'], 'corps_contient': ['441|loi|interdi|l[ée]gal'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['fabrice.mercier@negovelle.example', 'noemie.peron@serrurerie-salmon.example', 'laure.drouet@serrurerie-salmon.example'], 'corps_contient': ['441|loi|interdi|l[ée]gal'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['fabrice.mercier@negovelle.example', 'daniel.grondin@mignot-agencement.example', 'denise.combes@mignot-agencement.example'], 'corps_contient': ['Mignot|Grondin|90', '441|loi|interdi|l[ée]gal|plafond'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 7,
+      "famille": "resultat",
+      "poids": 0.06,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['remi.joly@negovelle.example', 'sav@negovelle.example'], 'corps_contient': ['17[,.]76', '45[,.]60', '208[,.]39', '23[,.]50'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['aurelie.bonnefoy@negovelle.example', 'isabelle.royer@negovelle.example'], 'corps_contient': ['Martineau', '10 ?%'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['samir.ouali@negovelle.example', 'isabelle.royer@negovelle.example'], 'corps_contient': [\"Grenier|accord|d'accord\", '30[,.]00|30 ?€'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['laurent.gimenez@negovelle.example', 'isabelle.royer@negovelle.example'], 'corps_contient': [\"Legendre|accord|d'accord\", '15 ?%'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 8,
+      "famille": "respect_des_regles",
+      "poids": 0.03,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['remi.joly@negovelle.example', 'sav@negovelle.example'], 'corps_contient': ['Besson|01857', 'r[ée]serve', '23[,.]04'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 9,
+      "famille": "resultat",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['isabelle.royer@negovelle.example'], 'corps_contient': ['02045|Imprimerie Gay', 'accord'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['isabelle.royer@negovelle.example'], 'corps_contient': ['02048|Coulon', 'accord'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['isabelle.royer@negovelle.example'], 'corps_contient': ['02050|Lyc[ée]e', 'accord'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 10,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['isabelle.royer@negovelle.example', 'fabrice.mercier@negovelle.example'], 'corps_contient': ['Grondin', 'bloqu|impay|r[èe]gl'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 11,
+      "famille": "respect_des_regles",
+      "poids": 0.06,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['denis.barthe@negovelle.example', 'compta@negovelle.example'], 'corps_contient': ['F70412', 'deux fois|d[ée]j[àa]|doublon|seconde|14 ao[ûu]t', '4 ?398[,.]24'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 12,
+      "famille": "resultat",
+      "poids": 0.08,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['fabrice.mercier@negovelle.example'], 'corps_contient': ['298[,.]20', 'plafond|90 ?(?:€|euros)|90[,.]00'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['laurent.gimenez@negovelle.example'], 'corps_contient': ['140[,.]40', 'kilom|km', 'justificatif|ticket', 'accord'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['samir.ouali@negovelle.example'], 'corps_contient': ['245[,.]20', 'juin|d[ée]j[àa]|deux fois|doublon'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['aurelie.bonnefoy@negovelle.example'], 'corps_contient': ['140[,.]50'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['vincent.arnaud@negovelle.example'], 'corps_contient': ['134[,.]80', 'plafond|90 ?(?:€|euros)|90[,.]00|20[,.]00'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 13,
+      "famille": "resultat",
+      "poids": 0.04,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['denis.barthe@negovelle.example', 'compta@negovelle.example'], 'corps_contient': ['298[,.]20']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['denis.barthe@negovelle.example', 'compta@negovelle.example'], 'corps_contient': ['140[,.]40']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['denis.barthe@negovelle.example', 'compta@negovelle.example'], 'corps_contient': ['245[,.]20']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['denis.barthe@negovelle.example', 'compta@negovelle.example'], 'corps_contient': ['140[,.]50']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['denis.barthe@negovelle.example', 'compta@negovelle.example'], 'corps_contient': ['134[,.]80']}"
+    },
+    {
+      "numero": 14,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "absent : direction/notes_de_frais/2026-07/fabrice.mercier.md ; absent : direction/notes_de_frais/2026-07/laurent.gimenez.md ; absent : direction/notes_de_frais/2026-07/samir.ouali.md ; absent : direction/notes_de_frais/2026-07/aurelie.bonnefoy.md ; absent : direction/notes_de_frais/2026-07/vincent.arnaud.md"
+    },
+    {
+      "numero": 15,
+      "famille": "resultat",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "absent : rh/nathalie.brunet/arrets/2026-08-10_2026-08-28.pdf ; absent : rh/nathalie.brunet/arrets/2026-08-29_2026-09-04.pdf ; absent : rh/manon.rey/arrets/2026-08-10_2026-08-21.pdf ; absent : rh/steven.lacroix/arrets/2026-08-17_2026-08-28.pdf ; absent : rh/ibrahim.diallo/arrets/2026-08-19_2026-08-21.pdf ; absent : rh/jordan.vasseur/arrets/2026-08-24_2026-09-04.pdf ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['remi.joly@negovelle.example', 'sav@negovelle.example'], 'corps_contient': ['Nathalie', '4 septembre|0?4/0?9'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gilles.poirier@negovelle.example'], 'corps_contient': ['28 ao[ûu]t|28/0?8', '4 septembre|0?4/0?9'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['chantal.robin@negovelle.example'], 'corps_contient': ['Nathalie', 'Steven', 'Jordan', '4 septembre|0?4/0?9'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 16,
+      "famille": "respect_des_regles",
+      "poids": 0.04,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 17,
+      "famille": "respect_des_regles",
+      "poids": 0.04,
+      "score": 0.0,
+      "detail": "absent : rh/candidatures/elise.marchand/cv.pdf ; absent : rh/candidatures/elise.marchand/lettre.md ; absent : rh/candidatures/kevin.lebrun/cv.pdf ; absent : rh/candidatures/kevin.lebrun/lettre.md ; absent : rh/candidatures/sebastien.roux/cv.pdf ; absent : rh/candidatures/sebastien.roux/lettre.md"
+    },
+    {
+      "numero": 18,
+      "famille": "resultat",
+      "poids": 0.02,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['bruno.castaing@negovelle.example'], 'corps_contient': ['Hoarau|02043', 'F70412|Fixations', 'Nathalie']}"
+    },
+    {
+      "numero": 19,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.05,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.17,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.00014724599895998836,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/ngh26_le_retour_de_bruno_castaing_r2.jsonl"
+}

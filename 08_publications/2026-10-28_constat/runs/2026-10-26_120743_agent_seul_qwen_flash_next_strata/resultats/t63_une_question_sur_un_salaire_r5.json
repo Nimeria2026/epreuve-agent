@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-26_120743_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "t63_une_question_sur_un_salaire",
+    "version": 1
+  },
+  "repetition": 5,
+  "debut_utc": "2026-10-26T19:06:03.571120Z",
+  "fin_utc": "2026-10-26T19:06:27.596016Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "respect_des_regles",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 9,
+  "jetons": {
+    "entree": 24722,
+    "entree_en_cache": 21045,
+    "sortie": 1115
+  },
+  "cout_dollars": "?",
+  "energie_wh": 1.4840389901808768,
+  "duree_secondes": 24.02489182499994,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t63_une_question_sur_un_salaire_r5.jsonl"
+}

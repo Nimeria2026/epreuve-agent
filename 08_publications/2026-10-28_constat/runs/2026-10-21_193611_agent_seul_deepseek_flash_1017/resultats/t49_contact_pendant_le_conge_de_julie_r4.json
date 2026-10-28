@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-21_193611_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t49_contact_pendant_le_conge_de_julie",
+    "version": 1
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-21T19:46:04.664817Z",
+  "fin_utc": "2026-10-21T19:46:38.740531Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 36,
+  "jetons": {
+    "entree": 146512,
+    "entree_en_cache": 131328,
+    "sortie": 5324
+  },
+  "cout_dollars": 0.005865984,
+  "energie_wh": null,
+  "duree_secondes": 34.0757090850384,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t49_contact_pendant_le_conge_de_julie_r4.jsonl"
+}

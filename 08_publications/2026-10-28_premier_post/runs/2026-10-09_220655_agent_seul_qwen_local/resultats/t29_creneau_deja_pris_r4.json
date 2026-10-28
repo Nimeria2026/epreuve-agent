@@ -1,0 +1,47 @@
+{
+  "run": "2026-10-09_220655_agent_seul_qwen_local",
+  "tache": {
+    "identifiant": "t29_creneau_deja_pris",
+    "version": 2
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-10T09:36:47.393656Z",
+  "fin_utc": "2026-10-10T09:39:05.435344Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "contenu",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 10,
+  "jetons": {
+    "entree": 37498,
+    "entree_en_cache": "?",
+    "sortie": 5219
+  },
+  "cout_dollars": "?",
+  "energie_wh": 9.506482401000293,
+  "duree_secondes": 138.0416836259974,
+  "journal": "journaux/t29_creneau_deja_pris_r4.jsonl"
+}

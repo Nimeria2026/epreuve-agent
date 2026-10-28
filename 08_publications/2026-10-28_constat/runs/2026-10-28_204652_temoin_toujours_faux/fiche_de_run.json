@@ -1,0 +1,75 @@
+{
+ "identifiant": "2026-10-28_204652_temoin_toujours_faux",
+ "debut_utc": "2026-10-28T20:46:52.524885Z",
+ "fin_utc": "2026-10-28T20:47:12.223133Z",
+ "statut": "termine",
+ "raison_interruption": null,
+ "code": {
+  "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+  "modifications_non_commitees": true
+ },
+ "candidat": {
+  "identifiant": "temoin_toujours_faux",
+  "version": "1"
+ },
+ "configuration": {
+  "modeles": []
+ },
+ "empreinte_prompts": null,
+ "jeu_taches": {
+  "nom": "domivelle_dure_v2_v1",
+  "taches": [
+   {
+    "identifiant": "dvh22_le_retour_de_veronique_tessier",
+    "version": 1,
+    "empreinte_complement": "sha256:aeaeb361653a473f9469d54e8d21e38a545b21baa6a78c8308d78561791a603e"
+   },
+   {
+    "identifiant": "dvh23_la_cloture_de_juillet_de_la_gerance",
+    "version": 1,
+    "empreinte_complement": "sha256:03f0869f4dc08a440b50f76ee553473dcd5d3c439ea9d1ed21fb8b5d5709b625"
+   },
+   {
+    "identifiant": "dvh24_la_quinzaine_de_gaelle_pour_yohan",
+    "version": 1,
+    "empreinte_complement": "sha256:b1eeabbcee70f5c4136a07f9654cfa457f6478725b6fadf9ca2772cee49fa2a1"
+   },
+   {
+    "identifiant": "dvh25_le_sud_pendant_le_conge_de_solene",
+    "version": 1,
+    "empreinte_complement": "sha256:3579dcda1c350f18d3d274f6e6b2d4001b8d8243a033c91d3532f6684aefb553"
+   },
+   {
+    "identifiant": "dvh26_la_rentree_de_melanie_sabatier",
+    "version": 1,
+    "empreinte_complement": "sha256:88eda104a89c32cb24ade2a3a237173887f99d4561bf181724acc85972a0e8a6"
+   },
+   {
+    "identifiant": "dvh27_la_cloture_de_septembre_des_coproprietes",
+    "version": 1,
+    "empreinte_complement": "sha256:020fea501d3ad471dfc5da0e3cbd1df6b25e885b788e05a86fd921f0c1508882"
+   },
+   {
+    "identifiant": "dvh28_le_mois_de_cedric_pour_elodie",
+    "version": 1,
+    "empreinte_complement": "sha256:818807b99ada324a200b44f2ab6a85676d4ca4c927bb5f44884875b7864c088f"
+   },
+   {
+    "identifiant": "dvh29_la_rentree_de_maelle_carriere",
+    "version": 1,
+    "empreinte_complement": "sha256:9e3f883b7d5bf96537615d27809d70ec1de7a052afa94b712a18ad778e611693"
+   }
+  ],
+  "empreinte": "sha256:feeb78c6b8f8e33c8daf0f72717190595dda7c29918f2db0ab04ec5a99583ad2"
+ },
+ "etat_pme": {
+  "version": "v1",
+  "empreinte": "sha256:827914ec6c291d69824707b9beadb952576ae8f21e5fb74dfb6f9fb9e6ca2b58",
+  "societe": "domivelle"
+ },
+ "regles_gardien": null,
+ "repetitions": 4,
+ "machine": null,
+ "juge": null,
+ "banc_public": null
+}

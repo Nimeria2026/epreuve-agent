@@ -1,0 +1,1 @@
+{"etape": 1, "horodatage_utc": "2026-10-28T20:54:01.036601Z", "outil": "envoyer", "arguments": {"a": ["aurelie.bonnefoy@negovelle.example", "denis.barthe@negovelle.example"], "objet": "Note de frais de juin", "texte": "Aurélie,\n\nNote validée : 284,41 €.\n\nBruno"}, "resultat": "Envoyé : m-env-001", "erreur": null}

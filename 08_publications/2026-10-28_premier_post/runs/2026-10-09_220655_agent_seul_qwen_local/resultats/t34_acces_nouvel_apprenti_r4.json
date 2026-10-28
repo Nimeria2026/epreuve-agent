@@ -1,0 +1,40 @@
+{
+  "run": "2026-10-09_220655_agent_seul_qwen_local",
+  "tache": {
+    "identifiant": "t34_acces_nouvel_apprenti",
+    "version": 2
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-10T12:04:41.470064Z",
+  "fin_utc": "2026-10-10T12:09:13.039989Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "contenu",
+      "poids": 0.8,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 14,
+  "jetons": {
+    "entree": 36661,
+    "entree_en_cache": "?",
+    "sortie": 11191
+  },
+  "cout_dollars": "?",
+  "energie_wh": 18.788628315934076,
+  "duree_secondes": 271.56992010900285,
+  "journal": "journaux/t34_acces_nouvel_apprenti_r4.jsonl"
+}

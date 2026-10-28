@@ -1,0 +1,34 @@
+{
+  "run": "2026-10-21_104842_reproduction_tau2_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "airline_35",
+    "version": 1
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-21T12:30:40.817368Z",
+  "fin_utc": "2026-10-21T12:31:16.303594Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 1.0,
+      "score": 0.0,
+      "detail": "τ²-bench : récompense 0 ; fin user_stop ; base différente de la cible ; phrases dites 0 sur 0"
+    }
+  ],
+  "score": 0.0,
+  "reussie": false,
+  "etapes": 17,
+  "jetons": {
+    "entree": 107875,
+    "entree_en_cache": 102272,
+    "sortie": 3854
+  },
+  "cout_dollars": 0.003459666,
+  "energie_wh": null,
+  "duree_secondes": 35.48622196499491,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/airline_35_r4.jsonl"
+}

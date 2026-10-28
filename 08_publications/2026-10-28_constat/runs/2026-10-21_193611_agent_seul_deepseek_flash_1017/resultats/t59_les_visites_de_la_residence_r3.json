@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-21_193611_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t59_les_visites_de_la_residence",
+    "version": 1
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-21T20:16:05.391236Z",
+  "fin_utc": "2026-10-21T20:16:38.065770Z",
+  "arret": "budget_etapes",
+  "detail_arret": "budget de 40 étapes atteint",
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "respect_des_regles",
+      "poids": 0.45,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.35,
+      "score": 0.0,
+      "detail": "aucun courriel vers syndic@residence-des-tilleuls.example ne donne le jour et l'heure de INT-2026-0040 (19/11 à 08:00)"
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.65,
+  "reussie": false,
+  "etapes": 40,
+  "jetons": {
+    "entree": 88311,
+    "entree_en_cache": 74368,
+    "sortie": 6073
+  },
+  "cout_dollars": 0.005958353999999999,
+  "energie_wh": null,
+  "duree_secondes": 32.67453016404761,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t59_les_visites_de_la_residence_r3.jsonl"
+}

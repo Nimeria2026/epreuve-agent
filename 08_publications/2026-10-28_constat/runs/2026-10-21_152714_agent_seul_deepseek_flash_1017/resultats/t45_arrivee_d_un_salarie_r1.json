@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-21_152714_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t45_arrivee_d_un_salarie",
+    "version": 2
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-21T16:16:55.593899Z",
+  "fin_utc": "2026-10-21T16:17:14.539833Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 18,
+  "jetons": {
+    "entree": 42359,
+    "entree_en_cache": 37248,
+    "sortie": 2436
+  },
+  "cout_dollars": 0.0023399939999999998,
+  "energie_wh": null,
+  "duree_secondes": 18.94592816097429,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t45_arrivee_d_un_salarie_r1.jsonl"
+}

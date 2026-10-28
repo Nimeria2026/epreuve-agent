@@ -223,9 +223,17 @@ def test_le_raisonnement_est_renvoye_si_la_configuration_le_demande() -> None:
 def test_les_configurations_de_reproduction_portent_les_reglages_de_tau2() -> None:
     """Température 0 et tool_choice auto, comme l'agent de τ²-bench 1.0.1 ; le reste comme l'agent seul."""
     lues = {chemin.stem: lire_configuration(chemin) for chemin in sorted(CONFIGURATIONS_TAU2.glob("*.yaml"))}
-    assert sorted(lues) == ["deepseek_flash", "mimo_v26_flash_deepinfra", "qwen_local", "qwen_local_100k"]
-    # Le Qwen à 102 400 jetons attend un tour qui remplit le contexte (JOURNAL, entrée 226).
+    assert sorted(lues) == [
+        "deepseek_flash",
+        "mimo_v26_flash_deepinfra",
+        "qwen_flash_next_strata",
+        "qwen_local",
+        "qwen_local_100k",
+    ]
+    # Le Qwen à 102 400 jetons attend un tour qui remplit le contexte (JOURNAL, entrée 226), et
+    # Flash-Next sous Strata comme lui.
     assert lues["qwen_local_100k"].delai_appel_secondes == 3600
+    assert lues["qwen_flash_next_strata"].delai_appel_secondes == 3600
     assert all(c.parametres == {"temperature": 0.0, "tool_choice": "auto"} for c in lues.values())
     seul = RACINE / "03_orchestrations" / "src" / "orchestrations" / "configurations"
     for nom, configuration in lues.items():

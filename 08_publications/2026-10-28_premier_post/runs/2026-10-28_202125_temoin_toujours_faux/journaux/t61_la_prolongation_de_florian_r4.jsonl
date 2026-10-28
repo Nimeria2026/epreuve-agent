@@ -1,0 +1,2 @@
+{"etape": 1, "horodatage_utc": "2026-10-28T20:23:44.924024Z", "outil": "transferer", "arguments": {"identifiant": "m-sl-632", "a": ["marc.duval@calorelle.example"], "commentaire": "Florian prolonge son arrêt maladie, pour son dos."}, "resultat": "Transféré : m-env-001", "erreur": null}
+{"etape": 2, "horodatage_utc": "2026-10-28T20:23:44.960579Z", "outil": "enregistrer_piece_jointe", "arguments": {"identifiant": "m-sl-632", "piece": "prolongation_arret_Masson.pdf", "dossier": "commun"}, "resultat": "commun/prolongation_arret_Masson.pdf", "erreur": null}

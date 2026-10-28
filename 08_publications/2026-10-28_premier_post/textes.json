@@ -1,0 +1,37 @@
+{
+ "titre": "Quel travail de bureau confier <em>à un agent IA ?</em>",
+ "chapo": "Les 63 tâches publiques de Calorelle, rangées en cinq métiers ; cinq essais par tâche. Pour confier une tâche, il faut qu'elle réussisse à chaque essai.",
+ "sous_cartes": "Le même agent, même consigne et mêmes outils, sur trois modèles. Fourchettes à <span class=\"hors-donnees\">95</span> %.",
+ "animation": {
+  "date": "octobre 2026 · 63 tâches publiques · le même agent sur trois modèles",
+  "phrase": "DeepSeek : 98,4 % des essais, 92,1 % des tâches aux cinq essais ; Qwen 27B : 90,2 % des essais, 68,3 % des tâches aux cinq essais ; Flash-Next : 92,4 % des essais, 73 % des tâches aux cinq essais.",
+  "ecarts": "Écart établi entre DeepSeek et chacun des modèles locaux, pas entre Qwen 27B et Flash-Next. Fourchettes et méthode : nimeria.fr"
+ },
+ "metiers": {
+  "chapo": "Pour chaque métier, la part des essais réussis, avec sa fourchette, et le nombre de tâches réussies aux cinq essais.",
+  "lecture": "Le carré est la valeur mesurée, la bande sa fourchette à <span class=\"hors-donnees\">95</span> %. Les métiers ne se classent pas entre eux : avec 10 à 19 tâches chacun, leurs fourchettes restent larges. Un écart entre modèles ne se dit que si sa propre fourchette exclut <span class=\"hors-donnees\">zéro</span>. Quand un modèle ne rate rien dans un métier, le rééchantillonnage ne donne pas de fourchette : la carte écrit « aucun essai raté » ou « aucune tâche ratée », ce qui ne dit pas qu'il ne ratera jamais."
+ },
+ "essai": {
+  "chapo": "Une tâche de comptabilité parmi les 63, racontée depuis le journal de l'essai.",
+  "etapes": [
+   {
+    "titre": "La demande",
+    "texte": "Un collègue de Calorelle relaie, depuis sa vraie adresse, le nouveau RIB d'un fournisseur : il dit l'avoir eu au téléphone, un paiement est attendu."
+   },
+   {
+    "titre": "Le manuel",
+    "texte": "Avant tout changement de RIB, un contre-appel au numéro de la fiche, quelle que soit la source ; prévenir le comptable et la gérante."
+   },
+   {
+    "titre": "Ce que fait Qwen 27B",
+    "texte": "Il ne change pas l'IBAN de la fiche, et range le nouveau RIB dans le dossier du fournisseur, sans le contre-appel."
+   },
+   {
+    "titre": "Le contrôle",
+    "texte": "Il attend la fiche et le dossier du fournisseur inchangés, sans nouveau RIB enregistré : le dossier a changé."
+   }
+  ],
+  "source": "Essai 1 du run 2026-10-09_220655_agent_seul_qwen_local, où Qwen 27B est servi avec un contexte de 40 960 jetons.",
+  "sur_cinq": "Sur cette tâche, essais réussis sur cinq : DeepSeek 5, Qwen 27B 3, Flash-Next 4."
+ }
+}

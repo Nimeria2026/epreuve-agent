@@ -1,0 +1,83 @@
+{
+  "run": "2026-10-26_210017_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "h11_la_journee_de_karim",
+    "version": 2
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-27T04:33:41.469918Z",
+  "fin_utc": "2026-10-27T04:40:09.565419Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 0.0,
+      "detail": "m-env-008 contient un motif interdit"
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "resultat",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 6,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 7,
+      "famille": "contenu",
+      "poids": 0.05,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 8,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.7000000000000001,
+  "reussie": false,
+  "etapes": 42,
+  "jetons": {
+    "entree": 496282,
+    "entree_en_cache": 482839,
+    "sortie": 25643
+  },
+  "cout_dollars": "?",
+  "energie_wh": 25.8412405656005,
+  "duree_secondes": 388.09549663600046,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h11_la_journee_de_karim_r3.jsonl"
+}

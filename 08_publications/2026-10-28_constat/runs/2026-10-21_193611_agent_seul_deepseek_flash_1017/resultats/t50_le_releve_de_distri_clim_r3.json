@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-21_193611_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t50_le_releve_de_distri_clim",
+    "version": 1
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-21T19:48:12.236389Z",
+  "fin_utc": "2026-10-21T19:48:35.379843Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.35,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['compta@distri-clim-centre.example'], 'corps_contient': ['5650', 'copie|duplicata|reçu'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.7999999999999999,
+  "reussie": false,
+  "etapes": 18,
+  "jetons": {
+    "entree": 52036,
+    "entree_en_cache": 44800,
+    "sortie": 4111
+  },
+  "cout_dollars": 0.0036864,
+  "energie_wh": null,
+  "duree_secondes": 23.143448993971106,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t50_le_releve_de_distri_clim_r3.jsonl"
+}

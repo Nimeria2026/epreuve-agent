@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-21_205442_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t50_le_releve_de_distri_clim",
+    "version": 2
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-21T20:56:38.704394Z",
+  "fin_utc": "2026-10-21T20:57:03.759417Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.35,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 21,
+  "jetons": {
+    "entree": 68113,
+    "entree_en_cache": 59776,
+    "sortie": 4316
+  },
+  "cout_dollars": 0.004019478,
+  "energie_wh": null,
+  "duree_secondes": 25.05501578899566,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t50_le_releve_de_distri_clim_r1.jsonl"
+}

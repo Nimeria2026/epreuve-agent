@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-23_003934_agent_seul_qwen_local_100k",
+  "tache": {
+    "identifiant": "t51_deux_pompes_a_chaleur",
+    "version": 1
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-23T02:29:34.096749Z",
+  "fin_utc": "2026-10-23T02:33:27.662361Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.35,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.35,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 30,
+  "jetons": {
+    "entree": 214152,
+    "entree_en_cache": "?",
+    "sortie": 8508
+  },
+  "cout_dollars": "?",
+  "energie_wh": 16.114579909720096,
+  "duree_secondes": 233.56560755497776,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t51_deux_pompes_a_chaleur_r2.jsonl"
+}

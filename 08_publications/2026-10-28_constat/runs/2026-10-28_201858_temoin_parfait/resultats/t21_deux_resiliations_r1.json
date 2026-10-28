@@ -1,0 +1,41 @@
+{
+  "run": "2026-10-28_201858_temoin_parfait",
+  "tache": {
+    "identifiant": "t21_deux_resiliations",
+    "version": 3
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-28T20:19:41.232615Z",
+  "fin_utc": "2026-10-28T20:19:41.284866Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "contenu",
+      "poids": 0.8,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 10,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.052248049003537744,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t21_deux_resiliations_r1.jsonl"
+}

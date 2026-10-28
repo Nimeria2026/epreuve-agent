@@ -1,0 +1,69 @@
+{
+  "run": "2026-10-21_161848_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "h02_la_semaine_de_thomas_girard",
+    "version": 4
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-21T16:33:16.222601Z",
+  "fin_utc": "2026-10-21T16:36:23.785199Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "respect_des_regles",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 6,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 76,
+  "jetons": {
+    "entree": 477943,
+    "entree_en_cache": 456704,
+    "sortie": 42725
+  },
+  "cout_dollars": 0.030190962,
+  "energie_wh": null,
+  "duree_secondes": 187.5625926030334,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h02_la_semaine_de_thomas_girard_r4.jsonl"
+}

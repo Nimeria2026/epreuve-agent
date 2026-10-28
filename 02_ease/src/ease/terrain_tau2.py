@@ -419,6 +419,12 @@ def controles(evaluation: Evaluation) -> list[ResultatControle]:
     ]
 
 
+def sans_note(raison: str) -> list[ResultatControle]:
+    """Le contrôle d'une conversation que τ²-bench n'a pas notée : score nul, la raison dite.
+    L'exécution est alors une erreur technique, hors des chiffres."""
+    return [ResultatControle(numero=1, famille="resultat", poids=1.0, score=0.0, detail=raison)]
+
+
 def _jetons_totaux(consommation: Consommation) -> Jetons:
     """Comme executeur._jetons_totaux : un rôle sans compte rend tout le total inconnu."""
 
@@ -542,7 +548,9 @@ def executer_une_fois(
 ) -> ResultatExecution:
     """Une exécution, comme executeur.executer_une_fois : ouverture, passage du candidat, note.
 
-    La conversation est close avant la lecture de la note : plus rien ne peut la changer."""
+    La conversation est close avant la lecture de la note : plus rien ne peut la changer. Une
+    clôture sans note, quand le client simulé n'a pas répondu (un appel refusé chez son fournisseur,
+    JOURNAL, entrées 232 et 325), finit l'exécution en erreur technique, et le run continue."""
     nom = f"{tache.identifiant}_r{repetition}"
     journal = dossier_run / "journaux" / f"{nom}.jsonl"
     journal.touch()
@@ -552,6 +560,8 @@ def executer_une_fois(
     consommation = Consommation()
     arret: Arret = "termine"
     detail: str | None = None
+    evaluation: Evaluation | None = None
+    panne_cloture: str | None = None
     try:
         try:
             consommation = candidat.executer(environnement.enonce(), outils)
@@ -567,12 +577,18 @@ def executer_une_fois(
             arret, detail = "budget_etapes", f"budget de {tache.budget.etapes_max} étapes atteint"
         duree, fin = time.monotonic() - chrono, maintenant()
     finally:
-        evaluation = environnement.fermer()
+        try:
+            evaluation = environnement.fermer()
+        except Exception as erreur:  # τ²-bench n'a pas noté la conversation : une panne, pas l'agent
+            panne_cloture = f"clôture sans note de τ²-bench, {type(erreur).__name__} : {erreur}"
 
+    if evaluation is None:
+        arret = "erreur_technique"
+        detail = panne_cloture if detail is None else f"{detail} ; {panne_cloture}"
     cout = cout_dollars(consommation, candidat.configuration)
     if arret == "termine" and cout != "?" and cout > tache.budget.cout_max_dollars:
         arret, detail = "budget_cout", f"{cout:.6f} $ pour un budget de {tache.budget.cout_max_dollars} $"
-    resultats = controles(evaluation)
+    resultats = controles(evaluation) if evaluation is not None else sans_note(detail or "?")
     return ResultatExecution(
         run=run,
         tache=ReferenceTache(identifiant=tache.identifiant, version=tache.version),

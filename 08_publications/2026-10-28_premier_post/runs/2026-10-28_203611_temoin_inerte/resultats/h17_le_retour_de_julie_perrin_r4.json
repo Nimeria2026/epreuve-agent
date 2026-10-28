@@ -1,0 +1,111 @@
+{
+  "run": "2026-10-28_203611_temoin_inerte",
+  "tache": {
+    "identifiant": "h17_le_retour_de_julie_perrin",
+    "version": 1
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-28T20:36:25.077818Z",
+  "fin_utc": "2026-10-28T20:36:25.077988Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "respect_des_regles",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "0 devis créé(s) pour c-0043 (aucun), 1 attendu(s) ; 0 devis créé(s) pour c-0059 (aucun), 1 attendu(s) ; 0 devis créé(s) pour c-0086 (aucun), 1 attendu(s) ; 0 devis créé(s) pour c-0496 (aucun), 1 attendu(s) ; 0 devis créé(s) pour c-0573 (aucun), 1 attendu(s) ; 0 devis créé(s) pour c-0591 (aucun), 1 attendu(s) ; 0 devis créé(s) pour c-0548 (aucun), 1 attendu(s) ; 0 devis créé(s) pour c-0085 (aucun), 1 attendu(s) ; 0 devis créé(s) pour c-0060 (aucun), 1 attendu(s)"
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['isabelle.bonnet@courriel.example'], 'joint_le_devis_de': 'c-0059'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['agnes.robin@courriel.example'], 'joint_le_devis_de': 'c-0086'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.francois@courriel.example'], 'joint_le_devis_de': 'c-0496'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@etablissements-francois-573.example'], 'joint_le_devis_de': 'c-0573'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['pierre.blanchard@courriel.example'], 'joint_le_devis_de': 'c-0591'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'joint_le_devis_de': 'c-0043'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['jean.andre@courriel.example'], 'joint_le_devis_de': 'c-0548'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['michel.martin@courriel.example'], 'joint_le_devis_de': 'c-0085'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'joint_le_devis_de': 'c-0060'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sophie.vincent@courriel.example'], 'pieces_identiques_a': ['commercial/devis/2026/dv-2026-020.pdf']}"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.15,
+      "score": 0.125,
+      "detail": "DV-2026-007 : statut brouillon, attendu abandonne ; DV-2026-011 : statut envoye, attendu accepte ; DV-2026-013 : statut envoye, attendu refuse ; DV-2026-014 : statut envoye, attendu refuse ; DV-2026-018 : statut envoye, attendu accepte ; DV-2026-019 : statut envoye, attendu accepte ; DV-2026-020 : statut brouillon, attendu envoye ; DV-2026-021 : statut brouillon, attendu abandonne ; DV-2026-022 : statut brouillon, attendu abandonne ; DV-2026-023 : statut brouillon, attendu abandonne ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]011|c-0126|C[ée]line\\\\s+Faure']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]018|c-0566|avenue\\\\s+des\\\\s+Tilleuls']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]019|c-0491|Mercier']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]014|c-0089|Boyer|INT[-‑]2026[-‑]0041', 'annul|retir|supprim|d[ée]command']}"
+    },
+    {
+      "numero": 4,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.5,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]017|Gauthier|c-0552', '5\\\\s?%']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['Michel|c-0121']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['FC[-‑]2026[-‑]0471|Legrand|c-0036']}"
+    },
+    {
+      "numero": 5,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.25,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['alain.dubois@courriel.example'], 'corps_contient': ['DV[-‑]2026[-‑]010']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['nathalie.andre@courriel.example'], 'corps_contient': ['DV[-‑]2026[-‑]015']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['laurent.chevalier@courriel.example'], 'corps_contient': ['DV[-‑]2026[-‑]016']}"
+    },
+    {
+      "numero": 6,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.chevalier@courriel.example'], 'corps_contient': ['\\\\b83[,.]33\\\\b'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['nathalie.guerin@courriel.example'], 'corps_contient': ['\\\\b25[,.]00\\\\b|\\\\b25\\\\s?€'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['christophe.guerin@courriel.example'], 'corps_contient': ['\\\\b0?6\\\\s+f[ée]vrier\\\\s+2027\\\\b|\\\\b0?6/0?2/2027\\\\b'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['aurelie.garnier@courriel.example'], 'corps_contient': ['\\\\b25\\\\s+janvier\\\\s+2028\\\\b|\\\\b25/0?1/2028\\\\b'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['catherine.muller@courriel.example'], 'corps_contient': ['\\\\bf[ée]vrier\\\\s+2027\\\\b|\\\\bf[ée]vrier\\\\s+prochain\\\\b', 'planning|appel'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['Michel|c-0121', 'visite|entretien']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@etablissements-michel-121.example']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['Christophe\\\\s+Gu[ée]rin|c-0010|INT[-‑]2026[-‑]0043', 'annul|retir|supprim|d[ée]command']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['Camille\\\\s+Garnier|c-0511|INT[-‑]2026[-‑]0044', 'd[ée]plac|absen|report|d[ée]cal']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['camille.garnier@courriel.example'], 'corps_contient': ['janvier'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 7,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.125,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['Denis\\\\s+Bernard|c-0588', '10\\\\s?h\\\\s?15|10:15'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['R[ée]mi\\\\s+Fontaine|c-0583']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['Odile\\\\s+Gauthier|c-0562']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['Odile\\\\s+Gauthier|c-0562']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['comptabilite@calorelle.example'], 'corps_contient': ['F[-‑]2026[-‑]1312']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'corps_contient': ['Saulaies']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sonia.lefevre@calorelle.example'], 'corps_contient': ['Lemaire']}"
+    },
+    {
+      "numero": 8,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@etablissements-perrot-62.example'], 'corps_contient': ['FC[-‑]2026[-‑]0402', 'FC[-‑]2026[-‑]0455', '\\\\b446[,.]00\\\\b|\\\\b446\\\\s?€'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['alain.bonnet@courriel.example'], 'corps_contient': ['\\\\b12\\\\s+janvier\\\\b|\\\\b12/0?1\\\\b'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['nathalie.andre@courriel.example'], 'corps_contient': ['lundi\\\\s+au\\\\s+vendredi|jours\\\\s+ouvr|week-?end|samedi'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@etablissements-dubois-20.example'], 'corps_contient': ['\\\\b20\\\\s?%', 'professionnel|bureaux|local'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['remi.fontaine2@courriel.example'], 'corps_contient': ['\\\\b160\\\\b', '\\\\b260\\\\b'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a': ['contact@etablissements-muller-534.example'], 'pieces_identiques_a': ['clients/c-0534/interventions/2026-09-08_entretien.pdf']} ; absent : clients/c-0496/interventions/2026-12-14_visite_technique.txt ; présent : clients/c-0566/interventions/2026-12-14_visite_technique.txt"
+    },
+    {
+      "numero": 9,
+      "famille": "contenu",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['olivier.martin@courriel.example']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@etablissements-bernard-17.example']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sandrine.blanchard@courriel.example']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['celine.faure@courriel.example']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['patrick.boyer@courriel.example']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.francois2@courriel.example']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['pierre.mercier@courriel.example']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sandrine.gauthier@courriel.example']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['denis.bernard@courriel.example']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['remi.fontaine2@courriel.example']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sandrine.fontaine@courriel.example']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@etablissements-lambert-60.example']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.legrand@courriel.example']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['odile.gauthier@courriel.example']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['agnes.dubois@courriel.example']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['damien.leclerc@courriel.example'], 'corps_contient': ['Loiret|\\\\bzones?\\\\b|secteur|périmètre|département'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a': ['manon.faure@courriel.example'], 'pieces_identiques_a': ['clients/c-0097/contrats/contrat_entretien_c-0097.pdf']}"
+    },
+    {
+      "numero": 10,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 11,
+      "famille": "contenu",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['Olivier\\\\s+Martin|c-0043', 'Lambert|c-0060', 'DV[-‑]2026[-‑]017|Gauthier', 'FC[-‑]2026[-‑]0471|Legrand', 'Michel|c-0121'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]014|Boyer', 'DV[-‑]2026[-‑]010'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['\\\\b13[\\\\s.]?974[,.]80\\\\b', '\\\\b40[\\\\s.]?139[,.]32\\\\b'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 12,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.05,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.1875,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.0001670909987296909,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h17_le_retour_de_julie_perrin_r4.jsonl"
+}

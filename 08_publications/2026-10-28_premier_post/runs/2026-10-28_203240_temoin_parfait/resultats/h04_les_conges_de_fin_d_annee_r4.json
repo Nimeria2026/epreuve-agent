@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-28_203240_temoin_parfait",
+  "tache": {
+    "identifiant": "h04_les_conges_de_fin_d_annee",
+    "version": 14
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-28T20:32:51.543440Z",
+  "fin_utc": "2026-10-28T20:32:51.605700Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": "juge requis, non évalué : Le courriel signale à la gérante que le congé de Yanis ferait trois techniciens absents le 24 décembre, ou que la limite de deux serait dépassée.\n ; juge requis, non évalué : Le courriel signale à la gérante que la demande de Sébastien ne respecte pas ce délai d'un mois, par exemple par « moins d'un mois » ou « le délai d'un mois n'est pas respecté ».\n ; juge requis, non évalué : Le courriel ne présente ni la demande de Lucas ni celle de Florian comme contraire à une règle ou impossible ; un courriel qui ne parle ni de l'un ni de l'autre tient l'affirmation.\n ; juge requis, non évalué : Le courriel ne dit pas que l'assistante a elle-même accepté, refusé ou écarté une demande de congé ; rappeler une décision de la gérante ou lui donner un avis est permis.\n"
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.35,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.25,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 13,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.0622567300015362,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h04_les_conges_de_fin_d_annee_r4.jsonl"
+}

@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-21_152714_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t40_remise_demandee_par_un_syndic",
+    "version": 1
+  },
+  "repetition": 5,
+  "debut_utc": "2026-10-21T16:16:35.014243Z",
+  "fin_utc": "2026-10-21T16:16:52.952846Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 16,
+  "jetons": {
+    "entree": 54553,
+    "entree_en_cache": 48384,
+    "sortie": 2305
+  },
+  "cout_dollars": 0.0024535019999999998,
+  "energie_wh": null,
+  "duree_secondes": 17.9385977369966,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t40_remise_demandee_par_un_syndic_r5.jsonl"
+}

@@ -8,6 +8,10 @@ Un poste est un worktree de l'atelier figé sur un commit, posé par make poste-
 POSTE=local (09_outillage/scripts/poste_de_mesure.py, qui tient la même liste). Ses runs s'écrivent
 dans le 99_local de l'atelier, par un lien. make mesure et make mesure-tau2 refusent un run lancé
 d'ailleurs, l'atelier compris, d'un poste modifié, ou d'un commit qui n'est pas dans main.
+
+L'image du banc (étape 8) tient lieu de poste : faite de l'archive d'un commit, sans dépôt git, elle
+ne se modifie pas, et son commit est dans POA_COMMIT_IMAGE, comme pour executeur.version_code. Ses
+runs ne sont jamais officiels ; ceux qu'on garde vont dans 99_local/importes/ (JOURNAL, entrée 304).
 """
 
 from __future__ import annotations
@@ -34,6 +38,8 @@ def postes_de(principal: Path) -> Path:
 
 def refus_hors_poste(racine: Path) -> str | None:
     """Pourquoi un run ne peut pas partir de racine, ou None s'il le peut."""
+    if os.environ.get("POA_COMMIT_IMAGE") and not (racine / ".git").exists():
+        return None
     commun = _git("rev-parse", "--path-format=absolute", "--git-common-dir", dans=racine)
     if commun.returncode != 0:
         return f"{racine} n'est pas dans un dépôt git"

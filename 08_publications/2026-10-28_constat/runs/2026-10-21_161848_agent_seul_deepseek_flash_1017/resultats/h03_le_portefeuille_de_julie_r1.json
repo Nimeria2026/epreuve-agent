@@ -1,0 +1,69 @@
+{
+  "run": "2026-10-21_161848_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "h03_le_portefeuille_de_julie",
+    "version": 5
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-21T16:38:39.755152Z",
+  "fin_utc": "2026-10-21T16:40:18.079335Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.25,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 0.875,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'joint_le_devis_de': 'c-0222'}"
+    },
+    {
+      "numero": 5,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 6,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.9750000000000001,
+  "reussie": false,
+  "etapes": 95,
+  "jetons": {
+    "entree": 488411,
+    "entree_en_cache": 464384,
+    "sortie": 19944
+  },
+  "cout_dollars": 0.016963601999999998,
+  "energie_wh": null,
+  "duree_secondes": 98.32417792401975,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h03_le_portefeuille_de_julie_r1.jsonl"
+}

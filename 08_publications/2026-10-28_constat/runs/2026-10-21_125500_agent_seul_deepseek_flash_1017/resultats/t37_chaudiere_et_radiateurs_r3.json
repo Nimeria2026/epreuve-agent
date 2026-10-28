@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-21_125500_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t37_chaudiere_et_radiateurs",
+    "version": 2
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-21T14:24:42.195815Z",
+  "fin_utc": "2026-10-21T14:25:11.255847Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.6,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 23,
+  "jetons": {
+    "entree": 154514,
+    "entree_en_cache": 141952,
+    "sortie": 3273
+  },
+  "cout_dollars": 0.004273956,
+  "energie_wh": null,
+  "duree_secondes": 29.060028199048247,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t37_chaudiere_et_radiateurs_r3.jsonl"
+}

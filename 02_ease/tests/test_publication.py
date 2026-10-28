@@ -143,11 +143,13 @@ def _donnees_constat() -> dict[str, Any]:
         "cinq_sur_cinq": {"points": "30", "etabli": False},
         "duree_mediane": {"etabli": True},
     }
+    socle["paires"] = [{"a": DS, "b": QW} | socle["ecarts"]]
     grille = [16.0, 32.0, 64.0]
     courbe = {
-        "texte": "au-delà de 64,0\u00a0min",
+        "texte": "au-delà de 1\u00a0h",
         "essais": 15,
-        "fourchette_texte": ["30,5\u00a0min", "plus de 64,0\u00a0min"],
+        "fourchette_texte": ["31\u00a0min", "plus de 1\u00a0h"],
+        "fourchette_phrase": "de 31\u00a0min à plus de 1\u00a0h",
         "courbe": [0.9, 0.85, 0.8],
         "bande": [[0.7, 1.0], [0.6, 0.95], [0.5, 0.9]],
         "points": [{"minutes": 16.0, "reussis": 5, "sur": 5}, {"minutes": 64.0, "reussis": 4, "sur": 5}],
@@ -167,11 +169,12 @@ def _donnees_constat() -> dict[str, Any]:
         "horizon": {
             "taches": 3,
             "cachees": 1,
-            "plage": [{"minutes": 16.0, "texte": "16,0\u00a0min"}, {"minutes": 64.0, "texte": "64,0\u00a0min"}],
-            "graduations_minutes": [{"minutes": 30.0, "texte": "30,0\u00a0min"}],
+            "plage": [{"minutes": 16.0, "texte": "16\u00a0min"}, {"minutes": 64.0, "texte": "1\u00a0h\u00a005"}],
+            "graduations_minutes": [{"minutes": 30.0, "texte": "30\u00a0min"}],
             "grille_minutes": grille,
-            "par_candidat": {DS: courbe, QW: courbe | {"texte": "20,1\u00a0min"}},
+            "par_candidat": {DS: courbe, QW: courbe | {"texte": "20\u00a0min"}},
             "etabli": True,
+            "paires": [{"a": DS, "b": QW, "etabli": True}],
         },
         "graves": {
             "taches": 4,
@@ -180,11 +183,13 @@ def _donnees_constat() -> dict[str, Any]:
                 DS: chiffre(0, 20, (0.0, 0.16)),
                 QW: chiffre(3, 20, (0.05, 0.36)),
                 "ecart": {"points": "15", "etabli": True},
+                "paires": [{"a": DS, "b": QW, "ecart": {"points": "15", "etabli": True}}],
             },
             "avec_gardien": {
                 DS: chiffre(0, 20, (0.0, 0.16)),
                 QW: chiffre(1, 20, (0.01, 0.24)),
                 "ecart": {"points": "5", "etabli": False},
+                "paires": [{"a": DS, "b": QW, "ecart": {"points": "5", "etabli": False}}],
             },
         },
         "graduations": [
@@ -207,7 +212,7 @@ def test_les_trois_images_du_constat_n_affichent_que_des_nombres_des_donnees(pol
     for page in ecrites:
         assert chiffres_hors_donnees(page, donnees) == []
     tableau = ecrites[0]
-    assert tableau.count('<div class="egal">≈</div>') == 2
+    assert tableau.count('<span class="non">≈</span>') == 2
     assert "Les scores publiés tombent dans nos fourchettes." in ecrites[2]
 
 
@@ -215,3 +220,68 @@ def test_un_score_publie_hors_de_la_fourchette_se_dit(polices: Path) -> None:
     donnees = _donnees_constat()
     donnees["tau2"][QW]["dans_la_fourchette"] = False
     assert "Un score publié sort de notre fourchette" in pages("constat", donnees, polices)[2]
+
+
+FN = "agent_seul_qwen_flash_next_strata"
+
+
+def _ajouter_flash_next(donnees: dict[str, Any]) -> dict[str, Any]:
+    """Les mêmes données, avec un troisième modèle aux chiffres de Qwen, et les paires qui vont avec."""
+    d = copy.deepcopy(donnees)
+    d["candidats"].append({"identifiant": FN, "nom": "Qwen3.8-Flash-Next", "court": "Flash-Next", "detail": "en local"})
+
+    def trois(bloc: dict[str, Any]) -> None:
+        bloc["par_candidat"][FN] = copy.deepcopy(bloc["par_candidat"][QW])
+        modele = bloc["paires"][0] if "paires" in bloc else None
+        if modele is not None:
+            bloc["paires"] = [modele, modele | {"b": FN}, modele | {"a": QW, "b": FN}]
+            bloc.pop("ecarts", None)
+
+    if d["sujet"] == "premier_post":
+        for bloc in [*d["metiers"], d["ensemble"]]:
+            trois(bloc)
+        d["exemple"]["essais"][FN] = 5
+        d["exemple"]["echecs_du_controle"][FN] = 0
+        d["tau2"][FN] = d["tau2"][QW] | {"publie": None, "verdict": "aucun"}
+    else:
+        trois(d["socle"])
+        d["horizon"]["par_candidat"][FN] = copy.deepcopy(d["horizon"]["par_candidat"][QW])
+        p = d["horizon"]["paires"][0]
+        d["horizon"]["paires"] = [p, p | {"b": FN}, p | {"a": QW, "b": FN, "etabli": False}]
+        for cle in ("sans_gardien", "avec_gardien"):
+            g = d["graves"][cle]
+            g[FN] = copy.deepcopy(g[QW])
+            p = g["paires"][0]
+            g["paires"] = [p, p | {"b": FN}, p | {"a": QW, "b": FN}]
+        d["tau2"][FN] = d["tau2"][QW] | {"publie": None, "verdict": "aucun", "dans_la_fourchette": None}
+    return d
+
+
+def test_trois_modeles_s_ecrivent_sans_nombre_hors_des_donnees(polices: Path) -> None:
+    # JOURNAL, entrée 338 : Flash-Next en troisième modèle ; les écarts paire par paire ; τ²-bench dit
+    # « rien à comparer » quand un modèle n'a pas de score publié.
+    for sujet, donnees in (
+        ("premier_post", _ajouter_flash_next(_donnees() | {"tau2": _donnees()["tau2"]})),
+        ("constat", _ajouter_flash_next(_donnees_constat())),
+    ):
+        ecrites = pages(sujet, donnees, polices)
+        for page in ecrites:
+            assert chiffres_hors_donnees(page, donnees) == []
+        assert "Flash-Next" in ecrites[0]
+    constat = pages("constat", _ajouter_flash_next(_donnees_constat()), polices)
+    assert "sur trois modèles" in constat[0]
+    assert constat[0].count('<span class="oui">Écart établi</span>') == 4
+    assert "rien à comparer" in constat[2]
+    essai = pages("premier_post", _ajouter_flash_next(_donnees()), polices)[2]
+    assert "2 fois ; DeepSeek V4.1 Flash, jamais ; Qwen3.8-Flash-Next, jamais." in essai
+
+
+def test_un_score_sans_ecart_type_hors_de_la_fourchette_ne_bloque_pas(polices: Path) -> None:
+    # JOURNAL, entrée 277 : le contrôle repose sur les scores qui portent un écart type ; DeepSeek 1017,
+    # sans écart type, sort de notre fourchette au relevé du 26 octobre, et cela se dit.
+    donnees = _donnees_constat()
+    donnees["tau2"][DS] |= {"dans_la_fourchette": False, "verdict": "hors", "controle": False}
+    donnees["tau2"][QW] |= {"verdict": "dedans", "controle": True}
+    preuve = pages("constat", donnees, polices)[2]
+    assert "Les scores publiés qui portent un écart type tombent dans nos fourchettes." in preuve
+    assert "hors de notre fourchette" in preuve

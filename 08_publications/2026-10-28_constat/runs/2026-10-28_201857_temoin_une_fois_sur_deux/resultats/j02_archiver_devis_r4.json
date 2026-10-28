@@ -1,0 +1,41 @@
+{
+  "run": "2026-10-28_201857_temoin_une_fois_sur_deux",
+  "tache": {
+    "identifiant": "j02_archiver_devis",
+    "version": 1
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-28T20:18:57.304910Z",
+  "fin_utc": "2026-10-28T20:18:57.304913Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.7,
+      "score": 0.0,
+      "detail": "absent : archives/devis_2026-007.txt ; présent : devis/devis_2026-007.txt"
+    },
+    {
+      "numero": 2,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.3,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 2.073000359814614e-06,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/j02_archiver_devis_r4.jsonl"
+}

@@ -143,3 +143,19 @@ def test_un_run_ne_part_que_d_un_des_deux_postes_propre_et_dans_main(depot: Path
     POSTE.preparer(depot, api, "essai", installer=False)
     refus = refus_hors_poste(api)
     assert refus is not None and "n'est pas dans main" in refus
+
+
+def test_l_image_du_banc_tient_lieu_de_poste(depot: Path, tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
+    # L'image : l'archive d'un commit, sans dépôt git, son commit dans POA_COMMIT_IMAGE (entrée 304).
+    from ease.poste import refus_hors_poste
+
+    image = tmp_path / "image"
+    image.mkdir()
+    monkeypatch.delenv("POA_COMMIT_IMAGE", raising=False)
+    refus = refus_hors_poste(image)
+    assert refus is not None and "pas dans un dépôt git" in refus
+    monkeypatch.setenv("POA_COMMIT_IMAGE", "0" * 40)
+    assert refus_hors_poste(image) is None
+    # La variable seule n'ouvre pas l'atelier : il a son dépôt git.
+    refus = refus_hors_poste(depot)
+    assert refus is not None and "n'est pas un poste" in refus

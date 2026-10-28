@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-28_201858_temoin_parfait",
+  "tache": {
+    "identifiant": "t40_remise_demandee_par_un_syndic",
+    "version": 1
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-28T20:20:29.389737Z",
+  "fin_utc": "2026-10-28T20:20:29.431732Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 4,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.04199105899897404,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t40_remise_demandee_par_un_syndic_r3.jsonl"
+}

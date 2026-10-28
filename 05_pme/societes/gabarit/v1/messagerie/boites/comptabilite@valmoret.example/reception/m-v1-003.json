@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-v1-003",
+  "de": {
+    "nom": "Droguerie Pradel",
+    "adresse": "facturation@droguerie-pradel.example"
+  },
+  "a": [
+    "comptabilite@valmoret.example"
+  ],
+  "cc": [],
+  "objet": "Facture F-2026-0110",
+  "date": "2026-10-05T08:30:00+02:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-jointe notre facture F-2026-0110.\n\nCordialement,\nLe service comptable\nDroguerie Pradel",
+  "pieces_jointes": [],
+  "lu": true,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

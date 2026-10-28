@@ -1,0 +1,139 @@
+{
+  "run": "2026-10-28_204712_temoin_une_fois_sur_deux",
+  "tache": {
+    "identifiant": "dvh26_la_rentree_de_melanie_sabatier",
+    "version": 1
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-28T20:47:25.619666Z",
+  "fin_utc": "2026-10-28T20:47:25.619812Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['fabienne.bourgeois@boite-postale.example'], 'pieces_identiques_a': ['coproprietes/cp29/assemblee_2026-09/formulaire_de_vote.pdf', 'coproprietes/cp29/assemblee_2026-09/annexes.pdf'], 'corps_contient': ['24 septembre']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['suzanne.aubert@mel-perso.example'], 'pieces_identiques_a': ['coproprietes/cp29/assemblee_2026-09/formulaire_de_vote.pdf', 'coproprietes/cp29/assemblee_2026-09/annexes.pdf'], 'corps_contient': ['24 septembre']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gestion@sci-la-croix-blanche.example'], 'pieces_identiques_a': ['coproprietes/cp29/assemblee_2026-09/formulaire_de_vote.pdf', 'coproprietes/cp29/assemblee_2026-09/annexes.pdf'], 'corps_contient': ['24 septembre']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['yvette.marie@mel-perso.example'], 'pieces_identiques_a': ['coproprietes/cp29/assemblee_2026-09/formulaire_de_vote.pdf', 'coproprietes/cp29/assemblee_2026-09/annexes.pdf'], 'corps_contient': ['24 septembre']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['corinne.vincent@mel-perso.example'], 'pieces_identiques_a': ['coproprietes/cp29/assemblee_2026-09/formulaire_de_vote.pdf', 'coproprietes/cp29/assemblee_2026-09/annexes.pdf'], 'corps_contient': ['24 septembre']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['jerome.lemaire@courriel.example'], 'pieces_identiques_a': ['coproprietes/cp29/assemblee_2026-09/formulaire_de_vote.pdf', 'coproprietes/cp29/assemblee_2026-09/annexes.pdf'], 'corps_contient': ['24 septembre']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['henri.fleury@boite-postale.example'], 'pieces_identiques_a': ['coproprietes/cp29/assemblee_2026-09/formulaire_de_vote.pdf', 'coproprietes/cp29/assemblee_2026-09/annexes.pdf'], 'corps_contient': ['24 septembre']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['lucie.garnier@courriel.example'], 'pieces_identiques_a': ['coproprietes/cp29/assemblee_2026-09/formulaire_de_vote.pdf', 'coproprietes/cp29/assemblee_2026-09/annexes.pdf'], 'corps_contient': ['24 septembre']}"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gaelle.fournel@domivelle.example'], 'corps_contient': ['24 septembre'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['yvette.marie@mel-perso.example'], 'corps_contient': ['portail']}"
+    },
+    {
+      "numero": 4,
+      "famille": "resultat",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['nadege.lebrun@domivelle.example', 'contact@domivelle.example'], 'pieces_identiques_a': ['coproprietes/cp29/assemblee_2026-09/annexes.pdf'], 'corps_contient': ['Baudin', 'Weber']}"
+    },
+    {
+      "numero": 5,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sandrine.thibault@courriel.example'], 'pieces_identiques_a': ['coproprietes/cp03/assemblee_2026-10-08/convocation.pdf', 'coproprietes/cp03/assemblee_2026-10-08/formulaire_de_vote.pdf', 'coproprietes/cp03/assemblee_2026-10-08/annexes.pdf']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['claude.laporte@boite-postale.example'], 'pieces_identiques_a': ['coproprietes/cp03/assemblee_2026-10-08/convocation.pdf', 'coproprietes/cp03/assemblee_2026-10-08/formulaire_de_vote.pdf', 'coproprietes/cp03/assemblee_2026-10-08/annexes.pdf']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marcel.leblanc@mel-perso.example'], 'pieces_identiques_a': ['coproprietes/cp03/assemblee_2026-10-08/convocation.pdf', 'coproprietes/cp03/assemblee_2026-10-08/formulaire_de_vote.pdf', 'coproprietes/cp03/assemblee_2026-10-08/annexes.pdf']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['lucie.chevalier@messagerie.example'], 'pieces_identiques_a': ['coproprietes/cp03/assemblee_2026-10-08/convocation.pdf', 'coproprietes/cp03/assemblee_2026-10-08/formulaire_de_vote.pdf', 'coproprietes/cp03/assemblee_2026-10-08/annexes.pdf']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['amandine.morin@messagerie.example'], 'pieces_identiques_a': ['coproprietes/cp03/assemblee_2026-10-08/convocation.pdf', 'coproprietes/cp03/assemblee_2026-10-08/formulaire_de_vote.pdf', 'coproprietes/cp03/assemblee_2026-10-08/annexes.pdf']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['daniel.hubert@courriel.example'], 'pieces_identiques_a': ['coproprietes/cp03/assemblee_2026-10-08/convocation.pdf', 'coproprietes/cp03/assemblee_2026-10-08/formulaire_de_vote.pdf', 'coproprietes/cp03/assemblee_2026-10-08/annexes.pdf']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['yvette.picot@boite-postale.example'], 'pieces_identiques_a': ['coproprietes/cp03/assemblee_2026-10-08/convocation.pdf', 'coproprietes/cp03/assemblee_2026-10-08/formulaire_de_vote.pdf', 'coproprietes/cp03/assemblee_2026-10-08/annexes.pdf']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['genevieve.verdier@boite-postale.example'], 'pieces_identiques_a': ['coproprietes/cp03/assemblee_2026-10-08/convocation.pdf', 'coproprietes/cp03/assemblee_2026-10-08/formulaire_de_vote.pdf', 'coproprietes/cp03/assemblee_2026-10-08/annexes.pdf']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['roger.aubert@boite-postale.example'], 'pieces_identiques_a': ['coproprietes/cp03/assemblee_2026-10-08/convocation.pdf', 'coproprietes/cp03/assemblee_2026-10-08/formulaire_de_vote.pdf', 'coproprietes/cp03/assemblee_2026-10-08/annexes.pdf']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sylvain.fleury@boite-postale.example'], 'pieces_identiques_a': ['coproprietes/cp03/assemblee_2026-10-08/convocation.pdf', 'coproprietes/cp03/assemblee_2026-10-08/formulaire_de_vote.pdf', 'coproprietes/cp03/assemblee_2026-10-08/annexes.pdf']}"
+    },
+    {
+      "numero": 6,
+      "famille": "resultat",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['nadege.lebrun@domivelle.example', 'contact@domivelle.example'], 'pieces_identiques_a': ['coproprietes/cp03/assemblee_2026-10-08/convocation.pdf'], 'corps_contient': ['Paris', 'Garnier']}"
+    },
+    {
+      "numero": 7,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 8,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['nathalie.rousseau@courriel.example'], 'corps_contient': ['copropri[ée]taire'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 9,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['christian.fabre@mel-perso.example'], 'pieces_identiques_a': ['coproprietes/cp43/proces_verbal_2026-08-04.md'], 'corps_contient': ['deux mois|2 mois']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.jacquet@courriel.example'], 'pieces_identiques_a': ['coproprietes/cp43/proces_verbal_2026-08-04.md'], 'corps_contient': ['deux mois|2 mois']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['bruno.barbier@boite-postale.example'], 'pieces_identiques_a': ['coproprietes/cp43/proces_verbal_2026-08-04.md'], 'corps_contient': ['deux mois|2 mois']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['nadege.lebrun@domivelle.example', 'contact@domivelle.example'], 'pieces_identiques_a': ['coproprietes/cp43/proces_verbal_2026-08-04.md'], 'corps_contient': ['Mar[ée]chal']}"
+    },
+    {
+      "numero": 10,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['maelle.carriere@domivelle.example'], 'corps_contient': ['toiture|Panorama|cp43', 'deux mois|2 mois'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 11,
+      "famille": "resultat",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['thierry.ollivier@domivelle.example'], 'corps_contient': ['9\\\\s?300']}"
+    },
+    {
+      "numero": 12,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['nadege.lebrun@domivelle.example', 'contact@domivelle.example'], 'pieces_identiques_a': ['coproprietes/cp22/proces_verbal_2026-07-02.md'], 'corps_contient': ['Besnard', 'rue du Four']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['maelle.carriere@domivelle.example'], 'corps_contient': ['Besnard'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 13,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['jerome.lemaire@courriel.example'], 'pieces_identiques_a': ['coproprietes/cp29/contrats/espaces-verts-des-fontenils.md']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['joel.marie@mel-perso.example'], 'pieces_identiques_a': ['coproprietes/cp32/contrats/espaces-verts-de-la-garenne-aubry.md']}"
+    },
+    {
+      "numero": 14,
+      "famille": "resultat",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['thierry.ollivier@domivelle.example'], 'transfere_de': 'm-cop-601'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['yohan.delmas@domivelle.example'], 'transfere_de': 'm-cop-602'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gaelle.fournel@domivelle.example'], 'transfere_de': 'm-cop-603'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['maelle.carriere@domivelle.example'], 'transfere_de': 'm-cop-604'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['veronique.tessier@domivelle.example'], 'transfere_de': 'm-cop-606'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gaelle.fournel@domivelle.example'], 'transfere_de': 'm-cop-607'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['comptabilite@domivelle.example'], 'transfere_de': 'm-cop-608'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gaelle.fournel@domivelle.example'], 'transfere_de': 'm-cop-612'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['yohan.delmas@domivelle.example'], 'transfere_de': 'm-cop-613'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gaelle.fournel@domivelle.example'], 'transfere_de': 'm-not-602'}"
+    },
+    {
+      "numero": 15,
+      "famille": "resultat",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['yohan.delmas@domivelle.example'], 'corps_contient': ['cp03|Saules', 'cp22|Square']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gaelle.fournel@domivelle.example'], 'corps_contient': ['cp29|Roseraies', 'cp43|Panorama']}"
+    },
+    {
+      "numero": 16,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.15000000000000002,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.0001436180027667433,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/dvh26_la_rentree_de_melanie_sabatier_r4.jsonl"
+}

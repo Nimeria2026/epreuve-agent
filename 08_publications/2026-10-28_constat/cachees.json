@@ -1,0 +1,206 @@
+[
+ {
+  "run": "2026-10-09_220655_agent_seul_qwen_local",
+  "taches": 18,
+  "essais": 90,
+  "reussis": 87
+ },
+ {
+  "run": "2026-10-20_144636_agent_seul_qwen_local",
+  "taches": 2,
+  "essais": 10,
+  "reussis": 10
+ },
+ {
+  "run": "2026-10-21_010546_agent_seul_qwen_local_100k",
+  "taches": 3,
+  "essais": 15,
+  "reussis": 6
+ },
+ {
+  "run": "2026-10-21_125500_agent_seul_deepseek_flash_1017",
+  "taches": 20,
+  "essais": 100,
+  "reussis": 98
+ },
+ {
+  "run": "2026-10-21_161848_agent_seul_deepseek_flash_1017",
+  "taches": 3,
+  "essais": 15,
+  "reussis": 14
+ },
+ {
+  "run": "2026-10-21_211431_agent_seul_deepseek_flash_1017",
+  "taches": 1,
+  "essais": 5,
+  "reussis": 5
+ },
+ {
+  "run": "2026-10-23_110332_agent_seul_qwen_local_100k",
+  "taches": 1,
+  "essais": 5,
+  "reussis": 5
+ },
+ {
+  "run": "2026-10-26_120743_agent_seul_qwen_flash_next_strata",
+  "taches": 20,
+  "essais": 100,
+  "reussis": 97
+ },
+ {
+  "run": "2026-10-26_210017_agent_seul_qwen_flash_next_strata",
+  "taches": 3,
+  "essais": 0,
+  "reussis": 0
+ },
+ {
+  "run": "2026-10-27_060047_agent_seul_qwen_flash_next_strata",
+  "taches": 3,
+  "essais": 15,
+  "reussis": 15
+ },
+ {
+  "run": "2026-10-28_202820_temoin_parfait",
+  "taches": 20,
+  "essais": 80,
+  "reussis": 80
+ },
+ {
+  "run": "2026-10-28_202907_temoin_toujours_faux",
+  "taches": 20,
+  "essais": 80,
+  "reussis": 0
+ },
+ {
+  "run": "2026-10-28_202953_temoin_une_fois_sur_deux",
+  "taches": 20,
+  "essais": 80,
+  "reussis": 40
+ },
+ {
+  "run": "2026-10-28_203038_temoin_inerte",
+  "taches": 20,
+  "essais": 80,
+  "reussis": 0
+ },
+ {
+  "run": "2026-10-28_203632_temoin_parfait",
+  "taches": 3,
+  "essais": 12,
+  "reussis": 12
+ },
+ {
+  "run": "2026-10-28_203641_temoin_toujours_faux",
+  "taches": 3,
+  "essais": 12,
+  "reussis": 0
+ },
+ {
+  "run": "2026-10-28_203649_temoin_une_fois_sur_deux",
+  "taches": 3,
+  "essais": 12,
+  "reussis": 6
+ },
+ {
+  "run": "2026-10-28_203657_temoin_inerte",
+  "taches": 3,
+  "essais": 12,
+  "reussis": 0
+ },
+ {
+  "run": "2026-10-28_204752_temoin_parfait",
+  "taches": 11,
+  "essais": 44,
+  "reussis": 44
+ },
+ {
+  "run": "2026-10-28_204820_temoin_toujours_faux",
+  "taches": 11,
+  "essais": 44,
+  "reussis": 0
+ },
+ {
+  "run": "2026-10-28_204846_temoin_une_fois_sur_deux",
+  "taches": 11,
+  "essais": 44,
+  "reussis": 22
+ },
+ {
+  "run": "2026-10-28_204913_temoin_inerte",
+  "taches": 11,
+  "essais": 44,
+  "reussis": 0
+ },
+ {
+  "run": "2026-10-28_204939_temoin_parfait",
+  "taches": 6,
+  "essais": 24,
+  "reussis": 24
+ },
+ {
+  "run": "2026-10-28_204955_temoin_toujours_faux",
+  "taches": 6,
+  "essais": 24,
+  "reussis": 0
+ },
+ {
+  "run": "2026-10-28_205009_temoin_une_fois_sur_deux",
+  "taches": 6,
+  "essais": 24,
+  "reussis": 12
+ },
+ {
+  "run": "2026-10-28_205024_temoin_inerte",
+  "taches": 6,
+  "essais": 24,
+  "reussis": 0
+ },
+ {
+  "run": "2026-10-28_210813_temoin_parfait",
+  "taches": 12,
+  "essais": 48,
+  "reussis": 48
+ },
+ {
+  "run": "2026-10-28_210900_temoin_toujours_faux",
+  "taches": 12,
+  "essais": 48,
+  "reussis": 0
+ },
+ {
+  "run": "2026-10-28_210945_temoin_une_fois_sur_deux",
+  "taches": 12,
+  "essais": 48,
+  "reussis": 24
+ },
+ {
+  "run": "2026-10-28_211029_temoin_inerte",
+  "taches": 12,
+  "essais": 48,
+  "reussis": 0
+ },
+ {
+  "run": "2026-10-28_211112_temoin_parfait",
+  "taches": 6,
+  "essais": 24,
+  "reussis": 24
+ },
+ {
+  "run": "2026-10-28_211141_temoin_toujours_faux",
+  "taches": 6,
+  "essais": 24,
+  "reussis": 0
+ },
+ {
+  "run": "2026-10-28_211205_temoin_une_fois_sur_deux",
+  "taches": 6,
+  "essais": 24,
+  "reussis": 12
+ },
+ {
+  "run": "2026-10-28_211230_temoin_inerte",
+  "taches": 6,
+  "essais": 24,
+  "reussis": 0
+ }
+]

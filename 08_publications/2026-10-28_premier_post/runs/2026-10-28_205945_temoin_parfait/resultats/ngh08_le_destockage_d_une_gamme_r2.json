@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-28_205945_temoin_parfait",
+  "tache": {
+    "identifiant": "ngh08_le_destockage_d_une_gamme",
+    "version": 1
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-28T21:00:22.725228Z",
+  "fin_utc": "2026-10-28T21:00:22.919671Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.25,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 56,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.19443932799913455,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/ngh08_le_destockage_d_une_gamme_r2.jsonl"
+}

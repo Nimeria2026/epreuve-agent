@@ -51,6 +51,7 @@ from ease.solutions_documents import ERREURS_DOCUMENTS, SOLUTIONS_DOCUMENTS
 from ease.solutions_domivelle import ERREURS_DOMIVELLE, SOLUTIONS_DOMIVELLE
 from ease.solutions_domivelle_dure import ERREURS_DOMIVELLE_DURE, SOLUTIONS_DOMIVELLE_DURE
 from ease.solutions_dure import ERREURS_DURE, SOLUTIONS_DURE
+from ease.solutions_gabarit import ERREURS_GABARIT, SOLUTIONS_GABARIT
 from ease.solutions_negovelle import ERREURS_NEGOVELLE, SOLUTIONS_NEGOVELLE
 from ease.solutions_negovelle_dure import ERREURS_NEGOVELLE_DURE, SOLUTIONS_NEGOVELLE_DURE
 from ease.solutions_pme import ERREURS_PME, SOLUTIONS_PME, TRICHEURS_PME
@@ -64,6 +65,7 @@ from ease.taches import (
     taches_domivelle_dure_v2,
     taches_dure,
     taches_dure_v2,
+    taches_gabarit,
     taches_negovelle,
     taches_negovelle_dure,
     taches_negovelle_dure_v2,
@@ -120,7 +122,7 @@ def terrain_jouet() -> Terrain:
 
 def terrain_pme(dossier: Path | None = None, gardien: Path | None = None, version: str = "v3") -> Terrain:
     """La PME dans un état initial et les tâches publiques qui en partent ; l'état de travail va
-    dans dossier (99_local/pme sinon). gardien : fichier de règles, pour placer le gardien entre
+    dans dossier (99_local/travail/pme sinon). gardien : fichier de règles, pour placer le gardien entre
     les témoins et la PME. Un terrain ne mélange jamais deux états."""
     taches = [t for t in lire_taches(racine_depot() / "07_taches" / "public") if t.etat_initial == version]
     identifiants = {t.identifiant for t in taches}
@@ -332,6 +334,18 @@ def terrain_negovelle_dure_cachees(
     return _terrain_part_cachee("negovelle_dure", "negovelle", dossier, version, gardien)
 
 
+def terrain_gabarit(dossier: Path | None = None, gardien: Path | None = None, version: str = "v1") -> Terrain:
+    """La société gabarit, base des campagnes (cadrage des interventions, section 11) : ses dix
+    tâches communes, et celles du métier qu'une campagne ajoute, sur l'état que régénèrent ses
+    variables (make gabarit)."""
+    taches = [t for t in taches_gabarit() if t.etat_initial == version]
+    identifiants = {t.identifiant for t in taches}
+    solutions = {k: v for k, v in SOLUTIONS_GABARIT.items() if k in identifiants}
+    erreurs = {k: v for k, v in ERREURS_GABARIT.items() if k in identifiants}
+    environnement = functools.partial(EnvironnementPME, version, dossier, gardien, societe="gabarit")
+    return Terrain(f"gabarit_{version}", taches, environnement, solutions, erreurs)
+
+
 TERRAINS: dict[str, Callable[[], Terrain]] = {
     "jouet": terrain_jouet,
     "pme": terrain_pme,
@@ -350,6 +364,7 @@ TERRAINS: dict[str, Callable[[], Terrain]] = {
     "negovelle_dure_v2": terrain_negovelle_dure_v2,
     "negovelle_cachees": terrain_negovelle_cachees,
     "negovelle_dure_cachees": terrain_negovelle_dure_cachees,
+    "gabarit": terrain_gabarit,
 }
 
 

@@ -1,0 +1,41 @@
+{
+  "run": "2026-10-28_201857_temoin_inerte",
+  "tache": {
+    "identifiant": "j01_ranger_facture",
+    "version": 1
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-28T20:18:57.350562Z",
+  "fin_utc": "2026-10-28T20:18:57.350564Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.7,
+      "score": 0.0,
+      "detail": "absent : factures/2026-10/facture_0412.txt ; présent : arrivee/facture_0412.txt"
+    },
+    {
+      "numero": 2,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.3,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 1.8639984773471951e-06,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/j01_ranger_facture_r2.jsonl"
+}

@@ -1,0 +1,118 @@
+{
+  "run": "2026-10-28_203520_temoin_toujours_faux",
+  "tache": {
+    "identifiant": "h19_les_fetes_du_planning",
+    "version": 1
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-28T20:35:40.061578Z",
+  "fin_utc": "2026-10-28T20:35:40.147360Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "INT-2026-0060 : commence le 2026-12-23T08:00:00+01:00, après le 2026-12-21T19:30:00+01:00 ; aucun courriel vers julien.girard@courriel.example ne donne le jour et l'heure de INT-2026-0060 (23/12 à 08:00) ; 0 intervention(s) ajoutée(s) pour c-0076 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0076, une seule à annoncer ; 0 intervention(s) ajoutée(s) pour c-0366 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0366, une seule à annoncer ; INT-2026-0049 modifiée ou supprimée"
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "0 intervention(s) ajoutée(s) pour c-0371 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0371, une seule à annoncer ; 0 intervention(s) ajoutée(s) pour c-0242 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0242, une seule à annoncer"
+    },
+    {
+      "numero": 3,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 0.125,
+      "detail": "INT-2026-0041 : aucun technicien confirmé n'a la compétence chaudiere_gaz ; INT-2026-0042 : avec kevin.lambert ; INT-2026-0043 : avec kevin.lambert ; kevin.lambert pris du 2026-12-22T00:00:00+01:00 au 2026-12-25T00:00:00+01:00 : INT-2026-0042, INT-2026-0043 ; INT-2026-0044 : avec nicolas.blanc, commence le 2026-12-28T08:00:00+01:00, avant le 2026-12-28T13:30:00+01:00 ; aucun courriel vers camille.lambert@courriel.example ne donne le jour et l'heure de INT-2026-0044 (28/12 à 08:00) ; INT-2026-0045 : avec romain.guerin"
+    },
+    {
+      "numero": 4,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 0.125,
+      "detail": "INT-2026-0046 : commence le 2026-12-31T08:00:00+01:00, avant le 2027-01-01T00:00:00+01:00 ; yanis.haddad pris du 2026-12-31T13:30:00+01:00 au 2026-12-31T15:00:00+01:00 : INT-2026-0047 ; INT-2026-0050 : commence le 2027-01-04T08:00:00+01:00, avant le 2027-01-06T00:00:00+01:00 ; aucun courriel vers syndic@residence-des-tilleuls.example ne donne le jour et l'heure de INT-2026-0050 (04/01 à 08:00) ; INT-2026-0058 : commence le 2027-01-01T08:00:00+01:00, avant le 2027-01-02T00:00:00+01:00 ; aucun courriel vers contact@etablissements-blanchard-263.example ne donne le jour et l'heure de INT-2026-0058 (01/01 à 08:00) ; INT-2026-0059 : aucun technicien confirmé n'a la compétence pompe_a_chaleur"
+    },
+    {
+      "numero": 5,
+      "famille": "resultat",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "0 intervention(s) ajoutée(s) pour c-0304 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0304, une seule à annoncer ; 0 intervention(s) ajoutée(s) pour c-0036 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0036, une seule à annoncer ; 0 intervention(s) ajoutée(s) pour c-0062 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0062, une seule à annoncer"
+    },
+    {
+      "numero": 6,
+      "famille": "resultat",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "0 intervention(s) ajoutée(s) pour c-0521 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0217 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0587 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0511 (aucune), 1 attendue(s)"
+    },
+    {
+      "numero": 7,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "modifié interventions/INT-2026-0049.json ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['aurelie.garnier@courriel.example'], 'corps_contient': ['25 janvier', 'fin|termin|résili'], 'texte_de_l_agent': True} ; 0 intervention(s) ajoutée(s) pour c-0195 (aucune), 1 attendue(s) ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['alain.girard@courriel.example'], 'corps_contient': ['reconduit|reconduction|renouvel', 'un mois|délai|10 décembre|trop tard'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['Aurélie Garnier|c-0034', 'Alain Girard|c-0195'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 8,
+      "famille": "respect_des_regles",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "enzo.caron seul(s) : INT-2026-0041 ; thomas.girard pris du 2026-12-21T09:00:00+01:00 au 2027-01-02T00:00:00+01:00 : INT-2026-0060 ; m-env-001 contient un motif interdit ; m-env-002 contient un motif interdit"
+    },
+    {
+      "numero": 9,
+      "famille": "contenu",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "absent : clients/c-0062/interventions/2026-12-16_depannage.pdf ; absent : clients/c-0405/interventions/2026-12-18_depannage.pdf ; absent : clients/c-0036/interventions/2026-12-17_depannage.pdf ; absent : clients/c-0121/interventions/2026-12-09_entretien.pdf ; présent : clients/c-0589/interventions/2026-12-09_entretien.pdf ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['romain.guerin@calorelle.example'], 'corps_contient': ['Faure|c-0131', 'compte[ -]rendu'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'corps_contient': ['Tilleuls|c-0405', 'fin de vie|remplac'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['Legrand|c-0036', 'thermostat'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 10,
+      "famille": "contenu",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sandrine.fontaine@courriel.example'], 'corps_contient': ['annul'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['camille.garnier@courriel.example'], 'corps_contient': ['retour|après le 22|fin janvier|25 janvier', 'appel|appellera|téléphone'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['florian.masson@calorelle.example'], 'corps_contient': ['Sonia|Hélène|gérante', 'mois|avance|préavis|deux techniciens|déjà absents'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['bernard.lefort@courriel.example'], 'corps_contient': ['Loiret|zone|secteur'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@syndic-de-la-residence-du-clos-fargeau-3.example'], 'corps_contient': ['22 décembre|mardi 22|mardi', '\\\\b10 ?h\\\\b|\\\\b10:00\\\\b'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@etablissements-michel-121.example'], 'corps_contient': ['gérante|Hélène Marchal|direction|transmis'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['Michel|c-0121', 'geste|réclam|retard']} ; aucun courriel envoyé ne remplit {'a': ['manon.vincent@courriel.example'], 'pieces_identiques_a': ['clients/c-0381/interventions/2026-12-15_entretien.pdf']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.bernard@courriel.example'], 'corps_contient': ['gérante|Hélène Marchal|direction|transmis'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['Bernard|c-0093', 'devis|pompe à chaleur']}"
+    },
+    {
+      "numero": 11,
+      "famille": "contenu",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sonia.lefevre@calorelle.example'], 'corps_contient': ['mot de passe|identifiant|support|mise à jour|procedure_mise_a_jour']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'corps_contient': ['Brenneval|c-0304|DV-2026-013', '4 janvier'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['lucas.fontaine@calorelle.example'], 'corps_contient': ['Legrand|c-0036', 'Perrot|c-0062', 'Brenneval|c-0304'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['lucas.fontaine@calorelle.example'], 'corps_contient': ['accord|Hélène|gérante', 'virement|express'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['1 ?850|express', 'Tilleuls|pompes'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['Girard|c-0300', 'Clos-Fargeau|c-0076', 'Garnier|c-0366', '19 ?h ?30', '\\\\b11 ?h\\\\b', '\\\\b10 ?h\\\\b'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['yanis.haddad@calorelle.example'], 'corps_contient': ['ouvr|journée|17 ?h ?30'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['antoine.leroy@calorelle.example', 'david.roussel@calorelle.example', 'enzo.caron@calorelle.example', 'florian.masson@calorelle.example', 'kevin.lambert@calorelle.example', 'mathieu.picard@calorelle.example', 'nicolas.blanc@calorelle.example', 'romain.guerin@calorelle.example', 'sebastien.noel@calorelle.example', 'yanis.haddad@calorelle.example'], 'corps_contient': ['Lambert|INT-2026-0044', 'Legrand|c-0036', 'Boyer|INT-2026-0045'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['antoine.leroy@calorelle.example'], 'corps_contient': ['comptab|Patrick Roux|Patrick', 'note de frais|justificatif|ticket'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 12,
+      "famille": "contenu",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucune intervention ajoutée pour c-0076 ; aucune intervention ajoutée pour c-0366 ; aucune intervention ajoutée pour c-0371 ; aucune intervention ajoutée pour c-0242 ; aucune intervention ajoutée pour c-0304 ; aucune intervention ajoutée pour c-0036 ; aucune intervention ajoutée pour c-0062 ; aucune intervention ajoutée pour c-0521 ; aucune intervention ajoutée pour c-0217 ; aucune intervention ajoutée pour c-0587 ; aucune intervention ajoutée pour c-0511 ; aucune intervention ajoutée pour c-0195 ; antoine.leroy ne reçoit pas le jour et l'heure de INT-2026-0050 ; mathieu.picard ne reçoit pas le jour et l'heure de INT-2026-0050 ; thomas.girard ne reçoit pas le jour et l'heure de INT-2026-0060 ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['Girard|c-0300', 'Clos-Fargeau|c-0076', 'Garnier', 'Kevin', 'Legrand', 'Fontaine|INT-2026-0047', 'Tilleuls|INT-2026-0050', 'Brenneval|c-0304|DV-2026-013', 'Perrot|c-0062', 'appel', 'Aurélie Garnier|c-0034', 'Alain Girard|c-0195', 'Blanchard|INT-2026-0058', 'Établissements Faure|c-0131', 'Michel|c-0121', 'Laurent|INT-2026-0059'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 13,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "modifié interventions/INT-2026-0049.json"
+    }
+  ],
+  "score": 0.025,
+  "reussie": false,
+  "etapes": 7,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.08577784999943106,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h19_les_fetes_du_planning_r2.jsonl"
+}

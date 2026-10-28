@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-21_125500_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t39_relancer_les_devis",
+    "version": 3
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-21T14:29:06.262784Z",
+  "fin_utc": "2026-10-21T14:29:41.734332Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.6,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 28,
+  "jetons": {
+    "entree": 165142,
+    "entree_en_cache": 151040,
+    "sortie": 5142
+  },
+  "cout_dollars": 0.005653619999999999,
+  "energie_wh": null,
+  "duree_secondes": 35.47154374298407,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t39_relancer_les_devis_r2.jsonl"
+}

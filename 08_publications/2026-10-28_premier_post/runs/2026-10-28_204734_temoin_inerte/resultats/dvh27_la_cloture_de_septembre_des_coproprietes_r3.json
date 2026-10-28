@@ -1,0 +1,118 @@
+{
+  "run": "2026-10-28_204734_temoin_inerte",
+  "tache": {
+    "identifiant": "dvh27_la_cloture_de_septembre_des_coproprietes",
+    "version": 1
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-28T20:47:47.398449Z",
+  "fin_utc": "2026-10-28T20:47:47.398606Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['christian.fabre@mel-perso.example'], 'corps_contient': ['(?<!\\\\d)(?<!\\\\d )1 ?194[,.]59'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['isabelle.meunier@boite-postale.example'], 'corps_contient': ['(?<!\\\\d)(?<!\\\\d )1 ?063[,.]8[54]'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['simone.delattre@courriel.example'], 'corps_contient': ['(?<!\\\\d)(?<!\\\\d )933[,.]10'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.jacquet@courriel.example'], 'corps_contient': ['(?<!\\\\d)(?<!\\\\d )1 ?301[,.]93'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gestion@sci-le-mail-patrimoine.example'], 'corps_contient': ['(?<!\\\\d)(?<!\\\\d )1 ?410[,.]66'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['pierre.fleury@messagerie.example'], 'corps_contient': ['(?<!\\\\d)(?<!\\\\d )1 ?606[,.]0[98]'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['clemence.arnoult@messagerie.example'], 'corps_contient': ['(?<!\\\\d)(?<!\\\\d )2 ?343[,.]7[65]'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['bruno.barbier@boite-postale.example'], 'corps_contient': ['(?<!\\\\d)(?<!\\\\d )999[,.]16'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['antoine.cordier@messagerie.example'], 'corps_contient': ['(?<!\\\\d)(?<!\\\\d )1 ?563[,.]42'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['laure.giraud@boite-postale.example'], 'corps_contient': ['(?<!\\\\d)(?<!\\\\d )2 ?513[,.]84'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['christian.laine@mel-perso.example'], 'corps_contient': ['(?<!\\\\d)(?<!\\\\d )852[,.]88'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['laure.prevost@mel-perso.example'], 'corps_contient': ['(?<!\\\\d)(?<!\\\\d )1 ?185[,.]07'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['valerie.labbe@boite-postale.example'], 'corps_contient': ['(?<!\\\\d)(?<!\\\\d )1 ?849[,.]4[65]'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['odile.masse@boite-postale.example'], 'corps_contient': ['(?<!\\\\d)(?<!\\\\d )2 ?110[,.]73'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['francois.jourdan@mel-perso.example'], 'corps_contient': ['(?<!\\\\d)(?<!\\\\d )(?:1 ?968[,.]90|1 ?968[,.]89)'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.germain@mel-perso.example'], 'corps_contient': ['(?<!\\\\d)(?<!\\\\d )2 ?252[,.]5[76]'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sylvie.pichon@mel-perso.example'], 'corps_contient': ['(?<!\\\\d)(?<!\\\\d )2 ?418[,.]66'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 3,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['fabienne.bourgeois@boite-postale.example'], 'corps_contient': ['(?<!\\\\d)(?<!\\\\d )274[,.]05'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['suzanne.aubert@mel-perso.example'], 'corps_contient': ['(?<!\\\\d)(?<!\\\\d )234[,.]36'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gestion@sci-la-croix-blanche.example'], 'corps_contient': ['(?<!\\\\d)(?<!\\\\d )321[,.]54'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['yvette.marie@mel-perso.example'], 'corps_contient': ['(?<!\\\\d)(?<!\\\\d )170[,.]81'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['corinne.vincent@mel-perso.example'], 'corps_contient': ['(?<!\\\\d)(?<!\\\\d )186[,.]64'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['jerome.lemaire@courriel.example'], 'corps_contient': ['(?<!\\\\d)(?<!\\\\d )182[,.]6[32]'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['henri.fleury@boite-postale.example'], 'corps_contient': ['(?<!\\\\d)(?<!\\\\d )297[,.]68'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['lucie.garnier@courriel.example'], 'corps_contient': ['(?<!\\\\d)(?<!\\\\d )234[,.]1[32]'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 4,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['clemence.arnoult@messagerie.example'], 'corps_contient': ['2 ?343[,.]7[56]'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['lucie.garnier@courriel.example'], 'corps_contient': ['234[,.]1[23]'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 5,
+      "famille": "resultat",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['antoine.cordier@messagerie.example'], 'corps_contient': ['506[,.]94'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 6,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['nadege.lebrun@domivelle.example', 'contact@domivelle.example'], 'corps_contient': ['Masse', '504[,.]71'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 7,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gaelle.fournel@domivelle.example'], 'corps_contient': ['Baudin|lot 2', 'exigib|19-2'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 8,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gaelle.fournel@domivelle.example'], 'corps_contient': ['53[,.]90', '10-1|seul|Baudin'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 9,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['yohan.delmas@domivelle.example'], 'corps_contient': ['4 ?200'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 10,
+      "famille": "resultat",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gaelle.fournel@domivelle.example'], 'corps_contient': ['65 ?804', '67 ?200', '64 ?480'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 11,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gaelle.fournel@domivelle.example'], 'corps_contient': ['41[,.]2[45]', 'Duverger|acqu[ée]reur'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 12,
+      "famille": "resultat",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['veronique.tessier@domivelle.example'], 'corps_contient': ['Baudin|cp29', '4 ?200|Violettes|cp16']}"
+    },
+    {
+      "numero": 13,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.1,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.00015353699564002454,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/dvh27_la_cloture_de_septembre_des_coproprietes_r3.jsonl"
+}

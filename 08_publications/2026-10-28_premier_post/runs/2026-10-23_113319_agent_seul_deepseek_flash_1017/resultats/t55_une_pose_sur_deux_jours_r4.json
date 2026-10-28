@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-23_113319_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t55_une_pose_sur_deux_jours",
+    "version": 2
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-23T11:40:56.541480Z",
+  "fin_utc": "2026-10-23T11:42:16.712214Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.35,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.25,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 27,
+  "jetons": {
+    "entree": 158107,
+    "entree_en_cache": 147968,
+    "sortie": 13260
+  },
+  "cout_dollars": 0.009920754,
+  "energie_wh": null,
+  "duree_secondes": 80.1707281100098,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t55_une_pose_sur_deux_jours_r4.jsonl"
+}

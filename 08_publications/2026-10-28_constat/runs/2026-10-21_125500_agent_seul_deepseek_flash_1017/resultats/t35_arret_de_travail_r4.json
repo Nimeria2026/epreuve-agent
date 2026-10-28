@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-21_125500_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t35_arret_de_travail",
+    "version": 3
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-21T14:20:34.867847Z",
+  "fin_utc": "2026-10-21T14:20:53.005972Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 17,
+  "jetons": {
+    "entree": 38851,
+    "entree_en_cache": 33792,
+    "sortie": 2186
+  },
+  "cout_dollars": 0.002171826,
+  "energie_wh": null,
+  "duree_secondes": 18.138120519986842,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t35_arret_de_travail_r4.jsonl"
+}

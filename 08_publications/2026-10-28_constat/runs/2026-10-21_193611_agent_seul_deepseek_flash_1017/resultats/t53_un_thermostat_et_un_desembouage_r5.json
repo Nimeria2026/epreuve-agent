@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-21_193611_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t53_un_thermostat_et_un_desembouage",
+    "version": 1
+  },
+  "repetition": 5,
+  "debut_utc": "2026-10-21T19:56:19.668620Z",
+  "fin_utc": "2026-10-21T19:56:47.121423Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.6,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 23,
+  "jetons": {
+    "entree": 188266,
+    "entree_en_cache": 175232,
+    "sortie": 2921
+  },
+  "cout_dollars": 0.0042333959999999995,
+  "energie_wh": null,
+  "duree_secondes": 27.45279853203101,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t53_un_thermostat_et_un_desembouage_r5.jsonl"
+}

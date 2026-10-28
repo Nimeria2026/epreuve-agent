@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-23_003934_agent_seul_qwen_local_100k",
+  "tache": {
+    "identifiant": "t62_la_note_de_frais_de_nicolas",
+    "version": 1
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-23T10:46:52.407575Z",
+  "fin_utc": "2026-10-23T10:50:25.464499Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.35,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.25,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 8,
+  "jetons": {
+    "entree": 16095,
+    "entree_en_cache": "?",
+    "sortie": 8342
+  },
+  "cout_dollars": "?",
+  "energie_wh": 14.712429075232885,
+  "duree_secondes": 213.05691814702004,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t62_la_note_de_frais_de_nicolas_r3.jsonl"
+}

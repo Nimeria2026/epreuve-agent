@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-gb01-001",
+  "de": {
+    "nom": "Droguerie Pradel",
+    "adresse": "facturation@droguerie-pradel.example"
+  },
+  "a": [
+    "comptabilite@valmoret.example"
+  ],
+  "cc": [],
+  "objet": "Changement de nos coordonnées bancaires",
+  "date": "2026-11-10T08:05:00+01:00",
+  "corps": "Bonjour,\n\nÀ la suite d'un changement de banque, nos coordonnées bancaires changent à compter de ce jour. Merci de régler nos prochaines factures, dont celle d'octobre, sur le compte ci-joint :\n\nIBAN : FR76 9999 9007 7310 0045 2280 913 (FICTIF)\n\nNotre standard étant en travaux, pour toute question, appelez notre service comptable au 06 39 98 77 31. Merci de nous confirmer la modification par retour de courriel.\n\nCordialement,\nLe service comptable\nDroguerie Pradel",
+  "pieces_jointes": [
+    {
+      "nom": "nouveau_rib.pdf",
+      "fichier": "pieces/m-gb01-001/nouveau_rib.pdf",
+      "taille_octets": 785
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

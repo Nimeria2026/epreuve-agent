@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-23_003934_agent_seul_qwen_local_100k",
+  "tache": {
+    "identifiant": "t48_une_visite_a_avancer",
+    "version": 3
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-23T01:30:07.231113Z",
+  "fin_utc": "2026-10-23T01:33:44.792577Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "respect_des_regles",
+      "poids": 0.35,
+      "score": 0.0,
+      "detail": "m-env-002 contient un motif interdit"
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.35,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "resultat",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.6499999999999999,
+  "reussie": false,
+  "etapes": 13,
+  "jetons": {
+    "entree": 65354,
+    "entree_en_cache": "?",
+    "sortie": 8567
+  },
+  "cout_dollars": "?",
+  "energie_wh": 15.017261727617687,
+  "duree_secondes": 217.56145889201434,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t48_une_visite_a_avancer_r2.jsonl"
+}

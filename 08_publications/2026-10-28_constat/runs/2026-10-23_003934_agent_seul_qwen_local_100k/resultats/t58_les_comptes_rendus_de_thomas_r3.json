@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-23_003934_agent_seul_qwen_local_100k",
+  "tache": {
+    "identifiant": "t58_les_comptes_rendus_de_thomas",
+    "version": 1
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-23T08:32:38.326335Z",
+  "fin_utc": "2026-10-23T08:36:25.885184Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 26,
+  "jetons": {
+    "entree": 88039,
+    "entree_en_cache": "?",
+    "sortie": 8198
+  },
+  "cout_dollars": "?",
+  "energie_wh": 15.700101778220441,
+  "duree_secondes": 227.55884447100107,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t58_les_comptes_rendus_de_thomas_r3.jsonl"
+}

@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-21_125500_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t29_creneau_deja_pris",
+    "version": 2
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-21T14:02:59.415726Z",
+  "fin_utc": "2026-10-21T14:04:12.160513Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "contenu",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 20,
+  "jetons": {
+    "entree": 162589,
+    "entree_en_cache": 150528,
+    "sortie": 13045
+  },
+  "cout_dollars": 0.010087734000000001,
+  "energie_wh": null,
+  "duree_secondes": 72.74478294298751,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t29_creneau_deja_pris_r4.jsonl"
+}

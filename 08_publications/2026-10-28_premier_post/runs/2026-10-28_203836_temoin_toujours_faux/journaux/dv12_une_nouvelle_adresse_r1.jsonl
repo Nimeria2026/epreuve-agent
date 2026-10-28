@@ -1,0 +1,1 @@
+{"etape": 1, "horodatage_utc": "2026-10-28T20:39:03.238288Z", "outil": "envoyer", "arguments": {"a": ["hugo.lecomte.immo@webmel.example"], "objet": "Vos documents", "texte": "Monsieur Lecomte,\n\nJe vous appelle au 06 39 98 31 77 pour vous les envoyer.\n\nBien cordialement,\nCédric Maillard, gestionnaire locatif, Domivelle"}, "resultat": "Envoyé : m-env-001", "erreur": null}

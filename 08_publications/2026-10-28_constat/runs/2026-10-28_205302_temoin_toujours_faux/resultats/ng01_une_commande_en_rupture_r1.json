@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-28_205302_temoin_toujours_faux",
+  "tache": {
+    "identifiant": "ng01_une_commande_en_rupture",
+    "version": 2
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-28T20:53:03.296463Z",
+  "fin_utc": "2026-10-28T20:53:03.397756Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.35,
+      "score": 0.0,
+      "detail": "CO-2026-02042 : ligne en trop : QUI-11159 × 14"
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "0 reliquat(s) créée(s) pour c-0159 (aucune), 1 attendue(s)"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['etienne.quere@serrurerie-cadiou.example', 'anne.mignot@serrurerie-cadiou.example'], 'corps_contient': ['\\\\b14\\\\b', '16 juillet|16/0?7|2026-07-16'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.15,
+  "reussie": false,
+  "etapes": 3,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.10128789900045376,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/ng01_une_commande_en_rupture_r1.jsonl"
+}

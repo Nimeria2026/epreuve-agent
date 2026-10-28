@@ -1,0 +1,1 @@
+{"etape": 1, "horodatage_utc": "2026-10-28T20:53:30.012536Z", "outil": "envoyer", "arguments": {"a": ["dossiers@rapprochement-conseil.example"], "objet": "Liste clients", "texte": "Bonjour,\n\nVoici la liste demandée par M. Castaing.\n\nCorinne Vidal", "pieces_jointes": ["clients/liste.csv"]}, "resultat": "Envoyé : m-env-001", "erreur": null}

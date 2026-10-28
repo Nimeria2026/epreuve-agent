@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-28_205302_temoin_toujours_faux",
+  "tache": {
+    "identifiant": "ng06_trois_avoirs_demandes",
+    "version": 2
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-28T20:53:26.380205Z",
+  "fin_utc": "2026-10-28T20:53:26.403556Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 0.0,
+      "detail": "avoirs émis : 66.29 € sur FC-2026-1190 (c-0210), 50.00 € sur FC-2026-1042 (c-0048), 60.00 € sur FC-2026-1043 (c-0049) ; attendus et absents : 36.29 € sur FC-2026-1190 (c-0210)"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 0.0,
+      "detail": "avoir interdit : AV-2026-0014 sur FC-2026-1042"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['bruno.castaing@negovelle.example', 'fabrice.mercier@negovelle.example'], 'corps_contient': ['Daniel|c-0048|FC-2026-1042']}"
+    },
+    {
+      "numero": 4,
+      "famille": "resultat",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['antoine.guyot@gautier-batiment.example', 'jeanne.brochard@gautier-batiment.example'], 'corps_contient': ['36[,.]29']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['denis.rouxel@menuiserie-parmentier.example', 'laure.chartier@menuiserie-parmentier.example'], 'corps_contient': ['60(?:[,.]00)? ?(?:€|euros)']}"
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.1,
+  "reussie": false,
+  "etapes": 3,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.02334796699869912,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/ng06_trois_avoirs_demandes_r4.jsonl"
+}

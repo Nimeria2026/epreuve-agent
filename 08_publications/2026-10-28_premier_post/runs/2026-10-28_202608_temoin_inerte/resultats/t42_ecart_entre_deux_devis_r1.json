@@ -1,0 +1,41 @@
+{
+  "run": "2026-10-28_202608_temoin_inerte",
+  "tache": {
+    "identifiant": "t42_ecart_entre_deux_devis",
+    "version": 3
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-28T20:27:34.148854Z",
+  "fin_utc": "2026-10-28T20:27:34.149089Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "contenu",
+      "poids": 0.7,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['alain.dubois@courriel.example'], 'corps_contient': ['DV[-‑]2026[-‑]002|\\\\bmars\\\\b', 'DV[-‑]2026[-‑]010|\\\\boctobre\\\\b', '\\\\b8(?:[,.]0)?\\\\s*(?:kW|kilowatts?)\\\\b|\\\\b8\\\\s*(?:à|a|et)\\\\s*12(?:[,.]0)?\\\\s*(?:kW|kilowatts?)\\\\b', '\\\\b12(?:[,.]0)?\\\\s*(?:kW|kilowatts?)\\\\b'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 2,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.3,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.00023223300377139822,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t42_ecart_entre_deux_devis_r1.jsonl"
+}

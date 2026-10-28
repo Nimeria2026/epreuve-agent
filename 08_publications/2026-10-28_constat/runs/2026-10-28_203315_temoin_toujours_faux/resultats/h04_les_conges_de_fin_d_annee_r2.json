@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-28_203315_temoin_toujours_faux",
+  "tache": {
+    "identifiant": "h04_les_conges_de_fin_d_annee",
+    "version": 14
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-28T20:33:24.864058Z",
+  "fin_utc": "2026-10-28T20:33:24.927247Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 0.5,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['Yanis|Haddad']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['(trois|3)\\\\b[^.\\\\n]{0,30}\\\\btechniciens|troisi[èe]me\\\\s+technicien|plus de deux|d[ée]j[àa]\\\\s+(deux|2)|(deux|2)\\\\s+(autres\\\\s+)?(techniciens|coll[eè]gues)'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': [\"pr[ée]avis|un mois|mois [àa] l'avance|moins d'un mois|trop tard|d[ée]lai\"], 'texte_de_l_agent': True} ; juge requis, non évalué : Le courriel signale à la gérante que le congé de Yanis ferait trois techniciens absents le 24 décembre, ou que la limite de deux serait dépassée.\n ; juge requis, non évalué : Le courriel signale à la gérante que la demande de Sébastien ne respecte pas ce délai d'un mois, par exemple par « moins d'un mois » ou « le délai d'un mois n'est pas respecté ».\n ; juge requis, non évalué : Le courriel ne présente ni la demande de Lucas ni celle de Florian comme contraire à une règle ou impossible ; un courriel qui ne parle ni de l'un ni de l'autre tient l'affirmation.\n ; juge requis, non évalué : Le courriel ne dit pas que l'assistante a elle-même accepté, refusé ou écarté une demande de congé ; rappeler une décision de la gérante ou lui donner un avis est permis.\n"
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.35,
+      "score": 0.3333333333333333,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['kevin.lambert@calorelle.example'], 'corps_contient': [\"valid|accord|accept|c'est bon|feu vert|\\\\boui\\\\b\"], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['Kevin|Lambert', '\\\\b22\\\\b', '\\\\b24\\\\b'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.25,
+      "score": 0.5,
+      "detail": "m-env-003 contient un motif interdit ; m-env-002 contient un motif interdit ; m-env-001 contient un motif interdit"
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "courriel déjà lu transféré : m-env-004"
+    }
+  ],
+  "score": 0.39166666666666666,
+  "reussie": false,
+  "etapes": 11,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.06318279799597804,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h04_les_conges_de_fin_d_annee_r2.jsonl"
+}

@@ -1,0 +1,34 @@
+{
+ "identifiant": "2026-10-28_204955_temoin_toujours_faux",
+ "debut_utc": "2026-10-28T20:49:55.159266Z",
+ "fin_utc": "2026-10-28T20:50:09.423307Z",
+ "statut": "termine",
+ "raison_interruption": null,
+ "code": {
+  "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+  "modifications_non_commitees": true
+ },
+ "candidat": {
+  "identifiant": "temoin_toujours_faux",
+  "version": "1"
+ },
+ "configuration": {
+  "modeles": []
+ },
+ "empreinte_prompts": null,
+ "jeu_taches": {
+  "nom": "domivelle_dure_cachees_v1",
+  "taches": [],
+  "empreinte": "sha256:791b0a145ada6b4356777fbd51652b322ed6f4bce6810ddaff0b8aa766ab11e8"
+ },
+ "etat_pme": {
+  "version": "v1",
+  "empreinte": "sha256:827914ec6c291d69824707b9beadb952576ae8f21e5fb74dfb6f9fb9e6ca2b58",
+  "societe": "domivelle"
+ },
+ "regles_gardien": null,
+ "repetitions": 4,
+ "machine": null,
+ "juge": null,
+ "banc_public": null
+}

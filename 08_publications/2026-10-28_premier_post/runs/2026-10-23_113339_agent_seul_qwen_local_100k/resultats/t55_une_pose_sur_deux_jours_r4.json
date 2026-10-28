@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-23_113339_agent_seul_qwen_local_100k",
+  "tache": {
+    "identifiant": "t55_une_pose_sur_deux_jours",
+    "version": 2
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-23T14:21:04.466092Z",
+  "fin_utc": "2026-10-23T15:10:13.499520Z",
+  "arret": "budget_etapes",
+  "detail_arret": "budget de 50 étapes atteint",
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.35,
+      "score": 0.0,
+      "detail": "5 intervention(s) ajoutée(s) pour c-0086 (INT-2026-0042, INT-2026-0043, INT-2026-0044, INT-2026-0045, INT-2026-0046), 4 attendue(s)"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.25,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "nicolas.blanc ne reçoit pas le jour et l'heure de INT-2026-0042 ; nicolas.blanc ne reçoit pas le jour et l'heure de INT-2026-0043 ; nicolas.blanc ne reçoit pas le jour et l'heure de INT-2026-0044 ; nicolas.blanc ne reçoit pas le jour et l'heure de INT-2026-0045 ; nicolas.blanc ne reçoit pas le jour et l'heure de INT-2026-0046"
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.55,
+  "reussie": false,
+  "etapes": 50,
+  "jetons": {
+    "entree": 235271,
+    "entree_en_cache": "?",
+    "sortie": 116582
+  },
+  "cout_dollars": "?",
+  "energie_wh": 204.3171206538773,
+  "duree_secondes": 2949.03342203598,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t55_une_pose_sur_deux_jours_r4.jsonl"
+}

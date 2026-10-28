@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-28_202348_temoin_une_fois_sur_deux",
+  "tache": {
+    "identifiant": "t28_apprenti_seul",
+    "version": 2
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-28T20:24:47.391735Z",
+  "fin_utc": "2026-10-28T20:24:47.391966Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "respect_des_regles",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 0.0,
+      "detail": "0 intervention(s) ajoutée(s) pour c-0106 (aucune), 1 attendue(s)"
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "0 intervention(s) ajoutée(s) pour c-0106, une seule à annoncer"
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.6000000000000001,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.0002273740028613247,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t28_apprenti_seul_r4.jsonl"
+}

@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-28_210127_temoin_toujours_faux",
+  "tache": {
+    "identifiant": "ngh15_les_deblocages_du_lundi",
+    "version": 2
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-28T21:02:27.007169Z",
+  "fin_utc": "2026-10-28T21:02:27.090809Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.25,
+      "score": 0.0,
+      "detail": "CO-2026-02042 : en_attente_deblocage au lieu de validee ; aucun événement debloquee ajouté qui dise [] ; CO-2026-02045 : en_attente_deblocage au lieu de validee ; aucun événement debloquee ajouté qui dise ['Castaing|Bruno|pr[ée]sident|direction']"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 0.0,
+      "detail": "commande(s) de c-0199 validée(s) : CO-2026-02043 ; commande(s) de c-0157 validée(s) : CO-2026-02044 ; commande(s) de c-0202 validée(s) : CO-2026-02046"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['manon.rey@negovelle.example', 'serge.rigaud@paysage-crozet.example'], 'corps_contient': ['d[ée]bloqu|valid'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['oceane.collin@negovelle.example', 'sylvain.lacour@ateliers-gabriel.example'], 'corps_contient': ['600|acompte', 'encours|limite|d[ée]pass'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['laure.gay@ruel-industrie.example', 'laetitia.garnier@negovelle.example'], 'corps_contient': ['r[eè]glement|paiement|pay|virement|encaiss'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['bruno.castaing@negovelle.example', 'benoit.faure@negovelle.example', 'gilles.humbert@chauffage-clerc.example'], 'corps_contient': ['02045|Clerc', 'd[ée]bloqu|valid'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['aurelie.bonnefoy@negovelle.example', 'bruno.castaing@negovelle.example'], 'corps_contient': ['02046|Boutin', '[ée]crit|confirm'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "modifié commandes/CO-2026-02043.json ; modifié commandes/CO-2026-02044.json ; modifié commandes/CO-2026-02046.json"
+    }
+  ],
+  "score": 0.0,
+  "reussie": false,
+  "etapes": 4,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.08363614499830874,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/ngh15_les_deblocages_du_lundi_r4.jsonl"
+}

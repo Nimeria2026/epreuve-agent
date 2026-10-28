@@ -283,7 +283,7 @@ class EnvironnementPME:
         societe : la société fictive de l'état, Calorelle par défaut (ADR 0006)."""
         self._version = version
         self._societe = societe
-        self._dossier = dossier or racine_depot() / "99_local" / "pme"
+        self._dossier = dossier or racine_depot() / "99_local" / "travail" / "pme"
         self.journal_serveurs = self._dossier.with_name(f"{self._dossier.name}_serveurs.log")
         self.journal_gardien = self._dossier.with_name(f"{self._dossier.name}_gardien.jsonl")
         """Une ligne par appel jugé par le gardien, toutes exécutions confondues, remis à neuf à la

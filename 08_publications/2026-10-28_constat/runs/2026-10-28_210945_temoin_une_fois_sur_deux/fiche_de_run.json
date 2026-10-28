@@ -1,0 +1,34 @@
+{
+ "identifiant": "2026-10-28_210945_temoin_une_fois_sur_deux",
+ "debut_utc": "2026-10-28T21:09:45.182500Z",
+ "fin_utc": "2026-10-28T21:10:29.814708Z",
+ "statut": "termine",
+ "raison_interruption": null,
+ "code": {
+  "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+  "modifications_non_commitees": true
+ },
+ "candidat": {
+  "identifiant": "temoin_une_fois_sur_deux",
+  "version": "1"
+ },
+ "configuration": {
+  "modeles": []
+ },
+ "empreinte_prompts": null,
+ "jeu_taches": {
+  "nom": "negovelle_cachees_v1",
+  "taches": [],
+  "empreinte": "sha256:7804b55b011b2574ebd84ae04be760896637f5c366b1841eac5a845c30c1b011"
+ },
+ "etat_pme": {
+  "version": "v1",
+  "empreinte": "sha256:45ce2d0ae1e61baf3243dd3280da41281d4e42b91c2e4e6e9da15bab46776ed1",
+  "societe": "negovelle"
+ },
+ "regles_gardien": null,
+ "repetitions": 4,
+ "machine": null,
+ "juge": null,
+ "banc_public": null
+}

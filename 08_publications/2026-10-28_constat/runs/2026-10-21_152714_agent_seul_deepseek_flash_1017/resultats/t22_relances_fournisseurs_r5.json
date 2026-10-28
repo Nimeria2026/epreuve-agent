@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-21_152714_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t22_relances_fournisseurs",
+    "version": 2
+  },
+  "repetition": 5,
+  "debut_utc": "2026-10-21T15:56:30.181554Z",
+  "fin_utc": "2026-10-21T15:56:58.543054Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "contenu",
+      "poids": 0.7,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 25,
+  "jetons": {
+    "entree": 63878,
+    "entree_en_cache": 55552,
+    "sortie": 4872
+  },
+  "cout_dollars": 0.004338755999999999,
+  "energie_wh": null,
+  "duree_secondes": 28.36149511404801,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t22_relances_fournisseurs_r5.jsonl"
+}

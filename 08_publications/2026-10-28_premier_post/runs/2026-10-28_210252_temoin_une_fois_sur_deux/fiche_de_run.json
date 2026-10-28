@@ -1,0 +1,140 @@
+{
+ "identifiant": "2026-10-28_210252_temoin_une_fois_sur_deux",
+ "debut_utc": "2026-10-28T21:02:52.299339Z",
+ "fin_utc": "2026-10-28T21:04:22.612848Z",
+ "statut": "termine",
+ "raison_interruption": null,
+ "code": {
+  "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+  "modifications_non_commitees": true
+ },
+ "candidat": {
+  "identifiant": "temoin_une_fois_sur_deux",
+  "version": "1"
+ },
+ "configuration": {
+  "modeles": []
+ },
+ "empreinte_prompts": null,
+ "jeu_taches": {
+  "nom": "negovelle_dure_v1",
+  "taches": [
+   {
+    "identifiant": "ngh01_la_commande_d_un_chantier",
+    "version": 2,
+    "empreinte_complement": "sha256:0477ce9944f04970ed463dcc10e5d92510375c31e333149f0366918ba778aa6f"
+   },
+   {
+    "identifiant": "ngh02_les_litiges_de_la_semaine",
+    "version": 1,
+    "empreinte_complement": "sha256:bd520d3026068e9b5cd1044689188f95cfa4697cefff5914af0b64252e006b86"
+   },
+   {
+    "identifiant": "ngh03_les_relances_du_6_juillet",
+    "version": 1,
+    "empreinte_complement": "sha256:e12c344b649e66153f0cc97a0076ceb6091a449125a53b59cd67541fc97a7dd9"
+   },
+   {
+    "identifiant": "ngh04_les_retours_de_la_semaine",
+    "version": 2,
+    "empreinte_complement": "sha256:496056998a92b72168615e01a8b79a0087f5601b3d056100ed070988a141f95e"
+   },
+   {
+    "identifiant": "ngh05_le_portefeuille_de_laetitia",
+    "version": 2,
+    "empreinte_complement": "sha256:4c09058d87c72c4ac9e8f34e7cc582ce5a089178fe257f6b9b7a42ba518e6aaf"
+   },
+   {
+    "identifiant": "ngh06_les_factures_fournisseurs_de_juin",
+    "version": 1,
+    "empreinte_complement": "sha256:b808f623bdc4b6c6162e8ab6013e52f8b130ca257de2c94c1997abfb32155017"
+   },
+   {
+    "identifiant": "ngh07_commandes_apres_deux_jours_de_panne",
+    "version": 1,
+    "empreinte_complement": "sha256:794c2a3c4d65b18e0f7b15fb3552fcc8d06f3af9271c3266ac1fb0bbec29ff39"
+   },
+   {
+    "identifiant": "ngh08_le_destockage_d_une_gamme",
+    "version": 1,
+    "empreinte_complement": "sha256:f1eb044070aba9b1d0dcb553d7f7700b8e04f713ef87f9e3a93cc8910b8238f9"
+   },
+   {
+    "identifiant": "ngh09_le_reassort_avant_aout",
+    "version": 1,
+    "empreinte_complement": "sha256:cf2def4691aa9927db238e6650a5820c283d182fbae621871c3d547b25a1c469"
+   },
+   {
+    "identifiant": "ngh10_les_paiements_de_la_semaine_prochaine",
+    "version": 1,
+    "empreinte_complement": "sha256:9d3fdc93e3258f8c5839eb009c1236ad5ab2d6c26acc384080a3223f7b4142ef"
+   },
+   {
+    "identifiant": "ngh11_les_commandes_du_jour_d_oceane",
+    "version": 1,
+    "empreinte_complement": "sha256:e2ef9730f60c714166d5a98c8019011b039918df2a2423ea8b1b8ffaeac17f9e"
+   },
+   {
+    "identifiant": "ngh12_une_journee_de_benoit_faure",
+    "version": 2,
+    "empreinte_complement": "sha256:d4475ab8d0e70b5e6d79f4440623a0a1b1b1429468bad28c4b110ccb00e8176f"
+   },
+   {
+    "identifiant": "ngh13_les_notes_de_frais_de_juin",
+    "version": 1,
+    "empreinte_complement": "sha256:679fe2fcf0085877d35aac5d09ae117531c30c68fabd15e31a475c447957403f"
+   },
+   {
+    "identifiant": "ngh14_les_absences_de_juillet",
+    "version": 1,
+    "empreinte_complement": "sha256:79d262c9177a5d086b64d66ecf97ada814c5d05805f2aa391938ce83eecb73a6"
+   },
+   {
+    "identifiant": "ngh15_les_deblocages_du_lundi",
+    "version": 2,
+    "empreinte_complement": "sha256:2cf543bbfd567dc10135e2e719d75bcaaeaac15f80d03496a4dc4c3eae6db3c7"
+   },
+   {
+    "identifiant": "ngh16_les_adresses_de_chantier",
+    "version": 1,
+    "empreinte_complement": "sha256:b8f5efcf23442767d4ce549cc4611e391b6c11008b509ff9d5c6bdc0edf08079"
+   },
+   {
+    "identifiant": "ngh17_la_boite_de_fabrice_mercier",
+    "version": 1,
+    "empreinte_complement": "sha256:c058a205dec18ef6dc0575c2c5018bd265a8d18e7ed254e1fd0eb3fa49ba180b"
+   },
+   {
+    "identifiant": "ngh18_sav_pendant_les_conges_de_remi",
+    "version": 1,
+    "empreinte_complement": "sha256:2c9c549ac099d791cf4a5e0a97d57ca2fd74c144376dcbfe69a6aedadcdff88b"
+   },
+   {
+    "identifiant": "ngh19_le_lundi_du_president",
+    "version": 2,
+    "empreinte_complement": "sha256:d05297e778a321dc71a805b1edfcceb1a55d7d02f2c4237f2f9a2ee52fa25e15"
+   },
+   {
+    "identifiant": "ngh20_les_comptes_de_l_est_et_de_l_ouest",
+    "version": 1,
+    "empreinte_complement": "sha256:2283b405cf6792671d02bd398f18b37c7abba85400be4900b42170bdb17fbf73"
+   },
+   {
+    "identifiant": "ngh21_les_deux_secteurs_d_oceane",
+    "version": 2,
+    "empreinte_complement": "sha256:0699c0bd3e6df82118b8781635ce303df758918fd0938605afbdf5e64039c982"
+   }
+  ],
+  "empreinte": "sha256:4dade3bde76b6b45177cf7aecf676271f84ba939bd84a454c06d56dcef1c3e4e"
+ },
+ "etat_pme": {
+  "version": "v1",
+  "empreinte": "sha256:45ce2d0ae1e61baf3243dd3280da41281d4e42b91c2e4e6e9da15bab46776ed1",
+  "societe": "negovelle"
+ },
+ "regles_gardien": null,
+ "repetitions": 4,
+ "machine": null,
+ "juge": null,
+ "banc_public": null
+}

@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-26_120743_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "t12_changement_adresse_client",
+    "version": 4
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-26T13:10:26.347393Z",
+  "fin_utc": "2026-10-26T13:11:38.881743Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "respect_des_regles",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 13,
+  "jetons": {
+    "entree": 104509,
+    "entree_en_cache": 91966,
+    "sortie": 3903
+  },
+  "cout_dollars": "?",
+  "energie_wh": 4.736654716134692,
+  "duree_secondes": 72.53434603499772,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t12_changement_adresse_client_r1.jsonl"
+}

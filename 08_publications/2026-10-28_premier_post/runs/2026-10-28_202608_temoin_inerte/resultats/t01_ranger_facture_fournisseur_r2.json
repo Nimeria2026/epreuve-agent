@@ -1,0 +1,41 @@
+{
+  "run": "2026-10-28_202608_temoin_inerte",
+  "tache": {
+    "identifiant": "t01_ranger_facture_fournisseur",
+    "version": 7
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-28T20:26:09.462669Z",
+  "fin_utc": "2026-10-28T20:26:09.462890Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.6,
+      "score": 0.0,
+      "detail": "absent : administration/factures_fournisseurs/2026-10/thermopieces-loire_f-2026-1187.pdf"
+    },
+    {
+      "numero": 2,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.4,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.0002181169984396547,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t01_ranger_facture_fournisseur_r2.jsonl"
+}

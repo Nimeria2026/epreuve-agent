@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-23_003934_agent_seul_qwen_local_100k",
+  "tache": {
+    "identifiant": "t57_trois_depannages",
+    "version": 1
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-23T07:46:12.369993Z",
+  "fin_utc": "2026-10-23T07:51:08.441384Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.25,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "resultat",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "aucun courriel vers remi.fontaine@courriel.example ne donne le jour et l'heure de INT-2026-0040 (09/11 à 10:00) ; aucun courriel vers contact@etablissements-vincent-141.example ne donne le jour et l'heure de INT-2026-0041 (12/11 à 08:00) ; aucun courriel vers alain.bonnet@courriel.example ne donne le jour et l'heure de INT-2026-0042 (10/11 à 08:00)"
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.8,
+  "reussie": false,
+  "etapes": 36,
+  "jetons": {
+    "entree": 128564,
+    "entree_en_cache": "?",
+    "sortie": 10714
+  },
+  "cout_dollars": "?",
+  "energie_wh": 20.40459941995883,
+  "duree_secondes": 296.0713842480327,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t57_trois_depannages_r2.jsonl"
+}

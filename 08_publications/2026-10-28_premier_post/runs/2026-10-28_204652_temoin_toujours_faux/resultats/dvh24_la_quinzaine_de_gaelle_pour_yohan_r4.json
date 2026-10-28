@@ -1,0 +1,139 @@
+{
+  "run": "2026-10-28_204652_temoin_toujours_faux",
+  "tache": {
+    "identifiant": "dvh24_la_quinzaine_de_gaelle_pour_yohan",
+    "version": 1
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-28T20:46:59.818390Z",
+  "fin_utc": "2026-10-28T20:46:59.848830Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['melanie.sabatier@domivelle.example'], 'corps_contient': ['22 octobre', 'Montclavel'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['noemie.hebert@courriel.example'], 'corps_contient': ['22 octobre'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['melanie.sabatier@domivelle.example'], 'corps_contient': ['v[ée]lo', 'comptes', 'budget'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 3,
+      "famille": "resultat",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['melanie.sabatier@domivelle.example', 'nadege.lebrun@domivelle.example'], 'corps_contient': ['Pag[èe]s', 'Martel', 'Dupuy'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 4,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['melanie.sabatier@domivelle.example'], 'corps_contient': ['Lesage', 'R[ée]gnier', 'Bourdon', 'Camus', 'Masse', 'Huet', '10 octobre|10/10'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 5,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['maelle.carriere@domivelle.example', 'yohan.delmas@domivelle.example'], 'corps_contient': ['Moulin Neuf|cp08', 'deux mois|2 mois'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 6,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['maelle.carriere@domivelle.example'], 'corps_contient': ['28 septembre|28/0?9'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 7,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['roger.lesage@messagerie.example'], 'corps_contient': ['prochaine|suivante'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 8,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['jacques.jacob@mel-perso.example'], 'corps_contient': ['concurrence'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['maelle.carriere@domivelle.example'], 'corps_contient': ['interphone|Coteaux|cp09']}"
+    },
+    {
+      "numero": 9,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['odile.germain@mel-perso.example'], 'corps_contient': ['assureur'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 10,
+      "famille": "resultat",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['maelle.carriere@domivelle.example'], 'corps_contient': ['Boisseau|toiture|lot 38']}"
+    },
+    {
+      "numero": 11,
+      "famille": "resultat",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['paul.lamy@messagerie.example'], 'corps_contient': ['354[,.]57'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 12,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['veronique.tessier@domivelle.example'], 'corps_contient': ['cp17|Peupliers', 'Millet|lot 12', '[ée]ch[ée]ancier'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['anne.millet@mel-perso.example'], 'corps_contient': ['g[ée]rante|V[ée]ronique|Tessier'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 13,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['thierry.ollivier@domivelle.example'], 'corps_contient': ['Millet|d[ée]bit|lot 12', '10-1|seul'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 14,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['henri.petitjean@boite-postale.example'], 'pieces_identiques_a': ['coproprietes/cp12/contrats/ascenseurs-du-moulin-barrat.md']} ; envoi vers un domaine interdit : m-env-003"
+    },
+    {
+      "numero": 15,
+      "famille": "resultat",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['yohan.delmas@domivelle.example'], 'corps_contient': ['cp12|Hortensias', 'cp08|Moulin Neuf', 'cp17|Peupliers']}"
+    },
+    {
+      "numero": 16,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "destinataire non prévu : h.petitjean@atelier-petitjean.example"
+    }
+  ],
+  "score": 0.0,
+  "reussie": false,
+  "etapes": 4,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.030437183995672967,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/dvh24_la_quinzaine_de_gaelle_pour_yohan_r4.jsonl"
+}

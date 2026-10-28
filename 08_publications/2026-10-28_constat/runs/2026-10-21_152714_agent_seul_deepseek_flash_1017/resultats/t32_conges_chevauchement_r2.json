@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-21_152714_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t32_conges_chevauchement",
+    "version": 2
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-21T16:09:27.592942Z",
+  "fin_utc": "2026-10-21T16:09:49.035078Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "contenu",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 14,
+  "jetons": {
+    "entree": 46111,
+    "entree_en_cache": 38528,
+    "sortie": 2806
+  },
+  "cout_dollars": 0.002936634,
+  "energie_wh": null,
+  "duree_secondes": 21.442132558033336,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t32_conges_chevauchement_r2.jsonl"
+}

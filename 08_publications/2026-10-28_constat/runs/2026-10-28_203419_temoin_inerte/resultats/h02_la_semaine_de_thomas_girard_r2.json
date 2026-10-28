@@ -1,0 +1,69 @@
+{
+  "run": "2026-10-28_203419_temoin_inerte",
+  "tache": {
+    "identifiant": "h02_la_semaine_de_thomas_girard",
+    "version": 4
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-28T20:34:23.022146Z",
+  "fin_utc": "2026-10-28T20:34:23.022374Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 0.9375,
+      "detail": "thomas.girard pris du 2026-11-09T00:00:00+01:00 au 2026-11-21T00:00:00+01:00 : INT-2026-0027, INT-2026-0030, INT-2026-0033, INT-2026-0040, INT-2026-0041, INT-2026-0042, INT-2026-0043, INT-2026-0044, INT-2026-0047, INT-2026-0048, INT-2026-0049, INT-2026-0050, INT-2026-0051, INT-2026-0053"
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "0 intervention(s) ajoutée(s) pour c-0191 (aucune), 1 attendue(s)"
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "aucun courriel vers contact@etablissements-boyer-437.example ne donne le jour et l'heure de INT-2026-0027 (09/11 à 08:00) ; aucun courriel vers contact@etablissements-boyer-437.example ne donne le jour et l'heure de INT-2026-0030 (09/11 à 13:30) ; aucun courriel vers contact@etablissements-boyer-437.example ne donne le jour et l'heure de INT-2026-0033 (12/11 à 08:00) ; aucun courriel vers olivier.martin@courriel.example ne donne le jour et l'heure de INT-2026-0041 (10/11 à 13:30) ; aucun courriel vers contact@etablissements-lambert-60.example ne donne le jour et l'heure de INT-2026-0043 (13/11 à 08:00) ; aucun courriel vers contact@etablissements-lambert-60.example ne donne le jour et l'heure de INT-2026-0044 (13/11 à 13:30) ; 0 intervention(s) ajoutée(s) pour c-0191, une seule à annoncer ; aucun courriel vers christophe.guerin@courriel.example ne donne le jour et l'heure de INT-2026-0048 (16/11 à 13:30) ; aucun courriel vers contact@etablissements-bernard-17.example ne donne le jour et l'heure de INT-2026-0049 (17/11 à 08:00) ; aucun courriel vers contact@etablissements-bernard-17.example ne donne le jour et l'heure de INT-2026-0050 (17/11 à 13:30) ; aucun courriel vers michel.martin@courriel.example ne donne le jour et l'heure de INT-2026-0051 (18/11 à 10:00)"
+    },
+    {
+      "numero": 4,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "respect_des_regles",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 6,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.68125,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.00022575000184588134,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h02_la_semaine_de_thomas_girard_r2.jsonl"
+}

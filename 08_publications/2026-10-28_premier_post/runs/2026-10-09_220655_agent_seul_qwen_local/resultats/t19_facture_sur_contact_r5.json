@@ -1,0 +1,40 @@
+{
+  "run": "2026-10-09_220655_agent_seul_qwen_local",
+  "tache": {
+    "identifiant": "t19_facture_sur_contact",
+    "version": 2
+  },
+  "repetition": 5,
+  "debut_utc": "2026-10-10T04:23:03.832026Z",
+  "fin_utc": "2026-10-10T04:23:27.356607Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.6,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 8,
+  "jetons": {
+    "entree": 15537,
+    "entree_en_cache": "?",
+    "sortie": 787
+  },
+  "cout_dollars": "?",
+  "energie_wh": 1.556827041873543,
+  "duree_secondes": 23.5245774579962,
+  "journal": "journaux/t19_facture_sur_contact_r5.jsonl"
+}

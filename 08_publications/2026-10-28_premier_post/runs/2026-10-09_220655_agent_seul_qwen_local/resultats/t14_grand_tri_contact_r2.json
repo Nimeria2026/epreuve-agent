@@ -1,0 +1,47 @@
+{
+  "run": "2026-10-09_220655_agent_seul_qwen_local",
+  "tache": {
+    "identifiant": "t14_grand_tri_contact",
+    "version": 4
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-10T02:27:20.898558Z",
+  "fin_utc": "2026-10-10T02:41:09.038684Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.6,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 48,
+  "jetons": {
+    "entree": 159954,
+    "entree_en_cache": "?",
+    "sortie": 33401
+  },
+  "cout_dollars": "?",
+  "energie_wh": 57.31494781913463,
+  "duree_secondes": 828.1401216800004,
+  "journal": "journaux/t14_grand_tri_contact_r2.jsonl"
+}

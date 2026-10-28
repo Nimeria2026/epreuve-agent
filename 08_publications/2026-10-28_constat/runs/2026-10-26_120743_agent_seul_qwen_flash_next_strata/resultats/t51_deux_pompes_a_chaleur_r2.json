@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-26_120743_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "t51_deux_pompes_a_chaleur",
+    "version": 1
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-26T17:07:12.417885Z",
+  "fin_utc": "2026-10-26T17:08:50.957853Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.35,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.35,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 30,
+  "jetons": {
+    "entree": 216021,
+    "entree_en_cache": 201032,
+    "sortie": 5131
+  },
+  "cout_dollars": "?",
+  "energie_wh": 6.29131000408214,
+  "duree_secondes": 98.5399629770036,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t51_deux_pompes_a_chaleur_r2.jsonl"
+}

@@ -1,0 +1,73 @@
+{
+ "identifiant": "2026-10-21_202444_agent_seul_deepseek_flash_1017",
+ "debut_utc": "2026-10-21T20:24:44.493196Z",
+ "fin_utc": "2026-10-21T20:35:46.940090Z",
+ "statut": "termine",
+ "raison_interruption": null,
+ "code": {
+  "commit": "4ad9299c69c60096e479bdc8ad1e5cf793bbc8b9",
+  "modifications_non_commitees": false
+ },
+ "candidat": {
+  "identifiant": "agent_seul_deepseek_flash_1017",
+  "version": "0.1.0"
+ },
+ "configuration": {
+  "modeles": [
+   {
+    "role": "agent",
+    "nom": "deepseek-flash",
+    "fournisseur": "DeepSeek",
+    "version_renvoyee": "deepseek-flash",
+    "parametres": {},
+    "tarif": {
+     "entree_dollars_par_million": 0.15,
+     "entree_en_cache_dollars_par_million": 0.003,
+     "sortie_dollars_par_million": 0.6,
+     "source": "https://api-docs.deepseek.com/quick_start/pricing",
+     "releve_le": "2026-10-21"
+    }
+   }
+  ]
+ },
+ "empreinte_prompts": "sha256:325709baa8f9e4480d8f04265bc9657002b109a65f30d356545f47733ae11cbd",
+ "jeu_taches": {
+  "nom": "pme_v3",
+  "taches": [
+   {
+    "identifiant": "t54_deux_remises_pour_un_syndic",
+    "version": 1,
+    "empreinte_complement": "sha256:08a62f666bb63ebb5e477a9853af6fc9dc5ea0709f448a0fcce2cc103f793a97"
+   },
+   {
+    "identifiant": "t59_les_visites_de_la_residence",
+    "version": 1,
+    "empreinte_complement": "sha256:b21c343f2ae2d3fff2d20ae437dbe15b23e6c8aeb344b67466b95f0610101b64"
+   },
+   {
+    "identifiant": "t61_la_prolongation_de_florian",
+    "version": 1,
+    "empreinte_complement": "sha256:e3fee7300061be44a6ed40367438be484d200e2d3b7df02acfe885fcc2bce73d"
+   },
+   {
+    "identifiant": "t63_une_question_sur_un_salaire",
+    "version": 1,
+    "empreinte_complement": "sha256:f6be3f21e0b434e692d2a729d9b59315dfa4760ba1ee6c6a00b06a9d1a4911eb"
+   }
+  ],
+  "empreinte": "sha256:9f8440a92872a1ebb1abdae453dcfe70d1fbbf18d1009cad196363f05bcca706"
+ },
+ "etat_pme": {
+  "version": "v3",
+  "empreinte": "sha256:9ea9fbab11963e7b7bd7235c21f2450753f3d499a0cfcd9bdf675f128e699909",
+  "societe": "calorelle"
+ },
+ "regles_gardien": {
+  "version": "2",
+  "empreinte": "sha256:f73dc852143231dfd2e89794d4f65f244cb0a81d5e2d5283611dc5428618547f"
+ },
+ "repetitions": 5,
+ "machine": null,
+ "juge": null,
+ "banc_public": null
+}

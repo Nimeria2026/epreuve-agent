@@ -1,0 +1,41 @@
+{
+  "run": "2026-10-21_125500_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t34_acces_nouvel_apprenti",
+    "version": 2
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-21T14:16:42.093115Z",
+  "fin_utc": "2026-10-21T14:17:52.241500Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "contenu",
+      "poids": 0.8,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 26,
+  "jetons": {
+    "entree": 103670,
+    "entree_en_cache": 93952,
+    "sortie": 12883
+  },
+  "cout_dollars": 0.009469356,
+  "energie_wh": null,
+  "duree_secondes": 70.14838043000782,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t34_acces_nouvel_apprenti_r1.jsonl"
+}

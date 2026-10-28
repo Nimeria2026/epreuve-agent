@@ -1,0 +1,75 @@
+{
+ "identifiant": "2026-10-28_203448_temoin_parfait",
+ "debut_utc": "2026-10-28T20:34:48.165444Z",
+ "fin_utc": "2026-10-28T20:35:20.281713Z",
+ "statut": "termine",
+ "raison_interruption": null,
+ "code": {
+  "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+  "modifications_non_commitees": false
+ },
+ "candidat": {
+  "identifiant": "temoin_parfait",
+  "version": "1"
+ },
+ "configuration": {
+  "modeles": []
+ },
+ "empreinte_prompts": null,
+ "jeu_taches": {
+  "nom": "dure_v2_v3",
+  "taches": [
+   {
+    "identifiant": "h13_la_quinzaine_de_karim",
+    "version": 1,
+    "empreinte_complement": "sha256:0c1739a2f2dfd548887e350a6b0cf073971cebee2efaf27db20a077e389d6e15"
+   },
+   {
+    "identifiant": "h14_le_retour_d_helene_marchal",
+    "version": 1,
+    "empreinte_complement": "sha256:8676d907c313f8fe32cb16f15e0dddc33b9350b1d83cac60ac319d6693341b90"
+   },
+   {
+    "identifiant": "h15_la_fin_de_novembre_du_planning",
+    "version": 1,
+    "empreinte_complement": "sha256:59c43f7664573356c7fbc7218b745cfeaaac788f48332861828c5be6a49d0342"
+   },
+   {
+    "identifiant": "h16_la_boite_de_patrick",
+    "version": 1,
+    "empreinte_complement": "sha256:5db20f820ab8a6cd4a4c64275687e3f7d8e8667d98e1c0d77ed094029c6e696a"
+   },
+   {
+    "identifiant": "h17_le_retour_de_julie_perrin",
+    "version": 1,
+    "empreinte_complement": "sha256:7e76cbc1038004eb06eb12ef796352a2c4ac0882dd9904d1d404bccc50225f0d"
+   },
+   {
+    "identifiant": "h18_la_fin_de_janvier_de_sonia",
+    "version": 1,
+    "empreinte_complement": "sha256:f1d7c85483351e9a212fabaa7b44aad3f43ec95ddb6891788df5c8c7cc86beb1"
+   },
+   {
+    "identifiant": "h19_les_fetes_du_planning",
+    "version": 1,
+    "empreinte_complement": "sha256:405cba2d5537c86d8b78f5e2d79fff7800369efafddd8bb9770ac9b8e29c571c"
+   },
+   {
+    "identifiant": "h20_la_fin_d_annee_de_karim",
+    "version": 1,
+    "empreinte_complement": "sha256:82ac00f6071c469f8b9703e06e98201ac845dc0c66cae970a691ceaa539747bb"
+   }
+  ],
+  "empreinte": "sha256:1c31b092bc622ecf18f1437046f59dcad2d322daf6ffd4f520dd8b30be62cb6e"
+ },
+ "etat_pme": {
+  "version": "v3",
+  "empreinte": "sha256:9ea9fbab11963e7b7bd7235c21f2450753f3d499a0cfcd9bdf675f128e699909",
+  "societe": "calorelle"
+ },
+ "regles_gardien": null,
+ "repetitions": 4,
+ "machine": null,
+ "juge": null,
+ "banc_public": null
+}

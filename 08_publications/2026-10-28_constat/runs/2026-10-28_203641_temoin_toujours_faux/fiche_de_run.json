@@ -1,0 +1,34 @@
+{
+ "identifiant": "2026-10-28_203641_temoin_toujours_faux",
+ "debut_utc": "2026-10-28T20:36:41.725368Z",
+ "fin_utc": "2026-10-28T20:36:49.540375Z",
+ "statut": "termine",
+ "raison_interruption": null,
+ "code": {
+  "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+  "modifications_non_commitees": false
+ },
+ "candidat": {
+  "identifiant": "temoin_toujours_faux",
+  "version": "1"
+ },
+ "configuration": {
+  "modeles": []
+ },
+ "empreinte_prompts": null,
+ "jeu_taches": {
+  "nom": "dure_cachees_v3",
+  "taches": [],
+  "empreinte": "sha256:14716adeee2029eec48767c8d3ca86ff841dd99b479579b58f6663e968cd554b"
+ },
+ "etat_pme": {
+  "version": "v3",
+  "empreinte": "sha256:9ea9fbab11963e7b7bd7235c21f2450753f3d499a0cfcd9bdf675f128e699909",
+  "societe": "calorelle"
+ },
+ "regles_gardien": null,
+ "repetitions": 4,
+ "machine": null,
+ "juge": null,
+ "banc_public": null
+}

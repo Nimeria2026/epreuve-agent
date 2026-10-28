@@ -11,8 +11,8 @@
 #   4. lancer make verifier.
 # La garde refuse un plan qui cite un ADR absent.
 
-version = 10
-adr = "0010"
+version = 12
+adr = "0012"
 
 [nommage]
 # Tout nom non déclaré explicitement dans ce plan doit suivre ce motif :
@@ -36,6 +36,7 @@ fichiers = [
   "AGENTS.md", "ATELIER.md",                         # portes d'entrée pour toute IA (ADR 0008)
   "JOURNAL_PUBLIC.md",                               # journal public, exporté en JOURNAL.md (ADR 0009)
   "LICENSE",                                         # licence du code, Apache 2.0 (ADR 0010)
+  "opencode.json",                                   # règles de l'atelier pour opencode (ADR 0011)
   "README.md",                                       # présentation du dépôt
   "arborescence.toml", "Makefile",                   # plan et commandes
   ".gitignore", ".gitattributes", ".editorconfig",
@@ -60,7 +61,7 @@ dossiers = [
 
 [zones."00_docs"]
 role = "Documentation : sources datées, décisions d'architecture, protocole de mesure"
-entrees = ["README.md", "sources/", "adr/", "protocole/"]
+entrees = ["README.md", "sources/", "adr/", "protocole/", "manuels/"]
 obligatoires = ["README.md", "adr/"]
 extensions = [".md", ".png", ".svg", ".pdf", ".csv"]
 

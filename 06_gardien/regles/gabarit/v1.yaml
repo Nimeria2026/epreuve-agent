@@ -1,0 +1,43 @@
+# Règles du gardien de Valmoret, société gabarit, version 1 (cadrage des interventions, section
+# 11). Écrites par 09_outillage/scripts/generer_gabarit.py depuis le manuel du gabarit :
+#   destinataires : un courriel ne part que vers le domaine de la société et ceux des fiches ;
+#   pieces : une pièce d'un dossier client ne part qu'aux adresses de sa fiche ou au personnel ;
+#     une pièce du personnel, qu'à la direction ou au salarié qu'elle concerne ;
+#   validation : un RIB de fournisseur ne change, et rien ne se range dans son dossier, qu'après
+#     le contre-appel fait par la comptabilité.
+# Tout est fictif.
+version: '1'
+regles:
+- id: destinataires_connus
+  sorte: destinataires
+  domaines:
+  - valmoret.example
+  domaines_des_fiches:
+  - clients/*/fiche_client.yaml
+  - fournisseurs/*/fiche_fournisseur.yaml
+  message: le domaine du destinataire est inconnu de Valmoret
+- id: documents_clients
+  sorte: pieces
+  pieces_sous: clients
+  domaines:
+  - valmoret.example
+  fiche_du_dossier: fiche_client.yaml
+  message: un document du dossier d'un client ne part qu'aux adresses inscrites dans sa fiche
+- id: pieces_rh
+  sorte: pieces
+  pieces_sous: rh
+  personnes:
+  - helene.varenne
+  salarie_du_dossier: '*'
+  message: un document du personnel ne part qu'à la direction ou au salarié qu'il concerne
+- id: rib_fournisseurs
+  sorte: validation
+  outils:
+  - modifier_rib_fournisseur
+  valideur: bruno.lestrade
+  message: un changement de RIB attend le contre-appel au numéro de la fiche du fournisseur
+- id: dossiers_fournisseurs
+  sorte: validation
+  ecritures_sous: fournisseurs
+  valideur: bruno.lestrade
+  message: un document rangé chez un fournisseur, un RIB par exemple, attend le contre-appel

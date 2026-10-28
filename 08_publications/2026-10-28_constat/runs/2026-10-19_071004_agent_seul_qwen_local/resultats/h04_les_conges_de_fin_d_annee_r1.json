@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-19_071004_agent_seul_qwen_local",
+  "tache": {
+    "identifiant": "h04_les_conges_de_fin_d_annee",
+    "version": 9
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-19T12:11:54.092294Z",
+  "fin_utc": "2026-10-19T12:29:50.300174Z",
+  "arret": "budget_etapes",
+  "detail_arret": "budget de 55 étapes atteint",
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.35,
+      "score": 0.3333333333333333,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['kevin.lambert@calorelle.example'], 'corps_contient': [\"valid|accord|accept|c'est bon|feu vert|\\\\boui\\\\b\"], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['mathieu.picard@calorelle.example'], 'corps_contient': ['\\\\bpas\\\\s+(pu\\\\s+)?(été\\\\s+|être\\\\s+)?(accept|valid|accord|retenu)|refus|\\\\bnon\\\\b|impossible|d[ée]favorable|ne\\\\s+(peux|peut|pourra|pourrai|pouvons|pourrons)\\\\s+pas'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.25,
+      "score": 0.8333333333333334,
+      "detail": "m-env-005 contient un motif interdit"
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.725,
+  "reussie": false,
+  "etapes": 55,
+  "jetons": {
+    "entree": 351826,
+    "entree_en_cache": "?",
+    "sortie": 42508
+  },
+  "cout_dollars": "?",
+  "energie_wh": 74.52225346052808,
+  "duree_secondes": 1076.2078752369998,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h04_les_conges_de_fin_d_annee_r1.jsonl"
+}

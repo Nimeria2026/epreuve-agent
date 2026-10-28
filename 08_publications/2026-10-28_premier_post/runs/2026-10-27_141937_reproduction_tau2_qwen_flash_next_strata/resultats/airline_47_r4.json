@@ -1,0 +1,34 @@
+{
+  "run": "2026-10-27_141937_reproduction_tau2_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "airline_47",
+    "version": 1
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-27T15:39:03.482557Z",
+  "fin_utc": "2026-10-27T15:39:38.009185Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 1.0,
+      "score": 1.0,
+      "detail": "τ²-bench : récompense 1 ; fin user_stop ; base égale à la cible ; phrases dites 0 sur 0"
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 6,
+  "jetons": {
+    "entree": 32907,
+    "entree_en_cache": 31757,
+    "sortie": 1985
+  },
+  "cout_dollars": "?",
+  "energie_wh": 2.092079937393868,
+  "duree_secondes": 34.52662382699782,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/airline_47_r4.jsonl"
+}

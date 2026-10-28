@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-21_193611_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t46_trois_reclamations_sur_contact",
+    "version": 1
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-21T19:36:46.628008Z",
+  "fin_utc": "2026-10-21T19:37:16.289245Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.45,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.25,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 30,
+  "jetons": {
+    "entree": 130846,
+    "entree_en_cache": 116480,
+    "sortie": 4675
+  },
+  "cout_dollars": 0.00530934,
+  "energie_wh": null,
+  "duree_secondes": 29.661231167032383,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t46_trois_reclamations_sur_contact_r2.jsonl"
+}

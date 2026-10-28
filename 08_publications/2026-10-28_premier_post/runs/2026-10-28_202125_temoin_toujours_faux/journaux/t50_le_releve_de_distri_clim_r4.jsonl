@@ -1,0 +1,1 @@
+{"etape": 1, "horodatage_utc": "2026-10-28T20:23:16.882447Z", "outil": "envoyer", "arguments": {"a": ["compta@distri-clim-centre.example", "recouvrement@distri-clim-centre.example"], "objet": "Votre relevé", "texte": "Bonjour,\n\nNous réglerons les cinq factures de votre relevé, 5 742,00 €, cette semaine.\n\nPatrick Roux"}, "resultat": "Envoyé : m-env-001", "erreur": null}

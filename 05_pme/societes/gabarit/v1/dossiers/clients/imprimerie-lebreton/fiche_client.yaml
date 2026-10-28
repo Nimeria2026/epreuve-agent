@@ -1,0 +1,11 @@
+# Fiche du client Imprimerie Lebreton de Valmoret. Données FICTIVES.
+nom: Imprimerie Lebreton
+activite: imprimerie
+adresse: 21 rue de l'Industrie, 37999 Saint-Aubin-des-Vergnes (FICTIF)
+telephone: 02 61 91 51 02
+contacts:
+- nom: Monsieur Marc Lebreton
+  courriel: marc.lebreton@imprimerie-lebreton.example
+prestation: entretien des bureaux et de l'atelier, deux passages par semaine
+forfait_mensuel_ht: 1240.0
+client_depuis: '2024-01-01'

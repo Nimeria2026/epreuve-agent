@@ -1,0 +1,69 @@
+{
+  "run": "2026-10-21_010546_agent_seul_qwen_local_100k",
+  "tache": {
+    "identifiant": "h02_la_semaine_de_thomas_girard",
+    "version": 4
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-21T01:05:46.703990Z",
+  "fin_utc": "2026-10-21T03:05:47.153725Z",
+  "arret": "delai_depasse",
+  "detail_arret": "candidat arrêté après 7200 s ; voir h02_la_semaine_de_thomas_girard_r1_candidat.log",
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "aucun courriel vers contact@etablissements-boyer-437.example ne donne le jour et l'heure de INT-2026-0027 (10/11 à 08:00) ; aucun courriel vers contact@etablissements-boyer-437.example ne donne le jour et l'heure de INT-2026-0030 (10/11 à 13:30) ; aucun courriel vers contact@etablissements-boyer-437.example ne donne le jour et l'heure de INT-2026-0033 (12/11 à 08:00) ; aucun courriel vers olivier.martin@courriel.example ne donne le jour et l'heure de INT-2026-0041 (10/11 à 13:30) ; aucun courriel vers contact@etablissements-lambert-60.example ne donne le jour et l'heure de INT-2026-0043 (09/11 à 08:00) ; aucun courriel vers contact@etablissements-lambert-60.example ne donne le jour et l'heure de INT-2026-0044 (13/11 à 13:30) ; aucun courriel vers christophe.gauthier@courriel.example ne donne le jour et l'heure de INT-2026-0054 (02/11 à 10:00) ; aucun courriel vers christophe.guerin@courriel.example ne donne le jour et l'heure de INT-2026-0048 (17/11 à 13:30) ; aucun courriel vers contact@etablissements-bernard-17.example ne donne le jour et l'heure de INT-2026-0049 (17/11 à 08:00) ; aucun courriel vers contact@etablissements-bernard-17.example ne donne le jour et l'heure de INT-2026-0050 (17/11 à 13:30) ; aucun courriel vers michel.martin@courriel.example ne donne le jour et l'heure de INT-2026-0051 (18/11 à 10:00)"
+    },
+    {
+      "numero": 4,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "david.roussel ne reçoit pas le jour et l'heure de INT-2026-0027 ; enzo.caron ne reçoit pas le jour et l'heure de INT-2026-0027 ; david.roussel ne reçoit pas le jour et l'heure de INT-2026-0030 ; enzo.caron ne reçoit pas le jour et l'heure de INT-2026-0030 ; romain.guerin ne reçoit pas le jour et l'heure de INT-2026-0033 ; mathieu.picard ne reçoit pas le jour et l'heure de INT-2026-0041 ; enzo.caron ne reçoit pas le jour et l'heure de INT-2026-0042 ; romain.guerin ne reçoit pas le jour et l'heure de INT-2026-0043 ; enzo.caron ne reçoit pas le jour et l'heure de INT-2026-0043 ; romain.guerin ne reçoit pas le jour et l'heure de INT-2026-0044 ; sebastien.noel ne reçoit pas le jour et l'heure de INT-2026-0048 ; romain.guerin ne reçoit pas le jour et l'heure de INT-2026-0049 ; romain.guerin ne reçoit pas le jour et l'heure de INT-2026-0050 ; nicolas.blanc ne reçoit pas le jour et l'heure de INT-2026-0051"
+    },
+    {
+      "numero": 5,
+      "famille": "respect_des_regles",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 6,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "modifié interventions/INT-2026-0021.json"
+    }
+  ],
+  "score": 0.55,
+  "reussie": false,
+  "etapes": 80,
+  "jetons": {
+    "entree": 342455,
+    "entree_en_cache": "?",
+    "sortie": 271252
+  },
+  "cout_dollars": "?",
+  "energie_wh": 499.38629930199204,
+  "duree_secondes": 7200.449730202992,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h02_la_semaine_de_thomas_girard_r1.jsonl"
+}

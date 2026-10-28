@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-26_120743_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "t56_deux_resiliations_et_le_planning",
+    "version": 1
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-26T18:08:52.600955Z",
+  "fin_utc": "2026-10-26T18:10:21.140411Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.35,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 16,
+  "jetons": {
+    "entree": 74293,
+    "entree_en_cache": 65303,
+    "sortie": 5921
+  },
+  "cout_dollars": "?",
+  "energie_wh": 5.8593811491503365,
+  "duree_secondes": 88.53945215100248,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t56_deux_resiliations_et_le_planning_r1.jsonl"
+}

@@ -1,0 +1,69 @@
+{
+  "run": "2026-10-28_204357_temoin_toujours_faux",
+  "tache": {
+    "identifiant": "dvh19_la_regularisation_des_charges_de_s23",
+    "version": 1
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-28T20:44:41.280572Z",
+  "fin_utc": "2026-10-28T20:44:41.295241Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['vincent.faure@mel-perso.example'], 'corps_contient': ['(?<!\\\\d)114[,.]44']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['christian.buisson@messagerie.example'], 'corps_contient': ['(?<!\\\\d)519[,.]53']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['etienne.leblanc@courriel.example'], 'corps_contient': ['(?<!\\\\d)340[,.]0[01]']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.perrot@mel-perso.example'], 'corps_contient': ['(?<!\\\\d)13[,.]8[34]']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['beatrice.cordier@messagerie.example'], 'corps_contient': ['(?<!\\\\d)141[,.]7[23]']}"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['josiane.huet@courriel.example'], 'corps_contient': ['(?<!\\\\d)245[,.]85']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['florence.etienne@boite-postale.example'], 'corps_contient': ['(?<!\\\\d)28[,.]88']}"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['fabien.collet@mel-perso.example'], 'corps_contient': ['(?<!\\\\d)216[,.]85']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['agnes.roux@courriel.example'], 'corps_contient': ['(?<!\\\\d)94[,.]76']}"
+    },
+    {
+      "numero": 4,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['beatrice.cordier@messagerie.example'], 'corps_contient': ['tanti[èe]me', 'nettoyage', 'espaces verts', 'lectricit', '\\\\beau\\\\b']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['christian.buisson@messagerie.example'], 'corps_contient': ['tanti[èe]me', 'nettoyage', 'espaces verts', 'lectricit', '\\\\beau\\\\b']}"
+    },
+    {
+      "numero": 5,
+      "famille": "resultat",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['pascale.renaud@domivelle.example'], 'corps_contient': ['(?<!\\\\d)245[,.]85', '(?<!\\\\d)114[,.]44', '(?<!\\\\d)519[,.]53', '(?<!\\\\d)28[,.]88', '(?<!\\\\d)340[,.]0[01]', '(?<!\\\\d)13[,.]8[34]', '(?<!\\\\d)141[,.]7[23]', '(?<!\\\\d)216[,.]85', '(?<!\\\\d)94[,.]76']}"
+    },
+    {
+      "numero": 6,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.1,
+  "reussie": false,
+  "etapes": 1,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.014665967995824758,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/dvh19_la_regularisation_des_charges_de_s23_r1.jsonl"
+}

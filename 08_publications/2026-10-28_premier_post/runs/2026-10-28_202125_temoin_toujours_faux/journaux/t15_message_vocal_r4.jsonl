@@ -1,0 +1,2 @@
+{"etape": 1, "horodatage_utc": "2026-10-28T20:21:57.149077Z", "outil": "envoyer", "arguments": {"a": ["odile.gauthier@courriel.example"], "objet": "Votre fuite", "texte": "Nous passons demain."}, "resultat": "Envoyé : m-env-001", "erreur": null}
+{"etape": 2, "horodatage_utc": "2026-10-28T20:21:57.183284Z", "outil": "transferer", "arguments": {"boite": "contact@calorelle.example", "identifiant": "m-ctc-401", "a": ["julie.perrin@calorelle.example"], "cc": [], "commentaire": "Une cliente a une fuite."}, "resultat": "Transféré : m-env-002", "erreur": null}

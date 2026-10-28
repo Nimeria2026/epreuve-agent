@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-28_202608_temoin_inerte",
+  "tache": {
+    "identifiant": "t17_trois_courriels_meme_panne",
+    "version": 2
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-28T20:26:41.477228Z",
+  "fin_utc": "2026-10-28T20:26:41.477457Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.5,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a': ['marc.duval@calorelle.example'], 'corps_contient': ['Agn[eè]s Martin']} ; aucun courriel envoyé ne remplit {'a': ['julie.perrin@calorelle.example'], 'transfere_de': 'm-ctc-504'}"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 0.0,
+      "detail": "0 envoi(s) vers marc.duval@calorelle.example pour 1 attendu(s)"
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "0 envoi(s) pour 2 attendu(s)"
+    }
+  ],
+  "score": 0.0,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.00022588200226891786,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t17_trois_courriels_meme_panne_r4.jsonl"
+}

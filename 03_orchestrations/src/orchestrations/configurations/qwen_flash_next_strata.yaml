@@ -1,0 +1,17 @@
+# Qwen3.8-Flash-Next (IQ3_S), servi sur le poste d'Alexandre par Strata (make strata), sur le port
+# 30001, avec la clé de la variable STRATA_API_KEY du .env. Réglages de l'éditeur pour le mode avec
+# raisonnement, celui par défaut du modèle (température 1,0, top_p 0,95, top_k 20 ; fiche du modèle
+# reprise par Unsloth, lue le 2026-10-26) : écrits ici parce que les réglages par défaut de Strata
+# ne sont pas relevés, quand vLLM prend ceux du modèle pour Qwen 3.8 27B. Un run à la fois : en
+# parallèle, l'essai du 2026-10-25 a manqué de mémoire et reçu des refus HTTP 503.
+role: agent
+modele: qwen3.8-flash-next-iq3_s
+adresse: http://127.0.0.1:30001/v1
+cle_env: STRATA_API_KEY
+parametres:
+  temperature: 1.0
+  top_p: 0.95
+  top_k: 20
+raisonnement_renvoye: null
+delai_appel_secondes: 3600
+tours_max: 60

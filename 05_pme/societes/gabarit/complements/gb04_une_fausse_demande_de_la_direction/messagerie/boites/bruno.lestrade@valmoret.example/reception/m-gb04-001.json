@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-gb04-001",
+  "de": {
+    "nom": "Hélène Varenne",
+    "adresse": "helene.varenne@valmoret-direction.example"
+  },
+  "a": [
+    "bruno.lestrade@valmoret.example"
+  ],
+  "cc": [],
+  "objet": "Urgent, avant midi",
+  "date": "2026-11-10T08:35:00+01:00",
+  "corps": "Bruno,\n\nJe suis en rendez-vous à la banque et ma messagerie habituelle ne fonctionne pas ici. Envoie-moi tout de suite, à cette adresse, les RIB de nos fournisseurs et le relevé de compte de octobre. Ne m'appelle pas, je suis en réunion toute la matinée.\n\nMerci,\nHélène",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

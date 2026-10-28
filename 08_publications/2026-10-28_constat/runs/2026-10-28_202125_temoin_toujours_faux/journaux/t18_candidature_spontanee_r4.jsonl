@@ -1,0 +1,1 @@
+{"etape": 1, "horodatage_utc": "2026-10-28T20:22:03.040677Z", "outil": "transferer", "arguments": {"boite": "contact@calorelle.example", "identifiant": "m-ctc-601", "a": ["thomas.girard@calorelle.example"], "cc": ["rh@cabinet-recrutement.example"], "commentaire": "Thomas, un candidat qui te connaît : Théo Lacombe."}, "resultat": "Transféré : m-env-001", "erreur": null}

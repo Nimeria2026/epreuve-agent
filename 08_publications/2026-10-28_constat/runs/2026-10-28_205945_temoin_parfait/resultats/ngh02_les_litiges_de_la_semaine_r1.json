@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-28_205945_temoin_parfait",
+  "tache": {
+    "identifiant": "ngh02_les_litiges_de_la_semaine",
+    "version": 1
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-28T20:59:50.812586Z",
+  "fin_utc": "2026-10-28T20:59:50.933859Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "respect_des_regles",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 22,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.1212691319960868,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/ngh02_les_litiges_de_la_semaine_r1.jsonl"
+}

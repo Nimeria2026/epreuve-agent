@@ -1,0 +1,1 @@
+{"etape": 1, "horodatage_utc": "2026-10-28T20:22:05.970043Z", "outil": "envoyer", "arguments": {"a": ["denis.vincent@courriel.example"], "cc": ["courtier@assurances-du-val.example"], "objet": "Sérénité Plus", "texte": "Bonjour, le complément est de 91,67 €."}, "resultat": "Envoyé : m-env-001", "erreur": null}

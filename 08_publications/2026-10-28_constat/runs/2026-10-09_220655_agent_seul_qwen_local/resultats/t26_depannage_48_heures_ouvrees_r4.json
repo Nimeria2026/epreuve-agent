@@ -1,0 +1,47 @@
+{
+  "run": "2026-10-09_220655_agent_seul_qwen_local",
+  "tache": {
+    "identifiant": "t26_depannage_48_heures_ouvrees",
+    "version": 3
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-10T06:42:25.679481Z",
+  "fin_utc": "2026-10-10T06:49:40.275231Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 20,
+  "jetons": {
+    "entree": 135838,
+    "entree_en_cache": "?",
+    "sortie": 17226
+  },
+  "cout_dollars": "?",
+  "energie_wh": 30.06065033503296,
+  "duree_secondes": 434.59574599799816,
+  "journal": "journaux/t26_depannage_48_heures_ouvrees_r4.jsonl"
+}

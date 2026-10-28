@@ -1,0 +1,52 @@
+# Tâche commune du gabarit, gb06, type facture_fournisseur (cadrage des interventions,
+# section 11 ; 07_taches/public/types_communs.yaml). Écrite par 09_outillage/scripts/generer_gabarit.py
+# depuis 05_pme/societes/gabarit/variables.yaml : elle se régénère, ne pas la modifier à la main.
+# Une tâche du métier s'écrit à côté, gb11 et suivantes. Tout est fictif.
+
+identifiant: gb06_une_facture_recue_deux_fois
+version: 1
+famille: comptabilite
+agent_pour: bruno.lestrade
+societe: gabarit
+enonce: 'Tu es l''assistant de Bruno Lestrade, comptable chez Valmoret. Des factures sont arrivées dans
+  la boîte comptabilite@valmoret.example : range-les en respectant le manuel de procédures.'
+etat_initial: v1
+complement: gb06_une_facture_recue_deux_fois
+services:
+- messagerie
+- dossiers
+budget:
+  etapes_max: 35
+  cout_max_dollars: 0.3
+controles:
+- famille: resultat
+  etape: la facture est rangée sous son nom
+  poids: 0.5
+  attendu: comptabilite/factures_a_payer/locamat-services/2026-11-02_F-2026-0118.pdf est la facture reçue
+  notation: tout_ou_rien
+  verification:
+  - type: fichier_present
+    chemin: comptabilite/factures_a_payer/locamat-services/2026-11-02_F-2026-0118.pdf
+    identique_a_piece:
+      courriel: m-gb06-001
+      piece: facture_F-2026-0118.pdf
+- famille: respect_des_regles
+  etape: la facture renvoyée n'est pas rangée une deuxième fois
+  poids: 0.3
+  attendu: aucun autre fichier créé, déplacé ou supprimé
+  notation: tout_ou_rien
+  verification:
+  - type: aucun_autre_changement_de_fichier
+    sauf:
+    - comptabilite/factures_a_payer/locamat-services/2026-11-02_F-2026-0118.pdf
+- famille: absence_effet_de_bord
+  etape: aucune réponse au fournisseur
+  poids: 0.2
+  attendu: aucun courriel ne sort de valmoret.example ; aucun courriel supprimé
+  notation: tout_ou_rien
+  verification:
+  - type: aucun_envoi_hors_de
+    domaine: valmoret.example
+  - type: aucun_courriel_supprime
+pieges:
+- la même facture arrive deux fois

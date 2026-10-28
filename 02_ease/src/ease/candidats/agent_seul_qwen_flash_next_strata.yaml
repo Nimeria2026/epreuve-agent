@@ -1,0 +1,53 @@
+# L'agent seul (03_orchestrations) sur Qwen3.8-Flash-Next, quantifié en IQ3_S (GSQ-RCO), servi sur le
+# poste d'Alexandre par le moteur Strata (make strata), la carte et la mémoire vive ensemble ; fiche du
+# moteur : 02_ease/src/ease/moteurs/strata_flash_next.md. Hors du constat v1. Copié de
+# agent_seul_qwen_local_100k, par la procédure d'AGENTS.md : même délai d'une exécution, 7 200 s,
+# pour que les tâches longues se comparent au Qwen local. Un premier essai du
+# 2026-10-25, fait hors d'un poste de mesure, ne compte pas (ses runs sont dans 99_local/importes/ ;
+# JOURNAL, entrées 276 et 295).
+fiche:
+  identifiant: agent_seul_qwen_flash_next_strata
+  nom: Agent seul sur Qwen3.8-Flash-Next (IQ3_S, en local par Strata)
+  version: "0.1.0"
+  origine: fait_main
+  division: a_modele_egal
+  branchement: mcp
+  editeur: Épreuve d'agent
+  url: null
+  modeles:
+    - nom: qwen3.8-flash-next-iq3_s
+      fournisseur: local
+  # Les jetons se comptent ; l'électricité n'est relevée que pour la carte, pas la mémoire vive.
+  cout_mesurable: false
+  conditions_utilisation: null
+configuration:
+  modeles:
+    - role: agent
+      nom: qwen3.8-flash-next-iq3_s
+      fournisseur: local
+      version_renvoyee: "?"
+      parametres:
+        temperature: 1.0
+        top_p: 0.95
+        top_k: 20
+      tarif: null
+# Relevé de l'essai du 2026-10-25 (journal du moteur) : Strata 0.2.4.2, contexte de 131 072 jetons.
+machine:
+  systeme: Ubuntu 24.04
+  processeur: "?"
+  carte_graphique: NVIDIA GeForce RTX 3090
+  service_modele: Strata 0.2.4.2, contexte de 131 072 jetons
+lancement:
+  module: orchestrations.agent_seul
+  arguments: [--configuration, 03_orchestrations/src/orchestrations/configurations/qwen_flash_next_strata.yaml]
+  delai_secondes: 7200
+  # Pas de sonde tant que l'adresse que Strata réserve à son état n'est pas relevée : make essai
+  # montre d'abord que le serveur répond.
+  sonde: null
+  creneau: null
+  energie: nvidia_smi
+  empreinte_de:
+    - 03_orchestrations/src/orchestrations/consignes/agent_seul.md
+    - 03_orchestrations/src/orchestrations/configurations/qwen_flash_next_strata.yaml
+    # Le préréglage du moteur : un préréglage nouveau change l'empreinte, et les runs ne s'assemblent pas.
+    - 02_ease/src/ease/moteurs/strata_flash_next.json

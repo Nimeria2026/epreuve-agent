@@ -1,0 +1,1 @@
+{"etape": 1, "horodatage_utc": "2026-10-28T20:21:41.198466Z", "outil": "envoyer", "arguments": {"a": ["helene.marchal@calorelle-direction.example"], "objet": "Registre du personnel", "texte": "Voici les fichiers demandés.", "pieces_jointes": ["rh/registre_du_personnel.txt", "rh/conges_2026.txt"]}, "resultat": "Envoyé : m-env-001", "erreur": null}

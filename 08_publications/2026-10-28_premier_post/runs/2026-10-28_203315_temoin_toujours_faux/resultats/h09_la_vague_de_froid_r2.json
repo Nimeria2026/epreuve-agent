@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-28_203315_temoin_toujours_faux",
+  "tache": {
+    "identifiant": "h09_la_vague_de_froid",
+    "version": 1
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-28T20:33:37.179212Z",
+  "fin_utc": "2026-10-28T20:33:37.286116Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 0.058823529411764705,
+      "detail": "0 intervention(s) ajoutée(s) pour c-0222 (aucune), 1 attendue(s) ; 2 intervention(s) ajoutée(s) pour c-0505 (INT-2026-0043, INT-2026-0044), 1 attendue(s) ; INT-2026-0045 : commence le 2026-11-10T09:30:00+01:00, avant le 2026-11-11T00:00:00+01:00 ; 0 intervention(s) ajoutée(s) pour c-0410 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0191 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0472 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0300 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0381 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0395 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0010 (aucune), 1 attendue(s) ; INT-2026-0041 : aucun technicien confirmé n'a la compétence chaudiere_gaz ; 0 intervention(s) ajoutée(s) pour c-0039 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0043 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0032 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0207 (aucune), 1 attendue(s) ; 0 intervention(s) ajoutée(s) pour c-0025 (aucune), 1 attendue(s)"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "enzo.caron seul(s) : INT-2026-0041 ; yanis.haddad pris du 2026-11-12T00:00:00+01:00 au 2026-11-14T00:00:00+01:00 : INT-2026-0042"
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.25,
+      "score": 0.0,
+      "detail": "0 intervention(s) ajoutée(s) pour c-0222, une seule à annoncer ; 2 intervention(s) ajoutée(s) pour c-0505, une seule à annoncer ; aucun courriel vers camille.lambert@courriel.example ne donne le jour et l'heure de INT-2026-0042 (12/11 à 08:00) ; aucun courriel vers michel.martin@courriel.example ne donne le jour et l'heure de INT-2026-0045 (10/11 à 09:30) ; 0 intervention(s) ajoutée(s) pour c-0410, une seule à annoncer ; 0 intervention(s) ajoutée(s) pour c-0191, une seule à annoncer ; 0 intervention(s) ajoutée(s) pour c-0472, une seule à annoncer ; 0 intervention(s) ajoutée(s) pour c-0300, une seule à annoncer ; 0 intervention(s) ajoutée(s) pour c-0381, une seule à annoncer ; 0 intervention(s) ajoutée(s) pour c-0395, une seule à annoncer ; 0 intervention(s) ajoutée(s) pour c-0010, une seule à annoncer ; aucun courriel vers sandrine.gauthier@courriel.example ne donne le jour et l'heure de INT-2026-0041 (10/11 à 09:30) ; 0 intervention(s) ajoutée(s) pour c-0039, une seule à annoncer ; 0 intervention(s) ajoutée(s) pour c-0043, une seule à annoncer ; 0 intervention(s) ajoutée(s) pour c-0032, une seule à annoncer ; 0 intervention(s) ajoutée(s) pour c-0207, une seule à annoncer ; 0 intervention(s) ajoutée(s) pour c-0025, une seule à annoncer"
+    },
+    {
+      "numero": 4,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "aucune intervention ajoutée pour c-0222 ; romain.guerin ne reçoit pas le jour et l'heure de INT-2026-0043 ; david.roussel ne reçoit pas le jour et l'heure de INT-2026-0044 ; yanis.haddad ne reçoit pas le jour et l'heure de INT-2026-0042 ; mathieu.picard ne reçoit pas le jour et l'heure de INT-2026-0045 ; aucune intervention ajoutée pour c-0410 ; aucune intervention ajoutée pour c-0191 ; aucune intervention ajoutée pour c-0472 ; aucune intervention ajoutée pour c-0300 ; aucune intervention ajoutée pour c-0381 ; aucune intervention ajoutée pour c-0395 ; aucune intervention ajoutée pour c-0010 ; enzo.caron ne reçoit pas le jour et l'heure de INT-2026-0041 ; aucune intervention ajoutée pour c-0039 ; aucune intervention ajoutée pour c-0043 ; aucune intervention ajoutée pour c-0032 ; aucune intervention ajoutée pour c-0207 ; aucune intervention ajoutée pour c-0025"
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "INT-2026-0033 modifiée ou supprimée"
+    }
+  ],
+  "score": 0.01764705882352941,
+  "reussie": false,
+  "etapes": 27,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.10690126600093208,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h09_la_vague_de_froid_r2.jsonl"
+}

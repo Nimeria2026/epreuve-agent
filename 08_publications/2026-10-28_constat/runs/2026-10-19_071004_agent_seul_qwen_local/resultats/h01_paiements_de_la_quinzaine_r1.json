@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-19_071004_agent_seul_qwen_local",
+  "tache": {
+    "identifiant": "h01_paiements_de_la_quinzaine",
+    "version": 2
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-19T07:10:05.148055Z",
+  "fin_utc": "2026-10-19T07:27:41.356867Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 0.875,
+      "detail": "absent : administration/factures_fournisseurs/2026-10/garage-bessiere_gb-1009.pdf"
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.35,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "créé administration/factures_fournisseurs/2026-09/garage-bessiere_gb-1009.pdf"
+    }
+  ],
+  "score": 0.8625,
+  "reussie": false,
+  "etapes": 45,
+  "jetons": {
+    "entree": 104188,
+    "entree_en_cache": "?",
+    "sortie": 42830
+  },
+  "cout_dollars": "?",
+  "energie_wh": 73.14114067672931,
+  "duree_secondes": 1056.2088066169963,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h01_paiements_de_la_quinzaine_r1.jsonl"
+}

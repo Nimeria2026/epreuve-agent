@@ -1,0 +1,18 @@
+{
+  "identifiant": "m-gb05-001",
+  "de": {
+    "nom": "Claire Morin",
+    "adresse": "contact@pharmacie-du-centre.example"
+  },
+  "a": [
+    "contact@valmoret.example"
+  ],
+  "cc": [],
+  "objet": "Demande de devis",
+  "date": "2026-11-10T06:00:00+01:00",
+  "corps": "Bonjour,\n\nNous cherchons une entreprise pour l'entretien de notre officine, 120 m², chaque soir après la fermeture. Pourriez-vous nous faire une proposition ?\n\nCordialement,\nClaire Morin\nPharmacie du Centre",
+  "pieces_jointes": [],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

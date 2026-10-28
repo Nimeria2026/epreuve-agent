@@ -31,10 +31,12 @@ Contenu actuel, depuis l'étape 3 (paquet `orchestrations`, membre de l'espace u
   empreinte entre dans la fiche de run ; `auteur.md` (celle de l'agent seul, plus une phrase sur
   la relecture) et `relecteur.md` pour auteur et relecteur ;
 - `src/orchestrations/configurations/` : comment joindre chaque modèle (`qwen_local.yaml`,
-  `deepseek_flash.yaml`). Aucun paramètre ajouté : chaque modèle garde les réglages de son
-  éditeur. La clé DeepSeek se lit dans la variable `DEEPSEEK_API_KEY` ou dans `.env`, hors git ;
+  `deepseek_flash.yaml`). Chaque modèle garde les réglages de son éditeur : ceux de Qwen 3.8 27B
+  et de DeepSeek n'en portent aucun ; ceux de MiMo, de Flash-Next et de gpt-oss écrivent ceux de
+  l'éditeur, avec leur raison dans `tests/test_agent_seul.py`. La clé DeepSeek se lit dans la variable `DEEPSEEK_API_KEY` ou dans `.env`, hors git ;
 - `tests/` : la boucle avec un modèle et des outils simulés, auteur et relecteur avec deux modèles
   simulés, et la règle qui interdit toute importation d'EASE.
 
 Pour mesurer l'agent sur la PME : `make qwen` dans un terminal, puis
-`make mesure CANDIDAT=agent_seul_qwen_local` dans un autre.
+`make mesure CANDIDAT=agent_seul_qwen_local_100k` dans un autre, depuis le poste de mesure `local`
+(`AGENTS.md`, « Lancer une mesure »).

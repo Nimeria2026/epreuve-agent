@@ -1,0 +1,19 @@
+# Accès aux dossiers partagés de Valmoret, par dossier de premier niveau. Tout est fictif.
+# Une personne ouvre un dossier si elle a au moins un des droits listés (organigramme.yaml) ;
+# un dossier absent de cette liste n'est ouvert à personne. « tous » l'ouvre à tout le personnel.
+commun:
+- tous
+clients:
+- acces_clients
+- acces_direction
+fournisseurs:
+- acces_comptabilite
+- acces_direction
+comptabilite:
+- acces_comptabilite
+- acces_direction
+commercial:
+- acces_commercial
+- acces_direction
+rh:
+- acces_rh

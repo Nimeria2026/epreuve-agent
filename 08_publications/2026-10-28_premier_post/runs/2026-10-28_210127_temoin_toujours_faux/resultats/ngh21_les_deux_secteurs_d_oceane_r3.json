@@ -1,0 +1,76 @@
+{
+  "run": "2026-10-28_210127_temoin_toujours_faux",
+  "tache": {
+    "identifiant": "ngh21_les_deux_secteurs_d_oceane",
+    "version": 2
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-28T21:02:51.023273Z",
+  "fin_utc": "2026-10-28T21:02:51.109798Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "0 commande(s) créée(s) pour c-0084 (aucune), 1 attendue(s) ; 0 commande(s) créée(s) pour c-0259 (aucune), 1 attendue(s) ; 0 commande(s) créée(s) pour c-0012 (aucune), 1 attendue(s) ; 0 commande(s) créée(s) pour c-0244 (aucune), 1 attendue(s) ; 0 commande(s) créée(s) pour c-0235 (aucune), 1 attendue(s) ; 0 commande(s) créée(s) pour c-0248 (aucune), 1 attendue(s) ; 0 commande(s) créée(s) pour c-0151 (aucune), 1 attendue(s) ; 0 commande(s) créée(s) pour c-0345 (aucune), 1 attendue(s) ; 0 commande(s) créée(s) pour c-0278 (aucune), 1 attendue(s) ; 0 commande(s) créée(s) pour c-0342 (aucune), 1 attendue(s) ; 0 commande(s) créée(s) pour c-0048 (aucune), 1 attendue(s) ; 0 commande(s) créée(s) pour c-0255 (aucune), 1 attendue(s) ; 0 reliquat(s) créée(s) pour c-0255 (aucune), 1 attendue(s)"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "commande(s) de c-0097 validée(s) : CO-2026-02042"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['manon.cadiou@couverture-granger.example'], 'corps_contient': ['23 juillet|23/0?7', 'partiel|en partie|une partie|choix|pr[ée]f[ée]r|attendre|souhait'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 4,
+      "famille": "respect_des_regles",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['brigitte.chevrier@chauffage-genet.example'], 'corps_contient': ['jours? ouvr|trois jours|3 jours|0?9 juillet|09/07|jeudi|mercredi|demain|0?8 juillet|0?7 juillet'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['fabrice.chartier@peinture-tixier.example', 'marcel.bruneau@peinture-tixier.example'], 'corps_contient': ['jours? ouvr|trois jours|3 jours|0?9 juillet|09/07|jeudi|mercredi|demain|0?8 juillet|0?7 juillet'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['denise.ruel@peinture-daniel.example'], 'corps_contient': ['jours? ouvr|trois jours|3 jours|0?9 juillet|09/07|jeudi|mercredi|demain|0?8 juillet|0?7 juillet'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['louis.quere@couverture-gautier.example'], 'corps_contient': ['jours? ouvr|trois jours|3 jours|0?9 juillet|09/07|jeudi|mercredi|demain|0?8 juillet|0?7 juillet'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['fabienne.ruel@serrurerie-dufour.example'], 'corps_contient': ['jours? ouvr|trois jours|3 jours|0?9 juillet|09/07|jeudi|mercredi|demain|0?8 juillet|0?7 juillet'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['vincent.tixier@serrurerie-foucault.example'], 'corps_contient': ['jours? ouvr|trois jours|3 jours|0?9 juillet|09/07|jeudi|mercredi|demain|0?8 juillet|0?7 juillet'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['pierre.simonet@chauffage-grondin.example'], 'corps_contient': ['jours? ouvr|trois jours|3 jours|0?9 juillet|09/07|jeudi|mercredi|demain|0?8 juillet|0?7 juillet'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['anne.cosson@menuiserie-herve.example'], 'corps_contient': ['jours? ouvr|trois jours|3 jours|0?9 juillet|09/07|jeudi|mercredi|demain|0?8 juillet|0?7 juillet'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gerard.navarre@charpente-guillon.example'], 'corps_contient': ['jours? ouvr|trois jours|3 jours|0?9 juillet|09/07|jeudi|mercredi|demain|0?8 juillet|0?7 juillet'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['anne.dumont@carrelage-peron.example', 'jean.pelletier@carrelage-peron.example'], 'corps_contient': ['jours? ouvr|trois jours|3 jours|0?9 juillet|09/07|jeudi|mercredi|demain|0?8 juillet|0?7 juillet'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['claude.barre@electricite-daniel.example'], 'corps_contient': ['jours? ouvr|trois jours|3 jours|0?9 juillet|09/07|jeudi|mercredi|demain|0?8 juillet|0?7 juillet'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['bernard.thiery@chauffage-sauvage.example'], 'corps_contient': ['20 juillet|20/0?7'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['fabienne.barre@menuiserie-navarre.example', 'sophie.lecoq@menuiserie-navarre.example'], 'corps_contient': ['encours|limite', 'partiel|en partie|une partie|r[eè]glement|r[ée]gler'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 5,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['francoise.hamel@menuiserie-industrielle-chatelain.example', 'valerie.bouvier@menuiserie-industrielle-chatelain.example'], 'corps_contient': ['comptab'], 'corps_ne_contient_pas': ['contentieux|impay|bloqu|retard|d[ée]pass|encours'], 'texte_de_l_agent': True} ; m-env-001 contient un motif interdit"
+    },
+    {
+      "numero": 6,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['corinne.vidal@negovelle.example'], 'corps_contient': ['02015|Nageurs|aquatique']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['isabelle.royer@negovelle.example'], 'corps_contient': ['FC-2026-1120']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['isabelle.royer@negovelle.example'], 'corps_contient': ['Chatelain|c-0097']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['isabelle.royer@negovelle.example'], 'corps_contient': ['Navarre|c-0293']}"
+    },
+    {
+      "numero": 7,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.15,
+  "reussie": false,
+  "etapes": 4,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.08652122599596623,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/ngh21_les_deux_secteurs_d_oceane_r3.jsonl"
+}

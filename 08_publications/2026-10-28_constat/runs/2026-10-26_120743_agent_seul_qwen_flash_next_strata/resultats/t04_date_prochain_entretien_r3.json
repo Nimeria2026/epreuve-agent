@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-26_120743_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "t04_date_prochain_entretien",
+    "version": 13
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-26T12:20:37.609169Z",
+  "fin_utc": "2026-10-26T12:21:17.137139Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "contenu",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 14,
+  "jetons": {
+    "entree": 88838,
+    "entree_en_cache": 78003,
+    "sortie": 1671
+  },
+  "cout_dollars": "?",
+  "energie_wh": 2.4903173196767447,
+  "duree_secondes": 39.52796571900035,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t04_date_prochain_entretien_r3.jsonl"
+}

@@ -279,10 +279,12 @@ def test_les_candidats_de_tau2_vivent_a_part_de_ceux_de_la_pme() -> None:
         "reproduction_tau2_deepseek_flash",
         "reproduction_tau2_deepseek_flash_1017",
         "reproduction_tau2_mimo_v26_flash_deepinfra",
+        "reproduction_tau2_qwen_flash_next_strata",
         "reproduction_tau2_qwen_local",
         "reproduction_tau2_qwen_local_100k",
     ]
-    assert declarations_tau2() == declares  # A/B du 2026-10-11 ; contexte élargi et MiMo, 21 et 22 octobre
+    # A/B du 2026-10-11 ; contexte élargi et MiMo, 21 et 22 octobre ; Flash-Next sous Strata, 26 octobre.
+    assert declarations_tau2() == declares
     assert not set(declarations_tau2()) & set(declarations())
     deepseek, qwen = (lire_candidat_tau2(nom) for nom in reproduction)
     assert deepseek.lancement.creneau == "heures_creuses_deepseek" and qwen.lancement.sonde is not None
@@ -436,4 +438,8 @@ def test_un_run_de_tau2_refuse_un_serveur_a_un_autre_contexte(
     assert main(["reproduction_tau2_qwen_local_100k", "--taches", "31", "--repetitions", "1"]) == 3
     assert "en attend 102400" in capsys.readouterr().err
     contextes = {i: lire_candidat_tau2(i).lancement.contexte_serveur for i in declarations_tau2() if "qwen" in i}
-    assert contextes == {"reproduction_tau2_qwen_local": 40960, "reproduction_tau2_qwen_local_100k": 102400}
+    assert contextes == {
+        "reproduction_tau2_qwen_flash_next_strata": None,
+        "reproduction_tau2_qwen_local": 40960,
+        "reproduction_tau2_qwen_local_100k": 102400,
+    }

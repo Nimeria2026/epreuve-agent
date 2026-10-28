@@ -1,0 +1,34 @@
+{
+ "identifiant": "2026-10-28_202953_temoin_une_fois_sur_deux",
+ "debut_utc": "2026-10-28T20:29:53.790495Z",
+ "fin_utc": "2026-10-28T20:30:38.657147Z",
+ "statut": "termine",
+ "raison_interruption": null,
+ "code": {
+  "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+  "modifications_non_commitees": false
+ },
+ "candidat": {
+  "identifiant": "temoin_une_fois_sur_deux",
+  "version": "1"
+ },
+ "configuration": {
+  "modeles": []
+ },
+ "empreinte_prompts": null,
+ "jeu_taches": {
+  "nom": "pme_cachees_v3",
+  "taches": [],
+  "empreinte": "sha256:bb17b8302c604d04c0852fe7d05a5fe86200b446195942d51065e3c1f3b5fd20"
+ },
+ "etat_pme": {
+  "version": "v3",
+  "empreinte": "sha256:9ea9fbab11963e7b7bd7235c21f2450753f3d499a0cfcd9bdf675f128e699909",
+  "societe": "calorelle"
+ },
+ "regles_gardien": null,
+ "repetitions": 4,
+ "machine": null,
+ "juge": null,
+ "banc_public": null
+}

@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-28_205302_temoin_toujours_faux",
+  "tache": {
+    "identifiant": "ng11_une_livraison_incomplete",
+    "version": 1
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-28T20:53:44.743166Z",
+  "fin_utc": "2026-10-28T20:53:44.755636Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.35,
+      "score": 0.0,
+      "detail": "avoir émis : 210.58 € sur FC-2026-1209 (c-0229), attendu : 180.58 € sur FC-2026-1209 (c-0229)"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.25,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['service-client@transports-delorme.example', 'facturation@transports-delorme.example'], 'corps_contient': ['BL-2026-01784', 'TD-435564']}"
+    },
+    {
+      "numero": 3,
+      "famille": "resultat",
+      "poids": 0.25,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['agnes.durieux@chauffage-quere.example'], 'corps_contient': ['180[,.]58']}"
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.15,
+  "reussie": false,
+  "etapes": 1,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.012465986001188867,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/ng11_une_livraison_incomplete_r4.jsonl"
+}

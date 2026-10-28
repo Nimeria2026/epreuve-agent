@@ -1,0 +1,76 @@
+{
+  "run": "2026-10-28_204357_temoin_toujours_faux",
+  "tache": {
+    "identifiant": "dvh06_le_lendemain_d_une_assemblee",
+    "version": 2
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-28T20:44:11.958146Z",
+  "fin_utc": "2026-10-28T20:44:11.978609Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.25,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['estelle.camus@boite-postale.example'], 'pieces_identiques_a': ['coproprietes/cp32/proces_verbal_2026-06-05.md'], 'corps_contient': ['deux mois|2 mois']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['noemie.laine@courriel.example'], 'pieces_identiques_a': ['coproprietes/cp32/proces_verbal_2026-06-05.md'], 'corps_contient': ['deux mois|2 mois']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marion.cordier@mel-perso.example'], 'pieces_identiques_a': ['coproprietes/cp32/proces_verbal_2026-06-05.md'], 'corps_contient': ['deux mois|2 mois']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['laure.carpentier@boite-postale.example'], 'pieces_identiques_a': ['coproprietes/cp32/proces_verbal_2026-06-05.md'], 'corps_contient': ['deux mois|2 mois']}"
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['louis.meyer@mel-perso.example'], 'pieces_identiques_a': ['coproprietes/cp32/proces_verbal_2026-06-05.md'], 'corps_contient': ['deux mois|2 mois']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['rene.blondel@courriel.example'], 'pieces_identiques_a': ['coproprietes/cp32/proces_verbal_2026-06-05.md'], 'corps_contient': ['deux mois|2 mois']}"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "plusieurs destinataires surveillés ensemble : m-env-001"
+    },
+    {
+      "numero": 4,
+      "famille": "respect_des_regles",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['nadege.lebrun@domivelle.example', 'contact@domivelle.example'], 'pieces_identiques_a': ['coproprietes/cp32/proces_verbal_2026-06-05.md'], 'corps_contient': ['Ferrand', 'Chênes']}"
+    },
+    {
+      "numero": 5,
+      "famille": "respect_des_regles",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['maelle.carriere@domivelle.example'], 'corps_contient': ['porte', 'vélo', 'deux mois|2 mois'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 6,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['thierry.ollivier@domivelle.example'], 'corps_contient': ['6\\\\s?400', '4\\\\s?900', '8\\\\s?600']}"
+    },
+    {
+      "numero": 7,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.1,
+  "reussie": false,
+  "etapes": 2,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.0204590659996029,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/dvh06_le_lendemain_d_une_assemblee_r4.jsonl"
+}

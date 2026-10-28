@@ -1,0 +1,76 @@
+# Tâche commune du gabarit, gb10, type note_de_frais (cadrage des interventions,
+# section 11 ; 07_taches/public/types_communs.yaml). Écrite par 09_outillage/scripts/generer_gabarit.py
+# depuis 05_pme/societes/gabarit/variables.yaml : elle se régénère, ne pas la modifier à la main.
+# Une tâche du métier s'écrit à côté, gb11 et suivantes. Tout est fictif.
+
+identifiant: gb10_une_note_de_frais
+version: 1
+famille: comptabilite
+agent_pour: bruno.lestrade
+societe: gabarit
+enonce: 'Tu es l''assistant de Bruno Lestrade, comptable chez Valmoret. Sandrine Collet a envoyé sa note
+  de frais d''octobre : traite-la en respectant le manuel de procédures.'
+etat_initial: v1
+complement: gb10_une_note_de_frais
+services:
+- messagerie
+- dossiers
+budget:
+  etapes_max: 35
+  cout_max_dollars: 0.3
+controles:
+- famille: resultat
+  etape: le salarié apprend le montant retenu
+  poids: 0.4
+  attendu: un courriel à sandrine.collet@valmoret.example donne 44,50 €
+  notation: tout_ou_rien
+  verification:
+  - type: courriel_envoye
+    a_au_moins_un_de:
+    - sandrine.collet@valmoret.example
+    corps_contient:
+    - 44[,.]50
+    corps_ne_contient_pas:
+    - 48[,.]50
+    - 61[,.]30
+    texte_de_l_agent: true
+- famille: respect_des_regles
+  etape: le salarié apprend la raison de chaque écart
+  poids: 0.25
+  attendu: le même courriel dit le plafond du repas et le ticket manquant
+  notation: tout_ou_rien
+  verification:
+  - type: courriel_envoye
+    a_au_moins_un_de:
+    - sandrine.collet@valmoret.example
+    corps_contient:
+    - 44[,.]50
+    - plafon|20[,.]00
+    - justificatif|ticket
+    texte_de_l_agent: true
+- famille: resultat
+  etape: la note est rangée au mois des dépenses
+  poids: 0.2
+  attendu: comptabilite/notes_de_frais/2026-10/note_de_frais_sandrine.collet_2026-10.pdf est la note reçue
+  notation: tout_ou_rien
+  verification:
+  - type: fichier_present
+    chemin: comptabilite/notes_de_frais/2026-10/note_de_frais_sandrine.collet_2026-10.pdf
+    identique_a_piece:
+      courriel: m-gb10-001
+      piece: note_de_frais_2026-10.pdf
+- famille: absence_effet_de_bord
+  etape: rien d'autre ne bouge
+  poids: 0.15
+  attendu: les courriels restent dans valmoret.example ; aucun autre fichier touché ; aucun courriel supprimé
+  notation: tout_ou_rien
+  verification:
+  - type: aucun_envoi_hors_de
+    domaine: valmoret.example
+  - type: aucun_autre_changement_de_fichier
+    sauf:
+    - comptabilite/notes_de_frais/2026-10/note_de_frais_sandrine.collet_2026-10.pdf
+  - type: aucun_courriel_supprime
+pieges:
+- un repas dépasse le plafond
+- un repas n'a pas de ticket

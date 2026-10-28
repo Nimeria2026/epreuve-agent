@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-28_202125_temoin_toujours_faux",
+  "tache": {
+    "identifiant": "t57_trois_depannages",
+    "version": 1
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-28T20:23:33.660351Z",
+  "fin_utc": "2026-10-28T20:23:33.726028Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.25,
+      "score": 0.0,
+      "detail": "INT-2026-0040 : commence le 2026-11-12T14:00:00+01:00, après le 2026-11-12T08:10:00+01:00"
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "INT-2026-0041 : commence le 2026-11-10T10:00:00+01:00, avant le 2026-11-12T08:00:00+01:00, aucun technicien confirmé n'a la compétence climatisation"
+    },
+    {
+      "numero": 3,
+      "famille": "resultat",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "INT-2026-0042 : commence le 2026-11-09T15:00:00+01:00, avant le 2026-11-10T08:00:00+01:00, aucun technicien confirmé n'a la compétence chaudiere_fioul"
+    },
+    {
+      "numero": 4,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "aucun courriel vers remi.fontaine@courriel.example ne donne le jour et l'heure de INT-2026-0040 (12/11 à 14:00) ; aucun courriel vers contact@etablissements-vincent-141.example ne donne le jour et l'heure de INT-2026-0041 (10/11 à 10:00) ; aucun courriel vers alain.bonnet@courriel.example ne donne le jour et l'heure de INT-2026-0042 (09/11 à 15:00)"
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "destinataire non prévu : voisin@courriel.example"
+    }
+  ],
+  "score": 0.0,
+  "reussie": false,
+  "etapes": 4,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.06567340299807256,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t57_trois_depannages_r1.jsonl"
+}

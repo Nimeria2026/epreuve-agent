@@ -1,0 +1,41 @@
+{
+  "run": "2026-10-21_125500_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t24_factures_a_payer",
+    "version": 3
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-21T13:47:24.756463Z",
+  "fin_utc": "2026-10-21T13:47:53.230448Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.8,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 30,
+  "jetons": {
+    "entree": 83179,
+    "entree_en_cache": 74240,
+    "sortie": 5009
+  },
+  "cout_dollars": 0.00456897,
+  "energie_wh": null,
+  "duree_secondes": 28.473980578011833,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t24_factures_a_payer_r3.jsonl"
+}

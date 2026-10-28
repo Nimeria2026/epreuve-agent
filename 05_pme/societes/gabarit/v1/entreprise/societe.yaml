@@ -1,0 +1,5 @@
+# Paramètres de Valmoret pour les services communs de la PME (contrat parametres_societe ;
+# ADR 0006). Écrit par generer_gabarit.py depuis variables.yaml. Tout est fictif.
+nom: Valmoret
+domaine: valmoret.example
+dossier_fiches_fournisseurs: fournisseurs

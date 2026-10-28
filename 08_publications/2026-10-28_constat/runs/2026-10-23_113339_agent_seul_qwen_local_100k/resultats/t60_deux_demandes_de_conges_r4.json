@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-23_113339_agent_seul_qwen_local_100k",
+  "tache": {
+    "identifiant": "t60_deux_demandes_de_conges",
+    "version": 3
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-23T16:13:27.297294Z",
+  "fin_utc": "2026-10-23T16:24:01.927973Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.25,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 16,
+  "jetons": {
+    "entree": 36387,
+    "entree_en_cache": "?",
+    "sortie": 25610
+  },
+  "cout_dollars": "?",
+  "energie_wh": 43.90374611135844,
+  "duree_secondes": 634.6306738050189,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t60_deux_demandes_de_conges_r4.jsonl"
+}

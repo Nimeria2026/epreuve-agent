@@ -1,0 +1,220 @@
+{
+ "identifiant": "2026-10-28_205038_temoin_parfait",
+ "debut_utc": "2026-10-28T20:50:38.253009Z",
+ "fin_utc": "2026-10-28T20:53:02.361893Z",
+ "statut": "termine",
+ "raison_interruption": null,
+ "code": {
+  "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+  "modifications_non_commitees": true
+ },
+ "candidat": {
+  "identifiant": "temoin_parfait",
+  "version": "1"
+ },
+ "configuration": {
+  "modeles": []
+ },
+ "empreinte_prompts": null,
+ "jeu_taches": {
+  "nom": "negovelle_v1",
+  "taches": [
+   {
+    "identifiant": "ng01_une_commande_en_rupture",
+    "version": 2,
+    "empreinte_complement": "sha256:3cb6f4e8b370af1d60280d42fc118bbafcd15f7c8b026a5c10aacf11163094a7"
+   },
+   {
+    "identifiant": "ng02_une_commande_au_dela_de_l_encours",
+    "version": 1,
+    "empreinte_complement": "sha256:aeb820c6a86404389ff68c38000b6825ea50a5e405ff1b23178314f7a3a61901"
+   },
+   {
+    "identifiant": "ng03_un_compte_en_contentieux",
+    "version": 1,
+    "empreinte_complement": "sha256:221887365454756f051a70b04aea5dc736f1a49399b310aa5867e87beab9aaf6"
+   },
+   {
+    "identifiant": "ng04_le_nouveau_rib_d_un_fournisseur",
+    "version": 1,
+    "empreinte_complement": "sha256:c4b0ab8530576954a40e53a2c7680587d55693c16cc5a0d9a2eb4afb66d9b4e2"
+   },
+   {
+    "identifiant": "ng05_le_prix_d_un_concurrent",
+    "version": 1,
+    "empreinte_complement": "sha256:191eae0c9c209195bb713eacc628cc7589b3bdf036e0482900742dde2dfd4629"
+   },
+   {
+    "identifiant": "ng06_trois_avoirs_demandes",
+    "version": 2,
+    "empreinte_complement": "sha256:d9ea1e08fdfb1fe3943e987efd96ad4f3784c4da23e377de667cbf5dab6dfdf5"
+   },
+   {
+    "identifiant": "ng07_deux_demandes_du_president",
+    "version": 1,
+    "empreinte_complement": "sha256:6470fcef686f818136702f587474dc6c783e7064d09adfbcb3803de9d6b0b846"
+   },
+   {
+    "identifiant": "ng08_les_factures_des_fournisseurs",
+    "version": 1,
+    "empreinte_complement": "sha256:0d5c0a8548d81ed6612fedadd6a5c640a099d104c1c4fb476a81441f4e7a2e03"
+   },
+   {
+    "identifiant": "ng09_contact_du_lundi",
+    "version": 1,
+    "empreinte_complement": "sha256:4f641f6f5450d1e0b52044a897c0b71679c96a63029cdbc504fafb9eb484f4f6"
+   },
+   {
+    "identifiant": "ng10_le_releve_d_un_client",
+    "version": 2,
+    "empreinte_complement": "sha256:b3304b1e47b4a2a7cade4655cfcb8d1bd9fa36ca66cc7847d0414e2fc74ba05b"
+   },
+   {
+    "identifiant": "ng11_une_livraison_incomplete",
+    "version": 1,
+    "empreinte_complement": "sha256:9542a3526f0b34b3dfc9e7444b7da4238a94f6f09c4e2a217d63e9ccf67c099d"
+   },
+   {
+    "identifiant": "ng12_une_adresse_de_livraison_nouvelle",
+    "version": 1,
+    "empreinte_complement": "sha256:bd68f3ae98ce149d418454879726281b7c84af150f271d13c49b006c9b4ab93c"
+   },
+   {
+    "identifiant": "ng13_trois_alignements_de_prix",
+    "version": 1,
+    "empreinte_complement": "sha256:2b9571eb5857abd541125c8a51a1034dda43c0d4398c415d2e8cdf5de2183595"
+   },
+   {
+    "identifiant": "ng14_les_relances_de_juillet",
+    "version": 2,
+    "empreinte_complement": "sha256:20c34b727c589d8e06c5344da44e4e9693f0556fb77b570df8f481a06f35d695"
+   },
+   {
+    "identifiant": "ng15_l_arret_d_un_preparateur",
+    "version": 1,
+    "empreinte_complement": "sha256:b0891bb7e79beae76b9581ce860fb92f140ff69a52406f3f8f62bb459e5ed2e6"
+   },
+   {
+    "identifiant": "ng16_la_note_de_frais_d_aurelie",
+    "version": 1,
+    "empreinte_complement": "sha256:189482e49f08185f98332f9c7b487a23820909ad41b0ee23832d11111f9bd113"
+   },
+   {
+    "identifiant": "ng17_des_delais_de_paiement_demandes",
+    "version": 1,
+    "empreinte_complement": "sha256:781495b2ae7566186c4b935d885ec0e320f1398b18da5613715b175ed3575900"
+   },
+   {
+    "identifiant": "ng18_trois_retours",
+    "version": 1,
+    "empreinte_complement": "sha256:91704c220c8d84f3f7d43791f20a2fdea37da7f77fb83812f9d5f962713438b4"
+   },
+   {
+    "identifiant": "ng19_le_nouveau_rib_du_transporteur",
+    "version": 1,
+    "empreinte_complement": "sha256:d338ff4cb00da4f4079d67680ff00c85ec4a828e470ea8bb8060297d4cfa8edb"
+   },
+   {
+    "identifiant": "ng20_un_bon_de_commande_piege",
+    "version": 1,
+    "empreinte_complement": "sha256:ba3fdcd899dabc2923e5138df271c2d4dfce6de6a2634962b75fd492ace07ca3"
+   },
+   {
+    "identifiant": "ng21_commandes_du_lundi",
+    "version": 1,
+    "empreinte_complement": "sha256:dcf4c58d42e2e2d74fd28709cf294928b56019bc3266c92d7343401a86d1617d"
+   },
+   {
+    "identifiant": "ng22_sav_du_lundi",
+    "version": 1,
+    "empreinte_complement": "sha256:73efc40e5a92b269e22aefa34109658b408a1bc8f34989d1828dd92757b20dad"
+   },
+   {
+    "identifiant": "ng23_deux_demandes_du_president_a_l_accueil",
+    "version": 1,
+    "empreinte_complement": "sha256:040c38279e5444759e90b63beee8e52c76e25e1ac3b82dd12941bace796bed1e"
+   },
+   {
+    "identifiant": "ng24_un_courriel_pour_deux",
+    "version": 1,
+    "empreinte_complement": "sha256:46e4c6fd69cf4f067108e75517dcdb4fcb384087912ae72864897330d1903933"
+   },
+   {
+    "identifiant": "ng25_deux_casses_livrees_par_les_camionnettes",
+    "version": 1,
+    "empreinte_complement": "sha256:39d37d97692617578e93d5f2239e69714b857fe46d288888ec114ceea6997d8a"
+   },
+   {
+    "identifiant": "ng26_un_prix_convenu_avec_le_commercial",
+    "version": 1,
+    "empreinte_complement": "sha256:9a5c057fa9a7315d6d57345257d04d26a6202e255e6a64ac06fefc9186d67550"
+   },
+   {
+    "identifiant": "ng27_une_demande_de_prix_pour_un_chantier",
+    "version": 1,
+    "empreinte_complement": "sha256:2a7a7b167fa8f836ff1c1b39847cf0a4e47edfead9265a0d1625aa255fed8b58"
+   },
+   {
+    "identifiant": "ng28_un_article_dereference",
+    "version": 1,
+    "empreinte_complement": "sha256:ebe3280e09f110d5942b7ef25072cf4ee677ecbe4abedbdf664471adf48fd3aa"
+   },
+   {
+    "identifiant": "ng29_le_franco_apres_la_remise",
+    "version": 1,
+    "empreinte_complement": "sha256:43efbe94d98958a236a44867dbbd355e5656899be94aca6e8756ac5dde758ea8"
+   },
+   {
+    "identifiant": "ng30_les_dates_de_livraison_autour_du_14_juillet",
+    "version": 1,
+    "empreinte_complement": "sha256:77d351ecdd110f3d4078c8c8c67414d6b351cd012f9f61b3fb16925b305bc2db"
+   },
+   {
+    "identifiant": "ng31_une_commande_pour_demain_sur_un_chantier",
+    "version": 1,
+    "empreinte_complement": "sha256:a506ac8bb6c40ddb2034ee57684ccacaa5f833f6755ff6319d75d43d844e7687"
+   },
+   {
+    "identifiant": "ng32_un_reassort_en_retard",
+    "version": 1,
+    "empreinte_complement": "sha256:585f408d2bad7dee0fa327f9f4d1aa9b7bafedbbcbde587e4f4fbe4fa9f2b6f7"
+   },
+   {
+    "identifiant": "ng33_la_preparation_des_express",
+    "version": 1,
+    "empreinte_complement": "sha256:8ba0ffdc71e4be9c1d49237007c53caa0effc008c28891bb4cef5401376333b0"
+   },
+   {
+    "identifiant": "ng34_une_candidature_recommandee",
+    "version": 1,
+    "empreinte_complement": "sha256:22d7a195cee1750e39d9e7ea3a3b1d2d7f4415ebcb5fbf3260ef18a5b6db7164"
+   },
+   {
+    "identifiant": "ng35_une_fausse_demande_pour_la_paie",
+    "version": 1,
+    "empreinte_complement": "sha256:e41ae6f462b5949cc69287f7828904b593f5ec69425b49360244ecf924463741"
+   },
+   {
+    "identifiant": "ng36_la_note_de_frais_de_patrice_lemaire",
+    "version": 1,
+    "empreinte_complement": "sha256:bc9ab3ff336e52544b931d832d3309788a873a7ed66b15f14d3eb64c2b0412ff"
+   },
+   {
+    "identifiant": "ng37_deux_arrivees_en_juillet",
+    "version": 1,
+    "empreinte_complement": "sha256:875e232e0476afa350a866870029b474c54a94b455cc055eeaf1f6f6f7389684"
+   }
+  ],
+  "empreinte": "sha256:355626823f58742ae6ee6105271fb85bf97229ced58404ed44c75dcd81017bbe"
+ },
+ "etat_pme": {
+  "version": "v1",
+  "empreinte": "sha256:45ce2d0ae1e61baf3243dd3280da41281d4e42b91c2e4e6e9da15bab46776ed1",
+  "societe": "negovelle"
+ },
+ "regles_gardien": null,
+ "repetitions": 4,
+ "machine": null,
+ "juge": null,
+ "banc_public": null
+}

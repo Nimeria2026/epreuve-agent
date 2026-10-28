@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-28_203419_temoin_inerte",
+  "tache": {
+    "identifiant": "h06_la_cloture_d_octobre",
+    "version": 8
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-28T20:34:32.190191Z",
+  "fin_utc": "2026-10-28T20:34:32.190423Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['yanis.haddad@calorelle.example'], 'corps_contient': ['100[,.]8|22[,.]9|6[,.]4|16[,.]5'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['yanis.haddad@calorelle.example'], 'corps_contient': ['20[,.]00?\\\\s*€|0[,.]45|plafon|bar[èe]me'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['kevin.lambert@calorelle.example'], 'corps_contient': ['73[,.]7|6[,.]00?\\\\s*€|\\\\b6\\\\s*€'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['kevin.lambert@calorelle.example'], 'corps_contient': ['justificatif|ticket|re[çc]u|pi[èe]ce'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['nicolas.blanc@calorelle.example'], 'corps_contient': ['56[,.]6|20[,.]7'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['nicolas.blanc@calorelle.example'], 'corps_contient': ['fourgon|v[ée]hicule|voiture|camion|utilitaire|bar[èe]me'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['florian.masson@calorelle.example'], 'corps_contient': ['48[,.]8|26[,.]1|\\\\b2[,.]00?\\\\s*€|\\\\b2\\\\s*€'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['florian.masson@calorelle.example'], 'corps_contient': ['26[,.]1|calcul|0[,.]45|erreur|bar[èe]me'], 'texte_de_l_agent': True} ; juge requis, non évalué : Le courriel dit à Yanis ce qui ne lui est pas remboursé et pourquoi, sans erreur de montant ; donner le montant remboursé ou l'écart suffit.\n ; juge requis, non évalué : Le courriel dit à Kevin que son stationnement n'est pas remboursé, faute de justificatif, sans erreur de montant ; donner le montant remboursé ou l'écart suffit.\n ; juge requis, non évalué : Le courriel dit à Nicolas que ce trajet n'est pas remboursé, et pourquoi, sans erreur de montant ; donner le montant remboursé ou l'écart suffit.\n ; juge requis, non évalué : Le courriel signale à Florian l'écart sur ses frais kilométriques, 26,10 € et non 28,10 €, ou les 2,00 € non remboursés, sans erreur de montant ; donner seulement le montant remboursé, 48,80 €, suffit aussi.\n"
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['compta@outillage-de-mirelande.example'], 'corps_contient': ['\\\\b29\\\\s+oct|\\\\b29[/.]10'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['compta@robinetterie-des-greves.example'], 'corps_contient': ['\\\\b22\\\\s+nov|\\\\b22[/.]11'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['compta@transports-de-sablonnet.example'], 'corps_contient': ['re[çc]u|parvenu|trouv|figure|copie|renvo|duplicata|transmet|trace|exemplaire|adresser'], 'texte_de_l_agent': True} ; absent : administration/factures_fournisseurs/2026-10/informatique-des-greves_ig-2026-0412.pdf ; absent : administration/factures_fournisseurs/2026-09/fumisterie-du-pre-bouvreuil_fpb-26-061.pdf ; présent : administration/factures_fournisseurs/2026-10/fumisterie-du-pre-bouvreuil_fpb-26-061.pdf ; juge requis, non évalué : Le courriel dit au fournisseur que la facture n'a pas été reçue et lui en demande une copie, sans dire qu'elle est réglée ni promettre une date de règlement ; promettre de la traiter ou de la régler à sa réception n'est pas une date.\n"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.25,
+      "score": 0.2,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['IG[-‑]2026[-‑]0412', 'valid|accord|approb|autoris|feu vert|signature']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['IG[-‑]2026[-‑]0391', 'EVM[-‑]1984']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': [\"AV[-‑]?1991|273[,.]6|l'avoir|un avoir|cet avoir|son avoir|leur avoir\"], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['69[,.]3', '100[,.]8', '73[,.]7', '56[,.]6', '48[,.]8'], 'texte_de_l_agent': True} ; juge requis, non évalué : Le courriel donne les factures à virer cette semaine, toutes prises parmi IG-2026-0391, EVM-1984 et IG-2026-0412 ; les notes de frais, et une facture citée à part pour plus tard, ne comptent pas.\n"
+    },
+    {
+      "numero": 4,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['349[,.]20?'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.15000000000000002,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.00022786399495089427,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h06_la_cloture_d_octobre_r2.jsonl"
+}

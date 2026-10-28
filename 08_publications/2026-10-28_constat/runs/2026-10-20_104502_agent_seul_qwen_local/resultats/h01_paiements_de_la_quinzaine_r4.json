@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-20_104502_agent_seul_qwen_local",
+  "tache": {
+    "identifiant": "h01_paiements_de_la_quinzaine",
+    "version": 3
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-20T11:46:49.025394Z",
+  "fin_utc": "2026-10-20T12:11:57.307467Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.35,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "créé administration/factures_fournisseurs/2026-10/transports-de-sablonnet_ts-08812_duplicata.pdf"
+    }
+  ],
+  "score": 0.8999999999999999,
+  "reussie": false,
+  "etapes": 42,
+  "jetons": {
+    "entree": 103328,
+    "entree_en_cache": "?",
+    "sortie": 60497
+  },
+  "cout_dollars": "?",
+  "energie_wh": 104.4476067364399,
+  "duree_secondes": 1508.282068962988,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h01_paiements_de_la_quinzaine_r4.jsonl"
+}

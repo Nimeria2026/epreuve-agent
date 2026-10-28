@@ -1,0 +1,47 @@
+{
+  "run": "2026-10-09_220655_agent_seul_qwen_local",
+  "tache": {
+    "identifiant": "t44_note_de_frais",
+    "version": 2
+  },
+  "repetition": 5,
+  "debut_utc": "2026-10-10T14:50:38.396180Z",
+  "fin_utc": "2026-10-10T14:57:09.483063Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 25,
+  "jetons": {
+    "entree": 110117,
+    "entree_en_cache": "?",
+    "sortie": 13320
+  },
+  "cout_dollars": "?",
+  "energie_wh": 27.008482502551438,
+  "duree_secondes": 391.0868768379878,
+  "journal": "journaux/t44_note_de_frais_r5.jsonl"
+}

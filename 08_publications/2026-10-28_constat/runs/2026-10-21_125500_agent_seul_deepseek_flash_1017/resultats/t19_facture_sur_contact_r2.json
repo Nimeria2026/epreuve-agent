@@ -1,0 +1,41 @@
+{
+  "run": "2026-10-21_125500_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t19_facture_sur_contact",
+    "version": 2
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-21T13:37:50.026291Z",
+  "fin_utc": "2026-10-21T13:38:02.256322Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.6,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 10,
+  "jetons": {
+    "entree": 28608,
+    "entree_en_cache": 24192,
+    "sortie": 1250
+  },
+  "cout_dollars": 0.001484976,
+  "energie_wh": null,
+  "duree_secondes": 12.230025150987785,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t19_facture_sur_contact_r2.jsonl"
+}

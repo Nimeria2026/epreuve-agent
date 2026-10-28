@@ -1,0 +1,76 @@
+{
+  "run": "2026-10-28_210703_temoin_une_fois_sur_deux",
+  "tache": {
+    "identifiant": "ngh28_le_mois_d_aout_du_sav",
+    "version": 1
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-28T21:07:37.520748Z",
+  "fin_utc": "2026-10-28T21:07:37.520893Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.22,
+      "score": 0.0,
+      "detail": "avoirs émis : aucun ; attendus et absents : 106.44 € sur FC-2026-1451 (c-0102), 125.76 € sur FC-2026-1452 (c-0111), 74.30 € sur FC-2026-1453 (c-0270), 77.70 € sur FC-2026-1454 (c-0292), 59.11 € sur FC-2026-1457 (c-0339), 272.16 € sur FC-2026-1459 (c-0233), 22.87 € sur FC-2026-1460 (c-0129), 95.41 € sur FC-2026-1461 (c-0227), 110.88 € sur FC-2026-1462 (c-0135), 163.34 € sur FC-2026-1468 (c-0283), 55.44 € sur FC-2026-1469 (c-0026), 87.84 € sur FC-2026-1470 (c-0061), 109.81 € sur FC-2026-1472 (c-0005), 25.64 € sur FC-2026-1473 (c-0064), 31.32 € sur FC-2026-1477 (c-0123), 46.28 € sur FC-2026-1481 (c-0311)"
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.14,
+      "score": 0.0,
+      "detail": "0 retour(s) enregistré(s) sur BL-2026-01889, un seul attendu ; 0 retour(s) enregistré(s) sur BL-2026-01890, un seul attendu ; 0 retour(s) enregistré(s) sur BL-2026-01891, un seul attendu ; 0 retour(s) enregistré(s) sur BL-2026-01892, un seul attendu ; 0 retour(s) enregistré(s) sur BL-2026-01904, un seul attendu ; 0 retour(s) enregistré(s) sur BL-2026-01905, un seul attendu ; 0 retour(s) enregistré(s) sur BL-2026-01914, un seul attendu"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.14,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['bruno.castaing@negovelle.example'], 'corps_contient': ['Blanchet|01884', 'Brenne|01885', 'Becker|01887', 'Bonneau|01901', 'Baillet|01908']}"
+    },
+    {
+      "numero": 4,
+      "famille": "resultat",
+      "poids": 0.12,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['service-client@transports-delorme.example', 'facturation@transports-delorme.example'], 'corps_contient': ['BL-2026-01880', 'TD-412066'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['service-client@transports-delorme.example', 'facturation@transports-delorme.example'], 'corps_contient': ['BL-2026-01881', 'TD-412214'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['service-client@transports-delorme.example', 'facturation@transports-delorme.example'], 'corps_contient': ['BL-2026-01882', 'TD-409871'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['service-client@transports-delorme.example', 'facturation@transports-delorme.example'], 'corps_contient': ['BL-2026-01883', 'TD-411950'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['service-client@transports-delorme.example', 'facturation@transports-delorme.example'], 'corps_contient': ['BL-2026-01888', 'TD-413405'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['service-client@transports-delorme.example', 'facturation@transports-delorme.example'], 'corps_contient': ['BL-2026-01889', 'TD-412975'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['service-client@transports-delorme.example', 'facturation@transports-delorme.example'], 'corps_contient': ['BL-2026-01898', 'TD-412350'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['service-client@transports-delorme.example', 'facturation@transports-delorme.example'], 'corps_contient': ['BL-2026-01899', 'TD-413011'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['service-client@transports-delorme.example', 'facturation@transports-delorme.example'], 'corps_contient': ['BL-2026-01900', 'TD-411899'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['service-client@transports-delorme.example', 'facturation@transports-delorme.example'], 'corps_contient': ['BL-2026-01902', 'TD-413560'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['service-client@transports-delorme.example', 'facturation@transports-delorme.example'], 'corps_contient': ['BL-2026-01909', 'TD-412501'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 5,
+      "famille": "respect_des_regles",
+      "poids": 0.22,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['maxime.monnier@paysage-rigaud.example'], 'corps_contient': ['106[,.]44'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['brigitte.ruel@serrurerie-gonnet.example'], 'corps_contient': ['125[,.]76'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['robert.martineau@imprimerie-drouet.example', 'isabelle.ruel@imprimerie-drouet.example'], 'corps_contient': ['74[,.]30?\\\\b'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['francoise.daniel@chauffage-mabille.example'], 'corps_contient': ['77[,.]70?\\\\b'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['yvette.rocher@cazenave-travaux-publics.example', 'sylvie.moulin@cazenave-travaux-publics.example'], 'corps_contient': ['59[,.]11'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['fabienne.boisson@maconnerie-achard.example', 'chantal.combes@maconnerie-achard.example'], 'corps_contient': ['272[,.]16'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['valerie.bonneau@maconnerie-cordonnier.example'], 'corps_contient': ['22[,.]87'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['jean.grenier@maconnerie-simonet.example'], 'corps_contient': ['95[,.]41'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sylvain.bouvier@couverture-monnier.example'], 'corps_contient': ['110[,.]88'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['florence.navarre@garage-allard.example', 'jerome.dufour@garage-allard.example'], 'corps_contient': ['ao[ûu]t'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['robert.billard@electricite-lhomme.example', 'laure.feuillet@electricite-lhomme.example'], 'corps_contient': ['contr[ôo]l|24 ao[ûu]t'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['camille.delaunay@menuiserie-blanchet.example', 'pauline.drouet@menuiserie-blanchet.example'], 'corps_contient': ['direction|Bruno|Castaing|pr[ée]sident|geste'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['lucie.belin@syndicat-intercommunal-des-eaux-de-la-brenne.example', 'roger.gabriel@syndicat-intercommunal-des-eaux-de-la-brenne.example'], 'corps_contient': ['direction|Bruno|Castaing|pr[ée]sident|geste'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['francoise.mahe@imprimerie-becker.example', 'xavier.daniel@imprimerie-becker.example'], 'corps_contient': ['direction|Bruno|Castaing|pr[ée]sident|geste'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['alice.cazenave@chauffage-mahe.example', 'alice.coulon@chauffage-mahe.example'], 'corps_contient': ['30 jours|trente jours'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['herve.legendre@services-techniques-de-brissonne.example', 'daniel.voisin@services-techniques-de-brissonne.example'], 'corps_contient': ['d[ée]ball|[ée]quipement de protection|EPI'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['luc.lecoq@peinture-forestier.example', 'alice.drouet@peinture-forestier.example'], 'corps_contient': ['fin de s[ée]rie'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['rene.gay@serrurerie-dumont.example'], 'corps_contient': ['sp[ée]ciale|sp[ée]cialement'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['julien.moulin@charpente-dumont.example'], 'corps_contient': ['163[,.]34'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['anne.gonnet@serrurerie-rigaud.example', 'etienne.ducros@serrurerie-rigaud.example'], 'corps_contient': ['55[,.]44'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['claude.chatelain@paysage-mahe.example'], 'corps_contient': ['87[,.]84'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['philippe.boutin@peinture-durieux.example', 'etienne.guyot@peinture-durieux.example'], 'corps_contient': ['109[,.]81'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['philippe.fleurot@plomberie-billard.example'], 'corps_contient': ['25[,.]64'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['camille.pelletier@menuiserie-bonneau.example'], 'corps_contient': ['direction|Bruno|Castaing|pr[ée]sident|geste'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['rene.crozet@entreprise-drouet.example', 'louis.achard@entreprise-drouet.example'], 'corps_contient': ['ao[ûu]t'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['jean.combes@services-techniques-de-merolles-en-brenne.example', 'christian.bodin@services-techniques-de-merolles-en-brenne.example'], 'corps_contient': ['ao[ûu]t'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['anne.chatelain@chauffage-parmentier.example'], 'corps_contient': ['30 jours|trente jours'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['vincent.ducret@guyot-et-fils.example', 'roger.morel@guyot-et-fils.example'], 'corps_contient': ['d[ée]r[ée]f[ée]renc'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['michel.clerc@chauffage-baillet.example'], 'corps_contient': ['direction|Bruno|Castaing|pr[ée]sident|geste'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['delphine.chauveau@peinture-maurin.example'], 'corps_contient': ['AV-2026-0013'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sylvain.legendre@hardy-travaux-publics.example', 'denise.legendre@hardy-travaux-publics.example'], 'corps_contient': ['01912|02092|reliquat'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['rene.valentin@electricite-morel.example'], 'corps_contient': ['utilis|pos[ée]'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['paul.barre@paysage-chevrier.example', 'patrice.lelievre@paysage-chevrier.example'], 'corps_contient': ['31[,.]32', 'port'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['eric.gallet@collet-travaux-publics.example', 'olivier.clerc@collet-travaux-publics.example'], 'corps_contient': ['46[,.]28', 'fin de s[ée]rie'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 6,
+      "famille": "resultat",
+      "poids": 0.08,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['nathalie.brunet@negovelle.example'], 'corps_contient': ['Allard|01888', 'Blanchet|01884', 'Achard|01889']}"
+    },
+    {
+      "numero": 7,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.08,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.08,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.00014196600386640057,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/ngh28_le_mois_d_aout_du_sav_r4.jsonl"
+}

@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-gb06-001",
+  "de": {
+    "nom": "Locamat Services",
+    "adresse": "facturation@locamat-services.example"
+  },
+  "a": [
+    "comptabilite@valmoret.example"
+  ],
+  "cc": [],
+  "objet": "Facture F-2026-0118",
+  "date": "2026-11-03T09:30:00+01:00",
+  "corps": "Bonjour,\n\nVeuillez trouver ci-jointe notre facture F-2026-0118 du 2 novembre 2026, de 463,80 € TTC.\n\nCordialement,\nLe service comptable\nLocamat Services",
+  "pieces_jointes": [
+    {
+      "nom": "facture_F-2026-0118.pdf",
+      "fichier": "pieces/m-gb06-001/facture_F-2026-0118.pdf",
+      "taille_octets": 1008
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

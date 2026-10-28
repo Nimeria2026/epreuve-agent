@@ -1,0 +1,41 @@
+{
+  "run": "2026-10-26_120743_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "t34_acces_nouvel_apprenti",
+    "version": 2
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-26T15:33:17.101649Z",
+  "fin_utc": "2026-10-26T15:34:35.639006Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "contenu",
+      "poids": 0.8,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 13,
+  "jetons": {
+    "entree": 34887,
+    "entree_en_cache": 30164,
+    "sortie": 4615
+  },
+  "cout_dollars": "?",
+  "energie_wh": 5.112800447871999,
+  "duree_secondes": 78.53735100300037,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t34_acces_nouvel_apprenti_r3.jsonl"
+}

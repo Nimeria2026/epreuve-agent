@@ -1,0 +1,90 @@
+{
+  "run": "2026-10-19_071004_agent_seul_qwen_local",
+  "tache": {
+    "identifiant": "h08_contact_apres_trois_jours",
+    "version": 4
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-19T18:41:04.072293Z",
+  "fin_utc": "2026-10-19T19:10:44.361735Z",
+  "arret": "contexte_depasse",
+  "detail_arret": "contexte du modèle dépassé : tour coupé par le serveur (fin length) après 16510 jetons écrits, sans appel d'outil",
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a': ['julie.perrin@calorelle.example'], 'cc': [], 'transfere_de': 'm-ctc-806'} ; aucun courriel envoyé ne remplit {'a': ['julie.perrin@calorelle.example'], 'cc': [], 'transfere_de': 'm-ctc-812'} ; aucun courriel envoyé ne remplit {'a': ['julie.perrin@calorelle.example'], 'cc': [], 'transfere_de': 'm-ctc-818'} ; aucun courriel envoyé ne remplit {'a': ['julie.perrin@calorelle.example'], 'cc': [], 'transfere_de': 'm-ctc-830'} ; aucun courriel envoyé ne remplit {'a': ['julie.perrin@calorelle.example'], 'corps_contient': ['Masse']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['julie.perrin@calorelle.example'], 'transfere_de': 'm-ctc-829'} ; aucun courriel envoyé ne remplit {'a': ['karim.benali@calorelle.example'], 'cc': [], 'transfere_de': 'm-ctc-803'} ; aucun courriel envoyé ne remplit {'a': ['karim.benali@calorelle.example'], 'cc': [], 'transfere_de': 'm-ctc-809'} ; aucun courriel envoyé ne remplit {'a': ['karim.benali@calorelle.example'], 'cc': [], 'transfere_de': 'm-ctc-815'} ; aucun courriel envoyé ne remplit {'a': ['karim.benali@calorelle.example'], 'cc': [], 'transfere_de': 'm-ctc-827'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'transfere_de': 'm-ctc-808'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'transfere_de': 'm-ctc-808'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'transfere_de': 'm-ctc-821'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'transfere_de': 'm-ctc-821'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'transfere_de': 'm-ctc-835'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'transfere_de': 'm-ctc-835'} ; aucun courriel envoyé ne remplit {'a': ['marc.duval@calorelle.example'], 'cc': [], 'transfere_de': 'm-ctc-802'} ; aucun courriel envoyé ne remplit {'a': ['marc.duval@calorelle.example'], 'cc': [], 'transfere_de': 'm-ctc-805'} ; aucun courriel envoyé ne remplit {'a': ['marc.duval@calorelle.example'], 'cc': [], 'transfere_de': 'm-ctc-820'} ; aucun courriel envoyé ne remplit {'a': ['marc.duval@calorelle.example'], 'cc': [], 'transfere_de': 'm-ctc-825'} ; aucun courriel envoyé ne remplit {'a': ['marc.duval@calorelle.example'], 'cc': [], 'transfere_de': 'm-ctc-832'} ; aucun courriel envoyé ne remplit {'a': ['marc.duval@calorelle.example'], 'cc': [], 'transfere_de': 'm-ctc-838'} ; aucun courriel envoyé ne remplit {'a': ['marc.duval@calorelle.example'], 'cc': [], 'transfere_de': 'm-ctc-840'} ; aucun courriel envoyé ne remplit {'a': ['marc.duval@calorelle.example'], 'corps_contient': ['Lopez']} ; aucun courriel envoyé ne remplit {'a': ['comptabilite@calorelle.example'], 'cc': [], 'transfere_de': 'm-ctc-804'} ; aucun courriel envoyé ne remplit {'a': ['comptabilite@calorelle.example'], 'cc': [], 'transfere_de': 'm-ctc-814'} ; aucun courriel envoyé ne remplit {'a': ['comptabilite@calorelle.example'], 'cc': [], 'transfere_de': 'm-ctc-833'}"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.5,
+      "detail": "0 envoi(s) en transfert de m-ctc-801, m-ctc-823 pour 1 attendu(s) ; 0 envoi(s) en transfert de m-ctc-810, m-ctc-816, m-ctc-824 pour 1 attendu(s)"
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'transfere_de': 'm-ctc-802', 'corps_contient': ['\\\\bc-0010\\\\b']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'transfere_de': 'm-ctc-820', 'corps_contient': ['\\\\bc-0346\\\\b']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'transfere_de': 'm-ctc-840', 'corps_contient': ['\\\\bc-0039\\\\b']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'transfere_de': 'm-ctc-838', 'corps_contient': ['\\\\bc-0020\\\\b']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'transfere_de': 'm-ctc-832', 'corps_contient': ['\\\\bc-0025\\\\b']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'transfere_de': 'm-ctc-825', 'corps_contient': ['\\\\bc-0552\\\\b']}"
+    },
+    {
+      "numero": 4,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "absent : rh/candidatures/CV_Bastien_Royer.pdf ; absent : rh/candidatures/CV_Ines_Vidal.pdf ; absent : rh/arrets/arret_de_travail_Guerin.pdf"
+    },
+    {
+      "numero": 5,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.6,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['Romain|Gu[ée]rin', '\\\\b0?5\\\\s+nov|\\\\b0?5[/.]11|jeudi'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['Kevin|Lambert', '\\\\b0?5\\\\s+nov|\\\\b0?5[/.]11|jeudi'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 6,
+      "famille": "respect_des_regles",
+      "poids": 0.15,
+      "score": 0.5714285714285714,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'transfere_de': 'm-sl-803'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['aurelie.garnier@courriel.example'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['thomas.girard@calorelle.example']}"
+    },
+    {
+      "numero": 7,
+      "famille": "contenu",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['patrick.roux@calorelle.example'], 'corps_contient': ['1203'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 8,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['Legrand', 'Clos.?Fargeau', 'Bernard', 'Garnier'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['Julie|Perrin', 'Romain|Gu[ée]rin', 'Kevin|Lambert'], 'texte_de_l_agent': True} ; aucun courriel à juger pour : Le courriel dit à la gérante que ces quatre réclamations sont confiées à Karim Benali.\n ; aucun courriel à juger pour : Le courriel donne à la gérante ces trois absences, chacune avec ses dates, sous n'importe quelle forme (du 2 au 4 novembre, 2-4/11) ; en donner le motif à la gérante est permis.\n"
+    },
+    {
+      "numero": 9,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.2957142857142857,
+  "reussie": false,
+  "etapes": 60,
+  "jetons": {
+    "entree": 299587,
+    "entree_en_cache": "?",
+    "sortie": 68000
+  },
+  "cout_dollars": "?",
+  "energie_wh": 123.29199682340808,
+  "duree_secondes": 1780.2894363829982,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h08_contact_apres_trois_jours_r3.jsonl"
+}

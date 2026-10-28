@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-23_003934_agent_seul_qwen_local_100k",
+  "tache": {
+    "identifiant": "t56_deux_resiliations_et_le_planning",
+    "version": 1
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-23T07:15:02.439912Z",
+  "fin_utc": "2026-10-23T07:34:08.643551Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.35,
+      "score": 0.0,
+      "detail": "INT-2026-0038 modifiée ou supprimée"
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "créé interventions/INT-2026-0041.json ; modifié interventions/INT-2026-0038.json"
+    }
+  ],
+  "score": 0.5,
+  "reussie": false,
+  "etapes": 28,
+  "jetons": {
+    "entree": 223007,
+    "entree_en_cache": "?",
+    "sortie": 46114
+  },
+  "cout_dollars": "?",
+  "energie_wh": 79.4124877936503,
+  "duree_secondes": 1146.2036338729667,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t56_deux_resiliations_et_le_planning_r4.jsonl"
+}

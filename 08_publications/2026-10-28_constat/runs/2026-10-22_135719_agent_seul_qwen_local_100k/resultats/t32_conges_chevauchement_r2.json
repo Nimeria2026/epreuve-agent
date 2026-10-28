@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-22_135719_agent_seul_qwen_local_100k",
+  "tache": {
+    "identifiant": "t32_conges_chevauchement",
+    "version": 2
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-22T21:14:12.750894Z",
+  "fin_utc": "2026-10-22T21:18:30.820711Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "contenu",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 15,
+  "jetons": {
+    "entree": 38515,
+    "entree_en_cache": "?",
+    "sortie": 10403
+  },
+  "cout_dollars": "?",
+  "energie_wh": 17.84319818478448,
+  "duree_secondes": 258.0698117290158,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t32_conges_chevauchement_r2.jsonl"
+}

@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-23_113339_agent_seul_qwen_local_100k",
+  "tache": {
+    "identifiant": "t55_une_pose_sur_deux_jours",
+    "version": 2
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-23T13:05:09.350375Z",
+  "fin_utc": "2026-10-23T13:45:46.775581Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.35,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.25,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 49,
+  "jetons": {
+    "entree": 329736,
+    "entree_en_cache": "?",
+    "sortie": 95736
+  },
+  "cout_dollars": "?",
+  "energie_wh": 168.86256324673957,
+  "duree_secondes": 2437.4251991549972,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t55_une_pose_sur_deux_jours_r2.jsonl"
+}

@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-21_010546_agent_seul_qwen_local_100k",
+  "tache": {
+    "identifiant": "h09_la_vague_de_froid",
+    "version": 1
+  },
+  "repetition": 5,
+  "debut_utc": "2026-10-21T20:08:53.718998Z",
+  "fin_utc": "2026-10-21T21:57:06.372844Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.25,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 0.9411764705882353,
+      "detail": "thomas.girard ne reçoit pas le jour et l'heure de INT-2026-0055"
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.9882352941176471,
+  "reussie": false,
+  "etapes": 140,
+  "jetons": {
+    "entree": 757454,
+    "entree_en_cache": "?",
+    "sortie": 241862
+  },
+  "cout_dollars": "?",
+  "energie_wh": 449.9114788227708,
+  "duree_secondes": 6492.653840063023,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h09_la_vague_de_froid_r5.jsonl"
+}

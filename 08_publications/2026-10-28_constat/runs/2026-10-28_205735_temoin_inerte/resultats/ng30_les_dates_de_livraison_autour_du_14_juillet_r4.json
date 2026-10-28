@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-28_205735_temoin_inerte",
+  "tache": {
+    "identifiant": "ng30_les_dates_de_livraison_autour_du_14_juillet",
+    "version": 1
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-28T20:59:22.909408Z",
+  "fin_utc": "2026-10-28T20:59:22.909566Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['nathalie.ernault@electricite-chauveau.example', 'simone.salmon@electricite-chauveau.example'], 'corps_contient': ['13 juillet|lundi 13|13/0?7'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['alain.mignot@platrerie-desjardins.example', 'sylvain.belin@platrerie-desjardins.example'], 'corps_contient': ['1[56] juillet|(?:mercredi|jeudi) 1[56]|1[56]/0?7'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 3,
+      "famille": "resultat",
+      "poids": 0.25,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sandrine.clerc@paysage-dumont.example'], 'corps_contient': ['16 juillet|jeudi 16|16/0?7'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.15,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.0001521740050520748,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/ng30_les_dates_de_livraison_autour_du_14_juillet_r4.jsonl"
+}

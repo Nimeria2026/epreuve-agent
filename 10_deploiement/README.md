@@ -26,7 +26,7 @@ Python, ni Node, ni uv. Pour vérifier :
 ## Pas à pas
 
 Chaque commande se copie telle quelle, depuis n'importe quel dossier : elle commence par se placer
-à la racine du clone, `~/poa_banc`. Si ce dossier existe déjà, en choisir un autre et le remplacer
+à la racine du clone, `~/epreuve-agent`. Si ce dossier existe déjà, en choisir un autre et le remplacer
 partout.
 
 ### 1. Cloner le dépôt
@@ -34,30 +34,34 @@ partout.
 Sur une machine neuve, avec une clé SSH qui a accès au dépôt GitHub (seuls les commits poussés y
 sont) :
 
-    git clone git@github.com:Nimeria2026/Nimeria_poa.git ~/poa_banc
+    git clone git@github.com:Nimeria2026/Nimeria_poa.git ~/epreuve-agent
+
+Depuis le dépôt public, sans clé :
+
+    git clone https://github.com/Nimeria2026/epreuve-agent.git ~/epreuve-agent
 
 Sur le poste, depuis le dépôt de travail, sans passer par GitHub :
 
-    git clone <dépôt de travail> ~/poa_banc
+    git clone <dépôt de travail> ~/epreuve-agent
 
 Le clone ne contient que les fichiers suivis : ni le `.env`, ni `07_taches/prive/`, ni `99_local/`.
 
 ### 2. Construire l'image
 
-    cd ~/poa_banc && make image
+    cd ~/epreuve-agent && make image
 
 Plusieurs minutes la première fois. La dernière ligne donne l'étiquette de l'image, `poa-banc:`
 suivi des 12 premiers caractères du commit.
 
 Le contexte de construction est l'archive git du commit : les tâches cachées, le `.env`,
 `99_local/` et les modifications non commitées ne peuvent pas entrer dans l'image. L'image d'un
-autre commit : `cd ~/poa_banc && make image COMMIT=<commit>`. Derrière un proxy qui déchiffre le
+autre commit : `cd ~/epreuve-agent && make image COMMIT=<commit>`. Derrière un proxy qui déchiffre le
 TLS (réseau d'entreprise, bac à sable d'une séance Claude), son certificat se passe en secret de
-construction, sans entrer dans l'image : `cd ~/poa_banc && POA_CA=<fichier> make image`.
+construction, sans entrer dans l'image : `cd ~/epreuve-agent && POA_CA=<fichier> make image`.
 
 ### 3. Passer les témoins
 
-    cd ~/poa_banc && make conteneur RESEAU=aucun COMMANDE="make temoins"
+    cd ~/epreuve-agent && make conteneur RESEAU=aucun COMMANDE="make temoins"
 
 Sans modèle ni réseau. La dernière ligne doit être `Le banc mesure ce qu'il doit.` Sans
 `07_taches/prive/`, le terrain des tâches cachées est sauté.
@@ -66,27 +70,32 @@ Sans modèle ni réseau. La dernière ligne doit être `Le banc mesure ce qu'il 
 
 La première fois, avec le réseau, qui télécharge les données de τ²-bench dans `99_local/tau2/` :
 
-    cd ~/poa_banc && make conteneur RESEAU=api COMMANDE="make tests"
+    cd ~/epreuve-agent && make conteneur RESEAU=api COMMANDE="make tests"
 
 Les fois suivantes, hors ligne :
 
-    cd ~/poa_banc && make conteneur RESEAU=aucun COMMANDE="make tests"
+    cd ~/epreuve-agent && make conteneur RESEAU=aucun COMMANDE="make tests"
 
 ### 5. Apporter le `.env` et les tâches cachées
 
 Seulement pour les runs avec un modèle et pour les témoins des tâches cachées. Ces fichiers ne
 passent jamais par git. Sur le poste :
 
-    cp <dépôt de travail>/.env ~/poa_banc/.env
-    cp -r <dépôt de travail>/07_taches/prive ~/poa_banc/07_taches/prive
+    cp <dépôt de travail>/.env ~/epreuve-agent/.env
+    cp -r <dépôt de travail>/07_taches/prive ~/epreuve-agent/07_taches/prive
 
 Sur une autre machine, les apporter du poste sans passer par git.
 
 ### 6. Lancer un run
 
+Dans l'image, `make mesure` tourne sans poste de mesure : faite de l'archive d'un commit, sans
+dépôt git, elle ne se modifie pas, et la fiche de run porte son commit (JOURNAL, entrée 304). Ses
+runs ne sont jamais officiels ; ceux qu'on garde se copient dans `99_local/importes/` de l'atelier,
+un dossier par origine.
+
 Un modèle servi par une API, ici DeepSeek :
 
-    cd ~/poa_banc && make conteneur RESEAU=api COMMANDE="make mesure CANDIDAT=agent_seul_deepseek_flash TACHES=t01 REPETITIONS=1"
+    cd ~/epreuve-agent && make conteneur RESEAU=api COMMANDE="make mesure CANDIDAT=agent_seul_deepseek_flash TACHES=t01 REPETITIONS=1"
 
 Qwen, sur le poste seulement. D'abord le serveur, dans un autre terminal, depuis le dépôt de
 travail (il refuse si la carte est occupée) :
@@ -95,16 +104,16 @@ travail (il refuse si la carte est occupée) :
 
 Puis le run :
 
-    cd ~/poa_banc && make conteneur RESEAU=machine COMMANDE="make mesure CANDIDAT=agent_seul_qwen_local TACHES=t01 REPETITIONS=1"
+    cd ~/epreuve-agent && make conteneur RESEAU=machine COMMANDE="make mesure CANDIDAT=agent_seul_qwen_local TACHES=t01 REPETITIONS=1"
 
 Jamais pendant un autre run de Qwen : les deux se partageraient le serveur et fausseraient leurs
-durées. Les runs s'écrivent dans `~/poa_banc/99_local/runs/`.
+durées. Les runs s'écrivent dans `~/epreuve-agent/99_local/runs/`.
 
 ### 7. Tout retirer
 
     docker image ls poa-banc
     docker image rm poa-banc:<étiquette>
-    rm -rf ~/poa_banc
+    rm -rf ~/epreuve-agent
 
 La dernière commande efface aussi les runs, le `.env` et les tâches cachées copiés dans le clone.
 

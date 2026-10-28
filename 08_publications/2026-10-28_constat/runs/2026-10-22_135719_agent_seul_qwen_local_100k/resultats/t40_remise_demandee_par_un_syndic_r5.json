@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-22_135719_agent_seul_qwen_local_100k",
+  "tache": {
+    "identifiant": "t40_remise_demandee_par_un_syndic",
+    "version": 1
+  },
+  "repetition": 5,
+  "debut_utc": "2026-10-22T22:43:42.448200Z",
+  "fin_utc": "2026-10-22T22:46:00.491323Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 15,
+  "jetons": {
+    "entree": 64055,
+    "entree_en_cache": "?",
+    "sortie": 5035
+  },
+  "cout_dollars": "?",
+  "energie_wh": 9.47437863199683,
+  "duree_secondes": 138.04311777401017,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t40_remise_demandee_par_un_syndic_r5.jsonl"
+}

@@ -1,0 +1,47 @@
+{
+  "run": "2026-10-09_220655_agent_seul_qwen_local",
+  "tache": {
+    "identifiant": "t41_devis_accepte",
+    "version": 2
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-10T14:02:26.746903Z",
+  "fin_utc": "2026-10-10T14:04:37.291241Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 14,
+  "jetons": {
+    "entree": 50638,
+    "entree_en_cache": "?",
+    "sortie": 4171
+  },
+  "cout_dollars": "?",
+  "energie_wh": 8.961314081545396,
+  "duree_secondes": 130.54433212199365,
+  "journal": "journaux/t41_devis_accepte_r1.jsonl"
+}

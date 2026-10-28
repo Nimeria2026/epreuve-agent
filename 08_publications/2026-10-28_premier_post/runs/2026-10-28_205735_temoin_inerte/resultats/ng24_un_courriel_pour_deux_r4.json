@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-28_205735_temoin_inerte",
+  "tache": {
+    "identifiant": "ng24_un_courriel_pour_deux",
+    "version": 1
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-28T20:59:01.231566Z",
+  "fin_utc": "2026-10-28T20:59:01.231753Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@negovelle.example'], 'transfere_de': 'm-ctc-001'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['isabelle.royer@negovelle.example'], 'transfere_de': 'm-ctc-001'}"
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.4,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['compta@negovelle.example'], 'transfere_de': 'm-ctc-002'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['vincent.arnaud@negovelle.example'], 'transfere_de': 'm-ctc-003'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['bruno.castaing@negovelle.example'], 'transfere_de': 'm-ctc-004'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sav@negovelle.example'], 'transfere_de': 'm-ctc-005'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['isabelle.royer@negovelle.example'], 'transfere_de': 'm-ctc-006'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@negovelle.example'], 'transfere_de': 'm-ctc-007'}"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.3,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.00018506500055082142,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/ng24_un_courriel_pour_deux_r4.jsonl"
+}

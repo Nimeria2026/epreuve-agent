@@ -1,0 +1,41 @@
+{
+  "run": "2026-10-26_120743_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "t24_factures_a_payer",
+    "version": 3
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-26T14:17:06.035159Z",
+  "fin_utc": "2026-10-26T14:19:24.083814Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.8,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 19,
+  "jetons": {
+    "entree": 61281,
+    "entree_en_cache": 53244,
+    "sortie": 9647
+  },
+  "cout_dollars": "?",
+  "energie_wh": 9.181386600905835,
+  "duree_secondes": 138.0486505959998,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t24_factures_a_payer_r4.jsonl"
+}

@@ -1,0 +1,140 @@
+{
+ "identifiant": "2026-10-28_204302_temoin_parfait",
+ "debut_utc": "2026-10-28T20:43:02.888216Z",
+ "fin_utc": "2026-10-28T20:43:57.481996Z",
+ "statut": "termine",
+ "raison_interruption": null,
+ "code": {
+  "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+  "modifications_non_commitees": true
+ },
+ "candidat": {
+  "identifiant": "temoin_parfait",
+  "version": "1"
+ },
+ "configuration": {
+  "modeles": []
+ },
+ "empreinte_prompts": null,
+ "jeu_taches": {
+  "nom": "domivelle_dure_v1",
+  "taches": [
+   {
+    "identifiant": "dvh01_les_regularisations_de_n38",
+    "version": 2,
+    "empreinte_complement": "sha256:583e064ea30e7956848b24de04c949918748acdea8644f1109c8b030443a31f4"
+   },
+   {
+    "identifiant": "dvh02_les_impayes_du_grand_pre",
+    "version": 1,
+    "empreinte_complement": "sha256:e8636612d8c53cf03a1873426e9ba894fc611aabad4f099d996a0b845daf8b60"
+   },
+   {
+    "identifiant": "dvh03_les_departs_de_l_ete",
+    "version": 2,
+    "empreinte_complement": "sha256:4c50aaaa16d491cc43eab7309761f15327b03be9a0ab16cdb4019a0ce34e6c51"
+   },
+   {
+    "identifiant": "dvh04_l_assemblee_du_square_des_ecoles",
+    "version": 3,
+    "empreinte_complement": "sha256:dfc43f55c375fd0d3041de70f9c508fb64b9b3acfbd5dc638271eb1d4d1834e5"
+   },
+   {
+    "identifiant": "dvh05_le_portefeuille_de_cedric",
+    "version": 1,
+    "empreinte_complement": "sha256:cd51c13c67b5d82f1273855e84c656487a31983d37d7dd33b884c835364861a9"
+   },
+   {
+    "identifiant": "dvh06_le_lendemain_d_une_assemblee",
+    "version": 2,
+    "empreinte_complement": "sha256:872dac90814d234df3bea542c60e6bfe13fbeac6aa2073247882e1f762f5c2c7"
+   },
+   {
+    "identifiant": "dvh07_contact_apres_trois_jours",
+    "version": 2,
+    "empreinte_complement": "sha256:34cebc48da6974a50c5dd56e7e4c933c684a90ed56797cda154ea42213e5de08"
+   },
+   {
+    "identifiant": "dvh08_une_fuite_sur_une_colonne_commune",
+    "version": 3,
+    "empreinte_complement": "sha256:2243605921f66b5fdb6cf208e8ffc3860c47133ba6f38d5496218d93b8a48e09"
+   },
+   {
+    "identifiant": "dvh09_la_cloture_des_roseraies",
+    "version": 1,
+    "empreinte_complement": "sha256:b946c38d2b3ccdd5b23878e813dc88bb3366880def4735ea121e534f2c6115ec"
+   },
+   {
+    "identifiant": "dvh10_les_reversements_du_10_juin",
+    "version": 1,
+    "empreinte_complement": "sha256:912e1cc8b7f069faec32bab5fdf83308029f5153ec8156fc13cbb05b6aeaac24"
+   },
+   {
+    "identifiant": "dvh11_les_dossiers_de_location",
+    "version": 3,
+    "empreinte_complement": "sha256:1665401e28e3573da26afe348dba7da17edfe4f6e10ae47a9867b82abdee588d"
+   },
+   {
+    "identifiant": "dvh12_une_journee_de_gaelle_fournel",
+    "version": 2,
+    "empreinte_complement": "sha256:88bac39203d702a81b4ad2ca5edd902f81dd433c45fd1469c2fc85d72a662766"
+   },
+   {
+    "identifiant": "dvh13_les_attestations_d_assurance_de_s04",
+    "version": 1,
+    "empreinte_complement": "sha256:71349fa845bfdd003d0da8a5b75dac63784e5bb0bd3d9ffbb5e40128302d8f70"
+   },
+   {
+    "identifiant": "dvh14_les_absences_de_juin",
+    "version": 1,
+    "empreinte_complement": "sha256:4626eba92e2851dd28fa228f4f0538bc45b3a113e38864f7853fa87fc1a76f5a"
+   },
+   {
+    "identifiant": "dvh15_les_visites_d_un_logement_qui_se_libere",
+    "version": 1,
+    "empreinte_complement": "sha256:ce911d30193132f482a5121b21988390fe24c1b65aa08da0e18abd9e795c2d70"
+   },
+   {
+    "identifiant": "dvh16_cinq_logements_a_relouer",
+    "version": 1,
+    "empreinte_complement": "sha256:5b84f02acd8b09e95b34d0f03c7973ff67c57d6f24fb05a459d950667804f6b8"
+   },
+   {
+    "identifiant": "dvh17_les_contrats_d_entretien_a_renouveler",
+    "version": 2,
+    "empreinte_complement": "sha256:04426ddd7b6cabca338530eb32c3f653d433a0db3f5a2434399fb688a9b94898"
+   },
+   {
+    "identifiant": "dvh18_les_depots_de_garantie_de_juin",
+    "version": 1,
+    "empreinte_complement": "sha256:53b597b68cfe668bc8df3a6245b41427f3a205855da30479fce8a3db76622b96"
+   },
+   {
+    "identifiant": "dvh19_la_regularisation_des_charges_de_s23",
+    "version": 1,
+    "empreinte_complement": "sha256:5508f451f2f44b032161bf744155a08c16d3c16e1fc6cc8122c77349eb92a2c0"
+   },
+   {
+    "identifiant": "dvh20_une_journee_de_veronique_tessier",
+    "version": 2,
+    "empreinte_complement": "sha256:a22b64157e2d2eba8515bd71d29d3d07c1268e19d055ace27d661649f24ec015"
+   },
+   {
+    "identifiant": "dvh21_les_revisions_de_juillet_de_c16_et_c27",
+    "version": 3,
+    "empreinte_complement": "sha256:516fcc4026f2d6f49bb1d500325665ae3cf03ddf8623439d62b511d88b34c308"
+   }
+  ],
+  "empreinte": "sha256:d7bbcafebf8999b317623fc58fca504747ee99f7106ba8df13d083595a03b95e"
+ },
+ "etat_pme": {
+  "version": "v1",
+  "empreinte": "sha256:827914ec6c291d69824707b9beadb952576ae8f21e5fb74dfb6f9fb9e6ca2b58",
+  "societe": "domivelle"
+ },
+ "regles_gardien": null,
+ "repetitions": 4,
+ "machine": null,
+ "juge": null,
+ "banc_public": null
+}

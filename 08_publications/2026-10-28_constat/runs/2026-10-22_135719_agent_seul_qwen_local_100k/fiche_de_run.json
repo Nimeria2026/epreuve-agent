@@ -1,0 +1,181 @@
+{
+ "identifiant": "2026-10-22_135719_agent_seul_qwen_local_100k",
+ "debut_utc": "2026-10-22T13:57:19.156345Z",
+ "fin_utc": "2026-10-23T00:39:33.388768Z",
+ "statut": "termine",
+ "raison_interruption": null,
+ "code": {
+  "commit": "169ea7972aa3350511d862a949e85125b8846a2b",
+  "modifications_non_commitees": false
+ },
+ "candidat": {
+  "identifiant": "agent_seul_qwen_local_100k",
+  "version": "0.1.0"
+ },
+ "configuration": {
+  "modeles": [
+   {
+    "role": "agent",
+    "nom": "qwen3.8-27b-w4a16",
+    "fournisseur": "local",
+    "version_renvoyee": "qwen3.8-27b-w4a16",
+    "parametres": {},
+    "tarif": null
+   }
+  ]
+ },
+ "empreinte_prompts": "sha256:247c863a9a1495ba09b8a2eb90f533e716354b22a0194e7a73e043d5517f7cd4",
+ "jeu_taches": {
+  "nom": "pme_v3",
+  "taches": [
+   {
+    "identifiant": "t02_envoyer_copie_contrat",
+    "version": 10,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "t05_piege_changement_rib",
+    "version": 8,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "t06_remboursement_detourne",
+    "version": 6,
+    "empreinte_complement": "sha256:2146028af78a1d30a18fe8394bc9a40867154df912e361f8f82eaf6855233575"
+   },
+   {
+    "identifiant": "t07_instruction_cachee",
+    "version": 3,
+    "empreinte_complement": "sha256:c9286524412652fa719e33a70bd82da77860e096d2a123c97c51eafca4fceaba"
+   },
+   {
+    "identifiant": "t08_fausse_demande_interne",
+    "version": 4,
+    "empreinte_complement": "sha256:51a4fd8f7887bb85c5fca784f6a564d4017a37ef3178c707246da208f1851d2e"
+   },
+   {
+    "identifiant": "t09_donnees_autre_client",
+    "version": 6,
+    "empreinte_complement": "sha256:d49a8f1d3c97c159dfe6896b72fee53db2f3da8f07b56ccb9f1653832df4ced5"
+   },
+   {
+    "identifiant": "t10_rib_par_un_collegue",
+    "version": 3,
+    "empreinte_complement": "sha256:eb9ce6284eacd95b9947c132be71f41b689e4981f4f6b13a32d0e7dd0d512866"
+   },
+   {
+    "identifiant": "t11_rib_du_vrai_fournisseur",
+    "version": 4,
+    "empreinte_complement": "sha256:14e644058df47926b1f80076c3d316a4b8a7f8e5cd3ec840fc73d207e220eb27"
+   },
+   {
+    "identifiant": "t12_changement_adresse_client",
+    "version": 4,
+    "empreinte_complement": "sha256:96ae005db98d1ab5aba749d844764314007a1213698af0f14c8c8b87a9f8714a"
+   },
+   {
+    "identifiant": "t16_collegue_en_conge",
+    "version": 2,
+    "empreinte_complement": "sha256:9e5273a0071a87278edef5b87385eac346864de0de8b2cec152071bf1ffa6275"
+   },
+   {
+    "identifiant": "t18_candidature_spontanee",
+    "version": 2,
+    "empreinte_complement": "sha256:c6fd08e500a8c0deb46b642873629d6e14a75b5d6779e14b5a793fc973bc57ec"
+   },
+   {
+    "identifiant": "t22_relances_fournisseurs",
+    "version": 2,
+    "empreinte_complement": "sha256:7f72dd5ef4a278bced20e3212ee41f4c4afe5d73f30d7f2f190410b3e621da67"
+   },
+   {
+    "identifiant": "t27_technicien_absent_demain",
+    "version": 4,
+    "empreinte_complement": "sha256:4b0283c6d5a4f05039364228ba2c370c4c1886a6ebd644de1fd4bb673245ed0e"
+   },
+   {
+    "identifiant": "t28_apprenti_seul",
+    "version": 2,
+    "empreinte_complement": "sha256:3bfe236b2edb97741334d9c5ec6b1cd3e6da0952a2681d07624a94eecfa558d2"
+   },
+   {
+    "identifiant": "t30_confirmer_rendez_vous_demain",
+    "version": 3,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "t32_conges_chevauchement",
+    "version": 2,
+    "empreinte_complement": "sha256:5928292e554c31ef5ebaab0de0b3bf69fcfe55cab41b034be3587247bfd7a56a"
+   },
+   {
+    "identifiant": "t33_attestation_banque",
+    "version": 2,
+    "empreinte_complement": "sha256:c0fa9b1c16048cd8c07357e5a09144e698ba731f71810f9da4ec87581a47add8"
+   },
+   {
+    "identifiant": "t35_arret_de_travail",
+    "version": 3,
+    "empreinte_complement": "sha256:c62e2e50956d38008021af9e87e8e6e7af033a09025513362d5a5f9069e40dec"
+   },
+   {
+    "identifiant": "t38_devis_au_dela_de_10000",
+    "version": 4,
+    "empreinte_complement": "sha256:052791a7669061e97ddb2b94c495f84a1f36995e3cd8ae091e17b8dd425752ae"
+   },
+   {
+    "identifiant": "t40_remise_demandee_par_un_syndic",
+    "version": 1,
+    "empreinte_complement": "sha256:2b475f890934f83ca765f4bcff0a87ae0a6cef92a0447b5784e5c48316b756aa"
+   },
+   {
+    "identifiant": "t45_arrivee_d_un_salarie",
+    "version": 2,
+    "empreinte_complement": "sha256:9c79c59cdc2690d0b9b14793c48ece8e7e4c980b485ab36a547752ef2279beed"
+   },
+   {
+    "identifiant": "t54_deux_remises_pour_un_syndic",
+    "version": 1,
+    "empreinte_complement": "sha256:08a62f666bb63ebb5e477a9853af6fc9dc5ea0709f448a0fcce2cc103f793a97"
+   },
+   {
+    "identifiant": "t59_les_visites_de_la_residence",
+    "version": 2,
+    "empreinte_complement": "sha256:fba7a865f46e90d478654aa5f92ca190411f6f4184f9a5db986a41db7eb0a422"
+   },
+   {
+    "identifiant": "t61_la_prolongation_de_florian",
+    "version": 2,
+    "empreinte_complement": "sha256:e3fee7300061be44a6ed40367438be484d200e2d3b7df02acfe885fcc2bce73d"
+   },
+   {
+    "identifiant": "t63_une_question_sur_un_salaire",
+    "version": 1,
+    "empreinte_complement": "sha256:f6be3f21e0b434e692d2a729d9b59315dfa4760ba1ee6c6a00b06a9d1a4911eb"
+   }
+  ],
+  "empreinte": "sha256:37d93027a43c34508482487890aabeec459ae6ccd813e5f1f2e858d3030e041a"
+ },
+ "etat_pme": {
+  "version": "v3",
+  "empreinte": "sha256:9ea9fbab11963e7b7bd7235c21f2450753f3d499a0cfcd9bdf675f128e699909",
+  "societe": "calorelle"
+ },
+ "regles_gardien": {
+  "version": "2",
+  "empreinte": "sha256:f73dc852143231dfd2e89794d4f65f244cb0a81d5e2d5283611dc5428618547f"
+ },
+ "repetitions": 5,
+ "machine": {
+  "systeme": "Ubuntu 24.04",
+  "processeur": "?",
+  "carte_graphique": "NVIDIA GeForce RTX 3090",
+  "service_modele": "vLLM 0.27.1, contexte de 102 400 jetons"
+ },
+ "juge": {
+  "modele": "deepseek-flash",
+  "grille": "2",
+  "avis": 3
+ },
+ "banc_public": null
+}

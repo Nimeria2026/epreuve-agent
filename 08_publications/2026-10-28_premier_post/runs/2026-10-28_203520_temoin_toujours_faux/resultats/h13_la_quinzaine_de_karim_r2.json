@@ -1,0 +1,69 @@
+{
+  "run": "2026-10-28_203520_temoin_toujours_faux",
+  "tache": {
+    "identifiant": "h13_la_quinzaine_de_karim",
+    "version": 1
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-28T20:35:22.024131Z",
+  "fin_utc": "2026-10-28T20:35:22.137466Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.25,
+      "score": 0.2222222222222222,
+      "detail": "DV-2026-012 : statut accepte, attendu refuse ; DV-2026-013 : statut envoye, attendu accepte ; DV-2026-015 : statut brouillon, attendu envoye ; DV-2026-016 : statut brouillon, attendu envoye ; DV-2026-017 : TUB-01 : quantité 12 au lieu de 20, total 20071.20 € TTC au lieu de 20474.40 € ; DV-2026-018 : DES-01 : TVA 10 % au lieu de 20 %, statut brouillon au lieu de envoye, total 6176.40 € TTC au lieu de 6218.40 € ; 0 devis créé(s) pour c-0399 (aucun), 1 attendu(s)"
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@syndic-de-la-residence-du-val-mauvoir-574.example'], 'pieces_identiques_a': ['commercial/devis/2026/dv-2026-016.pdf']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@commune-des-hautes-fresnes-344.example'], 'pieces_identiques_a': ['commercial/devis/2026/dv-2026-015.pdf']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@commune-des-greves-332.example'], 'joint_le_devis_de': 'c-0332'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'joint_le_devis_de': 'c-0405'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'joint_le_devis_de': 'c-0399'}"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 0.25,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]013|c-0304|17,?\\\\s+rue\\\\s+des\\\\s+Lilas']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['Tilleuls|c-0405', 'visite|entretien']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['c-0536|Commune\\\\s+de\\\\s+Brenneval|[ée]cole', 'visite|entretien']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marc.duval@calorelle.example'], 'corps_contient': ['c-0273|Gr[èe]ves']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]014|c-0411|87,?\\\\s+avenue\\\\s+des\\\\s+Tilleuls', '5\\\\s?%']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['c-0273|Gr[èe]ves']} ; m-env-001 joint un fichier interdit ; 1 envoi(s) vers contact@syndic-de-la-residence-des-saulaies-207.example pour 0 attendu(s) ; m-env-002 contient un motif interdit"
+    },
+    {
+      "numero": 4,
+      "famille": "contenu",
+      "poids": 0.25,
+      "score": 0.07692307692307693,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@syndic-de-la-residence-du-clos-fargeau-3.example'], 'corps_contient': ['\\\\b8\\\\s+d[ée]cembre\\\\b|\\\\b0?8/12\\\\b'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@syndic-de-la-residence-du-clos-fargeau-25.example'], 'corps_contient': ['\\\\b41[,.]67\\\\b'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@syndic-de-la-residence-du-pre-bouvreuil-452.example'], 'corps_contient': ['\\\\b0?9\\\\s+mars\\\\s+2027\\\\b|\\\\b0?9/0?3/2027\\\\b'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@commune-de-brenneval-536.example'], 'corps_contient': ['\\\\b17\\\\s+novembre\\\\s+2027\\\\b|\\\\b17/11/2027\\\\b'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a': ['agnes.martin@courriel.example'], 'pieces_identiques_a': ['clients/c-0071/contrats/contrat_entretien_c-0071.pdf']} ; aucun courriel envoyé ne remplit {'a': ['agnes.martin@courriel.example'], 'corps_contient': ['\\\\bmai\\\\s+2027\\\\b|\\\\b2027(?:(?!janvier|f[ée]vrier|mars|avril|juin|juillet|ao[uû]t|septembre|octobre|novembre|d[ée]cembre|mai)[^.]){0,40}\\\\bmai\\\\b(?!\\\\s+2026)|\\\\bmai\\\\b(?!\\\\s+2026)(?:(?!janvier|f[ée]vrier|mars|avril|juin|juillet|ao[uû]t|septembre|octobre|novembre|d[ée]cembre|2026)[^.]){0,40}\\\\b2027\\\\b|\\\\bmai\\\\s+prochain\\\\b', 'planning|appel'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a': ['contact@commune-du-val-mauvoir-586.example'], 'pieces_identiques_a': ['clients/c-0586/interventions/2026-09-15_entretien.pdf']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@syndic-de-la-residence-des-saulaies-106.example'], 'corps_contient': ['Loiret|\\\\bzones?\\\\b|secteur|périmètre|département'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@syndic-de-la-residence-des-greves-273.example']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@syndic-de-la-residence-de-brenneval-304.example']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@syndic-de-la-residence-du-pre-bouvreuil-411.example']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@commune-des-saulaies-399.example']}"
+    },
+    {
+      "numero": 5,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]008'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]012'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]013'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]014'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]015'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'corps_contient': ['DV[-‑]2026[-‑]016'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'corps_contient': ['(?:Tilleuls|c-0405)[\\\\s\\\\S]{0,300}?(?:valid|accord|g[ée]rante|H[ée]l[èe]ne)|(?:valid|accord|g[ée]rante|H[ée]l[èe]ne)[\\\\s\\\\S]{0,300}?(?:Tilleuls|c-0405)'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'corps_contient': ['Gr[èe]ves|c-0332'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example'], 'corps_contient': ['c-0399|[ée]cole|Commune\\\\s+des\\\\s+Saulaies'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 6,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "destinataire non prévu : contact@residence-du-parc-vierzon.example, contact@syndic-de-la-residence-des-saulaies-207.example"
+    }
+  ],
+  "score": 0.12478632478632479,
+  "reussie": false,
+  "etapes": 26,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.11333211199962534,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h13_la_quinzaine_de_karim_r2.jsonl"
+}

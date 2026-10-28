@@ -1,58 +1,55 @@
 #!/usr/bin/env bash
-# Sert Qwen 3.8 Flash-Next (IQ3_S) par le moteur Strata, en local, pour les candidats *_strata.
+# Sert Qwen3.8-Flash-Next (IQ3_S) par Strata, en local, pour les candidats *_qwen_flash_next_strata.
 #
-# Seul domicile de cette commande dans le dépôt (ADR 0008 ; JOURNAL, entrée 287). Elle reprend celle
-# qu'opencode a relevée le 2026-10-25 dans le journal du moteur (flash-next.engine.log), préréglage
-# flash-next : cache int8, trois créneaux (--batch 3), décodage spéculatif (spec 4, min-p 0,5, MTP),
-# contexte de 131 072 jetons. L'hôte et le port, 127.0.0.1:30001, sont ceux que ce journal donnait :
-# la commande ne les fixe pas, Strata les prend de son préréglage.
+# Seul domicile de cette commande dans le dépôt (AGENTS.md, « Ajouter un modèle » ; JOURNAL, entrées 287 et 296). Sa fiche
+# officielle : 02_ease/src/ease/moteurs/strata_flash_next.md. Elle lance le préréglage « flash-next »
+# de Strata, celui de l'essai du 2026-10-25, par strata launch ; Strata exécute alors son moteur, dont
+# la commande interne s'écrit dans ~/.local/state/strata/launch/flash-next.engine.log. Les choix qui comptent pour la mesure sont redits ici, pour qu'un préréglage
+# modifié ne change rien sans se voir : contexte de 131 072 jetons, images coupées, cache int8, MTP,
+# trois créneaux (le préréglage dit « fit to card », trois le 2026-10-25), cet ordinateur seul,
+# port 30001, clé d'API du préréglage (celle de STRATA_API_KEY dans le .env).
 #
-#   bash 09_outillage/scripts/servir_strata.sh            # affiche la commande, ne lance rien
-#   bash 09_outillage/scripts/servir_strata.sh --lancer   # la lance, au premier plan (Ctrl-C pour arrêter)
+#   bash 09_outillage/scripts/servir_strata.sh            # le plan de Strata, sans rien lancer
+#   bash 09_outillage/scripts/servir_strata.sh --lancer   # le lance, avec le moniteur de Strata au premier plan
+#   strata launch --status                                # ce qui tourne
+#   strata launch --stop --preset flash-next              # l'arrêter
 #
-# Chemins réglables pour une autre machine : POA_STRATA (le programme), POA_STRATA_MODELES (packs,
-# modèles et MTP), POA_STRATA_PROFIL (profil des experts).
 # Un run à la fois : en parallèle, l'essai du 2026-10-25 a manqué de mémoire et reçu des refus HTTP 503.
-# Codes de refus : 2 programme ou modèle introuvable, 4 carte déjà occupée, 5 port déjà pris.
+# Codes de refus : 2 programme introuvable, 4 carte déjà occupée, 5 port déjà pris, 6 Strata ou son
+# préréglage différents de leur fiche (02_ease/src/ease/moteurs/strata_flash_next.md), 7 mémoire vive
+# insuffisante.
 set -euo pipefail
 
 STRATA="${POA_STRATA:-strata}"
-MODELES="${POA_STRATA_MODELES:-$HOME/Modeles/strata}"
-PROFIL="${POA_STRATA_PROFIL:-$HOME/.local/share/strata/terminal/0.1.49.2/data/expert-profile.bin}"
+PRESET=flash-next
 PORT=30001
 MEMOIRE_LIBRE_MIN_MIO=23000  # relevé du 2026-10-25 : le moteur occupe 23 803 Mio de la carte
-NATIF="$MODELES/models/IQ3_S/Qwen3.8-Flash-Next-GSQ-RCO-IQ3_S-00001-of-00002.gguf"
-PLE="$MODELES/models/IQ3_S/Qwen3.8-Flash-Next-GSQ-RCO-IQ3_S-00002-of-00002.gguf"
+# Le moteur réserve une zone de 46 Gio de mémoire vive pour les experts, et son réglage du 2026-10-24
+# a culminé à 50 125 Mio. Le 2026-10-26, avec 41,3 Gio disponibles, il s'est arrêté pendant le
+# chargement (JOURNAL, entrée 297).
+VIVE_LIBRE_MIN_MIO=51200
 
-COMMANDE=(
-  "$STRATA" --serve
-  --pack "$MODELES/packs/iq3_s"
-  --native "$NATIF"
-  --ple-gguf "$PLE"
-  --expert-profile "$PROFIL"
-  --expert-cache auto
-  --prefill auto
-  --spec 4
-  --spec-min-p 0.5
-  --mtp "$MODELES/mtp/rt"
-  --max-context 131072
+CHOIX=(
+  --preset "$PRESET"
+  --context 131072
+  --vision off
   --kv int8
-  --batch 3
+  --drafting mtp
+  --parallel 3
+  --access local
+  --port "$PORT"
 )
 
-echo "COMMANDE (port $PORT attendu, contexte de 131 072 jetons) :"
-printf '  %s\n' "${COMMANDE[*]}"
+command -v "$STRATA" >/dev/null 2>&1 || { echo "REFUS : programme introuvable : $STRATA (POA_STRATA)" >&2; exit 2; }
+# Garde 0 : Strata et son préréglage tels que les dit la fiche (02_ease/src/ease/moteurs/).
+python3 "$(dirname "$0")/verifier_strata.py" || exit 6
+"$STRATA" launch "${CHOIX[@]}" --plan
 
 if [ "${1:-}" != "--lancer" ]; then
   echo
   echo "(rien lancé : ajouter --lancer pour exécuter)"
   exit 0
 fi
-
-command -v "$STRATA" >/dev/null 2>&1 || { echo "REFUS : programme introuvable : $STRATA (POA_STRATA)" >&2; exit 2; }
-for fichier in "$NATIF" "$PLE" "$PROFIL"; do
-  [ -f "$fichier" ] || { echo "REFUS : fichier introuvable : $fichier" >&2; exit 2; }
-done
 
 # Garde 1 : la carte doit être libre ; un autre modèle chargé ferait échouer le démarrage, ou
 # mesurer sous une mémoire amputée.
@@ -64,10 +61,31 @@ if [ "${LIBRE:-0}" -lt "$MEMOIRE_LIBRE_MIN_MIO" ]; then
   exit 4
 fi
 
-# Garde 2 : un serveur déjà debout sur le port ferait mesurer une autre configuration.
+# Garde 2 : la mémoire vive disponible doit tenir la zone des experts.
+VIVE="$(awk '/^MemAvailable:/ {print int($2 / 1024)}' /proc/meminfo)"
+if [ "${VIVE:-0}" -lt "$VIVE_LIBRE_MIN_MIO" ]; then
+  echo "REFUS : ${VIVE:-?} Mio de mémoire vive disponibles, il en faut $VIVE_LIBRE_MIN_MIO." >&2
+  echo "  Ce qui en prend le plus :" >&2
+  ps -eo rss=,comm= --sort=-rss | head -8 | awk '{printf "    %6d Mio  %s\n", $1 / 1024, $2}' >&2
+  echo "  Ferme ce qui peut l'être (navigateur, autres modèles, conteneurs), puis relance." >&2
+  exit 7
+fi
+
+# Garde 3 : un serveur déjà debout sur le port ferait mesurer une autre configuration.
 if command -v ss >/dev/null 2>&1 && ss -ltn "sport = :$PORT" 2>/dev/null | grep -q LISTEN; then
-  echo "REFUS : quelque chose écoute déjà sur le port $PORT." >&2
+  echo "REFUS : quelque chose écoute déjà sur le port $PORT (strata launch --status)." >&2
   exit 5
 fi
 
-exec "${COMMANDE[@]}"
+# Avertissement : systemd-oomd ferme tout le terminal quand la pression sur la mémoire de la session
+# dépasse 50 % pendant 20 s ; le chargement du moteur l'a déclenché le 2026-10-26 (JOURNAL, entrée
+# 298). Ce n'est pas un refus : le 2026-10-25, Strata a tourné avec lui.
+if systemctl is-active --quiet systemd-oomd 2>/dev/null; then
+  echo "ATTENTION : systemd-oomd est actif ; il peut fermer ce terminal pendant le chargement ou les runs." >&2
+  echo "  Pour les mesures : sudo systemctl stop systemd-oomd ; après : sudo systemctl start systemd-oomd" >&2
+fi
+
+# Au premier plan, avec le moniteur de Strata, comme le 2026-10-25, dans un terminal à part : le
+# serveur se lit sur http://127.0.0.1:$PORT/v1, et le terminal montre ce que fait le moteur.
+echo "Strata va servir $PRESET sur http://127.0.0.1:$PORT/v1 ; arrêt : strata launch --stop --preset $PRESET"
+exec "$STRATA" launch "${CHOIX[@]}"

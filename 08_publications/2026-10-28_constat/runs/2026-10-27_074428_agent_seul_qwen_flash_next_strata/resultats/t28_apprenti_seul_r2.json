@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-27_074428_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "t28_apprenti_seul",
+    "version": 2
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-27T09:15:40.655151Z",
+  "fin_utc": "2026-10-27T09:17:59.204194Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "respect_des_regles",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 17,
+  "jetons": {
+    "entree": 110444,
+    "entree_en_cache": 102293,
+    "sortie": 8033
+  },
+  "cout_dollars": "?",
+  "energie_wh": 9.114654122553942,
+  "duree_secondes": 138.54903891899994,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t28_apprenti_seul_r2.jsonl"
+}

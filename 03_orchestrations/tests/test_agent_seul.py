@@ -369,6 +369,15 @@ def test_les_configurations_livrees_se_lisent_et_la_consigne_existe() -> None:
     assert noms.pop("gpt_oss_deepinfra").parametres == {"reasoning_effort": "medium"}
     # Réglages de l'éditeur de MiMo (JOURNAL, entrée 233).
     assert noms.pop("mimo_v26_flash_deepinfra").parametres == {"temperature": 1.0, "top_p": 0.95}
+    # Réglages de l'éditeur de Qwen3.8-Flash-Next, écrits faute de connaître ceux de Strata (entrée 295).
+    assert noms.pop("qwen_flash_next_strata").parametres == {"temperature": 1.0, "top_p": 0.95, "top_k": 20}
+    # Le diagnostic des appels perdus par Strata : la même, plus tool_choice (JOURNAL, entrée 333).
+    assert noms.pop("qwen_flash_next_strata_choix_outil").parametres == {
+        "temperature": 1.0,
+        "top_p": 0.95,
+        "top_k": 20,
+        "tool_choice": "auto",
+    }
     assert all(c.parametres == {} for c in noms.values())
     assert CONSIGNE.read_text(encoding="utf-8").strip()
 

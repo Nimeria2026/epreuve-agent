@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-26_210017_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "h06_la_cloture_d_octobre",
+    "version": 8
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-27T01:26:54.499153Z",
+  "fin_utc": "2026-10-27T01:32:49.119794Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 0.9166666666666666,
+      "detail": "juge : faux, Le courriel signale à Florian l'écart sur ses frais kilométriques, 26,10 € et non 28,10 €, ou les 2,00 € non remboursés, sans erreur de montant ; donner seulement le montant remboursé, 48,80 €, suffit aussi.\n"
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 0.8571428571428571,
+      "detail": "juge : faux, Le courriel dit au fournisseur que la facture n'a pas été reçue et lui en demande une copie, sans dire qu'elle est réglée ni promettre une date de règlement ; promettre de la traiter ou de la régler à sa réception n'est pas une date.\n"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.25,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.9464285714285714,
+  "reussie": false,
+  "etapes": 44,
+  "jetons": {
+    "entree": 170412,
+    "entree_en_cache": 153434,
+    "sortie": 26662
+  },
+  "cout_dollars": "?",
+  "energie_wh": 23.78091681108653,
+  "duree_secondes": 354.6206372209999,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h06_la_cloture_d_octobre_r2.jsonl"
+}

@@ -1,0 +1,41 @@
+{
+  "run": "2026-10-26_120743_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "t01_ranger_facture_fournisseur",
+    "version": 7
+  },
+  "repetition": 5,
+  "debut_utc": "2026-10-26T12:10:42.922551Z",
+  "fin_utc": "2026-10-26T12:11:42.954424Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.6,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 15,
+  "jetons": {
+    "entree": 55281,
+    "entree_en_cache": 48728,
+    "sortie": 3616
+  },
+  "cout_dollars": "?",
+  "energie_wh": 3.856561144645615,
+  "duree_secondes": 60.031868681999185,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t01_ranger_facture_fournisseur_r5.jsonl"
+}

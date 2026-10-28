@@ -1,0 +1,41 @@
+{
+  "run": "2026-10-28_203141_temoin_toujours_faux",
+  "tache": {
+    "identifiant": "d02_article_du_contrat",
+    "version": 1
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-28T20:31:46.335354Z",
+  "fin_utc": "2026-10-28T20:31:46.366514Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.7,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['philippe.boyer@courriel.example'], 'corps_contient': ['\\\\barticle\\\\s*5\\\\b|\\\\bart\\\\.?\\\\s*5\\\\b', \"factur|à (votre|vos) (charge|frais)|n['’]est pas compris|non compris|pas incluse?\"], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 2,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.3,
+  "reussie": false,
+  "etapes": 1,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.03115515600075014,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/d02_article_du_contrat_r1.jsonl"
+}

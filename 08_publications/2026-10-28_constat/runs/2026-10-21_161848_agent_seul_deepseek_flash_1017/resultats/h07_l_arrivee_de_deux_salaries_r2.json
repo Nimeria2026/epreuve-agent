@@ -1,0 +1,76 @@
+{
+  "run": "2026-10-21_161848_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "h07_l_arrivee_de_deux_salaries",
+    "version": 2
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-21T17:18:03.893328Z",
+  "fin_utc": "2026-10-21T17:18:51.802212Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 6,
+      "famille": "contenu",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 7,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 38,
+  "jetons": {
+    "entree": 101968,
+    "entree_en_cache": 94464,
+    "sortie": 9348
+  },
+  "cout_dollars": 0.007017792,
+  "energie_wh": null,
+  "duree_secondes": 47.908879722992424,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h07_l_arrivee_de_deux_salaries_r2.jsonl"
+}

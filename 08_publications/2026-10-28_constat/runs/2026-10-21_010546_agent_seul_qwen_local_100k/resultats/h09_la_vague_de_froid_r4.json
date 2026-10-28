@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-21_010546_agent_seul_qwen_local_100k",
+  "tache": {
+    "identifiant": "h09_la_vague_de_froid",
+    "version": 1
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-21T19:07:23.404100Z",
+  "fin_utc": "2026-10-21T20:08:53.066849Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 0.5882352941176471,
+      "detail": "INT-2026-0041 : commence le 2026-11-10T08:00:00+01:00, avant le 2026-11-10T09:00:00+01:00 ; INT-2026-0044 : commence le 2026-11-10T08:00:00+01:00, avant le 2026-11-10T09:00:00+01:00 ; INT-2026-0042 : commence le 2026-11-10T08:00:00+01:00, avant le 2026-11-10T09:00:00+01:00 ; INT-2026-0043 : commence le 2026-11-10T08:00:00+01:00, avant le 2026-11-10T09:00:00+01:00 ; INT-2026-0048 : commence le 2026-11-10T08:00:00+01:00, avant le 2026-11-10T09:00:00+01:00 ; INT-2026-0049 : commence le 2026-11-10T08:00:00+01:00, avant le 2026-11-10T09:00:00+01:00 ; INT-2026-0040 : commence le 2026-11-10T08:00:00+01:00, avant le 2026-11-10T09:00:00+01:00"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.25,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.8764705882352941,
+  "reussie": false,
+  "etapes": 96,
+  "jetons": {
+    "entree": 364797,
+    "entree_en_cache": "?",
+    "sortie": 138655
+  },
+  "cout_dollars": "?",
+  "energie_wh": 255.58645380895715,
+  "duree_secondes": 3689.662744290952,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h09_la_vague_de_froid_r4.jsonl"
+}

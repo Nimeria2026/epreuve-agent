@@ -1,0 +1,125 @@
+{
+  "run": "2026-10-28_204734_temoin_inerte",
+  "tache": {
+    "identifiant": "dvh28_le_mois_de_cedric_pour_elodie",
+    "version": 1
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-28T20:47:49.128570Z",
+  "fin_utc": "2026-10-28T20:47:49.128711Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['manon.roche@courriel.example'], 'corps_contient': ['416[,.]75'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['alain.marechal@mel-perso.example'], 'corps_contient': ['1 ?105[,.]59'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sophie.fleury@boite-postale.example'], 'corps_contient': ['838[,.]55'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['maxime.tissier@messagerie.example'], 'corps_contient': ['323[,.]69'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['nathalie.chauvet@courriel.example'], 'corps_contient': ['1 ?039[,.]84'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marion.bigot@messagerie.example'], 'corps_contient': ['615[,.]01'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['bruno.vallee@boite-postale.example'], 'corps_contient': ['596[,.]80'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['guy.coste@courriel.example'], 'corps_contient': ['644[,.]34'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['arnaud.maillot@messagerie.example'], 'corps_contient': ['507[,.]78'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sophie.delorme@mel-perso.example'], 'corps_contient': ['655[,.]47'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['louis.camus@mel-perso.example'], 'corps_contient': ['985[,.]22', \"12 octobre|12/10|ce jour|aujourd'hui\"], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['pascale.renaud@domivelle.example'], 'corps_contient': ['416[,.]75', '1 ?105[,.]59', '838[,.]55', '323[,.]69', '1 ?039[,.]84', '615[,.]01', '596[,.]80', '644[,.]34', '507[,.]78', '655[,.]47', '985[,.]22']}"
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['lea.camus@messagerie.example'], 'corps_contient': ['5 novembre'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['arnaud.noel@messagerie.example'], 'corps_contient': ['5 novembre'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['quentin.mallet@domivelle.example'], 'corps_contient': ['c15-01|Camus', '5 novembre'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gilles.boulanger@mel-perso.example'], 'corps_contient': ['9 novembre'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['robert.robin@courriel.example'], 'corps_contient': ['9 novembre'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['quentin.mallet@domivelle.example'], 'corps_contient': ['c15-10|Boulanger', '9 novembre'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['julien.bourgeois@courriel.example'], 'corps_contient': ['1er janvier|1 janvier|01/01', '31 d[ée]cembre'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['jean.meyer@mel-perso.example'], 'corps_contient': ['31 d[ée]cembre|1er janvier'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['quentin.mallet@domivelle.example'], 'corps_contient': ['c05-07|Bourgeois', '31 d[ée]cembre'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 4,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['claude.blondel@messagerie.example'], 'corps_contient': ['recommand'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 6,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['facturation@chauffage-des-fontenils.example'], 'corps_contient': ['c11-08']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['frederic.pasquier@boite-postale.example'], 'corps_contient': ['chauffage|chaudi'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 7,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['claire.vallee@messagerie.example'], 'corps_contient': ['520']}"
+    },
+    {
+      "numero": 8,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['serge.delorme@courriel.example'], 'corps_contient': ['282[,.]40', '30 octobre'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['jacqueline.boisseau@messagerie.example'], 'corps_contient': ['(?<!\\\\d)(?<!\\\\d )389(?:[,.]00)? ?€', '5 d[ée]cembre'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marcel.moreau@boite-postale.example'], 'corps_contient': ['(?<!\\\\d)(?<!\\\\d )999(?:[,.]00)? ?€'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['pascale.renaud@domivelle.example'], 'corps_contient': ['282[,.]40', '(?<!\\\\d)(?<!\\\\d )389(?:[,.]00)? ?€', '(?<!\\\\d)(?<!\\\\d )999(?:[,.]00)? ?€']}"
+    },
+    {
+      "numero": 9,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['madeleine.duval@mel-perso.example'], 'corps_contient': ['189[,.]00'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['jacques.schmitt@courriel.example'], 'corps_contient': ['132[,.]60'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['robert.pasquier@messagerie.example'], 'corps_contient': ['19[,.]18'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['olivier.lejeune@courriel.example'], 'corps_contient': ['88[,.]45'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['vincent.verdier@boite-postale.example'], 'corps_contient': ['405[,.]30'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 10,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['jerome.laporte@boite-postale.example'], 'corps_contient': ['demeure'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['marion.boulanger@courriel.example'], 'corps_contient': ['demeure'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gerard.boulanger@courriel.example'], 'corps_contient': ['assur', 'compte|souscri'], 'texte_de_l_agent': True} ; absent : gerance/c15/c15-08/attestation_assurance_2026.pdf ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['julien.delorme@boite-postale.example'], 'corps_contient': ['30 septembre|[ée]chu|expir|plus valable|ne couvre'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 11,
+      "famille": "resultat",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['quentin.mallet@domivelle.example'], 'corps_contient': ['Lefebvre|c08-18']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['quentin.mallet@domivelle.example'], 'corps_contient': ['Royer|c15-13']}"
+    },
+    {
+      "numero": 12,
+      "famille": "resultat",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['nadege.lebrun@domivelle.example'], 'corps_contient': ['30 octobre'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 13,
+      "famille": "resultat",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['cedric.maillard@domivelle.example'], 'corps_contient': ['c27|Duval', 'c11-08|chauffage|chaudi', 'c05-07|Bourgeois']}"
+    },
+    {
+      "numero": 14,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.15000000000000002,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.00013845800276612863,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/dvh28_le_mois_de_cedric_pour_elodie_r2.jsonl"
+}

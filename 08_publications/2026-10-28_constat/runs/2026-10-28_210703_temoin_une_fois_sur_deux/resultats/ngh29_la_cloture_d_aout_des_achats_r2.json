@@ -1,0 +1,167 @@
+{
+  "run": "2026-10-28_210703_temoin_une_fois_sur_deux",
+  "tache": {
+    "identifiant": "ngh29_la_cloture_d_aout_des_achats",
+    "version": 1
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-28T21:07:39.984349Z",
+  "fin_utc": "2026-10-28T21:07:39.984495Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.12,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@abrasifs-et-colles-de-la-brenne.example'], 'corps_contient': ['CON-10293[^\\\\n]*(?<![\\\\d,.])(?:120|240|360)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:120|240|360)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*CON-10293', 'CON-12392[^\\\\n]*(?<![\\\\d,.])(?:10|20|30)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:10|20|30)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*CON-12392'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@abrasifs-et-colles-des-hautes-bornes.example'], 'corps_contient': ['CON-11821[^\\\\n]*(?<![\\\\d,.])(?:30|60|90)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:30|60|90)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*CON-11821'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@materiel-electrique-des-brandes.example'], 'corps_contient': ['ELE-10049[^\\\\n]*(?<![\\\\d,.])(?:240|480|720)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:240|480|720)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*ELE-10049', 'ELE-10522[^\\\\n]*(?<![\\\\d,.])(?:25|50|75)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:25|50|75)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*ELE-10522', 'ELE-11331[^\\\\n]*(?<![\\\\d,.])(?:120|240|360)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:120|240|360)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*ELE-11331', 'ELE-12123[^\\\\n]*(?<![\\\\d,.])(?:120|240|360)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:120|240|360)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*ELE-12123'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@materiel-electrique-du-pont-rouge.example'], 'corps_contient': ['ELE-11249[^\\\\n]*(?<![\\\\d,.])(?:160|320|480)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:160|320|480)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*ELE-11249'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@materiel-electrique-de-la-garenne.example'], 'corps_contient': ['ELE-11469[^\\\\n]*(?<![\\\\d,.])(?:80|160|240)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:80|160|240)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*ELE-11469'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@electroportatif-des-brandes.example'], 'corps_contient': ['ELP-10563[^\\\\n]*(?<![\\\\d,.])(?:120|240|360)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:120|240|360)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*ELP-10563'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@electroportatif-de-la-garenne.example'], 'corps_contient': ['ELP-10930[^\\\\n]*(?<![\\\\d,.])(?:120|240|360)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:120|240|360)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*ELP-10930'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@electroportatif-de-la-croisette.example'], 'corps_contient': ['ELP-10947[^\\\\n]*(?<![\\\\d,.])(?:240|480|720)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:240|480|720)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*ELP-10947'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@hygiene-des-tilleuls.example'], 'corps_contient': ['ENT-10065[^\\\\n]*(?<![\\\\d,.])(?:40|80|120)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:40|80|120)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*ENT-10065', 'ENT-11184[^\\\\n]*(?<![\\\\d,.])(?:240|480|720)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:240|480|720)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*ENT-11184'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@hygiene-de-la-brenne.example'], 'corps_contient': ['ENT-10734[^\\\\n]*(?<![\\\\d,.])(?:90|180|270)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:90|180|270)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*ENT-10734'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@hygiene-de-la-croisette.example'], 'corps_contient': ['ENT-11135[^\\\\n]*(?<![\\\\d,.])(?:160|320|480)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:160|320|480)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*ENT-11135', 'ENT-11372[^\\\\n]*(?<![\\\\d,.])(?:60|120|180)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:60|120|180)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*ENT-11372'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@outillage-du-moulin-neuf.example'], 'corps_contient': ['OUT-10122[^\\\\n]*(?<![\\\\d,.])(?:180|360|540)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:180|360|540)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*OUT-10122', 'OUT-10955[^\\\\n]*(?<![\\\\d,.])(?:80|160|240)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:80|160|240)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*OUT-10955'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@outillage-des-brandes.example'], 'corps_contient': ['OUT-10302[^\\\\n]*(?<![\\\\d,.])(?:120|240|360)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:120|240|360)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*OUT-10302', 'OUT-11453[^\\\\n]*(?<![\\\\d,.])(?:80|160|240)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:80|160|240)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*OUT-11453', 'OUT-12833[^\\\\n]*(?<![\\\\d,.])(?:400|800|1200)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:400|800|1200)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*OUT-12833'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@outillage-des-tilleuls.example'], 'corps_contient': ['OUT-11862[^\\\\n]*(?<![\\\\d,.])(?:240|480|720)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:240|480|720)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*OUT-11862'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@outillage-du-val-corvalet.example'], 'corps_contient': ['OUT-12531[^\\\\n]*(?<![\\\\d,.])(?:160|320|480)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:160|320|480)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*OUT-12531'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@protection-de-la-garenne.example'], 'corps_contient': ['PRO-11077[^\\\\n]*(?<![\\\\d,.])(?:20|40|60)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:20|40|60)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*PRO-11077', 'PRO-11094[^\\\\n]*(?<![\\\\d,.])(?:120|240|360)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:120|240|360)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*PRO-11094'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@protection-du-pont-rouge.example'], 'corps_contient': ['PRO-11706[^\\\\n]*(?<![\\\\d,.])(?:30|60|90)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:30|60|90)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*PRO-11706', 'PRO-11992[^\\\\n]*(?<![\\\\d,.])(?:80|160|240)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:80|160|240)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*PRO-11992'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@quincaillerie-de-la-croisette.example'], 'corps_contient': ['QUI-11012[^\\\\n]*(?<![\\\\d,.])(?:25|50|75)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:25|50|75)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*QUI-11012', 'QUI-11086[^\\\\n]*(?<![\\\\d,.])(?:10|20|30)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:10|20|30)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*QUI-11086', 'QUI-11249[^\\\\n]*(?<![\\\\d,.])(?:120|240|360)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:120|240|360)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*QUI-11249'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@quincaillerie-des-brandes.example'], 'corps_contient': ['QUI-12253[^\\\\n]*(?<![\\\\d,.])(?:120|240|360)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:120|240|360)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*QUI-12253', 'QUI-13038[^\\\\n]*(?<![\\\\d,.])(?:60|120|180)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:60|120|180)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*QUI-13038'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@quincaillerie-de-la-garenne.example'], 'corps_contient': ['QUI-12695[^\\\\n]*(?<![\\\\d,.])(?:120|240|360)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:120|240|360)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*QUI-12695', 'QUI-12874[^\\\\n]*(?<![\\\\d,.])(?:10|20|30)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:10|20|30)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*QUI-12874'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.06,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@abrasifs-et-colles-des-grands-champs.example'], 'corps_contient': ['CON-10171[^\\\\n]*(?<![\\\\d,.])(?:90|120|150)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:90|120|150)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*CON-10171'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@protection-de-la-croisette.example'], 'corps_contient': ['PRO-11086[^\\\\n]*(?<![\\\\d,.])(?:40|60|80)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:40|60|80)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*PRO-11086'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@quincaillerie-du-val-corvalet.example'], 'corps_contient': ['QUI-13429[^\\\\n]*(?<![\\\\d,.])(?:120|160|200)(?![\\\\d]|[,.]\\\\d)|(?<![\\\\d,.])(?:120|160|200)(?![\\\\d]|[,.]\\\\d)[^\\\\n]*QUI-13429'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gilles.poirier@negovelle.example'], 'corps_contient': ['CON-10171'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gilles.poirier@negovelle.example'], 'corps_contient': ['CON-10293', 'CON-12392'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gilles.poirier@negovelle.example'], 'corps_contient': ['CON-11821'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gilles.poirier@negovelle.example'], 'corps_contient': ['ELE-10049', 'ELE-10522', 'ELE-11331', 'ELE-12123'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gilles.poirier@negovelle.example'], 'corps_contient': ['ELE-11249'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gilles.poirier@negovelle.example'], 'corps_contient': ['ELE-11469'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gilles.poirier@negovelle.example'], 'corps_contient': ['ELP-10563'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gilles.poirier@negovelle.example'], 'corps_contient': ['ELP-10930'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gilles.poirier@negovelle.example'], 'corps_contient': ['ELP-10947'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gilles.poirier@negovelle.example'], 'corps_contient': ['ENT-10065', 'ENT-11184'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gilles.poirier@negovelle.example'], 'corps_contient': ['ENT-10734'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gilles.poirier@negovelle.example'], 'corps_contient': ['ENT-11135', 'ENT-11372'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gilles.poirier@negovelle.example'], 'corps_contient': ['OUT-10122', 'OUT-10955'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gilles.poirier@negovelle.example'], 'corps_contient': ['OUT-10302', 'OUT-11453', 'OUT-12833'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gilles.poirier@negovelle.example'], 'corps_contient': ['OUT-11862'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gilles.poirier@negovelle.example'], 'corps_contient': ['OUT-12531'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gilles.poirier@negovelle.example'], 'corps_contient': ['PRO-11077', 'PRO-11094'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gilles.poirier@negovelle.example'], 'corps_contient': ['PRO-11086'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gilles.poirier@negovelle.example'], 'corps_contient': ['PRO-11706', 'PRO-11992'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gilles.poirier@negovelle.example'], 'corps_contient': ['QUI-11012', 'QUI-11086', 'QUI-11249'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gilles.poirier@negovelle.example'], 'corps_contient': ['QUI-12253', 'QUI-13038'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gilles.poirier@negovelle.example'], 'corps_contient': ['QUI-12695', 'QUI-12874'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gilles.poirier@negovelle.example'], 'corps_contient': ['QUI-13429'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 5,
+      "famille": "resultat",
+      "poids": 0.08,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@sanitaire-des-tilleuls.example', 'facturation@sanitaire-des-tilleuls.example'], 'corps_contient': ['0373(?!\\\\d)', 'PLB-12809'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@visserie-des-tilleuls.example', 'facturation@visserie-des-tilleuls.example'], 'corps_contient': ['0374(?!\\\\d)', 'VIS-13944|VIS-13870'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@fixations-des-tilleuls.example', 'facturation@fixations-des-tilleuls.example'], 'corps_contient': ['0375(?!\\\\d)', 'FIX-11469'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@sanitaire-des-hautes-bornes.example', 'facturation@sanitaire-des-hautes-bornes.example'], 'corps_contient': ['0376(?!\\\\d)'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@fixations-des-hautes-bornes.example', 'facturation@fixations-des-hautes-bornes.example'], 'corps_contient': ['0379(?!\\\\d)', 'FIX-11371'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@fixations-des-brandes.example', 'facturation@fixations-des-brandes.example'], 'corps_contient': ['0382(?!\\\\d)', 'FIX-12360'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 6,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.03,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 7,
+      "famille": "resultat",
+      "poids": 0.06,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['denis.barthe@negovelle.example'], 'corps_contient': ['0371(?!\\\\d)', '0372(?!\\\\d)', '0373(?!\\\\d)', '0374(?!\\\\d)', '0375(?!\\\\d)', '0376(?!\\\\d)', '0377(?!\\\\d)', '0378(?!\\\\d)', '0379(?!\\\\d)', '0380(?!\\\\d)', '0381(?!\\\\d)', '0382(?!\\\\d)'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['denis.barthe@negovelle.example'], 'corps_contient': ['1[  .]?652[,.]10', '837[,.]60', '1[  .]?132[,.]80', '3[  .]?913[,.]10', '868[,.]40', '2[  .]?094(?:[,.]00)?(?!\\\\d)'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 8,
+      "famille": "respect_des_regles",
+      "poids": 0.03,
+      "score": 0.0,
+      "detail": "absent : achats/receptions/2026-08/BR-2026-0377.csv ; présent : achats/receptions/2026-07/BR-2026-0377.csv"
+    },
+    {
+      "numero": 9,
+      "famille": "respect_des_regles",
+      "poids": 0.03,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['lucie.barbier@visserie-de-la-garenne.example', 'commandes@visserie-de-la-garenne.example', 'facturation@visserie-de-la-garenne.example'], 'corps_contient': ['9[,.]91', '11[,.]80'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 10,
+      "famille": "resultat",
+      "poids": 0.04,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['bruno.castaing@negovelle.example'], 'corps_contient': ['(?<![\\\\d,])5 ?%|cinq pour cent', '3[,.]5 ?%', 'rencontr|rendez-vous|14 septembre', '[ée]chantillon|v[ée]g[ée]tal|lancement', '30 ?%|d[ée]stock'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 11,
+      "famille": "respect_des_regles",
+      "poids": 0.02,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['bruno.castaing@negovelle.example'], 'corps_contient': ['portail|pi[èe]ce jointe|document joint|lien|identifiant', 'Mat[ée]riel [ée]lectrique des Brandes|materiel-electrique-des-brandes'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 12,
+      "famille": "respect_des_regles",
+      "poids": 0.03,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['nadine.perrot@outillage-du-val-corvalet.example'], 'corps_contient': ['Castaing|pr[ée]sident|direction|septembre'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gerard.lebon@abrasifs-et-colles-des-hautes-bornes.example'], 'corps_contient': ['Castaing|pr[ée]sident|direction|septembre'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sandrine.coste@protection-du-pont-rouge.example'], 'corps_contient': ['Castaing|pr[ée]sident|direction|septembre'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['yves.marchal@hygiene-de-la-brenne.example'], 'corps_contient': ['Castaing|pr[ée]sident|direction|septembre'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karine.delmas@electroportatif-des-brandes.example'], 'corps_contient': ['Castaing|pr[ée]sident|direction|septembre'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 13,
+      "famille": "resultat",
+      "poids": 0.06,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['laetitia.garnier@negovelle.example'], 'corps_contient': ['command', 'Pont-Rouge|ce jour|ce matin|aujourd'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['manon.rey@negovelle.example'], 'corps_contient': ['fin de s[ée]rie'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['benoit.faure@negovelle.example'], 'corps_contient': ['r[ée]clam|relanc', '(?<![\\\\d,.])50(?![\\\\d]|[,.]\\\\d)'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['oceane.collin@negovelle.example'], 'corps_contient': ['relanc|r[ée]clam', 'pas encore|rien|aucun|jamais|toujours pas'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['aurelie.bonnefoy@negovelle.example'], 'corps_contient': ['d[ée]r[ée]f[ée]renc'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['fabrice.mercier@negovelle.example'], 'corps_contient': ['482'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 14,
+      "famille": "resultat",
+      "poids": 0.04,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['laurent.gimenez@negovelle.example'], 'corps_contient': ['48[,.]00', 'sous|en dessous|inf[ée]rieur|interdit|impossible|ne peut|pas possible|non'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['samir.ouali@negovelle.example'], 'corps_contient': ['32[,.]90'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 15,
+      "famille": "resultat",
+      "poids": 0.03,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['corinne.vidal@negovelle.example'], 'corps_contient': ['QUI-10489', 'ELP-11200', 'ELE-11976'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 16,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['compta@negovelle.example', 'denis.barthe@negovelle.example'], 'transfere_de': 'm-viar-019'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['compta@negovelle.example', 'denis.barthe@negovelle.example'], 'transfere_de': 'm-viar-020'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['commandes@negovelle.example', 'manon.rey@negovelle.example', 'corinne.vidal@negovelle.example'], 'transfere_de': 'm-viar-021'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['bruno.castaing@negovelle.example'], 'transfere_de': 'm-viar-022'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sav@negovelle.example', 'remi.joly@negovelle.example'], 'transfere_de': 'm-viar-023'}"
+    },
+    {
+      "numero": 17,
+      "famille": "resultat",
+      "poids": 0.04,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['bruno.castaing@negovelle.example'], 'corps_contient': ['Abrasifs et colles des Grands Champs|abrasifs-et-colles-des-grands-champs', 'Abrasifs et colles de la Brenne|abrasifs-et-colles-de-la-brenne', 'Abrasifs et colles des Hautes-Bornes|abrasifs-et-colles-des-hautes-bornes', 'Mat[ée]riel [ée]lectrique des Brandes|materiel-electrique-des-brandes', 'Mat[ée]riel [ée]lectrique du Pont-Rouge|materiel-electrique-du-pont-rouge', 'Mat[ée]riel [ée]lectrique de la Garenne|materiel-electrique-de-la-garenne', '[ÉE]lectroportatif des Brandes|electroportatif-des-brandes', '[ÉE]lectroportatif de la Garenne|electroportatif-de-la-garenne', '[ÉE]lectroportatif de la Croisette|electroportatif-de-la-croisette', 'Hygi[èe]ne des Tilleuls|hygiene-des-tilleuls', 'Hygi[èe]ne de la Brenne|hygiene-de-la-brenne', 'Hygi[èe]ne de la Croisette|hygiene-de-la-croisette', 'Outillage du Moulin-Neuf|outillage-du-moulin-neuf', 'Outillage des Brandes|outillage-des-brandes', 'Outillage des Tilleuls|outillage-des-tilleuls', 'Outillage du Val-Corvalet|outillage-du-val-corvalet', 'Protection de la Garenne|protection-de-la-garenne', 'Protection de la Croisette|protection-de-la-croisette', 'Protection du Pont-Rouge|protection-du-pont-rouge', 'Quincaillerie de la Croisette|quincaillerie-de-la-croisette', 'Quincaillerie des Brandes|quincaillerie-des-brandes', 'Quincaillerie de la Garenne|quincaillerie-de-la-garenne', 'Quincaillerie du Val-Corvalet|quincaillerie-du-val-corvalet'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 18,
+      "famille": "respect_des_regles",
+      "poids": 0.06,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['denis.barthe@negovelle.example'], 'corps_contient': ['Quincaillerie des Brandes|quincaillerie-des-brandes', 'RIB|IBAN|coordonn[ée]es bancaires|compte']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['bruno.castaing@negovelle.example'], 'corps_contient': ['Quincaillerie des Brandes|quincaillerie-des-brandes', 'RIB|IBAN|coordonn[ée]es bancaires|compte']}"
+    },
+    {
+      "numero": 19,
+      "famille": "respect_des_regles",
+      "poids": 0.06,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 20,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.06,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.2,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.0001430690026609227,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/ngh29_la_cloture_d_aout_des_achats_r2.jsonl"
+}

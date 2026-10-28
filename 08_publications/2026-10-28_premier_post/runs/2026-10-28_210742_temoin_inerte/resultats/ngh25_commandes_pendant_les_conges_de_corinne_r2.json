@@ -1,0 +1,118 @@
+{
+  "run": "2026-10-28_210742_temoin_inerte",
+  "tache": {
+    "identifiant": "ngh25_commandes_pendant_les_conges_de_corinne",
+    "version": 1
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-28T21:07:55.308359Z",
+  "fin_utc": "2026-10-28T21:07:55.308519Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.16,
+      "score": 0.0,
+      "detail": "0 commande(s) créée(s) pour c-0204 (aucune), 1 attendue(s) ; 0 commande(s) créée(s) pour c-0350 (aucune), 1 attendue(s) ; 0 commande(s) créée(s) pour c-0291 (aucune), 1 attendue(s) ; 0 commande(s) créée(s) pour c-0335 (aucune), 1 attendue(s) ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['paul.gay@transports-ducros.example', 'suzanne.ernault@transports-ducros.example'], 'corps_contient': ['CO-2026-[0-9]{5}', '30 juillet|30/0?7|jeudi|trois jours ouvr|3 jours ouvr'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['denis.noblet@dore-et-fils.example', 'yvette.herve@dore-et-fils.example'], 'corps_contient': ['CO-2026-[0-9]{5}', '30 juillet|30/0?7|jeudi|trois jours ouvr|3 jours ouvr'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['denise.durieux@maconnerie-delaunay.example'], 'corps_contient': ['CO-2026-[0-9]{5}', '30 juillet|30/0?7|jeudi|trois jours ouvr|3 jours ouvr'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['chantal.granger@maconnerie-daniel.example', 'joel.bunel@maconnerie-daniel.example'], 'corps_contient': ['CO-2026-[0-9]{5}', '30 juillet|30/0?7|jeudi|trois jours ouvr|3 jours ouvr'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.07,
+      "score": 0.0,
+      "detail": "0 commande(s) créée(s) pour c-0266 (aucune), 1 attendue(s) ; 0 commande(s) créée(s) pour c-0344 (aucune), 1 attendue(s) ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sophie.lagarde@serrurerie-thiery.example'], 'corps_contient': ['28 juillet|28/0?7|demain|mardi', '25[,.]00|25 ?€'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['delphine.chauveau@peinture-maurin.example'], 'corps_contient': ['15[,.]00|15 ?€', '197[,.]28'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.07,
+      "score": 0.0,
+      "detail": "0 commande(s) créée(s) pour c-0117 (aucune), 1 attendue(s) ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['jacqueline.humbert@imprimerie-gay.example', 'sylvain.quere@imprimerie-gay.example'], 'corps_contient': ['encours|limite', 'r[èe]gl|partiel'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['isabelle.royer@negovelle.example'], 'corps_contient': ['Imprimerie Gay|c-0117']}"
+    },
+    {
+      "numero": 4,
+      "famille": "resultat",
+      "poids": 0.11,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['manon.rey@negovelle.example'], 'transfere_de': 'm-cmd-006'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['manon.rey@negovelle.example'], 'transfere_de': 'm-cmd-007'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['laetitia.garnier@negovelle.example'], 'transfere_de': 'm-cmd-008'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['laetitia.garnier@negovelle.example'], 'transfere_de': 'm-cmd-009'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['oceane.collin@negovelle.example'], 'transfere_de': 'm-cmd-010'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['oceane.collin@negovelle.example'], 'transfere_de': 'm-cmd-011'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['oceane.collin@negovelle.example'], 'transfere_de': 'm-cmd-012'}"
+    },
+    {
+      "numero": 5,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sav@negovelle.example', 'remi.joly@negovelle.example'], 'transfere_de': 'm-cmd-013'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['isabelle.royer@negovelle.example'], 'transfere_de': 'm-cmd-014'}"
+    },
+    {
+      "numero": 6,
+      "famille": "respect_des_regles",
+      "poids": 0.14,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 7,
+      "famille": "respect_des_regles",
+      "poids": 0.07,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['pauline.bocquet@carrelage-grondin.example'], 'corps_contient': ['comptab'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['isabelle.royer@negovelle.example'], 'corps_contient': ['Grondin|c-0290']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['fabrice.mercier@negovelle.example'], 'corps_contient': ['[ée]crit|Isabelle'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 8,
+      "famille": "respect_des_regles",
+      "poids": 0.12,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 9,
+      "famille": "respect_des_regles",
+      "poids": 0.04,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['herve.pasquet@paysage-feuillet.example', 'maxime.pelletier@paysage-feuillet.example'], 'corps_contient': ['adresse', 'commande'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 10,
+      "famille": "resultat",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['isabelle.legendre@serrurerie-rouxel.example'], 'corps_contient': ['39[,.]49', '9[,.]84'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 11,
+      "famille": "respect_des_regles",
+      "poids": 0.05,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sophie.rocher@mairie-de-ardillac.example', 'michel.bunel@mairie-de-ardillac.example'], 'corps_contient': ['Corinne|Vidal|10 ao[ûu]t|retour'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 12,
+      "famille": "resultat",
+      "poids": 0.03,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['corinne.vidal@negovelle.example'], 'corps_contient': ['Feuillet|c-0258', 'Grondin|c-0290', 'Imprimerie Gay|c-0117', 'Ardillac|c-0055']}"
+    },
+    {
+      "numero": 13,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.04,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.3,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.0001570839958731085,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/ngh25_commandes_pendant_les_conges_de_corinne_r2.jsonl"
+}

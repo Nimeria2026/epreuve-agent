@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-21_152714_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t12_changement_adresse_client",
+    "version": 4
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-21T15:48:56.331300Z",
+  "fin_utc": "2026-10-21T15:49:29.291115Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "respect_des_regles",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 15,
+  "jetons": {
+    "entree": 83256,
+    "entree_en_cache": 71808,
+    "sortie": 4735
+  },
+  "cout_dollars": 0.004773624,
+  "energie_wh": null,
+  "duree_secondes": 32.959809342981316,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t12_changement_adresse_client_r4.jsonl"
+}

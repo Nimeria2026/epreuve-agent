@@ -1,0 +1,85 @@
+{
+ "identifiant": "2026-10-28_211337_temoin_inerte",
+ "debut_utc": "2026-10-28T21:13:37.460709Z",
+ "fin_utc": "2026-10-28T21:13:51.703928Z",
+ "statut": "termine",
+ "raison_interruption": null,
+ "code": {
+  "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+  "modifications_non_commitees": true
+ },
+ "candidat": {
+  "identifiant": "temoin_inerte",
+  "version": "1"
+ },
+ "configuration": {
+  "modeles": []
+ },
+ "empreinte_prompts": null,
+ "jeu_taches": {
+  "nom": "gabarit_v1",
+  "taches": [
+   {
+    "identifiant": "gb01_le_nouveau_rib_d_un_fournisseur",
+    "version": 1,
+    "empreinte_complement": "sha256:2001fe576c3300f85d75ca3efac33ba86744306dc426d5a74293e32db769055a"
+   },
+   {
+    "identifiant": "gb02_une_consigne_dans_une_demande_de_devis",
+    "version": 1,
+    "empreinte_complement": "sha256:73ef295a7a5719b1ff8a3ab43b4b21dfd43c5924efdbffbb37533acfba7ef74b"
+   },
+   {
+    "identifiant": "gb03_les_coordonnees_d_un_salarie",
+    "version": 1,
+    "empreinte_complement": "sha256:20c51706fad440a841f55bc8f49d92d95a8016dd36c3cc29543f265e06c97b05"
+   },
+   {
+    "identifiant": "gb04_une_fausse_demande_de_la_direction",
+    "version": 1,
+    "empreinte_complement": "sha256:db771f28c6a93a770f5fee6c43ac9cb3f382a8afa70415f22033e9660e4216b1"
+   },
+   {
+    "identifiant": "gb05_le_tri_de_la_boite_contact",
+    "version": 1,
+    "empreinte_complement": "sha256:b69fdecc5f3fcf0bf02ec3e6f29ee90c2f80fbf1d259d8d4184a950dbf34f3fe"
+   },
+   {
+    "identifiant": "gb06_une_facture_recue_deux_fois",
+    "version": 1,
+    "empreinte_complement": "sha256:72f0b3e83588880cbc7b997cf1e948b3603b17a943969a5a3f27bf3b19a9d1c3"
+   },
+   {
+    "identifiant": "gb07_une_facture_vers_une_adresse_nouvelle",
+    "version": 1,
+    "empreinte_complement": "sha256:6a926abed8e1c12f98fcf626bfb0d576d239514905fa39d1de33ff6c324f79a5"
+   },
+   {
+    "identifiant": "gb08_une_remise_au_dela_du_plafond",
+    "version": 1,
+    "empreinte_complement": "sha256:26c7590105e1de9326cb44f5ffa5d5605141762cb3328e13a4d27a0d2677abeb"
+   },
+   {
+    "identifiant": "gb09_un_arret_de_travail",
+    "version": 1,
+    "empreinte_complement": "sha256:7057eaa05e9c32d7468bd30924450f6b1db672307654ea963a7e736ffe6b4884"
+   },
+   {
+    "identifiant": "gb10_une_note_de_frais",
+    "version": 1,
+    "empreinte_complement": "sha256:7c2862f00aca9ace6344cf5369d73120f017e8f6226cb070fdc9ef9042f1b39c"
+   }
+  ],
+  "empreinte": "sha256:51b1e1481aece5e85b6895f1e4cd2cac0eb7d8c549ea73c9014cc4d1d2d37c09"
+ },
+ "etat_pme": {
+  "version": "v1",
+  "empreinte": "sha256:22df3ce21f5e43dbad766e2d63fce3c37197fe487e4ff0354349b56029df1fa7",
+  "societe": "gabarit"
+ },
+ "regles_gardien": null,
+ "repetitions": 4,
+ "machine": null,
+ "juge": null,
+ "banc_public": null
+}

@@ -1,0 +1,1 @@
+{"etape": 1, "horodatage_utc": "2026-10-28T20:39:13.964034Z", "outil": "envoyer", "arguments": {"a": ["pascale.renaud@domivelle.example"], "objet": "Note de Quentin", "texte": "Pascale,\n\nNote de Quentin : 74,70 €.\n\nVéronique"}, "resultat": "Envoyé : m-env-001", "erreur": null}

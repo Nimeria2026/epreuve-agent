@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-19_071004_agent_seul_qwen_local",
+  "tache": {
+    "identifiant": "h04_les_conges_de_fin_d_annee",
+    "version": 9
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-19T12:54:49.343143Z",
+  "fin_utc": "2026-10-19T13:04:05.466113Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 0.9,
+      "detail": "juge : faux, Le courriel signale à la gérante que le congé de Yanis ferait trois techniciens absents le 24 décembre, ou que la limite de deux serait dépassée.\n"
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.35,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.25,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.97,
+  "reussie": false,
+  "etapes": 28,
+  "jetons": {
+    "entree": 55752,
+    "entree_en_cache": "?",
+    "sortie": 21357
+  },
+  "cout_dollars": "?",
+  "energie_wh": 38.411091359131525,
+  "duree_secondes": 556.1229639020021,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h04_les_conges_de_fin_d_annee_r4.jsonl"
+}

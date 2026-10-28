@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-21_193611_agent_seul_deepseek_flash_1017",
+  "tache": {
+    "identifiant": "t51_deux_pompes_a_chaleur",
+    "version": 1
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-21T19:50:29.330187Z",
+  "fin_utc": "2026-10-21T19:50:56.686636Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.35,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.35,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 31,
+  "jetons": {
+    "entree": 176448,
+    "entree_en_cache": 162048,
+    "sortie": 3739
+  },
+  "cout_dollars": 0.004889544,
+  "energie_wh": null,
+  "duree_secondes": 27.356444307020865,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t51_deux_pompes_a_chaleur_r3.jsonl"
+}

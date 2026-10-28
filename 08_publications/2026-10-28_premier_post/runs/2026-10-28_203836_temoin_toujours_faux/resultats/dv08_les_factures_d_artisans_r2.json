@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-28_203836_temoin_toujours_faux",
+  "tache": {
+    "identifiant": "dv08_les_factures_d_artisans",
+    "version": 2
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-28T20:38:54.270634Z",
+  "fin_utc": "2026-10-28T20:38:54.283930Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 0.0,
+      "detail": "absent : artisans/plomberie-du-moulin-barrat/factures/2026-0412_n02-05.pdf ; absent : artisans/serrurerie-de-la-motte-brulee/factures/2026-0577_c01-05.pdf"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.25,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['copropriete@domivelle.example'], 'transfere_de': 'm-cpt-004'}"
+    },
+    {
+      "numero": 3,
+      "famille": "resultat",
+      "poids": 0.25,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['pascale.renaud@domivelle.example', 'comptabilite@domivelle.example'], 'corps_contient': ['2026-0412[^\\\\n]*(?:10 juin|10/0?6|2026-06-10)|(?:10 juin|10/0?6|2026-06-10)[^\\\\n]*2026-0412', '2026-0577[^\\\\n]*(?:10 juillet|10/0?7|2026-07-10)|(?:10 juillet|10/0?7|2026-07-10)[^\\\\n]*2026-0577']}"
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "créé artisans/nettoyage-des-quatre-vents/factures/facture_2026-0731.pdf ; créé artisans/plomberie-du-moulin-barrat/factures/2026-0412_n02-05_bis.pdf"
+    }
+  ],
+  "score": 0.0,
+  "reussie": false,
+  "etapes": 2,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.013291663999552839,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/dv08_les_factures_d_artisans_r2.jsonl"
+}

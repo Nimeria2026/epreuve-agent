@@ -1,0 +1,58 @@
+{
+ "identifiant": "2026-10-27_053000_agent_seul_qwen_flash_next_strata",
+ "debut_utc": "2026-10-27T05:30:00.651454Z",
+ "fin_utc": "2026-10-27T06:00:46.533581Z",
+ "statut": "termine",
+ "raison_interruption": null,
+ "code": {
+  "commit": "f9be7a5a1c8e83745c9998900420cf66ee731cf9",
+  "modifications_non_commitees": false
+ },
+ "candidat": {
+  "identifiant": "agent_seul_qwen_flash_next_strata",
+  "version": "0.1.0"
+ },
+ "configuration": {
+  "modeles": [
+   {
+    "role": "agent",
+    "nom": "qwen3.8-flash-next-iq3_s",
+    "fournisseur": "local",
+    "version_renvoyee": "qwen3.8-flash-next-iq3_s",
+    "parametres": {
+     "temperature": 1.0,
+     "top_p": 0.95,
+     "top_k": 20.0
+    },
+    "tarif": null
+   }
+  ]
+ },
+ "empreinte_prompts": "sha256:7d4f0c7c9015ac3ce3a500bfc847b3bbc7a25d4041360344c8bdc6bfc0997811",
+ "jeu_taches": {
+  "nom": "dure_v3",
+  "taches": [
+   {
+    "identifiant": "h12_la_fin_de_novembre",
+    "version": 2,
+    "empreinte_complement": "sha256:1c00c824ad54d7890961ab8359507fab2a50e682e90f1dd54c6ea793ce312ef6"
+   }
+  ],
+  "empreinte": "sha256:c04ec404e032db94ff332522a1ce827ed8fcef99a53da6fd0b7fc90d300c481d"
+ },
+ "etat_pme": {
+  "version": "v3",
+  "empreinte": "sha256:9ea9fbab11963e7b7bd7235c21f2450753f3d499a0cfcd9bdf675f128e699909",
+  "societe": "calorelle"
+ },
+ "regles_gardien": null,
+ "repetitions": 5,
+ "machine": {
+  "systeme": "Ubuntu 24.04",
+  "processeur": "?",
+  "carte_graphique": "NVIDIA GeForce RTX 3090",
+  "service_modele": "Strata 0.2.4.2, contexte de 131 072 jetons"
+ },
+ "juge": null,
+ "banc_public": null
+}

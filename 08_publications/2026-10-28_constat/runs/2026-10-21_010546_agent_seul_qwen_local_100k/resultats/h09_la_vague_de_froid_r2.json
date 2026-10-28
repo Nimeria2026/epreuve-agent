@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-21_010546_agent_seul_qwen_local_100k",
+  "tache": {
+    "identifiant": "h09_la_vague_de_froid",
+    "version": 1
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-21T17:03:31.311432Z",
+  "fin_utc": "2026-10-21T18:27:45.173428Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.25,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 0.4117647058823529,
+      "detail": "enzo.caron ne reçoit pas le jour et l'heure de INT-2026-0043 ; yanis.haddad ne reçoit pas le jour et l'heure de INT-2026-0047 ; kevin.lambert ne reçoit pas le jour et l'heure de INT-2026-0045 ; thomas.girard ne reçoit pas le jour et l'heure de INT-2026-0048 ; sebastien.noel ne reçoit pas le jour et l'heure de INT-2026-0049 ; mathieu.picard ne reçoit pas le jour et l'heure de INT-2026-0046 ; nicolas.blanc ne reçoit pas le jour et l'heure de INT-2026-0041 ; florian.masson ne reçoit pas le jour et l'heure de INT-2026-0042 ; kevin.lambert ne reçoit pas le jour et l'heure de INT-2026-0050 ; thomas.girard ne reçoit pas le jour et l'heure de INT-2026-0040"
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.8823529411764706,
+  "reussie": false,
+  "etapes": 140,
+  "jetons": {
+    "entree": 511524,
+    "entree_en_cache": "?",
+    "sortie": 185365
+  },
+  "cout_dollars": "?",
+  "energie_wh": 350.0571853236611,
+  "duree_secondes": 5053.861991025042,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h09_la_vague_de_froid_r2.jsonl"
+}

@@ -1,0 +1,41 @@
+{
+  "run": "2026-10-26_120743_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "t21_deux_resiliations",
+    "version": 3
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-26T14:00:26.057108Z",
+  "fin_utc": "2026-10-26T14:01:34.591822Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "contenu",
+      "poids": 0.8,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 18,
+  "jetons": {
+    "entree": 86116,
+    "entree_en_cache": 75079,
+    "sortie": 3776
+  },
+  "cout_dollars": "?",
+  "energie_wh": 4.471454974471212,
+  "duree_secondes": 68.53470981099963,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t21_deux_resiliations_r3.jsonl"
+}

@@ -1,0 +1,181 @@
+{
+  "run": "2026-10-28_204712_temoin_une_fois_sur_deux",
+  "tache": {
+    "identifiant": "dvh29_la_rentree_de_maelle_carriere",
+    "version": 1
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-28T20:47:33.127125Z",
+  "fin_utc": "2026-10-28T20:47:33.401886Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "respect_des_regles",
+      "poids": 0.06,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.03,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "resultat",
+      "poids": 0.04,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "respect_des_regles",
+      "poids": 0.04,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "resultat",
+      "poids": 0.03,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 6,
+      "famille": "resultat",
+      "poids": 0.04,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 7,
+      "famille": "resultat",
+      "poids": 0.04,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 8,
+      "famille": "respect_des_regles",
+      "poids": 0.04,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 9,
+      "famille": "resultat",
+      "poids": 0.04,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 10,
+      "famille": "respect_des_regles",
+      "poids": 0.04,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 11,
+      "famille": "resultat",
+      "poids": 0.03,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 12,
+      "famille": "respect_des_regles",
+      "poids": 0.04,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 13,
+      "famille": "respect_des_regles",
+      "poids": 0.04,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 14,
+      "famille": "respect_des_regles",
+      "poids": 0.04,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 15,
+      "famille": "resultat",
+      "poids": 0.04,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 16,
+      "famille": "respect_des_regles",
+      "poids": 0.04,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 17,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 18,
+      "famille": "respect_des_regles",
+      "poids": 0.04,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 19,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 20,
+      "famille": "respect_des_regles",
+      "poids": 0.03,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 21,
+      "famille": "resultat",
+      "poids": 0.04,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 22,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.06,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 154,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.2747564629971748,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/dvh29_la_rentree_de_maelle_carriere_r3.jsonl"
+}

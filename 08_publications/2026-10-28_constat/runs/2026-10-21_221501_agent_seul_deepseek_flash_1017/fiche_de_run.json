@@ -1,0 +1,59 @@
+{
+ "identifiant": "2026-10-21_221501_agent_seul_deepseek_flash_1017",
+ "debut_utc": "2026-10-21T22:15:01.293522Z",
+ "fin_utc": "2026-10-21T22:24:03.167981Z",
+ "statut": "termine",
+ "raison_interruption": null,
+ "code": {
+  "commit": "54db021ec02ab3101856d8b0adf8f8687691df5f",
+  "modifications_non_commitees": false
+ },
+ "candidat": {
+  "identifiant": "agent_seul_deepseek_flash_1017",
+  "version": "0.1.0"
+ },
+ "configuration": {
+  "modeles": [
+   {
+    "role": "agent",
+    "nom": "deepseek-flash",
+    "fournisseur": "DeepSeek",
+    "version_renvoyee": "deepseek-flash",
+    "parametres": {},
+    "tarif": {
+     "entree_dollars_par_million": 0.15,
+     "entree_en_cache_dollars_par_million": 0.003,
+     "sortie_dollars_par_million": 0.6,
+     "source": "https://api-docs.deepseek.com/quick_start/pricing",
+     "releve_le": "2026-10-21"
+    }
+   }
+  ]
+ },
+ "empreinte_prompts": "sha256:325709baa8f9e4480d8f04265bc9657002b109a65f30d356545f47733ae11cbd",
+ "jeu_taches": {
+  "nom": "dure_v3",
+  "taches": [
+   {
+    "identifiant": "h04_les_conges_de_fin_d_annee",
+    "version": 14,
+    "empreinte_complement": "sha256:510e5110fd79a2c3c46ac5036561791315d8c7ae012f6b8e3de80dc8052e23bc"
+   }
+  ],
+  "empreinte": "sha256:35de06567de1bbfdd5e0ee6d6a516089948fc1f9bf972e5ed83ed5d146bfc5bf"
+ },
+ "etat_pme": {
+  "version": "v3",
+  "empreinte": "sha256:9ea9fbab11963e7b7bd7235c21f2450753f3d499a0cfcd9bdf675f128e699909",
+  "societe": "calorelle"
+ },
+ "regles_gardien": null,
+ "repetitions": 5,
+ "machine": null,
+ "juge": {
+  "modele": "deepseek-flash",
+  "grille": "2",
+  "avis": 3
+ },
+ "banc_public": null
+}

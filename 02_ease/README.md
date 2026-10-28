@@ -75,13 +75,13 @@ Contenu actuel :
 - `src/ease/journal.py` : lecture d'un journal d'exécution dans un terminal, étape par étape
   (`make journal CHEMIN=<fichier ou dossier de run> TACHE=t05`) ;
 - `src/ease/pme.py` : la PME vue par EASE. Remise à zéro de l'état de travail depuis
-  `05_pme/societes/calorelle/` dans `99_local/pme/` (dans `99_local/pme_<candidat>/` pour
-  `make mesure`, afin que deux candidats tournent en même temps), empreinte de la version, et
+  `05_pme/societes/calorelle/` dans `99_local/travail/pme/` (dans
+  `99_local/travail/pme_<candidat>/` pour `make mesure`, afin que deux candidats tournent en même temps), empreinte de la version, et
   `EnvironnementPME`, qui lance par Node les serveurs MCP de la tâche pour la personne servie et
   leur parle par le client MCP officiel (paquet `mcp`), en stdio ; EKE (`04_eke`), seul service
   en Python, se lance par le Python du dépôt, pour les seules tâches qui le déclarent ; ce que les serveurs écrivent
-  sur leur sortie d'erreur va dans `99_local/pme_serveurs.log` (ou
-  `99_local/pme_<candidat>_serveurs.log`). Avec un fichier de règles, `EnvironnementPME` ne
+  sur leur sortie d'erreur va dans `99_local/travail/pme_serveurs.log` (ou
+  `99_local/travail/pme_<candidat>_serveurs.log`). Avec un fichier de règles, `EnvironnementPME` ne
   lance que le gardien (`06_gardien`), qui lance les serveurs ; EASE n'en lit que la version et
   l'empreinte des règles, et compte ses refus dans les journaux d'exécution. Une tâche à
   complément d'état (t06 à t13) reçoit en plus `05_pme/societes/calorelle/complements/<nom>/`, posé sur
@@ -125,4 +125,55 @@ Contenu actuel :
   face au simulateur d'utilisateur gemini-2.5-flash par OpenRouter, clé `OPENROUTER_API_KEY` dans
   `.env` ; runs dans `99_local/runs_tau2/`, simulateur et son coût dans le champ `banc_public` de
   la fiche ; ces candidats ne sont pas ceux de `make mesure` ;
+- `src/ease/gabarit.py` et `src/ease/solutions_gabarit.py` : le monde de la société gabarit des
+  campagnes, lu dans `05_pme/societes/gabarit/variables.yaml`, et les gestes de ses témoins, tirés
+  de ce monde (`make gabarit`, `make temoins TERRAIN=gabarit`, `make mesure JEU=gabarit`) ;
+- `src/ease/rapport_campagne.py` : le rapport d'une campagne pour l'entreprise, en Markdown à
+  compléter (`make rapport-campagne`) : les quatre réponses avec leurs marges, chaque échec de
+  l'agent avec ses gestes, les limites ; il ne remplace jamais un rapport existant ;
 - `tests/` : tests lancés par `make tests`.
+
+## Brancher un agent externe
+
+Pour mesurer l'agent d'une entreprise, dans le dossier de sa campagne (`make campagne` ; cadrage des
+interventions, `00_docs/sources/2026-10-26_cadrage_interventions.md`). L'agent tourne sur le poste,
+dans son propre processus ; EASE ne l'importe jamais (règle 6). Le chemin est celui de tous les
+candidats, et `test_gabarit.py` le vérifie avec le témoin externe (`ease.temoin_externe`), qui
+réussit les dix tâches du gabarit par le relais.
+
+1. Ce que l'agent reçoit. EASE lance sa commande, depuis la racine du dépôt, avec trois arguments
+   de plus : `--mcp <adresse>`, un serveur MCP en HTTP (transport streamable,
+   `http://127.0.0.1:<port>/mcp`) qui présente les outils de la PME pour la personne servie ;
+   `--enonce <fichier>`, l'énoncé, après le préambule de l'environnement ; `--sortie <fichier>`,
+   où il écrit sa sortie. Chaque appel d'outil compte une étape ; au-delà du budget de la tâche ou
+   du délai, EASE l'arrête. Un refus, du service ou du gardien, lui revient comme une erreur
+   d'outil.
+2. Ce qu'il écrit. Sa sortie suit le contrat `sortie_candidat`
+   (`01_contrats/sortie_candidat.schema.json`) : `fin` (`en_cours` pendant l'exécution,
+   `termine` quand il rend la main, `erreur` sur une panne de son côté), `detail`,
+   `appels_modele`, `consommation` (les jetons par rôle, `"?"` quand il ne les connaît pas) et
+   `modeles_renvoyes`. Il la réécrit après chaque appel de modèle : un arrêt garde ce qu'il a
+   consommé.
+3. Sa déclaration. Un fichier `src/ease/candidats/campagne_<nom>.yaml`, l'identifiant
+   `campagne_<nom>` : ce préfixe le tient à part des candidats de l'atelier, et les tests le
+   laissent passer. Sur le modèle d'`agent_seul_deepseek_flash.yaml` : la fiche
+   (`origine: pret_a_l_emploi`, `division: systeme_complet`, `branchement: mcp`, et
+   `conditions_utilisation`, obligatoires pour un produit, avec `publication_permise: "non"` tant
+   que l'entreprise n'a rien accepté) ; la configuration, ses modèles et leurs tarifs, ou
+   `modeles: []` avec `cout_mesurable: false` quand l'entreprise ne les donne pas ;
+   `machine: null` ; le lancement, `module: null`, `commande: [<programme>, <ses arguments>]`,
+   lancée depuis la racine du poste (`.venv/bin/python` pour un programme Python du dépôt),
+   `arguments: []`, `delai_secondes`, `empreinte_de` (les fichiers de sa configuration dans le
+   dépôt de la campagne), `sonde`, `creneau` et `energie` à `null`. Ses clés vont dans le `.env`
+   de la campagne, jamais dans la déclaration. La déclaration se commite dans la campagne : un
+   poste ne voit que ce qui l'est.
+4. Un essai, d'un poste de la campagne (`make poste-mesure POSTE=api`, puis
+   `cd ../<campagne>_postes/api`) : `make mesure CANDIDAT=campagne_<nom> JEU=gabarit TACHES=gb01
+   REPETITIONS=1`, et `make journal CHEMIN=<run> TACHE=gb01` pour relire ses appels.
+5. La mesure : `make mesure CANDIDAT=campagne_<nom> JEU=gabarit`, avec `GARDIEN=1` pour une
+   seconde série derrière le gardien, puis `make rapport JEU=gabarit CANDIDATS=campagne_<nom>`.
+
+Un agent qui ne tourne que dans le nuage de l'entreprise n'atteint pas `127.0.0.1` : il lui faut
+un adaptateur sur le poste, qui reçoit les trois arguments et relaie ses appels d'outils au
+relais. Sans adaptateur, l'agent n'est pas mesurable par EASE (`branchement: interface` ou
+`aucun` dans sa fiche), et le rapport le dit.

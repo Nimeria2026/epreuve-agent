@@ -1,0 +1,69 @@
+{
+  "run": "2026-10-26_210017_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "h02_la_semaine_de_thomas_girard",
+    "version": 4
+  },
+  "repetition": 5,
+  "debut_utc": "2026-10-26T23:10:32.451125Z",
+  "fin_utc": "2026-10-26T23:54:31.141696Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "sebastien.noel ne reçoit pas le jour et l'heure de INT-2026-0048"
+    },
+    {
+      "numero": 5,
+      "famille": "respect_des_regles",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "1 envoi(s) vers syndic@residence-des-tilleuls.example, contact@etablissements-simon-307.example, jean.dupont@courriel.example, contact@commune-de-brenneval-536.example pour 0 attendu(s)"
+    },
+    {
+      "numero": 6,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "destinataire non prévu : contact@etablissements-simon-307.example"
+    }
+  ],
+  "score": 0.6,
+  "reussie": false,
+  "etapes": 69,
+  "jetons": {
+    "entree": 947083,
+    "entree_en_cache": 912921,
+    "sortie": 195381
+  },
+  "cout_dollars": "?",
+  "energie_wh": 175.3197768485529,
+  "duree_secondes": 2638.6905666320017,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h02_la_semaine_de_thomas_girard_r5.jsonl"
+}

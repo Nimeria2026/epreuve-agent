@@ -1,0 +1,47 @@
+{
+  "run": "2026-10-09_220655_agent_seul_qwen_local",
+  "tache": {
+    "identifiant": "t15_message_vocal",
+    "version": 3
+  },
+  "repetition": 5,
+  "debut_utc": "2026-10-10T03:24:40.781949Z",
+  "fin_utc": "2026-10-10T03:25:44.812633Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.5,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 13,
+  "jetons": {
+    "entree": 54687,
+    "entree_en_cache": "?",
+    "sortie": 2089
+  },
+  "cout_dollars": "?",
+  "energie_wh": 4.3878297618105515,
+  "duree_secondes": 64.03067832200031,
+  "journal": "journaux/t15_message_vocal_r5.jsonl"
+}

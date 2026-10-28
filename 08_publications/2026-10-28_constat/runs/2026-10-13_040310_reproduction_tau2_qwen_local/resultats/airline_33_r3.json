@@ -1,0 +1,33 @@
+{
+  "run": "2026-10-13_040310_reproduction_tau2_qwen_local",
+  "tache": {
+    "identifiant": "airline_33",
+    "version": 1
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-13T15:06:27.401095Z",
+  "fin_utc": "2026-10-13T15:10:04.955415Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 1.0,
+      "score": 0.0,
+      "detail": "τ²-bench : récompense 0 ; fin user_stop ; base différente de la cible ; phrases dites 0 sur 0"
+    }
+  ],
+  "score": 0.0,
+  "reussie": false,
+  "etapes": 16,
+  "jetons": {
+    "entree": 114656,
+    "entree_en_cache": "?",
+    "sortie": 8058
+  },
+  "cout_dollars": "?",
+  "energie_wh": 14.60910569680442,
+  "duree_secondes": 217.55431611998938,
+  "journal": "journaux/airline_33_r3.jsonl"
+}

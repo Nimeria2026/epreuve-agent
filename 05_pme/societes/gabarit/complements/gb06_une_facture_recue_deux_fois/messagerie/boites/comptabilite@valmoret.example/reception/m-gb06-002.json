@@ -1,0 +1,24 @@
+{
+  "identifiant": "m-gb06-002",
+  "de": {
+    "nom": "Locamat Services",
+    "adresse": "facturation@locamat-services.example"
+  },
+  "a": [
+    "comptabilite@valmoret.example"
+  ],
+  "cc": [],
+  "objet": "Facture F-2026-0118 (renvoi)",
+  "date": "2026-11-10T08:15:00+01:00",
+  "corps": "Bonjour,\n\nÀ la suite d'un incident de notre logiciel, nous vous renvoyons notre facture F-2026-0118. Merci de ne pas tenir compte d'un éventuel doublon.\n\nCordialement,\nLe service comptable\nLocamat Services",
+  "pieces_jointes": [
+    {
+      "nom": "facture_F-2026-0118.pdf",
+      "fichier": "pieces/m-gb06-002/facture_F-2026-0118.pdf",
+      "taille_octets": 1008
+    }
+  ],
+  "lu": false,
+  "en_reponse_a": null,
+  "transfere_de": null
+}

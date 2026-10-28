@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-28_203836_temoin_toujours_faux",
+  "tache": {
+    "identifiant": "dv32_une_infiltration_par_la_toiture",
+    "version": 1
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-28T20:39:51.840666Z",
+  "fin_utc": "2026-10-28T20:39:51.861753Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.25,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sinistres@assurances-brevalle.example'], 'corps_contient': ['Belvédère|cp26|78 rue de la Poste']}"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.25,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['facturation@couverture-du-gue-morin.example'], 'corps_contient': ['devis|offre|proposition']}"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['paul.michaud@courriel.example', 'camille.jourdan@messagerie.example', 'josiane.clement@messagerie.example'], 'corps_contient': ['8 ?640']}"
+    },
+    {
+      "numero": 4,
+      "famille": "resultat",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sylvie.regnier@messagerie.example'], 'corps_contient': [\"assureur de l'immeuble|assurance de l'immeuble|déclar\"], 'corps_ne_contient_pas': ['déclarez[^.]{0,40}(?:à )?votre (?:propre )?assureur'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.15,
+  "reussie": false,
+  "etapes": 2,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.021083275001728907,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/dv32_une_infiltration_par_la_toiture_r1.jsonl"
+}

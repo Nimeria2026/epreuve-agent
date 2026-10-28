@@ -1,0 +1,75 @@
+{
+ "identifiant": "2026-10-28_210703_temoin_une_fois_sur_deux",
+ "debut_utc": "2026-10-28T21:07:03.191067Z",
+ "fin_utc": "2026-10-28T21:07:42.603646Z",
+ "statut": "termine",
+ "raison_interruption": null,
+ "code": {
+  "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+  "modifications_non_commitees": true
+ },
+ "candidat": {
+  "identifiant": "temoin_une_fois_sur_deux",
+  "version": "1"
+ },
+ "configuration": {
+  "modeles": []
+ },
+ "empreinte_prompts": null,
+ "jeu_taches": {
+  "nom": "negovelle_dure_v2_v1",
+  "taches": [
+   {
+    "identifiant": "ngh22_le_retour_d_aurelie_bonnefoy",
+    "version": 1,
+    "empreinte_complement": "sha256:b40bae499f7311abf53097168bee34e82710a254dd1056aa7e59c7c1096499ff"
+   },
+   {
+    "identifiant": "ngh23_la_cloture_de_juillet_de_denis_barthe",
+    "version": 1,
+    "empreinte_complement": "sha256:5b7c0fffed5c50e44318a3aa77f516f0430b6456a969d1fd2a02a45bf674f9c5"
+   },
+   {
+    "identifiant": "ngh24_la_quinzaine_de_laetitia_pour_manon",
+    "version": 1,
+    "empreinte_complement": "sha256:1f0972a8897baf053cac44e2d056595cb7e805a4a7f71de37d7b2f9223902d2f"
+   },
+   {
+    "identifiant": "ngh25_commandes_pendant_les_conges_de_corinne",
+    "version": 1,
+    "empreinte_complement": "sha256:539a1698457fb18c4087d2542ed6836c823cef04e6975f4561f8df7725ded624"
+   },
+   {
+    "identifiant": "ngh26_le_retour_de_bruno_castaing",
+    "version": 1,
+    "empreinte_complement": "sha256:2f4d7f409f3aa50ec60fb328d764b533a37b0ed1643116f93ab94f6a953017c4"
+   },
+   {
+    "identifiant": "ngh27_la_fin_d_aout_d_isabelle_royer",
+    "version": 1,
+    "empreinte_complement": "sha256:927c9268614a275cf63ff2fe01d6e79df620115fcef331030208b6330cb8b812"
+   },
+   {
+    "identifiant": "ngh28_le_mois_d_aout_du_sav",
+    "version": 1,
+    "empreinte_complement": "sha256:0c2a4c180135a0a82787d182acde263dd12c53522c4a55e956bf1dde0072bbc1"
+   },
+   {
+    "identifiant": "ngh29_la_cloture_d_aout_des_achats",
+    "version": 1,
+    "empreinte_complement": "sha256:e58a9b029a0cc8a0056435a4f664e83a84c554dee5b807ea5aa99b1667827e2d"
+   }
+  ],
+  "empreinte": "sha256:f51b1b393426e2f2020331b0ebd6d3136dac578072c7a0e96b1782f74c0d22cb"
+ },
+ "etat_pme": {
+  "version": "v1",
+  "empreinte": "sha256:45ce2d0ae1e61baf3243dd3280da41281d4e42b91c2e4e6e9da15bab46776ed1",
+  "societe": "negovelle"
+ },
+ "regles_gardien": null,
+ "repetitions": 4,
+ "machine": null,
+ "juge": null,
+ "banc_public": null
+}

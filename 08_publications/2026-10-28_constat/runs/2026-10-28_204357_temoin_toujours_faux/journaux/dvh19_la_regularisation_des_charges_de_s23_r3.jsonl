@@ -1,0 +1,1 @@
+{"etape": 1, "horodatage_utc": "2026-10-28T20:44:42.444549Z", "outil": "envoyer", "arguments": {"a": ["pascale.renaud@domivelle.example"], "objet": "Soldes s23", "texte": "Pascale,\n\ns23-07 : 1 493,81 € à payer. s23-01, Mme Huet : 63,41 € à payer. M. Collet : 168,85 €."}, "resultat": "Envoyé : m-env-001", "erreur": null}

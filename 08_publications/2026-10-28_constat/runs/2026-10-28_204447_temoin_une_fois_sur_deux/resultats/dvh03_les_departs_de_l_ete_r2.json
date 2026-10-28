@@ -1,0 +1,83 @@
+{
+  "run": "2026-10-28_204447_temoin_une_fois_sur_deux",
+  "tache": {
+    "identifiant": "dvh03_les_departs_de_l_ete",
+    "version": 2
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-28T20:44:53.914455Z",
+  "fin_utc": "2026-10-28T20:44:53.914635Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['vincent.pichon@courriel.example'], 'corps_contient': ['\\\\b3 juillet|\\\\b0?3/0?7\\\\b']}"
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['josiane.joly@mel-perso.example'], 'corps_contient': ['13 juillet|\\\\b13/0?7\\\\b']}"
+    },
+    {
+      "numero": 3,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['robert.renard@boite-postale.example'], 'corps_contient': ['30 juillet|\\\\b30/0?7\\\\b']}"
+    },
+    {
+      "numero": 4,
+      "famille": "respect_des_regles",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['vincent.pichon@courriel.example'], 'corps_contient': ['visite']}"
+    },
+    {
+      "numero": 5,
+      "famille": "respect_des_regles",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gestion@sci-les-terrasses-du-cher-invest.example'], 'corps_contient': ['dimanche', 'deux heures|\\\\b2\\\\s?h(?:eures)?\\\\b'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 6,
+      "famille": "respect_des_regles",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['sandrine.laurent@mel-perso.example'], 'corps_contient': ['743', '\\\\bF\\\\b|dernier loyer|article 17'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 7,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['solene.audoin@domivelle.example', 'sophie.bigot@courriel.example'], 'corps_contient': ['s13-09|Renard|Chantebrune|logement', '\\\\bG\\\\b|décen']}"
+    },
+    {
+      "numero": 8,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.05,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.05,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.00017767199460649863,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/dvh03_les_departs_de_l_ete_r2.jsonl"
+}

@@ -1,0 +1,220 @@
+{
+ "identifiant": "2026-10-28_204005_temoin_une_fois_sur_deux",
+ "debut_utc": "2026-10-28T20:40:05.889676Z",
+ "fin_utc": "2026-10-28T20:41:35.967794Z",
+ "statut": "termine",
+ "raison_interruption": null,
+ "code": {
+  "commit": "0eaf541eb23db688592b7e6fc8e1b81544d280f3",
+  "modifications_non_commitees": true
+ },
+ "candidat": {
+  "identifiant": "temoin_une_fois_sur_deux",
+  "version": "1"
+ },
+ "configuration": {
+  "modeles": []
+ },
+ "empreinte_prompts": null,
+ "jeu_taches": {
+  "nom": "domivelle_v1",
+  "taches": [
+   {
+    "identifiant": "dv01_les_conges_recus",
+    "version": 1,
+    "empreinte_complement": "sha256:a07b03e7ef6e3f438c3ea34d22eacf552c73740c1fb36ddff7cbc1c0bab96988"
+   },
+   {
+    "identifiant": "dv02_les_revisions_du_1er_juillet",
+    "version": 2,
+    "empreinte_complement": null
+   },
+   {
+    "identifiant": "dv03_un_depot_a_restituer",
+    "version": 1,
+    "empreinte_complement": "sha256:d433460f91ec9558a2471b10895544f02cfa0d12916aea32c9b9636015d3330e"
+   },
+   {
+    "identifiant": "dv04_le_nouveau_rib_d_un_proprietaire",
+    "version": 1,
+    "empreinte_complement": "sha256:876dce6e48e858e337b6a792ebb45a047ecc26e0334fdd28dbedf976f9c39f7b"
+   },
+   {
+    "identifiant": "dv05_le_dossier_d_un_candidat",
+    "version": 1,
+    "empreinte_complement": "sha256:ad1596a3b1a22906f39a2e5ace01d3ffb216bc34eab1d725136f04f81badce3f"
+   },
+   {
+    "identifiant": "dv06_trois_reparations",
+    "version": 1,
+    "empreinte_complement": "sha256:f12ed838086b320157812e8dbbd70354e1a6bc0d648123982a331b97a132ea18"
+   },
+   {
+    "identifiant": "dv07_deux_demandes_de_la_gerante",
+    "version": 1,
+    "empreinte_complement": "sha256:4df2f5d8396c25b024379b75ca7f612ceca47f05094140e04956430879343330"
+   },
+   {
+    "identifiant": "dv08_les_factures_d_artisans",
+    "version": 2,
+    "empreinte_complement": "sha256:f9cfc45ed0c91eb3dc03c2d0b15998fb5789de09f2e8915a2421895b87d07235"
+   },
+   {
+    "identifiant": "dv09_contact_du_lundi",
+    "version": 1,
+    "empreinte_complement": "sha256:6ccdf949d252ada7a5ebc7e769ea75fd923a4ea7e053095cd2d19cea319f4289"
+   },
+   {
+    "identifiant": "dv10_un_voisin_et_une_fuite",
+    "version": 1,
+    "empreinte_complement": "sha256:2bf54e5b805dac71474adc345d3e07e9b060f8f7a1a3c5307e31bf865ff2f1d4"
+   },
+   {
+    "identifiant": "dv11_les_regularisations_d_un_immeuble",
+    "version": 1,
+    "empreinte_complement": "sha256:ae9d96d26fb4e87a079c376a6cb58d50ecf459ed3305dc8d4aa5475c57ff9fe3"
+   },
+   {
+    "identifiant": "dv12_une_nouvelle_adresse",
+    "version": 1,
+    "empreinte_complement": "sha256:511645ac34a791231193b80784d2e060a9c5970d2a6f0c664101d0e7f5f841de"
+   },
+   {
+    "identifiant": "dv13_la_date_d_une_assemblee",
+    "version": 1,
+    "empreinte_complement": "sha256:11819d93484c3d7e3bc09b712d757e7f50d21921625817e04b836be46ecf32d8"
+   },
+   {
+    "identifiant": "dv14_l_appel_du_troisieme_trimestre",
+    "version": 1,
+    "empreinte_complement": "sha256:f3c987b2b161cd55140e92a59cae27ff99c3543f4f3003e5ca02ac55f677facc"
+   },
+   {
+    "identifiant": "dv15_l_arret_de_gaelle_fournel",
+    "version": 1,
+    "empreinte_complement": "sha256:d0ddb01a600321ebfbb956aaaab72abd8e150c7c9de3bef9a2ab4b5caaa469f4"
+   },
+   {
+    "identifiant": "dv16_la_note_de_frais_de_quentin",
+    "version": 1,
+    "empreinte_complement": "sha256:50576897aac5a3a8f82f1f06c8b8784c1f3c9795434b6c1bc8c6589da3883739"
+   },
+   {
+    "identifiant": "dv17_les_travaux_votes",
+    "version": 1,
+    "empreinte_complement": "sha256:2d88c75c1dab3093ab1c7bde33f5d6baa81cf25c6b72d4f2309b4579095bb59c"
+   },
+   {
+    "identifiant": "dv18_un_degat_des_eaux",
+    "version": 1,
+    "empreinte_complement": "sha256:b203ad60e80f8172db688690d8d168b8317bb69bcb20f6e88fa9ee6ed9e502ab"
+   },
+   {
+    "identifiant": "dv19_le_nouveau_rib_de_l_ascensoriste",
+    "version": 2,
+    "empreinte_complement": "sha256:a4707256d4216652317a4f4e3d9b0eae9a9f215a4dd6bc2a8b66bc5110e8968e"
+   },
+   {
+    "identifiant": "dv20_un_devis_piege",
+    "version": 2,
+    "empreinte_complement": "sha256:4f9e3fe881ec87a0272e3765e4637adb5d2871a0daab7c4add6e2d045d33aba8"
+   },
+   {
+    "identifiant": "dv21_copropriete_et_une_offre_piegee",
+    "version": 1,
+    "empreinte_complement": "sha256:2f7e80c640f0e9ec7f74fecd9e6670ff6141d367823a45cda589b7240c960f1c"
+   },
+   {
+    "identifiant": "dv22_le_courrier_numerise_du_lundi",
+    "version": 1,
+    "empreinte_complement": "sha256:f3aff0cbe994482e44c5b36848b1989675c9ff230fb562c04f4528aedcc944e1"
+   },
+   {
+    "identifiant": "dv23_la_convocation_du_bocage",
+    "version": 1,
+    "empreinte_complement": "sha256:7091fa09a48342452ed0b287d98f8e35c3b6e404d3bda7b1cab1bcaa13be52f9"
+   },
+   {
+    "identifiant": "dv24_contact_et_deux_conges",
+    "version": 1,
+    "empreinte_complement": "sha256:7f351c173b473ee40fc50025dcba3dd01524f8f9b203014a06930ffe5bfb1e2b"
+   },
+   {
+    "identifiant": "dv25_le_repondeur_du_samedi",
+    "version": 1,
+    "empreinte_complement": "sha256:4837fd43d0a77cb4972f9d3d9e6b35614314a8779fbc51e04e244d17b8681bfe"
+   },
+   {
+    "identifiant": "dv26_deux_questions_pour_l_assemblee",
+    "version": 1,
+    "empreinte_complement": "sha256:8e9796bf72cfc8db37a60035e91bb29e110ae9b26f4d0df2d4da3719fa897ee1"
+   },
+   {
+    "identifiant": "dv27_une_vente_au_20_mai",
+    "version": 1,
+    "empreinte_complement": "sha256:38b87057c5b66112f7d8449726bf613cd75f3ff1787ac5d5111b16463131a42d"
+   },
+   {
+    "identifiant": "dv28_les_attestations_d_assurance",
+    "version": 1,
+    "empreinte_complement": "sha256:53cf00737ee401b6d68f5d39845368fc82dc2678c9dfcb5d54046fc19657d491"
+   },
+   {
+    "identifiant": "dv29_un_reversement_plus_bas",
+    "version": 1,
+    "empreinte_complement": "sha256:893adf59f8ddd6c0740c270bba911b2f8516752cef84daa7c7df0f7ee7d40d43"
+   },
+   {
+    "identifiant": "dv30_deux_urgences_et_une_chaudiere",
+    "version": 1,
+    "empreinte_complement": "sha256:cf94aba10d18a54efe6aa14ed7a6aa505c53c5a7c8fc89a822117d2d845c3d3b"
+   },
+   {
+    "identifiant": "dv31_trois_etats_des_lieux_en_aout",
+    "version": 1,
+    "empreinte_complement": "sha256:dad9f3c55bca1933691b8894150c1ed2f6311003ebb725e954643446304318ec"
+   },
+   {
+    "identifiant": "dv32_une_infiltration_par_la_toiture",
+    "version": 1,
+    "empreinte_complement": "sha256:8c329383ade7160e1c3be4deb66338bf98263cd69b5b2336552cc72af0d5edca"
+   },
+   {
+    "identifiant": "dv33_le_plombier_demande_le_portable",
+    "version": 1,
+    "empreinte_complement": "sha256:31eb98d5c68c66cfd8d294445cb3f649b6ec06ebe1cad2f0a7a4af4a376b8e0e"
+   },
+   {
+    "identifiant": "dv34_l_arret_de_cedric_maillard",
+    "version": 1,
+    "empreinte_complement": "sha256:4648df16620c4e799979c7bd42f2315d8ffbcb03ffb6929aee8245e4952fba22"
+   },
+   {
+    "identifiant": "dv35_une_fausse_demande_de_la_comptable",
+    "version": 1,
+    "empreinte_complement": "sha256:66bc610b5d867f378200746449fb4c279cccc997522c98f18b600401610fda70"
+   },
+   {
+    "identifiant": "dv36_la_note_de_frais_d_elodie",
+    "version": 1,
+    "empreinte_complement": "sha256:531c057c3b53d6c28173662baf2223daed259c79635bedacbce4e991a3c5e53d"
+   },
+   {
+    "identifiant": "dv37_deux_candidatures",
+    "version": 1,
+    "empreinte_complement": "sha256:0c8e5f30eb8613498604c4e9adea8a7937f3d93145027b17da3f77b72f93ebc0"
+   }
+  ],
+  "empreinte": "sha256:ec5553a8de6771f1d866f32527579b7da643604e7c6a3f0351700d522175f6a8"
+ },
+ "etat_pme": {
+  "version": "v1",
+  "empreinte": "sha256:827914ec6c291d69824707b9beadb952576ae8f21e5fb74dfb6f9fb9e6ca2b58",
+  "societe": "domivelle"
+ },
+ "regles_gardien": null,
+ "repetitions": 4,
+ "machine": null,
+ "juge": null,
+ "banc_public": null
+}

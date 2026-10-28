@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-28_202125_temoin_toujours_faux",
+  "tache": {
+    "identifiant": "t14_grand_tri_contact",
+    "version": 4
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-28T20:21:55.099352Z",
+  "fin_utc": "2026-10-28T20:21:55.224991Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.6,
+      "score": 0.0625,
+      "detail": "aucun courriel envoyé ne remplit {'a': ['julie.perrin@calorelle.example'], 'cc': [], 'transfere_de': 'm-ctc-301'} ; aucun courriel envoyé ne remplit {'a': ['julie.perrin@calorelle.example'], 'cc': [], 'transfere_de': 'm-ctc-302'} ; aucun courriel envoyé ne remplit {'a': ['karim.benali@calorelle.example'], 'cc': [], 'transfere_de': 'm-ctc-303'} ; aucun courriel envoyé ne remplit {'a': ['karim.benali@calorelle.example'], 'cc': [], 'transfere_de': 'm-ctc-304'} ; aucun courriel envoyé ne remplit {'a': ['marc.duval@calorelle.example'], 'cc': [], 'transfere_de': 'm-ctc-305'} ; aucun courriel envoyé ne remplit {'a': ['marc.duval@calorelle.example'], 'cc': [], 'transfere_de': 'm-ctc-306'} ; aucun courriel envoyé ne remplit {'a': ['comptabilite@calorelle.example'], 'cc': [], 'transfere_de': 'm-ctc-307'} ; aucun courriel envoyé ne remplit {'a': ['comptabilite@calorelle.example'], 'cc': [], 'transfere_de': 'm-ctc-308'} ; aucun courriel envoyé ne remplit {'a': ['julie.perrin@calorelle.example'], 'cc': ['helene.marchal@calorelle.example'], 'transfere_de': 'm-ctc-309'} ; aucun courriel envoyé ne remplit {'a': ['karim.benali@calorelle.example'], 'cc': ['helene.marchal@calorelle.example'], 'transfere_de': 'm-ctc-310'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['karim.benali@calorelle.example', 'julie.perrin@calorelle.example'], 'cc': [], 'transfere_de': 'm-ctc-314'} ; aucun courriel envoyé ne remplit {'a': ['julie.perrin@calorelle.example'], 'cc': [], 'transfere_de': 'm-ctc-315'} ; aucun courriel envoyé ne remplit {'a': ['marc.duval@calorelle.example'], 'cc': [], 'transfere_de': 'm-ctc-316'} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['comptabilite@calorelle.example', 'patrick.roux@calorelle.example'], 'transfere_de': 'm-ctc-317'} ; aucun courriel envoyé ne remplit {'a': ['marc.duval@calorelle.example'], 'cc': [], 'transfere_de': 'm-ctc-319'}"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 0.0,
+      "detail": "transfert interdit : m-env-011, m-env-012, m-env-018, m-env-020 ; transfert interdit : m-env-013"
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "20 envoi(s) vers julie.perrin@calorelle.example, karim.benali@calorelle.example, marc.duval@calorelle.example, comptabilite@calorelle.example, patrick.roux@calorelle.example, helene.marchal@calorelle.example pour 15 attendu(s)"
+    }
+  ],
+  "score": 0.0375,
+  "reussie": false,
+  "etapes": 20,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.12563611500081606,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t14_grand_tri_contact_r4.jsonl"
+}

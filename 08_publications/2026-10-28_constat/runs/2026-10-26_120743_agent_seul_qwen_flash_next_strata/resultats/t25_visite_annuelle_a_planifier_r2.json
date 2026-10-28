@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-26_120743_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "t25_visite_annuelle_a_planifier",
+    "version": 3
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-26T14:22:23.328818Z",
+  "fin_utc": "2026-10-26T14:23:56.372052Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 20,
+  "jetons": {
+    "entree": 155594,
+    "entree_en_cache": 143270,
+    "sortie": 5124
+  },
+  "cout_dollars": "?",
+  "energie_wh": 6.0363974684168475,
+  "duree_secondes": 93.0432292459991,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t25_visite_annuelle_a_planifier_r2.jsonl"
+}

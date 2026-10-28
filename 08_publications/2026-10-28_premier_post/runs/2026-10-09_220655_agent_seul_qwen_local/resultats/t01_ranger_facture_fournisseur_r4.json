@@ -1,0 +1,40 @@
+{
+  "run": "2026-10-09_220655_agent_seul_qwen_local",
+  "tache": {
+    "identifiant": "t01_ranger_facture_fournisseur",
+    "version": 7
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-09T22:09:52.514891Z",
+  "fin_utc": "2026-10-09T22:11:01.545316Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.6,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 13,
+  "jetons": {
+    "entree": 29873,
+    "entree_en_cache": "?",
+    "sortie": 2568
+  },
+  "cout_dollars": "?",
+  "energie_wh": 4.723486511843665,
+  "duree_secondes": 69.03042075900157,
+  "journal": "journaux/t01_ranger_facture_fournisseur_r4.jsonl"
+}

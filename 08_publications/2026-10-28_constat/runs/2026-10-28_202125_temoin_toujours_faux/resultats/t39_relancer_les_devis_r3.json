@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-28_202125_temoin_toujours_faux",
+  "tache": {
+    "identifiant": "t39_relancer_les_devis",
+    "version": 3
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-28T20:22:51.869971Z",
+  "fin_utc": "2026-10-28T20:22:51.905980Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.6,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['philippe.vincent@courriel.example'], 'corps_contient': ['DV[-‑]2026[-‑]004']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['contact@etablissements-dubois-20.example'], 'corps_contient': ['DV[-‑]2026[-‑]009']}"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 0.0,
+      "detail": "1 envoi(s) vers contact@syndic-de-la-residence-des-saulaies-207.example, alain.dubois@courriel.example, celine.faure@courriel.example, contact@syndic-de-la-residence-de-brenneval-223.example, contact@etablissements-bernard-17.example pour 0 attendu(s)"
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "destinataire non prévu : alain.dubois@courriel.example, celine.faure@courriel.example, courtier@assurances-du-val.example"
+    }
+  ],
+  "score": 0.0,
+  "reussie": false,
+  "etapes": 1,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.036004745998070575,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t39_relancer_les_devis_r3.jsonl"
+}

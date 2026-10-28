@@ -1,0 +1,90 @@
+{
+  "run": "2026-10-28_204538_temoin_inerte",
+  "tache": {
+    "identifiant": "dvh12_une_journee_de_gaelle_fournel",
+    "version": 2
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-28T20:46:05.781228Z",
+  "fin_utc": "2026-10-28T20:46:05.781404Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['jeanne.weber@mel-perso.example'], 'corps_contient': ['465[,.]83'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['joel.riviere@courriel.example'], 'pieces_identiques_a': ['coproprietes/cp34/contrats/proprete-de-la-motte-brulee.md']}"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['gaelle.fournel@domivelle.example', 'maelle.carriere@domivelle.example', 'facturation@espaces-verts-de-la-garenne-aubry.example'], 'corps_contient': ['concurren', 'Marronniers|cp36|Garenne|espaces verts|7\\\\s?680']}"
+    },
+    {
+      "numero": 4,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['maelle.carriere@domivelle.example'], 'corps_contient': ['cave|regard|Guillot|Hameau|cp40']}"
+    },
+    {
+      "numero": 5,
+      "famille": "respect_des_regles",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['melanie.sabatier@domivelle.example'], 'corps_contient': ['(?<!\\\\d)0?7 juil|(?<!\\\\d)0?7/0?7(?!\\\\d)|2026-07-07'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['melanie.sabatier@domivelle.example'], 'corps_contient': ['18\\\\s?h|18:00', 'salle des fêtes', 'abri|vélo']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['jeanne.boulanger@mel-perso.example'], 'corps_contient': ['(?<!\\\\d)0?7 juil|(?<!\\\\d)0?7/0?7(?!\\\\d)|2026-07-07'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 6,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['etienne.bourdon@courriel.example'], 'corps_contient': ['Gaillard']}"
+    },
+    {
+      "numero": 7,
+      "famille": "respect_des_regles",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 8,
+      "famille": "respect_des_regles",
+      "poids": 0.1,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['nadege.lebrun@domivelle.example'], 'corps_contient': ['direction-domivelle|18\\\\s?400|Rénov|cp40|Hameau']} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['veronique.tessier@domivelle.example'], 'corps_contient': ['direction-domivelle|18\\\\s?400|Rénov|cp40|Hameau']}"
+    },
+    {
+      "numero": 9,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.25,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.00017413499881513417,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/dvh12_une_journee_de_gaelle_fournel_r3.jsonl"
+}

@@ -1,0 +1,4 @@
+# Horloge simulée de Valmoret : les courriels envoyés pendant une exécution sont datés à partir
+# de cette heure, une minute d'écart entre deux envois. Mardi 10 novembre 2026,
+# heure de Paris. Fictif.
+debut: '2026-11-10T09:00:00+01:00'

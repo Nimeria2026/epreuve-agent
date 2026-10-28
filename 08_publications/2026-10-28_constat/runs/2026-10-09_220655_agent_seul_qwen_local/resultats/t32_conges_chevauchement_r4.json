@@ -1,0 +1,47 @@
+{
+  "run": "2026-10-09_220655_agent_seul_qwen_local",
+  "tache": {
+    "identifiant": "t32_conges_chevauchement",
+    "version": 2
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-10T11:14:24.511350Z",
+  "fin_utc": "2026-10-10T11:18:16.573755Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "contenu",
+      "poids": 0.5,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['mathieu.picard@calorelle.example'], 'corps_contient': ['(deux|2)\\\\s+(autres\\\\s+)?(techniciens|coll[eè]gues)|plus de deux|d[ée]j[àa]\\\\s+(deux|2)']}"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.5,
+  "reussie": false,
+  "etapes": 12,
+  "jetons": {
+    "entree": 32834,
+    "entree_en_cache": "?",
+    "sortie": 9400
+  },
+  "cout_dollars": "?",
+  "energie_wh": 16.012155308564946,
+  "duree_secondes": 232.0624010360043,
+  "journal": "journaux/t32_conges_chevauchement_r4.jsonl"
+}

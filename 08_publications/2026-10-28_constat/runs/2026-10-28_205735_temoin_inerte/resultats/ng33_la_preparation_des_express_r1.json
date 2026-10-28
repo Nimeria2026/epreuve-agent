@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-28_205735_temoin_inerte",
+  "tache": {
+    "identifiant": "ng33_la_preparation_des_express",
+    "version": 1
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-28T20:59:30.765950Z",
+  "fin_utc": "2026-10-28T20:59:30.766154Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.35,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['dylan.moreau@negovelle.example'], 'corps_contient': ['02022', '02025', '02042', '02043'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['steven.lacroix@negovelle.example'], 'corps_contient': ['02022', '02025', '02042', '02043'], 'texte_de_l_agent': True} ; aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['ibrahim.diallo@negovelle.example'], 'corps_contient': ['02022', '02025', '02042', '02043'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 3,
+      "famille": "resultat",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['fabrice.mercier@negovelle.example'], 'corps_contient': ['bloqu|Isabelle|Royer|déblo'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.44999999999999996,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.0002005339993047528,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/ng33_la_preparation_des_express_r1.jsonl"
+}

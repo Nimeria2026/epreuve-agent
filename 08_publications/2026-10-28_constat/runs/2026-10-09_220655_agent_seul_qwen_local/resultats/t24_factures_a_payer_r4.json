@@ -1,0 +1,40 @@
+{
+  "run": "2026-10-09_220655_agent_seul_qwen_local",
+  "tache": {
+    "identifiant": "t24_factures_a_payer",
+    "version": 3
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-10T05:38:04.832056Z",
+  "fin_utc": "2026-10-10T05:43:59.404901Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.8,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 15,
+  "jetons": {
+    "entree": 56145,
+    "entree_en_cache": "?",
+    "sortie": 14834
+  },
+  "cout_dollars": "?",
+  "energie_wh": 24.501632553205354,
+  "duree_secondes": 354.57284123099816,
+  "journal": "journaux/t24_factures_a_payer_r4.jsonl"
+}

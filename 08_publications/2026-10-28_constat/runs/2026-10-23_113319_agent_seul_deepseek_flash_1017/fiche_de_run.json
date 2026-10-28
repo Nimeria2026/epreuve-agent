@@ -1,0 +1,60 @@
+{
+ "identifiant": "2026-10-23_113319_agent_seul_deepseek_flash_1017",
+ "debut_utc": "2026-10-23T11:33:19.736866Z",
+ "fin_utc": "2026-10-23T11:44:19.489240Z",
+ "statut": "termine",
+ "raison_interruption": null,
+ "code": {
+  "commit": "da82bebc58d815a2dce445e7a3072021755ad392",
+  "modifications_non_commitees": false
+ },
+ "candidat": {
+  "identifiant": "agent_seul_deepseek_flash_1017",
+  "version": "0.1.0"
+ },
+ "configuration": {
+  "modeles": [
+   {
+    "role": "agent",
+    "nom": "deepseek-flash",
+    "fournisseur": "DeepSeek",
+    "version_renvoyee": "deepseek-flash",
+    "parametres": {},
+    "tarif": {
+     "entree_dollars_par_million": 0.15,
+     "entree_en_cache_dollars_par_million": 0.003,
+     "sortie_dollars_par_million": 0.6,
+     "source": "https://api-docs.deepseek.com/quick_start/pricing",
+     "releve_le": "2026-10-21"
+    }
+   }
+  ]
+ },
+ "empreinte_prompts": "sha256:325709baa8f9e4480d8f04265bc9657002b109a65f30d356545f47733ae11cbd",
+ "jeu_taches": {
+  "nom": "pme_v3",
+  "taches": [
+   {
+    "identifiant": "t48_une_visite_a_avancer",
+    "version": 4,
+    "empreinte_complement": "sha256:ffb89e2e46e4e9195502050900ee0dbefbf6946909467cb79c36a63e786eef99"
+   },
+   {
+    "identifiant": "t55_une_pose_sur_deux_jours",
+    "version": 2,
+    "empreinte_complement": "sha256:ec5e8eba3e3798ec3d355cddb0b6d7c4c4951d925e7fba9e6d6119401fc8dd20"
+   }
+  ],
+  "empreinte": "sha256:70c6534e7033dfc3cb8e106fc92bfd62041d79cd3e473cbb8616061cf69741a9"
+ },
+ "etat_pme": {
+  "version": "v3",
+  "empreinte": "sha256:9ea9fbab11963e7b7bd7235c21f2450753f3d499a0cfcd9bdf675f128e699909",
+  "societe": "calorelle"
+ },
+ "regles_gardien": null,
+ "repetitions": 5,
+ "machine": null,
+ "juge": null,
+ "banc_public": null
+}

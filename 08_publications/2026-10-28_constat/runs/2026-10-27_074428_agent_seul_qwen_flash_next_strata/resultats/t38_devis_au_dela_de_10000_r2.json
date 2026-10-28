@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-27_074428_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "t38_devis_au_dela_de_10000",
+    "version": 4
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-27T09:54:19.169901Z",
+  "fin_utc": "2026-10-27T09:54:24.190922Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.4,
+      "score": 0.0,
+      "detail": "0 devis créé(s) pour c-0273 (aucun), 1 attendu(s)"
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'joint_le_devis_de': 'c-0273'}"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.4,
+  "reussie": false,
+  "etapes": 2,
+  "jetons": {
+    "entree": 5797,
+    "entree_en_cache": 5564,
+    "sortie": 176
+  },
+  "cout_dollars": "?",
+  "energie_wh": 0.24697230851553015,
+  "duree_secondes": 5.021016830000008,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t38_devis_au_dela_de_10000_r2.jsonl"
+}

@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-28_205519_temoin_une_fois_sur_deux",
+  "tache": {
+    "identifiant": "ng13_trois_alignements_de_prix",
+    "version": 1
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-28T20:56:07.303158Z",
+  "fin_utc": "2026-10-28T20:56:07.303350Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.25,
+      "score": 0.0,
+      "detail": "CO-2026-02042, VIS-10024 : 8.97 € du tarif au lieu de 6.90 € accordé"
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "CO-2026-02042, VIS-11273 : 8.46 € du tarif au lieu de 5.90 € accordé"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "resultat",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['fabrice.mercier@negovelle.example'], 'corps_contient': ['7[,.]0(?:7|69)'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.4,
+  "reussie": false,
+  "etapes": 0,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.00018830100452760234,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/ng13_trois_alignements_de_prix_r2.jsonl"
+}

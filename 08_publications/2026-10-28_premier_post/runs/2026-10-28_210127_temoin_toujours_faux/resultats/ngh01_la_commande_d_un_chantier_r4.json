@@ -1,0 +1,55 @@
+{
+  "run": "2026-10-28_210127_temoin_toujours_faux",
+  "tache": {
+    "identifiant": "ngh01_la_commande_d_un_chantier",
+    "version": 2
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-28T21:01:31.554409Z",
+  "fin_utc": "2026-10-28T21:01:31.629841Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.35,
+      "score": 0.0,
+      "detail": "commandes de c-0146 sans l'appariement attendu : CO-2026-02042 (brouillon, express, ELE-13372 × 2, ELE-12392 × 4, ELE-11445 × 12, ELE-10898 × 6, VIS-13789 × 10, ELE-12564 × 40, ELE-11911 × 20, ELE-10882 × 4, ELE-12735 × 30, ELE-12335 × 12, ELE-10424 × 60, ELE-11714 × 20, FIX-11053 × 20, ELE-12711 × 10)"
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.3,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['catherine.jolivet@electricite-fleurot.example', 'isabelle.baudry@electricite-fleurot.example'], 'corps_contient': ['VIS-13732|3,9 ?x ?13', '21 juillet|21/0?7|2026-07-21', 'encours|limite', 'partiel|en partie|une partie|r[eè]glement|r[ée]gler'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['isabelle.royer@negovelle.example'], 'corps_contient': ['Fleurot|c-0146'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 4,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.2,
+  "reussie": false,
+  "etapes": 2,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.07542610300151864,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/ngh01_la_commande_d_un_chantier_r4.jsonl"
+}

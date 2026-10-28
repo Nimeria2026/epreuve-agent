@@ -1,0 +1,47 @@
+{
+  "run": "2026-10-09_220655_agent_seul_qwen_local",
+  "tache": {
+    "identifiant": "t22_relances_fournisseurs",
+    "version": 2
+  },
+  "repetition": 2,
+  "debut_utc": "2026-10-10T04:57:06.327357Z",
+  "fin_utc": "2026-10-10T04:58:38.361735Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "contenu",
+      "poids": 0.7,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 20,
+  "jetons": {
+    "entree": 38646,
+    "entree_en_cache": "?",
+    "sortie": 3473
+  },
+  "cout_dollars": "?",
+  "energie_wh": 6.291725966855206,
+  "duree_secondes": 92.03437411199411,
+  "journal": "journaux/t22_relances_fournisseurs_r2.jsonl"
+}

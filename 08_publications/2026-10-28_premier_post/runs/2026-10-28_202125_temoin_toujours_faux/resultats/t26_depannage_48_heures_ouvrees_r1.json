@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-28_202125_temoin_toujours_faux",
+  "tache": {
+    "identifiant": "t26_depannage_48_heures_ouvrees",
+    "version": 3
+  },
+  "repetition": 1,
+  "debut_utc": "2026-10-28T20:22:17.980961Z",
+  "fin_utc": "2026-10-28T20:22:18.044529Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.5,
+      "score": 0.0,
+      "detail": "INT-2026-0040 : commence le 2026-11-12T13:30:00+01:00, avant le 2026-11-13T08:00:00+01:00, aucun technicien confirmé n'a la compétence pompe_a_chaleur ; enzo.caron seul(s) : INT-2026-0040"
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.3,
+      "score": 0.0,
+      "detail": "aucun courriel vers patrick.boyer@courriel.example ne donne le jour et l'heure de INT-2026-0040 (12/11 à 13:30)"
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 0.0,
+      "detail": "destinataire non prévu : p.boyer@courriel.example"
+    }
+  ],
+  "score": 0.0,
+  "reussie": false,
+  "etapes": 2,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.0635642360066413,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/t26_depannage_48_heures_ouvrees_r1.jsonl"
+}

@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-26_210017_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "h06_la_cloture_d_octobre",
+    "version": 8
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-27T01:40:43.085271Z",
+  "fin_utc": "2026-10-27T01:48:39.218746Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 0.8333333333333334,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['florian.masson@calorelle.example'], 'corps_contient': ['48[,.]8|26[,.]1|\\\\b2[,.]00?\\\\s*€|\\\\b2\\\\s*€'], 'texte_de_l_agent': True} ; juge : faux, Le courriel signale à Florian l'écart sur ses frais kilométriques, 26,10 € et non 28,10 €, ou les 2,00 € non remboursés, sans erreur de montant ; donner seulement le montant remboursé, 48,80 €, suffit aussi.\n"
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.25,
+      "score": 0.8333333333333334,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['69[,.]3', '100[,.]8', '73[,.]7', '56[,.]6', '48[,.]8'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 4,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['349[,.]20?'], 'texte_de_l_agent': True}"
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.7583333333333333,
+  "reussie": false,
+  "etapes": 49,
+  "jetons": {
+    "entree": 203191,
+    "entree_en_cache": 184796,
+    "sortie": 36516
+  },
+  "cout_dollars": "?",
+  "energie_wh": 32.126661303849346,
+  "duree_secondes": 476.13347108999733,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h06_la_cloture_d_octobre_r4.jsonl"
+}

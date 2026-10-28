@@ -1,0 +1,47 @@
+{
+  "run": "2026-10-09_220655_agent_seul_qwen_local",
+  "tache": {
+    "identifiant": "t45_arrivee_d_un_salarie",
+    "version": 2
+  },
+  "repetition": 5,
+  "debut_utc": "2026-10-10T15:07:59.510377Z",
+  "fin_utc": "2026-10-10T15:09:47.551266Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "respect_des_regles",
+      "poids": 0.4,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 17,
+  "jetons": {
+    "entree": 31734,
+    "entree_en_cache": "?",
+    "sortie": 4103
+  },
+  "cout_dollars": "?",
+  "energie_wh": 7.40177981370484,
+  "duree_secondes": 108.04088384799252,
+  "journal": "journaux/t45_arrivee_d_un_salarie_r5.jsonl"
+}

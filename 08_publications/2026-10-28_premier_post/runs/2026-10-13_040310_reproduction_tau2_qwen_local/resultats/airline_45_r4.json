@@ -1,0 +1,33 @@
+{
+  "run": "2026-10-13_040310_reproduction_tau2_qwen_local",
+  "tache": {
+    "identifiant": "airline_45",
+    "version": 1
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-13T19:00:45.309705Z",
+  "fin_utc": "2026-10-13T19:03:38.380796Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 1.0,
+      "score": 1.0,
+      "detail": "τ²-bench : récompense 1 ; fin user_stop ; base égale à la cible ; phrases dites 0 sur 0"
+    }
+  ],
+  "score": 1.0,
+  "reussie": true,
+  "etapes": 7,
+  "jetons": {
+    "entree": 39850,
+    "entree_en_cache": "?",
+    "sortie": 3271
+  },
+  "cout_dollars": "?",
+  "energie_wh": 8.33078921719005,
+  "duree_secondes": 173.07108552497812,
+  "journal": "journaux/airline_45_r4.jsonl"
+}

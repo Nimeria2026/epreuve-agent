@@ -1,0 +1,85 @@
+{
+  "releve": "2026-10-26",
+  "paquets": {
+    "vllm": "0.27.1",
+    "torch": "2.13.0",
+    "transformers": "5.15.0",
+    "flashinfer-python": "0.6.16.post3",
+    "triton": "3.7.1",
+    "compressed-tensors": "0.17.0"
+  },
+  "modele": {
+    "depot": "dbirks/Qwen3.8-27B-W4A16-AutoRound",
+    "revision": "1f05c441c4e64ae0549de44fa9ea5a6d43610314",
+    "fichiers": {
+      "README.md": {
+        "octets": 7566,
+        "git_sha1": "82bbd36f6b89a00b4f315530ea0efcdb53d9aac2"
+      },
+      "chat_template.jinja": {
+        "octets": 8952,
+        "git_sha1": "c0c686f9c38d70d179fb7b5f5aa7530bc913dda3"
+      },
+      "config.json": {
+        "octets": 15587,
+        "git_sha1": "88aeb99525fc100cf65e8ae0b1e3fde953685288"
+      },
+      "generation_config.json": {
+        "octets": 219,
+        "git_sha1": "3ef979b678c8e828c637b6437b6db4c3b2962db1"
+      },
+      "model-00001-of-00007.safetensors": {
+        "octets": 3211003472,
+        "sha256": "6b2adc4f1b93386eedd033a62c63221bf85e789c09ada8ff43939c55e9f06250"
+      },
+      "model-00002-of-00007.safetensors": {
+        "octets": 3195027104,
+        "sha256": "a223fa487834749a14d86d558af9a4d5799b79be9bc28bdefa43eed055d10578"
+      },
+      "model-00003-of-00007.safetensors": {
+        "octets": 3195027104,
+        "sha256": "8719567ac822768ac61872894604d3a4d13f2edbd22c9bd3c4680ebc83e24ca5"
+      },
+      "model-00004-of-00007.safetensors": {
+        "octets": 3217442568,
+        "sha256": "8faf8d4a57c69b9b96e27c4eabf1ba0caadd3d48344d6f65df17f30da2a7e6e3"
+      },
+      "model-00005-of-00007.safetensors": {
+        "octets": 699275200,
+        "sha256": "0994bb8d91c07ceefc4bfffd3a7b7fd110cc9bd3ce865bdcb2821abf02a02fab"
+      },
+      "model-00006-of-00007.safetensors": {
+        "octets": 2542807272,
+        "sha256": "55a14ee79d3e5a65a8731d89426f4df477e8bdc7daa7976d41254d8afb9432f0"
+      },
+      "model-00007-of-00007.safetensors": {
+        "octets": 2542796896,
+        "sha256": "6866cf8adcccc4cc6a00e74bc025f1a774fb52103b70f2674d0288272951a733"
+      },
+      "model.safetensors.index.json": {
+        "octets": 198290,
+        "git_sha1": "e3a119c1d45546871d9ae6c1c42c8196db3b2e9f"
+      },
+      "model_extra_tensors.safetensors": {
+        "octets": 849400392,
+        "sha256": "1d8268aa85ace093a561e3e7b63b9d390dac1cd55a90cd55b5ec509c3c9da9fe"
+      },
+      "processor_config.json": {
+        "octets": 1191,
+        "git_sha1": "33818c7f9e991ad735fd240209f4fa73e6c28c50"
+      },
+      "quantization_config.json": {
+        "octets": 11112,
+        "git_sha1": "78f6d6241af2d7015797df940bb1463a49943da6"
+      },
+      "tokenizer.json": {
+        "octets": 19989325,
+        "sha256": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523"
+      },
+      "tokenizer_config.json": {
+        "octets": 1166,
+        "git_sha1": "b4acebe045132228e18a4e2ca7f75ce137d1fbf7"
+      }
+    }
+  }
+}

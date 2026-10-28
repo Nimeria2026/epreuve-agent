@@ -1,0 +1,69 @@
+{
+  "run": "2026-10-21_010546_agent_seul_qwen_local_100k",
+  "tache": {
+    "identifiant": "h02_la_semaine_de_thomas_girard",
+    "version": 4
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-21T05:36:56.051516Z",
+  "fin_utc": "2026-10-21T07:06:41.213961Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 0.8181818181818182,
+      "detail": "aucun courriel vers christophe.guerin@courriel.example ne donne le jour et l'heure de INT-2026-0048 (17/11 à 08:00) ; aucun courriel vers michel.martin@courriel.example ne donne le jour et l'heure de INT-2026-0051 (18/11 à 10:00)"
+    },
+    {
+      "numero": 4,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "respect_des_regles",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 6,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.9636363636363636,
+  "reussie": false,
+  "etapes": 72,
+  "jetons": {
+    "entree": 199758,
+    "entree_en_cache": "?",
+    "sortie": 210669
+  },
+  "cout_dollars": "?",
+  "energie_wh": 373.4942863518394,
+  "duree_secondes": 5385.162440704997,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h02_la_semaine_de_thomas_girard_r4.jsonl"
+}

@@ -1,0 +1,48 @@
+{
+  "run": "2026-10-28_203141_temoin_toujours_faux",
+  "tache": {
+    "identifiant": "d03_ecart_devis_facture",
+    "version": 1
+  },
+  "repetition": 4,
+  "debut_utc": "2026-10-28T20:31:52.957933Z",
+  "fin_utc": "2026-10-28T20:31:52.992642Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 0.0,
+      "detail": "absent : administration/factures_fournisseurs/2026-10/fumisterie-des-hautes-fresnes_fhf-26-151.pdf"
+    },
+    {
+      "numero": 2,
+      "famille": "resultat",
+      "poids": 0.5,
+      "score": 0.0,
+      "detail": "aucun courriel envoyé ne remplit {'a_au_moins_un_de': ['helene.marchal@calorelle.example'], 'corps_contient': ['\\\\b36[,.]00?\\\\b|\\\\b36\\\\s?(€|euros)|\\\\b43[,.]20?\\\\b']}"
+    },
+    {
+      "numero": 3,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.2,
+  "reussie": false,
+  "etapes": 1,
+  "jetons": {
+    "entree": 0,
+    "entree_en_cache": 0,
+    "sortie": 0
+  },
+  "cout_dollars": 0.0,
+  "energie_wh": null,
+  "duree_secondes": 0.03470466800354188,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/d03_ecart_devis_facture_r4.jsonl"
+}

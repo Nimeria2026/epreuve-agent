@@ -1,0 +1,62 @@
+{
+  "run": "2026-10-26_210017_agent_seul_qwen_flash_next_strata",
+  "tache": {
+    "identifiant": "h06_la_cloture_d_octobre",
+    "version": 8
+  },
+  "repetition": 3,
+  "debut_utc": "2026-10-27T01:33:58.063215Z",
+  "fin_utc": "2026-10-27T01:39:54.170040Z",
+  "arret": "termine",
+  "detail_arret": null,
+  "controles": [
+    {
+      "numero": 1,
+      "famille": "resultat",
+      "poids": 0.3,
+      "score": 0.9166666666666666,
+      "detail": "juge : faux, Le courriel dit à Yanis ce qui ne lui est pas remboursé et pourquoi, sans erreur de montant ; donner le montant remboursé ou l'écart suffit.\n"
+    },
+    {
+      "numero": 2,
+      "famille": "contenu",
+      "poids": 0.2,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 3,
+      "famille": "respect_des_regles",
+      "poids": 0.25,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 4,
+      "famille": "contenu",
+      "poids": 0.15,
+      "score": 1.0,
+      "detail": null
+    },
+    {
+      "numero": 5,
+      "famille": "absence_effet_de_bord",
+      "poids": 0.1,
+      "score": 1.0,
+      "detail": null
+    }
+  ],
+  "score": 0.975,
+  "reussie": false,
+  "etapes": 44,
+  "jetons": {
+    "entree": 234702,
+    "entree_en_cache": 218883,
+    "sortie": 26544
+  },
+  "cout_dollars": "?",
+  "energie_wh": 23.865472700660984,
+  "duree_secondes": 356.10681914599263,
+  "duree_chronometree_secondes": null,
+  "journal": "journaux/h06_la_cloture_d_octobre_r3.jsonl"
+}
